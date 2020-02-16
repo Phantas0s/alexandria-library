@@ -1,0 +1,177 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1576152286276" ID="ID_135297322" LINK="https://www.youtube.com/watch?v=0iSICdbDIYI&amp;list=PLvFG2xYBrYAQCyz4Wx3NPoYJOFjvU7g2Z&amp;index=2" MODIFIED="1576152417441" TEXT="Introduction to computer networking">
+<node CREATED="1576152322224" ID="ID_1346652968" MODIFIED="1576152333650" POSITION="right" TEXT="1-1 A day in the life of an application">
+<node CREATED="1576152338140" FOLDED="true" ID="ID_1935623932" MODIFIED="1576153517055" TEXT="Network applications">
+<node CREATED="1576152341164" ID="ID_1074661048" MODIFIED="1576152347234" TEXT="Read and write data over network"/>
+<node CREATED="1576152347685" ID="ID_587764188" MODIFIED="1576152350778" TEXT="Dominant model">
+<node CREATED="1576152350941" ID="ID_526583074" MODIFIED="1576152491600" TEXT="Bidirectional">
+<node CREATED="1576152544683" ID="ID_1419837086" MODIFIED="1576152546008" TEXT="Client"/>
+<node CREATED="1576152546403" ID="ID_1903206870" MODIFIED="1576152547688" TEXT="Server"/>
+</node>
+<node CREATED="1576152356053" ID="ID_559088913" MODIFIED="1576152488913" TEXT="Reliable byte stream connection">
+<node CREATED="1576152438164" ID="ID_268709333" MODIFIED="1576152445832" TEXT="One side reads what the other writes"/>
+<node CREATED="1576152446252" ID="ID_850759703" MODIFIED="1576152450441" TEXT="Operates in both direction"/>
+<node CREATED="1576152451044" ID="ID_1069296884" MODIFIED="1576152463816" TEXT="Reliable">
+<node CREATED="1576152464067" ID="ID_1317233100" MODIFIED="1576152467489" TEXT="unless connection breaks"/>
+</node>
+</node>
+<node CREATED="1576152535083" ID="ID_1639592264" MODIFIED="1576152644896" TEXT="Both side can">
+<node CREATED="1576152645074" ID="ID_822937806" MODIFIED="1576152647247" TEXT="close connection"/>
+<node CREATED="1576152647594" ID="ID_996041388" MODIFIED="1576152650527" TEXT="refuse connection"/>
+</node>
+</node>
+</node>
+<node CREATED="1576152718802" ID="ID_815038783" MODIFIED="1576152790189" TEXT="Byte Stream Model">
+<icon BUILTIN="licq"/>
+<node CREATED="1576153526475" ID="ID_1808813189" MODIFIED="1576153584935" TEXT="Building block of most applications"/>
+<node CREATED="1576153565379" ID="ID_354546748" MODIFIED="1576153571480" TEXT="Abstract away entire network"/>
+<node CREATED="1576153529659" FOLDED="true" ID="ID_1474692638" MODIFIED="1576153573190" TEXT="img">
+<icon BUILTIN="licq"/>
+<node CREATED="1576153510963" ID="ID_54783561" MODIFIED="1576153514058">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="1_1_byte_stream_model.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1576152657386" ID="ID_1893383448" MODIFIED="1576153518704" TEXT="Word Wide Web">
+<node CREATED="1576152666866" FOLDED="true" ID="ID_1896205817" MODIFIED="1576152885491" TEXT="Use HTTP">
+<node CREATED="1576152791913" ID="ID_622788018" MODIFIED="1576152795150" TEXT="Client request to server"/>
+<node CREATED="1576152682658" ID="ID_913269553" MODIFIED="1576152685679" TEXT="Send command">
+<node CREATED="1576152686058" ID="ID_1196792157" MODIFIED="1576152686783" TEXT="GET"/>
+<node CREATED="1576152687210" ID="ID_895809880" MODIFIED="1576152688166" TEXT="POST"/>
+<node CREATED="1576152688546" ID="ID_638424198" MODIFIED="1576152689215" TEXT="..."/>
+</node>
+<node CREATED="1576152773417" ID="ID_244988605" MODIFIED="1576152777438" TEXT="Send request">
+<node CREATED="1576152777849" ID="ID_159720600" MODIFIED="1576152780734" TEXT="receive response"/>
+</node>
+</node>
+<node CREATED="1576152867440" FOLDED="true" ID="ID_1779855324" MODIFIED="1576153520622" TEXT="img">
+<icon BUILTIN="licq"/>
+<node CREATED="1576152862224" ID="ID_1936926148" MODIFIED="1576152865744">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="1_1_http.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1576152781834" FOLDED="true" ID="ID_517660097" MODIFIED="1576153390933" TEXT="BitTorrent">
+<node CREATED="1576152785137" ID="ID_194590581" MODIFIED="1576152789294" TEXT="Client request to other clients"/>
+<node CREATED="1576152805977" ID="ID_1469040805" MODIFIED="1576152809494" TEXT="Multiple clients">
+<node CREATED="1576152809705" ID="ID_690404179" MODIFIED="1576152812190" TEXT="swarms"/>
+</node>
+<node CREATED="1576152892240" ID="ID_1954335" MODIFIED="1576152895493" TEXT="Client">
+<node CREATED="1576152895824" ID="ID_1762526142" MODIFIED="1576152902882" TEXT="Find torrent file">
+<icon BUILTIN="full-1"/>
+<node CREATED="1576152903624" ID="ID_176800976" MODIFIED="1576152909469" TEXT="Describe information about data"/>
+<node CREATED="1576152909904" ID="ID_1038418949" MODIFIED="1576152914589" TEXT="Who is the tracker">
+<node CREATED="1576152914824" ID="ID_378301139" MODIFIED="1576152966069" TEXT="keep track of the swarm"/>
+</node>
+</node>
+<node CREATED="1576152921296" ID="ID_1423665935" MODIFIED="1576152946555" TEXT="Client contact tracker">
+<icon BUILTIN="full-2"/>
+<node CREATED="1576152925592" ID="ID_377876161" MODIFIED="1576152927021" TEXT="over HTTP"/>
+<node CREATED="1576152927400" ID="ID_1704516549" MODIFIED="1576152930477" TEXT="to find client"/>
+</node>
+<node CREATED="1576152931936" ID="ID_1925271110" MODIFIED="1576152948586" TEXT="Contact client">
+<icon BUILTIN="full-2"/>
+<node CREATED="1576152934600" ID="ID_591555154" MODIFIED="1576152937380" TEXT="Client offer pieces"/>
+<node CREATED="1576152937768" ID="ID_1393657938" MODIFIED="1576152942989" TEXT="Client get pieces from you"/>
+</node>
+</node>
+<node CREATED="1576152949632" ID="ID_1162273227" MODIFIED="1576152956797" TEXT="Graph of client dynamically exchanging data"/>
+<node CREATED="1576153046848" FOLDED="true" ID="ID_413497147" MODIFIED="1576153083690" TEXT="img">
+<icon BUILTIN="licq"/>
+<node CREATED="1576153049127" ID="ID_1112927216" MODIFIED="1576153061918">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="1_1_bit_torrent.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1576153148759" ID="ID_649051949" MODIFIED="1576153425696" TEXT="Skype">
+<node CREATED="1576153154615" FOLDED="true" ID="ID_1577444178" MODIFIED="1576153388429" TEXT="Proprietary system">
+<node CREATED="1576153167191" ID="ID_1029120930" MODIFIED="1576153172987" TEXT="Don&apos;t really know how it work"/>
+<node CREATED="1576153173414" ID="ID_944872273" MODIFIED="1576153178835" TEXT="... but there was some reverse engineering"/>
+</node>
+<node CREATED="1576153190190" FOLDED="true" ID="ID_710308618" MODIFIED="1576153388430" TEXT="Two clients">
+<node CREATED="1576153192830" ID="ID_1156689610" MODIFIED="1576153194658" TEXT="no server"/>
+<node CREATED="1576153198966" ID="ID_378514449" MODIFIED="1576153203771" TEXT="request data from each other"/>
+</node>
+<node CREATED="1576153207326" ID="ID_1589509752" MODIFIED="1576153427027" TEXT="Complications">
+<node CREATED="1576153209238" ID="ID_1537141351" MODIFIED="1576153210043" TEXT="NAT">
+<node CREATED="1576153210342" ID="ID_1547805708" MODIFIED="1576153218266" TEXT="Network Address Translator"/>
+<node CREATED="1576153218862" ID="ID_497747413" MODIFIED="1576153221915" TEXT="It&apos;s everywhere"/>
+<node CREATED="1576153272070" FOLDED="true" ID="ID_594158949" MODIFIED="1576153326352" TEXT="img">
+<icon BUILTIN="licq"/>
+<node CREATED="1576153319269" ID="ID_473829224" MODIFIED="1576153322941">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="1_1_nat.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1576153222510" ID="ID_535437712" MODIFIED="1576153241419" TEXT="If you&apos;re behind a NAT">
+<node CREATED="1576153229966" ID="ID_1456713071" MODIFIED="1576153238699" TEXT="other clients can&apos;t easily open connection to you"/>
+</node>
+<node CREATED="1576153281341" ID="ID_134535361" MODIFIED="1576153377108" TEXT="Use Rendezvous server">
+<node CREATED="1576153327805" ID="ID_1102521048" MODIFIED="1576153330218" TEXT="Reverse connection"/>
+<node CREATED="1576153379397" FOLDED="true" ID="ID_1774553177" MODIFIED="1576153386671" TEXT="img">
+<icon BUILTIN="licq"/>
+<node CREATED="1576153333677" ID="ID_493950005" MODIFIED="1576153369484">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="1_1_skype_rendez_vous.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1576153432468" ID="ID_1083096825" MODIFIED="1576153436585" TEXT="Relay">
+<node CREATED="1576153436764" ID="ID_1724645103" MODIFIED="1576153441033" TEXT="to go around two NAT"/>
+<node CREATED="1576153443148" FOLDED="true" ID="ID_1520168719" MODIFIED="1576153504982" TEXT="img">
+<icon BUILTIN="licq"/>
+<node CREATED="1576153498732" ID="ID_1478452015" MODIFIED="1576153500947">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="1_1_skype_relay.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</map>

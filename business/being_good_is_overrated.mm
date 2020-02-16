@@ -1,0 +1,49 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1535016002257" ID="ID_1259365017" MODIFIED="1535016011445" TEXT="Being good is overrated">
+<node CREATED="1535016747666" FOLDED="true" ID="ID_1469641969" MODIFIED="1566709675516" POSITION="right" TEXT="Being good">
+<node CREATED="1535016751403" ID="ID_1985332317" MODIFIED="1535016787399" TEXT="Better than being very bad"/>
+<node CREATED="1535016788002" ID="ID_1260477201" MODIFIED="1535016792081" TEXT="But not that important">
+<node CREATED="1535017476260" ID="ID_737166528" MODIFIED="1535017479860" TEXT="But rewarding">
+<node CREATED="1535017480125" ID="ID_728414290" MODIFIED="1535017498754" TEXT="on a personal level">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1535017484885" ID="ID_743037999" MODIFIED="1535017494025" TEXT="Not that good for selling yourself"/>
+</node>
+</node>
+<node CREATED="1535017028657" ID="ID_1234169170" MODIFIED="1535017037571" TEXT="Need to be proven">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1535017038057" ID="ID_1092697786" MODIFIED="1535017047317" TEXT="Or doesn&apos;t mean anything"/>
+<node CREATED="1535017412230" ID="ID_1773358881" MODIFIED="1535017415315" TEXT="Is very difficult">
+<node CREATED="1535017415494" ID="ID_767677391" MODIFIED="1535017419164" TEXT="Compared to everybody!"/>
+</node>
+</node>
+</node>
+<node CREATED="1535016925169" ID="ID_1822360025" MODIFIED="1535017230948" POSITION="left" TEXT="Too many people Claim to be good">
+<node CREATED="1535016936434" ID="ID_1942432120" MODIFIED="1535016954981" TEXT="Doesn&apos;t explain high salary anymore"/>
+<node CREATED="1535017201583" ID="ID_841280761" MODIFIED="1535017213101" TEXT="Not a differentiator anymore"/>
+<node CREATED="1535017263880" ID="ID_893784191" MODIFIED="1535017268972" TEXT="Need a better positioning!">
+<node CREATED="1535017286743" ID="ID_1884642306" MODIFIED="1535017297500" TEXT="Big mistake for a consultant"/>
+<node CREATED="1535017298144" ID="ID_458370665" MODIFIED="1535017403324" TEXT="Lost opportunity for employees"/>
+</node>
+</node>
+<node CREATED="1535017065009" ID="ID_1773914825" MODIFIED="1535017070885" POSITION="right" TEXT="More important for buyers">
+<node CREATED="1535017071082" ID="ID_188105168" MODIFIED="1535017076740" TEXT="Availability"/>
+<node CREATED="1535017077384" ID="ID_1743438318" MODIFIED="1535017079885" TEXT="Shared vision"/>
+<node CREATED="1535017080488" ID="ID_1877509754" MODIFIED="1535017089315" TEXT="Rapport established on a trial basis"/>
+<node CREATED="1535017094217" ID="ID_1902398341" MODIFIED="1535017099980" TEXT="Hability to remove pain"/>
+<node CREATED="1535017173670" ID="ID_380435590" MODIFIED="1535017177197" TEXT="Fit in budget"/>
+</node>
+<node CREATED="1535017437645" ID="ID_726327698" MODIFIED="1535017443259" POSITION="left" TEXT="If you want to be promoted">
+<node CREATED="1535017443503" ID="ID_1822171419" MODIFIED="1535017447244" TEXT="Be good at the job you want"/>
+<node CREATED="1535017447782" FOLDED="true" ID="ID_668215467" MODIFIED="1566709701869" TEXT="Not at the job you&apos;re at!">
+<node CREATED="1535017455462" ID="ID_29851173" MODIFIED="1535017461012" TEXT="... or you will never move from it"/>
+</node>
+</node>
+<node CREATED="1535017515966" ID="ID_680347516" MODIFIED="1535017522762" POSITION="right" TEXT="Stop focus on your skills">
+<node CREATED="1535017522935" ID="ID_747745098" MODIFIED="1535017527998" TEXT="Focus how to help others">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</map>

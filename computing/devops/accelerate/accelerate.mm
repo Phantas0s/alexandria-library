@@ -1,0 +1,2404 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1545313890562" ID="ID_1172222827" MODIFIED="1569997480590" TEXT="Accelerate">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      What we found
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      I - Accelerate
+    </p>
+    <ol>
+      <li>
+        What are the two management model explained?
+      </li>
+      <li>
+        Why do they differ?
+      </li>
+      <li>
+        What are the strongest points of each? The weakest?
+      </li>
+      <li>
+        What are the factors which doesn't predict performance?
+      </li>
+    </ol>
+    <p>
+      II - Measuring performance
+    </p>
+    <ol>
+      <li>
+        What are the flawed ways to measure performance?
+      </li>
+      <li>
+        What is better? Global or non global outcome? Why?
+      </li>
+      <li>
+        What are the five criteria should be met to deliver performances?
+      </li>
+      <li>
+        What is lead time?
+      </li>
+      <li>
+        What performance impact?
+      </li>
+    </ol>
+    <p>
+      III. Measuring and changing culture
+    </p>
+    <ol>
+      <li>
+        What are the three levels to define a culture? Explain.
+      </li>
+      <li>
+        What are the three different sort of cultures according to Westrum?
+      </li>
+    </ol>
+    <p>
+      IV. Technical practices
+    </p>
+    <ol>
+      <li>
+        How do you do Continuous Delivery? What are the 5 essential points?
+      </li>
+      <li>
+        What CD helps to decrease (and proved in the data)?
+      </li>
+      <li>
+        How CD impact quality? What is quality?
+      </li>
+    </ol>
+    <p>
+      V. Architecture
+    </p>
+    <ol>
+      <li>
+        What type of architecture enable scaling?
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+<node CREATED="1545313952675" ID="ID_500420142" MODIFIED="1573209345775" POSITION="right" TEXT="What we found">
+<icon BUILTIN="full-1"/>
+<node CREATED="1545382812392" FOLDED="true" ID="ID_1737580999" MODIFIED="1558243485157" TEXT="Accelerate">
+<icon BUILTIN="full-1"/>
+<node CREATED="1545314294370" FOLDED="true" ID="ID_328651755" MODIFIED="1558243369550" TEXT="Focus on capabilities, not maturity">
+<node CREATED="1545314329433" ID="ID_549057457" MODIFIED="1549479273904" TEXT="Maturity model">
+<icon BUILTIN="full-1"/>
+<node CREATED="1545314337001" ID="ID_1149027967" MODIFIED="1545314472037" TEXT="Helping organisations">
+<node CREATED="1545314345473" ID="ID_1286739965" MODIFIED="1550404614653" TEXT="&quot;arrive&quot; to maturity">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1545314369473" ID="ID_373270095" MODIFIED="1550404615956" TEXT="... then it&apos;s done">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1545314462377" ID="ID_791460169" MODIFIED="1545314476845" TEXT="Focus on same solution for">
+<node CREATED="1545314477224" ID="ID_1289984651" MODIFIED="1545314481485" TEXT="teams"/>
+<node CREATED="1545314482144" ID="ID_618566804" MODIFIED="1545314486309" TEXT="organisations"/>
+</node>
+<node CREATED="1545314700902" ID="ID_1762470829" MODIFIED="1550404612853" TEXT="Static">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1545314711158" ID="ID_1721837554" MODIFIED="1545314713779" TEXT="Organisational"/>
+<node CREATED="1545314714446" ID="ID_1100611387" MODIFIED="1545314716019" TEXT="Tech"/>
+<node CREATED="1545314716894" ID="ID_1144898364" MODIFIED="1545314721411" TEXT="Process to achieve"/>
+</node>
+</node>
+<node CREATED="1545314362194" FOLDED="true" ID="ID_1808042696" MODIFIED="1558243332175" TEXT="Capability model">
+<icon BUILTIN="full-2"/>
+<node CREATED="1545314374473" ID="ID_1289314973" MODIFIED="1545314392946" TEXT="Tech transformation is">
+<node CREATED="1545314392947" ID="ID_763104180" MODIFIED="1545314401386" TEXT="continuous improvement">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1545314412889" ID="ID_1218684918" MODIFIED="1545314416834" TEXT="progress">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1545314428409" ID="ID_775375849" MODIFIED="1545314444206" TEXT="Landscape change all the time for">
+<node CREATED="1545314435032" ID="ID_537094632" MODIFIED="1545314435997" TEXT="Tech"/>
+<node CREATED="1545314437048" ID="ID_611817759" MODIFIED="1545314440117" TEXT="Business"/>
+</node>
+<node CREATED="1545314490336" ID="ID_3761685" MODIFIED="1545314494324" TEXT="Solutions">
+<node CREATED="1545314494520" ID="ID_1456137256" MODIFIED="1545314498285" TEXT="Multidimensional"/>
+<node CREATED="1545314499160" ID="ID_1997230467" MODIFIED="1545314507509" TEXT="Dynamic"/>
+<node CREATED="1545314508256" ID="ID_536028093" MODIFIED="1549479270771" TEXT="Different approach">
+<node CREATED="1545314516168" ID="ID_1544313054" MODIFIED="1545314528004" TEXT="for different part of ">
+<node CREATED="1545314523392" ID="ID_119959093" MODIFIED="1545314524405" TEXT="team">
+<node CREATED="1545314561743" ID="ID_1910461829" MODIFIED="1545314566700" TEXT="they have their own constraints"/>
+</node>
+<node CREATED="1545314529327" ID="ID_1928076018" MODIFIED="1545314531885" TEXT="organisation"/>
+</node>
+<node CREATED="1545314537648" ID="ID_121153546" MODIFIED="1545314541684" TEXT="customized"/>
+<node CREATED="1545314545895" ID="ID_1684293124" MODIFIED="1545314548941" TEXT="benefit based"/>
+</node>
+</node>
+<node CREATED="1545314614303" ID="ID_372415723" MODIFIED="1545314617995" TEXT="Outcome based">
+<node CREATED="1545314618742" ID="ID_1973123374" MODIFIED="1545314622068" TEXT="Clear">
+<node CREATED="1545314622423" ID="ID_1648905852" MODIFIED="1545314625932" TEXT="direction"/>
+<node CREATED="1545314626543" ID="ID_1706826455" MODIFIED="1545314629380" TEXT="strategy"/>
+</node>
+<node CREATED="1545314642623" ID="ID_1353508666" MODIFIED="1545314694795" TEXT="Enable to set improvement goals for">
+<node CREATED="1545314653046" ID="ID_1284753653" MODIFIED="1545314656140" TEXT="Team leaders"/>
+<node CREATED="1545314657415" ID="ID_1739051606" MODIFIED="1545314664755" TEXT="Individual contributors"/>
+</node>
+</node>
+<node CREATED="1545314743814" ID="ID_1783346455" MODIFIED="1550813204275" TEXT="Need focus on right capabilities">
+<node CREATED="1545314735910" ID="ID_762253677" MODIFIED="1550813210267" TEXT="to continuously drive improvement"/>
+</node>
+</node>
+</node>
+<node CREATED="1545314780734" ID="ID_1233681886" MODIFIED="1549479373969" TEXT="Factor which doesn&apos;t predict performance">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1545314788085" ID="ID_637824773" MODIFIED="1558243418166" TEXT="Age of the app">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1558243418464" ID="ID_903603200" MODIFIED="1558243428509" TEXT="Tech of the app">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1545314793509" ID="ID_1088641855" MODIFIED="1558243435684" TEXT="Deployment performed">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1545314803573" ID="ID_528904268" MODIFIED="1558243438076" TEXT="Change approval ">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1545314817941" ID="ID_558851903" MODIFIED="1558243439476" TEXT="Board implemented">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+</node>
+<node CREATED="1545382745504" FOLDED="true" ID="ID_43068715" MODIFIED="1573204070482" TEXT="Measuring performances">
+<icon BUILTIN="full-2"/>
+<node CREATED="1545314832357" ID="ID_883764101" MODIFIED="1558244059959" TEXT="It&apos;s invisible!">
+<node CREATED="1545314836669" ID="ID_260516667" MODIFIED="1545314841170" TEXT="Hard to measure"/>
+</node>
+<node CREATED="1545314850053" ID="ID_1228208509" MODIFIED="1558243533983" TEXT="The flawed ways">
+<node CREATED="1545314863989" ID="ID_262605193" MODIFIED="1545314869738" TEXT="Focus on productivity"/>
+<node CREATED="1545314870781" ID="ID_1401294934" MODIFIED="1545314874210" TEXT="Drawbacks">
+<node CREATED="1545314874557" ID="ID_1272001254" MODIFIED="1558243654882" TEXT="Focus on output">
+<node CREATED="1549651473969" ID="ID_1776937308" MODIFIED="1549651474620" TEXT=" instead of outcome"/>
+</node>
+<node CREATED="1545314891261" FOLDED="true" ID="ID_1400365293" MODIFIED="1552238319948" TEXT="Focus on individual \ local measures">
+<node CREATED="1545314900973" ID="ID_1729657999" MODIFIED="1545314905346" TEXT="rather than on">
+<node CREATED="1545314905605" ID="ID_1168160465" MODIFIED="1545314906489" TEXT="teams"/>
+<node CREATED="1545314907245" ID="ID_1985171365" MODIFIED="1545314911865" TEXT="global measures"/>
+</node>
+</node>
+</node>
+<node CREATED="1545314929020" ID="ID_79970540" MODIFIED="1558243650065" TEXT="Examples">
+<node CREATED="1545314931388" FOLDED="true" ID="ID_158807147" MODIFIED="1552238317356" TEXT="Lines of code">
+<icon BUILTIN="full-1"/>
+<node CREATED="1545314934917" ID="ID_1654078858" MODIFIED="1545314939697" TEXT="Too much">
+<node CREATED="1545314939868" ID="ID_442742393" MODIFIED="1545314943625" TEXT="bloated software"/>
+</node>
+<node CREATED="1545314944500" ID="ID_342837930" MODIFIED="1545314946057" TEXT="Too less">
+<node CREATED="1545314948020" ID="ID_1870769049" MODIFIED="1545314951841" TEXT="nobody understand it"/>
+</node>
+<node CREATED="1545314955948" ID="ID_1126728158" MODIFIED="1545314960689" TEXT="=&gt; not good measure!"/>
+</node>
+<node CREATED="1545314961756" FOLDED="true" ID="ID_193604956" MODIFIED="1552238318084" TEXT="Velocity">
+<icon BUILTIN="full-2"/>
+<node CREATED="1545314965268" ID="ID_763306651" MODIFIED="1545314973025" TEXT="Stories estimation with points"/>
+<node CREATED="1545314979660" ID="ID_1514182761" MODIFIED="1545314987449" TEXT="Extrapolate for future iterations">
+<node CREATED="1545314988109" ID="ID_1367581314" MODIFIED="1545314992745" TEXT="sprints"/>
+</node>
+<node CREATED="1545314997076" ID="ID_1564699844" MODIFIED="1545315001440" TEXT="BUT has been used to">
+<node CREATED="1545315001635" ID="ID_374223047" MODIFIED="1545315006138" TEXT="measure productivity"/>
+<node CREATED="1545315006732" ID="ID_213450583" MODIFIED="1545315010161" TEXT="compare team"/>
+</node>
+<node CREATED="1545315015955" ID="ID_1445427309" MODIFIED="1545315019152" TEXT="Flaws">
+<node CREATED="1545315022741" ID="ID_142726980" MODIFIED="1549479436308" TEXT="Team dependent measure">
+<node CREATED="1545315027508" ID="ID_313318606" MODIFIED="1545315032696" TEXT="Not absolute ones!"/>
+</node>
+<node CREATED="1545315041148" ID="ID_1322284131" MODIFIED="1545315046336" TEXT="Team work to game their velocity">
+<node CREATED="1545315046852" ID="ID_188139858" MODIFIED="1545315059224" TEXT="Complete as many stories as possible"/>
+<node CREATED="1545315059859" ID="ID_1910034300" MODIFIED="1545315070824" TEXT="... instead of collaborating with other teams!"/>
+</node>
+</node>
+</node>
+<node CREATED="1545315122922" FOLDED="true" ID="ID_858950432" MODIFIED="1558243652115" TEXT="Utilization as proxy for productivity">
+<icon BUILTIN="full-3"/>
+<node CREATED="1552237380497" ID="ID_485632571" MODIFIED="1552237397916" TEXT="Utilization of resource">
+<node CREATED="1552237398112" ID="ID_470451631" MODIFIED="1552237403214" TEXT="Number of developer on a project"/>
+</node>
+<node CREATED="1552237404112" ID="ID_858274938" MODIFIED="1552237414950" TEXT="High utilization is only good to a point"/>
+<node CREATED="1552237558375" ID="ID_924247771" MODIFIED="1552237562332" TEXT="Queue theory in math">
+<node CREATED="1552237562528" ID="ID_1115512473" MODIFIED="1552237570988" TEXT="When utilization is around 100%"/>
+<node CREATED="1552237574647" ID="ID_1831620147" MODIFIED="1552237585149" TEXT="... lead times approach infinity"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1545315138426" ID="ID_431518725" MODIFIED="1558243721896" TEXT="Measuring software delivering performance">
+<node CREATED="1545315196419" ID="ID_556628509" MODIFIED="1545315202103" TEXT="You must">
+<node CREATED="1545315202418" FOLDED="true" ID="ID_911724210" MODIFIED="1558243745969" TEXT="Focus on a global outcome">
+<node CREATED="1545315210666" ID="ID_112923357" MODIFIED="1545315216567" TEXT="to ensure teams don&apos;t compet"/>
+</node>
+<node CREATED="1545315219146" ID="ID_245979616" MODIFIED="1558243726203" TEXT="Focus on outcome, not output">
+<node CREATED="1545315227386" ID="ID_1787055873" MODIFIED="1545315239951" TEXT="If busy work doesn&apos;t achieve organisation goals"/>
+<node CREATED="1545315240674" ID="ID_994583520" MODIFIED="1545315243510" TEXT="... it&apos;s useless!"/>
+</node>
+</node>
+<node CREATED="1545315264769" FOLDED="true" ID="ID_1730773046" MODIFIED="1562746615930" TEXT="Deliveries performance which meet these criteria">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1545315274509" FOLDED="true" ID="ID_973793888" MODIFIED="1552238103606" TEXT="Delivery lead time">
+<icon BUILTIN="full-1"/>
+<node CREATED="1545315326961" ID="ID_1013727470" MODIFIED="1550406165933" TEXT="Elevation of lead time">
+<node CREATED="1545315330481" ID="ID_1461805256" MODIFIED="1545315333333" TEXT="Lead theory"/>
+<node CREATED="1545315334131" ID="ID_1223846854" MODIFIED="1549651501263" TEXT="Time between">
+<node CREATED="1545315338331" ID="ID_410083862" MODIFIED="1545315344573" TEXT="Customer request"/>
+<node CREATED="1545315345231" ID="ID_4118853" MODIFIED="1545315356216" TEXT="Request satisfied"/>
+</node>
+<node CREATED="1545316125047" ID="ID_1276295893" MODIFIED="1545316134537" TEXT="Satisfy customer">
+<node CREATED="1545316139725" ID="ID_37400936" MODIFIED="1545316149088" TEXT="In way they may not anticipate"/>
+<node CREATED="1545316156119" ID="ID_1032159638" MODIFIED="1545316164231" TEXT="Time taken to design and validate"/>
+<node CREATED="1545316166309" ID="ID_832929739" MODIFIED="1545316171594" TEXT="to the delivery to the customer"/>
+</node>
+</node>
+</node>
+<node CREATED="1545315278809" FOLDED="true" ID="ID_629521319" MODIFIED="1558243943840" TEXT="Batch size">
+<icon BUILTIN="full-2"/>
+<node CREATED="1545315829134" ID="ID_611184660" MODIFIED="1550994444672" TEXT="Deployment frequency"/>
+<node CREATED="1545315835214" ID="ID_193353406" MODIFIED="1545315882935" STYLE="fork" TEXT="Lean">
+<node CREATED="1545315849124" ID="ID_498196559" MODIFIED="1545315882935" TEXT="Decreasing batch size is central">
+<node CREATED="1545315861420" ID="ID_1737931834" MODIFIED="1545315882935" TEXT="Toyota did it successfully"/>
+<node CREATED="1545315885033" ID="ID_701762244" MODIFIED="1545315889185" TEXT="... but no inventory to count">
+<node CREATED="1545315889413" ID="ID_1344700849" MODIFIED="1545315891415" TEXT="in software"/>
+</node>
+</node>
+<node CREATED="1545315899933" ID="ID_277582286" MODIFIED="1545315904535" TEXT="Deployment frequency">
+<node CREATED="1545315904743" ID="ID_1655368529" MODIFIED="1545315908705" TEXT="proxy to batch size"/>
+<node CREATED="1545315913173" ID="ID_1211200174" MODIFIED="1545315915785" TEXT="easy to measure"/>
+<node CREATED="1545315916503" ID="ID_87039128" MODIFIED="1545315920475" TEXT="low variability"/>
+</node>
+</node>
+</node>
+<node CREATED="1545315297002" FOLDED="true" ID="ID_1168256182" MODIFIED="1552238290308" TEXT="Mean time to restore (MTTR)">
+<icon BUILTIN="full-3"/>
+<node CREATED="1545316077114" ID="ID_619040804" MODIFIED="1550406305639" TEXT="Reliability">
+<node CREATED="1545316184235" ID="ID_829516610" MODIFIED="1545316192197" TEXT="Traditional time between failures"/>
+<node CREATED="1545316194806" ID="ID_643256802" MODIFIED="1545316207219" TEXT="But rapidly changing software">
+<node CREATED="1545316207219" ID="ID_293885758" MODIFIED="1545316211140" TEXT="failure inevitable"/>
+</node>
+<node CREATED="1545316215798" ID="ID_773263816" MODIFIED="1545316218620" TEXT="The good question is">
+<node CREATED="1545316218828" ID="ID_163341204" MODIFIED="1545316225390" TEXT="how quickly a service can be restored?"/>
+</node>
+</node>
+</node>
+<node CREATED="1545315303545" FOLDED="true" ID="ID_255391767" MODIFIED="1552238290966" TEXT="Change / fail percentage">
+<icon BUILTIN="full-4"/>
+<node CREATED="1545316240421" ID="ID_1443425658" MODIFIED="1545316249463" TEXT="Percentage of change fail in production">
+<node CREATED="1545316249811" ID="ID_80532296" MODIFIED="1545316257913" TEXT="Software releases"/>
+<node CREATED="1545316258741" ID="ID_1964591374" MODIFIED="1545316264283" TEXT="Infrastructure changes"/>
+<node CREATED="1545316265011" ID="ID_1943340983" MODIFIED="1545316265753" TEXT="..."/>
+</node>
+</node>
+</node>
+<node CREATED="1545316410679" FOLDED="true" ID="ID_66025710" MODIFIED="1562746614817" TEXT="design vs delivery">
+<icon BUILTIN="licq"/>
+<node CREATED="1545316416519" ID="ID_1979580144" MODIFIED="1558244242112">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img src="design_vs_delivery.png" style="width: 100%; height: 100%" />
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1545315721853" FOLDED="true" ID="ID_76666546" MODIFIED="1562746616977" TEXT="performers comparison">
+<icon BUILTIN="licq"/>
+<node CREATED="1545315730353" ID="ID_178234810" MODIFIED="1545315740715">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="performers_comparison.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1545316488550" ID="ID_1944842587" MODIFIED="1558244394565" TEXT="Used for this research">
+<node CREATED="1545316490790" ID="ID_1845461958" MODIFIED="1558244396213" TEXT="Cluster analysis technique">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1545316497130" ID="ID_159949154" MODIFIED="1545316506292" TEXT="Foundational technique"/>
+<node CREATED="1545316509571" ID="ID_322017602" MODIFIED="1549651870759" TEXT="...in statistical analysis data"/>
+</node>
+</node>
+</node>
+<node CREATED="1545316524136" FOLDED="true" ID="ID_1998116346" MODIFIED="1553626158297" TEXT="Impact of delivery performance on organizational performance">
+<node CREATED="1545316569283" ID="ID_24997065" MODIFIED="1545316576975" TEXT="Asked to rate organisation themselves">
+<node CREATED="1545316578063" ID="ID_1203314605" MODIFIED="1545316582105" TEXT="on 3 dimensions">
+<node CREATED="1545316582303" ID="ID_449462813" MODIFIED="1550813518904" TEXT="Profitability">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1545316586283" ID="ID_495291633" MODIFIED="1550813521614" TEXT="Market share">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1545316589723" ID="ID_1816047266" MODIFIED="1550813523599" TEXT="Productivity">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1545316602836" ID="ID_1240447153" MODIFIED="1545316609768" TEXT="Scales validated multiple times">
+<node CREATED="1545316609976" ID="ID_1394732066" MODIFIED="1545316612648" TEXT="on prior researches"/>
+</node>
+</node>
+<node CREATED="1545316620809" ID="ID_272575924" MODIFIED="1545316626461" TEXT="Work and deliver in small batch">
+<node CREATED="1545316627249" ID="ID_420910306" MODIFIED="1545316655026" TEXT="Very important"/>
+<node CREATED="1545316635853" ID="ID_1485642094" MODIFIED="1549651907545" TEXT="Gather user feedback quickly">
+<node CREATED="1545316643103" ID="ID_574868164" MODIFIED="1545316650075" TEXT="A \ B testing"/>
+<node CREATED="1545316650773" ID="ID_231788873" MODIFIED="1545316651645" TEXT="..."/>
+</node>
+</node>
+</node>
+<node CREATED="1545316669442" FOLDED="true" ID="ID_1418334945" MODIFIED="1552237173149" TEXT="Driving change">
+<node CREATED="1545316680475" ID="ID_1404996239" MODIFIED="1545316690467" TEXT="Develop a learning culture">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1545316691875" ID="ID_1434164020" MODIFIED="1545316700711" TEXT="Use tool to measure performance">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1545316711374" ID="ID_646932370" MODIFIED="1545316717316" TEXT="If tools used in bad culture">
+<node CREATED="1545316717574" ID="ID_344066394" MODIFIED="1545316719076" TEXT="It&apos;s wrong">
+<node CREATED="1545316723857" ID="ID_603352787" MODIFIED="1545316734589" TEXT="&quot;whenever there is fear, you get the wrong number&quot;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1545382929815" FOLDED="true" ID="ID_1816166281" MODIFIED="1573209155836" TEXT="Measuring and changing culture">
+<icon BUILTIN="full-3"/>
+<node CREATED="1545316742030" ID="ID_1325663018" MODIFIED="1549652079932" TEXT="Culture can be defined with levels">
+<node CREATED="1545316752030" ID="ID_1613641138" MODIFIED="1573204168901" TEXT="Assumptions">
+<icon BUILTIN="full-1"/>
+<node CREATED="1545381420845" ID="ID_453465835" MODIFIED="1545381423730" TEXT="Formed over time"/>
+<node CREATED="1545381435211" ID="ID_209988347" MODIFIED="1545381438775" TEXT="Make sens of ">
+<node CREATED="1545381439036" ID="ID_1636640837" MODIFIED="1545381439858" TEXT="event"/>
+<node CREATED="1545381440444" ID="ID_837494507" MODIFIED="1545381444786" TEXT="relationships"/>
+</node>
+<node CREATED="1545381447827" ID="ID_245605256" MODIFIED="1545381452281" TEXT="Least visible of level"/>
+<node CREATED="1545381456220" ID="ID_1297988288" MODIFIED="1545381461195" TEXT="Things we just &quot;know&quot;">
+<node CREATED="1545381461195" ID="ID_365463950" MODIFIED="1545381464016" TEXT="Difficult to define"/>
+</node>
+</node>
+<node CREATED="1545316755140" ID="ID_1201065791" MODIFIED="1573204175358" TEXT="Values">
+<icon BUILTIN="full-2"/>
+<node CREATED="1545381468812" ID="ID_479613762" MODIFIED="1545381470279" TEXT="Can be">
+<node CREATED="1545381470492" ID="ID_1095069279" MODIFIED="1545381473377" TEXT="discussed"/>
+<node CREATED="1545381473875" ID="ID_1131234172" MODIFIED="1545381476287" TEXT="debated"/>
+</node>
+<node CREATED="1545381480091" ID="ID_1582758206" MODIFIED="1545381483145" TEXT="Contextual rules"/>
+<node CREATED="1545381486572" ID="ID_1685706340" MODIFIED="1545381490496" TEXT="Social norms"/>
+<node CREATED="1545381497626" ID="ID_1430960787" MODIFIED="1545381498721" TEXT="Lens">
+<node CREATED="1545381498964" ID="ID_51072" MODIFIED="1545381506529" TEXT="where members of a group">
+<node CREATED="1545381506748" ID="ID_296557868" MODIFIED="1545381510817" TEXT="interpret everything through"/>
+</node>
+</node>
+<node CREATED="1545381512100" ID="ID_492338358" MODIFIED="1545381526528" TEXT="Represent">
+<node CREATED="1545381518228" ID="ID_588498254" MODIFIED="1545381524336" TEXT="the &quot;company culture&quot;"/>
+</node>
+</node>
+<node CREATED="1545316759560" ID="ID_1722096266" MODIFIED="1573204178462" TEXT="Artifacts">
+<icon BUILTIN="full-3"/>
+<node CREATED="1545381529890" ID="ID_1582611310" MODIFIED="1545381532686" TEXT="Most visible level"/>
+<node CREATED="1545381533219" ID="ID_885743044" MODIFIED="1549652181748" TEXT="Written mission statement">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1545381542522" ID="ID_1795770801" MODIFIED="1545381548424" TEXT="technologies"/>
+<node CREATED="1545381549090" ID="ID_1077797729" MODIFIED="1545381552039" TEXT="formal procedures"/>
+<node CREATED="1545381552482" ID="ID_1133877627" MODIFIED="1545381555079" TEXT="heroes"/>
+<node CREATED="1545381555617" ID="ID_1488080939" MODIFIED="1545381559064" TEXT="ritual"/>
+</node>
+</node>
+</node>
+<node CREATED="1545381580571" ID="ID_1851301929" MODIFIED="1573204347038" TEXT="Different sort of cultures">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Ron Westrum
+  </body>
+</html></richcontent>
+<node CREATED="1545381586818" ID="ID_423122412" MODIFIED="1573204268043" TEXT="Pathological">
+<icon BUILTIN="full-1"/>
+<node CREATED="1545381592251" ID="ID_161240002" MODIFIED="1545381594510" TEXT="Power oriented"/>
+<node CREATED="1545381601931" ID="ID_1411133118" MODIFIED="1573204512047" TEXT="Lot">
+<node CREATED="1545381607275" ID="ID_1922148500" MODIFIED="1545381609590" TEXT="fear"/>
+<node CREATED="1545381610098" ID="ID_1422171828" MODIFIED="1545381611318" TEXT="threat"/>
+</node>
+<node CREATED="1545381616441" ID="ID_1900122126" MODIFIED="1549479996876" TEXT="Withold info on purpose"/>
+<node CREATED="1545381629067" ID="ID_1105165192" MODIFIED="1545381641287" TEXT="Distort information"/>
+<node CREATED="1545381641839" ID="ID_1063769988" MODIFIED="1545381646302" TEXT="Lot of politics"/>
+</node>
+<node CREATED="1545381647913" ID="ID_1985006700" MODIFIED="1573204269883" TEXT="Bureaucratic">
+<icon BUILTIN="full-2"/>
+<node CREATED="1545381652603" ID="ID_1875517324" MODIFIED="1545381658902" TEXT="Rule oriented"/>
+<node CREATED="1545381663083" ID="ID_1803297240" MODIFIED="1545381669917" TEXT="Organisation protect departments"/>
+<node CREATED="1545381674193" ID="ID_1338417703" MODIFIED="1545381690823" TEXT="Departments independents">
+<node CREATED="1545381692401" ID="ID_1729224572" MODIFIED="1545381696245" TEXT="Have their own rules"/>
+</node>
+</node>
+<node CREATED="1545381704011" ID="ID_351176070" MODIFIED="1573204256724" TEXT="Generative">
+<icon BUILTIN="full-3"/>
+<node CREATED="1545381709913" ID="ID_278828276" MODIFIED="1545381714983" TEXT="Performance oriented"/>
+<node CREATED="1545381715658" ID="ID_831525984" MODIFIED="1545381719958" TEXT="Focus on the mission"/>
+<node CREATED="1545381720449" ID="ID_1340561358" MODIFIED="1573204354817" TEXT="Everything subordinated ">
+<node CREATED="1545381733569" ID="ID_804720311" MODIFIED="1545381738694" TEXT="to good performance"/>
+</node>
+<node CREATED="1545381742714" ID="ID_1513359780" MODIFIED="1545381747967" TEXT="Do what we are supposed to do"/>
+</node>
+</node>
+<node CREATED="1545381761585" ID="ID_114648420" MODIFIED="1545381764637" TEXT="Good information">
+<node CREATED="1545381770457" FOLDED="true" ID="ID_1160124010" MODIFIED="1558244443651" TEXT="Provide answers to questions">
+<node CREATED="1545381775865" ID="ID_1187663238" MODIFIED="1549480036648" TEXT="that receiver needs"/>
+</node>
+<node CREATED="1545381784160" ID="ID_1104984014" MODIFIED="1545381786614" TEXT="It is timely"/>
+<node CREATED="1545381789682" ID="ID_659793856" MODIFIED="1549652218569" TEXT="Presented in a way">
+<node CREATED="1545381792745" ID="ID_1596928703" MODIFIED="1545381796837" TEXT="for the receiver to use it"/>
+</node>
+<node CREATED="1545381804506" ID="ID_1995744993" MODIFIED="1545381811187" TEXT="Information flow is critical">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1545382128365" FOLDED="true" ID="ID_635625828" MODIFIED="1562746624655" TEXT="Question to measure culture">
+<icon BUILTIN="licq"/>
+<node CREATED="1545382137590" ID="ID_336335097" MODIFIED="1545382143437">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="experiment.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1545381827224" ID="ID_502913055" MODIFIED="1549652245669" TEXT="Consequences of Westrum&apos;s theory">
+<node CREATED="1545381896255" FOLDED="true" ID="ID_1508906473" MODIFIED="1558244459346" TEXT="Ability to innovate">
+<node CREATED="1545381878015" ID="ID_226036971" MODIFIED="1549652259412" TEXT="In environment with rapid change">
+<node CREATED="1545381885503" ID="ID_1627639865" MODIFIED="1545381888052" TEXT="Technological"/>
+<node CREATED="1545381888615" ID="ID_1956524386" MODIFIED="1545381890725" TEXT="Economical"/>
+</node>
+</node>
+<node CREATED="1545381921161" ID="ID_1017229505" MODIFIED="1545381923253" TEXT="Resilience"/>
+<node CREATED="1545381928839" FOLDED="true" ID="ID_161132540" LINK="https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/" MODIFIED="1552238481291" TEXT="Google research (2015)">
+<node CREATED="1545381934897" FOLDED="true" ID="ID_258078311" MODIFIED="1552238480116" TEXT="What is the best team?">
+<node CREATED="1545381941672" ID="ID_604860532" MODIFIED="1545381947716" TEXT="Individual doesn&apos;t matter that much"/>
+<node CREATED="1545381955512" ID="ID_1357190634" MODIFIED="1545381961396" TEXT="Team dynamic really important">
+<node CREATED="1545381961817" ID="ID_686395517" MODIFIED="1545381973029" TEXT="How team members ">
+<node CREATED="1545381973599" ID="ID_1113341925" MODIFIED="1545381974349" TEXT="interact"/>
+<node CREATED="1545381975062" ID="ID_889025448" MODIFIED="1545381987084" TEXT="structure work"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1545382453956" ID="ID_1128763413" MODIFIED="1545382460105" TEXT="How do we change culture?">
+<node CREATED="1545382575697" ID="ID_1581824662" MODIFIED="1545382579799" TEXT="Implementing">
+<node CREATED="1545382579987" ID="ID_1482219232" MODIFIED="1545382581119" TEXT="Agile"/>
+<node CREATED="1545382581707" ID="ID_225763832" MODIFIED="1545382584784" TEXT="Lean practices"/>
+</node>
+<node CREATED="1545382588491" ID="ID_1487646366" MODIFIED="1545382605928" TEXT="Continuous Delivery"/>
+<node CREATED="1545382606843" FOLDED="true" ID="ID_511662041" MODIFIED="1558244462291" TEXT="Westrum ">
+<icon BUILTIN="licq"/>
+<node CREATED="1545382660483" ID="ID_1736930852" MODIFIED="1545382666117">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="westrum.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1545382974294" FOLDED="true" ID="ID_874681310" MODIFIED="1573209157299" TEXT="Technical practices">
+<icon BUILTIN="full-4"/>
+<node CREATED="1545382986543" ID="ID_1711103509" MODIFIED="1558244402870" TEXT="Agile">
+<node CREATED="1545383042774" FOLDED="true" ID="ID_138090888" MODIFIED="1558244464931" TEXT="Beginning">
+<node CREATED="1545382991303" ID="ID_703610854" MODIFIED="1545383008635" TEXT="eXtreme Programming (XP) was important">
+<node CREATED="1545383012965" ID="ID_465949182" MODIFIED="1545383020218" TEXT="Continuous Delivery"/>
+<node CREATED="1545383020871" ID="ID_21328309" MODIFIED="1545383022028" TEXT="Tests"/>
+<node CREATED="1545383029544" ID="ID_405827452" MODIFIED="1545383033538" TEXT="Set of technical practices"/>
+</node>
+</node>
+<node CREATED="1545383047303" ID="ID_70892969" MODIFIED="1545383048908" TEXT="Now">
+<node CREATED="1545383049143" ID="ID_360832329" MODIFIED="1545383053034" TEXT="Scrum"/>
+<node CREATED="1545383053542" ID="ID_493980389" MODIFIED="1545383056842" TEXT="Management practices"/>
+</node>
+<node CREATED="1545383067767" ID="ID_833902715" MODIFIED="1545383073116" TEXT="Technical practices are vital!"/>
+</node>
+<node CREATED="1545383076343" ID="ID_505774198" MODIFIED="1558244406285" TEXT="What is CD?">
+<node CREATED="1545383083695" FOLDED="true" ID="ID_1429399945" MODIFIED="1558244468179" TEXT="Change in production">
+<node CREATED="1545383087558" ID="ID_931998108" MODIFIED="1545383089915" TEXT="of ALL kinds">
+<node CREATED="1545383090158" ID="ID_1549208278" MODIFIED="1545383094940" TEXT="Safely"/>
+<node CREATED="1545383095535" ID="ID_374610817" MODIFIED="1545383099482" TEXT="Quickly"/>
+<node CREATED="1545383100175" ID="ID_160291798" MODIFIED="1545383106330" TEXT="Sustainably"/>
+</node>
+</node>
+<node CREATED="1545383120495" ID="ID_275755458" MODIFIED="1558244469224" TEXT="How?">
+<node CREATED="1545383123495" FOLDED="true" ID="ID_514843840" MODIFIED="1552238496724" TEXT="Build quality in">
+<icon BUILTIN="full-1"/>
+<node CREATED="1545383131175" ID="ID_190638802" MODIFIED="1545383137474" TEXT="Avoid inspections by building quality"/>
+</node>
+<node CREATED="1545383138662" FOLDED="true" ID="ID_1561657915" MODIFIED="1552238497603" TEXT="Work in small batch">
+<icon BUILTIN="full-2"/>
+<node CREATED="1545383163086" ID="ID_575506893" MODIFIED="1545383166715" TEXT="Smallest chunks">
+<node CREATED="1545383166878" ID="ID_183160004" MODIFIED="1545383170355" TEXT="deliver value quickly"/>
+<node CREATED="1545383175333" ID="ID_263943615" MODIFIED="1545383182265" TEXT="essential feedbacks quickly"/>
+<node CREATED="1545383191870" ID="ID_1100286099" MODIFIED="1545383199010" TEXT="avoid work with 0 or negative value"/>
+<node CREATED="1545383204013" ID="ID_998333888" MODIFIED="1545383207785" TEXT="add some overhead">
+<node CREATED="1545383207965" ID="ID_921731685" MODIFIED="1545383212457" TEXT="but benefits are important"/>
+</node>
+<node CREATED="1545383225549" ID="ID_1425881219" MODIFIED="1545383231306" TEXT="cost pushing an individual change">
+<node CREATED="1545383232124" ID="ID_1554345515" MODIFIED="1545383234273" TEXT="very low"/>
+</node>
+</node>
+</node>
+<node CREATED="1545383238150" FOLDED="true" ID="ID_603990537" MODIFIED="1552238498508" TEXT="Computer perform repetitive tasks">
+<icon BUILTIN="full-3"/>
+<node CREATED="1545383255133" ID="ID_794365504" MODIFIED="1545383259537" TEXT="People solve problems"/>
+<node CREATED="1545383265668" ID="ID_1370143565" MODIFIED="1545383271385" TEXT="Repetitive tasks take time">
+<node CREATED="1545383271598" ID="ID_328885726" MODIFIED="1545383274937" TEXT="example">
+<node CREATED="1545383275155" ID="ID_1805048253" MODIFIED="1545383278642" TEXT="regression testing"/>
+</node>
+</node>
+<node CREATED="1545383283974" ID="ID_443140213" MODIFIED="1545383288048" TEXT="Software deployment">
+<node CREATED="1545383288244" ID="ID_300036547" MODIFIED="1545383293874" TEXT="Simplifying"/>
+<node CREATED="1545383294653" ID="ID_211372145" MODIFIED="1545383296936" TEXT="Automating"/>
+</node>
+</node>
+<node CREATED="1545383300758" FOLDED="true" ID="ID_234329033" MODIFIED="1552238499308" TEXT="Continuous improvements">
+<icon BUILTIN="full-4"/>
+<node CREATED="1545383310438" ID="ID_1605732786" MODIFIED="1545383314593" TEXT="Team always striving">
+<node CREATED="1545383314749" ID="ID_739159081" MODIFIED="1545383316834" TEXT="to do better"/>
+</node>
+</node>
+<node CREATED="1545383324164" FOLDED="true" ID="ID_234442004" MODIFIED="1552238499955" TEXT="Everyone is responsible">
+<icon BUILTIN="full-5"/>
+<node CREATED="1545383334659" ID="ID_1970586886" MODIFIED="1545383349849" TEXT="Close collaboration with everyone">
+<node CREATED="1545383343107" ID="ID_137842394" MODIFIED="1545383348481" TEXT="involved in product"/>
+</node>
+</node>
+</node>
+<node CREATED="1545383356795" FOLDED="true" ID="ID_1062514224" MODIFIED="1558244422171" TEXT=" Foundations">
+<node CREATED="1545383510394" ID="ID_1714426906" MODIFIED="1545383519961" TEXT="Comprehensive configuration management">
+<node CREATED="1545383524035" ID="ID_720009058" MODIFIED="1545383534040" TEXT="Provision with">
+<node CREATED="1545383527186" ID="ID_253840575" MODIFIED="1545383528128" TEXT="Build"/>
+<node CREATED="1545383528618" ID="ID_1982812813" MODIFIED="1545383529390" TEXT="Test"/>
+<node CREATED="1545383530018" ID="ID_1543470576" MODIFIED="1545383532303" TEXT="Deploy"/>
+</node>
+</node>
+<node CREATED="1545383546251" ID="ID_1309564998" MODIFIED="1545383548518" TEXT="CI">
+<node CREATED="1545383548721" ID="ID_1749716797" MODIFIED="1545383552216" TEXT="Small lived branches">
+<node CREATED="1545383555379" ID="ID_1092012167" MODIFIED="1545383559671" TEXT="+ or - one day"/>
+</node>
+<node CREATED="1545383561003" ID="ID_1874182868" MODIFIED="1545383573942" TEXT="Branch continuously merged to master"/>
+<node CREATED="1545383577289" ID="ID_1950183193" MODIFIED="1545383583070" TEXT="With build process including tests"/>
+</node>
+<node CREATED="1545383586514" ID="ID_1889818475" MODIFIED="1545383589863" TEXT="Continuous testing">
+<node CREATED="1545383606915" ID="ID_1911634513" MODIFIED="1545383610342" TEXT="Run against every commit"/>
+<node CREATED="1545383614954" ID="ID_1871140920" MODIFIED="1545383618103" TEXT="Task not done">
+<node CREATED="1545383618321" ID="ID_1159333" MODIFIED="1545383620975" TEXT="if tests not passing"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1545383630379" FOLDED="true" ID="ID_1454933056" MODIFIED="1562752617657" TEXT="The impact of CD">
+<node CREATED="1545383636792" FOLDED="true" ID="ID_748609622" MODIFIED="1558244423491" TEXT="Help to decrease">
+<node CREATED="1545383642785" ID="ID_781884674" MODIFIED="1545383645799" TEXT="Deployment pain"/>
+<node CREATED="1545383646362" ID="ID_1556024372" MODIFIED="1545383652407" TEXT="Team burnout"/>
+<node CREATED="1545383655186" ID="ID_1994501189" MODIFIED="1545383660070" TEXT="Evidence in the data!"/>
+</node>
+<node CREATED="1545383666634" FOLDED="true" ID="ID_96326130" MODIFIED="1558244424611" TEXT="More liberty for developers">
+<node CREATED="1545383676410" ID="ID_1938277135" MODIFIED="1545383680406" TEXT="They feel more responsible"/>
+</node>
+<node CREATED="1545383829631" ID="ID_1502171523" MODIFIED="1545383865964" TEXT="Strong identification to organisation"/>
+<node CREATED="1545383867000" ID="ID_976762653" MODIFIED="1558244426246" TEXT="Higher level of software delivery performance">
+<node CREATED="1545383886096" ID="ID_1801507720" MODIFIED="1545383888021" TEXT="Lead time"/>
+<node CREATED="1545383888551" ID="ID_435889009" MODIFIED="1545383892156" TEXT="Deploy frequency"/>
+<node CREATED="1545383893209" ID="ID_58923321" MODIFIED="1545383897621" TEXT="Time to restore service"/>
+</node>
+<node CREATED="1545383900817" ID="ID_1585649799" MODIFIED="1549652472738" TEXT="Lower change rate fail"/>
+<node CREATED="1545383913072" ID="ID_1256868491" MODIFIED="1545383919101" TEXT="Generate performance oriented culture"/>
+<node CREATED="1545383710106" FOLDED="true" ID="ID_770682269" MODIFIED="1552238513764" TEXT="Drivers of CD">
+<icon BUILTIN="licq"/>
+<node CREATED="1545383711608" ID="ID_97453398" MODIFIED="1545383718878">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="impact_cd.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1545383762920" FOLDED="true" ID="ID_1067162543" MODIFIED="1552238516066" TEXT="Impact of CD">
+<icon BUILTIN="licq"/>
+<node CREATED="1545383764864" ID="ID_583765120" MODIFIED="1545383769604">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="impact_cd_2.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1545383933639" ID="ID_1331913960" MODIFIED="1558244414358" TEXT="The impact of CD on quality">
+<node CREATED="1545396680508" ID="ID_1550101913" MODIFIED="1545396685860" TEXT="What is quality?">
+<node CREATED="1545396686088" ID="ID_1370042879" MODIFIED="1550814233200" TEXT="Lower change / fail rate">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1545396691778" FOLDED="true" ID="ID_1817363639" MODIFIED="1569997552032" TEXT="Perception of whom working on app">
+<icon BUILTIN="full-2"/>
+<node CREATED="1545396709248" ID="ID_1925768793" MODIFIED="1545396713530" TEXT="Quality"/>
+<node CREATED="1545396714038" ID="ID_766830475" MODIFIED="1545396717180" TEXT="Performance"/>
+</node>
+<node CREATED="1545396723481" FOLDED="true" ID="ID_1767876707" MODIFIED="1562752613125" TEXT="Low % time spent on rework">
+<icon BUILTIN="full-3"/>
+<node CREATED="1545396734192" ID="ID_1865799264" MODIFIED="1545396737124" TEXT="unplanned work"/>
+<node CREATED="1545396771345" ID="ID_524819306" MODIFIED="1545396781105" TEXT="=&gt; most costly for delivery">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1545396820201" FOLDED="true" ID="ID_13691872" MODIFIED="1550994748196" TEXT="Difference high / low performers">
+<icon BUILTIN="licq"/>
+<node CREATED="1545396839943" ID="ID_1271330688" MODIFIED="1545396846615">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="rework_unplanned_work.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1545396742832" FOLDED="true" ID="ID_1280072401" MODIFIED="1552238564108" TEXT="Low % time spent on bugs">
+<icon BUILTIN="full-4"/>
+<node CREATED="1545396748592" ID="ID_1783091650" MODIFIED="1545396751854" TEXT="reported by users"/>
+</node>
+</node>
+</node>
+<node CREATED="1545396866590" FOLDED="true" ID="ID_771599249" MODIFIED="1553626163825" TEXT="CD practice: what works, what doesn&apos;t">
+<node CREATED="1545396877968" ID="ID_1006198591" MODIFIED="1545396886963" TEXT="Everything on version control">
+<node CREATED="1545396887191" ID="ID_1202355698" MODIFIED="1545396890663" TEXT="even configuration!"/>
+</node>
+<node CREATED="1545396893382" ID="ID_673383495" MODIFIED="1545396900806" TEXT="Automation">
+<node CREATED="1545396900994" ID="ID_570987282" MODIFIED="1545396903886" TEXT="Key part of CD"/>
+<node CREATED="1545396904694" ID="ID_718995108" MODIFIED="1545396911376" TEXT="Reliable tests"/>
+<node CREATED="1545396912334" ID="ID_1771625461" MODIFIED="1545396915446" TEXT="Acceptance tests">
+<node CREATED="1545396921424" ID="ID_335653642" MODIFIED="1545396927066" TEXT="No performance">
+<node CREATED="1545396927374" ID="ID_451361533" MODIFIED="1545396932216" TEXT="if IT guys don&apos;t write them"/>
+</node>
+</node>
+</node>
+<node CREATED="1545396951227" ID="ID_650659243" MODIFIED="1545396954829" TEXT="Test data management"/>
+<node CREATED="1545396955857" ID="ID_471618299" MODIFIED="1545396959619" TEXT="Trunk based development">
+<node CREATED="1545396961357" ID="ID_1122134170" MODIFIED="1545396967379" TEXT="Fewer active branches"/>
+<node CREATED="1545396967847" ID="ID_282594685" MODIFIED="1545396974659" TEXT="Very short lifetime of branches">
+<node CREATED="1545396977890" ID="ID_281590579" MODIFIED="1545396982192" TEXT="1 day max"/>
+</node>
+<node CREATED="1545396983000" ID="ID_698678400" MODIFIED="1545396991762" TEXT="... no git flow">
+<node CREATED="1545396994790" ID="ID_749588358" MODIFIED="1545397001402" TEXT="but on open source project it makes sens"/>
+</node>
+</node>
+<node CREATED="1545397004221" ID="ID_519987210" MODIFIED="1545397007775" TEXT="Information security"/>
+</node>
+<node CREATED="1545397010654" FOLDED="true" ID="ID_446972228" MODIFIED="1553626164910" TEXT="Adopting CD">
+<node CREATED="1545397018686" ID="ID_715912168" MODIFIED="1550814495695" TEXT="Huge impact on many aspects of organisation">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1545397041099" ID="ID_1677505029" MODIFIED="1550814497520" TEXT="Increase delivery performance">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1545397047589" ID="ID_1300279869" MODIFIED="1550814500727" TEXT="Increase quality">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1545397076459" ID="ID_497217286" MODIFIED="1550814504630" TEXT="Increase culture">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1545397080909" ID="ID_15748669" MODIFIED="1550814510335" TEXT="Decrease burnout">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1545397089162" ID="ID_649192231" MODIFIED="1550814515783" TEXT="... but need to rethink everything">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+</node>
+<node CREATED="1545397104108" FOLDED="true" ID="ID_269995141" MODIFIED="1550995253852" TEXT="Architecture">
+<icon BUILTIN="full-5"/>
+<node CREATED="1545397124393" FOLDED="true" ID="ID_585875341" MODIFIED="1550994457316" TEXT="Types of systems and delivery performance">
+<node CREATED="1545397160119" ID="ID_1121279390" MODIFIED="1545397164391" TEXT="Relation between">
+<node CREATED="1545397164599" ID="ID_786359779" MODIFIED="1545397168621" TEXT="type of system"/>
+<node CREATED="1545397169159" ID="ID_904414059" MODIFIED="1545397172261" TEXT="delivery performances"/>
+</node>
+<node CREATED="1545397193192" ID="ID_736542962" MODIFIED="1545397201674" TEXT="Low performers">
+<node CREATED="1545397199342" ID="ID_997858124" MODIFIED="1545397213194" TEXT="interact with custom software from other companies"/>
+<node CREATED="1545397214122" ID="ID_715145916" MODIFIED="1545397221244" TEXT="working on mainframe softwares"/>
+<node CREATED="1545397221942" ID="ID_1275178224" MODIFIED="1545397227434" TEXT="... that&apos;s the only correlations"/>
+</node>
+<node CREATED="1545397243925" ID="ID_515169040" MODIFIED="1550814734939" TEXT="Is important">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1545397252325" ID="ID_901505250" MODIFIED="1545397261727" TEXT="Focusing on architectural characteristics"/>
+<node CREATED="1545397262275" ID="ID_885083664" MODIFIED="1545397279350" TEXT="Develop in house software"/>
+<node CREATED="1545397279548" ID="ID_393775634" MODIFIED="1550814722477" TEXT="... which are key importance for business"/>
+</node>
+</node>
+<node CREATED="1545397288973" FOLDED="true" ID="ID_182126552" MODIFIED="1550994458985" TEXT="Focus on deployability and testability">
+<node CREATED="1545397310136" ID="ID_213271201" MODIFIED="1545397315078" TEXT="High performing group agree on">
+<node CREATED="1545397315306" ID="ID_417974525" MODIFIED="1545397333558" TEXT="Testing with integrated environment"/>
+<node CREATED="1545397341099" ID="ID_1595803245" MODIFIED="1545397356991" TEXT="Release app independently of other app / services"/>
+<node CREATED="1545397362692" ID="ID_1208121170" MODIFIED="1545397369624" TEXT="=&gt; testability and deployability"/>
+<node CREATED="1545397377885" ID="ID_1516043497" MODIFIED="1545397383727" TEXT="Design system loosely coupled">
+<node CREATED="1545397423411" ID="ID_932472560" MODIFIED="1545397428136" TEXT="No need to ask other teams"/>
+<node CREATED="1545397428714" ID="ID_1051250687" MODIFIED="1545397432426" TEXT="Reduce communication">
+<node CREATED="1545397432674" ID="ID_856471856" MODIFIED="1545397436586" TEXT="and so miscommunication"/>
+</node>
+</node>
+</node>
+<node CREATED="1545397453787" ID="ID_1051976139" MODIFIED="1545397462509" TEXT="Architectural approaches">
+<node CREATED="1545397462817" ID="ID_399796484" MODIFIED="1545397467759" TEXT="bounded context"/>
+<node CREATED="1545397468307" ID="ID_1951573520" MODIFIED="1545397473369" TEXT="APIs"/>
+<node CREATED="1545397476517" ID="ID_1344863133" MODIFIED="1545397479019" TEXT="Microservices">
+<node CREATED="1545397479367" ID="ID_744285874" MODIFIED="1545397482909" TEXT="In strict ways">
+<node CREATED="1545397485378" ID="ID_1437627904" MODIFIED="1545397487052" TEXT="decoupled"/>
+<node CREATED="1545397487690" ID="ID_240542287" MODIFIED="1545397496182" TEXT="... otherwise another monolithic">
+<node CREATED="1545397724566" ID="ID_264908302" MODIFIED="1545397724566" TEXT=""/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1545397726056" ID="ID_598066547" MODIFIED="1545397736518" TEXT="A loosely coupled architecture enables scaling">
+<node CREATED="1545397772119" ID="ID_690989531" MODIFIED="1545397781811" TEXT="Benefit">
+<node CREATED="1545397782059" ID="ID_974943364" MODIFIED="1545397790714" TEXT="Higher delivery performance">
+<icon BUILTIN="full-1"/>
+<node CREATED="1545397796802" ID="ID_728074656" MODIFIED="1545397800344" TEXT="Increase tempo"/>
+<node CREATED="1545397801072" ID="ID_900000490" MODIFIED="1545397804084" TEXT="Increase stability"/>
+</node>
+<node CREATED="1545397787532" ID="ID_855299543" MODIFIED="1545397841937" TEXT="Grow the size of IT">
+<icon BUILTIN="full-2"/>
+<node CREATED="1545397824742" ID="ID_1500109801" MODIFIED="1545397837724" TEXT="Increase productivity linearly"/>
+</node>
+</node>
+<node CREATED="1545397850198" ID="ID_1126212987" MODIFIED="1545397873250" TEXT="Measure productivity">
+<node CREATED="1545397855679" ID="ID_1388454048" MODIFIED="1545397865360" TEXT="Number of deploy per developer">
+<node CREATED="1545397865788" ID="ID_34627490" MODIFIED="1545397867500" TEXT="per day"/>
+</node>
+</node>
+<node CREATED="1545397891841" ID="ID_650565642" MODIFIED="1545397895913" TEXT="Adding developer to team">
+<node CREATED="1545397896071" ID="ID_1281103363" MODIFIED="1545397900853" TEXT="Increase productivity to the team"/>
+<node CREATED="1545397901721" ID="ID_127072236" MODIFIED="1545397907863" TEXT="Decrease productivity of individual">
+<node CREATED="1545397908421" ID="ID_273189908" MODIFIED="1545397915763" TEXT="overheads">
+<node CREATED="1545397915961" ID="ID_809519119" MODIFIED="1545397918003" TEXT="communication"/>
+<node CREATED="1545397918511" ID="ID_471643728" MODIFIED="1545397921403" TEXT="integrations"/>
+</node>
+</node>
+</node>
+<node CREATED="1545398010453" FOLDED="true" ID="ID_1083721776" MODIFIED="1550995187052" TEXT="High / low performers">
+<icon BUILTIN="licq"/>
+<node CREATED="1545398017695" ID="ID_1011612908" MODIFIED="1545398024627">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="deploy_developer_day.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1545398035911" ID="ID_1065544084" MODIFIED="1550995188659" TEXT="Allow teams to choose their own tools">
+<node CREATED="1547908419258" ID="ID_1663666265" MODIFIED="1547908439850" TEXT="When IT choose tools from list">
+<node CREATED="1547908425528" ID="ID_1062862512" MODIFIED="1547908438050" TEXT="Reduce environment complexity">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1547908440238" ID="ID_1845197605" MODIFIED="1547908459623" TEXT="Ensure necessary skills are there to manage them">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1547908460551" ID="ID_235430019" MODIFIED="1547908475271" TEXT="Increase purchasing power with vendor">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1547908479762" ID="ID_923906978" MODIFIED="1547908489352" TEXT="All tools correctly licensed">
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+<node CREATED="1547908504026" ID="ID_565482276" MODIFIED="1547908527388" TEXT="When IT is totally free">
+<node CREATED="1547908506306" ID="ID_749760035" MODIFIED="1547908573661" TEXT="Team can choose best tech">
+<icon BUILTIN="full-1"/>
+<node CREATED="1547908531526" ID="ID_353601652" MODIFIED="1547908538238" TEXT="which suit their need"/>
+</node>
+<node CREATED="1547908560549" ID="ID_581649032" MODIFIED="1547908575191" TEXT="Increase delivery performance">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1547908581012" ID="ID_597937426" MODIFIED="1547908588054" TEXT="Increase organisational performance">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1547908601906" ID="ID_1758751440" MODIFIED="1547908613461" TEXT="Advantages or freedom">
+<node CREATED="1547908613769" ID="ID_1064336950" MODIFIED="1547908623558" TEXT="more weight than drawbacks"/>
+</node>
+<node CREATED="1547908628929" ID="ID_1809208825" MODIFIED="1547908651581" TEXT="Standardisation is good">
+<node CREATED="1547908653739" ID="ID_910523737" MODIFIED="1547908657521" TEXT="Architecture"/>
+<node CREATED="1547908658009" ID="ID_915245210" MODIFIED="1547908659071" TEXT="Config"/>
+<node CREATED="1547908659509" ID="ID_17644210" MODIFIED="1547908668965" TEXT="Infrastructure"/>
+</node>
+</node>
+<node CREATED="1547908678055" ID="ID_549305176" MODIFIED="1550995223323" TEXT="Architects ">
+<node CREATED="1547908769154" ID="ID_101096319" MODIFIED="1547908769154" TEXT="should focus on">
+<node CREATED="1547908688895" ID="ID_537332092" MODIFIED="1547908692947" TEXT="engineers"/>
+<node CREATED="1547908693585" ID="ID_1715510338" MODIFIED="1547908694837" TEXT="outcomes"/>
+<node CREATED="1547908695985" ID="ID_957495202" MODIFIED="1547908697847" TEXT="NOT">
+<node CREATED="1547908698045" ID="ID_553541274" MODIFIED="1547908702177" TEXT="tools"/>
+<node CREATED="1547908703125" ID="ID_1745860400" MODIFIED="1547908711957" TEXT="technologies"/>
+</node>
+</node>
+<node CREATED="1547908773222" ID="ID_1575868270" MODIFIED="1547908784084" TEXT="Architecture discussion often">
+<node CREATED="1547908784352" ID="ID_1351155624" MODIFIED="1547908788444" TEXT="Tools"/>
+<node CREATED="1547908788952" ID="ID_1809339504" MODIFIED="1547908790244" TEXT="Techs"/>
+<node CREATED="1547908790782" ID="ID_1590431028" MODIFIED="1547908793554" TEXT="... wrong questions"/>
+</node>
+<node CREATED="1547908807155" ID="ID_1881156336" MODIFIED="1547908819907" TEXT="Tools needs to give team">
+<node CREATED="1547908820175" ID="ID_198349719" MODIFIED="1547908827687" TEXT="freedom to change their">
+<node CREATED="1547908827975" ID="ID_639511303" MODIFIED="1547908829397" TEXT="product"/>
+<node CREATED="1547908829855" ID="ID_1710694361" MODIFIED="1547908831107" TEXT="service"/>
+<node CREATED="1547908831675" ID="ID_1020408280" MODIFIED="1547908843267" TEXT="... without depending on">
+<node CREATED="1547908843445" ID="ID_734893185" MODIFIED="1547908847228" TEXT="other teams"/>
+<node CREATED="1547908847926" ID="ID_257468670" MODIFIED="1547908850230" TEXT="systems"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1547908868211" FOLDED="true" ID="ID_847747740" MODIFIED="1550995251855" TEXT="Integrating infosec into delivery practice">
+<icon BUILTIN="full-6"/>
+<node CREATED="1547908890974" ID="ID_913052191" MODIFIED="1547908896065" TEXT="Devops poorly named">
+<node CREATED="1547908897223" ID="ID_607075441" MODIFIED="1547908898645" TEXT="Testing"/>
+<node CREATED="1547908899143" ID="ID_1732306336" MODIFIED="1547908902725" TEXT="Product Management"/>
+<node CREATED="1547908903193" ID="ID_1586069153" MODIFIED="1547908904995" TEXT="Security"/>
+</node>
+<node CREATED="1547908913706" ID="ID_1411190054" MODIFIED="1547908919898" TEXT="Information from security teams">
+<node CREATED="1547908920106" ID="ID_1451244920" MODIFIED="1547908921678" TEXT="Not enough"/>
+<node CREATED="1547908922366" ID="ID_1692937511" MODIFIED="1547908935028" TEXT="Developers are">
+<node CREATED="1547908935286" ID="ID_1860254314" MODIFIED="1547908941828" TEXT="not aware of top 10 threats"/>
+<node CREATED="1547908942306" ID="ID_340749419" MODIFIED="1547908949258" TEXT="not aware how to prevent them"/>
+</node>
+</node>
+<node CREATED="1547908963692" ID="ID_1268754652" MODIFIED="1547908972754" TEXT="need to integrate security practices">
+<node CREATED="1547908975242" ID="ID_1296260357" MODIFIED="1547908991154" TEXT="Through the whole software delivery lifecycle"/>
+<node CREATED="1547908997030" ID="ID_1640264018" MODIFIED="1547909004570" TEXT="... not at the end when change is more expensive"/>
+</node>
+<node CREATED="1547909010301" ID="ID_1361854438" MODIFIED="1547909016842" TEXT="Security improve performances">
+<node CREATED="1547909020118" ID="ID_332912496" MODIFIED="1547909027584" TEXT="less time spend on security issues"/>
+</node>
+<node CREATED="1547909111463" ID="ID_1818458832" MODIFIED="1547909148121" TEXT="Rugged movement">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <font size="3">I am rugged and, more importantly, my code is rugged. </font>
+      </li>
+      <li>
+        <font size="3">I recognize that software has become a foundation of our modern world. </font>
+      </li>
+      <li>
+        <font size="3">I recognize the awesome responsibility that comes with this foundational role. </font>
+      </li>
+      <li>
+        <font size="3">I recognize that my code will be used in ways I cannot anticipate, in ways it was not designed, and for longer than it was ever intended. </font>
+      </li>
+      <li>
+        <font size="3">I recognize that my code will be attacked by talented and persistent adversaries who threaten our physical, economic, and national security. </font>
+      </li>
+      <li>
+        <font size="3">I recognize these things&#8212;and I choose to be rugged. </font>
+      </li>
+      <li>
+        <font size="3">I am rugged because I refuse to be a source of vulnerability or weakness. </font>
+      </li>
+      <li>
+        <font size="3">I am rugged because I assure my code will support its mission. </font>
+      </li>
+      <li>
+        <font size="3">I am rugged because my code can face these challenges and persist in spite of them. </font>
+      </li>
+      <li>
+        <font size="3">I am rugged, not because it is easy, but because it is necessary and I am up for the challenge (Corman et al. 2012).</font>
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1547909155221" FOLDED="true" ID="ID_790657332" MODIFIED="1551381048394" TEXT="Management practices for software">
+<icon BUILTIN="full-7"/>
+<node CREATED="1547909175017" ID="ID_1316382726" MODIFIED="1547909183072" TEXT="Management in software saw a lot of changes">
+<node CREATED="1547909190413" ID="ID_1989166335" MODIFIED="1547909219136" TEXT="Project management institute">
+<icon BUILTIN="full-1"/>
+<node CREATED="1547909213624" ID="ID_1483771850" MODIFIED="1547909215956" TEXT="PRINCE2"/>
+</node>
+<node CREATED="1547909226054" ID="ID_1038077993" MODIFIED="1547909232726" TEXT="Agile (2001)">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1547909237195" ID="ID_1522664771" MODIFIED="1547909249050" TEXT="Lean movement">
+<icon BUILTIN="full-3"/>
+<node CREATED="1547909241377" ID="ID_1394897122" MODIFIED="1547909244579" TEXT="applied to software"/>
+</node>
+</node>
+<node CREATED="1547909257452" ID="ID_1568830220" MODIFIED="1547909261777" TEXT="Team management practices">
+<node CREATED="1547909273084" ID="ID_1603398765" MODIFIED="1547909312139" TEXT="Limiting work in progress">
+<icon BUILTIN="full-1"/>
+<node CREATED="1547909286205" ID="ID_1527056224" MODIFIED="1547909294383" TEXT="Using limits to">
+<node CREATED="1547909294601" ID="ID_1133966769" MODIFIED="1547909298604" TEXT="drive process improvements"/>
+<node CREATED="1547909300584" ID="ID_1598278735" MODIFIED="1547909304636" TEXT="increase throughput"/>
+</node>
+<node CREATED="1547909500438" ID="ID_1906836452" MODIFIED="1547909504540" TEXT="Limits not good">
+<node CREATED="1547909504888" ID="ID_876449667" MODIFIED="1547909509830" TEXT="if they don&apos;t lead to">
+<node CREATED="1547909510038" ID="ID_481625499" MODIFIED="1547909511700" TEXT="improvement">
+<node CREATED="1547909518008" ID="ID_1261416921" MODIFIED="1547909521210" TEXT="which increase flow"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1547909319337" ID="ID_361556067" MODIFIED="1547909444013" TEXT="Creating / maintaining visual display">
+<icon BUILTIN="full-2"/>
+<node CREATED="1547909432481" ID="ID_1683610984" MODIFIED="1547909433663" TEXT="show">
+<node CREATED="1547909358713" ID="ID_1213150783" MODIFIED="1547909365175" TEXT="Key quality metrics"/>
+<node CREATED="1547909366073" ID="ID_819538454" MODIFIED="1547909370855" TEXT="Productivity metrics"/>
+<node CREATED="1547909371663" ID="ID_864434519" MODIFIED="1547909377455" TEXT="Current status of work">
+<node CREATED="1547909377643" ID="ID_626437295" MODIFIED="1547909381155" TEXT="including defects"/>
+</node>
+</node>
+<node CREATED="1547909387346" ID="ID_801353312" MODIFIED="1547909392311" TEXT="Visual display available">
+<node CREATED="1547909392487" ID="ID_38976701" MODIFIED="1547909394343" TEXT="engineers"/>
+<node CREATED="1547909394962" ID="ID_1412636669" MODIFIED="1547909396584" TEXT="leaders"/>
+</node>
+<node CREATED="1547909407294" ID="ID_102455937" MODIFIED="1547909411623" TEXT="Aligning metrics">
+<node CREATED="1547909412379" ID="ID_1649634040" MODIFIED="1547909417215" TEXT="with operational goals"/>
+</node>
+</node>
+<node CREATED="1547909448082" ID="ID_1307793111" MODIFIED="1547909498070" TEXT="Using data from">
+<icon BUILTIN="full-3"/>
+<node CREATED="1547909452685" ID="ID_139515890" MODIFIED="1547909455717" TEXT="Application performance"/>
+<node CREATED="1547909456795" ID="ID_735582122" MODIFIED="1547909464467" TEXT="Infrastructure monitoring tools">
+<node CREATED="1547909466835" ID="ID_1411411590" MODIFIED="1547909473087" TEXT="make business decisions"/>
+<node CREATED="1547909473705" ID="ID_1468235910" MODIFIED="1547909476987" TEXT="... on daily basis"/>
+</node>
+</node>
+<node CREATED="1547909536910" ID="ID_1461450563" MODIFIED="1547909540142" TEXT="They will">
+<node CREATED="1547909540340" ID="ID_1553871142" MODIFIED="1547909550622" TEXT="Increase delivery performance"/>
+<node CREATED="1547909551841" ID="ID_712989751" MODIFIED="1547909562883" TEXT="Positive effect on team culture"/>
+</node>
+</node>
+<node CREATED="1547909572984" ID="ID_802596776" MODIFIED="1547909583078" TEXT="Implement a lightweight change management process">
+<node CREATED="1547909585607" ID="ID_1554424797" MODIFIED="1547909589101" TEXT="4 scenarios">
+<node CREATED="1547909596459" ID="ID_342968268" MODIFIED="1547909814212" TEXT="Prod changes needs approval from external">
+<icon BUILTIN="full-1"/>
+<node CREATED="1547909815711" ID="ID_1060669895" MODIFIED="1547909820131" TEXT="management / CAB"/>
+<node CREATED="1547909820632" ID="ID_147439951" MODIFIED="1547909823748" TEXT="... doesn&apos;t work"/>
+<node CREATED="1547909824183" ID="ID_1217168026" MODIFIED="1547909831631" TEXT="... brings worst delivery performance"/>
+</node>
+<node CREATED="1547909621080" ID="ID_1881912652" MODIFIED="1547909645627" TEXT="Only high risk change require approval">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1547909630362" ID="ID_1641340390" MODIFIED="1547909647367" TEXT="Rely on peer review to manage change">
+<icon BUILTIN="full-3"/>
+<node CREATED="1547909667848" ID="ID_249519481" MODIFIED="1547909674850" TEXT="Higher delivery perfomance"/>
+</node>
+<node CREATED="1547909653195" ID="ID_351997274" MODIFIED="1547909662348" TEXT="No change approval process">
+<icon BUILTIN="full-4"/>
+<node CREATED="1547909667848" ID="ID_1123607792" MODIFIED="1547909674850" TEXT="Higher delivery perfomance"/>
+</node>
+</node>
+<node CREATED="1547909785630" ID="ID_902014998" MODIFIED="1547909788002" TEXT="Recommendation">
+<node CREATED="1547909842682" ID="ID_1725326655" MODIFIED="1547909853814" TEXT="Lightweight change approval process">
+<node CREATED="1547909854162" ID="ID_149397653" MODIFIED="1547909859134" TEXT="Pair programming"/>
+<node CREATED="1547909859743" ID="ID_1516616849" MODIFIED="1547909864235" TEXT="Intrateam">
+<node CREATED="1547909868255" ID="ID_370750143" MODIFIED="1547909870699" TEXT="code review"/>
+</node>
+</node>
+<node CREATED="1547909873987" ID="ID_1677379823" MODIFIED="1547909879779" TEXT="Deployment pipeline">
+<node CREATED="1547909883887" ID="ID_1610251946" MODIFIED="1547909891409" TEXT="Detect / reject bad changes"/>
+</node>
+<node CREATED="1547909898857" ID="ID_1954850104" MODIFIED="1547909934954" TEXT="Apply for all kinds of changes">
+<node CREATED="1547909904157" ID="ID_424064142" MODIFIED="1547909905219" TEXT="Code"/>
+<node CREATED="1547909905827" ID="ID_81573371" MODIFIED="1547909909189" TEXT="Infrastructure"/>
+<node CREATED="1547909909647" ID="ID_396983678" MODIFIED="1547909917432" TEXT="Database"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1547909944007" FOLDED="true" ID="ID_563289110" MODIFIED="1551381090077" TEXT="Production development">
+<icon BUILTIN="full-8"/>
+<node CREATED="1547909959233" ID="ID_1584627315" MODIFIED="1547909964955" TEXT="Lean">
+<node CREATED="1547909965133" ID="ID_1020927344" MODIFIED="1547909969265" TEXT="Experimental approach">
+<node CREATED="1547909969493" ID="ID_966803499" MODIFIED="1547909971845" TEXT="to development"/>
+</node>
+<node CREATED="1547910036949" ID="ID_1102132287" MODIFIED="1547910045442" TEXT="Building / validating prototype"/>
+<node CREATED="1547910046640" ID="ID_1717517346" MODIFIED="1547910053432" TEXT="Working in small batches"/>
+<node CREATED="1547910053950" ID="ID_824005401" MODIFIED="1547910061290" TEXT="Evolving / pivoting">
+<node CREATED="1547910061597" ID="ID_931785723" MODIFIED="1547910063236" TEXT="products"/>
+<node CREATED="1547910063904" ID="ID_1254822513" MODIFIED="1547910066756" TEXT="business models"/>
+</node>
+</node>
+<node CREATED="1547910073042" ID="ID_145789953" MODIFIED="1547910225601" TEXT="Lean development practices">
+<node CREATED="1547910101911" ID="ID_1386939997" MODIFIED="1547910139256" TEXT="Slice up for teams">
+<icon BUILTIN="full-1"/>
+<node CREATED="1547910112611" ID="ID_429644061" MODIFIED="1547910115603" TEXT="products"/>
+<node CREATED="1547910116251" ID="ID_604067048" MODIFIED="1547910118273" TEXT="features"/>
+<node CREATED="1547910123391" ID="ID_1336490631" MODIFIED="1547910125913" TEXT="... into">
+<node CREATED="1547910126151" ID="ID_973996020" MODIFIED="1547910128053" TEXT="small batches"/>
+<node CREATED="1547910128621" ID="ID_539953942" MODIFIED="1547910131053" TEXT="MVP"/>
+</node>
+</node>
+<node CREATED="1547910142504" ID="ID_1900597642" MODIFIED="1547910157706" TEXT="Team good understanding">
+<icon BUILTIN="full-2"/>
+<node CREATED="1547910161395" ID="ID_533977623" MODIFIED="1547910163469" TEXT="Business"/>
+<node CREATED="1547910163897" ID="ID_1479286477" MODIFIED="1547910165649" TEXT="Customer"/>
+<node CREATED="1547910170367" ID="ID_185812464" MODIFIED="1550995470218" TEXT="Status">
+<node CREATED="1547910177827" ID="ID_1818500234" MODIFIED="1547910179289" TEXT="Product"/>
+<node CREATED="1547910179717" ID="ID_681941417" MODIFIED="1547910181769" TEXT="Features"/>
+</node>
+</node>
+<node CREATED="1547910185618" ID="ID_637738087" MODIFIED="1547910215393" TEXT="Organisation seeks">
+<icon BUILTIN="full-3"/>
+<node CREATED="1547910197052" ID="ID_1632734881" MODIFIED="1547910203424" TEXT="customer feedbacks">
+<node CREATED="1547910203692" ID="ID_759094044" MODIFIED="1547910212592" TEXT="incorporate into product design"/>
+</node>
+</node>
+<node CREATED="1547910225602" ID="ID_196531833" MODIFIED="1547910294807" TEXT="Development team has authority">
+<icon BUILTIN="full-4"/>
+<node CREATED="1547910261481" ID="ID_1059228934" MODIFIED="1547910265723" TEXT="about specs">
+<node CREATED="1547910241808" ID="ID_1170210804" MODIFIED="1547910243080" TEXT="create "/>
+<node CREATED="1547910243588" ID="ID_1149734929" MODIFIED="1547910248470" TEXT="change"/>
+<node CREATED="1547910280314" ID="ID_1895611116" MODIFIED="1547910283916" TEXT="... without approval"/>
+<node CREATED="1547910285234" ID="ID_1528058248" MODIFIED="1547910292046" TEXT="... part of development process"/>
+</node>
+<node CREATED="1547910298617" ID="ID_1608107448" MODIFIED="1547910308821" TEXT="Important for improving">
+<node CREATED="1547910309019" ID="ID_1254241810" MODIFIED="1547910315481" TEXT="Delivery"/>
+<node CREATED="1547910315979" ID="ID_916450767" MODIFIED="1547910323031" TEXT="Organisational performance"/>
+</node>
+<node CREATED="1547910355388" ID="ID_1506649120" MODIFIED="1547910361510" TEXT="Actively seeking customer insights">
+<node CREATED="1547910363578" ID="ID_1382358197" MODIFIED="1547910367900" TEXT="A / B testing"/>
+<node CREATED="1547910370978" ID="ID_1296201298" MODIFIED="1547910378180" TEXT="Metrics on customer satisfactions"/>
+</node>
+</node>
+</node>
+<node CREATED="1547910408019" ID="ID_1341953177" MODIFIED="1547910413631" TEXT="Team experimentations">
+<node CREATED="1547910418169" ID="ID_732428269" MODIFIED="1547910424091" TEXT="Ability for team to">
+<node CREATED="1547910424279" ID="ID_38107402" MODIFIED="1547910429191" TEXT="Try out new ideas"/>
+<node CREATED="1547910429929" ID="ID_728630840" MODIFIED="1547910543456" TEXT="Create and update specs">
+<node CREATED="1547910543904" ID="ID_385728457" MODIFIED="1547910550606" TEXT="during development process"/>
+<node CREATED="1547910555224" ID="ID_1271603511" MODIFIED="1547910560886" TEXT="without approval outside teams"/>
+<node CREATED="1547910570484" ID="ID_476404332" MODIFIED="1547910574076" TEXT="factor to predict">
+<node CREATED="1547910574324" ID="ID_787913114" MODIFIED="1547910578256" TEXT="profitability"/>
+<node CREATED="1547910578744" ID="ID_208704525" MODIFIED="1547910583346" TEXT="productivity"/>
+<node CREATED="1547910583784" ID="ID_192868322" MODIFIED="1547910585816" TEXT="market share"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1547910624370" ID="ID_1825315777" MODIFIED="1547910820636" TEXT="Effective product management drives performance">
+<node CREATED="1547910844647" FOLDED="true" ID="ID_367434479" MODIFIED="1547910855449" TEXT="impact lean performance">
+<icon BUILTIN="licq"/>
+<node CREATED="1547910833507" ID="ID_805722764" MODIFIED="1547910841779">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="impact_lean_product_management.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1547910879085" FOLDED="true" ID="ID_1003076699" MODIFIED="1551380343012" TEXT="Making work sustainable">
+<icon BUILTIN="full-9"/>
+<node CREATED="1547910895526" ID="ID_1475271621" MODIFIED="1547910897400" TEXT="Study on">
+<node CREATED="1547910897688" ID="ID_1329269711" MODIFIED="1547910900770" TEXT="deployment pain"/>
+<node CREATED="1547910901268" ID="ID_615522843" MODIFIED="1547910902890" TEXT="burnout"/>
+</node>
+<node CREATED="1547910906739" ID="ID_869437493" MODIFIED="1547910910123" TEXT="Deployment pain">
+<node CREATED="1547911012408" ID="ID_1005513715" MODIFIED="1547911025393" TEXT="very important for">
+<node CREATED="1547911025591" ID="ID_1986617165" MODIFIED="1547911028633" TEXT="Delivery performances"/>
+<node CREATED="1547911029021" ID="ID_718071717" MODIFIED="1547911031283" TEXT="Organisation"/>
+<node CREATED="1547911031781" ID="ID_157599338" MODIFIED="1547911034333" TEXT="Culture"/>
+</node>
+<node CREATED="1547911059164" ID="ID_916195729" MODIFIED="1547911081136" TEXT="improving software delivery reduce">
+<node CREATED="1547911073744" ID="ID_1642834929" MODIFIED="1547911084246" TEXT="stress"/>
+<node CREATED="1547911077474" ID="ID_1444833477" MODIFIED="1547911088296" TEXT="anxiety"/>
+</node>
+<node CREATED="1547911102177" ID="ID_616167096" MODIFIED="1547911105749" TEXT="technical practices">
+<node CREATED="1547911106067" ID="ID_1720261087" MODIFIED="1550995510488" TEXT="trunk based development">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1547911277804" ID="ID_503134450" MODIFIED="1550995512855" TEXT="shift left on security">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1547911284004" ID="ID_1547293039" MODIFIED="1550995514798" TEXT="effective test data management">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1547911290857" ID="ID_935260880" MODIFIED="1550995520670" TEXT="loosely coupled architectures">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1547911299440" ID="ID_369341096" MODIFIED="1550995522983" TEXT="team independents">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+<node CREATED="1547911314586" ID="ID_1538532641" MODIFIED="1547911321630" TEXT="3 usual factor of wrong deployment processes">
+<node CREATED="1547911325398" ID="ID_835202509" MODIFIED="1547911391046" TEXT="Software not written with deployability in mind">
+<icon BUILTIN="full-1"/>
+<node CREATED="1547911359861" ID="ID_1932406472" MODIFIED="1547911371023" TEXT="software expect strict / specific config"/>
+</node>
+<node CREATED="1547911380474" ID="ID_1900636629" MODIFIED="1547911417479" TEXT="Manual change to prod needed">
+<icon BUILTIN="full-2"/>
+<node CREATED="1547911403157" ID="ID_1896186158" MODIFIED="1547911408659" TEXT="as part of deployment process"/>
+</node>
+<node CREATED="1547911425560" ID="ID_244815006" MODIFIED="1547911445562" TEXT="Complex deployment require hand off between teams">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1547911453333" ID="ID_910147876" MODIFIED="1547911460775" TEXT="To reduce deployment pain">
+<node CREATED="1547911466224" ID="ID_1142510585" MODIFIED="1547911471598" TEXT="System designed to">
+<node CREATED="1547911472106" ID="ID_826323268" MODIFIED="1547911477958" TEXT="be deployed in multiple environment"/>
+<node CREATED="1547911518200" ID="ID_1664326123" MODIFIED="1547911523884" TEXT="can detect and tolerate failures"/>
+<node CREATED="1547911527613" ID="ID_794352511" MODIFIED="1547911532957" TEXT="can have various components">
+<node CREATED="1547911533485" ID="ID_230162897" MODIFIED="1547911541217" TEXT="updated separately"/>
+</node>
+</node>
+<node CREATED="1547911554178" ID="ID_1547766286" MODIFIED="1547911557660" TEXT="State of production">
+<node CREATED="1547911562178" ID="ID_1203019356" MODIFIED="1547911567300" TEXT="System can be reproduced">
+<node CREATED="1547911567478" ID="ID_1919150903" MODIFIED="1547911569500" TEXT="automatically"/>
+<node CREATED="1547911570038" ID="ID_1050932781" MODIFIED="1547911575540" TEXT="... except data"/>
+</node>
+</node>
+<node CREATED="1547911621773" ID="ID_1871728094" MODIFIED="1547911624585" TEXT="Build intelligence">
+<node CREATED="1547911629783" ID="ID_843725627" MODIFIED="1547911638356" TEXT="in">
+<node CREATED="1547911638574" ID="ID_1106426760" MODIFIED="1547911639269" TEXT="app"/>
+<node CREATED="1547911640847" ID="ID_849729646" MODIFIED="1547911644989" TEXT="platform"/>
+</node>
+<node CREATED="1547911624883" ID="ID_1933592199" MODIFIED="1547911650619" TEXT="...for simple deployment process"/>
+</node>
+</node>
+</node>
+<node CREATED="1547911657260" ID="ID_797039624" MODIFIED="1547911723153" TEXT="Burnout">
+<node CREATED="1547911723153" ID="ID_1127301335" MODIFIED="1547911725263" TEXT="Definition">
+<node CREATED="1547911688403" ID="ID_1499690595" MODIFIED="1547911692355" TEXT="Exhaustion">
+<node CREATED="1547911692553" ID="ID_1642096461" MODIFIED="1547911695235" TEXT="Physical"/>
+<node CREATED="1547911695783" ID="ID_275591135" MODIFIED="1547911697145" TEXT="Mental"/>
+<node CREATED="1547911697613" ID="ID_1137946278" MODIFIED="1547911699216" TEXT="Emotional"/>
+</node>
+<node CREATED="1547911702886" ID="ID_1151230210" MODIFIED="1547911706100" TEXT="Caused by">
+<node CREATED="1547911706328" ID="ID_898793392" MODIFIED="1547911710750" TEXT="Overwork"/>
+<node CREATED="1547911711228" ID="ID_1301650268" MODIFIED="1547911712450" TEXT="Stress"/>
+</node>
+<node CREATED="1547911715819" ID="ID_797454364" MODIFIED="1547911721323" TEXT="Feeling of helplessness"/>
+</node>
+<node CREATED="1547911753854" ID="ID_568778293" MODIFIED="1547911757356" TEXT="Devops can assure">
+<node CREATED="1547911760514" ID="ID_1779055277" MODIFIED="1547911768716" TEXT="meaningfully work"/>
+<node CREATED="1547911774387" ID="ID_1689744480" MODIFIED="1547911805269" TEXT="employee understand how their work">
+<node CREATED="1547911805447" ID="ID_1162170237" MODIFIED="1547911810969" TEXT="ties to strategy objectives"/>
+</node>
+</node>
+<node CREATED="1547911989419" ID="ID_830783163" MODIFIED="1547911992301" TEXT="To prevent burnout">
+<node CREATED="1547911840593" ID="ID_1974327583" MODIFIED="1547911845925" TEXT="Working environment">
+<node CREATED="1547911846153" ID="ID_1715619370" MODIFIED="1547911851105" TEXT="Learning from failure"/>
+<node CREATED="1547911851503" ID="ID_1290232935" MODIFIED="1547911856515" TEXT="NOT blaming!"/>
+</node>
+<node CREATED="1547911864136" ID="ID_1217324154" MODIFIED="1547911873236" TEXT="Need time to">
+<node CREATED="1547911873237" ID="ID_1315880696" MODIFIED="1547911877838" TEXT="experiment"/>
+<node CREATED="1547911878326" ID="ID_1529468328" MODIFIED="1547911880288" TEXT="learn"/>
+</node>
+<node CREATED="1547911887329" ID="ID_786774158" MODIFIED="1547911892371" TEXT="Freedom to take decisions"/>
+<node CREATED="1547911978629" ID="ID_461668292" MODIFIED="1547911987961" TEXT="Communicating a strong sense of purpose"/>
+<node CREATED="1547912006572" ID="ID_1124928900" MODIFIED="1547912010934" TEXT="Investing in employee development"/>
+<node CREATED="1547912016845" ID="ID_972735904" MODIFIED="1550995792335" TEXT="Asking employee what lead to that (root cause)">
+<node CREATED="1547912026236" ID="ID_1369437263" MODIFIED="1547912027898" TEXT="and fix it"/>
+<node CREATED="1550995778476" ID="ID_1159873628" MODIFIED="1550995785502" TEXT="... not fixing the employee!"/>
+</node>
+</node>
+<node CREATED="1547911818210" ID="ID_1248627642" MODIFIED="1547911821202" TEXT="If burnout">
+<node CREATED="1547911821390" ID="ID_556483954" MODIFIED="1547911824312" TEXT="Fix environment"/>
+<node CREATED="1547911824800" ID="ID_255345115" MODIFIED="1547911828152" TEXT="not only employee"/>
+</node>
+</node>
+<node CREATED="1547912036209" FOLDED="true" ID="ID_967748420" MODIFIED="1547912303164" TEXT="Common problem leading to Burnout">
+<node CREATED="1547912108102" ID="ID_1354559281" MODIFIED="1547912111304" TEXT="Work overload"/>
+<node CREATED="1547912111843" ID="ID_1478994205" MODIFIED="1547912113715" TEXT="Lack of control">
+<node CREATED="1547912168042" ID="ID_1511477951" MODIFIED="1547912176694" TEXT="inability to influence decision that affect your job"/>
+</node>
+<node CREATED="1547912114333" ID="ID_86244338" MODIFIED="1547912119545" TEXT="Insufficient rewards"/>
+<node CREATED="1547912121093" ID="ID_1628400165" MODIFIED="1547912125068" TEXT="Breakdown of community">
+<node CREATED="1547912132069" ID="ID_446698283" MODIFIED="1547912142614" TEXT="unsupportive workplace environment"/>
+</node>
+<node CREATED="1547912126196" ID="ID_694491381" MODIFIED="1547912129834" TEXT="Absence of fairness"/>
+<node CREATED="1547912145744" ID="ID_658005418" MODIFIED="1547912149888" TEXT="Value conflicts">
+<node CREATED="1547912156469" ID="ID_216448835" MODIFIED="1547912158101" TEXT="between">
+<node CREATED="1547912158299" ID="ID_1951027588" MODIFIED="1547912159591" TEXT="company"/>
+<node CREATED="1547912160019" ID="ID_342035508" MODIFIED="1547912162591" TEXT="individual"/>
+</node>
+</node>
+</node>
+<node CREATED="1547912293752" ID="ID_933357774" MODIFIED="1547912301984" TEXT="How to reduce or fight burnout">
+<node CREATED="1547912313415" ID="ID_1560447455" MODIFIED="1547912446241" TEXT="Organisational culture">
+<icon BUILTIN="full-1"/>
+<node CREATED="1547912347031" ID="ID_189303644" MODIFIED="1547912352503" TEXT="Blame free environment"/>
+<node CREATED="1547912355122" ID="ID_749891687" MODIFIED="1547912362948" TEXT="Learn from failure"/>
+<node CREATED="1547912403329" ID="ID_1509191812" MODIFIED="1547912412011" TEXT="Shared sens of purpose"/>
+<node CREATED="1547912412789" ID="ID_737190529" MODIFIED="1547912419984" TEXT="Human error">
+<node CREATED="1547912420362" ID="ID_75445581" MODIFIED="1547912424815" TEXT="never the root cause of failure">
+<node CREATED="1547912425013" ID="ID_255463692" MODIFIED="1547912426965" TEXT="in a system!"/>
+</node>
+</node>
+</node>
+<node CREATED="1547912447289" ID="ID_1645828754" MODIFIED="1547912452931" TEXT="Deployment pain">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1547912456330" ID="ID_125660588" MODIFIED="1547912463664" TEXT="Effectiveness of leaders">
+<icon BUILTIN="full-3"/>
+<node CREATED="1547912466533" ID="ID_1112677949" MODIFIED="1547912469615" TEXT="Team leader needs">
+<node CREATED="1547912469813" ID="ID_188786085" MODIFIED="1547912475427" TEXT="limiting work in progress"/>
+<node CREATED="1547912477055" ID="ID_616042" MODIFIED="1547912483860" TEXT="Eliminating roadblocks">
+<node CREATED="1547912486219" ID="ID_110114540" MODIFIED="1547912489253" TEXT="for team to progress"/>
+</node>
+</node>
+</node>
+<node CREATED="1547912494372" ID="ID_360302470" MODIFIED="1547912557420" TEXT="Organisational investment in devops">
+<icon BUILTIN="full-4"/>
+<node CREATED="1547912504204" ID="ID_1784253776" MODIFIED="1547912507557" TEXT="Investing in training"/>
+<node CREATED="1547912513157" ID="ID_655897410" MODIFIED="1547912522462" TEXT="Provide necessary support and resources">
+<node CREATED="1547912525121" ID="ID_1932327424" MODIFIED="1547912527873" TEXT="time included!"/>
+</node>
+</node>
+<node CREATED="1547912536965" ID="ID_1193166976" MODIFIED="1547912559590" TEXT="Organisational performances">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+</node>
+<node CREATED="1547912622966" FOLDED="true" ID="ID_558527239" MODIFIED="1551381149627" TEXT="Employee satisfaction, identity and engagement">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-0"/>
+<node CREATED="1547912647088" ID="ID_1381750750" MODIFIED="1547912648300" TEXT="People">
+<node CREATED="1547912651490" ID="ID_1480569164" MODIFIED="1547912659142" TEXT="Heart of every tech transformation"/>
+<node CREATED="1547912664041" ID="ID_147707757" MODIFIED="1547912668545" TEXT="Importance of workforce">
+<node CREATED="1547912669195" ID="ID_208142325" MODIFIED="1550995820283" TEXT="very high!!!">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1547912677404" ID="ID_1860741105" MODIFIED="1547912686178" TEXT="Employee loyalty">
+<node CREATED="1547982184723" ID="ID_1971201224" MODIFIED="1547982187446" TEXT="NPS">
+<node CREATED="1547982187689" ID="ID_516915344" MODIFIED="1547982196309" TEXT="Net Promoter Score"/>
+<node CREATED="1547982199529" ID="ID_1181984000" MODIFIED="1547982203516" TEXT="High performers">
+<node CREATED="1547982203769" ID="ID_1540881203" MODIFIED="1547982208798" TEXT="Better employee loyalty">
+<node CREATED="1547982209049" ID="ID_577248996" MODIFIED="1547982211078" TEXT="eNPS"/>
+</node>
+</node>
+<node CREATED="1547982228761" ID="ID_1004346506" MODIFIED="1547982260125" TEXT="Question">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      How likely&#160;&#160;is it that you would recommend our company / product / service to a friend / colleague?
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1547982271751" ID="ID_1218651438" MODIFIED="1547982282108" TEXT="Scale 0-10">
+<node CREATED="1547982283511" ID="ID_1157691139" MODIFIED="1547982287213" TEXT="9-10">
+<node CREATED="1547982287544" ID="ID_1680751304" MODIFIED="1547982290428" TEXT="Promoters">
+<node CREATED="1547982290696" ID="ID_1486387566" MODIFIED="1547982292661" TEXT="Buy more"/>
+<node CREATED="1547982293199" ID="ID_1203482686" MODIFIED="1547982294621" TEXT="Cost less"/>
+<node CREATED="1547982295384" ID="ID_815235690" MODIFIED="1547982301621" TEXT="Stay longer"/>
+<node CREATED="1547982302119" ID="ID_613879315" MODIFIED="1547982308541" TEXT="positive word of mouth"/>
+</node>
+</node>
+<node CREATED="1547982310719" ID="ID_1692379977" MODIFIED="1547982313836" TEXT="7-8">
+<node CREATED="1547982314087" ID="ID_522170272" MODIFIED="1547982315589" TEXT="Passives">
+<node CREATED="1547982317064" ID="ID_1757472011" MODIFIED="1547982319411" TEXT="Satisfied"/>
+<node CREATED="1547982320167" ID="ID_460420897" MODIFIED="1547982325179" TEXT="Less enthusiastic"/>
+<node CREATED="1547982325672" ID="ID_370255044" MODIFIED="1547982334868" TEXT="Less likely for referral"/>
+<node CREATED="1547982335358" ID="ID_261964062" MODIFIED="1547982341595" TEXT="More likely to defect"/>
+</node>
+</node>
+<node CREATED="1547982342878" ID="ID_1627065263" MODIFIED="1547982346071" TEXT="0-6">
+<node CREATED="1547982346072" ID="ID_914376734" MODIFIED="1547982348980" TEXT="Detractors">
+<node CREATED="1547982349504" ID="ID_1490819794" MODIFIED="1547982368227" TEXT="More expensive to">
+<node CREATED="1547982365487" ID="ID_117726911" MODIFIED="1547982370404" TEXT="acquire"/>
+<node CREATED="1547982370847" ID="ID_1122027098" MODIFIED="1547982371954" TEXT="retain"/>
+</node>
+<node CREATED="1547982374455" ID="ID_267369862" MODIFIED="1547982376635" TEXT="Defect faster"/>
+<node CREATED="1547982379583" ID="ID_255098268" MODIFIED="1547982391116" TEXT="Can hurt business"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1547982406663" ID="ID_1753334892" MODIFIED="1547982416220" TEXT="Can be asked about organization or team"/>
+<node CREATED="1547982428253" ID="ID_982049934" MODIFIED="1547982437243" TEXT="Correlated to">
+<node CREATED="1547982438726" ID="ID_355499474" MODIFIED="1547982450828" TEXT="Extend the organisation"/>
+<node CREATED="1547982451359" ID="ID_1556038406" MODIFIED="1547982456500" TEXT="Collect customer feedbacks"/>
+<node CREATED="1547982459286" ID="ID_1536621683" MODIFIED="1547982464339" TEXT="Use it to improve products"/>
+</node>
+</node>
+</node>
+<node CREATED="1547982498398" ID="ID_377243984" MODIFIED="1547982517282" TEXT="How devops contribute to job satisfaction?">
+<node CREATED="1547982520125" ID="ID_742416275" MODIFIED="1547982531409" TEXT="First and foremost about culture"/>
+<node CREATED="1547982538711" ID="ID_1854085390" MODIFIED="1547982544700" TEXT="Depends strongly on having right">
+<node CREATED="1547982544886" ID="ID_622365816" MODIFIED="1547982545978" TEXT="tools"/>
+<node CREATED="1547982546421" ID="ID_781650079" MODIFIED="1547982548418" TEXT="resources"/>
+</node>
+<node CREATED="1547982553509" ID="ID_1972473175" MODIFIED="1547982559873" TEXT="Devops technical practices">
+<node CREATED="1547982560029" ID="ID_229242646" MODIFIED="1547982565146" TEXT="job satisfaction"/>
+<node CREATED="1547982568878" ID="ID_825923311" MODIFIED="1547982573715" TEXT="automation of boring tasks"/>
+</node>
+</node>
+<node CREATED="1547982579126" ID="ID_832226842" MODIFIED="1547982586538" TEXT="Diversity in tech: what our research found">
+<node CREATED="1547982590229" ID="ID_1294433072" MODIFIED="1547982598123" TEXT="Diversity matters">
+<node CREATED="1547982598462" ID="ID_276685663" MODIFIED="1547982612827" TEXT="Teams with different">
+<node CREATED="1547982604652" ID="ID_776415581" MODIFIED="1547982617867" TEXT="genders"/>
+<node CREATED="1547982618340" ID="ID_419271484" MODIFIED="1547982622729" TEXT="minorities"/>
+</node>
+<node CREATED="1547982646596" ID="ID_4823925" MODIFIED="1547982652633" TEXT="... are smarter">
+<node CREATED="1547982659556" ID="ID_768745049" MODIFIED="1547982669689" TEXT="achieve better">
+<node CREATED="1547982669932" ID="ID_150287896" MODIFIED="1547982672449" TEXT="performances"/>
+<node CREATED="1547982672870" ID="ID_167287147" MODIFIED="1547982674337" TEXT=" business outcome"/>
+</node>
+</node>
+</node>
+<node CREATED="1547982691973" ID="ID_1993804064" MODIFIED="1547982695320" TEXT="Diversity not enough">
+<node CREATED="1547982696293" ID="ID_2631239" MODIFIED="1547982712705" TEXT="Team / organisation must be inclusive"/>
+<node CREATED="1547982713228" ID="ID_903830565" MODIFIED="1547982717633" TEXT="Members fell">
+<node CREATED="1547982717811" ID="ID_1012397005" MODIFIED="1547982719313" TEXT="welcome"/>
+<node CREATED="1547982719941" ID="ID_71552301" MODIFIED="1547982724864" TEXT="valuable"/>
+</node>
+<node CREATED="1547982727037" ID="ID_1889427746" MODIFIED="1547982736464" TEXT="... for who they are">
+<node CREATED="1547982736765" ID="ID_324467145" MODIFIED="1547982741409" TEXT="and what they bring"/>
+</node>
+</node>
+</node>
+<node CREATED="1547982873339" ID="ID_99284813" MODIFIED="1547982877478" TEXT="Women in devops">
+<node CREATED="1547982877666" FOLDED="true" ID="ID_443307671" MODIFIED="1551381139409" TEXT="Gender diversity">
+<icon BUILTIN="licq"/>
+<node CREATED="1547982898027" ID="ID_55839872" MODIFIED="1547982902186">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="women_in_tech.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1547982924011" ID="ID_428136877" MODIFIED="1547982931847" TEXT="Unrepresented minorities in devops">
+<node CREATED="1547982932082" FOLDED="true" ID="ID_1292205479" MODIFIED="1550995856981" TEXT="Diversity">
+<icon BUILTIN="licq"/>
+<node CREATED="1547982974426" ID="ID_1296503232" MODIFIED="1547982978910">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="minorities_in_tech.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1547983033129" ID="ID_1561359750" MODIFIED="1547983043165" TEXT="What research tells us about diversity">
+<node CREATED="1547983050450" ID="ID_1280707058" MODIFIED="1547983055191" TEXT="Belief that men are better in tech"/>
+<node CREATED="1547983056922" ID="ID_193025106" MODIFIED="1547983071009" TEXT="Harassment"/>
+<node CREATED="1547983073258" ID="ID_1530453347" MODIFIED="1547983087545" TEXT="Micro aggressions"/>
+<node CREATED="1547983078970" ID="ID_74276657" MODIFIED="1547983082958" TEXT="Unequal pay"/>
+</node>
+<node CREATED="1547983093538" ID="ID_178775478" MODIFIED="1547983095934" TEXT="What we can do">
+<node CREATED="1547983099097" ID="ID_350295266" MODIFIED="1547983104309" TEXT="Anita Borg Institute"/>
+<node CREATED="1547983104802" ID="ID_1464075490" MODIFIED="1547983108941" TEXT="Geek Feminism"/>
+<node CREATED="1547983109817" ID="ID_1817527102" MODIFIED="1547983112421" TEXT="Project include"/>
+</node>
+</node>
+<node CREATED="1547983119930" FOLDED="true" ID="ID_940831926" MODIFIED="1551381414953" TEXT="Leaders and managers">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1547983220344" ID="ID_354658495" MODIFIED="1547983781905" TEXT="Overlooked in DevOps"/>
+<node CREATED="1547983166944" ID="ID_1766777613" MODIFIED="1547983172093" TEXT="Powerful impact on results"/>
+<node CREATED="1547983172777" ID="ID_648751641" MODIFIED="1547983181949" TEXT="For people around">
+<node CREATED="1547983182152" ID="ID_1222828844" MODIFIED="1547983185694" TEXT="Inspiring"/>
+<node CREATED="1547983186217" ID="ID_1472197403" MODIFIED="1547983188636" TEXT="Motivating"/>
+</node>
+<node CREATED="1547983191649" ID="ID_484686861" MODIFIED="1547983193949" TEXT="Good leader">
+<node CREATED="1547983194169" ID="ID_1142571655" MODIFIED="1547983199613" TEXT="Affect team ability to deliver code"/>
+<node CREATED="1547983200249" ID="ID_364677458" MODIFIED="1547983205532" TEXT="Architect good system"/>
+<node CREATED="1547983206153" ID="ID_1655335809" MODIFIED="1547983213340" TEXT="Apply lean principles"/>
+</node>
+<node CREATED="1547983230105" ID="ID_507107995" MODIFIED="1547983373452" TEXT="Transformational leadership ">
+<node CREATED="1547983374567" ID="ID_662682209" MODIFIED="1547983375972" TEXT="essential for">
+<node CREATED="1547983250695" FOLDED="true" ID="ID_1923116986" MODIFIED="1550995906732" TEXT="High trust cultural norms">
+<node CREATED="1547983256360" ID="ID_1636836768" MODIFIED="1547983259852" TEXT="Establishing"/>
+<node CREATED="1547983260313" ID="ID_624775210" MODIFIED="1547983262117" TEXT="Supporting"/>
+<node CREATED="1547983262568" ID="ID_972663834" MODIFIED="1547983265835" TEXT="Generative"/>
+</node>
+<node CREATED="1547983271591" FOLDED="true" ID="ID_58274879" MODIFIED="1550995914636" TEXT="Create tech">
+<node CREATED="1547983273871" FOLDED="true" ID="ID_886734465" MODIFIED="1550995913676" TEXT="enable better dev productivity">
+<node CREATED="1547983283647" ID="ID_1947388615" MODIFIED="1547983290597" TEXT="Reducing deployment lead time"/>
+<node CREATED="1547983307495" FOLDED="true" ID="ID_829905940" MODIFIED="1550995911972" TEXT="Supporting">
+<node CREATED="1547983318918" MODIFIED="1547983318918" TEXT="more reliable infrastructure"/>
+<node CREATED="1547983323216" ID="ID_1530095816" MODIFIED="1547983328803" TEXT="team experimentations"/>
+<node CREATED="1547983329286" ID="ID_1659164032" MODIFIED="1547983332148" TEXT="innovations"/>
+</node>
+<node CREATED="1547983340774" FOLDED="true" ID="ID_1573305429" MODIFIED="1550995912740" TEXT="Creating product">
+<node CREATED="1547983352327" ID="ID_231440061" MODIFIED="1547983353459" TEXT="better"/>
+<node CREATED="1547983353944" ID="ID_1665016003" MODIFIED="1547983355349" TEXT="faster"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1547983378535" ID="ID_802731508" MODIFIED="1547983546765" TEXT="5 characteristics">
+<node CREATED="1547983385848" ID="ID_1009771872" MODIFIED="1547983391110" TEXT="Vision">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1547983391558" ID="ID_1638851922" MODIFIED="1547983401795" TEXT="Clear vision where organisation is going"/>
+<node CREATED="1547983402263" ID="ID_1605278043" MODIFIED="1550995920836" TEXT="Where the organisation should be">
+<node CREATED="1547983409407" ID="ID_194541323" MODIFIED="1547983411988" TEXT="in 5 years"/>
+</node>
+</node>
+<node CREATED="1547983413215" ID="ID_1685471413" MODIFIED="1547983437109" TEXT="Inspirational communication">
+<icon BUILTIN="full-2"/>
+<node CREATED="1547983427047" ID="ID_1287325267" MODIFIED="1547983428876" TEXT="motivate"/>
+<node CREATED="1547983429391" ID="ID_973669330" MODIFIED="1547983434724" TEXT="... even in uncertain environment"/>
+</node>
+<node CREATED="1547983441423" ID="ID_403926884" MODIFIED="1547983549948" TEXT="Intellectual stimulation">
+<icon BUILTIN="full-3"/>
+<node CREATED="1547983450454" ID="ID_1603487830" MODIFIED="1547983454283" TEXT="Challenge followers"/>
+<node CREATED="1547983454766" ID="ID_973108685" MODIFIED="1547983465795" TEXT="... to think about problems">
+<node CREATED="1547983466046" ID="ID_920969869" MODIFIED="1547983467995" TEXT="in new ways"/>
+</node>
+</node>
+<node CREATED="1547983472173" ID="ID_333904041" MODIFIED="1547983552124" TEXT="Supportive leadership">
+<icon BUILTIN="full-4"/>
+<node CREATED="1547983483542" ID="ID_1455955764" MODIFIED="1547983490683" TEXT="Followers personal needs">
+<node CREATED="1547983490894" ID="ID_787638007" MODIFIED="1547983491818" TEXT="Care"/>
+<node CREATED="1547983493781" ID="ID_1866848445" MODIFIED="1547983495883" TEXT="Consideration"/>
+</node>
+</node>
+<node CREATED="1547983499126" ID="ID_700491825" MODIFIED="1547983554100" TEXT="Personal recognition">
+<icon BUILTIN="full-5"/>
+<node CREATED="1547983512614" ID="ID_751436059" MODIFIED="1547983519281" TEXT="Praise / acknowledge">
+<node CREATED="1547983519494" ID="ID_582164963" MODIFIED="1547983523154" TEXT="achievements of goals"/>
+<node CREATED="1547983525254" ID="ID_675938865" MODIFIED="1547983535196" TEXT="personally compliments others"/>
+</node>
+</node>
+<node CREATED="1547983546766" ID="ID_350361424" MODIFIED="1547983560994" TEXT="High performance team">
+<node CREATED="1547983561197" ID="ID_1676351154" MODIFIED="1547983576977" TEXT="Strongest behavior">
+<node CREATED="1547983577180" ID="ID_1949168921" MODIFIED="1547983581210" TEXT="in ALL dimensions"/>
+</node>
+</node>
+</node>
+<node CREATED="1547983590878" ID="ID_90102927" MODIFIED="1547983603462" STYLE="fork" TEXT="Linked to NPS"/>
+<node CREATED="1547983604637" ID="ID_1862238249" MODIFIED="1547983608339" TEXT="But good leader is not enough!">
+<node CREATED="1547983720019" ID="ID_1339238931" MODIFIED="1547983742689" TEXT="Amplifies effectiveness organisation practices">
+<node CREATED="1547983742932" ID="ID_324271275" MODIFIED="1547983747849" TEXT="Technical "/>
+<node CREATED="1547983748477" ID="ID_74066458" MODIFIED="1547983751529" TEXT="Organisational"/>
+</node>
+</node>
+<node CREATED="1547983693595" FOLDED="true" ID="ID_162582543" MODIFIED="1551381327601" TEXT="Summary">
+<icon BUILTIN="licq"/>
+<node CREATED="1547983701868" ID="ID_1921295986" MODIFIED="1547983704618">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="transformational_leadership.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1547983766988" ID="ID_1486143692" MODIFIED="1547983770383" TEXT="The role of managers">
+<node CREATED="1547983800196" ID="ID_1650882746" MODIFIED="1547983807793" TEXT="Responsibility for">
+<node CREATED="1547983808491" ID="ID_971486576" MODIFIED="1547983810033" TEXT="People"/>
+<node CREATED="1547983810524" ID="ID_1042376127" MODIFIED="1547983813816" TEXT="Budget"/>
+<node CREATED="1547983814309" ID="ID_1158788733" MODIFIED="1547983815816" TEXT="Resources"/>
+</node>
+<node CREATED="1547983841483" ID="ID_1905777116" MODIFIED="1547983842975" TEXT="Connect">
+<node CREATED="1547983843218" ID="ID_1426208245" MODIFIED="1547983852552" TEXT="Strategic objectives of business"/>
+<node CREATED="1547983853083" ID="ID_543128379" MODIFIED="1547983857342" TEXT="Work of the teams"/>
+</node>
+<node CREATED="1547983869851" ID="ID_1533949676" MODIFIED="1547983874248" TEXT="Make deployment less painful"/>
+<node CREATED="1547983875211" ID="ID_439279177" MODIFIED="1547983881675" TEXT="Take pains to align these">
+<node CREATED="1547983881676" ID="ID_137273763" MODIFIED="1547983885784" TEXT="with organisational goals"/>
+</node>
+<node CREATED="1547983888764" ID="ID_236662338" MODIFIED="1547983894271" TEXT="Delegate authority to their employee">
+<node CREATED="1547983897371" ID="ID_1888784587" MODIFIED="1547983900904" TEXT="Knowledge is power"/>
+<node CREATED="1547983925515" ID="ID_655194747" MODIFIED="1547983931912" TEXT="Power to knowledgeable people"/>
+</node>
+<node CREATED="1547983938803" ID="ID_1510619197" MODIFIED="1547983944495" TEXT="How they can invest in their teams">
+<node CREATED="1547983948299" ID="ID_1793612720" MODIFIED="1547983951886" TEXT="Existing resources">
+<node CREATED="1547983953594" ID="ID_1595491760" MODIFIED="1547983955798" TEXT="Available"/>
+<node CREATED="1547983956266" ID="ID_1604094614" MODIFIED="1547983960376" TEXT="Accessible"/>
+<node CREATED="1547983960986" ID="ID_633603978" MODIFIED="1547983965846" TEXT="... to everyone in the organisation"/>
+</node>
+<node CREATED="1547983972987" ID="ID_355517164" MODIFIED="1547983980967" TEXT="To learn and improve, create">
+<node CREATED="1547983981370" ID="ID_898093363" MODIFIED="1547983985054" TEXT="Space"/>
+<node CREATED="1547983985507" ID="ID_1556254784" MODIFIED="1547983987687" TEXT="Opportunities"/>
+</node>
+<node CREATED="1547983996090" ID="ID_1558499863" MODIFIED="1547983999119" TEXT="Dedicated training">
+<node CREATED="1547983999282" ID="ID_1521250610" MODIFIED="1547984003454" TEXT="communicate it clearly"/>
+</node>
+<node CREATED="1547984011290" ID="ID_943144144" MODIFIED="1547984013919" TEXT="Encourage">
+<node CREATED="1547984014107" ID="ID_1931159709" MODIFIED="1547984017455" TEXT="Technical conferences">
+<node CREATED="1547984026194" ID="ID_987179372" MODIFIED="1547984029461" TEXT="Resume it to their teams"/>
+</node>
+<node CREATED="1547984035202" ID="ID_488342651" MODIFIED="1547984038623" TEXT="Internal hack day">
+<node CREATED="1547984038802" ID="ID_1893644810" MODIFIED="1547984044774" TEXT="Cross functional teams go together"/>
+</node>
+</node>
+<node CREATED="1547984057857" ID="ID_1561564902" MODIFIED="1547984060037" TEXT="Yak days">
+<node CREATED="1547984060210" ID="ID_1593206327" MODIFIED="1547984064710" TEXT="Teams go together">
+<node CREATED="1547984064880" ID="ID_1126256034" MODIFIED="1547984072982" TEXT="against technical debts"/>
+</node>
+</node>
+<node CREATED="1547984080633" ID="ID_608201260" MODIFIED="1547984093670" TEXT="20% times after release">
+<node CREATED="1547984093986" ID="ID_757781240" MODIFIED="1547984100366" TEXT="to experiment with">
+<node CREATED="1547984100521" ID="ID_735889753" MODIFIED="1547984101831" TEXT="new tools"/>
+<node CREATED="1547984102336" ID="ID_1182244102" MODIFIED="1547984104373" TEXT="new techs"/>
+</node>
+</node>
+</node>
+<node CREATED="1547984109784" ID="ID_683418573" MODIFIED="1547984118502" TEXT="Tips to improve culture / support teams">
+<node CREATED="1547984123577" ID="ID_664547268" MODIFIED="1547984128854" TEXT="Building trust with other teams">
+<node CREATED="1547984129064" ID="ID_1059405538" MODIFIED="1547984134670" TEXT="Keep promises"/>
+<node CREATED="1547984135177" ID="ID_1547642062" MODIFIED="1547984138126" TEXT="Open communication"/>
+<node CREATED="1547984138553" ID="ID_91684996" MODIFIED="1547984149455" TEXT="Behaving predictably">
+<node CREATED="1547984153233" ID="ID_182780112" MODIFIED="1547984156893" TEXT="even in stressful situations"/>
+</node>
+</node>
+<node CREATED="1547984158873" ID="ID_1352595422" MODIFIED="1547984169541" TEXT="Encouraging practitioners to move">
+<node CREATED="1547984171919" ID="ID_1077879224" MODIFIED="1547984175909" TEXT="between departments"/>
+</node>
+<node CREATED="1547984178049" ID="ID_672424707" MODIFIED="1547984184188" TEXT="Work that facilitate collaboration">
+<node CREATED="1547984185344" ID="ID_208099549" MODIFIED="1547984186892" TEXT="Seeking"/>
+<node CREATED="1547984187377" ID="ID_1249646260" MODIFIED="1547984189541" TEXT="Encouraging"/>
+<node CREATED="1547984190007" ID="ID_1586862442" MODIFIED="1547984192797" TEXT="Rewarding"/>
+</node>
+</node>
+<node CREATED="1547984206073" ID="ID_206973949" MODIFIED="1547984211165" TEXT="Large tech companies use">
+<node CREATED="1547984211393" ID="ID_1524813195" MODIFIED="1547984220147" TEXT="Disaster recovering exercises"/>
+<node CREATED="1547984220695" ID="ID_735610654" MODIFIED="1547984232908" TEXT="Teams must work together">
+<node CREATED="1547984233448" ID="ID_1403251687" MODIFIED="1547984238981" TEXT="To maintain / restore service levels"/>
+</node>
+</node>
+<node CREATED="1547984245160" ID="ID_798692274" MODIFIED="1547984252725" TEXT="Creating training budget">
+<node CREATED="1547984252904" ID="ID_116036380" MODIFIED="1547984255772" TEXT="and communicate on it"/>
+</node>
+<node CREATED="1547984262936" ID="ID_1925979077" MODIFIED="1547984270085" TEXT="Free thinking and side project exploration"/>
+<node CREATED="1547984275911" ID="ID_844483101" MODIFIED="1547984282453" TEXT="Making it safe to fail">
+<node CREATED="1547984282983" ID="ID_691327512" MODIFIED="1547984285696" TEXT="failure">
+<node CREATED="1547984285697" ID="ID_979522129" MODIFIED="1547984292013" TEXT="opportunity to learn"/>
+</node>
+</node>
+<node CREATED="1547984296344" ID="ID_219327352" MODIFIED="1547984305956" TEXT="Creating opportunities / space">
+<node CREATED="1547984306487" ID="ID_1131398042" MODIFIED="1547984309131" TEXT="to share information"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1547984321150" ID="ID_775970727" MODIFIED="1573209347275" POSITION="right" TEXT="The research">
+<icon BUILTIN="full-2"/>
+<node CREATED="1547984364230" FOLDED="true" ID="ID_201276016" MODIFIED="1573209161467" TEXT="The science behind the book">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-2"/>
+<node CREATED="1547984391991" FOLDED="true" ID="ID_839288841" MODIFIED="1552237094496" TEXT="Primary and secondary research">
+<node CREATED="1547984419247" ID="ID_465909953" MODIFIED="1547984420851" TEXT="Primary">
+<node CREATED="1547984425167" ID="ID_299190468" MODIFIED="1547984430362" TEXT="Data collected by">
+<node CREATED="1547984430670" ID="ID_1778172877" MODIFIED="1547984431274" TEXT="us"/>
+<node CREATED="1547984431782" ID="ID_419769789" MODIFIED="1547984433354" TEXT="others">
+<node CREATED="1547984440503" ID="ID_548283402" MODIFIED="1547984442620" TEXT="book reports"/>
+<node CREATED="1547984443085" ID="ID_303858317" MODIFIED="1547984445547" TEXT="research reports"/>
+<node CREATED="1547984447925" ID="ID_853068220" MODIFIED="1547984454188" TEXT="faster / less expensive"/>
+<node CREATED="1547984457989" ID="ID_1689577871" MODIFIED="1547984461930" TEXT="... but maybe not well suited"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1547984486421" ID="ID_341481593" MODIFIED="1552237090392" TEXT="Types of researches">
+<node CREATED="1547984504559" FOLDED="true" ID="ID_924559253" MODIFIED="1558243124166" TEXT="Qualitative">
+<icon BUILTIN="full-1"/>
+<node CREATED="1547984508974" ID="ID_431883947" MODIFIED="1547984513067" TEXT="Non numeric data">
+<node CREATED="1547984516670" ID="ID_1626915997" MODIFIED="1547984518267" TEXT="Interviews"/>
+<node CREATED="1547984518805" ID="ID_201451704" MODIFIED="1547984520787" TEXT="Blog posts"/>
+<node CREATED="1547984521805" ID="ID_996328977" MODIFIED="1547984525347" TEXT="Twitter posts"/>
+<node CREATED="1547984525885" ID="ID_1370340608" MODIFIED="1547984526650" TEXT="..."/>
+</node>
+<node CREATED="1547984536143" ID="ID_137532022" MODIFIED="1547984539266" TEXT="Very descriptive"/>
+<node CREATED="1547984539894" ID="ID_387553746" MODIFIED="1547984555178" TEXT="More behaviors">
+<node CREATED="1547984547909" ID="ID_365485725" MODIFIED="1547984550001" TEXT="Insight"/>
+<node CREATED="1547984550415" ID="ID_1481113485" MODIFIED="1547984552667" TEXT="Emergent"/>
+</node>
+</node>
+<node CREATED="1547984561405" FOLDED="true" ID="ID_263523775" MODIFIED="1552237083182" TEXT="Quantitative">
+<icon BUILTIN="full-2"/>
+<node CREATED="1547984567173" ID="ID_1174287261" MODIFIED="1547984572562" TEXT="Data that includes number">
+<node CREATED="1547984576164" ID="ID_963951250" MODIFIED="1547984578753" TEXT="System data"/>
+<node CREATED="1547984579166" ID="ID_283049227" MODIFIED="1547984582713" TEXT="Stock data"/>
+</node>
+</node>
+</node>
+<node CREATED="1547984606357" ID="ID_1431287936" MODIFIED="1547984612699" TEXT="Types of analysis">
+<node CREATED="1547984614526" FOLDED="true" ID="ID_1164250341" MODIFIED="1552237076240" TEXT="Quantitative research">
+<node CREATED="1547984622077" ID="ID_1214252337" MODIFIED="1547984629673" TEXT="Statistical data analysis"/>
+</node>
+<node CREATED="1547984638664" FOLDED="true" ID="ID_1384518624" MODIFIED="1552237075080" TEXT="Six types of analysis">
+<node CREATED="1547984646739" ID="ID_1737261100" MODIFIED="1547984655362" TEXT="Ordered by increased complexity">
+<node CREATED="1547984661291" ID="ID_1669023744" MODIFIED="1547984672401" TEXT="Knowledge required by data scientists"/>
+<node CREATED="1547984672836" ID="ID_1014192685" MODIFIED="1547984687164" TEXT="Costs involved in analysis"/>
+<node CREATED="1547984681892" ID="ID_639423137" MODIFIED="1547984685744" TEXT="Time required"/>
+</node>
+<node CREATED="1547985065082" ID="ID_536418814" MODIFIED="1551381760902" TEXT=" used for the book">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1547984691555" FOLDED="true" ID="ID_1765661439" MODIFIED="1552237069262" TEXT="Descriptive">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1547985036201" ID="ID_288761320" MODIFIED="1547985040853" TEXT="Used in census report"/>
+<node CREATED="1547985044986" ID="ID_1516001109" MODIFIED="1547985047886" TEXT="Data">
+<node CREATED="1547985048096" ID="ID_103159378" MODIFIED="1547985050261" TEXT="Summarized"/>
+<node CREATED="1547985050816" ID="ID_274373007" MODIFIED="1547985052709" TEXT="Reported">
+<node CREATED="1547985055602" ID="ID_176402215" MODIFIED="1547985058429" TEXT="Described"/>
+</node>
+</node>
+<node CREATED="1547985096081" ID="ID_1484575947" MODIFIED="1547985099774" TEXT="Least amount of effort"/>
+<node CREATED="1547985100481" ID="ID_1160802360" MODIFIED="1547985122149" TEXT="Often first step of data analysis"/>
+<node CREATED="1547985123192" ID="ID_1571599775" MODIFIED="1547985130582" TEXT="Help understand">
+<node CREATED="1547985130850" ID="ID_101583205" MODIFIED="1547985133277" TEXT="Dataset"/>
+<node CREATED="1547985137490" ID="ID_511856360" MODIFIED="1547985142422" TEXT="Population of users">
+<node CREATED="1547985158601" ID="ID_235635370" MODIFIED="1547985164278" TEXT="Population = entire group"/>
+</node>
+<node CREATED="1547985134065" ID="ID_694315210" MODIFIED="1547985137014" TEXT="Sample">
+<node CREATED="1547985177384" ID="ID_661891705" MODIFIED="1547985184077" TEXT="portion of population">
+<node CREATED="1547985184952" ID="ID_472456289" MODIFIED="1547985189533" TEXT="carefully">
+<node CREATED="1547985189744" ID="ID_608237340" MODIFIED="1547985191117" TEXT="defined"/>
+<node CREATED="1547985191688" ID="ID_1544421180" MODIFIED="1547985193115" TEXT="selected"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1547984698267" FOLDED="true" ID="ID_895342775" MODIFIED="1552237067927" TEXT="Exploratory">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+<node CREATED="1548520111962" ID="ID_1079019815" MODIFIED="1548520118479" TEXT="Relationship amoung data"/>
+<node CREATED="1548520129041" ID="ID_1533824269" MODIFIED="1548520133695" TEXT="Include visualization">
+<node CREATED="1548520133881" ID="ID_559908099" MODIFIED="1548520141150" TEXT="to identify patterns in data"/>
+</node>
+<node CREATED="1548520147514" ID="ID_525917677" MODIFIED="1548520148998" TEXT="New ideas">
+<node CREATED="1548520149336" ID="ID_1174980802" MODIFIED="1548520154701" TEXT="new research project generated"/>
+</node>
+<node CREATED="1548520158794" ID="ID_1175118086" MODIFIED="1548520163213" TEXT="Correlation">
+<node CREATED="1548520163409" ID="ID_334555146" MODIFIED="1548520168908" TEXT="BUT NOT">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1548520165936" ID="ID_1971785220" MODIFIED="1548520168086" TEXT="Causation"/>
+</node>
+<node CREATED="1548520175272" ID="ID_784759147" MODIFIED="1548520180159" TEXT="How closely two variables">
+<node CREATED="1548520180377" ID="ID_1097805646" MODIFIED="1548520184687" TEXT="move together"/>
+<node CREATED="1548520194498" ID="ID_1665551780" MODIFIED="1548520219734" TEXT="Does not say if one variable movement to another">
+<node CREATED="1548520205337" ID="ID_621786776" MODIFIED="1548520227262" TEXT="Predict"/>
+<node CREATED="1548520229945" ID="ID_913604477" MODIFIED="1548520232262" TEXT="... or cause"/>
+<node CREATED="1548520238672" ID="ID_56462764" MODIFIED="1548520245062" TEXT="Maybe third variable cause?"/>
+<node CREATED="1548520250248" ID="ID_1575532369" MODIFIED="1548520254388" TEXT="Maybe chance?"/>
+</node>
+</node>
+<node CREATED="1548520261665" ID="ID_621181976" MODIFIED="1548520263397" TEXT="Example">
+<node CREATED="1548520263600" ID="ID_24059611" MODIFIED="1548520275213" TEXT="Are highly correlated">
+<node CREATED="1548520275416" ID="ID_631344011" MODIFIED="1548520284638" TEXT="Cheese consumption"/>
+<node CREATED="1548520285423" ID="ID_1563987099" MODIFIED="1548520295868" TEXT="Strangulation by bedshits"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1547984705750" FOLDED="true" ID="ID_1186273680" MODIFIED="1552237066975" TEXT="Inferential predictive">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-3"/>
+<node CREATED="1548520335719" ID="ID_1948392173" MODIFIED="1548520349933" TEXT="Most common type in">
+<node CREATED="1548520350192" ID="ID_509872549" MODIFIED="1548520351941" TEXT="Business"/>
+<node CREATED="1548520352424" ID="ID_522670891" MODIFIED="1548520354157" TEXT="Research"/>
+</node>
+<node CREATED="1548520357936" ID="ID_413591912" MODIFIED="1548520361117" TEXT="Also called">
+<node CREATED="1548520361320" ID="ID_1555118334" MODIFIED="1548520370581" TEXT="Influential predictive"/>
+</node>
+<node CREATED="1548520372166" ID="ID_1235378326" MODIFIED="1548520394397" TEXT="Used when ">
+<node CREATED="1548520383264" ID="ID_743746552" MODIFIED="1548520406656" TEXT="purely experimental design not possible">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1548520441575" ID="ID_1263093471" MODIFIED="1548520447515" TEXT="Field experiments preferred"/>
+<node CREATED="1548520458143" ID="ID_1106480463" MODIFIED="1548520464851" TEXT="Data collection happens">
+<node CREATED="1548520465087" ID="ID_1223069688" MODIFIED="1548520468364" TEXT="In complex organisation"/>
+<node CREATED="1548520470543" ID="ID_1989320644" MODIFIED="1548520472617" TEXT="NOT">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1548520472895" ID="ID_913837141" MODIFIED="1548520479020" TEXT="in sterile labs"/>
+</node>
+</node>
+<node CREATED="1548520485615" ID="ID_800417373" MODIFIED="1548520492619" TEXT="Don&apos;t want to fit in control groups">
+<node CREATED="1548520492807" ID="ID_1577261715" MODIFIED="1548520495844" TEXT="Environment"/>
+<node CREATED="1548520496262" ID="ID_1831305988" MODIFIED="1548520497644" TEXT="Companies"/>
+</node>
+</node>
+<node CREATED="1548520538349" ID="ID_300878457" MODIFIED="1548520541722" TEXT="Scientific method">
+<node CREATED="1548520541902" ID="ID_822557778" MODIFIED="1548520668552" TEXT="Stating hypothesis">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1548520546262" ID="ID_1250851394" MODIFIED="1548520670120" TEXT="Designing research">
+<icon BUILTIN="full-2"/>
+<node CREATED="1548520622532" ID="ID_1173074739" MODIFIED="1548520626187" TEXT="To test hypothesis"/>
+</node>
+<node CREATED="1548520637092" ID="ID_974123116" MODIFIED="1548520671680" TEXT="Collecting data">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1548520642836" ID="ID_110762313" MODIFIED="1548520673015" TEXT="Testing the stated hypothesis">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1548520655110" ID="ID_327893892" MODIFIED="1548520674495" TEXT="More evidence we find to support hypothesis">
+<icon BUILTIN="full-5"/>
+<node CREATED="1548520663245" ID="ID_1856770082" MODIFIED="1548520665395" TEXT="Better it is"/>
+</node>
+</node>
+<node CREATED="1548520526254" ID="ID_843771267" MODIFIED="1548520528364" TEXT="Hypothesis">
+<node CREATED="1548520529069" ID="ID_395384122" MODIFIED="1548520532266" TEXT="Theory driven"/>
+<node CREATED="1548520558630" ID="ID_1445207667" MODIFIED="1548520578203" TEXT="Based on theories">
+<node CREATED="1548520561670" ID="ID_1761011377" MODIFIED="1548520593963" TEXT="Well developed"/>
+<node CREATED="1548520594374" ID="ID_1249446669" MODIFIED="1548520596819" TEXT="Well supported"/>
+</node>
+</node>
+</node>
+<node CREATED="1547984726981" FOLDED="true" ID="ID_1982097440" MODIFIED="1552237070807" TEXT="Predictive">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-4"/>
+<node CREATED="1548520683676" ID="ID_618262886" MODIFIED="1548520687458" TEXT="Not used in book">
+<node CREATED="1548520687686" ID="ID_1143076025" MODIFIED="1548520691233" TEXT="Not enough data"/>
+</node>
+<node CREATED="1548520703372" ID="ID_1875105262" MODIFIED="1548520708698" TEXT="Predict future events">
+<node CREATED="1548520708941" ID="ID_266357075" MODIFIED="1548520711898" TEXT="Based on past events"/>
+</node>
+<node CREATED="1548520718613" ID="ID_745129801" MODIFIED="1548520728521" TEXT="Example">
+<node CREATED="1548520732013" ID="ID_1032722375" MODIFIED="1548520739265" TEXT="Prediction">
+<node CREATED="1548520739453" ID="ID_731376900" MODIFIED="1548520740681" TEXT="Costs"/>
+<node CREATED="1548520741196" ID="ID_1212127611" MODIFIED="1548520743633" TEXT="Utilities"/>
+</node>
+</node>
+<node CREATED="1548520747709" ID="ID_548342555" MODIFIED="1548520749194" TEXT="Very hard"/>
+<node CREATED="1548520749757" ID="ID_791109385" MODIFIED="1548520755096" TEXT="Need historical data"/>
+</node>
+<node CREATED="1547984736708" FOLDED="true" ID="ID_171239650" MODIFIED="1552237071822" TEXT="Causal">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-5"/>
+<node CREATED="1548520683676" ID="ID_231873723" MODIFIED="1548520687458" TEXT="Not used in book">
+<node CREATED="1548520687686" ID="ID_556761377" MODIFIED="1548520691233" TEXT="Not enough data"/>
+</node>
+<node CREATED="1548520762540" ID="ID_317065760" MODIFIED="1548520768399" TEXT="Considered gold standard"/>
+<node CREATED="1548520774539" ID="ID_929134440" MODIFIED="1548520778728" TEXT="Difficult to conduct for most">
+<node CREATED="1548520778964" ID="ID_292580161" MODIFIED="1548520780466" TEXT="Business"/>
+<node CREATED="1548520780941" ID="ID_146199127" MODIFIED="1548520790968" TEXT="Technology operation"/>
+</node>
+<node CREATED="1548520798084" ID="ID_915683416" MODIFIED="1548520801929" TEXT="Require generaly">
+<node CREATED="1548520802069" ID="ID_198852866" MODIFIED="1548520806984" TEXT="Randomized studies"/>
+</node>
+<node CREATED="1548520810540" ID="ID_1452448073" MODIFIED="1548520814688" TEXT="Example">
+<node CREATED="1548520815516" ID="ID_124384124" MODIFIED="1548520818855" TEXT="A/B Testing"/>
+</node>
+</node>
+<node CREATED="1547984760237" FOLDED="true" ID="ID_160164376" MODIFIED="1552237072600" TEXT="Mechanistic">
+<icon BUILTIN="full-6"/>
+<node CREATED="1548520683676" ID="ID_1285393521" MODIFIED="1548520687458" TEXT="Not used in book">
+<node CREATED="1548520687686" ID="ID_217866802" MODIFIED="1548520691233" TEXT="Not enough data"/>
+</node>
+<node CREATED="1548520828183" ID="ID_844530745" MODIFIED="1548520833313" TEXT="Require most effort of all"/>
+<node CREATED="1548520835220" ID="ID_1164492596" MODIFIED="1548520839415" TEXT="Rarely seen in business"/>
+<node CREATED="1548520844685" ID="ID_2069255" MODIFIED="1548520850104" TEXT="Exact change of variable">
+<node CREATED="1548520850324" ID="ID_158849814" MODIFIED="1548520856306" TEXT="Causing exact behaviors"/>
+</node>
+<node CREATED="1548520859356" ID="ID_1585141722" MODIFIED="1548520865208" TEXT="Not suitable for complex systems"/>
+</node>
+</node>
+<node CREATED="1548520897635" FOLDED="true" ID="ID_1655433471" MODIFIED="1552237074095" TEXT="Classification analysis">
+<node CREATED="1548520904147" ID="ID_1334636679" MODIFIED="1548520918446" TEXT="Or clustered analysis"/>
+<node CREATED="1548520927370" ID="ID_1355459187" MODIFIED="1548520948400" TEXT="Depending on analysis context">
+<node CREATED="1548520931018" ID="ID_416302080" MODIFIED="1548520935407" TEXT="Explanatory"/>
+<node CREATED="1548520935915" ID="ID_626467966" MODIFIED="1548520938392" TEXT="Predictive"/>
+<node CREATED="1548520938930" ID="ID_631935156" MODIFIED="1548520943375" TEXT="Causal"/>
+</node>
+<node CREATED="1548520953764" ID="ID_1917495146" MODIFIED="1548520957480" TEXT="Example">
+<node CREATED="1548520957795" ID="ID_1980852843" MODIFIED="1548520970584" TEXT="Performance software delivery teams">
+<node CREATED="1548520970779" ID="ID_1437015243" MODIFIED="1548520973472" TEXT="High"/>
+<node CREATED="1548520974019" ID="ID_1003963" MODIFIED="1548520975871" TEXT="Medium"/>
+<node CREATED="1548520976363" ID="ID_1556864954" MODIFIED="1548520977335" TEXT="Low"/>
+</node>
+<node CREATED="1548520984539" ID="ID_83689693" MODIFIED="1548520987742" TEXT="Customer profiles"/>
+<node CREATED="1548520990025" ID="ID_1163606427" MODIFIED="1548520995007" TEXT="Market bases analysis"/>
+</node>
+<node CREATED="1548521001193" ID="ID_1486957311" MODIFIED="1548521007238" TEXT="Classification variables">
+<node CREATED="1548521007441" ID="ID_1465722723" MODIFIED="1548521018958" TEXT="Entered into clustering algorythm">
+<node CREATED="1548521022650" ID="ID_1115980374" MODIFIED="1548521025741" TEXT="Groups are identified"/>
+</node>
+</node>
+<node CREATED="1548521029009" ID="ID_1217701340" MODIFIED="1548521031991" TEXT="Used in book">
+<node CREATED="1548521032162" ID="ID_635341275" MODIFIED="1548521036902" TEXT="Hierarchical clustering"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1548521046442" FOLDED="true" ID="ID_332775502" MODIFIED="1549194102377" TEXT="Introduction to psychometrics">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-3"/>
+<node CREATED="1548521090954" ID="ID_399333920" MODIFIED="1548521097079" TEXT="Type of survey we are exposed to">
+<node CREATED="1548521108522" ID="ID_405988820" MODIFIED="1548521376683" TEXT="Push Poll - Propagande surveys">
+<node CREATED="1548521159322" ID="ID_1040200717" MODIFIED="1548521166444" TEXT="Questions are difficult to answer">
+<node CREATED="1548521166625" ID="ID_1336233908" MODIFIED="1548521181149" TEXT="Unless you agree on the opinion">
+<node CREATED="1548521181378" ID="ID_1191187113" MODIFIED="1548521185757" TEXT="of the &quot;researcher"/>
+</node>
+</node>
+<node CREATED="1548521186665" ID="ID_1396479707" MODIFIED="1548521189101" TEXT="Example">
+<node CREATED="1548521189594" ID="ID_756487784" MODIFIED="1548521192885" TEXT="Politics surveys"/>
+<node CREATED="1548521197864" ID="ID_789502042" MODIFIED="1548521225102" TEXT="&quot;Do you believe that the mainstream media has reported unfairly on our movement?&quot;">
+<node CREATED="1548521227569" ID="ID_25598186" MODIFIED="1548521232093" TEXT="Us vs Them"/>
+</node>
+</node>
+<node CREATED="1548521251808" ID="ID_1570342206" MODIFIED="1548521255310" TEXT="Leading question">
+<node CREATED="1548521255560" ID="ID_1490975161" MODIFIED="1548521326933" TEXT="should let respondent answer without bias">
+<node CREATED="1548521278400" ID="ID_342725968" MODIFIED="1548521280252" TEXT="Example">
+<node CREATED="1548521280992" ID="ID_887120301" MODIFIED="1548521312445" TEXT="&quot;How would you describe Napoleon Height?&quot;"/>
+<node CREATED="1548521295825" ID="ID_902177683" MODIFIED="1548521310427" TEXT="&quot;Was Napoleon short?&quot;"/>
+</node>
+</node>
+</node>
+<node CREATED="1548521364280" ID="ID_402415817" MODIFIED="1548521388189" TEXT="Loaded questions">
+<node CREATED="1548521394360" ID="ID_299490120" MODIFIED="1548521400940" TEXT="Question should not force respondent">
+<node CREATED="1548521401263" ID="ID_208546834" MODIFIED="1548521406412" TEXT="Into an answer not true for them"/>
+</node>
+</node>
+<node CREATED="1548521408886" ID="ID_1621148930" MODIFIED="1548521413186" TEXT="Multiple questions in one">
+<node CREATED="1548521416966" ID="ID_560731508" MODIFIED="1548521418725" TEXT="Example">
+<node CREATED="1548521418920" ID="ID_256253823" MODIFIED="1548521443970" TEXT="&quot;Are you notified of failures by your customers and the NOC?&quot;"/>
+</node>
+</node>
+<node CREATED="1548521452349" ID="ID_1531941202" MODIFIED="1548521456276" TEXT="Unclear language">
+<node CREATED="1548521456671" ID="ID_726710547" MODIFIED="1548521464396" TEXT="Language should be familiar with respondent">
+<node CREATED="1548521467287" ID="ID_227639292" MODIFIED="1548521473644" TEXT="Give if necessary">
+<node CREATED="1548521473855" ID="ID_299629736" MODIFIED="1548521475332" TEXT="Examples"/>
+<node CREATED="1548521475751" ID="ID_230237441" MODIFIED="1548521477820" TEXT="Clarification"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1548521127697" ID="ID_783379583" MODIFIED="1548521130046" TEXT="Quick survey"/>
+<node CREATED="1548521133058" ID="ID_410319186" MODIFIED="1548521151662" TEXT="Survey written without research training"/>
+</node>
+<node CREATED="1548521483070" ID="ID_1331568729" MODIFIED="1548521499706" TEXT="Trusted data with latent constructs">
+<node CREATED="1548521505095" ID="ID_227451602" MODIFIED="1548522298207" TEXT="Latent constructs">
+<node CREATED="1548521509230" ID="ID_1657889767" MODIFIED="1548521516067" TEXT="Things which can&apos;t be measured directly">
+<node CREATED="1548521520014" ID="ID_630857442" MODIFIED="1548521521850" TEXT="Example">
+<node CREATED="1548521522015" ID="ID_454597624" MODIFIED="1548521526955" TEXT="Organisational culture"/>
+<node CREATED="1548521714701" FOLDED="true" ID="ID_1967737785" MODIFIED="1548521770464" TEXT="Westrum&apos;s typology of Organizational Culture">
+<icon BUILTIN="licq"/>
+<node CREATED="1548521725261" ID="ID_1536221055" MODIFIED="1548521729463">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="westrum_latent_construct.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1548521535046" ID="ID_436518453" MODIFIED="1548521546211" TEXT="Can be measure with component parts">
+<node CREATED="1548521546406" ID="ID_1637208176" MODIFIED="1548521553443" TEXT="&quot;manifest variables&quot;"/>
+</node>
+<node CREATED="1548521558029" ID="ID_1291880387" MODIFIED="1548521562921" TEXT="Measure through questions"/>
+<node CREATED="1548521567518" ID="ID_2060610" MODIFIED="1548521576642" TEXT="Important to have clear definition">
+<node CREATED="1548521576840" ID="ID_715759502" MODIFIED="1548521581698" TEXT="Of the thing we measure"/>
+</node>
+<node CREATED="1548522316256" ID="ID_20435334" MODIFIED="1548522324845" TEXT="When construct identified">
+<node CREATED="1548522325063" ID="ID_1292464820" MODIFIED="1548522330741" TEXT="&quot;organisational culture&quot;"/>
+<node CREATED="1548522339758" ID="ID_1999265609" MODIFIED="1548522345141" TEXT="... write survey questions"/>
+</node>
+<node CREATED="1548522351728" ID="ID_226484531" MODIFIED="1548522354893" TEXT="After collecting data">
+<node CREATED="1548522356152" ID="ID_512155797" MODIFIED="1548522376284" TEXT="Use statistical methods to verify"/>
+<node CREATED="1548522382624" ID="ID_1901094202" MODIFIED="1548522388266" TEXT="that the measure reflect">
+<node CREATED="1548522388479" ID="ID_1344655485" MODIFIED="1548522391947" TEXT="the core underlying concept"/>
+</node>
+<node CREATED="1548522399896" ID="ID_1712742484" MODIFIED="1548522405293" TEXT="End up with single number">
+<node CREATED="1548522407438" ID="ID_536330511" MODIFIED="1548522411668" TEXT="Average score of each items"/>
+</node>
+</node>
+</node>
+<node CREATED="1548522453797" ID="ID_1217647946" MODIFIED="1548522457116" TEXT="Advantages">
+<node CREATED="1548522457367" ID="ID_907376820" MODIFIED="1548522484241" TEXT="Help us thing carefully about">
+<icon BUILTIN="full-1"/>
+<node CREATED="1548522463766" ID="ID_729733579" MODIFIED="1548522468443" TEXT="What we measure"/>
+<node CREATED="1548522468894" ID="ID_1017088939" MODIFIED="1548522475603" TEXT="How we define our constructs"/>
+</node>
+<node CREATED="1548522485663" ID="ID_271305415" MODIFIED="1548522505859" TEXT="Gives us several views">
+<icon BUILTIN="full-2"/>
+<node CREATED="1548522508165" ID="ID_783173184" MODIFIED="1548522512435" TEXT="Behavior"/>
+<node CREATED="1548522514965" ID="ID_486115335" MODIFIED="1548522517370" TEXT="Performance"/>
+<node CREATED="1548522662925" ID="ID_1803282923" MODIFIED="1548522671714" TEXT="Test to verify">
+<node CREATED="1548522671980" ID="ID_1366219031" MODIFIED="1548522678529" TEXT="Discriminant validity">
+<node CREATED="1548522681670" ID="ID_256176617" MODIFIED="1548522688024" TEXT="Make sure that item not related">
+<node CREATED="1548522688260" ID="ID_642004010" MODIFIED="1548522694097" TEXT="are really not related!"/>
+</node>
+</node>
+<node CREATED="1548522696525" ID="ID_1262821798" MODIFIED="1548522700122" TEXT="Convergent validity">
+<node CREATED="1548522700340" ID="ID_95927529" MODIFIED="1548522724201" TEXT="Be sure that related items">
+<node CREATED="1548522724524" ID="ID_1372978516" MODIFIED="1548522729642" TEXT="are, in fact, related"/>
+</node>
+</node>
+<node CREATED="1548522735565" ID="ID_1911032842" MODIFIED="1548522742986" TEXT="Reliability tests">
+<node CREATED="1548522745907" ID="ID_410290739" MODIFIED="1548522757882" TEXT="Items, by those who takes survey, are similarly">
+<node CREATED="1548522758060" ID="ID_79947118" MODIFIED="1548522759529" TEXT="Read"/>
+<node CREATED="1548522760052" ID="ID_1861748572" MODIFIED="1548522762264" TEXT="Interpreted"/>
+</node>
+<node CREATED="1548522766213" ID="ID_1064310515" MODIFIED="1548522769272" TEXT="Internal consistency"/>
+</node>
+</node>
+<node CREATED="1548522990858" ID="ID_1000449963" MODIFIED="1548523023655" TEXT="Items tested and statically valid and reliable">
+<node CREATED="1548523030091" ID="ID_732492330" MODIFIED="1548523036926" TEXT="Westrum&apos;s organisational culture">
+<node CREATED="1548523037226" ID="ID_576032590" MODIFIED="1548523047693" TEXT="Using scale from 1 to 7">
+<node CREATED="1548523052961" ID="ID_170942627" MODIFIED="1548523054631" TEXT="1">
+<node CREATED="1548523054874" ID="ID_1228054020" MODIFIED="1548523057911" TEXT="Strongly agree"/>
+</node>
+<node CREATED="1548523060467" ID="ID_1954782923" MODIFIED="1548523061439" TEXT="7">
+<node CREATED="1548523061667" ID="ID_590979234" MODIFIED="1548523065174" TEXT="Strongly disagree"/>
+</node>
+</node>
+<node CREATED="1548523080025" ID="ID_1874014509" MODIFIED="1548523185079" TEXT="Questions">
+<node CREATED="1548523083530" ID="ID_1125540630" MODIFIED="1548523086327" TEXT="On my team..."/>
+<node CREATED="1548523086842" ID="ID_1687525841" MODIFIED="1548523096540" TEXT="Info is actively sought">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1548523098532" ID="ID_1718599383" MODIFIED="1548523123531" TEXT="Messengers are not punished when they deliver">
+<icon BUILTIN="full-2"/>
+<node CREATED="1548523110098" ID="ID_1943489504" MODIFIED="1548523115990" TEXT="News of failure"/>
+<node CREATED="1548523116442" ID="ID_1380413858" MODIFIED="1548523120685" TEXT="other bad news"/>
+</node>
+<node CREATED="1548523127770" ID="ID_1617134085" MODIFIED="1548523139644" TEXT="Responsibility are shared">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1548523144440" ID="ID_263241275" MODIFIED="1548523162571" TEXT="Cross functional collaboration is">
+<icon BUILTIN="full-4"/>
+<node CREATED="1548523152826" ID="ID_823214377" MODIFIED="1548523156445" TEXT="Encouraged"/>
+<node CREATED="1548523156858" ID="ID_1272091432" MODIFIED="1548523159997" TEXT="Rewareded"/>
+</node>
+<node CREATED="1548523166202" ID="ID_1367513484" MODIFIED="1548523172499" TEXT="Failure causes enquiries">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1548523177817" ID="ID_805473583" MODIFIED="1548523182787" TEXT="New ideas are welcome">
+<icon BUILTIN="full-6"/>
+</node>
+<node CREATED="1548523186576" ID="ID_1690266648" MODIFIED="1548523230732" TEXT="Failure are treated primilarly as opportunities to improve the system">
+<icon BUILTIN="full-7"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1548522520959" ID="ID_347386876" MODIFIED="1548522527108" TEXT="Help eliminating rogue data">
+<node CREATED="1548522549869" ID="ID_49833284" MODIFIED="1548522556386" TEXT="Make it more difficult to introduce mistakes">
+<node CREATED="1548522537294" ID="ID_983767358" MODIFIED="1548522549674" TEXT="For a single data source">
+<node CREATED="1548522567989" ID="ID_1927260440" MODIFIED="1548522571777" TEXT="Misunderstandings"/>
+<node CREATED="1548522574223" ID="ID_753243090" MODIFIED="1548522577602" TEXT="Bad actors"/>
+</node>
+</node>
+<node CREATED="1548523244425" ID="ID_1117260004" MODIFIED="1548523260158" TEXT="Reassess tests on">
+<node CREATED="1548523260416" ID="ID_538157029" MODIFIED="1548523263380" TEXT="Validity"/>
+<node CREATED="1548523264063" ID="ID_1665397296" MODIFIED="1548523270365" TEXT="Reliability"/>
+<node CREATED="1548523272776" ID="ID_111679222" MODIFIED="1548523291021" TEXT="&quot;Exhibit good psychometric properties&quot;"/>
+</node>
+<node CREATED="1548523294665" ID="ID_794597743" MODIFIED="1548523298596" TEXT="Make sure nothing has changed">
+<node CREATED="1548523301593" ID="ID_784157241" MODIFIED="1548523311037" TEXT="Specially if change suspected">
+<node CREATED="1548523311255" ID="ID_513237907" MODIFIED="1548523313669" TEXT="Organisation"/>
+<node CREATED="1548523314115" ID="ID_278262503" MODIFIED="1548523316197" TEXT="Environment"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1548523350719" ID="ID_215519926" MODIFIED="1548523373996" TEXT="Latent constructs used for system data">
+<node CREATED="1548523379782" ID="ID_422192827" MODIFIED="1548523384067" TEXT="Latent constuct">
+<node CREATED="1548523384287" ID="ID_1686958087" MODIFIED="1548523387653" TEXT="Help avoid bad data">
+<node CREATED="1548523387816" ID="ID_1829099808" MODIFIED="1548523391955" TEXT="Even in system data"/>
+</node>
+</node>
+<node CREATED="1548523416015" ID="ID_1716373703" MODIFIED="1548523419460" TEXT="Example">
+<node CREATED="1548523419663" ID="ID_917043390" MODIFIED="1548523422915" TEXT="Measure system performance">
+<node CREATED="1548523426616" ID="ID_65791693" MODIFIED="1548523429860" TEXT="Collect response time">
+<node CREATED="1548523430046" ID="ID_1003014713" MODIFIED="1548523439315" TEXT="Several pieces of data"/>
+<node CREATED="1548523439742" ID="ID_1798069583" MODIFIED="1548523447938" TEXT="Helping understand response time"/>
+</node>
+<node CREATED="1548523451559" ID="ID_1830369734" MODIFIED="1548523459124" TEXT="Consider various aspect of perf">
+<node CREATED="1548523460607" ID="ID_1278644131" MODIFIED="1548523467060" TEXT="How else it might be reflected"/>
+<node CREATED="1548523467918" ID="ID_129874662" MODIFIED="1548523473348" TEXT="...in system metrics"/>
+</node>
+</node>
+</node>
+<node CREATED="1548523479935" ID="ID_4015101" MODIFIED="1548523482268" TEXT="Danger!">
+<node CREATED="1548523483047" ID="ID_299312611" MODIFIED="1548523488907" TEXT="All measures are proxies">
+<node CREATED="1548523489239" ID="ID_1914588640" MODIFIED="1548523503267" TEXT="Represent unconsciously"/>
+<node CREATED="1548523503703" ID="ID_816850084" MODIFIED="1548523508755" TEXT="... an idea for us"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1549193318770" FOLDED="true" ID="ID_1464640103" MODIFIED="1549194189373" TEXT="Why using a survey">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-4"/>
+<node CREATED="1549193329759" ID="ID_134611191" MODIFIED="1549193395101" TEXT="Collect  / analyse data quickly ">
+<icon BUILTIN="full-1"/>
+<node CREATED="1549193473639" ID="ID_857554712" MODIFIED="1549193475233" TEXT="Speed"/>
+<node CREATED="1549193476143" ID="ID_1188977281" MODIFIED="1549193480794" TEXT="Ease of data collection"/>
+<node COLOR="#ff0000" CREATED="1549193500191" ID="ID_66931257" MODIFIED="1549194090315" TEXT="Book research">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1549193503896" ID="ID_469526210" MODIFIED="1549194082336" TEXT="Data collected 4 different times">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1549193512827" ID="ID_1680379601" MODIFIED="1549194083595" TEXT="4 to 6 weeks period">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1549193532984" ID="ID_240413805" MODIFIED="1549194086265" TEXT="From around the world">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1549193537297" ID="ID_1744698640" MODIFIED="1549194086775" TEXT="Thousands of organisations">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1549193545651" ID="ID_641426604" MODIFIED="1549194087205" TEXT="Thousands of surveys">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1549193563030" ID="ID_1815129603" MODIFIED="1549193583234" TEXT="Challenge for system data for so many organisation">
+<node CREATED="1549193583442" ID="ID_717580333" MODIFIED="1549193584567" TEXT="Clean"/>
+<node CREATED="1549193584994" ID="ID_269216720" MODIFIED="1549193586775" TEXT="Organise"/>
+</node>
+<node CREATED="1549193594651" ID="ID_1231652608" MODIFIED="1549193607632" TEXT="Global definition for everything with surveys"/>
+</node>
+<node CREATED="1549193374017" ID="ID_1304247653" MODIFIED="1549193713368" TEXT="Measuring full stack with system data">
+<icon BUILTIN="full-2"/>
+<node CREATED="1549193714006" ID="ID_1157197447" MODIFIED="1549193717178" TEXT="Difficult"/>
+<node CREATED="1549193660199" ID="ID_822789097" MODIFIED="1549193667521" TEXT="Sometimes we">
+<node CREATED="1549193667739" ID="ID_61461929" MODIFIED="1549193673041" TEXT="Don&apos;t measure the good thing"/>
+<node CREATED="1549193674049" ID="ID_1330067583" MODIFIED="1549193687674" TEXT="Forgot to measure the good thing"/>
+</node>
+</node>
+<node CREATED="1549193409124" ID="ID_90120196" MODIFIED="1549193704388" TEXT="Measuring completely with system data">
+<icon BUILTIN="full-3"/>
+<node CREATED="1549193421223" ID="ID_742647079" MODIFIED="1549193709598" TEXT="Difficult"/>
+<node CREATED="1549193728689" ID="ID_696726879" MODIFIED="1549193738331" TEXT="Measure system in its limits"/>
+<node CREATED="1549193742779" ID="ID_143988564" MODIFIED="1549193751771" TEXT="People can&apos;t see beyond limits"/>
+<node CREATED="1549193771613" ID="ID_28770761" MODIFIED="1549193777564" TEXT="Example">
+<node CREATED="1549193786262" ID="ID_1031638898" MODIFIED="1549193794307" TEXT="Percentage of code in version control">
+<node CREATED="1549193794615" ID="ID_118281941" MODIFIED="1549193798507" TEXT="Git doesn&apos;t know about the code">
+<node CREATED="1549193798735" ID="ID_1390250430" MODIFIED="1549193802347" TEXT="NOT in version control"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1549193431893" ID="ID_583969488" MODIFIED="1549193770054" STYLE="fork" TEXT="You can trust survey data">
+<icon BUILTIN="full-4"/>
+<node CREATED="1549193811008" ID="ID_614250018" MODIFIED="1549193820540" TEXT="Ask to a technical">
+<node CREATED="1549193820758" ID="ID_616908243" MODIFIED="1549193827840" TEXT="Do you trust survey data?">
+<icon BUILTIN="full-1"/>
+<node CREATED="1549193832691" ID="ID_1568049959" MODIFIED="1549193837063" TEXT="Little approbation"/>
+</node>
+<node CREATED="1549193844424" ID="ID_578516641" MODIFIED="1549193853917" TEXT="Do you trust your system or log data?">
+<icon BUILTIN="full-2"/>
+<node CREATED="1549193860859" ID="ID_973266175" MODIFIED="1549193862831" TEXT="More support"/>
+</node>
+<node CREATED="1549193864689" ID="ID_700830784" MODIFIED="1549193900951" TEXT="Have you ever seen bad data from your system?">
+<icon BUILTIN="full-3"/>
+<node CREATED="1549193875449" ID="ID_80327123" MODIFIED="1549193885061" TEXT="Almost everyone answer &quot;yes&quot;"/>
+</node>
+<node CREATED="1549193886779" ID="ID_701138921" MODIFIED="1549193902771" TEXT="Why you trust system data and not survey?">
+<icon BUILTIN="full-4"/>
+<node CREATED="1549193912642" ID="ID_200101500" MODIFIED="1549193918784" TEXT="We know how work system data"/>
+<node CREATED="1549193919372" ID="ID_799146966" MODIFIED="1549193940097" TEXT="We know where there is mistakes">
+<node CREATED="1549193929722" ID="ID_1557791189" MODIFIED="1549193932584" TEXT="Sometimes..."/>
+</node>
+<node CREATED="1549193940495" ID="ID_1984774758" MODIFIED="1549193946187" TEXT="We understand the system">
+<node CREATED="1549193946375" ID="ID_1294005459" MODIFIED="1549193953587" TEXT="Surveys feel foreign"/>
+</node>
+</node>
+</node>
+<node CREATED="1549193971788" ID="ID_358966482" MODIFIED="1549193973570" TEXT="System data">
+<node CREATED="1549193974318" ID="ID_658291187" MODIFIED="1549193980380" TEXT="Easy to change massive amount of data">
+<node CREATED="1549193980598" ID="ID_774201479" MODIFIED="1549193983570" TEXT="At once!">
+<node CREATED="1549193988138" ID="ID_415534671" MODIFIED="1549193989650" TEXT="Mistakes"/>
+<node CREATED="1549193990148" ID="ID_1839177866" MODIFIED="1549193992880" TEXT="Bad intentions"/>
+</node>
+<node CREATED="1549194002549" ID="ID_302872375" MODIFIED="1549194010823" TEXT="Pretty bad especially if data never">
+<node CREATED="1549194011191" ID="ID_1242566024" MODIFIED="1549194015893" TEXT="Checked"/>
+<node CREATED="1549194020701" ID="ID_1503141592" MODIFIED="1549194021843" TEXT="Used"/>
+</node>
+</node>
+</node>
+<node CREATED="1549194025469" ID="ID_183935112" MODIFIED="1549194029836" TEXT="Survey data">
+<node CREATED="1549194033464" ID="ID_15863869" MODIFIED="1549194037386" TEXT="More people take the survey"/>
+<node CREATED="1549194037854" ID="ID_1199740765" MODIFIED="1549194048136" TEXT="Less mistakes will have impact"/>
+<node COLOR="#ff0000" CREATED="1549194053037" ID="ID_1449415511" MODIFIED="1549194094445" TEXT="Survey of the book">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#ff0000" CREATED="1549194060637" ID="ID_835991698" MODIFIED="1549194075896" TEXT="23 000 persons">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1549193444186" ID="ID_1926861284" MODIFIED="1549193483642" TEXT="Some things can only be measured through survey">
+<icon BUILTIN="full-5"/>
+<node CREATED="1549194112835" ID="ID_720520507" MODIFIED="1549194120137" TEXT="Perceptions"/>
+<node CREATED="1549194122126" ID="ID_1956417" MODIFIED="1549194125241" TEXT="Feelings"/>
+<node CREATED="1549194126859" ID="ID_550240009" MODIFIED="1549194130361" TEXT="Opinions"/>
+</node>
+</node>
+<node CREATED="1549194134812" FOLDED="true" ID="ID_1389180177" MODIFIED="1549194188223" TEXT="The data for the project">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-5"/>
+<node CREATED="1549194148853" ID="ID_1180823019" MODIFIED="1549194152477" TEXT="Snowball sampling">
+<node CREATED="1549194155095" ID="ID_725779902" MODIFIED="1549194161057" TEXT="Difficult to find &quot;devops&quot; developers"/>
+<node CREATED="1549194173998" ID="ID_1207436073" MODIFIED="1549194179520" TEXT="Tech people don&apos;t want to be studied"/>
+</node>
+</node>
+</node>
+<node CREATED="1549194192131" ID="ID_701718848" MODIFIED="1573209348328" POSITION="left" TEXT="Transformation">
+<icon BUILTIN="full-3"/>
+<node CREATED="1549194208337" FOLDED="true" ID="ID_957182497" MODIFIED="1573209342946" TEXT="High performance leadership management">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-6"/>
+<node CREATED="1549194230383" ID="ID_533484107" MODIFIED="1549194241945" TEXT="Delivery great products">
+<node CREATED="1549194261243" ID="ID_673212055" MODIFIED="1549194266335" TEXT="which are">
+<node CREATED="1549194242303" ID="ID_1511776756" MODIFIED="1549194243915" TEXT="Fast"/>
+<node CREATED="1549194244403" ID="ID_1701372195" MODIFIED="1549194245755" TEXT="Secure"/>
+<node CREATED="1549194246483" ID="ID_1637151587" MODIFIED="1549194251905" TEXT="Working"/>
+</node>
+<node CREATED="1549194273114" ID="ID_312217900" MODIFIED="1549194279668" TEXT="but what value customers?">
+<node CREATED="1549194282467" ID="ID_593313994" MODIFIED="1549194285221" TEXT="What do they want?"/>
+<node CREATED="1549194286109" ID="ID_866488043" MODIFIED="1549194295311" TEXT="How do we learn from them?">
+<node CREATED="1549194298730" ID="ID_1689896807" MODIFIED="1549194300684" TEXT="Each others?"/>
+</node>
+</node>
+</node>
+<node CREATED="1549194309635" ID="ID_838425170" MODIFIED="1549194328997" TEXT="Sustain frameworks connecting entreprise strategy with">
+<node CREATED="1549194316685" ID="ID_1519513206" MODIFIED="1549194331847" TEXT="action"/>
+<node CREATED="1549194335825" ID="ID_1320752662" MODIFIED="1549194339917" TEXT="streamlines flow">
+<node CREATED="1549194340155" ID="ID_360847603" MODIFIED="1549194341007" TEXT="ideas"/>
+<node CREATED="1549194343135" ID="ID_1909692698" MODIFIED="1549194344247" TEXT="values"/>
+</node>
+<node CREATED="1549194348346" ID="ID_373278546" MODIFIED="1549194355880" TEXT="rapid feedbacks"/>
+<node CREATED="1549194356458" ID="ID_1252825432" MODIFIED="1549194363070" TEXT="rapid learning"/>
+</node>
+<node CREATED="1549194377421" FOLDED="true" ID="ID_1851707728" MODIFIED="1573209341824" TEXT="High performing framework">
+<node CREATED="1549194389514" FOLDED="true" ID="ID_268565190" MODIFIED="1573209340851" TEXT="ING Netherlands">
+<node CREATED="1549194394234" ID="ID_365091156" MODIFIED="1549194408416" TEXT="Bank"/>
+<node CREATED="1549194409234" ID="ID_1353694864" MODIFIED="1549194414496" TEXT="Develop organisational learning"/>
+<node CREATED="1549194568265" FOLDED="true" ID="ID_225752369" MODIFIED="1573209201785" TEXT="Hierarchy">
+<icon BUILTIN="licq"/>
+<node CREATED="1549194590257" ID="ID_68491701" MODIFIED="1549194604402">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="ing_organisation.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1549194675663" FOLDED="true" ID="ID_129453540" MODIFIED="1573209340851" TEXT="Principles">
+<node CREATED="1549194680233" ID="ID_513318355" MODIFIED="1549194697435" TEXT="Do the work">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1549194682623" ID="ID_686668737" MODIFIED="1549194699865" TEXT="Improve the work">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1549194689433" ID="ID_462129106" MODIFIED="1549194702075" TEXT="Develop the people">
+<icon BUILTIN="full-3"/>
+<node CREATED="1549194706454" ID="ID_647010382" MODIFIED="1549194708628" TEXT="Very important"/>
+</node>
+</node>
+<node CREATED="1549194720839" FOLDED="true" ID="ID_730462726" MODIFIED="1573209340852" TEXT="Standard work established">
+<node CREATED="1549194726659" ID="ID_1120264893" MODIFIED="1549194729231" TEXT="NOT by imitating">
+<node CREATED="1549194732910" ID="ID_110603282" MODIFIED="1549194735771" TEXT="way of work">
+<node CREATED="1549194735979" ID="ID_1900722963" MODIFIED="1549194741391" TEXT="Prescribed"/>
+<node CREATED="1549194742169" ID="ID_1131241881" MODIFIED="1549194743801" TEXT="Provided"/>
+<node CREATED="1549194749692" ID="ID_1108977238" MODIFIED="1549194753274" TEXT="Used successfully">
+<node CREATED="1549194753502" ID="ID_1659342310" MODIFIED="1549194756044" TEXT="by another company"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1549194762605" FOLDED="true" ID="ID_47476406" MODIFIED="1573209340852" TEXT="When you change your way to work">
+<node CREATED="1549194775335" ID="ID_927074737" MODIFIED="1549194778787" TEXT="Create a routine"/>
+<node CREATED="1549194779275" ID="ID_1613793268" MODIFIED="1549194782557" TEXT="Create a different culture"/>
+</node>
+</node>
+<node CREATED="1549194787478" FOLDED="true" ID="ID_1628782272" MODIFIED="1573209339753" TEXT="Transforming your leadership, management, team practice">
+<node CREATED="1549194820888" FOLDED="true" ID="ID_918981270" MODIFIED="1573209337986" TEXT="Question often asked">
+<node CREATED="1549194824978" ID="ID_1823956170" MODIFIED="1549194831750" TEXT="&quot;How to we change our culture?&quot;"/>
+</node>
+<node CREATED="1549194835299" FOLDED="true" ID="ID_1125736281" MODIFIED="1573209337987" TEXT="Better question">
+<node CREATED="1549194840571" ID="ID_1542583202" MODIFIED="1549194846203" TEXT="How do we learn how to learn?"/>
+<node CREATED="1549194849391" ID="ID_1149755572" MODIFIED="1549194854803" TEXT="How do I learn?"/>
+<node CREATED="1549194855521" ID="ID_1991891020" MODIFIED="1549194864283" TEXT="How can I make it safe">
+<node CREATED="1549194864571" ID="ID_1454706994" MODIFIED="1549194867973" TEXT="for others to learn?"/>
+</node>
+<node CREATED="1549194870581" ID="ID_1286925633" MODIFIED="1549194876336" TEXT="How can I learn">
+<node CREATED="1549194876644" ID="ID_1318310803" MODIFIED="1549194878886" TEXT="From them?"/>
+<node CREATED="1549194879364" ID="ID_696379846" MODIFIED="1549194880996" TEXT="With them?"/>
+</node>
+<node CREATED="1549194890238" ID="ID_1866783952" MODIFIED="1549194923850" TEXT="How do we, together">
+<node CREATED="1549194924098" ID="ID_1467513045" MODIFIED="1549194928300" TEXT="Establish new behaviors?"/>
+<node CREATED="1549194928768" ID="ID_1755392056" MODIFIED="1549194933641" TEXT="Establish new way of thinking?">
+<node CREATED="1549194941101" ID="ID_1872831945" MODIFIED="1549194951393" TEXT="That build new habits"/>
+<node CREATED="1549194951901" ID="ID_193590144" MODIFIED="1549194959563" TEXT="That cultivate our new culture?"/>
+</node>
+</node>
+<node CREATED="1549194966584" ID="ID_1853666897" MODIFIED="1549194969656" TEXT="Where do we start?"/>
+</node>
+<node CREATED="1549194973345" FOLDED="true" ID="ID_448123491" MODIFIED="1573209337987" TEXT="Let&apos;s try this together.">
+<node CREATED="1549194984007" ID="ID_668739510" MODIFIED="1549194989649" TEXT="Even if it doesn&apos;t work..."/>
+<node CREATED="1549194990197" ID="ID_909531736" MODIFIED="1549194994919" TEXT="... we will learn something"/>
+<node CREATED="1549194995507" ID="ID_63158386" MODIFIED="1549195000229" TEXT="... that will help us"/>
+<node CREATED="1549195000687" ID="ID_1655856951" MODIFIED="1549195004789" TEXT="... to be better."/>
+<node CREATED="1549195006877" ID="ID_32584121" MODIFIED="1549195047952" TEXT="Will you join me in this..."/>
+<node CREATED="1549195021977" ID="ID_864784659" MODIFIED="1549195060722" TEXT="... and see what we can learn?"/>
+</node>
+<node CREATED="1549195089320" FOLDED="true" ID="ID_430310710" MODIFIED="1573209337987" TEXT="Every quarter">
+<node CREATED="1549195093740" ID="ID_1472727095" MODIFIED="1549195101312" TEXT="New learning for team">
+<node CREATED="1549195097900" ID="ID_798959950" MODIFIED="1549195105312" TEXT="then practice"/>
+</node>
+</node>
+<node CREATED="1549195117503" FOLDED="true" ID="ID_1986613865" MODIFIED="1573209337987" TEXT="Uncomfortable at first ">
+<node CREATED="1549195130603" ID="ID_1726878842" MODIFIED="1549195133355" TEXT="Then become easier"/>
+<node CREATED="1549195134453" ID="ID_1531481433" MODIFIED="1549195140225" TEXT="Finally become a habit">
+<node CREATED="1549195140563" ID="ID_117813961" MODIFIED="1549195146498" TEXT="Stretch and stretch again"/>
+</node>
+</node>
+<node CREATED="1549195153269" FOLDED="true" ID="ID_665582066" MODIFIED="1573209337987" TEXT="Each time member record measure">
+<node CREATED="1549195158959" ID="ID_1240812131" MODIFIED="1549195162321" TEXT="How they spend their days"/>
+<node CREATED="1549195165619" ID="ID_583142291" MODIFIED="1549195170481" TEXT="Shared with each others"/>
+<node CREATED="1549195173439" ID="ID_531254042" MODIFIED="1549195180181" TEXT="Develop together new ways to work"/>
+</node>
+<node CREATED="1549195188592" FOLDED="true" ID="ID_537432689" MODIFIED="1573209337987" TEXT="Standard work routine">
+<node CREATED="1549195199012" ID="ID_1171918430" MODIFIED="1549195201324" TEXT="Visual management"/>
+<node CREATED="1549195202272" ID="ID_1297443869" MODIFIED="1549195206637" TEXT="Regular stand ups"/>
+<node CREATED="1549195208405" ID="ID_1326240483" MODIFIED="1549195212200" TEXT="Consistent coaching"/>
+</node>
+<node CREATED="1549195221731" FOLDED="true" ID="ID_1747609653" MODIFIED="1573209337987" TEXT="There is no checklist or playbook">
+<node CREATED="1549195228411" ID="ID_1920539919" MODIFIED="1549195233053" TEXT="You can&apos;t implement culture change"/>
+<node CREATED="1549195234351" ID="ID_656069478" MODIFIED="1549195245213" TEXT="Mimic culture">
+<node CREATED="1549195245411" ID="ID_136228053" MODIFIED="1549195250823" TEXT="contrary to generative culture"/>
+</node>
+</node>
+<node CREATED="1549195470863" FOLDED="true" ID="ID_566912532" LINK="resources/transformation_practices.pdf" MODIFIED="1573209337987" TEXT="Very interesting resource">
+<node CREATED="1549195501106" ID="ID_590352837" MODIFIED="1549195506798" TEXT="about transformative practices"/>
+</node>
+<node CREATED="1549195515879" FOLDED="true" ID="ID_459027012" MODIFIED="1573209337988" TEXT="Development through">
+<node CREATED="1549195519999" ID="ID_1360906962" MODIFIED="1549195522701" TEXT="Experimentation"/>
+<node CREATED="1549195523209" ID="ID_553509445" MODIFIED="1549195524401" TEXT="Learning"/>
+<node CREATED="1549195529322" ID="ID_509743591" MODIFIED="1549195534474" TEXT="... guided by evidence">
+<node CREATED="1549195543105" ID="ID_594758299" MODIFIED="1549195546477" TEXT="of new way of working">
+<node CREATED="1549195546635" ID="ID_68959898" MODIFIED="1549195548367" TEXT="together"/>
+</node>
+</node>
+</node>
+<node CREATED="1549195552921" FOLDED="true" ID="ID_1740851952" MODIFIED="1573209335746" TEXT="Important rules">
+<node CREATED="1549195569673" ID="ID_1338746730" MODIFIED="1549195600995" TEXT="Learning between people">
+<icon BUILTIN="full-1"/>
+<node CREATED="1549195564337" ID="ID_332447351" MODIFIED="1549195566590" TEXT="Right mindset">
+<node CREATED="1549195556233" ID="ID_829498729" MODIFIED="1549195560028" TEXT="Develop"/>
+<node CREATED="1549195560616" ID="ID_1167882131" MODIFIED="1549195563470" TEXT="Maintain"/>
+</node>
+</node>
+<node CREATED="1549195593235" ID="ID_1048624348" MODIFIED="1549478556760" TEXT="Make it your own">
+<icon BUILTIN="full-2"/>
+<node CREATED="1549195607333" ID="ID_1185268405" MODIFIED="1549195612365" TEXT="Don&apos;t copy">
+<node CREATED="1549195612613" ID="ID_1925439062" MODIFIED="1549195619005" TEXT="Study and adapt for your own"/>
+</node>
+</node>
+<node CREATED="1549195623025" ID="ID_619641093" MODIFIED="1549478558406" TEXT="Don&apos;t impose">
+<icon BUILTIN="full-3"/>
+<node CREATED="1549195639616" ID="ID_1022134979" MODIFIED="1549195650068" TEXT="Practice are done to them">
+<node CREATED="1549195650256" ID="ID_820620294" MODIFIED="1549195653148" TEXT="(the team)"/>
+</node>
+</node>
+<node CREATED="1549195662769" ID="ID_33604435" MODIFIED="1549478816243" TEXT="Develop">
+<icon BUILTIN="full-4"/>
+<node CREATED="1549195665599" ID="ID_921610451" MODIFIED="1549195667321" TEXT="Confidence"/>
+<node CREATED="1549195667819" ID="ID_1652919090" MODIFIED="1549195674389" TEXT="Capability to sustain"/>
+<node CREATED="1549195675855" ID="ID_1175962263" MODIFIED="1549195692253" TEXT="Continue">
+<node CREATED="1549195692520" ID="ID_356316215" MODIFIED="1549195696461" TEXT="To improve"/>
+<node CREATED="1549195696888" ID="ID_833735812" MODIFIED="1549195698580" TEXT="To adapt"/>
+</node>
+<node CREATED="1549195702735" ID="ID_726325629" MODIFIED="1573209309879" TEXT="new">
+<node CREATED="1549195708702" ID="ID_257714349" MODIFIED="1549195710644" TEXT="Processes"/>
+<node CREATED="1549195711072" ID="ID_583256422" MODIFIED="1549195712755" TEXT="Behaviors"/>
+</node>
+</node>
+<node CREATED="1549195720959" ID="ID_676079825" MODIFIED="1549478817907" TEXT="Develop your own coaches">
+<icon BUILTIN="full-5"/>
+<node CREATED="1549195735449" ID="ID_1532127437" MODIFIED="1549195743821" TEXT="Outside coaching at first is fine"/>
+<node CREATED="1549195744279" ID="ID_593021360" MODIFIED="1549195754531" TEXT="But you need coaches inside company!"/>
+</node>
+<node CREATED="1549195767932" ID="ID_873096244" MODIFIED="1549478820092" TEXT="Change needs">
+<icon BUILTIN="full-6"/>
+<node CREATED="1549195771742" ID="ID_1818851242" MODIFIED="1549195774694" TEXT="Discipline"/>
+<node CREATED="1549195775112" ID="ID_1355257900" MODIFIED="1549195776064" TEXT="Courage"/>
+</node>
+<node CREATED="1549195781995" FOLDED="true" ID="ID_67189734" MODIFIED="1573209332938" TEXT="If you are an employee">
+<icon BUILTIN="full-7"/>
+<node CREATED="1549195786215" ID="ID_1981512411" MODIFIED="1549195788868" TEXT="Lead by example"/>
+<node CREATED="1549195794271" ID="ID_991368583" MODIFIED="1549195798022" TEXT="Demonstrate behaviors">
+<node CREATED="1549195798250" ID="ID_1051715372" MODIFIED="1549195802740" TEXT="Don&apos;t delegate them"/>
+</node>
+</node>
+<node CREATED="1549195808151" FOLDED="true" ID="ID_23753500" MODIFIED="1573209334338" TEXT="Practice">
+<icon BUILTIN="full-8"/>
+<node CREATED="1549195810151" ID="ID_1896201444" MODIFIED="1549195814908" TEXT="Takes time to implement habits"/>
+<node CREATED="1549195819807" ID="ID_1297396700" MODIFIED="1549195821523" TEXT="Learn"/>
+<node CREATED="1549195822063" ID="ID_1665124924" MODIFIED="1549195823479" TEXT="Succeed"/>
+<node CREATED="1549195828880" ID="ID_1789120141" MODIFIED="1549195831332" TEXT="Fail"/>
+<node CREATED="1549195831790" ID="ID_1176861914" MODIFIED="1549195833232" TEXT="Learn"/>
+<node CREATED="1549195833670" ID="ID_1168477795" MODIFIED="1549195836442" TEXT="Adjust"/>
+<node CREATED="1549195836860" ID="ID_702831447" MODIFIED="1549478554605" TEXT="..."/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</map>

@@ -1,0 +1,185 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1535905011956" ID="ID_1660559778" LINK="https://www.kalzumeus.com/2010/04/20/building-highly-reliable-websites-for-small-companies/" MODIFIED="1547753227456" TEXT="Building Highly Reliable Websites For Small Companies">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="5"><u><b>Questions </b></u></font>
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        Where the first risk for software?
+      </li>
+      <li>
+        And more precisely?
+      </li>
+      <li>
+        When the software is the most vulnerable?
+      </li>
+      <li>
+        What are the 6 things you should want to do when a failure arise?
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+<node CREATED="1535905040808" FOLDED="true" ID="ID_1539850130" MODIFIED="1569953486896" POSITION="right" TEXT="Downtime">
+<icon BUILTIN="full-1"/>
+<node CREATED="1535905044927" ID="ID_348040326" MODIFIED="1535905048395" TEXT="Annoys customer"/>
+<node CREATED="1535905049376" ID="ID_1447130109" MODIFIED="1535905057188" TEXT="Annoys proprietors"/>
+<node CREATED="1535905134805" ID="ID_376309947" MODIFIED="1536168632261" TEXT="... but you will have some"/>
+</node>
+<node CREATED="1535907767605" FOLDED="true" ID="ID_1647728048" MODIFIED="1569953487776" POSITION="right" TEXT="Identify the risk">
+<icon BUILTIN="full-2"/>
+<node CREATED="1535907771635" ID="ID_390441450" MODIFIED="1535907775516" TEXT="Where are they?"/>
+<node CREATED="1535907808956" ID="ID_1803861333" MODIFIED="1536168640295" TEXT="Think about what can break">
+<node CREATED="1535907817150" ID="ID_590166947" MODIFIED="1535907822365" TEXT="Write it!"/>
+</node>
+<node CREATED="1535907847416" ID="ID_1901403400" MODIFIED="1569953290224" TEXT="What are the risks?">
+<node CREATED="1535907852366" ID="ID_1078759147" MODIFIED="1535907854937" TEXT="Moving parts">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1535907920282" ID="ID_1209258407" MODIFIED="1535907923864" TEXT="Hard drives">
+<node CREATED="1535907951355" ID="ID_75410886" MODIFIED="1535907956911" TEXT="Pay somebody for that"/>
+</node>
+</node>
+<node CREATED="1535907856851" ID="ID_274995203" MODIFIED="1535907862777" TEXT="Like for Toyota...."/>
+<node CREATED="1535908072523" ID="ID_496214721" MODIFIED="1535908082141" TEXT="Less literally speaking">
+<node CREATED="1535908082400" ID="ID_1491860701" MODIFIED="1535908093831" TEXT="Dynamism">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1535908229826" ID="ID_510696454" MODIFIED="1535908233892" TEXT="Databases..."/>
+</node>
+<node CREATED="1535908087860" ID="ID_1400031404" MODIFIED="1535908094331" TEXT="Complexity">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1535908090950" ID="ID_120332946" MODIFIED="1535908092691" TEXT="Change">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1535908290424" ID="ID_256800102" MODIFIED="1535908311045" TEXT="Every system outside">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1535908298360" ID="ID_884191333" MODIFIED="1535908299270" TEXT="API"/>
+<node CREATED="1535908299943" ID="ID_138219245" MODIFIED="1535908303006" TEXT="Network provided"/>
+</node>
+</node>
+<node CREATED="1535908114826" ID="ID_893704899" MODIFIED="1535908121016" TEXT="Pretty vulnerable">
+<node CREATED="1535908121219" ID="ID_467493853" MODIFIED="1535908124840" TEXT="When you work on it"/>
+<node CREATED="1535908125482" ID="ID_253980802" MODIFIED="1535908128815" TEXT="Shortly after"/>
+<node CREATED="1535908134906" ID="ID_1404546447" MODIFIED="1535908143902" TEXT="You are your worst enemy..."/>
+</node>
+</node>
+</node>
+<node CREATED="1535905159749" FOLDED="true" ID="ID_1031309763" MODIFIED="1569953489601" POSITION="right" TEXT="Setting expectations">
+<icon BUILTIN="full-3"/>
+<node CREATED="1535905163605" ID="ID_1241432543" MODIFIED="1536168897101" TEXT="For the failures you will want to">
+<node CREATED="1535905167436" ID="ID_1621619482" MODIFIED="1536168901601" TEXT="Anticipate">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1535905179350" ID="ID_1661207541" MODIFIED="1536168922159" TEXT="Minimize">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1535907708644" ID="ID_1235573713" MODIFIED="1536168921729" TEXT="Be notified quickly">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1535907727739" ID="ID_100406155" MODIFIED="1536168920459" TEXT="Recover quickly">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1535907735821" ID="ID_1793006881" MODIFIED="1536168928532" TEXT="Learn from it">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1535907740435" ID="ID_1359788152" MODIFIED="1536168948241" TEXT="Prevent reoccurrence">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1535908849516" FOLDED="true" ID="ID_455350382" MODIFIED="1569953483968" POSITION="left" TEXT="Minimize failure">
+<icon BUILTIN="full-5"/>
+<node CREATED="1535908610351" ID="ID_1095335634" MODIFIED="1535908613138" TEXT="Show cache">
+<node CREATED="1535908613334" ID="ID_565925406" MODIFIED="1535908870634" TEXT="If any API call fails"/>
+</node>
+<node CREATED="1535908873148" ID="ID_691622816" MODIFIED="1535908878290" TEXT="Show a nice error page">
+<node CREATED="1535908878517" ID="ID_146773208" MODIFIED="1535908888858" TEXT="Customer happy when they see something nice"/>
+</node>
+<node CREATED="1535908922956" ID="ID_517706858" MODIFIED="1535908927018" TEXT="Automated recovery">
+<node CREATED="1535908941124" ID="ID_945795584" MODIFIED="1535909001457" TEXT="Don&apos;t hesitate to restart it daily">
+<node CREATED="1535908968982" ID="ID_1168233515" MODIFIED="1535908975225" TEXT="Duct tape but who cares"/>
+<node CREATED="1535908990045" ID="ID_1989866374" MODIFIED="1535908993449" TEXT="Avoid memory leak"/>
+</node>
+</node>
+</node>
+<node CREATED="1535909748783" FOLDED="true" ID="ID_680827742" MODIFIED="1569953482929" POSITION="left" TEXT="Be notified quickly">
+<icon BUILTIN="full-6"/>
+<node CREATED="1535909863476" ID="ID_264673452" MODIFIED="1535909872163" TEXT="Subscribe for a monitoring">
+<node CREATED="1535909872335" ID="ID_707217669" MODIFIED="1535909879139" TEXT="Which verify if you&apos;re down"/>
+<node CREATED="1535909883804" ID="ID_130327864" MODIFIED="1535909892898" TEXT="But won&apos;t catch more complex failures"/>
+</node>
+<node CREATED="1535909901885" ID="ID_1399665242" MODIFIED="1535909909074" TEXT="Internal status page">
+<node CREATED="1535909909260" ID="ID_1000304953" MODIFIED="1535909915169" TEXT="Checking crucial things"/>
+<node CREATED="1535909972142" ID="ID_1265885820" MODIFIED="1535909975995" TEXT="Monitoring checking it"/>
+</node>
+<node CREATED="1535910040244" ID="ID_783350604" MODIFIED="1535910046248" TEXT="Use cellphone">
+<node CREATED="1535910046444" ID="ID_842531854" MODIFIED="1535910057697" TEXT="With different ringing for different emails"/>
+</node>
+<node CREATED="1535910107979" ID="ID_1527310867" LINK="https://www.scoutapp.com/" MODIFIED="1535910117102" TEXT="Application monitoring calling you"/>
+</node>
+<node CREATED="1535910287971" FOLDED="true" ID="ID_1361796704" MODIFIED="1569953494138" POSITION="left" TEXT="Learn from failure">
+<icon BUILTIN="full-7"/>
+<node CREATED="1535910297011" ID="ID_385988769" MODIFIED="1535910301265" TEXT="Use the 5 whys">
+<node CREATED="1535910305602" ID="ID_1642779156" MODIFIED="1535910311070" TEXT="No failure ever has one cause"/>
+<node CREATED="1535910325514" ID="ID_1266663457" MODIFIED="1535910329146" TEXT="Root cause analysis"/>
+</node>
+<node CREATED="1535910345195" ID="ID_1891941093" MODIFIED="1535910349240" TEXT="Go down to track problem">
+<node CREATED="1535910349427" ID="ID_56933005" MODIFIED="1535910353048" TEXT="As far as you can!"/>
+<node CREATED="1535910353851" ID="ID_558369146" MODIFIED="1535910359494" TEXT="Eliminate the rotten root"/>
+</node>
+</node>
+<node CREATED="1535908381765" FOLDED="true" ID="ID_1598729037" MODIFIED="1569953490368" POSITION="right" TEXT="Prevent failures">
+<icon BUILTIN="full-4"/>
+<node CREATED="1535908397440" ID="ID_1753061943" MODIFIED="1535908400157" TEXT="Decouple">
+<node CREATED="1535908400448" ID="ID_667600016" MODIFIED="1535908405972" TEXT="Failure of specific component">
+<node CREATED="1535908406216" ID="ID_1153431882" MODIFIED="1535908413494" TEXT="Don&apos;t shut down whole system"/>
+</node>
+<node CREATED="1535908419256" ID="ID_296690743" MODIFIED="1535908423901" TEXT="Can be expensive"/>
+</node>
+<node CREATED="1535908452769" ID="ID_1530610225" MODIFIED="1535908454837" TEXT="Go after">
+<node CREATED="1535908455031" ID="ID_138831132" MODIFIED="1535908458387" TEXT="Low hanging fruit"/>
+</node>
+<node CREATED="1535908461125" ID="ID_1668100082" MODIFIED="1535908464645" TEXT="Don&apos;t overdo it...">
+<node CREATED="1535908464839" ID="ID_1397490421" MODIFIED="1535908469835" TEXT="It&apos;s not that terrible at the end"/>
+</node>
+<node CREATED="1535908526189" ID="ID_905770254" MODIFIED="1535908529710" TEXT="Request API">
+<node CREATED="1535908529949" ID="ID_635980622" MODIFIED="1535908537640" TEXT="Asynchronously"/>
+<node CREATED="1535908538039" ID="ID_1161020036" MODIFIED="1535908542561" TEXT="Otherwise their downtimes">
+<node CREATED="1535908542760" ID="ID_1716756475" MODIFIED="1535908550951" TEXT="are yours as well...."/>
+</node>
+</node>
+<node CREATED="1535909030131" ID="ID_437888538" MODIFIED="1535909040352" TEXT="You&apos;re the least reliable component">
+<node CREATED="1535909125852" ID="ID_979229787" MODIFIED="1535909176875" TEXT="If it has to be done more than once">
+<node CREATED="1535909133802" ID="ID_1801703039" MODIFIED="1535909175375" TEXT="Automated!"/>
+<node CREATED="1535909176878" ID="ID_1489519898" MODIFIED="1535909184095" TEXT="Or put into a checklist / workflow">
+<node CREATED="1535909200403" ID="ID_21550817" MODIFIED="1535909207789" TEXT="What are the exact steps">
+<node CREATED="1535909207978" ID="ID_747952932" MODIFIED="1535909214294" TEXT="Including command lines"/>
+</node>
+<node CREATED="1535909239618" ID="ID_5362512" MODIFIED="1535909245022" TEXT="How can you verify it works"/>
+<node CREATED="1535909419001" ID="ID_227207533" MODIFIED="1535909424382" TEXT="Checklist you need">
+<node CREATED="1535909424581" ID="ID_958716914" MODIFIED="1535909431029" TEXT="Restauring server from ground up"/>
+</node>
+<node CREATED="1535909433601" ID="ID_588297116" MODIFIED="1535909562844" TEXT="Execute checklist">
+<node CREATED="1535909446736" ID="ID_606754591" MODIFIED="1535909452667" TEXT="Every quarter for verification"/>
+</node>
+</node>
+<node CREATED="1535909138744" ID="ID_120143651" MODIFIED="1535909140295" TEXT="Include">
+<node CREATED="1535909140547" ID="ID_523213746" MODIFIED="1535909143528" TEXT="Server setup"/>
+<node CREATED="1535909144242" ID="ID_1433452498" MODIFIED="1535909147881" TEXT="Server upgrades"/>
+<node CREATED="1535909148442" ID="ID_1252160810" MODIFIED="1535909154943" TEXT="upgrading code on staging"/>
+<node CREATED="1535909155635" ID="ID_1188547528" MODIFIED="1535909161343" TEXT="upgrading code on prod"/>
+<node CREATED="1535909162130" ID="ID_1488026358" MODIFIED="1535909168696" TEXT="any maintenance task"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</map>

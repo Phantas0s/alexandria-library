@@ -1,0 +1,27 @@
+.searchtab {line-height: inherit !important;font-size: inherit !important;width: auto !important;height: auto !important;}
+.activelink{color: #b30838 !important; }
+.searchbox {width: 500px; font-size: 15px; padding-right: 5px; vertical-align: middle;}
+.searchboxheader {font-size: 15px; padding-right: 5px; vertical-align: middle; margin-left:25px; width: 200px;}
+.searchboxhsheader {font-size: 15px; padding-right: 5px; vertical-align: middle; margin-left:115px; width: 200px;}
+.searchresults{margin-left: -20px;}
+.rightpane{ width: 182px; padding: 20px 28px; background-color: #fff; -webkit-border-radius: 0 16px 16px 0; border-radius: 0 16px 16px 0;}
+.searchField {width: 230px;}
+.gs-per-result-labels{display:none !important}
+.gcsc-branding { display:none !important; }
+.gsc-input {background :none !important; text-indent : 0 !important}
+.search-page-min-height{min-height:350px !important}
+.gsc-search-button-v2{padding: 5px 12px !important}
+.advanceSearchText { font-family: arial, helvetica, sans-serif; font-size: 12px; background-color: #fff; border: 1px solid #808080; padding: 10px 10px 10px 10px;z-index: 999999;}
+.advanceSearch{font-size: 12px; width: 70px;}
+table.gsc-completion-container tbody tr:last-child td div {display:none;}
+table.search a {text-decoration: none;}
+.modal {display: none; position: fixed; z-index: 1000;padding-top: 100px; left: 0;top: 0;width: 50%; height: 100%; overflow: auto; padding-top: 130px;padding-left: 500px;	outline: none !important;}
+.modal-content {position: relative;background-color: #000;margin: auto;padding: 0;border: 1px solid #888;width: 80%;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);-webkit-animation-name: animatetop;-webkit-animation-duration: 0.4s;animation-name: animatetop;animation-duration: 0.4s}
+.close {float: right; font-weight: bold; color: white; background: #B30838 !important; border-color: #B30838 !important;}
+.hsclose {float: right; font-weight: bold; color: black; background: #f1f4f7 !important; border-color: #f1f4f7 !important;}
+.close:hover,.close:focus {color: #fff;text-decoration: none;cursor: pointer;}
+.modal-header {padding: 2px 16px;background-color: #5cb85c;color: white;}
+.modal-body {padding: 10px 10px 10px 10px;}
+.modal-footer {padding: 2px 16px;background-color: #5cb85c;color: white;}
+@-webkit-keyframes animatetop {from {top:-300px; opacity:0} to {top:0; opacity:1}}
+@keyframes animatetop {from {top:-300px; opacity:0} to {top:0; opacity:1}}

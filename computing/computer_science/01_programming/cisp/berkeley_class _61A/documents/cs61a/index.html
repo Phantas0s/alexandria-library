@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content ="CS 61A: Structure and Interpretation of Computer Programs" />
+    <meta name="keywords" content ="CS 61A, Computer Science, CS, 61A, Programming, John DeNero, Berkeley, EECS" />
+    <meta name="author" content ="James Uejio, Jen Thakar, Mitas Ray, Tammy Nguyen" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto:300,400,500|Work+Sans:400,700">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/mono-blue.css">
+    <link rel="icon" href="/assets/images/favicon.ico">
+
+    
+
+    <title>CS 61A Summer 2018</title>
+  </head>
+
+  <body id="index" class="home">
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container noselect">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-section">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">CS 61A</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-section">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/weekly.html">Weekly Schedule</a></li>
+            <li><a href="/office-hours.html">Office Hours</a></li>
+            <li><a href="/staff.html">Staff</a></li>
+            <li><a href="/resources.html">Resources</a></li>
+            <li><a href="/articles/about.html">Policies</a></li>
+            <li><a href="http://tutor.cs61a.org">Tutor</a></li>
+            <li><a href="https://piazza.com/berkeley/summer2018/cs61a" target="_blank">Piazza</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="content" class="container">
+      
+<header>
+  <h1>CS 61A: Structure and Interpretation of Computer Programs</h1>
+  <p>
+    Summer 2018
+    <br/>
+    
+      Instructors:
+    
+    James Uejio, Jen Thakar, Mitas Ray, Tammy Nguyen
+    <br/>
+    MTuWTh 11-12:30 in 155 Dwinelle
+  </p>
+</header>
+
+<section id="announcements">
+  
+    <div class="announcement" id='announcement-0'>
+        <div class="header">Friday, May 18</div>
+        <ul>
+  <li>Welcome to CS 61A Summer 2018!</li>
+  <li>Looking for the <a href="http://sp18.cs61a.org">Spring 2018 website</a>?</li>
+  <li>This website is under construction. All information is subject to change.</li>
+</ul>
+        
+    <div class="highlight-resources">
+        <div class="highlight-resource">
+            <div class="header">Week 1 Class Material</div>
+            <li>Lecture 1: Introduction</li><li>Readings: 
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/11-getting-started.html" class="label label-outline" target="_blank">1.1</a></li>
+<li><a href="http://composingprograms.com/pages/12-elements-of-programming.html" class="label label-outline" target="_blank">1.2</a></li>
+</ul>
+</li>
+        </div>
+        <div class="highlight-resource">
+            <div class="header">Week 1 <a href='/resources.html'>Staff Resources</a></div>
+            <li><a href="https://sequoia-tree.github.io/#Textbook" target="_blank">Sequoia's Notes</a></li>
+<li><a href="http://tutor.cs61a.org" target="_blank">Python Tutor</a></li>
+<li>
+<a href="https://docs.google.com/presentation/d/1pKado1dzDzJaAAoTAkovQeMB3YwK5uo6BNenCQgH8xI/edit?usp=sharing" target="_blank">WWPD & Environment Diagram Slides</a>
+
+<ul class="list-inline">
+  
+</ul>
+
+</li>
+<li>
+<a href="https://drive.google.com/file/d/0B_XgYxvE0IxpOWg5c013cFZXc0E/view?usp=sharing" target="_blank">WWPD & Environment Diagram Party Worksheet</a>
+
+<ul class="list-inline">
+  <li><a href="https://drive.google.com/file/d/0B9f1uNGYHmJ9Nzh3NnJUcmdxclU/view?usp=sharing" class="label label-outline" target="_blank">Solutions</a></li>
+</ul>
+
+</li>
+<li>
+<a href="https://docs.google.com/a/berkeley.edu/presentation/d/1p1rhwLg6IdFBGghlvvb5HESIUxBo2_-GLKE4AwbeVLc/edit?usp=sharing" target="_blank">Samantha's Environment Diagram Slides</a>
+
+<ul class="list-inline">
+  
+</ul>
+
+</li>
+        </div>
+    </div>
+    
+        <i class="prev glyphicon glyphicon-menu-left" aria-hidden="true"></i>
+        <i class="next glyphicon glyphicon-menu-right" aria-hidden="true"></i>
+    </div>
+    
+</section>
+
+<section class="assignments" id="assignments">
+</section>
+
+<section id="calendar" class="table-responsive">
+  <table id="calendar" class="table" cellpadding="5px">
+<tr>
+<th>Week</th>
+<th>Date</th>
+<th>Lecture</th>
+<th>Reading</th>
+<th>Handout</th>
+<th>Homework & Project</th>
+</tr>
+<tr class="odd">
+<td rowspan="4" class="weeknum odd">Introduction</td>
+<td>Mon<br>6/18</td>
+<td>Introduction</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/11-getting-started.html" class="label label-outline" target="_blank">1.1</a></li>
+<li><a href="http://composingprograms.com/pages/12-elements-of-programming.html" class="label label-outline" target="_blank">1.2</a></li>
+</ul>
+</td>
+<td></td>
+<td>
+HW 00
+<div class="badge due">
+  <i class="glyphicon glyphicon-time"></i>
+  Thu 6/21
+</div>
+
+
+</td>
+</tr>
+<tr class="odd">
+<td>Tue<br>6/19</td>
+<td>Functions</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/13-defining-new-functions.html" class="label label-outline" target="_blank">1.3</a></li>
+<li><a href="http://composingprograms.com/pages/14-designing-functions.html" class="label label-outline" target="_blank">1.4</a></li>
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Wed<br>6/20</td>
+<td>Control</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/15-control.html" class="label label-outline" target="_blank">1.5</a></li>
+</ul>
+</td>
+<td></td>
+<td>
+Hog
+<div class="badge due">
+  <i class="glyphicon glyphicon-time"></i>
+  Fri 6/29
+</div>
+
+
+</td>
+</tr>
+<tr class="odd">
+<td>Thu<br>6/21</td>
+<td>Environment Diagrams</td>
+<td>
+<ul class="list-inline">
+  
+</ul>
+</td>
+<td></td>
+<td>
+HW 01
+<div class="badge due">
+  <i class="glyphicon glyphicon-time"></i>
+  Tue 6/26
+</div>
+
+
+</td>
+</tr>
+<tr class="even">
+<td rowspan="4" class="weeknum even">Functions</td>
+<td>Mon<br>6/25</td>
+<td>Higher-Order Functions</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/16-higher-order-functions.html" class="label label-outline" target="_blank">1.6</a></li>
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Tue<br>6/26</td>
+<td>Sequences</td>
+<td>
+<ul class="list-inline">
+  
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wed<br>6/27</td>
+<td>Recursion</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/17-recursive-functions.html" class="label label-outline" target="_blank">1.7</a></li>
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Thu<br>6/28</td>
+<td>Tree Recursion</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/17-recursive-functions.html" class="label label-outline" target="_blank">1.7</a></li>
+</ul>
+</td>
+<td></td>
+<td>
+HW 02
+<div class="badge due">
+  <i class="glyphicon glyphicon-time"></i>
+  Tue 7/3
+</div>
+
+
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="4" class="weeknum odd">Data</td>
+<td>Mon<br>7/2</td>
+<td>Data Abstraction</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/21-introduction.html" class="label label-outline" target="_blank">2.1</a></li>
+<li><a href="http://composingprograms.com/pages/22-data-abstraction.html" class="label label-outline" target="_blank">2.2</a></li>
+</ul>
+</td>
+<td></td>
+<td>
+Maps
+<div class="badge due">
+  <i class="glyphicon glyphicon-time"></i>
+  Mon 7/9
+</div>
+
+
+</td>
+</tr>
+<tr class="odd">
+<td>Tue<br>7/3</td>
+<td>Trees</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/23-sequences.html" class="label label-outline" target="_blank">2.3</a></li>
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Wed<br>7/4</td>
+<td>No Lecture: Independence Day</td>
+<td></td>
+<td></td>
+<td>
+HW 03
+<div class="badge due">
+  <i class="glyphicon glyphicon-time"></i>
+  Mon 7/9
+</div>
+
+
+</td>
+</tr>
+<tr class="odd">
+<td>Thu<br>7/5</td>
+<td>Growth</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/28-efficiency.html" class="label label-outline" target="_blank">2.8</a></li>
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td rowspan="4" class="weeknum even">Languages</td>
+<td>Mon<br>7/9</td>
+<td>Midterm Review</td>
+<td>
+<ul class="list-inline">
+  
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Tue<br>7/10</td>
+<td>Midterm (6:30 - 9:30 PM)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wed<br>7/11</td>
+<td>Scheme</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/31-introduction.html" class="label label-outline" target="_blank">3.1</a></li>
+<li><a href="http://composingprograms.com/pages/32-functional-programming.html" class="label label-outline" target="_blank">3.2</a></li>
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Thu<br>7/12</td>
+<td>Scheme Lists</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/32-functional-programming.html" class="label label-outline" target="_blank">3.2</a></li>
+</ul>
+</td>
+<td></td>
+<td>
+HW 04
+<div class="badge due">
+  <i class="glyphicon glyphicon-time"></i>
+  Tue 7/17
+</div>
+
+
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="4" class="weeknum odd">Objects</td>
+<td>Mon<br>7/16</td>
+<td>Object-Oriented Programming I</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/25-object-oriented-programming.html" class="label label-outline" target="_blank">2.5</a></li>
+</ul>
+</td>
+<td></td>
+<td>
+Ants
+<div class="badge due">
+  <i class="glyphicon glyphicon-time"></i>
+  Wed 7/25
+</div>
+
+
+</td>
+</tr>
+<tr class="odd">
+<td>Tue<br>7/17</td>
+<td>Object-Oriented Programming II</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/25-object-oriented-programming.html" class="label label-outline" target="_blank">2.5</a></li>
+<li><a href="http://composingprograms.com/pages/27-object-abstraction.html" class="label label-outline" target="_blank">2.7</a></li>
+<li><a href="http://composingprograms.com/pages/42-implicit-sequences.html" class="label label-outline" target="_blank">4.2</a></li>
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Wed<br>7/18</td>
+<td>Mutable Trees</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/29-recursive-objects.html" class="label label-outline" target="_blank">2.9</a></li>
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Thu<br>7/19</td>
+<td>Mutable Functions</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/24-mutable-data.html" class="label label-outline" target="_blank">2.4</a></li>
+</ul>
+</td>
+<td></td>
+<td>
+HW 05
+<div class="badge due">
+  <i class="glyphicon glyphicon-time"></i>
+  Tue 7/24
+</div>
+
+
+</td>
+</tr>
+<tr class="even">
+<td rowspan="4" class="weeknum even">Evaluation</td>
+<td>Mon<br>7/23</td>
+<td>Lazy Evaluation</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/42-implicit-sequences.html" class="label label-outline" target="_blank">4.2</a></li>
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Tue<br>7/24</td>
+<td>Tail Recursion</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/35-interpreters-for-languages-with-abstraction.html" class="label label-outline" target="_blank">3.5</a></li>
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wed<br>7/25</td>
+<td>Interpreters</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/33-exceptions.html" class="label label-outline" target="_blank">3.3</a></li>
+<li><a href="http://composingprograms.com/pages/34-interpreters-for-languages-with-combination.html" class="label label-outline" target="_blank">3.4</a></li>
+</ul>
+</td>
+<td></td>
+<td>
+HW 06
+<div class="badge due">
+  <i class="glyphicon glyphicon-time"></i>
+  Tue 7/31
+</div>
+
+
+</td>
+</tr>
+<tr class="even">
+<td>Thu<br>7/26</td>
+<td>Macros and Metaprogramming</td>
+<td>
+<ul class="list-inline">
+  
+</ul>
+</td>
+<td></td>
+<td>
+Scheme
+<div class="badge due">
+  <i class="glyphicon glyphicon-time"></i>
+  Tue 8/7
+</div>
+
+
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="4" class="weeknum odd">Paradigms</td>
+<td>Mon<br>7/30</td>
+<td>Declarative Programming I</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/44-logic-programming.html" class="label label-outline" target="_blank">4.4</a></li>
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Tue<br>7/31</td>
+<td>Declarative Programming II</td>
+<td>
+<ul class="list-inline">
+  <li><a href="http://composingprograms.com/pages/43-declarative-programming.html" class="label label-outline" target="_blank">4.3</a></li>
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Wed<br>8/1</td>
+<td>TBD</td>
+<td>
+<ul class="list-inline">
+  
+</ul>
+</td>
+<td></td>
+<td>
+HW 07
+<div class="badge due">
+  <i class="glyphicon glyphicon-time"></i>
+  Tue 8/7
+</div>
+
+
+</td>
+</tr>
+<tr class="odd">
+<td>Thu<br>8/2</td>
+<td>TBD</td>
+<td>
+<ul class="list-inline">
+  
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td rowspan="4" class="weeknum even">Applications</td>
+<td>Mon<br>8/6</td>
+<td>Final Review</td>
+<td>
+<ul class="list-inline">
+  
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Tue<br>8/7</td>
+<td>Natural Language Processing</td>
+<td>
+<ul class="list-inline">
+  
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wed<br>8/8</td>
+<td>Conclusion</td>
+<td>
+<ul class="list-inline">
+  
+</ul>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Thu<br>8/9</td>
+<td>Final (6 - 9 PM)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</section>
+
+    </main>
+
+    <footer class="container">
+      <div class="row text-center">
+        <div class="col col-sm-4">
+          <h3><a href="/">CS 61A</a></h3>
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="/weekly.html">Weekly Schedule</a></li>
+            <li><a href="/office-hours.html">Office Hours</a></li>
+            <li><a href="/staff.html">Staff</a></li>
+          </ul>
+        </div>
+        <div class="col col-sm-4">
+          <h3><a href="/resources.html">Resources</a></h3>
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="/articles/studying.html">Studying Guide</a></li>
+            <li><a href="/articles/debugging.html">Debugging Guide</a></li>
+            <li><a href="/articles/composition.html">Composition Guide</a></li>
+          </ul>
+        </div>
+        <div class="col col-sm-4">
+          <h3><a href="/articles/about.html">Policies</a></h3>
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="/articles/about.html#assignments">Assignments</a></li>
+            <li><a href="/articles/about.html#exams">Exams</a></li>
+            <li><a href="/articles/about.html#grading">Grading</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    
+
+<script>
+$(document).ready(function() {
+  function urlExists(url, callback) {
+      // adapted from http://stackoverflow.com/a/1591653
+      var xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function() {
+          xhr.readyState === 4 && callback(xhr.status < 400);
+      };
+      xhr.open('HEAD', url);
+       xhr.send();
+   }
+
+  // Assignment quick list
+  var assignments = [{"due": "6/21/18", "link": "hw/hw00/", "name": "HW 00", "release": "6/18/18"}, {"due": "6/26/18", "link": "hw/hw01/", "name": "HW 01", "release": "6/21/18"}, {"due": "7/3/18", "link": "hw/hw02/", "name": "HW 02", "release": "6/28/18"}, {"due": "7/9/18", "link": "hw/hw03/", "name": "HW 03", "release": "7/4/18"}, {"due": "7/17/18", "link": "hw/hw04/", "name": "HW 04", "release": "7/12/18"}, {"due": "7/24/18", "link": "hw/hw05/", "name": "HW 05", "release": "7/19/18"}, {"due": "7/31/18", "link": "hw/hw06/", "name": "HW 06", "release": "7/25/18"}, {"due": "8/7/18", "link": "hw/hw07/", "name": "HW 07", "release": "8/1/18"}, {"due": "6/29/18", "link": "proj/hog/", "name": "Hog", "release": "6/20/18"}, {"due": "7/9/18", "link": "proj/maps/", "name": "Maps", "release": "7/2/18"}, {"due": "7/25/18", "link": "proj/ants/", "name": "Ants", "release": "7/16/18"}, {"due": "8/7/18", "link": "proj/scheme/", "name": "Scheme", "release": "7/26/18"}];
+
+  $(document).ready(function() {
+    var currentTime = Date.now();
+    assignments.forEach(function(assignment) {
+      var release = new Date(assignment.release);
+      var due = new Date(assignment.due);
+      due.setDate(due.getDate() + 1);
+      if (currentTime > release && currentTime <= due) {
+        urlExists(assignment.link, function(exists) {
+          if (!exists) return;
+          $('#assignments').append(
+              '<a href="' + assignment.link + '" class="btn btn-outline btn-lg">'
+              + assignment.name
+              + ' <span class="badge">'
+              + assignment.due
+              + '</span></a>\n');
+        });
+      }
+    });
+  });
+
+  // Announcements
+  var announcementIndex = 0;
+
+  function setAnnouncements(offset) {
+    var newIndex = announcementIndex  + offset;
+    var announcementNumber = $('.announcement').length;
+
+    if (newIndex < 0 || newIndex >= announcementNumber) {
+      return;
+    }
+
+    $('#announcement-' + announcementIndex).hide(0, function() {
+      $('#announcement-' + newIndex).show(0);
+    });
+
+    announcementIndex = newIndex;
+
+    if (announcementIndex >= announcementNumber - 1) {
+      $('#announcement-' + announcementIndex + ' .prev')
+        .addClass('disabled');
+    }
+    if (announcementIndex === 0) {
+      $('#announcement-' + announcementIndex + ' .next')
+        .addClass('disabled');
+    }
+  }
+  setAnnouncements(0);
+
+  $('.next').click(function() {
+    setAnnouncements(-1);
+  });
+   $('.prev').click(function() {
+     setAnnouncements(1);
+   });
+
+ });
+ </script>
+ 
+  </body>
+</html>

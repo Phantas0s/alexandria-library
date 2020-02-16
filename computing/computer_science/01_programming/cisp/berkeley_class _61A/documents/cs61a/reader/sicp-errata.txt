@@ -1,0 +1,56 @@
+
+
+
+
+   Errata for Structure and Interpretion of Computer Programs · 2nd
+   edition
+     ________________________________________________________________
+   
+     Positive line numbers count from the top of the page or exercise,
+     negative line numbers count from the bottom.
+     
+     Page 45, line -13:   Exponent should be n/2, not b/2
+     
+     Page 112, line 2 of exercise 2.30:   Square-LIST should be
+     square-TREE. ("That is, square-tree should behave as follows:")
+     
+     Page 118, lines 1-2:   Should say "...the product OF THE SQUARES
+     of the odd integers..."
+     
+     Page 176, before procedures rectangular? and polar?:   Should say
+     "rectangular and polar numbers, respectively"
+     
+     Page 181, line -5:   Should not refer to exercise 3.24, just to
+     section 3.3.3.
+     
+     Page 185, exercise 2.73a:   Should ask about VARIABLE?, not
+     SAME-VARIABLE?
+     
+     Pages 246 and 247, figures 3.7 and 3.8:   There is an extra ')' at
+     the end of the code.
+     
+     Page 287, figure 3.28:   Rightmost box should have +, not *
+     
+     Page 324, exercise 3.50:   Should refer to section 2.2.1, not
+     2.2.3.
+     
+     Page 341, line 3 of exercise 3.66:   Should say "For example,
+     APPROXIMATELY how many pairs..."
+     
+     Page 375, line 1 of exercise 4.7:   Last LET should be LET*
+     ("...bindings of the let* variables...")
+     
+     Last updated 08/09/99
+     
+
+
+
+
+
+
+
+
+
+
+
+				374

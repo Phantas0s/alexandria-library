@@ -1,0 +1,6434 @@
+1
+00:00:00,499 --> 00:00:02,830
+The following content is
+provided under a Creative
+
+2
+00:00:02,830 --> 00:00:04,340
+Commons license.
+
+3
+00:00:04,340 --> 00:00:06,680
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,680 --> 00:00:11,050
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:11,050 --> 00:00:13,660
+To make a donation or
+view additional materials
+
+6
+00:00:13,660 --> 00:00:17,563
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,563 --> 00:00:18,188
+at ocw.mit.edu.
+
+8
+00:00:23,224 --> 00:00:25,030
+TOM LEIGHTON: Today
+we're going to talk
+
+9
+00:00:25,030 --> 00:00:29,560
+about the concept
+of independence.
+
+10
+00:00:29,560 --> 00:00:41,760
+In probability, we
+say that an event A
+
+11
+00:00:41,760 --> 00:01:00,210
+is independent of an event B
+if one of two conditions hold.
+
+12
+00:01:00,210 --> 00:01:04,910
+First, if the
+probability of A given B
+
+13
+00:01:04,910 --> 00:01:08,910
+is just the same as
+the probability of A
+
+14
+00:01:08,910 --> 00:01:16,470
+or if B can't happen, namely
+the probability of B is 0.
+
+15
+00:01:16,470 --> 00:01:22,450
+In other words, A is independent
+of B if knowing that B happened
+
+16
+00:01:22,450 --> 00:01:26,060
+doesn't change the probability
+that A is going to happen.
+
+17
+00:01:26,060 --> 00:01:29,720
+So knowing that
+this event occurs
+
+18
+00:01:29,720 --> 00:01:32,460
+doesn't influence the
+probability that A occurs.
+
+19
+00:01:32,460 --> 00:01:35,700
+And there's a special case where
+they're independent because you
+
+20
+00:01:35,700 --> 00:01:37,820
+know that B can't happen.
+
+21
+00:01:37,820 --> 00:01:41,020
+If the probability
+of B happening is 0,
+
+22
+00:01:41,020 --> 00:01:44,271
+then everything is
+independent of B.
+
+23
+00:01:44,271 --> 00:01:47,260
+Now, the typical
+example that gets used
+
+24
+00:01:47,260 --> 00:01:48,515
+is when you flip two coins.
+
+25
+00:01:53,970 --> 00:01:59,525
+So say we flip two
+fair, independent coins.
+
+26
+00:02:08,020 --> 00:02:21,090
+And let's let B be the event
+that the first coin is heads
+
+27
+00:02:21,090 --> 00:02:25,930
+and that means that the
+probability of B happening
+
+28
+00:02:25,930 --> 00:02:30,040
+is 1/2, because we've
+assumed it's a fair coin,
+
+29
+00:02:30,040 --> 00:02:36,110
+and we'll let A be the event
+that the second coin comes out
+
+30
+00:02:36,110 --> 00:02:38,120
+heads.
+
+31
+00:02:38,120 --> 00:02:41,145
+So we know the probability of
+A is 1/2 because it's fair.
+
+32
+00:02:45,180 --> 00:02:50,300
+And because they're
+independent, we
+
+33
+00:02:50,300 --> 00:02:55,460
+can conclude that the
+probability of A given B
+
+34
+00:02:55,460 --> 00:03:01,780
+is 1/2, which is the probability
+of A. In other words,
+
+35
+00:03:01,780 --> 00:03:03,830
+seeing the result
+of the second coin
+
+36
+00:03:03,830 --> 00:03:09,190
+doesn't tell you anything about
+the result of the first coin.
+
+37
+00:03:09,190 --> 00:03:13,300
+Now actually, when
+you flip two coins,
+
+38
+00:03:13,300 --> 00:03:17,520
+it's not just always the
+case if they're independent.
+
+39
+00:03:17,520 --> 00:03:19,240
+Can anybody think
+of an example where
+
+40
+00:03:19,240 --> 00:03:23,550
+you can flip a pair of coins
+and they are dependent somehow,
+
+41
+00:03:23,550 --> 00:03:25,771
+they're not independent?
+
+42
+00:03:25,771 --> 00:03:26,270
+Yeah.
+
+43
+00:03:26,270 --> 00:03:29,640
+AUDIENCE: Well, if you have to
+get two heads and two tails?
+
+44
+00:03:29,640 --> 00:03:33,500
+TOM LEIGHTON: If you have to
+get two heads or two tails.
+
+45
+00:03:33,500 --> 00:03:35,200
+Well, how would you have to get?
+
+46
+00:03:35,200 --> 00:03:39,426
+AUDIENCE: The probability
+of getting two heads
+
+47
+00:03:39,426 --> 00:03:42,092
+should be 1/4 [INAUDIBLE].
+
+48
+00:03:42,092 --> 00:03:43,550
+TOM LEIGHTON: Well,
+then they would
+
+49
+00:03:43,550 --> 00:03:45,015
+be independent in that case.
+
+50
+00:03:45,015 --> 00:03:45,515
+Yeah.
+
+51
+00:03:45,515 --> 00:03:47,223
+AUDIENCE: If you glue
+the coins together.
+
+52
+00:03:47,223 --> 00:03:48,150
+TOM LEIGHTON: Yeah.
+
+53
+00:03:48,150 --> 00:03:53,160
+I mean, this is a silly example,
+but I got two fair coins here.
+
+54
+00:03:53,160 --> 00:03:57,866
+I could clip them together
+and now I flip them
+
+55
+00:03:57,866 --> 00:04:00,490
+and odds are pretty good they're
+both going to be heads or both
+
+56
+00:04:00,490 --> 00:04:01,990
+be tails.
+
+57
+00:04:01,990 --> 00:04:04,230
+If you know what happened
+to the right coin,
+
+58
+00:04:04,230 --> 00:04:07,040
+it will tell you what
+happened to the left coin.
+
+59
+00:04:07,040 --> 00:04:10,600
+Now, that's a pretty
+contrived example,
+
+60
+00:04:10,600 --> 00:04:14,000
+but it is illustrative of
+what happens in practice.
+
+61
+00:04:14,000 --> 00:04:17,610
+In practice, we
+assume independence
+
+62
+00:04:17,610 --> 00:04:20,329
+even though there can
+be subtle dependencies
+
+63
+00:04:20,329 --> 00:04:21,620
+and this could lead to trouble.
+
+64
+00:04:21,620 --> 00:04:23,650
+In fact, we're going to
+give a lot of examples
+
+65
+00:04:23,650 --> 00:04:26,090
+where it leads to
+trouble today and also
+
+66
+00:04:26,090 --> 00:04:27,560
+for the rest of the course.
+
+67
+00:04:27,560 --> 00:04:30,390
+Because we're always going to
+want to assume independence
+
+68
+00:04:30,390 --> 00:04:33,400
+and when we do, we're going
+to get very nice results,
+
+69
+00:04:33,400 --> 00:04:35,820
+but things aren't always
+independent in practice
+
+70
+00:04:35,820 --> 00:04:39,860
+and establishing independence
+is a hard thing to do.
+
+71
+00:04:39,860 --> 00:04:41,930
+For that matter, while
+we're on the subject,
+
+72
+00:04:41,930 --> 00:04:43,450
+we always talk about fair coins.
+
+73
+00:04:43,450 --> 00:04:45,650
+You flip a coin and it's fair.
+
+74
+00:04:45,650 --> 00:04:47,450
+You know, that's not
+always to either.
+
+75
+00:04:47,450 --> 00:04:50,130
+There's actually a
+famous mathematician
+
+76
+00:04:50,130 --> 00:04:55,100
+named Persi Diaconis who used
+to down the street at Harvard
+
+77
+00:04:55,100 --> 00:04:58,070
+and he came and
+gave a talk one day
+
+78
+00:04:58,070 --> 00:05:00,540
+at MIT in the math department
+and he's a probabalist.
+
+79
+00:05:00,540 --> 00:05:03,830
+He does probability theory
+and is a very cool guy.
+
+80
+00:05:03,830 --> 00:05:07,890
+And so he flipped a coin,
+got a quarter from somebody
+
+81
+00:05:07,890 --> 00:05:10,400
+in the audience and
+flipped it and he
+
+82
+00:05:10,400 --> 00:05:13,360
+flip that I think 10 or
+20 straight times all
+
+83
+00:05:13,360 --> 00:05:16,900
+the way to the roof,
+caught it, turned it over.
+
+84
+00:05:16,900 --> 00:05:18,812
+Every time it was heads.
+
+85
+00:05:18,812 --> 00:05:22,190
+And he goes, now what's the
+probability of that happening?
+
+86
+00:05:22,190 --> 00:05:24,800
+Well, you know, it's 1/2
+to the 20th or whatever,
+
+87
+00:05:24,800 --> 00:05:26,130
+not very likely.
+
+88
+00:05:26,130 --> 00:05:28,730
+How could he always
+make it come out heads?
+
+89
+00:05:28,730 --> 00:05:31,780
+Well, Persi was an unusual
+guy and in fact, he'd
+
+90
+00:05:31,780 --> 00:05:37,480
+spent months in the strobe
+lab over at Harvard practicing
+
+91
+00:05:37,480 --> 00:05:41,794
+to make it always rotate seven
+times, three of them on the way
+
+92
+00:05:41,794 --> 00:05:43,460
+up, one at the top,
+and then three down.
+
+93
+00:05:43,460 --> 00:05:46,280
+And he could actually
+see how many rotations it
+
+94
+00:05:46,280 --> 00:05:48,420
+had done to make
+sure it was seven,
+
+95
+00:05:48,420 --> 00:05:50,950
+so it always came out heads.
+
+96
+00:05:50,950 --> 00:05:52,560
+Now, he is an unusual fellow.
+
+97
+00:05:52,560 --> 00:05:56,360
+He was 1 of 10 people
+in the world that
+
+98
+00:05:56,360 --> 00:06:00,482
+could do a perfect shuffle
+reliably on a deck of cards
+
+99
+00:06:00,482 --> 00:06:01,940
+and that's a very
+hard thing to do.
+
+100
+00:06:01,940 --> 00:06:06,330
+He said he had to practice 8
+hours a day for over six months
+
+101
+00:06:06,330 --> 00:06:07,722
+to be able to do it every time.
+
+102
+00:06:07,722 --> 00:06:09,930
+In fact, he gave another
+talk at MIT where he came in
+
+103
+00:06:09,930 --> 00:06:13,520
+and he made magic tricks,
+actually based on mathematics.
+
+104
+00:06:13,520 --> 00:06:17,440
+And you would cut a deck,
+he would feel it like this
+
+105
+00:06:17,440 --> 00:06:19,500
+and tell you where you
+cut, how many cards
+
+106
+00:06:19,500 --> 00:06:22,390
+were in the part you picked
+up and then do his eight
+
+107
+00:06:22,390 --> 00:06:24,215
+perfect shuffles, which
+is enough to return
+
+108
+00:06:24,215 --> 00:06:28,720
+a normal 52-card deck back
+to its original order.
+
+109
+00:06:28,720 --> 00:06:31,170
+And then using this,
+he could play the game
+
+110
+00:06:31,170 --> 00:06:34,360
+where pick any card,
+you stick it in,
+
+111
+00:06:34,360 --> 00:06:37,719
+he feels where the card went,
+and then using mathematics,
+
+112
+00:06:37,719 --> 00:06:39,260
+he could shuffle
+the deck eight times
+
+113
+00:06:39,260 --> 00:06:42,670
+and make the card come out
+anywhere he wanted in the deck.
+
+114
+00:06:42,670 --> 00:06:46,000
+So he had a lot going
+on upstairs too.
+
+115
+00:06:46,000 --> 00:06:47,910
+He had an interesting
+life history.
+
+116
+00:06:47,910 --> 00:06:50,880
+He ran away from
+home as a young child
+
+117
+00:06:50,880 --> 00:06:54,150
+and joined the traveling circus.
+
+118
+00:06:54,150 --> 00:06:57,580
+And then somehow from there, he
+joined the faculty at Harvard.
+
+119
+00:06:57,580 --> 00:07:01,190
+You know, there's
+an amazing story.
+
+120
+00:07:01,190 --> 00:07:02,897
+And actually your
+story about Persi
+
+121
+00:07:02,897 --> 00:07:06,190
+is he was the first
+guy to get kicked out
+
+122
+00:07:06,190 --> 00:07:08,060
+of casinos for card counting.
+
+123
+00:07:08,060 --> 00:07:12,970
+He figured that out way before
+the MIT team and the movie 21.
+
+124
+00:07:12,970 --> 00:07:14,720
+Down in Puerto Rico,
+he used to play
+
+125
+00:07:14,720 --> 00:07:19,470
+and then they finally figured
+him out and he got booted.
+
+126
+00:07:19,470 --> 00:07:26,230
+So back to independence, let's
+do another picture example.
+
+127
+00:07:26,230 --> 00:07:29,720
+Say that my sample
+space looks like this
+
+128
+00:07:29,720 --> 00:07:34,650
+and I've got two events, A
+and B and they look like this,
+
+129
+00:07:34,650 --> 00:07:36,456
+so they're dis-joined.
+
+130
+00:07:36,456 --> 00:07:40,340
+Are A and B independent?
+
+131
+00:07:40,340 --> 00:07:41,410
+No.
+
+132
+00:07:41,410 --> 00:07:47,780
+In fact what is the probability
+of A given B as I've drawn it?
+
+133
+00:07:47,780 --> 00:07:48,560
+AUDIENCE: 0.
+
+134
+00:07:48,560 --> 00:07:49,940
+TOM LEIGHTON: 0.
+
+135
+00:07:49,940 --> 00:07:54,371
+Because if B occurs,
+you're outside of A.
+
+136
+00:07:54,371 --> 00:07:57,175
+And so this does not
+equal the probability of A
+
+137
+00:07:57,175 --> 00:07:59,860
+as long as it's not 0.
+
+138
+00:07:59,860 --> 00:08:05,000
+So disjoint events don't imply
+that they're independent.
+
+139
+00:08:12,730 --> 00:08:15,840
+Now, what's the picture
+look like for them
+
+140
+00:08:15,840 --> 00:08:16,630
+to be independent?
+
+141
+00:08:16,630 --> 00:08:19,926
+What is the right
+picture to draw here?
+
+142
+00:08:19,926 --> 00:08:22,880
+So I got my sample
+space and say I
+
+143
+00:08:22,880 --> 00:08:28,070
+make this half the sample
+space be A. Well, then B
+
+144
+00:08:28,070 --> 00:08:31,110
+to be independent,
+would look something--
+
+145
+00:08:31,110 --> 00:08:32,175
+I didn't quite draw it.
+
+146
+00:08:32,175 --> 00:08:35,309
+I actually have it be 50-50.
+
+147
+00:08:35,309 --> 00:08:41,860
+So if a is 50% of S,
+like this half, then
+
+148
+00:08:41,860 --> 00:08:47,360
+for A to be independent of
+B, A intersect B, this part,
+
+149
+00:08:47,360 --> 00:08:53,920
+has to be 50% of B. Because
+the probability of A given B
+
+150
+00:08:53,920 --> 00:08:58,081
+must equal the probability
+of A to be independent.
+
+151
+00:08:58,081 --> 00:09:00,330
+So this would be a picture
+where they are independent.
+
+152
+00:09:03,534 --> 00:09:04,950
+Now, independent
+events are really
+
+153
+00:09:04,950 --> 00:09:07,490
+nice to work with and
+in part because they
+
+154
+00:09:07,490 --> 00:09:10,170
+have a very simple
+rule for computing
+
+155
+00:09:10,170 --> 00:09:15,070
+the probability of an
+intersection of events
+
+156
+00:09:15,070 --> 00:09:19,015
+and it's called the product
+rule for independent events.
+
+157
+00:09:34,150 --> 00:09:44,620
+And that says that if
+A is independent of B,
+
+158
+00:09:44,620 --> 00:09:51,000
+then the probability of
+A and B or A intersect B
+
+159
+00:09:51,000 --> 00:09:54,680
+is just the product
+of their probabilities
+
+160
+00:09:54,680 --> 00:09:59,290
+separately, the probability of
+A times the probability of B.
+
+161
+00:09:59,290 --> 00:10:00,530
+So let's prove this.
+
+162
+00:10:05,630 --> 00:10:09,390
+And there's two cases, depending
+on whether or not B can happen,
+
+163
+00:10:09,390 --> 00:10:12,490
+if the probability
+of B is 0 or not.
+
+164
+00:10:12,490 --> 00:10:18,880
+So case 1 is B can't happen.
+
+165
+00:10:18,880 --> 00:10:22,220
+The probability of B is 0.
+
+166
+00:10:22,220 --> 00:10:26,980
+In this case, what's the
+probability of A and B?
+
+167
+00:10:30,680 --> 00:10:32,330
+B can't happen.
+
+168
+00:10:32,330 --> 00:10:33,170
+0.
+
+169
+00:10:33,170 --> 00:10:36,620
+If B can't happen,
+then they both can't.
+
+170
+00:10:36,620 --> 00:10:38,800
+You can't have both
+of them happening
+
+171
+00:10:38,800 --> 00:10:47,080
+and that equals the probability
+of A times the probability of B
+
+172
+00:10:47,080 --> 00:10:48,670
+because the
+probability of B is 0.
+
+173
+00:10:48,670 --> 00:10:49,730
+So that case works.
+
+174
+00:10:53,170 --> 00:10:58,010
+Case 2 is the probability
+of B is bigger than 0.
+
+175
+00:11:01,720 --> 00:11:05,490
+In that case, we have
+the probability of A
+
+176
+00:11:05,490 --> 00:11:10,980
+and B, A intersect B,
+well, from the definition,
+
+177
+00:11:10,980 --> 00:11:15,390
+is the probability of B times
+the probability of A given
+
+178
+00:11:15,390 --> 00:11:19,270
+B. We did that last time.
+
+179
+00:11:19,270 --> 00:11:24,370
+And by independence, this
+is just the probability of A
+
+180
+00:11:24,370 --> 00:11:27,270
+because A is independent
+of B, so we're done.
+
+181
+00:11:33,280 --> 00:11:38,420
+In fact, many texts
+will define independence
+
+182
+00:11:38,420 --> 00:11:40,460
+by this product rule.
+
+183
+00:11:40,460 --> 00:11:42,990
+Many texts will say
+that A and B are
+
+184
+00:11:42,990 --> 00:11:46,320
+independent if this is true.
+
+185
+00:11:46,320 --> 00:11:48,070
+And it's equivalent,
+it turns out.
+
+186
+00:11:48,070 --> 00:11:51,810
+We won't prove that here, but if
+you use this as the definition,
+
+187
+00:11:51,810 --> 00:11:54,084
+then you can derive our
+definition as a result.
+
+188
+00:11:54,084 --> 00:11:56,250
+So this is an equivalent
+definition of independence.
+
+189
+00:11:59,960 --> 00:12:03,570
+Another nice fact about
+independent events
+
+190
+00:12:03,570 --> 00:12:06,695
+is that it's a
+symmetric relationship.
+
+191
+00:12:12,210 --> 00:12:13,925
+It's called the symmetry
+of independence.
+
+192
+00:12:26,330 --> 00:12:34,540
+That says that if they
+A is independent of B,
+
+193
+00:12:34,540 --> 00:12:36,440
+then the reverse is true.
+
+194
+00:12:36,440 --> 00:12:46,240
+B is independent of A.
+Now, we won't prove that.
+
+195
+00:12:46,240 --> 00:12:48,590
+It's actually easier
+to see that it's true
+
+196
+00:12:48,590 --> 00:12:52,380
+if this were the
+definition of independence
+
+197
+00:12:52,380 --> 00:12:54,810
+because A intersect
+B is the same
+
+198
+00:12:54,810 --> 00:12:59,750
+as B intersect A and
+multiplication is commutative.
+
+199
+00:12:59,750 --> 00:13:03,980
+So it's easier to see it if
+we had used that definition.
+
+200
+00:13:03,980 --> 00:13:07,150
+So because of this
+we often just say
+
+201
+00:13:07,150 --> 00:13:09,760
+A and B are independent
+because it doesn't matter which
+
+202
+00:13:09,760 --> 00:13:13,450
+order you're taking them in.
+
+203
+00:13:13,450 --> 00:13:19,171
+All right, any questions
+about the definition so far?
+
+204
+00:13:19,171 --> 00:13:19,970
+All right.
+
+205
+00:13:19,970 --> 00:13:21,520
+Let's do some examples.
+
+206
+00:13:34,590 --> 00:13:37,380
+Let's say I have two
+independent fair coins.
+
+207
+00:13:47,730 --> 00:13:52,970
+And I'm going to
+have the event A be
+
+208
+00:13:52,970 --> 00:13:57,520
+the situation when the coins
+match, both heads, both tails.
+
+209
+00:14:01,700 --> 00:14:06,190
+And B is going to be the event
+that the first coin is heads.
+
+210
+00:14:12,420 --> 00:14:15,350
+And I want to know, are
+A and B independent?
+
+211
+00:14:18,300 --> 00:14:19,896
+Are those independent events?
+
+212
+00:14:22,995 --> 00:14:27,650
+Well, what's the
+first answer to this?
+
+213
+00:14:27,650 --> 00:14:31,290
+I mean, A is event
+the coins match.
+
+214
+00:14:31,290 --> 00:14:33,670
+B tells me what
+the first coin was.
+
+215
+00:14:33,670 --> 00:14:35,650
+So the first inclination
+here is that these
+
+216
+00:14:35,650 --> 00:14:39,960
+are dependent events
+because I know something
+
+217
+00:14:39,960 --> 00:14:41,760
+about the first coin,
+so that might tell me
+
+218
+00:14:41,760 --> 00:14:44,510
+something about the
+probability they match.
+
+219
+00:14:44,510 --> 00:14:47,080
+There could be some
+dependence here.
+
+220
+00:14:47,080 --> 00:14:50,110
+Now, in fact, because it's
+set up, they're independent
+
+221
+00:14:50,110 --> 00:14:53,390
+and we can check that by
+just doing the calculation,
+
+222
+00:14:53,390 --> 00:14:59,220
+computing the probability of A
+given B. Maybe I can do that.
+
+223
+00:14:59,220 --> 00:15:00,910
+I'll do that here.
+
+224
+00:15:00,910 --> 00:15:09,320
+The probability of
+A given B is, well,
+
+225
+00:15:09,320 --> 00:15:12,190
+the condition that they're
+going to match given
+
+226
+00:15:12,190 --> 00:15:14,370
+that the first
+point is heads means
+
+227
+00:15:14,370 --> 00:15:18,280
+it's the same as the
+second coin being heads.
+
+228
+00:15:18,280 --> 00:15:25,630
+This is the probability the
+second coin is heads and that's
+
+229
+00:15:25,630 --> 00:15:30,732
+just 1/2 because it's a
+fair coin and independent
+
+230
+00:15:30,732 --> 00:15:31,440
+of the first one.
+
+231
+00:15:31,440 --> 00:15:38,370
+Now, the probability of A, by
+itself, the events the coins
+
+232
+00:15:38,370 --> 00:15:39,860
+match, what's that?
+
+233
+00:15:39,860 --> 00:15:40,670
+How much is that?
+
+234
+00:15:48,230 --> 00:15:49,855
+What's the probability
+the coins match?
+
+235
+00:15:52,640 --> 00:15:53,945
+AUDIENCE: [INAUDIBLE].
+
+236
+00:15:53,945 --> 00:15:55,680
+TOM LEIGHTON: 1/4 plus 1/4.
+
+237
+00:15:55,680 --> 00:15:58,020
+I've got 1/4 chance
+of heads, heads
+
+238
+00:15:58,020 --> 00:16:03,670
+1/4 chance of tails, tails,
+so it's 1/2, so it works out.
+
+239
+00:16:03,670 --> 00:16:08,340
+The probability of A given B
+equals the probability of A.
+
+240
+00:16:08,340 --> 00:16:10,200
+They're both 1/2.
+
+241
+00:16:10,200 --> 00:16:14,770
+So A and B are
+independent events
+
+242
+00:16:14,770 --> 00:16:16,400
+because that's
+just the definition
+
+243
+00:16:16,400 --> 00:16:19,066
+even though it looked like there
+might have been some dependence
+
+244
+00:16:19,066 --> 00:16:21,170
+lurking around here.
+
+245
+00:16:21,170 --> 00:16:24,630
+Now, this example that I just
+did is a little misleading.
+
+246
+00:16:24,630 --> 00:16:27,950
+The intuition they
+probably are dependent
+
+247
+00:16:27,950 --> 00:16:30,970
+actually is good
+intuition in this case
+
+248
+00:16:30,970 --> 00:16:37,351
+because if I don't have fair
+coins, they are dependent.
+
+249
+00:16:37,351 --> 00:16:37,850
+All right.
+
+250
+00:16:37,850 --> 00:16:39,700
+So in particular,
+let's look at what
+
+251
+00:16:39,700 --> 00:16:45,220
+happens if the probability
+of a heads is p
+
+252
+00:16:45,220 --> 00:16:49,560
+and the probability of tails
+is 1 minus p for both coins.
+
+253
+00:16:52,070 --> 00:16:55,730
+So let's compute the
+probability of A given
+
+254
+00:16:55,730 --> 00:17:00,070
+B. What is it in this case?
+
+255
+00:17:02,214 --> 00:17:04,380
+Well, it's the probability
+the second coin is heads.
+
+256
+00:17:04,380 --> 00:17:04,940
+What's that?
+
+257
+00:17:08,319 --> 00:17:12,700
+p because both of them are
+heads with probability, p.
+
+258
+00:17:12,700 --> 00:17:14,109
+They're independent still.
+
+259
+00:17:14,109 --> 00:17:16,130
+The two coins are independent.
+
+260
+00:17:16,130 --> 00:17:18,369
+And now let's look
+at the probability
+
+261
+00:17:18,369 --> 00:17:20,859
+that the coins match.
+
+262
+00:17:20,859 --> 00:17:22,530
+Well, it's a probability
+of heads, heads
+
+263
+00:17:22,530 --> 00:17:24,520
+and the probability
+of tails, tails.
+
+264
+00:17:24,520 --> 00:17:28,180
+Heads, heads is p times p.
+
+265
+00:17:28,180 --> 00:17:30,790
+Tails, tails is 1
+minus p squared.
+
+266
+00:17:34,050 --> 00:17:37,840
+So to independent, I
+need this to equal that
+
+267
+00:17:37,840 --> 00:17:42,330
+or to have the
+probability of B be 0.
+
+268
+00:17:42,330 --> 00:17:50,730
+So A and B are
+independent if and only
+
+269
+00:17:50,730 --> 00:17:54,880
+if-- the first
+case is probability
+
+270
+00:17:54,880 --> 00:18:02,970
+B is 0, which means
+that p equals 0,
+
+271
+00:18:02,970 --> 00:18:05,510
+or that has to equal this.
+
+272
+00:18:08,470 --> 00:18:15,770
+So p would have to equal 1
+minus 2p plus 2p squared,
+
+273
+00:18:15,770 --> 00:18:19,420
+just square that out there.
+
+274
+00:18:19,420 --> 00:18:20,750
+So let's solve this.
+
+275
+00:18:20,750 --> 00:18:26,590
+That happens if and only
+if 0 equals 1 minus 3p
+
+276
+00:18:26,590 --> 00:18:29,630
+plus 2p squared.
+
+277
+00:18:29,630 --> 00:18:34,090
+That's true if and only if
+0 equals-- I factor this--
+
+278
+00:18:34,090 --> 00:18:40,170
+it's 1 minus 2p times 1 minus
+p and that's if and only
+
+279
+00:18:40,170 --> 00:18:48,510
+if p is 1/2 or p
+is 1, two roots.
+
+280
+00:18:48,510 --> 00:18:51,160
+So if the coins are always
+heads, they're independent.
+
+281
+00:18:51,160 --> 00:18:54,040
+If they're always tails,
+the events are independent
+
+282
+00:18:54,040 --> 00:18:58,300
+or if they're fair coins, these
+two events are independent.
+
+283
+00:18:58,300 --> 00:19:04,280
+But anything else, they're
+not independent anymore.
+
+284
+00:19:04,280 --> 00:19:06,320
+Any questions?
+
+285
+00:19:06,320 --> 00:19:09,970
+And now you can sort
+of see if the coins are
+
+286
+00:19:09,970 --> 00:19:12,290
+likely to be tails
+and the first one
+
+287
+00:19:12,290 --> 00:19:15,350
+comes up heads, that should
+influence the probability
+
+288
+00:19:15,350 --> 00:19:17,361
+the coins match.
+
+289
+00:19:17,361 --> 00:19:18,245
+It should change.
+
+290
+00:19:21,220 --> 00:19:22,290
+Questions?
+
+291
+00:19:22,290 --> 00:19:22,790
+All right.
+
+292
+00:19:22,790 --> 00:19:24,790
+So there's a nice application
+of this to getting
+
+293
+00:19:24,790 --> 00:19:27,860
+an edge in ultimate Frisbee.
+
+294
+00:19:27,860 --> 00:19:30,400
+Now, when you're
+playing ultimate,
+
+295
+00:19:30,400 --> 00:19:33,740
+you've got to decide who
+gets the Frisbee first.
+
+296
+00:19:33,740 --> 00:19:37,590
+And sometimes you don't have
+a coin to flip, call heads
+
+297
+00:19:37,590 --> 00:19:40,860
+or tails, but you
+do have the Frisbee.
+
+298
+00:19:40,860 --> 00:19:44,950
+Now, you could flip the Frisbee
+and call right side up or not,
+
+299
+00:19:44,950 --> 00:19:48,690
+but the problem is the Frisbee
+is known not to be a fair coin.
+
+300
+00:19:48,690 --> 00:19:50,190
+When you toss it
+up in the air, it's
+
+301
+00:19:50,190 --> 00:19:53,980
+likely to wind up on, I
+guess, the curved edge down.
+
+302
+00:19:53,980 --> 00:19:57,690
+So that wouldn't be fair
+to call heads or tails.
+
+303
+00:19:57,690 --> 00:20:00,240
+So the standard solution
+is to flip the two
+
+304
+00:20:00,240 --> 00:20:03,520
+Frisbees at the same
+time or one Frisbee twice
+
+305
+00:20:03,520 --> 00:20:07,570
+and somebody calls
+same or different,
+
+306
+00:20:07,570 --> 00:20:11,440
+that the two Frisbees both
+come up on the same way
+
+307
+00:20:11,440 --> 00:20:14,040
+or they come up
+different ways and then
+
+308
+00:20:14,040 --> 00:20:17,000
+if you called it right, you
+get to start with a Frisbee.
+
+309
+00:20:17,000 --> 00:20:22,700
+And the idea behind this is
+that that simulates a fair coin,
+
+310
+00:20:22,700 --> 00:20:27,640
+that the probability that
+they're the same is 50-50.
+
+311
+00:20:27,640 --> 00:20:28,390
+What do you think.
+
+312
+00:20:28,390 --> 00:20:32,060
+Is that a fair way to
+decide who starts first?
+
+313
+00:20:32,060 --> 00:20:32,560
+Yeah.
+
+314
+00:20:32,560 --> 00:20:33,452
+AUDIENCE: No.
+
+315
+00:20:33,452 --> 00:20:34,510
+TOM LEIGHTON: No.
+
+316
+00:20:34,510 --> 00:20:35,500
+Yeah, that's right.
+
+317
+00:20:35,500 --> 00:20:37,740
+It's not.
+
+318
+00:20:37,740 --> 00:20:43,590
+Now, it is in the case
+when the coin was fair,
+
+319
+00:20:43,590 --> 00:20:45,610
+but we know the
+Frisbee is not fair.
+
+320
+00:20:45,610 --> 00:20:50,040
+And in fact, you can see
+this from this probability.
+
+321
+00:20:50,040 --> 00:20:55,590
+This is the probability
+of a match, which
+
+322
+00:20:55,590 --> 00:21:01,190
+is fine at p equal
+1/2, but in fact,
+
+323
+00:21:01,190 --> 00:21:03,190
+if you analyze
+this equation, you
+
+324
+00:21:03,190 --> 00:21:07,950
+find out its minimum
+value is at p equals 1/2
+
+325
+00:21:07,950 --> 00:21:11,860
+and as p starts moving away
+from 1/2 towards 0 or to 1,
+
+326
+00:21:11,860 --> 00:21:14,520
+it gets bigger.
+
+327
+00:21:14,520 --> 00:21:17,610
+And we know that for
+Frisbees, p is not 1/2.
+
+328
+00:21:17,610 --> 00:21:23,562
+This means that the probability
+of a match is better than 50%.
+
+329
+00:21:23,562 --> 00:21:25,020
+So if you're ever
+playing ultimate,
+
+330
+00:21:25,020 --> 00:21:27,343
+always call same
+because you're going
+
+331
+00:21:27,343 --> 00:21:29,260
+to have a better than
+50-50 chance of getting
+
+332
+00:21:29,260 --> 00:21:30,720
+to start with the Frisbee.
+
+333
+00:21:30,720 --> 00:21:32,610
+It's not a fair example.
+
+334
+00:21:35,390 --> 00:21:38,000
+There is another example
+of how to make a fair coin
+
+335
+00:21:38,000 --> 00:21:42,230
+from a biased coin to an
+unbiased coin in homework, ways
+
+336
+00:21:42,230 --> 00:21:44,760
+of doing this that are fair.
+
+337
+00:21:44,760 --> 00:21:47,650
+Because often you have
+biased random numbers
+
+338
+00:21:47,650 --> 00:21:50,827
+and you want to get unbiased
+or maybe you got a fair coin
+
+339
+00:21:50,827 --> 00:21:52,660
+and you want to make
+something that comes up
+
+340
+00:21:52,660 --> 00:21:54,570
+heads with probability 1/3.
+
+341
+00:21:54,570 --> 00:21:57,720
+How do you actually do
+that in a way that works?
+
+342
+00:21:57,720 --> 00:21:59,880
+Any questions on that?
+
+343
+00:22:04,210 --> 00:22:09,190
+The next example is from
+the first OJ Simpson trial.
+
+344
+00:22:09,190 --> 00:22:12,930
+How many people here
+know who OJ Simpson is?
+
+345
+00:22:12,930 --> 00:22:15,610
+OK, so he's still pretty famous.
+
+346
+00:22:15,610 --> 00:22:17,340
+Now, as you probably
+know then he
+
+347
+00:22:17,340 --> 00:22:19,040
+was a famous football player.
+
+348
+00:22:19,040 --> 00:22:23,500
+Back when I was a kid, he
+was a famous college player,
+
+349
+00:22:23,500 --> 00:22:26,850
+then he was a famous
+pro player and then he
+
+350
+00:22:26,850 --> 00:22:29,100
+was an actor, famous actor.
+
+351
+00:22:29,100 --> 00:22:34,430
+And then he was accused of
+murdering his wife in a gory
+
+352
+00:22:34,430 --> 00:22:37,570
+knifing and a friend
+of his wife's.
+
+353
+00:22:37,570 --> 00:22:41,060
+And ultimately, the jury
+found him not guilty,
+
+354
+00:22:41,060 --> 00:22:43,820
+but pretty much everybody in
+the country thought he did it.
+
+355
+00:22:43,820 --> 00:22:46,050
+He looked really guilty.
+
+356
+00:22:46,050 --> 00:22:49,870
+And it was a big media event,
+one of the first big trial
+
+357
+00:22:49,870 --> 00:22:51,280
+events on TV.
+
+358
+00:22:51,280 --> 00:22:54,070
+And so all the proceedings
+were on TV and everybody
+
+359
+00:22:54,070 --> 00:22:54,930
+watched them.
+
+360
+00:22:54,930 --> 00:22:57,580
+We'd all go home to
+watch the OJ hearing.
+
+361
+00:22:57,580 --> 00:22:59,930
+It was amazing.
+
+362
+00:22:59,930 --> 00:23:03,270
+Now, during the
+indictment proceedings,
+
+363
+00:23:03,270 --> 00:23:05,920
+there was a huge dispute
+over what independence
+
+364
+00:23:05,920 --> 00:23:09,650
+was and does it matter.
+
+365
+00:23:09,650 --> 00:23:13,810
+The issue arose when the
+prosecution witness claimed
+
+366
+00:23:13,810 --> 00:23:18,900
+that only 1 in 200 Americans
+had a certain blood type that
+
+367
+00:23:18,900 --> 00:23:22,080
+matched the blood type found at
+the scene of the crime, which
+
+368
+00:23:22,080 --> 00:23:24,450
+was alleged to be OJ's blood.
+
+369
+00:23:24,450 --> 00:23:26,030
+And this was during
+the indictment
+
+370
+00:23:26,030 --> 00:23:28,720
+and back then DNA
+tests took a long time
+
+371
+00:23:28,720 --> 00:23:30,590
+and they weren't ready yet.
+
+372
+00:23:30,590 --> 00:23:34,380
+And the witness presented
+the following facts and this
+
+373
+00:23:34,380 --> 00:23:38,320
+was the crime lab
+guy, the police guy.
+
+374
+00:23:52,500 --> 00:23:59,355
+He said that 1 in 10 people,
+roughly, matched type O blood.
+
+375
+00:24:04,000 --> 00:24:10,355
+And that 1 in 5 people matched
+the Rh factor positive.
+
+376
+00:24:13,910 --> 00:24:20,402
+And that 1 in 4 people match a
+certain kind of marker, which
+
+377
+00:24:20,402 --> 00:24:21,610
+I don't remember what it was.
+
+378
+00:24:21,610 --> 00:24:26,920
+We'll just call it marker XYZ,
+some other factor of the blood.
+
+379
+00:24:26,920 --> 00:24:33,370
+And then this conclusion was
+that this means that 1 in 200
+
+380
+00:24:33,370 --> 00:24:40,720
+match all three factors.
+
+381
+00:24:40,720 --> 00:24:43,970
+And this seems reasonable
+because there's
+
+382
+00:24:43,970 --> 00:24:49,920
+1/10 of the people have O, if 15
+of them have positive Rh factor
+
+383
+00:24:49,920 --> 00:24:52,400
+and then 1/4 of
+all of those have
+
+384
+00:24:52,400 --> 00:24:57,430
+this marker, that's 1 in 200.
+
+385
+00:24:57,430 --> 00:25:00,810
+Now, it's important
+because OJ's blood
+
+386
+00:25:00,810 --> 00:25:07,310
+and the blood at the crime
+scene both matched all three.
+
+387
+00:25:07,310 --> 00:25:08,720
+So the implication,
+of course, is
+
+388
+00:25:08,720 --> 00:25:11,620
+that OJ is looking like
+the guy who did it.
+
+389
+00:25:11,620 --> 00:25:16,670
+And the question was, well,
+is the 1 in 200 really true?
+
+390
+00:25:16,670 --> 00:25:19,060
+We can sample these
+three in the populations
+
+391
+00:25:19,060 --> 00:25:23,850
+and see they're true, but
+is 1 in 200 really true?
+
+392
+00:25:23,850 --> 00:25:27,660
+Now, it would be if,
+in fact, we verified
+
+393
+00:25:27,660 --> 00:25:29,700
+that 1/5 of the
+type O people have
+
+394
+00:25:29,700 --> 00:25:33,480
+positive and 1/4 of
+the O positive people
+
+395
+00:25:33,480 --> 00:25:36,500
+have the XYZ marker.
+
+396
+00:25:36,500 --> 00:25:40,230
+But well, we don't necessarily
+know that unless we
+
+397
+00:25:40,230 --> 00:25:42,820
+go figure that out.
+
+398
+00:25:42,820 --> 00:25:45,030
+If you assume
+they're independent,
+
+399
+00:25:45,030 --> 00:25:46,192
+then it would be true.
+
+400
+00:25:46,192 --> 00:25:47,900
+The product rule will
+tell us that if you
+
+401
+00:25:47,900 --> 00:25:50,280
+assume they're independent.
+
+402
+00:25:50,280 --> 00:25:55,290
+So during the trial, a special
+math defense counsel showed up,
+
+403
+00:25:55,290 --> 00:25:56,790
+not part of the
+normal defense team,
+
+404
+00:25:56,790 --> 00:26:00,480
+but he was brought in as
+a mathematician and lawyer
+
+405
+00:26:00,480 --> 00:26:04,570
+and he crosses the
+police guy on the stand.
+
+406
+00:26:04,570 --> 00:26:07,480
+And he asked the
+police guy, the lab guy
+
+407
+00:26:07,480 --> 00:26:13,350
+if it is known that these
+three factors are independent.
+
+408
+00:26:13,350 --> 00:26:15,162
+Well, the poor
+police lab guy never
+
+409
+00:26:15,162 --> 00:26:16,870
+heard the word
+independent before, didn't
+
+410
+00:26:16,870 --> 00:26:20,380
+know what it meant and the
+defense counsel proceeded
+
+411
+00:26:20,380 --> 00:26:22,310
+to crucify him on the stand.
+
+412
+00:26:22,310 --> 00:26:24,310
+And then in the end, all
+he could say was, look,
+
+413
+00:26:24,310 --> 00:26:26,226
+we just get these things
+and we multiply them.
+
+414
+00:26:26,226 --> 00:26:29,500
+That's what we're
+supposed to do.
+
+415
+00:26:29,500 --> 00:26:30,950
+It was a little scary.
+
+416
+00:26:30,950 --> 00:26:33,120
+The actual transcript--
+you can still get it--
+
+417
+00:26:33,120 --> 00:26:34,620
+is a little scary.
+
+418
+00:26:34,620 --> 00:26:37,990
+The same problem arises
+today with DNA testing.
+
+419
+00:26:37,990 --> 00:26:41,880
+Only there, you've got
+lots of these things
+
+420
+00:26:41,880 --> 00:26:43,720
+and you multiply
+them all together
+
+421
+00:26:43,720 --> 00:26:45,210
+and you get
+probabilities like one
+
+422
+00:26:45,210 --> 00:26:50,260
+in many billion
+probability of a match.
+
+423
+00:26:50,260 --> 00:26:53,410
+Now, there's probably a higher
+level of science going on
+
+424
+00:26:53,410 --> 00:26:56,370
+with DNA testing,
+but it's even harder
+
+425
+00:26:56,370 --> 00:26:59,440
+to really establish
+independence.
+
+426
+00:26:59,440 --> 00:27:01,560
+If you assume it, fine.
+
+427
+00:27:01,560 --> 00:27:02,690
+The math works out great.
+
+428
+00:27:02,690 --> 00:27:04,280
+You just multiply them together.
+
+429
+00:27:04,280 --> 00:27:06,840
+But how do you know
+it's really true?
+
+430
+00:27:06,840 --> 00:27:10,330
+How do you know that maybe a lot
+of people that have those four
+
+431
+00:27:10,330 --> 00:27:14,120
+markers and DNA don't happen
+to just have the fifth also,
+
+432
+00:27:14,120 --> 00:27:17,160
+but it really is
+totally unrelated.
+
+433
+00:27:17,160 --> 00:27:19,210
+And to know that
+for sure, you got
+
+434
+00:27:19,210 --> 00:27:23,060
+to test hundreds of millions of
+people, which we really haven't
+
+435
+00:27:23,060 --> 00:27:26,320
+done yet, and not just
+a few guys in Detroit
+
+436
+00:27:26,320 --> 00:27:29,280
+to be able to conclude
+independence of 1
+
+437
+00:27:29,280 --> 00:27:31,800
+in a billion probabilities.
+
+438
+00:27:31,800 --> 00:27:33,160
+So for us, this is a lot easier.
+
+439
+00:27:33,160 --> 00:27:34,826
+In the classroom, we
+assume independence
+
+440
+00:27:34,826 --> 00:27:37,550
+and we'll keep doing
+that left and right,
+
+441
+00:27:37,550 --> 00:27:40,620
+but it doesn't mean
+it's true in reality.
+
+442
+00:27:40,620 --> 00:27:43,380
+In fact, in the
+last week of class.
+
+443
+00:27:43,380 --> 00:27:46,720
+We'll talk about how false
+assumption of independence
+
+444
+00:27:46,720 --> 00:27:50,490
+on mortgage failures led to
+the subprime mortgage disaster
+
+445
+00:27:50,490 --> 00:27:51,780
+in the recession.
+
+446
+00:27:51,780 --> 00:27:54,162
+It was all because of
+some mathematics mistakes
+
+447
+00:27:54,162 --> 00:27:54,870
+that people made.
+
+448
+00:27:57,530 --> 00:27:59,910
+Now, this example
+raises the question of,
+
+449
+00:27:59,910 --> 00:28:04,319
+what does independence mean when
+you have more than two events?
+
+450
+00:28:04,319 --> 00:28:06,360
+We defined independence
+when there is two events,
+
+451
+00:28:06,360 --> 00:28:08,280
+but here there's three.
+
+452
+00:28:08,280 --> 00:28:11,450
+And so to be careful, we
+got to actually define
+
+453
+00:28:11,450 --> 00:28:16,010
+dependence among more than
+two events and in this case,
+
+454
+00:28:16,010 --> 00:28:20,990
+we talk about the events as
+being mutually independent.
+
+455
+00:28:20,990 --> 00:28:22,090
+So let me define that.
+
+456
+00:28:36,770 --> 00:28:44,330
+So if I've got events
+A1, A2, up to An,
+
+457
+00:28:44,330 --> 00:28:56,120
+we say they are
+mutually independent if,
+
+458
+00:28:56,120 --> 00:29:02,490
+and this is a little complicated
+notation, but for all i
+
+459
+00:29:02,490 --> 00:29:10,740
+and for all sets j that
+are subsets of the events,
+
+460
+00:29:10,740 --> 00:29:19,380
+but not including i,
+then the probability
+
+461
+00:29:19,380 --> 00:29:23,890
+that the i-th event occurs
+given that all the events
+
+462
+00:29:23,890 --> 00:29:29,010
+in the subset
+occurred, is the same
+
+463
+00:29:29,010 --> 00:29:33,280
+as the probability of the i-th
+event occurring by itself.
+
+464
+00:29:33,280 --> 00:29:35,570
+Or there's a special
+case where the chance
+
+465
+00:29:35,570 --> 00:29:37,100
+the other events occur is 0.
+
+466
+00:29:46,710 --> 00:29:48,740
+In other words, a
+collection of events
+
+467
+00:29:48,740 --> 00:29:52,220
+is mutually independent
+if any knowledge
+
+468
+00:29:52,220 --> 00:29:55,960
+about any of the rest of the
+events, happening or not,
+
+469
+00:29:55,960 --> 00:29:58,470
+does not influence the
+event you're looking
+
+470
+00:29:58,470 --> 00:30:00,970
+at for each of those events.
+
+471
+00:30:00,970 --> 00:30:03,080
+So no information about
+any of the other markers
+
+472
+00:30:03,080 --> 00:30:06,980
+the blood influences the
+i-th marker for any i.
+
+473
+00:30:06,980 --> 00:30:09,770
+The probabilities are unchanged.
+
+474
+00:30:09,770 --> 00:30:11,710
+Now, there's an equivalent
+definitions based
+
+475
+00:30:11,710 --> 00:30:14,691
+and the product rule.
+
+476
+00:30:14,691 --> 00:30:16,860
+Let me show you that version
+because that's easier
+
+477
+00:30:16,860 --> 00:30:17,734
+to work with usually.
+
+478
+00:30:32,850 --> 00:30:43,880
+This is the product
+rule form and it
+
+479
+00:30:43,880 --> 00:30:50,550
+says that A1, A2, up
+to An are mutually
+
+480
+00:30:50,550 --> 00:31:07,560
+independent if for any
+subset of the events
+
+481
+00:31:07,560 --> 00:31:11,880
+the probability of each of those
+events in the subset happening,
+
+482
+00:31:11,880 --> 00:31:18,364
+all them happening,
+is simply the product
+
+483
+00:31:18,364 --> 00:31:19,780
+of their individual
+probabilities.
+
+484
+00:31:26,810 --> 00:31:30,910
+So independence
+means that if you
+
+485
+00:31:30,910 --> 00:31:33,430
+want the probability of a
+bunch of events occurring,
+
+486
+00:31:33,430 --> 00:31:35,996
+just multiply them
+out individually.
+
+487
+00:31:35,996 --> 00:31:37,370
+And that follows
+for independence
+
+488
+00:31:37,370 --> 00:31:39,600
+or it could be the
+definition of independence,
+
+489
+00:31:39,600 --> 00:31:41,080
+depending on how
+you want to do it.
+
+490
+00:31:41,080 --> 00:31:42,496
+So either of these
+are good enough
+
+491
+00:31:42,496 --> 00:31:47,200
+for you to use as a definition
+or a result for independence.
+
+492
+00:31:47,200 --> 00:31:50,030
+And so the blood guy, of course,
+is just multiplying them out
+
+493
+00:31:50,030 --> 00:31:52,390
+because they're assumed
+to be independent,
+
+494
+00:31:52,390 --> 00:31:55,180
+so it's OK that way.
+
+495
+00:31:55,180 --> 00:31:56,125
+Let's do an example.
+
+496
+00:32:08,920 --> 00:32:10,900
+So for example, say
+we have three events.
+
+497
+00:32:15,160 --> 00:32:25,430
+A1, A2, and A3 are
+mutually independent
+
+498
+00:32:25,430 --> 00:32:28,450
+if, these are the things
+you have to check,
+
+499
+00:32:28,450 --> 00:32:35,144
+probability A1 and A2
+is just the probability
+
+500
+00:32:35,144 --> 00:32:36,560
+of A1 times the
+probability of A2.
+
+501
+00:32:39,160 --> 00:32:44,900
+Then you'd check that the
+probability of A1 and A3
+
+502
+00:32:44,900 --> 00:32:48,390
+is the product of their
+probabilities, A1 and A3.
+
+503
+00:32:54,170 --> 00:32:57,250
+And you'd check the
+probability of A2
+
+504
+00:32:57,250 --> 00:33:00,460
+and A3 is the product
+of their probabilities.
+
+505
+00:33:06,050 --> 00:33:07,550
+And there's one
+more thing to check.
+
+506
+00:33:07,550 --> 00:33:10,290
+What's that?
+
+507
+00:33:10,290 --> 00:33:12,120
+All of them.
+
+508
+00:33:12,120 --> 00:33:23,090
+The probability of all of them
+is the product of each of them
+
+509
+00:33:23,090 --> 00:33:23,845
+together here.
+
+510
+00:33:27,940 --> 00:33:29,870
+So if you want to show
+the three events are
+
+511
+00:33:29,870 --> 00:33:33,410
+mutually independent, these
+are the four things you check.
+
+512
+00:33:33,410 --> 00:33:37,598
+That's one way to do it, which
+is the case of the blood typing
+
+513
+00:33:37,598 --> 00:33:38,306
+in the situation.
+
+514
+00:33:40,816 --> 00:33:41,530
+All right.
+
+515
+00:33:41,530 --> 00:33:43,630
+Let's do an example.
+
+516
+00:33:49,470 --> 00:33:53,510
+Well, for example, if
+I flip three unbiased,
+
+517
+00:33:53,510 --> 00:33:55,290
+mutually independent coins.
+
+518
+00:33:55,290 --> 00:33:58,170
+The probability of two of
+them being heads is 1/4.
+
+519
+00:33:58,170 --> 00:34:01,760
+The probability of three being
+heads is 1/8 and so forth.
+
+520
+00:34:05,010 --> 00:34:07,750
+Let's do a trickier example.
+
+521
+00:34:07,750 --> 00:34:12,000
+This is a question that was on
+the final exam a few years ago
+
+522
+00:34:12,000 --> 00:34:15,340
+and a lot of the
+class missed it.
+
+523
+00:34:15,340 --> 00:34:16,630
+So now we'll do it here.
+
+524
+00:34:21,610 --> 00:34:36,719
+Say I flip three fair, mutually
+independent coins and my events
+
+525
+00:34:36,719 --> 00:34:45,380
+are going to be A1 is the
+event coin 1 matches coin 2.
+
+526
+00:34:51,449 --> 00:34:54,730
+The second event,
+A2, is the event
+
+527
+00:34:54,730 --> 00:34:59,420
+that coin 2 matches coin 3.
+
+528
+00:34:59,420 --> 00:35:03,750
+And the third event,
+A3, is the event
+
+529
+00:35:03,750 --> 00:35:06,865
+that coin 3 matches coin 1.
+
+530
+00:35:09,980 --> 00:35:15,180
+And the question was,
+are these three events
+
+531
+00:35:15,180 --> 00:35:18,040
+mutually independent?
+
+532
+00:35:18,040 --> 00:35:21,040
+Prove your answer.
+
+533
+00:35:21,040 --> 00:35:22,345
+Let's try to figure that out.
+
+534
+00:35:31,852 --> 00:35:33,810
+The coins, of course,
+are mutually independent,
+
+535
+00:35:33,810 --> 00:35:36,150
+but what about these events?
+
+536
+00:35:36,150 --> 00:35:37,640
+So let's start doing it.
+
+537
+00:35:37,640 --> 00:35:41,370
+What's the probability one
+of the events occurring?
+
+538
+00:35:44,510 --> 00:35:49,829
+Well, you got to get the
+two coins at hand to match,
+
+539
+00:35:49,829 --> 00:35:51,370
+so that's the
+probability of a heads,
+
+540
+00:35:51,370 --> 00:35:56,710
+heads plus the probability
+of a tails, tails.
+
+541
+00:35:56,710 --> 00:36:00,580
+That's 1/4 plus 1/4 equals 1/2.
+
+542
+00:36:05,920 --> 00:36:13,280
+Now, the probability of Ai
+and Aj, i and j are 1 to 3,
+
+543
+00:36:13,280 --> 00:36:16,740
+they're different,
+but what is a way
+
+544
+00:36:16,740 --> 00:36:20,120
+of characterizing that case?
+
+545
+00:36:20,120 --> 00:36:22,520
+Say event 1 occurred
+and event 2 occurred,
+
+546
+00:36:22,520 --> 00:36:23,770
+how would I characterize that?
+
+547
+00:36:28,111 --> 00:36:28,610
+Yeah.
+
+548
+00:36:28,610 --> 00:36:29,782
+AUDIENCE: All the same.
+
+549
+00:36:29,782 --> 00:36:30,913
+TOM LEIGHTON: All of them.
+
+550
+00:36:30,913 --> 00:36:31,412
+Yeah.
+
+551
+00:36:31,412 --> 00:36:34,410
+All of the coins are the same
+because if A1 and A2 occur,
+
+552
+00:36:34,410 --> 00:36:37,290
+I know 1 matches
+2 a 2 matches 3.
+
+553
+00:36:37,290 --> 00:36:40,910
+If A1 and A3 happen, 1
+matches 2 and 1 matches 3,
+
+554
+00:36:40,910 --> 00:36:43,830
+so they're all the same
+and the same for A2 and A3.
+
+555
+00:36:43,830 --> 00:36:46,630
+If 2 matches 3 and 3 matches
+1, they're all the same.
+
+556
+00:36:46,630 --> 00:36:50,430
+So this is the same as saying
+all three coins are the same.
+
+557
+00:36:53,890 --> 00:36:57,160
+It could all be heads
+or all be tails.
+
+558
+00:36:57,160 --> 00:37:02,290
+And that's an 8
+plus 8, which is 1/4
+
+559
+00:37:02,290 --> 00:37:07,900
+and that means equals
+the probability of Ai
+
+560
+00:37:07,900 --> 00:37:11,780
+times the probability
+of Aj, which is
+
+561
+00:37:11,780 --> 00:37:15,850
+what I need for independence.
+
+562
+00:37:15,850 --> 00:37:19,070
+And then they said they're done.
+
+563
+00:37:19,070 --> 00:37:23,520
+They are independent,
+the three events.
+
+564
+00:37:23,520 --> 00:37:25,640
+You like that answer?
+
+565
+00:37:25,640 --> 00:37:28,260
+What's missing?
+
+566
+00:37:28,260 --> 00:37:29,410
+The last case.
+
+567
+00:37:29,410 --> 00:37:31,889
+They didn't check
+the last case and we
+
+568
+00:37:31,889 --> 00:37:33,680
+got to do that to have
+mutual independence.
+
+569
+00:37:33,680 --> 00:37:35,681
+So let's look at that.
+
+570
+00:37:35,681 --> 00:37:42,060
+The last case is probability
+A1 intersect A2 intersect A3.
+
+571
+00:37:42,060 --> 00:37:45,180
+What is the probability
+that all three events occur?
+
+572
+00:37:49,950 --> 00:37:55,560
+Well, the coins all
+have to match, right?
+
+573
+00:37:55,560 --> 00:37:59,816
+If all the coins match, all
+three events occur, right?
+
+574
+00:37:59,816 --> 00:38:01,690
+And what's the probability
+all 3 coins match?
+
+575
+00:38:04,260 --> 00:38:07,770
+1/4, just the same
+as this, is 1/4.
+
+576
+00:38:07,770 --> 00:38:12,090
+Does that equal probability
+of A1 times the probability
+
+577
+00:38:12,090 --> 00:38:15,520
+of A2 times the
+probability of A3?
+
+578
+00:38:20,090 --> 00:38:22,120
+What's that?
+
+579
+00:38:22,120 --> 00:38:23,680
+1/8.
+
+580
+00:38:23,680 --> 00:38:25,620
+This is 1/8.
+
+581
+00:38:25,620 --> 00:38:26,590
+They are not equal.
+
+582
+00:38:29,270 --> 00:38:32,779
+They are not mutually
+independent events.
+
+583
+00:38:32,779 --> 00:38:33,725
+All right?
+
+584
+00:38:37,520 --> 00:38:39,702
+Any questions about that?
+
+585
+00:38:39,702 --> 00:38:42,810
+It might well be something like
+this on the final this year,
+
+586
+00:38:42,810 --> 00:38:44,960
+a good, decent chance.
+
+587
+00:38:44,960 --> 00:38:47,610
+So if you start going along,
+looks like they're independent,
+
+588
+00:38:47,610 --> 00:38:49,735
+but you forget to check
+that last case, which shows
+
+589
+00:38:49,735 --> 00:38:52,580
+they're not mutual independent.
+
+590
+00:38:52,580 --> 00:38:56,140
+So you've got to check for all
+pairs and all subsets of events
+
+591
+00:38:56,140 --> 00:38:57,140
+for mutual independence.
+
+592
+00:39:00,040 --> 00:39:01,960
+Any questions about that?
+
+593
+00:39:06,370 --> 00:39:09,960
+Now, this is actually
+an interesting example
+
+594
+00:39:09,960 --> 00:39:14,690
+because in this case, all
+pairs were independent
+
+595
+00:39:14,690 --> 00:39:18,800
+and when that happens, we give
+that a special name and it's
+
+596
+00:39:18,800 --> 00:39:22,415
+called pairwise independence,
+not too surprising.
+
+597
+00:39:22,415 --> 00:39:26,180
+And that can be
+useful because there's
+
+598
+00:39:26,180 --> 00:39:28,340
+many times where you do
+get pairwise independence,
+
+599
+00:39:28,340 --> 00:39:30,502
+but not mutual independence.
+
+600
+00:39:30,502 --> 00:39:31,960
+So let me give you
+that definition.
+
+601
+00:39:38,760 --> 00:39:44,460
+So a collection of
+events A1 through An
+
+602
+00:39:44,460 --> 00:39:55,610
+are said to be
+pairwise independent
+
+603
+00:39:55,610 --> 00:40:04,980
+if for all i and j,
+where i doesn't equal j,
+
+604
+00:40:04,980 --> 00:40:08,330
+Ai and Aj are independent.
+
+605
+00:40:14,230 --> 00:40:17,620
+Now, as we saw in this
+example, in this example,
+
+606
+00:40:17,620 --> 00:40:21,660
+it was pairwise independence
+because the probability
+
+607
+00:40:21,660 --> 00:40:25,490
+of Ai and Aj equaled the
+probability of Ai times
+
+608
+00:40:25,490 --> 00:40:26,460
+the probably of Aj.
+
+609
+00:40:26,460 --> 00:40:29,130
+For any pair, it was true.
+
+610
+00:40:29,130 --> 00:40:32,130
+But it doesn't imply
+mutual independence.
+
+611
+00:40:32,130 --> 00:40:36,160
+So pairwise does
+not imply mutual.
+
+612
+00:40:38,870 --> 00:40:41,240
+Mutual would imply
+pairwise because it's
+
+613
+00:40:41,240 --> 00:40:43,515
+true for every subset of events.
+
+614
+00:40:46,550 --> 00:40:47,050
+All right.
+
+615
+00:40:47,050 --> 00:40:53,670
+So let's go back for OJ and
+see what would have happened.
+
+616
+00:40:53,670 --> 00:40:55,990
+What can you say about
+the probability of a blood
+
+617
+00:40:55,990 --> 00:40:59,420
+match for a random
+person if you only
+
+618
+00:40:59,420 --> 00:41:02,230
+knew that these factors
+were pairwise independent?
+
+619
+00:41:04,910 --> 00:41:06,182
+Say you only knew that.
+
+620
+00:41:06,182 --> 00:41:08,140
+You didn't know they were
+mutually independent,
+
+621
+00:41:08,140 --> 00:41:10,723
+but you knew they were pairwise
+independent in the population.
+
+622
+00:41:14,959 --> 00:41:17,000
+What's the best you can
+say about the probability
+
+623
+00:41:17,000 --> 00:41:21,130
+a random person matches that
+blood profile, an upper bound
+
+624
+00:41:21,130 --> 00:41:23,315
+on the probability?
+
+625
+00:41:23,315 --> 00:41:23,815
+Yeah.
+
+626
+00:41:23,815 --> 00:41:24,776
+AUDIENCE: 1 in 50.
+
+627
+00:41:24,776 --> 00:41:26,100
+TOM LEIGHTON: 1 in 50.
+
+628
+00:41:26,100 --> 00:41:27,050
+Yeah.
+
+629
+00:41:27,050 --> 00:41:30,810
+So what you can say is 1
+in 50, but nothing better.
+
+630
+00:41:30,810 --> 00:41:32,785
+So let's see why 1 in 50 works.
+
+631
+00:41:38,490 --> 00:41:43,370
+So let's let M1 be the
+event you match here,
+
+632
+00:41:43,370 --> 00:41:45,490
+M2 be the event you
+match their, and M3
+
+633
+00:41:45,490 --> 00:41:48,300
+be the event you match that.
+
+634
+00:41:48,300 --> 00:41:55,000
+The probability you
+match all three is
+
+635
+00:41:55,000 --> 00:41:56,600
+upper bounded by
+the probability you
+
+636
+00:41:56,600 --> 00:42:03,360
+match the first two
+because matching all three
+
+637
+00:42:03,360 --> 00:42:05,230
+is a subset of this.
+
+638
+00:42:08,220 --> 00:42:11,390
+Pairwise independence
+means that this is true.
+
+639
+00:42:11,390 --> 00:42:13,690
+This equals the
+probability of matching
+
+640
+00:42:13,690 --> 00:42:16,719
+the first times the probability
+of matching the second.
+
+641
+00:42:16,719 --> 00:42:18,260
+The probability of
+matching the first
+
+642
+00:42:18,260 --> 00:42:22,690
+is 1/10, probably of
+matching the second is 1/5,
+
+643
+00:42:22,690 --> 00:42:23,465
+so this is 1/50.
+
+644
+00:42:26,700 --> 00:42:29,880
+And you picked the best two.
+
+645
+00:42:29,880 --> 00:42:34,810
+You could have picked these two
+and said it was at most 1/20
+
+646
+00:42:34,810 --> 00:42:38,070
+or those two and said
+it's at most 1/40.
+
+647
+00:42:38,070 --> 00:42:41,760
+But you were clever and said,
+OK, I'm going to take these two
+
+648
+00:42:41,760 --> 00:42:44,590
+and use that as my upper
+bound, which is 1/50.
+
+649
+00:42:44,590 --> 00:42:51,450
+And it might well be that 1
+in 50 people match all three.
+
+650
+00:42:51,450 --> 00:42:54,010
+That can well be.
+
+651
+00:42:54,010 --> 00:42:57,910
+Because maybe whenever you're O
+positive, you have marker XYZ.
+
+652
+00:42:57,910 --> 00:43:01,725
+That's possible, potentially,
+unless we find out otherwise.
+
+653
+00:43:05,830 --> 00:43:10,149
+What if I tell you can't
+assume any independence at all?
+
+654
+00:43:10,149 --> 00:43:12,440
+What can you say about the
+probability of a blood match
+
+655
+00:43:12,440 --> 00:43:14,400
+here for a random person?
+
+656
+00:43:14,400 --> 00:43:14,900
+Yeah.
+
+657
+00:43:14,900 --> 00:43:15,525
+AUDIENCE: 1/10.
+
+658
+00:43:15,525 --> 00:43:16,566
+TOM LEIGHTON: What is it?
+
+659
+00:43:16,566 --> 00:43:17,270
+AUDIENCE: 1/10.
+
+660
+00:43:17,270 --> 00:43:19,500
+TOM LEIGHTON: 1/10.
+
+661
+00:43:19,500 --> 00:43:21,230
+Because if they
+match all three, they
+
+662
+00:43:21,230 --> 00:43:26,470
+match this and that probability
+is 1/10, so it's at most 1/10.
+
+663
+00:43:26,470 --> 00:43:27,970
+And it could be
+that everybody who's
+
+664
+00:43:27,970 --> 00:43:31,810
+O is O positive and has XYZ.
+
+665
+00:43:31,810 --> 00:43:34,704
+So unless you have
+more information,
+
+666
+00:43:34,704 --> 00:43:35,870
+that's the best you can say.
+
+667
+00:43:35,870 --> 00:43:38,822
+It might well be
+that's the answer.
+
+668
+00:43:41,720 --> 00:43:46,120
+Any questions about that?
+
+669
+00:43:46,120 --> 00:43:47,600
+So the assumptions
+really matter.
+
+670
+00:43:47,600 --> 00:43:50,200
+The more independence
+you assume,
+
+671
+00:43:50,200 --> 00:43:53,370
+the better bounds and the
+probability you get of a match.
+
+672
+00:43:57,106 --> 00:43:58,660
+It's a little bit
+unrelated to this,
+
+673
+00:43:58,660 --> 00:44:00,990
+but there was another
+mathematics dispute
+
+674
+00:44:00,990 --> 00:44:03,380
+at the OJ trial.
+
+675
+00:44:03,380 --> 00:44:05,750
+It turned out the that
+OJ had been beating up
+
+676
+00:44:05,750 --> 00:44:08,479
+Nicole on a fairly regular basis
+and there were police records
+
+677
+00:44:08,479 --> 00:44:10,020
+because after he'd
+beat her up, she'd
+
+678
+00:44:10,020 --> 00:44:13,250
+go in and complain
+to the police.
+
+679
+00:44:13,250 --> 00:44:18,410
+And the prosecution wanted this
+evidence admitted at the trial
+
+680
+00:44:18,410 --> 00:44:22,410
+because if the guy
+is a wife beater,
+
+681
+00:44:22,410 --> 00:44:25,030
+it makes you think that
+maybe he killed her.
+
+682
+00:44:25,030 --> 00:44:28,810
+And the defense lawyers argued
+against admitting that evidence
+
+683
+00:44:28,810 --> 00:44:33,070
+because it wasn't tied to the
+actual murder scene in any way
+
+684
+00:44:33,070 --> 00:44:35,900
+and they argued it would
+be prejudicial to the jury
+
+685
+00:44:35,900 --> 00:44:39,380
+because, of course, if the jury
+hears that OJ was beating her,
+
+686
+00:44:39,380 --> 00:44:41,650
+they might be more likely
+to include to convict him
+
+687
+00:44:41,650 --> 00:44:43,690
+for murdering her.
+
+688
+00:44:43,690 --> 00:44:46,620
+Now, they got the
+math council again
+
+689
+00:44:46,620 --> 00:44:50,420
+to argue that the reason
+you shouldn't admit this
+
+690
+00:44:50,420 --> 00:44:54,160
+is because the
+probability that you
+
+691
+00:44:54,160 --> 00:45:02,350
+kill your wife, that's K, given
+that you batter your wife,
+
+692
+00:45:02,350 --> 00:45:07,622
+that's B, is 1 in 2,000.
+
+693
+00:45:07,622 --> 00:45:09,080
+I would have guessed
+it was higher,
+
+694
+00:45:09,080 --> 00:45:11,680
+but the evidence did show that.
+
+695
+00:45:11,680 --> 00:45:15,250
+And so they said, look, there's
+only a 1 in 2,000 chance
+
+696
+00:45:15,250 --> 00:45:19,640
+that this evidence of
+wife beating is relevant
+
+697
+00:45:19,640 --> 00:45:23,190
+and therefore, it should not
+be admitted because there's
+
+698
+00:45:23,190 --> 00:45:25,170
+a pretty decent chance
+if the jury hears this,
+
+699
+00:45:25,170 --> 00:45:27,340
+they're going to convict him.
+
+700
+00:45:27,340 --> 00:45:28,702
+That's a pretty good argument.
+
+701
+00:45:28,702 --> 00:45:30,660
+And usually that kind of
+thing, you exclude it.
+
+702
+00:45:30,660 --> 00:45:31,090
+Yeah.
+
+703
+00:45:31,090 --> 00:45:32,455
+AUDIENCE: Where did
+that number come from?
+
+704
+00:45:32,455 --> 00:45:34,880
+TOM LEIGHTON: They got
+some study and some experts
+
+705
+00:45:34,880 --> 00:45:38,932
+to come in and say that for
+every 2,000 wife beaters,
+
+706
+00:45:38,932 --> 00:45:40,640
+only one of them
+actually kills his wife.
+
+707
+00:45:44,340 --> 00:45:48,179
+Now, what do you suppose
+the prosecution argued back?
+
+708
+00:45:48,179 --> 00:45:49,970
+They actually argued
+back very effectively,
+
+709
+00:45:49,970 --> 00:45:53,031
+because that's a tough
+argument to get by.
+
+710
+00:45:53,031 --> 00:45:53,530
+Yeah.
+
+711
+00:45:53,530 --> 00:45:56,105
+AUDIENCE: What's the probability
+that you kill your wife
+
+712
+00:45:56,105 --> 00:46:00,545
+in the first place, that could
+be 100 times larger than usual.
+
+713
+00:46:00,545 --> 00:46:02,900
+TOM LEIGHTON: Well,
+that's a good point.
+
+714
+00:46:02,900 --> 00:46:05,210
+So maybe the probability
+of killing your wife
+
+715
+00:46:05,210 --> 00:46:11,370
+not knowing B, I hope is
+pretty small, probably
+
+716
+00:46:11,370 --> 00:46:15,534
+that's very small,
+but I don't know.
+
+717
+00:46:15,534 --> 00:46:17,450
+But in any case, this
+thing you're going from,
+
+718
+00:46:17,450 --> 00:46:20,650
+say it's 1 in 1 million
+to 1 in 2,000, 1 in 2,000
+
+719
+00:46:20,650 --> 00:46:25,084
+is still too small to be used
+as evidence that OJ did it.
+
+720
+00:46:25,084 --> 00:46:27,137
+AUDIENCE: Frequency he did it.
+
+721
+00:46:27,137 --> 00:46:29,220
+TOM LEIGHTON: Frequency,
+they didn't get into that
+
+722
+00:46:29,220 --> 00:46:31,840
+because I guess he'd done it a
+bunch, but that's a good point.
+
+723
+00:46:31,840 --> 00:46:34,720
+It could be there's
+multiple beatings is higher.
+
+724
+00:46:34,720 --> 00:46:37,285
+Maybe that's 1 in 200 then.
+
+725
+00:46:37,285 --> 00:46:39,160
+In fact, that may be
+the case because I think
+
+726
+00:46:39,160 --> 00:46:41,326
+there's probably they say
+because if you do it once,
+
+727
+00:46:41,326 --> 00:46:42,870
+you do it multiple times.
+
+728
+00:46:42,870 --> 00:46:44,940
+So there's not much more
+to be gaining there.
+
+729
+00:46:44,940 --> 00:46:46,760
+There's a critical
+piece of information
+
+730
+00:46:46,760 --> 00:46:50,276
+we've left out of our
+conditional probabilities here.
+
+731
+00:46:50,276 --> 00:46:54,297
+In fact, the most glaring
+piece of all of evidence.
+
+732
+00:46:54,297 --> 00:46:55,130
+What's missing here?
+
+733
+00:46:55,130 --> 00:46:56,440
+What haven't we factored in?
+
+734
+00:46:56,440 --> 00:46:56,940
+Yeah.
+
+735
+00:46:56,940 --> 00:46:58,840
+AUDIENCE: The probability of B.
+
+736
+00:46:58,840 --> 00:47:03,490
+TOM LEIGHTON: The probability
+of B, that's the battering.
+
+737
+00:47:03,490 --> 00:47:07,550
+Battering, I don't know what
+it is, probably a large number.
+
+738
+00:47:07,550 --> 00:47:09,450
+Defense would argue
+it's large, I guess,
+
+739
+00:47:09,450 --> 00:47:13,664
+but it shouldn't
+matter that much.
+
+740
+00:47:13,664 --> 00:47:17,010
+AUDIENCE: The probability
+that he actually beat her,
+
+741
+00:47:17,010 --> 00:47:18,755
+given that she threatened him?
+
+742
+00:47:18,755 --> 00:47:20,130
+TOM LEIGHTON:
+Well, there's that,
+
+743
+00:47:20,130 --> 00:47:21,949
+but they have police--
+well, that's true.
+
+744
+00:47:21,949 --> 00:47:23,740
+They didn't see him
+doing it, but let's say
+
+745
+00:47:23,740 --> 00:47:25,820
+that they had good
+evidence that he did it
+
+746
+00:47:25,820 --> 00:47:30,750
+and defense wasn't arguing
+that he didn't really beat her.
+
+747
+00:47:30,750 --> 00:47:35,770
+The key thing we're missing
+here is Nicole wound up dead.
+
+748
+00:47:35,770 --> 00:47:37,780
+She was dead.
+
+749
+00:47:37,780 --> 00:47:40,790
+And there's another stat here
+that the prosecution argued.
+
+750
+00:47:52,040 --> 00:47:53,730
+So they argued this fact.
+
+751
+00:47:53,730 --> 00:47:56,570
+The probability the
+husband kills his wife,
+
+752
+00:47:56,570 --> 00:48:00,980
+given that he batters her
+and she wound up dead,
+
+753
+00:48:00,980 --> 00:48:05,100
+that somebody murder
+her is bigger than 1/2.
+
+754
+00:48:05,100 --> 00:48:08,950
+So here M is somebody
+murdered the wife.
+
+755
+00:48:08,950 --> 00:48:11,030
+Here, the husband beats her.
+
+756
+00:48:11,030 --> 00:48:13,110
+Now, the conditional
+probability that he
+
+757
+00:48:13,110 --> 00:48:16,540
+killed her is bigger than
+1/2 and that's a whopper.
+
+758
+00:48:16,540 --> 00:48:18,504
+Now, it's very relevant.
+
+759
+00:48:18,504 --> 00:48:19,920
+The probability
+he killed her just
+
+760
+00:48:19,920 --> 00:48:22,290
+given that he beat her
+is only 1 in 2,000,
+
+761
+00:48:22,290 --> 00:48:25,230
+but if you add the fact, which
+is very relevant in this case,
+
+762
+00:48:25,230 --> 00:48:30,085
+that the wife was murdered,
+this is now very compelling.
+
+763
+00:48:30,085 --> 00:48:31,960
+Now, in fact, they should
+have really compare
+
+764
+00:48:31,960 --> 00:48:39,840
+this to probability he kills
+her given that she's dead.
+
+765
+00:48:39,840 --> 00:48:43,430
+And so that would determine now
+the relevance of the battering,
+
+766
+00:48:43,430 --> 00:48:45,218
+the wife beating.
+
+767
+00:48:45,218 --> 00:48:47,342
+That's what they should
+have done, but they didn't.
+
+768
+00:48:47,342 --> 00:48:49,845
+They got this far and they
+had that and the judge said,
+
+769
+00:48:49,845 --> 00:48:51,610
+I'm letting it in.
+
+770
+00:48:51,610 --> 00:48:53,450
+So it came in at that point.
+
+771
+00:48:53,450 --> 00:48:55,600
+But this would be the
+right comparison, I think.
+
+772
+00:48:55,600 --> 00:48:57,058
+Because you look
+at the probability
+
+773
+00:48:57,058 --> 00:49:00,287
+that you killed her
+given that she's dead,
+
+774
+00:49:00,287 --> 00:49:02,120
+but now the additional
+information, the wife
+
+775
+00:49:02,120 --> 00:49:04,227
+battering, how does that
+change the probability?
+
+776
+00:49:04,227 --> 00:49:05,810
+And it probably
+changes it materially.
+
+777
+00:49:08,480 --> 00:49:10,450
+So it's all a little
+gory, but it's
+
+778
+00:49:10,450 --> 00:49:13,624
+interesting to see how
+mathematics played out
+
+779
+00:49:13,624 --> 00:49:14,790
+in this kind of environment.
+
+780
+00:49:14,790 --> 00:49:15,289
+Yeah.
+
+781
+00:49:15,289 --> 00:49:17,455
+AUDIENCE: Are we supposed
+to assume that he did
+
+782
+00:49:17,455 --> 00:49:18,814
+kill his wife?
+
+783
+00:49:18,814 --> 00:49:20,700
+TOM LEIGHTON: Yes,
+and they assumed that,
+
+784
+00:49:20,700 --> 00:49:24,170
+but when you decide whether
+or not to admit evidence,
+
+785
+00:49:24,170 --> 00:49:27,850
+if it's prejudicial, you've got
+to have a really good grounds
+
+786
+00:49:27,850 --> 00:49:28,410
+to get it in.
+
+787
+00:49:28,410 --> 00:49:31,710
+Like if the evidence is going to
+make the jury think he did it,
+
+788
+00:49:31,710 --> 00:49:35,480
+then you really got to argue the
+evidence is relevant somehow.
+
+789
+00:49:35,480 --> 00:49:37,649
+There's material
+information and that's
+
+790
+00:49:37,649 --> 00:49:38,690
+what the fight was about.
+
+791
+00:49:38,690 --> 00:49:41,740
+A 1 in 2,000 relevance
+isn't going to cut it.
+
+792
+00:49:41,740 --> 00:49:45,569
+1 in 2, that's probably
+pretty relevant.
+
+793
+00:49:45,569 --> 00:49:47,110
+And that will be
+the grounds on which
+
+794
+00:49:47,110 --> 00:49:49,349
+the judge makes his decision.
+
+795
+00:49:49,349 --> 00:49:50,890
+But yeah, you assume
+he didn't do it.
+
+796
+00:49:56,256 --> 00:49:56,860
+All right.
+
+797
+00:49:56,860 --> 00:49:57,830
+Back to independence.
+
+798
+00:49:57,830 --> 00:50:03,410
+So the last example today is
+derived from a famous paradox
+
+799
+00:50:03,410 --> 00:50:05,470
+and has several actually
+important applications
+
+800
+00:50:05,470 --> 00:50:06,880
+in computer science.
+
+801
+00:50:06,880 --> 00:50:09,340
+And this problem is known
+as the birthday problem
+
+802
+00:50:09,340 --> 00:50:10,340
+or the birthday paradox.
+
+803
+00:50:13,170 --> 00:50:16,040
+It's a paradox because it sort
+of has a surprising answer.
+
+804
+00:50:20,091 --> 00:50:21,590
+Probably a lot of
+you have seen this
+
+805
+00:50:21,590 --> 00:50:23,318
+before in some form or another.
+
+806
+00:50:37,860 --> 00:50:45,180
+In the birthday problem,
+there are N birthdays
+
+807
+00:50:45,180 --> 00:50:46,680
+and typically
+we're going to look
+
+808
+00:50:46,680 --> 00:50:53,290
+at the case where N is
+365, the days of the year,
+
+809
+00:50:53,290 --> 00:50:54,350
+and there is M people.
+
+810
+00:50:59,330 --> 00:51:02,570
+And for example, know maybe
+there's 100 people here.
+
+811
+00:51:07,070 --> 00:51:15,480
+And what we want to know
+is, what is the probability
+
+812
+00:51:15,480 --> 00:51:21,770
+that two or more people
+have the same birthday.
+
+813
+00:51:32,760 --> 00:51:34,260
+For example, how
+many people think
+
+814
+00:51:34,260 --> 00:51:37,450
+there's at least a 50%
+chance that a pair of you
+
+815
+00:51:37,450 --> 00:51:41,460
+in the audience here
+have the same birthday?
+
+816
+00:51:41,460 --> 00:51:42,870
+That's good.
+
+817
+00:51:42,870 --> 00:51:48,030
+How many people think there's
+a better than 90% chance?
+
+818
+00:51:48,030 --> 00:51:49,382
+A few of you.
+
+819
+00:51:49,382 --> 00:51:49,930
+All right.
+
+820
+00:51:49,930 --> 00:51:53,410
+How many people think there's
+a better than a 99% chance
+
+821
+00:51:53,410 --> 00:51:55,700
+that there's a pair
+of matching birthdays?
+
+822
+00:51:55,700 --> 00:51:56,950
+A couple left.
+
+823
+00:51:56,950 --> 00:52:01,060
+How many think it's better
+than a 99.9% chance?
+
+824
+00:52:01,060 --> 00:52:01,974
+We've got one, two.
+
+825
+00:52:01,974 --> 00:52:03,390
+You guys are going
+to be stubborn.
+
+826
+00:52:03,390 --> 00:52:03,990
+Another one.
+
+827
+00:52:03,990 --> 00:52:04,500
+All right.
+
+828
+00:52:04,500 --> 00:52:11,770
+How many people think it's
+more than 99.999% chance?
+
+829
+00:52:11,770 --> 00:52:13,340
+Actually it's six 9's.
+
+830
+00:52:13,340 --> 00:52:15,440
+It's incredible.
+
+831
+00:52:15,440 --> 00:52:18,120
+It is a virtual certainty.
+
+832
+00:52:18,120 --> 00:52:19,200
+So let's see.
+
+833
+00:52:19,200 --> 00:52:23,170
+In fact, the chance that
+you're all different is about 1
+
+834
+00:52:23,170 --> 00:52:27,290
+in 3 million chance that
+you're all different.
+
+835
+00:52:27,290 --> 00:52:30,810
+And we're going to see
+why that's true here.
+
+836
+00:52:30,810 --> 00:52:33,410
+But to do that, we're
+going to need to make
+
+837
+00:52:33,410 --> 00:52:36,720
+two important assumptions.
+
+838
+00:52:36,720 --> 00:52:39,850
+Any ideas about what assumptions
+you're going to need?
+
+839
+00:52:39,850 --> 00:52:40,350
+Yeah.
+
+840
+00:52:40,350 --> 00:52:42,170
+AUDIENCE: Birthdays are
+uniformly distributed.
+
+841
+00:52:42,170 --> 00:52:43,585
+TOM LEIGHTON: Birthdays
+are uniformly distributed.
+
+842
+00:52:43,585 --> 00:52:44,718
+Any other ideas?
+
+843
+00:52:44,718 --> 00:52:45,218
+Yes.
+
+844
+00:52:45,218 --> 00:52:46,496
+AUDIENCE: He stole my answer.
+
+845
+00:52:46,496 --> 00:52:47,870
+TOM LEIGHTON: Oh,
+he stole yours.
+
+846
+00:52:47,870 --> 00:52:50,724
+What else are you going
+to need to assume?
+
+847
+00:52:50,724 --> 00:52:51,700
+Yeah.
+
+848
+00:52:51,700 --> 00:52:54,319
+AUDIENCE: All birthdays are
+independent of each other.
+
+849
+00:52:54,319 --> 00:52:55,110
+TOM LEIGHTON: Yeah.
+
+850
+00:52:55,110 --> 00:52:56,410
+Mutually independent.
+
+851
+00:52:56,410 --> 00:52:58,380
+We're going to
+need that as well.
+
+852
+00:52:58,380 --> 00:53:03,020
+Now, in actuality, neither
+is true in reality.
+
+853
+00:53:03,020 --> 00:53:04,870
+It's well known
+that birthdays tend
+
+854
+00:53:04,870 --> 00:53:07,700
+to follow seasonal
+patterns and they're
+
+855
+00:53:07,700 --> 00:53:10,070
+related to major events.
+
+856
+00:53:10,070 --> 00:53:13,590
+Now, do you all remember the big
+blackout that hit the Northeast
+
+857
+00:53:13,590 --> 00:53:14,830
+several years ago?
+
+858
+00:53:14,830 --> 00:53:16,710
+Do you remember that?
+
+859
+00:53:16,710 --> 00:53:18,660
+Well, it turns out,
+this is a true fact,
+
+860
+00:53:18,660 --> 00:53:21,850
+there were a lot of babies
+born nine months later.
+
+861
+00:53:21,850 --> 00:53:23,020
+In fact, they had a name.
+
+862
+00:53:23,020 --> 00:53:24,730
+They're called blackout babies.
+
+863
+00:53:24,730 --> 00:53:27,950
+If you were born in that period
+in the Northeast and there's
+
+864
+00:53:27,950 --> 00:53:31,770
+all these news stories about
+the life of the blackout babies.
+
+865
+00:53:31,770 --> 00:53:34,370
+And the same thing happens
+after cold snaps in the winter
+
+866
+00:53:34,370 --> 00:53:36,860
+and you get a blizzard
+or this kind of a thing.
+
+867
+00:53:36,860 --> 00:53:39,150
+Nine months later,
+you get babies.
+
+868
+00:53:39,150 --> 00:53:44,040
+In fact, I had a personal
+experience with this.
+
+869
+00:53:44,040 --> 00:53:51,090
+Well, my son was born
+on October 18, 1996.
+
+870
+00:53:51,090 --> 00:53:54,100
+And on the day he was born,
+we're going to the hospital
+
+871
+00:53:54,100 --> 00:53:55,720
+and it was a zoo.
+
+872
+00:53:55,720 --> 00:53:58,190
+The maternity ward
+was totally full.
+
+873
+00:53:58,190 --> 00:54:01,050
+We had to go at some other
+wing of the hospital.
+
+874
+00:54:01,050 --> 00:54:05,300
+And babies were popping
+out all over the place.
+
+875
+00:54:05,300 --> 00:54:07,040
+And I asked, what is going on?
+
+876
+00:54:07,040 --> 00:54:10,520
+Why don't you have enough
+room for all the mothers here?
+
+877
+00:54:10,520 --> 00:54:12,520
+And they said, oh, it's
+all the blizzard babies.
+
+878
+00:54:12,520 --> 00:54:13,790
+And I go, what?
+
+879
+00:54:13,790 --> 00:54:16,100
+And they go, well, remember
+the blizzard of '96?
+
+880
+00:54:16,100 --> 00:54:18,562
+It's like, oh yeah.
+
+881
+00:54:18,562 --> 00:54:19,528
+I remember.
+
+882
+00:54:19,528 --> 00:54:20,980
+Yeah.
+
+883
+00:54:20,980 --> 00:54:23,930
+It was nine months prior
+is the big blizzard
+
+884
+00:54:23,930 --> 00:54:28,000
+and so it's all the
+blizzard babies coming.
+
+885
+00:54:28,000 --> 00:54:30,122
+So they're not uniform.
+
+886
+00:54:30,122 --> 00:54:31,830
+They're all different
+probabilities here,
+
+887
+00:54:31,830 --> 00:54:33,965
+but we're going to assume
+they're equally likely.
+
+888
+00:54:36,570 --> 00:54:41,920
+Now, independence is also
+not true, in general.
+
+889
+00:54:41,920 --> 00:54:47,210
+What's one way that birthdays
+might not be independent?
+
+890
+00:54:47,210 --> 00:54:47,935
+What is it?
+
+891
+00:54:47,935 --> 00:54:48,601
+AUDIENCE: Twins.
+
+892
+00:54:48,601 --> 00:54:49,540
+TOM LEIGHTON: Twins.
+
+893
+00:54:49,540 --> 00:54:52,500
+So if they're twins, they
+have the same birthday.
+
+894
+00:54:52,500 --> 00:54:53,500
+Now, there's other ways.
+
+895
+00:54:53,500 --> 00:54:56,990
+In fact, my only
+sibling, my brother,
+
+896
+00:54:56,990 --> 00:55:00,880
+has the same birthday I do,
+but I'm two years older,
+
+897
+00:55:00,880 --> 00:55:02,680
+so we weren't twins.
+
+898
+00:55:02,680 --> 00:55:05,780
+Now, you say, what
+are the odds of that?
+
+899
+00:55:05,780 --> 00:55:10,200
+Well, 1 in 365, you think.
+
+900
+00:55:10,200 --> 00:55:11,800
+Well, one day I'm
+in middle school,
+
+901
+00:55:11,800 --> 00:55:14,040
+about the age you start
+thinking about these things,
+
+902
+00:55:14,040 --> 00:55:16,060
+and you get the idea to
+count back nine months
+
+903
+00:55:16,060 --> 00:55:17,160
+from your birthday.
+
+904
+00:55:17,160 --> 00:55:18,940
+Probably some of
+you have done that.
+
+905
+00:55:18,940 --> 00:55:24,490
+And I did that and
+that's my dad's birthday.
+
+906
+00:55:24,490 --> 00:55:25,914
+I was like, oh.
+
+907
+00:55:28,520 --> 00:55:32,100
+May is not 1 in 365.
+
+908
+00:55:32,100 --> 00:55:35,810
+It's like, Happy Birthday.
+
+909
+00:55:35,810 --> 00:55:36,860
+I don't know.
+
+910
+00:55:36,860 --> 00:55:39,160
+Anyway, I almost needed to
+go into therapy after that,
+
+911
+00:55:39,160 --> 00:55:40,800
+you know.
+
+912
+00:55:40,800 --> 00:55:45,810
+So now you all got to count back
+nine months from your birthday.
+
+913
+00:55:45,810 --> 00:55:49,100
+Anybody whose birthday is on
+September 30 or October 1,
+
+914
+00:55:49,100 --> 00:55:51,360
+nine months back
+is New Year's Eve.
+
+915
+00:55:51,360 --> 00:55:53,100
+That's dangerous.
+
+916
+00:55:53,100 --> 00:55:57,100
+So in reality, birthdays
+are not independent
+
+917
+00:55:57,100 --> 00:55:59,610
+and they are not
+randomly distributed,
+
+918
+00:55:59,610 --> 00:56:02,280
+but we're going to
+assume that because we're
+
+919
+00:56:02,280 --> 00:56:05,510
+going to use this same analysis
+for computer science problems
+
+920
+00:56:05,510 --> 00:56:09,831
+where things are, hopefully,
+more independent and random.
+
+921
+00:56:09,831 --> 00:56:11,330
+Now, we're going
+to do an experiment
+
+922
+00:56:11,330 --> 00:56:14,502
+to see how many people
+it takes us to get
+
+923
+00:56:14,502 --> 00:56:15,710
+a pair of matching birthdays.
+
+924
+00:56:15,710 --> 00:56:18,220
+So I'm going to run through
+people in order in the rows
+
+925
+00:56:18,220 --> 00:56:20,440
+here, get your birthday
+and we're going to record
+
+926
+00:56:20,440 --> 00:56:22,680
+and we're going to see how
+far we go until there's
+
+927
+00:56:22,680 --> 00:56:24,880
+a match in that group.
+
+928
+00:56:24,880 --> 00:56:26,370
+So I will write up
+the months here.
+
+929
+00:56:51,230 --> 00:56:55,950
+And we'll start with my
+birthday is October 28.
+
+930
+00:56:55,950 --> 00:56:57,180
+So let's go right across.
+
+931
+00:56:57,180 --> 00:56:57,830
+What yours?
+
+932
+00:56:57,830 --> 00:56:59,120
+AUDIENCE: April 1.
+
+933
+00:56:59,120 --> 00:57:00,230
+TOM LEIGHTON: April 1.
+
+934
+00:57:06,610 --> 00:57:07,260
+OK.
+
+935
+00:57:07,260 --> 00:57:08,810
+We won't embarrass you here.
+
+936
+00:57:08,810 --> 00:57:10,930
+OK, who's next?
+
+937
+00:57:10,930 --> 00:57:12,283
+What's your birthday?
+
+938
+00:57:12,283 --> 00:57:13,672
+AUDIENCE: I'm sorry.
+
+939
+00:57:13,672 --> 00:57:14,600
+September 2.
+
+940
+00:57:14,600 --> 00:57:15,910
+TOM LEIGHTON: September 2.
+
+941
+00:57:15,910 --> 00:57:18,020
+All right.
+
+942
+00:57:18,020 --> 00:57:18,907
+Yours.
+
+943
+00:57:18,907 --> 00:57:19,615
+AUDIENCE: June 1.
+
+944
+00:57:19,615 --> 00:57:22,380
+TOM LEIGHTON: June 1.
+
+945
+00:57:22,380 --> 00:57:22,880
+OK.
+
+946
+00:57:22,880 --> 00:57:23,560
+We'll come back.
+
+947
+00:57:23,560 --> 00:57:24,310
+AUDIENCE: April 8.
+
+948
+00:57:24,310 --> 00:57:24,940
+TOM LEIGHTON: What is it?
+
+949
+00:57:24,940 --> 00:57:25,880
+AUDIENCE: April 8.
+
+950
+00:57:25,880 --> 00:57:27,481
+TOM LEIGHTON: April 8.
+
+951
+00:57:27,481 --> 00:57:28,954
+All right.
+
+952
+00:57:28,954 --> 00:57:30,427
+AUDIENCE: November 20.
+
+953
+00:57:30,427 --> 00:57:32,992
+TOM LEIGHTON: November 20.
+
+954
+00:57:32,992 --> 00:57:34,796
+AUDIENCE: June 12.
+
+955
+00:57:34,796 --> 00:57:37,736
+TOM LEIGHTON: June 12.
+
+956
+00:57:37,736 --> 00:57:39,640
+AUDIENCE: December 29.
+
+957
+00:57:39,640 --> 00:57:41,952
+TOM LEIGHTON: December 29.
+
+958
+00:57:41,952 --> 00:57:44,162
+AUDIENCE: [INAUDIBLE].
+
+959
+00:57:44,162 --> 00:57:45,260
+TOM LEIGHTON: What is it?
+
+960
+00:57:45,260 --> 00:57:46,009
+AUDIENCE: June 14.
+
+961
+00:57:46,009 --> 00:57:47,480
+TOM LEIGHTON: June 14.
+
+962
+00:57:47,480 --> 00:57:48,820
+Ooh, I almost got one there.
+
+963
+00:57:48,820 --> 00:57:50,045
+That one's close.
+
+964
+00:57:50,045 --> 00:57:51,229
+All right.
+
+965
+00:57:51,229 --> 00:57:51,770
+What's yours?
+
+966
+00:57:51,770 --> 00:57:53,260
+AUDIENCE: March 6.
+
+967
+00:57:53,260 --> 00:57:55,000
+TOM LEIGHTON: March 6.
+
+968
+00:57:55,000 --> 00:57:56,344
+AUDIENCE: May 2.
+
+969
+00:57:56,344 --> 00:57:58,650
+TOM LEIGHTON: May 2.
+
+970
+00:57:58,650 --> 00:58:00,497
+AUDIENCE: 17th of November.
+
+971
+00:58:00,497 --> 00:58:01,580
+TOM LEIGHTON: November 17.
+
+972
+00:58:01,580 --> 00:58:02,530
+Close again.
+
+973
+00:58:02,530 --> 00:58:04,695
+AUDIENCE: August 4.
+
+974
+00:58:04,695 --> 00:58:07,028
+TOM LEIGHTON: August 4.
+
+975
+00:58:07,028 --> 00:58:08,980
+AUDIENCE: July 25.
+
+976
+00:58:08,980 --> 00:58:10,785
+TOM LEIGHTON: July 25.
+
+977
+00:58:10,785 --> 00:58:14,170
+I don't think we'll get
+to 100 here, hopefully.
+
+978
+00:58:14,170 --> 00:58:15,175
+Yeah, what's yours?
+
+979
+00:58:15,175 --> 00:58:16,050
+AUDIENCE: October 30.
+
+980
+00:58:16,050 --> 00:58:16,795
+TOM LEIGHTON: What is it?
+
+981
+00:58:16,795 --> 00:58:17,710
+AUDIENCE: October 30.
+
+982
+00:58:17,710 --> 00:58:18,751
+TOM LEIGHTON: October 30.
+
+983
+00:58:18,751 --> 00:58:20,716
+Got close.
+
+984
+00:58:20,716 --> 00:58:22,012
+AUDIENCE: July 6.
+
+985
+00:58:22,012 --> 00:58:23,320
+TOM LEIGHTON: July 6.
+
+986
+00:58:23,320 --> 00:58:24,726
+All right.
+
+987
+00:58:24,726 --> 00:58:26,214
+AUDIENCE: February 25.
+
+988
+00:58:26,214 --> 00:58:27,440
+TOM LEIGHTON: February 25.
+
+989
+00:58:30,580 --> 00:58:32,228
+AUDIENCE: May 21.
+
+990
+00:58:32,228 --> 00:58:33,930
+TOM LEIGHTON: May what?
+
+991
+00:58:33,930 --> 00:58:37,630
+21st of May.
+
+992
+00:58:37,630 --> 00:58:38,906
+AUDIENCE: May 30.
+
+993
+00:58:38,906 --> 00:58:41,820
+TOM LEIGHTON: May 30.
+
+994
+00:58:41,820 --> 00:58:43,630
+You guys fooled me.
+
+995
+00:58:43,630 --> 00:58:44,660
+What have you got?
+
+996
+00:58:44,660 --> 00:58:45,815
+AUDIENCE: January 12.
+
+997
+00:58:45,815 --> 00:58:47,890
+TOM LEIGHTON: January 12.
+
+998
+00:58:47,890 --> 00:58:48,852
+All right.
+
+999
+00:58:48,852 --> 00:58:50,696
+AUDIENCE: July 14.
+
+1000
+00:58:50,696 --> 00:58:52,280
+TOM LEIGHTON: July 14.
+
+1001
+00:58:54,955 --> 00:58:55,455
+OK.
+
+1002
+00:58:55,455 --> 00:58:57,155
+AUDIENCE: April 30.
+
+1003
+00:58:57,155 --> 00:59:00,303
+TOM LEIGHTON: April 30.
+
+1004
+00:59:00,303 --> 00:59:02,067
+AUDIENCE: March 13.
+
+1005
+00:59:02,067 --> 00:59:05,360
+TOM LEIGHTON: March 13.
+
+1006
+00:59:05,360 --> 00:59:06,000
+All right.
+
+1007
+00:59:06,000 --> 00:59:06,610
+Did I get--
+
+1008
+00:59:06,610 --> 00:59:07,705
+AUDIENCE: October 7.
+
+1009
+00:59:07,705 --> 00:59:10,044
+TOM LEIGHTON: October 7.
+
+1010
+00:59:10,044 --> 00:59:11,460
+AUDIENCE: October 8.
+
+1011
+00:59:11,460 --> 00:59:13,170
+TOM LEIGHTON: Ah, you guys.
+
+1012
+00:59:16,376 --> 00:59:17,750
+OK.
+
+1013
+00:59:17,750 --> 00:59:18,470
+Did I get you?
+
+1014
+00:59:18,470 --> 00:59:19,740
+AUDIENCE: September 15.
+
+1015
+00:59:19,740 --> 00:59:22,581
+TOM LEIGHTON: September 15.
+
+1016
+00:59:22,581 --> 00:59:24,916
+AUDIENCE: November 9.
+
+1017
+00:59:24,916 --> 00:59:26,464
+TOM LEIGHTON: November 9.
+
+1018
+00:59:26,464 --> 00:59:26,980
+All right.
+
+1019
+00:59:26,980 --> 00:59:27,730
+AUDIENCE: July 15.
+
+1020
+00:59:27,730 --> 00:59:32,190
+TOM LEIGHTON: July 15.
+
+1021
+00:59:32,190 --> 00:59:33,306
+Close.
+
+1022
+00:59:33,306 --> 00:59:34,614
+AUDIENCE: September 3.
+
+1023
+00:59:34,614 --> 00:59:36,280
+TOM LEIGHTON: September 3.
+
+1024
+00:59:36,280 --> 00:59:38,680
+You guys are killing me here.
+
+1025
+00:59:38,680 --> 00:59:40,156
+AUDIENCE: February 6.
+
+1026
+00:59:40,156 --> 00:59:41,970
+TOM LEIGHTON: February 6.
+
+1027
+00:59:41,970 --> 00:59:44,754
+AUDIENCE: October 26.
+
+1028
+00:59:44,754 --> 00:59:46,514
+TOM LEIGHTON: OK.
+
+1029
+00:59:46,514 --> 00:59:48,834
+AUDIENCE: November 2.
+
+1030
+00:59:48,834 --> 00:59:51,163
+TOM LEIGHTON: November 2.
+
+1031
+00:59:51,163 --> 00:59:54,121
+AUDIENCE: January 23.
+
+1032
+00:59:54,121 --> 00:59:56,578
+TOM LEIGHTON: January 23.
+
+1033
+00:59:56,578 --> 00:59:59,434
+AUDIENCE: September 27.
+
+1034
+00:59:59,434 --> 01:00:02,230
+TOM LEIGHTON: You guys are going
+to set a record for sure here.
+
+1035
+01:00:02,230 --> 01:00:03,890
+This isn't the way
+it's supposed to go.
+
+1036
+01:00:03,890 --> 01:00:05,292
+AUDIENCE: December 30.
+
+1037
+01:00:05,292 --> 01:00:06,530
+TOM LEIGHTON: December 30.
+
+1038
+01:00:09,290 --> 01:00:10,680
+AUDIENCE: December 28.
+
+1039
+01:00:10,680 --> 01:00:12,975
+TOM LEIGHTON: Ah, come on, guys.
+
+1040
+01:00:15,730 --> 01:00:18,410
+What is the probability
+of going this long here?
+
+1041
+01:00:18,410 --> 01:00:19,122
+Yeah.
+
+1042
+01:00:19,122 --> 01:00:20,420
+AUDIENCE: September 22.
+
+1043
+01:00:20,420 --> 01:00:23,130
+TOM LEIGHTON: September 22.
+
+1044
+01:00:23,130 --> 01:00:26,399
+AUDIENCE: July 30.
+
+1045
+01:00:26,399 --> 01:00:29,396
+TOM LEIGHTON: July 30.
+
+1046
+01:00:29,396 --> 01:00:32,330
+AUDIENCE: The 24th of August.
+
+1047
+01:00:32,330 --> 01:00:33,740
+TOM LEIGHTON: 24th August.
+
+1048
+01:00:33,740 --> 01:00:35,864
+I'm going to have to ask
+the same person to tell me
+
+1049
+01:00:35,864 --> 01:00:37,110
+twice here to get a match.
+
+1050
+01:00:37,110 --> 01:00:38,150
+We got over there now?
+
+1051
+01:00:38,150 --> 01:00:39,460
+AUDIENCE: April 6.
+
+1052
+01:00:39,460 --> 01:00:42,141
+TOM LEIGHTON: April 6.
+
+1053
+01:00:42,141 --> 01:00:44,396
+AUDIENCE: October 16.
+
+1054
+01:00:44,396 --> 01:00:45,588
+TOM LEIGHTON: October 16.
+
+1055
+01:00:45,588 --> 01:00:47,500
+AUDIENCE: Did ask how many--
+
+1056
+01:00:47,500 --> 01:00:48,452
+AUDIENCE: September 3.
+
+1057
+01:00:48,452 --> 01:00:50,460
+TOM LEIGHTON: September 3.
+
+1058
+01:00:50,460 --> 01:00:52,545
+All right.
+
+1059
+01:00:52,545 --> 01:00:55,275
+Very good.
+
+1060
+01:00:55,275 --> 01:00:56,190
+All right.
+
+1061
+01:00:56,190 --> 01:01:00,230
+Let's count and see
+how many we got here.
+
+1062
+01:01:00,230 --> 01:01:02,912
+1, 2, 3, 4, 5, 6, 7, 8.
+
+1063
+01:01:02,912 --> 01:01:08,960
+9, 10, 11, 12, 13, 14,
+15, 16, 17, 18, 19, 20
+
+1064
+01:01:08,960 --> 01:01:19,060
+21, 22, 23, 24, 25, 26, 27, 28,
+29, 30, 31, 32, 33, 34, 35, 36,
+
+1065
+01:01:19,060 --> 01:01:22,630
+37, 38, 39, 40, 41, 42.
+
+1066
+01:01:22,630 --> 01:01:24,360
+That is a record.
+
+1067
+01:01:24,360 --> 01:01:29,230
+So it took 42 people
+to get a match.
+
+1068
+01:01:29,230 --> 01:01:32,750
+Now it turns out that
+for N equals 365,
+
+1069
+01:01:32,750 --> 01:01:36,840
+the magic number for N
+is 23, that by 23 people,
+
+1070
+01:01:36,840 --> 01:01:39,180
+we got a 50-50 chance.
+
+1071
+01:01:39,180 --> 01:01:44,260
+In fact, the probability of a
+match on 23 people is 0.506.
+
+1072
+01:01:44,260 --> 01:01:47,537
+It's a little bit better
+than 50-50 chance at 23.
+
+1073
+01:01:47,537 --> 01:01:48,870
+Now, maybe we should figure out.
+
+1074
+01:01:48,870 --> 01:01:50,536
+It's too late for
+homework to figure out
+
+1075
+01:01:50,536 --> 01:01:53,340
+what the chances are of going
+this long without a match.
+
+1076
+01:01:53,340 --> 01:01:55,910
+That maybe worth
+figuring that out.
+
+1077
+01:01:55,910 --> 01:01:58,830
+Now, it may seem
+surprising at first
+
+1078
+01:01:58,830 --> 01:02:01,530
+that 23 people is
+enough to have a 50/50
+
+1079
+01:02:01,530 --> 01:02:06,000
+chance because the chance of
+any pair matching is 1 in 365,
+
+1080
+01:02:06,000 --> 01:02:07,770
+by our assumption.
+
+1081
+01:02:07,770 --> 01:02:12,330
+And that's small, but there's
+lots of pairs of people
+
+1082
+01:02:12,330 --> 01:02:15,950
+and every pair of people
+have a chance to match
+
+1083
+01:02:15,950 --> 01:02:20,420
+and that's why 23 turns out
+to be enough to get to 50-50.
+
+1084
+01:02:20,420 --> 01:02:23,790
+Now, we're going to do the
+analysis for general M and N
+
+1085
+01:02:23,790 --> 01:02:26,490
+to the figure out the
+probability of a match
+
+1086
+01:02:26,490 --> 01:02:31,230
+if there's M people
+and N birthdays.
+
+1087
+01:02:31,230 --> 01:02:32,990
+There's lots of ways to do it.
+
+1088
+01:02:36,140 --> 01:02:41,220
+The easiest is to sort of well,
+we'll draw the sample space.
+
+1089
+01:02:41,220 --> 01:02:43,110
+It will be too big to
+draw the whole thing,
+
+1090
+01:02:43,110 --> 01:02:46,080
+but we can sort of
+model the sample space
+
+1091
+01:02:46,080 --> 01:02:47,538
+and then look at
+the sample points.
+
+1092
+01:03:01,580 --> 01:03:08,710
+So you've got the first person
+and there's N birthdays here,
+
+1093
+01:03:08,710 --> 01:03:14,630
+so it could be anywhere from
+January 1 out to December 31
+
+1094
+01:03:14,630 --> 01:03:18,480
+and in general this
+will be N. And then you
+
+1095
+01:03:18,480 --> 01:03:29,280
+have the second person and
+they have N possibilities
+
+1096
+01:03:29,280 --> 01:03:31,510
+for their birthday.
+
+1097
+01:03:31,510 --> 01:03:38,400
+And you take the tree down M
+levels to the very last person
+
+1098
+01:03:38,400 --> 01:03:38,900
+here.
+
+1099
+01:03:45,920 --> 01:03:50,530
+So each node has degree N and
+there's M levels on this tree.
+
+1100
+01:03:50,530 --> 01:04:03,560
+So the sample space is the set
+of all n-tuples b1, b2, to bm,
+
+1101
+01:04:03,560 --> 01:04:10,880
+these are the birthdays
+where every value of bi
+
+1102
+01:04:10,880 --> 01:04:17,270
+is between 1 and N. So a sample
+point is all the birthdays
+
+1103
+01:04:17,270 --> 01:04:18,925
+of the M people.
+
+1104
+01:04:22,180 --> 01:04:24,095
+How many sample
+points are there here?
+
+1105
+01:04:28,460 --> 01:04:32,610
+Remember how to
+count these things?
+
+1106
+01:04:32,610 --> 01:04:35,739
+Number of leaves on an
+N-ary tree of depth M or you
+
+1107
+01:04:35,739 --> 01:04:36,780
+can think of it this way.
+
+1108
+01:04:36,780 --> 01:04:41,950
+I've got N choices for each
+bi and there's M of them.
+
+1109
+01:04:41,950 --> 01:04:42,884
+AUDIENCE: [INAUDIBLE].
+
+1110
+01:04:42,884 --> 01:04:45,050
+TOM LEIGHTON: So what's the
+number of sample points?
+
+1111
+01:04:45,050 --> 01:04:47,020
+AUDIENCE: N to the M.
+
+1112
+01:04:47,020 --> 01:04:54,720
+TOM LEIGHTON: N to the M.
+Because N choices here,
+
+1113
+01:04:54,720 --> 01:04:57,820
+N choices here, N
+choices there, so you
+
+1114
+01:04:57,820 --> 01:05:02,220
+have N times N times N M times.
+
+1115
+01:05:02,220 --> 01:05:07,160
+And what's the probability
+of each outcome?
+
+1116
+01:05:07,160 --> 01:05:09,645
+For a set of possible birthdays,
+what's its probability?
+
+1117
+01:05:13,460 --> 01:05:19,160
+What's the probability
+of b1, b2, bM?
+
+1118
+01:05:27,409 --> 01:05:28,950
+So the probability
+of a sample point.
+
+1119
+01:05:28,950 --> 01:05:31,491
+What's the probability that the
+first person has birthday b1,
+
+1120
+01:05:31,491 --> 01:05:36,810
+the second has b2,
+and the N-th has bM?
+
+1121
+01:05:36,810 --> 01:05:37,546
+Remember that?
+
+1122
+01:05:37,546 --> 01:05:38,046
+Yeah.
+
+1123
+01:05:38,046 --> 01:05:39,330
+AUDIENCE: 1 over N to the M.
+
+1124
+01:05:39,330 --> 01:05:42,410
+TOM LEIGHTON: 1 over N to
+the M because each edge
+
+1125
+01:05:42,410 --> 01:05:46,309
+is probability of 1
+over N and the paths
+
+1126
+01:05:46,309 --> 01:05:48,600
+are length M, so you've got
+1 over N to the M-th power.
+
+1127
+01:05:52,770 --> 01:05:55,500
+Probability of the first
+birthday matching is 1 in N
+
+1128
+01:05:55,500 --> 01:06:01,420
+times 1 in N times 1 in N.
+And this actually makes sense
+
+1129
+01:06:01,420 --> 01:06:04,890
+because I've got N to
+the M sample points,
+
+1130
+01:06:04,890 --> 01:06:08,000
+each a probability
+1 over N to the M.
+
+1131
+01:06:08,000 --> 01:06:11,920
+So they all add up
+to 1, which is good.
+
+1132
+01:06:11,920 --> 01:06:13,550
+What kind of sample
+space is this
+
+1133
+01:06:13,550 --> 01:06:15,530
+where this happens where all
+the probabilities are the same?
+
+1134
+01:06:15,530 --> 01:06:16,302
+AUDIENCE: Uniform.
+
+1135
+01:06:16,302 --> 01:06:17,580
+TOM LEIGHTON: Uniform.
+
+1136
+01:06:17,580 --> 01:06:19,080
+Makes it very easy to work with.
+
+1137
+01:06:19,080 --> 01:06:21,240
+All we got to do
+now is just count
+
+1138
+01:06:21,240 --> 01:06:22,940
+the number of
+sample points where
+
+1139
+01:06:22,940 --> 01:06:27,130
+there's a matching birthday and
+then we multiply by that one
+
+1140
+01:06:27,130 --> 01:06:30,830
+probability 1 over N to the M.
+
+1141
+01:06:30,830 --> 01:06:33,780
+Now, it turns out that
+rather than counting
+
+1142
+01:06:33,780 --> 01:06:35,500
+the number of sample
+points where there's
+
+1143
+01:06:35,500 --> 01:06:38,920
+a matching birthday,
+it's easier to count
+
+1144
+01:06:38,920 --> 01:06:41,430
+the number of sample points
+for all the birthdays are
+
+1145
+01:06:41,430 --> 01:06:43,095
+different.
+
+1146
+01:06:43,095 --> 01:06:45,450
+And this is often the case
+when you're doing a counting
+
+1147
+01:06:45,450 --> 01:06:49,740
+problem, it's easier
+to count the opposite
+
+1148
+01:06:49,740 --> 01:06:52,100
+of what you're after.
+
+1149
+01:06:52,100 --> 01:06:54,420
+That can be the case
+and it is the case here.
+
+1150
+01:06:54,420 --> 01:06:56,260
+So we're going to do that.
+
+1151
+01:06:59,680 --> 01:07:06,600
+So let's count how many
+sample points are all
+
+1152
+01:07:06,600 --> 01:07:12,130
+different birthdays, so no
+pair of bi's is the same.
+
+1153
+01:07:12,130 --> 01:07:13,180
+Let's do that.
+
+1154
+01:07:13,180 --> 01:07:15,724
+How many choices
+are there for b1?
+
+1155
+01:07:15,724 --> 01:07:20,480
+365 or N. Let's do
+this in terms of N
+
+1156
+01:07:20,480 --> 01:07:22,400
+because we're going to
+use this for general N.
+
+1157
+01:07:22,400 --> 01:07:25,470
+How many choices for b2?
+
+1158
+01:07:25,470 --> 01:07:26,360
+N minus 1.
+
+1159
+01:07:26,360 --> 01:07:28,950
+Given you are the first
+one, you can't match it.
+
+1160
+01:07:28,950 --> 01:07:33,570
+And then N minus 2 all the
+way over to the last one
+
+1161
+01:07:33,570 --> 01:07:37,360
+is N minus M plus 1.
+
+1162
+01:07:37,360 --> 01:07:41,050
+And this is a formula
+you should all remember.
+
+1163
+01:07:41,050 --> 01:07:46,430
+That's just N factorial
+over N minus M factorial.
+
+1164
+01:07:46,430 --> 01:07:49,300
+You did this sort of stuff a
+couple weeks ago with counting
+
+1165
+01:07:49,300 --> 01:07:54,250
+sets and probability is really--
+a lot of it's about counting.
+
+1166
+01:07:54,250 --> 01:07:56,280
+So now we can compute
+the probability
+
+1167
+01:07:56,280 --> 01:07:57,990
+that all the birthdays
+are different.
+
+1168
+01:08:04,630 --> 01:08:08,660
+It's just adding up all the
+sample points of which there's
+
+1169
+01:08:08,660 --> 01:08:14,080
+n factorial over N minus
+M factorial and multiply
+
+1170
+01:08:14,080 --> 01:08:16,630
+by the probability
+of each one, which is
+
+1171
+01:08:16,630 --> 01:08:22,430
+1 over N to the M. All right.
+
+1172
+01:08:22,430 --> 01:08:24,630
+So we've actually now
+answered the question.
+
+1173
+01:08:24,630 --> 01:08:28,670
+This is the probability that
+all the birthdays are different.
+
+1174
+01:08:28,670 --> 01:08:32,560
+The only problem is,
+it's not so clear
+
+1175
+01:08:32,560 --> 01:08:34,720
+what the answer is to
+actually compute this
+
+1176
+01:08:34,720 --> 01:08:37,250
+or how fast it grows.
+
+1177
+01:08:37,250 --> 01:08:40,410
+So if I wanted to get
+a closed form for this
+
+1178
+01:08:40,410 --> 01:08:42,979
+without the factorials,
+what do I do?
+
+1179
+01:08:42,979 --> 01:08:45,200
+What do I use?
+
+1180
+01:08:45,200 --> 01:08:48,310
+Stirling's formula.
+
+1181
+01:08:48,310 --> 01:08:49,460
+So let's remember that.
+
+1182
+01:08:57,630 --> 01:09:01,870
+It says that N factorial
+is asymptotically equal
+
+1183
+01:09:01,870 --> 01:09:09,830
+to square root 2 pi N
+times N over e to the N.
+
+1184
+01:09:09,830 --> 01:09:15,529
+And that is accurate within
+0.1% when N is at least 100.
+
+1185
+01:09:15,529 --> 01:09:18,240
+So not only is it
+asymptotically equal,
+
+1186
+01:09:18,240 --> 01:09:25,020
+it's right on track for
+a reasonable size N.
+
+1187
+01:09:25,020 --> 01:09:27,899
+Now, I won't drag you
+through all the calculations.
+
+1188
+01:09:27,899 --> 01:09:30,850
+I used to actually try
+plugging that formula
+
+1189
+01:09:30,850 --> 01:09:33,024
+in for here and
+here and then going
+
+1190
+01:09:33,024 --> 01:09:35,440
+through all the calculations,
+but we won't do it in class.
+
+1191
+01:09:35,440 --> 01:09:37,300
+It's in the text.
+
+1192
+01:09:37,300 --> 01:09:40,102
+But I will tell you
+where that winds up.
+
+1193
+01:09:40,102 --> 01:09:42,310
+It's not hard, you've just
+got to do the calculation.
+
+1194
+01:09:48,160 --> 01:09:51,430
+So this is means the probability
+that all birthdays are
+
+1195
+01:09:51,430 --> 01:10:04,830
+different turns out to be
+asymptotically equal to e
+
+1196
+01:10:04,830 --> 01:10:15,530
+to the N minus M plus 1/2 times
+the natural log of N over N
+
+1197
+01:10:15,530 --> 01:10:23,670
+minus M minus M. And that's
+accurate to within 0.2%,
+
+1198
+01:10:23,670 --> 01:10:25,950
+if N and N minus M are
+large, larger than 100.
+
+1199
+01:10:25,950 --> 01:10:29,830
+So in fact, it's almost equal.
+
+1200
+01:10:29,830 --> 01:10:36,650
+And now you could plug in N
+equals 365 and M equals 100.
+
+1201
+01:10:36,650 --> 01:10:41,950
+So if you do that, in fact,
+if somebody has a calculator,
+
+1202
+01:10:41,950 --> 01:10:45,950
+we should plug in,
+what do we have, 42.
+
+1203
+01:10:45,950 --> 01:10:48,020
+You should plug in
+M equals 42 and see
+
+1204
+01:10:48,020 --> 01:10:50,300
+what the probability is.
+
+1205
+01:10:50,300 --> 01:10:56,330
+But if M is 100, the chance
+that we're all different,
+
+1206
+01:10:56,330 --> 01:11:05,150
+this equals 3.07 dot, dot,
+dot times 10 to the minus 7.
+
+1207
+01:11:05,150 --> 01:11:07,720
+And we should check
+for M equals 42.
+
+1208
+01:11:07,720 --> 01:11:10,080
+My guess is it's pretty
+small, but I don't know.
+
+1209
+01:11:10,080 --> 01:11:11,351
+We'll have to check that.
+
+1210
+01:11:11,351 --> 01:11:14,648
+AUDIENCE: 0.0859.
+
+1211
+01:11:14,648 --> 01:11:15,540
+TOM LEIGHTON: Great.
+
+1212
+01:11:15,540 --> 01:11:22,190
+So a 9% chance of having 42
+people all miss is a 9% chance.
+
+1213
+01:11:22,190 --> 01:11:23,480
+So we were little unlucky.
+
+1214
+01:11:23,480 --> 01:11:25,770
+That won't happen very often.
+
+1215
+01:11:25,770 --> 01:11:29,720
+But when you go from 42 to
+100, it gets really small.
+
+1216
+01:11:29,720 --> 01:11:31,020
+1 in 3 million or so.
+
+1217
+01:11:33,870 --> 01:11:39,840
+Now, if N is 365 and M
+is 23, the probability
+
+1218
+01:11:39,840 --> 01:11:44,190
+comes out to be about
+0.49, so about 50-50,
+
+1219
+01:11:44,190 --> 01:11:46,094
+they're all different.
+
+1220
+01:11:50,540 --> 01:11:51,040
+Now.
+
+1221
+01:11:51,040 --> 01:11:54,210
+For general M and
+N, we'd like to know
+
+1222
+01:11:54,210 --> 01:11:56,640
+when do you get to
+the 50-50 point?
+
+1223
+01:11:56,640 --> 01:12:00,550
+We'd like to derive an
+equation for M in terms of N
+
+1224
+01:12:00,550 --> 01:12:04,350
+where the probability of being
+all different is about 1/2.
+
+1225
+01:12:04,350 --> 01:12:04,850
+All right.
+
+1226
+01:12:04,850 --> 01:12:05,558
+So let's do that.
+
+1227
+01:12:16,270 --> 01:12:21,490
+So as long as we assume--
+and this will turn out
+
+1228
+01:12:21,490 --> 01:12:24,830
+to be true-- that M is a
+little o of N to the 2/3
+
+1229
+01:12:24,830 --> 01:12:30,190
+and remember little o means it
+grows slower than N to the 2/3.
+
+1230
+01:12:30,190 --> 01:12:32,230
+Then we can simplify
+that expression
+
+1231
+01:12:32,230 --> 01:12:35,240
+in asymptotic notation.
+
+1232
+01:12:35,240 --> 01:12:40,405
+And when you do it, I won't
+drag it through on the board.
+
+1233
+01:12:40,405 --> 01:12:45,030
+It's also in the text, it
+turns out to be much simpler.
+
+1234
+01:12:45,030 --> 01:12:49,900
+It's just e to the
+minus M squared over 2N.
+
+1235
+01:12:49,900 --> 01:12:51,820
+So I take that
+thing up there and I
+
+1236
+01:12:51,820 --> 01:12:57,400
+assume that M is growing less
+fast than the 2/3 power of N
+
+1237
+01:12:57,400 --> 01:12:59,500
+and that whole upper
+expression reduces down
+
+1238
+01:12:59,500 --> 01:13:01,110
+to M squared over 2N.
+
+1239
+01:13:01,110 --> 01:13:04,310
+Everything else goes
+to 0 in the exponent.
+
+1240
+01:13:04,310 --> 01:13:06,260
+Doesn't matter.
+
+1241
+01:13:06,260 --> 01:13:11,970
+Now, if I set this
+to be 1/2, I can
+
+1242
+01:13:11,970 --> 01:13:17,610
+solve this to find out what M
+has to be to make that be 1/2.
+
+1243
+01:13:17,610 --> 01:13:18,110
+All right.
+
+1244
+01:13:18,110 --> 01:13:24,710
+So this will be true if and
+only if minus M squared over 2N
+
+1245
+01:13:24,710 --> 01:13:26,270
+is equal to the
+natural log of 1/2.
+
+1246
+01:13:29,610 --> 01:13:31,040
+And that's true.
+
+1247
+01:13:31,040 --> 01:13:34,820
+Take the minus sign, put it
+inside to make a log of 2,
+
+1248
+01:13:34,820 --> 01:13:36,580
+multiply by 2N.
+
+1249
+01:13:36,580 --> 01:13:43,590
+That's true if M squared
+equals 2N natural log of 2.
+
+1250
+01:13:43,590 --> 01:13:46,800
+And now I can solve
+for M really easily.
+
+1251
+01:13:46,800 --> 01:13:53,090
+That's true if and
+only if M equals
+
+1252
+01:13:53,090 --> 01:13:58,360
+the square root of 2
+natural log of 2N, which
+
+1253
+01:13:58,360 --> 01:14:08,560
+is about 1.177 square root
+of N. So for general N,
+
+1254
+01:14:08,560 --> 01:14:14,020
+you get a 50% probability of
+having a matching birthday when
+
+1255
+01:14:14,020 --> 01:14:21,920
+M is in this range, pretty
+close to 1.2 square root of N.
+
+1256
+01:14:21,920 --> 01:14:25,024
+Now, this square root N
+phenomenon, this thing here,
+
+1257
+01:14:25,024 --> 01:14:26,940
+that's what's known as
+the birthday principle.
+
+1258
+01:14:29,630 --> 01:14:33,250
+It says if you've got roughly
+square root of N randomly
+
+1259
+01:14:33,250 --> 01:14:39,580
+allocated items into N
+boxes or bins or birthdays,
+
+1260
+01:14:39,580 --> 01:14:41,940
+there's a decent
+chance two of the items
+
+1261
+01:14:41,940 --> 01:14:47,120
+will go into the same bin
+if the randomly allocated.
+
+1262
+01:14:47,120 --> 01:14:49,130
+In this case, the bins
+are the possible days
+
+1263
+01:14:49,130 --> 01:14:53,150
+of the year that we put each
+person into for their birthday.
+
+1264
+01:14:53,150 --> 01:14:55,525
+Any questions about that?
+
+1265
+01:14:58,860 --> 01:14:59,360
+Yeah.
+
+1266
+01:14:59,360 --> 01:15:01,328
+AUDIENCE: M and N
+are like numbers
+
+1267
+01:15:01,328 --> 01:15:03,460
+like they're defined up
+there or does it mean
+
+1268
+01:15:03,460 --> 01:15:05,756
+to say M equals [INAUDIBLE]?
+
+1269
+01:15:05,756 --> 01:15:06,980
+TOM LEIGHTON: Yeah.
+
+1270
+01:15:06,980 --> 01:15:10,370
+So here I looked at a
+special case where N was 365,
+
+1271
+01:15:10,370 --> 01:15:13,360
+M was 100, but we
+can imagine them
+
+1272
+01:15:13,360 --> 01:15:17,350
+as arbitrary numbers that
+could be getting large.
+
+1273
+01:15:17,350 --> 01:15:22,480
+And so over here and I say M
+is little o of N to the 2/3,
+
+1274
+01:15:22,480 --> 01:15:26,250
+I mean, well, M equals square
+root of N would qualify.
+
+1275
+01:15:26,250 --> 01:15:29,950
+Square root of N is
+little o of N to the 2/3.
+
+1276
+01:15:29,950 --> 01:15:33,320
+So as long as M is
+not growing too fast,
+
+1277
+01:15:33,320 --> 01:15:36,950
+I can simplify that expression
+up there, which is what I did.
+
+1278
+01:15:36,950 --> 01:15:40,890
+And then we go back
+and we find, in fact,
+
+1279
+01:15:40,890 --> 01:15:42,980
+the square root of
+N the right answer
+
+1280
+01:15:42,980 --> 01:15:45,650
+and that is little
+o of N to the 2/3.
+
+1281
+01:15:45,650 --> 01:15:48,400
+And I have to use a
+different argument
+
+1282
+01:15:48,400 --> 01:15:51,750
+if I assumed M was
+bigger, which I didn't do.
+
+1283
+01:15:51,750 --> 01:15:53,140
+I didn't drag it for that.
+
+1284
+01:15:53,140 --> 01:15:56,340
+But I would have to
+go check that case.
+
+1285
+01:15:56,340 --> 01:15:58,320
+So we can think of general
+is M and N as being
+
+1286
+01:15:58,320 --> 01:16:00,730
+arbitrary variables and
+potentially growing.
+
+1287
+01:16:00,730 --> 01:16:03,710
+M can be a function
+of N. And in fact,
+
+1288
+01:16:03,710 --> 01:16:06,170
+when M is the square
+root function of N, then
+
+1289
+01:16:06,170 --> 01:16:07,830
+we got a 50% chance of a match.
+
+1290
+01:16:11,080 --> 01:16:15,420
+Now, the birthday
+principle comes up all
+
+1291
+01:16:15,420 --> 01:16:18,700
+over the place in
+computer science
+
+1292
+01:16:18,700 --> 01:16:20,215
+and it's worth remembering.
+
+1293
+01:16:23,140 --> 01:16:26,286
+For example, the
+generic form for this
+
+1294
+01:16:26,286 --> 01:16:27,660
+is when you have
+a hash function.
+
+1295
+01:16:30,510 --> 01:16:34,040
+Let's say I have a
+hash function, h,
+
+1296
+01:16:34,040 --> 01:16:39,280
+from a large set of items
+into a small set of items.
+
+1297
+01:16:39,280 --> 01:16:43,200
+For example, say I'm
+computing digital signatures.
+
+1298
+01:16:43,200 --> 01:16:45,640
+This is the space
+of all messages,
+
+1299
+01:16:45,640 --> 01:16:49,030
+this is the space of all
+1,000-bit digital signatures,
+
+1300
+01:16:49,030 --> 01:16:51,750
+and h is a digital
+signature outcome.
+
+1301
+01:16:51,750 --> 01:16:53,720
+Say I'm doing
+memory allocations.
+
+1302
+01:16:53,720 --> 01:16:57,190
+So all the things I might
+be sticking into a register,
+
+1303
+01:16:57,190 --> 01:16:58,640
+here's all the
+places it could go.
+
+1304
+01:16:58,640 --> 01:17:00,360
+Here's all the registers.
+
+1305
+01:17:00,360 --> 01:17:01,760
+Error checking.
+
+1306
+01:17:01,760 --> 01:17:04,490
+This is all the garbled
+messages in the world.
+
+1307
+01:17:04,490 --> 01:17:07,360
+This is the set of
+messages that make sense,
+
+1308
+01:17:07,360 --> 01:17:12,770
+all handled by functions,
+random kind of functions often.
+
+1309
+01:17:12,770 --> 01:17:17,830
+Now, what you worry about when
+you're hashing is collisions.
+
+1310
+01:17:17,830 --> 01:17:20,240
+Let me define that.
+
+1311
+01:17:20,240 --> 01:17:29,840
+We say that x collides
+with y if the hash of x
+
+1312
+01:17:29,840 --> 01:17:33,710
+equals the hash of y, but
+x and y are different.
+
+1313
+01:17:36,650 --> 01:17:39,930
+For example, say you're
+looking at digital signatures.
+
+1314
+01:17:39,930 --> 01:17:43,905
+You would not want the
+signature for a $100 check
+
+1315
+01:17:43,905 --> 01:17:49,692
+to your mom to match your
+signature for $100,000 check
+
+1316
+01:17:49,692 --> 01:17:50,430
+to Boris.
+
+1317
+01:17:52,717 --> 01:17:54,550
+Because that would be
+bad because then Boris
+
+1318
+01:17:54,550 --> 01:17:58,590
+could come in and take that
+check to your mom for $100,
+
+1319
+01:17:58,590 --> 01:18:01,960
+converted to a
+$100,000 check to him
+
+1320
+01:18:01,960 --> 01:18:04,370
+and the signature is
+authentic if there's
+
+1321
+01:18:04,370 --> 01:18:06,040
+a collision in the signatures.
+
+1322
+01:18:06,040 --> 01:18:08,200
+So very important when
+you're doing hash functions
+
+1323
+01:18:08,200 --> 01:18:11,850
+and in many applications,
+you don't want collisions
+
+1324
+01:18:11,850 --> 01:18:14,160
+because all the whole
+thing start breaking.
+
+1325
+01:18:14,160 --> 01:18:15,020
+Memory allocation.
+
+1326
+01:18:15,020 --> 01:18:17,770
+You don't want to assign two
+things in the same place.
+
+1327
+01:18:17,770 --> 01:18:18,880
+Error correction.
+
+1328
+01:18:18,880 --> 01:18:23,100
+There's only one answer you
+want to get out at the end.
+
+1329
+01:18:23,100 --> 01:18:24,810
+Now, from the pigeon
+hole principle,
+
+1330
+01:18:24,810 --> 01:18:27,525
+you know if this set is
+bigger than that set,
+
+1331
+01:18:27,525 --> 01:18:28,900
+there is going to
+be a collision.
+
+1332
+01:18:28,900 --> 01:18:30,720
+That's what the pigeon
+hole principle says.
+
+1333
+01:18:30,720 --> 01:18:33,490
+Two guys will get mapped
+to the same thing.
+
+1334
+01:18:33,490 --> 01:18:38,270
+However, often in practice what
+we care about is a subset L
+
+1335
+01:18:38,270 --> 01:18:43,330
+prime of L that's pretty small
+because the set of messages we
+
+1336
+01:18:43,330 --> 01:18:46,370
+really assign is pretty small
+compared to all 1,000-bit
+
+1337
+01:18:46,370 --> 01:18:48,370
+signatures that are possible.
+
+1338
+01:18:48,370 --> 01:18:51,580
+And what you'd like is that for
+this smaller set of messages,
+
+1339
+01:18:51,580 --> 01:18:56,210
+you might want to assign, they
+all get mapped one to one.
+
+1340
+01:18:56,210 --> 01:19:01,560
+And the birthday principle
+says life is not so nice.
+
+1341
+01:19:01,560 --> 01:19:04,391
+So let me write that
+down then we'll be done.
+
+1342
+01:19:10,592 --> 01:19:11,560
+All right.
+
+1343
+01:19:11,560 --> 01:19:29,870
+So the birthday principle says
+that if S is at least 100,
+
+1344
+01:19:29,870 --> 01:19:36,590
+L prime is a subset of L that is
+at least the square root of S.
+
+1345
+01:19:36,590 --> 01:19:39,740
+So the cardinality of the
+things you want to hash
+
+1346
+01:19:39,740 --> 01:19:45,800
+is bigger than 1.2 square
+root the cardinality of S.
+
+1347
+01:19:45,800 --> 01:19:57,290
+And if the values of the
+function h on L prime
+
+1348
+01:19:57,290 --> 01:20:14,260
+are randomly chosen, uniform,
+and mutually independent,
+
+1349
+01:20:14,260 --> 01:20:16,630
+then there's at least
+a 50% chance, so
+
+1350
+01:20:16,630 --> 01:20:24,310
+with probability at least
+1/2, there's a collision.
+
+1351
+01:20:24,310 --> 01:20:29,340
+There exists an x and a y
+such that x does not equal y--
+
+1352
+01:20:29,340 --> 01:20:37,621
+and these are in L prime--
+but h of x equals h of y.
+
+1353
+01:20:37,621 --> 01:20:38,120
+All right.
+
+1354
+01:20:38,120 --> 01:20:41,910
+The proof is not hard, it's
+just we more or less did it.
+
+1355
+01:20:41,910 --> 01:20:44,880
+You just plug in the
+cardinality of L prime for M
+
+1356
+01:20:44,880 --> 01:20:48,680
+and the cardinality of S
+for N. And it's bad news
+
+1357
+01:20:48,680 --> 01:20:52,450
+because it means it doesn't
+take very many messages,
+
+1358
+01:20:52,450 --> 01:20:57,940
+just square root the number of
+signatures to get a collision.
+
+1359
+01:20:57,940 --> 01:21:01,422
+You'd hope you could get that
+you could have L prime be
+
+1360
+01:21:01,422 --> 01:21:02,880
+as big as S and
+that somehow they'd
+
+1361
+01:21:02,880 --> 01:21:05,637
+all go one to one, that
+everybody in this room
+
+1362
+01:21:05,637 --> 01:21:06,970
+would have a different birthday.
+
+1363
+01:21:06,970 --> 01:21:09,380
+That is not how it works
+if things are random,
+
+1364
+01:21:09,380 --> 01:21:11,750
+which is the case you
+usually like to have.
+
+1365
+01:21:11,750 --> 01:21:16,000
+Now, this technique is used to
+crack cryptographic protocols
+
+1366
+01:21:16,000 --> 01:21:18,720
+and it's called the birthday
+attack based on the birthday
+
+1367
+01:21:18,720 --> 01:21:19,474
+principle.
+
+1368
+01:21:19,474 --> 01:21:20,890
+So what you do is,
+you get a bunch
+
+1369
+01:21:20,890 --> 01:21:25,190
+of messages that are
+encrypted and pretty soon you
+
+1370
+01:21:25,190 --> 01:21:28,350
+find two that get maybe
+encrypted the same way.
+
+1371
+01:21:28,350 --> 01:21:30,700
+And once you have that,
+now you can go back
+
+1372
+01:21:30,700 --> 01:21:33,640
+and crack the crypto system.
+
+1373
+01:21:33,640 --> 01:21:37,680
+For example, you break schemes
+like RSA with a birthday attack
+
+1374
+01:21:37,680 --> 01:21:40,630
+if this space is not
+big enough and that's
+
+1375
+01:21:40,630 --> 01:21:46,310
+one reason why now RSA, the
+keys have thousands of digits
+
+1376
+01:21:46,310 --> 01:21:48,720
+because otherwise you
+can use attacks like this
+
+1377
+01:21:48,720 --> 01:21:52,450
+and crack them more easily.
+
+1378
+01:21:52,450 --> 01:21:55,610
+Any questions about that?
+
+1379
+01:21:55,610 --> 01:21:56,110
+OK.
+
+1380
+01:21:56,110 --> 01:21:56,610
+Very good.
+
+1381
+01:21:56,610 --> 01:21:58,710
+We're done for today.

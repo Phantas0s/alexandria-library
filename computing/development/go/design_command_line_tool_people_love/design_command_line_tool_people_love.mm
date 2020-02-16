@@ -1,0 +1,226 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1570872633396" ID="ID_1694781136" LINK="https://www.youtube.com/watch?v=eMz0vni6PAw&amp;list=PL2ntRZ1ySWBdDyspRTNBIKES1Y-P__59_&amp;index=10" MODIFIED="1570872666447" TEXT="Design Command-Line Tools People Love">
+<node CREATED="1570872694811" ID="ID_1151198750" MODIFIED="1570872723658" POSITION="right" TEXT="Command Design">
+<icon BUILTIN="full-1"/>
+<node CREATED="1570872703827" ID="ID_770372999" MODIFIED="1570872706790" TEXT="Pick your grammar">
+<node CREATED="1570872707938" ID="ID_1607784434" MODIFIED="1570872718417" TEXT="System of rules that defines the structure of the command"/>
+<node CREATED="1570872742571" ID="ID_1405387461" MODIFIED="1570872744077" TEXT="Grammar">
+<node CREATED="1570872749436" ID="ID_634245283" MODIFIED="1570872758460" TEXT="Verb">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1570872744256" ID="ID_741531151" MODIFIED="1570872761140" TEXT="Noun">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1570872746155" ID="ID_517459351" MODIFIED="1570872748887" TEXT="Subject"/>
+</node>
+</node>
+<node CREATED="1570872819305" ID="ID_1258969547" MODIFIED="1570872827407" TEXT="Understand precedent in your ecosystem">
+<node CREATED="1570872986835" ID="ID_467888699" MODIFIED="1570873008473" TEXT="Related  past CLI / software"/>
+<node CREATED="1570872998721" ID="ID_1356362496" MODIFIED="1570873941046" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1570872827745" ID="ID_1019315143" MODIFIED="1570872839337" TEXT="service catalog followed kubectl"/>
+<node CREATED="1570873012851" ID="ID_709194071" MODIFIED="1570873018613" TEXT="docker version manager">
+<node CREATED="1570873018801" ID="ID_1025494279" MODIFIED="1570873024343" TEXT="followed node version manager"/>
+</node>
+</node>
+<node CREATED="1570873028295" ID="ID_1792271935" MODIFIED="1570873033037" TEXT="But don&apos;t have to">
+<node CREATED="1570873035505" ID="ID_785772031" MODIFIED="1570873946027" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1570873039195" ID="ID_1559926725" MODIFIED="1570873043927" TEXT="Dep didn&apos;t follow glide"/>
+<node CREATED="1570873044355" ID="ID_1125858900" MODIFIED="1570873052607" TEXT="... because behavior totally different"/>
+<node CREATED="1570873053025" ID="ID_1180786922" MODIFIED="1570873057447" TEXT="... you don&apos;t want to lie"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1570873114493" FOLDED="true" ID="ID_1181110497" MODIFIED="1570972915392" POSITION="right" TEXT="Let&apos;s design a CLI">
+<icon BUILTIN="full-2"/>
+<node CREATED="1570873169746" ID="ID_1357902088" MODIFIED="1570873180120" TEXT="CLI create emoticons "/>
+<node CREATED="1570873141888" ID="ID_597662037" MODIFIED="1570873149490" TEXT="Commands that read like sentences"/>
+<node CREATED="1570873150178" ID="ID_102432684" MODIFIED="1570873154404" TEXT="... are easier to remember"/>
+<node CREATED="1570873183678" ID="ID_1119409164" MODIFIED="1570873926210" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node COLOR="#338800" CREATED="1570873189443" ID="ID_791352946" MODIFIED="1570873494716" TEXT="emote add emoticon gopher --value :)"/>
+<node COLOR="#338800" CREATED="1570873222772" ID="ID_995943207" MODIFIED="1570873495036" TEXT="emote delete emoticon anxious"/>
+</node>
+<node CREATED="1570873244047" ID="ID_1701006377" MODIFIED="1570873254220" TEXT="Avoid positional arguments where the order matters">
+<node CREATED="1570873323827" ID="ID_1653095445" MODIFIED="1570873923878" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node COLOR="#338800" CREATED="1570873328127" ID="ID_1245060321" MODIFIED="1570873491676" TEXT="emote add repo funk https://x.com/funk.json"/>
+<node CREATED="1570873343157" ID="ID_478944613" MODIFIED="1570873350363" TEXT="... OR ..."/>
+<node COLOR="#338800" CREATED="1570873352371" ID="ID_477300372" MODIFIED="1570873492565" TEXT="emote add repo https://x.com/funk.js funk"/>
+</node>
+<node CREATED="1570873377754" ID="ID_1033507814" MODIFIED="1570873380706" TEXT="Introduce Flag">
+<node CREATED="1570873380934" ID="ID_289887552" MODIFIED="1570873931961" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node COLOR="#338800" CREATED="1570873382214" ID="ID_1483300801" MODIFIED="1570873496436" TEXT="emote add repo func --url https://x.com/funk.json"/>
+</node>
+<node CREATED="1570873400084" ID="ID_245924536" MODIFIED="1570873409468" TEXT="User doesn&apos;t have to think about the order"/>
+<node CREATED="1570873409877" ID="ID_1549940888" MODIFIED="1570873416481" TEXT="Flag can be place anywhere on the command"/>
+<node CREATED="1570873425318" ID="ID_220303497" MODIFIED="1570873430411" TEXT="Position argument are guessable">
+<node CREATED="1570873444983" ID="ID_504043082" MODIFIED="1570873451417" TEXT="when arguments are different type"/>
+</node>
+</node>
+<node CREATED="1570873452025" ID="ID_596808472" MODIFIED="1570873457627" TEXT="Arguments with same type">
+<node CREATED="1570873464135" ID="ID_1308918648" MODIFIED="1570873928940" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node COLOR="#338800" CREATED="1570873468135" ID="ID_279807126" MODIFIED="1570873499268" TEXT="emote repo delete funk moar funk"/>
+</node>
+<node CREATED="1570873474252" ID="ID_953144160" MODIFIED="1570873481604" TEXT="Delete multiple repo"/>
+</node>
+</node>
+<node CREATED="1570873505709" ID="ID_1283503738" MODIFIED="1570873512371" TEXT="Support automation on your command">
+<node CREATED="1570873515150" ID="ID_127172056" MODIFIED="1570873527796" TEXT="Every single command">
+<node CREATED="1570873527964" ID="ID_955616039" MODIFIED="1570873530117" TEXT="output flag"/>
+<node CREATED="1570873530885" ID="ID_908969954" MODIFIED="1570873542187" TEXT="... can output in whatever format">
+<node CREATED="1570873542465" ID="ID_1353831102" MODIFIED="1570873544467" TEXT="json"/>
+<node CREATED="1570873545665" ID="ID_1550891363" MODIFIED="1570873546297" TEXT="..."/>
+</node>
+<node CREATED="1570873566061" ID="ID_992908671" MODIFIED="1570873571019" TEXT="Default human output">
+<node CREATED="1570873595822" FOLDED="true" ID="ID_1389610796" MODIFIED="1570873637800" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1570873632516" ID="ID_1554053928" MODIFIED="1570873635320">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="cli_current_output.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1570873653251" ID="ID_1545388976" LINK="https://github.com/dustin/go-humanize" MODIFIED="1570873673085" TEXT="see go humanize (for Golang)"/>
+</node>
+</node>
+</node>
+<node CREATED="1570873703709" ID="ID_1034164923" MODIFIED="1570873711340" TEXT="Sometimes the resource is implicit in the domain">
+<node CREATED="1570873724418" ID="ID_1465817640" MODIFIED="1570873729286" TEXT="Use your binary name">
+<node CREATED="1570873731284" ID="ID_437510783" MODIFIED="1570873919250" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1570873733596" ID="ID_725384365" MODIFIED="1570873735370" TEXT="emote"/>
+<node CREATED="1570873735798" ID="ID_1636388235" MODIFIED="1570873738110" TEXT="Emote list"/>
+</node>
+<node CREATED="1570873743011" ID="ID_181238836" MODIFIED="1570873749993" TEXT="... clear it&apos;s a list of emoticon"/>
+</node>
+</node>
+<node CREATED="1570873753391" ID="ID_1109019078" MODIFIED="1570873772128" TEXT="Aliases provide balance between brevity and discoverability"/>
+<node CREATED="1570873793601" ID="ID_566730686" MODIFIED="1570873797503" TEXT="Customize your help text">
+<node CREATED="1570873837066" ID="ID_1591722178" MODIFIED="1570873842158" TEXT="Give them how to use the CLI"/>
+<node CREATED="1570873842867" ID="ID_1335028737" MODIFIED="1570873845748" TEXT="... effectively"/>
+<node CREATED="1570873868546" FOLDED="true" ID="ID_1746440640" MODIFIED="1570873915318" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1570873903871" ID="ID_239414257" MODIFIED="1570873908125">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="cli_custom_help_text.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1570972577225" ID="ID_1155999772" MODIFIED="1570972587656" TEXT="Task-oriented commands are the most helpful">
+<node CREATED="1570972636945" ID="ID_1454338373" MODIFIED="1570972652844" TEXT="Command which does something"/>
+</node>
+<node CREATED="1570972659168" ID="ID_1099216288" MODIFIED="1570972668326" TEXT="Combine commands to make task easier">
+<node CREATED="1570972682911" ID="ID_554150182" MODIFIED="1570972690411" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1570972693359" ID="ID_1576038638" MODIFIED="1570972695709" TEXT="Travis CI"/>
+<node COLOR="#338800" CREATED="1570972696250" ID="ID_1909688913" MODIFIED="1570972716362" TEXT="travis encryp MY_SECRET_ENV=super_secret --add env"/>
+<node CREATED="1570972718343" ID="ID_190761575" MODIFIED="1570972724758" TEXT="What does it do?">
+<node CREATED="1570972725064" ID="ID_278399340" MODIFIED="1570972786847" TEXT="Download the publc key for your travis repository">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1570972738656" ID="ID_1519959527" MODIFIED="1570972788680" TEXT="Encrypt the env var with the public key using openssl">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1570972751304" ID="ID_1070682767" MODIFIED="1570972791040" TEXT="Insert an entry into .travis.ynl with the encrypted value">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1570972798792" ID="ID_1924839065" MODIFIED="1570972807812" TEXT="... all in a single command!"/>
+</node>
+</node>
+<node CREATED="1570972843542" ID="ID_217327290" MODIFIED="1570972847467" TEXT="Piping is good for automation">
+<node CREATED="1570972847670" ID="ID_1502959737" MODIFIED="1570972854052" TEXT="... but people don&apos;t want to pipe"/>
+</node>
+<node CREATED="1570972857096" ID="ID_811540593" MODIFIED="1570972864100" TEXT="Give people a single comand to perform a task">
+<node CREATED="1570972864320" ID="ID_1085386753" MODIFIED="1570972868514" TEXT="and they will thank you"/>
+</node>
+</node>
+<node CREATED="1570972878422" ID="ID_1997135542" MODIFIED="1570972914312" POSITION="right" TEXT="CLI people love - progress">
+<icon BUILTIN="full-3"/>
+<node CREATED="1570972888512" ID="ID_67050581" MODIFIED="1570972895212" TEXT="Easy to learn and remember"/>
+<node CREATED="1570972898839" ID="ID_1912968922" MODIFIED="1570972903490" TEXT="Solves day-to-day tasks"/>
+<node CREATED="1570972904391" ID="ID_1835459957" MODIFIED="1570972909788" TEXT="High quality?"/>
+</node>
+<node CREATED="1570972922127" ID="ID_1452364228" MODIFIED="1570972930799" POSITION="left" TEXT="High quality">
+<icon BUILTIN="full-4"/>
+<node CREATED="1570972949696" ID="ID_118521664" MODIFIED="1570972954804" TEXT="Needs">
+<node CREATED="1570972954982" ID="ID_95707635" MODIFIED="1570972957482" TEXT="Great user experience"/>
+<node CREATED="1570972957957" ID="ID_1498001379" MODIFIED="1570972967067" TEXT="Robust"/>
+<node CREATED="1570972967510" ID="ID_302688926" MODIFIED="1570972969115" TEXT="Maintenable"/>
+<node CREATED="1570972969590" ID="ID_1339102898" MODIFIED="1570972974315" TEXT="... everything like a backend system"/>
+</node>
+<node CREATED="1570973028388" ID="ID_1514899564" MODIFIED="1570973036370" TEXT="Use spf13/cobra">
+<node CREATED="1570973208261" ID="ID_1355580318" MODIFIED="1570973228268" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1570973197380" FOLDED="true" ID="ID_908452665" MODIFIED="1570973585298" TEXT="Common use">
+<icon BUILTIN="licq"/>
+<node CREATED="1570973200541" ID="ID_217776741" MODIFIED="1570973203860">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="cli_commom_example.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1570973245933" ID="ID_1961085371" MODIFIED="1570973253448" TEXT="Problems">
+<node CREATED="1570973253708" ID="ID_102922333" MODIFIED="1570973257416" TEXT="Don&apos;t use package main"/>
+<node CREATED="1570973261075" ID="ID_1331952352" MODIFIED="1570973266527" TEXT="Anonymous function">
+<node CREATED="1570973266690" ID="ID_480051805" MODIFIED="1570973268585" TEXT="Hard to test"/>
+<node CREATED="1570973269363" ID="ID_1140875777" MODIFIED="1570973275536" TEXT="Embedded inside Cobra"/>
+<node CREATED="1570973310586" ID="ID_1925912687" MODIFIED="1570973317568" TEXT="Command &quot;shrug&quot; hardcoded"/>
+</node>
+</node>
+</node>
+<node CREATED="1570973324684" FOLDED="true" ID="ID_129359089" MODIFIED="1570973581825" TEXT="What to do">
+<node CREATED="1570973339644" ID="ID_1237971338" MODIFIED="1570973351928" TEXT="Make functions that correspond 1:1 to the commands in your CLI"/>
+<node CREATED="1570973352403" ID="ID_1043733180" MODIFIED="1570973360670" TEXT="Create little packages for everything"/>
+<node CREATED="1570973367819" ID="ID_1321594931" MODIFIED="1570973371839" TEXT="Forget this is a CLI"/>
+</node>
+<node CREATED="1570973390937" FOLDED="true" ID="ID_1043256497" MODIFIED="1570973580826" TEXT="Result">
+<icon BUILTIN="licq"/>
+<node CREATED="1570973418946" ID="ID_571450621" MODIFIED="1570973423442">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="cli_better_example.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1570973625017" ID="ID_780788068" MODIFIED="1570973627294" TEXT="Configuration">
+<node CREATED="1570973627593" ID="ID_585290672" MODIFIED="1570973631022" TEXT="Use spf/viper"/>
+<node CREATED="1570973631465" ID="ID_1509557379" MODIFIED="1570973635877" TEXT="Support every common support">
+<node CREATED="1570973636097" ID="ID_1737830373" MODIFIED="1570973636805" TEXT="JSON"/>
+<node CREATED="1570973637200" ID="ID_1588155039" MODIFIED="1570973638117" TEXT="YAML"/>
+<node CREATED="1570973638576" ID="ID_1139056619" MODIFIED="1570973639197" TEXT="..."/>
+</node>
+</node>
+</node>
+</node>
+</map>

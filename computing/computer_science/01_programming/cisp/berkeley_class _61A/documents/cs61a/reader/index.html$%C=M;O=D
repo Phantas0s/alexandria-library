@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /~cs61a/reader</title>
+ </head>
+ <body>
+<h1>Index of /~cs61a/reader</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/~cs61a/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="vol2.html">vol2.html</a></td><td align="right">2010-10-31 15:35  </td><td align="right">4.3K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="vol1.html">vol1.html</a></td><td align="right">2009-02-21 07:43  </td><td align="right">2.5K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="obj.scm">obj.scm</a></td><td align="right">2009-01-21 13:08  </td><td align="right">9.2K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="logo-meta.scm">logo-meta.scm</a></td><td align="right">2009-01-21 13:07  </td><td align="right"> 11K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="logo.scm">logo.scm</a></td><td align="right">2009-01-21 13:07  </td><td align="right">5.4K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="nodate-logo.txt">nodate-logo.txt</a></td><td align="right">2009-01-21 13:07  </td><td align="right"> 42K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="tables.scm">tables.scm</a></td><td align="right">2009-01-21 12:59  </td><td align="right">441 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="small-world.scm">small-world.scm</a></td><td align="right">2009-01-21 12:59  </td><td align="right">1.1K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="labyrinth.scm">labyrinth.scm</a></td><td align="right">2009-01-21 12:59  </td><td align="right">2.8K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="adv-world.scm">adv-world.scm</a></td><td align="right">2009-01-21 12:59  </td><td align="right">2.9K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="adv.scm">adv.scm</a></td><td align="right">2009-01-21 12:59  </td><td align="right">6.7K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="nodate-adv.txt">nodate-adv.txt</a></td><td align="right">2009-01-21 12:59  </td><td align="right"> 32K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="twenty-one.scm">twenty-one.scm</a></td><td align="right">2009-01-21 12:56  </td><td align="right">1.6K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="nodate-21.pdf">nodate-21.pdf</a></td><td align="right">2009-01-21 12:56  </td><td align="right"> 37K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="nodate-labs.pdf">nodate-labs.pdf</a></td><td align="right">2009-01-21 12:52  </td><td align="right">115K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="nodate-hw.pdf">nodate-hw.pdf</a></td><td align="right">2009-01-21 12:52  </td><td align="right">132K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="notes.pdf">notes.pdf</a></td><td align="right">2009-01-21 09:41  </td><td align="right">1.3M</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="sicp-errata.txt">sicp-errata.txt</a></td><td align="right">2009-01-21 09:40  </td><td align="right">1.4K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="word.txt">word.txt</a></td><td align="right">2009-01-21 09:39  </td><td align="right">2.6K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="Therac-25.pdf">Therac-25.pdf</a></td><td align="right">2009-01-21 09:38  </td><td align="right">4.6M</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="r5rs.pdf">r5rs.pdf</a></td><td align="right">2009-01-21 09:38  </td><td align="right">483K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="mapreduce-osdi04.pdf">mapreduce-osdi04.pdf</a></td><td align="right">2009-01-21 09:38  </td><td align="right">186K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="exit.pdf">exit.pdf</a></td><td align="right">2009-01-21 09:38  </td><td align="right"> 27K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="mt3-3.soln.txt">mt3-3.soln.txt</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 16K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="mt3-2.soln.txt">mt3-2.soln.txt</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 16K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="mt3-1.soln.txt">mt3-1.soln.txt</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 18K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="mt2-3.soln.txt">mt2-3.soln.txt</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 13K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="mt2-2.soln.txt">mt2-2.soln.txt</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 21K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="mt2-1.soln.txt">mt2-1.soln.txt</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 16K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="mt1-3.soln.txt">mt1-3.soln.txt</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 17K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="mt1-2.soln.txt">mt1-2.soln.txt</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 16K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="mt1-1.soln.txt">mt1-1.soln.txt</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 13K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="f-3.soln.txt">f-3.soln.txt</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 41K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="f-2.soln.txt">f-2.soln.txt</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 20K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="f-1.soln.txt">f-1.soln.txt</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 29K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="mt3-3.pdf">mt3-3.pdf</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 37K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="mt3-2.pdf">mt3-2.pdf</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 32K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="mt3-1.pdf">mt3-1.pdf</a></td><td align="right">2009-01-21 09:35  </td><td align="right">139K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="mt2-3.pdf">mt2-3.pdf</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 37K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="mt2-2.pdf">mt2-2.pdf</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 95K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="mt2-1.pdf">mt2-1.pdf</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 33K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="mt1-3.pdf">mt1-3.pdf</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 52K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="mt1-2.pdf">mt1-2.pdf</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 35K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="mt1-1.pdf">mt1-1.pdf</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 43K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="f-3.pdf">f-3.pdf</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 53K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="f-2.pdf">f-2.pdf</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 35K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="f-1.pdf">f-1.pdf</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 63K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="cover.pdf">cover.pdf</a></td><td align="right">2009-01-21 09:35  </td><td align="right"> 12K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="quick.pdf">quick.pdf</a></td><td align="right">2009-01-21 09:05  </td><td align="right"> 68K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="gnuemacs.pdf">gnuemacs.pdf</a></td><td align="right">2009-01-21 09:05  </td><td align="right">167K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="ref-man.pdf">ref-man.pdf</a></td><td align="right">2009-01-21 09:04  </td><td align="right"> 62K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="belowline.pdf">belowline.pdf</a></td><td align="right">2009-01-21 09:04  </td><td align="right"> 72K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="aboveline.pdf">aboveline.pdf</a></td><td align="right">2009-01-21 09:04  </td><td align="right"> 90K</td><td>&nbsp;</td></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+<address>Apache/2.4.7 (Ubuntu) Server at www-inst.eecs.berkeley.edu Port 80</address>
+</body></html>

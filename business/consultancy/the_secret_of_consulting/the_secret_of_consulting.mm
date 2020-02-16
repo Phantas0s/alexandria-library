@@ -1,0 +1,2125 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1550384512443" ID="ID_941154032" MODIFIED="1570255445709" TEXT="The secret of consulting">
+<node CREATED="1550384530073" ID="ID_1492750908" MODIFIED="1558269243774" POSITION="left" TEXT="Preface">
+<node CREATED="1550384597591" FOLDED="true" ID="ID_1980186605" MODIFIED="1558269262425" TEXT="Consultant">
+<node CREATED="1550384604882" ID="ID_1060628180" MODIFIED="1550384610923" TEXT="Anybody who gives advises"/>
+<node CREATED="1550384611461" ID="ID_825298396" MODIFIED="1550384617733" TEXT="&quot;Art of influencing people"/>
+<node CREATED="1550384618152" ID="ID_1804809133" MODIFIED="1550384622373" TEXT="... at their request&quot;"/>
+<node CREATED="1550384642134" ID="ID_241512301" MODIFIED="1550384655596" TEXT="Doesn&apos;t influence by authority">
+<node CREATED="1550384658405" ID="ID_1878994867" MODIFIED="1550384664112" TEXT="Boss"/>
+</node>
+</node>
+</node>
+<node CREATED="1550384667421" FOLDED="true" ID="ID_393339137" MODIFIED="1558634718188" POSITION="left" TEXT="Why consulting is so tough?">
+<icon BUILTIN="full-1"/>
+<node CREATED="1550384690879" FOLDED="true" ID="ID_85106986" MODIFIED="1558269683843" TEXT="Sherbies Law of consulting">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1550384707469" FOLDED="true" ID="ID_1138080047" MODIFIED="1558269269461" TEXT="Antagonist">
+<node CREATED="1550384711489" ID="ID_130817712" MODIFIED="1550384713031" TEXT="Management"/>
+<node CREATED="1550384713749" ID="ID_1417091551" MODIFIED="1550384715601" TEXT="Consultants"/>
+<node CREATED="1550384721372" ID="ID_1246754036" MODIFIED="1550384725044" TEXT="Never speak to them">
+<node CREATED="1550384725232" ID="ID_351972049" MODIFIED="1550384731544" TEXT="... at the same time!"/>
+</node>
+</node>
+<node CREATED="1550384741716" ID="ID_1390054050" MODIFIED="1558269537796" TEXT="There is always a problem">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1550384835219" ID="ID_1946297942" MODIFIED="1550384842151" TEXT="For managment">
+<node CREATED="1550384842359" ID="ID_1407570548" MODIFIED="1550384846611" TEXT="No problems"/>
+<node CREATED="1550384865142" ID="ID_925431859" MODIFIED="1558269281371" TEXT="Culture reasons">
+<node CREATED="1550384870272" ID="ID_396447761" MODIFIED="1550384877274" TEXT="For management, nothing is worst"/>
+<node CREATED="1550384877712" ID="ID_1758213562" MODIFIED="1550384885895" TEXT="... than to admitting problems"/>
+<node CREATED="1550384886493" ID="ID_786024094" MODIFIED="1550384889367" TEXT="... they can&apos;t solve!"/>
+<node CREATED="1550384903738" ID="ID_678999047" MODIFIED="1550384906740" TEXT="If you need help">
+<node CREATED="1550384906978" ID="ID_1254354175" MODIFIED="1550384911750" TEXT="you won&apos;t say publicly"/>
+</node>
+</node>
+</node>
+<node CREATED="1550384923051" ID="ID_756096797" MODIFIED="1550384928163" TEXT="The ten percent promises">
+<node CREATED="1550384944137" ID="ID_1299616033" MODIFIED="1550384947569" TEXT="How to cure problems">
+<node CREATED="1550384947767" ID="ID_416285546" MODIFIED="1550384949989" TEXT="if there is any?"/>
+</node>
+<node CREATED="1550384958580" ID="ID_1043259687" MODIFIED="1550384960152" TEXT="Solution">
+<node CREATED="1550384960340" ID="ID_288183530" MODIFIED="1550384962672" TEXT="Admit it"/>
+<node CREATED="1550384963100" ID="ID_72668401" MODIFIED="1550384969962" TEXT="... but ask for improvements">
+<node CREATED="1550384978103" ID="ID_1163052327" MODIFIED="1550384981415" TEXT="Not too many!"/>
+<node CREATED="1550384981883" ID="ID_1868949520" MODIFIED="1550385017608" TEXT="Otherwise, admitting a problem!"/>
+<node CREATED="1550385003866" ID="ID_1165196118" MODIFIED="1550385015848" TEXT="Never promise more than 10% improvement">
+<node CREATED="1550385027339" ID="ID_1352416000" MODIFIED="1550385034471" TEXT="If more, make sure it&apos;s not noticed"/>
+</node>
+<node CREATED="1550385040692" ID="ID_1291526486" MODIFIED="1550385047914" TEXT="Help client take the credit"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1550384758629" ID="ID_806912000" MODIFIED="1558269327445" TEXT="It&apos;s always a people problem">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+<node CREATED="1550385070468" ID="ID_404961917" MODIFIED="1550385072910" TEXT="Client speak about">
+<node CREATED="1550385073088" ID="ID_890898208" MODIFIED="1550385076670" TEXT="&quot;Technical problems&quot;">
+<node CREATED="1550385079609" ID="ID_52353724" MODIFIED="1550385084783" TEXT="Avoid to call it problem"/>
+<node CREATED="1550385089591" ID="ID_1305503350" MODIFIED="1550385104083" TEXT="Technical">
+<node CREATED="1550385094331" ID="ID_549314442" MODIFIED="1550385102613" TEXT="Not manager responsibility"/>
+<node CREATED="1550385106101" ID="ID_1143427313" MODIFIED="1550385114403" TEXT="... so not fault of management"/>
+</node>
+<node CREATED="1550385128224" ID="ID_514916331" MODIFIED="1550385148259" TEXT="But problem always track back">
+<node CREATED="1550385136874" ID="ID_190062188" MODIFIED="1550385140126" TEXT="to management">
+<node CREATED="1550385140364" ID="ID_1901659521" MODIFIED="1550385141456" TEXT="action"/>
+<node CREATED="1550385141934" ID="ID_1998515188" MODIFIED="1550385143326" TEXT="inaction"/>
+</node>
+</node>
+<node CREATED="1550385172011" ID="ID_1368758610" MODIFIED="1550385177823" TEXT="Resist to say that management responsible">
+<node CREATED="1550385178031" ID="ID_1080754635" MODIFIED="1550385194238" TEXT="for hiring technical people"/>
+<node CREATED="1550385194636" ID="ID_1357803156" MODIFIED="1550385210948" TEXT="for being responsible of technical people development"/>
+</node>
+</node>
+</node>
+<node CREATED="1550385231509" ID="ID_1778222038" MODIFIED="1550385423968" TEXT="Marvin&apos;s Law">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#ff0033" CREATED="1550385240959" ID="ID_520313884" MODIFIED="1551518887859" TEXT="&quot;whatever the client is doing, advise something else&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1550385253739" ID="ID_1930337384" MODIFIED="1550385258221" TEXT="Client too close of its problem"/>
+<node CREATED="1550385420346" MODIFIED="1550385420346" TEXT="it&apos;s always a people problem"/>
+</node>
+</node>
+</node>
+<node CREATED="1550384779902" ID="ID_1140714860" MODIFIED="1558269588871" TEXT="You&apos;re paid by hour, not by solution">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-3"/>
+<node CREATED="1550385276335" ID="ID_883414858" MODIFIED="1550385285607" TEXT="It&apos;s not about milking client"/>
+<node CREATED="1550385338268" ID="ID_1113731347" MODIFIED="1550385342200" TEXT="To be paid by problem">
+<node CREATED="1550385342368" ID="ID_981616363" MODIFIED="1550385347430" TEXT="client would admit there is one..."/>
+</node>
+</node>
+<node CREATED="1550385396312" ID="ID_1892106928" MODIFIED="1558269596499" TEXT="The Credit Rule">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#ff0000" CREATED="1550385399584" ID="ID_996917961" MODIFIED="1550385666532" TEXT="&quot;You&apos;ll never accomplish anything if you care who gets the credit&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1550385471815" ID="ID_1745416394" MODIFIED="1550385502450" TEXT="For consultant to take credit of your solution">
+<node CREATED="1550385483475" ID="ID_1641115220" MODIFIED="1550385509460" TEXT="Management would admit there is a problem..."/>
+</node>
+<node CREATED="1550385520254" ID="ID_447132482" MODIFIED="1550385527534" TEXT="The lone ranger fantaisy">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1550385530375" ID="ID_1041962024" MODIFIED="1550385538249" TEXT="When client don&apos;t show appreciation">
+<node CREATED="1550385538457" ID="ID_215412797" MODIFIED="1550385546079" TEXT="Just pretend they are stunned by your perfs"/>
+<node CREATED="1550385548207" ID="ID_108889939" MODIFIED="1550385555399" TEXT="...But never forget">
+<node CREATED="1550385551777" ID="ID_1162502220" MODIFIED="1550385564869" TEXT="It&apos;s your fantasy"/>
+<node CREATED="1550385565207" ID="ID_1823973607" MODIFIED="1550385567819" TEXT="Not their..."/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#ff0033" CREATED="1550385585731" ID="ID_585465938" MODIFIED="1558269654125" TEXT="&quot;If they didn&apos;t hire you, don&apos;t solve their problem&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1550385597591" ID="ID_1054476259" MODIFIED="1550385605513" TEXT="Management / consultant">
+<node CREATED="1550385605681" ID="ID_437515796" MODIFIED="1550385609116" TEXT="Both problem solvers"/>
+<node CREATED="1550385609524" ID="ID_1395390436" MODIFIED="1550385614816" TEXT="Admitting one solve problem">
+<node CREATED="1550385615014" ID="ID_473339356" MODIFIED="1550385623016" TEXT="means the other one is less good"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1550385707814" FOLDED="true" ID="ID_126269270" MODIFIED="1558269774636" TEXT="The Law of Raspberry Jam">
+<node COLOR="#ff0000" CREATED="1550385724977" ID="ID_1510427719" MODIFIED="1551518876831" TEXT="&quot;The wider you spread it, the thinner it gets&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#ff0000" CREATED="1550385759250" ID="ID_232474305" MODIFIED="1551518876831" TEXT="&quot;Influence of affluence: take your choice&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1550385848906" ID="ID_1577261668" MODIFIED="1550385855128" TEXT="More people you reach">
+<node CREATED="1550385855306" ID="ID_52839742" MODIFIED="1550385858378" TEXT="less influence you have"/>
+</node>
+</node>
+<node CREATED="1550385864059" ID="ID_1321735569" MODIFIED="1558269791406" TEXT="Weinberg law of twins">
+<node CREATED="1550385871889" ID="ID_787143967" MODIFIED="1550385877071" TEXT="99% of human behaviors"/>
+<node CREATED="1550385888212" ID="ID_560306187" MODIFIED="1550385991317" TEXT="&quot;Most of the time, for most of the world, no matter how hard people work at it&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1550385905682" ID="ID_1192191904" MODIFIED="1550385992147" TEXT="&quot;... nothing of any significance happens&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1550385918836" ID="ID_346667268" MODIFIED="1550385923667" TEXT="Behavior of any system">
+<node CREATED="1550385923885" ID="ID_1495349116" MODIFIED="1550385937080" TEXT="In the next instant..."/>
+<node CREATED="1550385937758" ID="ID_522617068" MODIFIED="1550385943251" TEXT="... state identical at the current one"/>
+</node>
+</node>
+<node CREATED="1550385947972" FOLDED="true" ID="ID_751907990" MODIFIED="1558270072425" TEXT="Rudy Rutabaga Rule">
+<node COLOR="#ff0000" CREATED="1550385953012" ID="ID_1797790677" MODIFIED="1551518858150" TEXT="&quot;Once you&apos;re eliminated your number one problem, number two get a promotion&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1550385972723" ID="ID_1720360391" MODIFIED="1550385977555" TEXT="You can&apos;t solve everything"/>
+</node>
+<node CREATED="1550386006811" ID="ID_1378658785" MODIFIED="1558270073080" TEXT="The Hard Law">
+<node COLOR="#ff0000" CREATED="1550386012913" ID="ID_207532326" MODIFIED="1551518945533" TEXT="&quot;If you can&apos;t accept failure, you&apos;ll never succeed at a consultant&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#ff0000" CREATED="1551518956936" ID="ID_21914163" MODIFIED="1551518991413" TEXT="&quot;Some people succeed as consultant, so it must be possible to deal with failures&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1551519000772" ID="ID_1726930994" MODIFIED="1558270187693" TEXT="The Harder Law">
+<node COLOR="#ff0000" CREATED="1551519009187" ID="ID_1977323360" MODIFIED="1551519039664" TEXT="&quot;Once you eliminate your number one problem, YOU promote number two&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1551519047867" ID="ID_1302945370" MODIFIED="1551519052861" TEXT="A consultant must">
+<node CREATED="1551519053101" ID="ID_960552495" MODIFIED="1551519057268" TEXT="Detest problems"/>
+<node CREATED="1551519057773" ID="ID_69859813" MODIFIED="1551519067978" TEXT="be able to live with problems"/>
+<node CREATED="1551519075479" ID="ID_274661950" MODIFIED="1551519100847" TEXT="try to solve problems"/>
+<node CREATED="1551519101321" ID="ID_1241394600" MODIFIED="1551519120636" TEXT="not hope to solve all problems"/>
+</node>
+<node CREATED="1551519128184" ID="ID_80598273" MODIFIED="1551519132726" TEXT="Good life">
+<node CREATED="1551519132966" ID="ID_317205284" MODIFIED="1551519140924" TEXT="People who can solve problems"/>
+</node>
+<node CREATED="1551519141928" ID="ID_360367377" MODIFIED="1551519148092" TEXT="Better life">
+<node CREATED="1551519148316" ID="ID_1984541800" MODIFIED="1551519152592" TEXT="People who can ignore problems"/>
+</node>
+</node>
+<node CREATED="1551519160585" ID="ID_875273223" MODIFIED="1558270252043" TEXT="The Hardest law">
+<node COLOR="#ff0000" CREATED="1551519185585" ID="ID_571476669" MODIFIED="1551519200836" TEXT="&quot;Helping myself is even harder than helping others&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1551519205092" ID="ID_1991917819" MODIFIED="1551519218120" TEXT="To tackle other&apos;s problems">
+<node CREATED="1551519218267" ID="ID_424779945" MODIFIED="1551519222465" TEXT="First tackle yours"/>
+</node>
+</node>
+</node>
+<node CREATED="1551519264107" FOLDED="true" ID="ID_1329487315" MODIFIED="1570255762397" POSITION="left" TEXT="Cultivating a paradoxical frame of mind">
+<icon BUILTIN="full-2"/>
+<node CREATED="1551519301142" FOLDED="true" ID="ID_48647024" MODIFIED="1570255728020" TEXT="Many laws in consulting are">
+<node CREATED="1551519306376" ID="ID_1616206526" MODIFIED="1551519309482" TEXT="Paradoxes"/>
+<node CREATED="1551519310346" ID="ID_1051231955" MODIFIED="1551519313265" TEXT="Dilemmas"/>
+<node CREATED="1551519314550" ID="ID_1382630731" MODIFIED="1551519320386" TEXT="Contradictions"/>
+<node CREATED="1551519324511" ID="ID_1513465194" MODIFIED="1551519331033" TEXT="... pretty funny!"/>
+</node>
+<node CREATED="1551519339331" FOLDED="true" ID="ID_1802139568" MODIFIED="1570255722723" TEXT="When people needs consultant">
+<node CREATED="1551519344362" ID="ID_619407539" MODIFIED="1551519349730" TEXT="Logic is not working"/>
+<node CREATED="1551519352403" ID="ID_256637169" MODIFIED="1551519355806" TEXT="They are stuck"/>
+</node>
+<node CREATED="1551519359907" FOLDED="true" ID="ID_1787927901" MODIFIED="1570255744110" TEXT="Why paradox?">
+<node CREATED="1551519365757" ID="ID_1397137355" MODIFIED="1551519371982" TEXT="&quot;Don&apos;t be rational, be reasonable&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1551519379719" ID="ID_1085039399" MODIFIED="1551519382654" TEXT="Simple ideas"/>
+<node CREATED="1551519383315" ID="ID_1198344253" MODIFIED="1551519389557" TEXT="People often petrified by illogical">
+<node CREATED="1551519416949" ID="ID_1672629347" MODIFIED="1551519424298" TEXT="many consultant are angry..."/>
+<node CREATED="1551519425022" ID="ID_583011623" MODIFIED="1551519430390" TEXT="... when client is illogical"/>
+</node>
+<node CREATED="1551519398619" ID="ID_421552952" MODIFIED="1551519411600" TEXT="&quot;People who think they know everything are easiest to fool&quot;"/>
+<node CREATED="1551519438695" ID="ID_1721868936" MODIFIED="1551519442285" TEXT="In a paradoxal world">
+<node CREATED="1551519442494" ID="ID_1025746668" MODIFIED="1551519447940" TEXT="... everything stumble at one point"/>
+</node>
+<node CREATED="1551519457641" ID="ID_245869789" MODIFIED="1551519464031" TEXT="Helps to understand why BUT"/>
+<node CREATED="1551519464490" ID="ID_243098561" MODIFIED="1551519486753" TEXT="... &quot;The business of life is too important to be taken seriously&quot;"/>
+</node>
+<node CREATED="1551519491041" FOLDED="true" ID="ID_632012395" MODIFIED="1570255749757" TEXT="Optimitis and the trade-off treatment">
+<node CREATED="1551519531086" FOLDED="true" ID="ID_182867331" MODIFIED="1570255747779" TEXT="Consultant disease">
+<node CREATED="1551519536258" ID="ID_1515199707" MODIFIED="1551519544153" TEXT="Inability to resist to solve problems"/>
+</node>
+<node CREATED="1551519547365" FOLDED="true" ID="ID_1646230016" MODIFIED="1570255747780" TEXT="Optimitis">
+<node CREATED="1551519551163" ID="ID_1391891244" MODIFIED="1551519564160" TEXT="Inflammation of the optimisation nerve"/>
+<node CREATED="1551519572769" ID="ID_1193123433" MODIFIED="1551519578622" TEXT="Respond to request as">
+<node CREATED="1551519578846" ID="ID_1249532315" MODIFIED="1551519584495" TEXT="Give us the minimum cost solution"/>
+<node CREATED="1551519585858" ID="ID_211974016" MODIFIED="1551519592521" TEXT="Get it done in the shortest possible time"/>
+<node CREATED="1551519593837" ID="ID_1047485760" MODIFIED="1551519604182" TEXT="We must do it in best possible way"/>
+</node>
+<node CREATED="1551519616910" ID="ID_1512320523" MODIFIED="1551519624774" TEXT="... healthy individuals answer">
+<node COLOR="#ff0000" CREATED="1551519624967" ID="ID_56350556" MODIFIED="1551519643050" TEXT="&quot;What are you willing to sacrifice?&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1551519649709" ID="ID_528412763" MODIFIED="1551519665217" TEXT="... diseased individual answer">
+<node CREATED="1551519665738" ID="ID_1932975967" MODIFIED="1551519676832" TEXT="&quot;Yes boss, right away boss&quot;"/>
+</node>
+</node>
+<node CREATED="1551519810038" FOLDED="true" ID="ID_665281137" MODIFIED="1570255747780" TEXT="Solution of Optimis">
+<node CREATED="1551519796217" ID="ID_1219799219" MODIFIED="1551520107524" TEXT="Trade-off charts">
+<icon BUILTIN="licq"/>
+<node CREATED="1551520082820" ID="ID_1519820464" MODIFIED="1558270484203">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img src="secret_consulting_01.PNG" />
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1551520095432" ID="ID_593678573" MODIFIED="1551520104170" TEXT="Performance measure">
+<node CREATED="1551520109262" ID="ID_804996378" MODIFIED="1551520114209" TEXT="Has to be trade off"/>
+<node CREATED="1551520114776" ID="ID_606627909" MODIFIED="1551520120270" TEXT="... against some others"/>
+</node>
+<node COLOR="#333333" CREATED="1551520123980" ID="ID_1549019884" MODIFIED="1551520213432" TEXT="&quot;Yon don&apos;t get nothin for nothin&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1551520153933" ID="ID_1483551213" MODIFIED="1551520160393" TEXT="Trade-off treatment">
+<node CREATED="1551520160617" ID="ID_692473683" MODIFIED="1551520162616" TEXT="Do charts"/>
+<node CREATED="1551520163027" ID="ID_49454063" MODIFIED="1551520168193" TEXT="Explain the trade-off to your client"/>
+</node>
+<node CREATED="1551520178924" ID="ID_583681441" MODIFIED="1551520194915" TEXT="&quot;Moving in one direction incurs a cost in the other&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1551520225396" FOLDED="true" ID="ID_42407106" MODIFIED="1558634999562" TEXT="Time trade-offs">
+<node CREATED="1551520247626" ID="ID_1095806590" MODIFIED="1551520250046" TEXT="Now vs Later"/>
+<node CREATED="1551520265106" ID="ID_429005167" MODIFIED="1551520276278" TEXT="An angry person wants to argue in a meeting">
+<node CREATED="1551520276440" ID="ID_1823584411" MODIFIED="1551520295052" TEXT="Should you solve that now?">
+<node CREATED="1551520295245" ID="ID_1450816480" MODIFIED="1551520310301" TEXT="... and lose time during the meeting?"/>
+</node>
+<node CREATED="1551520313029" ID="ID_629839207" MODIFIED="1551520319443" TEXT="Should you solve that later?">
+<node CREATED="1551520325353" ID="ID_1896359592" MODIFIED="1551520331658" TEXT="and see if problem">
+<node CREATED="1551520331882" ID="ID_1205863760" MODIFIED="1551520334442" TEXT="Fade away"/>
+<node CREATED="1551520335150" ID="ID_1230068555" MODIFIED="1551520339520" TEXT="... or get even worst">
+<node CREATED="1551521473625" ID="ID_1512622586" MODIFIED="1551521482690" TEXT="need even more time to solve!"/>
+</node>
+</node>
+</node>
+<node CREATED="1551521490925" ID="ID_879177845" MODIFIED="1551521493033" TEXT="Take time now">
+<node CREATED="1551521493507" ID="ID_1171535617" MODIFIED="1551521513898" TEXT="to know how much time you need later">
+<node CREATED="1551521514076" ID="ID_1134548141" MODIFIED="1551521518648" TEXT="Make time trade-off explicit"/>
+<node CREATED="1551521523763" ID="ID_768490053" MODIFIED="1551521532220" TEXT="Make clear it is a problem of limited time">
+<node CREATED="1551521533552" ID="ID_1877800090" MODIFIED="1551521544201" TEXT="...no to be unrespectful"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1551521550775" FOLDED="true" ID="ID_923919964" MODIFIED="1570255722724" TEXT="Fisher&apos;s fundamental theorem">
+<node COLOR="#ff3300" CREATED="1551521564487" ID="ID_597044869" MODIFIED="1551521588888" TEXT="&quot;The better adapted you are, the less adaptable you tend to be&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1551521607918" ID="ID_841502506" MODIFIED="1551521610041" TEXT="Recruiting">
+<node CREATED="1551521610219" ID="ID_683678145" MODIFIED="1551521620470" TEXT="Older people?">
+<node CREATED="1551521620710" ID="ID_1847680830" MODIFIED="1551521623348" TEXT="Less adaptable"/>
+</node>
+<node CREATED="1551521624329" ID="ID_77505348" MODIFIED="1551521628964" TEXT="Younger people?">
+<node CREATED="1551521630623" ID="ID_859943497" MODIFIED="1551521633777" TEXT="Less adapted"/>
+<node CREATED="1551521634360" ID="ID_19643208" MODIFIED="1551521637934" TEXT="More adaptable"/>
+</node>
+</node>
+<node CREATED="1551521650100" ID="ID_1631029453" MODIFIED="1551521651865" TEXT="Training">
+<node CREATED="1551521652073" ID="ID_1425093164" MODIFIED="1551521655991" TEXT="Same drawbacks"/>
+<node CREATED="1551521656902" ID="ID_1861763314" MODIFIED="1551521667028" TEXT="Put on present OR future?"/>
+</node>
+</node>
+<node CREATED="1551521672088" FOLDED="true" ID="ID_724575900" MODIFIED="1570255760717" TEXT="Risk versus uncertainty">
+<node CREATED="1551521679436" FOLDED="true" ID="ID_1642899323" MODIFIED="1570255758564" TEXT="The third time charm">
+<node CREATED="1551521691035" FOLDED="true" ID="ID_1785503088" MODIFIED="1570255757539" TEXT="Employer">
+<node CREATED="1551521693492" ID="ID_749578774" MODIFIED="1551521705864" TEXT="Adapted to the present situation"/>
+<node CREATED="1551521725027" ID="ID_17528261" MODIFIED="1551521731066" TEXT="Fine if doing nothing risky"/>
+</node>
+<node CREATED="1551521737195" FOLDED="true" ID="ID_557230704" MODIFIED="1570255757539" TEXT="Consultant">
+<node CREATED="1551521739512" ID="ID_130191080" MODIFIED="1551521751947" TEXT="Need to be adapted to external organizations"/>
+<node CREATED="1551521787365" ID="ID_215314595" MODIFIED="1551521791922" TEXT="Loose contract when">
+<node CREATED="1551521792084" ID="ID_1096943801" MODIFIED="1551521795019" TEXT="Ideas don&apos;t work"/>
+<node CREATED="1551521795477" ID="ID_1452548316" MODIFIED="1551521799082" TEXT="Don&apos;t do anything"/>
+</node>
+<node CREATED="1551521803386" ID="ID_1046371981" MODIFIED="1551521807350" TEXT="Potentially more adaptable">
+<node CREATED="1551521809267" ID="ID_950440976" MODIFIED="1551521813731" TEXT="Valuable source of ideas"/>
+<node CREATED="1551521814548" ID="ID_1144195335" MODIFIED="1551521820306" TEXT="Not to be trusted"/>
+</node>
+<node CREATED="1551521846567" ID="ID_1603588296" MODIFIED="1551521849533" TEXT="Strategy">
+<node CREATED="1551521849866" ID="ID_1503162009" MODIFIED="1551521863019" TEXT="Little change which might pay later"/>
+<node CREATED="1551521865794" ID="ID_174290631" MODIFIED="1551521868963" TEXT="... but with less risks"/>
+<node CREATED="1551521875068" ID="ID_551534584" MODIFIED="1551521879142" TEXT="Build trust"/>
+<node CREATED="1551521879740" ID="ID_54185624" MODIFIED="1551521886482" TEXT="... but make consultant adapted!"/>
+</node>
+</node>
+<node CREATED="1551521889631" ID="ID_1242714743" MODIFIED="1551521908866" TEXT="&quot;Consultant tend to be more effective to the third problem you give them&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1551521914622" FOLDED="true" ID="ID_989645234" MODIFIED="1570255722724" TEXT="The orange juice test">
+<node CREATED="1551521955245" ID="ID_1173468766" MODIFIED="1551521964716" TEXT="You need to serve fresh orange juice to 100 people">
+<node CREATED="1551521965455" ID="ID_394035403" MODIFIED="1551521970418" TEXT="You can answer">
+<node CREATED="1551521970782" ID="ID_1825411163" MODIFIED="1551521975979" TEXT="No problem!"/>
+<node CREATED="1551521976422" ID="ID_1740570453" MODIFIED="1551521981260" TEXT="I can&apos;t do it!"/>
+<node CREATED="1551521992552" ID="ID_1543229504" MODIFIED="1551521994956" TEXT="... you fail!"/>
+<node CREATED="1551522018214" ID="ID_1761248549" MODIFIED="1551522021851" TEXT="Good answer">
+<node CREATED="1551522022059" ID="ID_1723109189" MODIFIED="1551522024121" TEXT="I can do it!"/>
+<node CREATED="1551522024704" ID="ID_733974119" MODIFIED="1551522029604" TEXT="That&apos;s a problem!"/>
+<node CREATED="1551522030140" ID="ID_681203686" MODIFIED="1551522039003" TEXT="... here&apos;s the price"/>
+<node CREATED="1551522051380" ID="ID_986089791" MODIFIED="1551522056920" TEXT="Client decide if it&apos;s worst or not"/>
+</node>
+</node>
+</node>
+<node CREATED="1551522071636" ID="ID_1664888944" MODIFIED="1551522077473" TEXT="Use the orange test everywhere">
+<node CREATED="1551522077666" ID="ID_685191218" MODIFIED="1551522079368" TEXT="Save hours"/>
+</node>
+</node>
+</node>
+<node CREATED="1551522101534" FOLDED="true" ID="ID_671113615" MODIFIED="1570255771781" POSITION="left" TEXT="Being effective when you don&apos;t know what you are doing">
+<icon BUILTIN="full-3"/>
+<node CREATED="1551522126314" ID="ID_378113534" MODIFIED="1551522131636" TEXT="The problem with specialist"/>
+<node CREATED="1551522132094" FOLDED="true" ID="ID_471349336" MODIFIED="1558635328126" TEXT="The elephant in the board room">
+<node CREATED="1551522151197" ID="ID_649937465" MODIFIED="1551522160449" TEXT="If there is an elephant in the board room"/>
+<node CREATED="1551522161142" ID="ID_1436665528" MODIFIED="1551522165527" TEXT="... what specialist to call?"/>
+</node>
+<node CREATED="1551522173013" FOLDED="true" ID="ID_1855779163" MODIFIED="1558635338046" TEXT="Out of your depth">
+<node CREATED="1551522183177" ID="ID_1352035892" MODIFIED="1551522191431" TEXT="Most of time consultant don&apos;t use specialities">
+<node CREATED="1551522192061" ID="ID_901266053" MODIFIED="1551522198818" TEXT="The problem is always different"/>
+<node CREATED="1551522201624" ID="ID_802721296" MODIFIED="1551522205931" TEXT="They have tricks"/>
+<node CREATED="1551522206577" ID="ID_1167622923" MODIFIED="1551522211337" TEXT="... for every situations!"/>
+</node>
+</node>
+<node CREATED="1551522216779" FOLDED="true" ID="ID_1444604999" MODIFIED="1558636071681" TEXT="Marvin&apos;s medical secret">
+<node CREATED="1551522260522" ID="ID_765603230" MODIFIED="1551522284766" TEXT="&quot;Ninety % of illness cure themselves with absolutely no intervention from the doctor&quot;"/>
+<node CREATED="1551522351259" ID="ID_1616955756" MODIFIED="1551522356940" TEXT="Only avoid harming the patient"/>
+<node CREATED="1551522360502" ID="ID_1430133342" MODIFIED="1558635360396" TEXT="Doctor needs to convince patient">
+<node CREATED="1551522369246" ID="ID_656714013" MODIFIED="1551522373070" TEXT="that something needs to be done"/>
+</node>
+<node CREATED="1551522377342" ID="ID_1137962042" MODIFIED="1551522381978" TEXT="Reasons">
+<node CREATED="1551522378770" ID="ID_918381439" MODIFIED="1551522386603" TEXT="Wisdom of body"/>
+<node CREATED="1551522388418" ID="ID_1139885596" MODIFIED="1551522417499" TEXT="Result of generation of destructive testing carried through"/>
+<node CREATED="1551522418534" ID="ID_312648623" MODIFIED="1551522424433" TEXT="... thousands of individuals"/>
+</node>
+</node>
+<node CREATED="1551522429345" FOLDED="true" ID="ID_1094698916" MODIFIED="1558636067383" TEXT="The first great secret">
+<node CREATED="1551522435125" ID="ID_173746836" MODIFIED="1551522439526" TEXT="Apply to consultant?"/>
+<node CREATED="1551522446388" ID="ID_274576478" MODIFIED="1551522459151" TEXT="If system cure itself for generation..."/>
+<node CREATED="1551522459625" ID="ID_215688779" MODIFIED="1551522464993" TEXT="... don&apos;t hurt the system"/>
+<node CREATED="1551522465607" ID="ID_127953329" MODIFIED="1551522468168" TEXT="... and that&apos;s all!"/>
+<node CREATED="1551522512680" ID="ID_128353428" MODIFIED="1551522514820" TEXT="Example">
+<node CREATED="1551522515013" ID="ID_1275078336" MODIFIED="1551522517292" TEXT="Computer problem">
+<node CREATED="1551522517454" ID="ID_798152017" MODIFIED="1551522523899" TEXT="Computer = no wisdom"/>
+<node CREATED="1551522524388" ID="ID_1171914399" MODIFIED="1551522530178" TEXT="But &quot;always a people problem&quot;">
+<node CREATED="1551522530418" ID="ID_59527403" MODIFIED="1551522535459" TEXT="People behind the computer"/>
+</node>
+</node>
+<node COLOR="#ff3300" CREATED="1551522541338" ID="ID_526382905" MODIFIED="1551522710148" TEXT="&quot;It it ain&apos;t broken, don&apos;t fix it&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1551522558279" FOLDED="true" ID="ID_528172531" MODIFIED="1558636068176" TEXT="The second great secret">
+<node COLOR="#ff3300" CREATED="1551522580634" ID="ID_1508433546" MODIFIED="1551522704953" TEXT="&quot;Repeatedly curring a system that can cure itself eventually create systems that can&apos;t&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1551522685849" ID="ID_728529424" MODIFIED="1551522694368" TEXT="Parallel with penicillin"/>
+</node>
+<node CREATED="1552735955160" FOLDED="true" ID="ID_76463151" MODIFIED="1558636068656" TEXT="The third great secret">
+<node COLOR="#ff3333" CREATED="1552735970966" ID="ID_55449025" MODIFIED="1552736041914" TEXT="&quot;Every prescription has two parts: the medicine and the  method of enduring correct use&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1552736024181" ID="ID_1151748009" MODIFIED="1552736029346" TEXT="Do a follow up of your suggestions"/>
+</node>
+</node>
+<node CREATED="1551522698344" FOLDED="true" ID="ID_1277170640" MODIFIED="1558636069041" TEXT="The fourth great secret">
+<node COLOR="#ff3300" CREATED="1551522729014" ID="ID_3415032" MODIFIED="1551522761082" TEXT="&quot;If what they have been doing hasn&apos;t solved the problem, tell them to do something else&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1551522750370" FOLDED="true" ID="ID_1643107762" MODIFIED="1558636069496" TEXT="The fifth great secret">
+<node COLOR="#ff3300" CREATED="1551522767148" ID="ID_1428292820" MODIFIED="1551522804208" TEXT="&quot;Make sure they pay you enough so they will do what you say&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1551522780081" ID="ID_1981904434" MODIFIED="1551522797685" TEXT="&quot;The most important act of consulting is setting the right fee&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1551522816780" FOLDED="true" ID="ID_411837998" MODIFIED="1558636070071" TEXT="The sixth great secret">
+<node COLOR="#ff3300" CREATED="1551522824275" ID="ID_1919987425" MODIFIED="1551522845338" TEXT="&quot;Know-how pay much less than know-when&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1551522856653" FOLDED="true" ID="ID_921102566" MODIFIED="1558636073071" TEXT="Featuring failure">
+<node COLOR="#ff3300" CREATED="1551522862074" ID="ID_1171745429" MODIFIED="1551522875017" TEXT="&quot;If you can&apos;t fix it, feature it&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1551522879866" FOLDED="true" ID="ID_1911442594" MODIFIED="1558636075056" TEXT="The Bolden Rule of consulting">
+<node CREATED="1551522887144" ID="ID_387028088" MODIFIED="1551522890328" TEXT="Example">
+<node CREATED="1551522952540" ID="ID_398098482" MODIFIED="1551522955193" TEXT="Problem">
+<node CREATED="1551522890521" ID="ID_1356807551" MODIFIED="1551522894969" TEXT="Test runs too slow"/>
+<node CREATED="1551522895568" ID="ID_273086359" MODIFIED="1551522925693" TEXT="Programmers pushing to prod with errors"/>
+<node CREATED="1551522914654" ID="ID_546298703" MODIFIED="1551522921957" TEXT="Impossible to get fastest tests"/>
+</node>
+<node CREATED="1551522947212" ID="ID_229784468" MODIFIED="1551522950256" TEXT="Solution">
+<node CREATED="1551522930808" ID="ID_1858999989" MODIFIED="1551522973796" TEXT="Proclaiming that problem">
+<node CREATED="1551522942407" ID="ID_249196488" MODIFIED="1551522945950" TEXT="is number of errors!"/>
+</node>
+<node CREATED="1551522966673" ID="ID_1664316654" MODIFIED="1551522986128" TEXT="Teach programmer how to find and fix error">
+<node CREATED="1551522986336" ID="ID_179337613" MODIFIED="1551522988725" TEXT="more effectively"/>
+<node CREATED="1551522992779" ID="ID_840399939" MODIFIED="1551522997680" TEXT="... while tests are running"/>
+<node CREATED="1551523004464" ID="ID_1687177111" MODIFIED="1551523006946" TEXT="&quot;Think time&quot;"/>
+</node>
+<node CREATED="1551523011952" ID="ID_987934549" MODIFIED="1551523018911" TEXT="With fewer errors to find"/>
+<node CREATED="1551523019588" ID="ID_1577670940" MODIFIED="1551523025580" TEXT="Fewer tests run"/>
+</node>
+</node>
+<node CREATED="1551523032224" ID="ID_1877125691" MODIFIED="1551523036485" TEXT="Consultant should not look">
+<node CREATED="1551523036662" ID="ID_952355655" MODIFIED="1551523038287" TEXT="Too smart"/>
+<node CREATED="1551523038745" ID="ID_1230099582" MODIFIED="1551523040884" TEXT="Too dumb"/>
+<node CREATED="1551523043074" ID="ID_1745996795" MODIFIED="1551523047522" TEXT="It&apos;s a service to a client!"/>
+</node>
+</node>
+<node CREATED="1551523054711" FOLDED="true" ID="ID_556563344" MODIFIED="1558636076041" TEXT="Featuring your own failures">
+<node CREATED="1552736069403" ID="ID_845439805" MODIFIED="1552736077353" TEXT="Sometimes it&apos;s better to admin you failed">
+<node CREATED="1552736081061" ID="ID_513251617" MODIFIED="1552736093713" TEXT="With Bolden Rule, people think you are perfect"/>
+<node CREATED="1552736094236" ID="ID_1657102899" MODIFIED="1552736103293" TEXT=".. not bad if you don&apos;t think that">
+<node CREATED="1552736103294" ID="ID_1834736803" MODIFIED="1552736106321" TEXT="about yourself!"/>
+</node>
+</node>
+</node>
+<node CREATED="1552736110947" FOLDED="true" ID="ID_937303507" MODIFIED="1558636086771" TEXT="Faking success">
+<node CREATED="1552736126621" ID="ID_922378521" MODIFIED="1552736141295" TEXT="Used care salesman uses">
+<node CREATED="1552736142948" ID="ID_1217503624" MODIFIED="1552736148623" TEXT="&quot;experienced&quot;"/>
+<node CREATED="1552736149258" ID="ID_1448880457" MODIFIED="1552736168616" TEXT="&quot;previously owned&quot;"/>
+<node CREATED="1552736169139" ID="ID_441898250" MODIFIED="1552736174616" TEXT="Abuse of the Bolden Rule!"/>
+</node>
+</node>
+<node CREATED="1552736178915" FOLDED="true" ID="ID_598108021" MODIFIED="1558636088681" TEXT="Newspeak">
+<node CREATED="1552736185979" ID="ID_678718093" MODIFIED="1552736189753" TEXT="Politician lying">
+<node CREATED="1552736190076" ID="ID_118405705" MODIFIED="1552736194943" TEXT="is different than the Bolden Rule"/>
+</node>
+</node>
+<node CREATED="1552736215844" ID="ID_203671428" MODIFIED="1558636089371" TEXT="The Gilded Rule">
+<node CREATED="1552736228979" ID="ID_1449439090" MODIFIED="1552736247352" TEXT="&quot;If you can&apos;t feature it, fake it&quot;"/>
+<node CREATED="1552736248075" ID="ID_1613194867" MODIFIED="1552736249462" TEXT="Problem">
+<node CREATED="1552736249730" ID="ID_1802538436" MODIFIED="1552736254582" TEXT="When fakery works"/>
+<node CREATED="1552736255090" ID="ID_580507158" MODIFIED="1552736272950" TEXT="... we forget and stop learning real fixery"/>
+</node>
+</node>
+<node CREATED="1552736274163" ID="ID_1672791387" MODIFIED="1558636098891" TEXT="The Inversed Gilded Rule">
+<node CREATED="1552736287546" ID="ID_784329445" MODIFIED="1552736294278" TEXT="Abraham Lincoln">
+<node CREATED="1552736294499" ID="ID_205756459" MODIFIED="1552736309479" TEXT="&quot;If you call a tail a leg, how many legs has a dog?&quot;"/>
+<node CREATED="1552736310235" ID="ID_437933603" MODIFIED="1552736314192" TEXT="&quot;Five?&quot;"/>
+<node CREATED="1552736314722" ID="ID_480582246" MODIFIED="1552736328654" TEXT="&quot;No, four. Calling it a leg doesn&apos;t make it a leg&quot;"/>
+</node>
+<node CREATED="1552736337538" ID="ID_383389123" MODIFIED="1552736339415" TEXT="Computing">
+<node CREATED="1552736339626" ID="ID_225505556" MODIFIED="1552736343470" TEXT="Mistakes called &quot;bugs&quot;">
+<node CREATED="1552736345218" ID="ID_765327305" MODIFIED="1552736357198" TEXT="No responsibility"/>
+</node>
+</node>
+<node CREATED="1552736363273" ID="ID_1856318307" MODIFIED="1552736383618" TEXT="&quot;If something is faked, it must be fixed&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1552736385994" ID="ID_386775406" MODIFIED="1552736390246" TEXT="Call things by their real name!"/>
+</node>
+<node CREATED="1552736400192" ID="ID_1351134916" MODIFIED="1552736410469" TEXT="The Gilded Consultant"/>
+</node>
+<node CREATED="1552736418370" FOLDED="true" ID="ID_1388207061" MODIFIED="1570255653068" POSITION="left" TEXT="Seeing what&apos;s there">
+<icon BUILTIN="full-4"/>
+<node CREATED="1552736443241" FOLDED="true" ID="ID_1475909488" MODIFIED="1570255512932" TEXT="The Law of the Hammer">
+<node COLOR="#ff3333" CREATED="1552736456928" ID="ID_1494221209" MODIFIED="1552737000148" TEXT="&quot;The child that receives a hammer for Christmas will discover that everything needs pounding&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1552736524136" ID="ID_1971131001" MODIFIED="1552736530366" TEXT="Specialist who has only one tool">
+<node CREATED="1552736530584" ID="ID_141267762" MODIFIED="1552736533414" TEXT="will hammer a screen"/>
+</node>
+</node>
+<node CREATED="1552736537385" FOLDED="true" ID="ID_53984347" MODIFIED="1559281922501" TEXT="Inventing tools to improve vision">
+<node CREATED="1552736544967" ID="ID_1086634702" MODIFIED="1552736546302" TEXT="Example">
+<node CREATED="1552736624807" ID="ID_739239786" MODIFIED="1552736628956" TEXT="Problem">
+<node CREATED="1552736546575" ID="ID_307592008" MODIFIED="1552736550164" TEXT="Pile of complains"/>
+<node CREATED="1552736550895" ID="ID_1208554930" MODIFIED="1552736572805" TEXT="How to know for what products?">
+<node CREATED="1552736578888" ID="ID_31810398" MODIFIED="1552736583405" TEXT="Need a program to parse them?"/>
+</node>
+</node>
+<node CREATED="1552736612566" ID="ID_228991901" MODIFIED="1552736614133" TEXT="Solution">
+<node CREATED="1552736592736" ID="ID_1867561170" MODIFIED="1552736602086" TEXT="Draw boxes with product name on paper"/>
+<node CREATED="1552736602664" ID="ID_1848589078" MODIFIED="1552736610013" TEXT="Pin each complain each time you see the name"/>
+<node CREATED="1552736610616" ID="ID_461582034" MODIFIED="1552736623141" TEXT="DONE"/>
+</node>
+</node>
+</node>
+<node CREATED="1552736646294" FOLDED="true" ID="ID_564504927" MODIFIED="1570255512932" TEXT="The study of history">
+<node CREATED="1552736650720" ID="ID_1354411607" MODIFIED="1552736657509" TEXT="Along, geasty story"/>
+<node CREATED="1552736658582" ID="ID_1674191122" MODIFIED="1552736664204" TEXT="The white bread warning">
+<node COLOR="#ff0000" CREATED="1552736668504" ID="ID_778146563" MODIFIED="1559797141252" TEXT="&quot;If you use the same recipe, you get the same bread&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1552736681648" ID="ID_1051564605" MODIFIED="1552736689180" TEXT="Don&apos;t repeat the mistake of the client"/>
+<node CREATED="1552736691759" ID="ID_332847009" MODIFIED="1552736700995" TEXT="Listen to what they did">
+<node CREATED="1552736701183" ID="ID_443462005" MODIFIED="1552736703035" TEXT="Don&apos;t do it"/>
+<node CREATED="1552736703583" ID="ID_1007766318" MODIFIED="1552736716509" TEXT="Don&apos;t ask how to do it"/>
+</node>
+</node>
+</node>
+<node CREATED="1552736728415" FOLDED="true" ID="ID_485163014" MODIFIED="1570255526271" TEXT="Boulding&apos;s Backward basis">
+<node CREATED="1552736740431" ID="ID_504399311" MODIFIED="1552736745035" TEXT="Study history of things">
+<node CREATED="1552736745271" ID="ID_424816770" MODIFIED="1552736756140" TEXT="Not to repeat same mistakes"/>
+<node CREATED="1552736761542" ID="ID_1351880667" MODIFIED="1552736765346" TEXT="See things other have missed">
+<node CREATED="1552736769934" ID="ID_1980439450" MODIFIED="1552736773867" TEXT="Capture">
+<node CREATED="1552736774062" ID="ID_1555094838" MODIFIED="1552736775652" TEXT="Mistakes"/>
+<node CREATED="1552736776120" ID="ID_1510464817" MODIFIED="1552736779507" TEXT="Missed opportunities"/>
+</node>
+</node>
+</node>
+<node CREATED="1552736789703" ID="ID_942719227" MODIFIED="1552736797707" TEXT="Kenneth Boulding">
+<node CREATED="1552736798638" ID="ID_755574869" MODIFIED="1558636257936" TEXT="&quot;Things are the way they are because they&apos;ve got that way&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1552736821046" ID="ID_1484513716" MODIFIED="1552736825410" TEXT="Need to slow down"/>
+<node CREATED="1552736825918" ID="ID_1718025542" MODIFIED="1552736833178" TEXT="Listen to boring irrelevant stories"/>
+</node>
+</node>
+</node>
+<node CREATED="1552736844589" FOLDED="true" ID="ID_1752539059" MODIFIED="1570255531936" TEXT="Spark&apos;s law of problem solution">
+<node CREATED="1552736867575" ID="ID_1560666594" MODIFIED="1552736874659" TEXT="Political reasons for historical surveys">
+<node CREATED="1552736876854" ID="ID_639938886" MODIFIED="1552736886003" TEXT="People who caused all the problems"/>
+<node CREATED="1552736886918" ID="ID_34926718" MODIFIED="1552736893338" TEXT="... are still around"/>
+<node CREATED="1552736894038" ID="ID_478060560" MODIFIED="1552736903563" TEXT="... and will be involved in solution"/>
+</node>
+<node CREATED="1552736910237" ID="ID_1350346758" MODIFIED="1552736914641" TEXT="Don&apos;t comment on everything">
+<node CREATED="1552736914862" ID="ID_1924248832" MODIFIED="1552736936602" TEXT="At that time, decision made sense">
+<node CREATED="1552736936965" ID="ID_701067200" MODIFIED="1552736941122" TEXT="But idiomatic in the present"/>
+</node>
+<node CREATED="1552736947213" ID="ID_21782389" MODIFIED="1552736955930" TEXT="Person responsible is likely your client">
+<node CREATED="1552736956116" ID="ID_247931307" MODIFIED="1552736958971" TEXT="or your client manager"/>
+</node>
+</node>
+<node COLOR="#ff3333" CREATED="1552736966262" ID="ID_37488718" MODIFIED="1552737007593" TEXT="&quot;The chances of solving a problem declines the closer you get to finding out what was the cause of the problem&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1552737017389" FOLDED="true" ID="ID_1852493881" MODIFIED="1570255534296" TEXT="Study guides">
+<node CREATED="1552737031277" ID="ID_1292767912" MODIFIED="1559281941304" TEXT="Principle to guide the historical survey">
+<node CREATED="1552737038805" ID="ID_1192478345" MODIFIED="1552737054490" TEXT="&quot;Keep it simple and not too detailed; you&apos;re a consultant, not a district attorney&quot;"/>
+<node CREATED="1552737059676" ID="ID_256823893" MODIFIED="1552737065128" TEXT="Interrogating people">
+<node CREATED="1552737065324" ID="ID_491593240" MODIFIED="1552737067608" TEXT="may offend them"/>
+<node CREATED="1552737073012" ID="ID_58393350" MODIFIED="1552737080041" TEXT="Ask less, listen more"/>
+</node>
+<node CREATED="1552737087755" ID="ID_1832883063" MODIFIED="1552737096490" TEXT="&quot;Study for understanding, not for criticism&quot;"/>
+<node CREATED="1552737103200" ID="ID_1699080419" MODIFIED="1552737109746" TEXT="People who knows the history are the best source of info">
+<node CREATED="1552737117716" ID="ID_1876032820" MODIFIED="1552737124056" TEXT="But if responsible of the problem"/>
+<node CREATED="1552737124539" ID="ID_1428588790" MODIFIED="1552737136868" STYLE="fork" TEXT="... might be sensible"/>
+<node CREATED="1552737140724" ID="ID_457849716" MODIFIED="1552737146432" TEXT="Try opening them up">
+<node CREATED="1552737154202" ID="ID_1465626812" MODIFIED="1552737167919" TEXT="&quot;Look for what you like in the present situation, and comment on it&quot;"/>
+</node>
+<node CREATED="1552737169442" ID="ID_737422901" MODIFIED="1552737175265" TEXT="Study your own history?"/>
+</node>
+</node>
+</node>
+<node CREATED="1552737178692" FOLDED="true" ID="ID_489580720" MODIFIED="1570255537975" TEXT="The Why Whammy">
+<node CREATED="1552737185987" ID="ID_1021958548" MODIFIED="1559281390779" TEXT="How to dress a consultant">
+<node COLOR="#ff3333" CREATED="1552737197299" ID="ID_1194977861" MODIFIED="1552737234200" TEXT="&quot;We may run out of energy, or air, or water, or food, but we&apos;ll never run out of reasons&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1552737243435" ID="ID_1181256329" MODIFIED="1552737247896" TEXT="Best way to have info">
+<node CREATED="1552737248099" ID="ID_1860491016" MODIFIED="1552737251743" TEXT="Asking Why"/>
+<node CREATED="1552737252244" ID="ID_47349043" MODIFIED="1552737257368" TEXT="... for everything"/>
+</node>
+</node>
+</node>
+<node CREATED="1552737268362" FOLDED="true" ID="ID_1348563657" MODIFIED="1570255543143" TEXT="Seeing beyond the conspicuous">
+<node CREATED="1552737275275" ID="ID_254351589" MODIFIED="1552737284462" TEXT="The bigness is not the horse">
+<node CREATED="1552737293363" ID="ID_1261923649" MODIFIED="1552737299088" TEXT="Why Whammy is good for facts"/>
+<node CREATED="1552737299858" ID="ID_1778536043" MODIFIED="1552737307118" TEXT="... but you don&apos;t see the principle behind"/>
+</node>
+<node CREATED="1552737322641" ID="ID_1064084436" MODIFIED="1552737326214" TEXT="More powerful">
+<node CREATED="1552737326427" ID="ID_1596287019" MODIFIED="1552737344086" TEXT="Learn a principle from a client">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1552737334507" ID="ID_1003418025" MODIFIED="1552737345901" TEXT="Apply the principle to the client&apos;s problem">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+</node>
+<node CREATED="1552737351450" FOLDED="true" ID="ID_100062980" MODIFIED="1570255557534" TEXT="The Label Law">
+<node COLOR="#ff0000" CREATED="1552737360059" ID="ID_1011961417" MODIFIED="1559281558780" TEXT="&quot;Most of us buy the label, not the merchandise&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#ff0000" CREATED="1552737373537" ID="ID_873495541" MODIFIED="1559281562210" TEXT="&quot;The name of a thing is not the thing&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1552737411226" ID="ID_1461013715" MODIFIED="1552737422431" TEXT="We label everything we see">
+<node CREATED="1552737422722" ID="ID_1399521795" MODIFIED="1552737429861" TEXT="like the label is the true description"/>
+</node>
+<node CREATED="1552737436242" ID="ID_602473968" MODIFIED="1552737445549" TEXT="The incompetent consultant doesn&apos;t define problems">
+<node CREATED="1552737450578" ID="ID_793509643" MODIFIED="1552737459815" TEXT="He labels them with the first word he think about"/>
+<node CREATED="1552737467848" ID="ID_1831269005" MODIFIED="1552737474453" TEXT="When stereotyped label attached"/>
+<node CREATED="1552737475008" ID="ID_1532933145" MODIFIED="1552737481758" TEXT="... problem are harder to solve"/>
+</node>
+</node>
+<node CREATED="1552737485617" FOLDED="true" ID="ID_1770892624" MODIFIED="1570255564189" TEXT="Maintenance versus design">
+<node CREATED="1552737507727" ID="ID_1320712672" MODIFIED="1552737509069" TEXT="Example">
+<node CREATED="1552737509825" ID="ID_457966094" MODIFIED="1552737519990" TEXT="Complain that 80% of the budget goes to maintenance problem"/>
+<node CREATED="1552737523378" ID="ID_152486537" MODIFIED="1552737527045" TEXT="... what is maintenance?"/>
+<node CREATED="1552737534401" ID="ID_445373734" MODIFIED="1552737540060" TEXT="Problem reformulated">
+<node CREATED="1552737540313" ID="ID_624053165" MODIFIED="1552737547468" TEXT="Mismatch between design approach"/>
+<node CREATED="1552737548001" ID="ID_582897514" MODIFIED="1552737554693" TEXT="... and maintenance ability"/>
+<node CREATED="1552737560824" ID="ID_1121333067" MODIFIED="1552737564404" TEXT="Problem can be attached">
+<node CREATED="1552737564592" ID="ID_554024420" MODIFIED="1552737568011" TEXT="As maintenance problem"/>
+<node CREATED="1552737568704" ID="ID_1491489782" MODIFIED="1552737577822" TEXT="As design problem"/>
+</node>
+</node>
+<node CREATED="1552737580400" ID="ID_666306954" MODIFIED="1552737584244" TEXT="Change the design">
+<node CREATED="1552737584465" ID="ID_671979918" MODIFIED="1552737589004" TEXT="No maintenance problem anymore"/>
+</node>
+</node>
+</node>
+<node CREATED="1552738012436" FOLDED="true" ID="ID_1543268186" MODIFIED="1570255567095" TEXT="The misdirection method">
+<node CREATED="1552738017251" ID="ID_1060446188" MODIFIED="1552738032112" TEXT="Pessimist / optimist story"/>
+<node CREATED="1552738042900" ID="ID_894310782" MODIFIED="1552738050512" TEXT="Long lasting conflict">
+<node CREATED="1552738050733" ID="ID_1196193000" MODIFIED="1552738057145" TEXT="Labeling same situation differently"/>
+<node CREATED="1552738060341" ID="ID_1715875319" MODIFIED="1552738064498" TEXT="Even when using same word"/>
+<node CREATED="1552738066924" ID="ID_484708305" MODIFIED="1552738068441" TEXT="Example">
+<node CREATED="1552738068619" ID="ID_8410483" MODIFIED="1552738076153" TEXT="Management overran budget">
+<node CREATED="1552738165965" ID="ID_682030055" MODIFIED="1552738173479" TEXT="Throw attention on developer"/>
+</node>
+<node CREATED="1552738081612" ID="ID_51549872" MODIFIED="1552738088432" TEXT="Programmer underbudgeted">
+<node CREATED="1552738176187" ID="ID_728188771" MODIFIED="1552738181472" TEXT="Throw attention on management"/>
+</node>
+</node>
+<node CREATED="1552738102613" ID="ID_810259556" MODIFIED="1552738106840" TEXT="Misdirection method">
+<node CREATED="1552738107043" ID="ID_802738327" MODIFIED="1552738122560" TEXT="Change label to"/>
+<node CREATED="1552738123116" ID="ID_397222879" MODIFIED="1552738128833" TEXT="... direct attention away"/>
+<node CREATED="1552738129363" ID="ID_1347481089" MODIFIED="1552738140016" TEXT="... from one aspect of the situation"/>
+</node>
+</node>
+</node>
+<node CREATED="1552738185980" FOLDED="true" ID="ID_1375788854" MODIFIED="1570255570302" TEXT="The Three Fingers Rule">
+<node COLOR="#ff3333" CREATED="1552738199700" ID="ID_1600798480" MODIFIED="1552738240481" TEXT="&quot;When you point a finger to someone, notice where the other three fingers are pointed&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1552738262451" FOLDED="true" ID="ID_274026728" MODIFIED="1570255579470" TEXT="The Five Minutes Rule">
+<node CREATED="1552738276611" ID="ID_801554059" MODIFIED="1552738284591" TEXT="Inexperienced consultants">
+<node CREATED="1552738284764" ID="ID_1745574780" MODIFIED="1552738288031" TEXT="Worry to gather fact"/>
+</node>
+<node CREATED="1552738288859" ID="ID_969280656" MODIFIED="1552738291264" TEXT="The reality">
+<node CREATED="1552738292459" ID="ID_1979640072" MODIFIED="1552738295656" TEXT="Too many facts"/>
+<node CREATED="1552738296082" ID="ID_501368874" MODIFIED="1552738299904" TEXT="Too many boring stories"/>
+<node CREATED="1552738300369" ID="ID_1264204427" MODIFIED="1552738304319" TEXT="Too many finger pointed"/>
+<node CREATED="1552738309042" ID="ID_1134750180" MODIFIED="1552738315631" TEXT="... in this flood, there is the solution"/>
+</node>
+<node COLOR="#ff3333" CREATED="1552738328322" ID="ID_1092237893" MODIFIED="1552738365960" TEXT="&quot;Clients always show how to solve their problems, and always tell the solution in the first five minutes&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1552738395475" FOLDED="true" ID="ID_1199289821" MODIFIED="1570255588463" POSITION="left" TEXT="Seeing what&apos;s not there">
+<icon BUILTIN="full-5"/>
+<node CREATED="1552738403146" FOLDED="true" ID="ID_1521900696" MODIFIED="1570255585589" TEXT="Missing tool">
+<node CREATED="1552738408889" ID="ID_181329147" MODIFIED="1561897553339" TEXT="Pinboard tool for complains">
+<node CREATED="1552738417216" ID="ID_797113569" MODIFIED="1552738422413" TEXT="Sometimes, client just need that"/>
+<node CREATED="1552738423256" ID="ID_100582177" MODIFIED="1552738426806" TEXT="... then it will be better"/>
+<node CREATED="1552738435697" ID="ID_1352114594" MODIFIED="1552738440989" TEXT="Two way to improve quality">
+<node CREATED="1552738456742" ID="ID_881377953" MODIFIED="1552738463255" TEXT="Pin point">
+<node CREATED="1552738441185" ID="ID_550265546" MODIFIED="1552738474478" TEXT="People doing bad job in bad quality software">
+<icon BUILTIN="full-1"/>
+<node CREATED="1552738509625" ID="ID_505757615" MODIFIED="1552738513254" TEXT="Too problem oriented"/>
+<node CREATED="1552738513672" ID="ID_1649305216" MODIFIED="1552738518317" TEXT="Easy to miss what&apos;s there"/>
+</node>
+<node CREATED="1552738480913" ID="ID_1698174726" MODIFIED="1552738504844" TEXT="People doing good job and uses techniques / practices in bad quality software">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1552738534288" FOLDED="true" ID="ID_72202206" MODIFIED="1570255585590" TEXT="Reasoning from what isn&apos;t there">
+<node CREATED="1552738542016" ID="ID_884712667" MODIFIED="1561897588226" TEXT="The Level Law">
+<node COLOR="#ff3333" CREATED="1552738550328" ID="ID_1465755440" MODIFIED="1552738590887" TEXT="&quot;Effective problem solvers may have many problems, but rarely have a single, dominant problem&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1552738574336" ID="ID_1639746359" MODIFIED="1552738585043" TEXT="... look at distribution of troubles across problems"/>
+</node>
+<node CREATED="1552738602183" FOLDED="true" ID="ID_198124473" MODIFIED="1552739421397" TEXT="If client has no dominant problem">
+<node CREATED="1552738610895" ID="ID_1355296119" MODIFIED="1552738620676" TEXT="Effective problem solving mechanism"/>
+<node CREATED="1552738621201" ID="ID_860886871" MODIFIED="1552738627948" TEXT="... already in place"/>
+<node CREATED="1552738634553" ID="ID_1470134636" MODIFIED="1552738640372" TEXT="Use them to your own suggested method">
+<node CREATED="1552738640583" ID="ID_85281575" MODIFIED="1552738645420" TEXT="and you will look good"/>
+</node>
+</node>
+<node CREATED="1552738655439" FOLDED="true" ID="ID_459059601" MODIFIED="1552739420630" TEXT="The missing solution">
+<node CREATED="1552738671800" ID="ID_1776086203" MODIFIED="1552738676164" TEXT="If client has one dominant problem">
+<node CREATED="1552738676312" ID="ID_1696993839" MODIFIED="1552738683077" TEXT="No effective problem solving mechanism"/>
+<node CREATED="1552738692263" ID="ID_1067796119" MODIFIED="1552738698005" TEXT="No method for ranking problem severity"/>
+<node CREATED="1552738703536" ID="ID_879759185" MODIFIED="1552738706308" TEXT="Solution">
+<node CREATED="1552738706511" ID="ID_383818633" MODIFIED="1552738751713" TEXT="Do something simple">
+<icon BUILTIN="full-1"/>
+<node CREATED="1552738710024" ID="ID_286322687" MODIFIED="1552738717709" TEXT="To knock out first chunk of problems"/>
+</node>
+<node CREATED="1552738734240" ID="ID_1729724038" MODIFIED="1552738753825" TEXT="Gain">
+<icon BUILTIN="full-2"/>
+<node CREATED="1552738736310" ID="ID_1406014196" MODIFIED="1552738739395" TEXT="Credibility"/>
+<node CREATED="1552738739823" ID="ID_1300983156" MODIFIED="1552738741900" TEXT="Resources"/>
+</node>
+<node CREATED="1552738742503" ID="ID_25295130" MODIFIED="1552738755858" TEXT="Attack next chunk of problems">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1552738763119" ID="ID_1834875046" MODIFIED="1552738765628" TEXT="Drawback">
+<node CREATED="1552738765824" ID="ID_139841517" MODIFIED="1552738773571" TEXT="Client dependant of consultant">
+<node CREATED="1552738775679" ID="ID_1795211670" MODIFIED="1552738780986" TEXT="Not able to solve their own problems"/>
+</node>
+</node>
+<node CREATED="1552738785670" ID="ID_224850146" MODIFIED="1552738787892" TEXT="Better solution">
+<node CREATED="1552738788135" FOLDED="true" ID="ID_960613239" MODIFIED="1552738849097" TEXT="Take small problem">
+<icon BUILTIN="full-1"/>
+<node CREATED="1552738812028" ID="ID_536849201" MODIFIED="1552738813163" TEXT="with">
+<node CREATED="1552738796607" ID="ID_1819064055" MODIFIED="1552738818050" TEXT="big chance of success"/>
+<node CREATED="1552738807558" ID="ID_1511684596" MODIFIED="1552738811600" TEXT="low payoff"/>
+</node>
+</node>
+<node CREATED="1552738828311" ID="ID_905886762" MODIFIED="1552738851641" TEXT="Client can solve it by himself">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1552738833941" ID="ID_1536873545" MODIFIED="1552738853906" TEXT="Gain">
+<icon BUILTIN="full-3"/>
+<node CREATED="1552738835061" ID="ID_385192863" MODIFIED="1552738837546" TEXT="Needed confidence"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1552738859430" FOLDED="true" ID="ID_729873424" MODIFIED="1552739423812" TEXT="The missing history">
+<node CREATED="1552738875933" ID="ID_1955793937" MODIFIED="1552738880290" TEXT="Important to look">
+<node CREATED="1552738880525" ID="ID_1391572841" MODIFIED="1552738892748" TEXT="Distribution of problems"/>
+<node CREATED="1552738893438" ID="ID_877740891" MODIFIED="1552738902883" TEXT="History of distribution"/>
+</node>
+<node CREATED="1552738968460" ID="ID_1626759428" MODIFIED="1552738977897" TEXT="If preponderant problem">
+<node CREATED="1552738980173" ID="ID_1149791260" MODIFIED="1552738984905" TEXT="Recent"/>
+<node CREATED="1552738985373" ID="ID_515317283" MODIFIED="1552738989203" TEXT="From external event"/>
+</node>
+<node CREATED="1552738992229" ID="ID_1214542824" MODIFIED="1552738997681" TEXT="Solution">
+<node CREATED="1552738997869" ID="ID_326609004" MODIFIED="1552739022681" TEXT="Attack it directly">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1552739005254" ID="ID_1790717869" MODIFIED="1552739025904" TEXT="Mobilize problem solving mechanisms">
+<icon BUILTIN="full-2"/>
+<node CREATED="1552739014614" ID="ID_847255937" MODIFIED="1552739020681" TEXT="Before next problem explode"/>
+</node>
+</node>
+</node>
+<node CREATED="1552739031709" FOLDED="true" ID="ID_582093185" MODIFIED="1552739423197" TEXT="The missing request for help">
+<node CREATED="1552739043117" ID="ID_1499037643" MODIFIED="1552739045034" TEXT="Client ask">
+<node CREATED="1552739045204" ID="ID_903068818" MODIFIED="1552739053904" TEXT="quick solution to immediate problem"/>
+</node>
+<node CREATED="1552739062030" ID="ID_15679976" MODIFIED="1552739075849" TEXT="... but no quick solution is likely to help much"/>
+<node CREATED="1552739081677" ID="ID_1424619343" MODIFIED="1552739091282" TEXT="Don&apos;t fix problem when you&apos;re not asked to do so">
+<node CREATED="1552739091667" ID="ID_410380318" MODIFIED="1552739096217" TEXT="When request is missing"/>
+<node CREATED="1552739096637" ID="ID_62746230" MODIFIED="1552739102057" TEXT="... chances you can&apos;t help"/>
+</node>
+</node>
+</node>
+<node CREATED="1552739108043" FOLDED="true" ID="ID_1170214639" MODIFIED="1570255585590" TEXT="How to see what&apos;s not there">
+<node CREATED="1552739114236" ID="ID_1046495146" MODIFIED="1561897008361" TEXT="Be aware of your own limitations">
+<node CREATED="1552739140468" ID="ID_621651617" MODIFIED="1552739143992" TEXT="An element is never missing">
+<node CREATED="1552739144173" ID="ID_986143969" MODIFIED="1552739145850" TEXT="You"/>
+</node>
+<node CREATED="1552739149733" ID="ID_808876473" MODIFIED="1552739154624" TEXT="Ask why you missed something">
+<node CREATED="1552739224347" ID="ID_1728030072" MODIFIED="1552739226831" TEXT="Try to fix it"/>
+</node>
+<node COLOR="#ff3333" CREATED="1552739232452" ID="ID_1035601781" MODIFIED="1552739264903" TEXT="&quot;Find out what you usually miss and design a tool to ensure that you don&apos;t miss it again&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1552739271021" ID="ID_475453302" MODIFIED="1561897700300" TEXT="Use other people">
+<node CREATED="1552739277522" ID="ID_909803913" MODIFIED="1552739280307" TEXT="Ask">
+<node CREATED="1552739280308" ID="ID_178163959" MODIFIED="1552739287096" TEXT="&quot;What you&apos;re missing&quot;"/>
+<node CREATED="1552739287652" ID="ID_1658996522" MODIFIED="1552739295936" TEXT="... to as many diverse people as you can"/>
+</node>
+</node>
+<node CREATED="1552739298002" ID="ID_369728002" MODIFIED="1561897701798" TEXT="Investigate other culture">
+<node CREATED="1552739304235" ID="ID_1901681198" MODIFIED="1552739308680" TEXT="Other culture can see stuff"/>
+<node CREATED="1552739309138" ID="ID_869184044" MODIFIED="1552739316000" TEXT="... invisible for the culture which has problems"/>
+<node CREATED="1552739321443" ID="ID_1020213419" MODIFIED="1552739369294" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1552739323011" ID="ID_1252993213" MODIFIED="1552739326318" TEXT="Ask Janitor">
+<node CREATED="1552739326499" ID="ID_832902750" MODIFIED="1552739333871" TEXT="&quot;What are you missing here?&quot;"/>
+<node CREATED="1552739339801" ID="ID_1940229045" MODIFIED="1552739342176" TEXT="Answer">
+<node CREATED="1552739342386" ID="ID_1433051920" MODIFIED="1552739349206" TEXT="&quot;They never clean their blackboard&quot;">
+<node CREATED="1552739353851" ID="ID_460558842" MODIFIED="1552739358311" TEXT="Problem"/>
+<node CREATED="1552739359202" ID="ID_1233061817" MODIFIED="1552739363854" TEXT="Not using their tool properly"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1552739379585" ID="ID_927210108" MODIFIED="1561897703951" TEXT="Use laundry list">
+<node CREATED="1552739396819" ID="ID_61653028" MODIFIED="1552739400786" TEXT="Explicit list of items"/>
+<node CREATED="1552739413129" ID="ID_1051536438" MODIFIED="1552739416559" TEXT="... which might be missing"/>
+<node CREATED="1552739460467" ID="ID_1735498578" MODIFIED="1552739468758" TEXT="Step taken for preparing reviews"/>
+<node CREATED="1552739469434" ID="ID_1863195034" MODIFIED="1552739473413" TEXT="Items needed for meetings"/>
+<node CREATED="1552739478977" ID="ID_1012666233" MODIFIED="1552739481196" TEXT="Checklist">
+<node CREATED="1552739481377" ID="ID_669779609" MODIFIED="1552739487087" TEXT="You MUST do every point"/>
+</node>
+<node CREATED="1552739489512" ID="ID_870831918" MODIFIED="1552739492317" TEXT="Laundry List">
+<node CREATED="1552739495170" ID="ID_402450673" MODIFIED="1552739499757" TEXT="You consider every points"/>
+<node CREATED="1552739503921" ID="ID_458301196" MODIFIED="1552739505677" TEXT="Preferred"/>
+</node>
+<node CREATED="1552739510920" ID="ID_214331803" MODIFIED="1552739517286" TEXT="Don&apos;t grow too confident about your lists">
+<node CREATED="1552739519489" ID="ID_278831368" MODIFIED="1552739526381" TEXT="Likely to miss something central"/>
+</node>
+</node>
+<node CREATED="1552739529792" ID="ID_1174115585" MODIFIED="1561897734513" TEXT="Check the process">
+<node CREATED="1555238890937" ID="ID_602818430" MODIFIED="1555238912285" TEXT="Compare">
+<node CREATED="1555238912285" ID="ID_1712832742" MODIFIED="1555238915405" TEXT="Laundry list"/>
+<node CREATED="1555238915941" ID="ID_1913575533" MODIFIED="1555238922324" TEXT="Your own list of missing items"/>
+<node CREATED="1555238928874" ID="ID_479184662" MODIFIED="1555238932948" TEXT="If laundry list has more">
+<node CREATED="1555238933172" ID="ID_1670176930" MODIFIED="1555238939913" TEXT="Search for missing item not effective enough"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1555238947689" FOLDED="true" ID="ID_116743632" MODIFIED="1570255585591" TEXT="On being ridiculous">
+<node CREATED="1555238965738" ID="ID_1790012058" MODIFIED="1561898043226" TEXT="Laundry list to find missing items">
+<node CREATED="1555238973827" ID="ID_409280419" MODIFIED="1555238977198" TEXT="Seems reasonable"/>
+<node CREATED="1555238977812" ID="ID_1880908880" MODIFIED="1555238984507" TEXT="... and it&apos;s all the problem!"/>
+</node>
+<node CREATED="1555238998881" ID="ID_68513929" MODIFIED="1561898046642" TEXT="Weinberg law of fetch">
+<node COLOR="#ff3333" CREATED="1555239010854" ID="ID_966455874" MODIFIED="1555239048819" TEXT="&quot;Sometimes far fetched is only short sighted&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1555239066726" ID="ID_668358554" MODIFIED="1561898054846" TEXT="The law of three">
+<node COLOR="#ff3333" CREATED="1555239070306" ID="ID_1338813305" MODIFIED="1555239105939" TEXT="&quot;If you can&apos;t think of three things that might go wrong with your plans, then there&apos;s something wrong with your thinking&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1555239114206" ID="ID_76591297" MODIFIED="1555239119621" TEXT="Saves a lot of money on &quot;sure things&quot;"/>
+</node>
+</node>
+<node CREATED="1555239123598" FOLDED="true" ID="ID_1991275871" MODIFIED="1570255585591" TEXT="Loosening up your thinking">
+<node CREATED="1555239140726" ID="ID_1903947304" MODIFIED="1561897744398" TEXT="If you can&apos;t think about three things from law of three">
+<node CREATED="1555239151966" ID="ID_79590672" MODIFIED="1555239169596" TEXT="You need idea generation techniques"/>
+</node>
+<node CREATED="1555239395328" ID="ID_1643257852" MODIFIED="1561897794582" TEXT="Look for analogies">
+<node CREATED="1555239402343" ID="ID_830235189" MODIFIED="1555239406011" TEXT="Compare">
+<node CREATED="1555239406968" ID="ID_878121483" MODIFIED="1555239411541" TEXT="Your system"/>
+<node CREATED="1555239412233" ID="ID_698959677" MODIFIED="1561897801927" TEXT="Another system with similar problems">
+<node CREATED="1555239422553" ID="ID_899965777" MODIFIED="1555239426065" TEXT="in another domain"/>
+</node>
+</node>
+</node>
+<node CREATED="1555239428639" ID="ID_1513736648" MODIFIED="1561897804319" TEXT="Move to extremes">
+<node CREATED="1555239435488" ID="ID_1562073455" MODIFIED="1555239442244" TEXT="Take some attributes of the system">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1555239444418" ID="ID_1907710787" MODIFIED="1555239450473" TEXT="Move it to extreme values">
+<icon BUILTIN="full-2"/>
+<node CREATED="1555239457304" ID="ID_12400869" MODIFIED="1555239464607" TEXT="See things concealed by the reasonable"/>
+</node>
+</node>
+<node CREATED="1555239474262" ID="ID_1142526712" MODIFIED="1561897808669" TEXT="Look outside the boundary">
+<node CREATED="1555239482406" ID="ID_201701553" MODIFIED="1555239485949" TEXT="Boundaries">
+<node CREATED="1555239486126" ID="ID_1484475264" MODIFIED="1555239490324" TEXT="Where system join another"/>
+</node>
+<node CREATED="1555239497982" ID="ID_639268331" MODIFIED="1555239500855" TEXT="Can find a lot in there"/>
+</node>
+<node CREATED="1555239513147" ID="ID_493872912" MODIFIED="1561897812225" TEXT="Look for alibi vs explanations">
+<node CREATED="1555239523538" ID="ID_476256269" MODIFIED="1555239525910" TEXT="Alibi">
+<node CREATED="1555239526090" ID="ID_114504670" MODIFIED="1555239531019" TEXT="Weird rule to protect the defect">
+<node CREATED="1555239533764" ID="ID_850476137" MODIFIED="1555239534780" TEXT="Hack"/>
+<node CREATED="1555239535254" ID="ID_360454456" MODIFIED="1555239538515" TEXT="Quick fixes"/>
+</node>
+</node>
+<node CREATED="1555239565876" ID="ID_623898528" MODIFIED="1555239566846" TEXT="Then">
+<node CREATED="1555239567085" ID="ID_886503261" MODIFIED="1555239571752" TEXT="Defect forgotten"/>
+<node CREATED="1555239572272" ID="ID_529009761" MODIFIED="1555239575784" TEXT="Rules not applied anymore"/>
+</node>
+</node>
+<node CREATED="1555239584082" ID="ID_572266396" MODIFIED="1555239588186" TEXT="The emotional component"/>
+<node CREATED="1555239592288" ID="ID_1235097367" MODIFIED="1561898140967" TEXT="The incongruence insight">
+<node COLOR="#ff3333" CREATED="1555239601117" ID="ID_1171469602" MODIFIED="1555239634121" TEXT="&quot;Sometimes when I&apos;m not getting anywhere with the words, I listen to the music&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1555239640126" ID="ID_1630677615" MODIFIED="1555239642437" TEXT="People can">
+<node CREATED="1555239642661" ID="ID_42556155" MODIFIED="1555239643490" TEXT="Hide"/>
+<node CREATED="1555239644447" ID="ID_479309651" MODIFIED="1555239655759" TEXT="Not be able to talk about the truth"/>
+</node>
+<node CREATED="1555239667996" ID="ID_6167880" MODIFIED="1555239681874" TEXT="Look at the client">
+<node CREATED="1555239672403" ID="ID_116195810" MODIFIED="1555239674464" TEXT="Ton of voice"/>
+<node CREATED="1555239675000" ID="ID_1186562615" MODIFIED="1555239677108" TEXT="Posture"/>
+</node>
+<node CREATED="1555239688978" ID="ID_39189416" MODIFIED="1555239694830" TEXT="Congruence between">
+<node CREATED="1555239695070" ID="ID_1154942444" MODIFIED="1555239697428" TEXT="Words"/>
+<node CREATED="1555239697964" ID="ID_998553925" MODIFIED="1555239700633" TEXT="Emotions"/>
+</node>
+<node COLOR="#ff3333" CREATED="1555239706232" ID="ID_264731" MODIFIED="1555239729096" TEXT="&quot;When words and music don&apos;t go together, they point to a missing element&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1555239742261" ID="ID_411749942" MODIFIED="1555239749361" TEXT="Just point out the congruence without judgmenet">
+<node CREATED="1555239749788" ID="ID_1865189760" MODIFIED="1555239753487" TEXT="&quot;your hand is shaking&quot;"/>
+</node>
+</node>
+</node>
+<node CREATED="1555239762377" ID="ID_845515392" MODIFIED="1561898143812" TEXT="Brown&apos;s brilliant request">
+<node COLOR="#ff3333" CREATED="1555239787144" ID="ID_1171470383" MODIFIED="1555239813993" TEXT="Words are often useful, but it always pays to listen to the music (especially your internal one)&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1555239817478" ID="ID_1305786407" MODIFIED="1555239826715" TEXT="Client&apos;s music will influence your feeling"/>
+<node CREATED="1555239830567" ID="ID_1023421939" MODIFIED="1555239834952" TEXT="Listen to your own music">
+<node CREATED="1555239842415" ID="ID_1606598902" MODIFIED="1555239846972" TEXT="Very powerful!"/>
+</node>
+<node CREATED="1555239849951" ID="ID_1495407357" MODIFIED="1555239852542" TEXT="Know yourself"/>
+</node>
+</node>
+</node>
+<node CREATED="1555252772507" FOLDED="true" ID="ID_1645465452" MODIFIED="1570255460641" POSITION="right" TEXT="Gaining control of change">
+<icon BUILTIN="full-8"/>
+<node CREATED="1555252816838" ID="ID_1903688198" MODIFIED="1555252828000" TEXT="Weinbers&apos; law inverted">
+<node COLOR="#ff0000" CREATED="1555252828001" ID="ID_988040260" MODIFIED="1562514930989" TEXT="&quot;Some of the time, in some places, significant changes happens; especially when people are not working hard at it&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1555252877968" ID="ID_390098990" MODIFIED="1562515001142" TEXT="Most of the time">
+<node CREATED="1555252880908" ID="ID_549183272" MODIFIED="1555252888383" TEXT="consultants are called to stop thing changing"/>
+</node>
+</node>
+<node CREATED="1555252891798" ID="ID_139017407" MODIFIED="1562515003653" TEXT="Prescott&apos;s pickle principle">
+<node COLOR="#ff3333" CREATED="1555252907554" ID="ID_1974465668" MODIFIED="1555252933850" TEXT="&quot;Cucumbers get more pickled than brine get cucumbered&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1555252944559" ID="ID_9204547" MODIFIED="1555252947962" TEXT="Beating the brine">
+<node COLOR="#ff3333" CREATED="1555252959332" ID="ID_1379796657" MODIFIED="1555253017640" TEXT="&quot;A small system that tries to change a big system, through long and continued contact, is more likely to be changed itself&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1555253035313" ID="ID_202458180" MODIFIED="1555253043412" TEXT="Consultant should not stay too long with client">
+<node CREATED="1555253043589" ID="ID_510739795" MODIFIED="1555253050268" TEXT="Or consultant will be &quot;pickled&quot;"/>
+<node CREATED="1555253053752" ID="ID_524847867" MODIFIED="1555253056641" TEXT="... shaped"/>
+</node>
+<node CREATED="1555253061397" ID="ID_190386618" MODIFIED="1555253064799" TEXT="... but changing all the time">
+<node CREATED="1555253064992" ID="ID_1582294641" MODIFIED="1555253074229" TEXT="Difficult to">
+<node CREATED="1555253074500" ID="ID_177491707" MODIFIED="1555253076218" TEXT="Adapt"/>
+<node CREATED="1555253078158" ID="ID_195266588" MODIFIED="1555253080766" TEXT="Be effective"/>
+</node>
+</node>
+<node CREATED="1555253094835" ID="ID_1453262976" MODIFIED="1555253098472" TEXT="Challenge">
+<node CREATED="1555253099242" ID="ID_1936374336" MODIFIED="1555253103081" TEXT="How to keep client in change"/>
+<node CREATED="1555253104304" ID="ID_1679932882" MODIFIED="1555253110265" TEXT="... without consultant being present"/>
+</node>
+</node>
+</node>
+<node CREATED="1555253118142" ID="ID_956691579" MODIFIED="1562515224044" TEXT="The forces of change">
+<node CREATED="1555253131324" ID="ID_1207261001" MODIFIED="1555253135273" TEXT="Roamer&apos;s Rule">
+<node COLOR="#ff3333" CREATED="1555253141254" ID="ID_264742522" MODIFIED="1555253166232" TEXT="&quot;Struggling to stay at home can make you a wanderer&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1555253172814" ID="ID_1374152023" MODIFIED="1555253175406" TEXT="Homer&apos;s Rule">
+<node COLOR="#ff3333" CREATED="1555253176410" ID="ID_1176039424" MODIFIED="1555253192956" TEXT="&quot;Struggling to travel can make you stay at home&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1555253199834" ID="ID_749842304" MODIFIED="1555253206622" TEXT="The most powerful force for change">
+<node CREATED="1555253211612" ID="ID_1188208352" MODIFIED="1555253215935" TEXT="The desire not to change"/>
+</node>
+<node CREATED="1555253230240" ID="ID_341051575" MODIFIED="1555253232566" TEXT="Romer&apos;s Rule">
+<node COLOR="#ff3333" CREATED="1555253232713" ID="ID_175591584" MODIFIED="1555253247652" TEXT="&quot;The best way to lose something is to struggle to keep it&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1555253254358" ID="ID_1054449560" MODIFIED="1562515279738" TEXT="Controlling small changes">
+<node CREATED="1555253263548" ID="ID_1818418461" MODIFIED="1555253268401" TEXT="A change that makes no difference"/>
+<node CREATED="1555253277494" ID="ID_11909495" MODIFIED="1555253280819" TEXT="The fast food fallacy">
+<node CREATED="1555253284406" ID="ID_978475653" MODIFIED="1555253298868" TEXT="To be valid, needs">
+<node CREATED="1555253289202" ID="ID_1190096974" MODIFIED="1555253332643" TEXT="Repetition standard product / service">
+<icon BUILTIN="full-1"/>
+<node CREATED="1555253327150" ID="ID_872982268" MODIFIED="1555253330552" TEXT="large number of time"/>
+</node>
+<node CREATED="1555253335441" ID="ID_1631555406" MODIFIED="1555253339093" TEXT="Centralization">
+<icon BUILTIN="full-2"/>
+<node CREATED="1555253343102" ID="ID_955827471" MODIFIED="1555253361090" TEXT="Accounting for the cost of providing standard product / service"/>
+</node>
+<node CREATED="1555253368998" ID="ID_366543241" MODIFIED="1555253377283" TEXT="Small change on one item">
+<icon BUILTIN="full-3"/>
+<node CREATED="1555253379107" ID="ID_246522364" MODIFIED="1555253383539" TEXT="Large change on all the items"/>
+<node CREATED="1555253392500" ID="ID_1578595131" MODIFIED="1555253398867" TEXT="Even if the goal is not changing it"/>
+</node>
+</node>
+<node CREATED="1555253402657" ID="ID_1453069005" MODIFIED="1555253406558" TEXT="Compositional fallacy">
+<node COLOR="#ff3333" CREATED="1555253408389" ID="ID_898239769" MODIFIED="1555253443624" TEXT="&quot;No difference plus no difference plus... eventually equals a clear difference&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1555253454168" ID="ID_1787870590" MODIFIED="1555253460036" TEXT="The strong and unrelenting force"/>
+<node CREATED="1555253470845" ID="ID_1777960296" MODIFIED="1555253483904" TEXT="Ford&apos;s fundamental Feedback Formula">
+<node CREATED="1555253490112" ID="ID_1806045636" MODIFIED="1555253495308" TEXT="Make sure that client use its own service"/>
+<node CREATED="1555253495798" ID="ID_1552504782" MODIFIED="1555253505409" TEXT="... if not, fast food fallacy higher"/>
+</node>
+</node>
+<node CREATED="1555253512789" ID="ID_1337971180" MODIFIED="1562515286914" TEXT="The Weinberg test">
+<node CREATED="1555253527513" ID="ID_1378815694" MODIFIED="1555253547024" TEXT="To know if something work"/>
+<node CREATED="1555253547607" ID="ID_909750657" MODIFIED="1555253561251" TEXT="... try to imagine something terrible happening"/>
+<node CREATED="1555253550891" ID="ID_677462500" MODIFIED="1555253558864" TEXT="... if it fails"/>
+</node>
+</node>
+<node CREATED="1555941361996" FOLDED="true" ID="ID_400121567" MODIFIED="1570255459743" POSITION="right" TEXT="How to make changes safely">
+<icon BUILTIN="full-9"/>
+<node CREATED="1555941375108" ID="ID_1653737192" MODIFIED="1562515293341" TEXT="Pandora Box">
+<node CREATED="1555941379898" ID="ID_1603968865" MODIFIED="1555941381617" TEXT="My pox"/>
+<node CREATED="1555941382188" FOLDED="true" ID="ID_1114984079" MODIFIED="1563024771879" TEXT="The new law">
+<node COLOR="#ff0000" CREATED="1555941389893" ID="ID_1372228835" MODIFIED="1562515307114" TEXT="&quot;Nothing new never work. Why do people change things to new things?&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1555941419398" ID="ID_1681578488" MODIFIED="1555941428375" TEXT="Pandora, archetype of change"/>
+<node CREATED="1555941440762" FOLDED="true" ID="ID_500478466" MODIFIED="1563024770519" TEXT="The worst affliction">
+<node CREATED="1555941453610" ID="ID_455913915" MODIFIED="1555941462520" TEXT="Hope stays in Pandora&apos;s vase"/>
+<node CREATED="1555941634314" ID="ID_1534031761" MODIFIED="1555941642158" TEXT="Pandora&apos;s Box law">
+<node COLOR="#ff3333" CREATED="1555941582505" ID="ID_1812172268" MODIFIED="1562515324597" TEXT="&quot;Nothing new ever works, but there&apos;s always hope that this time will be different&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1555941645729" ID="ID_922774244" MODIFIED="1562515326352" TEXT="Living with failure">
+<node CREATED="1555941656698" FOLDED="true" ID="ID_128693212" MODIFIED="1562515332763" TEXT="Pandora&apos;s box">
+<node CREATED="1555941659953" ID="ID_1305962336" MODIFIED="1555941669238" TEXT="Social diseases spread by marketers"/>
+<node CREATED="1555941669729" ID="ID_742434084" MODIFIED="1555941673798" TEXT="Endemic"/>
+<node CREATED="1555941685314" ID="ID_1252213330" MODIFIED="1555941689494" TEXT="Rather than fighting change">
+<node CREATED="1555941689722" ID="ID_1894690919" MODIFIED="1555941693658" TEXT="Live with it"/>
+<node CREATED="1555941695465" ID="ID_1458056087" MODIFIED="1555941698917" TEXT="Make a living out of it"/>
+</node>
+</node>
+<node CREATED="1555941705954" FOLDED="true" ID="ID_16489746" MODIFIED="1563024769819" TEXT="The dealer&apos;s choice">
+<node COLOR="#ff3333" CREATED="1555941712274" ID="ID_688289925" MODIFIED="1555941748707" TEXT="&quot;Let them try whatever they like, but teach them how to protect themselves&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1555941754584" FOLDED="true" ID="ID_1013490659" MODIFIED="1563024768919" TEXT="Accept failure">
+<node CREATED="1555941764122" ID="ID_1693934165" MODIFIED="1555941766549" TEXT="Defense">
+<node CREATED="1555941766784" ID="ID_95560555" MODIFIED="1555941768366" TEXT="First line">
+<node CREATED="1555941768537" ID="ID_1833306916" MODIFIED="1555941773229" TEXT="Accept the system will fail"/>
+</node>
+</node>
+<node CREATED="1555941782679" ID="ID_195401605" MODIFIED="1563023927854" TEXT="When you think">
+<node CREATED="1555941789680" ID="ID_1285181707" MODIFIED="1555941798389" TEXT="&quot;I must have this change because I can&apos;t afford failure&quot;"/>
+<node CREATED="1555941799512" ID="ID_614757220" MODIFIED="1555941802414" TEXT="Ask yourself"/>
+<node CREATED="1555941802840" ID="ID_1950144866" MODIFIED="1555941817812" TEXT="&quot;Why do I have the impression I can&apos;t afford failure?&quot;"/>
+</node>
+</node>
+<node CREATED="1555941821809" FOLDED="true" ID="ID_446090339" MODIFIED="1563024767529" TEXT="Trade improvement for perfection">
+<node COLOR="#ff3333" CREATED="1555941838264" ID="ID_102616870" MODIFIED="1555941878016" TEXT="&quot;If the new system can&apos;t be perfect, how can I use it so it will be better than the one I have now&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1555941890680" ID="ID_802329547" MODIFIED="1555941899325" TEXT="Best is the enemy of good"/>
+</node>
+<node CREATED="1555941909822" FOLDED="true" ID="ID_1625324396" MODIFIED="1563024766759" TEXT="Apply the rule of three">
+<node CREATED="1555941935463" ID="ID_1677661319" MODIFIED="1555941947133" TEXT="How this better way of using the system might fail?"/>
+</node>
+<node CREATED="1555941950007" FOLDED="true" ID="ID_1356596635" MODIFIED="1563024765969" TEXT="Invent a backup">
+<node CREATED="1555941954327" HGAP="19" ID="ID_951082373" MODIFIED="1563024765149" TEXT="Some of failures can be turned into a backup method"/>
+</node>
+</node>
+<node CREATED="1555941995422" ID="ID_886723885" MODIFIED="1563023944926" TEXT="Preventive medicine">
+<node CREATED="1555942003726" FOLDED="true" ID="ID_1486805934" MODIFIED="1563024764439" TEXT="The Edsel Edict">
+<node COLOR="#ff0000" CREATED="1555942019255" ID="ID_335037627" MODIFIED="1562515383250" TEXT="&quot;If you must have something new take one, not two&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1555942034799" FOLDED="true" ID="ID_186826971" MODIFIED="1563024763579" TEXT="Choosing your time and place">
+<node CREATED="1555942044623" ID="ID_1614986190" MODIFIED="1555942053716" TEXT="Wait for the moment of less impact if it fails"/>
+</node>
+<node CREATED="1555942055103" FOLDED="true" ID="ID_609777565" MODIFIED="1563024762219" TEXT="The Volkswagen Verity">
+<node COLOR="#ff3333" CREATED="1555942067399" ID="ID_1842095419" MODIFIED="1555942098544" TEXT="&quot;If you can&apos;t refuse it, defuse it&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1555942109271" ID="ID_1555532093" MODIFIED="1563023952346" TEXT="If you need to introduce new change">
+<node CREATED="1555942114774" ID="ID_426013197" MODIFIED="1555942119332" TEXT="Test new change one at a time">
+<node CREATED="1555942129166" ID="ID_1191257563" MODIFIED="1555942137460" TEXT="Practice run in similar situations"/>
+<node CREATED="1555942138095" ID="ID_1210419757" MODIFIED="1555942152699" TEXT="Breaking newest into part"/>
+<node CREATED="1555942153254" ID="ID_1445262314" MODIFIED="1555942162139" TEXT="Adapt it singlely"/>
+<node CREATED="1555942164470" ID="ID_1784285066" MODIFIED="1555942170867" TEXT="Letting others share the breaking in"/>
+</node>
+</node>
+<node CREATED="1555942173039" FOLDED="true" ID="ID_1327709844" MODIFIED="1562515448626" TEXT="The time Bomb">
+<node CREATED="1555942184206" ID="ID_1187344414" MODIFIED="1555942193547" TEXT="Objection to &quot;wasting time&quot;"/>
+<node CREATED="1555942198230" ID="ID_138389892" MODIFIED="1555942208091" TEXT="People are in hurry to get new things working">
+<node CREATED="1555942212038" ID="ID_466506717" MODIFIED="1555942215322" TEXT="Trigger to waste time"/>
+<node CREATED="1555942220917" ID="ID_664863965" MODIFIED="1555942244061" TEXT="&quot;Time wounds all heels&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1555942227438" ID="ID_1436935472" MODIFIED="1555942243503" TEXT="&quot;The surest way to waste time is to throw caution to the winds&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1555942248446" ID="ID_547667236" MODIFIED="1555942252434" TEXT="Too much confidence">
+<node CREATED="1555942252645" ID="ID_488652090" MODIFIED="1555942257410" TEXT="Not careful enough!"/>
+</node>
+<node CREATED="1555942262414" ID="ID_606402838" MODIFIED="1555942265882" TEXT="Hiring employees">
+<node CREATED="1555942266670" ID="ID_1294543061" MODIFIED="1555942270410" TEXT="One at a time"/>
+<node CREATED="1555942271165" ID="ID_868436615" MODIFIED="1555942286802" TEXT="Allow generous breaking in period low activity"/>
+<node CREATED="1555942314261" ID="ID_1622409152" MODIFIED="1555942324657" TEXT="Give meaningful but no critical work to do"/>
+<node CREATED="1555942325109" ID="ID_973188969" MODIFIED="1555942335426" TEXT="Provide backup for inevitable failure"/>
+</node>
+</node>
+<node CREATED="1555942349613" ID="ID_1073270058" MODIFIED="1555942356657" TEXT="Rhonda&apos;s Revelation">
+<node CREATED="1555942359661" ID="ID_667714917" MODIFIED="1555942364234" TEXT="Most of the changes I see">
+<node CREATED="1555942364421" ID="ID_1300586334" MODIFIED="1555942368066" TEXT="Motivated by crisis"/>
+</node>
+<node CREATED="1555942371285" ID="ID_604064878" MODIFIED="1555942375225" TEXT="Crisis and illusions">
+<node COLOR="#ff3333" CREATED="1555942375908" ID="ID_95376365" MODIFIED="1555942408534" TEXT="&quot;It may looks like a crisis, but it&apos;s only the end of an illusion&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1555942416221" ID="ID_611068898" MODIFIED="1555942421546" TEXT="The struggle to preserve">
+<node COLOR="#ff3333" CREATED="1555942425724" ID="ID_1687866978" MODIFIED="1555942444726" TEXT="&quot;When change is inevitable, we struggle most to keep what we value most&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1555942448100" ID="ID_307519773" MODIFIED="1555942452993" TEXT="Illusion only make it worst">
+<node COLOR="#ff3333" CREATED="1555942467843" ID="ID_437808670" MODIFIED="1562515473703" TEXT="&quot;When you create an illusion, to prevent of soften change, the change becomes more likely - and harder to take&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1555942505252" ID="ID_1051734688" MODIFIED="1555942518896" TEXT="Truth hurts">
+<node CREATED="1555942508556" ID="ID_1507214795" MODIFIED="1555942515712" TEXT="Illusion hurts more"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1555942529355" FOLDED="true" ID="ID_618347821" MODIFIED="1563024848245" POSITION="right" TEXT="What to do when they resist">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-0"/>
+<node CREATED="1555947088361" FOLDED="true" ID="ID_275217639" MODIFIED="1563024779169" TEXT="Appreciating resistance">
+<node CREATED="1555947098161" ID="ID_753963835" MODIFIED="1555947102486" TEXT="We need resistance to test ideas">
+<node CREATED="1555947102666" ID="ID_1947352300" MODIFIED="1555947113102" TEXT="Without, you&apos;re responsible for everything"/>
+</node>
+<node CREATED="1555947116921" ID="ID_668270820" MODIFIED="1555947120846" TEXT="Need tools to handle resistance"/>
+</node>
+<node CREATED="1555947166177" ID="ID_1581912462" MODIFIED="1563024782809" TEXT="Getting the resistance out in the open">
+<node CREATED="1555947179433" FOLDED="true" ID="ID_293640467" MODIFIED="1563024788279" TEXT="Your reaction">
+<node CREATED="1555947185416" ID="ID_314094715" MODIFIED="1555947197533" TEXT="First instinct: resist the resistance"/>
+<node CREATED="1555947233184" ID="ID_453207252" MODIFIED="1555947237541" TEXT="Should get acquainted">
+<node CREATED="1555947237728" ID="ID_342712535" MODIFIED="1555947242197" TEXT="with your own behavior pattern"/>
+</node>
+<node CREATED="1555947252760" ID="ID_1180087060" MODIFIED="1555947256652" TEXT="Non verbal behavior">
+<node CREATED="1555947257992" ID="ID_1880018548" MODIFIED="1555947260661" TEXT="Defensive">
+<node CREATED="1555947265160" ID="ID_645663497" MODIFIED="1555947265829" TEXT="moving away"/>
+<node CREATED="1555947269904" ID="ID_189404533" MODIFIED="1555947270428" TEXT="looking away"/>
+<node CREATED="1555947274375" ID="ID_201952304" MODIFIED="1555947280830" TEXT="shaking head no"/>
+<node CREATED="1555947289247" ID="ID_401724637" MODIFIED="1555947289886" TEXT="crossing arms, legs"/>
+<node CREATED="1555947293207" ID="ID_1654438694" MODIFIED="1555947298932" TEXT="excessive smiling"/>
+<node CREATED="1555947301959" ID="ID_366622429" MODIFIED="1555947303306" TEXT="yawning"/>
+</node>
+<node CREATED="1555947305695" ID="ID_493232035" MODIFIED="1555947329793" TEXT="Aggressive">
+<node CREATED="1555947317160" ID="ID_324409117" MODIFIED="1555947318149" TEXT="pointing finger"/>
+<node CREATED="1555947324063" ID="ID_1134786159" MODIFIED="1555947326078" TEXT="staring downward"/>
+<node CREATED="1555947329793" ID="ID_1740459838" MODIFIED="1555947330534" TEXT="shaking head yes"/>
+<node CREATED="1555947334047" ID="ID_700571195" MODIFIED="1555947334654" TEXT="shaking fist"/>
+<node CREATED="1555947338456" ID="ID_367805371" MODIFIED="1555947344373" TEXT="excessive frowning"/>
+<node CREATED="1555947346768" ID="ID_1896461253" MODIFIED="1555947347349" TEXT="drumming"/>
+</node>
+</node>
+</node>
+<node CREATED="1555947399895" FOLDED="true" ID="ID_263431369" MODIFIED="1563024791249" TEXT="Their action">
+<node CREATED="1555947450126" ID="ID_1778654280" MODIFIED="1555947459876" TEXT="Can detect resistance through non verbal behavior">
+<node CREATED="1555947460079" ID="ID_130591185" MODIFIED="1555947462955" TEXT="but">
+<node CREATED="1555947463143" ID="ID_533627098" MODIFIED="1555947464915" TEXT="slower"/>
+<node CREATED="1555947465359" ID="ID_171982367" MODIFIED="1555947468795" TEXT="less reliable"/>
+</node>
+<node CREATED="1555947469750" ID="ID_1553064749" MODIFIED="1555947477027" TEXT="... no access to other people feelings"/>
+</node>
+<node CREATED="1555947484054" ID="ID_1176127908" MODIFIED="1555947487570" TEXT="Visible sometimes by words">
+<node CREATED="1555947487791" ID="ID_1360097512" MODIFIED="1555947490314" TEXT="but more difficult"/>
+<node CREATED="1555947499566" ID="ID_823785273" MODIFIED="1555947547752" TEXT="Key phrases">
+<node CREATED="1555947507142" ID="ID_1735207499" MODIFIED="1555947507750" TEXT="I need more detail."/>
+<node CREATED="1555947514878" ID="ID_1077157724" MODIFIED="1555947515725" TEXT="You need more detail."/>
+<node CREATED="1555947516782" ID="ID_1907534639" MODIFIED="1555947525612" TEXT="It&apos;s too soon."/>
+<node CREATED="1555947529439" ID="ID_920737542" MODIFIED="1555947538998" TEXT="It&apos;s too late."/>
+<node CREATED="1555947543023" ID="ID_975468192" MODIFIED="1555947543854" TEXT="The real world is different."/>
+<node CREATED="1555947547753" ID="ID_1877724893" MODIFIED="1555947561282" TEXT="I have a theory about it."/>
+<node CREATED="1555947552846" ID="ID_621831501" MODIFIED="1555947553982" TEXT="That&apos;s never been tried."/>
+<node CREATED="1555947557656" MODIFIED="1555947557656" TEXT="That&apos;s old stuff."/>
+<node CREATED="1555947569494" ID="ID_1869735530" MODIFIED="1555947573900" TEXT="I don&apos;t have a problem."/>
+<node CREATED="1555947582950" ID="ID_1624581757" MODIFIED="1555947584165" TEXT="I have too many problems."/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1555947633622" ID="ID_1569442510" MODIFIED="1563024585033" TEXT="Naming the resistance in a neutral way">
+<node CREATED="1555947833500" FOLDED="true" ID="ID_408715998" MODIFIED="1563024792639" TEXT="How?">
+<node CREATED="1555947650773" ID="ID_1464016387" MODIFIED="1555947690634" TEXT="&quot;I&apos;m having trouble because the subject keeps changing. Can you help me stay focused at one thing at a time?&quot;"/>
+<node CREATED="1555947694005" ID="ID_1623320366" MODIFIED="1555947703289" TEXT="... avoid saying that the person change subject"/>
+<node CREATED="1555947708781" ID="ID_1162566200" MODIFIED="1555947714393" TEXT="Don&apos;t make accusation">
+<node CREATED="1555947714564" ID="ID_1537812026" MODIFIED="1555947717097" TEXT="State the problem"/>
+</node>
+</node>
+<node CREATED="1555947720228" FOLDED="true" ID="ID_669883360" MODIFIED="1563024808243" TEXT="Waiting for a response">
+<node CREATED="1555947737620" ID="ID_789715353" MODIFIED="1555947745577" TEXT="Naming resistance in neutral way">
+<node CREATED="1555947746076" ID="ID_623939161" MODIFIED="1555947754096" TEXT="change the discussion to a different place"/>
+<node CREATED="1555947785660" ID="ID_1124379730" MODIFIED="1555947811225" TEXT="... then wait that the client takes responsibility">
+<node CREATED="1555947811460" ID="ID_1856320842" MODIFIED="1555947813417" TEXT="in the silent"/>
+</node>
+</node>
+</node>
+<node CREATED="1555947827548" FOLDED="true" ID="ID_1832338131" MODIFIED="1563024816513" TEXT="Dealing with questions">
+<node CREATED="1555947854931" ID="ID_363388055" MODIFIED="1555947861169" TEXT="Sometimes, resistance come back">
+<node CREATED="1555947863356" ID="ID_1352504814" MODIFIED="1555947874144" TEXT="repeat same process till the true concern addressed"/>
+</node>
+<node CREATED="1555947884651" ID="ID_1989408869" MODIFIED="1555947887488" TEXT="Questions">
+<node CREATED="1555947887723" ID="ID_719513555" MODIFIED="1555947896984" TEXT="Easiest way to control consultant who need to be understood"/>
+<node CREATED="1555947903299" ID="ID_1664241595" MODIFIED="1555947912735" TEXT="To break the habit">
+<node CREATED="1555947912939" ID="ID_684875056" MODIFIED="1555947916216" TEXT="Answer three times"/>
+<node CREATED="1555947916675" ID="ID_1440313026" MODIFIED="1555947939087" TEXT="... then &quot;I answered three questions, but I don&apos;t see the direction we&apos;re going in&quot;"/>
+<node CREATED="1555947939675" ID="ID_609800591" MODIFIED="1555947943543" TEXT="Then I wait"/>
+</node>
+</node>
+</node>
+<node CREATED="1555947949371" ID="ID_125627611" MODIFIED="1563024818093" TEXT="Locating the nature of the resistance">
+<node CREATED="1555948342168" ID="ID_1745766916" MODIFIED="1555948346228" TEXT="A buffalo story"/>
+<node CREATED="1555948346719" ID="ID_223341655" MODIFIED="1555948354060" TEXT="The buffalo bridle">
+<node COLOR="#ff3333" CREATED="1555948355128" ID="ID_964987217" MODIFIED="1555948377865" TEXT="&quot;You can make buffalo go anywhere, just so long as they want to go there&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#ff3333" CREATED="1555948382903" ID="ID_1218346013" MODIFIED="1555948401841" TEXT="&quot;You can keep buffalo out of anywhere, just so long as they don&apos;t want to go there&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1555948406007" ID="ID_93243853" MODIFIED="1555948409020" TEXT="A dog story"/>
+<node CREATED="1555948409480" ID="ID_772425366" MODIFIED="1555948412548" TEXT="A people story"/>
+<node CREATED="1555948417623" ID="ID_938057806" MODIFIED="1555948433540" TEXT="Work together to discover the source">
+<node CREATED="1555948442095" ID="ID_1093256737" MODIFIED="1555948446068" TEXT="&quot;Resistance&quot;">
+<node CREATED="1555948446287" ID="ID_880056319" MODIFIED="1555948450244" TEXT="Consultant label"/>
+</node>
+<node CREATED="1555948452951" ID="ID_1911509032" MODIFIED="1555948456395" TEXT="&quot;Safety&quot;">
+<node CREATED="1555948456615" ID="ID_1106418573" MODIFIED="1555948464660" TEXT="People label"/>
+<node CREATED="1555948492478" ID="ID_86673683" MODIFIED="1555948496571" TEXT="Resistance negative balance">
+<node CREATED="1555948496839" ID="ID_1654665321" MODIFIED="1555948500235" TEXT="gain / lose"/>
+<node CREATED="1555948512150" ID="ID_552454693" MODIFIED="1555948540196" TEXT="... search source of resistance"/>
+<node CREATED="1555948540406" ID="ID_1914030106" MODIFIED="1555948546252" TEXT="... work with client to make list of both"/>
+<node CREATED="1555948549943" ID="ID_1041391341" MODIFIED="1555948556107" TEXT="Process more important than result">
+<node CREATED="1555948564078" ID="ID_1176209486" MODIFIED="1555948568627" TEXT="Bring subconscious factor in light"/>
+<node CREATED="1555948571734" ID="ID_1367239523" MODIFIED="1555948582475" TEXT="Put name on it to dissipate fear"/>
+</node>
+<node CREATED="1555948587558" ID="ID_1720660005" MODIFIED="1555948596282" TEXT="Most factor forgotten are positive"/>
+</node>
+</node>
+</node>
+<node CREATED="1555948601430" ID="ID_531715115" MODIFIED="1556366995545" TEXT="Find and test alternative approach">
+<node CREATED="1556366971576" ID="ID_851441420" MODIFIED="1556367040937" TEXT="How would you feel if we stretched out the schedule by six months?"/>
+<node CREATED="1556367048159" ID="ID_1337962574" MODIFIED="1556367049035" TEXT="Would this plan seem more attractive if we could somehow cut the cost by thirty percent?"/>
+<node CREATED="1556367053825" ID="ID_410526584" MODIFIED="1556367057759" TEXT="What if we could do it without bringing in additional people?"/>
+<node CREATED="1556367065959" ID="ID_719524261" MODIFIED="1556367075772" TEXT="Suppose we left the computer alone and changed just the manual procedures?"/>
+<node CREATED="1556367082339" ID="ID_1428800732" MODIFIED="1556367089346" TEXT="What one thing could we change in this plan that would make the most difference to you?"/>
+</node>
+</node>
+<node CREATED="1555948746581" FOLDED="true" ID="ID_1526458525" MODIFIED="1563024756296" TEXT=" Preventing resistance">
+<node CREATED="1556367168040" ID="ID_1055315545" MODIFIED="1556367175296" TEXT="Ask client what he doesn&apos;t want to change">
+<node CREATED="1556367176503" ID="ID_1814237000" MODIFIED="1556367179985" TEXT="Before proposing change"/>
+<node CREATED="1556367180771" ID="ID_703563991" MODIFIED="1556367183800" TEXT="Less resistance"/>
+</node>
+<node CREATED="1556367189336" ID="ID_427659748" MODIFIED="1556367193098" TEXT="Reducing uncertainty">
+<node CREATED="1556367225451" ID="ID_49017492" MODIFIED="1556367233195" TEXT="90% of resistance comes from uncertainty"/>
+<node CREATED="1556367244148" ID="ID_1967123877" MODIFIED="1556367251498" TEXT="Technic reducing risk">
+<node CREATED="1556367251628" ID="ID_1264043710" MODIFIED="1556367255577" TEXT="extending schedule"/>
+</node>
+<node CREATED="1556367326504" ID="ID_1521147241" MODIFIED="1556367361267" TEXT="Insurance against risk">
+<node CREATED="1556367356530" ID="ID_1146909396" MODIFIED="1556367357406" TEXT="If your fear is realized, then thus-and-such will be done to make up for it"/>
+<node CREATED="1556367361803" ID="ID_1030256753" MODIFIED="1556367367452" TEXT="Alternative: dollars and cents">
+<node CREATED="1556367387887" ID="ID_121299953" MODIFIED="1556367393069" TEXT="Trying to reduce loss"/>
+</node>
+</node>
+</node>
+<node CREATED="1556367571751" ID="ID_1597860330" MODIFIED="1556367574670" TEXT="Getting out of the way">
+<node CREATED="1556367584247" ID="ID_1955205834" MODIFIED="1556367590021" TEXT="Important part">
+<node CREATED="1556367590198" ID="ID_1172360306" MODIFIED="1556367595239" TEXT="Don&apos;t freeze the resistance">
+<node CREATED="1556367598287" ID="ID_1789515474" MODIFIED="1556367600348" TEXT="Don&apos;t fight it"/>
+<node CREATED="1556367600791" ID="ID_292249807" MODIFIED="1556367603944" TEXT="Don&apos;t resist it"/>
+</node>
+</node>
+<node CREATED="1556367609558" ID="ID_1964120663" MODIFIED="1556367616394" TEXT="Changing mind can be a form of &quot;losing&quot;">
+<node CREATED="1556367617586" ID="ID_333010989" MODIFIED="1556367622536" TEXT="Don&apos;t take it personally"/>
+<node CREATED="1556367624555" ID="ID_884340229" MODIFIED="1556367635042" TEXT="Don&apos;t try to show your superior intelligence"/>
+</node>
+<node CREATED="1556367647943" ID="ID_1182607773" MODIFIED="1556367652922" TEXT="You can walk away">
+<node CREATED="1556367653131" ID="ID_1781440498" MODIFIED="1556367666424" TEXT="Show client you&apos;re powerful enough">
+<node CREATED="1556367666586" ID="ID_461898744" MODIFIED="1556367672438" TEXT="to admit you&apos;re not omnipotent"/>
+</node>
+</node>
+<node CREATED="1556367678411" ID="ID_1301514359" MODIFIED="1556367685924" TEXT="If let go, resistance collapse">
+<node CREATED="1556367686164" ID="ID_1290966158" MODIFIED="1556367690425" TEXT="Nobody pushing anymore"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1556367695571" FOLDED="true" ID="ID_557139451" MODIFIED="1563635044615" POSITION="right" TEXT="Marketing your service">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1556367709883" ID="ID_1921030555" MODIFIED="1563024850955" TEXT="How consultant get started">
+<node CREATED="1556367716950" ID="ID_1047714655" MODIFIED="1563024852515" TEXT="By accident">
+<node CREATED="1556367722379" ID="ID_981135101" MODIFIED="1556367735985" TEXT="Have already a first client"/>
+</node>
+</node>
+<node CREATED="1556367749009" ID="ID_673278176" MODIFIED="1563024855755" TEXT="The Law of Marketing">
+<node CREATED="1556367755600" FOLDED="true" ID="ID_1421124015" MODIFIED="1563634493824" TEXT="The right amount of business">
+<node COLOR="#ff0033" CREATED="1556367773915" ID="ID_1856461593" MODIFIED="1556367959676" TEXT="Consultant can exists">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#ff0033" CREATED="1556367780054" ID="ID_460377627" MODIFIED="1556367966502" TEXT="State A">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#ff0033" CREATED="1556367782370" ID="ID_636412289" MODIFIED="1556367966502" TEXT="Idle">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#ff0033" CREATED="1556367784453" ID="ID_1595407509" MODIFIED="1556367966502" TEXT="State B">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#ff0033" CREATED="1556367787830" ID="ID_90144558" MODIFIED="1556367966502" TEXT="Busy">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1556367804445" ID="ID_1562759536" MODIFIED="1556367810188" TEXT="If you search job with right amount of job">
+<node CREATED="1556367810552" ID="ID_1429721132" MODIFIED="1556367814423" TEXT="get away from consulting"/>
+</node>
+</node>
+<node CREATED="1556367830037" ID="ID_153429317" MODIFIED="1563634494561" TEXT="The best way to get clients">
+<node COLOR="#ff0033" CREATED="1556367840272" ID="ID_1499152012" MODIFIED="1556367853775" TEXT="&quot;The best way to get clients is to have clients&quot;">
+<arrowlink DESTINATION="ID_1499152012" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_970374685" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1499152012" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_970374685" SOURCE="ID_1499152012" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556367859967" ID="ID_679052208" MODIFIED="1556367869204" TEXT="If you&apos;re busy, you&apos;re considered as &quot;special&quot;">
+<node CREATED="1556367869366" ID="ID_365753175" MODIFIED="1556367873252" TEXT="They want you even more!"/>
+</node>
+</node>
+<node CREATED="1556367876808" ID="ID_1945492782" MODIFIED="1563634501365" TEXT="Exposure time">
+<node CREATED="1556367881596" ID="ID_1465306170" MODIFIED="1556367904757" TEXT="Best way to have client is to have client">
+<node CREATED="1556367888406" ID="ID_316831776" MODIFIED="1556367911442" TEXT="Rich">
+<node CREATED="1556367908203" ID="ID_1165962303" MODIFIED="1556367910217" TEXT="Richer"/>
+</node>
+<node CREATED="1556367912087" ID="ID_1196862059" MODIFIED="1556367913275" TEXT="Poor">
+<node CREATED="1556367913499" ID="ID_1023354974" MODIFIED="1556367915202" TEXT="Poorer"/>
+</node>
+</node>
+<node COLOR="#ff0033" CREATED="1556367981055" ID="ID_226445094" MODIFIED="1556367992702" TEXT="Spend at least one day a week getting exposure.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556367998925" ID="ID_154514838" MODIFIED="1556368007554" TEXT="Working harder when too busy is not a good idea"/>
+<node CREATED="1556368014962" ID="ID_972933948" MODIFIED="1556368019917" TEXT="Kind of exposure">
+<node COLOR="#000000" CREATED="1556368020126" ID="ID_1105200129" MODIFIED="1556368069651" TEXT="The one you pay for">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1556368071648" ID="ID_1349445994" MODIFIED="1556368073724" TEXT="Ads"/>
+<node CREATED="1556368074323" ID="ID_1093475612" MODIFIED="1556368083965" TEXT="Little interest for consultants"/>
+<node CREATED="1556368088852" ID="ID_1298413208" MODIFIED="1556368092070" TEXT="Essential expenses">
+<node CREATED="1556368092388" ID="ID_1981833934" MODIFIED="1556368095775" TEXT="Business cards"/>
+</node>
+</node>
+<node COLOR="#000000" CREATED="1556368024549" ID="ID_1375165075" MODIFIED="1556368069651" TEXT="The one you get for free">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#000000" CREATED="1556368032403" ID="ID_453591259" MODIFIED="1556368069651" TEXT="The one you get payed for">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-3"/>
+<node CREATED="1556368121700" ID="ID_655218124" MODIFIED="1556368124932" TEXT="Writing for magazines"/>
+<node CREATED="1556368125405" ID="ID_1124240593" MODIFIED="1556368128403" TEXT="Training / seminars">
+<node CREATED="1556368131692" ID="ID_353978022" MODIFIED="1556368136468" TEXT="People pay to see your abilities"/>
+</node>
+</node>
+</node>
+<node CREATED="1556368148120" ID="ID_1794590071" MODIFIED="1556368151538" TEXT="How important are you?">
+<node COLOR="#ff0033" CREATED="1556368155297" ID="ID_1006053915" MODIFIED="1556368408178" TEXT="&quot;Clients are more important for you that you will ever be for them&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1556368183268" ID="ID_551054885" MODIFIED="1556368190945" TEXT="Not matter how sold your business"/>
+<node CREATED="1556368191513" ID="ID_1846812923" MODIFIED="1556368195524" TEXT="... you can always lose clients"/>
+<node CREATED="1556368196356" ID="ID_1623510747" MODIFIED="1556368200508" TEXT="... for any reason"/>
+</node>
+</node>
+<node CREATED="1556368204438" ID="ID_800005686" MODIFIED="1556368206608" TEXT="Big clients">
+<node COLOR="#ff0033" CREATED="1556368207004" ID="ID_1893755747" MODIFIED="1556368408178" TEXT="&quot;Never let a single client have more than one fourth of your business&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1556368241217" ID="ID_1183299058" MODIFIED="1556368250187" TEXT="Lynn&apos;s law of life">
+<node CREATED="1556368254560" ID="ID_546796894" MODIFIED="1556368264702" TEXT="Everytime you fear to say &quot;no&quot; to client">
+<node CREATED="1556368264911" ID="ID_1075415413" MODIFIED="1556368269250" TEXT="Less effective as a consultant"/>
+</node>
+<node COLOR="#ff0033" CREATED="1556368277368" ID="ID_1798703420" MODIFIED="1556368408178" TEXT="&quot;To be able to say &apos;yes&apos; to you as a consultant, be able to say &apos;no&apos; to any of your client&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556368319184" ID="ID_440964288" MODIFIED="1556368325489" TEXT="More important than any marketing law">
+<node CREATED="1556368325729" ID="ID_182739764" MODIFIED="1556368330645" TEXT="Give respect to your client"/>
+</node>
+</node>
+</node>
+<node CREATED="1556368339816" ID="ID_437978971" MODIFIED="1563634719187" TEXT="More laws of marketing">
+<node CREATED="1556368346368" ID="ID_1807241586" MODIFIED="1556368349709" TEXT="Satisfied clients">
+<node COLOR="#ff0033" CREATED="1556368381172" ID="ID_333535110" MODIFIED="1556368408178" TEXT="&quot;The best marketing tool is a satisfied client&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556368416148" ID="ID_965791178" MODIFIED="1556368423155" TEXT="Always ask clients to use them as reference"/>
+<node CREATED="1556368430423" ID="ID_197905788" MODIFIED="1556368450690" TEXT="Word of mouth">
+<node CREATED="1556368451117" ID="ID_496444271" MODIFIED="1556368453787" TEXT="Even better!"/>
+</node>
+<node CREATED="1556368470789" ID="ID_1602716742" MODIFIED="1556368485939" TEXT="Always ask somebody who wants your service where he had your name">
+<node CREATED="1556368491374" ID="ID_114187317" MODIFIED="1556368496415" TEXT="Thanks people recommending you"/>
+<node CREATED="1556368496935" ID="ID_1097971209" MODIFIED="1556368501649" TEXT="Understanding marketing"/>
+</node>
+</node>
+<node CREATED="1556368504300" ID="ID_1842561923" MODIFIED="1556368507390" TEXT="Giving it away">
+<node COLOR="#ff0033" CREATED="1556368523791" ID="ID_1700414153" MODIFIED="1556368563606" TEXT="&quot;It is not once, nor twice, but times without number, that the same ideas makes an appearance in the world&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#ff0033" CREATED="1556368552652" ID="ID_297543930" MODIFIED="1556368570829" TEXT="&quot;Give away your best ideas&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1556368588330" ID="ID_1916038539" MODIFIED="1556368594369" TEXT="The Duncan Hines Difference">
+<node CREATED="1556368637791" ID="ID_633947228" MODIFIED="1556368642691" TEXT="Mixed cake">
+<node CREATED="1556368648299" ID="ID_170579686" MODIFIED="1556368656335" TEXT="Sell better when you don&apos;t only need water"/>
+<node CREATED="1556368656980" ID="ID_1157363006" MODIFIED="1556368659728" TEXT="... but an egg"/>
+</node>
+<node COLOR="#ff0000" CREATED="1556368597269" ID="ID_120432245" MODIFIED="1556955204933" TEXT="&quot;It tastes better when you add your own eggs&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1556368611629" ID="ID_1124156875" MODIFIED="1556368616327" TEXT="Reducing too much friction"/>
+<node CREATED="1556368616847" ID="ID_1652370902" MODIFIED="1556368619938" TEXT="... can be too much!"/>
+</node>
+<node CREATED="1556457112637" ID="ID_309065814" MODIFIED="1556457117667" TEXT="Make the consumer contribute"/>
+</node>
+<node CREATED="1556457131973" ID="ID_654884874" MODIFIED="1556457136376" TEXT="Doing nothing is doing something">
+<node CREATED="1556457142181" ID="ID_1645347488" MODIFIED="1563634823546" TEXT="&quot;Spend at least one fourth of your time doing nothing&quot;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556457161421" ID="ID_1314988881" MODIFIED="1556457163185" TEXT="Why?">
+<node CREATED="1556457168188" ID="ID_545350535" MODIFIED="1556457177513" TEXT="If time book, not in position for new business"/>
+<node CREATED="1556457181308" ID="ID_1234651805" MODIFIED="1556457189392" TEXT="Being able to respond quickly to emergency"/>
+<node CREATED="1556457192011" ID="ID_276704561" MODIFIED="1556457204432" TEXT="If you have no slack">
+<node CREATED="1556457204636" ID="ID_1060394326" MODIFIED="1556457216032" TEXT="you might not be able to keep promises"/>
+</node>
+<node CREATED="1556457220243" ID="ID_903669672" MODIFIED="1556457224792" TEXT="You&apos;re your only product">
+<node CREATED="1556457226435" ID="ID_934803750" MODIFIED="1556457228272" TEXT="Can burn out"/>
+<node CREATED="1556457228810" ID="ID_1974670033" MODIFIED="1556457233152" TEXT="Can run out fresh ideas"/>
+</node>
+<node CREATED="1556457235907" ID="ID_1945555098" MODIFIED="1556457240031" TEXT="Don&apos;t give your clients too much"/>
+</node>
+</node>
+<node CREATED="1556457292906" ID="ID_1713780075" MODIFIED="1563634883825" TEXT="Summary">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1556457368323" ID="ID_1139169293" MODIFIED="1556457369190" TEXT="Time">
+<node CREATED="1556457294778" ID="ID_637072083" MODIFIED="1556457357272" TEXT="Administration 2/4">
+<node CREATED="1556457301484" ID="ID_327231488" MODIFIED="1556457302912" TEXT="Marketing">
+<node CREATED="1556457338955" ID="ID_158648861" MODIFIED="1556457343144" TEXT="1/4"/>
+</node>
+<node CREATED="1556457303682" ID="ID_373873887" MODIFIED="1556457304657" TEXT="Slack">
+<node CREATED="1556457345802" ID="ID_168657322" MODIFIED="1556457351037" TEXT="1/4"/>
+</node>
+</node>
+<node CREATED="1556457309907" ID="ID_411834221" MODIFIED="1556457379000" TEXT="Billable time 2/4"/>
+</node>
+<node CREATED="1556457386396" ID="ID_1437449643" MODIFIED="1556457387710" TEXT="Money">
+<node CREATED="1556457387913" ID="ID_1271813692" MODIFIED="1556457395358" TEXT="Earning in adminstration">
+<node CREATED="1556457395546" ID="ID_362797286" MODIFIED="1556457396456" TEXT="1/2"/>
+</node>
+<node CREATED="1556457400554" ID="ID_366389485" MODIFIED="1556457408431" TEXT="Contingency reserve">
+<node CREATED="1556457408539" ID="ID_738997553" MODIFIED="1556457410511" TEXT="20%"/>
+</node>
+</node>
+<node CREATED="1556457413272" ID="ID_1367408507" MODIFIED="1556457416111" TEXT="Billing time">
+<node CREATED="1556457416282" ID="ID_404777622" MODIFIED="1556457423319" TEXT="5 times your target salary"/>
+</node>
+<node CREATED="1556457428938" ID="ID_31522396" MODIFIED="1556457432997" TEXT="If you think you can&apos;t do that">
+<node CREATED="1556457433200" ID="ID_1975323415" MODIFIED="1556457443388" STYLE="fork" TEXT="You&apos;re in the wrong business"/>
+</node>
+</node>
+</node>
+<node CREATED="1556457447393" ID="ID_1953087506" MODIFIED="1563635011221" TEXT="Marketing for quality">
+<node COLOR="#ff0000" CREATED="1556457452314" ID="ID_756461764" MODIFIED="1556457485026" TEXT="&quot;Market for quality, not quantity&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556457489514" ID="ID_1321133771" MODIFIED="1556457494046" TEXT="Make yourself happy">
+<node CREATED="1556457494249" ID="ID_200764754" MODIFIED="1556457497118" TEXT="more than rich"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1556457504722" FOLDED="true" ID="ID_802373300" MODIFIED="1563635157467" POSITION="right" TEXT="Putting a price on your head">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-2"/>
+<node CREATED="1556457537465" ID="ID_1023921720" MODIFIED="1563024925888" TEXT="Sex and the first law of pricing">
+<node COLOR="#ff0000" CREATED="1556457556456" ID="ID_1311667205" MODIFIED="1556457576113" TEXT="&quot;Pricing has many functions, only one of which is the exchange of money&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1556457591872" ID="ID_1223703726" MODIFIED="1563024998544" TEXT="Image and the second law of pricing">
+<node COLOR="#ff0000" CREATED="1556457606545" ID="ID_875522062" MODIFIED="1556457617240" TEXT="&quot;The more they pay you, the more they love you&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#ff0000" CREATED="1556457622119" ID="ID_1665119958" MODIFIED="1556457631800" TEXT="&quot;The less they pay you, the less they respect you&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556457641088" ID="ID_751912316" MODIFIED="1556457648835" TEXT="Don&apos;t work for clients who don&apos;t pay regular price">
+<node CREATED="1556457649071" ID="ID_212803003" MODIFIED="1556457654613" TEXT="You&apos;re not worth... for them"/>
+</node>
+</node>
+<node CREATED="1556457659199" ID="ID_1723457132" MODIFIED="1563025085160" TEXT="More than money: the third law of pricing">
+<node COLOR="#ff0000" CREATED="1556457674040" ID="ID_463356821" MODIFIED="1556457687496" TEXT="&quot;The money is usually the smallest part of the price&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556457696391" ID="ID_1760077246" MODIFIED="1556457702028" TEXT="Psychological cost">
+<node CREATED="1556457702184" ID="ID_1320382036" MODIFIED="1556457709781" TEXT="admitting there is a problem"/>
+</node>
+<node CREATED="1556457714662" ID="ID_545685883" MODIFIED="1556457720026" TEXT="Labor to get approved for your visit"/>
+<node CREATED="1556457727550" ID="ID_211242008" MODIFIED="1556457733715" TEXT="Difficulty of changing schedule"/>
+<node CREATED="1556457738591" ID="ID_291032327" MODIFIED="1556457748355" TEXT="If client pay something ">
+<node CREATED="1556457748815" ID="ID_1522452941" MODIFIED="1556457750467" TEXT="To have you"/>
+<node CREATED="1556457750975" ID="ID_1177645097" MODIFIED="1556457755043" TEXT="... but not directly to you"/>
+<node CREATED="1556457755566" ID="ID_1999405034" MODIFIED="1556457768676" TEXT="... in effect you raise the price!"/>
+</node>
+</node>
+<node CREATED="1556457772390" ID="ID_1049322936" MODIFIED="1563025170234" TEXT="Alternative fees, the fourth law of pricing">
+<node CREATED="1556457801805" ID="ID_203032232" MODIFIED="1556457820028" TEXT="Increase your compensations">
+<node CREATED="1556457820471" ID="ID_706304347" MODIFIED="1556457825570" TEXT="without increasing client&apos;s cost"/>
+<node CREATED="1556457875318" ID="ID_754137412" MODIFIED="1556457884426" TEXT="Sell your tools"/>
+<node CREATED="1556457888501" ID="ID_403648852" MODIFIED="1556457894506" TEXT="Contract with prospective client">
+<node CREATED="1556457894679" ID="ID_173351921" MODIFIED="1556457896626" TEXT="in the area"/>
+</node>
+<node CREATED="1556457901534" ID="ID_594000370" MODIFIED="1556457908891" TEXT="Sell computing services"/>
+<node CREATED="1556457915911" ID="ID_1557217684" MODIFIED="1556457922626" TEXT="Ask client to show you an area you want to visit">
+<node CREATED="1556457922804" ID="ID_1228265255" MODIFIED="1556457928171" TEXT="Strength relationship"/>
+<node CREATED="1556457932389" ID="ID_924102797" MODIFIED="1556457936458" TEXT="Learn some geography"/>
+</node>
+</node>
+<node COLOR="#ff0000" CREATED="1556457942013" ID="ID_854647327" MODIFIED="1556457954454" TEXT="&quot;Pricing is not a zero sum game&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1556457959789" ID="ID_23442375" MODIFIED="1556457961426" TEXT="My gains"/>
+<node CREATED="1556457961956" ID="ID_1839741873" MODIFIED="1556457966346" TEXT="... don&apos;t have to be their loss"/>
+</node>
+</node>
+<node CREATED="1556457970580" ID="ID_439677212" MODIFIED="1563025242481" TEXT="Need for money and the fifth law of pricing">
+<node COLOR="#ff0000" CREATED="1556457982253" ID="ID_803681364" MODIFIED="1556457991780" TEXT="&quot;If you need the money, don&apos;t take the job&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556457996820" ID="ID_217895144" MODIFIED="1556457998352" TEXT="Price">
+<node CREATED="1556457998525" ID="ID_751918600" MODIFIED="1556457999832" TEXT="Too high"/>
+<node CREATED="1556458000380" ID="ID_1225872886" MODIFIED="1556458006170" TEXT="... or too low"/>
+<node CREATED="1556458010181" ID="ID_1529965525" MODIFIED="1556458014880" TEXT="Destroy usefulness of price"/>
+</node>
+<node CREATED="1556458021683" ID="ID_1371239218" MODIFIED="1556458026168" TEXT="When negociate with client">
+<node CREATED="1556458026396" ID="ID_1625056982" MODIFIED="1556458032681" TEXT="Always it shows you&apos;re needy"/>
+</node>
+<node CREATED="1556458036012" ID="ID_535182097" MODIFIED="1556458042408" TEXT="If you sell">
+<node CREATED="1556458042556" ID="ID_900371012" MODIFIED="1556458043593" TEXT="Not good"/>
+<node CREATED="1556458044277" ID="ID_1467007010" MODIFIED="1556458054008" TEXT="Too high prices">
+<node CREATED="1556458054203" ID="ID_171880822" MODIFIED="1556458066768" TEXT="Claim over exaggerating for services"/>
+</node>
+</node>
+</node>
+<node CREATED="1556458072532" ID="ID_1783512884" MODIFIED="1563025289173" TEXT="Fee as feedback: the sixth law of pricing">
+<node CREATED="1556458084357" ID="ID_205197590" MODIFIED="1556458090249" TEXT="If you&apos;re desperate">
+<node CREATED="1556458091245" ID="ID_722220193" MODIFIED="1556458094072" TEXT="Try free services"/>
+<node CREATED="1556458095962" ID="ID_1239926727" MODIFIED="1556458100545" TEXT="Be honest about it">
+<node CREATED="1556458103676" ID="ID_1669356250" MODIFIED="1556458106640" TEXT="Just a beginner"/>
+</node>
+</node>
+<node CREATED="1556458114291" ID="ID_53107452" MODIFIED="1556458121343" TEXT="Fee payed only if client satisfied">
+<node CREATED="1556458124452" ID="ID_1696961098" MODIFIED="1556458128744" TEXT="Money back guarantee"/>
+<node CREATED="1556458129365" ID="ID_1350477770" MODIFIED="1556458135279" TEXT="Author of the book ALWAYS do that"/>
+<node CREATED="1556458144188" ID="ID_1090767327" MODIFIED="1556458246832" TEXT="Inspire confidence for">
+<node CREATED="1556458247170" ID="ID_1024226929" MODIFIED="1556458248214" TEXT="client"/>
+<node CREATED="1556458248890" ID="ID_1590804911" MODIFIED="1556458250174" TEXT="yourself"/>
+</node>
+</node>
+<node COLOR="#ff0000" CREATED="1556458252075" ID="ID_798656270" MODIFIED="1556458266425" TEXT="&quot;If they don&apos;t like your work, don&apos;t take their money&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1556458277242" ID="ID_973496402" MODIFIED="1563025473623" TEXT="Fee for special effect and the seventh law of pricing">
+<node COLOR="#ff0000" CREATED="1556458293755" ID="ID_33793651" MODIFIED="1556458299913" TEXT="&quot;Money is more than price&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556458305553" ID="ID_639113114" MODIFIED="1556458308855" TEXT="Set fee in steps">
+<node CREATED="1556458309043" ID="ID_1623366598" MODIFIED="1556458315455" TEXT="Each fee for each step done"/>
+<node CREATED="1556458321865" ID="ID_1089111688" MODIFIED="1556458327845" TEXT="... if you&apos;re not sure you can do everything"/>
+</node>
+</node>
+<node CREATED="1556458332696" ID="ID_1313139250" MODIFIED="1563025504935" TEXT="Negociation and the eight law of pricing">
+<node COLOR="#ff0000" CREATED="1556458349562" ID="ID_1405578350" MODIFIED="1556458372531" TEXT="&quot;Price is not a thing, it&apos;s a negotiated relationship&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1556458375970" ID="ID_1317215622" MODIFIED="1563026028441" TEXT="The principle of last regret: the ninth law of pricing">
+<node COLOR="#ff0000" CREATED="1556458398121" ID="ID_928490572" MODIFIED="1556458408808" TEXT="&quot;Set the price, so you won&apos;t regret it either way&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1556458413656" ID="ID_1803324755" MODIFIED="1563026068434" TEXT="Fee as feeling: the tenth law of pricing">
+<node COLOR="#ff0000" CREATED="1556458421513" ID="ID_1696729003" MODIFIED="1556458434729" TEXT="&quot;All prices are ultimately based on feelings, both yours and theirs&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1555239859982" FOLDED="true" ID="ID_722747204" MODIFIED="1570255592973" POSITION="left" TEXT="Avoiding traps">
+<icon BUILTIN="full-6"/>
+<node CREATED="1555239890089" FOLDED="true" ID="ID_264378378" MODIFIED="1570255591540" TEXT="Staying out of troubles">
+<node CREATED="1555239963379" ID="ID_138399826" MODIFIED="1555239969917" TEXT="Most of trouble from same source">
+<node CREATED="1555239970266" ID="ID_1293628551" MODIFIED="1555239973466" TEXT="Yourself"/>
+</node>
+</node>
+<node CREATED="1555239977397" FOLDED="true" ID="ID_1783185450" MODIFIED="1570255591540" TEXT="Laws, rules, and edicts">
+<node CREATED="1555239985594" ID="ID_1500995593" MODIFIED="1555239991867" TEXT="A mysterious Christmas Gift"/>
+<node CREATED="1555239997388" ID="ID_975903976" MODIFIED="1555239998856" TEXT="Triggers"/>
+<node CREATED="1555240004464" ID="ID_729798651" MODIFIED="1555240008208" TEXT="The Main Maxim">
+<node COLOR="#ff3333" CREATED="1555240013386" ID="ID_138605183" MODIFIED="1555240033840" TEXT="&quot;What you don&apos;t know may not hurt you, but what you don&apos;t remember always does&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1555240041748" ID="ID_42518267" MODIFIED="1555240044105" TEXT="You need trigger">
+<node CREATED="1555240044330" ID="ID_697935929" MODIFIED="1555240049261" TEXT="To remember at the good moment">
+<node CREATED="1555240049891" ID="ID_1296394517" MODIFIED="1555240051796" TEXT="To do"/>
+<node CREATED="1555240052348" ID="ID_964083263" MODIFIED="1555240053972" TEXT="Not to do"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1555240065842" FOLDED="true" ID="ID_1887123103" MODIFIED="1570255591540" TEXT="The art of setting triggers">
+<node CREATED="1555240077231" ID="ID_664388501" MODIFIED="1555240079027" TEXT="In">
+<node CREATED="1555240079298" ID="ID_1359017745" MODIFIED="1555240080657" TEXT="Your head"/>
+<node CREATED="1555240081162" ID="ID_763745332" MODIFIED="1555240083379" TEXT="Client&apos;s head"/>
+</node>
+<node CREATED="1555240092145" ID="ID_836769263" MODIFIED="1555240099183" TEXT="The potato chip principle">
+<node COLOR="#ff3333" CREATED="1555240102083" ID="ID_1588792027" MODIFIED="1555240119715" TEXT="&quot;If you know your audience, it&apos;s easy to set triggers&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1555240145923" ID="ID_1065831756" MODIFIED="1555240148936" TEXT="One liners">
+<node CREATED="1555240149316" ID="ID_1346804612" MODIFIED="1555240154123" TEXT="Most effective trigger">
+<node CREATED="1555240154878" ID="ID_1180834893" MODIFIED="1555240159638" TEXT="Funny one liners"/>
+</node>
+</node>
+<node CREATED="1555240162726" ID="ID_483133788" MODIFIED="1555240165473" TEXT="The titanic effect">
+<node CREATED="1555240171079" ID="ID_1362047863" MODIFIED="1555240188709" TEXT="&quot;The thought that disaster is impossible often leads to an unthinkable disaster&quot;"/>
+</node>
+<node CREATED="1555240199284" ID="ID_1311123044" MODIFIED="1555240203904" TEXT="Triggering on natural events">
+<node CREATED="1555240207772" ID="ID_1483868894" MODIFIED="1555240215401" TEXT="Don&apos;t need to be convinced to be careful"/>
+<node CREATED="1555240215860" ID="ID_486881142" MODIFIED="1555240218389" TEXT="You need a doubt"/>
+<node CREATED="1555240222350" ID="ID_1434910699" MODIFIED="1555240228685" TEXT="Remember the Titanic!"/>
+</node>
+</node>
+<node CREATED="1555240235423" FOLDED="true" ID="ID_1190160153" MODIFIED="1570255591541" TEXT="Building your own Bell system">
+<node CREATED="1555240249463" ID="ID_193313468" MODIFIED="1555240254286" TEXT="Phone is noticeable">
+<node CREATED="1555240254479" ID="ID_444974337" MODIFIED="1555240256930" TEXT="Thanks to its bell"/>
+<node CREATED="1555240263769" ID="ID_1624321413" MODIFIED="1555240267577" TEXT="... designed for">
+<node CREATED="1555240267864" ID="ID_1872188203" MODIFIED="1555240272842" TEXT="you not to think about something else"/>
+</node>
+</node>
+<node CREATED="1555247032041" ID="ID_1419353593" MODIFIED="1555247074092" TEXT="Attached notes">
+<node CREATED="1555247037992" ID="ID_1398872694" MODIFIED="1555247046980" TEXT="Personal Bell System"/>
+<node CREATED="1555247047719" ID="ID_345938864" MODIFIED="1555247052276" TEXT="Built step by step"/>
+<node CREATED="1555247064880" ID="ID_48709271" MODIFIED="1555247076215" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1555247076502" ID="ID_491946664" MODIFIED="1555247081932" TEXT="Write 6 reasons"/>
+<node CREATED="1555247082375" ID="ID_952742447" MODIFIED="1555247086168" TEXT="for not overeating"/>
+<node CREATED="1555247086657" ID="ID_1870980691" MODIFIED="1555247101729" TEXT="on your business card">
+<node CREATED="1555247101922" ID="ID_1680616747" MODIFIED="1555247105325" TEXT="Next to credit card"/>
+<node CREATED="1555247105783" ID="ID_1766539413" MODIFIED="1555247110684" TEXT="... when paying in a restaurant"/>
+</node>
+</node>
+</node>
+<node CREATED="1555247117796" ID="ID_1605906810" MODIFIED="1555247120122" TEXT="Tally cards">
+<node CREATED="1555247120331" ID="ID_481089705" MODIFIED="1555247127056" TEXT="Not to do a habit"/>
+<node CREATED="1555247135276" ID="ID_219005040" MODIFIED="1555247144170" TEXT="Write the time when you do it">
+<node CREATED="1555247144425" ID="ID_1090471235" MODIFIED="1555247146892" TEXT="with other details"/>
+</node>
+<node CREATED="1555247151711" ID="ID_1160899203" MODIFIED="1555247157072" TEXT="Very effective">
+<node CREATED="1555247157561" ID="ID_131272461" MODIFIED="1555247160621" TEXT="to reduce bad habit"/>
+</node>
+</node>
+<node CREATED="1555247163911" ID="ID_1958902496" MODIFIED="1555247166783" TEXT="Other people">
+<node CREATED="1555247170807" ID="ID_372662957" MODIFIED="1555247175816" TEXT="Using other people as trigger">
+<node CREATED="1555247176836" ID="ID_17950538" MODIFIED="1555247179942" TEXT="dangerous practice"/>
+<node CREATED="1555247201406" ID="ID_1467973959" MODIFIED="1555247212937" TEXT="Use people to blame them">
+<node CREATED="1555247204862" ID="ID_573755532" MODIFIED="1555247221493" TEXT="what you&apos;re supposed to do"/>
+</node>
+</node>
+</node>
+<node CREATED="1555247227811" ID="ID_163820030" MODIFIED="1555247229685" TEXT="Signals"/>
+<node CREATED="1555247238553" ID="ID_399767380" MODIFIED="1555247243155" TEXT="Mutual triggers pact"/>
+</node>
+<node CREATED="1555247251569" FOLDED="true" ID="ID_1600684853" MODIFIED="1570255591541" TEXT="Using your unconscious mind">
+<node CREATED="1555247330916" ID="ID_398293205" MODIFIED="1555247338110" TEXT="The songmeister">
+<node CREATED="1555247338303" ID="ID_1555989717" MODIFIED="1555247341893" TEXT="Listen to what">
+<node CREATED="1555247342070" ID="ID_1978270899" MODIFIED="1555247344506" TEXT="you&apos;re saying"/>
+<node CREATED="1555247345011" ID="ID_1171926815" MODIFIED="1555247348055" TEXT="you&apos;re thinking about"/>
+</node>
+<node CREATED="1555247358583" ID="ID_1264300142" MODIFIED="1555247367571" TEXT="Unconscious might want to say something"/>
+</node>
+<node CREATED="1555247375354" ID="ID_517086456" MODIFIED="1555247381346" TEXT="Limits to the unconscious"/>
+<node CREATED="1555247463900" ID="ID_221885379" MODIFIED="1562514381744" TEXT="Watching the inside of your head">
+<node CREATED="1555247476412" ID="ID_1720132809" MODIFIED="1555247556669" TEXT="Could be anything">
+<node CREATED="1555247485312" ID="ID_1400031697" MODIFIED="1555247488449" TEXT="Slip of tongues"/>
+<node CREATED="1555247488986" ID="ID_1080256183" MODIFIED="1555247492849" TEXT="Gestures"/>
+<node CREATED="1555247493338" ID="ID_222636597" MODIFIED="1555247495243" TEXT="One liners"/>
+<node CREATED="1555247495748" ID="ID_860579607" MODIFIED="1555247498496" TEXT="Puns"/>
+<node CREATED="1555247499048" ID="ID_944548945" MODIFIED="1555247501436" TEXT="Catchwords"/>
+<node CREATED="1555247511481" ID="ID_1962953782" MODIFIED="1555247517224" TEXT="Flashes of mental picture"/>
+<node CREATED="1555247519398" ID="ID_468600617" MODIFIED="1555247521631" TEXT="Body postures"/>
+<node CREATED="1555247522526" ID="ID_523969859" MODIFIED="1555247534384" TEXT="Noticing weird objects"/>
+<node CREATED="1555247534952" ID="ID_568056367" MODIFIED="1555247543222" TEXT="Mistaking person to another"/>
+<node CREATED="1555247544000" ID="ID_1501044668" MODIFIED="1555247551927" TEXT="Combination of everything above"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1556458441117" FOLDED="true" ID="ID_1343182746" MODIFIED="1570255503890" POSITION="right" TEXT="How to be trusted">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-3"/>
+<node CREATED="1556955002199" ID="ID_963753865" MODIFIED="1556956296530" TEXT="Image and the first law of trust">
+<node CREATED="1556955022461" ID="ID_1191556462" MODIFIED="1556955025331" TEXT="Price versus trust"/>
+<node CREATED="1556955025974" ID="ID_1826146207" MODIFIED="1556955031058" TEXT="The value of explanations">
+<node COLOR="#ff0000" CREATED="1556955034166" ID="ID_924080576" MODIFIED="1556955203123" TEXT="&quot;Nobody but you cares about the reason you let another person down&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556955051927" ID="ID_809553464" MODIFIED="1556955064419" TEXT="People can form theyr own image of you">
+<node CREATED="1556955064582" ID="ID_732858969" MODIFIED="1556955076809" TEXT="Following deeds"/>
+<node CREATED="1556955068582" ID="ID_235554634" MODIFIED="1556955071794" TEXT="not words"/>
+</node>
+</node>
+</node>
+<node CREATED="1556955103718" ID="ID_1061185432" MODIFIED="1556956296530" TEXT="Fairness and the second law of trust">
+<node COLOR="#ff0000" CREATED="1556955140172" ID="ID_1641284575" MODIFIED="1556955202068" TEXT="&quot;Trust take years to win, moments to lose&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1556955171564" ID="ID_1874886126" MODIFIED="1556956296530" TEXT="Lost truth and the third law">
+<node COLOR="#ff0000" CREATED="1556955179502" ID="ID_1909730094" MODIFIED="1556955199291" TEXT="&quot;People don&apos;t tell you when they stop trusting you&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1556955215924" ID="ID_1244463624" MODIFIED="1556956296530" TEXT="Tricks and the fourth law of trust">
+<node COLOR="#ff0000" CREATED="1556955224621" ID="ID_1558895763" MODIFIED="1556955245804" TEXT="&quot;The trick to earning trust is to avoid all tricks&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556955263748" ID="ID_944848718" MODIFIED="1556955275296" TEXT="If it&apos;s forbidden to talk to an employee (by his boss)">
+<node CREATED="1556955275669" ID="ID_730868351" MODIFIED="1556955278136" TEXT="Strong action"/>
+<node CREATED="1556955278756" ID="ID_1042504995" MODIFIED="1556955286592" TEXT="Focus on why it&apos;s forbidden"/>
+<node CREATED="1556955304476" ID="ID_480671949" MODIFIED="1556955310440" TEXT="Feeling client / employee">
+<node CREATED="1556955314851" ID="ID_777917249" MODIFIED="1556955334009" TEXT="If you don&apos;t try to understand them"/>
+<node CREATED="1556955336197" ID="ID_1612372002" MODIFIED="1556955344121" TEXT="... action will like random">
+<node CREATED="1556955326378" ID="ID_1751465766" MODIFIED="1556955346833" TEXT="destroy trust!"/>
+</node>
+</node>
+<node CREATED="1556955369275" ID="ID_1302075707" MODIFIED="1556955373479" TEXT="Getting hidden feelings out">
+<node CREATED="1556955373667" ID="ID_1046103898" MODIFIED="1556955388976" TEXT="Best way to build trust!"/>
+</node>
+</node>
+</node>
+<node CREATED="1556955411907" ID="ID_822711104" MODIFIED="1556956296530" TEXT="Why lying? The fifth law of trust">
+<node CREATED="1556955435307" ID="ID_493502866" MODIFIED="1556955447160" TEXT="Trust based">
+<node CREATED="1556955440923" ID="ID_1844883262" MODIFIED="1556955445342" TEXT="Half on Honesty"/>
+<node CREATED="1556955447450" ID="ID_1142993233" MODIFIED="1556955454215" TEXT="Half on Abilities"/>
+</node>
+<node CREATED="1556955463258" ID="ID_1017893679" MODIFIED="1556955467695" TEXT="Don&apos;t agree on manager&apos;s version">
+<node CREATED="1556955467906" ID="ID_1117575387" MODIFIED="1556955475278" TEXT="if you only have his version!"/>
+</node>
+<node COLOR="#ff3333" CREATED="1556955478867" ID="ID_374443852" MODIFIED="1556955496575" TEXT="&quot;People are never liers in their own eyes&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1556955502058" ID="ID_1468689237" MODIFIED="1556956296530" TEXT="Protection and the sixth law of trust">
+<node COLOR="#ff0000" CREATED="1556955525434" ID="ID_1503121450" MODIFIED="1556955536787" TEXT="&quot;Always trust your client... and cut the cards&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556955513001" ID="ID_1327556883" MODIFIED="1556955517943" TEXT="Client always tell the trust">
+<node CREATED="1556955518146" ID="ID_1562701268" MODIFIED="1556955521445" TEXT="as they see it"/>
+</node>
+</node>
+<node CREATED="1556955547674" ID="ID_355730858" MODIFIED="1556956296530" TEXT="Honesty and the seventh law of trust">
+<node COLOR="#ff0000" CREATED="1556955559465" ID="ID_1684131286" MODIFIED="1556955571640" TEXT="&quot;Never be dishonest, even if the client request it&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1556955576274" ID="ID_1946115051" MODIFIED="1556956296530" TEXT="Promises, promises, and two more laws of trust">
+<node COLOR="#ff0000" CREATED="1556955591753" ID="ID_355247036" MODIFIED="1556955596658" TEXT="&quot;Never promise anything&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556955597368" ID="ID_1320034051" MODIFIED="1556955603573" TEXT="Nobody knows about the future"/>
+<node COLOR="#ff0000" CREATED="1556955621697" ID="ID_151680911" MODIFIED="1556955629512" TEXT="&quot;Always keep your promises&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1556955634161" ID="ID_157870815" MODIFIED="1556956296530" TEXT="Contracts and the tenth law of trust">
+<node CREATED="1556955645961" ID="ID_1709851686" MODIFIED="1556955650038" TEXT="3 Things to remember">
+<node CREATED="1556955650223" ID="ID_1496059940" MODIFIED="1556955657138" TEXT="Get it in writing">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1556955650223" ID="ID_625042087" MODIFIED="1556955659923" TEXT="Get it in writing">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1556955650223" ID="ID_1377812100" MODIFIED="1556955661723" TEXT="Get it in writing">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1556955666047" ID="ID_359462116" MODIFIED="1556955673021" TEXT="Useful way to prevent misunderstanding"/>
+<node CREATED="1556955678927" ID="ID_1834965831" MODIFIED="1556955682924" TEXT="... but still need trust!"/>
+<node COLOR="#ff0000" CREATED="1556955686465" ID="ID_641872914" MODIFIED="1556955694392" TEXT="&quot;Get it in writing, but depend on trust&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1556955702913" ID="ID_405837810" MODIFIED="1556955707627" TEXT="Trust and the golden rule"/>
+</node>
+<node CREATED="1556955742918" FOLDED="true" ID="ID_543076121" MODIFIED="1570255462096" POSITION="right" TEXT="Getting people to follow your advice">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-4"/>
+<node CREATED="1556955773951" ID="ID_971226387" MODIFIED="1556955775012" TEXT="Roots"/>
+<node CREATED="1556955785463" ID="ID_1314601968" MODIFIED="1562515539919" TEXT="Lessons from the farm">
+<node CREATED="1556955789151" ID="ID_1580404091" MODIFIED="1556955839113" TEXT="Never use cheap seed">
+<icon BUILTIN="full-1"/>
+<node CREATED="1556955795968" ID="ID_28543887" MODIFIED="1556955801733" TEXT="Make sure ideas are best quality"/>
+<node CREATED="1556955807351" ID="ID_1234163374" MODIFIED="1556955824828" TEXT="... you will invest">
+<node CREATED="1556955825031" ID="ID_1737653237" MODIFIED="1556955826476" TEXT="Time "/>
+<node CREATED="1556955827071" ID="ID_1091460912" MODIFIED="1556955828628" TEXT="Money"/>
+</node>
+<node CREATED="1556955829319" ID="ID_1488853432" MODIFIED="1556955832291" TEXT="... for it to grow"/>
+</node>
+<node CREATED="1556955840136" ID="ID_652573956" MODIFIED="1556955857617" TEXT="A prepared soil is the secret of all gardening">
+<icon BUILTIN="full-2"/>
+<node CREATED="1556955863974" ID="ID_1109050265" MODIFIED="1556955870306" TEXT="Preparation before planting the idea"/>
+<node CREATED="1556955870767" ID="ID_1484373524" MODIFIED="1556955874251" TEXT="... make all the difference"/>
+<node CREATED="1556955874727" ID="ID_1871326919" MODIFIED="1556955882746" TEXT="... if the idea will work or not"/>
+</node>
+<node CREATED="1556955884894" ID="ID_1618902271" MODIFIED="1556955889704" TEXT="Timing is critical">
+<icon BUILTIN="full-3"/>
+<node CREATED="1556955896381" ID="ID_1075975295" MODIFIED="1556955903211" TEXT="Don&apos;t broadcast your idea when you get them"/>
+<node CREATED="1556955903854" ID="ID_632609643" MODIFIED="1556955914363" TEXT="... but when it&apos;s right time for germination"/>
+</node>
+<node CREATED="1556955917014" ID="ID_710163181" MODIFIED="1556955975136" TEXT="The plants that hold the firmest are the ones that develop their own roots">
+<icon BUILTIN="full-4"/>
+<node CREATED="1556955945070" ID="ID_154503900" MODIFIED="1556955949675" TEXT="The lesser protection you give it"/>
+<node CREATED="1556955950238" ID="ID_877177557" MODIFIED="1556955960010" TEXT="... the harder your idea is going to be"/>
+<node CREATED="1556955964253" ID="ID_1869269559" MODIFIED="1556955970858" TEXT="... don&apos;t grind them into the ground"/>
+</node>
+<node CREATED="1556955976126" ID="ID_1534886042" MODIFIED="1556956043318" TEXT="Excessive watering produces weakness, not strength">
+<icon BUILTIN="full-5"/>
+<node CREATED="1556955993630" ID="ID_59653645" MODIFIED="1556955997994" TEXT="Don&apos;t oversell your ideas"/>
+<node CREATED="1556956004165" ID="ID_1610994876" MODIFIED="1556956012322" TEXT="Too many resources into young ideas">
+<node CREATED="1556956012718" ID="ID_460838682" MODIFIED="1556956015250" TEXT="Lot of actions"/>
+<node CREATED="1556956015725" ID="ID_1365839511" MODIFIED="1556956020745" TEXT="Few results"/>
+</node>
+<node CREATED="1556956057997" ID="ID_1349065816" MODIFIED="1556956061347" TEXT="Ideas, like plants">
+<node CREATED="1556956061620" ID="ID_334589257" MODIFIED="1556956065897" TEXT="needs some amount of struggle"/>
+</node>
+</node>
+<node CREATED="1556956067740" ID="ID_1571530512" MODIFIED="1556956077480" TEXT="In spite of your best efforts, some plant will die">
+<icon BUILTIN="full-6"/>
+<node CREATED="1556956081371" ID="ID_1358034207" MODIFIED="1556956083986" TEXT="Live with failure"/>
+<node CREATED="1556956084524" ID="ID_934087665" MODIFIED="1556956088986" TEXT="Don&apos;t take it personal"/>
+</node>
+</node>
+</node>
+<node CREATED="1555247562731" FOLDED="true" ID="ID_1898686817" MODIFIED="1570255651973" POSITION="left" TEXT="Amplifying your impact">
+<icon BUILTIN="full-7"/>
+<node CREATED="1555247614739" ID="ID_361823579" MODIFIED="1555247619187" TEXT="The consultant survival kit"/>
+<node CREATED="1555247623803" FOLDED="true" ID="ID_588699214" MODIFIED="1570255600254" STYLE="fork" TEXT="Keeping ahead of your clients">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1555247638225" ID="ID_889742733" MODIFIED="1555247646511" TEXT="In order to justify consultant utility">
+<node CREATED="1555247647297" ID="ID_807222874" MODIFIED="1555247653164" TEXT="... but client works 8 hours / day"/>
+<node CREATED="1555247661275" ID="ID_1568994978" MODIFIED="1555247669405" TEXT="... and consultant a few days a year"/>
+</node>
+<node CREATED="1555247675924" ID="ID_462645683" MODIFIED="1555247681589" TEXT="Consultant must amplify impact">
+<node CREATED="1555247685550" ID="ID_376432451" MODIFIED="1555247688687" TEXT="Like martial art master"/>
+<node CREATED="1555247693802" ID="ID_309351773" MODIFIED="1555247702369" TEXT="Applying slightest force">
+<node CREATED="1555247702593" ID="ID_1987526024" MODIFIED="1555247709755" TEXT="Allowing the weight of client to do the rest"/>
+</node>
+<node CREATED="1555247716446" ID="ID_1721445370" MODIFIED="1555247721206" TEXT="... if successful">
+<node CREATED="1555247721399" ID="ID_140768483" MODIFIED="1555247726643" TEXT="client experience change"/>
+<node CREATED="1555247733131" ID="ID_577919938" MODIFIED="1555247741744" TEXT="client won&apos;t notice consultant did something"/>
+</node>
+</node>
+<node CREATED="1555247750244" FOLDED="true" ID="ID_269011615" MODIFIED="1562514656760" TEXT="Jiggling stuck system">
+<node CREATED="1555247760604" ID="ID_1176776142" MODIFIED="1555247762789" TEXT="Getting stuck">
+<node CREATED="1555247801803" ID="ID_1190811648" MODIFIED="1555247807172" TEXT="Better an organisation work"/>
+<node CREATED="1555247807693" ID="ID_1511271831" MODIFIED="1555247814949" TEXT="... more chance it has to get stuck">
+<node CREATED="1555247815157" ID="ID_1939134614" MODIFIED="1555247819137" TEXT="stop functioning"/>
+</node>
+<node CREATED="1555247826920" ID="ID_2336648" MODIFIED="1555247863146" TEXT="Very true for creative work part of organisation">
+<node CREATED="1555247864345" ID="ID_1624310972" MODIFIED="1555247867951" TEXT="Research"/>
+<node CREATED="1555247868424" ID="ID_563607180" MODIFIED="1555247870626" TEXT="Development"/>
+<node CREATED="1555247871100" ID="ID_724457550" MODIFIED="1555247873723" TEXT="Training"/>
+<node CREATED="1555247875881" ID="ID_803642144" MODIFIED="1555247877911" TEXT="Programming"/>
+</node>
+<node CREATED="1555247894118" ID="ID_1817887211" MODIFIED="1555247897911" TEXT="To get unstuck">
+<node CREATED="1555247898135" ID="ID_872850964" MODIFIED="1555247900805" TEXT="Crisis can help"/>
+<node CREATED="1555247906170" ID="ID_484837034" MODIFIED="1555247911398" TEXT="... to remind manager what happens"/>
+<node CREATED="1555247911936" ID="ID_1456262245" MODIFIED="1555247915508" TEXT="... but not necessary"/>
+<node CREATED="1555247933805" ID="ID_403675175" MODIFIED="1555247940453" TEXT="... any unpredictable">
+<node CREATED="1555247940693" ID="ID_1199583442" MODIFIED="1555247944111" TEXT="but not dangerous"/>
+<node CREATED="1555247944569" ID="ID_727807880" MODIFIED="1555247959618" TEXT="... agent can give a jiggle">
+<node CREATED="1555247962884" ID="ID_1630165418" MODIFIED="1555247968658" TEXT="Perturbance to go out of habits"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1555247972573" ID="ID_1115672633" MODIFIED="1555247975716" TEXT="The jiggler role">
+<node CREATED="1555247989848" ID="ID_293615924" MODIFIED="1555247994374" TEXT="Get something started"/>
+<node CREATED="1555247994895" ID="ID_619156497" MODIFIED="1555248003461" TEXT="Cause some change for the system to unstuck"/>
+<node CREATED="1555248005285" ID="ID_1020102949" MODIFIED="1555248007643" TEXT="Can be">
+<node CREATED="1555248008070" ID="ID_1458840938" MODIFIED="1555248017837" TEXT="Psychiatric consultation"/>
+<node CREATED="1555248018280" ID="ID_1861612828" MODIFIED="1555248031105" TEXT="Personal consultancy"/>
+</node>
+</node>
+<node CREATED="1555248042133" ID="ID_1791281803" MODIFIED="1555248045099" TEXT="Stuck by overload">
+<node CREATED="1555248053240" ID="ID_367926387" MODIFIED="1555248056362" TEXT="Form on">
+<node CREATED="1555248056555" ID="ID_1404421251" MODIFIED="1555248060613" TEXT="Problem prevention"/>
+<node CREATED="1555248062569" ID="ID_950199786" MODIFIED="1555248065520" TEXT="Problem solving"/>
+</node>
+</node>
+<node CREATED="1555248072273" ID="ID_1968503330" MODIFIED="1555248077594" TEXT="Stuck communication">
+<node CREATED="1555248086220" ID="ID_889464695" MODIFIED="1555248094053" TEXT="If people afraid to speak">
+<node CREATED="1555248098935" ID="ID_43891277" MODIFIED="1555248105394" TEXT="Piece of paper with anonymity"/>
+</node>
+</node>
+<node CREATED="1555248153474" ID="ID_913392822" MODIFIED="1555248164888" STYLE="fork" TEXT="Opportunities to Jiggle">
+<node CREATED="1555248165362" ID="ID_531610823" MODIFIED="1555248170185" TEXT="Always opportunities"/>
+<node CREATED="1555248170659" ID="ID_827491371" MODIFIED="1555248175450" TEXT="People don&apos;t see their real problems"/>
+<node CREATED="1555248181704" ID="ID_283283438" MODIFIED="1555248185108" TEXT="Speech can unstuck">
+<node CREATED="1555248186658" ID="ID_1161372404" MODIFIED="1555248205294" STYLE="fork" TEXT="Only work without being obliged to be formal"/>
+</node>
+<node CREATED="1555248207048" ID="ID_359870696" MODIFIED="1555248210326" TEXT="Role of management">
+<node CREATED="1555248210472" ID="ID_1010168532" MODIFIED="1555248214779" TEXT="Everything goes smoothly">
+<node CREATED="1555248215035" ID="ID_1380556253" MODIFIED="1555248218656" TEXT="Cause of the stuck"/>
+<node CREATED="1555248222063" ID="ID_1590550265" MODIFIED="1555248230223" TEXT="Need opportunities to shack the organisation"/>
+</node>
+</node>
+</node>
+<node CREATED="1555248237164" ID="ID_305829580" MODIFIED="1555248241393" TEXT="The law of the jiggle">
+<node CREATED="1555248247538" ID="ID_314854236" MODIFIED="1555248255403" TEXT="Need to experience to be jiggled">
+<node CREATED="1555248259598" ID="ID_966074079" MODIFIED="1555248264825" TEXT="if you&apos;re too close to the company">
+<node CREATED="1555248270611" ID="ID_966101456" MODIFIED="1555248273968" TEXT="To get unstuck"/>
+<node CREATED="1555248274395" ID="ID_147917187" MODIFIED="1555248277610" TEXT="To experience how it feels"/>
+</node>
+</node>
+<node COLOR="#ff3333" CREATED="1555248379556" ID="ID_501114889" MODIFIED="1555248391406" TEXT="&quot;Less is more&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1555248403947" FOLDED="true" ID="ID_1492531057" MODIFIED="1562514725012" TEXT="Teaching the blind">
+<node CREATED="1555248408448" ID="ID_1497062846" MODIFIED="1555248411071" TEXT="The Elephant">
+<node CREATED="1555248423237" ID="ID_1078154290" MODIFIED="1555248428496" TEXT="In an organisation"/>
+<node CREATED="1555248429032" ID="ID_1675761717" MODIFIED="1555248438082" TEXT="... everybody sees a part of the whole"/>
+<node CREATED="1555248443354" ID="ID_892735392" MODIFIED="1555248452045" TEXT="... each person identify the whole with the part"/>
+<node CREATED="1555248457597" ID="ID_76150276" MODIFIED="1555248465368" TEXT="How to teach blind people about an Elephant?"/>
+</node>
+<node CREATED="1555248529837" ID="ID_334614749" MODIFIED="1555248533177" TEXT="Changing perceptions">
+<node CREATED="1555252086167" ID="ID_826744009" MODIFIED="1555252097682" TEXT="For people to communicate effectively with words">
+<node CREATED="1555252097938" ID="ID_1057141803" MODIFIED="1555252101933" TEXT="need shared experiences"/>
+</node>
+<node CREATED="1555252111370" ID="ID_1164651131" MODIFIED="1555252116847" TEXT="Rotate different employee">
+<node CREATED="1555252117025" ID="ID_997393909" MODIFIED="1555252121317" TEXT="through different">
+<node CREATED="1555252121541" ID="ID_1528526457" MODIFIED="1555252123742" TEXT="Jobs"/>
+<node CREATED="1555252124169" ID="ID_83322080" MODIFIED="1555252126340" TEXT="Departments"/>
+</node>
+</node>
+<node CREATED="1555252131135" ID="ID_1268443916" MODIFIED="1555252143227" TEXT="... more and richer perspectives"/>
+<node CREATED="1555252149029" ID="ID_1468206963" MODIFIED="1555252152931" TEXT="When visiting company">
+<node CREATED="1555252153202" ID="ID_744958251" MODIFIED="1555252161971" TEXT="Take one person"/>
+<node CREATED="1555252162382" ID="ID_1800362267" MODIFIED="1555252166783" TEXT="... from one department"/>
+<node CREATED="1555252167195" ID="ID_1647740113" MODIFIED="1555252173218" TEXT="... and ask him to escort you"/>
+<node CREATED="1555252173708" ID="ID_1798587700" MODIFIED="1555252175909" TEXT="... to the next"/>
+</node>
+<node CREATED="1555252180152" ID="ID_1073379289" MODIFIED="1555252184271" TEXT="Mixed meetings">
+<node CREATED="1555252184511" ID="ID_1753344799" MODIFIED="1555252188086" TEXT="Experience more of the whole"/>
+</node>
+</node>
+<node CREATED="1555252215634" ID="ID_1577273245" MODIFIED="1555252220128" TEXT="The hippopotamus"/>
+<node CREATED="1555252220649" ID="ID_989072558" MODIFIED="1555252226532" TEXT="Changing awareness">
+<node CREATED="1555252288872" ID="ID_1824545016" MODIFIED="1555252298374" TEXT="&quot;don&apos;t be aware you move your hand&quot;">
+<node CREATED="1555252298552" ID="ID_1231780828" MODIFIED="1555252302766" TEXT="Client will be aware of it"/>
+</node>
+</node>
+<node CREATED="1555252304363" ID="ID_852021548" MODIFIED="1555252316564" TEXT="Seeing internal behavior">
+<node CREATED="1555252321555" ID="ID_1131933461" MODIFIED="1555252324372" TEXT="Hidden agenda">
+<node CREATED="1555252324986" ID="ID_1287422939" MODIFIED="1555252333756" TEXT="Technique to train people to &quot;see&quot; inside others"/>
+</node>
+<node CREATED="1555252347825" ID="ID_253825601" MODIFIED="1555252369449" TEXT="Before meeting">
+<icon BUILTIN="full-1"/>
+<node CREATED="1555252352887" ID="ID_865028969" MODIFIED="1555252361703" TEXT="Each participant has a sheet of paper with a secret"/>
+</node>
+<node CREATED="1555252370500" ID="ID_82757959" MODIFIED="1555252428421" TEXT="Assignments">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="wizard"/>
+<node CREATED="1555252395438" ID="ID_768744250" MODIFIED="1561898521264" TEXT="Try to see to it that every decision the meeting takes "/>
+<node CREATED="1555252400951" ID="ID_1027321975" MODIFIED="1555252401655" TEXT="Make sure that every person gets a chance to talk on every topic."/>
+<node CREATED="1561898522510" ID="ID_1535618571" MODIFIED="1561898527082" TEXT="...is written down and displayed so all can view it."/>
+<node CREATED="1555252405734" ID="ID_1224731233" MODIFIED="1555252406360" TEXT="Do not let any single person or clique dominate the meeting."/>
+<node CREATED="1555252411942" ID="ID_1381357526" MODIFIED="1561898540663" TEXT="Pretend that you have not prepared for this meeting"/>
+<node CREATED="1561898542829" ID="ID_1666972201" MODIFIED="1561898588361" TEXT="... and try to conceal that fact from everyone else "/>
+<node CREATED="1561898556949" ID="ID_409872548" MODIFIED="1561898559441" TEXT="... throughout the entire meeting."/>
+<node CREATED="1555252420081" ID="ID_117623157" MODIFIED="1561898569768" TEXT="If at all possible"/>
+<node CREATED="1561898570901" ID="ID_95910497" MODIFIED="1561898584066" TEXT="... see that the meeting comes to decision X "/>
+<node CREATED="1561898577476" ID="ID_1803398625" MODIFIED="1561898578946" TEXT="... without letting yourself be identified with that decision"/>
+</node>
+<node CREATED="1555252440573" ID="ID_1106421755" MODIFIED="1555252445458" TEXT="What people normally do in meeting">
+<node CREATED="1555252445635" ID="ID_2234202" MODIFIED="1555252448274" TEXT="Positive"/>
+<node CREATED="1555252449231" ID="ID_1565407667" MODIFIED="1555252453944" TEXT="Negative"/>
+<node CREATED="1555252454387" ID="ID_913579769" MODIFIED="1555252456167" TEXT="Neutral"/>
+</node>
+<node CREATED="1555252461438" ID="ID_797496668" MODIFIED="1555252471300" TEXT="Offer the opportunity to everybody to see what others do in meetings"/>
+<node CREATED="1555252477881" ID="ID_905950072" MODIFIED="1555252480988" TEXT="Inward action">
+<node CREATED="1555252481165" ID="ID_1688810683" MODIFIED="1555252486299" TEXT="Often the opposite of outward action"/>
+</node>
+</node>
+<node CREATED="1555252490479" ID="ID_1336909203" MODIFIED="1555252494724" TEXT="Seeing feelings">
+<node CREATED="1555252507062" ID="ID_1180580014" MODIFIED="1555252597490" STYLE="fork" TEXT="For consultant">
+<node CREATED="1555252513279" ID="ID_1717050705" MODIFIED="1555252597490" TEXT="More important to see feelings that thoughts"/>
+<node CREATED="1555252533528" ID="ID_1526510818" MODIFIED="1555252597490" TEXT="Ask client to keep journal about feelings">
+<node CREATED="1555252550829" ID="ID_652856572" MODIFIED="1555252597490" TEXT="Helping with same base">
+<node CREATED="1555252555657" ID="ID_1967359368" MODIFIED="1555252597490" TEXT="Hanger"/>
+<node CREATED="1555252557630" ID="ID_1422363521" MODIFIED="1555252597490" TEXT="Love"/>
+</node>
+</node>
+<node CREATED="1555252566289" ID="ID_1711859691" MODIFIED="1555252597490" TEXT="Find first feeling for people who don&apos;t have any">
+<node CREATED="1555252582474" ID="ID_699670836" MODIFIED="1555252597490" TEXT="even if it&apos;s only confusion to not find any"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1555252606220" FOLDED="true" ID="ID_133149101" MODIFIED="1570255650096" TEXT="The powerful consultant">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1555252628092" ID="ID_1306698114" MODIFIED="1562514739801" TEXT="Your task is to influence people">
+<icon BUILTIN="full-1"/>
+<node CREATED="1562514734949" ID="ID_1868651632" MODIFIED="1562514737601" TEXT="but only at their request"/>
+</node>
+<node CREATED="1555252633529" ID="ID_1156400374" MODIFIED="1562514751846" TEXT="You strive to make people less dependent on you">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1555252637297" ID="ID_1534756368" MODIFIED="1562514763500" TEXT="The less you actually intervene, the better you feel about your work">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1555252641557" ID="ID_1567508574" MODIFIED="1562514791894" TEXT="If your clients want help in solving problems">
+<icon BUILTIN="full-4"/>
+<node CREATED="1562514772546" ID="ID_1153813078" MODIFIED="1562514773469" TEXT="you are able to say no"/>
+</node>
+<node CREATED="1555252646021" ID="ID_175514526" MODIFIED="1562514826496" TEXT="If you say yes but fail, you can live with that">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1562514798795" ID="ID_1859939593" MODIFIED="1562514828493" TEXT="If you succeed, the least satisfying approach is ">
+<icon BUILTIN="full-6"/>
+<node CREATED="1562514808679" ID="ID_1409930199" MODIFIED="1562514818026" TEXT="when you solve the problem for them">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1555252649819" ID="ID_640063678" MODIFIED="1562514845951" TEXT="More satisfying is to help them solve their problems in such a way ">
+<icon BUILTIN="full-7"/>
+<node CREATED="1562514838514" ID="ID_1821531136" MODIFIED="1562514842713" TEXT="that they will be more likely to solve the next problem without help"/>
+</node>
+<node CREATED="1555252655904" ID="ID_539977613" MODIFIED="1562514853219" TEXT="Most satisfying is to help them learn how to prevent problems in the first place">
+<icon BUILTIN="full-8"/>
+</node>
+<node CREATED="1555252664939" ID="ID_1186172345" MODIFIED="1562514865229" TEXT="You can be satisfied with your accomplishments">
+<icon BUILTIN="full-9"/>
+<node CREATED="1562514861428" ID="ID_1631415324" MODIFIED="1562514862397" TEXT="even if clients don&apos;t give you credit"/>
+</node>
+<node CREATED="1555252668668" ID="ID_695138184" MODIFIED="1562514882588" TEXT="Your ideal form of influence is first to help people see their world more clearly">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-0"/>
+<node CREATED="1562514873419" ID="ID_1420471775" MODIFIED="1562514878366" TEXT=" and then to let them decide what to do next"/>
+</node>
+<node CREATED="1555252673628" ID="ID_813345754" MODIFIED="1562514889172" TEXT="Your methods of working are always open for display and discussion with your clients.">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1555252677685" ID="ID_1319386203" MODIFIED="1562514913993" TEXT=" Your primary tool is merely being the person you are">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-2"/>
+<node CREATED="1562514901480" ID="ID_472385069" MODIFIED="1562514907979" TEXT="so your most powerful method of helping other people is to help yourself"/>
+</node>
+<node CREATED="1555252753611" ID="ID_1687888169" MODIFIED="1562514916661" TEXT="At the end, you are mostly a triger">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-3"/>
+<node CREATED="1555252760857" ID="ID_536403937" MODIFIED="1555252766054" TEXT="but you need to understand change"/>
+</node>
+</node>
+</node>
+</node>
+</map>
