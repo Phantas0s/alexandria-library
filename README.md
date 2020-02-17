@@ -12,7 +12,7 @@ To enter the library, you'll need the software [Freemind](http://freemind.source
 
 ## What is it for?
 
-Since a young age, I always like reading books. However, very quickly, I found that it was difficult for me to recall what I learned, in my attempts to explain and share my discoveries. What was the point to read, then?
+As far as I remember, I always liked reading books. However, very quickly, I found that it was difficult for me to recall what I learned, in my attempts to explain and share my discoveries. What was the point to read, then?
 
 It could have easily discouraged me to open books again; instead, I tried to find a solution to retain the knowledge of my favorite authors. Some years ago, after trying many techniques, I discovered mindmaps and the fantastic freeware [Freemind](http://freemind.sourceforge.net/wiki/index.php/Main_Page).
 
