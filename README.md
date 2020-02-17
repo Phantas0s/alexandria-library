@@ -1,6 +1,6 @@
 # Phantas0s's Alexandria Library
 
-[Alexandria Library illustration](./library-of-alexandria.jpg)
+![Alexandria Library illustration](./library-of-alexandria.jpg)
 
 > The opportunity before all of us is living up to the dream of the Library of Alexandria and then taking it a step further - universal access to all knowledge. Interestingly, it is now technically doable. -- **[Brewster Kahle](https://en.wikipedia.org/wiki/Brewster_Kahle)** 
 
