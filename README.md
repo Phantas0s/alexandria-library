@@ -81,3 +81,7 @@ I share my library for:
 I won't accept any contribution concerning the content or the organization of my mindmaps. 
 
 However, if you have any suggestion to capture or retain knowledge, or if you see any spelling mistakes (there are many!), feel free to open a pull request.
+
+## Licence
+
+[Apache Licence 2.0](https://choosealicense.com/licenses/apache-2.0/)
