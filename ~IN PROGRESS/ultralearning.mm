@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1581412135824" ID="ID_343389241" LINK="https://www.scotthyoung.com/blog/ultralearning/" MODIFIED="1583328836124" TEXT="Ultralearning">
+<node CREATED="1581412135824" ID="ID_343389241" LINK="https://www.scotthyoung.com/blog/ultralearning/" MODIFIED="1583415624717" TEXT="Ultralearning">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -362,7 +362,7 @@
 <node CREATED="1581918760387" ID="ID_969585795" MODIFIED="1581918769448" TEXT="Can we become an ultralearner?"/>
 </node>
 </node>
-<node CREATED="1581413254780" FOLDED="true" ID="ID_1099158281" MODIFIED="1582538414591" POSITION="right" TEXT="How to Become an Ultralearner">
+<node CREATED="1581413254780" FOLDED="true" ID="ID_1099158281" MODIFIED="1583397328777" POSITION="right" TEXT="How to Become an Ultralearner">
 <icon BUILTIN="full-3"/>
 <node CREATED="1581918940039" FOLDED="true" ID="ID_1234805930" MODIFIED="1581919797889" TEXT="Case of De Montebello">
 <node CREATED="1581918922911" ID="ID_1631611031" MODIFIED="1581918929592" TEXT="More interesting to see people"/>
@@ -2098,7 +2098,7 @@
 <node CREATED="1583235138686" ID="ID_1698231583" MODIFIED="1583235150744" TEXT="Playful exploration leads to experimentation"/>
 </node>
 </node>
-<node CREATED="1581413569510" FOLDED="true" ID="ID_587242765" MODIFIED="1583330705564" POSITION="left" TEXT="Principle 9 - Experimentation: Explore Outside Your Comfort Zone">
+<node CREATED="1581413569510" ID="ID_587242765" MODIFIED="1583397236125" POSITION="left" TEXT="Principle 9 - Experimentation: Explore Outside Your Comfort Zone">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1583235182165" FOLDED="true" ID="ID_442346765" MODIFIED="1583330699854" TEXT="How Van Gogh learned to paint">
@@ -2319,12 +2319,12 @@
 <node CREATED="1583330710556" ID="ID_1557647305" MODIFIED="1583330717489" TEXT="Step 1: do your research">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1583330734741" ID="ID_430050630" MODIFIED="1583330751208" TEXT="Metalearning checklist">
-<node CREATED="1583330751981" ID="ID_1098471289" MODIFIED="1583330813622" TEXT="What topic you&apos;re learning with scope">
+<node CREATED="1583330751981" FOLDED="true" ID="ID_1098471289" MODIFIED="1583397697201" TEXT="What topic you&apos;re learning with scope">
 <icon BUILTIN="full-1"/>
 <node CREATED="1583330773633" ID="ID_1658165876" MODIFIED="1583330777613" TEXT="Start with narrow scope"/>
 <node CREATED="1583330777976" ID="ID_1909669833" MODIFIED="1583330786470" TEXT="Expend as you go"/>
 </node>
-<node CREATED="1583330790869" ID="ID_1581401484" MODIFIED="1583330816789" TEXT="Primary resource you&apos;ll use">
+<node CREATED="1583330790869" FOLDED="true" ID="ID_1581401484" MODIFIED="1583397697202" TEXT="Primary resource you&apos;ll use">
 <icon BUILTIN="full-2"/>
 <node CREATED="1583330845059" ID="ID_1299567304" MODIFIED="1583330850153" TEXT="Include">
 <node CREATED="1583330821868" ID="ID_1858852085" MODIFIED="1583330824535" TEXT="Books"/>
@@ -2335,6 +2335,178 @@
 <node CREATED="1583330835627" ID="ID_1177913490" MODIFIED="1583330839491" TEXT="Mentor / coach / peer"/>
 </node>
 <node CREATED="1583330853975" ID="ID_116631425" MODIFIED="1583330859832" TEXT="Decide where starting point will be"/>
+<node CREATED="1583397267573" ID="ID_1338785592" MODIFIED="1583397272764" TEXT="Before you begin, need to be">
+<node CREATED="1583397272976" ID="ID_562296623" MODIFIED="1583397284759" TEXT="Identified"/>
+<node CREATED="1583397275518" ID="ID_350242903" MODIFIED="1583397277694" TEXT="Purchased"/>
+<node CREATED="1583397278098" ID="ID_1585072002" MODIFIED="1583397280584" TEXT="Borrowed"/>
+<node CREATED="1583397281079" ID="ID_707212244" MODIFIED="1583397282666" TEXT="Enrolled"/>
+</node>
+</node>
+<node CREATED="1583397300331" FOLDED="true" ID="ID_968381175" MODIFIED="1583397697203" TEXT="Benchmark how others have learned skill">
+<icon BUILTIN="full-3"/>
+<node CREATED="1583397309928" ID="ID_772416017" MODIFIED="1583397311933" TEXT="Forum"/>
+<node CREATED="1583397314984" ID="ID_676273120" MODIFIED="1583397321527" TEXT="Don&apos;t need to follow exactly their footsteps"/>
+<node CREATED="1583397336254" ID="ID_1896565680" MODIFIED="1583397345440" TEXT="... but can prevent to miss something important"/>
+<node CREATED="1583397354305" ID="ID_378344404" MODIFIED="1583397357812" TEXT="Expert interview method"/>
+</node>
+<node CREATED="1583397406292" FOLDED="true" ID="ID_336660591" MODIFIED="1583397697204" TEXT="Direct practice activities">
+<icon BUILTIN="full-4"/>
+<node CREATED="1583397418215" ID="ID_1716015912" MODIFIED="1583397425966" TEXT="Think how you&apos;ll use skill"/>
+<node CREATED="1583397428570" ID="ID_1605057386" MODIFIED="1583397432858" TEXT="Find opportunities to practice"/>
+<node CREATED="1583397445542" ID="ID_1386269136" MODIFIED="1583397459454" TEXT="... as fast as possible"/>
+<node CREATED="1583397620738" ID="ID_1867535209" MODIFIED="1583397625194" TEXT="If direct practice impossible"/>
+<node CREATED="1583397625571" ID="ID_560789269" MODIFIED="1583397633030" TEXT="... find way to mimic skill practice"/>
+</node>
+<node CREATED="1583397639241" FOLDED="true" ID="ID_513410784" MODIFIED="1583397697204" TEXT="Backup materials and drills">
+<icon BUILTIN="full-5"/>
+<node CREATED="1583397661857" ID="ID_1198320920" MODIFIED="1583397665578" TEXT="Find possible drills"/>
+<node CREATED="1583397665950" ID="ID_295170485" MODIFIED="1583397672403" TEXT="Find backup materials">
+<node CREATED="1583397673928" ID="ID_489440168" MODIFIED="1583397679369" TEXT="Tools / set of material"/>
+<node CREATED="1583397682837" ID="ID_1949528697" MODIFIED="1583397687478" TEXT="... useful but not from beginning"/>
+<node CREATED="1583397689625" ID="ID_1981724686" MODIFIED="1583397694162" TEXT="... not to overwhelm yourself"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1583397698919" ID="ID_332845510" MODIFIED="1583397705775" TEXT="Step 2: schedule your time">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1583397755443" ID="ID_9263467" MODIFIED="1583397763522" TEXT="Don&apos;t need to be intensive / full time for success"/>
+<node CREATED="1583397767576" ID="ID_8282135" MODIFIED="1583397772231" TEXT="Need time investment"/>
+<node CREATED="1583397772597" FOLDED="true" ID="ID_1942873299" MODIFIED="1583398299555" TEXT="Better to plan in advance">
+<node CREATED="1583397779985" ID="ID_1325454504" MODIFIED="1583397782470" TEXT="2 reasons">
+<node CREATED="1583397785918" ID="ID_975707908" MODIFIED="1583397814785" TEXT="Subconsciously prioritize project">
+<icon BUILTIN="full-1"/>
+<node CREATED="1583397793694" ID="ID_103196307" MODIFIED="1583397809723" TEXT="by putting it on calendar"/>
+</node>
+<node CREATED="1583397818844" ID="ID_1513659330" MODIFIED="1583397824328" TEXT="Easier to be motivated">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+</node>
+<node CREATED="1583397829615" FOLDED="true" ID="ID_652570919" MODIFIED="1583398299555" TEXT="First decision: How much to commit">
+<node CREATED="1583397837256" ID="ID_1056262036" MODIFIED="1583398043379" TEXT="Often dictated by schedule"/>
+</node>
+<node CREATED="1583397901827" FOLDED="true" ID="ID_1930861184" MODIFIED="1583398299556" TEXT="Second decision: when to learn">
+<node CREATED="1583397913007" ID="ID_1928238081" MODIFIED="1583397923107" TEXT="Make it as easy as possible"/>
+<node CREATED="1583397935145" ID="ID_189133449" MODIFIED="1583397939785" TEXT="Setting consistent schedule">
+<node CREATED="1583397941534" ID="ID_729299100" MODIFIED="1583397946511" TEXT="Some every weeks"/>
+<node CREATED="1583397946947" ID="ID_1235650089" MODIFIED="1583397952889" TEXT="Consistency brings good habit"/>
+</node>
+<node CREATED="1583397957963" ID="ID_649458196" MODIFIED="1583397963793" TEXT="Shorter, spaced time chunks"/>
+<node CREATED="1583397967602" ID="ID_318391942" MODIFIED="1583397971304" TEXT="... better for long term memory"/>
+<node CREATED="1583397983685" ID="ID_643834821" MODIFIED="1583397987143" TEXT="If long warm up time">
+<node CREATED="1583397993449" ID="ID_258824515" MODIFIED="1583397997722" TEXT="Extend the practice time"/>
+<node CREATED="1583397998126" ID="ID_1171312834" MODIFIED="1583398001958" TEXT="... and the space time"/>
+<node CREATED="1583398003553" ID="ID_1536437091" MODIFIED="1583398010718" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1583398011500" ID="ID_1593627436" MODIFIED="1583398014129" TEXT="Programming"/>
+<node CREATED="1583398014712" ID="ID_3627451" MODIFIED="1583398018752" TEXT="Writing"/>
+</node>
+</node>
+</node>
+<node CREATED="1583398064421" FOLDED="true" ID="ID_1206552731" MODIFIED="1583398299557" TEXT="Third decision: project time length">
+<node CREATED="1583398080913" ID="ID_1443086318" MODIFIED="1583398084094" TEXT="Shorter commitments">
+<node CREATED="1583398087108" ID="ID_1766953600" MODIFIED="1583398091168" TEXT="Easier to stick with"/>
+<node CREATED="1583398093066" ID="ID_1569836883" MODIFIED="1583398096019" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1583398096535" ID="ID_231289398" MODIFIED="1583398098081" TEXT="One month"/>
+</node>
+<node CREATED="1583398104019" ID="ID_1389849532" MODIFIED="1583398129739" TEXT="If longer time frame to accomplish goals">
+<node CREATED="1583398106913" ID="ID_1428504931" MODIFIED="1583398116179" TEXT="Multiple time frame"/>
+<node CREATED="1583398116590" ID="ID_1572240043" MODIFIED="1583398125175" TEXT="... a few months each"/>
+</node>
+</node>
+</node>
+<node CREATED="1583398136928" FOLDED="true" ID="ID_49855399" MODIFIED="1583398299558" TEXT="Take all information">
+<node CREATED="1583398139359" ID="ID_1859828594" MODIFIED="1583398142240" TEXT="Put it in calendar"/>
+<node CREATED="1583398145334" ID="ID_371319049" MODIFIED="1583398150977" TEXT="Logistical benefit">
+<node CREATED="1583398153213" ID="ID_1322374945" MODIFIED="1583398159559" TEXT="Help spot potential schedule conflict"/>
+<node CREATED="1583398166211" ID="ID_1719499048" MODIFIED="1583398177202" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1583398168535" ID="ID_1117740435" MODIFIED="1583398169787" TEXT="Holidays"/>
+<node CREATED="1583398170191" ID="ID_955033107" MODIFIED="1583398172668" TEXT="Family events"/>
+<node CREATED="1583398173199" ID="ID_290815669" MODIFIED="1583398175042" TEXT="Work"/>
+</node>
+</node>
+<node CREATED="1583398179801" ID="ID_1981164002" MODIFIED="1583398185161" TEXT="Psychological benefit">
+<node CREATED="1583398189824" ID="ID_1940302319" MODIFIED="1583398193408" TEXT="Help you remember"/>
+<node CREATED="1583398193812" ID="ID_637894329" MODIFIED="1583398197781" TEXT="Help you act on initial plan"/>
+<node CREATED="1583398199599" ID="ID_186665724" MODIFIED="1583398207763" TEXT="Demonstrate seriousness"/>
+</node>
+</node>
+<node CREATED="1583398233856" FOLDED="true" ID="ID_743241981" MODIFIED="1583398299558" TEXT="For longer commitments (6+ months)">
+<node CREATED="1583398256921" ID="ID_1378323536" MODIFIED="1583398263408" TEXT="Week pilot to test schedule">
+<node CREATED="1583398266352" ID="ID_60947" MODIFIED="1583398269524" TEXT="Give you difficulty"/>
+<node CREATED="1583398269883" ID="ID_1092792484" MODIFIED="1583398274501" TEXT="Prevent overconfidence"/>
+<node CREATED="1583398275187" ID="ID_1516483537" MODIFIED="1583398289102" TEXT="Allow you to adjust"/>
+<node CREATED="1583398289497" ID="ID_386798358" MODIFIED="1583398295551" TEXT="... to be sure you go through"/>
+</node>
+</node>
+</node>
+<node CREATED="1583398300900" ID="ID_1938891830" MODIFIED="1583398309043" TEXT="Step 3: execute your plan">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1583398310363" ID="ID_624002907" MODIFIED="1583398314097" TEXT="No plan is perfect"/>
+<node CREATED="1583398314564" ID="ID_394635635" MODIFIED="1583398318502" TEXT="Improve it as you go"/>
+<node CREATED="1583398323482" ID="ID_554265789" MODIFIED="1583398326770" TEXT="Questions to ask yourself">
+<node CREATED="1583398327103" ID="ID_1629410296" MODIFIED="1583398336298" TEXT="Metalearning">
+<icon BUILTIN="full-1"/>
+<node CREATED="1583415650094" ID="ID_1627401838" MODIFIED="1583415651539" TEXT="Have I done research into what are the typical ways of learning this subject or skill?"/>
+<node CREATED="1583415657801" ID="ID_585466273" MODIFIED="1583415658846" TEXT="Have I interviewed successful learners to see what resources and advice they can recommend?"/>
+<node CREATED="1583415662980" ID="ID_1579564579" MODIFIED="1583415664115" TEXT="Have I spent about 10 percent of the total time on preparing my project?"/>
+</node>
+<node CREATED="1583415666698" ID="ID_1869067123" MODIFIED="1583415671876" TEXT="Focus">
+<icon BUILTIN="full-2"/>
+<node CREATED="1583415686138" ID="ID_1235224444" MODIFIED="1583415687110" TEXT="Am I focused when I spend time learning, or am I multitasking and distracted?"/>
+<node CREATED="1583415691439" ID="ID_822021686" MODIFIED="1583415692376" TEXT="Am I skipping learning sessions or procrastinating?"/>
+<node CREATED="1583415698414" ID="ID_464659321" MODIFIED="1583415699535" TEXT="When I start a session, how long does it take before I&#x2019;m in a good flow?"/>
+<node CREATED="1583415703826" ID="ID_207790090" MODIFIED="1583415704743" TEXT="How long can I sustain that focus before my mind starts to wander?"/>
+<node CREATED="1583415709223" ID="ID_1717996432" MODIFIED="1583415710104" TEXT="How sharp is my attention?"/>
+<node CREATED="1583415716276" ID="ID_1065701139" MODIFIED="1583415717089" TEXT="Should it be more concentrated for intensity or more diffuse for creativity?"/>
+</node>
+<node CREATED="1583415718377" ID="ID_1074732014" MODIFIED="1583415726305" TEXT="Directness">
+<icon BUILTIN="full-3"/>
+<node CREATED="1583415733381" ID="ID_1100843525" MODIFIED="1583415734557" TEXT="Am I learning the skill in the way I&#x2019;ll eventually be using it?"/>
+<node CREATED="1583415740539" ID="ID_962699828" MODIFIED="1583415741575" TEXT="If not, what mental processes are missing from my practice that exist in the real environment?"/>
+<node CREATED="1583415745662" ID="ID_1171786487" MODIFIED="1583415746475" TEXT="How can I practice transferring the knowledge I learn from my book/class/video to real life?"/>
+</node>
+<node CREATED="1583415747833" ID="ID_1952198002" MODIFIED="1583415753792" TEXT="Drill">
+<icon BUILTIN="full-4"/>
+<node CREATED="1583415758509" ID="ID_1391251641" MODIFIED="1583415759524" TEXT="Am I spending time focusing on the weakest points of my performance?"/>
+<node CREATED="1583415763809" ID="ID_1333108011" MODIFIED="1583415764890" TEXT="What is the rate-limiting step that is holding me back?"/>
+<node CREATED="1583415770212" ID="ID_341844130" MODIFIED="1583415771743" TEXT="Does it feel as though my learning is slowing down and that there&#x2019;s too many components of the skill to master?"/>
+<node CREATED="1583415778220" ID="ID_1073121445" MODIFIED="1583415779054" TEXT="If so, how can I split apart a complex skill to work on smaller, more manageable components of it?"/>
+</node>
+<node CREATED="1583415783060" ID="ID_305232777" MODIFIED="1583415789396" TEXT="Retrieval">
+<icon BUILTIN="full-5"/>
+<node CREATED="1583415798281" ID="ID_14578023" MODIFIED="1583415799058" TEXT="Am I spending most of my time reading and reviewing, or am I solving problems and recalling things from memory without looking at my notes?"/>
+<node CREATED="1583415807064" ID="ID_1577101976" MODIFIED="1583415807826" TEXT="Do I have some way of testing myself, or do I just assume I&#x2019;ll remember?"/>
+<node CREATED="1583415812373" ID="ID_1743000676" MODIFIED="1583415813071" TEXT="Can I successfully explain what I learned yesterday, last week, a year ago?"/>
+<node CREATED="1583415816789" ID="ID_73002051" MODIFIED="1583415817575" TEXT="How do I know if I can?"/>
+</node>
+<node CREATED="1583415820808" ID="ID_1406118564" MODIFIED="1583415824599" TEXT="Feedback">
+<icon BUILTIN="full-6"/>
+<node CREATED="1583415832292" ID="ID_633635583" MODIFIED="1583415832830" TEXT="Am I getting honest feedback about my performance early on, or am I trying to dodge the punches and avoid criticism?"/>
+<node CREATED="1583415837111" ID="ID_680915949" MODIFIED="1583415837898" TEXT="Do I know what I&#x2019;m learning well and what I&#x2019;m not?"/>
+<node CREATED="1583415842645" ID="ID_723594870" MODIFIED="1583415844491" TEXT="Am I using feedback correctly, or am I overreacting to noisy data?"/>
+</node>
+<node CREATED="1583415854543" ID="ID_1258443478" MODIFIED="1583415859395" TEXT="Retention">
+<icon BUILTIN="full-7"/>
+<node CREATED="1583415864138" ID="ID_1140484259" MODIFIED="1583415864836" TEXT="Do I have a plan in place to remember what I&#x2019;m learning long term?"/>
+<node CREATED="1583415868960" ID="ID_615413165" MODIFIED="1583415869458" TEXT="Am I spacing my exposure to information so it will stick longer?"/>
+<node CREATED="1583415873949" ID="ID_583920313" MODIFIED="1583415874503" TEXT="Am I turning factual knowledge into procedures that I&#x2019;ll retain?"/>
+<node CREATED="1583415880287" ID="ID_1616223209" MODIFIED="1583415880825" TEXT="Am I overlearning the most critical aspects of the skill?"/>
+</node>
+<node CREATED="1583415884981" ID="ID_368666467" MODIFIED="1583415889353" TEXT="Intuition">
+<icon BUILTIN="full-8"/>
+<node CREATED="1583415896661" ID="ID_1249023146" MODIFIED="1583415897340" TEXT="Do I deeply understand the things I&#x2019;m learning, or am I just memorizing?"/>
+<node CREATED="1583415903503" ID="ID_788163976" MODIFIED="1583415904103" TEXT="Could I teach the ideas and procedures I&#x2019;m studying to someone else?"/>
+<node CREATED="1583415909108" ID="ID_247478402" MODIFIED="1583415909679" TEXT="Is it clear to me why what I&#x2019;m learning is true, or does it all seem arbitrary and unrelated?"/>
+</node>
+<node CREATED="1583415911966" ID="ID_1769469409" MODIFIED="1583415917903" TEXT="Experimentation">
+<icon BUILTIN="full-9"/>
+<node CREATED="1583415925404" ID="ID_498504970" MODIFIED="1583415926175" TEXT="Am I getting stuck with my current resources and techniques?"/>
+<node CREATED="1583415930283" ID="ID_890984268" MODIFIED="1583415930785" TEXT="Do I need to branch out and try new approaches to reach my goal?"/>
+<node CREATED="1583415935196" ID="ID_1260237075" MODIFIED="1583415935716" TEXT="How can I go beyond mastering the basics and create a unique style to solve problems creatively and do things others haven&#x2019;t explored before?"/>
 </node>
 </node>
 </node>
