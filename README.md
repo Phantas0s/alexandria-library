@@ -34,6 +34,8 @@ Finally, it's way easier to get back to some precise content I previously read o
 
 ## My Method To Retain and Capture Knowledge
 
+> An investisment in knowledge always offer the best interest. -- **Benjamin Franklin**
+
 It might seem like a lot of work, but I've got pretty effective following this process:
 
 1. When I read a book or an article which looks interesting, I take detailed notes while reading, on a small notebook. This first phase help me to remember roughly what the content is about.
@@ -85,3 +87,4 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 ## Licence
 
 [Apache Licence 2.0](https://choosealicense.com/licenses/apache-2.0/)
+
