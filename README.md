@@ -1,8 +1,8 @@
 # Phantas0s's Alexandria Library
 
-![Github repo-size](https://img.shields.io/github/repo-size/Phantas0s/alexandria-library.svg?color=success&label=Library%20size)
-![Commit activity](https://img.shields.io/github/commit-activity/m/Phantas0s/alexandria-library?label=Writing%20sessions&color=blue)
-![Alexandria Library illustration](./library-of-alexandria.jpg)
+[![Github repo-size](https://img.shields.io/github/repo-size/Phantas0s/alexandria-library.svg?color=success&label=Library%20size)]()
+[![Commit activity](https://img.shields.io/github/commit-activity/m/Phantas0s/alexandria-library?label=Writing%20sessions&color=blue)]()
+[![Alexandria Library illustration](./library-of-alexandria.jpg)]()
 > The opportunity before all of us is living up to the dream of the Library of Alexandria and then taking it a step further - universal access to all knowledge. Interestingly, it is now technically doable. -- **[Brewster Kahle](https://en.wikipedia.org/wiki/Brewster_Kahle)** 
 
 Hello and welcome to my personal Alexandria Library!
