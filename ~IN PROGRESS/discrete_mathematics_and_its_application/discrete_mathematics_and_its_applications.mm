@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" MODIFIED="1565519237866" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" MODIFIED="1585124290840" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -364,9 +364,10 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1530447285087" ID="ID_1982099078" MODIFIED="1574835804540" POSITION="left" TEXT="PLAN of the book">
+<node CREATED="1530447285087" FOLDED="true" ID="ID_1982099078" MODIFIED="1585124295057" POSITION="left" TEXT="PLAN of the book">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1530447444639" ID="ID_587387682" MODIFIED="1573795914213">
@@ -4435,7 +4436,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1575872596376" FOLDED="true" ID="ID_1180270366" MODIFIED="1575879371046" TEXT="Sorting">
+<node CREATED="1575872596376" ID="ID_1180270366" MODIFIED="1585124298680" TEXT="Sorting">
 <node CREATED="1575872606038" ID="ID_1223232424" MODIFIED="1575872620410" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1575872607678" ID="ID_1717268687" MODIFIED="1575872611027" TEXT="Telephone directory"/>
@@ -4457,7 +4458,7 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node CREATED="1575873231217" FOLDED="true" ID="ID_498162604" MODIFIED="1575873368309" TEXT="Example">
+<node CREATED="1575873231217" FOLDED="true" ID="ID_498162604" MODIFIED="1585124385260" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <icon BUILTIN="licq"/>
 <node CREATED="1575873357969" ID="ID_907881703" MODIFIED="1575873363251">
@@ -4533,6 +4534,117 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1585125253999" ID="ID_626076480" MODIFIED="1585125257560" TEXT="The halting problems">
+<node CREATED="1585125278238" ID="ID_229339619" MODIFIED="1585125283061" TEXT="Problem which can&apos;t be proved"/>
+<node CREATED="1585125549958" ID="ID_257824009" MODIFIED="1585125575185" TEXT="Program (p1) which takes a program (p2) and an input">
+<node CREATED="1585125575381" ID="ID_1777748584" MODIFIED="1585125589706" TEXT="Input is for p2"/>
+<node CREATED="1585125590412" ID="ID_579558187" MODIFIED="1585125596283" TEXT="Determine if p2 loops forever or halt"/>
+</node>
+<node CREATED="1585125599623" ID="ID_582895174" MODIFIED="1585125611777" TEXT="Can&apos;t prove if p2 will loop forever by running it">
+<node CREATED="1585125611967" ID="ID_75750425" MODIFIED="1585125622222" TEXT="Program might takes million of years and stop"/>
+</node>
+<node CREATED="1585125720826" FOLDED="true" ID="ID_452347551" MODIFIED="1585126408141" TEXT="Proof">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Assume there is a solution to the halting problem, a procedure called H (P, I ). The
+    </p>
+    <p>
+      procedure H (P, I ) takes two inputs, one a program P and the other I , an input to the program
+    </p>
+    <p>
+      P . H (P,I ) generates the string &#8220;halt&#8221; as output if H determines that P stops when given I as
+    </p>
+    <p>
+      input. Otherwise, H (P, I ) generates the string &#8220;loops forever&#8221; as output. We will now derive a
+    </p>
+    <p>
+      contradiction.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      When a procedure is coded, it is expressed as a string of characters; this string can be
+    </p>
+    <p>
+      interpreted as a sequence of bits. This means that a program itself can be used as data. Therefore
+    </p>
+    <p>
+      a program can be thought of as input to another program, or even itself. Hence, H can take a
+    </p>
+    <p>
+      program P as both of its inputs, which are a program and input to this program. H should be
+    </p>
+    <p>
+      able to determine whether P will halt when it is given a copy of itself as input.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      To show that no procedure H exists that solves the halting problem, we construct a simple
+    </p>
+    <p>
+      procedure K(P ), which works as follows, making use of the output H (P, P ). If the output of
+    </p>
+    <p>
+      H (P, P ) is &#8220;loops forever,&#8221; which means that P loops forever when given a copy of itself as
+    </p>
+    <p>
+      input, then K(P ) halts. If the output of H (P, P ) is &#8220;halt,&#8221; which means that P halts when given
+    </p>
+    <p>
+      a copy of itself as input, then K(P ) loops forever. That is, K(P ) does the opposite of what the
+    </p>
+    <p>
+      output of H (P, P ) specifies. (See Figure 2.)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Now suppose we provide K as input to K. We note that if the output of H (K, K) is &#8220;loops
+    </p>
+    <p>
+      forever,&#8221; then by the definition of K we see that K(K) halts. Otherwise, if the output of H (K, K)
+    </p>
+    <p>
+      is &#8220;halt,&#8221; then by the definition of K we see that K(K) loops forever, in violation of what H
+    </p>
+    <p>
+      tells us. In both cases, we have a contradiction.
+    </p>
+    <p>
+      <br />
+      
+    </p>
+    <p>
+      Thus, H cannot always give the correct answers. Consequently, there is no procedure that
+    </p>
+    <p>
+      solves the halting problem.
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="licq"/>
+<node CREATED="1585125793099" ID="ID_1464000145" MODIFIED="1585125802360">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="halting-problem.png" />
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
