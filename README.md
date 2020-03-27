@@ -15,7 +15,7 @@ To open the mindmaps, you'll need the software [Freemind](http://freemind.source
 
 Then, you'll see something like that:
 
-[![Example of a mindmap](./example.png)](./example.png)
+[![Example of a mindmap](./example.png)](https://raw.githubusercontent.com/Phantas0s/alexandria-library/master/example.png)
 
 The center is the name of the source. Often, it will be a book, an article, or a video. Then, the first level of branches will be the chapters. Every branch level goes deeper into the source knowledge.
 
