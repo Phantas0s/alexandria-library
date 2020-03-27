@@ -4339,7 +4339,7 @@
 <node CREATED="1574835189653" ID="ID_1097192422" MODIFIED="1574835201089" TEXT="An algorithm is a finite sequence of precise instructions"/>
 <node CREATED="1574835202067" ID="ID_476920489" MODIFIED="1574835210882" TEXT="... for performing a computation or for solving a problem"/>
 </node>
-<node CREATED="1574835646519" FOLDED="true" ID="ID_1714950159" MODIFIED="1575879373765" TEXT="Properties of algorithm">
+<node CREATED="1574835646519" ID="ID_1714950159" MODIFIED="1585130115968" TEXT="Properties of algorithm">
 <node CREATED="1574835654984" ID="ID_164771671" MODIFIED="1574835656789" TEXT="Input">
 <node CREATED="1574835685513" ID="ID_422767542" MODIFIED="1574835686052" TEXT="An algorithm has input values from a specified set"/>
 </node>
@@ -4347,7 +4347,7 @@
 <node CREATED="1574835693210" ID="ID_196901446" MODIFIED="1574835706997" TEXT="From each set of input values an algorithm produces output values from a specified set"/>
 <node CREATED="1574835700513" ID="ID_1219285549" MODIFIED="1574835712069" TEXT=" The output values are the solution to the problem"/>
 </node>
-<node CREATED="1574835659545" ID="ID_1706986504" MODIFIED="1574835665350" TEXT="Definiteness">
+<node CREATED="1574835659545" ID="ID_1706986504" MODIFIED="1585130161025" TEXT="Definiteness">
 <node CREATED="1574835715056" ID="ID_1038101445" MODIFIED="1574835715595" TEXT=" The steps of an algorithm must be defined precisely"/>
 </node>
 <node CREATED="1574835666433" ID="ID_1372871598" MODIFIED="1574835668998" TEXT="Correctness">

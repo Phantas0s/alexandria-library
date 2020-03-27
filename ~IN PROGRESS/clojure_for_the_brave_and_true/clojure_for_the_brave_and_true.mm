@@ -1239,8 +1239,7 @@
       (def addition-list (list + 1 2))<br />(eval addition-list) ; =&gt; 3
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1585035419780" ID="ID_596879200" MODIFIED="1585035501092">
@@ -1263,8 +1262,7 @@
   <body>
     <img src="example-addition-list-1.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-3"/>
 <icon BUILTIN="licq"/>
@@ -1350,8 +1348,7 @@
       llkj
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1457,7 +1454,94 @@
 </node>
 </node>
 </node>
-<node CREATED="1585045333711" ID="ID_748505449" MODIFIED="1585045335302" TEXT="Macros"/>
+<node CREATED="1585045333711" ID="ID_748505449" MODIFIED="1585045335302" TEXT="Macros">
+<node CREATED="1585319526213" ID="ID_31487222" MODIFIED="1585319533989" TEXT="Way to manipulate lists"/>
+<node CREATED="1585319534481" ID="ID_1381056386" MODIFIED="1585319540050" TEXT="... before Clojure evaluate them"/>
+<node CREATED="1585319551464" ID="ID_1136606935" MODIFIED="1585319554403" TEXT="Executed between">
+<node CREATED="1585319554582" ID="ID_914758221" MODIFIED="1585319556519" TEXT="Reader"/>
+<node CREATED="1585319557018" ID="ID_1479057605" MODIFIED="1585319558628" TEXT="Evaluator"/>
+</node>
+<node CREATED="1585319781482" ID="ID_422736925" MODIFIED="1585319786705" TEXT="Operands not evaluated">
+<node CREATED="1585319786967" ID="ID_930328411" MODIFIED="1585319790538" TEXT="Give you the power"/>
+<node CREATED="1585319790998" ID="ID_1129886102" MODIFIED="1585319798355" TEXT="... to reorganize arguments"/>
+<node CREATED="1585319798926" ID="ID_1024528427" MODIFIED="1585319804071" TEXT="... of a function"/>
+</node>
+<node CREATED="1585319952361" ID="ID_1630503926" MODIFIED="1585319959222" TEXT="Data structure returned by a macro"/>
+<node CREATED="1585319960026" ID="ID_843189276" MODIFIED="1585319962773" TEXT="... is evaluated!">
+<node CREATED="1585319964086" ID="ID_1263777844" MODIFIED="1585319973174" TEXT="Macro expansion"/>
+</node>
+<node CREATED="1585320255675" ID="ID_233955757" MODIFIED="1585320258720" TEXT="Allow">
+<node CREATED="1585320258988" ID="ID_1899724287" MODIFIED="1585320260178" TEXT="syntactic abstraction">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1585320268767" ID="ID_1701133083" MODIFIED="1585320269697" TEXT="Syntactic Abstraction and the -&gt; Macro">
+<node CREATED="1585320396569" ID="ID_1927443758" MODIFIED="1585320397595" TEXT="-&gt;">
+<node CREATED="1585320403134" ID="ID_1420788817" MODIFIED="1585320415179" TEXT="threading">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1585320406521" ID="ID_1803671343" MODIFIED="1585320414514" TEXT="stabby macro">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1585320675921" ID="ID_1318689855" MODIFIED="1585320688903" TEXT="Syntactic abstraction">
+<node CREATED="1585320689069" ID="ID_248295309" MODIFIED="1585320693652" TEXT="Change syntax of Clojure"/>
+</node>
+<node CREATED="1585320706332" ID="ID_1418551949" MODIFIED="1585320716916" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ; Read inward to outward
+    </p>
+    <p>
+      (defn read-ressource
+    </p>
+    <p>
+      &#160;&#160;&quot;Read a ressource into a string&quot;
+    </p>
+    <p>
+      &#160;&#160;[path]
+    </p>
+    <p>
+      &#160;&#160;(read-string (slurp (clojure.java.io/resource path))))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ; ... equivalent, but outward to inward
+    </p>
+    <p>
+      ; Path is passed to clojure.java.io/resource, then result passed to slurp, then result passed to read-string
+    </p>
+    <p>
+      (defn read-resource
+    </p>
+    <p>
+      &#160;&#160;[path]
+    </p>
+    <p>
+      &#160;&#160;(-&gt; path
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;clojure.java.io/resource
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;slurp
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;read-string))
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="wizard"/>
+</node>
+</node>
 </node>
 </node>
 </node>
