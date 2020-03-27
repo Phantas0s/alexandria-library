@@ -9,7 +9,15 @@ Hello and welcome to my personal Alexandria Library!
 
 You'll find here the result of my insatiable thirst of knowledge, mainly in the form of [mindmaps](https://en.wikipedia.org/wiki/Mind_map) (but not only).
 
-To enter the library, you'll need the software [Freemind](http://freemind.sourceforge.net/wiki/index.php/Main_Page) installed on your shiny computer.
+## How does it look like?
+
+To open the mindmaps, you'll need the software [Freemind](http://freemind.sourceforge.net/wiki/index.php/Main_Page) installed on your shiny computer.
+
+Then, you'll see something like that:
+
+[![Example of a mindmap](./example.png)](./example.png)
+
+The center is the name of the source. Often, it will be a book, an article, or a video. Then, the first level of branches will be the chapters. Every branch level goes deeper into the source knowledge.
 
 ## What is it for?
 
