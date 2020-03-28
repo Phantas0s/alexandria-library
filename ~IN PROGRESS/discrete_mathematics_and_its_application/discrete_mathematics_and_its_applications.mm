@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" MODIFIED="1585124290840" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" MODIFIED="1585334342299" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2469,10 +2469,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1555257592025" FOLDED="true" ID="ID_1229810133" MODIFIED="1574835045874" TEXT="2.2 Set operations">
+<node CREATED="1555257592025" ID="ID_1229810133" MODIFIED="1585334348638" TEXT="2.2 Set operations">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1557737152305" FOLDED="true" ID="ID_1490250316" MODIFIED="1574835050160" TEXT=" Introduction">
-<node CREATED="1555257650521" FOLDED="true" ID="ID_711411576" MODIFIED="1563708770188" TEXT="Union of the sets">
+<node CREATED="1557737152305" ID="ID_1490250316" MODIFIED="1585334351041" TEXT=" Introduction">
+<node CREATED="1555257650521" FOLDED="true" ID="ID_711411576" MODIFIED="1585334444028" TEXT="Union of the sets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2500,7 +2500,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1555257967772" FOLDED="true" ID="ID_1439060925" MODIFIED="1563708775320" TEXT="Intersection of the sets">
+<node CREATED="1555257967772" FOLDED="true" ID="ID_1439060925" MODIFIED="1585334444803" TEXT="Intersection of the sets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2527,7 +2527,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1555258167891" ID="ID_263456117" MODIFIED="1563708776022" TEXT="Disjoint sets">
+<node CREATED="1555258167891" FOLDED="true" ID="ID_263456117" MODIFIED="1585334443130" TEXT="Disjoint sets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2550,12 +2550,12 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1555258650081" FOLDED="true" ID="ID_620839116" MODIFIED="1564563928968" TEXT="principle of inclusion&#x2013;exclusion">
+<node CREATED="1555258650081" FOLDED="true" ID="ID_620839116" MODIFIED="1585334400461" TEXT="principle of inclusion&#x2013;exclusion">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1555258639888" ID="ID_1860600425" MODIFIED="1557066941018" TEXT="|A &#x222a; B| = |A| + |B| &#x2212; |A &#x2229; B|"/>
 </node>
 </node>
-<node CREATED="1555258674756" FOLDED="true" ID="ID_283481542" MODIFIED="1563708792090" TEXT="Difference of sets">
+<node CREATED="1555258674756" FOLDED="true" ID="ID_283481542" MODIFIED="1585334433434" TEXT="Difference of sets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2582,7 +2582,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1555258848414" FOLDED="true" ID="ID_450798446" MODIFIED="1563708799360" TEXT="Complement of a set">
+<node CREATED="1555258848414" FOLDED="true" ID="ID_450798446" MODIFIED="1585334441860" TEXT="Complement of a set">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2614,7 +2614,7 @@
 </html></richcontent>
 <node CREATED="1555259028373" ID="ID_1276225044" MODIFIED="1557737100686" TEXT="{x &#x2208; U | x !&#x2208; A}."/>
 </node>
-<node CREATED="1555259043996" FOLDED="true" ID="ID_1037720117" MODIFIED="1563708798065" TEXT="Venn diagram">
+<node CREATED="1555259043996" FOLDED="true" ID="ID_1037720117" MODIFIED="1585334440838" TEXT="Venn diagram">
 <icon BUILTIN="licq"/>
 <node CREATED="1555259075197" ID="ID_426303894" MODIFIED="1557066941015">
 <richcontent TYPE="NODE"><html>
@@ -2629,9 +2629,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1557737159888" FOLDED="true" ID="ID_1671584782" MODIFIED="1574835050160" TEXT="Set identities">
+<node CREATED="1557737159888" ID="ID_1671584782" MODIFIED="1585334446591" TEXT="Set identities">
 <node CREATED="1557737204936" ID="ID_1425158892" LINK="#ID_1693249637" MODIFIED="1557737438011" TEXT="Similar to logical equivalences table"/>
-<node CREATED="1557737278505" FOLDED="true" ID="ID_1113866783" MODIFIED="1563386763567" TEXT="Table">
+<node CREATED="1557737278505" FOLDED="true" ID="ID_1113866783" MODIFIED="1585335027867" TEXT="Table">
 <icon BUILTIN="licq"/>
 <node CREATED="1557737342959" ID="ID_1241629799" MODIFIED="1558265453901">
 <richcontent TYPE="NODE"><html>
@@ -2646,7 +2646,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1558799973422" FOLDED="true" ID="ID_243762306" MODIFIED="1563386765527" TEXT="Membership table">
+<node CREATED="1558799973422" FOLDED="true" ID="ID_243762306" MODIFIED="1585335095877" TEXT="Membership table">
 <icon BUILTIN="licq"/>
 <node CREATED="1558800123301" ID="ID_760778964" MODIFIED="1558800124239" TEXT="A &#x2229; (B &#x222a; C) and (A &#x2229; B) &#x222a; (A &#x2229; C)"/>
 <node CREATED="1558800106779" ID="ID_439008397" MODIFIED="1558800111031">
@@ -2661,7 +2661,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1558800781226" FOLDED="true" ID="ID_570114643" MODIFIED="1574835050160" TEXT="Generalized unions and intersections">
+<node CREATED="1558800781226" FOLDED="true" ID="ID_570114643" MODIFIED="1585335103694" TEXT="Generalized unions and intersections">
 <node CREATED="1558801044963" ID="ID_1788469940" MODIFIED="1558801055326" TEXT="Union of a collection of set">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2739,19 +2739,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1558849233474" FOLDED="true" ID="ID_1242845806" MODIFIED="1574835050160" TEXT="Computer representation of sets">
-<node CREATED="1559224975403" FOLDED="true" ID="ID_433466713" MODIFIED="1563708761233" TEXT="If element of set non ordered">
+<node CREATED="1558849233474" ID="ID_1242845806" MODIFIED="1585335032994" TEXT="Computer representation of sets">
+<node CREATED="1559224975403" FOLDED="true" ID="ID_433466713" MODIFIED="1585335039552" TEXT="If element of set non ordered">
 <node CREATED="1559224992003" ID="ID_1770700998" MODIFIED="1559225011030" TEXT="Time consuming to compute set operations"/>
 <node CREATED="1559225013080" ID="ID_627418273" MODIFIED="1559225191382" TEXT="... need to search the elements"/>
 </node>
-<node CREATED="1559225220512" FOLDED="true" ID="ID_1692308810" MODIFIED="1563386617105" TEXT="Solution">
-<node CREATED="1559225166471" FOLDED="true" ID="ID_669736051" MODIFIED="1561901380281" TEXT="Arbitrary ordering of U">
+<node CREATED="1559225220512" ID="ID_1692308810" MODIFIED="1585335040687" TEXT="Solution">
+<node CREATED="1559225166471" FOLDED="true" ID="ID_669736051" MODIFIED="1585335044104" TEXT="Arbitrary ordering of U">
 <icon BUILTIN="full-1"/>
 <node CREATED="1559225249873" ID="ID_1594014516" MODIFIED="1559225258630" TEXT="a1 ,a2 ,...,an"/>
 </node>
 <node CREATED="1559225265648" ID="ID_1215656712" MODIFIED="1559225364336" TEXT="Subset A of U with bit string length n">
 <icon BUILTIN="full-2"/>
-<node CREATED="1559225296790" FOLDED="true" ID="ID_1554257778" MODIFIED="1561901379231" TEXT="where the i th bit in this string is">
+<node CREATED="1559225296790" ID="ID_1554257778" MODIFIED="1585335047355" TEXT="where the i th bit in this string is">
 <node CREATED="1559225308975" ID="ID_771558777" MODIFIED="1559225354734" TEXT="if ai belongs to A ">
 <node CREATED="1559225311103" ID="ID_1762090365" MODIFIED="1559225312148" TEXT="1"/>
 </node>
@@ -2759,9 +2759,9 @@
 <node CREATED="1559225320847" ID="ID_1082615839" MODIFIED="1559225323164" TEXT="0"/>
 </node>
 </node>
-<node CREATED="1559225795866" FOLDED="true" ID="ID_1633193456" MODIFIED="1561901378504" TEXT="Examples">
+<node CREATED="1559225795866" ID="ID_1633193456" MODIFIED="1585335052914" TEXT="Examples">
 <icon BUILTIN="wizard"/>
-<node CREATED="1559225818522" FOLDED="true" ID="ID_1476521377" MODIFIED="1561901377472" TEXT=" U = {1,2,3,4,5,6,7,8,9,10}">
+<node CREATED="1559225818522" ID="ID_1476521377" MODIFIED="1585335054647" TEXT=" U = {1,2,3,4,5,6,7,8,9,10}">
 <node CREATED="1559225827850" ID="ID_408001263" MODIFIED="1559225837312" TEXT="A = {1,3,5,7,9}">
 <node CREATED="1559225845379" ID="ID_355947911" MODIFIED="1559225849454" TEXT="10 1010 1010"/>
 </node>
@@ -2791,11 +2791,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1559672675570" FOLDED="true" ID="ID_1461397746" MODIFIED="1574835050160" TEXT=" symmetric difference">
-<node CREATED="1559672680966" FOLDED="true" ID="ID_1377489314" MODIFIED="1563386618985" TEXT="Notation">
+<node CREATED="1559672675570" ID="ID_1461397746" MODIFIED="1585335122123" TEXT="Symmetric difference">
+<node CREATED="1559672680966" ID="ID_1377489314" MODIFIED="1585335107198" TEXT="Notation">
 <node CREATED="1559672687141" ID="ID_1222111788" MODIFIED="1559672687823" TEXT="A &#x2295; B"/>
 </node>
-<node CREATED="1559672694381" FOLDED="true" ID="ID_968527443" MODIFIED="1563386619885" TEXT="Set containing element in A or B">
+<node CREATED="1559672694381" ID="ID_968527443" MODIFIED="1585335109039" TEXT="Set containing element in A or B">
 <node CREATED="1559672702331" ID="ID_149805171" MODIFIED="1559672704410" TEXT="but not both"/>
 </node>
 </node>
@@ -4334,7 +4334,7 @@
 </node>
 <node CREATED="1574834995735" ID="ID_1289373584" MODIFIED="1574835029762" POSITION="right" TEXT="Algorithms">
 <icon BUILTIN="full-3"/>
-<node CREATED="1574835164172" ID="ID_1120871976" MODIFIED="1574835169817" TEXT="3.1 Algorithms">
+<node CREATED="1574835164172" FOLDED="true" ID="ID_1120871976" MODIFIED="1585334346369" TEXT="3.1 Algorithms">
 <node CREATED="1574835186764" FOLDED="true" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
 <node CREATED="1574835189653" ID="ID_1097192422" MODIFIED="1574835201089" TEXT="An algorithm is a finite sequence of precise instructions"/>
 <node CREATED="1574835202067" ID="ID_476920489" MODIFIED="1574835210882" TEXT="... for performing a computation or for solving a problem"/>
@@ -4631,8 +4631,7 @@
       solves the halting problem.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="licq"/>
 <node CREATED="1585125793099" ID="ID_1464000145" MODIFIED="1585125802360">
 <richcontent TYPE="NODE"><html>
@@ -4642,8 +4641,7 @@
   <body>
     <img src="halting-problem.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
