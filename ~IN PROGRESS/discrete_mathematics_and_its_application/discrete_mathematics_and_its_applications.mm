@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" MODIFIED="1585567500914" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" MODIFIED="1585668947584" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -340,13 +340,16 @@
         How do you write the difference of the set A and B? Write the two ways. Draw the Venn diagram.
       </li>
       <li>
-        How do you write the complement of the sert A in the universe U? Draw the Venn diagram.
+        How do you write the complement of the set A in the universe U? Draw the Venn diagram.
       </li>
       <li>
-        Write and draw the Wenn diagram for the complement of the union of the set A and B.
+        Write and draw the Venn diagram for the complement of the union of the set A and B.
       </li>
       <li>
         Write and draw the Venn diagram for the intersection of the complement of the set A and the complement of the set B.
+      </li>
+      <li>
+        What's the notation when A is a subset of B? When does A is a proper subset of B? How do you write it?
       </li>
     </ol>
     <p>
@@ -2000,7 +2003,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1585570562523" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1585668605111" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1540654915290" ID="ID_1993730354" MODIFIED="1585570663126" TEXT="2.1 Sets">
@@ -2013,8 +2016,7 @@
       A set is an unordered collection of objects, called elements or members of the set.<br />A set is said to contain its elements. We write a &#8712; A to denote that a is an element of the set A.<br />The notation a !&#8712; A denotes that a is not an element of the set A.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1540655151307" FOLDED="true" ID="ID_344501817" MODIFIED="1563709651589" TEXT="Fundamental discrete structure">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -2247,7 +2249,7 @@
 <node CREATED="1540742391335" ID="ID_356398285" MODIFIED="1557066941018" TEXT="Elements of V represented with points"/>
 </node>
 </node>
-<node CREATED="1545143712276" FOLDED="true" ID="ID_541934488" MODIFIED="1585570663115" TEXT="Subset">
+<node CREATED="1545143712276" ID="ID_541934488" MODIFIED="1585668852479" TEXT="Subset">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2802,7 +2804,7 @@
 </node>
 </node>
 <node CREATED="1559226217694" ID="ID_1832647831" MODIFIED="1585570563946" TEXT="2.3 Functions">
-<node CREATED="1562406780467" ID="ID_1713732385" MODIFIED="1585570565794" TEXT="Introduction">
+<node CREATED="1562406780467" FOLDED="true" ID="ID_1713732385" MODIFIED="1585668917503" TEXT="Introduction">
 <node CREATED="1559226273678" ID="ID_453490020" MODIFIED="1559226275627" TEXT="Can be called">
 <node CREATED="1559226275823" ID="ID_377513065" MODIFIED="1559226280639" TEXT="transformation">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -4333,14 +4335,14 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1574834995735" FOLDED="true" ID="ID_1289373584" MODIFIED="1585570561200" POSITION="right" TEXT="Algorithms">
+<node CREATED="1574834995735" ID="ID_1289373584" MODIFIED="1585666542885" POSITION="right" TEXT="Algorithms">
 <icon BUILTIN="full-3"/>
-<node CREATED="1574835164172" ID="ID_1120871976" MODIFIED="1585567509021" TEXT="3.1 Algorithms">
+<node CREATED="1574835164172" FOLDED="true" ID="ID_1120871976" MODIFIED="1585666546559" TEXT="3.1 Algorithms">
 <node CREATED="1574835186764" FOLDED="true" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
 <node CREATED="1574835189653" ID="ID_1097192422" MODIFIED="1574835201089" TEXT="An algorithm is a finite sequence of precise instructions"/>
 <node CREATED="1574835202067" ID="ID_476920489" MODIFIED="1574835210882" TEXT="... for performing a computation or for solving a problem"/>
 </node>
-<node CREATED="1574835646519" FOLDED="true" ID="ID_1714950159" MODIFIED="1585570558897" TEXT="Properties of algorithm">
+<node CREATED="1574835646519" FOLDED="true" ID="ID_1714950159" MODIFIED="1585666544497" TEXT="Properties of algorithm">
 <node CREATED="1574835654984" ID="ID_164771671" MODIFIED="1574835656789" TEXT="Input">
 <node CREATED="1574835685513" ID="ID_422767542" MODIFIED="1574835686052" TEXT="An algorithm has input values from a specified set"/>
 </node>
@@ -4648,7 +4650,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585568795246" FOLDED="true" ID="ID_1838004265" MODIFIED="1585570555143" TEXT="3.2 The growth of functions">
+<node CREATED="1585568795246" ID="ID_1838004265" MODIFIED="1585666547932" TEXT="3.2 The growth of functions">
 <node CREATED="1585568911524" ID="ID_826016681" MODIFIED="1585568913221" TEXT="Introduction">
 <node CREATED="1585568880579" ID="ID_127667806" MODIFIED="1585568910159" TEXT="Times to solve a problem depends on">
 <node CREATED="1585568886420" ID="ID_1650702354" MODIFIED="1585568888177" TEXT="software"/>
@@ -4699,15 +4701,26 @@
       whenever x &gt; k. [This is read as &#8220;f (x) is big-oh of g(x).&#8221;]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1585569324643" ID="ID_1280718598" MODIFIED="1585569328614" TEXT="Constants C and k">
 <node CREATED="1585569328826" ID="ID_655563591" MODIFIED="1585569344386" TEXT="Called witnesses to the relationship">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+<node CREATED="1585667108358" ID="ID_1250357531" MODIFIED="1585667126395" TEXT="To prove that f(x) is O(g(x))"/>
+<node CREATED="1585667127588" ID="ID_224762864" MODIFIED="1585667132816" TEXT="... one pair of witnesses enough"/>
+<node CREATED="1585666962309" ID="ID_701531417" MODIFIED="1585666970018" TEXT="Working with Big-O">
+<node CREATED="1585666970272" ID="ID_1567429255" MODIFIED="1585667004273" TEXT="Find a value of k for which f(x) can be estimated">
+<icon BUILTIN="full-1"/>
+<node CREATED="1585666999895" ID="ID_945037447" MODIFIED="1585667002644" TEXT="when x &gt; k"/>
 </node>
+<node CREATED="1585667026455" ID="ID_1389552677" MODIFIED="1585667041272" TEXT="See if we can find a value of C from previous estimate">
+<node CREATED="1585667056296" ID="ID_1307924209" MODIFIED="1585667059550" TEXT="for which |f (x)| &#x2264; C|g(x)| for x &gt; k"/>
+</node>
+</node>
+</node>
+<node CREATED="1585667986987" ID="ID_648579120" MODIFIED="1585667993706" TEXT="Big-O estimates for some important functions"/>
 </node>
 </node>
 </node>
