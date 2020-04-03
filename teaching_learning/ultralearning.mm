@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1581412135824" ID="ID_343389241" LINK="https://www.scotthyoung.com/blog/ultralearning/" MODIFIED="1585560015186" TEXT="Ultralearning">
+<node CREATED="1581412135824" ID="ID_343389241" LINK="https://www.scotthyoung.com/blog/ultralearning/" MODIFIED="1585636463567" TEXT="Ultralearning">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2313,7 +2313,7 @@
 <node CREATED="1583330684336" ID="ID_1547421680" MODIFIED="1583330696410" TEXT="Encourage you to think hard to solve problems"/>
 </node>
 </node>
-<node CREATED="1581413600469" ID="ID_162438914" MODIFIED="1585560371183" POSITION="left" TEXT="Your First Ultralearning Project">
+<node CREATED="1581413600469" FOLDED="true" ID="ID_162438914" MODIFIED="1585666515341" POSITION="left" TEXT="Your First Ultralearning Project">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1583330710556" FOLDED="true" ID="ID_1557647305" MODIFIED="1585560379050" TEXT="Step 1: do your research">
@@ -2443,7 +2443,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1583398300900" ID="ID_1938891830" MODIFIED="1585560407483" TEXT="Step 3: execute your plan">
+<node CREATED="1583398300900" FOLDED="true" ID="ID_1938891830" MODIFIED="1585636468194" TEXT="Step 3: execute your plan">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1583398310363" ID="ID_624002907" MODIFIED="1583398314097" TEXT="No plan is perfect"/>
 <node CREATED="1583398314564" ID="ID_394635635" MODIFIED="1583398318502" TEXT="Improve it as you go"/>
@@ -2660,7 +2660,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1581413613528" FOLDED="true" ID="ID_1325664823" MODIFIED="1585560370129" POSITION="left" TEXT="An Unconventional Education">
+<node CREATED="1581413613528" FOLDED="true" ID="ID_1325664823" MODIFIED="1585666515341" POSITION="left" TEXT="An Unconventional Education">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-4"/>
 <node CREATED="1583499685242" FOLDED="true" ID="ID_1530076884" MODIFIED="1583556277739" TEXT="Judit Polgar">
@@ -2681,7 +2681,7 @@
 </node>
 <node CREATED="1583499758320" ID="ID_1247863329" MODIFIED="1583499768733" TEXT="Education of Polgars didn&apos;t crush their childhood"/>
 </node>
-<node CREATED="1583499774264" FOLDED="true" ID="ID_1165033818" MODIFIED="1583556277741" TEXT="Educating ultralearners?">
+<node CREATED="1583499774264" FOLDED="true" ID="ID_1165033818" MODIFIED="1585636482773" TEXT="Educating ultralearners?">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1583555415889" ID="ID_1746633649" MODIFIED="1583555420376" TEXT="Difference in goals">
 <node CREATED="1583555420650" ID="ID_2004380" MODIFIED="1583555440005" TEXT="Intrinsically pursued goals"/>
