@@ -1,6 +1,17 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1573650707236" TEXT="Clojure For The Brave And True">
+<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1585735727169" TEXT="Clojure For The Brave And True">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This is best to be followed with the code examples present here:<br /><br />https://github.com/Phantas0s/playground/tree/master/clojure/brave-clojure
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1572957374905" FOLDED="true" ID="ID_1172720428" MODIFIED="1573402908198" POSITION="right" TEXT="Building, Running, and the REPL">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572957483719" ID="ID_528358401" MODIFIED="1572957484341" TEXT=" First Things First: What Is Clojure?">
@@ -1118,7 +1129,7 @@
 <node CREATED="1575028873392" ID="ID_1012479085" MODIFIED="1575028873960" TEXT="To Catch a Burglar"/>
 </node>
 </node>
-<node CREATED="1579970698332" ID="ID_20273265" MODIFIED="1579970701533" POSITION="left" TEXT="Clojure Alchemy: Reading, Evaluation, and Macros">
+<node CREATED="1579970698332" FOLDED="true" ID="ID_20273265" MODIFIED="1585734329292" POSITION="left" TEXT="Clojure Alchemy: Reading, Evaluation, and Macros">
 <icon BUILTIN="full-7"/>
 <node CREATED="1579970710936" ID="ID_1874417725" MODIFIED="1579970711596" TEXT="An Overview of Clojure&#x2019;s Evaluation Model">
 <node CREATED="1579970716969" ID="ID_1811585923" MODIFIED="1579970720760" TEXT="Two-phase system">
@@ -1488,7 +1499,7 @@
 <node CREATED="1585320675921" ID="ID_1318689855" MODIFIED="1585320688903" TEXT="Syntactic abstraction">
 <node CREATED="1585320689069" ID="ID_248295309" MODIFIED="1585320693652" TEXT="Change syntax of Clojure"/>
 </node>
-<node CREATED="1585320706332" ID="ID_1418551949" MODIFIED="1585320716916" TEXT="Example">
+<node CREATED="1585320706332" ID="ID_1418551949" MODIFIED="1585734325490" TEXT="Example">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1540,6 +1551,54 @@
 </html>
 </richcontent>
 <icon BUILTIN="wizard"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1585734331270" ID="ID_1607777126" MODIFIED="1585734338402" POSITION="left" TEXT="Writing Macros">
+<icon BUILTIN="full-8"/>
+<node CREATED="1585734528524" ID="ID_442508893" MODIFIED="1585734531812" TEXT="Macros are essential"/>
+<node CREATED="1585734794306" ID="ID_1255841281" MODIFIED="1585734797704" TEXT="Anatomy of a macro">
+<node CREATED="1585734804852" ID="ID_1497472351" MODIFIED="1585734811310" TEXT="Looks like function definition">
+<node CREATED="1585734811501" ID="ID_304320542" MODIFIED="1585734812253" TEXT="Name"/>
+<node CREATED="1585734816882" ID="ID_1560308792" MODIFIED="1585734820060" TEXT="Optional document string"/>
+<node CREATED="1585734822839" ID="ID_1590978279" MODIFIED="1585734825776" TEXT="Argument list"/>
+<node CREATED="1585734826244" ID="ID_1044446645" MODIFIED="1585734827391" TEXT="Body">
+<node CREATED="1585734832749" ID="ID_185425382" MODIFIED="1585734836609" TEXT="Almost always return a list"/>
+</node>
+<node CREATED="1585735034746" ID="ID_1384847824" MODIFIED="1585735040093" TEXT="Difference macro / function">
+<node CREATED="1585735040257" ID="ID_1960679695" MODIFIED="1585735067336" TEXT="Arguments are not evaluated"/>
+<node CREATED="1585735045561" ID="ID_693893796" MODIFIED="1585735059534" TEXT="... before passed to macros"/>
+</node>
+</node>
+</node>
+<node CREATED="1585735666483" ID="ID_1664185400" MODIFIED="1585735677805" TEXT="Building Lists of Evaluation">
+<node CREATED="1585736196902" ID="ID_1780490687" MODIFIED="1585736199080" TEXT="Introduction">
+<node CREATED="1585735802452" ID="ID_1368572142" MODIFIED="1585735809020" TEXT="All about building a list to evaluate"/>
+<node CREATED="1585735809399" ID="ID_1928449015" MODIFIED="1585735813232" TEXT="Inverse your way of thinking"/>
+</node>
+<node CREATED="1585735847118" ID="ID_394984986" MODIFIED="1585735847763" TEXT="Distinguishing Symbols and Values"/>
+<node CREATED="1585736053221" ID="ID_1821202560" MODIFIED="1585736053885" TEXT="Simple Quoting">
+<node CREATED="1585736111346" ID="ID_878815500" MODIFIED="1585736116830" TEXT="Quoting return symbol"/>
+<node CREATED="1585736117328" ID="ID_1691902742" MODIFIED="1585736235217" TEXT="... instead of its value"/>
+<node CREATED="1585736122138" ID="ID_1508115004" MODIFIED="1585736161019" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1585736123499" ID="ID_1480609907" MODIFIED="1585736304881" TEXT="(quote +(">
+<node CREATED="1585736135942" ID="ID_1857987117" MODIFIED="1585736139409" TEXT="return +"/>
+</node>
+<node CREATED="1585736127661" ID="ID_1757153907" MODIFIED="1585736141373" TEXT="+">
+<node CREATED="1585736141635" ID="ID_1828756055" MODIFIED="1585736154210" TEXT="return #&lt;core$_PLUS_ clojure.core$_PLUS_@47b36583&gt;"/>
+</node>
+</node>
+<node CREATED="1585736223238" ID="ID_1024890130" MODIFIED="1585736229712" TEXT="Doesn&apos;t matter if the symbol as a value"/>
+<node CREATED="1585736252578" ID="ID_1394333672" MODIFIED="1585736258708" TEXT="Character &apos;">
+<node CREATED="1585736258899" ID="ID_423698219" MODIFIED="1585736287145" TEXT="Macro for quote"/>
+<node CREATED="1585736267665" ID="ID_1253357330" MODIFIED="1585736270902" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1585736275905" ID="ID_1555673359" MODIFIED="1585736282884" TEXT="(quote +)"/>
+<node CREATED="1585736306286" ID="ID_143601823" MODIFIED="1585736310386" TEXT="... is equivalent to"/>
+<node CREATED="1585736291864" ID="ID_975485353" MODIFIED="1585736329010" TEXT="&apos;+"/>
+</node>
 </node>
 </node>
 </node>
