@@ -13,7 +13,7 @@ You'll find here the result of my insatiable thirst of knowledge, mainly in the 
 
 To open the mindmaps, you'll need the software [Freemind](http://freemind.sourceforge.net/wiki/index.php/Main_Page) installed on your shiny computer.
 
-Then, you'll see something like that:
+It will look like that:
 
 [![Example of a mindmap](./example.png)](https://raw.githubusercontent.com/Phantas0s/alexandria-library/master/example.png)
 
