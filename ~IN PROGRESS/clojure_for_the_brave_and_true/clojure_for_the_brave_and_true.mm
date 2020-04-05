@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1585735727169" TEXT="Clojure For The Brave And True">
+<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1585995151931" TEXT="Clojure For The Brave And True">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -100,7 +100,7 @@
 <node CREATED="1572959463383" ID="ID_1899940640" MODIFIED="1572959468423" POSITION="right" TEXT="How to Use Emacs, an Excellent Clojure Editor">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1572960953553" FOLDED="true" ID="ID_408168825" MODIFIED="1573402905235" POSITION="right" TEXT="Do Things: A Clojure Crash Course">
+<node CREATED="1572960953553" ID="ID_408168825" MODIFIED="1586000005165" POSITION="right" TEXT="Do Things: A Clojure Crash Course">
 <icon BUILTIN="full-3"/>
 <node CREATED="1572961016986" ID="ID_626921267" MODIFIED="1572961019190" TEXT="Syntax">
 <node CREATED="1572961038827" ID="ID_238894836" MODIFIED="1572961040519" TEXT="Forms">
@@ -1129,7 +1129,7 @@
 <node CREATED="1575028873392" ID="ID_1012479085" MODIFIED="1575028873960" TEXT="To Catch a Burglar"/>
 </node>
 </node>
-<node CREATED="1579970698332" FOLDED="true" ID="ID_20273265" MODIFIED="1585734329292" POSITION="left" TEXT="Clojure Alchemy: Reading, Evaluation, and Macros">
+<node CREATED="1579970698332" FOLDED="true" ID="ID_20273265" MODIFIED="1585995155772" POSITION="left" TEXT="Clojure Alchemy: Reading, Evaluation, and Macros">
 <icon BUILTIN="full-7"/>
 <node CREATED="1579970710936" ID="ID_1874417725" MODIFIED="1579970711596" TEXT="An Overview of Clojure&#x2019;s Evaluation Model">
 <node CREATED="1579970716969" ID="ID_1811585923" MODIFIED="1579970720760" TEXT="Two-phase system">
@@ -1499,7 +1499,7 @@
 <node CREATED="1585320675921" ID="ID_1318689855" MODIFIED="1585320688903" TEXT="Syntactic abstraction">
 <node CREATED="1585320689069" ID="ID_248295309" MODIFIED="1585320693652" TEXT="Change syntax of Clojure"/>
 </node>
-<node CREATED="1585320706332" ID="ID_1418551949" MODIFIED="1585734325490" TEXT="Example">
+<node CREATED="1585320706332" ID="ID_1418551949" MODIFIED="1585995151961" TEXT="Example">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1555,7 +1555,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585734331270" ID="ID_1607777126" MODIFIED="1585734338402" POSITION="left" TEXT="Writing Macros">
+<node CREATED="1585734331270" ID="ID_1607777126" MODIFIED="1585995157108" POSITION="left" TEXT="Writing Macros">
 <icon BUILTIN="full-8"/>
 <node CREATED="1585734528524" ID="ID_442508893" MODIFIED="1585734531812" TEXT="Macros are essential"/>
 <node CREATED="1585734794306" ID="ID_1255841281" MODIFIED="1585734797704" TEXT="Anatomy of a macro">
@@ -1600,6 +1600,123 @@
 <node CREATED="1585736291864" ID="ID_975485353" MODIFIED="1585736329010" TEXT="&apos;+"/>
 </node>
 </node>
+</node>
+<node CREATED="1585995162660" ID="ID_1322211086" MODIFIED="1585995163497" TEXT="Syntax Quoting">
+<node CREATED="1585995184244" ID="ID_1760747171" MODIFIED="1585995193613" TEXT="Return fully qualified symbols">
+<node CREATED="1585995203033" ID="ID_919597732" MODIFIED="1585995212955" TEXT="Symbol and namespace"/>
+</node>
+<node CREATED="1585995250873" ID="ID_461806316" MODIFIED="1585995256671" TEXT="`+">
+<node CREATED="1585995262158" ID="ID_744169825" MODIFIED="1585995263471" TEXT="clojure.core/+"/>
+</node>
+<node CREATED="1585995303158" ID="ID_862410442" MODIFIED="1585995304264" TEXT="Why?">
+<node CREATED="1585995282049" ID="ID_1617389452" MODIFIED="1585995307957" TEXT="Help avoid naming collision">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1585995308954" ID="ID_170817600" MODIFIED="1585995323998" TEXT="Can unquote form with ~">
+<node CREATED="1585995327606" ID="ID_393805966" MODIFIED="1585995331437" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1585995337029" ID="ID_1310396995" MODIFIED="1585995339390" TEXT="`(+ 1 ~(inc 1))"/>
+<node CREATED="1585995349206" ID="ID_888506395" MODIFIED="1585995354727" TEXT="(clojure.core/+ 1 2)"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1585995732988" ID="ID_1141637368" MODIFIED="1585995733638" TEXT="Using Syntax Quoting in a Macro">
+<node CREATED="1585996959882" ID="ID_1617909157" MODIFIED="1585996986899" TEXT="Don&apos;t need to use &quot;list&quot; that much anymore!">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (defmacro code-critic
+    </p>
+    <p>
+      &#160;&#160;&quot;Phrases are courtesy Hermes Conrad from Futurama&quot;
+    </p>
+    <p>
+      &#160;&#160;[bad good]
+    </p>
+    <p>
+      &#160;&#160;(list 'do
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(list 'println
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Great squid of Madrid, this is bad code:&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(list 'quote bad))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(list 'println
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Sweet Gorilla of Manilla, this is good code:&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(list 'quote good))))
+    </p>
+    <p>
+      (code-critic (1 + 2) (+ 1 2))
+    </p>
+    <p>
+      (macroexpand '(code-critic (1 + 2) (+ 1 2)))
+    </p>
+    <p>
+      ; =&gt; (do (println &quot;Great squid of Madrid, this is bad code:&quot; (quote (1 + 2))) (println &quot;Sweet Gorilla of Manilla, this is good code:&quot; (quote (+ 1 2))))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (defmacro code-critic
+    </p>
+    <p>
+      &#160;&#160;&quot;Phrases are courtesy Hermes Conrad from Futurama&quot;
+    </p>
+    <p>
+      &#160;&#160;[bad good]
+    </p>
+    <p>
+      &#160;&#160;`(do
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;(println &quot;Great squid of Madrid, this is bad code:&quot; (quote ~bad))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;(println &quot;Sweet Gorilla of Manilla, this is good code:&quot; (quote ~good))))
+    </p>
+    <p>
+      (code-critic (1 + 2) (+ 1 2))
+    </p>
+    <p>
+      (macroexpand '(code-critic (1 + 2) (+ 1 2)))
+    </p>
+    <p>
+      ; =&gt; (do (clojure.core/println &quot;Great squid of Madrid, this is bad code:&quot; (quote (1 + 2))) (clojure.core/println &quot;Sweet Gorilla of Manilla, this is good code:&quot; (quote (+ 1 2))))
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1585997108133" ID="ID_842327039" MODIFIED="1585997108869" TEXT="Refactoring a Macro and Unquote Splicing">
+<node CREATED="1585999721989" ID="ID_347925192" MODIFIED="1585999727878" TEXT="Unquote splicing">
+<node CREATED="1585999728413" ID="ID_833292885" MODIFIED="1585999728991" TEXT="~@"/>
+<node CREATED="1585999785036" ID="ID_60495465" MODIFIED="1585999794512" TEXT="Unwrap seqable data structure"/>
+</node>
+</node>
+</node>
+<node CREATED="1585999984766" ID="ID_733558664" MODIFIED="1585999985479" TEXT="Things to Watch Out For">
+<node CREATED="1585999995312" ID="ID_120277177" MODIFIED="1586000004413" TEXT="Macro have pitfalls"/>
+<node CREATED="1586000010060" ID="ID_1143026552" MODIFIED="1586000011814" TEXT="Variable Capture">
+<node CREATED="1586000028096" ID="ID_152323974" MODIFIED="1586000036249" TEXT="Macro which introduce its own binding"/>
+<node CREATED="1586000036690" ID="ID_1607835283" MODIFIED="1586000054271" TEXT="... eclipsing an existing one"/>
 </node>
 </node>
 </node>
