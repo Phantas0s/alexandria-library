@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1572085290933" ID="ID_250100245" LINK="https://felipecastro.com/en/okr/okr_and-agile/" MODIFIED="1572085297680" TEXT="OKR and Agile: Stop Waterfall Goals">
-<node CREATED="1572085319301" ID="ID_1749344342" MODIFIED="1572085322416" POSITION="right" TEXT="The Feature Factory">
+<node CREATED="1572085319301" FOLDED="true" ID="ID_1749344342" MODIFIED="1586018125946" POSITION="right" TEXT="The Feature Factory">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572085329044" ID="ID_1812999925" MODIFIED="1572085334648" TEXT="Agile created to deliver software">
 <node CREATED="1572085372020" ID="ID_932711170" MODIFIED="1572085376168" TEXT="Alternative to waterfall"/>
@@ -10,7 +10,9 @@
 <node CREATED="1572085389740" ID="ID_1041396085" MODIFIED="1572085392512" TEXT="Features"/>
 </node>
 <node CREATED="1572085393123" ID="ID_1332928439" MODIFIED="1572085396752" TEXT="... but bot value">
-<node CREATED="1572085397228" ID="ID_1206774589" MODIFIED="1572085402424" TEXT="Business outcomes"/>
+<node CREATED="1572085397228" ID="ID_1206774589" MODIFIED="1586018051736" TEXT="Business outcomes">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node CREATED="1572085421995" ID="ID_631791114" MODIFIED="1572085427672" TEXT="Agile Manifesto">
 <node CREATED="1572085427865" ID="ID_149692141" MODIFIED="1572085435272" TEXT="&#x201c;Working software is the primary measure of progress&#x201d;"/>
@@ -29,7 +31,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572085589067" ID="ID_707168177" MODIFIED="1572085595780" POSITION="right" TEXT="Delivery Agile">
+<node CREATED="1572085589067" FOLDED="true" ID="ID_707168177" MODIFIED="1586018141418" POSITION="right" TEXT="Delivery Agile">
 <icon BUILTIN="full-2"/>
 <node CREATED="1572085610857" ID="ID_1601773366" MODIFIED="1572085739925" TEXT="Organisation">
 <node CREATED="1572085613482" FOLDED="true" ID="ID_1646291526" MODIFIED="1572085727435" TEXT="Stack of 5 layers">
@@ -50,14 +52,13 @@
   <body>
     <img src="company_stack.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 <node CREATED="1572085741345" ID="ID_991785665" MODIFIED="1572085745933" TEXT="Traditional organisation">
-<node CREATED="1572085748177" FOLDED="true" ID="ID_607705846" MODIFIED="1572085787116" TEXT="img">
+<node CREATED="1572085748177" ID="ID_607705846" MODIFIED="1586018075118" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1572085781577" ID="ID_1336943810" MODIFIED="1572085785041">
 <richcontent TYPE="NODE"><html>
@@ -67,14 +68,13 @@
   <body>
     <img src="company_traditional_stack.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1572085822448" ID="ID_709599677" MODIFIED="1572085826540" TEXT="When company adopt agile">
 <node CREATED="1572085826738" ID="ID_1739990907" MODIFIED="1572085830380" TEXT="only operation change!"/>
-<node CREATED="1572085896143" FOLDED="true" ID="ID_1462778353" MODIFIED="1572085905730" TEXT="img">
+<node CREATED="1572085896143" ID="ID_1462778353" MODIFIED="1586018129365" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1572085831784" ID="ID_1651799664" MODIFIED="1572085893976">
 <richcontent TYPE="NODE"><html>
@@ -91,7 +91,7 @@
 <node CREATED="1572085954672" ID="ID_1192177894" MODIFIED="1572085959588" TEXT="experimentation culture not present"/>
 </node>
 </node>
-<node CREATED="1572085996526" ID="ID_327621246" MODIFIED="1572086013089" POSITION="right" TEXT="Waterfall goals">
+<node CREATED="1572085996526" FOLDED="true" ID="ID_327621246" MODIFIED="1586018144866" POSITION="right" TEXT="Waterfall goals">
 <icon BUILTIN="full-3"/>
 <node CREATED="1572086018510" ID="ID_1452890860" MODIFIED="1572086025283" TEXT="About goals, waterfall still the norm"/>
 <node CREATED="1572086035437" ID="ID_1050158330" MODIFIED="1572086038186" TEXT="Static planning model"/>
@@ -133,7 +133,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572086490465" FOLDED="true" ID="ID_884999049" MODIFIED="1572087986634" POSITION="left" TEXT="Full Stack Agile">
+<node CREATED="1572086490465" ID="ID_884999049" MODIFIED="1586018146446" POSITION="left" TEXT="Full Stack Agile">
 <icon BUILTIN="full-4"/>
 <node CREATED="1572086508610" ID="ID_9761451" MODIFIED="1572086531999" TEXT="Need to replace all layers of organization">
 <node CREATED="1572086532594" ID="ID_1742830001" MODIFIED="1572086610029" TEXT="img">
@@ -151,7 +151,7 @@
 </node>
 </node>
 <node CREATED="1572086633217" ID="ID_931267313" MODIFIED="1572086768898" TEXT="Full stack agile layers">
-<node CREATED="1572086638399" FOLDED="true" ID="ID_1531371955" MODIFIED="1572086769961" TEXT="Culture">
+<node CREATED="1572086638399" FOLDED="true" ID="ID_1531371955" MODIFIED="1586018159945" TEXT="Culture">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572086640816" ID="ID_819031978" MODIFIED="1572086648862" TEXT="Aligned autonomy with the teams"/>
 <node CREATED="1572086649345" ID="ID_371195289" MODIFIED="1572086655606" TEXT="No detailed plan">
@@ -318,7 +318,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572087988297" ID="ID_1028663661" MODIFIED="1572088002697" POSITION="left" TEXT="From opinions to data">
+<node CREATED="1572087988297" FOLDED="true" ID="ID_1028663661" MODIFIED="1586018120038" POSITION="left" TEXT="From opinions to data">
 <icon BUILTIN="full-5"/>
 <node CREATED="1572088014591" ID="ID_451011399" MODIFIED="1572088018882" TEXT="Who has the ideas?">
 <node CREATED="1572088019095" ID="ID_1998965893" MODIFIED="1572088020874" TEXT="HIPPO">
@@ -346,7 +346,7 @@
 <node CREATED="1572088195005" ID="ID_1143657985" MODIFIED="1572088210274" TEXT="... but discussing metrics and improving them"/>
 </node>
 </node>
-<node CREATED="1572088219660" ID="ID_484341643" MODIFIED="1572088228504" POSITION="left" TEXT="Enabling autonomy">
+<node CREATED="1572088219660" FOLDED="true" ID="ID_484341643" MODIFIED="1586018120038" POSITION="left" TEXT="Enabling autonomy">
 <icon BUILTIN="full-6"/>
 <node CREATED="1572088242404" ID="ID_1057471114" MODIFIED="1572088246368" TEXT="Power and Control">
 <node CREATED="1572088246539" ID="ID_18737513" MODIFIED="1572088264645" TEXT="Stakeholders decide"/>
