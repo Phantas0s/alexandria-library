@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1581412135824" ID="ID_343389241" LINK="https://www.scotthyoung.com/blog/ultralearning/" MODIFIED="1585636463567" TEXT="Ultralearning">
+<node CREATED="1581412135824" ID="ID_343389241" LINK="https://www.scotthyoung.com/blog/ultralearning/" MODIFIED="1586067336150" TEXT="Ultralearning">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -30,7 +30,7 @@
 <node CREATED="1581413046675" ID="ID_1565295551" MODIFIED="1581413867898" POSITION="right" TEXT="Preface">
 <icon BUILTIN="full-0"/>
 </node>
-<node CREATED="1581413202390" FOLDED="true" ID="ID_1510066200" MODIFIED="1585560362283" POSITION="right" TEXT="Can You Get an MIT Education Without Going to MIT?">
+<node CREATED="1581413202390" FOLDED="true" ID="ID_1510066200" MODIFIED="1585991919491" POSITION="right" TEXT="Can You Get an MIT Education Without Going to MIT?">
 <icon BUILTIN="full-1"/>
 <node CREATED="1581413890874" FOLDED="true" ID="ID_702850678" MODIFIED="1581417997609" TEXT="The MIT Challenge">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -108,7 +108,7 @@
 <node CREATED="1581416117152" ID="ID_1911558450" MODIFIED="1581416121782" TEXT="Use space repetition software"/>
 </node>
 </node>
-<node CREATED="1581416129927" FOLDED="true" ID="ID_1605161519" MODIFIED="1581417997610" TEXT="From Minimum Wage to Millionaire">
+<node CREATED="1581416129927" ID="ID_1605161519" MODIFIED="1585991840168" TEXT="From Minimum Wage to Millionaire">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1581416161541" ID="ID_192829759" MODIFIED="1581416163876" TEXT="Roger Baron"/>
 <node CREATED="1581416168427" ID="ID_379149359" MODIFIED="1581416176883" TEXT="Wanted to create a game">
@@ -778,7 +778,7 @@
 <node CREATED="1582296208075" ID="ID_70836700" MODIFIED="1582296212195" TEXT="... but need to put the work!"/>
 </node>
 </node>
-<node CREATED="1581413289772" FOLDED="true" ID="ID_1329006893" MODIFIED="1585471505528" POSITION="right" TEXT="Principle 2 - Focus: Sharpen your Knife">
+<node CREATED="1581413289772" FOLDED="true" ID="ID_1329006893" MODIFIED="1586067393473" POSITION="right" TEXT="Principle 2 - Focus: Sharpen your Knife">
 <icon BUILTIN="full-5"/>
 <node CREATED="1582296241189" ID="ID_355754132" MODIFIED="1582296253013" TEXT="How to stay focus in environments full of distractions?"/>
 <node CREATED="1582296253677" FOLDED="true" ID="ID_1251781692" MODIFIED="1582536226578" TEXT="Difficulties">
@@ -976,7 +976,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1581413321892" FOLDED="true" ID="ID_1830737615" MODIFIED="1585473660040" POSITION="right" TEXT="Principle 3 - Directness: Go Straight Ahead">
+<node CREATED="1581413321892" FOLDED="true" ID="ID_1830737615" MODIFIED="1585991883036" POSITION="right" TEXT="Principle 3 - Directness: Go Straight Ahead">
 <icon BUILTIN="full-6"/>
 <node CREATED="1582536240065" FOLDED="true" ID="ID_444600981" MODIFIED="1585471530303" TEXT="Find exactly what">
 <node CREATED="1582536249338" ID="ID_710963428" MODIFIED="1582536250676" TEXT="skills"/>
@@ -986,7 +986,7 @@
 <node CREATED="1582536259492" ID="ID_1275089082" MODIFIED="1582536261778" TEXT="... and go for it!"/>
 <node CREATED="1582536264115" ID="ID_1203387330" MODIFIED="1585471532532" TEXT="The importance of being direct">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1582536288622" FOLDED="true" ID="ID_689120140" MODIFIED="1585471539696" TEXT="We don&apos;t want to directly learn">
+<node CREATED="1582536288622" FOLDED="true" ID="ID_689120140" MODIFIED="1585991862477" TEXT="We don&apos;t want to directly learn">
 <node CREATED="1582536293750" ID="ID_290722491" MODIFIED="1582536298217" TEXT="... so we opt for">
 <node CREATED="1582536298429" ID="ID_1161338983" MODIFIED="1582536299266" TEXT="books"/>
 <node CREATED="1582536299678" ID="ID_710882622" MODIFIED="1582536300867" TEXT="lectures"/>
@@ -1098,7 +1098,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1582537672652" FOLDED="true" ID="ID_1892126643" MODIFIED="1582538403294" TEXT="How to learn directly">
+<node CREATED="1582537672652" ID="ID_1892126643" MODIFIED="1585991874716" TEXT="How to learn directly">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582537678218" FOLDED="true" ID="ID_635996208" MODIFIED="1582538397198" TEXT="Why we don&apos;t learn directly in school">
 <node CREATED="1582537685026" ID="ID_591431584" MODIFIED="1582537689189" TEXT="Hard"/>
@@ -1151,7 +1151,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1582538127941" FOLDED="true" ID="ID_222019821" MODIFIED="1582538397201" TEXT="Tactic 4: the overkill approach">
+<node CREATED="1582538127941" FOLDED="true" ID="ID_222019821" MODIFIED="1585991880121" TEXT="Tactic 4: the overkill approach">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582538142524" ID="ID_57249443" MODIFIED="1582538145442" TEXT="Increase challenge"/>
 <node CREATED="1582538148196" ID="ID_37002348" MODIFIED="1582538153330" TEXT="Skill level contained in the set goal"/>
@@ -1176,7 +1176,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1582538336197" FOLDED="true" ID="ID_910889241" MODIFIED="1582538397202" TEXT="Learn straight from the source">
+<node CREATED="1582538336197" FOLDED="true" ID="ID_910889241" MODIFIED="1585991881934" TEXT="Learn straight from the source">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582538345748" ID="ID_1834512720" MODIFIED="1582538348918" TEXT="Ask yourself">
 <node CREATED="1582538351634" ID="ID_1890550258" MODIFIED="1582538355078" TEXT="Where and how knowledge"/>
@@ -1185,9 +1185,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1581413338529" FOLDED="true" ID="ID_1041597350" MODIFIED="1583330705562" POSITION="right" TEXT="Principle 4 - Drill: Attack Your Weakest Point">
+<node CREATED="1581413338529" FOLDED="true" ID="ID_1041597350" MODIFIED="1585991918223" POSITION="right" TEXT="Principle 4 - Drill: Attack Your Weakest Point">
 <icon BUILTIN="full-7"/>
-<node CREATED="1582538418841" FOLDED="true" ID="ID_1634809072" MODIFIED="1582725352517" TEXT="The chemistry of learning">
+<node CREATED="1582538418841" FOLDED="true" ID="ID_1634809072" MODIFIED="1585991897151" TEXT="The chemistry of learning">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582538445339" ID="ID_1118610958" MODIFIED="1582722026659" TEXT="Rate determining steps">
 <node CREATED="1582722027164" ID="ID_1081851789" MODIFIED="1582722050509" TEXT="Idea from chemistry"/>
@@ -1208,7 +1208,7 @@
 <node CREATED="1582722175837" ID="ID_113163517" MODIFIED="1582722190787" TEXT="Will improve your overall skill faster"/>
 </node>
 </node>
-<node CREATED="1582722195221" FOLDED="true" ID="ID_1535597426" MODIFIED="1582725352518" TEXT="Drills and cognitive load">
+<node CREATED="1582722195221" FOLDED="true" ID="ID_1535597426" MODIFIED="1585991898864" TEXT="Drills and cognitive load">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582722218716" ID="ID_1155973683" MODIFIED="1582722220787" TEXT="Learning trap">
 <node CREATED="1582722200071" ID="ID_1012389948" MODIFIED="1582722215712" TEXT="Getting better to a specific component"/>
@@ -1223,7 +1223,7 @@
 <node CREATED="1582722292374" ID="ID_125918441" MODIFIED="1582722295669" TEXT="... how to solve that?"/>
 </node>
 </node>
-<node CREATED="1582722301555" FOLDED="true" ID="ID_1641028028" MODIFIED="1582725352519" TEXT="The direct-than-drill approach">
+<node CREATED="1582722301555" FOLDED="true" ID="ID_1641028028" MODIFIED="1585991901922" TEXT="The direct-than-drill approach">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582722311412" ID="ID_1499185292" MODIFIED="1582722346436" TEXT="Alternative stages in larger learning cycles">
 <node CREATED="1582722323506" ID="ID_236921718" MODIFIED="1582722518283" TEXT="Direct learning / practice">
@@ -1299,14 +1299,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1582723073604" FOLDED="true" ID="ID_1111497376" MODIFIED="1582725352520" TEXT="Drill 1: time slicing">
+<node CREATED="1582723073604" FOLDED="true" ID="ID_1111497376" MODIFIED="1585991903806" TEXT="Drill 1: time slicing">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582723221757" ID="ID_1114856623" MODIFIED="1582723225330" TEXT="Slice your skills like">
 <node CREATED="1582723225896" ID="ID_28781631" MODIFIED="1582723239491" TEXT="musician working hardest part of a piece"/>
 <node CREATED="1582723240545" ID="ID_809018251" MODIFIED="1582723252013" TEXT="Language learner repeating few sentences"/>
 </node>
 </node>
-<node CREATED="1582723256957" FOLDED="true" ID="ID_1833561421" MODIFIED="1582725352520" TEXT="Drill 2: cognitive components">
+<node CREATED="1582723256957" FOLDED="true" ID="ID_1833561421" MODIFIED="1585991905215" TEXT="Drill 2: cognitive components">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582723269546" ID="ID_1645325313" MODIFIED="1582723279554" TEXT="When drill not slice but cognitive component"/>
 <node CREATED="1582723282907" ID="ID_685150761" MODIFIED="1582723339345" TEXT="Example">
@@ -1318,7 +1318,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1582723340885" FOLDED="true" ID="ID_442911086" MODIFIED="1582725352520" TEXT="Drill 3: the copycat">
+<node CREATED="1582723340885" FOLDED="true" ID="ID_442911086" MODIFIED="1585991908935" TEXT="Drill 3: the copycat">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582723346151" ID="ID_82617689" MODIFIED="1582723355763" TEXT="Difficult to isolate one aspect"/>
 <node CREATED="1582723356207" ID="ID_1185905512" MODIFIED="1582723363005" TEXT="... without mixing with the others"/>
@@ -1330,13 +1330,13 @@
 </node>
 <node CREATED="1582723411170" ID="ID_114783702" MODIFIED="1582723422695" TEXT="Editing past work can work too"/>
 </node>
-<node CREATED="1582725046251" FOLDED="true" ID="ID_1774047232" MODIFIED="1582725352520" TEXT="Drill 4: the magnifying glass method">
+<node CREATED="1582725046251" FOLDED="true" ID="ID_1774047232" MODIFIED="1585991910350" TEXT="Drill 4: the magnifying glass method">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582725088783" ID="ID_1454290941" MODIFIED="1582725096877" TEXT="Spend more time"/>
 <node CREATED="1582725097592" ID="ID_1308154489" MODIFIED="1582725102150" TEXT="... on part of the skill"/>
 <node CREATED="1582725102585" ID="ID_1988428614" MODIFIED="1582725105298" TEXT="... you want to drill"/>
 </node>
-<node CREATED="1582725106125" FOLDED="true" ID="ID_1937663796" MODIFIED="1582725352520" TEXT="Drill 5: prerequisite chaining">
+<node CREATED="1582725106125" FOLDED="true" ID="ID_1937663796" MODIFIED="1585991913926" TEXT="Drill 5: prerequisite chaining">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582725124823" ID="ID_571360079" MODIFIED="1582725180676" TEXT="Begin by skill don&apos;t have prerequisite to learn"/>
 <node CREATED="1582725181821" ID="ID_1225881135" MODIFIED="1582725194037" TEXT="... then go back to prerequisite when stuck"/>
@@ -1353,7 +1353,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1582725265469" FOLDED="true" ID="ID_1505873415" MODIFIED="1582725352521" TEXT="Mindful drilling">
+<node CREATED="1582725265469" FOLDED="true" ID="ID_1505873415" MODIFIED="1585991916734" TEXT="Mindful drilling">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582725271358" ID="ID_1586630656" MODIFIED="1582725275757" TEXT="Drills work &apos;cause you know">
 <node CREATED="1582725275938" ID="ID_1143568265" MODIFIED="1582725278354" TEXT="purpose"/>
@@ -1366,12 +1366,12 @@
 <node CREATED="1582725341322" ID="ID_1076911048" MODIFIED="1582725349801" TEXT="... but when often avoid what&apos;s difficult!"/>
 </node>
 </node>
-<node CREATED="1581413379236" FOLDED="true" ID="ID_1830460532" MODIFIED="1585507200610" POSITION="left" TEXT="Principle 5 - Retrieval: Test to Learn">
+<node CREATED="1581413379236" FOLDED="true" ID="ID_1830460532" MODIFIED="1586067615251" POSITION="left" TEXT="Principle 5 - Retrieval: Test to Learn">
 <icon BUILTIN="full-8"/>
-<node CREATED="1582725356576" ID="ID_337884131" MODIFIED="1583234219020" TEXT="The testing effect">
+<node CREATED="1582725356576" FOLDED="true" ID="ID_337884131" MODIFIED="1586067582334" TEXT="The testing effect">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582725363203" ID="ID_591579549" MODIFIED="1582725450238" TEXT="Jeffrey Karpicke / Janell Blunt study"/>
-<node CREATED="1582725562396" FOLDED="true" ID="ID_487617781" MODIFIED="1585473690636" TEXT="Choice of learning strategy">
+<node CREATED="1582725562396" FOLDED="true" ID="ID_487617781" MODIFIED="1585991926973" TEXT="Choice of learning strategy">
 <node CREATED="1582725586574" ID="ID_228724254" MODIFIED="1582725728898" TEXT="Study everything in book">
 <icon BUILTIN="full-1"/>
 <node CREATED="1582725716127" ID="ID_1689485198" MODIFIED="1582725719605" TEXT="and try to remember it"/>
@@ -1400,7 +1400,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1582725974880" FOLDED="true" ID="ID_50836831" MODIFIED="1582797496197" TEXT="The paradox of studying">
+<node CREATED="1582725974880" FOLDED="true" ID="ID_50836831" MODIFIED="1585991930918" TEXT="The paradox of studying">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582725992432" ID="ID_1841276365" MODIFIED="1582726043017" TEXT="People don&apos;t know "/>
 <node CREATED="1582726044940" ID="ID_861822909" MODIFIED="1582726046461" TEXT="... how well they learned something"/>
@@ -1410,10 +1410,10 @@
 <node CREATED="1582726034340" ID="ID_1687161652" MODIFIED="1582726039091" TEXT="... you&apos;re not good enough"/>
 </node>
 </node>
-<node CREATED="1582726071075" FOLDED="true" ID="ID_1111635664" MODIFIED="1582797496198" TEXT="Is difficulty desirable?">
+<node CREATED="1582726071075" ID="ID_1111635664" MODIFIED="1585991931554" TEXT="Is difficulty desirable?">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582726120574" ID="ID_1246334485" MODIFIED="1582726130550" TEXT="Psychologist R.A Bjork"/>
-<node CREATED="1582726133866" FOLDED="true" ID="ID_1457488747" MODIFIED="1582726273936" TEXT="Desirable difficulty">
+<node CREATED="1582726133866" ID="ID_1457488747" MODIFIED="1585991934327" TEXT="Desirable difficulty">
 <node CREATED="1582726144050" ID="ID_385804466" MODIFIED="1582726148946" TEXT="More difficult retrieval"/>
 <node CREATED="1582726149398" ID="ID_1359877322" MODIFIED="1582726157919" TEXT="... leads to better learning"/>
 <node CREATED="1582726163432" ID="ID_164314251" MODIFIED="1582726173881" TEXT="... better than with cue"/>
@@ -1507,9 +1507,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1581413394583" FOLDED="true" ID="ID_1614043920" MODIFIED="1585474739195" POSITION="left" TEXT="Principle 6 - Feedback: Don&apos;t Dodge the Punches">
+<node CREATED="1581413394583" FOLDED="true" ID="ID_1614043920" MODIFIED="1586067614481" POSITION="left" TEXT="Principle 6 - Feedback: Don&apos;t Dodge the Punches">
 <icon BUILTIN="full-9"/>
-<node CREATED="1582797499803" ID="ID_16738856" MODIFIED="1585474019978" TEXT="The power of information">
+<node CREATED="1582797499803" FOLDED="true" ID="ID_16738856" MODIFIED="1586067609659" TEXT="The power of information">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582797514167" ID="ID_159882643" MODIFIED="1582797525353" TEXT="Ultralearner feedback strategy">
 <node CREATED="1582797525551" ID="ID_1367771561" MODIFIED="1582797529174" TEXT="Immediacy"/>
@@ -1525,7 +1525,7 @@
 <node CREATED="1582797603056" ID="ID_1472209887" MODIFIED="1582797606946" TEXT="Stagnation"/>
 </node>
 </node>
-<node CREATED="1582797610251" ID="ID_1106006544" MODIFIED="1585474344829" TEXT="Can feedback backfire?">
+<node CREATED="1582797610251" FOLDED="true" ID="ID_1106006544" MODIFIED="1585993004839" TEXT="Can feedback backfire?">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582797617267" ID="ID_796995220" MODIFIED="1582797626950" TEXT="What matters: type of feedback given"/>
 <node CREATED="1582797627702" ID="ID_1995681796" MODIFIED="1582797684670" TEXT="Avraham N Kluger / Angelo DeNisi">
@@ -1568,7 +1568,7 @@
 <node CREATED="1582798049687" ID="ID_1919484333" MODIFIED="1582798052095" TEXT="Persistence"/>
 </node>
 </node>
-<node CREATED="1582798081523" FOLDED="true" ID="ID_1974042290" MODIFIED="1585474724777" TEXT="What kind of feedback do you need?">
+<node CREATED="1582798081523" FOLDED="true" ID="ID_1974042290" MODIFIED="1586067600007" TEXT="What kind of feedback do you need?">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1582798119532" ID="ID_86632493" MODIFIED="1582798125024" TEXT="3 types of feedback">
 <node CREATED="1582798125221" ID="ID_527549564" MODIFIED="1582798147529" TEXT="Outcome feedback">
@@ -1640,7 +1640,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1582798623116" FOLDED="true" ID="ID_385133162" MODIFIED="1585474730768" TEXT="Further notes on types of feedback">
+<node CREATED="1582798623116" FOLDED="true" ID="ID_385133162" MODIFIED="1586067608558" TEXT="Further notes on types of feedback">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1583068769447" ID="ID_1435064028" MODIFIED="1583068771204" TEXT="Backfire">
 <node CREATED="1583068771421" ID="ID_1149423420" MODIFIED="1583068787024" TEXT="Upgrading weakest feedback type"/>
@@ -1668,7 +1668,7 @@
 <node CREATED="1583070051809" ID="ID_536255722" MODIFIED="1583070055542" TEXT="Extract good information"/>
 </node>
 </node>
-<node CREATED="1583070060502" ID="ID_697256443" MODIFIED="1585474731812" TEXT="How quick should feedback be?">
+<node CREATED="1583070060502" FOLDED="true" ID="ID_697256443" MODIFIED="1586067607707" TEXT="How quick should feedback be?">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1583070103600" ID="ID_336907887" MODIFIED="1583070113417" TEXT="Immediate feedback better"/>
 <node CREATED="1583070128147" ID="ID_1999213428" MODIFIED="1583070151031" TEXT="Delayed review ">
@@ -1689,7 +1689,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1583070254669" FOLDED="true" ID="ID_655838746" MODIFIED="1583211021152" TEXT="How to improve your feedback">
+<node CREATED="1583070254669" FOLDED="true" ID="ID_655838746" MODIFIED="1586067612606" TEXT="How to improve your feedback">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1583070261617" ID="ID_865540827" MODIFIED="1583070266223" TEXT="Tactic 1: noise cancellation">
 <node CREATED="1583070349755" ID="ID_138564052" MODIFIED="1583070352064" TEXT="Feedback is">
@@ -1765,7 +1765,7 @@
 <node CREATED="1583071003574" ID="ID_751002071" MODIFIED="1583071051118" TEXT="Overcome poor informational feedback quality"/>
 </node>
 </node>
-<node CREATED="1583071056965" FOLDED="true" ID="ID_1815129479" MODIFIED="1583211021152" TEXT="Beyond feedback">
+<node CREATED="1583071056965" FOLDED="true" ID="ID_1815129479" MODIFIED="1586067613674" TEXT="Beyond feedback">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1583210998651" ID="ID_1101660074" MODIFIED="1583211004097" TEXT="More you get it, less it hurts"/>
 </node>
