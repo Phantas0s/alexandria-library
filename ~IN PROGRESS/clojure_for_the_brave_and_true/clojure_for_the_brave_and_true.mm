@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1585995151931" TEXT="Clojure For The Brave And True">
+<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1586176583029" TEXT="Clojure For The Brave And True">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -100,7 +100,7 @@
 <node CREATED="1572959463383" ID="ID_1899940640" MODIFIED="1572959468423" POSITION="right" TEXT="How to Use Emacs, an Excellent Clojure Editor">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1572960953553" ID="ID_408168825" MODIFIED="1586000005165" POSITION="right" TEXT="Do Things: A Clojure Crash Course">
+<node CREATED="1572960953553" FOLDED="true" ID="ID_408168825" MODIFIED="1586176587899" POSITION="right" TEXT="Do Things: A Clojure Crash Course">
 <icon BUILTIN="full-3"/>
 <node CREATED="1572961016986" ID="ID_626921267" MODIFIED="1572961019190" TEXT="Syntax">
 <node CREATED="1572961038827" ID="ID_238894836" MODIFIED="1572961040519" TEXT="Forms">
@@ -1129,7 +1129,7 @@
 <node CREATED="1575028873392" ID="ID_1012479085" MODIFIED="1575028873960" TEXT="To Catch a Burglar"/>
 </node>
 </node>
-<node CREATED="1579970698332" FOLDED="true" ID="ID_20273265" MODIFIED="1585995155772" POSITION="left" TEXT="Clojure Alchemy: Reading, Evaluation, and Macros">
+<node CREATED="1579970698332" FOLDED="true" ID="ID_20273265" MODIFIED="1586176587906" POSITION="left" TEXT="Clojure Alchemy: Reading, Evaluation, and Macros">
 <icon BUILTIN="full-7"/>
 <node CREATED="1579970710936" ID="ID_1874417725" MODIFIED="1579970711596" TEXT="An Overview of Clojure&#x2019;s Evaluation Model">
 <node CREATED="1579970716969" ID="ID_1811585923" MODIFIED="1579970720760" TEXT="Two-phase system">
@@ -1499,7 +1499,7 @@
 <node CREATED="1585320675921" ID="ID_1318689855" MODIFIED="1585320688903" TEXT="Syntactic abstraction">
 <node CREATED="1585320689069" ID="ID_248295309" MODIFIED="1585320693652" TEXT="Change syntax of Clojure"/>
 </node>
-<node CREATED="1585320706332" ID="ID_1418551949" MODIFIED="1585995151961" TEXT="Example">
+<node CREATED="1585320706332" ID="ID_1418551949" MODIFIED="1586176583053" TEXT="Example">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1555,7 +1555,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585734331270" ID="ID_1607777126" MODIFIED="1585995157108" POSITION="left" TEXT="Writing Macros">
+<node CREATED="1585734331270" ID="ID_1607777126" MODIFIED="1586176589259" POSITION="left" TEXT="Writing Macros">
 <icon BUILTIN="full-8"/>
 <node CREATED="1585734528524" ID="ID_442508893" MODIFIED="1585734531812" TEXT="Macros are essential"/>
 <node CREATED="1585734794306" ID="ID_1255841281" MODIFIED="1585734797704" TEXT="Anatomy of a macro">
@@ -1701,8 +1701,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1585997108133" ID="ID_842327039" MODIFIED="1585997108869" TEXT="Refactoring a Macro and Unquote Splicing">
@@ -1716,7 +1715,82 @@
 <node CREATED="1585999995312" ID="ID_120277177" MODIFIED="1586000004413" TEXT="Macro have pitfalls"/>
 <node CREATED="1586000010060" ID="ID_1143026552" MODIFIED="1586000011814" TEXT="Variable Capture">
 <node CREATED="1586000028096" ID="ID_152323974" MODIFIED="1586000036249" TEXT="Macro which introduce its own binding"/>
-<node CREATED="1586000036690" ID="ID_1607835283" MODIFIED="1586000054271" TEXT="... eclipsing an existing one"/>
+<node CREATED="1586000036690" ID="ID_1607835283" MODIFIED="1586178567724" TEXT="... eclipsing an existing one">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="listingblock">
+      <div class="content">
+        <pre class="pygments highlight"><code data-lang="clojure" class="block">(def message &quot;Good job!&quot;)
+(defmacro with-mischief
+  [&amp; stuff-to-do]
+  `(let [message &quot;Oh, big deal!&quot;]
+     ~@stuff-to-do))
+
+(with-mischief
+  (println &quot;Here's how I feel about that thing you did: &quot; message))
+; Exception: Can't let qualified name: user/message</code></pre>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586178468000" ID="ID_1045464620" MODIFIED="1586178470104" TEXT="Solution">
+<node CREATED="1586178470271" ID="ID_597925465" MODIFIED="1586178490109" TEXT="gensym">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="pygments highlight"><code data-lang="clojure" class="block">defmacro without-mischief
+  [&amp; stuff-to-do]
+  (let [macro-message (gensym 'message)]
+    `(let [~macro-message &quot;Oh, big deal!&quot;]
+       ~@stuff-to-do
+       (println &quot;I still need to say: &quot; ~macro-message))))
+
+(without-mischief
+  (println &quot;Here's how I feel about that thing you did: &quot; message))
+; =&gt; Here's how I feel about that thing you did:  Good job!
+; =&gt; I still need to say:  Oh, big deal! </code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586178492998" ID="ID_502798347" MODIFIED="1586178502177" TEXT="auto-gensym">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="listingblock">
+      <div class="content">
+        <pre class="pygments highlight"><code data-lang="clojure" class="block">`(let [name# &quot;Larry Potter&quot;] name#)
+; =&gt; (clojure.core/let [name__2872__auto__ &quot;Larry Potter&quot;] name__2872__auto__)</code></pre>
+      </div>
+    </div>
+    <p class="Body">
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1586178519098" ID="ID_895514692" MODIFIED="1586178520715" TEXT="each instance of x#"/>
+<node CREATED="1586178521535" ID="ID_1775923325" MODIFIED="1586178525646" TEXT="... resolve to same symbol"/>
+</node>
+</node>
+<node CREATED="1586178547051" ID="ID_959263520" MODIFIED="1586178551680" TEXT="... used all the time"/>
+</node>
+<node CREATED="1586179463745" ID="ID_227969210" MODIFIED="1586179464790" TEXT="Double Evaluation"/>
+<node CREATED="1586179468523" ID="ID_1082552211" MODIFIED="1586179473183" TEXT="Macros All the Way Down">
+<node CREATED="1586179627866" ID="ID_206678643" MODIFIED="1586179641070" TEXT="Sometimes need to write more and more macros"/>
+<node CREATED="1586179641521" ID="ID_951704137" MODIFIED="1586179645157" TEXT="... to get anything done">
+<node CREATED="1586179645322" ID="ID_299536007" MODIFIED="1586179654316" TEXT="&apos;cause macroexpension"/>
+<node CREATED="1586179654760" ID="ID_1697462710" MODIFIED="1586179659823" TEXT="... happen before evaluation"/>
+</node>
 </node>
 </node>
 </node>
