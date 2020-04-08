@@ -370,7 +370,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1530447285087" FOLDED="true" ID="ID_1982099078" MODIFIED="1585124295057" POSITION="left" TEXT="PLAN of the book">
+<node CREATED="1530447285087" FOLDED="true" ID="ID_1982099078" MODIFIED="1586261867456" POSITION="left" TEXT="PLAN of the book">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1530447444639" ID="ID_587387682" MODIFIED="1573795914213">
@@ -4850,7 +4850,7 @@
 <node CREATED="1586255168995" ID="ID_1790292008" MODIFIED="1586255174004" TEXT="exponential functions"/>
 </node>
 <node CREATED="1586255198296" ID="ID_191209873" MODIFIED="1586255201685" TEXT="Theorem 1">
-<node CREATED="1586255202096" ID="ID_342511516" MODIFIED="1586255219280" TEXT="if f n) is a polynomial of degree d, then f (n) is O(n^d)"/>
+<node CREATED="1586255202096" ID="ID_342511516" MODIFIED="1586255248997" TEXT="if f(n) is a polynomial of degree d, then f(n) is O(n^d)"/>
 </node>
 </node>
 </node>

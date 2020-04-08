@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1586176583029" TEXT="Clojure For The Brave And True">
+<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1586261887542" TEXT="Clojure For The Brave And True">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1548,8 +1548,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;read-string))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 </node>
@@ -1735,8 +1734,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586178468000" ID="ID_1045464620" MODIFIED="1586178470104" TEXT="Solution">
 <node CREATED="1586178470271" ID="ID_597925465" MODIFIED="1586178490109" TEXT="gensym">
@@ -1757,8 +1755,7 @@
 ; =&gt; Here's how I feel about that thing you did:  Good job!
 ; =&gt; I still need to say:  Oh, big deal! </code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586178492998" ID="ID_502798347" MODIFIED="1586178502177" TEXT="auto-gensym">
 <richcontent TYPE="NOTE"><html>
@@ -1776,8 +1773,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586178519098" ID="ID_895514692" MODIFIED="1586178520715" TEXT="each instance of x#"/>
 <node CREATED="1586178521535" ID="ID_1775923325" MODIFIED="1586178525646" TEXT="... resolve to same symbol"/>
 </node>
@@ -1791,7 +1787,16 @@
 <node CREATED="1586179645322" ID="ID_299536007" MODIFIED="1586179654316" TEXT="&apos;cause macroexpension"/>
 <node CREATED="1586179654760" ID="ID_1697462710" MODIFIED="1586179659823" TEXT="... happen before evaluation"/>
 </node>
+<node CREATED="1586262242063" ID="ID_1361903783" MODIFIED="1586262247955" TEXT="They only compose well with each other">
+<node CREATED="1586262248703" ID="ID_710054495" MODIFIED="1586262262734" TEXT="Be careful to use other way of composition"/>
+<node CREATED="1586262263337" ID="ID_1523467908" MODIFIED="1586262268905" TEXT="... provided by Clojure itself"/>
+<node CREATED="1586262269285" ID="ID_1630874995" MODIFIED="1586262271630" TEXT="... like">
+<node CREATED="1586262271835" ID="ID_1057329584" MODIFIED="1586262276243" TEXT="functional"/>
+<node CREATED="1586262276590" ID="ID_1061300319" MODIFIED="1586262280670" TEXT="object-oriented"/>
 </node>
+</node>
+</node>
+<node CREATED="1586262298372" ID="ID_177728796" MODIFIED="1586262298998" TEXT="Brews for the Brave and True"/>
 </node>
 </node>
 </node>
