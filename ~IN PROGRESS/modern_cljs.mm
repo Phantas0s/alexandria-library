@@ -1,0 +1,92 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1586349857524" ID="ID_91353344" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/" MODIFIED="1586349888220" TEXT="Modern cljs">
+<node CREATED="1586349965007" ID="ID_767879995" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-01.md" MODIFIED="1586349971633" POSITION="right" TEXT="Tutorial 1 - The Basics">
+<node CREATED="1586349975637" ID="ID_95331341" MODIFIED="1586349976202" TEXT="Requirements"/>
+<node CREATED="1586349979446" ID="ID_604677537" MODIFIED="1586349980200" TEXT="Create the project structure">
+<node CREATED="1586349984697" ID="ID_1867576435" MODIFIED="1586349996756" TEXT="Hyphen (&quot;-&quot;) are not authorized in path!"/>
+<node CREATED="1586349997391" ID="ID_325761496" MODIFIED="1586350004311" TEXT="... use underscores (&quot;_&quot;)"/>
+</node>
+<node CREATED="1586350008466" ID="ID_612937714" MODIFIED="1586350009112" TEXT="Hello World in CLJS">
+<node CREATED="1586350022917" ID="ID_276267154" MODIFIED="1586350034352" TEXT="  Every CLJ/CLJS file"/>
+<node CREATED="1586350035104" ID="ID_849961116" MODIFIED="1586350048392" TEXT="...must start with a namespace declaration"/>
+<node CREATED="1586350043112" ID="ID_635957637" MODIFIED="1586350057064" TEXT="...matching a path on your disk"/>
+</node>
+<node CREATED="1586350070420" ID="ID_183317058" MODIFIED="1586351517704" TEXT="Minimal build.boot">
+<node CREATED="1586350071756" ID="ID_1878480487" MODIFIED="1586350083168" TEXT="build.boot file">
+<node CREATED="1586350083462" ID="ID_34464702" MODIFIED="1586350094225" TEXT="Just a regular CLJ file with different extension"/>
+</node>
+<node CREATED="1586350659603" ID="ID_692882350" MODIFIED="1586350668635" TEXT="Optimization directive is &quot;none&quot; by default">
+<node CREATED="1586350676807" ID="ID_1501553913" MODIFIED="1586350679408" TEXT="Find for development"/>
+</node>
+<node CREATED="1586351517705" ID="ID_1451423062" MODIFIED="1586351522212" TEXT="boot -h">
+<node CREATED="1586351522434" ID="ID_1849070919" MODIFIED="1586351527122" TEXT="Instruct of the current state of project"/>
+</node>
+<node CREATED="1586352103802" ID="ID_1659461106" MODIFIED="1586352109132" TEXT="Since boot is in continuous development">
+<node CREATED="1586352109322" ID="ID_1864321706" MODIFIED="1586352117196" TEXT="pin the actual stable version in project"/>
+<node CREATED="1586352117743" ID="ID_800550340" MODIFIED="1586352125861" TEXT="boot -V &gt; boot.properties"/>
+</node>
+<node CREATED="1586352552548" ID="ID_151563508" MODIFIED="1586352556174" TEXT="boot cljs target">
+<node CREATED="1586352556331" ID="ID_788104903" MODIFIED="1586352561176" TEXT="Create a huge target directory"/>
+<node CREATED="1586352561547" ID="ID_1399350191" MODIFIED="1586352566417" TEXT="... don&apos;t touch anything else"/>
+</node>
+</node>
+<node CREATED="1586352527077" ID="ID_126759382" MODIFIED="1586352527698" TEXT="Visit index.html">
+<node CREATED="1586352538550" ID="ID_1607930125" MODIFIED="1586352542595" TEXT="No boot task will modify">
+<node CREATED="1586352542888" ID="ID_1934945698" MODIFIED="1586352548038" TEXT=":source-paths"/>
+<node CREATED="1586352548487" ID="ID_1481232614" MODIFIED="1586352551133" TEXT=":resource-paths"/>
+</node>
+</node>
+</node>
+<node CREATED="1586352676242" ID="ID_78798553" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-02.md" MODIFIED="1586352680505" POSITION="right" TEXT="Tutorial 2 - Immediate Feedback Principle">
+<node CREATED="1586352930111" ID="ID_974857389" MODIFIED="1586352932080" TEXT="Introduction">
+<node CREATED="1586352944566" ID="ID_1957445015" LINK="https://vimeo.com/36579366" MODIFIED="1586352949353" TEXT="Immediate feedback principle"/>
+<node CREATED="1586352916397" ID="ID_682190973" LINK="https://github.com/boot-clj/boot/wiki/Community-Tasks" MODIFIED="1586352922970" TEXT="Tasks for boot">
+<node CREATED="1586352964860" ID="ID_215083871" LINK="https://github.com/pandeiro/boot-http" MODIFIED="1586352968390" TEXT="boot-http"/>
+<node CREATED="1586352972930" ID="ID_709384988" LINK="https://github.com/adzerk-oss/boot-reload" MODIFIED="1586352977034" TEXT="boot-reload"/>
+<node CREATED="1586352983761" ID="ID_796144573" LINK="https://github.com/adzerk-oss/boot-cljs-repl" MODIFIED="1586352988840" TEXT="boot-cljs-repl"/>
+</node>
+</node>
+<node CREATED="1586353000064" ID="ID_1791496952" MODIFIED="1586353000604" TEXT="CLJ-based HTTP server">
+<node COLOR="#338800" CREATED="1586353642415" ID="ID_622472637" MODIFIED="1586354280750" TEXT="boot serve -d target"/>
+<node CREATED="1586354054923" ID="ID_256744485" MODIFIED="1586354060082" TEXT="... need to use wait with it"/>
+<node COLOR="#338800" CREATED="1586354068502" ID="ID_898186793" MODIFIED="1586354280292" TEXT="boot wait serve -d target"/>
+<node CREATED="1586354178857" ID="ID_152274551" MODIFIED="1586354182207" TEXT="Chaining tasks">
+<node COLOR="#338800" CREATED="1586354182413" ID="ID_1110144510" MODIFIED="1586354285653" TEXT="boot wait serve -d target cljs target"/>
+</node>
+</node>
+<node CREATED="1586354238112" ID="ID_1940868777" MODIFIED="1586354238664" TEXT="CLJS source recompilation">
+<node CREATED="1586354251621" ID="ID_1187519251" MODIFIED="1586354262587" TEXT="Recompilation when modify cljs files">
+<node CREATED="1586354619972" ID="ID_697408657" MODIFIED="1586354624695" TEXT="Native task"/>
+<node COLOR="#338800" CREATED="1586354262814" ID="ID_1263283424" MODIFIED="1586354629966" TEXT="boot watch"/>
+</node>
+<node COLOR="#338800" CREATED="1586354276250" ID="ID_1924864841" MODIFIED="1586354278842" TEXT="boot serve -d target watch cljs target"/>
+</node>
+<node CREATED="1586354487937" ID="ID_1875807101" MODIFIED="1586354491238" TEXT="Resource reloading">
+<node CREATED="1586354606800" ID="ID_747752595" MODIFIED="1586354613100" TEXT="Need know to reload html automatically">
+<node CREATED="1586354614137" ID="ID_252192864" MODIFIED="1586354616112" TEXT="boot-reload"/>
+</node>
+<node COLOR="#338800" CREATED="1586355025076" ID="ID_1489585918" MODIFIED="1586355033096" TEXT="boot serve -d target watch reload cljs target "/>
+</node>
+<node CREATED="1586355042659" ID="ID_1968405790" MODIFIED="1586355043308" TEXT="Browser REPL (bREPL)">
+<node CREATED="1586355073920" ID="ID_1339850461" MODIFIED="1586355077521" TEXT="Connect browser to REPL">
+<node CREATED="1586355078429" ID="ID_653606880" MODIFIED="1586355079319" TEXT="boot-cljs-repl"/>
+</node>
+<node COLOR="#338800" CREATED="1586355457457" ID="ID_1391684073" MODIFIED="1586355460042" TEXT="boot serve -d target watch reload cljs-repl cljs target"/>
+<node CREATED="1586356587333" ID="ID_1925704490" MODIFIED="1586356592672" TEXT="Spawn a second REPL">
+<node CREATED="1586356598898" ID="ID_1123445511" MODIFIED="1586356613055" TEXT="boot repl -c -H 127.0.0.1 -p &lt;port-of-ws-server&gt;"/>
+<node CREATED="1586356602376" ID="ID_735377674" MODIFIED="1586356642482" TEXT="You can now "/>
+</node>
+<node CREATED="1586358343203" ID="ID_667693495" MODIFIED="1586358347237" TEXT="... but command too long!"/>
+</node>
+</node>
+<node CREATED="1586358361539" ID="ID_819864988" MODIFIED="1586358385466" POSITION="right" TEXT="Tutorial 3 - House Keeping">
+<node CREATED="1586358391276" ID="ID_1634226796" MODIFIED="1586358391983" TEXT="Introduction"/>
+<node CREATED="1586358370501" ID="ID_1386627330" MODIFIED="1586358375703" TEXT="Enter deftask">
+<node CREATED="1586358685152" ID="ID_1741389517" MODIFIED="1586358689458" TEXT="Create task"/>
+<node CREATED="1586358689839" ID="ID_824715560" MODIFIED="1586358695465" TEXT="... which is composition of subtasks"/>
+</node>
+<node CREATED="1586358677008" ID="ID_1833926162" MODIFIED="1586358677686" TEXT="Defaults overwriting"/>
+</node>
+</node>
+</map>
