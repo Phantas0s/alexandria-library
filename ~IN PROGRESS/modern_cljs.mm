@@ -1,7 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1586349857524" ID="ID_91353344" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/" MODIFIED="1586349888220" TEXT="Modern cljs">
-<node CREATED="1586349965007" ID="ID_767879995" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-01.md" MODIFIED="1586349971633" POSITION="right" TEXT="Tutorial 1 - The Basics">
+<node CREATED="1586349965007" FOLDED="true" ID="ID_767879995" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-01.md" MODIFIED="1586435988644" POSITION="right" TEXT="The Basics">
+<icon BUILTIN="full-1"/>
 <node CREATED="1586349975637" ID="ID_95331341" MODIFIED="1586349976202" TEXT="Requirements"/>
 <node CREATED="1586349979446" ID="ID_604677537" MODIFIED="1586349980200" TEXT="Create the project structure">
 <node CREATED="1586349984697" ID="ID_1867576435" MODIFIED="1586349996756" TEXT="Hyphen (&quot;-&quot;) are not authorized in path!"/>
@@ -38,7 +39,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1586352676242" ID="ID_78798553" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-02.md" MODIFIED="1586352680505" POSITION="right" TEXT="Tutorial 2 - Immediate Feedback Principle">
+<node CREATED="1586352676242" FOLDED="true" ID="ID_78798553" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-02.md" MODIFIED="1586435985092" POSITION="right" TEXT="Immediate Feedback Principle">
+<icon BUILTIN="full-2"/>
 <node CREATED="1586352930111" ID="ID_974857389" MODIFIED="1586352932080" TEXT="Introduction">
 <node CREATED="1586352944566" ID="ID_1957445015" LINK="https://vimeo.com/36579366" MODIFIED="1586352949353" TEXT="Immediate feedback principle"/>
 <node CREATED="1586352916397" ID="ID_682190973" LINK="https://github.com/boot-clj/boot/wiki/Community-Tasks" MODIFIED="1586352922970" TEXT="Tasks for boot">
@@ -80,13 +82,77 @@
 <node CREATED="1586358343203" ID="ID_667693495" MODIFIED="1586358347237" TEXT="... but command too long!"/>
 </node>
 </node>
-<node CREATED="1586358361539" ID="ID_819864988" MODIFIED="1586358385466" POSITION="right" TEXT="Tutorial 3 - House Keeping">
+<node CREATED="1586358361539" ID="ID_819864988" MODIFIED="1586435979978" POSITION="right" TEXT="House Keeping">
+<icon BUILTIN="full-3"/>
 <node CREATED="1586358391276" ID="ID_1634226796" MODIFIED="1586358391983" TEXT="Introduction"/>
 <node CREATED="1586358370501" ID="ID_1386627330" MODIFIED="1586358375703" TEXT="Enter deftask">
 <node CREATED="1586358685152" ID="ID_1741389517" MODIFIED="1586358689458" TEXT="Create task"/>
 <node CREATED="1586358689839" ID="ID_824715560" MODIFIED="1586358695465" TEXT="... which is composition of subtasks"/>
 </node>
-<node CREATED="1586358677008" ID="ID_1833926162" MODIFIED="1586358677686" TEXT="Defaults overwriting"/>
+<node CREATED="1586358677008" ID="ID_1833926162" MODIFIED="1586358677686" TEXT="Defaults overwriting">
+<node CREATED="1586435253000" ID="ID_420431546" MODIFIED="1586435286251" TEXT="Need to overwrite boot&apos;s default when project bigger">
+<node CREATED="1586435286465" ID="ID_1786160374" MODIFIED="1586435292223" TEXT="but better not too for small projects"/>
+</node>
+<node CREATED="1586435309875" ID="ID_1870689094" MODIFIED="1586435315447" TEXT="Subfolders">
+<node CREATED="1586435315711" ID="ID_912910489" MODIFIED="1586435317096" TEXT="html"/>
+<node CREATED="1586435319735" ID="ID_1166914669" MODIFIED="1586435321006" TEXT="css"/>
+<node CREATED="1586435321554" ID="ID_1954523118" MODIFIED="1586435322015" TEXT="js"/>
+</node>
+<node CREATED="1586435379478" ID="ID_166372786" MODIFIED="1586435392793" TEXT="Need to pass to cljs compiler">
+<node CREATED="1586435393261" ID="ID_515033915" MODIFIED="1586435396210" TEXT=":output-to"/>
+<node CREATED="1586435396592" ID="ID_723325030" MODIFIED="1586435400791" TEXT=":asset-path"/>
+</node>
+<node CREATED="1586435403627" ID="ID_1050905057" MODIFIED="1586435406085" TEXT="How?">
+<node CREATED="1586435407865" ID="ID_435719242" MODIFIED="1586435414960" TEXT="Can be at task level"/>
+<node CREATED="1586435415325" ID="ID_414154536" MODIFIED="1586435419240" TEXT="Can be in &quot;edn&quot; file">
+<node CREATED="1586435419431" ID="ID_1975079698" MODIFIED="1586435425231" TEXT="placed in good directory"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1586435966603" ID="ID_636505354" MODIFIED="1586435972409" POSITION="right" TEXT="Modern ClojureScript">
+<icon BUILTIN="full-4"/>
+<node CREATED="1586436012019" ID="ID_163730331" MODIFIED="1586436012588" TEXT="Introduction">
+<node CREATED="1586436268411" ID="ID_1954217101" LINK="https://larryullman.com/books/modern-javascript-develop-and-design/" MODIFIED="1586436275365" TEXT="Use Modern Javascript book"/>
+</node>
+<node CREATED="1586438264341" ID="ID_593568436" MODIFIED="1586438264893" TEXT="Porting to ClojureScript"/>
+<node CREATED="1586438269165" ID="ID_1394090334" MODIFIED="1586438269717" TEXT="Launching the Immediate Feedback Development Environment (IFDE)"/>
+<node CREATED="1586438273671" ID="ID_1045535441" MODIFIED="1586438274187" TEXT="bREPLing with CLJS">
+<node CREATED="1586439155869" ID="ID_18110818" MODIFIED="1586439162224" TEXT="Js objects in global space">
+<node CREATED="1586439162870" ID="ID_1407536663" MODIFIED="1586439164506" TEXT="js/window"/>
+<node CREATED="1586439164893" ID="ID_1897298098" MODIFIED="1586439167427" TEXT="js/document"/>
+<node CREATED="1586439168078" ID="ID_843308382" MODIFIED="1586439169808" TEXT="js/console"/>
+</node>
+<node CREATED="1586439187641" ID="ID_318937807" MODIFIED="1586439191128" TEXT="special forms">
+<node CREATED="1586439191294" ID="ID_1247028429" MODIFIED="1586439191881" TEXT=".">
+<node CREATED="1586439201217" ID="ID_489594886" MODIFIED="1586439218519" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1586439203284" ID="ID_1892637326" MODIFIED="1586439215207" TEXT="(js/console.log &quot;Hello&quot;)"/>
+</node>
+<node CREATED="1586439383087" ID="ID_1638989096" MODIFIED="1586439386795" TEXT="Syntax sugar">
+<node CREATED="1586439387695" ID="ID_1528306967" MODIFIED="1586439399078" TEXT="(.functions args)"/>
+<node CREATED="1586439400348" ID="ID_1790603972" MODIFIED="1586439523840" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1586439404000" ID="ID_210634458" MODIFIED="1586439457198" TEXT="(.log js/console &quot;hello&quot;)"/>
+</node>
+</node>
+</node>
+<node CREATED="1586439505183" ID="ID_580904516" MODIFIED="1586439514900" TEXT="(.-property object)">
+<node CREATED="1586439516929" ID="ID_1777942967" MODIFIED="1586439534174" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1586439563831" ID="ID_322286760" MODIFIED="1586439639279" TEXT="(.-value (.getElementById js/document &quot;email&quot;))"/>
+</node>
+</node>
+<node CREATED="1586439765400" ID="ID_611905109" MODIFIED="1586439794664" TEXT="(set! (.-property object) arg)">
+<node CREATED="1586439770257" ID="ID_1720019416" MODIFIED="1586439801652" TEXT="Change property element"/>
+</node>
+</node>
+</node>
+<node CREATED="1586439901997" ID="ID_1121452217" MODIFIED="1586439902607" TEXT="Define the validate-form function"/>
+<node CREATED="1586443529972" ID="ID_1717110134" MODIFIED="1586443534645" TEXT="Port the init function"/>
+</node>
+<node CREATED="1586443920653" ID="ID_920489026" MODIFIED="1586443928455" POSITION="right" TEXT="Introducing Domina">
+<icon BUILTIN="full-5"/>
 </node>
 </node>
 </map>
