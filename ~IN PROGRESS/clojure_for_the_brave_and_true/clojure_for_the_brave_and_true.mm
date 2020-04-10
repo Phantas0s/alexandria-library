@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1586261887542" TEXT="Clojure For The Brave And True">
+<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1586533297286" TEXT="Clojure For The Brave And True">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1554,7 +1554,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585734331270" ID="ID_1607777126" MODIFIED="1586176589259" POSITION="left" TEXT="Writing Macros">
+<node CREATED="1585734331270" FOLDED="true" ID="ID_1607777126" MODIFIED="1586530645183" POSITION="left" TEXT="Writing Macros">
 <icon BUILTIN="full-8"/>
 <node CREATED="1585734528524" ID="ID_442508893" MODIFIED="1585734531812" TEXT="Macros are essential"/>
 <node CREATED="1585734794306" ID="ID_1255841281" MODIFIED="1585734797704" TEXT="Anatomy of a macro">
@@ -1797,6 +1797,271 @@
 </node>
 </node>
 <node CREATED="1586262298372" ID="ID_177728796" MODIFIED="1586262298998" TEXT="Brews for the Brave and True"/>
+</node>
+</node>
+<node CREATED="1586530646416" ID="ID_681635553" MODIFIED="1586530656533" POSITION="left" TEXT="The Sacred Art of Concurrent and Parallel Programming">
+<node CREATED="1586530718881" FOLDED="true" ID="ID_731915322" MODIFIED="1586533327326" TEXT="Concurrency and Parallelism Concepts">
+<node CREATED="1586530724558" ID="ID_1938359943" MODIFIED="1586530725176" TEXT="Managing Multiple Tasks vs. Executing Tasks Simultaneously">
+<node CREATED="1586530781820" ID="ID_1516291589" MODIFIED="1586530785209" TEXT="What&apos;s a task?">
+<node CREATED="1586530788165" ID="ID_1463893808" MODIFIED="1586530794224" TEXT="&quot;Something which needs to get done&quot;"/>
+</node>
+<node CREATED="1586530762882" ID="ID_1825639847" MODIFIED="1586530764141" TEXT="Concurrency">
+<node CREATED="1586530970857" ID="ID_1410781818" MODIFIED="1586530976449" TEXT="Managing multiple tasks at the same time"/>
+<node CREATED="1586530848838" ID="ID_611439956" MODIFIED="1586530885749" TEXT="Managing multiple tasks"/>
+<node CREATED="1586530855084" ID="ID_1856648777" MODIFIED="1586530861192" TEXT="... but not at the same time">
+<node CREATED="1586530861789" ID="ID_1683125650" MODIFIED="1586530906165" TEXT="Switch between them">
+<node CREATED="1586530867439" ID="ID_1575708227" MODIFIED="1586530870773" TEXT="Interleaving">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1586530908115" ID="ID_1977742588" MODIFIED="1586530911634" TEXT="No need to finish a task"/>
+<node CREATED="1586530912001" ID="ID_1024014144" MODIFIED="1586530918674" TEXT="... before switching to another"/>
+</node>
+</node>
+<node CREATED="1586530981503" ID="ID_707610904" MODIFIED="1586530988184" TEXT="Parallelism">
+<node CREATED="1586530993548" ID="ID_619038928" MODIFIED="1586531002002" TEXT="Executing more than one task at the same time"/>
+<node CREATED="1586531012610" ID="ID_693465811" MODIFIED="1586531018003" TEXT="Multiple tasks in parallel">
+<node CREATED="1586531057808" ID="ID_1204981131" MODIFIED="1586531063750" TEXT="Using multiple processors"/>
+</node>
+<node CREATED="1586531029325" ID="ID_652695995" MODIFIED="1586531037755" TEXT="Subclass of concurrency"/>
+</node>
+<node CREATED="1586531078237" ID="ID_977449073" MODIFIED="1586531088143" TEXT="Distributed computing">
+<node CREATED="1586531091559" ID="ID_1688367774" MODIFIED="1586531096736" TEXT="Special version of parallel computing"/>
+<node CREATED="1586531100831" ID="ID_806286545" MODIFIED="1586531109036" TEXT="Tasks distributed between computers"/>
+</node>
+</node>
+<node CREATED="1586531337216" ID="ID_273364088" MODIFIED="1586531338068" TEXT="Blocking and Asynchronous Tasks">
+<node CREATED="1586531407641" ID="ID_290862966" MODIFIED="1586531408520" TEXT="Concurrent Programming and Parallel Programming"/>
+</node>
+</node>
+<node CREATED="1586531442162" ID="ID_1599913761" MODIFIED="1586531443410" TEXT="Clojure Implementation: JVM Threads">
+<node CREATED="1586531500733" FOLDED="true" ID="ID_1124783552" MODIFIED="1586533326098" TEXT="What&apos;s a thread?">
+<node CREATED="1586531509507" ID="ID_1585675506" MODIFIED="1586531513208" TEXT="Subprogram"/>
+<node CREATED="1586531517716" ID="ID_707288092" MODIFIED="1586531522683" TEXT="Program can have many threads"/>
+<node CREATED="1586531530005" ID="ID_1465126868" MODIFIED="1586531539828" TEXT="Each thread executes its own set of instruction"/>
+<node CREATED="1586531540224" ID="ID_2580634" MODIFIED="1586531550453" TEXT="... while having shared access"/>
+<node CREATED="1586531550865" ID="ID_890859467" MODIFIED="1586531557155" TEXT="... to program&apos;s state"/>
+<node CREATED="1586531563696" ID="ID_558042383" MODIFIED="1586531574615" TEXT="Thread management can exists at multiple levels">
+<node CREATED="1586531583973" ID="ID_765959234" MODIFIED="1586531585164" TEXT="Example">
+<node CREATED="1586531585353" ID="ID_1504274628" MODIFIED="1586531588663" TEXT="Kernel of OS"/>
+<node CREATED="1586531589100" ID="ID_219893132" MODIFIED="1586531600537" TEXT="... provide system calls"/>
+<node CREATED="1586531602853" ID="ID_1369196763" MODIFIED="1586531605639" TEXT="... to manage threads"/>
+</node>
+<node CREATED="1586531618805" ID="ID_737554654" MODIFIED="1586531629656" TEXT="JVM">
+<node CREATED="1586531629894" ID="ID_441457827" MODIFIED="1586531646322" TEXT="Own plateform independent"/>
+<node CREATED="1586531634252" ID="ID_147157553" MODIFIED="1586531637118" TEXT="... thread management"/>
+</node>
+</node>
+<node CREATED="1586531673174" ID="ID_255014617" MODIFIED="1586531679022" TEXT="Piece together a sequence of instruction">
+<node CREATED="1586531691032" ID="ID_1041438607" MODIFIED="1586531696040" TEXT="Processor executes them in order"/>
+</node>
+<node CREATED="1586531717305" FOLDED="true" ID="ID_463434654" MODIFIED="1586532188751" TEXT="Simple core / single-threaded program">
+<icon BUILTIN="licq"/>
+<node CREATED="1586531883108" ID="ID_715200720" MODIFIED="1586531887755">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="single-thread.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1586531913324" ID="ID_484275995" MODIFIED="1586531920328" TEXT="Thread can spawn new thread">
+<node CREATED="1586531920647" ID="ID_347935448" MODIFIED="1586531935266" TEXT="to execute task concurrently"/>
+<node CREATED="1586531948186" ID="ID_1824704065" MODIFIED="1586531957312" TEXT="Processor switch back and  forth between threads">
+<node CREATED="1586531957527" ID="ID_1679536965" MODIFIED="1586531962732" TEXT="Interleaving">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1586531976407" ID="ID_70248589" MODIFIED="1586531989371" TEXT="... no guaranty when switch back and forth"/>
+</node>
+<node CREATED="1586532052495" FOLDED="true" ID="ID_1266380727" MODIFIED="1586532157856" TEXT="Multiple threads / single core">
+<icon BUILTIN="licq"/>
+<node CREATED="1586532045088" ID="ID_522349510" MODIFIED="1586532048242">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="multiple-threads.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1586532081628" ID="ID_1143572139" MODIFIED="1586532087915" TEXT="Only example of order"/>
+<node CREATED="1586532088367" ID="ID_473127590" MODIFIED="1586532093211" TEXT="... could be something different">
+<node CREATED="1586532093448" ID="ID_1440365521" MODIFIED="1586532094897" TEXT="nondeterministic">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1586532159363" ID="ID_972845997" MODIFIED="1586532455586" TEXT="Multiple threads  / multiple cores">
+<icon BUILTIN="licq"/>
+<node CREATED="1586532448130" ID="ID_1105008139" MODIFIED="1586532451610">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="multiple-threads-multiple-core.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1586532470701" ID="ID_38806997" MODIFIED="1586532476154" TEXT="nondeterministic">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1586532515678" ID="ID_1328824275" MODIFIED="1586536892861" TEXT="The Three Goblins">
+<node CREATED="1586532561279" ID="ID_479989073" MODIFIED="1586532870234" TEXT="Reference cell problem">
+<icon BUILTIN="full-1"/>
+<node CREATED="1586532581546" ID="ID_1876326742" MODIFIED="1586532863221" TEXT="Program with nondeterministic outcome">
+<icon BUILTIN="licq"/>
+<node CREATED="1586532681995" ID="ID_1987335409" MODIFIED="1586532685209">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="program-instructions.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1586532686490" ID="ID_539563999" MODIFIED="1586532701786" TEXT="... order A1, A2, A3, B1, B2">
+<node CREATED="1586532702239" ID="ID_822602082" MODIFIED="1586532706300" TEXT="Result: 2"/>
+</node>
+<node CREATED="1586532717751" ID="ID_1163378084" MODIFIED="1586532722623" TEXT="... order A1, A2, B1, A3, B2">
+<node CREATED="1586532722965" ID="ID_802352739" MODIFIED="1586532724851" TEXT="Result: 1"/>
+<node CREATED="1586532725950" ID="ID_504150258" MODIFIED="1586532737487" TEXT="img">
+<icon BUILTIN="licq"/>
+<node CREATED="1586532739163" ID="ID_728621854" MODIFIED="1586532741819">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="possible-execution-order.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1586532751081" ID="ID_1670312764" MODIFIED="1586532894093" TEXT="Reference cell problem when">
+<node CREATED="1586532761246" ID="ID_1351864838" MODIFIED="1586532766696" TEXT="Two threads can">
+<node CREATED="1586532766902" ID="ID_917705915" MODIFIED="1586532767708" TEXT="read"/>
+<node CREATED="1586532768078" ID="ID_1871161997" MODIFIED="1586532769267" TEXT="write"/>
+</node>
+<node CREATED="1586532769940" ID="ID_147169995" MODIFIED="1586532772603" TEXT="... to same location"/>
+<node CREATED="1586532778633" ID="ID_1332538105" MODIFIED="1586532786408" TEXT="Value at location"/>
+<node CREATED="1586532786877" ID="ID_864998819" MODIFIED="1586532802030" TEXT="... depends on order read / write"/>
+</node>
+</node>
+<node CREATED="1586532879411" ID="ID_1644014338" MODIFIED="1586532997972" TEXT="Mutual exclusion">
+<icon BUILTIN="full-2"/>
+<node CREATED="1586532959308" ID="ID_1404867400" MODIFIED="1586532965058" TEXT="Write instruction interleaved"/>
+<node CREATED="1586532981283" ID="ID_1363493513" MODIFIED="1586532985999" TEXT="Without mutual exclusion"/>
+<node CREATED="1586532986379" ID="ID_198566830" MODIFIED="1586532992289" TEXT="... the order of write will be unknown"/>
+</node>
+<node CREATED="1586532998745" ID="ID_1590133553" MODIFIED="1586533005234" TEXT="Deadlock">
+<node CREATED="1586533119356" ID="ID_1090311453" LINK="https://en.wikipedia.org/wiki/Dining_philosophers_problem" MODIFIED="1586533307656" TEXT="Dining philosophers problem"/>
+</node>
+</node>
+</node>
+<node CREATED="1586533330381" ID="ID_1010925760" MODIFIED="1586533331056" TEXT="Futures, Delays, and Promises">
+<node CREATED="1586533514933" ID="ID_1304013548" MODIFIED="1586533517612" TEXT="Introduction">
+<node CREATED="1586533338995" ID="ID_567406242" MODIFIED="1586533353552" TEXT="Lightweight tools for concurrent programming"/>
+<node CREATED="1586533414255" ID="ID_1410287275" MODIFIED="1586533418197" TEXT="When write serial code"/>
+<node CREATED="1586533418623" ID="ID_1927147232" MODIFIED="1586533422108" TEXT="... bind together">
+<node CREATED="1586533423785" ID="ID_940311963" MODIFIED="1586533426294" TEXT="Task definition"/>
+<node CREATED="1586533426763" ID="ID_101380717" MODIFIED="1586533429175" TEXT="Task execution"/>
+<node CREATED="1586533431578" ID="ID_3675609" MODIFIED="1586533436576" TEXT="Requiring the task&apos;s result"/>
+<node CREATED="1586533455718" ID="ID_957142183" MODIFIED="1586533462730" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1586533457808" ID="ID_1032532555" MODIFIED="1586533458530" TEXT="(web-api/get :dwarven-beard-waxes)"/>
+<node CREATED="1586533467140" ID="ID_1085843255" MODIFIED="1586533469128" TEXT="Executed"/>
+<node CREATED="1586533469477" ID="ID_1053390509" MODIFIED="1586533476044" TEXT="Require a result now">
+<node CREATED="1586533482003" ID="ID_358959076" MODIFIED="1586533487176" TEXT="Block till API finish"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1586533512406" ID="ID_828988330" MODIFIED="1586533513995" TEXT="Futures">
+<node CREATED="1586533593776" ID="ID_1779166751" MODIFIED="1586533598418" TEXT="Define a task"/>
+<node CREATED="1586533598814" ID="ID_25786061" MODIFIED="1586533607284" TEXT="... and place it to another thread"/>
+<node CREATED="1586533741170" ID="ID_210544452" MODIFIED="1586533744999" TEXT="Return reference value"/>
+<node CREATED="1586533745474" ID="ID_994078257" MODIFIED="1586533748559" TEXT="... to fetch result">
+<node CREATED="1586533794150" ID="ID_590505882" MODIFIED="1586533801369" TEXT="Need to wait if future didn&apos;t compute result"/>
+</node>
+<node CREATED="1586533812563" ID="ID_1778490482" MODIFIED="1586533833551" TEXT="Fetching future result">
+<node CREATED="1586533833733" ID="ID_58240059" MODIFIED="1586533851273" TEXT="Dereferencing the future">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1586533861801" ID="ID_448224916" MODIFIED="1586533866339" TEXT="function">
+<node CREATED="1586533866506" ID="ID_1459207183" MODIFIED="1586533867509" TEXT="deref"/>
+</node>
+<node CREATED="1586533868095" ID="ID_679506262" MODIFIED="1586533870169" TEXT="macro">
+<node CREATED="1586533870446" ID="ID_599375142" MODIFIED="1586533872702" TEXT="@"/>
+</node>
+<node CREATED="1586533886098" ID="ID_1804203265" MODIFIED="1586533888562" TEXT="Future result">
+<node CREATED="1586533888777" ID="ID_1067111699" MODIFIED="1586533897186" TEXT="Last expression"/>
+<node CREATED="1586533897606" ID="ID_694282948" MODIFIED="1586533902613" TEXT="... executed in its body"/>
+</node>
+<node CREATED="1586534196795" ID="ID_1228388662" MODIFIED="1586534201832" TEXT="Possible to add limit of time"/>
+<node CREATED="1586534202323" ID="ID_1349545667" MODIFIED="1586534216950" TEXT="... for waiting for result"/>
+<node CREATED="1586534306722" ID="ID_1067599962" MODIFIED="1586534326251" TEXT="Asking if future is done">
+<node CREATED="1586534313052" ID="ID_875739382" MODIFIED="1586534331375" TEXT="function">
+<node CREATED="1586534318009" ID="ID_680866936" MODIFIED="1586534320392" TEXT="realized?"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1586534685057" ID="ID_1925213542" MODIFIED="1586534685726" TEXT="Delays">
+<node CREATED="1586534694673" ID="ID_1944562060" MODIFIED="1586534698173" TEXT="Create a task"/>
+<node CREATED="1586534698537" ID="ID_1220755555" MODIFIED="1586534701670" TEXT="... without executing it"/>
+<node CREATED="1586534702065" ID="ID_679316685" MODIFIED="1586534706472" TEXT="... or need result immediately"/>
+<node CREATED="1586534905750" ID="ID_1458209964" MODIFIED="1586534915461" TEXT="Commons with futures">
+<node CREATED="1586534915707" ID="ID_1458847890" MODIFIED="1586534917536" TEXT="Run only once"/>
+<node CREATED="1586534917884" ID="ID_53638510" MODIFIED="1586534921168" TEXT="Result cached"/>
+</node>
+<node CREATED="1586535011545" ID="ID_833060010" MODIFIED="1586535018642" TEXT="Can be used to fire a statement at end of future"/>
+</node>
+<node CREATED="1586535650174" ID="ID_123123833" MODIFIED="1586535651555" TEXT="Promise">
+<node CREATED="1586535651753" ID="ID_861888115" MODIFIED="1586535655353" TEXT="You expect a result">
+<node CREATED="1586535655510" ID="ID_289784784" MODIFIED="1586535660563" TEXT="Don&apos;t precise the task"/>
+<node CREATED="1586535660935" ID="ID_1254371133" MODIFIED="1586535665446" TEXT="Don&apos;t precise when result should come"/>
+</node>
+<node CREATED="1586535715603" ID="ID_71513598" MODIFIED="1586535722236" TEXT="Obtain result by dereferencing"/>
+<node CREATED="1586536879707" ID="ID_347620975" MODIFIED="1586536883395" TEXT="Can be only writing once">
+<node CREATED="1586536883599" ID="ID_1110923568" LINK="#ID_479989073" MODIFIED="1586536911487" TEXT="Protect against reference cell problem"/>
+</node>
+<node CREATED="1586539663563" ID="ID_945387830" MODIFIED="1586539668380" TEXT="Can use promise to register callback"/>
+</node>
+<node CREATED="1586540103338" ID="ID_799077050" MODIFIED="1586540107464" TEXT="Rolling Your Own Queue">
+<node CREATED="1586540205062" ID="ID_1475527313" MODIFIED="1586540213684" TEXT="Common of the Three Concurency Goblin">
+<node CREATED="1586540217124" ID="ID_621056842" MODIFIED="1586540222789" TEXT="Tasks accessing shared resource"/>
+<node CREATED="1586540227274" ID="ID_1440251043" MODIFIED="1586540247366" TEXT="... in uncoordinated way"/>
+</node>
+<node CREATED="1586540459624" ID="ID_592215984" MODIFIED="1586540465550" TEXT="What about separating">
+<node CREATED="1586540465731" ID="ID_1960259431" MODIFIED="1586540474173" TEXT="Tasks which needs to be serial"/>
+<node CREATED="1586540474527" ID="ID_465364667" MODIFIED="1586540492270" TEXT="Other tasks which can run concurrently"/>
+<node CREATED="1586540587439" ID="ID_533162235" MODIFIED="1586540593024" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1586540593829" ID="ID_1160681034" MODIFIED="1586540598502">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="dividing-serial-concurent-tasks.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
