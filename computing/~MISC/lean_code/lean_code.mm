@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1585931895704" ID="ID_734616514" LINK="https://www.youtube.com/watch?v=-nWhH-4wWBU" MODIFIED="1585932668999" TEXT="Kevlin Henney - Lean Code">
+<node CREATED="1585931895704" ID="ID_734616514" LINK="https://www.youtube.com/watch?v=-nWhH-4wWBU" MODIFIED="1586506957133" TEXT="Kevlin Henney - Lean Code">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,7 +12,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1585933823318" ID="ID_631830637" MODIFIED="1585933846492" POSITION="right" TEXT="Introduction">
+<node CREATED="1585933823318" FOLDED="true" ID="ID_631830637" MODIFIED="1586506965486" POSITION="right" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1585932049986" ID="ID_394937708" LINK="https://www.goodreads.com/book/show/194338.Lean_Software_Development" MODIFIED="1585932339059" TEXT="Lean Software development">
 <node CREATED="1585932057825" ID="ID_74259971" MODIFIED="1585932064108" TEXT="Original Principles">
@@ -170,7 +170,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585934178011" ID="ID_1192713339" MODIFIED="1585934181458" POSITION="right" TEXT="Change">
+<node CREATED="1585934178011" FOLDED="true" ID="ID_1192713339" MODIFIED="1586506965487" POSITION="left" TEXT="Change">
 <icon BUILTIN="full-4"/>
 <node CREATED="1585934245640" ID="ID_533169639" MODIFIED="1585934261117" TEXT="Monolith">
 <node CREATED="1585934263602" ID="ID_445129527" MODIFIED="1585934265018" TEXT="One stone"/>
@@ -219,7 +219,7 @@
 </node>
 <node CREATED="1585935362343" ID="ID_1462708874" MODIFIED="1585935371963" TEXT="Need to slow down to understand what can change"/>
 </node>
-<node CREATED="1585935356446" ID="ID_332553625" MODIFIED="1585935373692" POSITION="right" TEXT="Flow">
+<node CREATED="1585935356446" FOLDED="true" ID="ID_332553625" MODIFIED="1586506965488" POSITION="left" TEXT="Flow">
 <icon BUILTIN="full-5"/>
 <node CREATED="1585935490124" FOLDED="true" ID="ID_670979952" MODIFIED="1585936162095" TEXT="Sustainable development">
 <node CREATED="1585935500301" ID="ID_1041150741" MODIFIED="1585935505361" TEXT="Development that meet neds"/>
@@ -313,7 +313,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585936150543" ID="ID_1285275986" MODIFIED="1585936156728" POSITION="right" TEXT="People">
+<node CREATED="1585936150543" FOLDED="true" ID="ID_1285275986" MODIFIED="1586506965489" POSITION="left" TEXT="People">
 <icon BUILTIN="full-6"/>
 <node CREATED="1585936324076" ID="ID_1895505805" MODIFIED="1585936330577" TEXT="Keep focusing on productivity">
 <node CREATED="1585936330752" ID="ID_445073393" MODIFIED="1585936336577" TEXT="We should focus on enjoyment too"/>
@@ -354,7 +354,7 @@
 <node CREATED="1585936873628" ID="ID_1962036164" MODIFIED="1585936875716" TEXT="Aggregation"/>
 </node>
 </node>
-<node CREATED="1585937150682" ID="ID_30259502" MODIFIED="1585937181678" POSITION="right" TEXT="Holism">
+<node CREATED="1585937150682" FOLDED="true" ID="ID_30259502" MODIFIED="1586506965490" POSITION="left" TEXT="Holism">
 <icon BUILTIN="full-7"/>
 <node CREATED="1585937186121" ID="ID_1739087518" MODIFIED="1585937203441" TEXT="You need to take everything into account"/>
 <node CREATED="1585937250958" ID="ID_1985796407" MODIFIED="1585937259856" TEXT="Need to understand the context of our design">
@@ -377,8 +377,7 @@
   <body>
     <img src="full-stack-developer.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1585937415921" ID="ID_1370088987" MODIFIED="1585937420325" TEXT="Full stack include">

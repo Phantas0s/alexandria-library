@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1586077556509" ID="ID_80997837" MODIFIED="1586093259163" TEXT="Language Mechanics">
+<node CREATED="1586077556509" ID="ID_80997837" MODIFIED="1586507088944" TEXT="Language Mechanics">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1050,8 +1050,7 @@ BenchmarkAlgorithmOne-8    &#x9;2000000 &#x9;     1814 ns/op         5 B/op  &#x
 Removing the backing array allocation
 BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x9;      0 allocs/op</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586093434893" ID="ID_536708148" MODIFIED="1586093449486" TEXT="Refactorings performance gain">
 <node CREATED="1586093411143" ID="ID_1726982291" MODIFIED="1586093413847" TEXT="First">
@@ -1064,7 +1063,7 @@ BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x
 <node CREATED="1586093427328" ID="ID_1649977627" MODIFIED="1586093433092" TEXT="... performance suffer with heap allocation"/>
 </node>
 </node>
-<node CREATED="1533297544301" ID="ID_178372775" LINK="https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html" MODIFIED="1586093474413" POSITION="right" TEXT="Design Philosophy On Data And Semantics">
+<node CREATED="1533297544301" FOLDED="true" ID="ID_178372775" LINK="https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html" MODIFIED="1586507103564" POSITION="right" TEXT="Design Philosophy On Data And Semantics">
 <icon BUILTIN="full-4"/>
 <node CREATED="1586093547759" ID="ID_1246043951" MODIFIED="1586093551624" TEXT="Design Philosophies">
 <node CREATED="1586093559493" ID="ID_1573399216" MODIFIED="1586093560302" TEXT="Value semantics">
@@ -1251,8 +1250,7 @@ BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x
   &#x9;return nil
   }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1270,8 +1268,7 @@ BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x
   &#x9;return Time{sec + unixToInternal, nsec, Local}
   }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 </node>
@@ -1296,8 +1293,7 @@ BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x
   &#x9;return t
   }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 </node>
@@ -1314,8 +1310,7 @@ func (t *Time) GobDecode(data []byte) error {
 func (t *Time) UnmarshalJSON(data []byte) error {
 func (t *Time) UnmarshalText(data []byte) error {</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 </node>
