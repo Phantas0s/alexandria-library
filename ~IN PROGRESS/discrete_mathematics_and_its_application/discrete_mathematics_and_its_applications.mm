@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" MODIFIED="1586252773460" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" MODIFIED="1586504095437" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2006,7 +2006,7 @@
 <node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1585668605111" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1540654915290" ID="ID_1993730354" MODIFIED="1585570663126" TEXT="2.1 Sets">
+<node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1586506985208" TEXT="2.1 Sets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2085,7 +2085,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1540655648503" ID="ID_499915404" MODIFIED="1585570669875" TEXT="Basic sets">
+<node CREATED="1540655648503" FOLDED="true" ID="ID_499915404" MODIFIED="1586506983569" TEXT="Basic sets">
 <node CREATED="1540741024166" ID="ID_822716889" MODIFIED="1575539873273" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1540655673065" ID="ID_382595990" MODIFIED="1557066941018">
@@ -2803,7 +2803,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1559226217694" ID="ID_1832647831" MODIFIED="1585570563946" TEXT="2.3 Functions">
+<node CREATED="1559226217694" FOLDED="true" ID="ID_1832647831" MODIFIED="1586506986340" TEXT="2.3 Functions">
 <node CREATED="1562406780467" FOLDED="true" ID="ID_1713732385" MODIFIED="1585668917503" TEXT="Introduction">
 <node CREATED="1559226273678" ID="ID_453490020" MODIFIED="1559226275627" TEXT="Can be called">
 <node CREATED="1559226275823" ID="ID_377513065" MODIFIED="1559226280639" TEXT="transformation">
@@ -4337,12 +4337,12 @@
 </node>
 <node CREATED="1574834995735" ID="ID_1289373584" MODIFIED="1585666542885" POSITION="right" TEXT="Algorithms">
 <icon BUILTIN="full-3"/>
-<node CREATED="1574835164172" ID="ID_1120871976" MODIFIED="1586166464485" TEXT="3.1 Algorithms">
+<node CREATED="1574835164172" FOLDED="true" ID="ID_1120871976" MODIFIED="1586506990195" TEXT="3.1 Algorithms">
 <node CREATED="1574835186764" FOLDED="true" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
 <node CREATED="1574835189653" ID="ID_1097192422" MODIFIED="1574835201089" TEXT="An algorithm is a finite sequence of precise instructions"/>
 <node CREATED="1574835202067" ID="ID_476920489" MODIFIED="1574835210882" TEXT="... for performing a computation or for solving a problem"/>
 </node>
-<node CREATED="1574835646519" ID="ID_1714950159" MODIFIED="1586166464519" TEXT="Properties of algorithm">
+<node CREATED="1574835646519" FOLDED="true" ID="ID_1714950159" MODIFIED="1586506988692" TEXT="Properties of algorithm">
 <node CREATED="1574835654984" ID="ID_164771671" MODIFIED="1574835656789" TEXT="Input">
 <node CREATED="1574835685513" ID="ID_422767542" MODIFIED="1574835686052" TEXT="An algorithm has input values from a specified set"/>
 </node>
@@ -4650,7 +4650,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585568795246" ID="ID_1838004265" MODIFIED="1585666547932" TEXT="3.2 The growth of functions">
+<node CREATED="1585568795246" FOLDED="true" ID="ID_1838004265" MODIFIED="1586506995351" TEXT="3.2 The growth of functions">
 <node CREATED="1585568911524" ID="ID_826016681" MODIFIED="1585568913221" TEXT="Introduction">
 <node CREATED="1585568880579" ID="ID_127667806" MODIFIED="1585568910159" TEXT="Times to solve a problem depends on">
 <node CREATED="1585568886420" ID="ID_1650702354" MODIFIED="1585568888177" TEXT="software"/>
@@ -4838,8 +4838,7 @@
   <body>
     <img src="growth_function_commonly_used_big_o.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
