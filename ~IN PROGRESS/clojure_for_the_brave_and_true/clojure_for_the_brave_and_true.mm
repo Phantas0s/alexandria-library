@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1586533297286" TEXT="Clojure For The Brave And True">
+<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1586613269478" TEXT="Clojure For The Brave And True">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1799,7 +1799,8 @@
 <node CREATED="1586262298372" ID="ID_177728796" MODIFIED="1586262298998" TEXT="Brews for the Brave and True"/>
 </node>
 </node>
-<node CREATED="1586530646416" ID="ID_681635553" MODIFIED="1586530656533" POSITION="left" TEXT="The Sacred Art of Concurrent and Parallel Programming">
+<node CREATED="1586530646416" FOLDED="true" ID="ID_681635553" MODIFIED="1586616021203" POSITION="left" TEXT="The Sacred Art of Concurrent and Parallel Programming">
+<icon BUILTIN="full-9"/>
 <node CREATED="1586530718881" FOLDED="true" ID="ID_731915322" MODIFIED="1586533327326" TEXT="Concurrency and Parallelism Concepts">
 <node CREATED="1586530724558" ID="ID_1938359943" MODIFIED="1586530725176" TEXT="Managing Multiple Tasks vs. Executing Tasks Simultaneously">
 <node CREATED="1586530781820" ID="ID_1516291589" MODIFIED="1586530785209" TEXT="What&apos;s a task?">
@@ -2046,7 +2047,7 @@
 <node CREATED="1586540459624" ID="ID_592215984" MODIFIED="1586540465550" TEXT="What about separating">
 <node CREATED="1586540465731" ID="ID_1960259431" MODIFIED="1586540474173" TEXT="Tasks which needs to be serial"/>
 <node CREATED="1586540474527" ID="ID_465364667" MODIFIED="1586540492270" TEXT="Other tasks which can run concurrently"/>
-<node CREATED="1586540587439" ID="ID_533162235" MODIFIED="1586540593024" TEXT="Illustration">
+<node CREATED="1586540587439" FOLDED="true" ID="ID_533162235" MODIFIED="1586540602987" TEXT="Illustration">
 <icon BUILTIN="licq"/>
 <node CREATED="1586540593829" ID="ID_1160681034" MODIFIED="1586540598502">
 <richcontent TYPE="NODE"><html>
@@ -2056,10 +2057,40 @@
   <body>
     <img src="dividing-serial-concurent-tasks.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1586615792148" ID="ID_1728766546" MODIFIED="1586615793170" TEXT="Each tool lets you decouple ">
+<node CREATED="1586615798570" ID="ID_1231630687" MODIFIED="1586615801950" TEXT="Defining a task"/>
+<node CREATED="1586615802314" ID="ID_968938607" MODIFIED="1586615805802" TEXT="Executing a task"/>
+<node CREATED="1586615814391" ID="ID_1685995336" MODIFIED="1586615817760" TEXT="Requiring a task result"/>
+</node>
+</node>
+</node>
+<node CREATED="1586616022244" ID="ID_264422446" MODIFIED="1586616029109" POSITION="left" TEXT="Clojure Metaphysics: Atoms, Refs, Vars, and Cuddle Zombies">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-0"/>
+<node CREATED="1586616046397" ID="ID_1022634346" MODIFIED="1586616048703" TEXT="Introduction">
+<node CREATED="1586616048878" ID="ID_831096328" MODIFIED="1586616049607" TEXT="Three Concurrency Goblins"/>
+<node CREATED="1586616050866" ID="ID_323593694" MODIFIED="1586616055580" TEXT="... comes from one pit of evil"/>
+<node CREATED="1586616056153" ID="ID_558873031" MODIFIED="1586616065717" TEXT="...  shared access to mutable state"/>
+<node CREATED="1586616125152" ID="ID_251489798" MODIFIED="1586616132529" TEXT="Metaphysic of clojure address">
+<node CREATED="1586616132680" ID="ID_434530604" MODIFIED="1586616135275" TEXT="What is there?"/>
+<node CREATED="1586616135631" ID="ID_576107706" MODIFIED="1586616140900" TEXT="What it is like?"/>
+</node>
+</node>
+<node CREATED="1586616204896" ID="ID_822378655" MODIFIED="1586616205558" TEXT="Object-Oriented Metaphysics">
+<node CREATED="1586616239086" ID="ID_1077994761" MODIFIED="1586616246058" TEXT="Objects exist in the world">
+<node CREATED="1586616246272" ID="ID_1780897117" MODIFIED="1586616250045" TEXT="Like a cuddle zombie"/>
+</node>
+<node CREATED="1586616291448" ID="ID_472276899" MODIFIED="1586616296476" TEXT="Object have mutable states">
+<node CREATED="1586616296690" ID="ID_1212624768" MODIFIED="1586616298493" TEXT="Change over time"/>
+</node>
+<node CREATED="1586616393371" ID="ID_163851139" MODIFIED="1586616402889" TEXT="Changing states by two threads can be a problem">
+<node CREATED="1586616403071" ID="ID_182278594" MODIFIED="1586616405752" TEXT="Illustration">
+<node CREATED="1586616408013" ID="ID_1368021300" MODIFIED="1586616408013" TEXT=""/>
 </node>
 </node>
 </node>
