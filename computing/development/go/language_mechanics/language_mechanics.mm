@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1586077556509" ID="ID_80997837" MODIFIED="1586507088944" TEXT="Language Mechanics">
+<node CREATED="1586077556509" ID="ID_80997837" MODIFIED="1586603855139" TEXT="Language Mechanics">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -274,7 +274,7 @@
 <node CREATED="1586088234496" ID="ID_725464489" MODIFIED="1586088236031" TEXT="Hold a value"/>
 </node>
 </node>
-<node CREATED="1586077858673" FOLDED="true" ID="ID_378544821" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html" MODIFIED="1586091069277" POSITION="right" TEXT="Language Mechanics On Escape Analysis">
+<node CREATED="1586077858673" FOLDED="true" ID="ID_378544821" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html" MODIFIED="1586604143215" POSITION="right" TEXT="Language Mechanics On Escape Analysis">
 <icon BUILTIN="full-2"/>
 <node CREATED="1586088277741" ID="ID_378668439" MODIFIED="1586088279975" TEXT="Introduction">
 <node CREATED="1586088309613" ID="ID_115861512" MODIFIED="1586088314216" TEXT="How to share a value up the stack?"/>
@@ -1063,7 +1063,7 @@ BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x
 <node CREATED="1586093427328" ID="ID_1649977627" MODIFIED="1586093433092" TEXT="... performance suffer with heap allocation"/>
 </node>
 </node>
-<node CREATED="1533297544301" FOLDED="true" ID="ID_178372775" LINK="https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html" MODIFIED="1586507103564" POSITION="right" TEXT="Design Philosophy On Data And Semantics">
+<node CREATED="1533297544301" FOLDED="true" ID="ID_178372775" LINK="https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html" MODIFIED="1586605866416" POSITION="right" TEXT="Design Philosophy On Data And Semantics">
 <icon BUILTIN="full-4"/>
 <node CREATED="1586093547759" ID="ID_1246043951" MODIFIED="1586093551624" TEXT="Design Philosophies">
 <node CREATED="1586093559493" ID="ID_1573399216" MODIFIED="1586093560302" TEXT="Value semantics">
@@ -1148,7 +1148,7 @@ BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x
 <node CREATED="1586094292036" ID="ID_1042426461" MODIFIED="1586094297229" TEXT="by giving data capabilities"/>
 </node>
 </node>
-<node CREATED="1586094304881" ID="ID_1523696847" MODIFIED="1586094307955" TEXT="Semantic Guidelines">
+<node CREATED="1586094304881" FOLDED="true" ID="ID_1523696847" MODIFIED="1586605864298" TEXT="Semantic Guidelines">
 <node CREATED="1586094315204" ID="ID_1312530675" MODIFIED="1586094317786" TEXT="When type declared"/>
 <node CREATED="1586094318500" ID="ID_1178629244" MODIFIED="1586094323188" TEXT="... need to decide between">
 <node CREATED="1586094323386" ID="ID_161780808" MODIFIED="1586094331374" TEXT="value semantics"/>
@@ -1317,6 +1317,311 @@ func (t *Time) UnmarshalText(data []byte) error {</code></pre>
 </node>
 <node CREATED="1586095119344" ID="ID_1112045181" MODIFIED="1586095146562" TEXT="If you&apos;re not sure if it&apos;s correct to make copies"/>
 <node CREATED="1586095146784" ID="ID_1654520403" MODIFIED="1586095157803" TEXT="... use pointer semantics"/>
+</node>
+</node>
+</node>
+<node CREATED="1586603856787" FOLDED="true" ID="ID_315979408" LINK="https://www.ardanlabs.com/blog/2017/07/interface-semantics.html" MODIFIED="1586613187122" POSITION="left" TEXT="Interface Semantics">
+<icon BUILTIN="full-5"/>
+<node CREATED="1586604014584" ID="ID_371346649" MODIFIED="1586604015308" TEXT="Introduction">
+<node CREATED="1586604021800" ID="ID_1601779590" MODIFIED="1586604025350" TEXT="Interface provides">
+<node CREATED="1586604025627" ID="ID_251848765" MODIFIED="1586604034813" TEXT="Pointer semantics"/>
+<node CREATED="1586604029025" ID="ID_664181221" MODIFIED="1586604032153" TEXT="Value semantics"/>
+</node>
+</node>
+<node CREATED="1586604059572" ID="ID_1891358982" MODIFIED="1586609161888" TEXT="Language mechanics">
+<node CREATED="1586604066322" ID="ID_406454319" MODIFIED="1586604069401" TEXT="Interface can">
+<node CREATED="1586604071783" ID="ID_1767779739" MODIFIED="1586604079766" TEXT="Store its own copy as value"/>
+<node CREATED="1586604080553" ID="ID_1840429754" MODIFIED="1586604100084" TEXT="Value can be share with interface"/>
+<node CREATED="1586604113027" ID="ID_1502893970" MODIFIED="1586604124363" TEXT="... by storing copy of value address (pointer semantics)"/>
+</node>
+<node CREATED="1586604146322" ID="ID_1528638451" LINK="https://play.golang.org/p/RfXlaRjRFr" MODIFIED="1586604206681" TEXT="Small program">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>01 package main
+02
+03 import &quot;fmt&quot;
+04
+05 type printer interface {
+06     print()
+07 }
+08
+09 type user struct {
+10     name string
+11 }
+12
+13 func (u user) print() {
+14     fmt.Println(&quot;User Name:&quot;, u.name)
+15 }
+16
+17 func main() {
+18     u := user{&quot;Bill&quot;}
+19
+20     entities := []printer{
+21         u,
+22         &amp;u,
+23     }
+24
+25     u.name = &quot;Bill_CHG&quot;
+26
+27     for _, e := range entities {
+28         e.print()
+29     }
+30 }</code></pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1586604254957" ID="ID_855140581" MODIFIED="1586604295985" TEXT="line 13">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code>13 func (u user) print() {</code>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1586604259310" ID="ID_818222820" MODIFIED="1586604275664" TEXT="user implement printer interface"/>
+<node CREATED="1586604276020" ID="ID_992780361" MODIFIED="1586604279612" TEXT="... using value semantics"/>
+</node>
+<node CREATED="1586604345240" ID="ID_1589655565" MODIFIED="1586604389646" TEXT="Slice entities">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>20     entities := []printer{
+21         u,
+22         &amp;u,
+23     }</code></pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1586604349668" ID="ID_1833542651" MODIFIED="1586604393036" TEXT="Index 0">
+<node CREATED="1586604393738" ID="ID_191290214" MODIFIED="1586604407626" TEXT="Reference copy of original user">
+<node CREATED="1586604414317" ID="ID_1727238268" MODIFIED="1586604418113" TEXT="Value semantics"/>
+</node>
+</node>
+<node CREATED="1586604428100" ID="ID_1467382671" MODIFIED="1586604429675" TEXT="index 1">
+<node CREATED="1586604430073" ID="ID_888760783" MODIFIED="1586604447483" TEXT="Reference the original value user">
+<node CREATED="1586604449918" ID="ID_401348061" MODIFIED="1586604453446" TEXT="Pointer semantics"/>
+</node>
+</node>
+<node CREATED="1586604659083" ID="ID_822773837" MODIFIED="1586604733202" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1586604662237" ID="ID_843134519" MODIFIED="1586604664678">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="08_interface_value_pointer.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1586604766691" ID="ID_1025925576" MODIFIED="1586609044451" TEXT="Method Sets">
+<node CREATED="1586604790585" ID="ID_1369619240" MODIFIED="1586604850596" TEXT="Rules describes when a piece of data"/>
+<node CREATED="1586604810931" ID="ID_578025074" MODIFIED="1586604837279" TEXT="... of a given type"/>
+<node CREATED="1586604805915" ID="ID_899398166" MODIFIED="1586604840800" TEXT="... can be stored inside of an interface"/>
+<node CREATED="1586604894137" ID="ID_1952714452" MODIFIED="1586605177205" TEXT="Rules">
+<node CREATED="1586605048176" ID="ID_1220211497" MODIFIED="1586605069090" TEXT="when interface implemented using value receiver"/>
+<node CREATED="1586605079071" ID="ID_413530091" MODIFIED="1586605085733" TEXT="... can be stored inside interface">
+<node CREATED="1586605085938" ID="ID_1659927413" MODIFIED="1586605101216" TEXT="copy of value"/>
+<node CREATED="1586605092775" ID="ID_1366135263" MODIFIED="1586605096497" TEXT="adresses"/>
+</node>
+<node CREATED="1586605117279" ID="ID_1762530352" MODIFIED="1586605120289" TEXT="when interface implemented using pointer receiver"/>
+<node CREATED="1586605122332" ID="ID_1208922864" MODIFIED="1586605127630" TEXT="... can be stored inside interface">
+<node CREATED="1586605128314" ID="ID_1177488305" MODIFIED="1586605144809" TEXT="only copy of addresses stored"/>
+</node>
+<node CREATED="1586605163306" ID="ID_804830263" MODIFIED="1586605181476" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1586604899966" ID="ID_1092215075" MODIFIED="1586604979011">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="09_method_sets.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1586605152088" ID="ID_948411077" MODIFIED="1586605218282" TEXT="...why no copy of value when pointer semantics used?">
+<node CREATED="1586605247185" ID="ID_1203647452" MODIFIED="1586605578436" TEXT="Can&apos;t guarantee that every value addressable">
+<icon BUILTIN="full-1"/>
+<node CREATED="1586605297092" ID="ID_964102913" MODIFIED="1586605303717" TEXT="If you can&apos;t take value address, can&apos;t be share"/>
+<node CREATED="1586605309748" ID="ID_1641392831" MODIFIED="1586605315035" TEXT="... so pointer method receiver can&apos;t be used"/>
+<node CREATED="1586605326424" ID="ID_1498824783" LINK="https://play.golang.org/p/mddefYbL09" MODIFIED="1586605338741" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>01 package main
+02
+03 import &quot;fmt&quot;
+04
+05 type notifier interface {
+06     notify()
+07 }
+08
+09 type duration int
+10
+11 func (d *duration) notify() {
+12     fmt.Println(&quot;Sending Notification in&quot;, *d)
+13 }
+14
+15 func main() {
+16     duration(42).notify()
+17 }</code></pre>
+  </body>
+</html></richcontent>
+<node CREATED="1586605478465" ID="ID_1826183987" MODIFIED="1586605482838" TEXT="Errors">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>main.go:16: cannot call pointer method on duration(42)
+main.go:16: cannot take the address of duration(42)</code></pre>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1586605495881" ID="ID_94500891" MODIFIED="1586605502110" TEXT="Literal values only exist at compile time"/>
+<node CREATED="1586605502950" ID="ID_1798851726" MODIFIED="1586605506263" TEXT="... don&apos;t have an address"/>
+</node>
+</node>
+<node CREATED="1586605591873" ID="ID_1249490346" MODIFIED="1586606012788" TEXT="Prevent you to store copies of values and changing semantics">
+<icon BUILTIN="full-2"/>
+<node CREATED="1586605609225" ID="ID_1501265586" MODIFIED="1586606025350" TEXT="... from pointer to value"/>
+<node CREATED="1586605616390" ID="ID_499953873" MODIFIED="1586605708379" TEXT="... dangerous problem of integrity"/>
+</node>
+</node>
+<node CREATED="1586605742448" ID="ID_1939007378" MODIFIED="1586605769023" TEXT="... but you can store addresses with value semantics!">
+<node CREATED="1586605757228" ID="ID_1233652479" MODIFIED="1586605782982" TEXT="Changing semantic from value to pointer"/>
+<node CREATED="1586605783323" ID="ID_1571088489" MODIFIED="1586605785098" TEXT="... can be safe"/>
+<node CREATED="1586605786045" ID="ID_21050916" LINK="#ID_1952698528" MODIFIED="1586605856998" TEXT="... but it&apos;s not the best to do!"/>
+</node>
+</node>
+<node CREATED="1586605876787" ID="ID_1477009083" MODIFIED="1586605877709" TEXT="Interfaces Are Valueless">
+<node CREATED="1586608470452" ID="ID_784544823" LINK="../introduction_to_interfaces/introduction_to_interfaces.mm" MODIFIED="1586608505299" TEXT="Since second word of interface is a pointer"/>
+<node CREATED="1586608475994" ID="ID_33004443" MODIFIED="1586608483781" TEXT="... there is always an address to call pointer receiver method"/>
+<node CREATED="1586608541671" ID="ID_1981715568" MODIFIED="1586608558656" TEXT="... why not storing value when pointer semantics used to implement interface?">
+<node CREATED="1586608569675" ID="ID_1832902668" MODIFIED="1586608573349" TEXT="This is irrelevant!"/>
+<node CREATED="1586608573769" ID="ID_711021175" MODIFIED="1586608578408" TEXT="It&apos;s an implementation detail"/>
+<node CREATED="1586608593013" ID="ID_668270819" MODIFIED="1586608597551" TEXT="... and the implementation is changing"/>
+</node>
+<node CREATED="1586608626503" FOLDED="true" ID="ID_916510449" MODIFIED="1586609042967" TEXT="Nothing concrete in an interface value">
+<node CREATED="1586608641786" ID="ID_143924090" LINK="https://play.golang.org/p/bVzF-qSOtM" MODIFIED="1586608657229" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>01 package main
+02
+03 import &quot;fmt&quot;
+04
+05 type notifier interface {
+06     notify()
+07 }
+08
+09 type duration int
+10
+11 func (d duration) notify() {
+12     fmt.Println(&quot;Sending Notification in&quot;, d)
+13 }
+14
+15 func main() {
+16     var n notifier
+17     n = duration(42)
+18     n.notify()
+19 }</code></pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1586608701210" ID="ID_1419783508" MODIFIED="1586608708889" TEXT="Line 16">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code>16&#160;&#160;&#160;&#160;&#160;var n notifier</code>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1586608709090" ID="ID_786043459" MODIFIED="1586608715114" TEXT="n"/>
+<node CREATED="1586608715573" ID="ID_953308459" MODIFIED="1586608730928" TEXT="... interface type notifier"/>
+<node CREATED="1586608732291" ID="ID_138632316" MODIFIED="1586608749551" TEXT="... sets to its zero value">
+<node CREATED="1586608749796" ID="ID_46694670" MODIFIED="1586608760916" TEXT="nit interface value"/>
+</node>
+<node CREATED="1586608768119" ID="ID_852470986" MODIFIED="1586608776657" TEXT="Interface valueless till line 17"/>
+</node>
+</node>
+<node CREATED="1586608786994" ID="ID_633927107" MODIFIED="1586608791851" TEXT="Only thing that makes interface concrete">
+<node CREATED="1586608792017" ID="ID_553737268" MODIFIED="1586608795746" TEXT="Value stored inside it"/>
+</node>
+<node CREATED="1586608818664" ID="ID_1315774158" MODIFIED="1586608835116" TEXT="Integrity and semantics define rules">
+<node CREATED="1586608835562" ID="ID_240068765" MODIFIED="1586608844460" TEXT="How is it physically done"/>
+<node CREATED="1586608844863" ID="ID_337738907" MODIFIED="1586608848373" TEXT="... is an implementation detail"/>
+</node>
+<node CREATED="1586608861782" ID="ID_503700748" MODIFIED="1586608865887" TEXT="When two interfaces compared">
+<node CREATED="1586608868427" ID="ID_1858388594" LINK="https://play.golang.org/p/Hk7FuovsTH" MODIFIED="1586608882425" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>01 package main
+02
+03 import &quot;fmt&quot;
+04
+05 type errorString struct {
+06     s string
+07 }
+08
+09 func (e errorString) Error() string {
+10     return e.s
+11 }
+12
+13 func New(text string) error {
+14     return errorString{text}
+15 }
+16
+17 var ErrBadRequest = New(&quot;Bad Request&quot;)
+18
+19 func main() {
+20     err := webCall()
+21     if err == ErrBadRequest {
+22         fmt.Println(&quot;Interface Values MATCH&quot;)
+23     }
+24 }
+25
+27 func webCall() error {
+28     return New(&quot;Bad Request&quot;)
+29 }</code></pre>
+    <p>
+      l.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586608882921" ID="ID_513635324" MODIFIED="1586608894562" TEXT="Concrete data compared"/>
+<node CREATED="1586608894919" ID="ID_200565625" MODIFIED="1586608898363" TEXT="... not interface values!"/>
+</node>
 </node>
 </node>
 </node>
