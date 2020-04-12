@@ -1,23 +1,67 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1586077556509" ID="ID_80997837" MODIFIED="1586603855139" TEXT="Language Mechanics">
+<node CREATED="1586077556509" ID="ID_80997837" MODIFIED="1586706855918" TEXT="Language Mechanics">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
+    <p>
+      <b>Questions:</b>
+    </p>
     <ol>
       <li>
-        Draw every state of memory for this example: https://play.golang.org/p/ZtvyJDfFpgY<br />
+        Look at this example: https://play.golang.org/p/ZtvyJDfFpgY - What's the state of the memory at line 5? at line 11? at line 6?<br />
       </li>
       <li>
-        Draw every state of memory for this example: https://play.golang.org/p/-Jbg9JnbAEu
+        Look at this example: https://play.golang.org/p/ZEUgCU0zZbr - What's the state of the memory at line 5? At line 14? At line 8?
+      </li>
+      <li>
+        When should you determine if a type has pointer or value semantics?
+      </li>
+      <li>
+        Should you use value or pointer semantics with built-in types?
+      </li>
+      <li>
+        Should you use value or pointer semantics with reference types?
+      </li>
+      <li>
+        If you're not sure if you can make copy of a type, what should be your default choice?
+      </li>
+      <li>
+        Can you give example of type from the go standard library which respect consistency in semantics?
+      </li>
+      <li>
+        What are the two words of an interface? See mindmap introduction to interfaces.
+      </li>
+      <li>
+        Can you draw the rules of the method set?
+      </li>
+      <li>
+        What's the purpose of the rule preventing some mix between value / pointer receiver? (2 reasons)
+      </li>
+      <li>
+        What is the real value of an interface?
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+    <p>
+      <b>Challenges:</b>
+    </p>
+    <ol>
+      <li>
+        Write a small program which show that some mixing semantics for interface method sets are impossible<br />
+      </li>
+      <li>
+        Create a small program where some values are escaped on the heap<br />
       </li>
     </ol>
   </body>
 </html>
 </richcontent>
-<node CREATED="1586077839958" FOLDED="true" ID="ID_559786914" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-stacks-and-pointers.html" MODIFIED="1586091071541" POSITION="right" TEXT="Language Mechanics On Stacks And Pointers">
+<node CREATED="1586077839958" FOLDED="true" ID="ID_559786914" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-stacks-and-pointers.html" MODIFIED="1586705643958" POSITION="right" TEXT="Language Mechanics On Stacks And Pointers">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1586078038615" ID="ID_1763978390" MODIFIED="1586078039194" TEXT="Introduction"/>
@@ -81,7 +125,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586078726554" FOLDED="true" ID="ID_1418922167" MODIFIED="1586079137498" TEXT="main&apos;s function boundary on stack">
+<node CREATED="1586078726554" FOLDED="true" ID="ID_1418922167" MODIFIED="1586705563049" TEXT="main&apos;s function boundary on stack">
 <icon BUILTIN="licq"/>
 <node CREATED="1586078734054" ID="ID_1730059058" MODIFIED="1586078746458">
 <richcontent TYPE="NODE"><html>
@@ -106,7 +150,7 @@
 <node CREATED="1586078969092" ID="ID_97152307" MODIFIED="1586078973047" TEXT="... on the stack"/>
 <node CREATED="1586079000927" ID="ID_1242656903" MODIFIED="1586079004597" TEXT="Frame transition">
 <node CREATED="1586079004803" ID="ID_702270384" MODIFIED="1586079009901" TEXT="Every value copied to new frame"/>
-<node CREATED="1586079010385" FOLDED="true" ID="ID_973954403" LINK="#ID_585871128" MODIFIED="1586079139770" TEXT="State of memory">
+<node CREATED="1586079010385" FOLDED="true" ID="ID_973954403" LINK="#ID_585871128" MODIFIED="1586705563441" TEXT="State of memory">
 <icon BUILTIN="licq"/>
 <node CREATED="1586079066524" ID="ID_1745290563" MODIFIED="1586079131927">
 <richcontent TYPE="NODE"><html>
@@ -124,7 +168,7 @@
 <node CREATED="1586079248301" ID="ID_90427287" MODIFIED="1586079250714" TEXT="Function return">
 <node CREATED="1586079257467" ID="ID_1393232546" MODIFIED="1586079265448" TEXT="When function return"/>
 <node CREATED="1586079266220" ID="ID_844756406" MODIFIED="1586079272059" TEXT="... and control goes back to calling function"/>
-<node CREATED="1586079338450" ID="ID_189039196" LINK="#ID_585871128" MODIFIED="1586079362945" TEXT="State of memory">
+<node CREATED="1586079338450" FOLDED="true" ID="ID_189039196" LINK="#ID_585871128" MODIFIED="1586705588480" TEXT="State of memory">
 <icon BUILTIN="licq"/>
 <node CREATED="1586079367939" ID="ID_627424028" MODIFIED="1586079372384">
 <richcontent TYPE="NODE"><html>
@@ -189,7 +233,7 @@
 </node>
 </node>
 <node CREATED="1586087774525" ID="ID_955259287" MODIFIED="1586087778347" TEXT="Indirect memory access">
-<node CREATED="1586087794599" ID="ID_532746692" MODIFIED="1586087800121" TEXT="Small program">
+<node CREATED="1586087794599" FOLDED="true" ID="ID_532746692" MODIFIED="1586705641918" TEXT="Small program">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -252,6 +296,16 @@
 </node>
 <node CREATED="1586087999721" ID="ID_77167167" MODIFIED="1586088007856" TEXT="Stack after call of increment">
 <icon BUILTIN="licq"/>
+<node CREATED="1586705575301" ID="ID_1853318896" MODIFIED="1586705580543">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="04_shared_value.png" />
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1586088084033" ID="ID_1835189255" MODIFIED="1586088102557" TEXT="line 21">
 <richcontent TYPE="NOTE"><html>
@@ -274,13 +328,13 @@
 <node CREATED="1586088234496" ID="ID_725464489" MODIFIED="1586088236031" TEXT="Hold a value"/>
 </node>
 </node>
-<node CREATED="1586077858673" FOLDED="true" ID="ID_378544821" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html" MODIFIED="1586604143215" POSITION="right" TEXT="Language Mechanics On Escape Analysis">
+<node CREATED="1586077858673" FOLDED="true" ID="ID_378544821" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html" MODIFIED="1586706057505" POSITION="right" TEXT="Language Mechanics On Escape Analysis">
 <icon BUILTIN="full-2"/>
-<node CREATED="1586088277741" ID="ID_378668439" MODIFIED="1586088279975" TEXT="Introduction">
+<node CREATED="1586088277741" ID="ID_378668439" MODIFIED="1586705677410" TEXT="Introduction">
 <node CREATED="1586088309613" ID="ID_115861512" MODIFIED="1586088314216" TEXT="How to share a value up the stack?"/>
-<node CREATED="1586088325151" ID="ID_1618164943" MODIFIED="1586088326856" TEXT="Let&apos;s see">
+<node CREATED="1586088325151" ID="ID_1618164943" MODIFIED="1586705678728" TEXT="Let&apos;s see">
 <node CREATED="1586088326997" ID="ID_628783370" MODIFIED="1586088329248" TEXT="Heap"/>
-<node CREATED="1586088329638" ID="ID_1612841497" MODIFIED="1586088332708" TEXT="Escape analysis">
+<node CREATED="1586088329638" FOLDED="true" ID="ID_1612841497" MODIFIED="1586705671816" TEXT="Escape analysis">
 <node CREATED="1586088343282" ID="ID_1107271479" MODIFIED="1586088355745" TEXT="Process compiler uses"/>
 <node CREATED="1586088356151" ID="ID_26823658" MODIFIED="1586088363813" TEXT="... to determine the placement of value"/>
 <node CREATED="1586088364162" ID="ID_705333965" MODIFIED="1586088366844" TEXT="... created in a program"/>
@@ -296,7 +350,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586088478254" ID="ID_1305826482" MODIFIED="1586088479592" TEXT="Heaps">
+<node CREATED="1586088478254" ID="ID_1305826482" MODIFIED="1586705681276" TEXT="Heap">
 <node CREATED="1586088480477" ID="ID_64198335" MODIFIED="1586088496624" TEXT="Second area of memory to store values">
 <node CREATED="1586088486651" ID="ID_589065479" MODIFIED="1586088490640" TEXT="in addition to the stack"/>
 </node>
@@ -382,7 +436,7 @@
 </html></richcontent>
 <node CREATED="1586089451729" ID="ID_1462240614" MODIFIED="1586089456522" TEXT="createUserV1()">
 <node CREATED="1586089456728" ID="ID_119062172" MODIFIED="1586089461237" TEXT="Return value semantic of User"/>
-<node CREATED="1586089487199" FOLDED="true" ID="ID_1664537236" MODIFIED="1586089736993" TEXT="Memory state">
+<node CREATED="1586089487199" FOLDED="true" ID="ID_1664537236" MODIFIED="1586705742138" TEXT="Memory state">
 <icon BUILTIN="licq"/>
 <node CREATED="1586089515882" ID="ID_113431596" MODIFIED="1586089730038">
 <richcontent TYPE="NODE"><html>
@@ -427,7 +481,7 @@
 </node>
 </node>
 <node CREATED="1586090067320" ID="ID_1745148211" MODIFIED="1586090069597" TEXT="Readability">
-<node CREATED="1586090119943" FOLDED="true" ID="ID_560462416" LINK="#ID_1977212358" MODIFIED="1586090209945" TEXT="Stack look like this after createUserV2()">
+<node CREATED="1586090119943" ID="ID_560462416" LINK="#ID_1977212358" MODIFIED="1586705803969" TEXT="Stack look like this after createUserV2()">
 <icon BUILTIN="licq"/>
 <node CREATED="1586090149203" ID="ID_421459267" MODIFIED="1586090190850">
 <richcontent TYPE="NODE"><html>
@@ -443,20 +497,20 @@
 <node CREATED="1586090471222" ID="ID_396792505" MODIFIED="1586090480362" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1586090426962" ID="ID_333821916" MODIFIED="1586090432241" TEXT="To be clear in your intentions">
-<node CREATED="1586090432485" ID="ID_103982470" MODIFIED="1586090448055" TEXT="better using that">
+<node CREATED="1586090432485" ID="ID_103982470" MODIFIED="1586706015659" TEXT="better using that">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>27 func createUserV2() *user {
-28     u := &amp;user{
+28     u := user{
 29         name:  &quot;Bill&quot;,
 30         email: &quot;bill@ardanlabs.com&quot;,
 31     }
 32
 33     println(&quot;V2&quot;, u)
-34     return u
+34     return &amp;u
 35 }</code></pre>
   </body>
 </html></richcontent>
@@ -510,7 +564,7 @@
 </node>
 <node CREATED="1586090522551" ID="ID_1208045471" MODIFIED="1586090526900" TEXT="Make clear how values are shared!"/>
 </node>
-<node CREATED="1586090531491" ID="ID_1560312315" MODIFIED="1586090889854" TEXT="Compiler reporting">
+<node CREATED="1586090531491" FOLDED="true" ID="ID_1560312315" MODIFIED="1586706056134" TEXT="Compiler reporting">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -545,7 +599,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586077888975" FOLDED="true" ID="ID_84797629" LINK="https://www.ardanlabs.com/blog/2017/06/language-mechanics-on-memory-profiling.html" MODIFIED="1586093472954" POSITION="right" TEXT="Language Mechanics On Memory Profiling">
+<node CREATED="1586077888975" FOLDED="true" ID="ID_84797629" LINK="https://www.ardanlabs.com/blog/2017/06/language-mechanics-on-memory-profiling.html" MODIFIED="1586706146954" POSITION="right" TEXT="Language Mechanics On Memory Profiling">
 <icon BUILTIN="full-3"/>
 <node CREATED="1586091072777" ID="ID_1278340142" MODIFIED="1586091077267" TEXT="Introduction">
 <node CREATED="1586091351673" ID="ID_1146657653" MODIFIED="1586091364906" TEXT="Other scenarios "/>
@@ -1063,7 +1117,7 @@ BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x
 <node CREATED="1586093427328" ID="ID_1649977627" MODIFIED="1586093433092" TEXT="... performance suffer with heap allocation"/>
 </node>
 </node>
-<node CREATED="1533297544301" FOLDED="true" ID="ID_178372775" LINK="https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html" MODIFIED="1586605866416" POSITION="right" TEXT="Design Philosophy On Data And Semantics">
+<node CREATED="1533297544301" FOLDED="true" ID="ID_178372775" LINK="https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html" MODIFIED="1586706561750" POSITION="right" TEXT="Design Philosophy On Data And Semantics">
 <icon BUILTIN="full-4"/>
 <node CREATED="1586093547759" ID="ID_1246043951" MODIFIED="1586093551624" TEXT="Design Philosophies">
 <node CREATED="1586093559493" ID="ID_1573399216" MODIFIED="1586093560302" TEXT="Value semantics">
@@ -1120,7 +1174,7 @@ BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x
 <node CREATED="1586094011749" ID="ID_1397407160" MODIFIED="1586094016844" TEXT="Provide integrity of data"/>
 <node CREATED="1586094017487" ID="ID_1932791501" MODIFIED="1586094019094" TEXT="... to compiler"/>
 </node>
-<node CREATED="1586094027358" ID="ID_1667426261" MODIFIED="1586094037175" TEXT="Where proper value / pointer semantics start"/>
+<node CREATED="1586094027358" ID="ID_1667426261" MODIFIED="1586706192991" TEXT="When proper value / pointer semantics start"/>
 <node CREATED="1586094037578" ID="ID_598003844" MODIFIED="1586094039763" TEXT="... with types"/>
 </node>
 <node CREATED="1586094043595" ID="ID_258656038" MODIFIED="1586094048027" TEXT="Data (With Capabilities)">
@@ -1148,7 +1202,7 @@ BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x
 <node CREATED="1586094292036" ID="ID_1042426461" MODIFIED="1586094297229" TEXT="by giving data capabilities"/>
 </node>
 </node>
-<node CREATED="1586094304881" FOLDED="true" ID="ID_1523696847" MODIFIED="1586605864298" TEXT="Semantic Guidelines">
+<node CREATED="1586094304881" ID="ID_1523696847" MODIFIED="1586706239207" TEXT="Semantic Guidelines">
 <node CREATED="1586094315204" ID="ID_1312530675" MODIFIED="1586094317786" TEXT="When type declared"/>
 <node CREATED="1586094318500" ID="ID_1178629244" MODIFIED="1586094323188" TEXT="... need to decide between">
 <node CREATED="1586094323386" ID="ID_161780808" MODIFIED="1586094331374" TEXT="value semantics"/>
@@ -1178,7 +1232,7 @@ BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x
 <node CREATED="1586094545248" ID="ID_1580264355" MODIFIED="1586094552947" TEXT="Unmarshaling"/>
 </node>
 </node>
-<node CREATED="1586094567253" ID="ID_987555166" MODIFIED="1586094578949" TEXT="How to choose semantics?">
+<node CREATED="1586094567253" ID="ID_987555166" MODIFIED="1586706548489" TEXT="How to choose semantics?">
 <node CREATED="1586094579188" ID="ID_136587549" MODIFIED="1586094583078" TEXT="Built-in types">
 <node CREATED="1586094693562" ID="ID_1444080547" MODIFIED="1586094708276" TEXT="Data">
 <node CREATED="1586094612005" ID="ID_1059227936" MODIFIED="1586094613595" TEXT="Numeric"/>
@@ -1320,7 +1374,7 @@ func (t *Time) UnmarshalText(data []byte) error {</code></pre>
 </node>
 </node>
 </node>
-<node CREATED="1586603856787" FOLDED="true" ID="ID_315979408" LINK="https://www.ardanlabs.com/blog/2017/07/interface-semantics.html" MODIFIED="1586613187122" POSITION="left" TEXT="Interface Semantics">
+<node CREATED="1586603856787" ID="ID_315979408" LINK="https://www.ardanlabs.com/blog/2017/07/interface-semantics.html" MODIFIED="1586706567131" POSITION="left" TEXT="Interface Semantics">
 <icon BUILTIN="full-5"/>
 <node CREATED="1586604014584" ID="ID_371346649" MODIFIED="1586604015308" TEXT="Introduction">
 <node CREATED="1586604021800" ID="ID_1601779590" MODIFIED="1586604025350" TEXT="Interface provides">
@@ -1371,8 +1425,7 @@ func (t *Time) UnmarshalText(data []byte) error {</code></pre>
 29     }
 30 }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586604254957" ID="ID_855140581" MODIFIED="1586604295985" TEXT="line 13">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1383,8 +1436,7 @@ func (t *Time) UnmarshalText(data []byte) error {</code></pre>
       <code>13 func (u user) print() {</code>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586604259310" ID="ID_818222820" MODIFIED="1586604275664" TEXT="user implement printer interface"/>
 <node CREATED="1586604276020" ID="ID_992780361" MODIFIED="1586604279612" TEXT="... using value semantics"/>
 </node>
@@ -1399,8 +1451,7 @@ func (t *Time) UnmarshalText(data []byte) error {</code></pre>
 22         &amp;u,
 23     }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586604349668" ID="ID_1833542651" MODIFIED="1586604393036" TEXT="Index 0">
 <node CREATED="1586604393738" ID="ID_191290214" MODIFIED="1586604407626" TEXT="Reference copy of original user">
 <node CREATED="1586604414317" ID="ID_1727238268" MODIFIED="1586604418113" TEXT="Value semantics"/>
@@ -1421,8 +1472,7 @@ func (t *Time) UnmarshalText(data []byte) error {</code></pre>
   <body>
     <img src="08_interface_value_pointer.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1521,7 +1571,7 @@ main.go:16: cannot take the address of duration(42)</code></pre>
 <node CREATED="1586608573769" ID="ID_711021175" MODIFIED="1586608578408" TEXT="It&apos;s an implementation detail"/>
 <node CREATED="1586608593013" ID="ID_668270819" MODIFIED="1586608597551" TEXT="... and the implementation is changing"/>
 </node>
-<node CREATED="1586608626503" FOLDED="true" ID="ID_916510449" MODIFIED="1586609042967" TEXT="Nothing concrete in an interface value">
+<node CREATED="1586608626503" ID="ID_916510449" MODIFIED="1586706732360" TEXT="Nothing concrete in an interface value">
 <node CREATED="1586608641786" ID="ID_143924090" LINK="https://play.golang.org/p/bVzF-qSOtM" MODIFIED="1586608657229" TEXT="Code">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1548,8 +1598,7 @@ main.go:16: cannot take the address of duration(42)</code></pre>
 18     n.notify()
 19 }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586608701210" ID="ID_1419783508" MODIFIED="1586608708889" TEXT="Line 16">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1560,8 +1609,7 @@ main.go:16: cannot take the address of duration(42)</code></pre>
       <code>16&#160;&#160;&#160;&#160;&#160;var n notifier</code>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586608709090" ID="ID_786043459" MODIFIED="1586608715114" TEXT="n"/>
 <node CREATED="1586608715573" ID="ID_953308459" MODIFIED="1586608730928" TEXT="... interface type notifier"/>
 <node CREATED="1586608732291" ID="ID_138632316" MODIFIED="1586608749551" TEXT="... sets to its zero value">
@@ -1616,8 +1664,7 @@ main.go:16: cannot take the address of duration(42)</code></pre>
       l.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586608882921" ID="ID_513635324" MODIFIED="1586608894562" TEXT="Concrete data compared"/>
 <node CREATED="1586608894919" ID="ID_200565625" MODIFIED="1586608898363" TEXT="... not interface values!"/>
