@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1551612695958" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1586706961936" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -68,7 +68,8 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1549912106354" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
 <node CREATED="1528634606285" ID="ID_1929326975" MODIFIED="1528634609017" TEXT="Introduction">
@@ -277,7 +278,7 @@
 </node>
 </node>
 <node CREATED="1528913874738" ID="ID_674789017" MODIFIED="1570682969833" TEXT="1.2 Procedures and the process they generate">
-<node CREATED="1528913920315" ID="ID_155058315" MODIFIED="1528913930334" TEXT="1.2.1 Linear recursion and Iteration">
+<node CREATED="1528913920315" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
 <node CREATED="1528913960322" ID="ID_230822821" MODIFIED="1532274721630" TEXT="Recursive process">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -298,7 +299,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1528914339895" FOLDED="true" ID="ID_999299007" MODIFIED="1550996155690" TEXT="img">
+<node CREATED="1528914339895" FOLDED="true" ID="ID_999299007" MODIFIED="1586707015195" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914108777" ID="ID_1267828293" MODIFIED="1528914293080">
 <richcontent TYPE="NODE"><html>
@@ -348,7 +349,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1528914414966" FOLDED="true" ID="ID_1279620134" MODIFIED="1550996158362" TEXT="img">
+<node CREATED="1528914414966" FOLDED="true" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
 <richcontent TYPE="NODE"><html>
@@ -366,7 +367,7 @@
 <node CREATED="1528914092761" ID="ID_574997486" MODIFIED="1528914480355" TEXT="linear iterative process "/>
 </node>
 </node>
-<node CREATED="1528914561918" ID="ID_1493851613" MODIFIED="1549912534657" TEXT="Are different:">
+<node CREATED="1528914561918" ID="ID_1493851613" MODIFIED="1586707151870" TEXT="... are different:">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1528914564246" ID="ID_1674115153" MODIFIED="1528914572178" TEXT="Recursive procedure">
@@ -381,7 +382,7 @@
 </node>
 <node CREATED="1529142812610" ID="ID_767812051" MODIFIED="1529143780691" TEXT="1.2.2 Tree recursion">
 <node CREATED="1529143931599" ID="ID_1076705389" MODIFIED="1529145214747" TEXT="Fibonacci computation">
-<node CREATED="1529145198807" FOLDED="true" ID="ID_1474271353" MODIFIED="1550996161970" TEXT="img">
+<node CREATED="1529145198807" FOLDED="true" ID="ID_1474271353" MODIFIED="1586707155369" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1529143952109" ID="ID_1161183280" MODIFIED="1529143963421">
 <richcontent TYPE="NODE"><html>
