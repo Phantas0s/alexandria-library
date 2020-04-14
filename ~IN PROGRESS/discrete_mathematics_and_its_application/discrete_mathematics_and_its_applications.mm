@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" MODIFIED="1586504095437" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" MODIFIED="1586862358882" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2003,10 +2003,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1585668605111" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" FOLDED="true" ID="ID_725635487" MODIFIED="1586869549299" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1586506985208" TEXT="2.1 Sets">
+<node CREATED="1540654915290" ID="ID_1993730354" MODIFIED="1586865756704" TEXT="2.1 Sets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2085,8 +2085,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1540655648503" FOLDED="true" ID="ID_499915404" MODIFIED="1586506983569" TEXT="Basic sets">
-<node CREATED="1540741024166" ID="ID_822716889" MODIFIED="1575539873273" TEXT="img">
+<node CREATED="1540655648503" ID="ID_499915404" MODIFIED="1586865763418" TEXT="Basic sets">
+<node CREATED="1540741024166" FOLDED="true" ID="ID_822716889" MODIFIED="1586865771475" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1540655673065" ID="ID_382595990" MODIFIED="1557066941018">
 <richcontent TYPE="NODE"><html>
@@ -4337,7 +4337,7 @@
 </node>
 <node CREATED="1574834995735" ID="ID_1289373584" MODIFIED="1585666542885" POSITION="right" TEXT="Algorithms">
 <icon BUILTIN="full-3"/>
-<node CREATED="1574835164172" FOLDED="true" ID="ID_1120871976" MODIFIED="1586506990195" TEXT="3.1 Algorithms">
+<node CREATED="1574835164172" ID="ID_1120871976" MODIFIED="1586869535260" TEXT="3.1 Algorithms">
 <node CREATED="1574835186764" FOLDED="true" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
 <node CREATED="1574835189653" ID="ID_1097192422" MODIFIED="1574835201089" TEXT="An algorithm is a finite sequence of precise instructions"/>
 <node CREATED="1574835202067" ID="ID_476920489" MODIFIED="1574835210882" TEXT="... for performing a computation or for solving a problem"/>
@@ -4367,8 +4367,8 @@
 <node CREATED="1574835758057" ID="ID_536950443" MODIFIED="1574835763559" TEXT="... not just for a particular set of input values"/>
 </node>
 </node>
-<node CREATED="1575540305063" FOLDED="true" ID="ID_438269992" MODIFIED="1575879372596" TEXT="Searching Algorithms">
-<node CREATED="1575540339309" ID="ID_1967953012" MODIFIED="1575540342138" TEXT="Linear Search">
+<node CREATED="1575540305063" FOLDED="true" ID="ID_438269992" MODIFIED="1586869600886" TEXT="Searching Algorithms">
+<node CREATED="1575540339309" FOLDED="true" ID="ID_1967953012" MODIFIED="1586869556000" TEXT="Linear Search">
 <node CREATED="1575540406581" ID="ID_695630487" MODIFIED="1575540413353" TEXT="Sequential search"/>
 <node CREATED="1575540416789" ID="ID_234428582" MODIFIED="1575540424328" TEXT="Compare each member of set with x"/>
 <node CREATED="1575540424844" ID="ID_79657101" MODIFIED="1575540441160" TEXT="If member = input x">
@@ -4376,7 +4376,7 @@
 </node>
 <node CREATED="1575540458333" ID="ID_346409474" MODIFIED="1575540461393" TEXT="Else 0"/>
 </node>
-<node CREATED="1575540468083" ID="ID_859199601" MODIFIED="1575540471705" TEXT="Binary Search">
+<node CREATED="1575540468083" FOLDED="true" ID="ID_859199601" MODIFIED="1586869557617" TEXT="Binary Search">
 <node CREATED="1575540482539" ID="ID_134287635" MODIFIED="1575540502015" TEXT="Elements need to be sorted in order of increasing size">
 <node CREATED="1575540529762" ID="ID_498042517" MODIFIED="1575540535576" TEXT="Examples">
 <icon BUILTIN="wizard"/>
@@ -4439,17 +4439,17 @@
 </node>
 </node>
 </node>
-<node CREATED="1575872596376" FOLDED="true" ID="ID_1180270366" MODIFIED="1585567511488" TEXT="Sorting">
-<node CREATED="1575872606038" ID="ID_1223232424" MODIFIED="1575872620410" TEXT="Example">
+<node CREATED="1575872596376" ID="ID_1180270366" MODIFIED="1586869558865" TEXT="Sorting">
+<node CREATED="1575872606038" FOLDED="true" ID="ID_1223232424" MODIFIED="1586869602590" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1575872607678" ID="ID_1717268687" MODIFIED="1575872611027" TEXT="Telephone directory"/>
 <node CREATED="1575872611406" ID="ID_1254544990" MODIFIED="1575872617691" TEXT="Necessary to sort alphabetically"/>
 </node>
-<node CREATED="1575872679982" ID="ID_122440723" MODIFIED="1575872682329" TEXT="Very common">
+<node CREATED="1575872679982" FOLDED="true" ID="ID_122440723" MODIFIED="1586869602590" TEXT="Very common">
 <node CREATED="1575872690167" ID="ID_1982848097" MODIFIED="1575872698674" TEXT="amazing large percentage of computer resource"/>
 <node CREATED="1575872699080" ID="ID_1648166681" MODIFIED="1575872701402" TEXT="... only for that"/>
 </node>
-<node CREATED="1575872779388" ID="ID_405272741" MODIFIED="1575872781809" TEXT="Bubble sort">
+<node CREATED="1575872779388" FOLDED="true" ID="ID_405272741" MODIFIED="1586869602591" TEXT="Bubble sort">
 <node CREATED="1575872784846" ID="ID_742616723" MODIFIED="1575872793354" TEXT="One of the simplest sorting algorithm">
 <node CREATED="1575872801435" ID="ID_867640604" MODIFIED="1575872805264" TEXT="but not most efficient"/>
 </node>
@@ -4476,7 +4476,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1575873422072" ID="ID_520262510" MODIFIED="1575873424869" TEXT="Insertion sort">
+<node CREATED="1575873422072" FOLDED="true" ID="ID_520262510" MODIFIED="1586869602592" TEXT="Insertion sort">
 <node CREATED="1575873431647" ID="ID_123922108" MODIFIED="1575873434589" TEXT="Very simple">
 <node CREATED="1575873434814" ID="ID_314109239" MODIFIED="1575873438052" TEXT="but not most efficient"/>
 </node>
@@ -4507,7 +4507,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1575873823924" ID="ID_146475596" MODIFIED="1575874095701" TEXT="Greedy algorithms">
+<node CREATED="1575873823924" FOLDED="true" ID="ID_146475596" MODIFIED="1586869602592" TEXT="Greedy algorithms">
 <node CREATED="1575873843076" ID="ID_1376081483" MODIFIED="1575873852024" TEXT="Algorithm making best choice each step">
 <node CREATED="1575873887970" ID="ID_99731139" MODIFIED="1575873906008" TEXT="instead considering all sequence of steps"/>
 <node CREATED="1575873906684" ID="ID_1106002551" MODIFIED="1575873910777" TEXT="... to find best final solution"/>
@@ -4539,7 +4539,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1585125253999" ID="ID_626076480" MODIFIED="1585125257560" TEXT="The halting problems">
+<node CREATED="1585125253999" FOLDED="true" ID="ID_626076480" MODIFIED="1586869602593" TEXT="The halting problems">
 <node CREATED="1585125278238" ID="ID_229339619" MODIFIED="1585125283061" TEXT="Problem which can&apos;t be proved"/>
 <node CREATED="1585125549958" ID="ID_257824009" MODIFIED="1585125575185" TEXT="Program (p1) which takes a program (p2) and an input">
 <node CREATED="1585125575381" ID="ID_1777748584" MODIFIED="1585125589706" TEXT="Input is for p2"/>
@@ -4650,8 +4650,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1585568795246" FOLDED="true" ID="ID_1838004265" MODIFIED="1586506995351" TEXT="3.2 The growth of functions">
-<node CREATED="1585568911524" ID="ID_826016681" MODIFIED="1585568913221" TEXT="Introduction">
+<node CREATED="1585568795246" ID="ID_1838004265" MODIFIED="1586869606019" TEXT="3.2 The growth of functions">
+<node CREATED="1585568911524" FOLDED="true" ID="ID_826016681" MODIFIED="1586862377278" TEXT="Introduction">
 <node CREATED="1585568880579" ID="ID_127667806" MODIFIED="1585568910159" TEXT="Times to solve a problem depends on">
 <node CREATED="1585568886420" ID="ID_1650702354" MODIFIED="1585568888177" TEXT="software"/>
 <node CREATED="1585568888881" ID="ID_1078129811" MODIFIED="1585568890929" TEXT="hardware"/>
@@ -4681,7 +4681,7 @@
 <node CREATED="1585569150438" ID="ID_496182084" MODIFIED="1585569158329" TEXT="Estimate number of operations as the input grows"/>
 </node>
 </node>
-<node CREATED="1585569203298" ID="ID_156397727" MODIFIED="1585569207528" TEXT="Big-O notation">
+<node CREATED="1585569203298" FOLDED="true" ID="ID_156397727" MODIFIED="1586862374527" TEXT="Big-O notation">
 <node CREATED="1585569270739" ID="ID_830801563" MODIFIED="1585569281068" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -4749,7 +4749,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585667986987" ID="ID_648579120" MODIFIED="1585667993706" TEXT="Big-O estimates for some important functions">
+<node CREATED="1585667986987" FOLDED="true" ID="ID_648579120" MODIFIED="1586862474343" TEXT="Big-O estimates for some important functions">
 <node CREATED="1586175613465" ID="ID_1484559656" MODIFIED="1586175623444" TEXT="Polynomials">
 <node CREATED="1586175229492" ID="ID_824021062" MODIFIED="1586175632592" TEXT="Definition">
 <node CREATED="1586175233688" ID="ID_1254266374" LINK="https://www.mathsisfun.com/algebra/polynomials.html" MODIFIED="1586175273052" TEXT="A polynomial can have">
@@ -4843,16 +4843,167 @@
 </node>
 </node>
 <node CREATED="1586255141469" ID="ID_1847272213" MODIFIED="1586255155600" TEXT="Useful Big-O estimates">
-<node CREATED="1586255155916" ID="ID_1451151410" MODIFIED="1586255158296" TEXT="Involving">
-<node CREATED="1586255158574" ID="ID_1118015635" MODIFIED="1586255161320" TEXT="logarithms"/>
-<node CREATED="1586255167286" ID="ID_887004170" MODIFIED="1586255168549" TEXT="powers"/>
-<node CREATED="1586255168995" ID="ID_1790292008" MODIFIED="1586255174004" TEXT="exponential functions"/>
-</node>
-<node CREATED="1586255198296" ID="ID_191209873" MODIFIED="1586255201685" TEXT="Theorem 1">
-<node CREATED="1586255202096" ID="ID_342511516" MODIFIED="1586255248997" TEXT="if f(n) is a polynomial of degree d, then f(n) is O(n^d)"/>
+<node CREATED="1586862457626" ID="ID_1819384929" MODIFIED="1586862460556" TEXT="See book"/>
 </node>
 </node>
+<node CREATED="1586862471117" FOLDED="true" ID="ID_1617939876" MODIFIED="1586864210821" TEXT="The Growth of Combinations of Functions ">
+<node CREATED="1586862514919" ID="ID_1146683946" MODIFIED="1586862525134" TEXT="Many algorithms made with separate subprocedures"/>
+<node CREATED="1586862525877" ID="ID_479561628" MODIFIED="1586862543447" TEXT="... number of steps to solve problem"/>
+<node CREATED="1586862544140" ID="ID_128700139" MODIFIED="1586862555383" TEXT="... sum of number of steps by each subprocedure"/>
+<node CREATED="1586862594117" ID="ID_1903420613" MODIFIED="1586862621977" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1586862595825" ID="ID_268675398" MODIFIED="1586862609489" TEXT="f1(x) is O(g1(x))"/>
+<node CREATED="1586862610677" ID="ID_99867977" MODIFIED="1586862618531" TEXT="f2(x) is O(g2(x))"/>
+<node CREATED="1586862630922" ID="ID_479018760" MODIFIED="1586862642314" TEXT="There are constants C1, C2, k1, k2 such as"/>
+<node CREATED="1586862642981" ID="ID_671330551" MODIFIED="1586862659431" TEXT="... |f1(x)| &#x2264; C1 |g1(x)| ">
+<node CREATED="1586862664746" ID="ID_827224789" MODIFIED="1586862670200" TEXT="when x &gt; k1"/>
 </node>
+<node CREATED="1586862673344" ID="ID_98759695" MODIFIED="1586862681055" TEXT="... |f1 (x)| &#x2264; C1 |g1 (x)|">
+<node CREATED="1586862681427" ID="ID_841355378" MODIFIED="1586862684716" TEXT="when x &gt; k2"/>
+</node>
+<node CREATED="1586862713822" ID="ID_1814741249" MODIFIED="1586862726219" TEXT="using the triangle inequality |a + b| &#x2264; |a| + |b|">
+<node CREATED="1586862737904" ID="ID_1645094043" MODIFIED="1586862752578" TEXT="|(f1 + f2)(x)| = |f1 (x) + f2 (x)| &lt; &#x2264; |f1(x)| + |f2 (x)| "/>
+</node>
+<node CREATED="1586862762157" ID="ID_256356552" MODIFIED="1586862771983" TEXT="When x is greater than k1 and k2"/>
+<node CREATED="1586862781544" ID="ID_1946335687" MODIFIED="1586862803104" TEXT="... follow from the inequality for |f1(x)| and |f2(x)|">
+<node CREATED="1586862807246" ID="ID_1571445339" MODIFIED="1586862920612">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="growth_multiple_function.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1586862963424" ID="ID_1323495371" MODIFIED="1586862965083" TEXT="... where C = C1 + C2 and g(x) = max(|g1(x)|, |g2 (x)|)"/>
+</node>
+<node CREATED="1586863005657" ID="ID_1781282495" MODIFIED="1586863036790" TEXT="Theorem">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Suppose that f1(x) is O(g1(x)) and that f2(x) is O(g2(x)). Then (f1 + f2)(x) is O(max(|g1 (x)|, |g2(x)|)).
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586863086783" ID="ID_1515169738" MODIFIED="1586863092739" TEXT="Theorem">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Suppose that f1 (x) is O(g1 (x)) and f2 (x) is O(g2 (x)). Then (f1f2 )(x) is O(g1 (x)g2(x))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1586863101215" ID="ID_277893449" MODIFIED="1586863104593" TEXT="See book for details"/>
+</node>
+<node CREATED="1586863167985" ID="ID_548177514" MODIFIED="1586863171248" TEXT="Goal of big O notation">
+<node CREATED="1586863171420" ID="ID_1531844937" MODIFIED="1586863204736" TEXT="Find g(x) ">
+<node CREATED="1586863200981" ID="ID_1067059098" MODIFIED="1586863208005" TEXT="As simple as possible"/>
+<node CREATED="1586863184015" ID="ID_1952134351" MODIFIED="1586863197560" TEXT="Grow relatively slowly"/>
+<node CREATED="1586863209533" ID="ID_1960485236" MODIFIED="1586863220915" TEXT="... so that f(x) is O(g(x))"/>
+</node>
+</node>
+</node>
+<node CREATED="1586864224809" FOLDED="true" ID="ID_616550270" MODIFIED="1586869609284" TEXT="Big-Omega and Big-Theta Notation">
+<node CREATED="1586864301520" ID="ID_1111235008" MODIFIED="1586864430498" TEXT="Big-O">
+<node CREATED="1586864312441" ID="ID_1150105083" MODIFIED="1586864318510" TEXT="When f(x) is O(g(x))"/>
+<node CREATED="1586864319418" ID="ID_905749862" MODIFIED="1586864326430" TEXT="... we have an upper bound g(x)"/>
+<node CREATED="1586864330562" ID="ID_173394006" MODIFIED="1586864336721" TEXT="... for the size of f(x)"/>
+<node CREATED="1586864337388" ID="ID_1238601604" MODIFIED="1586864342301" TEXT="... for large values of x"/>
+</node>
+<node CREATED="1586864345599" ID="ID_905406093" MODIFIED="1586864357669" TEXT="... doesn&apos;t provide lower bound"/>
+<node CREATED="1586864384587" ID="ID_230409450" MODIFIED="1586864734261" TEXT="Big-Omega notation &#x3a9; ">
+<node CREATED="1586864405314" ID="ID_1580613037" MODIFIED="1586864412643" TEXT="Lower bound"/>
+<node CREATED="1586864363387" ID="ID_281650929" MODIFIED="1586864378486" TEXT="... for the size of f(x)"/>
+<node CREATED="1586864367870" ID="ID_1169016577" MODIFIED="1586864373214" TEXT="... for large value of x"/>
+</node>
+<node CREATED="1586864467345" ID="ID_260880346" MODIFIED="1586864754818" TEXT="Bit-Theta notation &#x3b8;">
+<node CREATED="1586864472468" ID="ID_1907526491" MODIFIED="1586864483476" TEXT="Provide lower bound / upper bound"/>
+</node>
+</node>
+<node CREATED="1586864551096" FOLDED="true" ID="ID_966815655" MODIFIED="1586869609292" TEXT="Big Omega">
+<node CREATED="1586864554084" ID="ID_568709218" MODIFIED="1586864560152" TEXT="Definition">
+<icon BUILTIN="licq"/>
+<node CREATED="1586864561193" ID="ID_1709318530" MODIFIED="1586864627091">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="big_omega_definition.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1586864649472" ID="ID_1878899378" MODIFIED="1586864660682" TEXT="Strong connection between">
+<node CREATED="1586864660943" ID="ID_317010666" MODIFIED="1586864663822" TEXT="Big-O"/>
+<node CREATED="1586864664421" ID="ID_417378288" MODIFIED="1586864666918" TEXT="Big-Omega"/>
+<node CREATED="1586864809686" ID="ID_688935589" MODIFIED="1586864812843" TEXT="... specifically">
+<node CREATED="1586864668510" ID="ID_1723432465" MODIFIED="1586864800510" TEXT="f(x) is &#x3a9;(g(x)) iff g(x) is O(f(x))"/>
+</node>
+</node>
+</node>
+<node CREATED="1586865122871" FOLDED="true" ID="ID_1815975326" MODIFIED="1586869609297" TEXT="Big Theta">
+<node CREATED="1586865125884" ID="ID_379837577" MODIFIED="1586865172534" TEXT="Definition">
+<icon BUILTIN="licq"/>
+<node CREATED="1586865173364" ID="ID_260843559" MODIFIED="1586865176231">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="big_theta_definition.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1586865204823" ID="ID_1150939427" MODIFIED="1586865281741" TEXT="if f(x) is &#x3b8;(g(x))">
+<node CREATED="1586865223774" ID="ID_1589684671" MODIFIED="1586865235785" TEXT="g(x) is &#x3b8;(f(x))"/>
+</node>
+<node CREATED="1586865282174" ID="ID_1870599331" MODIFIED="1586865282896" TEXT="f(x) is &#x3b8;(g(x))">
+<node CREATED="1586865283168" ID="ID_1352133193" MODIFIED="1586865293823" TEXT="iff f (x) is O(g(x)) and g(x) is O(f (x))"/>
+<node CREATED="1586865302088" ID="ID_1819540069" MODIFIED="1586865324400" TEXT="iff C1|g(x)| &#x2264; |f(x)| &#x2264; C2 |g(x)| "/>
+<node CREATED="1586865331005" ID="ID_484276296" MODIFIED="1586865335312" TEXT="C1 and C2 real numbers"/>
+<node CREATED="1586865336219" ID="ID_670602042" MODIFIED="1586865348333" TEXT="k positive real number"/>
+<node CREATED="1586865359242" ID="ID_1447315315" MODIFIED="1586865362017" TEXT="x &gt; k"/>
+</node>
+</node>
+<node CREATED="1586866232238" FOLDED="true" ID="ID_1332447931" MODIFIED="1586869609301" TEXT="Leading term of polynomial determine its order">
+<node CREATED="1586866337336" ID="ID_1211153801" MODIFIED="1586866435138" TEXT="Theorem">
+<icon BUILTIN="licq"/>
+<node CREATED="1586866339752" ID="ID_526989319" MODIFIED="1586866406193">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="first_term_polynomial_determine_order.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1586866246223" ID="ID_824303936" MODIFIED="1586866431609" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1586866304816" ID="ID_950841383" MODIFIED="1586866317270" TEXT="if f (x) = 3x^5 + x^4 + 17x^3 + 2">
+<node CREATED="1586866318331" ID="ID_1375228996" MODIFIED="1586866333538" TEXT="f(x) is of order x^5"/>
+</node>
+</node>
+</node>
+<node CREATED="1586866529402" ID="ID_1400065092" MODIFIED="1586869628485" TEXT="Be careful: many writers use Big-O notation for higher and lower bound!"/>
 </node>
 </node>
 </node>
