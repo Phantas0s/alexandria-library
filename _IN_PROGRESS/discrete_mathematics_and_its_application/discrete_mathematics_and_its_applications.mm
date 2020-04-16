@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" MODIFIED="1586862358882" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1586942170120" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -364,6 +364,23 @@
       </li>
       <li>
         Draw a bijection function f(x) -&gt;y. How do you call such a function? Is it one to one? onto?
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+    <p>
+      <font size="3"><b><u>3. Logic and proof </u></b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><u>3.3 Complexity of algorithm</u></i>
+    </p>
+    <ol>
+      <li>
+        Take the book and go through every algorithm in 3.1. What are their order of growth?
       </li>
     </ol>
   </body>
@@ -4650,7 +4667,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585568795246" ID="ID_1838004265" MODIFIED="1586869606019" TEXT="3.2 The growth of functions">
+<node CREATED="1585568795246" FOLDED="true" ID="ID_1838004265" MODIFIED="1586941276405" TEXT="3.2 The growth of functions">
 <node CREATED="1585568911524" FOLDED="true" ID="ID_826016681" MODIFIED="1586862377278" TEXT="Introduction">
 <node CREATED="1585568880579" ID="ID_127667806" MODIFIED="1585568910159" TEXT="Times to solve a problem depends on">
 <node CREATED="1585568886420" ID="ID_1650702354" MODIFIED="1585568888177" TEXT="software"/>
@@ -4874,8 +4891,7 @@
   <body>
     <img src="growth_multiple_function.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1586862963424" ID="ID_1323495371" MODIFIED="1586862965083" TEXT="... where C = C1 + C2 and g(x) = max(|g1(x)|, |g2 (x)|)"/>
@@ -4890,8 +4906,7 @@
       Suppose that f1(x) is O(g1(x)) and that f2(x) is O(g2(x)). Then (f1 + f2)(x) is O(max(|g1 (x)|, |g2(x)|)).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586863086783" ID="ID_1515169738" MODIFIED="1586863092739" TEXT="Theorem">
 <richcontent TYPE="NOTE"><html>
@@ -4903,8 +4918,7 @@
       Suppose that f1 (x) is O(g1 (x)) and f2 (x) is O(g2 (x)). Then (f1f2 )(x) is O(g1 (x)g2(x))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586863101215" ID="ID_277893449" MODIFIED="1586863104593" TEXT="See book for details"/>
 </node>
 <node CREATED="1586863167985" ID="ID_548177514" MODIFIED="1586863171248" TEXT="Goal of big O notation">
@@ -4915,7 +4929,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586864224809" FOLDED="true" ID="ID_616550270" MODIFIED="1586869609284" TEXT="Big-Omega and Big-Theta Notation">
+<node CREATED="1586864224809" ID="ID_616550270" MODIFIED="1586940270067" TEXT="Big-Omega and Big-Theta Notation">
 <node CREATED="1586864301520" ID="ID_1111235008" MODIFIED="1586864430498" TEXT="Big-O">
 <node CREATED="1586864312441" ID="ID_1150105083" MODIFIED="1586864318510" TEXT="When f(x) is O(g(x))"/>
 <node CREATED="1586864319418" ID="ID_905749862" MODIFIED="1586864326430" TEXT="... we have an upper bound g(x)"/>
@@ -4932,7 +4946,7 @@
 <node CREATED="1586864472468" ID="ID_1907526491" MODIFIED="1586864483476" TEXT="Provide lower bound / upper bound"/>
 </node>
 </node>
-<node CREATED="1586864551096" FOLDED="true" ID="ID_966815655" MODIFIED="1586869609292" TEXT="Big Omega">
+<node CREATED="1586864551096" FOLDED="true" ID="ID_966815655" MODIFIED="1586940267076" TEXT="Big Omega">
 <node CREATED="1586864554084" ID="ID_568709218" MODIFIED="1586864560152" TEXT="Definition">
 <icon BUILTIN="licq"/>
 <node CREATED="1586864561193" ID="ID_1709318530" MODIFIED="1586864627091">
@@ -4943,8 +4957,7 @@
   <body>
     <img src="big_omega_definition.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1586864649472" ID="ID_1878899378" MODIFIED="1586864660682" TEXT="Strong connection between">
@@ -4966,8 +4979,7 @@
   <body>
     <img src="big_theta_definition.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1586865204823" ID="ID_1150939427" MODIFIED="1586865281741" TEXT="if f(x) is &#x3b8;(g(x))">
@@ -4992,8 +5004,7 @@
   <body>
     <img src="first_term_polynomial_determine_order.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1586866246223" ID="ID_824303936" MODIFIED="1586866431609" TEXT="Example">
@@ -5004,6 +5015,126 @@
 </node>
 </node>
 <node CREATED="1586866529402" ID="ID_1400065092" MODIFIED="1586869628485" TEXT="Be careful: many writers use Big-O notation for higher and lower bound!"/>
+</node>
+<node CREATED="1586939677946" ID="ID_1182577722" MODIFIED="1586941280011" TEXT="3.3 Complexity of Algorithms">
+<node CREATED="1586939766670" ID="ID_1562277733" MODIFIED="1586939769686" TEXT="Introduction">
+<node CREATED="1586939693348" ID="ID_1629809612" MODIFIED="1586939709771" TEXT="When algorithm provides satisfactory solution to problem?">
+<node CREATED="1586939709990" ID="ID_724847554" MODIFIED="1586939717063" TEXT="Always produce correct answer">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1586939730823" ID="ID_9858150" MODIFIED="1586939734795" TEXT="It should be efficient">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1586939757300" ID="ID_1567961420" MODIFIED="1586939766028" TEXT="Complexity of algorithm">
+<node CREATED="1586939775005" ID="ID_763813706" MODIFIED="1586939800062" TEXT="Time complexity">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1586939782502" ID="ID_1664059744" MODIFIED="1586939823051" TEXT="Analysis of time required"/>
+<node CREATED="1586939787166" ID="ID_1610523840" MODIFIED="1586939789906" TEXT="... to solve problem"/>
+<node CREATED="1586939791063" ID="ID_30169412" MODIFIED="1586939794304" TEXT="... of a particular size"/>
+</node>
+<node CREATED="1586939795242" ID="ID_1574005228" MODIFIED="1586939800533" TEXT="Space complexity">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1586939808021" ID="ID_1073327080" MODIFIED="1586939812638" TEXT="Analysis"/>
+<node CREATED="1586939813505" ID="ID_371325301" MODIFIED="1586939819013" TEXT="... of computer memory"/>
+<node CREATED="1586939843708" ID="ID_835703340" MODIFIED="1586939848417" TEXT="Tied with the data structures used"/>
+</node>
+</node>
+<node COLOR="#338800" CREATED="1586941280659" FOLDED="true" ID="ID_266533781" MODIFIED="1586941466678" TEXT="Reference diagram">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+<node CREATED="1586941311457" ID="ID_1968902213" MODIFIED="1586941452032">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="order_of_growth_functions_diagram.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1586939859256" ID="ID_377404439" MODIFIED="1586939862601" TEXT="Time Complexity">
+<node COLOR="#338800" CREATED="1586940669263" ID="ID_669292524" MODIFIED="1586940963325" TEXT="Comment">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+<node CREATED="1586940685249" ID="ID_316316092" MODIFIED="1586940689535" TEXT="Very nice to read through"/>
+<node CREATED="1586940691003" ID="ID_1168307039" MODIFIED="1586940700754" TEXT="... to really get how to measure time complexity"/>
+<node CREATED="1586940703962" ID="ID_952182598" MODIFIED="1586940706998" TEXT="... of algorithm"/>
+</node>
+<node CREATED="1586939898760" ID="ID_921050844" MODIFIED="1586939900551" TEXT="Definition">
+<node CREATED="1586939882227" ID="ID_1927463270" MODIFIED="1586939888629" TEXT="Number of operations used by algorithm"/>
+<node CREATED="1586939889293" ID="ID_1438559879" MODIFIED="1586939897893" TEXT="... when input has particular size"/>
+</node>
+<node CREATED="1586940018227" ID="ID_744676284" MODIFIED="1586940053131" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      procedure max(a1 , a2 , . . . , an: integers)
+    </p>
+    <p>
+      max := a1
+    </p>
+    <p>
+      for i := 2 to n
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if max &lt; ai then max := ai
+    </p>
+    <p>
+      return max{max is the largest element}
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="wizard"/>
+<node CREATED="1586940076765" ID="ID_865531221" MODIFIED="1586940107735" TEXT="User number of comparisons">
+<node CREATED="1586940082288" ID="ID_15628684" MODIFIED="1586940089986" TEXT="... basic operation"/>
+</node>
+<node CREATED="1586940401807" ID="ID_1202639394" MODIFIED="1586940406126" TEXT="Two comparison for each n">
+<node CREATED="1586940406282" ID="ID_1651166279" MODIFIED="1586940408802" TEXT="i &lt;= n"/>
+<node CREATED="1586940409485" ID="ID_1003393642" MODIFIED="1586940412390" TEXT="max &lt;= ai"/>
+</node>
+<node CREATED="1586940416032" ID="ID_148120532" MODIFIED="1586940427542" TEXT="... hence 2(n - 1) + 1 comparison"/>
+<node CREATED="1586940252161" ID="ID_1871488708" MODIFIED="1586940281477" TEXT="&#x3b8;(n)"/>
+</node>
+<node CREATED="1586940615558" ID="ID_171396166" MODIFIED="1586940946207" TEXT="Worst-case complexity">
+<node CREATED="1586940626818" ID="ID_373599487" MODIFIED="1586940638108" TEXT="Largest number of operation"/>
+<node CREATED="1586940638752" ID="ID_293315284" MODIFIED="1586940644021" TEXT="... needed to solve given problem"/>
+</node>
+<node CREATED="1586941613578" ID="ID_290922146" MODIFIED="1586941617598" TEXT="Average case complexity">
+<node CREATED="1586941637492" ID="ID_295928319" MODIFIED="1586941644191" TEXT="Average number operation"/>
+<node CREATED="1586941645226" ID="ID_1889517493" MODIFIED="1586941650167" TEXT="... needed to solve given problem"/>
+<node CREATED="1586941630652" ID="ID_906257728" MODIFIED="1586941636153" TEXT="Usually much more complicated"/>
+</node>
+</node>
+<node CREATED="1586942071543" ID="ID_793396326" MODIFIED="1586942072283" TEXT="Complexity of Matrix Multiplication ">
+<node COLOR="#338800" CREATED="1586942092526" ID="ID_666318956" MODIFIED="1586942126581" TEXT="Pass - see the book">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node CREATED="1586942122262" ID="ID_1500562388" MODIFIED="1586942122925" TEXT="Understanding the Complexity of Algorithms ">
+<node CREATED="1586942292919" FOLDED="true" ID="ID_1597142849" MODIFIED="1586942399264" TEXT="Commonly used terminology">
+<icon BUILTIN="licq"/>
+<node CREATED="1586942372592" ID="ID_1199870579" MODIFIED="1586942395787">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="used_terminology_algorithms.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
