@@ -1,19 +1,23 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563040127689" ID="ID_1518589396" LINK="https://thebusinessofauthority.simplecast.com/episodes/0201ce21" MODIFIED="1563044270500" TEXT=" The Trusted Advisor ">
-<node CREATED="1563044357845" FOLDED="true" ID="ID_465780210" MODIFIED="1570282259159" POSITION="right" TEXT="What a trusted advisor is?">
+<node CREATED="1563044357845" FOLDED="true" ID="ID_465780210" MODIFIED="1587139201931" POSITION="right" TEXT="What a trusted advisor is?">
 <icon BUILTIN="full-1"/>
-<node CREATED="1563044404653" ID="ID_1191333673" MODIFIED="1563044430468" TEXT="Definition">
+<node CREATED="1563044404653" ID="ID_1191333673" MODIFIED="1587139175717" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      A trusted advisor is someone you feel comfortable telling your innermost as well as your outermost thoughts
+      A trusted advisor is&#160;&#160;
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+<node CREATED="1587139168654" ID="ID_1902919383" MODIFIED="1587139194619" TEXT="Someone you feel comfortable"/>
+<node CREATED="1587139175922" ID="ID_677139819" MODIFIED="1587139189848" TEXT="... telling your innermost "/>
+<node CREATED="1587139181685" ID="ID_1422745028" MODIFIED="1587139185254" TEXT="... as well as your outermost thoughts"/>
 </node>
 <node CREATED="1563044478621" ID="ID_203640245" MODIFIED="1563044483617" TEXT="Full of myth">
 <node CREATED="1563044483837" ID="ID_1625037922" MODIFIED="1563044488674" TEXT="&quot;trust takes time&quot;">
@@ -24,7 +28,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1563044517893" FOLDED="true" ID="ID_146132047" MODIFIED="1570281569525" POSITION="right" TEXT="The trust equation">
+<node CREATED="1563044517893" FOLDED="true" ID="ID_146132047" MODIFIED="1587139554180" POSITION="right" TEXT="The trust equation">
 <icon BUILTIN="full-2"/>
 <node CREATED="1563044537787" ID="ID_526552400" MODIFIED="1563044543664" TEXT="Two partners">
 <node CREATED="1563044547732" ID="ID_1572849508" MODIFIED="1563044550802" TEXT="One trust"/>
@@ -41,7 +45,7 @@
 </node>
 <node CREATED="1563044882145" ID="ID_1772695648" MODIFIED="1563044900623" TEXT="Intimacy goes with vulnerability"/>
 </node>
-<node CREATED="1563044830170" FOLDED="true" ID="ID_1944417529" MODIFIED="1570281515838" POSITION="right" TEXT="Men / Women and trust">
+<node CREATED="1563044830170" FOLDED="true" ID="ID_1944417529" MODIFIED="1587139560766" POSITION="right" TEXT="Men / Women and trust">
 <icon BUILTIN="full-3"/>
 <node CREATED="1563044763682" ID="ID_11794152" MODIFIED="1563044768127" TEXT="Most trusted people">
 <node CREATED="1563044768363" ID="ID_1570822271" MODIFIED="1563044769950" TEXT="Women">
@@ -55,12 +59,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1563044941745" FOLDED="true" ID="ID_1793583814" MODIFIED="1570281531374" POSITION="right" TEXT="How taking risks builds trust">
+<node CREATED="1563044941745" FOLDED="true" ID="ID_1793583814" MODIFIED="1587143697710" POSITION="right" TEXT="How taking risks builds trust">
 <icon BUILTIN="full-4"/>
 <node CREATED="1563044948897" ID="ID_449111905" MODIFIED="1563044953557" TEXT="Do hypothesis"/>
 <node CREATED="1563044959071" ID="ID_926504473" MODIFIED="1563044966989" TEXT="Don&apos;t be afraid to be wrong"/>
 </node>
-<node CREATED="1563045573188" FOLDED="true" ID="ID_481883973" MODIFIED="1570281654933" POSITION="left" TEXT="Trust mindset">
+<node CREATED="1563045573188" FOLDED="true" ID="ID_481883973" MODIFIED="1587143718762" POSITION="left" TEXT="Trust mindset">
 <icon BUILTIN="full-7"/>
 <node CREATED="1563084306776" ID="ID_585595764" MODIFIED="1563084310091" TEXT="Curiosity"/>
 <node CREATED="1563084315805" ID="ID_1722988877" MODIFIED="1563084326322" TEXT="Vulnerability"/>
@@ -72,7 +76,7 @@
 <node CREATED="1563104774998" ID="ID_405491906" MODIFIED="1563104778243" TEXT="We are all human"/>
 </node>
 </node>
-<node CREATED="1563084482595" FOLDED="true" ID="ID_274564510" MODIFIED="1570282259159" POSITION="left" TEXT="Social media and trust building">
+<node CREATED="1563084482595" FOLDED="true" ID="ID_274564510" MODIFIED="1587143733689" POSITION="left" TEXT="Social media and trust building">
 <icon BUILTIN="full-8"/>
 <node CREATED="1563084488323" ID="ID_1898829244" MODIFIED="1563084492898" TEXT="Further away from face to face">
 <node CREATED="1563084493261" ID="ID_960638444" MODIFIED="1563084496425" TEXT="Harder it becomes"/>
@@ -95,14 +99,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1563105124448" FOLDED="true" ID="ID_162813576" MODIFIED="1570282259159" POSITION="left" TEXT="What Charles would change now if he could">
+<node CREATED="1563105124448" FOLDED="true" ID="ID_162813576" MODIFIED="1587143743121" POSITION="left" TEXT="What Charles would change now if he could">
 <icon BUILTIN="full-9"/>
 <node CREATED="1563105134419" ID="ID_466511972" MODIFIED="1563105137473" TEXT="Social media"/>
 <node CREATED="1563105138241" ID="ID_1878991060" MODIFIED="1563105140563" TEXT="Nothing else">
 <node CREATED="1563105148874" ID="ID_238177088" MODIFIED="1563105154486" TEXT="We nailed it at that time!"/>
 </node>
 </node>
-<node CREATED="1563045042896" FOLDED="true" ID="ID_11456895" MODIFIED="1570281568742" POSITION="right" TEXT="Strength of ego">
+<node CREATED="1563045042896" FOLDED="true" ID="ID_11456895" MODIFIED="1587143697711" POSITION="right" TEXT="Strength of ego">
 <icon BUILTIN="full-5"/>
 <node CREATED="1563045173637" ID="ID_1614153029" MODIFIED="1570281541838" TEXT="Not dominated by">
 <node CREATED="1570281539881" ID="ID_1866556959" MODIFIED="1570281540431" TEXT="desired to win"/>
@@ -113,7 +117,7 @@
 </node>
 <node CREATED="1563045208191" ID="ID_1290393278" MODIFIED="1563045211883" TEXT="Paradox"/>
 </node>
-<node CREATED="1563105161719" FOLDED="true" ID="ID_966916398" MODIFIED="1570282259159" POSITION="left" TEXT="How the book fits with Charles&#x2019;s business model">
+<node CREATED="1563105161719" FOLDED="true" ID="ID_966916398" MODIFIED="1587143749872" POSITION="left" TEXT="How the book fits with Charles&#x2019;s business model">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1563105312120" ID="ID_998219338" MODIFIED="1563105315768" TEXT="Fantastic business card"/>
@@ -124,7 +128,7 @@
 <node CREATED="1563105573811" ID="ID_1724508326" MODIFIED="1563105579263" TEXT="Advice client to take the best for them"/>
 </node>
 </node>
-<node CREATED="1563105529286" FOLDED="true" ID="ID_1367708082" MODIFIED="1570282259160" POSITION="left" TEXT="The evolution of the products and services Charles created around the book">
+<node CREATED="1563105529286" FOLDED="true" ID="ID_1367708082" MODIFIED="1587143759778" POSITION="left" TEXT="The evolution of the products and services Charles created around the book">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1563105766382" ID="ID_568382230" MODIFIED="1563105769574" TEXT="Don&apos;t believe in goal">
@@ -134,7 +138,7 @@
 </node>
 <node CREATED="1563105838534" ID="ID_1144262443" MODIFIED="1563105843866" TEXT="You can&apos;t tell people what to do"/>
 </node>
-<node CREATED="1563045301245" FOLDED="true" ID="ID_1155841562" MODIFIED="1570281646413" POSITION="right" TEXT="The trust-building process">
+<node CREATED="1563045301245" FOLDED="true" ID="ID_1155841562" MODIFIED="1587143710010" POSITION="right" TEXT="The trust-building process">
 <icon BUILTIN="full-6"/>
 <node CREATED="1563045303485" ID="ID_133118465" MODIFIED="1563045312370" TEXT="How people trust what you say?">
 <node CREATED="1563045312621" ID="ID_1616794281" MODIFIED="1570281595453" TEXT="Listen to them ">

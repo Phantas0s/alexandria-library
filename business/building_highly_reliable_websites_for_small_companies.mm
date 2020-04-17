@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1535905011956" ID="ID_1660559778" LINK="https://www.kalzumeus.com/2010/04/20/building-highly-reliable-websites-for-small-companies/" MODIFIED="1547753227456" TEXT="Building Highly Reliable Websites For Small Companies">
+<node CREATED="1535905011956" ID="ID_1660559778" LINK="https://www.kalzumeus.com/2010/04/20/building-highly-reliable-websites-for-small-companies/" MODIFIED="1587137200369" TEXT="Building Highly Reliable Websites For Small Companies">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -27,14 +27,15 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
-<node CREATED="1535905040808" FOLDED="true" ID="ID_1539850130" MODIFIED="1569953486896" POSITION="right" TEXT="Downtime">
+</html>
+</richcontent>
+<node CREATED="1535905040808" FOLDED="true" ID="ID_1539850130" MODIFIED="1587137216220" POSITION="right" TEXT="Downtime">
 <icon BUILTIN="full-1"/>
 <node CREATED="1535905044927" ID="ID_348040326" MODIFIED="1535905048395" TEXT="Annoys customer"/>
 <node CREATED="1535905049376" ID="ID_1447130109" MODIFIED="1535905057188" TEXT="Annoys proprietors"/>
 <node CREATED="1535905134805" ID="ID_376309947" MODIFIED="1536168632261" TEXT="... but you will have some"/>
 </node>
-<node CREATED="1535907767605" FOLDED="true" ID="ID_1647728048" MODIFIED="1569953487776" POSITION="right" TEXT="Identify the risk">
+<node CREATED="1535907767605" FOLDED="true" ID="ID_1647728048" MODIFIED="1587137227893" POSITION="right" TEXT="Identify the risk">
 <icon BUILTIN="full-2"/>
 <node CREATED="1535907771635" ID="ID_390441450" MODIFIED="1535907775516" TEXT="Where are they?"/>
 <node CREATED="1535907808956" ID="ID_1803861333" MODIFIED="1536168640295" TEXT="Think about what can break">
@@ -72,7 +73,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1535905159749" FOLDED="true" ID="ID_1031309763" MODIFIED="1569953489601" POSITION="right" TEXT="Setting expectations">
+<node CREATED="1535905159749" FOLDED="true" ID="ID_1031309763" MODIFIED="1587137229637" POSITION="right" TEXT="Setting expectations">
 <icon BUILTIN="full-3"/>
 <node CREATED="1535905163605" ID="ID_1241432543" MODIFIED="1536168897101" TEXT="For the failures you will want to">
 <node CREATED="1535905167436" ID="ID_1621619482" MODIFIED="1536168901601" TEXT="Anticipate">
@@ -95,7 +96,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1535908849516" FOLDED="true" ID="ID_455350382" MODIFIED="1569953483968" POSITION="left" TEXT="Minimize failure">
+<node CREATED="1535908849516" FOLDED="true" ID="ID_455350382" MODIFIED="1587137263412" POSITION="left" TEXT="Minimize failure">
 <icon BUILTIN="full-5"/>
 <node CREATED="1535908610351" ID="ID_1095335634" MODIFIED="1535908613138" TEXT="Show cache">
 <node CREATED="1535908613334" ID="ID_565925406" MODIFIED="1535908870634" TEXT="If any API call fails"/>
@@ -110,11 +111,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1535909748783" FOLDED="true" ID="ID_680827742" MODIFIED="1569953482929" POSITION="left" TEXT="Be notified quickly">
+<node CREATED="1535909748783" FOLDED="true" ID="ID_680827742" MODIFIED="1587137322358" POSITION="left" TEXT="Be notified quickly">
 <icon BUILTIN="full-6"/>
 <node CREATED="1535909863476" ID="ID_264673452" MODIFIED="1535909872163" TEXT="Subscribe for a monitoring">
 <node CREATED="1535909872335" ID="ID_707217669" MODIFIED="1535909879139" TEXT="Which verify if you&apos;re down"/>
-<node CREATED="1535909883804" ID="ID_130327864" MODIFIED="1535909892898" TEXT="But won&apos;t catch more complex failures"/>
+<node CREATED="1587137284925" ID="ID_989380048" MODIFIED="1587137287447" TEXT="Drawback">
+<node CREATED="1535909883804" ID="ID_130327864" MODIFIED="1587137295354" TEXT="Won&apos;t catch more complex failures"/>
+</node>
 </node>
 <node CREATED="1535909901885" ID="ID_1399665242" MODIFIED="1535909909074" TEXT="Internal status page">
 <node CREATED="1535909909260" ID="ID_1000304953" MODIFIED="1535909915169" TEXT="Checking crucial things"/>
@@ -125,7 +128,7 @@
 </node>
 <node CREATED="1535910107979" ID="ID_1527310867" LINK="https://www.scoutapp.com/" MODIFIED="1535910117102" TEXT="Application monitoring calling you"/>
 </node>
-<node CREATED="1535910287971" FOLDED="true" ID="ID_1361796704" MODIFIED="1569953494138" POSITION="left" TEXT="Learn from failure">
+<node CREATED="1535910287971" FOLDED="true" ID="ID_1361796704" MODIFIED="1587137321676" POSITION="left" TEXT="Learn from failure">
 <icon BUILTIN="full-7"/>
 <node CREATED="1535910297011" ID="ID_385988769" MODIFIED="1535910301265" TEXT="Use the 5 whys">
 <node CREATED="1535910305602" ID="ID_1642779156" MODIFIED="1535910311070" TEXT="No failure ever has one cause"/>
@@ -136,7 +139,7 @@
 <node CREATED="1535910353851" ID="ID_558369146" MODIFIED="1535910359494" TEXT="Eliminate the rotten root"/>
 </node>
 </node>
-<node CREATED="1535908381765" FOLDED="true" ID="ID_1598729037" MODIFIED="1569953490368" POSITION="right" TEXT="Prevent failures">
+<node CREATED="1535908381765" FOLDED="true" ID="ID_1598729037" MODIFIED="1587137248423" POSITION="right" TEXT="Prevent failures">
 <icon BUILTIN="full-4"/>
 <node CREATED="1535908397440" ID="ID_1753061943" MODIFIED="1535908400157" TEXT="Decouple">
 <node CREATED="1535908400448" ID="ID_667600016" MODIFIED="1535908405972" TEXT="Failure of specific component">
