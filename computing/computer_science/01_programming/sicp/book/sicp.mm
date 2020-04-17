@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1586706961936" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1587143587201" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -70,9 +70,9 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1549912106354" POSITION="right" TEXT="Building abstractions with procedures">
+<node CREATED="1528634320405" FOLDED="true" ID="ID_1250742120" MODIFIED="1587143678085" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
-<node CREATED="1528634606285" ID="ID_1929326975" MODIFIED="1528634609017" TEXT="Introduction">
+<node CREATED="1528634606285" FOLDED="true" ID="ID_1929326975" MODIFIED="1587143670696" TEXT="Introduction">
 <node CREATED="1528633486362" FOLDED="true" ID="ID_1751522928" MODIFIED="1549911501085" TEXT="Act of the mind (Locke)">
 <node CREATED="1528633517258" ID="ID_519591107" MODIFIED="1528633547485" TEXT="Combining several ideas into one compound">
 <icon BUILTIN="full-1"/>
@@ -89,7 +89,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528634386806" FOLDED="true" ID="ID_320155226" MODIFIED="1550996176179" TEXT="1.1 The element of programming">
+<node CREATED="1528634386806" FOLDED="true" ID="ID_320155226" MODIFIED="1587143602757" TEXT="1.1 The element of programming">
 <node CREATED="1528634591277" ID="ID_541171097" MODIFIED="1528634596209" TEXT="Mechanism of languages">
 <node CREATED="1528634492263" ID="ID_202357326" MODIFIED="1528634497678" TEXT="Primitive expressions">
 <node CREATED="1528634498807" ID="ID_1864067348" MODIFIED="1528634508481" TEXT="Simplest entity the language concerned with"/>
@@ -277,7 +277,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528913874738" ID="ID_674789017" MODIFIED="1570682969833" TEXT="1.2 Procedures and the process they generate">
+<node CREATED="1528913874738" FOLDED="true" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
 <node CREATED="1528913920315" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
 <node CREATED="1528913960322" ID="ID_230822821" MODIFIED="1532274721630" TEXT="Recursive process">
 <richcontent TYPE="NOTE"><html>
@@ -382,7 +382,7 @@
 </node>
 <node CREATED="1529142812610" ID="ID_767812051" MODIFIED="1529143780691" TEXT="1.2.2 Tree recursion">
 <node CREATED="1529143931599" ID="ID_1076705389" MODIFIED="1529145214747" TEXT="Fibonacci computation">
-<node CREATED="1529145198807" FOLDED="true" ID="ID_1474271353" MODIFIED="1586707155369" TEXT="img">
+<node CREATED="1529145198807" FOLDED="true" ID="ID_1474271353" MODIFIED="1587143633112" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1529143952109" ID="ID_1161183280" MODIFIED="1529143963421">
 <richcontent TYPE="NODE"><html>
@@ -422,7 +422,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1529170190102" FOLDED="true" ID="ID_1114122839" MODIFIED="1570682995522" TEXT="1.2.3 Order of growth">
+<node CREATED="1529170190102" ID="ID_1114122839" MODIFIED="1587143605047" TEXT="1.2.3 Order of growth">
 <node CREATED="1529170921415" ID="ID_761958546" MODIFIED="1529610793783" TEXT="Only crude description of the behavior of a process">
 <node CREATED="1529170988190" ID="ID_435797624" MODIFIED="1529170989891" TEXT="Ex">
 <node CREATED="1529170990521" ID="ID_149883514" MODIFIED="1529171113132" TEXT="&#x398;(n&#xb2;)">
@@ -491,7 +491,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1532265495363" ID="ID_1760732982" MODIFIED="1551612706811" TEXT="1.3. Formulating Abstractions with Higher Order Procedures">
+<node CREATED="1532265495363" FOLDED="true" ID="ID_1760732982" MODIFIED="1587143670706" TEXT="1.3. Formulating Abstractions with Higher Order Procedures">
 <node CREATED="1532265530171" ID="ID_1621632271" MODIFIED="1532265565251" TEXT="(define (cube x) (* x x x))">
 <node CREATED="1532265531751" ID="ID_1972514206" MODIFIED="1532265563302" TEXT="&quot;method for obtaining the cube of any number&quot;"/>
 <node CREATED="1532265565252" ID="ID_1352441582" MODIFIED="1532265574485" TEXT="abstraction"/>
@@ -525,9 +525,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1528632570789" FOLDED="true" ID="ID_1562376040" MODIFIED="1550996146714" POSITION="left" TEXT="Introduction">
+<node CREATED="1528632570789" FOLDED="true" ID="ID_1562376040" MODIFIED="1587143678086" POSITION="left" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
-<node CREATED="1528632546563" ID="ID_576413795" MODIFIED="1528632584090" TEXT="Algorithm">
+<node CREATED="1528632546563" FOLDED="true" ID="ID_576413795" MODIFIED="1587143675336" TEXT="Algorithm">
 <node CREATED="1528632556211" ID="ID_1211379132" MODIFIED="1528632564762" TEXT="Part of program with precise mathematical function"/>
 </node>
 </node>
