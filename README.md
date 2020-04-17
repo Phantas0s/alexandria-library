@@ -23,7 +23,7 @@ The center is the name of the source. Often, it will be a book, an article, or a
 
 As far as I remember, I always liked reading books. However, very quickly, I found that it was difficult for me to recall what I learned, in my attempts to explain and share my discoveries. What was the point to read, then?
 
-It could have easily discouraged me to open books again; instead, I tried to find a solution to retain the knowledge of my favorite authors. Some years ago, after trying many techniques, I discovered mindmaps and the fantastic freeware [Freemind](http://freemind.sourceforge.net/wiki/index.php/Main_Page).
+It could have easily discouraged me to open books again; instead, I tried to find a solution to retain the knowledge of my favorite authors. Some years ago, after trying many techniques, I discovered mindmaps and the fantastic open-source [Freemind](http://freemind.sourceforge.net/wiki/index.php/Main_Page).
 
 Quickly, I began to write mindmaps of everything interesting I was reading or watching. These mindmaps (and other resources) constitute now my [Alexandria Library](https://en.wikipedia.org/wiki/Library_of_Alexandria).
 
@@ -43,15 +43,23 @@ Finally, it's way easier to get back to some precise content I previously read o
 
 ## My Method To Retain and Capture Knowledge
 
-> An investisment in knowledge always offer the best interest. -- **Benjamin Franklin**
+> An investment in knowledge always offer the best interest. -- **Benjamin Franklin**
 
 It might seem like a lot of work, but I've got pretty effective following this process:
 
 1. When I read a book or an article which looks interesting, I take detailed notes while reading, on a small notebook. This first phase help me to remember roughly what the content is about.
-2. When I finished the source, I copy my note into a mindmap. Again, it helps me keep the knowledge in my long term memory.
-3. I review my mindmaps once in a while. Being able to hide some branches allow me to test myself, to see if I remember the subject. I can as well add questions on the central node and I try to answer them. My review process can vary grandly depending on the knowledge itself. 
+2. When I finished the source, I copy my note into a mindmap. Again, it helps me to transfer the knowledge in my long term memory.
+3. I review my mindmaps once in a while. Being able to hide some branches allow me to test myself, to see if I remember the subject. I can as well add questions on the root node, and I try to answer them. My review process can vary grandly depending on the knowledge itself. 
 
 The first two points aim to capture knowledge, 95% of the retention occurs during the third step.
+
+## Icons and Meaning
+
+Icons on the nodes carry meaning:
+    * Numbers: show the order of reading, which follows the flow of the source material.
+    * Green flower: This node expands to an image.
+    * Magical wand: example to illustrate the idea, from the source.
+    * Key: Personal comment. It's not from the source.
 
 ## Disclaimer
 
