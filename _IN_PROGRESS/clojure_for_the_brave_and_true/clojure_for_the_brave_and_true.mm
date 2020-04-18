@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1586969696034" TEXT="Clojure For The Brave And Truem">
+<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1587215290079" TEXT="Clojure For The Brave And Truem">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -100,7 +100,7 @@
 <node CREATED="1572959463383" ID="ID_1899940640" MODIFIED="1572959468423" POSITION="right" TEXT="How to Use Emacs, an Excellent Clojure Editor">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1572960953553" FOLDED="true" ID="ID_408168825" MODIFIED="1586176587899" POSITION="right" TEXT="Do Things: A Clojure Crash Course">
+<node CREATED="1572960953553" ID="ID_408168825" MODIFIED="1587216945316" POSITION="right" TEXT="Do Things: A Clojure Crash Course">
 <icon BUILTIN="full-3"/>
 <node CREATED="1572961016986" ID="ID_626921267" MODIFIED="1572961019190" TEXT="Syntax">
 <node CREATED="1572961038827" ID="ID_238894836" MODIFIED="1572961040519" TEXT="Forms">
@@ -974,7 +974,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1574923271108" ID="ID_983039471" LINK="https://www.braveclojure.com/organization/" MODIFIED="1586964642031" POSITION="right" TEXT="Organizing Your Project: A Librarian&#x2019;s Tale">
+<node CREATED="1574923271108" FOLDED="true" ID="ID_983039471" LINK="https://www.braveclojure.com/organization/" MODIFIED="1587215297631" POSITION="right" TEXT="Organizing Your Project: A Librarian&#x2019;s Tale">
 <icon BUILTIN="full-6"/>
 <node CREATED="1574923279716" FOLDED="true" ID="ID_1998632901" MODIFIED="1586964679538" TEXT="Your Project as a Library">
 <node CREATED="1574923289084" ID="ID_1316575729" MODIFIED="1574923294681" TEXT="Namespaces are object of type">
@@ -998,7 +998,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1574923462530" ID="ID_838990957" MODIFIED="1586964683082" TEXT="Storing Objects with def">
+<node CREATED="1574923462530" FOLDED="true" ID="ID_838990957" MODIFIED="1587215295673" TEXT="Storing Objects with def">
 <node CREATED="1574923747479" ID="ID_296364500" MODIFIED="1574940337289" TEXT="interning a var">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1574923757503" ID="ID_1036970011" MODIFIED="1574923760769" TEXT="Update the current namespace&#x2019;s map with the association between great-books and the var.">
@@ -2069,7 +2069,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586616022244" ID="ID_264422446" MODIFIED="1586616029109" POSITION="left" TEXT="Clojure Metaphysics: Atoms, Refs, Vars, and Cuddle Zombies">
+<node CREATED="1586616022244" ID="ID_264422446" MODIFIED="1587215305839" POSITION="left" TEXT="Clojure Metaphysics: Atoms, Refs, Vars, and Cuddle Zombies">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1586616046397" FOLDED="true" ID="ID_1022634346" MODIFIED="1586711503137" TEXT="Introduction">
@@ -2378,8 +2378,94 @@
 <node CREATED="1586969728310" ID="ID_1634033518" MODIFIED="1586969733297" TEXT="You can change if for a file"/>
 </node>
 </node>
-<node CREATED="1586969980151" ID="ID_158615020" MODIFIED="1586969982726" TEXT="Configuration"/>
+<node CREATED="1587215930707" ID="ID_834973509" MODIFIED="1587215932019" TEXT="binding">
+<node CREATED="1587215932272" ID="ID_594706385" MODIFIED="1587215941996" TEXT="Bind new value of var in a context"/>
 </node>
+<node CREATED="1587215942939" ID="ID_1339959656" MODIFIED="1587215945565" TEXT="set!">
+<node CREATED="1587215945802" ID="ID_1458022355" MODIFIED="1587215950678" TEXT="Set a new value of var"/>
+<node CREATED="1587215951074" ID="ID_1670610431" MODIFIED="1587215959875" TEXT="... for other functions to use it"/>
+<node CREATED="1587215970396" ID="ID_1782191" MODIFIED="1587215974565" TEXT="... without returning it"/>
+</node>
+</node>
+<node CREATED="1587216457203" ID="ID_477855381" MODIFIED="1587216457772" TEXT="Per-Thread Binding">
+<node CREATED="1587216863552" ID="ID_131937853" MODIFIED="1587216875702" TEXT="BIndings don&apos;t get passed to manually created threads"/>
+<node CREATED="1587216878138" ID="ID_1184434135" MODIFIED="1587216885869" TEXT="They are passed on to futures"/>
+</node>
+</node>
+<node CREATED="1587216916822" ID="ID_768857248" MODIFIED="1587216923343" TEXT="Altering the Var Root">
+<node CREATED="1587216929636" ID="ID_347170440" MODIFIED="1587216937273" TEXT="When create var"/>
+<node CREATED="1587216937660" ID="ID_1800378359" MODIFIED="1587216942196" TEXT="... initial value is its">
+<node CREATED="1587216942385" ID="ID_1845605623" MODIFIED="1587216950088" TEXT="root">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1587216993815" ID="ID_622263477" MODIFIED="1587217002825" TEXT="Can change value with alter-var-root"/>
+<node CREATED="1587217120710" ID="ID_192268695" MODIFIED="1587217127856" TEXT="Hardly want to do this">
+<node CREATED="1587217135245" ID="ID_1388015697" MODIFIED="1587217138801" TEXT="Create mutable variable"/>
+</node>
+<node CREATED="1587217151762" ID="ID_808948110" MODIFIED="1587217244961" TEXT="with-redef">
+<node CREATED="1587217155426" ID="ID_1809098237" MODIFIED="1587217173582" TEXT="Temporally alter var root"/>
+<node CREATED="1587217245374" ID="ID_314001366" MODIFIED="1587217249005" TEXT="Can be used with ANY var"/>
+<node CREATED="1587217256981" ID="ID_1785463060" MODIFIED="1587217260682" TEXT="Reach far effect">
+<node CREATED="1587217260846" ID="ID_390516671" MODIFIED="1587217264772" TEXT="Only use it during testing!"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1587217290828" ID="ID_1330991772" MODIFIED="1587217291507" TEXT="Stateless Concurrency and Parallelism with pmap">
+<node CREATED="1587217329028" ID="ID_1248218287" MODIFIED="1587217333270" TEXT="When using concurrency for"/>
+<node CREATED="1587217333812" ID="ID_1419899168" MODIFIED="1587217341940" TEXT="... totally independent tasks"/>
+<node CREATED="1587217342336" ID="ID_534375357" MODIFIED="1587217356729" TEXT="... without shared states"/>
+<node CREATED="1587218986379" ID="ID_548754450" MODIFIED="1587218992755" TEXT="pmap">
+<node CREATED="1587218992936" ID="ID_1316380126" MODIFIED="1587218994641" TEXT="Run map"/>
+<node CREATED="1587218995019" ID="ID_62340056" MODIFIED="1587219001390" TEXT="... on different threads"/>
+</node>
+<node CREATED="1587219027924" ID="ID_684281560" LINK="https://github.com/Phantas0s/playground/blob/master/clojure/brave-clojure/10-clojure-metaphysics/code.clj" MODIFIED="1587219801346" TEXT="perf with orc-names">
+<node CREATED="1587219303178" ID="ID_957973259" MODIFIED="1587219305728" TEXT="map">
+<node CREATED="1587219306309" ID="ID_1933211430" MODIFIED="1587219309112" TEXT="219ms"/>
+</node>
+<node CREATED="1587219309785" ID="ID_1441053097" MODIFIED="1587219312892" TEXT="mapv">
+<node CREATED="1587219322166" ID="ID_247358629" MODIFIED="1587219324569" TEXT="115ms"/>
+</node>
+</node>
+<node CREATED="1587219325663" ID="ID_459738157" MODIFIED="1587219330011" TEXT="... why not half the time?">
+<node CREATED="1587219330183" ID="ID_1122283473" MODIFIED="1587219335911" TEXT="Concurrency imply overread"/>
+<node CREATED="1587219336363" ID="ID_1700232774" MODIFIED="1587219339140" TEXT="... to manage threads"/>
+<node CREATED="1587219381748" FOLDED="true" ID="ID_1911975355" MODIFIED="1587219514013" TEXT="Illustration">
+<node CREATED="1587219497559" ID="ID_529672490" MODIFIED="1587219504363">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="concurrency_overhead_pmap.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1587219788688" ID="ID_302787805" LINK="https://github.com/Phantas0s/playground/blob/master/clojure/brave-clojure/10-clojure-metaphysics/code.clj" MODIFIED="1587219810951" TEXT="pmap can take longer">
+<node CREATED="1587219811879" ID="ID_1726670958" MODIFIED="1587219824738" TEXT="78ms vs 124ms"/>
+<node CREATED="1587219832605" ID="ID_1720270538" MODIFIED="1587220043229" TEXT="... solution: can increase grain size">
+<node CREATED="1587220043468" ID="ID_1966398341" MODIFIED="1587220049992" TEXT="Threads work more"/>
+</node>
+<node CREATED="1587220064976" FOLDED="true" ID="ID_1762901302" MODIFIED="1587220139646" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1587220120978" ID="ID_208888337" MODIFIED="1587220131278">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="concurrency_overhead_pmap.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1587221069874" ID="ID_511100529" LINK="http://clojure.org/reducers/" MODIFIED="1587221087712" TEXT="Other implementations of speedier version of core functions"/>
+<node CREATED="1587221104288" ID="ID_579520094" MODIFIED="1587221107766" TEXT="... but not lazy"/>
 </node>
 </node>
 </node>
