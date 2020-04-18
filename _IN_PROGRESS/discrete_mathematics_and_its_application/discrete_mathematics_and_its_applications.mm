@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1586942170120" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1587200048507" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -402,7 +402,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1530447452934" FOLDED="true" ID="ID_769479249" MODIFIED="1570682906834" POSITION="right" TEXT="The foundation: logic and proof">
+<node CREATED="1530447452934" FOLDED="true" ID="ID_769479249" MODIFIED="1587200120125" POSITION="right" TEXT="The foundation: logic and proof">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1530447523116" FOLDED="true" ID="ID_954479220" MODIFIED="1565526995995" TEXT="1.1 Propositional Logic">
@@ -2020,10 +2020,22 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" FOLDED="true" ID="ID_725635487" MODIFIED="1586869549299" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1587200142523" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1540654915290" ID="ID_1993730354" MODIFIED="1586865756704" TEXT="2.1 Sets">
+<node CREATED="1540654915290" ID="ID_1993730354" MODIFIED="1587200780695" TEXT="2.1 Sets">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1587200788075" ID="ID_1978714486" MODIFIED="1587200794703" TEXT="Symbol |">
+<node CREATED="1587200794903" ID="ID_1054493729" MODIFIED="1587200799025" TEXT="Alone: such as"/>
+<node CREATED="1587200802938" ID="ID_525809972" MODIFIED="1587200882493" TEXT="By pair: absolute value"/>
+<node CREATED="1587200883800" ID="ID_865627138" MODIFIED="1587200885085" TEXT="Example">
+<node CREATED="1587200885273" ID="ID_494284636" MODIFIED="1587200889227" TEXT="|1| = 1"/>
+<node CREATED="1587200890183" ID="ID_1420567713" MODIFIED="1587201013169" TEXT="{x | x &#x2208; A}">
+<node CREATED="1587201013431" ID="ID_1919554992" MODIFIED="1587201019327" TEXT="x such as x belongs to set A"/>
+</node>
+</node>
+</node>
+<node CREATED="1587200070941" ID="ID_1087974660" MODIFIED="1587200092584" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2033,17 +2045,18 @@
       A set is an unordered collection of objects, called elements or members of the set.<br />A set is said to contain its elements. We write a &#8712; A to denote that a is an element of the set A.<br />The notation a !&#8712; A denotes that a is not an element of the set A.
     </p>
   </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1540655151307" FOLDED="true" ID="ID_344501817" MODIFIED="1563709651589" TEXT="Fundamental discrete structure">
+</html>
+</richcontent>
+</node>
+<node CREATED="1540655151307" FOLDED="true" ID="ID_344501817" MODIFIED="1587200982416" TEXT="Fundamental discrete structure">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1540655159277" ID="ID_553460552" MODIFIED="1557066941018" TEXT="Many other structures use it"/>
 </node>
-<node CREATED="1540655189670" FOLDED="true" ID="ID_1337039234" MODIFIED="1575538273906" TEXT="Objects in a set have often">
+<node CREATED="1540655189670" FOLDED="true" ID="ID_1337039234" MODIFIED="1587200983838" TEXT="Objects in a set have often">
 <node CREATED="1540655198230" ID="ID_582709266" MODIFIED="1557066941018" TEXT="similar properties"/>
 <node CREATED="1540655203240" ID="ID_6857203" MODIFIED="1557066941018" TEXT="... but not always!"/>
 </node>
-<node CREATED="1540655294914" FOLDED="true" ID="ID_1941541370" MODIFIED="1575539909014" TEXT="Notation">
+<node CREATED="1540655294914" FOLDED="true" ID="ID_1941541370" MODIFIED="1587200988583" TEXT="Notation">
 <node CREATED="1540655341990" ID="ID_484552300" MODIFIED="1561902241993" TEXT="Roster method">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1540655350040" FOLDED="true" ID="ID_1275747777" MODIFIED="1575538288441" TEXT="Examples">
@@ -2058,7 +2071,7 @@
 <node CREATED="1540655404429" ID="ID_512151145" MODIFIED="1561902244698" TEXT="Set builder">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1540655490688" ID="ID_384354625" MODIFIED="1557066941018" TEXT="Often used when impossible to list all elements of a set"/>
-<node CREATED="1540655448075" FOLDED="true" ID="ID_1380499880" MODIFIED="1575538290570" TEXT="Examples">
+<node CREATED="1540655448075" FOLDED="true" ID="ID_1380499880" MODIFIED="1587200987790" TEXT="Examples">
 <node CREATED="1540655446005" FOLDED="true" ID="ID_1635529223" MODIFIED="1557737480652" TEXT=" set O of all odd positive integers less than 10">
 <node CREATED="1540655459195" ID="ID_684719278" MODIFIED="1557066941018" TEXT="O = {x | x is an odd positive integer less than 10}"/>
 </node>
@@ -2102,8 +2115,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1540655648503" ID="ID_499915404" MODIFIED="1586865763418" TEXT="Basic sets">
-<node CREATED="1540741024166" FOLDED="true" ID="ID_822716889" MODIFIED="1586865771475" TEXT="img">
+<node CREATED="1540655648503" FOLDED="true" ID="ID_499915404" MODIFIED="1587200993648" TEXT="Basic sets">
+<node CREATED="1540741024166" FOLDED="true" ID="ID_822716889" MODIFIED="1587200992441" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1540655673065" ID="ID_382595990" MODIFIED="1557066941018">
 <richcontent TYPE="NODE"><html>
@@ -2166,13 +2179,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1540741525850" FOLDED="true" ID="ID_1668425898" MODIFIED="1575539915182" TEXT="Datatype in Computer science">
+<node CREATED="1540741525850" FOLDED="true" ID="ID_1668425898" MODIFIED="1587200997877" TEXT="Datatype in Computer science">
 <node CREATED="1540741535340" ID="ID_539707496" MODIFIED="1557066941018" TEXT="Built upon concept of set"/>
-<node CREATED="1540741552979" FOLDED="true" ID="ID_1090768613" MODIFIED="1575539914285" TEXT="Boolean">
+<node CREATED="1540741552979" FOLDED="true" ID="ID_1090768613" MODIFIED="1587200997302" TEXT="Boolean">
 <node CREATED="1540741557531" ID="ID_1999900305" MODIFIED="1557066941018" TEXT="set {0,1}"/>
 </node>
 </node>
-<node CREATED="1540741599147" FOLDED="true" ID="ID_32240500" MODIFIED="1585570663114" TEXT="Set equality">
+<node CREATED="1540741599147" ID="ID_32240500" MODIFIED="1587200998454" TEXT="Set equality">
 <node CREATED="1540741604730" ID="ID_426678258" MODIFIED="1557066941018" TEXT="If and only if they have the same elements"/>
 <node CREATED="1540741642106" ID="ID_589233119" MODIFIED="1575539917510" TEXT="Example">
 <node CREATED="1540741644611" ID="ID_1906186771" MODIFIED="1575539919374" TEXT="If A and B are set">
@@ -2266,7 +2279,7 @@
 <node CREATED="1540742391335" ID="ID_356398285" MODIFIED="1557066941018" TEXT="Elements of V represented with points"/>
 </node>
 </node>
-<node CREATED="1545143712276" ID="ID_541934488" MODIFIED="1585668852479" TEXT="Subset">
+<node CREATED="1545143712276" FOLDED="true" ID="ID_541934488" MODIFIED="1587200065315" TEXT="Subset">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2489,10 +2502,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1555257592025" FOLDED="true" ID="ID_1229810133" MODIFIED="1585567506355" TEXT="2.2 Set operations">
+<node CREATED="1555257592025" ID="ID_1229810133" MODIFIED="1587200536523" TEXT="2.2 Set operations">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1557737152305" ID="ID_1490250316" MODIFIED="1585334351041" TEXT=" Introduction">
-<node CREATED="1555257650521" FOLDED="true" ID="ID_711411576" MODIFIED="1585334444028" TEXT="Union of the sets">
+<node CREATED="1555257650521" FOLDED="true" ID="ID_711411576" MODIFIED="1587200768236" TEXT="Union of the sets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2502,10 +2515,11 @@
       Let A and B be sets.The union of the sets A and B, denoted by A &#8746; B, is the set that contains those elements that are either in A or in B, or in both.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1555257657601" ID="ID_852640820" MODIFIED="1557066941018" TEXT="A &#x222a; B"/>
 <node CREATED="1555257660001" ID="ID_1748170199" MODIFIED="1557066941018" TEXT="Elements in A, B or both"/>
-<node CREATED="1555257718879" ID="ID_844486817" MODIFIED="1557066941018" TEXT="A &#x222a; B = {x | x &#x2208; A &#x2228; x &#x2208; B}"/>
+<node CREATED="1555257718879" ID="ID_844486817" MODIFIED="1587200766670" TEXT="A &#x222a; B = {x C x &#x2208; A &#x2228; x &#x2208; B}"/>
 <node CREATED="1555257913948" ID="ID_1293630391" MODIFIED="1557737741661" TEXT="venn diagram">
 <icon BUILTIN="licq"/>
 <node CREATED="1555257923158" ID="ID_762087903" MODIFIED="1557066941018">
@@ -2651,7 +2665,7 @@
 </node>
 <node CREATED="1557737159888" ID="ID_1671584782" MODIFIED="1585334446591" TEXT="Set identities">
 <node CREATED="1557737204936" ID="ID_1425158892" LINK="#ID_1693249637" MODIFIED="1557737438011" TEXT="Similar to logical equivalences table"/>
-<node CREATED="1557737278505" FOLDED="true" ID="ID_1113866783" MODIFIED="1585335027867" TEXT="Table">
+<node CREATED="1557737278505" FOLDED="true" ID="ID_1113866783" MODIFIED="1587200738105" TEXT="Table">
 <icon BUILTIN="licq"/>
 <node CREATED="1557737342959" ID="ID_1241629799" MODIFIED="1558265453901">
 <richcontent TYPE="NODE"><html>
@@ -2759,7 +2773,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1558849233474" ID="ID_1242845806" MODIFIED="1585335032994" TEXT="Computer representation of sets">
+<node CREATED="1558849233474" FOLDED="true" ID="ID_1242845806" MODIFIED="1587200538804" TEXT="Computer representation of sets">
 <node CREATED="1559224975403" FOLDED="true" ID="ID_433466713" MODIFIED="1585335039552" TEXT="If element of set non ordered">
 <node CREATED="1559224992003" ID="ID_1770700998" MODIFIED="1559225011030" TEXT="Time consuming to compute set operations"/>
 <node CREATED="1559225013080" ID="ID_627418273" MODIFIED="1559225191382" TEXT="... need to search the elements"/>
@@ -4338,7 +4352,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1573795990207" FOLDED="true" ID="ID_1845404894" MODIFIED="1573796016492" POSITION="left" TEXT="Exercise relationships">
+<node CREATED="1573795990207" FOLDED="true" ID="ID_1845404894" MODIFIED="1587200133960" POSITION="left" TEXT="Exercise relationships">
 <node CREATED="1573796003967" ID="ID_1708603375" MODIFIED="1573796003967" TEXT=""/>
 <node CREATED="1530447454456" ID="ID_1897961744" MODIFIED="1573795972266">
 <richcontent TYPE="NODE"><html>
@@ -4352,9 +4366,9 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1574834995735" ID="ID_1289373584" MODIFIED="1585666542885" POSITION="right" TEXT="Algorithms">
+<node CREATED="1574834995735" FOLDED="true" ID="ID_1289373584" MODIFIED="1587200121364" POSITION="right" TEXT="Algorithms">
 <icon BUILTIN="full-3"/>
-<node CREATED="1574835164172" ID="ID_1120871976" MODIFIED="1586869535260" TEXT="3.1 Algorithms">
+<node CREATED="1574835164172" FOLDED="true" ID="ID_1120871976" MODIFIED="1587200115860" TEXT="3.1 Algorithms">
 <node CREATED="1574835186764" FOLDED="true" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
 <node CREATED="1574835189653" ID="ID_1097192422" MODIFIED="1574835201089" TEXT="An algorithm is a finite sequence of precise instructions"/>
 <node CREATED="1574835202067" ID="ID_476920489" MODIFIED="1574835210882" TEXT="... for performing a computation or for solving a problem"/>
@@ -5016,7 +5030,7 @@
 </node>
 <node CREATED="1586866529402" ID="ID_1400065092" MODIFIED="1586869628485" TEXT="Be careful: many writers use Big-O notation for higher and lower bound!"/>
 </node>
-<node CREATED="1586939677946" ID="ID_1182577722" MODIFIED="1586941280011" TEXT="3.3 Complexity of Algorithms">
+<node CREATED="1586939677946" FOLDED="true" ID="ID_1182577722" MODIFIED="1587200115862" TEXT="3.3 Complexity of Algorithms">
 <node CREATED="1586939766670" ID="ID_1562277733" MODIFIED="1586939769686" TEXT="Introduction">
 <node CREATED="1586939693348" ID="ID_1629809612" MODIFIED="1586939709771" TEXT="When algorithm provides satisfactory solution to problem?">
 <node CREATED="1586939709990" ID="ID_724847554" MODIFIED="1586939717063" TEXT="Always produce correct answer">
@@ -5051,8 +5065,7 @@
   <body>
     <img src="order_of_growth_functions_diagram.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -5090,8 +5103,7 @@
       return max{max is the largest element}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 <node CREATED="1586940076765" ID="ID_865531221" MODIFIED="1586940107735" TEXT="User number of comparisons">
 <node CREATED="1586940082288" ID="ID_15628684" MODIFIED="1586940089986" TEXT="... basic operation"/>
@@ -5130,8 +5142,7 @@
   <body>
     <img src="used_terminology_algorithms.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
