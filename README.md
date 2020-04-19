@@ -84,18 +84,18 @@ If you find some mindmaps interesting, I invite you to read (or watch) the origi
 
 ### Copyright
 
-If you're the writer of the original content and you don't want me to put online a copy of your work for free, let me know and I will remove it.
+If you're the writer of the original content and you don't want me to put online my notes on it, let me know and I will remove them.
 
 ### Spelling, Syntax, and Grammar
 
 I'm not a native English speaker. Don't be surprised to see many spelling or grammar mistakes in the library.
 
-## Why Sharing?
+## Why Sharing That?
 
-I share my library for:
+In order to:
 
-1. Inspiring anybody who try to learn and capture knowledge.
-2. Share the content I find interesting for you to read the original source. My mindmaps can give you an idea of the source.
+1. Inspire anybody who try to learn and capture knowledge.
+2. Share the content I find interesting, for you to read the original source. My mindmaps can give you an idea of the source.
 
 ## Contribution
 
@@ -106,4 +106,3 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 ## Licence
 
 [Apache Licence 2.0](https://choosealicense.com/licenses/apache-2.0/)
-
