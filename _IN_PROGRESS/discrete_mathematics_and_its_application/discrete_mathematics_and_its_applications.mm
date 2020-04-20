@@ -1,13 +1,16 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1587200048507" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1587391622482" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="5"><u><b>Assessments:</b></u></font>
+      <font size="5"><u><b>General notes:</b></u></font><br /><br />Some elements from Lecture Notes, Yale University, Spring 1999 from L. Lova&#769;sz and K. Vesztergombi have been included here.<br /><br />
+    </p>
+    <p>
+      https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf<br /><br /><font size="5"><u><b>Assessments:</b></u></font>
     </p>
     <p>
       
@@ -387,9 +390,11 @@
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1530447285087" FOLDED="true" ID="ID_1982099078" MODIFIED="1586261867456" POSITION="left" TEXT="PLAN of the book">
+<node CREATED="1530447285087" FOLDED="true" ID="ID_1982099078" MODIFIED="1587389451446" POSITION="right" TEXT="PLAN of the book">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-0"/>
+<node CREATED="1587388729193" FOLDED="true" ID="ID_1384629814" MODIFIED="1587389449665" TEXT="Plan">
+<icon BUILTIN="licq"/>
 <node CREATED="1530447444639" ID="ID_587387682" MODIFIED="1573795914213">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -400,6 +405,22 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1573795990207" FOLDED="true" ID="ID_1845404894" MODIFIED="1587388752659" TEXT="Exercise relationships">
+<icon BUILTIN="licq"/>
+<node CREATED="1573796003967" ID="ID_1708603375" MODIFIED="1573796003967" TEXT=""/>
+<node CREATED="1530447454456" ID="ID_1897961744" MODIFIED="1573795972266">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Discrete%20mathematics%20-%20exercices%20relationships.png" />
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node CREATED="1530447452934" FOLDED="true" ID="ID_769479249" MODIFIED="1587200120125" POSITION="right" TEXT="The foundation: logic and proof">
@@ -2020,10 +2041,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1587200142523" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" FOLDED="true" ID="ID_725635487" MODIFIED="1587394261356" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1540654915290" ID="ID_1993730354" MODIFIED="1587200780695" TEXT="2.1 Sets">
+<node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1587200788075" ID="ID_1978714486" MODIFIED="1587200794703" TEXT="Symbol |">
 <node CREATED="1587200794903" ID="ID_1054493729" MODIFIED="1587200799025" TEXT="Alone: such as"/>
@@ -2045,14 +2066,13 @@
       A set is an unordered collection of objects, called elements or members of the set.<br />A set is said to contain its elements. We write a &#8712; A to denote that a is an element of the set A.<br />The notation a !&#8712; A denotes that a is not an element of the set A.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1540655151307" FOLDED="true" ID="ID_344501817" MODIFIED="1587200982416" TEXT="Fundamental discrete structure">
+<node CREATED="1540655151307" FOLDED="true" ID="ID_344501817" MODIFIED="1587390769526" TEXT="Fundamental discrete structure">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1540655159277" ID="ID_553460552" MODIFIED="1557066941018" TEXT="Many other structures use it"/>
 </node>
-<node CREATED="1540655189670" FOLDED="true" ID="ID_1337039234" MODIFIED="1587200983838" TEXT="Objects in a set have often">
+<node CREATED="1540655189670" FOLDED="true" ID="ID_1337039234" MODIFIED="1587390771551" TEXT="Objects in a set have often">
 <node CREATED="1540655198230" ID="ID_582709266" MODIFIED="1557066941018" TEXT="similar properties"/>
 <node CREATED="1540655203240" ID="ID_6857203" MODIFIED="1557066941018" TEXT="... but not always!"/>
 </node>
@@ -2115,8 +2135,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1540655648503" FOLDED="true" ID="ID_499915404" MODIFIED="1587200993648" TEXT="Basic sets">
-<node CREATED="1540741024166" FOLDED="true" ID="ID_822716889" MODIFIED="1587200992441" TEXT="img">
+<node CREATED="1540655648503" FOLDED="true" ID="ID_499915404" MODIFIED="1587391079955" TEXT="Basic sets">
+<node CREATED="1540741024166" FOLDED="true" ID="ID_822716889" MODIFIED="1587390778770" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1540655673065" ID="ID_382595990" MODIFIED="1557066941018">
 <richcontent TYPE="NODE"><html>
@@ -2171,13 +2191,14 @@
 <node CREATED="1561902350950" ID="ID_1474030343" MODIFIED="1561902351755" TEXT="Pi"/>
 </node>
 </node>
-<node CREATED="1540741408957" FOLDED="true" ID="ID_453070136" MODIFIED="1569298886902" TEXT="Real number">
+<node CREATED="1540741408957" FOLDED="true" ID="ID_453070136" MODIFIED="1587390776622" TEXT="Real number">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1540741414106" ID="ID_735969407" MODIFIED="1561902275891" TEXT="Include">
 <node CREATED="1540741423862" ID="ID_211626600" MODIFIED="1557066941018" TEXT="All rational numbers"/>
 <node CREATED="1540741429637" ID="ID_136154129" MODIFIED="1557066941018" TEXT="All irrational numbers"/>
 </node>
 </node>
+<node CREATED="1587390779720" ID="ID_537069417" MODIFIED="1587390781654" TEXT="&#x2205; &#x2286; N &#x2286; Z+ &#x2286; Z &#x2286; Q &#x2286; R "/>
 </node>
 <node CREATED="1540741525850" FOLDED="true" ID="ID_1668425898" MODIFIED="1587200997877" TEXT="Datatype in Computer science">
 <node CREATED="1540741535340" ID="ID_539707496" MODIFIED="1557066941018" TEXT="Built upon concept of set"/>
@@ -2185,7 +2206,7 @@
 <node CREATED="1540741557531" ID="ID_1999900305" MODIFIED="1557066941018" TEXT="set {0,1}"/>
 </node>
 </node>
-<node CREATED="1540741599147" ID="ID_32240500" MODIFIED="1587200998454" TEXT="Set equality">
+<node CREATED="1540741599147" FOLDED="true" ID="ID_32240500" MODIFIED="1587390760878" TEXT="Set equality">
 <node CREATED="1540741604730" ID="ID_426678258" MODIFIED="1557066941018" TEXT="If and only if they have the same elements"/>
 <node CREATED="1540741642106" ID="ID_589233119" MODIFIED="1575539917510" TEXT="Example">
 <node CREATED="1540741644611" ID="ID_1906186771" MODIFIED="1575539919374" TEXT="If A and B are set">
@@ -2279,7 +2300,7 @@
 <node CREATED="1540742391335" ID="ID_356398285" MODIFIED="1557066941018" TEXT="Elements of V represented with points"/>
 </node>
 </node>
-<node CREATED="1545143712276" FOLDED="true" ID="ID_541934488" MODIFIED="1587200065315" TEXT="Subset">
+<node CREATED="1545143712276" FOLDED="true" ID="ID_541934488" MODIFIED="1587390765663" TEXT="Subset">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2359,7 +2380,7 @@
 <node CREATED="1545145141907" ID="ID_1406361607" MODIFIED="1557066941018" TEXT="Contrary of finite set"/>
 </node>
 </node>
-<node CREATED="1545145185233" FOLDED="true" ID="ID_753218530" MODIFIED="1585570663116" TEXT="Power sets">
+<node CREATED="1545145185233" ID="ID_753218530" MODIFIED="1587391084026" TEXT="Power sets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2380,8 +2401,29 @@
 <node CREATED="1545145250529" ID="ID_472076428" MODIFIED="1557066941018" TEXT="P({0,1,2}) = {&#x2205;,{0},{1},{2},{0,1},{0,2},{1,2},{0,1,2}}"/>
 </node>
 <node CREATED="1545145317039" ID="ID_1674231944" MODIFIED="1561901479817" TEXT=" set has n elements">
-<node CREATED="1545145323505" FOLDED="true" ID="ID_1619066925" MODIFIED="1557737480734" TEXT="then its power set has 2 rised to the power of n elements ">
-<node CREATED="1545145340706" ID="ID_460125824" MODIFIED="1557066941018" TEXT="2^n"/>
+<node CREATED="1545145323505" ID="ID_1619066925" MODIFIED="1587391096509" TEXT="then its power set has 2 rised to the power of n elements ">
+<node CREATED="1587391111941" ID="ID_917788606" MODIFIED="1587391118197" TEXT="For the first element, two choices">
+<node CREATED="1587391118899" ID="ID_38164268" MODIFIED="1587391124907" TEXT="We include it in subset"/>
+<node CREATED="1587391125487" ID="ID_1857583107" MODIFIED="1587391127700" TEXT="We don&apos;t"/>
+</node>
+<node CREATED="1587391128814" ID="ID_333846586" MODIFIED="1587391135875" TEXT="... for second element, same"/>
+<node CREATED="1587391136615" ID="ID_1710886915" MODIFIED="1587391145175" TEXT="... and so forth"/>
+<node CREATED="1587391184317" FOLDED="true" ID="ID_1330504838" MODIFIED="1587391501772" TEXT="Decision tree to select subsets">
+<icon BUILTIN="licq"/>
+<node CREATED="1587391488718" ID="ID_7553874" MODIFIED="1587391494215">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="decision_tree_for_selecting_subset.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1545145340706" ID="ID_460125824" MODIFIED="1587391157259" TEXT="2^n subsets">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
@@ -2502,7 +2544,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1555257592025" ID="ID_1229810133" MODIFIED="1587200536523" TEXT="2.2 Set operations">
+<node CREATED="1555257592025" FOLDED="true" ID="ID_1229810133" MODIFIED="1587392531507" TEXT="2.2 Set operations">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1557737152305" ID="ID_1490250316" MODIFIED="1585334351041" TEXT=" Introduction">
 <node CREATED="1555257650521" FOLDED="true" ID="ID_711411576" MODIFIED="1587200768236" TEXT="Union of the sets">
@@ -2515,8 +2557,7 @@
       Let A and B be sets.The union of the sets A and B, denoted by A &#8746; B, is the set that contains those elements that are either in A or in B, or in both.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1555257657601" ID="ID_852640820" MODIFIED="1557066941018" TEXT="A &#x222a; B"/>
 <node CREATED="1555257660001" ID="ID_1748170199" MODIFIED="1557066941018" TEXT="Elements in A, B or both"/>
 <node CREATED="1555257718879" ID="ID_844486817" MODIFIED="1587200766670" TEXT="A &#x222a; B = {x C x &#x2208; A &#x2228; x &#x2208; B}"/>
@@ -3511,12 +3552,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1564564022865" FOLDED="true" ID="ID_928246757" MODIFIED="1575538330011" TEXT="2.4 Sequences and Summations">
-<node CREATED="1564564066520" FOLDED="true" ID="ID_1207413132" MODIFIED="1575538298576" TEXT="Introduction">
+<node CREATED="1564564022865" ID="ID_928246757" MODIFIED="1587392533385" TEXT="2.4 Sequences and Summations">
+<node CREATED="1564564066520" ID="ID_1207413132" MODIFIED="1587392535026" TEXT="Introduction">
 <node CREATED="1564564044010" ID="ID_776012966" MODIFIED="1564564047837" TEXT="Ordered list of elements"/>
 <node CREATED="1564564077593" ID="ID_553141591" MODIFIED="1564564082788" TEXT="Can be used for counting problems"/>
 </node>
-<node CREATED="1564564311680" FOLDED="true" ID="ID_25796947" MODIFIED="1575538328668" TEXT="Sequences">
+<node CREATED="1564564311680" ID="ID_25796947" MODIFIED="1587392536936" TEXT="Sequences">
 <node CREATED="1564564324095" ID="ID_1233095167" MODIFIED="1564564335122" TEXT="Definition">
 <node CREATED="1564564330998" ID="ID_1757262110" MODIFIED="1564564331850" TEXT=" discrete structure used to represent an ordered list"/>
 <node CREATED="1564564439582" FOLDED="true" ID="ID_1584617348" MODIFIED="1575538307434" TEXT="img">
@@ -3533,7 +3574,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1564564059596" FOLDED="true" ID="ID_615048801" MODIFIED="1575538311169" TEXT="Examples">
+<node CREATED="1564564059596" FOLDED="true" ID="ID_615048801" MODIFIED="1587392547406" TEXT="Examples">
 <icon BUILTIN="wizard"/>
 <node CREATED="1569299089646" ID="ID_657307379" MODIFIED="1569299096060">
 <richcontent TYPE="NODE"><html>
@@ -3611,9 +3652,21 @@
 <node CREATED="1569299760352" ID="ID_890996111" MODIFIED="1569299762268" TEXT="No term"/>
 <node CREATED="1569299752856" ID="ID_1545824562" MODIFIED="1569299755204" TEXT="Length 0"/>
 </node>
+<node CREATED="1587392882946" ID="ID_109725583" MODIFIED="1587392908563" TEXT="Possibilities of a string">
+<node CREATED="1587392908817" ID="ID_1583211299" MODIFIED="1587392938416" TEXT="For a string with n element"/>
+<node CREATED="1587392926817" ID="ID_662021125" MODIFIED="1587392934179" TEXT="... and k possibility by element"/>
+<node CREATED="1587392939442" ID="ID_1591314507" MODIFIED="1587392956457" TEXT="... k ^ n"/>
+<node CREATED="1587392952559" ID="ID_314574123" MODIFIED="1587392954550" TEXT="Example">
+<node CREATED="1587392957752" ID="ID_1061008459" MODIFIED="1587392971002" TEXT="String with characters of alphabet">
+<node CREATED="1587392971159" ID="ID_1412639032" MODIFIED="1587392975541" TEXT="26 elements"/>
+</node>
+<node CREATED="1587392976894" ID="ID_1047084145" MODIFIED="1587392983691" TEXT="... with 8 cardinality"/>
+<node CREATED="1587392984303" ID="ID_113534396" MODIFIED="1587392998069" TEXT="... has 26 ^ 8 possibilities"/>
 </node>
 </node>
-<node CREATED="1569299807839" FOLDED="true" ID="ID_29648874" MODIFIED="1575538298578" TEXT="Recurrence Relations">
+</node>
+</node>
+<node CREATED="1569299807839" ID="ID_29648874" MODIFIED="1587392852422" TEXT="Recurrence Relations">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3650,17 +3703,18 @@
 <node CREATED="1569300363051" ID="ID_1806950498" MODIFIED="1569300365543" TEXT="a3 = 8 + 3 = 11"/>
 </node>
 </node>
-<node CREATED="1569903949418" ID="ID_98196009" MODIFIED="1569990684101" TEXT="Fibonacci Sequence">
+<node CREATED="1569903949418" ID="ID_98196009" MODIFIED="1587392874708" TEXT="Fibonacci Sequence">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      The Fibonacci sequence, f0 ,f1 ,f2 ,..., is defined by the initial conditions f 0 = 0,f 1 = 1, and the recurrence relation fn = fn&#8722;1 + fn&#8722;2 for n = 2,3,4,....
+      The Fibonacci sequence, f0 ,f1 ,f2 ,..., is defined by the initial conditions f0 = 0, f1 = 1, and the recurrence relation fn = fn&#8722;1 + fn&#8722;2 for n = 2,3,4,....
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1569991723041" ID="ID_1834704301" MODIFIED="1569991779583" TEXT="Problem">
 <richcontent TYPE="NOTE"><html>
@@ -3681,7 +3735,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1569991647036" FOLDED="true" ID="ID_1665678938" MODIFIED="1575538326634" TEXT="Special Integer Sequences">
+<node CREATED="1569991647036" FOLDED="true" ID="ID_1665678938" MODIFIED="1587392851413" TEXT="Special Integer Sequences">
 <node CREATED="1569991669647" ID="ID_1142102657" MODIFIED="1570596530670" TEXT="Common problem">
 <node CREATED="1569991673272" ID="ID_138265955" MODIFIED="1569991680732" TEXT="Find a">
 <node CREATED="1569991681007" ID="ID_309321893" MODIFIED="1569991684477" TEXT="closed formula"/>
@@ -3706,7 +3760,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1570596531271" ID="ID_1848271620" MODIFIED="1570596605022" TEXT="Useful sequences">
+<node CREATED="1570596531271" FOLDED="true" ID="ID_1848271620" MODIFIED="1587392810068" TEXT="Useful sequences">
 <icon BUILTIN="licq"/>
 <node CREATED="1570596578937" ID="ID_1803516358" MODIFIED="1570596585336">
 <richcontent TYPE="NODE"><html>
@@ -3729,7 +3783,7 @@
 <node CREATED="1570596775673" ID="ID_195075318" MODIFIED="1570596786805" TEXT="is to compare them to useful and known sequences"/>
 </node>
 </node>
-<node CREATED="1570597088253" FOLDED="true" ID="ID_656762503" MODIFIED="1575538325538" TEXT="Summations">
+<node CREATED="1570597088253" FOLDED="true" ID="ID_656762503" MODIFIED="1587392848995" TEXT="Summations">
 <node CREATED="1570597160748" ID="ID_1649366651" MODIFIED="1571286865835" TEXT="Notation">
 <node CREATED="1571286843374" ID="ID_934290142" MODIFIED="1571286863226" TEXT="img">
 <icon BUILTIN="licq"/>
@@ -3759,7 +3813,7 @@
 </node>
 </node>
 <node CREATED="1570682089354" ID="ID_1513410904" MODIFIED="1570682093166" TEXT="Shift summation index">
-<node CREATED="1570682107210" FOLDED="true" ID="ID_1699419443" MODIFIED="1571286859658" TEXT="We have">
+<node CREATED="1570682107210" FOLDED="true" ID="ID_1699419443" MODIFIED="1587392828199" TEXT="We have">
 <icon BUILTIN="licq"/>
 <node CREATED="1570682093754" ID="ID_1705016475" MODIFIED="1570682105014">
 <richcontent TYPE="NODE"><html>
@@ -3802,7 +3856,7 @@
 <node CREATED="1570682389566" ID="ID_350546539" MODIFIED="1570682396567" TEXT="Geometric series">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1570682398583" ID="ID_209851684" MODIFIED="1570682408739" TEXT="Sums of terms of geometric progressions"/>
-<node CREATED="1570682414023" FOLDED="true" ID="ID_1328567512" MODIFIED="1571286831466" TEXT="Theorem">
+<node CREATED="1570682414023" FOLDED="true" ID="ID_1328567512" MODIFIED="1587392834415" TEXT="Theorem">
 <icon BUILTIN="licq"/>
 <node CREATED="1570682498807" ID="ID_531064552" MODIFIED="1570682506579">
 <richcontent TYPE="NODE"><html>
@@ -3819,9 +3873,9 @@
 <node CREATED="1571286482005" ID="ID_1594218595" MODIFIED="1571286488506" TEXT="Double summation">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1571286724959" ID="ID_1609609064" MODIFIED="1571286731924" TEXT="Expand the second summation"/>
-<node CREATED="1571286539985" FOLDED="true" ID="ID_233607992" MODIFIED="1571286830642" TEXT="Example">
+<node CREATED="1571286539985" ID="ID_233607992" MODIFIED="1587392836184" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1571286542337" FOLDED="true" ID="ID_912535422" MODIFIED="1571286828674" TEXT="img">
+<node CREATED="1571286542337" FOLDED="true" ID="ID_912535422" MODIFIED="1587392844684" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1571286549714" ID="ID_1272054261" MODIFIED="1571286586605">
 <richcontent TYPE="NODE"><html>
@@ -3848,7 +3902,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571286773030" ID="ID_1492421243" MODIFIED="1571286786977" TEXT="Useful Summation Formulae">
+<node CREATED="1571286773030" FOLDED="true" ID="ID_1492421243" MODIFIED="1587392847425" TEXT="Useful Summation Formulae">
 <icon BUILTIN="licq"/>
 <node CREATED="1571286813677" ID="ID_1850745677" MODIFIED="1571286821257">
 <richcontent TYPE="NODE"><html>
@@ -4352,21 +4406,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1573795990207" FOLDED="true" ID="ID_1845404894" MODIFIED="1587200133960" POSITION="left" TEXT="Exercise relationships">
-<node CREATED="1573796003967" ID="ID_1708603375" MODIFIED="1573796003967" TEXT=""/>
-<node CREATED="1530447454456" ID="ID_1897961744" MODIFIED="1573795972266">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="Discrete%20mathematics%20-%20exercices%20relationships.png" />
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1574834995735" FOLDED="true" ID="ID_1289373584" MODIFIED="1587200121364" POSITION="right" TEXT="Algorithms">
+<node CREATED="1574834995735" FOLDED="true" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
 <icon BUILTIN="full-3"/>
 <node CREATED="1574835164172" FOLDED="true" ID="ID_1120871976" MODIFIED="1587200115860" TEXT="3.1 Algorithms">
 <node CREATED="1574835186764" FOLDED="true" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
@@ -5030,7 +5070,7 @@
 </node>
 <node CREATED="1586866529402" ID="ID_1400065092" MODIFIED="1586869628485" TEXT="Be careful: many writers use Big-O notation for higher and lower bound!"/>
 </node>
-<node CREATED="1586939677946" FOLDED="true" ID="ID_1182577722" MODIFIED="1587200115862" TEXT="3.3 Complexity of Algorithms">
+<node CREATED="1586939677946" FOLDED="true" ID="ID_1182577722" MODIFIED="1587388482415" TEXT="3.3 Complexity of Algorithms">
 <node CREATED="1586939766670" ID="ID_1562277733" MODIFIED="1586939769686" TEXT="Introduction">
 <node CREATED="1586939693348" ID="ID_1629809612" MODIFIED="1586939709771" TEXT="When algorithm provides satisfactory solution to problem?">
 <node CREATED="1586939709990" ID="ID_724847554" MODIFIED="1586939717063" TEXT="Always produce correct answer">
@@ -5131,8 +5171,50 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1586942122262" ID="ID_1500562388" MODIFIED="1586942122925" TEXT="Understanding the Complexity of Algorithms ">
-<node CREATED="1586942292919" FOLDED="true" ID="ID_1597142849" MODIFIED="1586942399264" TEXT="Commonly used terminology">
+<node CREATED="1587386300992" ID="ID_1290706232" MODIFIED="1587386312887" TEXT="Algorithmic Paradigms">
+<node CREATED="1587386325067" ID="ID_645433862" MODIFIED="1587386339254" TEXT="Algorithm paradigm">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1587386346024" ID="ID_980197635" MODIFIED="1587386353785" TEXT="General approach"/>
+<node CREATED="1587386354466" ID="ID_1641899363" MODIFIED="1587386361184" TEXT="... based on particular concept"/>
+<node CREATED="1587386362289" ID="ID_1775843716" MODIFIED="1587386367838" TEXT="... used to construct algorithm"/>
+<node CREATED="1587386368579" ID="ID_1510525044" MODIFIED="1587386376170" TEXT="... and solve variety of problems"/>
+<node CREATED="1587386377351" ID="ID_779720686" MODIFIED="1587386467097" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587386384904" ID="ID_449336112" MODIFIED="1587386388195" TEXT="Greedy algorithm"/>
+<node CREATED="1587386414139" ID="ID_1549798707" MODIFIED="1587386421932" TEXT="Brute force algorithm"/>
+<node CREATED="1587386422647" ID="ID_590189370" MODIFIED="1587386435005" TEXT="Divide-and-conquer"/>
+<node CREATED="1587386435656" ID="ID_1644170403" MODIFIED="1587386438388" TEXT="Dynamic programming"/>
+<node CREATED="1587386442061" ID="ID_1479776826" MODIFIED="1587386443937" TEXT="Backtracking"/>
+<node CREATED="1587386446252" ID="ID_930521143" MODIFIED="1587386463781" TEXT="Probabilistic algorithms"/>
+<node CREATED="1587386464489" ID="ID_1458211548" MODIFIED="1587386465129" TEXT="..."/>
+</node>
+<node CREATED="1587386469267" ID="ID_780747262" MODIFIED="1587386473310" TEXT="Brute force algorithm">
+<node CREATED="1587386481489" ID="ID_19148899" MODIFIED="1587386488092" TEXT="Basic paradigm"/>
+<node CREATED="1587386488777" ID="ID_395671555" MODIFIED="1587386505765" TEXT="Solving problem without care of computing resource required"/>
+<node CREATED="1587386517045" ID="ID_1056386183" MODIFIED="1587386524424" TEXT="Straightforward manner based">
+<node CREATED="1587386524686" ID="ID_921784106" MODIFIED="1587386528520" TEXT="statement of the problem"/>
+<node CREATED="1587386529189" ID="ID_1642870505" MODIFIED="1587386538124" TEXT="definition of the terms"/>
+</node>
+<node CREATED="1587386572436" ID="ID_1651554717" MODIFIED="1587386574120" TEXT="Example">
+<node CREATED="1587386574277" ID="ID_893750244" MODIFIED="1587386576557" TEXT="Bubble sort"/>
+<node CREATED="1587386577125" ID="ID_987171640" MODIFIED="1587386579352" TEXT="Insertion sort"/>
+<node CREATED="1587386580028" ID="ID_1084549007" MODIFIED="1587386588645" TEXT="Selection sort"/>
+</node>
+<node CREATED="1587386597891" ID="ID_1823807572" MODIFIED="1587386609969" TEXT="... straightforward less efficient than">
+<node CREATED="1587386610190" ID="ID_1927371328" MODIFIED="1587386616546" TEXT="Merge sort"/>
+<node CREATED="1587386617168" ID="ID_1301418361" MODIFIED="1587386619085" TEXT="Quick sort"/>
+</node>
+<node CREATED="1587386640387" ID="ID_619226958" MODIFIED="1587386666727" TEXT="Quite useful even if often inefficient">
+<node CREATED="1587386697677" ID="ID_1301334402" MODIFIED="1587386702415" TEXT="Can solve practical instance of problems"/>
+<node CREATED="1587386678607" ID="ID_1273530783" MODIFIED="1587386708604" TEXT="... when input not too large"/>
+</node>
+<node CREATED="1587386894220" ID="ID_1229095388" MODIFIED="1587386912341" TEXT="Often, the goal is to be more efficient than brute force algorithm"/>
+<node CREATED="1587386912929" ID="ID_336701509" MODIFIED="1587386918839" TEXT="... when searching for new algorithm"/>
+</node>
+</node>
+</node>
+<node CREATED="1586942122262" FOLDED="true" ID="ID_1500562388" MODIFIED="1587388479536" TEXT="Understanding the Complexity of Algorithms ">
+<node CREATED="1586942292919" ID="ID_1597142849" MODIFIED="1587386250457" TEXT="Commonly used terminology">
 <icon BUILTIN="licq"/>
 <node CREATED="1586942372592" ID="ID_1199870579" MODIFIED="1586942395787">
 <richcontent TYPE="NODE"><html>
@@ -5145,8 +5227,100 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1587387053852" ID="ID_1043671568" MODIFIED="1587387056654" TEXT="Tractability">
+<node CREATED="1587387091367" ID="ID_1771196619" MODIFIED="1587387093463" TEXT="Tractable">
+<node CREATED="1587387093645" ID="ID_379550631" MODIFIED="1587387103098" TEXT="Algorithm which can be solved"/>
+<node CREATED="1587387103725" ID="ID_848223099" MODIFIED="1587387109319" TEXT="... in a reasonable amount of time"/>
+<node CREATED="1587387144713" ID="ID_406048828" MODIFIED="1587387147871" TEXT="... for worst cases"/>
+<node CREATED="1587387441869" ID="ID_84256995" MODIFIED="1587387450277" TEXT="(polynomial worst-case)">
+<node CREATED="1587387450483" ID="ID_1304661647" MODIFIED="1587387456924" TEXT="Can be slow anyway"/>
+<node CREATED="1587387457504" ID="ID_1896497665" MODIFIED="1587387460712" TEXT="... with big input!"/>
+<node CREATED="1587387499575" ID="ID_753443394" MODIFIED="1587387508546" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587387500986" ID="ID_382124475" MODIFIED="1587387503269" TEXT="Degree 100"/>
 </node>
 </node>
+</node>
+<node CREATED="1587387110049" ID="ID_701059642" MODIFIED="1587387238523" TEXT="intractable">
+<node CREATED="1587387112139" ID="ID_200332660" MODIFIED="1587387117569" TEXT="Algorithm which can&apos;t be solved"/>
+<node CREATED="1587387118108" ID="ID_1979310673" MODIFIED="1587387128971" TEXT="... in a reasonable amount of time"/>
+<node CREATED="1587387149304" ID="ID_1680149525" MODIFIED="1587387152486" TEXT="... for worst cases"/>
+</node>
+<node CREATED="1587387217394" ID="ID_176874456" MODIFIED="1587387227277" TEXT="Solving intractable">
+<node CREATED="1587387186817" ID="ID_1004673739" MODIFIED="1587387191155" TEXT="Depends on the context">
+<node CREATED="1587387191368" ID="ID_448619798" MODIFIED="1587387233823" TEXT="An intractable problem"/>
+<node CREATED="1587387198263" ID="ID_714469358" MODIFIED="1587387206023" TEXT="... can be tractable with small input"/>
+</node>
+<node CREATED="1587387240831" ID="ID_706316637" MODIFIED="1587387247765" TEXT="Finding approximate solution"/>
+</node>
+<node CREATED="1587387266363" ID="ID_1834549433" MODIFIED="1587387269577" TEXT="Unsolvable">
+<node CREATED="1587387269774" ID="ID_1328913320" MODIFIED="1587387274914" TEXT="Problems which can&apos;t be solved"/>
+<node CREATED="1587387287626" ID="ID_1613546252" MODIFIED="1587387290079" TEXT="Example">
+<node CREATED="1587387290236" ID="ID_1294952411" MODIFIED="1587387292512" TEXT="Halting problem"/>
+</node>
+</node>
+</node>
+<node CREATED="1587387301948" ID="ID_1974541721" MODIFIED="1587387305118" TEXT="P versus NP">
+<node CREATED="1587387363199" ID="ID_1020113009" MODIFIED="1587387372808" TEXT="Problems class P">
+<node CREATED="1587387542596" ID="ID_277636167" MODIFIED="1587387546071" TEXT="Polynomial time"/>
+<node CREATED="1587387373013" ID="ID_36446585" MODIFIED="1587387374830" TEXT="Tractable"/>
+</node>
+<node CREATED="1587387329647" ID="ID_320110506" MODIFIED="1587387342524" TEXT="Problems class NP">
+<node CREATED="1587387525115" ID="ID_1930743273" MODIFIED="1587387558421" TEXT="Nondeterministic Polynomial time"/>
+<node CREATED="1587387342786" ID="ID_1999892990" MODIFIED="1587387398123" TEXT="Can&apos;t be solved in polynomial time"/>
+<node CREATED="1587387398727" ID="ID_413959649" MODIFIED="1587387414440" TEXT="... but solution, if known, can be checked in polynomial time"/>
+</node>
+<node CREATED="1587387586115" ID="ID_1070250570" MODIFIED="1587387596282" TEXT="NP-complete problems">
+<node CREATED="1587387622860" ID="ID_1425416661" MODIFIED="1587387628068" TEXT="Class with many important problems"/>
+<node CREATED="1587387628632" ID="ID_1876469364" MODIFIED="1587387635757" TEXT="If one algorithm is know for one problem"/>
+<node CREATED="1587387636201" ID="ID_1783731661" MODIFIED="1587387641307" TEXT="... can be used for every other problems too"/>
+<node CREATED="1587387675765" ID="ID_1105860699" MODIFIED="1587387685164" TEXT="&gt; 3000 problems in there!"/>
+</node>
+</node>
+<node CREATED="1587388000581" ID="ID_670609951" MODIFIED="1587388008983" TEXT="Practical considerations">
+<node CREATED="1587388087438" ID="ID_938699919" MODIFIED="1587388093313" TEXT="Best estimate of big Theta"/>
+<node CREATED="1587388094436" ID="ID_1974803377" MODIFIED="1587388101558" TEXT="... is the one with smallest reference function"/>
+<node CREATED="1587388322776" ID="ID_807583762" MODIFIED="1587388333514" TEXT="Efficient algorithm">
+<node CREATED="1587388347144" ID="ID_837178100" MODIFIED="1587388373487" TEXT="most polynomial time worst-case algorithm"/>
+</node>
+<node CREATED="1587388334804" ID="ID_720928429" MODIFIED="1587388341905" TEXT="... benefit most from technology improvement"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1587388485335" ID="ID_1604667027" MODIFIED="1587388578661" POSITION="right" TEXT="Number Theory and Cryptography">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1587388497496" ID="ID_136007063" MODIFIED="1587388567445" POSITION="right" TEXT="Induction and Recursion">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1587388543595" ID="ID_1416871703" MODIFIED="1587388607840" POSITION="left" TEXT="Counting">
+<icon BUILTIN="full-6"/>
+</node>
+<node CREATED="1587388609645" ID="ID_1787646430" MODIFIED="1587388676559" POSITION="left" TEXT="Discrete Probability">
+<icon BUILTIN="full-7"/>
+</node>
+<node CREATED="1587388619912" ID="ID_690223598" MODIFIED="1587388679361" POSITION="left" TEXT="Advanced Counting Techniques">
+<icon BUILTIN="full-8"/>
+</node>
+<node CREATED="1587388638655" ID="ID_1528555772" MODIFIED="1587388681824" POSITION="left" TEXT="Relations">
+<icon BUILTIN="full-9"/>
+</node>
+<node CREATED="1587388646477" ID="ID_1922308220" MODIFIED="1587388688874" POSITION="left" TEXT="Graphs">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-0"/>
+</node>
+<node CREATED="1587388651463" ID="ID_424277622" MODIFIED="1587388693837" POSITION="left" TEXT="Trees">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1587388656243" ID="ID_1881357745" MODIFIED="1587388699397" POSITION="left" TEXT="Boolean Algebra">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1587388666722" ID="ID_1061887564" MODIFIED="1587388704284" POSITION="left" TEXT="Modelling Computation">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-2"/>
 </node>
 </node>
 </map>
