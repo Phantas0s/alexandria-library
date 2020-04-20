@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1587215290079" TEXT="Clojure For The Brave And Truem">
+<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1587395443663" TEXT="Clojure For The Brave And Truem">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,7 +12,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1572957374905" FOLDED="true" ID="ID_1172720428" MODIFIED="1573402908198" POSITION="right" TEXT="Building, Running, and the REPL">
+<node CREATED="1572957374905" FOLDED="true" ID="ID_1172720428" LINK="https://www.braveclojure.com/getting-started/" MODIFIED="1587395590748" POSITION="right" TEXT="Building, Running, and the REPL">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572957483719" ID="ID_528358401" MODIFIED="1572957484341" TEXT=" First Things First: What Is Clojure?">
 <node CREATED="1572957491319" ID="ID_66642206" MODIFIED="1572957493708" TEXT="Created by Rich Hickey"/>
@@ -97,10 +97,10 @@
 </node>
 <node CREATED="1572959441303" ID="ID_583278255" MODIFIED="1572959441919" TEXT="Summary"/>
 </node>
-<node CREATED="1572959463383" ID="ID_1899940640" MODIFIED="1572959468423" POSITION="right" TEXT="How to Use Emacs, an Excellent Clojure Editor">
+<node CREATED="1572959463383" ID="ID_1899940640" LINK="https://www.braveclojure.com/basic-emacs/" MODIFIED="1587395571328" POSITION="right" TEXT="How to Use Emacs, an Excellent Clojure Editor">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1572960953553" ID="ID_408168825" MODIFIED="1587216945316" POSITION="right" TEXT="Do Things: A Clojure Crash Course">
+<node CREATED="1572960953553" FOLDED="true" ID="ID_408168825" LINK="https://www.braveclojure.com/do-things/" MODIFIED="1587395564423" POSITION="right" TEXT="Do Things: A Clojure Crash Course">
 <icon BUILTIN="full-3"/>
 <node CREATED="1572961016986" ID="ID_626921267" MODIFIED="1572961019190" TEXT="Syntax">
 <node CREATED="1572961038827" ID="ID_238894836" MODIFIED="1572961040519" TEXT="Forms">
@@ -829,7 +829,7 @@
 </node>
 <node CREATED="1573732847819" ID="ID_1395816571" MODIFIED="1573732848581" TEXT="A Vampire Data Analysis Program for the FWPD"/>
 </node>
-<node CREATED="1573807518256" FOLDED="true" ID="ID_1785830408" MODIFIED="1585039188320" POSITION="right" TEXT="Functional Programming">
+<node CREATED="1573807518256" FOLDED="true" ID="ID_1785830408" LINK="https://www.braveclojure.com/functional-programming/" MODIFIED="1587395551074" POSITION="right" TEXT="Functional Programming">
 <icon BUILTIN="full-5"/>
 <node CREATED="1573807533411" ID="ID_755680675" MODIFIED="1573807846110" TEXT="Pure Functions: What and Why">
 <node CREATED="1573807846490" ID="ID_1755214403" MODIFIED="1573807848550" TEXT="Introduction">
@@ -1129,7 +1129,7 @@
 <node CREATED="1575028873392" ID="ID_1012479085" MODIFIED="1575028873960" TEXT="To Catch a Burglar"/>
 </node>
 </node>
-<node CREATED="1579970698332" FOLDED="true" ID="ID_20273265" MODIFIED="1586176587906" POSITION="left" TEXT="Clojure Alchemy: Reading, Evaluation, and Macros">
+<node CREATED="1579970698332" FOLDED="true" ID="ID_20273265" LINK="https://www.braveclojure.com/read-and-eval/" MODIFIED="1587395537624" POSITION="left" TEXT="Clojure Alchemy: Reading, Evaluation, and Macros">
 <icon BUILTIN="full-7"/>
 <node CREATED="1579970710936" ID="ID_1874417725" MODIFIED="1579970711596" TEXT="An Overview of Clojure&#x2019;s Evaluation Model">
 <node CREATED="1579970716969" ID="ID_1811585923" MODIFIED="1579970720760" TEXT="Two-phase system">
@@ -1554,7 +1554,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585734331270" FOLDED="true" ID="ID_1607777126" MODIFIED="1586770718837" POSITION="left" TEXT="Writing Macros">
+<node CREATED="1585734331270" FOLDED="true" ID="ID_1607777126" LINK="https://www.braveclojure.com/writing-macros/" MODIFIED="1587395525870" POSITION="left" TEXT="Writing Macros">
 <icon BUILTIN="full-8"/>
 <node CREATED="1585734528524" ID="ID_442508893" MODIFIED="1585734531812" TEXT="Macros are essential"/>
 <node CREATED="1585734794306" FOLDED="true" ID="ID_1255841281" MODIFIED="1586770714715" TEXT="Anatomy of a macro">
@@ -1799,7 +1799,7 @@
 <node CREATED="1586262298372" ID="ID_177728796" MODIFIED="1586262298998" TEXT="Brews for the Brave and True"/>
 </node>
 </node>
-<node CREATED="1586530646416" FOLDED="true" ID="ID_681635553" MODIFIED="1586616021203" POSITION="left" TEXT="The Sacred Art of Concurrent and Parallel Programming">
+<node CREATED="1586530646416" FOLDED="true" ID="ID_681635553" LINK="https://www.braveclojure.com/concurrency/" MODIFIED="1587395519776" POSITION="left" TEXT="The Sacred Art of Concurrent and Parallel Programming">
 <icon BUILTIN="full-9"/>
 <node CREATED="1586530718881" FOLDED="true" ID="ID_731915322" MODIFIED="1586533327326" TEXT="Concurrency and Parallelism Concepts">
 <node CREATED="1586530724558" ID="ID_1938359943" MODIFIED="1586530725176" TEXT="Managing Multiple Tasks vs. Executing Tasks Simultaneously">
@@ -2069,7 +2069,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586616022244" ID="ID_264422446" MODIFIED="1587215305839" POSITION="left" TEXT="Clojure Metaphysics: Atoms, Refs, Vars, and Cuddle Zombies">
+<node CREATED="1586616022244" FOLDED="true" ID="ID_264422446" LINK="https://www.braveclojure.com/zombie-metaphysics/" MODIFIED="1587395511591" POSITION="left" TEXT="Clojure Metaphysics: Atoms, Refs, Vars, and Cuddle Zombies">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1586616046397" FOLDED="true" ID="ID_1022634346" MODIFIED="1586711503137" TEXT="Introduction">
@@ -2440,8 +2440,7 @@
   <body>
     <img src="concurrency_overhead_pmap.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2460,13 +2459,133 @@
   <body>
     <img src="concurrency_overhead_pmap.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587221069874" ID="ID_511100529" LINK="http://clojure.org/reducers/" MODIFIED="1587221087712" TEXT="Other implementations of speedier version of core functions"/>
 <node CREATED="1587221104288" ID="ID_579520094" MODIFIED="1587221107766" TEXT="... but not lazy"/>
 </node>
+</node>
+</node>
+<node CREATED="1587395459122" ID="ID_1345297607" LINK="https://www.braveclojure.com/core-async/" MODIFIED="1587395488225" POSITION="left" TEXT="Mastering Concurrent Processes with core.async">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1587395475150" ID="ID_1805705227" LINK="https://www.braveclojure.com/java/" MODIFIED="1587395851116" POSITION="left" TEXT="Working with the JVM">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1587395632552" ID="ID_1988238703" LINK="https://www.braveclojure.com/multimethods-records-protocols/" MODIFIED="1587395845309" POSITION="left" TEXT="Creating and Extending Abstractions with Multimethods, Protocols, and Records">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1587395644657" ID="ID_216282533" MODIFIED="1587395668362" POSITION="left" TEXT="Appendix">
+<node CREATED="1587395669671" ID="ID_16948058" LINK="https://www.braveclojure.com/appendix-a/" MODIFIED="1587395679384" TEXT="Building and Developing with Leiningen"/>
+<node CREATED="1587395684454" ID="ID_571203026" LINK="https://www.braveclojure.com/appendix-b/" MODIFIED="1587395696072" TEXT="Boot, the Fancy Clojure Build Framework">
+<node CREATED="1587395706063" ID="ID_737273608" MODIFIED="1587395711094" TEXT="Alternative to Leiningen"/>
+<node CREATED="1587395950172" FOLDED="true" ID="ID_1871069574" MODIFIED="1587396831462" TEXT="Boot&apos;s Abstractions">
+<node CREATED="1587395929002" ID="ID_712077668" MODIFIED="1587395944226" TEXT="Can create independent operations"/>
+<node CREATED="1587395944609" ID="ID_699547282" MODIFIED="1587395971629" TEXT="... for tasks">
+<node CREATED="1587395971851" ID="ID_1550141297" MODIFIED="1587395974489" TEXT="complex"/>
+<node CREATED="1587395974825" ID="ID_763828977" MODIFIED="1587395976707" TEXT="coordinated"/>
+<node CREATED="1587395980948" ID="ID_1037160753" MODIFIED="1587395982322" TEXT="Example">
+<node CREATED="1587395982488" ID="ID_1428479087" MODIFIED="1587395987719" TEXT="Converting Clojurescript"/>
+<node CREATED="1587395988154" ID="ID_178386706" MODIFIED="1587395991372" TEXT="... to JavaScript"/>
+</node>
+</node>
+<node CREATED="1587396000568" ID="ID_214432540" MODIFIED="1587396011233" TEXT="Define units of logic"/>
+<node CREATED="1587396011693" ID="ID_1440683365" MODIFIED="1587396019850" TEXT="... communicating through fileset">
+<node CREATED="1587396022129" ID="ID_1542950567" MODIFIED="1587396032232" TEXT="Keeps track of evolving build context"/>
+<node CREATED="1587396034533" ID="ID_1100189826" MODIFIED="1587396039359" TEXT="Provide coordination"/>
+</node>
+</node>
+<node CREATED="1587396058610" FOLDED="true" ID="ID_1756577293" MODIFIED="1587396829791" TEXT="Tasks">
+<node CREATED="1587396073025" ID="ID_625288781" MODIFIED="1587396081000" TEXT="Named operations"/>
+<node CREATED="1587396081476" ID="ID_1481253247" MODIFIED="1587396085469" TEXT="... that command line options"/>
+<node CREATED="1587396085857" FOLDED="true" ID="ID_1333738807" MODIFIED="1587396826519" TEXT="... dispatch to other programs">
+<node CREATED="1587396096495" ID="ID_1921990998" MODIFIED="1587396103926" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587396097880" ID="ID_136276191" MODIFIED="1587396098796" TEXT="make"/>
+<node CREATED="1587396099168" ID="ID_626324535" MODIFIED="1587396099957" TEXT="rake"/>
+<node CREATED="1587396100369" ID="ID_135568236" MODIFIED="1587396100983" TEXT="boot"/>
+</node>
+</node>
+<node CREATED="1587396132750" FOLDED="true" ID="ID_743767067" MODIFIED="1587396826519" TEXT="Boot comes with">
+<node CREATED="1587396123659" ID="ID_1504662895" MODIFIED="1587396128150" TEXT="Dispatching program">
+<node CREATED="1587396128427" ID="ID_1194521285" MODIFIED="1587396129105" TEXT="boot"/>
+</node>
+<node CREATED="1587396137802" ID="ID_1346172988" MODIFIED="1587396146995" TEXT="Clojure library">
+<node CREATED="1587396147224" ID="ID_88541514" MODIFIED="1587396156111" TEXT="Can create named operations"/>
+<node CREATED="1587396156539" ID="ID_166884107" MODIFIED="1587396159217" TEXT="... and their command lines"/>
+<node CREATED="1587396159780" ID="ID_1650884297" MODIFIED="1587396166570" TEXT="... with macro">
+<node CREATED="1587396166720" ID="ID_1650674966" MODIFIED="1587396168279" TEXT="deftask"/>
+</node>
+</node>
+</node>
+<node CREATED="1587396310610" ID="ID_1418636547" MODIFIED="1587396317398" TEXT="Can create Clojure shell script"/>
+<node CREATED="1587396329855" ID="ID_1461525756" MODIFIED="1587396337399" TEXT="... you can run from command line with ease"/>
+<node CREATED="1587396570894" FOLDED="true" ID="ID_874324934" MODIFIED="1587396826520" TEXT="Options use domain-specific language (DSL)">
+<node CREATED="1587396592787" ID="ID_313216990" MODIFIED="1587396599468" TEXT="Mini-languages"/>
+<node CREATED="1587396602030" ID="ID_1576075591" MODIFIED="1587396606293" TEXT="... for write code"/>
+<node CREATED="1587396606753" ID="ID_1944597629" MODIFIED="1587396610364" TEXT="... for narrow domains"/>
+<node CREATED="1587396610904" ID="ID_771654504" MODIFIED="1587396612785" TEXT="... like options"/>
+</node>
+</node>
+<node CREATED="1587396821824" ID="ID_1022858584" MODIFIED="1587396825095" TEXT="The REPL">
+<node CREATED="1587396852429" ID="ID_1924696307" MODIFIED="1587396854469" TEXT="boot repl"/>
+<node CREATED="1587396898371" ID="ID_1913858211" MODIFIED="1587396903313" TEXT="Can run tasks in it">
+<node CREATED="1587396903607" ID="ID_629711609" MODIFIED="1587396905828" TEXT="Example">
+<node CREATED="1587396906241" ID="ID_1928473355" MODIFIED="1587396919697" TEXT="(fire &quot;-t&quot; &quot;NBA Jam Guy&quot;)"/>
+<node CREATED="1587396967983" ID="ID_1263671883" MODIFIED="1587396968911" TEXT="(fire :pluralize true :thing &quot;NBA Jam guys&quot;)"/>
+</node>
+</node>
+</node>
+<node CREATED="1587396982180" ID="ID_70354270" MODIFIED="1587396987554" TEXT="Composition and Coordination">
+<node CREATED="1587397038556" ID="ID_938199428" MODIFIED="1587397118763" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587397040542" ID="ID_1016180032" MODIFIED="1587397042745" TEXT="Rake in ruby"/>
+<node CREATED="1587397055200" ID="ID_1339887186" MODIFIED="1587397055801" TEXT="rake db:create d{:tag :a, :attrs {:href &quot;db:seed&quot;}, :content [&quot;b:migra&quot;]}te db:seed"/>
+<node CREATED="1587397057329" ID="ID_588289855" MODIFIED="1587397065370" TEXT="Provide">
+<node CREATED="1587397068325" ID="ID_250407118" MODIFIED="1587397072938" TEXT="Database"/>
+<node CREATED="1587397073641" ID="ID_890598598" MODIFIED="1587397076889" TEXT="Migration on it"/>
+<node CREATED="1587397078092" ID="ID_1038608788" MODIFIED="1587397086275" TEXT="Populate db with seed data"/>
+</node>
+<node CREATED="1587397097017" ID="ID_1942384976" MODIFIED="1587397102875" TEXT="Multiple tasks as convenience"/>
+<node CREATED="1587397103263" ID="ID_1404582581" MODIFIED="1587397112698" TEXT="... no way to access Task A in Task B"/>
+</node>
+<node CREATED="1587397142715" ID="ID_1930474958" MODIFIED="1587397147556" TEXT="Handlers and Middleware">
+<node CREATED="1587397158793" ID="ID_1258455300" MODIFIED="1587397163851" TEXT="Task is a middleware factory"/>
+<node CREATED="1587397195538" ID="ID_1675680258" MODIFIED="1587397201495" TEXT="Middleware definition">
+<node CREATED="1587397201717" ID="ID_1255306498" MODIFIED="1587397208701" TEXT="Set of conventions"/>
+<node CREATED="1587397214718" ID="ID_221815901" MODIFIED="1587397219020" TEXT="... that programmers adhere"/>
+<node CREATED="1587397219399" ID="ID_821545160" MODIFIED="1587397227330" TEXT="... to create domain-specific"/>
+<node CREATED="1587397227837" ID="ID_901671794" MODIFIED="1587397230861" TEXT="... function pipelines"/>
+</node>
+<node CREATED="1587398196669" ID="ID_1656176329" MODIFIED="1587398199299" TEXT="Middleware">
+<node CREATED="1587398199505" ID="ID_970905286" MODIFIED="1587398204253" TEXT="Take handler as first argument"/>
+<node CREATED="1587398204665" ID="ID_1628411655" MODIFIED="1587398206831" TEXT="Return handler"/>
+<node CREATED="1587398272821" ID="ID_1240261161" MODIFIED="1587398293226" TEXT="Can take extra argument">
+<node CREATED="1587398293400" ID="ID_1538998234" MODIFIED="1587398295496" TEXT="Act as config"/>
+</node>
+</node>
+<node CREATED="1587398254710" ID="ID_1979896084" MODIFIED="1587398260122" TEXT="Handler returned by middleware">
+<node CREATED="1587398260344" ID="ID_492883921" MODIFIED="1587398271404" TEXT="Can behave more flexibly"/>
+<node CREATED="1587398296896" ID="ID_768559133" MODIFIED="1587398300155" TEXT="... thanks to config"/>
+<node CREATED="1587398306832" ID="ID_1989191792" MODIFIED="1587398315732" TEXT="Have more control over pipeline"/>
+<node CREATED="1587398317134" ID="ID_299303806" MODIFIED="1587398323786" TEXT="... because can choose to call next handler"/>
+</node>
+</node>
+<node CREATED="1587398327452" ID="ID_1844929185" MODIFIED="1587398343067" TEXT="Tasks Are Middleware Factories">
+<node CREATED="1587398718873" ID="ID_612522514" MODIFIED="1587398735561" TEXT="Great modular software engineering"/>
+<node CREATED="1587398742069" ID="ID_1698818818" MODIFIED="1587398746312" TEXT="Allow to add others tasks"/>
+</node>
+</node>
+<node CREATED="1587399189094" ID="ID_185371265" MODIFIED="1587399190868" TEXT="Fileset">
+<node CREATED="1587402855072" ID="ID_1397990102" MODIFIED="1587402858863" TEXT="Build is a lot about file"/>
+<node CREATED="1587402859267" ID="ID_325116214" MODIFIED="1587402864412" TEXT="Boot treat file as immutable"/>
+<node CREATED="1587402885457" ID="ID_1875517314" MODIFIED="1587402894590" TEXT="Add layer of abstraction on the filesystem"/>
+</node>
+<node CREATED="1587402988665" ID="ID_1380284699" MODIFIED="1587402988665" TEXT="Next Steps"/>
 </node>
 </node>
 </node>
