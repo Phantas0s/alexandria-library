@@ -1400,8 +1400,7 @@
   <body>
     <img src="fixed_point.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587489260661" ID="ID_432543841" MODIFIED="1587489301544" TEXT="Don&apos;t really work">
@@ -1424,8 +1423,7 @@
   <body>
     <img src="big-number-fixed-point.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1479,7 +1477,7 @@
 </node>
 <node CREATED="1587490133541" ID="ID_1381525874" MODIFIED="1587490139711" TEXT="... but 3 things to store"/>
 </node>
-<node CREATED="1587407935714" ID="ID_151293693" MODIFIED="1587492009537" TEXT="IEEE754: How Floating Points are Stored">
+<node CREATED="1587407935714" FOLDED="true" ID="ID_151293693" MODIFIED="1587579863572" TEXT="IEEE754: How Floating Points are Stored">
 <node CREATED="1587490280054" FOLDED="true" ID="ID_1822746122" MODIFIED="1587492013531" TEXT="Base 2 scientific notation">
 <node CREATED="1587490290038" ID="ID_191420769" MODIFIED="1587490309180" TEXT="number = mantissa * 2 ^ exponent"/>
 <node CREATED="1587490310595" ID="ID_167613261" MODIFIED="1587490365364" TEXT="Only one digit in front of digital point"/>
@@ -1496,16 +1494,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1587490420375" FOLDED="true" ID="ID_895481862" MODIFIED="1587492013531" TEXT="Floating point bit patterns">
+<node CREATED="1587490420375" ID="ID_895481862" MODIFIED="1587577897583" TEXT="Floating point bit patterns">
 <node CREATED="1587490426585" ID="ID_1053783365" MODIFIED="1587490434147" TEXT="Defined in IEEE 754"/>
 <node CREATED="1587490441365" ID="ID_641580296" MODIFIED="1587490450062" TEXT="Defines several representations"/>
-<node CREATED="1587490467784" FOLDED="true" ID="ID_962904849" MODIFIED="1587492011799" TEXT="Focus here on 64 bits and 32 bits floating point representations">
+<node CREATED="1587490467784" FOLDED="true" ID="ID_962904849" MODIFIED="1587577906426" TEXT="Focus here on 64 bits and 32 bits floating point representations">
 <node CREATED="1587490484775" ID="ID_145578828" MODIFIED="1587490489947" TEXT="Good support in hardware"/>
 <node CREATED="1587490490617" ID="ID_864646560" MODIFIED="1587490496306" TEXT="Used in many high level language"/>
 </node>
 </node>
-<node CREATED="1587490591208" FOLDED="true" ID="ID_1703673563" MODIFIED="1587492013531" TEXT="32 bit floating point">
-<node CREATED="1587490596718" FOLDED="true" ID="ID_1453520281" MODIFIED="1587490663505" TEXT="Illustration">
+<node CREATED="1587490591208" ID="ID_1703673563" MODIFIED="1587577907483" TEXT="32 bit floating point">
+<node CREATED="1587490596718" ID="ID_1453520281" MODIFIED="1587577909467" TEXT="Illustration">
 <icon BUILTIN="licq"/>
 <node CREATED="1587490630387" ID="ID_1382229765" MODIFIED="1587490638396">
 <richcontent TYPE="NODE"><html>
@@ -1515,12 +1513,11 @@
   <body>
     <img src="32_bits_floating_point.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587490667911" ID="ID_458452562" MODIFIED="1587490672397" TEXT="Stored in unusual way"/>
-<node CREATED="1587490675853" FOLDED="true" ID="ID_102919922" MODIFIED="1587492010682" TEXT="Sign bit">
+<node CREATED="1587490675853" FOLDED="true" ID="ID_102919922" MODIFIED="1587577923306" TEXT="Sign bit">
 <node CREATED="1587490677956" ID="ID_1587140914" MODIFIED="1587490685109" TEXT="Uses sign-and-magnitude">
 <node CREATED="1587490691856" ID="ID_1259381399" MODIFIED="1587490698183" TEXT="0">
 <node CREATED="1587490698350" ID="ID_677614413" MODIFIED="1587490700865" TEXT="Positive number"/>
@@ -1530,7 +1527,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587490716595" FOLDED="true" ID="ID_1057427090" MODIFIED="1587492010682" TEXT="Exponent">
+<node CREATED="1587490716595" ID="ID_1057427090" MODIFIED="1587577923897" TEXT="Exponent">
 <node CREATED="1587490718489" ID="ID_1746457127" MODIFIED="1587490723245" TEXT="Unsigned integer">
 <node CREATED="1587490723531" ID="ID_417271699" MODIFIED="1587490729476" TEXT="8 bits"/>
 <node CREATED="1587490798672" ID="ID_1072592748" MODIFIED="1587490802487" TEXT="Positive exponents">
@@ -1541,8 +1538,8 @@
 </node>
 <node CREATED="1587490814424" ID="ID_1731848097" MODIFIED="1587490820026" TEXT="Negative exponent">
 <node CREATED="1587490822176" ID="ID_617214915" MODIFIED="1587491061243" TEXT="Actual exponent is value - 127"/>
-<node CREATED="1587490838657" ID="ID_1201682529" MODIFIED="1587490842680" TEXT="To store "/>
-<node CREATED="1587491061479" ID="ID_1009485639" MODIFIED="1587491062932" TEXT="Example">
+<node CREATED="1587491061479" ID="ID_1009485639" MODIFIED="1587577940729" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1587491063602" ID="ID_576083498" MODIFIED="1587491082567" TEXT="0x01 (hex) 1 (dec)">
 <node CREATED="1587491083068" ID="ID_53643405" MODIFIED="1587491091874" TEXT="exponent -126"/>
 </node>
@@ -1556,7 +1553,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587491156420" FOLDED="true" ID="ID_1139069269" MODIFIED="1587492010682" TEXT="Mantissa">
+<node CREATED="1587491156420" FOLDED="true" ID="ID_1139069269" MODIFIED="1587577980249" TEXT="Mantissa">
 <node CREATED="1587491162252" ID="ID_1421191754" MODIFIED="1587491173379" TEXT="Convention">
 <node CREATED="1587491173547" ID="ID_1444638571" MODIFIED="1587491178757" TEXT="Decimal point after first digit"/>
 </node>
@@ -1570,7 +1567,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587491242187" ID="ID_703795246" MODIFIED="1587491245706" TEXT="In binary">
+<node CREATED="1587491242187" FOLDED="true" ID="ID_703795246" MODIFIED="1587577979520" TEXT="In binary">
 <node CREATED="1587491246240" ID="ID_790646130" MODIFIED="1587491252062" TEXT="It&apos;s not 0 either"/>
 <node CREATED="1587491254069" ID="ID_602218121" MODIFIED="1587491257013" TEXT="... always 1!"/>
 <node CREATED="1587491259136" ID="ID_1238804124" MODIFIED="1587491264899" TEXT="... so we never store it"/>
@@ -1579,7 +1576,7 @@
 <node CREATED="1587491291993" ID="ID_291673502" MODIFIED="1587491306134" TEXT="1.&lt;content of 23 bits&gt;"/>
 </node>
 </node>
-<node CREATED="1587491324381" FOLDED="true" ID="ID_454607131" MODIFIED="1587491376402" TEXT="Illustration">
+<node CREATED="1587491324381" FOLDED="true" ID="ID_454607131" MODIFIED="1587577978585" TEXT="Illustration">
 <icon BUILTIN="licq"/>
 <node CREATED="1587491355767" ID="ID_1516587456" MODIFIED="1587491362908">
 <richcontent TYPE="NODE"><html>
@@ -1589,8 +1586,7 @@
   <body>
     <img src="mantissa_bits.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1606,8 +1602,7 @@
   <body>
     <img src="example_floating_point_number_storage.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587491647798" ID="ID_1362808410" MODIFIED="1587491649948" TEXT="Number is">
 <node CREATED="1587491650666" ID="ID_1544658423" MODIFIED="1587491670052" TEXT="+1.125* 2^2"/>
@@ -1615,7 +1610,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587491681781" FOLDED="true" ID="ID_389060491" MODIFIED="1587492013532" TEXT="62 bits">
+<node CREATED="1587491681781" FOLDED="true" ID="ID_389060491" MODIFIED="1587577895826" TEXT="62 bits">
 <node CREATED="1587491685728" ID="ID_1587686192" MODIFIED="1587491694489" TEXT="Works the same way as 32"/>
 </node>
 <node CREATED="1587491695611" FOLDED="true" ID="ID_1947554622" MODIFIED="1587491758036" TEXT="32 bits and 64 bits">
@@ -1627,38 +1622,232 @@
   <body>
     <img src="64_bits_vs_32_bits_floating_point_numbers.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1587491766222" FOLDED="true" ID="ID_924629040" MODIFIED="1587492013532" TEXT="Number range 32 bits">
-<node CREATED="1587491772417" ID="ID_1994629114" MODIFIED="1587491810926" TEXT="From 1*2^-126">
-<node CREATED="1587491813026" ID="ID_1318304618" MODIFIED="1587491824844" TEXT="1.2*10^38">
-<node CREATED="1587491825098" ID="ID_367270427" MODIFIED="1587491827636" TEXT="roughly"/>
-</node>
-</node>
-</node>
-<node COLOR="#ff0000" CREATED="1587491882087" ID="ID_1985531766" MODIFIED="1587491982274" TEXT="10:29">
-<richcontent TYPE="NOTE"><html>
+<node CREATED="1587491766222" FOLDED="true" ID="ID_924629040" MODIFIED="1587577983677" TEXT="Number range">
+<icon BUILTIN="licq"/>
+<node CREATED="1587577758246" ID="ID_1198646548" MODIFIED="1587577764558">
+<richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <p>
-      j
-    </p>
+    <img src="floating_point_range.png" />
   </body>
 </html>
 </richcontent>
+</node>
+</node>
+<node CREATED="1587577846498" ID="ID_1952692162" MODIFIED="1587577851568" TEXT="... huge range">
+<node CREATED="1587577851792" ID="ID_35859037" MODIFIED="1587577859309" TEXT="32bits can cover already a LOT"/>
+</node>
+</node>
+<node CREATED="1587407984264" FOLDED="true" ID="ID_1635506372" MODIFIED="1587579861748" TEXT="Zero and Subnormal Numbers">
+<node CREATED="1587577862678" ID="ID_412381402" MODIFIED="1587577865779" TEXT="What about zero?">
+<node CREATED="1587577985825" ID="ID_1467464385" MODIFIED="1587577996762" TEXT="First bit of mantissa always one"/>
+<node CREATED="1587577997269" ID="ID_619435891" MODIFIED="1587578003602" TEXT="... so impossible to represent with only 0"/>
+</node>
+<node CREATED="1587578006338" ID="ID_1553063008" MODIFIED="1587578012708" TEXT="... special representation">
+<node CREATED="1587578012914" ID="ID_1256530054" MODIFIED="1587578021547" TEXT="If mantissa and exponent are all 0"/>
+<node CREATED="1587578022183" ID="ID_339185355" MODIFIED="1587578024219" TEXT="... we get 0"/>
+</node>
+<node CREATED="1587578139300" ID="ID_418091307" MODIFIED="1587578143414" TEXT="Subnormal numbers">
+<node CREATED="1587578143627" ID="ID_460238859" MODIFIED="1587578148039" TEXT="0 in the exponent">
+<node CREATED="1587578148196" ID="ID_185261432" MODIFIED="1587578154886" TEXT="... so 0-127 as exponent"/>
+</node>
+<node CREATED="1587578155951" ID="ID_188547648" MODIFIED="1587578166061" TEXT="In that case, the whole mantissa"/>
+<node CREATED="1587578166878" ID="ID_1839813838" MODIFIED="1587578173449" TEXT="... is in the mantissa bites">
+<node CREATED="1587578173679" ID="ID_1846347289" MODIFIED="1587578181495" TEXT="No &quot;automatic&quot; leading one"/>
+</node>
+<node CREATED="1587578206639" FOLDED="true" ID="ID_1733206567" MODIFIED="1587578343158" TEXT="Example">
+<icon BUILTIN="licq"/>
+<icon BUILTIN="wizard"/>
+<node CREATED="1587578327962" ID="ID_356167710" MODIFIED="1587578331460">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="subnormal_floating_point_example_1.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1587578892692" ID="ID_463869624" MODIFIED="1587578900781" TEXT="... but problem of accuracy">
+<node CREATED="1587578901371" ID="ID_226873700" MODIFIED="1587578905639" TEXT="Normal numbers">
+<node CREATED="1587578905846" ID="ID_655966870" MODIFIED="1587578910067" TEXT="24 bits of accuracy"/>
+</node>
+<node CREATED="1587578915861" ID="ID_389199208" MODIFIED="1587578921715" TEXT="Subnormal numbers">
+<node CREATED="1587578921920" ID="ID_1677530436" MODIFIED="1587578928106" TEXT="23 bits for this">
+<node CREATED="1587578928320" ID="ID_88860489" MODIFIED="1587578951074" TEXT="1000000000000000000000"/>
+</node>
+<node CREATED="1587578953089" ID="ID_903325689" MODIFIED="1587578955099" TEXT="1 bit for that">
+<node CREATED="1587578955328" ID="ID_1391852933" MODIFIED="1587578962659" TEXT="000000000000000000001"/>
+</node>
+</node>
+</node>
+<node CREATED="1587579066338" ID="ID_714398089" MODIFIED="1587579073576" TEXT="Subnormal numbers can give massive errors!"/>
+</node>
+</node>
+<node CREATED="1587407990800" FOLDED="true" ID="ID_1411219497" MODIFIED="1587579860180" TEXT="Infinities and Not-A-Number">
+<node CREATED="1587579210779" ID="ID_1104783144" MODIFIED="1587579213107" TEXT="What is 1/0">
+<node CREATED="1587579213905" ID="ID_428844831" MODIFIED="1587579218586" TEXT="For integers">
+<node CREATED="1587579218800" ID="ID_506268151" MODIFIED="1587579220842" TEXT="exception"/>
+</node>
+<node CREATED="1587579221666" ID="ID_1349285081" MODIFIED="1587579224170" TEXT="Mathematically">
+<node CREATED="1587579224375" ID="ID_1487861429" MODIFIED="1587579231575" TEXT="Can argue it&apos;s (roughly) infinity"/>
+</node>
+<node CREATED="1587579234743" ID="ID_1059059520" MODIFIED="1587579237677" TEXT="For floating point">
+<node CREATED="1587579237859" ID="ID_1558697059" MODIFIED="1587579240077" TEXT="It&apos;s infinty"/>
+</node>
+<node CREATED="1587579242239" FOLDED="true" ID="ID_1179412987" MODIFIED="1587579463158" TEXT="... special value">
+<icon BUILTIN="licq"/>
+<node CREATED="1587579305887" ID="ID_1846126194" MODIFIED="1587579311412">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="floating_point_infinity.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1587579318753" ID="ID_1019374840" MODIFIED="1587579321334" TEXT="What is 0/0">
+<node CREATED="1587579329385" ID="ID_1420734707" MODIFIED="1587579332514" TEXT="Undefined">
+<node CREATED="1587579332710" ID="ID_47980958" MODIFIED="1587579336574" TEXT="Could be anything"/>
+</node>
+<node CREATED="1587579341552" ID="ID_297776466" MODIFIED="1587579343820" TEXT="Floating points">
+<node CREATED="1587579344068" ID="ID_826384619" MODIFIED="1587579351662" TEXT="Not a Number (NAN)"/>
+</node>
+<node CREATED="1587579356557" FOLDED="true" ID="ID_598017213" MODIFIED="1587579464809" TEXT="... special value">
+<icon BUILTIN="licq"/>
+<node CREATED="1587579450057" ID="ID_451568763" MODIFIED="1587579454913">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="floating_point_not_a_number.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1587579484495" ID="ID_1227460392" MODIFIED="1587579494220" TEXT="... no exceptions with floating point numbers"/>
+<node CREATED="1587579622248" ID="ID_1999921681" MODIFIED="1587579638819" TEXT="If you do any operation to NaN">
+<node CREATED="1587579628255" ID="ID_84864633" MODIFIED="1587579632471" TEXT="You&apos;ve got NaN"/>
+</node>
+<node CREATED="1587579639679" ID="ID_1641325457" MODIFIED="1587579644559" TEXT=".. .same for infinity">
+<node CREATED="1587579644741" ID="ID_68911142" MODIFIED="1587579651628" TEXT="There are exceptions"/>
+</node>
+<node CREATED="1587579661965" ID="ID_23310823" MODIFIED="1587579674908" TEXT="Nan and infinity exists in native CPU representation"/>
+<node CREATED="1587579676015" ID="ID_221864389" MODIFIED="1587579682331" TEXT="... but maybe not by your high level language"/>
+</node>
+<node CREATED="1587407998390" ID="ID_95371502" MODIFIED="1587408002617" TEXT="Equality Comparisons">
+<node CREATED="1587579866743" ID="ID_545240995" MODIFIED="1587579886364" TEXT="Problematic since floating points are inexact">
+<node CREATED="1587580047136" FOLDED="true" ID="ID_218280914" MODIFIED="1587580118961" TEXT="Example">
+<icon BUILTIN="licq"/>
+<node CREATED="1587580080181" ID="ID_248485251" MODIFIED="1587580083963">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="comparison_inexact_floating_point.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1587580126084" ID="ID_428185110" MODIFIED="1587580135734" TEXT="Doesn&apos;t matter if it&apos;s 32bits or 64bits"/>
+</node>
+<node CREATED="1587580151227" ID="ID_131854068" MODIFIED="1587580164564" TEXT="Floating point equality can be different for different CPU"/>
+<node CREATED="1587580167172" ID="ID_1634193714" MODIFIED="1587580175870" TEXT="... accuracy can change!">
+<node CREATED="1587580194029" ID="ID_519454601" MODIFIED="1587580197207" TEXT="Will be tiny"/>
+<node CREATED="1587580197798" ID="ID_1090105578" MODIFIED="1587580202670" TEXT="... but can fuck up your comparison"/>
+</node>
+<node CREATED="1587580229362" ID="ID_900386024" MODIFIED="1587580244612" TEXT="Never use floating point number as key!">
+<node CREATED="1587580244850" ID="ID_211236056" MODIFIED="1587580250180" TEXT="For hash tables and so on"/>
+</node>
+<node CREATED="1587580263525" ID="ID_1719276514" MODIFIED="1587580281503" TEXT="Don&apos;t compare floating point numbers for equality">
+<node CREATED="1587580271506" ID="ID_1412195130" MODIFIED="1587580275858" TEXT="Can be risky"/>
+</node>
+<node CREATED="1587580282222" ID="ID_258993195" MODIFIED="1587580284548" TEXT="... work around">
+<node CREATED="1587580284746" ID="ID_377394140" MODIFIED="1587580292128" TEXT="Should you really use a floating point value"/>
+<node CREATED="1587580292792" ID="ID_1599396955" MODIFIED="1587580295178" TEXT="... or an integer?">
+<node CREATED="1587580310149" ID="ID_886115095" MODIFIED="1587580314614" TEXT="Change priceDollars"/>
+<node CREATED="1587580315195" ID="ID_1407848473" MODIFIED="1587580319025" TEXT="... to priceCents"/>
+</node>
+<node CREATED="1587580344974" FOLDED="true" ID="ID_181053357" MODIFIED="1587580467515" TEXT="Can you check for nearness in value?">
+<node CREATED="1587580445071" ID="ID_682274615" MODIFIED="1587580448630">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="comparing_floating_point_for_nearness.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1587580470662" FOLDED="true" ID="ID_1430290256" MODIFIED="1587580593232" TEXT="... but nearness is NOT equality">
+<node CREATED="1587580543386" ID="ID_998147612" MODIFIED="1587580546824" TEXT="Not transitive"/>
+<node CREATED="1587580547481" ID="ID_138498790" MODIFIED="1587580591336" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1587580582960" ID="ID_1103713740" MODIFIED="1587580588085">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="nearness_is_not_equality.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1587408003317" ID="ID_1227736027" MODIFIED="1587408010022" TEXT="Software-Impemented Types">
+<node CREATED="1587580599241" ID="ID_188899272" MODIFIED="1587580609077" TEXT="You can implement your floating point types in software"/>
+<node CREATED="1587580623616" ID="ID_568570353" MODIFIED="1587580625259" TEXT="Pros">
+<node CREATED="1587580625777" ID="ID_452188994" MODIFIED="1587580630887" TEXT="Represent numbers as you wish"/>
+<node CREATED="1587580631577" ID="ID_1777752764" MODIFIED="1587580642940" TEXT="Arrange for fractions to be represented exactly"/>
+<node CREATED="1587580643616" ID="ID_1691319248" MODIFIED="1587580647293" TEXT="Greater precision or range"/>
+</node>
+<node CREATED="1587580647991" ID="ID_548763351" MODIFIED="1587580649877" TEXT="Cons">
+<node CREATED="1587580656126" ID="ID_1160854549" MODIFIED="1587580658500" TEXT="Performance"/>
+<node CREATED="1587580659287" ID="ID_1475894691" MODIFIED="1587580664348" TEXT="Lots of work"/>
+<node CREATED="1587580666544" ID="ID_1900774508" MODIFIED="1587580670237" TEXT="... if you code it yourself"/>
+</node>
+<node COLOR="#ff0000" CREATED="1587580675723" ID="ID_347638026" MODIFIED="1587580681831" TEXT="1.16min">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1587407984264" ID="ID_1635506372" MODIFIED="1587407990108" TEXT="Zero and Subnormal Numbers"/>
-<node CREATED="1587407990800" ID="ID_1411219497" MODIFIED="1587407997543" TEXT="Infinities and Not-A-Number"/>
-<node CREATED="1587407998390" ID="ID_95371502" MODIFIED="1587408002617" TEXT="Equality Comparisons"/>
-<node CREATED="1587408003317" ID="ID_1227736027" MODIFIED="1587408010022" TEXT="Software-Impemented Types"/>
 <node CREATED="1587408010721" ID="ID_801945026" MODIFIED="1587408014045" TEXT="Best Practices"/>
-<node CREATED="1587408014562" ID="ID_809896490" MODIFIED="1587408016037" TEXT="Summary"/>
+<node CREATED="1587408014562" ID="ID_809896490" MODIFIED="1587408016037" TEXT="Summary">
+<node CREATED="1587579739195" FOLDED="true" ID="ID_307189107" MODIFIED="1587579803847" TEXT="Floating point representation">
+<icon BUILTIN="licq"/>
+<node CREATED="1587579793156" ID="ID_1836040659" MODIFIED="1587579799686">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="floating_point_representation_summary.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1587407860590" ID="ID_800969536" MODIFIED="1587491999607" POSITION="right" TEXT="Logic, Booleans and Bitwise Operations">
 <icon BUILTIN="full-6"/>
@@ -1693,8 +1882,7 @@
   <body>
     <img src="rules_ilustrations.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
