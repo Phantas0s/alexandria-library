@@ -1635,8 +1635,7 @@
   <body>
     <img src="floating_point_range.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587577846498" ID="ID_1952692162" MODIFIED="1587577851568" TEXT="... huge range">
@@ -1671,8 +1670,7 @@
   <body>
     <img src="subnormal_floating_point_example_1.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587578892692" ID="ID_463869624" MODIFIED="1587578900781" TEXT="... but problem of accuracy">
@@ -1712,8 +1710,7 @@
   <body>
     <img src="floating_point_infinity.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1734,8 +1731,7 @@
   <body>
     <img src="floating_point_not_a_number.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1749,7 +1745,7 @@
 <node CREATED="1587579661965" ID="ID_23310823" MODIFIED="1587579674908" TEXT="Nan and infinity exists in native CPU representation"/>
 <node CREATED="1587579676015" ID="ID_221864389" MODIFIED="1587579682331" TEXT="... but maybe not by your high level language"/>
 </node>
-<node CREATED="1587407998390" ID="ID_95371502" MODIFIED="1587408002617" TEXT="Equality Comparisons">
+<node CREATED="1587407998390" FOLDED="true" ID="ID_95371502" MODIFIED="1587666579156" TEXT="Equality Comparisons">
 <node CREATED="1587579866743" ID="ID_545240995" MODIFIED="1587579886364" TEXT="Problematic since floating points are inexact">
 <node CREATED="1587580047136" FOLDED="true" ID="ID_218280914" MODIFIED="1587580118961" TEXT="Example">
 <icon BUILTIN="licq"/>
@@ -1792,8 +1788,7 @@
   <body>
     <img src="comparing_floating_point_for_nearness.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587580470662" FOLDED="true" ID="ID_1430290256" MODIFIED="1587580593232" TEXT="... but nearness is NOT equality">
@@ -1808,14 +1803,13 @@
   <body>
     <img src="nearness_is_not_equality.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1587408003317" ID="ID_1227736027" MODIFIED="1587408010022" TEXT="Software-Impemented Types">
+<node CREATED="1587408003317" FOLDED="true" ID="ID_1227736027" MODIFIED="1587666578052" TEXT="Software-Impemented Types">
 <node CREATED="1587580599241" ID="ID_188899272" MODIFIED="1587580609077" TEXT="You can implement your floating point types in software"/>
 <node CREATED="1587580623616" ID="ID_568570353" MODIFIED="1587580625259" TEXT="Pros">
 <node CREATED="1587580625777" ID="ID_452188994" MODIFIED="1587580630887" TEXT="Represent numbers as you wish"/>
@@ -1827,11 +1821,34 @@
 <node CREATED="1587580659287" ID="ID_1475894691" MODIFIED="1587580664348" TEXT="Lots of work"/>
 <node CREATED="1587580666544" ID="ID_1900774508" MODIFIED="1587580670237" TEXT="... if you code it yourself"/>
 </node>
-<node COLOR="#ff0000" CREATED="1587580675723" ID="ID_347638026" MODIFIED="1587580681831" TEXT="1.16min">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1587666078544" ID="ID_1454027437" MODIFIED="1587666089882" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587666080785" ID="ID_1618675586" MODIFIED="1587666085512" TEXT="Fraction class in Python"/>
+<node CREATED="1587666100953" ID="ID_1668684730" MODIFIED="1587666116838" TEXT=",,, but arithmetic can be complicated"/>
+</node>
+<node CREATED="1587666121912" ID="ID_1367793441" MODIFIED="1587666124143" TEXT="Decimal type">
+<node CREATED="1587666129827" ID="ID_26160734" MODIFIED="1587666141345" TEXT="Use scientific form with base 10"/>
+<node CREATED="1587666142482" ID="ID_1673325981" MODIFIED="1587666149491" TEXT="Every base 10 exact numbers">
+<node CREATED="1587666157348" ID="ID_389689786" MODIFIED="1587666179836" TEXT="mantissa * 10&lt;exponent&gt;"/>
+</node>
+<node CREATED="1587666150166" ID="ID_609247635" MODIFIED="1587666155679" TEXT="... can be represented exactly"/>
+<node CREATED="1587666297946" ID="ID_523055282" MODIFIED="1587666309457" TEXT="Well suited for financial application"/>
+<node CREATED="1587666320095" ID="ID_1878155180" MODIFIED="1587666334672" TEXT="Arithmetic operations will have poor performance">
+<node CREATED="1587666334854" ID="ID_1096546159" MODIFIED="1587666338977" TEXT="handled only by software"/>
 </node>
 </node>
-<node CREATED="1587408010721" ID="ID_801945026" MODIFIED="1587408014045" TEXT="Best Practices"/>
+</node>
+<node CREATED="1587408010721" FOLDED="true" ID="ID_801945026" MODIFIED="1587666580974" TEXT="Best Practices">
+<node CREATED="1587666343641" ID="ID_446982613" MODIFIED="1587666351728" TEXT="Don&apos;t use as dictionary keys"/>
+<node CREATED="1587666352388" ID="ID_1288673935" MODIFIED="1587666363080" TEXT="Use alternative to equality comparisons"/>
+<node CREATED="1587666363781" ID="ID_774597888" MODIFIED="1587666373887" TEXT="Code defensively for approximations"/>
+<node CREATED="1587666374659" ID="ID_901813384" MODIFIED="1587666380737" TEXT="Beware of the subnormal range"/>
+<node CREATED="1587666381402" ID="ID_1917304560" MODIFIED="1587666400524" TEXT="For financial calculations, consider decimal type if available"/>
+<node CREATED="1587666401157" ID="ID_891252939" MODIFIED="1587666434433" TEXT="Be aware of how your compiler treats">
+<node CREATED="1587666434715" ID="ID_1334672812" MODIFIED="1587666436804" TEXT="infinity"/>
+<node CREATED="1587666437477" ID="ID_1950891817" MODIFIED="1587666441388" TEXT="not-a-number"/>
+</node>
+</node>
 <node CREATED="1587408014562" ID="ID_809896490" MODIFIED="1587408016037" TEXT="Summary">
 <node CREATED="1587579739195" FOLDED="true" ID="ID_307189107" MODIFIED="1587579803847" TEXT="Floating point representation">
 <icon BUILTIN="licq"/>
@@ -1843,23 +1860,158 @@
   <body>
     <img src="floating_point_representation_summary.png" />
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1587407860590" ID="ID_800969536" MODIFIED="1587667100870" POSITION="right" TEXT="Logic, Booleans and Bitwise Operations">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      See propositional statement in discrete mathematics for more details
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-6"/>
+<node CREATED="1587408025745" ID="ID_1546896970" MODIFIED="1587408028210" TEXT="Overview"/>
+<node CREATED="1587408028910" ID="ID_1051353025" MODIFIED="1587408032124" TEXT="Logical Operators">
+<node CREATED="1587666729235" ID="ID_1345084913" MODIFIED="1587666733148" TEXT="True or false"/>
+<node CREATED="1587666735638" ID="ID_851240940" MODIFIED="1587666769238" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587666738056" ID="ID_1966716872" MODIFIED="1587666741951" TEXT="Some cats are black">
+<node CREATED="1587666742733" ID="ID_430476627" MODIFIED="1587666744965" TEXT="TRUE!"/>
+</node>
+<node CREATED="1587666753539" ID="ID_1628395584" MODIFIED="1587666761579" TEXT="if (password.Length &lt; 6)"/>
+</node>
+<node CREATED="1587666783800" ID="ID_538342433" MODIFIED="1587666792641" TEXT="Combining statement">
+<node CREATED="1587666795578" ID="ID_822156468" MODIFIED="1587666800789" TEXT="&quot;We will go to the beach"/>
+<node CREATED="1587666801415" ID="ID_918495498" MODIFIED="1587666805861" TEXT="... if the weather is sunny"/>
+<node CREATED="1587666806536" ID="ID_471078238" MODIFIED="1587666811861" TEXT="... and I finish my work in time"/>
+<node CREATED="1587666816164" ID="ID_258941318" MODIFIED="1587666818873" TEXT="Computing">
+<node CREATED="1587666819063" ID="ID_1303727319" MODIFIED="1587666843852" TEXT="goToTheBeach = ifWeatherSunny &amp;&amp; finishMyWorkInTime"/>
+</node>
+</node>
+<node CREATED="1587666847261" ID="ID_1122979129" MODIFIED="1587666852447" TEXT="Logical operator">
+<node CREATED="1587666852640" ID="ID_931661515" MODIFIED="1587666858623" TEXT="Common to other operators">
+<node CREATED="1587666859306" ID="ID_368057011" MODIFIED="1587666875739" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587666884296" ID="ID_1697114350" MODIFIED="1587666886015" TEXT="="/>
+</node>
+</node>
+<node CREATED="1587666887443" ID="ID_359342520" MODIFIED="1587666894616" TEXT="Care only about booleans"/>
+<node CREATED="1587666895221" ID="ID_383010963" MODIFIED="1587666916408" TEXT="In programming">
+<node CREATED="1587666898330" ID="ID_710931808" MODIFIED="1587666899327" TEXT="NOT">
+<node CREATED="1587666937600" ID="ID_1552832336" MODIFIED="1587666941881" TEXT="Reverse truth value of statement"/>
+</node>
+<node CREATED="1587666899812" ID="ID_511123941" MODIFIED="1587666900552" TEXT="AND"/>
+<node CREATED="1587666901260" ID="ID_1787892864" MODIFIED="1587666901971" TEXT="OR">
+<node CREATED="1587666993739" ID="ID_1920078997" MODIFIED="1587666996508" TEXT="inclusive"/>
+<node CREATED="1587666997163" ID="ID_379850820" MODIFIED="1587666998655" TEXT="Example">
+<node CREATED="1587666999492" ID="ID_487808723" MODIFIED="1587667010792" TEXT="If either a but OR a taxi comes we&apos;ll go to the beach"/>
+<node CREATED="1587667036868" ID="ID_510802348" MODIFIED="1587667041640" TEXT="F T">
+<node CREATED="1587667041828" ID="ID_862975252" MODIFIED="1587667042367" TEXT="T"/>
+</node>
+<node CREATED="1587667043119" ID="ID_632429787" MODIFIED="1587667044660" TEXT="T F">
+<node CREATED="1587667044854" ID="ID_1277604030" MODIFIED="1587667045460" TEXT="F"/>
+</node>
+<node CREATED="1587667046125" ID="ID_1054858432" MODIFIED="1587667061055" TEXT="T T">
+<node CREATED="1587667047450" ID="ID_1321736798" MODIFIED="1587667048507" TEXT="T"/>
+</node>
+</node>
+<node CREATED="1587667012256" ID="ID_1077770389" MODIFIED="1587667015772" TEXT="||"/>
+</node>
+<node CREATED="1587666902494" ID="ID_830999676" MODIFIED="1587666905588" TEXT="exclusive OR">
+<node CREATED="1587667016929" ID="ID_523218888" MODIFIED="1587667035207" TEXT="If John eats the ice cream OR the cake, there won&apos;t be anything left for me to eat"/>
+<node CREATED="1587667051368" ID="ID_83683361" MODIFIED="1587667056474" TEXT="If both true, statement false"/>
+</node>
+</node>
+<node CREATED="1587666921527" ID="ID_66915515" MODIFIED="1587666931836" TEXT="Direct analogy with real life situations"/>
+</node>
+</node>
+<node CREATED="1587408033071" ID="ID_718270084" MODIFIED="1587408035943" TEXT="Truth Tables">
+<node CREATED="1587667185882" ID="ID_1726407732" MODIFIED="1587667191443" TEXT="All operators supported in hardware"/>
+<node CREATED="1587667191918" ID="ID_1562351810" MODIFIED="1587667193740" TEXT="Very fast!"/>
+</node>
+<node CREATED="1587408036666" ID="ID_223462967" MODIFIED="1587667564565" TEXT="Simplifying Logical Expressions">
+<node CREATED="1587667374592" FOLDED="true" ID="ID_411496299" MODIFIED="1587667566522" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1587667447525" ID="ID_1466948420" MODIFIED="1587667451935">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="simplifying_logical_expressions.png" />
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
+<node CREATED="1587667706429" FOLDED="true" ID="ID_410179801" MODIFIED="1587667727638" TEXT="Simplification">
+<icon BUILTIN="licq"/>
+<node CREATED="1587667719005" ID="ID_1906568726" MODIFIED="1587667724378">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="simplifying_logical_expressions_2.png" />
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1587407860590" ID="ID_800969536" MODIFIED="1587491999607" POSITION="right" TEXT="Logic, Booleans and Bitwise Operations">
-<icon BUILTIN="full-6"/>
-<node CREATED="1587408025745" ID="ID_1546896970" MODIFIED="1587408028210" TEXT="Overview"/>
-<node CREATED="1587408028910" ID="ID_1051353025" MODIFIED="1587408032124" TEXT="Logical Operators"/>
-<node CREATED="1587408033071" ID="ID_718270084" MODIFIED="1587408035943" TEXT="Truth Tables"/>
-<node CREATED="1587408036666" ID="ID_223462967" MODIFIED="1587408042113" TEXT="Simplifying Logical Expressions"/>
-<node CREATED="1587408042829" ID="ID_1212336031" MODIFIED="1587408046749" TEXT="Bitwise Operators"/>
+<node CREATED="1587667728831" ID="ID_900264288" MODIFIED="1587667731930" TEXT="... therefore">
+<node CREATED="1587667734650" ID="ID_633671057" MODIFIED="1587667749697" TEXT="NOT(x &lt; 3) OR FOUND"/>
+<node CREATED="1587667750350" ID="ID_572349632" MODIFIED="1587667758874" TEXT="... (x &gt;= 3) OR FOUND"/>
+</node>
+<node CREATED="1587667568229" ID="ID_358473194" MODIFIED="1587667575799" TEXT="There&apos;s more than one way to write expression"/>
+</node>
+<node CREATED="1587408042829" ID="ID_1212336031" MODIFIED="1587408046749" TEXT="Bitwise Operators">
+<node CREATED="1587667913921" ID="ID_1613315661" MODIFIED="1587667924106" TEXT="Numbers stored as a series of bits"/>
+<node CREATED="1587668022515" ID="ID_196422328" MODIFIED="1587668029096" TEXT="Can be interpreted as True / False">
+<node CREATED="1587668029685" ID="ID_1224963358" MODIFIED="1587668032475" TEXT="0 for false"/>
+<node CREATED="1587668033042" ID="ID_1636272965" MODIFIED="1587668035411" TEXT="1 for true"/>
+</node>
+<node CREATED="1587668126561" FOLDED="true" ID="ID_1184706178" MODIFIED="1587668159028" TEXT="Example">
+<icon BUILTIN="licq"/>
+<node CREATED="1587668128888" ID="ID_1216822953" MODIFIED="1587668145414">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="bitwise_or.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1587668148991" ID="ID_2475741" MODIFIED="1587668152047" TEXT="But why using that?"/>
+</node>
 <node CREATED="1587408047458" ID="ID_1313437428" MODIFIED="1587408050750" TEXT="Bitwise Flags"/>
 <node CREATED="1587408051298" ID="ID_697051456" MODIFIED="1587408069683" TEXT="Masking Bytes Example: Color"/>
 <node CREATED="1587408061209" ID="ID_1972032989" MODIFIED="1587408064796" TEXT="Best Practices"/>
 <node CREATED="1587408070670" ID="ID_215766326" MODIFIED="1587408073378" TEXT="Summary"/>
+<node CREATED="1587667098321" MODIFIED="1587667098321">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      See propositional statement in discrete mathematics for more details
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1587408075151" FOLDED="true" ID="ID_767573533" MODIFIED="1587492002287" POSITION="right" TEXT="Errors and Accuracy">
 <icon BUILTIN="full-7"/>
