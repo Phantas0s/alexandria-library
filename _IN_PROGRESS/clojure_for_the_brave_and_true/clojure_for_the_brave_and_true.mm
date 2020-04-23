@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1587395443663" TEXT="Clojure For The Brave And Truem">
+<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1587661807798" TEXT="Clojure For The Brave And Truem">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,6 +12,9 @@
   </body>
 </html>
 </richcontent>
+<node CREATED="1587661812696" ID="ID_1852239801" LINK="https://github.com/Phantas0s/playground/tree/master/clojure/brave-clojure" MODIFIED="1587661864941" POSITION="right" TEXT="Code">
+<icon BUILTIN="full-0"/>
+</node>
 <node CREATED="1572957374905" FOLDED="true" ID="ID_1172720428" LINK="https://www.braveclojure.com/getting-started/" MODIFIED="1587395590748" POSITION="right" TEXT="Building, Running, and the REPL">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572957483719" ID="ID_528358401" MODIFIED="1572957484341" TEXT=" First Things First: What Is Clojure?">
@@ -974,11 +977,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1574923271108" FOLDED="true" ID="ID_983039471" LINK="https://www.braveclojure.com/organization/" MODIFIED="1587215297631" POSITION="right" TEXT="Organizing Your Project: A Librarian&#x2019;s Tale">
+<node CREATED="1574923271108" FOLDED="true" ID="ID_983039471" LINK="https://www.braveclojure.com/organization/" MODIFIED="1587661810453" POSITION="right" TEXT="Organizing Your Project: A Librarian&#x2019;s Tale">
 <icon BUILTIN="full-6"/>
-<node CREATED="1574923279716" FOLDED="true" ID="ID_1998632901" MODIFIED="1586964679538" TEXT="Your Project as a Library">
+<node CREATED="1574923279716" ID="ID_1998632901" MODIFIED="1587650276266" TEXT="Your Project as a Library">
 <node CREATED="1574923289084" ID="ID_1316575729" MODIFIED="1574923294681" TEXT="Namespaces are object of type">
-<node CREATED="1574923294851" ID="ID_960317841" MODIFIED="1574923295271" TEXT="clojure.lang.Namespace"/>
+<node CREATED="1574923294851" ID="ID_960317841" MODIFIED="1587650280448" TEXT="clojure.lang.Namespace">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node CREATED="1574923307900" ID="ID_579295220" MODIFIED="1574923317624" TEXT="Possibility to have multiple namespaces"/>
 <node CREATED="1574923328323" ID="ID_1271300495" MODIFIED="1574923333327" TEXT="You are always in a namespace"/>
@@ -998,30 +1003,43 @@
 </node>
 </node>
 </node>
-<node CREATED="1574923462530" FOLDED="true" ID="ID_838990957" MODIFIED="1587215295673" TEXT="Storing Objects with def">
-<node CREATED="1574923747479" ID="ID_296364500" MODIFIED="1574940337289" TEXT="interning a var">
+<node CREATED="1574923462530" FOLDED="true" ID="ID_838990957" MODIFIED="1587651435521" TEXT="Storing Objects with def">
+<node CREATED="1574923747479" ID="ID_296364500" MODIFIED="1587650468756" TEXT="interning a var">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="listingblock">
+      <div class="content">
+        <pre class="pygments highlight"><code data-lang="clojure" class="block">(def great-books [&quot;East of Eden&quot; &quot;The Glass Bead Game&quot;])
+; =&gt; #'user/great-books
+
+great-books
+; =&gt; [&quot;East of Eden&quot; &quot;The Glass Bead Game&quot;]</code></pre>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1574923757503" ID="ID_1036970011" MODIFIED="1574923760769" TEXT="Update the current namespace&#x2019;s map with the association between great-books and the var.">
+<node CREATED="1574923757503" ID="ID_1036970011" MODIFIED="1587650329277" TEXT="Update the current namespace&#x2019;s map">
 <icon BUILTIN="full-1"/>
+<node CREATED="1587650310267" ID="ID_1528262631" MODIFIED="1587650311277" TEXT="with the association between">
+<node CREATED="1587650317112" ID="ID_1208716793" MODIFIED="1587650317853" TEXT="great-books "/>
+<node CREATED="1587650322210" ID="ID_550632748" MODIFIED="1587650322923" TEXT="the var"/>
 </node>
-<node CREATED="1574923764376" ID="ID_1658269539" MODIFIED="1574923766186" TEXT="Find a free storage shelf.">
+</node>
+<node CREATED="1574923764376" ID="ID_1658269539" MODIFIED="1587650332425" TEXT="Find a free storage shelf">
 <icon BUILTIN="full-2"/>
 </node>
 <node CREATED="1574923770952" ID="ID_87725408" MODIFIED="1574923774193" TEXT="Store [&quot;East of Eden&quot; &quot;The Glass Bead Game&quot;] on the shelf.">
 <icon BUILTIN="full-3"/>
 </node>
-<node CREATED="1574923777384" ID="ID_1900422704" MODIFIED="1574923778880" TEXT="Write the address of the shelf on the var.">
+<node CREATED="1574923777384" ID="ID_1900422704" MODIFIED="1587650339074" TEXT="Write the address of the shelf on the var">
 <icon BUILTIN="full-4"/>
 </node>
-<node CREATED="1574923782655" ID="ID_1275542495" MODIFIED="1574923784752" TEXT="Return the var (in this case, #&apos;user/great-books).">
+<node CREATED="1574923782655" ID="ID_1275542495" MODIFIED="1587650340425" TEXT="Return the var (in this case, #&apos;user/great-books)">
 <icon BUILTIN="full-4"/>
-</node>
-</node>
-<node CREATED="1574923727040" ID="ID_96256183" MODIFIED="1574923737058" TEXT="Example">
-<icon BUILTIN="wizard"/>
-<node CREATED="1574923743615" ID="ID_924152879" MODIFIED="1574923744185" TEXT="(def great-books [&quot;East of Eden&quot; &quot;The Glass Bead Game&quot;])"/>
-<node CREATED="1574940359630" ID="ID_629673640" MODIFIED="1574940365084" TEXT="Map of intervened var">
-<node CREATED="1574940377479" ID="ID_1952692464" MODIFIED="1574940378027" TEXT="(ns-interns *ns*)"/>
 </node>
 </node>
 <node CREATED="1574940638763" ID="ID_257806524" MODIFIED="1574940640195" TEXT="#&apos;user/great-books">
@@ -1031,14 +1049,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1574940945238" FOLDED="true" ID="ID_120715522" MODIFIED="1586964677993" TEXT="Creating and Switching to Namespaces">
+<node CREATED="1574940945238" ID="ID_120715522" MODIFIED="1587650530761" TEXT="Creating and Switching to Namespaces">
 <node CREATED="1574940957651" ID="ID_70642259" MODIFIED="1574940959095" TEXT="Functions">
 <node CREATED="1574940959611" ID="ID_1925858340" MODIFIED="1574940962301" TEXT="create-ns">
 <node CREATED="1574941087432" ID="ID_1622821427" MODIFIED="1574941090413" TEXT="create namespace"/>
 <node CREATED="1574941070578" ID="ID_1324027104" MODIFIED="1574941074079" TEXT="not very used in practice"/>
 </node>
 <node CREATED="1574940962657" ID="ID_871512873" MODIFIED="1574940964215" TEXT="in-ns">
-<node CREATED="1574941081194" ID="ID_52757181" MODIFIED="1574941086261" TEXT="create and swith to namespace"/>
+<node CREATED="1574941081194" ID="ID_52757181" MODIFIED="1587650541308" TEXT="create and switch to namespace"/>
 <node CREATED="1574941093624" ID="ID_1424649999" MODIFIED="1574941094798" TEXT="more used"/>
 </node>
 </node>
@@ -1055,8 +1073,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1574942646901" FOLDED="true" ID="ID_752095397" MODIFIED="1586964676948" TEXT=" Real Project Organization">
-<node CREATED="1574942656564" ID="ID_915532726" MODIFIED="1574942657204" TEXT=" The Relationship Between File Paths and Namespace Names">
+<node CREATED="1574942646901" ID="ID_752095397" MODIFIED="1587651436541" TEXT=" Real Project Organization">
+<node CREATED="1574942656564" ID="ID_915532726" MODIFIED="1587650684591" TEXT=" The Relationship Between File Paths / Namespace Names">
 <node CREATED="1574942834036" ID="ID_474397784" MODIFIED="1574942835633" TEXT="Functions">
 <node CREATED="1574942835813" ID="ID_180154067" MODIFIED="1574942836248" TEXT="ns">
 <node CREATED="1574942836492" ID="ID_786941262" MODIFIED="1574942851491" TEXT="primary way to create namespace if doesn&apos;t exist and switch to it ">
@@ -1068,7 +1086,7 @@
 <node CREATED="1574942906908" ID="ID_201551140" MODIFIED="1574942909471" TEXT="namespace name"/>
 <node CREATED="1574942909954" ID="ID_368097891" MODIFIED="1574942919903" TEXT="path of the file where the namespace is declared"/>
 </node>
-<node CREATED="1574942920906" ID="ID_1388904715" MODIFIED="1574943062836" TEXT="... according to the conventions">
+<node CREATED="1574942920906" FOLDED="true" ID="ID_1388904715" MODIFIED="1587650752615" TEXT="... according to the conventions">
 <node CREATED="1574942925196" ID="ID_829021086" MODIFIED="1574942934214" TEXT="When create directory with lein">
 <node CREATED="1574942934449" ID="ID_877610952" MODIFIED="1574942938319" TEXT="source code root"/>
 <node CREATED="1574942942530" ID="ID_188168248" MODIFIED="1574942945396" TEXT="... src">
@@ -2479,9 +2497,9 @@
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 </node>
-<node CREATED="1587395644657" ID="ID_216282533" MODIFIED="1587395668362" POSITION="left" TEXT="Appendix">
+<node CREATED="1587395644657" FOLDED="true" ID="ID_216282533" MODIFIED="1587661810455" POSITION="left" TEXT="Appendix">
 <node CREATED="1587395669671" ID="ID_16948058" LINK="https://www.braveclojure.com/appendix-a/" MODIFIED="1587395679384" TEXT="Building and Developing with Leiningen"/>
-<node CREATED="1587395684454" ID="ID_571203026" LINK="https://www.braveclojure.com/appendix-b/" MODIFIED="1587395696072" TEXT="Boot, the Fancy Clojure Build Framework">
+<node CREATED="1587395684454" ID="ID_571203026" LINK="https://www.braveclojure.com/appendix-b/" MODIFIED="1587661807763" TEXT="Boot, the Fancy Clojure Build Framework">
 <node CREATED="1587395706063" ID="ID_737273608" MODIFIED="1587395711094" TEXT="Alternative to Leiningen"/>
 <node CREATED="1587395950172" FOLDED="true" ID="ID_1871069574" MODIFIED="1587396831462" TEXT="Boot&apos;s Abstractions">
 <node CREATED="1587395929002" ID="ID_712077668" MODIFIED="1587395944226" TEXT="Can create independent operations"/>
