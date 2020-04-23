@@ -82,7 +82,7 @@
 <node CREATED="1586358343203" ID="ID_667693495" MODIFIED="1586358347237" TEXT="... but command too long!"/>
 </node>
 </node>
-<node CREATED="1586358361539" ID="ID_819864988" MODIFIED="1586435979978" POSITION="right" TEXT="House Keeping">
+<node CREATED="1586358361539" FOLDED="true" ID="ID_819864988" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-03.md" MODIFIED="1587662839514" POSITION="right" TEXT="House Keeping">
 <icon BUILTIN="full-3"/>
 <node CREATED="1586358391276" ID="ID_1634226796" MODIFIED="1586358391983" TEXT="Introduction"/>
 <node CREATED="1586358370501" ID="ID_1386627330" MODIFIED="1586358375703" TEXT="Enter deftask">
@@ -110,7 +110,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586435966603" ID="ID_636505354" MODIFIED="1586435972409" POSITION="right" TEXT="Modern ClojureScript">
+<node CREATED="1586435966603" FOLDED="true" ID="ID_636505354" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-04.md" MODIFIED="1587662829255" POSITION="right" TEXT="Modern ClojureScript">
 <icon BUILTIN="full-4"/>
 <node CREATED="1586436012019" ID="ID_163730331" MODIFIED="1586436012588" TEXT="Introduction">
 <node CREATED="1586436268411" ID="ID_1954217101" LINK="https://larryullman.com/books/modern-javascript-develop-and-design/" MODIFIED="1586436275365" TEXT="Use Modern Javascript book"/>
@@ -151,14 +151,61 @@
 <node CREATED="1586439901997" ID="ID_1121452217" MODIFIED="1586439902607" TEXT="Define the validate-form function"/>
 <node CREATED="1586443529972" ID="ID_1717110134" MODIFIED="1586443534645" TEXT="Port the init function"/>
 </node>
-<node CREATED="1586443920653" ID="ID_920489026" MODIFIED="1586443928455" POSITION="right" TEXT="Introducing Domina">
+<node CREATED="1586443920653" FOLDED="true" ID="ID_920489026" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-05.md" MODIFIED="1587662819013" POSITION="right" TEXT="Introducing Domina">
 <icon BUILTIN="full-5"/>
 <node CREATED="1587394894579" ID="ID_1375776600" MODIFIED="1587394895103" TEXT="Introduction"/>
-<node CREATED="1587394898248" ID="ID_662372781" MODIFIED="1587394898887" TEXT="Domina lib"/>
+<node CREATED="1587394898248" ID="ID_662372781" MODIFIED="1587394898887" TEXT="Domina lib">
+<node CREATED="1587656305988" ID="ID_1197801484" MODIFIED="1587656323813" TEXT="One of the first DOM library written in CLJS"/>
+<node CREATED="1587656435487" ID="ID_743760068" MODIFIED="1587656448128" TEXT="Useful only to understand how CLJS works"/>
+</node>
 <node CREATED="1587394902306" ID="ID_1144584925" MODIFIED="1587394903003" TEXT="Launch the Immediate Feedback Development Environment (IFDE)"/>
 <node CREATED="1587394905957" ID="ID_470980648" MODIFIED="1587394906515" TEXT="Launch the bREPL"/>
 <node CREATED="1587394908641" ID="ID_1684218771" MODIFIED="1587394909329" TEXT="Review the Login form"/>
 <node CREATED="1587394913670" ID="ID_765671370" MODIFIED="1587394914397" TEXT="Domina selectors"/>
+</node>
+<node CREATED="1587661680998" FOLDED="true" ID="ID_1651500049" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-06.md" MODIFIED="1587662806802" POSITION="right" TEXT="The Easy Made Complex and the Simple Made Easy">
+<icon BUILTIN="full-6"/>
+<node CREATED="1587661956014" ID="ID_1420786451" MODIFIED="1587661958345" TEXT="Introduction"/>
+<node CREATED="1587661959023" ID="ID_1347654128" MODIFIED="1587661968687" TEXT="Introducing the Google Closure Compiler (GCSL)">
+<node CREATED="1587661973413" ID="ID_1653337891" MODIFIED="1587661979986" TEXT="build.boot">
+<node CREATED="1587661980137" ID="ID_1401995098" MODIFIED="1587662027327" TEXT=":source-paths #{&quot;src/cljs&quot;}">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1587662038321" ID="ID_1133728630" MODIFIED="1587662043771" TEXT="look for any CLJS source code"/>
+<node CREATED="1587662044702" ID="ID_152643848" MODIFIED="1587662052972" TEXT="... in src/cljs"/>
+<node CREATED="1587662065872" ID="ID_180011219" MODIFIED="1587662071327" TEXT="... and generate a single js file"/>
+</node>
+<node CREATED="1587662098842" ID="ID_666469498" MODIFIED="1587662099534" TEXT="Is mutability evil?"/>
+<node CREATED="1587662155274" ID="ID_1320478069" MODIFIED="1587662162407" TEXT="Easy made complex"/>
+<node CREATED="1587662163088" ID="ID_1304899655" MODIFIED="1587662168876" TEXT="Simple made easy"/>
+<node CREATED="1587662792091" ID="ID_1144565244" MODIFIED="1587662792761" TEXT="Tradeoffs at work"/>
+</node>
+<node CREATED="1587662848803" ID="ID_673368362" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-07.md" MODIFIED="1587664618083" POSITION="right" TEXT="Introducing Domina Events">
+<icon BUILTIN="full-7"/>
+<node CREATED="1587662867445" ID="ID_462307485" MODIFIED="1587662870492" TEXT="Introduction"/>
+<node CREATED="1587663983515" ID="ID_259738928" MODIFIED="1587663988970" TEXT="bREPLing with domina">
+<node CREATED="1587663989168" ID="ID_1163971780" LINK="https://www.w3.org/TR/DOM-Level-3-Events/#event-flow" MODIFIED="1587663996978" TEXT="Event bubble concept in js"/>
+<node CREATED="1587664238204" ID="ID_380147691" MODIFIED="1587664238811" TEXT="Bubbling and capture models">
+<node CREATED="1587664239309" ID="ID_1625933449" MODIFIED="1587664279328" TEXT="listen!">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1587664265567" ID="ID_255551496" MODIFIED="1587664268610" TEXT="Bubbling method"/>
+</node>
+<node CREATED="1587664269291" ID="ID_91447374" MODIFIED="1587664277961" TEXT="capture!">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1587664273181" ID="ID_876964313" MODIFIED="1587664275338" TEXT="Capture method"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1587664468088" ID="ID_977429795" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-08.md" MODIFIED="1587664610984" POSITION="right" TEXT="Dom Manipulation">
+<icon BUILTIN="full-8"/>
+<node CREATED="1587664601318" ID="ID_1232928977" MODIFIED="1587664604121" TEXT="Introduction"/>
+<node CREATED="1587664600491" ID="ID_2021601" MODIFIED="1587664600491" TEXT="DOM manipulation"/>
+<node CREATED="1587664678908" ID="ID_1814535416" MODIFIED="1587664681200" TEXT="Mouseover event"/>
+<node CREATED="1587665210747" ID="ID_1839507325" MODIFIED="1587665211375" TEXT="I hate HTML">
+<node CREATED="1587665214165" ID="ID_1780187547" MODIFIED="1587665214855" TEXT="hiccups"/>
+</node>
 </node>
 </node>
 </map>
