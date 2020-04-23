@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1587469422467" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1587654684518" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -10,7 +10,7 @@
       <font size="5"><u><b>General notes:</b></u></font><br /><br />Some elements from Lecture Notes, Yale University, Spring 1999 from L. Lova&#769;sz and K. Vesztergombi have been included here.<br /><br />
     </p>
     <p>
-      https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf<br /><br /><font size="5"><u><b>Assessments:</b></u></font>
+      https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf<br /><br />The 7th edition have been used for this mindmap.<br /><br /><font size="5"><u><b>Assessments:</b></u></font>
     </p>
     <p>
       
@@ -5347,7 +5347,7 @@
 <node CREATED="1587470094129" ID="ID_347838859" MODIFIED="1587470099359" TEXT="... that it always yield correct result"/>
 </node>
 </node>
-<node CREATED="1587470118046" FOLDED="true" ID="ID_1836173742" MODIFIED="1587472949492" TEXT="5.1 Mathematical Induction">
+<node CREATED="1587470118046" ID="ID_1836173742" MODIFIED="1587654030237" TEXT="5.1 Mathematical Induction">
 <node CREATED="1587470182670" FOLDED="true" ID="ID_762224774" MODIFIED="1587471630196" TEXT="Introduction">
 <node CREATED="1587470189118" ID="ID_717511020" MODIFIED="1587470196808" TEXT="We have an infinite ladder"/>
 <node CREATED="1587470197429" ID="ID_1952958436" MODIFIED="1587470213529" TEXT="... and we want to know if we can reach each step"/>
@@ -5539,7 +5539,16 @@
 <node CREATED="1587472692244" ID="ID_1176190047" MODIFIED="1587472705405" TEXT="... other methods of proof can bring more insight"/>
 </node>
 </node>
-<node CREATED="1587472716918" ID="ID_1066368983" MODIFIED="1587472721458" TEXT="Examples of Proofs by Mathematical Induction"/>
+<node CREATED="1587472716918" ID="ID_1066368983" MODIFIED="1587472721458" TEXT="Examples of Proofs by Mathematical Induction">
+<node CREATED="1587654065797" ID="ID_1741056947" MODIFIED="1587654071124" TEXT="Mathematical induction used"/>
+<node CREATED="1587654071702" ID="ID_498775730" MODIFIED="1587654083100" TEXT="... to prove statements of form &#x2200;nP(n)">
+<node CREATED="1587654086651" ID="ID_230604732" MODIFIED="1587654091546" TEXT="with Z+ domain"/>
+</node>
+<node CREATED="1587654364975" ID="ID_573005397" MODIFIED="1587654369294" TEXT="Many mistakes possible!"/>
+<node CREATED="1587654633894" ID="ID_1611387611" MODIFIED="1587654685979" TEXT="Examples p316">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1587388543595" ID="ID_1416871703" MODIFIED="1587388607840" POSITION="left" TEXT="Counting">
