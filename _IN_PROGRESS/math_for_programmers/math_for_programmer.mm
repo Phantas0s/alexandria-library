@@ -1244,7 +1244,7 @@
 </node>
 <node CREATED="1586804221857" ID="ID_1718526985" MODIFIED="1586804223324" TEXT="Summary"/>
 </node>
-<node CREATED="1586804224965" ID="ID_290305122" MODIFIED="1587492003597" POSITION="right" TEXT="Floating Point Numbers">
+<node CREATED="1586804224965" FOLDED="true" ID="ID_290305122" MODIFIED="1587753301666" POSITION="right" TEXT="Floating Point Numbers">
 <icon BUILTIN="full-5"/>
 <node CREATED="1587407837457" FOLDED="true" ID="ID_62472570" MODIFIED="1587492008258" TEXT="Overview">
 <node CREATED="1587408207729" ID="ID_1130855462" MODIFIED="1587408215336" TEXT="They are not integers with fractions on top"/>
@@ -1865,7 +1865,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587407860590" ID="ID_800969536" MODIFIED="1587667100870" POSITION="right" TEXT="Logic, Booleans and Bitwise Operations">
+<node CREATED="1587407860590" ID="ID_800969536" MODIFIED="1587753307423" POSITION="right" TEXT="Logic, Booleans and Bitwise Operations">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1879,7 +1879,7 @@
 </richcontent>
 <icon BUILTIN="full-6"/>
 <node CREATED="1587408025745" ID="ID_1546896970" MODIFIED="1587408028210" TEXT="Overview"/>
-<node CREATED="1587408028910" ID="ID_1051353025" MODIFIED="1587408032124" TEXT="Logical Operators">
+<node CREATED="1587408028910" FOLDED="true" ID="ID_1051353025" MODIFIED="1587753311810" TEXT="Logical Operators">
 <node CREATED="1587666729235" ID="ID_1345084913" MODIFIED="1587666733148" TEXT="True or false"/>
 <node CREATED="1587666735638" ID="ID_851240940" MODIFIED="1587666769238" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -1933,11 +1933,11 @@
 <node CREATED="1587666921527" ID="ID_66915515" MODIFIED="1587666931836" TEXT="Direct analogy with real life situations"/>
 </node>
 </node>
-<node CREATED="1587408033071" ID="ID_718270084" MODIFIED="1587408035943" TEXT="Truth Tables">
+<node CREATED="1587408033071" FOLDED="true" ID="ID_718270084" MODIFIED="1587753313417" TEXT="Truth Tables">
 <node CREATED="1587667185882" ID="ID_1726407732" MODIFIED="1587667191443" TEXT="All operators supported in hardware"/>
 <node CREATED="1587667191918" ID="ID_1562351810" MODIFIED="1587667193740" TEXT="Very fast!"/>
 </node>
-<node CREATED="1587408036666" ID="ID_223462967" MODIFIED="1587667564565" TEXT="Simplifying Logical Expressions">
+<node CREATED="1587408036666" FOLDED="true" ID="ID_223462967" MODIFIED="1587753315804" TEXT="Simplifying Logical Expressions">
 <node CREATED="1587667374592" FOLDED="true" ID="ID_411496299" MODIFIED="1587667566522" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <icon BUILTIN="licq"/>
@@ -1949,8 +1949,7 @@
   <body>
     <img src="simplifying_logical_expressions.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587667706429" FOLDED="true" ID="ID_410179801" MODIFIED="1587667727638" TEXT="Simplification">
@@ -1963,8 +1962,7 @@
   <body>
     <img src="simplifying_logical_expressions_2.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587667728831" ID="ID_900264288" MODIFIED="1587667731930" TEXT="... therefore">
@@ -1973,14 +1971,15 @@
 </node>
 <node CREATED="1587667568229" ID="ID_358473194" MODIFIED="1587667575799" TEXT="There&apos;s more than one way to write expression"/>
 </node>
-<node CREATED="1587408042829" ID="ID_1212336031" MODIFIED="1587408046749" TEXT="Bitwise Operators">
+<node CREATED="1587408042829" FOLDED="true" ID="ID_1212336031" MODIFIED="1587753315805" TEXT="Bitwise Operators">
 <node CREATED="1587667913921" ID="ID_1613315661" MODIFIED="1587667924106" TEXT="Numbers stored as a series of bits"/>
 <node CREATED="1587668022515" ID="ID_196422328" MODIFIED="1587668029096" TEXT="Can be interpreted as True / False">
 <node CREATED="1587668029685" ID="ID_1224963358" MODIFIED="1587668032475" TEXT="0 for false"/>
 <node CREATED="1587668033042" ID="ID_1636272965" MODIFIED="1587668035411" TEXT="1 for true"/>
 </node>
-<node CREATED="1587668126561" FOLDED="true" ID="ID_1184706178" MODIFIED="1587668159028" TEXT="Example">
+<node CREATED="1587668126561" FOLDED="true" ID="ID_1184706178" MODIFIED="1587750568958" TEXT="Example">
 <icon BUILTIN="licq"/>
+<icon BUILTIN="wizard"/>
 <node CREATED="1587668128888" ID="ID_1216822953" MODIFIED="1587668145414">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1989,31 +1988,309 @@
   <body>
     <img src="bitwise_or.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587668148991" ID="ID_2475741" MODIFIED="1587668152047" TEXT="But why using that?"/>
 </node>
-<node CREATED="1587408047458" ID="ID_1313437428" MODIFIED="1587408050750" TEXT="Bitwise Flags"/>
-<node CREATED="1587408051298" ID="ID_697051456" MODIFIED="1587408069683" TEXT="Masking Bytes Example: Color"/>
-<node CREATED="1587408061209" ID="ID_1972032989" MODIFIED="1587408064796" TEXT="Best Practices"/>
-<node CREATED="1587408070670" ID="ID_215766326" MODIFIED="1587408073378" TEXT="Summary"/>
-<node CREATED="1587667098321" MODIFIED="1587667098321">
+<node CREATED="1587408047458" FOLDED="true" ID="ID_1313437428" MODIFIED="1587753315806" TEXT="Bitwise Flags">
+<node CREATED="1587750450340" ID="ID_1750477873" MODIFIED="1587750451782" TEXT="Enum">
+<node CREATED="1587750451964" ID="ID_1782033012" MODIFIED="1587750459551" TEXT="Way to distinguish multiple states"/>
+</node>
+<node CREATED="1587750463714" FOLDED="true" ID="ID_633905081" MODIFIED="1587750616082" TEXT="Example">
+<icon BUILTIN="licq"/>
+<icon BUILTIN="wizard"/>
+<node CREATED="1587750532281" ID="ID_191046716" MODIFIED="1587750551413">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <p>
-      See propositional statement in discrete mathematics for more details
-    </p>
+    <img src="enum_example.png" />
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node CREATED="1587408075151" FOLDED="true" ID="ID_767573533" MODIFIED="1587492002287" POSITION="right" TEXT="Errors and Accuracy">
+<node CREATED="1587750625229" ID="ID_1855049868" MODIFIED="1587750635752" TEXT="Easier to read / maintain"/>
+<node CREATED="1587750657662" ID="ID_93809991" MODIFIED="1587750670035" TEXT="One Enum value can hold one state at a time"/>
+<node CREATED="1587750679116" ID="ID_878195714" MODIFIED="1587752248596" TEXT="Problem for specific cases"/>
+<node CREATED="1587750702163" FOLDED="true" ID="ID_492911719" MODIFIED="1587752220235" TEXT="Set of options">
+<node CREATED="1587750793487" ID="ID_943405070" MODIFIED="1587750799177" TEXT="Each one of them"/>
+<node CREATED="1587750799802" ID="ID_679039895" MODIFIED="1587750807217" TEXT="... switched on or off"/>
+</node>
+<node CREATED="1587751180982" FOLDED="true" ID="ID_347269556" MODIFIED="1587752220235" TEXT="Combining flags">
+<node CREATED="1587751178889" ID="ID_850841128" MODIFIED="1587751180805" TEXT="Bitwise OR">
+<node CREATED="1587750812366" FOLDED="true" ID="ID_1452115321" MODIFIED="1587751178001" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587750844653" ID="ID_1237966047" MODIFIED="1587750861793" TEXT="RegexOptions">
+<icon BUILTIN="licq"/>
+<node CREATED="1587750848165" ID="ID_1359884884" MODIFIED="1587750856926">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="regex_options_example.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1587750908545" ID="ID_386441336" MODIFIED="1587751071258" TEXT="If we want IgnoreCase and RightToLeft?">
+<icon BUILTIN="licq"/>
+<node CREATED="1587750927606" ID="ID_476308404" MODIFIED="1587751060097">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="regex_options_bits.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1587751064686" ID="ID_1000908158" MODIFIED="1587751068484" TEXT="In the code">
+<icon BUILTIN="licq"/>
+<node CREATED="1587751072637" ID="ID_369087083" MODIFIED="1587751081534">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="regex_option_result.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1587751096193" ID="ID_1547058502" MODIFIED="1587751170921" TEXT="Why not only add instead of Bitwise OR?">
+<node CREATED="1587751110217" ID="ID_1948985592" MODIFIED="1587751113584" TEXT="Won&apos;t always work"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1587751197839" FOLDED="true" ID="ID_1243373921" MODIFIED="1587752255494" TEXT="Identifying Flags">
+<node CREATED="1587751206443" ID="ID_1230257491" MODIFIED="1587751207832" TEXT="Masking"/>
+<node CREATED="1587751230262" ID="ID_1264066990" MODIFIED="1587751364964" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587751235503" ID="ID_464229234" MODIFIED="1587751244478" TEXT="We want to know what values are in flag"/>
+<node CREATED="1587751272441" ID="ID_1905666503" MODIFIED="1587751442042" TEXT="To test if there is a 64 option (RightToLeft)"/>
+<node CREATED="1587751284810" ID="ID_166738328" MODIFIED="1587751383912" TEXT="... Bitwise AND with">
+<node CREATED="1587751384086" ID="ID_542876010" MODIFIED="1587751385789" TEXT="64"/>
+<node CREATED="1587751386394" ID="ID_1485136648" MODIFIED="1587751390280" TEXT="the options"/>
+<node CREATED="1587751391551" FOLDED="true" ID="ID_1436694603" MODIFIED="1587751431156" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1587751394271" ID="ID_1172434809" MODIFIED="1587751417070">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="regex_option_identify_flag.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1587751458603" ID="ID_633153033" MODIFIED="1587751462883" TEXT="Code">
+<icon BUILTIN="licq"/>
+<node CREATED="1587751507548" ID="ID_637228309" MODIFIED="1587751514656">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="regex_option_identifying_flags_code.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1587751530887" ID="ID_1664308293" MODIFIED="1587751537122" TEXT="... RightToLeft">
+<node CREATED="1587751537304" ID="ID_1776033294" MODIFIED="1587751540118" TEXT="The mask"/>
+</node>
+</node>
+</node>
+<node CREATED="1587751544989" FOLDED="true" ID="ID_475067490" MODIFIED="1587752220251" TEXT="Removing flag from value">
+<node CREATED="1587751594110" ID="ID_967747421" MODIFIED="1587751960493" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587751595816" ID="ID_441202815" MODIFIED="1587751662627" TEXT="We want to remove ignoreCase option"/>
+<node CREATED="1587751606172" ID="ID_1357622766" MODIFIED="1587751611193" TEXT="Use mask with 1 everywhere"/>
+<node CREATED="1587751611775" ID="ID_1838465306" MODIFIED="1587751619205" TEXT="... except in the RightToLeft bit"/>
+<node CREATED="1587751663334" ID="ID_523388410" MODIFIED="1587751702413" TEXT="Mask created with a NOT"/>
+<node CREATED="1587751677273" ID="ID_1886077127" MODIFIED="1587751683655" TEXT="... on ignoreCase"/>
+<node CREATED="1587751621052" FOLDED="true" ID="ID_254272851" MODIFIED="1587751781241" TEXT="Illustration">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1587751774429" ID="ID_574859969" MODIFIED="1587751779227">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="regex_option_removing_flag_from_value.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1587751802119" ID="ID_617774549" MODIFIED="1587751850172" TEXT="Code">
+<icon BUILTIN="licq"/>
+<node CREATED="1587751824545" ID="ID_1426637301" MODIFIED="1587751842982">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="regex_option_removing_flag_from_value_code.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1587751882073" FOLDED="true" ID="ID_1479947538" MODIFIED="1587752220251" TEXT="Adding a flag to value">
+<node CREATED="1587751893764" ID="ID_1718174529" MODIFIED="1587751964607" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587751901528" ID="ID_1645185545" MODIFIED="1587751904604" TEXT="Adding IgnoreCase"/>
+<node CREATED="1587751905095" ID="ID_895190809" MODIFIED="1587751912823" TEXT="Bitwise OR with ignoreCase on value"/>
+</node>
+<node CREATED="1587751947653" ID="ID_391724126" MODIFIED="1587751953119" TEXT="Same as combining of course"/>
+</node>
+<node CREATED="1587752036022" FOLDED="true" ID="ID_1722194579" MODIFIED="1587752220251" TEXT="Definining your own enumeration">
+<node CREATED="1587752054259" FOLDED="true" ID="ID_166573338" MODIFIED="1587752166234" TEXT="Good practice with shift operators">
+<icon BUILTIN="licq"/>
+<node CREATED="1587752088308" ID="ID_160610553" MODIFIED="1587752094608">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="defining_enum.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1587752125511" ID="ID_585625854" MODIFIED="1587752146512" TEXT="... with many flags, it&apos;s very useful"/>
+<node CREATED="1587752169819" ID="ID_1430580347" MODIFIED="1587752180493" TEXT="Can write in Hex as well">
+<node CREATED="1587752180667" ID="ID_380891538" MODIFIED="1587752182904" TEXT="Way clearer"/>
+<node CREATED="1587752206984" FOLDED="true" ID="ID_1408519167" MODIFIED="1587752217731" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1587752209382" ID="ID_164452629" MODIFIED="1587752213421">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="enum_in_hex.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1587752259552" ID="ID_1433347746" MODIFIED="1587752265395" TEXT="Benefits">
+<node CREATED="1587752265633" ID="ID_457238020" MODIFIED="1587752270801" TEXT="Very compact way to store data"/>
+<node CREATED="1587752271384" ID="ID_1327480541" MODIFIED="1587752276072" TEXT="Can be incredibly efficient"/>
+<node CREATED="1587752276904" ID="ID_433791757" MODIFIED="1587752289495" TEXT="Ideal only if options are">
+<node CREATED="1587752289733" ID="ID_350344954" MODIFIED="1587752302488" TEXT="independent"/>
+<node CREATED="1587752293476" ID="ID_104008550" MODIFIED="1587752296250" TEXT="booleans"/>
+</node>
+<node CREATED="1587752310035" ID="ID_1440707222" MODIFIED="1587752325837" TEXT="If small dependencies">
+<node CREATED="1587752315980" ID="ID_62446814" MODIFIED="1587752318526" TEXT="Can be documented"/>
+<node CREATED="1587752319080" ID="ID_1967748572" MODIFIED="1587752322888" TEXT="Code defensively"/>
+</node>
+</node>
+</node>
+<node CREATED="1587408051298" FOLDED="true" ID="ID_697051456" MODIFIED="1587753182685" TEXT="Masking Bytes Example: Color">
+<node CREATED="1587752356499" ID="ID_1564795156" MODIFIED="1587752358666" TEXT="Color">
+<node CREATED="1587752358976" ID="ID_1662457630" MODIFIED="1587752363350" TEXT="Green"/>
+<node CREATED="1587752363949" ID="ID_1228543607" MODIFIED="1587752364895" TEXT="Red"/>
+<node CREATED="1587752365531" ID="ID_1266256042" MODIFIED="1587752366470" TEXT="Blue"/>
+</node>
+<node CREATED="1587752481522" ID="ID_1442679896" MODIFIED="1587752488637" TEXT="Most common store">
+<node CREATED="1587752489251" ID="ID_798811847" MODIFIED="1587752504795" TEXT="Each component have a byte"/>
+<node CREATED="1587752505415" FOLDED="true" ID="ID_127516903" MODIFIED="1587752750061" TEXT="Illustrations">
+<icon BUILTIN="licq"/>
+<node CREATED="1587752540997" ID="ID_242473211" MODIFIED="1587752545835">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="storing_colors.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1587752729914" ID="ID_776267687" MODIFIED="1587752738601">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="storing_colors_2.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1587752636217" ID="ID_359810228" MODIFIED="1587752638060" TEXT="Why?">
+<node CREATED="1587752638671" ID="ID_521616828" MODIFIED="1587752645344" TEXT="It&apos;s very efficient for graphic cards"/>
+<node CREATED="1587752645951" ID="ID_1338670264" MODIFIED="1587752653284" TEXT="Needs to deal huge amount of data quickly"/>
+</node>
+<node CREATED="1587752654261" ID="ID_1593224432" MODIFIED="1587752664189" TEXT="... but in your code don&apos;t put many value for one word!">
+<node CREATED="1587752667556" ID="ID_906361550" MODIFIED="1587752673802" TEXT="Except if you have HUGE amount of data"/>
+</node>
+</node>
+<node CREATED="1587752758376" FOLDED="true" ID="ID_509031397" MODIFIED="1587752959072" TEXT="Constructing a color">
+<icon BUILTIN="licq"/>
+<node CREATED="1587752922254" ID="ID_451736229" MODIFIED="1587752930421">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="constructing_color.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1587753013274" ID="ID_1081173363" MODIFIED="1587753177833" TEXT="Extracting a red byte">
+<node CREATED="1587753080468" ID="ID_1466505593" MODIFIED="1587753083693" TEXT="Mask color value">
+<node CREATED="1587753083859" ID="ID_1033400515" MODIFIED="1587753087411" TEXT="Bitwise AND with red"/>
+</node>
+<node CREATED="1587753088180" ID="ID_1564161116" MODIFIED="1587753103804" TEXT="Shift to the right by 16"/>
+<node CREATED="1587753120390" ID="ID_359173419" MODIFIED="1587753171158" TEXT="code">
+<icon BUILTIN="licq"/>
+<node CREATED="1587753161285" ID="ID_1098893509" MODIFIED="1587753167508">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="extract_red_color.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1587408061209" FOLDED="true" ID="ID_1972032989" MODIFIED="1587753315807" TEXT="Best Practices">
+<node CREATED="1587753184679" ID="ID_561851955" MODIFIED="1587753199230" TEXT="Write complex logical expression"/>
+<node CREATED="1587753199885" ID="ID_1856532929" MODIFIED="1587753202751" TEXT="... as simple as possible"/>
+<node CREATED="1587753203535" ID="ID_265356801" MODIFIED="1587753220129" TEXT="Use flag based enumeration when appropriate">
+<node CREATED="1587753220343" ID="ID_1396301373" MODIFIED="1587753228738" TEXT="Without many dependencies"/>
+<node CREATED="1587753229338" ID="ID_1293312749" MODIFIED="1587753232512" TEXT="... between the flags"/>
+</node>
+<node CREATED="1587753233501" ID="ID_1380477180" MODIFIED="1587753245930" TEXT="Use logical / bitwise operatos to express your intention"/>
+<node CREATED="1587753251065" ID="ID_1775764463" MODIFIED="1587753263347" TEXT="Don&apos;t use decimal when manipulating bits">
+<node CREATED="1587753263736" ID="ID_844129262" MODIFIED="1587753267438" TEXT="Only hex"/>
+<node CREATED="1587753267911" ID="ID_1537945589" MODIFIED="1587753270298" TEXT="... or shifting"/>
+</node>
+</node>
+<node CREATED="1587408070670" ID="ID_215766326" MODIFIED="1587408073378" TEXT="Summary"/>
+</node>
+<node CREATED="1587408075151" FOLDED="true" ID="ID_767573533" MODIFIED="1587753302721" POSITION="right" TEXT="Errors and Accuracy">
 <icon BUILTIN="full-7"/>
 <node CREATED="1587408086430" ID="ID_186153560" MODIFIED="1587408088416" TEXT="Overview"/>
 <node CREATED="1587408089508" ID="ID_1641741587" MODIFIED="1587408094315" TEXT="Rounding and Truncating"/>
