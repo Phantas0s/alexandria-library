@@ -4,7 +4,7 @@
 <node CREATED="1573639987188" FOLDED="true" ID="ID_1813938575" MODIFIED="1573640770244" POSITION="right" TEXT="Root of our problem as writter">
 <node CREATED="1573639993489" ID="ID_393349804" MODIFIED="1573639996774" TEXT="Desire to impress"/>
 </node>
-<node CREATED="1573640046212" FOLDED="true" ID="ID_594394115" MODIFIED="1573640770244" POSITION="right" TEXT="Turn prepositional phrases into adjectives">
+<node CREATED="1573640046212" FOLDED="true" ID="ID_594394115" MODIFIED="1587829301245" POSITION="right" TEXT="Turn prepositional phrases into adjectives">
 <icon BUILTIN="full-1"/>
 <node CREATED="1573640084456" ID="ID_1144400074" MODIFIED="1573640097508" TEXT="Prepositional phrase describe the noun before it">
 <node CREATED="1573640097766" ID="ID_1370115761" MODIFIED="1573640110085" TEXT="try turning it into one-word adjective"/>
@@ -15,7 +15,7 @@
 <node CREATED="1573640078296" ID="ID_1755295251" MODIFIED="1573640081253" TEXT="Tech CEOs"/>
 </node>
 </node>
-<node CREATED="1573640124222" FOLDED="true" ID="ID_1703937074" MODIFIED="1573640770244" POSITION="right" TEXT="Replace adverbs with strong verbs">
+<node CREATED="1573640124222" FOLDED="true" ID="ID_1703937074" MODIFIED="1587829728417" POSITION="right" TEXT="Replace adverbs with strong verbs">
 <icon BUILTIN="full-2"/>
 <node CREATED="1573640145488" ID="ID_598882424" MODIFIED="1573640150324" TEXT="Adverb add details to verb"/>
 <node CREATED="1573640152502" ID="ID_79730246" MODIFIED="1573640159467" TEXT="Can be replaced by strong verbs"/>
@@ -28,7 +28,7 @@
 <node CREATED="1573640170583" ID="ID_351143965" MODIFIED="1573640174588" TEXT="The child screamed"/>
 </node>
 </node>
-<node CREATED="1573640198733" FOLDED="true" ID="ID_706481983" MODIFIED="1573640770245" POSITION="right" TEXT="Avoid the passive voice">
+<node CREATED="1573640198733" FOLDED="true" ID="ID_706481983" MODIFIED="1587829874456" POSITION="right" TEXT="Avoid the passive voice">
 <icon BUILTIN="full-3"/>
 <node CREATED="1573640216117" ID="ID_367102481" MODIFIED="1573640218884" TEXT="Add words to sentence"/>
 <node CREATED="1573640219230" ID="ID_4485864" MODIFIED="1573640224651" TEXT="Distance reader to what&apos;s happening"/>
@@ -38,7 +38,7 @@
 <node CREATED="1573640264374" ID="ID_1239035363" MODIFIED="1573640272395" TEXT="My boss gave me a raise"/>
 </node>
 </node>
-<node CREATED="1573640278324" FOLDED="true" ID="ID_1716570475" MODIFIED="1573640770245" POSITION="right" TEXT="Delete &quot;that&quot; when you can">
+<node CREATED="1573640278324" FOLDED="true" ID="ID_1716570475" MODIFIED="1587829802489" POSITION="right" TEXT="Delete &quot;that&quot; when you can">
 <icon BUILTIN="full-4"/>
 <node CREATED="1573640294470" ID="ID_1710005421" MODIFIED="1573640298163" TEXT="Clutter your writing"/>
 <node CREATED="1573640300502" ID="ID_593826612" MODIFIED="1573640305682" TEXT="Nine time out of ten, you can cut them"/>
@@ -48,7 +48,7 @@
 <node CREATED="1573640335318" ID="ID_1437114459" MODIFIED="1573640343787" TEXT="I hope my colleagues enjoy my presentation"/>
 </node>
 </node>
-<node CREATED="1573640352350" FOLDED="true" ID="ID_1148535044" MODIFIED="1573640770245" POSITION="right" TEXT="Think twice about intensifiers">
+<node CREATED="1573640352350" FOLDED="true" ID="ID_1148535044" MODIFIED="1587829875136" POSITION="right" TEXT="Think twice about intensifiers">
 <icon BUILTIN="full-5"/>
 <node CREATED="1573640375093" ID="ID_323090257" MODIFIED="1573640384898" TEXT="Often a sign to use better adjective"/>
 <node CREATED="1573640385310" ID="ID_1173527175" MODIFIED="1573640399328" TEXT="Example">
@@ -57,7 +57,7 @@
 <node CREATED="1573640393206" ID="ID_1219034163" MODIFIED="1573640396680" TEXT="It&apos;s freezing outside"/>
 </node>
 </node>
-<node CREATED="1573640403844" FOLDED="true" ID="ID_1024341671" MODIFIED="1573640770245" POSITION="right" TEXT="Eliminate conjunctions">
+<node CREATED="1573640403844" FOLDED="true" ID="ID_1024341671" MODIFIED="1587829873489" POSITION="right" TEXT="Eliminate conjunctions">
 <icon BUILTIN="full-6"/>
 <node CREATED="1573640431925" ID="ID_87802429" MODIFIED="1573640438992" TEXT="If using two adjectives to describe a noun"/>
 <node CREATED="1573640440908" ID="ID_1608882229" MODIFIED="1573640450258" TEXT="... you can often cut out conjunctions and use comma instead"/>
@@ -67,7 +67,7 @@
 <node CREATED="1573640461356" ID="ID_1905300578" MODIFIED="1573640462023" TEXT="The long, crowded flight exhausted the flight attendants."/>
 </node>
 </node>
-<node CREATED="1573640470787" FOLDED="true" ID="ID_885707570" MODIFIED="1573640770245" POSITION="right" TEXT="Don&apos;t start sentence with &quot;there&quot;">
+<node CREATED="1573640470787" FOLDED="true" ID="ID_885707570" MODIFIED="1587829839592" POSITION="right" TEXT="Don&apos;t start sentence with &quot;there&quot;">
 <icon BUILTIN="full-7"/>
 <node CREATED="1573640488077" ID="ID_1601175611" MODIFIED="1573640491952" TEXT="Buries real meat of the sentence"/>
 <node CREATED="1573640495835" ID="ID_1337975775" MODIFIED="1573640501337" TEXT="Flip the sentence around">
@@ -79,7 +79,7 @@
 <node CREATED="1573640520115" ID="ID_984353429" MODIFIED="1573640527112" TEXT="The students think school days should be shorter"/>
 </node>
 </node>
-<node CREATED="1573640535236" FOLDED="true" ID="ID_1433592031" MODIFIED="1573640770245" POSITION="right" TEXT="Swap nouns for verbs">
+<node CREATED="1573640535236" FOLDED="true" ID="ID_1433592031" MODIFIED="1587829847209" POSITION="right" TEXT="Swap nouns for verbs">
 <icon BUILTIN="full-8"/>
 <node CREATED="1573640557226" ID="ID_1067532642" MODIFIED="1573640565528" TEXT="Don&apos;t water down sentences by using phrases"/>
 <node CREATED="1573640565901" ID="ID_297811440" MODIFIED="1573640570040" TEXT="... that could be single words"/>
@@ -89,11 +89,11 @@
 <node CREATED="1573640582451" ID="ID_1531205288" MODIFIED="1573640587263" TEXT="I decided to exercise daily"/>
 </node>
 </node>
-<node CREATED="1573640594860" FOLDED="true" ID="ID_776390678" MODIFIED="1573640769205" POSITION="right" TEXT="Cut word phrases">
+<node CREATED="1573640594860" ID="ID_776390678" MODIFIED="1587829848305" POSITION="right" TEXT="Cut word phrases">
 <icon BUILTIN="full-9"/>
 <node CREATED="1573640607722" ID="ID_1122193984" MODIFIED="1573640616440" TEXT="Only bulk up your word count"/>
 <node CREATED="1573640616780" ID="ID_718798793" MODIFIED="1573640619568" TEXT="Doesn&apos;t add anything"/>
-<node CREATED="1573640619954" ID="ID_77227139" MODIFIED="1573640688470" TEXT="Examples">
+<node CREATED="1573640619954" FOLDED="true" ID="ID_77227139" MODIFIED="1587829872129" TEXT="Examples">
 <icon BUILTIN="wizard"/>
 <node CREATED="1573640626564" ID="ID_1223944680" MODIFIED="1573640627134" TEXT="In order to / to"/>
 <node CREATED="1573640630036" ID="ID_150890563" MODIFIED="1573640630581" TEXT="Due to the fact that / because"/>
@@ -114,19 +114,19 @@
 <node CREATED="1573640685260" ID="ID_967349842" MODIFIED="1573640685787" TEXT="After the fact / after"/>
 </node>
 </node>
-<node CREATED="1573640702635" FOLDED="true" ID="ID_1760052478" MODIFIED="1573641280118" POSITION="left" TEXT="Avoid adjective strings">
+<node CREATED="1573640702635" FOLDED="true" ID="ID_1760052478" MODIFIED="1587829923873" POSITION="left" TEXT="Avoid adjective strings">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1573640710155" ID="ID_1180494986" MODIFIED="1573640716040" TEXT="Instead of using two adjectives"/>
 <node CREATED="1573640717027" ID="ID_357100160" MODIFIED="1573640720311" TEXT="... use a stronger one"/>
 <node CREATED="1573640724539" ID="ID_1038261556" MODIFIED="1573640730519" TEXT="It will be more concise AND accurate"/>
-<node CREATED="1573640738123" ID="ID_40106963" MODIFIED="1573640753926" TEXT="Example">
+<node CREATED="1573640738123" FOLDED="true" ID="ID_40106963" MODIFIED="1587829883808" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1573640743881" ID="ID_525241870" MODIFIED="1573640745823" TEXT="The customers are happy and excited about today&#x2019;s product launch"/>
 <node CREATED="1573640748979" ID="ID_112394837" MODIFIED="1573640750799" TEXT="The customers are thrilled about today&#x2019;s product launch"/>
 </node>
 </node>
-<node CREATED="1573640765057" FOLDED="true" ID="ID_761108755" MODIFIED="1573641280118" POSITION="left" TEXT="Don&apos;t use noun strings">
+<node CREATED="1573640765057" FOLDED="true" ID="ID_761108755" MODIFIED="1587829931671" POSITION="left" TEXT="Don&apos;t use noun strings">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1573640791890" ID="ID_853082114" MODIFIED="1573640798262" TEXT="More than three nouns in a row"/>
@@ -137,7 +137,7 @@
 <node CREATED="1573640826097" ID="ID_1019021798" MODIFIED="1573640826601" TEXT="Company policy on vacation rollover"/>
 </node>
 </node>
-<node CREATED="1573640830321" FOLDED="true" ID="ID_790062805" MODIFIED="1573640887787" POSITION="left" TEXT="Use positive description, not negative">
+<node CREATED="1573640830321" FOLDED="true" ID="ID_790062805" MODIFIED="1587829938441" POSITION="left" TEXT="Use positive description, not negative">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1573640857089" ID="ID_1324312970" MODIFIED="1573640866766" TEXT="Instead to describe something what it&apos;s not"/>
@@ -162,32 +162,32 @@
 <node CREATED="1573640946640" ID="ID_736833861" MODIFIED="1573640947137" TEXT="The parent and teenager disagree on the curfew"/>
 </node>
 </node>
-<node CREATED="1573640954192" FOLDED="true" ID="ID_6422749" MODIFIED="1573641280118" POSITION="left" TEXT="Opt for common words">
+<node CREATED="1573640954192" FOLDED="true" ID="ID_6422749" MODIFIED="1587829988873" POSITION="left" TEXT="Opt for common words">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-4"/>
 <node CREATED="1573640961889" ID="ID_240846134" MODIFIED="1573640966174" TEXT="Simplify your language"/>
-<node CREATED="1573640974801" FOLDED="true" ID="ID_786181391" MODIFIED="1573641108747" TEXT="Example">
+<node CREATED="1573640974801" FOLDED="true" ID="ID_786181391" MODIFIED="1587829973024" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1573640977616" ID="ID_171067382" MODIFIED="1573640979228" TEXT="My core competency relates to getting buy-in from all stakeholders"/>
 <node CREATED="1573640986057" ID="ID_227176080" MODIFIED="1573640986723" TEXT="I like to ensure that everyone agrees."/>
 </node>
 </node>
-<node CREATED="1573640998616" FOLDED="true" ID="ID_53021926" MODIFIED="1573641280119" POSITION="left" TEXT="Avoid definitions">
+<node CREATED="1573640998616" FOLDED="true" ID="ID_53021926" MODIFIED="1587829988096" POSITION="left" TEXT="Avoid definitions">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-5"/>
 <node CREATED="1573641013063" ID="ID_720567544" MODIFIED="1573641017340" TEXT="If you need to define a word"/>
 <node CREATED="1573641017692" ID="ID_1025179947" MODIFIED="1573641022324" TEXT="... you should use a less confusing one"/>
-<node CREATED="1573641025473" ID="ID_144052747" MODIFIED="1573641033924" TEXT="Same principle on sentence">
+<node CREATED="1573641025473" FOLDED="true" ID="ID_144052747" MODIFIED="1587829987039" TEXT="Same principle on sentence">
 <node CREATED="1573641034680" ID="ID_1032817252" MODIFIED="1573641038444" TEXT="Don&apos;t use &quot;in other words&quot;"/>
 <node CREATED="1573641038832" ID="ID_976014533" MODIFIED="1573641042309" TEXT="cut the sentence itself"/>
 </node>
-<node CREATED="1573641050233" ID="ID_630969547" MODIFIED="1573641106523" TEXT="Example">
+<node CREATED="1573641050233" FOLDED="true" ID="ID_630969547" MODIFIED="1587829985543" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1573641052321" ID="ID_551228308" MODIFIED="1573641052804" TEXT="My emotions got the best of me. In other words, I was angry."/>
 <node CREATED="1573641058201" ID="ID_763221977" MODIFIED="1573641058713" TEXT="I was angry."/>
 </node>
 </node>
-<node CREATED="1573641064904" FOLDED="true" ID="ID_1197199955" MODIFIED="1573641280119" POSITION="left" TEXT="Nix &quot;currently&quot;">
+<node CREATED="1573641064904" FOLDED="true" ID="ID_1197199955" MODIFIED="1587830024928" POSITION="left" TEXT="Nix &quot;currently&quot;">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-6"/>
 <node CREATED="1573641088560" ID="ID_821060003" MODIFIED="1573641117763" TEXT="Example">
@@ -196,10 +196,10 @@
 <node CREATED="1573641095408" ID="ID_1359388877" MODIFIED="1573641101883" TEXT="I&apos;m in a good mood"/>
 </node>
 </node>
-<node CREATED="1573641119016" FOLDED="true" ID="ID_589236475" MODIFIED="1573641280119" POSITION="left" TEXT="Skip relative pronouns">
+<node CREATED="1573641119016" FOLDED="true" ID="ID_589236475" MODIFIED="1587830080112" POSITION="left" TEXT="Skip relative pronouns">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-7"/>
-<node CREATED="1573641127760" ID="ID_117623096" MODIFIED="1573641138884" TEXT="&quot;that or &quot;who&quot; modify noungs">
+<node CREATED="1573641127760" ID="ID_117623096" MODIFIED="1587830036955" TEXT="&quot;that or &quot;who&quot; modify nouns">
 <node CREATED="1573641139142" ID="ID_1216013036" MODIFIED="1573641146548" TEXT="you can typically swap them out"/>
 <node CREATED="1573641146919" ID="ID_512562042" MODIFIED="1573641154411" TEXT="... for adjectives"/>
 </node>
@@ -209,7 +209,7 @@
 <node CREATED="1573641172951" ID="ID_1125203187" MODIFIED="1573641174363" TEXT="The family searched for four-bedroom houses"/>
 </node>
 </node>
-<node CREATED="1573641192821" FOLDED="true" ID="ID_1532887675" MODIFIED="1573641280119" POSITION="left" TEXT="Reconsider &quot;make&quot;">
+<node CREATED="1573641192821" FOLDED="true" ID="ID_1532887675" MODIFIED="1587830079271" POSITION="left" TEXT="Reconsider &quot;make&quot;">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-8"/>
 <node CREATED="1573641204687" ID="ID_1071137812" MODIFIED="1573641211732" TEXT="Choose a verb"/>

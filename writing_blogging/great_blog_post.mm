@@ -1,6 +1,14 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1533144955075" ID="ID_254595827" LINK="https://www.youtube.com/watch?v=lgdY6_y12ts" MODIFIED="1570645760376" TEXT="Great blog post">
+<node CREATED="1533145296210" ID="ID_1595611021" MODIFIED="1570645502133" POSITION="right" TEXT="The blog post">
+<icon BUILTIN="full-1"/>
+<node CREATED="1533145266387" ID="ID_1097535431" MODIFIED="1533145275128" TEXT="Just be you in the blog post"/>
+<node CREATED="1533145232330" FOLDED="true" ID="ID_859490154" MODIFIED="1570645751903" TEXT="Just write">
+<node CREATED="1533145236379" ID="ID_424971386" MODIFIED="1533145252463" TEXT="Don&apos;t care about the shape"/>
+<node CREATED="1533145253122" ID="ID_199746902" MODIFIED="1533145255633" TEXT="Clean up later"/>
+</node>
+</node>
 <node CREATED="1533145277009" ID="ID_1721731940" MODIFIED="1570645749780" POSITION="right" TEXT="10 tips">
 <icon BUILTIN="full-2"/>
 <node CREATED="1533144969310" ID="ID_1726512512" MODIFIED="1574840817236" TEXT="Make the post transformative">
@@ -62,14 +70,6 @@
 <node CREATED="1533145739287" ID="ID_278422058" MODIFIED="1549000300783" TEXT="Don&apos;t be a perfectionnist">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
-</node>
-</node>
-<node CREATED="1533145296210" ID="ID_1595611021" MODIFIED="1570645502133" POSITION="left" TEXT="The blog post">
-<icon BUILTIN="full-1"/>
-<node CREATED="1533145266387" ID="ID_1097535431" MODIFIED="1533145275128" TEXT="Just be you in the blog post"/>
-<node CREATED="1533145232330" FOLDED="true" ID="ID_859490154" MODIFIED="1570645751903" TEXT="Just write">
-<node CREATED="1533145236379" ID="ID_424971386" MODIFIED="1533145252463" TEXT="Don&apos;t care about the shape"/>
-<node CREATED="1533145253122" ID="ID_199746902" MODIFIED="1533145255633" TEXT="Clean up later"/>
 </node>
 </node>
 </node>

@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1535012067444" ID="ID_1465867916" LINK="https://medium.com/swlh/how-i-got-6-2-million-pageviews-and-144-920-followers-d4d3fa440802" MODIFIED="1535012091395" TEXT="Blogging guide">
-<node CREATED="1535012335520" FOLDED="true" ID="ID_808425402" MODIFIED="1574841128307" POSITION="right" TEXT="Preparing for the storm">
+<node CREATED="1535012335520" FOLDED="true" ID="ID_808425402" MODIFIED="1587834062982" POSITION="right" TEXT="Preparing for the storm">
 <icon BUILTIN="full-1"/>
 <node CREATED="1535012345928" ID="ID_1172532732" MODIFIED="1574841105950" TEXT="Pageview means nothing">
 <node CREATED="1535012351311" ID="ID_1690838157" MODIFIED="1535012354755" TEXT="Need people who come back!"/>
@@ -36,9 +36,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1535012662042" FOLDED="true" ID="ID_158225960" MODIFIED="1574841187059" POSITION="right" TEXT="Let&apos;s write">
+<node CREATED="1535012662042" FOLDED="true" ID="ID_158225960" MODIFIED="1587834076157" POSITION="right" TEXT="Let&apos;s write">
 <icon BUILTIN="full-2"/>
-<node CREATED="1535012676205" FOLDED="true" ID="ID_1751252150" MODIFIED="1574841136040" TEXT="Write as simple as possible">
+<node CREATED="1535012676205" FOLDED="true" ID="ID_1751252150" MODIFIED="1587834067719" TEXT="Write as simple as possible">
 <node CREATED="1535012686036" ID="ID_1202194397" MODIFIED="1535012690015" TEXT="But not simpler!"/>
 <node CREATED="1535012708074" ID="ID_452652179" MODIFIED="1535012722562" TEXT="No more 25 words / sentence"/>
 <node CREATED="1535012731213" ID="ID_754085717" MODIFIED="1535012741249" TEXT="No more three sentences / paragraph"/>
@@ -47,7 +47,7 @@
 <node CREATED="1535012797490" ID="ID_150710623" MODIFIED="1535012801018" TEXT="Need to go to the point"/>
 </node>
 </node>
-<node CREATED="1535012816867" FOLDED="true" ID="ID_326682026" MODIFIED="1574841142138" TEXT="Treat your article as a startup">
+<node CREATED="1535012816867" FOLDED="true" ID="ID_326682026" MODIFIED="1587834070293" TEXT="Treat your article as a startup">
 <node CREATED="1535012824604" ID="ID_571346549" MODIFIED="1535012835590" TEXT="Identify the problem of the audience"/>
 <node CREATED="1535012848899" ID="ID_1481831264" MODIFIED="1535012852681" TEXT="Solve the problem"/>
 </node>
@@ -62,7 +62,7 @@
 <node CREATED="1535012973737" ID="ID_1577743697" MODIFIED="1535012977223" TEXT="Metrics"/>
 </node>
 </node>
-<node CREATED="1535012989643" ID="ID_1049449385" MODIFIED="1574841149311" TEXT="Structure of a blog post">
+<node CREATED="1535012989643" FOLDED="true" ID="ID_1049449385" MODIFIED="1587834071686" TEXT="Structure of a blog post">
 <node CREATED="1535012998651" ID="ID_544950886" MODIFIED="1535013008029" TEXT="Curious headline">
 <node CREATED="1535013029388" ID="ID_1653024354" MODIFIED="1535013040352" TEXT="&quot;How&quot; and &quot;Why&quot;"/>
 <node CREATED="1535013040771" ID="ID_68420072" MODIFIED="1535013049657" TEXT="&quot;List&quot; is a killer"/>
@@ -102,7 +102,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1535013382784" ID="ID_993061810" MODIFIED="1570645740245" POSITION="left" TEXT="When ready to publish">
+<node CREATED="1535013382784" FOLDED="true" ID="ID_993061810" MODIFIED="1587834073909" POSITION="left" TEXT="When ready to publish">
 <icon BUILTIN="full-3"/>
 <node CREATED="1535013402542" ID="ID_1180981991" MODIFIED="1535013410581" TEXT="Ask the reader to share the article"/>
 <node CREATED="1535013434880" FOLDED="true" ID="ID_528451921" MODIFIED="1570645740799" TEXT="Sending newsletter at peak time">
@@ -126,7 +126,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1535013666758" ID="ID_1955395201" MODIFIED="1570645733885" POSITION="left" TEXT="Redistribution">
+<node CREATED="1535013666758" FOLDED="true" ID="ID_1955395201" MODIFIED="1587834074584" POSITION="left" TEXT="Redistribution">
 <icon BUILTIN="full-4"/>
 <node CREATED="1535013704686" FOLDED="true" ID="ID_1250669416" MODIFIED="1570645738725" TEXT="Target your editors">
 <node CREATED="1535013710269" ID="ID_1564781156" MODIFIED="1535013718026" TEXT="Contact page on publisher or tech blogs">

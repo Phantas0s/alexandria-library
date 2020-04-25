@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1551722926877" ID="ID_728695612" LINK="https://www.youtube.com/watch?v=TVy7MtVbMA4" MODIFIED="1552073262650" TEXT="Topic planning - daedtech">
-<node CREATED="1552073273662" ID="ID_1986488002" MODIFIED="1552074156028" POSITION="right" TEXT="Spreadsheet">
+<node CREATED="1551722926877" ID="ID_728695612" LINK="https://www.youtube.com/watch?v=TVy7MtVbMA4" MODIFIED="1587834110947" TEXT="Topic planning">
+<node CREATED="1552073273662" FOLDED="true" ID="ID_1986488002" MODIFIED="1587834087144" POSITION="right" TEXT="Spreadsheet">
 <icon BUILTIN="full-1"/>
 <node CREATED="1552073279521" ID="ID_568349068" MODIFIED="1552073312363" TEXT="Title">
 <node CREATED="1552073280531" ID="ID_1859650782" MODIFIED="1552073283583" TEXT="Name of the blog post"/>
@@ -48,7 +48,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1552073729649" ID="ID_1839842513" MODIFIED="1552074157348" POSITION="left" TEXT="Pick a good search term">
+<node CREATED="1552073729649" ID="ID_1839842513" MODIFIED="1552074157348" POSITION="right" TEXT="Pick a good search term">
 <icon BUILTIN="full-2"/>
 <node CREATED="1552073828425" ID="ID_1061021812" MODIFIED="1552073835467" TEXT="Use keyword everywhere..."/>
 <node CREATED="1552073977793" ID="ID_1898677869" MODIFIED="1552073982585" TEXT="... but only suggesting"/>
@@ -56,7 +56,7 @@
 <node CREATED="1552074046649" ID="ID_518521922" MODIFIED="1552074049171" TEXT="Difficult to rank"/>
 </node>
 </node>
-<node CREATED="1552074149716" ID="ID_1141194707" MODIFIED="1552074159238" POSITION="right" TEXT="Use search data to plan">
+<node CREATED="1552074149716" FOLDED="true" ID="ID_1141194707" MODIFIED="1587834087996" POSITION="left" TEXT="Use search data to plan">
 <icon BUILTIN="full-3"/>
 <node CREATED="1552074176679" ID="ID_991818574" MODIFIED="1552074191231" TEXT="Searchers always ask questions"/>
 <node CREATED="1552074224794" ID="ID_14196718" MODIFIED="1552074231659" TEXT="Look what is successful right now"/>
