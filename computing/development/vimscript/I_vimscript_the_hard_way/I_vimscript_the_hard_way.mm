@@ -1,6 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1587646039306" TEXT="Vimscript the Hard Way">
+<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1587824424378" TEXT="Vimscript the Hard Way">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1587642194390" ID="ID_1508982856" MODIFIED="1587642196379" POSITION="right" TEXT="Preface"/>
 <node CREATED="1587646147225" FOLDED="true" ID="ID_162962129" MODIFIED="1587649520857" POSITION="right" TEXT="Echoing Messages">
 <icon BUILTIN="full-1"/>
@@ -27,7 +28,7 @@
 </node>
 <node CREATED="1587648581450" ID="ID_937758005" MODIFIED="1587648584635" TEXT="1.3 Exercises"/>
 </node>
-<node CREATED="1587646500073" FOLDED="true" ID="ID_132150309" MODIFIED="1587749249615" POSITION="right" TEXT="Setting Options">
+<node CREATED="1587646500073" FOLDED="true" ID="ID_132150309" MODIFIED="1587822896119" POSITION="right" TEXT="Setting Options">
 <icon BUILTIN="full-2"/>
 <node CREATED="1587646534627" FOLDED="true" ID="ID_1314341666" MODIFIED="1587728925706" TEXT="2.1 Boolean Options">
 <node CREATED="1587646580475" ID="ID_308265363" MODIFIED="1587646591318" TEXT="Can be turn on / off"/>
@@ -394,7 +395,7 @@
 </node>
 <node CREATED="1587728534144" ID="ID_153653002" MODIFIED="1587728537736" TEXT="10.2 Exercises"/>
 </node>
-<node CREATED="1587728538695" FOLDED="true" ID="ID_139679684" MODIFIED="1587729364498" POSITION="right" TEXT="Buffer-Local Options and Mappings">
+<node CREATED="1587728538695" FOLDED="true" ID="ID_139679684" MODIFIED="1587823989842" POSITION="right" TEXT="Buffer-Local Options and Mappings">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1587728694797" ID="ID_1066036249" MODIFIED="1587728704422" TEXT="11.1 Mappings">
@@ -493,8 +494,7 @@
   <body>
     <img src="autocommand_explained.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587743723903" ID="ID_1287703812" MODIFIED="1587743727034" TEXT="Many events in Vim"/>
@@ -627,8 +627,7 @@
       :augroup END
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1587745104438" ID="ID_1207240123" MODIFIED="1587745123784" TEXT="Merge group">
@@ -647,8 +646,7 @@
       :augroup END
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-2"/>
 </node>
 <node CREATED="1587745125565" ID="ID_243375028" MODIFIED="1587745131797" TEXT="When declaring a group again..."/>
@@ -678,8 +676,7 @@
       :augroup END
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 </node>
@@ -711,8 +708,7 @@
   <body>
     <img src="operator_example.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -786,7 +782,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587749243982" ID="ID_965179661" MODIFIED="1587749271181" POSITION="right" TEXT="More Operator-Pending Mappings ">
+<node CREATED="1587749243982" FOLDED="true" ID="ID_965179661" MODIFIED="1587823989844" POSITION="right" TEXT="More Operator-Pending Mappings ">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-6"/>
 <node CREATED="1587749398063" ID="ID_1716726738" MODIFIED="1587749403700" TEXT="Introduction">
@@ -794,8 +790,309 @@
 <node CREATED="1587749411870" ID="ID_1461858151" MODIFIED="1587749413004" TEXT=":onoremap ih :&lt;c-u&gt;execute &quot;normal! ?^==\\+$\r:nohlsearch\rkvg_&quot;&lt;cr&gt; ">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1587820884649" ID="ID_215459684" MODIFIED="1587820952380" TEXT="... target heading in markdown">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Topic Two
+    </p>
+    <p>
+      ======
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1587749416091" ID="ID_315290193" MODIFIED="1587749419102" TEXT="16.1 Normal"/>
+</node>
+<node CREATED="1587749416091" ID="ID_315290193" MODIFIED="1587749419102" TEXT="16.1 Normal">
+<node CREATED="1587820188269" ID="ID_1948618726" MODIFIED="1587820191488" TEXT=":normal">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587820192257" ID="ID_997155931" MODIFIED="1587820198006" TEXT="Takes a set of characters"/>
+<node CREATED="1587820199167" ID="ID_1278573091" MODIFIED="1587820203109" TEXT="... perform whatever operation"/>
+<node CREATED="1587820203657" ID="ID_437718222" MODIFIED="1587820207102" TEXT="... as if you&apos;re in normal mode"/>
+<node CREATED="1587820656696" ID="ID_1412814847" MODIFIED="1587820662161" TEXT="Don&apos;t understand special characters">
+<node CREATED="1587820663050" ID="ID_989841594" MODIFIED="1587820670206" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587820636943" ID="ID_1473552294" MODIFIED="1587820638931" TEXT="&lt;cr&gt;"/>
+<node CREATED="1587820639470" ID="ID_1214151168" MODIFIED="1587820641586" TEXT="&lt;space&gt;"/>
+<node CREATED="1587820642093" ID="ID_1164678606" MODIFIED="1587820642677" TEXT="..."/>
+</node>
+</node>
+<node CREATED="1587820273161" ID="ID_1911146554" MODIFIED="1587820283272" TEXT="Talk about the bang (!) later"/>
+</node>
+<node CREATED="1587820285715" FOLDED="true" ID="ID_1622878745" MODIFIED="1587821735868" TEXT="16.2 Execute">
+<node CREATED="1587820301990" ID="ID_585840416" MODIFIED="1587820305028" TEXT=":execute">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587820305618" ID="ID_1924998644" MODIFIED="1587820312212" TEXT="Take a Vimscript string"/>
+<node CREATED="1587820313511" ID="ID_457385022" MODIFIED="1587820320620" TEXT="... performs it as a command"/>
+<node CREATED="1587820354513" ID="ID_547344204" MODIFIED="1587820619738" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587820358124" ID="ID_1134431847" MODIFIED="1587820370883" TEXT=":execute &quot;write&quot;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587820363603" ID="ID_515668630" MODIFIED="1587820370425" TEXT=":execute &quot;:normal! gg&quot;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587820436943" ID="ID_699358261" MODIFIED="1587820452629" TEXT=":execute &quot;:normal! gg/a&lt;cr&gt;&quot;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587820534559" ID="ID_1992248057" MODIFIED="1587820541845" TEXT="... useful on the last one"/>
+<node CREATED="1587820542462" ID="ID_1808694354" MODIFIED="1587820626127" TEXT="... since normal doesn&apos;t understand "/>
+<node CREATED="1587820626664" ID="ID_23226457" MODIFIED="1587820628232" TEXT="... &quot;special characters&quot;"/>
+</node>
+<node CREATED="1587820572704" ID="ID_1322978982" MODIFIED="1587820600924" TEXT="Substitute every special characters">
+<node CREATED="1587820602604" ID="ID_542808327" MODIFIED="1587820616888" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587820604239" ID="ID_543180747" MODIFIED="1587820613371" TEXT="&lt;cr&gt; to \r"/>
+</node>
+</node>
+<node CREATED="1587820782903" ID="ID_1548166530" MODIFIED="1587820785845" TEXT=".. so we can do">
+<node CREATED="1587820786090" ID="ID_1566797855" MODIFIED="1587820790244" TEXT=":normal! ?^==\+$&lt;cr&gt;:nohlsearch&lt;cr&gt;kvg_ ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1587820702159" ID="ID_1974443775" MODIFIED="1587820797743" TEXT="... other pieces of the command">
+<node CREATED="1587820711225" ID="ID_1273206034" MODIFIED="1587821044552" TEXT="?^==\+$ ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1587820808705" ID="ID_20573262" MODIFIED="1587820812260" TEXT="Search backward"/>
+<node CREATED="1587820812847" ID="ID_208358960" MODIFIED="1587820848608" TEXT="... for any line with two &quot;=&quot; or more"/>
+<node CREATED="1587820819434" ID="ID_561614470" MODIFIED="1587820828079" TEXT="... and nothing else"/>
+</node>
+<node CREATED="1587820976594" ID="ID_1750590031" MODIFIED="1587821048366" TEXT=":nohlsearch">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1587820978684" ID="ID_380106527" MODIFIED="1587820982632" TEXT="Clear the previous search"/>
+</node>
+<node CREATED="1587820989822" ID="ID_527265440" MODIFIED="1587821039572" TEXT="kvg_">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1587821021631" ID="ID_800665844" MODIFIED="1587821037219" TEXT="k">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1587820994093" ID="ID_537538604" MODIFIED="1587820997014" TEXT="More up one line"/>
+</node>
+<node CREATED="1587821022582" ID="ID_364678277" MODIFIED="1587821037893" TEXT="v">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1587820998070" ID="ID_1536833594" MODIFIED="1587821004174" TEXT="Enter visual mode"/>
+</node>
+<node CREATED="1587821004610" ID="ID_1450193484" MODIFIED="1587821038791" TEXT="g_">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1587821008437" ID="ID_1161963451" MODIFIED="1587821016811" TEXT="move to the last non blank character"/>
+<node CREATED="1587821017393" ID="ID_1490360502" MODIFIED="1587821020291" TEXT="... of the current line"/>
+<node CREATED="1587821076528" ID="ID_1457233919" MODIFIED="1587821080952" TEXT="Use instead of $"/>
+<node CREATED="1587821081532" ID="ID_1308033212" MODIFIED="1587821094919" TEXT="... not to highlight newline character"/>
+</node>
+</node>
+</node>
+<node CREATED="1587821144763" ID="ID_956412899" MODIFIED="1587821149180" TEXT="16.3 Results"/>
+<node CREATED="1587821251934" ID="ID_1484742649" MODIFIED="1587821256532" TEXT="16.4 Exercises">
+<node CREATED="1587821689451" ID="ID_387181376" MODIFIED="1587821710271" TEXT=":help normal">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587821693449" ID="ID_575513170" MODIFIED="1587821709731" TEXT=":help execute">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587821696149" ID="ID_943716388" MODIFIED="1587821701123" TEXT=":help expr-quote">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1587821701611" ID="ID_1382960288" MODIFIED="1587821708680" TEXT="Escape sequences you can use in strings"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1587821737614" FOLDED="true" ID="ID_910088450" MODIFIED="1587823989844" POSITION="right" TEXT="Status Lines">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-7"/>
+<node COLOR="#338800" CREATED="1587821879657" ID="ID_1209802640" MODIFIED="1587822033356" TEXT="passed - use plugin for that">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node CREATED="1587822063777" FOLDED="true" ID="ID_17837480" MODIFIED="1587823989846" POSITION="right" TEXT="Responsible Coding">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-8"/>
+<node CREATED="1587822103981" ID="ID_984568162" MODIFIED="1587822107375" TEXT="Introduction">
+<node CREATED="1587822107533" ID="ID_1500485807" MODIFIED="1587822116134" TEXT="Dive from now in Vimscript as programming language"/>
+<node CREATED="1587822116692" ID="ID_1140735958" MODIFIED="1587822128717" TEXT="How to stay sane while writing lot of Vimscript?"/>
+</node>
+<node CREATED="1587822129670" ID="ID_1434803942" MODIFIED="1587822133854" TEXT="18.1 Commenting">
+<node CREATED="1587822143153" ID="ID_899907925" MODIFIED="1587822148362" TEXT="Vimscript is powerful"/>
+<node CREATED="1587822149196" ID="ID_1516380944" MODIFIED="1587822158024" TEXT="... but grown organically into a maze"/>
+<node CREATED="1587822184422" ID="ID_1601706362" MODIFIED="1587822194451" TEXT="Be defensive!">
+<node CREATED="1587822202700" ID="ID_113615951" MODIFIED="1587822204144" TEXT="Comment"/>
+<node CREATED="1587822204572" ID="ID_2777814" MODIFIED="1587822214014" TEXT="If relevant help topic"/>
+<node CREATED="1587822214658" ID="ID_282515355" MODIFIED="1587822216729" TEXT="... mention it!"/>
+</node>
+</node>
+<node CREATED="1587822226135" ID="ID_1888330657" MODIFIED="1587822228853" TEXT="18.2 Grouping">
+<node CREATED="1587822480736" ID="ID_684593275" MODIFIED="1587822484701" TEXT="Folding">
+<node CREATED="1587822489048" ID="ID_797208506" MODIFIED="1587822499034" TEXT=":set foldmethod=marker ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1587822531669" ID="ID_812616545" MODIFIED="1587822554379" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &quot; Vimscript file settings ---------------------- {{{
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;augroup filetype_vim
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;autocmd!
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;autocmd FileType vim setlocal foldmethod=marker
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;augroup END
+    </p>
+    <p>
+      &quot; }}}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1587822576416" ID="ID_618448339" MODIFIED="1587822589249" TEXT="Grouping as comment is ugly"/>
+<node CREATED="1587822589806" ID="ID_1152265297" MODIFIED="1587822592244" TEXT="... for most file"/>
+</node>
+<node CREATED="1587822660739" ID="ID_845184261" MODIFIED="1587822664499" TEXT="18.3 Short Names">
+<node CREATED="1587822670980" ID="ID_1062315278" MODIFIED="1587822678933" TEXT="Abbreviations for">
+<node CREATED="1587822679147" ID="ID_67606395" MODIFIED="1587822680448" TEXT="commands"/>
+<node CREATED="1587822680907" ID="ID_935177402" MODIFIED="1587822681835" TEXT="options"/>
+</node>
+<node CREATED="1587822684593" ID="ID_1721905128" MODIFIED="1587822685815" TEXT="Example">
+<node CREATED="1587822685817" ID="ID_211505338" MODIFIED="1587822699018" TEXT=":setlocal wrap">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587822692086" ID="ID_968371712" MODIFIED="1587822699437" TEXT=":setl wrap">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587822695531" ID="ID_1926932737" MODIFIED="1587822698304" TEXT="... same command"/>
+</node>
+<node CREATED="1587822708343" ID="ID_1277977314" MODIFIED="1587822721210" TEXT="Don&apos;t use them in">
+<node CREATED="1587822721671" ID="ID_287305621" MODIFIED="1587822724415" TEXT="your vimrc"/>
+<node CREATED="1587822725067" ID="ID_939353515" MODIFIED="1587822726058" TEXT="plugins"/>
+</node>
+<node CREATED="1587822744196" ID="ID_1232504094" MODIFIED="1587822748790" TEXT="Great to run command manually"/>
+</node>
+<node CREATED="1587822757370" ID="ID_150455166" MODIFIED="1587822761827" TEXT="18.4 Exercises"/>
+</node>
+<node CREATED="1587823978760" FOLDED="true" ID="ID_1946613874" MODIFIED="1587825222557" POSITION="right" TEXT="Variables">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-9"/>
+<node CREATED="1587824003107" ID="ID_1610159941" MODIFIED="1587824007099" TEXT="Introduction">
+<node CREATED="1587824027011" ID="ID_1220766222" MODIFIED="1587824030465" TEXT="Declaring variable"/>
+<node CREATED="1587824017302" ID="ID_204654803" MODIFIED="1587824038901" TEXT=":let foo = &quot;bar&quot;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587824022734" ID="ID_1660041958" MODIFIED="1587824044234" TEXT=":echo foo">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1587824063499" ID="ID_391095965" MODIFIED="1587824071405" TEXT="19.1 Options as Variable">
+<node CREATED="1587824188194" ID="ID_203003282" MODIFIED="1587824199838" TEXT="Using ampersand &quot;&amp;&quot;"/>
+<node CREATED="1587824200482" ID="ID_173042907" MODIFIED="1587824211608" TEXT="Tells Vim you&apos;re referring to an option"/>
+<node CREATED="1587824212212" ID="ID_1720673698" MODIFIED="1587824216155" TEXT="... not a variable with same name"/>
+<node CREATED="1587824219751" ID="ID_453112437" MODIFIED="1587824247071" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587824221275" ID="ID_1611926909" MODIFIED="1587824229410" TEXT=":set textwidth=80">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587824229777" ID="ID_143138419" MODIFIED="1587824239382" TEXT=":echo &amp;textwidth">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1587824294991" ID="ID_254841248" MODIFIED="1587824300753" TEXT="Value of booleans">
+<node CREATED="1587824300920" ID="ID_1452491226" MODIFIED="1587824301523" TEXT="0"/>
+<node CREATED="1587824302118" ID="ID_372013811" MODIFIED="1587824302490" TEXT="1"/>
+<node CREATED="1587824320411" ID="ID_258332019" MODIFIED="1587824329563" TEXT="... any non-zero integer"/>
+<node CREATED="1587824330169" ID="ID_1849659224" MODIFIED="1587824333492" TEXT="... as truthy"/>
+</node>
+<node CREATED="1587824347249" ID="ID_1934028999" MODIFIED="1587824358828" TEXT="Set option as variable using let with &amp;"/>
+<node CREATED="1587824359928" ID="ID_1318208679" MODIFIED="1587824361147" TEXT="Example">
+<node CREATED="1587824410636" ID="ID_1673549142" MODIFIED="1587824423611" TEXT=":let &amp;textwidth=100">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587824418900" ID="ID_1604036266" MODIFIED="1587824426592" TEXT=":set textwidth?">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1587824440636" ID="ID_217892604" MODIFIED="1587824444124" TEXT="Why would we do that?">
+<node CREATED="1587824444610" ID="ID_51464153" MODIFIED="1587824449443" TEXT="Example">
+<node CREATED="1587824453681" ID="ID_1934580787" MODIFIED="1587824456028" TEXT=":let &amp;textwidth = &amp;textwidth + 10 ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587824456988" ID="ID_203892858" MODIFIED="1587824479680" TEXT="... use vimscript power!"/>
+</node>
+</node>
+</node>
+<node CREATED="1587824488914" ID="ID_1029783083" MODIFIED="1587824492454" TEXT="19.2 Local Options">
+<node CREATED="1587824519466" ID="ID_1747774164" MODIFIED="1587824535131" TEXT="If you want local variable"/>
+<node CREATED="1587824535607" ID="ID_631524818" MODIFIED="1587824539813" TEXT="... needs to prefix it"/>
+<node CREATED="1587824540298" ID="ID_790696049" MODIFIED="1587824601965" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587824549467" ID="ID_1260710158" MODIFIED="1587824591337" TEXT=":let &amp;l:number = 1">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1587824744044" ID="ID_190582488" MODIFIED="1587824761792" TEXT="19.3 Registers as Variables">
+<node CREATED="1587824778795" ID="ID_655511175" MODIFIED="1587824785902" TEXT="Read and set registers as variable"/>
+<node CREATED="1587824788924" ID="ID_1572851073" MODIFIED="1587824975391" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1587824791829" ID="ID_74643453" MODIFIED="1587824800444" TEXT=":let @a = &quot;Hello!&quot;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587825012335" ID="ID_1704800143" MODIFIED="1587825019242" TEXT=":echo @a">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587824951626" ID="ID_1744381434" MODIFIED="1587824972123" TEXT="... will put &quot;Hello!&quot; in a register"/>
+</node>
+<node CREATED="1587825051819" ID="ID_1310631496" MODIFIED="1587825054830" TEXT="&quot;">
+<node CREATED="1587825054832" ID="ID_981616252" MODIFIED="1587825060637" TEXT="Unnamed register"/>
+<node CREATED="1587825061146" ID="ID_1378186042" MODIFIED="1587825076261" TEXT="Where yank goes"/>
+</node>
+<node CREATED="1587825083434" ID="ID_938430431" MODIFIED="1587825085613" TEXT="/">
+<node CREATED="1587825085811" ID="ID_132990295" MODIFIED="1587825090638" TEXT="Search register"/>
+</node>
+</node>
+<node CREATED="1587825113836" ID="ID_1433024321" MODIFIED="1587825119374" TEXT="19.4 Exercises"/>
+</node>
+<node CREATED="1587825223956" ID="ID_930144052" MODIFIED="1587825233341" POSITION="right" TEXT="Variable Scoping">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-0"/>
+<node CREATED="1587825242682" ID="ID_1063814868" MODIFIED="1587825245366" TEXT="Introduction">
+<node CREATED="1587825246379" ID="ID_683134591" MODIFIED="1587825259321" TEXT="Variable can be scoped"/>
+<node CREATED="1587825307344" ID="ID_312471375" MODIFIED="1587825308764" TEXT="Example">
+<node CREATED="1587825309066" ID="ID_128052547" MODIFIED="1587825319752" TEXT=":let b:hello=&quot;world&quot;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587825315727" ID="ID_1654070514" MODIFIED="1587825320217" TEXT=":echo b:hello">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1587825354900" ID="ID_100533218" MODIFIED="1587825369587" TEXT="... scoped in current buffer"/>
+</node>
+</node>
+<node CREATED="1587825390677" ID="ID_1955623347" MODIFIED="1587825395183" TEXT="20.1 Exercises">
+<node CREATED="1587825395443" ID="ID_1470344884" MODIFIED="1587825396869" TEXT=":help internal-variables">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1587825405334" ID="ID_954277717" MODIFIED="1587825418212" POSITION="right" TEXT="Conditionals">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1587825426871" ID="ID_264312301" MODIFIED="1587825429797" TEXT="Introduction">
+<node CREATED="1587825430163" ID="ID_161145040" MODIFIED="1587825435371" TEXT="Way to branch"/>
+<node CREATED="1587825436254" ID="ID_1650232847" MODIFIED="1587825438260" TEXT="... if statement"/>
+</node>
 </node>
 </node>
 </map>
