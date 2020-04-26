@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1572083744025" ID="ID_469537538" LINK="https://www.hitsubscribe.com/first-post-titles-blog-shouldnt-publish/" MODIFIED="1572083757780" TEXT=" This is Our First Post! (And Other Titles Your Blog Shouldn&#x2019;t Publish)">
-<node CREATED="1572083805778" FOLDED="true" ID="ID_289100852" MODIFIED="1587829275989" POSITION="right" TEXT="The Journaling Trap">
+<node CREATED="1572083805778" FOLDED="true" ID="ID_289100852" MODIFIED="1587912256322" POSITION="right" TEXT="The Journaling Trap">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572083852377" ID="ID_1636372458" MODIFIED="1572083856836" TEXT="If you want to market something"/>
 <node CREATED="1572083857305" ID="ID_1679902784" MODIFIED="1572083862317" TEXT="... quit the diary style"/>

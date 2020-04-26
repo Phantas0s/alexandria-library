@@ -1,9 +1,46 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1559302413703" ID="ID_899954992" LINK="https://www.youtube.com/watch?v=RT46MpK39rQ" MODIFIED="1571336977524" TEXT="Things That Matter - Scott Meyers">
-<node CREATED="1559302462299" FOLDED="true" ID="ID_736449672" MODIFIED="1571337224522" POSITION="left" TEXT="Efficiency / Speed">
+<node CREATED="1559302413703" ID="ID_899954992" LINK="https://www.youtube.com/watch?v=RT46MpK39rQ" MODIFIED="1587915033363" TEXT="Things That Matter">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><u>Questions </u></b>
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        What kind of software need speed?
+      </li>
+      <li>
+        Why making your software portable?
+      </li>
+      <li>
+        What is inferential reasoning?
+      </li>
+      <li>
+        What's an interface?
+      </li>
+      <li>
+        What should be easy to do with an interface? What should be hard?
+      </li>
+      <li>
+        Who's to blame if user don't know how to use the UI?
+      </li>
+      <li>
+        If the piece of your software are perfect, will it make the whole perfect too?Can you give an example?
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1559302462299" FOLDED="true" ID="ID_736449672" MODIFIED="1587914777050" POSITION="right" TEXT="Efficiency / Speed">
 <icon BUILTIN="full-1"/>
-<node CREATED="1559302484370" ID="ID_1734437566" MODIFIED="1559302488174" TEXT="What needs speed?">
+<node CREATED="1559302484370" FOLDED="true" ID="ID_1734437566" MODIFIED="1587914739777" TEXT="What needs speed?">
 <node CREATED="1559302489795" ID="ID_1368082660" MODIFIED="1559302529079" TEXT="Embedded Systems"/>
 <node CREATED="1559302530882" ID="ID_1191129553" MODIFIED="1559302535168" TEXT="Mobile devices">
 <node CREATED="1559302543467" ID="ID_1929327096" MODIFIED="1559302547519" TEXT="Work done sooner"/>
@@ -24,7 +61,7 @@
 <node CREATED="1559302629730" ID="ID_791753836" MODIFIED="1559302634167" TEXT="Number crushing applications"/>
 <node CREATED="1559302636385" ID="ID_501188318" MODIFIED="1559302640775" TEXT="Analyse of large data set"/>
 </node>
-<node CREATED="1559302998638" ID="ID_1881500289" MODIFIED="1559303007355" TEXT="Examples">
+<node CREATED="1559302998638" FOLDED="true" ID="ID_1881500289" MODIFIED="1587914755162" TEXT="Examples">
 <icon BUILTIN="wizard"/>
 <node CREATED="1559302660161" ID="ID_856251654" MODIFIED="1559302661878" TEXT="Amazon">
 <node CREATED="1559302677337" ID="ID_1392422818" MODIFIED="1559302689806" TEXT="1/10th of a second delay affects behavior"/>
@@ -36,14 +73,14 @@
 <node CREATED="1559302963951" ID="ID_1819588390" MODIFIED="1559302979787" TEXT="Drop of 20% in searches"/>
 </node>
 </node>
-<node CREATED="1559303133869" ID="ID_2887629" MODIFIED="1559303143649" TEXT="Design level efficienty problem">
+<node CREATED="1559303133869" FOLDED="true" ID="ID_2887629" MODIFIED="1587914767002" TEXT="Design level efficienty problem">
 <node CREATED="1559303143822" ID="ID_571879014" MODIFIED="1559303147251" TEXT="Can take time and money"/>
 <node CREATED="1559303148029" ID="ID_1972366753" MODIFIED="1559303158579" TEXT="... when you need to fix it later"/>
 <node CREATED="1559303165420" ID="ID_1951579281" MODIFIED="1559303182102" TEXT="PREMATURE optimization is the root of all evil">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1559303454866" ID="ID_252293645" MODIFIED="1559303459263" TEXT="It depends!">
+<node CREATED="1559303454866" FOLDED="true" ID="ID_252293645" MODIFIED="1587914776258" TEXT="It depends!">
 <node CREATED="1559303438028" ID="ID_865266772" MODIFIED="1559303441432" TEXT="Static world">
 <node CREATED="1559303441628" ID="ID_1791746969" MODIFIED="1559303443312" TEXT="Nothing change">
 <node CREATED="1559303443970" ID="ID_1635527354" MODIFIED="1559303446367" TEXT="Same hardware"/>
@@ -60,7 +97,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1559303487555" ID="ID_118656950" MODIFIED="1559304172890" POSITION="left" TEXT="Portability">
+<node CREATED="1559303487555" FOLDED="true" ID="ID_118656950" MODIFIED="1587914802417" POSITION="right" TEXT="Portability">
 <icon BUILTIN="full-2"/>
 <node CREATED="1559303490146" ID="ID_43916476" MODIFIED="1559303493440" TEXT="Because you know">
 <node CREATED="1559303493610" ID="ID_1184696723" MODIFIED="1559303496399" TEXT="it&apos;s in the spec"/>
@@ -82,7 +119,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1559323487124" ID="ID_1272001642" MODIFIED="1559323610064" POSITION="right" TEXT="Consistency">
+<node CREATED="1559304024910" FOLDED="true" ID="ID_486481047" MODIFIED="1587915036664" POSITION="right" TEXT="Toolability">
+<icon BUILTIN="full-3"/>
+<node CREATED="1559324739234" ID="ID_1493923752" MODIFIED="1559324743421" TEXT="It should be easy for people"/>
+<node CREATED="1559324743984" ID="ID_1641507019" MODIFIED="1571337043262" TEXT="... to build tool around">
+<node CREATED="1559324749729" ID="ID_1479630995" MODIFIED="1559324750789" TEXT="system"/>
+<node CREATED="1559324751232" ID="ID_1064362142" MODIFIED="1559324754422" TEXT="programming language"/>
+<node CREATED="1559324756530" ID="ID_1980443719" MODIFIED="1559324757302" TEXT="..."/>
+</node>
+</node>
+<node CREATED="1559323487124" FOLDED="true" ID="ID_1272001642" MODIFIED="1587915035031" POSITION="left" TEXT="Consistency">
 <icon BUILTIN="full-4"/>
 <node CREATED="1559323592338" ID="ID_4399924" MODIFIED="1559323624487" TEXT="Basis">
 <node CREATED="1559323599907" ID="ID_1136448381" MODIFIED="1559323603136" TEXT="abstraction"/>
@@ -102,16 +148,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1559304024910" ID="ID_486481047" MODIFIED="1559324739014" POSITION="left" TEXT="Toolability">
-<icon BUILTIN="full-3"/>
-<node CREATED="1559324739234" ID="ID_1493923752" MODIFIED="1559324743421" TEXT="It should be easy for people"/>
-<node CREATED="1559324743984" ID="ID_1641507019" MODIFIED="1571337043262" TEXT="... to build tool around">
-<node CREATED="1559324749729" ID="ID_1479630995" MODIFIED="1559324750789" TEXT="system"/>
-<node CREATED="1559324751232" ID="ID_1064362142" MODIFIED="1559324754422" TEXT="programming language"/>
-<node CREATED="1559324756530" ID="ID_1980443719" MODIFIED="1559324757302" TEXT="..."/>
-</node>
-</node>
-<node CREATED="1559324020895" ID="ID_17831805" MODIFIED="1559324026437" POSITION="right" TEXT="Interfaces">
+<node CREATED="1559324020895" FOLDED="true" ID="ID_17831805" MODIFIED="1587915034239" POSITION="left" TEXT="Interfaces">
 <icon BUILTIN="full-5"/>
 <node CREATED="1559324027927" ID="ID_1311582024" MODIFIED="1559324032507" TEXT="Way to accomplish something">
 <node CREATED="1559324035079" ID="ID_1101608241" MODIFIED="1559324038275" TEXT="User interface"/>
@@ -131,7 +168,7 @@
 <node CREATED="1559324335574" ID="ID_326815252" MODIFIED="1559324346658" TEXT="&quot;they&apos;ll figure it out&quot;"/>
 </node>
 </node>
-<node CREATED="1559324366676" ID="ID_438178220" MODIFIED="1559324372354" POSITION="right" TEXT="Commitment">
+<node CREATED="1559324366676" FOLDED="true" ID="ID_438178220" MODIFIED="1587915033352" POSITION="left" TEXT="Commitment">
 <icon BUILTIN="full-6"/>
 <node CREATED="1559324402781" ID="ID_1446736146" MODIFIED="1559324409241" TEXT="Everybody agree about everything here"/>
 <node CREATED="1559324412884" ID="ID_1915331351" MODIFIED="1559324418376" TEXT="... so why things go wrong?"/>
