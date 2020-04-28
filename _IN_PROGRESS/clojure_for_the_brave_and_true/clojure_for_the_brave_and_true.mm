@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1588007772403" TEXT="Clojure For The Brave And Truem">
+<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1588073305582" TEXT="Clojure For The Brave And Truem">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2955,7 +2955,127 @@ great-books
 </node>
 <node CREATED="1588016050250" ID="ID_762711604" MODIFIED="1588016059515" TEXT="Everybody who has Java installed can run JAR files"/>
 </node>
-<node CREATED="1588016079368" ID="ID_61446481" MODIFIED="1588016083232" TEXT="Java Interop"/>
+<node CREATED="1588016079368" ID="ID_61446481" LINK="https://clojure.org/reference/java_interop" MODIFIED="1588076172535" TEXT="Java Interop">
+<node CREATED="1588073344848" ID="ID_1537777458" MODIFIED="1588073346528" TEXT="Introduction">
+<node CREATED="1588073316577" ID="ID_1092705963" MODIFIED="1588073325689" TEXT="Clojure was designed to use Java massive ecosystem"/>
+</node>
+<node CREATED="1588073339290" ID="ID_612284112" MODIFIED="1588073344283" TEXT="Interop Syntax">
+<node CREATED="1588073760001" ID="ID_590288715" MODIFIED="1588073763187" TEXT="Call method on objects">
+<node CREATED="1588073766664" ID="ID_675504212" MODIFIED="1588073768385" TEXT="(.">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1588073775804" ID="ID_724809532" MODIFIED="1588073784050" TEXT="Can pass arguments to methods"/>
+<node CREATED="1588073859172" ID="ID_1001793239" MODIFIED="1588073876824" TEXT="Use macro that expand to use dot special form"/>
+<node CREATED="1588074015819" ID="ID_1041985558" MODIFIED="1588074020702" TEXT="general form of dot operator">
+<node CREATED="1588074013512" ID="ID_1397643886" MODIFIED="1588074127974" TEXT="(. object-expr-or-classname-symbol method-or-member-symbol optional-args*)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1588074048297" ID="ID_244523421" MODIFIED="1588074049197" TEXT="Creating and Mutating Objects">
+<node CREATED="1588074130222" ID="ID_1627223205" MODIFIED="1588074136251" TEXT="Two ways to create objects">
+<node CREATED="1588074136536" ID="ID_994254776" MODIFIED="1588074137836" TEXT="(new ClassName optional-args)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588074142764" ID="ID_94940151" MODIFIED="1588074144095" TEXT="(ClassName. optional-args)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588074144705" ID="ID_1510134854" MODIFIED="1588074146745" TEXT="Most used"/>
+</node>
+</node>
+<node CREATED="1588074210007" ID="ID_19239962" MODIFIED="1588074212220" TEXT="Stack">
+<node CREATED="1588074212418" ID="ID_1733107784" MODIFIED="1588074213756" TEXT="LIFO">
+<node CREATED="1588074213921" ID="ID_71256516" MODIFIED="1588074224409" TEXT="Last-in, First out"/>
+<node CREATED="1588074224804" ID="ID_897073170" MODIFIED="1588074240590" TEXT="The last put on the stack"/>
+<node CREATED="1588074240993" ID="ID_1115750665" MODIFIED="1588074244895" TEXT="... the first out of the stack"/>
+</node>
+<node CREATED="1588074705601" ID="ID_438651840" MODIFIED="1588074711134" TEXT="java.util.Stack">
+<node CREATED="1588074711418" ID="ID_1001060384" MODIFIED="1588074718567" TEXT="Can use seq function"/>
+<node CREATED="1588074719267" ID="ID_909510981" MODIFIED="1588074733727" TEXT="... but can&apos;t add element with">
+<node CREATED="1588074733912" ID="ID_357748077" MODIFIED="1588074734818" TEXT="conj"/>
+<node CREATED="1588074735181" ID="ID_824893395" MODIFIED="1588074735939" TEXT="into"/>
+</node>
+</node>
+</node>
+<node CREATED="1588074743704" ID="ID_320574605" MODIFIED="1588074746320" TEXT="doto macro">
+<node CREATED="1588074746734" ID="ID_1219171704" MODIFIED="1588074752940" TEXT="Execute multiple methods on same object"/>
+</node>
+<node CREATED="1588074862305" ID="ID_1044641523" MODIFIED="1588074864018" TEXT="Importing">
+<node CREATED="1588074926282" ID="ID_626379862" MODIFIED="1588074927694" TEXT="(import java.util.Stack)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588075055481" ID="ID_91809097" MODIFIED="1588075060123" TEXT="Clojure automatically import">
+<node CREATED="1588075060345" ID="ID_867665393" LINK="https://docs.oracle.com/javase/7/docs/api/java/lang/package-summary.html" MODIFIED="1588075091965" TEXT="java.lang">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1588075108200" ID="ID_356225243" MODIFIED="1588075113709" TEXT="Commonly Used Java Classes">
+<node CREATED="1588075123613" ID="ID_1569494641" MODIFIED="1588075126077" TEXT="System Class">
+<node CREATED="1588075133858" ID="ID_1295213724" MODIFIED="1588075142032" TEXT="Interecting with program&apos;s environment"/>
+<node CREATED="1588075142396" ID="ID_466390087" MODIFIED="1588075146233" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1588075154665" ID="ID_198469755" MODIFIED="1588075158226" TEXT="Environment variable"/>
+<node CREATED="1588075158598" ID="ID_819674950" MODIFIED="1588075168369" TEXT="Interact with standard input"/>
+<node CREATED="1588075171679" ID="ID_1074863067" MODIFIED="1588075176367" TEXT="Standard output"/>
+<node CREATED="1588075176819" ID="ID_816131836" MODIFIED="1588075180382" TEXT="Error output stream"/>
+<node CREATED="1588075193948" ID="ID_241875378" MODIFIED="1588075196593" TEXT="System/exit">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588075197728" ID="ID_1952431748" MODIFIED="1588075203958" TEXT="System/getenv">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588075204405" ID="ID_266806601" MODIFIED="1588075218352" TEXT="System/getProperty">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1588075372159" ID="ID_95703508" LINK="http://docs.oracle.com/javase/7/docs/api/java/util/Date.html" MODIFIED="1588075386270" TEXT="Date Class">
+<node CREATED="1588075397577" ID="ID_931896111" MODIFIED="1588075408920" TEXT="Dates as literal in Clojure with form">
+<node CREATED="1588075403076" ID="ID_1054157192" MODIFIED="1588075403973" TEXT="#inst &quot;2016-09-19T20:40:02.733-00:00&quot;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1588075435484" ID="ID_502562990" MODIFIED="1588075437881" TEXT="Files and Input/Output">
+<node CREATED="1588075469894" ID="ID_1467892505" LINK="https://clojure.github.io/clojure/clojure.java.io-api.html" MODIFIED="1588075486397" TEXT="clojure.java.io">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588075471635" ID="ID_1602606109" MODIFIED="1588075476469" TEXT="Simplify IO"/>
+</node>
+<node CREATED="1588075515399" ID="ID_973237051" MODIFIED="1588075520946" TEXT="IO involves resources">
+<node CREATED="1588075521160" ID="ID_1782201108" MODIFIED="1588075526169" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1588075528632" ID="ID_930432277" MODIFIED="1588075530381" TEXT="Files"/>
+<node CREATED="1588075531406" ID="ID_1387357370" MODIFIED="1588075532492" TEXT="Sockets"/>
+<node CREATED="1588075532856" ID="ID_1226146990" MODIFIED="1588075534983" TEXT="Buffers"/>
+<node CREATED="1588075536537" ID="ID_1596244355" MODIFIED="1588075537737" TEXT="..."/>
+</node>
+</node>
+<node CREATED="1588075676512" ID="ID_1004824890" MODIFIED="1588075687086" TEXT="Clojure gives function unifying reading / writing"/>
+<node CREATED="1588075689154" ID="ID_265087321" MODIFIED="1588075692680" TEXT="... to any kind of resource">
+<node CREATED="1588075697655" ID="ID_1357719692" MODIFIED="1588075699872" TEXT="spit">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588075708430" ID="ID_251406801" MODIFIED="1588075709777" TEXT="write"/>
+</node>
+<node CREATED="1588075700583" ID="ID_1293240474" MODIFIED="1588075702994" TEXT="slurp">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588075710628" ID="ID_341018981" MODIFIED="1588075713112" TEXT="read"/>
+</node>
+</node>
+<node CREATED="1588075992362" ID="ID_56120968" MODIFIED="1588075995237" TEXT="with-open">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588075995566" ID="ID_1711414161" MODIFIED="1588076002204" TEXT="Macro"/>
+<node CREATED="1588076002528" ID="ID_1691326662" MODIFIED="1588076011459" TEXT="Close a resource at the end of its body"/>
+</node>
+<node CREATED="1588076125319" ID="ID_1141423512" MODIFIED="1588076127001" TEXT="Docs">
+<node CREATED="1588076127461" ID="ID_1912044914" LINK="https://docs.oracle.com/javase/7/docs/api/java/nio/file/package-summary.html" MODIFIED="1588076136827" TEXT="java.nio.files">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1587395632552" ID="ID_1988238703" LINK="https://www.braveclojure.com/multimethods-records-protocols/" MODIFIED="1587395845309" POSITION="left" TEXT="Creating and Extending Abstractions with Multimethods, Protocols, and Records">
 <icon BUILTIN="full-1"/>
