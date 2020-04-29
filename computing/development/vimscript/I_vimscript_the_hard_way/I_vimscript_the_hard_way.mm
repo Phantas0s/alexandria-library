@@ -2,17 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1587999566992" TEXT="Vimscript the Hard Way">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1587903834848" ID="ID_263951312" MODIFIED="1587999447121" POSITION="right" TEXT="Code">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      See playground from point 19 on
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1587903834848" ID="ID_263951312" LINK="https://github.com/Phantas0s/playground/tree/master/vimscript/vimscript-hard-way" MODIFIED="1588155027198" POSITION="right" TEXT="Code">
 <icon BUILTIN="full-0"/>
 <icon BUILTIN="full-0"/>
 </node>
@@ -1748,7 +1738,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588002018416" ID="ID_677407390" MODIFIED="1588002034114" POSITION="right" TEXT="Case Study: Grep Operator, Part One">
+<node CREATED="1588002018416" FOLDED="true" ID="ID_677407390" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/32.html" MODIFIED="1588156062031" POSITION="right" TEXT="Case Study: Grep Operator, Part One">
 <icon BUILTIN="full-3"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1588002076101" FOLDED="true" ID="ID_1610466954" MODIFIED="1588002085543" TEXT="32.1 Grep">
@@ -1884,7 +1874,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588078845963" ID="ID_740912894" MODIFIED="1588078869824" POSITION="right" TEXT="Case Study: Grep Operator, Part Two">
+<node CREATED="1588078845963" FOLDED="true" ID="ID_740912894" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/33.html" MODIFIED="1588156052774" POSITION="right" TEXT="Case Study: Grep Operator, Part Two">
 <icon BUILTIN="full-3"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1588079573345" ID="ID_1488418899" MODIFIED="1588079577047" TEXT="Introduction">
@@ -1937,9 +1927,187 @@
 </node>
 </node>
 </node>
-<node CREATED="1588081816247" ID="ID_914550900" MODIFIED="1588082022498" POSITION="right" TEXT="Case Study: Grep Operator, Part Three">
+<node CREATED="1588081816247" FOLDED="true" ID="ID_914550900" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/34.html" MODIFIED="1588156046122" POSITION="right" TEXT="Case Study: Grep Operator, Part Three">
 <icon BUILTIN="full-3"/>
 <icon BUILTIN="full-4"/>
+<node CREATED="1588151248877" ID="ID_1983557426" MODIFIED="1588151255573" TEXT="34.1 Saving Registers">
+<node CREATED="1588151661052" ID="ID_1431922562" MODIFIED="1588151666640" TEXT="When writing plugin"/>
+<node CREATED="1588151668225" ID="ID_974927277" MODIFIED="1588151684710" TEXT="... always restore any">
+<node CREATED="1588151684711" ID="ID_953669344" MODIFIED="1588151686194" TEXT="settings"/>
+<node CREATED="1588151686550" ID="ID_1569557403" MODIFIED="1588151688094" TEXT="register"/>
+</node>
+<node CREATED="1588151692249" ID="ID_1858515121" MODIFIED="1588151694954" TEXT="... your code modifies"/>
+</node>
+<node CREATED="1588151700228" ID="ID_911249576" MODIFIED="1588151705013" TEXT="34.2 Namespacing">
+<node CREATED="1588151718725" ID="ID_391064978" MODIFIED="1588151725344" TEXT="Function GrepOperator in global namespace"/>
+<node CREATED="1588151851767" ID="ID_216839915" MODIFIED="1588151856320" TEXT="&lt;SID&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588151857101" ID="ID_1229014428" MODIFIED="1588151859020" TEXT=":s">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1588151861472" ID="ID_694291794" MODIFIED="1588151868933" TEXT="34.3 Exercises">
+<node CREATED="1588151870163" ID="ID_987143132" MODIFIED="1588151873747" TEXT=":help &lt;SID&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1588156041737" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/38.html" MODIFIED="1588156041737" TEXT="https://learnvimscriptthehardway.stevelosh.com/chapters/38.html"/>
+</node>
+<node CREATED="1588152016568" FOLDED="true" ID="ID_702046827" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/35.html" MODIFIED="1588152326772" POSITION="right" TEXT="Lists">
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="full-5"/>
+<node CREATED="1588152034168" ID="ID_168532315" MODIFIED="1588152036218" TEXT="Introduction">
+<node CREATED="1588152036392" ID="ID_1416622275" MODIFIED="1588152042424" TEXT="Vim has two main aggregate types"/>
+<node CREATED="1588152043707" ID="ID_156612278" MODIFIED="1588152049057" TEXT="First: lists"/>
+<node CREATED="1588152052335" ID="ID_1675721646" MODIFIED="1588152309386" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1588152054010" ID="ID_527300825" MODIFIED="1588152303218" TEXT=":echo [&apos;foo&apos;, 3, &apos;bar&apos;] ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1588152315920" ID="ID_46005328" MODIFIED="1588152320996" TEXT="35.1 Indexing">
+<node CREATED="1588152338763" ID="ID_1905168291" MODIFIED="1588152342061" TEXT="0 indexed"/>
+<node CREATED="1588152393010" ID="ID_1124219102" MODIFIED="1588152430290" TEXT="Can count form last element"/>
+<node CREATED="1588152433371" ID="ID_1500555019" MODIFIED="1588152465371" TEXT="... with negative index"/>
+</node>
+<node CREATED="1588152519544" ID="ID_563731780" MODIFIED="1588152541925" TEXT="35.2 Slicing"/>
+<node CREATED="1588153025121" ID="ID_1977005339" MODIFIED="1588153030921" TEXT="35.3 Concatenation">
+<node CREATED="1588153130345" ID="ID_1330912959" MODIFIED="1588153132714" TEXT="+">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1588153129312" ID="ID_1653549453" MODIFIED="1588153141231" TEXT="35.4 List Functions">
+<node CREATED="1588153146995" ID="ID_301802745" MODIFIED="1588153207344" TEXT="Vim has many functions to work with lists"/>
+<node CREATED="1588153290362" ID="ID_1300126704" MODIFIED="1588153300932" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1588153292308" ID="ID_592498434" MODIFIED="1588153293203" TEXT="add"/>
+<node CREATED="1588153293880" ID="ID_813831552" MODIFIED="1588153295997" TEXT="len"/>
+<node CREATED="1588153296408" ID="ID_788320364" MODIFIED="1588153298240" TEXT="get"/>
+<node CREATED="1588153305781" ID="ID_429291781" MODIFIED="1588153309178" TEXT="index"/>
+<node CREATED="1588153411910" ID="ID_936708346" MODIFIED="1588153414478" TEXT="join"/>
+</node>
+<node CREATED="1588153689922" ID="ID_267019365" MODIFIED="1588153694534" TEXT="Lists are passed by reference">
+<node CREATED="1588153718678" ID="ID_398712758" MODIFIED="1588153721968" TEXT="even with copy()"/>
+<node CREATED="1588153744740" ID="ID_143605945" MODIFIED="1588153757729" TEXT="... use deepcopy() for real copy"/>
+</node>
+</node>
+<node CREATED="1588153473360" ID="ID_176343259" MODIFIED="1588153479072" TEXT="35.5 Exercises">
+<node CREATED="1588153479316" ID="ID_1038586879" MODIFIED="1588153482781" TEXT=":help List">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588153483372" ID="ID_518786830" MODIFIED="1588153486469" TEXT=":help add()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588153490145" ID="ID_1535581118" MODIFIED="1588153493104" TEXT=":help len()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588153493591" ID="ID_948648976" MODIFIED="1588153497195" TEXT=":help get()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588153497603" ID="ID_1775192020" MODIFIED="1588153500865" TEXT=":help index()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588153501289" ID="ID_1876619608" MODIFIED="1588153504713" TEXT=":help join()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588153505200" ID="ID_1045284559" MODIFIED="1588153509105" TEXT=":help reverse()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588153509617" ID="ID_1397375247" MODIFIED="1588153516469" TEXT=":help functions">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588153525809" ID="ID_531762397" MODIFIED="1588153529957" TEXT=":match Keyword /\clist/">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1588153895399" FOLDED="true" ID="ID_501453353" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/36.html" MODIFIED="1588153930386" POSITION="right" TEXT="Looping">
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="full-6"/>
+<node CREATED="1588153962928" ID="ID_1560666260" MODIFIED="1588153968978" TEXT="36.1 For Loops">
+<node CREATED="1588154375377" ID="ID_304917835" MODIFIED="1588154377938" TEXT="If error in loops"/>
+<node CREATED="1588154378341" ID="ID_814811251" MODIFIED="1588154383969" TEXT="... execution continue after endfor"/>
+</node>
+<node CREATED="1588154322973" ID="ID_1905279573" MODIFIED="1588154338474" TEXT="36.2 While Loops"/>
+<node CREATED="1588154339632" ID="ID_1002439404" MODIFIED="1588154344164" TEXT="36.3 Exercises">
+<node CREATED="1588154345577" ID="ID_1395509350" MODIFIED="1588154348553" TEXT=":help for">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588154348977" ID="ID_233070278" MODIFIED="1588154351598" TEXT=":help while">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1588154461019" FOLDED="true" ID="ID_500724401" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/37.html" MODIFIED="1588156040424" POSITION="right" TEXT="Dictionaries">
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="full-7"/>
+<node CREATED="1588154482284" ID="ID_1354106809" MODIFIED="1588154486446" TEXT="Introduction">
+<node CREATED="1588154486748" ID="ID_1505804433" MODIFIED="1588154488672" TEXT="Similar to">
+<node CREATED="1588154488872" ID="ID_566276853" MODIFIED="1588154493559" TEXT="Python&apos;s dicts"/>
+<node CREATED="1588154494246" ID="ID_215135054" MODIFIED="1588154497861" TEXT="Ruby&apos;s hashes"/>
+<node CREATED="1588154498360" ID="ID_118038787" MODIFIED="1588154503841" TEXT="Javascript&apos;s objects"/>
+</node>
+<node CREATED="1588154507566" ID="ID_581238896" MODIFIED="1588154524961" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1588154510792" ID="ID_1957638280" MODIFIED="1588154520352" TEXT="{&apos;a&apos;: 1, &apos;100&apos;: &apos;foo&apos;}">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1588154686728" ID="ID_1982883895" MODIFIED="1588154690423" TEXT="37.1 Indexing"/>
+<node CREATED="1588154686728" ID="ID_998322348" MODIFIED="1588154949492" TEXT="37.2 Assigning and Adding"/>
+<node CREATED="1588155103076" ID="ID_1856239443" MODIFIED="1588155109036" TEXT="37.3 Removing Entries">
+<node CREATED="1588155171832" ID="ID_1276415516" MODIFIED="1588155177671" TEXT="remove()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588155197972" ID="ID_1526509224" MODIFIED="1588155206308" TEXT="Return removed value"/>
+</node>
+<node CREATED="1588155178134" ID="ID_1760771643" MODIFIED="1588155179513" TEXT="unlet">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1588155274521" ID="ID_32662199" MODIFIED="1588155280074" TEXT="37.4 Dictionary functions">
+<node CREATED="1588155843535" ID="ID_1193625224" MODIFIED="1588155847174" TEXT="get()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588155847946" ID="ID_1901499460" MODIFIED="1588155851160" TEXT="has_key()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588155851583" ID="ID_870978544" MODIFIED="1588155854211" TEXT="items()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588155884380" ID="ID_143069361" MODIFIED="1588155888282" TEXT="keys()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588155888753" ID="ID_704676159" MODIFIED="1588155891548" TEXT="values()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1588155965993" ID="ID_1275697123" MODIFIED="1588155973952" TEXT="37.5 Exercises">
+<node CREATED="1588155974326" ID="ID_1168870222" MODIFIED="1588155981722" TEXT=":help Dictionary">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588155982248" ID="ID_1528490721" MODIFIED="1588155984827" TEXT=":help get()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588155985260" ID="ID_1230624614" MODIFIED="1588155988878" TEXT=":help has_key()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588155989282" ID="ID_816731208" MODIFIED="1588155992096" TEXT=":help items()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588155992574" ID="ID_1652667109" MODIFIED="1588155995983" TEXT=":help keys()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588155996383" ID="ID_716049105" MODIFIED="1588155999427" TEXT=":help values()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1588156021751" ID="ID_1068481356" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/38.html" MODIFIED="1588156036678" POSITION="right" TEXT="Toggling">
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="full-8"/>
 </node>
 </node>
 </map>
