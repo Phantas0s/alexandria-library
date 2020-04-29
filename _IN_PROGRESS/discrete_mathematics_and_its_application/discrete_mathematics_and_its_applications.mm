@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1587654684518" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1588146725818" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5547,6 +5547,250 @@
 <node CREATED="1587654364975" ID="ID_573005397" MODIFIED="1587654369294" TEXT="Many mistakes possible!"/>
 <node CREATED="1587654633894" ID="ID_1611387611" MODIFIED="1587654685979" TEXT="Examples p316">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#338800" CREATED="1588146802807" ID="ID_601423565" MODIFIED="1588146814645" TEXT="Skipped">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node CREATED="1588146971533" ID="ID_51124200" MODIFIED="1588146980369" TEXT="5,2 Strong induction and Well-Ordering">
+<node COLOR="#338800" CREATED="1588146802807" ID="ID_1184913222" MODIFIED="1588146814645" TEXT="Skipped">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node CREATED="1588146983743" ID="ID_848524163" MODIFIED="1588146999077" TEXT="5.3 Recursive Definitions And Structural Induction">
+<node CREATED="1588147020788" ID="ID_469897079" MODIFIED="1588147023750" TEXT="Introduction">
+<node CREATED="1588147029500" ID="ID_1434206312" MODIFIED="1588147041001" TEXT="Sometimes difficult to define object explicitely"/>
+<node CREATED="1588147041665" ID="ID_816010592" MODIFIED="1588147056803" TEXT="Might be easier to define object in terms of itself"/>
+<node CREATED="1588147058587" ID="ID_1411829085" MODIFIED="1588147064209" TEXT="... process called recursion"/>
+<node CREATED="1588147075563" ID="ID_915671351" MODIFIED="1588147079389" TEXT="Can use recursion to define">
+<node CREATED="1588147080323" ID="ID_1022711607" MODIFIED="1588147082211" TEXT="sequences"/>
+<node CREATED="1588147082639" ID="ID_1916214535" MODIFIED="1588147083787" TEXT="functions"/>
+<node CREATED="1588147084129" ID="ID_576202727" MODIFIED="1588147084909" TEXT="sets"/>
+</node>
+<node CREATED="1588147111935" ID="ID_1766058379" MODIFIED="1588147113469" TEXT="Example">
+<node CREATED="1588147115202" ID="ID_1455074922" MODIFIED="1588147134944" TEXT="Explicit formula for sequence of powers of 2">
+<node CREATED="1588147127233" ID="ID_1065902331" MODIFIED="1588147142912" TEXT=" an = 2n for n = 0, 1, 2, . . . "/>
+</node>
+<node CREATED="1588147150863" ID="ID_1151320854" MODIFIED="1588147155359" TEXT="Defining sequence recursively">
+<node CREATED="1588147155517" ID="ID_300040270" MODIFIED="1588147162170" TEXT="How terms of sequence"/>
+<node CREATED="1588147163203" ID="ID_1518516954" MODIFIED="1588147166477" TEXT="... found from previous terms"/>
+<node CREATED="1588147173743" ID="ID_1655074769" MODIFIED="1588147175440" TEXT="How?">
+<node CREATED="1588147176182" ID="ID_1991688227" MODIFIED="1588147182720" TEXT="Giving first term of sequence">
+<node CREATED="1588147191835" ID="ID_1384371666" MODIFIED="1588147192401" TEXT="a0 = 1"/>
+</node>
+<node CREATED="1588147200770" ID="ID_150546741" MODIFIED="1588147215291" TEXT="Rule for finding term of sequence with previous one">
+<node CREATED="1588147215737" ID="ID_812406938" MODIFIED="1588147216163" TEXT="an+1 = 2an for n = 0, 1, 2"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1588147236303" ID="ID_1750096022" MODIFIED="1588147243033" TEXT="When define set recursively">
+<node CREATED="1588147243895" ID="ID_1162605102" MODIFIED="1588147273439" TEXT="Specify some initial elements in a basis step">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1588147258726" ID="ID_600797236" MODIFIED="1588147276491" TEXT="Provide a rule for constructing new elements from those we have">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1588147294291" ID="ID_1770373529" MODIFIED="1588147297479" TEXT="To prove result">
+<node CREATED="1588147297731" ID="ID_1940647076" MODIFIED="1588147302242" TEXT="Use structural induction"/>
+</node>
+</node>
+<node CREATED="1588147307508" ID="ID_1486897108" MODIFIED="1588147311567" TEXT="Recursively Defined Functions">
+<node CREATED="1588147317645" ID="ID_541368620" MODIFIED="1588147333316" TEXT="Two steps for function with set of nonnegative integers">
+<node CREATED="1588147333809" ID="ID_1702109425" MODIFIED="1588147386394" TEXT="Basis step">
+<icon BUILTIN="full-1"/>
+<node CREATED="1588147337733" ID="ID_681842314" MODIFIED="1588147378938" TEXT="Specify function value at zero"/>
+</node>
+<node CREATED="1588147372281" ID="ID_1968869455" MODIFIED="1588147388605" TEXT="Recursive step">
+<icon BUILTIN="full-2"/>
+<node CREATED="1588147347932" ID="ID_1443304961" MODIFIED="1588147363898" TEXT="Give rule to find other terms"/>
+</node>
+</node>
+<node CREATED="1588147401875" ID="ID_720594285" MODIFIED="1588147407888" TEXT="... called either">
+<node CREATED="1588147404527" ID="ID_173415410" MODIFIED="1588147413652" TEXT="Recursive definition"/>
+<node CREATED="1588147414111" ID="ID_1027424204" MODIFIED="1588147423261" TEXT="Inductive definition"/>
+</node>
+<node CREATED="1588147440839" ID="ID_1374541036" MODIFIED="1588147582318" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1588147445448" ID="ID_185373664" MODIFIED="1588147521789" TEXT="function f defined recursively by">
+<node CREATED="1588147523193" ID="ID_659399890" MODIFIED="1588147528217" TEXT="f(0) = 3"/>
+<node CREATED="1588147528875" ID="ID_238582535" MODIFIED="1588147538881" TEXT="f(n+1) = 2f(n) + 3"/>
+<node CREATED="1588147548823" ID="ID_506171078" MODIFIED="1588147550076" TEXT="Results">
+<node CREATED="1588147550593" ID="ID_1723039880" MODIFIED="1588147559004" TEXT="f (1) = 2f(0) + 3 = 2 &#xb7; 3 + 3 = 9"/>
+<node CREATED="1588147550595" ID="ID_473073122" MODIFIED="1588147564429" TEXT="f (2) = 2f(1) + 3 = 2 &#xb7; 9 + 3 = 21"/>
+<node CREATED="1588147550596" ID="ID_387511548" MODIFIED="1588147569073" TEXT="f (3) = 2f(2) + 3 = 2 &#xb7; 21 + 3 = 45"/>
+<node CREATED="1588147550597" ID="ID_1270332133" MODIFIED="1588147576977" TEXT="f(4) = 2f (3) + 3 = 2 &#xb7; 45 + 3 = 93"/>
+</node>
+</node>
+</node>
+<node CREATED="1588147588577" ID="ID_27126986" MODIFIED="1588147604602" TEXT="Recursively defined functions are well defined">
+<node CREATED="1588147610012" ID="ID_1324140308" MODIFIED="1588147615336" TEXT="For every Z+"/>
+<node CREATED="1588147616576" ID="ID_203465550" MODIFIED="1588147621846" TEXT="... value of the function"/>
+<node CREATED="1588147625128" ID="ID_367937804" MODIFIED="1588147628757" TEXT="... at this integer"/>
+<node CREATED="1588147629163" ID="ID_1343072075" MODIFIED="1588147638639" TEXT="... determined in unambiguous way"/>
+</node>
+<node CREATED="1588147977532" FOLDED="true" ID="ID_1556185068" MODIFIED="1588147982563" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1588147983624" ID="ID_1454842427" MODIFIED="1588147996745">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="example_recursive_definition_sum.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1588148059957" ID="ID_1394431281" MODIFIED="1588148060893" TEXT="Recursively Defined Sets and Structures ">
+<node CREATED="1588148111031" ID="ID_954325867" MODIFIED="1588148114168" TEXT="Two parts">
+<node CREATED="1588148114430" ID="ID_1645902686" MODIFIED="1588148123555" TEXT="Basis step">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1588148117312" ID="ID_463457835" MODIFIED="1588148126929" TEXT="Recursive step">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1588148142067" ID="ID_1865856634" MODIFIED="1588148150063" TEXT="... can include exclusion rule">
+<node CREATED="1588148172908" ID="ID_116693220" MODIFIED="1588148181078" TEXT="Specifies that nothing is in the sex"/>
+<node CREATED="1588148181529" ID="ID_1575291314" MODIFIED="1588148187464" TEXT="... except what defined by">
+<node CREATED="1588148187465" ID="ID_1901244148" MODIFIED="1588148189224" TEXT="basis step"/>
+<node CREATED="1588148189668" ID="ID_583177722" MODIFIED="1588148192172" TEXT="recursive step"/>
+</node>
+</node>
+<node CREATED="1588148438860" ID="ID_1111771884" MODIFIED="1588148447336" TEXT="Recursive definition has important role"/>
+<node CREATED="1588148447740" ID="ID_230577149" MODIFIED="1588149211452" TEXT="... in definition of string">
+<icon BUILTIN="licq"/>
+<node CREATED="1588148490912" ID="ID_1725791983" MODIFIED="1588148495385">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="defintion_recursive_set_of_strings.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1588148661924" ID="ID_414698281" MODIFIED="1588149216067" TEXT="Concatenation definition">
+<icon BUILTIN="licq"/>
+<node CREATED="1588149091156" ID="ID_1999893058" MODIFIED="1588149101734">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="definition_recursive_concatenation.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1588149035752" ID="ID_295144437" MODIFIED="1588149808278" TEXT="Rooted tree">
+<node CREATED="1588149493647" ID="ID_1505782579" MODIFIED="1588149792464" TEXT="Definition">
+<icon BUILTIN="licq"/>
+<node CREATED="1588149129191" ID="ID_1501406561" MODIFIED="1588149138673">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="definition_recursive_rooted_tree.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1588149742095" ID="ID_1685759301" MODIFIED="1588149765621" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1588149743763" ID="ID_1990292643" MODIFIED="1588149755409">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="rooted_tree_recursive_building_example.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1588149772248" ID="ID_1414595971" MODIFIED="1588149777983" TEXT="Extended binary trees">
+<node CREATED="1588149785433" ID="ID_516716075" MODIFIED="1588149796983" TEXT="Definition">
+<icon BUILTIN="licq"/>
+<node CREATED="1588149830251" ID="ID_1012235936" MODIFIED="1588149839342">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="extended_binary_tree_definition.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1588149840996" ID="ID_1764397969" MODIFIED="1588149842809" TEXT="Example">
+<node CREATED="1588149843463" ID="ID_1755749526" MODIFIED="1588149850751">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="extended_binary_trees_example.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1588149856829" ID="ID_51354607" MODIFIED="1588149864173" TEXT="Full binary tree">
+<node CREATED="1588149864386" ID="ID_598665806" MODIFIED="1588149867244" TEXT="Definition">
+<node CREATED="1588149867762" ID="ID_92578927" MODIFIED="1588149871886">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="full_binary_tree_recursion_definition.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1588149873301" ID="ID_1532149053" MODIFIED="1588149874899" TEXT="Example">
+<node CREATED="1588149875233" ID="ID_871547701" MODIFIED="1588149879892">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="full_binary_tree_recursion_example.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1588149384898" ID="ID_1132127161" MODIFIED="1588149390274" TEXT="Structural Induction">
+<node COLOR="#338800" CREATED="1588146802807" ID="ID_1555031718" MODIFIED="1588146814645" TEXT="Skipped">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node CREATED="1588149410209" ID="ID_1801090397" MODIFIED="1588149411241" TEXT="Generalized Induction ">
+<node COLOR="#338800" CREATED="1588146802807" ID="ID_433735243" MODIFIED="1588146814645" TEXT="Skipped">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
 </node>
 </node>
 </node>
