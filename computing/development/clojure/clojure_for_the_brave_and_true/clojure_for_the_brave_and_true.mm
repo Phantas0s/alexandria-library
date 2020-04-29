@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1588073305582" TEXT="Clojure For The Brave And Truem">
+<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1588157747755" TEXT="Clojure For The Brave And Truem">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3156,13 +3156,51 @@ great-books
 <node CREATED="1588097828063" ID="ID_198817626" MODIFIED="1588097831574" TEXT="... implemented"/>
 </node>
 <node CREATED="1588097866028" ID="ID_720905185" MODIFIED="1588097884685" TEXT="Protocol implementation can be multiple-arity"/>
+<node CREATED="1588157887120" ID="ID_844427820" MODIFIED="1588157895652" TEXT="Protocols methods belong to namespace"/>
+<node CREATED="1588157903548" ID="ID_1993687261" MODIFIED="1588157910386" TEXT="... not to protocol itself"/>
 </node>
+<node CREATED="1588157920397" ID="ID_1926930310" MODIFIED="1588157921946" TEXT="Records">
+<node CREATED="1588157928368" ID="ID_908804600" MODIFIED="1588157940751" TEXT="Maplike data types">
+<node CREATED="1588157954901" ID="ID_646443297" MODIFIED="1588157960991" TEXT="Has keys and values"/>
+</node>
+<node CREATED="1588157991254" ID="ID_1325654533" MODIFIED="1588157995878" TEXT="... but different">
+<node CREATED="1588157961364" ID="ID_978188195" MODIFIED="1588157966223" TEXT="Can specify fields">
+<node CREATED="1588157967764" ID="ID_1615433103" MODIFIED="1588157980244" TEXT="Slots for data"/>
+</node>
+<node CREATED="1588157981116" ID="ID_307818104" MODIFIED="1588157989413" TEXT="Can extend them to implement protocal"/>
+<node CREATED="1588158863584" ID="ID_1867427690" MODIFIED="1588158888574" TEXT="Accessing record value is faster"/>
+</node>
+<node CREATED="1588158522297" ID="ID_1939540132" MODIFIED="1588158526478" TEXT="Testing equality">
+<node CREATED="1588158526764" ID="ID_1977610151" MODIFIED="1588158534343" TEXT="Check that all fields are equal"/>
+<node CREATED="1588158534770" ID="ID_1603703343" MODIFIED="1588158549154" TEXT="Two comparands have same type"/>
+</node>
+<node CREATED="1588158792448" ID="ID_73156428" MODIFIED="1588158811208" TEXT="Can use same function than with maps"/>
+<node CREATED="1588158812091" ID="ID_1449854014" MODIFIED="1588158823011" TEXT="... exception">
+<node CREATED="1588158814415" ID="ID_1933056163" MODIFIED="1588158816024" TEXT="dissoc"/>
+<node CREATED="1588158816420" ID="ID_591717483" MODIFIED="1588158832579" TEXT="... will return a plain map"/>
+</node>
+<node CREATED="1588159077735" ID="ID_1374180031" MODIFIED="1588159080447" TEXT="Can extend record">
+<node CREATED="1588159080701" ID="ID_1487275267" MODIFIED="1588159092655" TEXT="extend-type">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588159083795" ID="ID_760009048" MODIFIED="1588159089272" TEXT="extend-protocol">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1588159102361" ID="ID_146619470" MODIFIED="1588159105553" TEXT="When to use records?">
+<node CREATED="1588159105735" ID="ID_1538734007" MODIFIED="1588159111003" TEXT="When you use map with same fields"/>
+<node CREATED="1588159111446" ID="ID_1876900960" MODIFIED="1588159113392" TEXT="... over and over"/>
+<node CREATED="1588159128149" ID="ID_1931916777" MODIFIED="1588159153386" TEXT="Give name based on concept trying to model"/>
+<node CREATED="1588159162644" ID="ID_1152769278" MODIFIED="1588159166581" TEXT="If you want to use protocols"/>
+</node>
+</node>
+<node CREATED="1588159171389" ID="ID_1046369150" LINK="http://clojure.org/datatypes/." MODIFIED="1588159184318" TEXT="Further Study"/>
 </node>
 </node>
 <node CREATED="1587395644657" ID="ID_216282533" MODIFIED="1587992272366" POSITION="left" TEXT="Appendix">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-4"/>
-<node CREATED="1587395669671" FOLDED="true" ID="ID_16948058" LINK="https://www.braveclojure.com/appendix-a/" MODIFIED="1587395679384" TEXT="Building and Developing with Leiningen">
+<node CREATED="1587395669671" ID="ID_16948058" LINK="https://www.braveclojure.com/appendix-a/" MODIFIED="1587395679384" TEXT="Building and Developing with Leiningen">
 <node COLOR="#338800" CREATED="1587992220574" ID="ID_1337012453" MODIFIED="1587992236792" TEXT="I won&apos;t cover that, I use boot">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
