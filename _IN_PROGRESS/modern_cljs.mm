@@ -181,7 +181,7 @@
 <node CREATED="1587662163088" ID="ID_1304899655" MODIFIED="1587662168876" TEXT="Simple made easy"/>
 <node CREATED="1587662792091" ID="ID_1144565244" MODIFIED="1587662792761" TEXT="Tradeoffs at work"/>
 </node>
-<node CREATED="1587662848803" ID="ID_673368362" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-07.md" MODIFIED="1587664618083" POSITION="right" TEXT="Introducing Domina Events">
+<node CREATED="1587662848803" FOLDED="true" ID="ID_673368362" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-07.md" MODIFIED="1587664618083" POSITION="right" TEXT="Introducing Domina Events">
 <icon BUILTIN="full-7"/>
 <node CREATED="1587662867445" ID="ID_462307485" MODIFIED="1587662870492" TEXT="Introduction"/>
 <node CREATED="1587663983515" ID="ID_259738928" MODIFIED="1587663988970" TEXT="bREPLing with domina">
@@ -198,7 +198,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587664468088" ID="ID_977429795" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-08.md" MODIFIED="1587664610984" POSITION="right" TEXT="Dom Manipulation">
+<node CREATED="1587664468088" FOLDED="true" ID="ID_977429795" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-08.md" MODIFIED="1587664610984" POSITION="right" TEXT="Dom Manipulation">
 <icon BUILTIN="full-8"/>
 <node CREATED="1587664601318" ID="ID_1232928977" MODIFIED="1587664604121" TEXT="Introduction"/>
 <node CREATED="1587664600491" ID="ID_2021601" MODIFIED="1587664600491" TEXT="DOM manipulation"/>
@@ -207,7 +207,7 @@
 <node CREATED="1587665214165" ID="ID_1780187547" MODIFIED="1587665214855" TEXT="hiccups"/>
 </node>
 </node>
-<node CREATED="1588271337666" ID="ID_1363663026" MODIFIED="1588271346722" POSITION="right" TEXT="Introducing Ajax">
+<node CREATED="1588271337666" FOLDED="true" ID="ID_1363663026" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-09.md" MODIFIED="1588353204142" POSITION="right" TEXT="Introducing Ajax">
 <icon BUILTIN="full-9"/>
 <node CREATED="1588271409455" ID="ID_1094841264" MODIFIED="1588271412069" TEXT="Introduction"/>
 <node CREATED="1588271412986" ID="ID_1396708925" MODIFIED="1588271416729" TEXT="No AJAX no party"/>
@@ -219,6 +219,60 @@
 <node CREATED="1588272207024" ID="ID_1330160203" MODIFIED="1588272219447" TEXT="Asynchronous RPC via Ajax call (???)"/>
 </node>
 <node CREATED="1588273031162" ID="ID_1499210235" MODIFIED="1588273031661" TEXT="The client side"/>
+</node>
+<node CREATED="1588338493771" FOLDED="true" ID="ID_1823760273" MODIFIED="1588340766707" POSITION="right" TEXT="A Deeper Understanding of Domina Events">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-0"/>
+<node CREATED="1588338506189" ID="ID_1993811864" MODIFIED="1588338506768" TEXT="Line up Login Form with Shopping Calculator Form"/>
+<node CREATED="1588339053231" ID="ID_456553537" MODIFIED="1588339056122" TEXT="First Try"/>
+<node CREATED="1588339056941" ID="ID_981839811" MODIFIED="1588339059714" TEXT="Prevent the Default"/>
+<node CREATED="1588339452146" ID="ID_453915815" MODIFIED="1588339452660" TEXT="Catch early react instantly">
+<node CREATED="1588339483990" ID="ID_26188668" MODIFIED="1588339484638" TEXT="Email/Password validators"/>
+</node>
+</node>
+<node CREATED="1588340782919" FOLDED="true" ID="ID_753052902" MODIFIED="1588340794576" POSITION="right" TEXT="HTML on Top, Clojure on the Bottom">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1588341084426" ID="ID_1917285368" MODIFIED="1588341085130" TEXT="The highest surface"/>
+<node CREATED="1588341433195" ID="ID_1339737952" MODIFIED="1588341433936" TEXT="The deepest layer"/>
+</node>
+<node CREATED="1588342249884" FOLDED="true" ID="ID_1272008004" MODIFIED="1588342259634" POSITION="right" TEXT="Don&apos;t repeat Yourself">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-2"/>
+<node CREATED="1588342518909" ID="ID_1757980137" MODIFIED="1588342519473" TEXT="The server side validation">
+<node CREATED="1588343275056" ID="ID_1417937652" MODIFIED="1588343276331" TEXT="valip"/>
+</node>
+<node CREATED="1588344255278" ID="ID_360736395" MODIFIED="1588344255780" TEXT="Crossing the border">
+<node CREATED="1588344274835" ID="ID_1262396314" MODIFIED="1588344285104" TEXT="Common code between clj / cljs"/>
+<node CREATED="1588344285548" ID="ID_606139623" MODIFIED="1588344287829" TEXT="... have extension">
+<node CREATED="1588344288026" ID="ID_907427352" MODIFIED="1588344289467" TEXT="cljc"/>
+</node>
+<node CREATED="1588344301283" ID="ID_1896992379" MODIFIED="1588344315593" TEXT="clj / cljs loaded before cljc"/>
+</node>
+<node CREATED="1588349902174" ID="ID_314918203" MODIFIED="1588349907029" TEXT="Back to Earth"/>
+<node CREATED="1588350561840" ID="ID_857423210" MODIFIED="1588350562416" TEXT="Let&apos;s dance again on crossing the border"/>
+<node CREATED="1588350641717" ID="ID_394844405" MODIFIED="1588350641717" TEXT="Reader Conditionals">
+<node CREATED="1588350750958" ID="ID_701260907" MODIFIED="1588350760093" TEXT="Can let you choose what reader you want">
+<node CREATED="1588350763844" ID="ID_471264933" MODIFIED="1588350765495" TEXT="JVM?"/>
+<node CREATED="1588350766121" ID="ID_1989364789" MODIFIED="1588350768691" TEXT="JSVM?"/>
+</node>
+<node CREATED="1588350697519" ID="ID_280842870" MODIFIED="1588350699743" TEXT="Two forms">
+<node CREATED="1588350702717" ID="ID_506936669" MODIFIED="1588350704018" TEXT="#?">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588350727395" ID="ID_645506746" MODIFIED="1588350742064" TEXT="Similar to a cond"/>
+</node>
+<node CREATED="1588350708618" ID="ID_440650454" MODIFIED="1588350710405" TEXT="#?@">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1588350818478" ID="ID_1611429088" MODIFIED="1588350824836" TEXT="Only usable in cljc files">
+<node CREATED="1588350840409" ID="ID_1274624615" MODIFIED="1588350846464" TEXT="Define non portable functions"/>
+</node>
+</node>
+</node>
+<node CREATED="1588352902955" ID="ID_228318824" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-13.md" MODIFIED="1588353191864" POSITION="right" TEXT="Better Safe Than Sorry (Part 1)">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-3"/>
 </node>
 </node>
 </map>
