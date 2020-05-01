@@ -1,16 +1,16 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1588319834787" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1588327831290" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="5"><u><b>General notes:</b></u></font><br /><br />Some elements from Lecture Notes, Yale University, Spring 1999 from L. Lova&#769;sz and K. Vesztergombi have been included here.<br /><br />
+      <font size="5"><u><b>General notes:</b></u></font><br /><br />The 7th edition have been used for this mindmap.<br /><br />Some elements from Lecture Notes, Yale University, Spring 1999 from L. Lova&#769;sz and K. Vesztergombi have been included here.<br /><br />
     </p>
     <p>
-      https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf<br /><br />The 7th edition have been used for this mindmap.<br /><br /><font size="5"><u><b>Assessments:</b></u></font>
+      https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf<br /><br /><br /><font size="5"><u><b>Assessments:</b></u></font>
     </p>
     <p>
       
@@ -410,7 +410,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1530447285087" ID="ID_1982099078" MODIFIED="1587472961477" POSITION="right" TEXT="PLAN of the book">
+<node CREATED="1530447285087" FOLDED="true" ID="ID_1982099078" MODIFIED="1587472961477" POSITION="right" TEXT="PLAN of the book">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1587388729193" FOLDED="true" ID="ID_1384629814" MODIFIED="1587473041204" TEXT="Plan">
@@ -3573,11 +3573,11 @@
 </node>
 </node>
 <node CREATED="1564564022865" FOLDED="true" ID="ID_928246757" MODIFIED="1587469900318" TEXT="2.4 Sequences and Summations">
-<node CREATED="1564564066520" ID="ID_1207413132" MODIFIED="1587392535026" TEXT="Introduction">
+<node CREATED="1564564066520" FOLDED="true" ID="ID_1207413132" MODIFIED="1587392535026" TEXT="Introduction">
 <node CREATED="1564564044010" ID="ID_776012966" MODIFIED="1564564047837" TEXT="Ordered list of elements"/>
 <node CREATED="1564564077593" ID="ID_553141591" MODIFIED="1564564082788" TEXT="Can be used for counting problems"/>
 </node>
-<node CREATED="1564564311680" ID="ID_25796947" MODIFIED="1587392536936" TEXT="Sequences">
+<node CREATED="1564564311680" FOLDED="true" ID="ID_25796947" MODIFIED="1587392536936" TEXT="Sequences">
 <node CREATED="1564564324095" ID="ID_1233095167" MODIFIED="1564564335122" TEXT="Definition">
 <node CREATED="1564564330998" ID="ID_1757262110" MODIFIED="1564564331850" TEXT=" discrete structure used to represent an ordered list"/>
 <node CREATED="1564564439582" FOLDED="true" ID="ID_1584617348" MODIFIED="1575538307434" TEXT="img">
@@ -3686,7 +3686,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1569299807839" ID="ID_29648874" MODIFIED="1587392852422" TEXT="Recurrence Relations">
+<node CREATED="1569299807839" FOLDED="true" ID="ID_29648874" MODIFIED="1587392852422" TEXT="Recurrence Relations">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5309,7 +5309,7 @@
 </node>
 <node CREATED="1587388485335" FOLDED="true" ID="ID_1604667027" MODIFIED="1587473047225" POSITION="right" TEXT="Number Theory and Cryptography">
 <icon BUILTIN="full-4"/>
-<node COLOR="#338800" CREATED="1587469426731" ID="ID_421960804" MODIFIED="1587469435987" TEXT="Passed for now">
+<node COLOR="#338800" CREATED="1587469426731" ID="ID_421960804" MODIFIED="1588327713573" TEXT="Skipped">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
 </node>
@@ -6003,7 +6003,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588321306545" ID="ID_1008536110" MODIFIED="1588321313508" POSITION="left" TEXT="Counting">
+<node CREATED="1588321306545" FOLDED="true" ID="ID_1008536110" MODIFIED="1588321313508" POSITION="left" TEXT="Counting">
 <icon BUILTIN="full-6"/>
 <node COLOR="#338800" CREATED="1588146802807" ID="ID_1179682484" MODIFIED="1588146814645" TEXT="Skipped">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
