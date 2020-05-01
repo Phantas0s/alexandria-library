@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1588146725818" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1588319834787" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -384,6 +384,26 @@
     <ol>
       <li>
         Take the book and go through every algorithm in 3.1. What are their order of growth?
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+    <p>
+      <font size="3"><b><u>5. Induction and Recursion </u></b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><u>5.4 Recursive Algorithms </u></i>
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        Give a recursive algorithm to compute n!, where n is Z+. What is the recursive definition of n!?
       </li>
     </ol>
   </body>
@@ -5294,7 +5314,7 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1587388497496" ID="ID_136007063" MODIFIED="1587388567445" POSITION="right" TEXT="Induction and Recursion">
+<node CREATED="1587388497496" FOLDED="true" ID="ID_136007063" MODIFIED="1587388567445" POSITION="right" TEXT="Induction and Recursion">
 <icon BUILTIN="full-5"/>
 <node CREATED="1587469753575" FOLDED="true" ID="ID_996166179" MODIFIED="1587472939052" TEXT="Introduction">
 <node CREATED="1587469493576" ID="ID_286076869" MODIFIED="1587469630750" TEXT="Proof using mathematic induction ">
@@ -5561,7 +5581,7 @@
 </node>
 </node>
 <node CREATED="1588146983743" ID="ID_848524163" MODIFIED="1588146999077" TEXT="5.3 Recursive Definitions And Structural Induction">
-<node CREATED="1588147020788" ID="ID_469897079" MODIFIED="1588147023750" TEXT="Introduction">
+<node CREATED="1588147020788" FOLDED="true" ID="ID_469897079" MODIFIED="1588147023750" TEXT="Introduction">
 <node CREATED="1588147029500" ID="ID_1434206312" MODIFIED="1588147041001" TEXT="Sometimes difficult to define object explicitely"/>
 <node CREATED="1588147041665" ID="ID_816010592" MODIFIED="1588147056803" TEXT="Might be easier to define object in terms of itself"/>
 <node CREATED="1588147058587" ID="ID_1411829085" MODIFIED="1588147064209" TEXT="... process called recursion"/>
@@ -5599,7 +5619,7 @@
 <node CREATED="1588147297731" ID="ID_1940647076" MODIFIED="1588147302242" TEXT="Use structural induction"/>
 </node>
 </node>
-<node CREATED="1588147307508" ID="ID_1486897108" MODIFIED="1588147311567" TEXT="Recursively Defined Functions">
+<node CREATED="1588147307508" FOLDED="true" ID="ID_1486897108" MODIFIED="1588147311567" TEXT="Recursively Defined Functions">
 <node CREATED="1588147317645" ID="ID_541368620" MODIFIED="1588147333316" TEXT="Two steps for function with set of nonnegative integers">
 <node CREATED="1588147333809" ID="ID_1702109425" MODIFIED="1588147386394" TEXT="Basis step">
 <icon BUILTIN="full-1"/>
@@ -5643,13 +5663,12 @@
   <body>
     <img src="example_recursive_definition_sum.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1588148059957" ID="ID_1394431281" MODIFIED="1588148060893" TEXT="Recursively Defined Sets and Structures ">
-<node CREATED="1588148111031" ID="ID_954325867" MODIFIED="1588148114168" TEXT="Two parts">
+<node CREATED="1588148059957" FOLDED="true" ID="ID_1394431281" MODIFIED="1588148060893" TEXT="Recursively Defined Sets and Structures ">
+<node CREATED="1588148111031" FOLDED="true" ID="ID_954325867" MODIFIED="1588148114168" TEXT="Two parts">
 <node CREATED="1588148114430" ID="ID_1645902686" MODIFIED="1588148123555" TEXT="Basis step">
 <icon BUILTIN="full-1"/>
 </node>
@@ -5657,7 +5676,7 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node CREATED="1588148142067" ID="ID_1865856634" MODIFIED="1588148150063" TEXT="... can include exclusion rule">
+<node CREATED="1588148142067" FOLDED="true" ID="ID_1865856634" MODIFIED="1588148150063" TEXT="... can include exclusion rule">
 <node CREATED="1588148172908" ID="ID_116693220" MODIFIED="1588148181078" TEXT="Specifies that nothing is in the sex"/>
 <node CREATED="1588148181529" ID="ID_1575291314" MODIFIED="1588148187464" TEXT="... except what defined by">
 <node CREATED="1588148187465" ID="ID_1901244148" MODIFIED="1588148189224" TEXT="basis step"/>
@@ -5665,7 +5684,7 @@
 </node>
 </node>
 <node CREATED="1588148438860" ID="ID_1111771884" MODIFIED="1588148447336" TEXT="Recursive definition has important role"/>
-<node CREATED="1588148447740" ID="ID_230577149" MODIFIED="1588149211452" TEXT="... in definition of string">
+<node CREATED="1588148447740" FOLDED="true" ID="ID_230577149" MODIFIED="1588149211452" TEXT="... in definition of string">
 <icon BUILTIN="licq"/>
 <node CREATED="1588148490912" ID="ID_1725791983" MODIFIED="1588148495385">
 <richcontent TYPE="NODE"><html>
@@ -5675,11 +5694,10 @@
   <body>
     <img src="defintion_recursive_set_of_strings.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1588148661924" ID="ID_414698281" MODIFIED="1588149216067" TEXT="Concatenation definition">
+<node CREATED="1588148661924" FOLDED="true" ID="ID_414698281" MODIFIED="1588149216067" TEXT="Concatenation definition">
 <icon BUILTIN="licq"/>
 <node CREATED="1588149091156" ID="ID_1999893058" MODIFIED="1588149101734">
 <richcontent TYPE="NODE"><html>
@@ -5689,11 +5707,10 @@
   <body>
     <img src="definition_recursive_concatenation.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1588149035752" ID="ID_295144437" MODIFIED="1588149808278" TEXT="Rooted tree">
+<node CREATED="1588149035752" FOLDED="true" ID="ID_295144437" MODIFIED="1588149808278" TEXT="Rooted tree">
 <node CREATED="1588149493647" ID="ID_1505782579" MODIFIED="1588149792464" TEXT="Definition">
 <icon BUILTIN="licq"/>
 <node CREATED="1588149129191" ID="ID_1501406561" MODIFIED="1588149138673">
@@ -5718,12 +5735,11 @@
   <body>
     <img src="rooted_tree_recursive_building_example.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1588149772248" ID="ID_1414595971" MODIFIED="1588149777983" TEXT="Extended binary trees">
+<node CREATED="1588149772248" FOLDED="true" ID="ID_1414595971" MODIFIED="1588149777983" TEXT="Extended binary trees">
 <node CREATED="1588149785433" ID="ID_516716075" MODIFIED="1588149796983" TEXT="Definition">
 <icon BUILTIN="licq"/>
 <node CREATED="1588149830251" ID="ID_1012235936" MODIFIED="1588149839342">
@@ -5734,8 +5750,7 @@
   <body>
     <img src="extended_binary_tree_definition.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588149840996" ID="ID_1764397969" MODIFIED="1588149842809" TEXT="Example">
@@ -5747,12 +5762,11 @@
   <body>
     <img src="extended_binary_trees_example.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1588149856829" ID="ID_51354607" MODIFIED="1588149864173" TEXT="Full binary tree">
+<node CREATED="1588149856829" FOLDED="true" ID="ID_51354607" MODIFIED="1588149864173" TEXT="Full binary tree">
 <node CREATED="1588149864386" ID="ID_598665806" MODIFIED="1588151039188" TEXT="Definition">
 <icon BUILTIN="licq"/>
 <node CREATED="1588149867762" ID="ID_92578927" MODIFIED="1588149871886">
@@ -5763,8 +5777,7 @@
   <body>
     <img src="full_binary_tree_recursion_definition.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588149873301" ID="ID_1532149053" MODIFIED="1588151035244" TEXT="Example">
@@ -5777,13 +5790,12 @@
   <body>
     <img src="full_binary_tree_recursion_example.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1588149384898" ID="ID_1132127161" MODIFIED="1588149390274" TEXT="Structural Induction">
+<node CREATED="1588149384898" FOLDED="true" ID="ID_1132127161" MODIFIED="1588149390274" TEXT="Structural Induction">
 <node COLOR="#338800" CREATED="1588146802807" ID="ID_1555031718" MODIFIED="1588146814645" TEXT="Skipped">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
@@ -5796,17 +5808,221 @@
 </node>
 </node>
 </node>
+<node CREATED="1588319053502" ID="ID_428739369" MODIFIED="1588319063907" TEXT="5.4 Recursive Algorithms">
+<node CREATED="1588319076391" FOLDED="true" ID="ID_705123969" MODIFIED="1588319078146" TEXT="Introduction">
+<node CREATED="1588319104487" ID="ID_1265351216" MODIFIED="1588319144384" TEXT="Sometimes we can reduce problem solution">
+<node CREATED="1588319111245" ID="ID_1850283916" MODIFIED="1588319119534" TEXT="with particular set of input values"/>
+<node CREATED="1588319119993" ID="ID_86256660" MODIFIED="1588319129347" TEXT="... to solution of same problem"/>
+<node CREATED="1588319129784" ID="ID_1779509525" MODIFIED="1588319136641" TEXT="... with smaller set of input values"/>
+<node CREATED="1588319149476" ID="ID_346993950" MODIFIED="1588319293749" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1588319156547" ID="ID_535369671" MODIFIED="1588319170710" TEXT="GCD of Z+ a and b">
+<node CREATED="1588319174096" ID="ID_1200387973" MODIFIED="1588319180034" TEXT="where b &gt; a"/>
+<node CREATED="1588319181050" ID="ID_823005729" MODIFIED="1588319188082" TEXT="... can be reduced to"/>
+<node CREATED="1588319188998" ID="ID_656229462" MODIFIED="1588319203143" TEXT="... gcd(b mod a, a)">
+<node CREATED="1588319203428" ID="ID_1085368123" MODIFIED="1588319208137" TEXT="= gcd(a, b)"/>
 </node>
-<node CREATED="1587388543595" ID="ID_1416871703" MODIFIED="1587388607840" POSITION="left" TEXT="Counting">
+</node>
+</node>
+</node>
+<node CREATED="1588319216967" ID="ID_1622533343" MODIFIED="1588319221403" TEXT="When reduction can be done">
+<node CREATED="1588319221794" ID="ID_20948580" MODIFIED="1588319233527" TEXT="solution of original problem"/>
+<node CREATED="1588319233941" ID="ID_1669341167" MODIFIED="1588319240904" TEXT="... can be found with sequence of reduction"/>
+<node CREATED="1588319245857" ID="ID_1229877318" MODIFIED="1588319255496" TEXT="... till pb reduced to some initial case"/>
+<node CREATED="1588319279971" ID="ID_1033868080" MODIFIED="1588319298265" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1588319365278" ID="ID_961085398" MODIFIED="1588319368454" TEXT="To find GCD"/>
+<node CREATED="1588319368858" ID="ID_243946990" MODIFIED="1588319382077" TEXT="... reduction continue till smaller of two number = 0"/>
+<node CREATED="1588319382945" ID="ID_980637619" MODIFIED="1588319390995" TEXT="... because gcd(a, 0) = a">
+<node CREATED="1588319391208" ID="ID_850218158" MODIFIED="1588319394311" TEXT="when a &gt; 0"/>
+</node>
+</node>
+</node>
+<node CREATED="1588319408856" ID="ID_643029103" MODIFIED="1588319411159" TEXT="Definition">
+<node CREATED="1588319416341" ID="ID_1085580352" MODIFIED="1588319417015" TEXT="An algorithm is called recursive if it solves a problem "/>
+<node CREATED="1588319421408" ID="ID_388412607" MODIFIED="1588319431865" TEXT="... by reducing it to an instance of the same problem"/>
+<node CREATED="1588319426978" ID="ID_1357045492" MODIFIED="1588319429186" TEXT="... with smaller input. "/>
+</node>
+<node CREATED="1588319834893" ID="ID_947415606" MODIFIED="1588319867196" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1588319839081" ID="ID_768032707" MODIFIED="1588319851447" TEXT="Recursive defintion of n!">
+<node CREATED="1588319851757" ID="ID_1138655177" MODIFIED="1588319862588" TEXT="n! = n * (n-1)!"/>
+<node CREATED="1588319886881" ID="ID_1844278633" MODIFIED="1588319887621" TEXT="0! = 1"/>
+<node CREATED="1588319997219" ID="ID_608499464" MODIFIED="1588320017494" TEXT="Algorithm">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      procedure factorial(n: nonnegative integer)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if n = 0 then return 1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;else return n &#183; factorial(n &#8722; 1)
+    </p>
+    <p>
+      {output is n!}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1588320245328" ID="ID_452442750" MODIFIED="1588320255252" TEXT="Recursive definition of a^n">
+<node CREATED="1588320257532" ID="ID_1076101525" MODIFIED="1588320270810" TEXT="a^n+1 = a^n * n"/>
+<node CREATED="1588320271833" ID="ID_1009055681" MODIFIED="1588320278870" TEXT="a^0 = 1"/>
+<node CREATED="1588320279949" ID="ID_840159720" MODIFIED="1588320297856" TEXT="Algorithm">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      procedure power(a: nonzero real number, n: nonnegative integer)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if n = 0 then return 1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;else return a &#183; power(a, n &#8722; 1)
+    </p>
+    <p>
+      {output is a n}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1588320419572" ID="ID_501865201" MODIFIED="1588320419572" TEXT="Proving Recursive Algorithms Correct">
+<node COLOR="#338800" CREATED="1588146802807" ID="ID_1459301692" MODIFIED="1588146814645" TEXT="Skipped">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node CREATED="1588320436405" ID="ID_286101149" MODIFIED="1588320440328" TEXT="Recursion and Iteration">
+<node CREATED="1588320495333" ID="ID_1639080957" MODIFIED="1588320499294" TEXT="Recursive definition">
+<node CREATED="1588320499484" ID="ID_1002264200" MODIFIED="1588320512102" TEXT="Value of a function at a positive integer"/>
+<node CREATED="1588320513345" ID="ID_1783983796" MODIFIED="1588320525812" TEXT="... in terms of values of the function at smaller integers"/>
+</node>
+<node CREATED="1588320532831" ID="ID_1040289870" MODIFIED="1588320538901" TEXT="Iteration">
+<node CREATED="1588320539131" ID="ID_1414088492" MODIFIED="1588320556737" TEXT="Start with base cases"/>
+<node CREATED="1588320557222" ID="ID_448758057" MODIFIED="1588320575358" TEXT="... and successively apply recursive definition"/>
+<node CREATED="1588320577923" ID="ID_906926072" MODIFIED="1588320586514" TEXT="... to find values of function at larger integers"/>
+<node CREATED="1588320599002" ID="ID_1638807479" MODIFIED="1588320607270" TEXT="Usually require less computation than recursion"/>
+</node>
+<node CREATED="1588320628924" ID="ID_522006610" MODIFIED="1588320630698" TEXT="Example">
+<node CREATED="1588320630871" ID="ID_1249321964" MODIFIED="1588320638533" TEXT="Fibonacci numbers">
+<node CREATED="1588320653847" ID="ID_1743992532" MODIFIED="1588320667917" TEXT="Recursive algorithm">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      procedure fibonacci(n: nonnegative integer)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if n = 0 then return 0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;else if n = 1 then return 1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;else return fibonacci(n &#8722; 1) + fibonacci(n &#8722; 2)
+    </p>
+    <p>
+      {output is fibonacci(n)}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1588321003693" ID="ID_370255696" MODIFIED="1588321032697" TEXT="Iterative algorithm">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      procedure iterative fibonacci(n: nonnegative integer)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if n = 0 then return 0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x := 0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;y := 1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;for i := 1 to n &#8722; 1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;z := x + y
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x := y
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;y := z
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return y
+    </p>
+    <p>
+      {output is the nth Fibonacci number}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1588321053043" ID="ID_423756574" MODIFIED="1588321055701" TEXT="The Merge Sort">
+<node COLOR="#338800" CREATED="1588146802807" ID="ID_918175055" MODIFIED="1588146814645" TEXT="Skipped">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+</node>
+<node CREATED="1588321081082" ID="ID_869194311" MODIFIED="1588321088616" TEXT="5.5 Program Correctness">
+<node COLOR="#338800" CREATED="1588146802807" ID="ID_945097098" MODIFIED="1588146814645" TEXT="Skipped">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+</node>
+<node CREATED="1588321306545" ID="ID_1008536110" MODIFIED="1588321313508" POSITION="left" TEXT="Counting">
 <icon BUILTIN="full-6"/>
+<node COLOR="#338800" CREATED="1588146802807" ID="ID_1179682484" MODIFIED="1588146814645" TEXT="Skipped">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
 </node>
-<node CREATED="1587388609645" ID="ID_1787646430" MODIFIED="1587388676559" POSITION="left" TEXT="Discrete Probability">
+<node CREATED="1588321332093" ID="ID_823412161" MODIFIED="1588321338021" TEXT="6.1 The Basics of Counting"/>
+<node CREATED="1588321338693" ID="ID_308865268" MODIFIED="1588321345340" TEXT="6.2 The Pigeonhole Principle"/>
+<node CREATED="1588321345766" ID="ID_1105928649" MODIFIED="1588321354073" TEXT="6.3 Permutations and Combinations"/>
+<node CREATED="1588321354693" ID="ID_1525900095" MODIFIED="1588321366411" TEXT="6.4 Binomial Coefficients and Identities"/>
+<node CREATED="1588321366950" ID="ID_1780223038" MODIFIED="1588321377049" TEXT="6.5 Generalized Permutations and Combinations"/>
+<node CREATED="1588321377828" ID="ID_1159565021" MODIFIED="1588321390966" TEXT="6.6 Generating Permuations and Combinations"/>
+</node>
+<node CREATED="1588321397146" ID="ID_1529477378" MODIFIED="1588321579195" POSITION="left" TEXT="Discrete Probility">
 <icon BUILTIN="full-7"/>
 </node>
-<node CREATED="1587388619912" ID="ID_690223598" MODIFIED="1587388679361" POSITION="left" TEXT="Advanced Counting Techniques">
+<node CREATED="1588321585733" ID="ID_1738065178" MODIFIED="1588321595091" POSITION="left" TEXT="Advanced Counting Techniques">
 <icon BUILTIN="full-8"/>
 </node>
-<node CREATED="1587388638655" ID="ID_1528555772" MODIFIED="1587388681824" POSITION="left" TEXT="Relations">
+<node CREATED="1588321600757" ID="ID_1426583357" MODIFIED="1588321605202" POSITION="left" TEXT="Relations">
 <icon BUILTIN="full-9"/>
 </node>
 <node CREATED="1587388646477" ID="ID_1922308220" MODIFIED="1587388688874" POSITION="left" TEXT="Graphs">
