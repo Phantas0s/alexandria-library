@@ -198,7 +198,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587664468088" FOLDED="true" ID="ID_977429795" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-08.md" MODIFIED="1587664610984" POSITION="right" TEXT="Dom Manipulation">
+<node CREATED="1587664468088" ID="ID_977429795" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-08.md" MODIFIED="1587664610984" POSITION="right" TEXT="Dom Manipulation">
 <icon BUILTIN="full-8"/>
 <node CREATED="1587664601318" ID="ID_1232928977" MODIFIED="1587664604121" TEXT="Introduction"/>
 <node CREATED="1587664600491" ID="ID_2021601" MODIFIED="1587664600491" TEXT="DOM manipulation"/>
@@ -273,6 +273,134 @@
 <node CREATED="1588352902955" ID="ID_228318824" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-13.md" MODIFIED="1588353191864" POSITION="right" TEXT="Better Safe Than Sorry (Part 1)">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
+<node CREATED="1588424432990" ID="ID_149313444" MODIFIED="1588424434961" TEXT="Introduction">
+<node CREATED="1588424435111" ID="ID_576620506" MODIFIED="1588424437599" TEXT="Code testing"/>
+<node CREATED="1588424475019" ID="ID_1776440136" MODIFIED="1588424479097" TEXT="Pure functions are easy to test"/>
+</node>
+<node CREATED="1588424537425" ID="ID_129529915" MODIFIED="1588424539558" TEXT="Add Enlive"/>
+<node CREATED="1588424801249" ID="ID_749484834" MODIFIED="1588424801817" TEXT="Step 1 - Break the Shopping Calculator"/>
+<node CREATED="1588425743166" ID="ID_1974095715" MODIFIED="1588425743783" TEXT="Step 2 - Enliving the server-side"/>
+<node CREATED="1588427689545" ID="ID_39232858" MODIFIED="1588427690085" TEXT="Let&apos;s code"/>
+</node>
+<node CREATED="1588427699637" ID="ID_1429816417" LINK="https://github.com/magomimmo/modern-cljs/blob/master/doc/second-edition/tutorial-14.md" MODIFIED="1588427719487" POSITION="right" TEXT="Better Safe Than Sorry (Part 2)">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-4"/>
+<node CREATED="1588427786447" ID="ID_116574013" MODIFIED="1588427788330" TEXT="Introduction"/>
+<node CREATED="1588427784004" ID="ID_612673395" MODIFIED="1588427785728" TEXT="Review the Shopping Form"/>
+<node CREATED="1588427839771" ID="ID_1825189058" MODIFIED="1588427840231" TEXT="Shopping Form validation"/>
+<node CREATED="1588427945591" ID="ID_583718355" MODIFIED="1588427946124" TEXT="Unit testing">
+<node CREATED="1588428087471" ID="ID_1844605962" MODIFIED="1588428097124" TEXT="Better directories mimic struct of app">
+<node CREATED="1588428097290" ID="ID_894078758" MODIFIED="1588428102005" TEXT="but not mandatory"/>
+</node>
+<node CREATED="1588428102672" ID="ID_1409278961" MODIFIED="1588428109421" TEXT="Test file has no mandatory name to run"/>
+<node CREATED="1588428159772" ID="ID_46798271" MODIFIED="1588428167266" TEXT="For private symbols, do unit test in same file"/>
+<node CREATED="1588428534060" ID="ID_1131214260" MODIFIED="1588428542036" TEXT="On boot REPL">
+<node CREATED="1588428536511" ID="ID_814997047" MODIFIED="1588428561719" TEXT="Add dynamically test directory to set-env!">
+<node CREATED="1588428569406" ID="ID_460152114" MODIFIED="1588428570961" TEXT="(set-env! :source-paths #(conj % &quot;test/cljc&quot;))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1588428583443" ID="ID_1454337102" MODIFIED="1588428584880" TEXT="Run tests">
+<node CREATED="1588428585117" ID="ID_1977203451" MODIFIED="1588428585921" TEXT="(t/run-tests &apos;modern-cljs.shopping.validators-test) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1588428702263" ID="ID_76213621" MODIFIED="1588428713961" TEXT="... need to reload the namespace each time we modify test...">
+<node CREATED="1588428714263" ID="ID_1972806418" MODIFIED="1588428715497" TEXT="(require &apos;[modern-cljs.shopping.validators-test] :reload)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1588428878083" ID="ID_432484385" MODIFIED="1588428885753" POSITION="right" TEXT="Better Safe Than Sorry (Part 3)">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-5"/>
+<node CREATED="1588429076091" ID="ID_1926986084" MODIFIED="1588429078126" TEXT="Introduction"/>
+<node CREATED="1588429102885" ID="ID_1885244304" MODIFIED="1588429103417" TEXT="Testing task">
+<node CREATED="1588429163561" ID="ID_518877995" MODIFIED="1588429168481" TEXT="identity in boot.build">
+<node CREATED="1588429168663" ID="ID_1424197901" MODIFIED="1588429172450" TEXT="Return the task itself"/>
+<node CREATED="1588429172815" ID="ID_542998331" MODIFIED="1588429177980" TEXT="... to compose it with other tasks"/>
+</node>
+</node>
+<node CREATED="1588429676421" ID="ID_782036884" MODIFIED="1588429677149" TEXT="CLJ TDD">
+<node CREATED="1588429683741" ID="ID_686844853" MODIFIED="1588429753093" TEXT="adzerk/boot-test ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1588429671284" ID="ID_299708543" MODIFIED="1588429672050" TEXT="CLJS TDD">
+<node CREATED="1588429723359" ID="ID_1047136982" MODIFIED="1588429730405" TEXT="crisptrutski/boot-cljs-test">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1588430075205" MODIFIED="1588430075205" TEXT="More automation"/>
+<node CREATED="1588430078049" MODIFIED="1588430078049" TEXT="TDD task"/>
+<node CREATED="1588430233715" ID="ID_474593123" MODIFIED="1588430234257" TEXT="A single JVM instance, multiple tasks"/>
+</node>
+<node CREATED="1588430970716" ID="ID_824141592" MODIFIED="1588430986075" POSITION="right" TEXT="On pleasing TDD practitioners">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-6"/>
+<node CREATED="1588431355926" ID="ID_1370152356" MODIFIED="1588431356501" TEXT="Introduction"/>
+<node CREATED="1588431359313" ID="ID_355181256" MODIFIED="1588431360046" TEXT="Task Options Domain Specific Language"/>
+<node CREATED="1588431403926" ID="ID_773411551" MODIFIED="1588431404441" TEXT="Short requirements"/>
+<node CREATED="1588431489761" ID="ID_207280795" MODIFIED="1588431492307" TEXT="A dummy task">
+<node CREATED="1588431493522" ID="ID_1286968195" MODIFIED="1588431496524" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8">(deftask dummy
+  &quot;A dummy task&quot;
+  [t dirs PATH #{str} &quot;:source-paths&quot;]
+  *opts*)</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1588431501947" ID="ID_1736671493" MODIFIED="1588431503758" TEXT="[t dirs PATH #{str} &quot;:source-path&quot;]">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588431504917" ID="ID_427406579" MODIFIED="1588431505857" TEXT="t">
+<node CREATED="1588431506142" ID="ID_147500957" MODIFIED="1588431511644" TEXT="the shortname eg: boot dummy -t"/>
+</node>
+<node CREATED="1588431516292" ID="ID_1931651948" MODIFIED="1588431516822" TEXT="dirs">
+<node CREATED="1588431521173" ID="ID_796055062" MODIFIED="1588431523917" TEXT="the longname eg: boot dummy --dirs"/>
+</node>
+<node CREATED="1588431530931" ID="ID_1513006312" MODIFIED="1588431532398" TEXT="PATH">
+<node CREATED="1588431538419" ID="ID_336110818" MODIFIED="1588431546948" TEXT="the optarg. "/>
+<node CREATED="1588431549248" ID="ID_1922371814" MODIFIED="1588431555026" TEXT="When provided, indicates that the option expects"/>
+<node CREATED="1588431555994" ID="ID_213054545" MODIFIED="1588431557419" TEXT="...  an argument to be passed at call time"/>
+</node>
+<node CREATED="1588431570083" ID="ID_1366310032" MODIFIED="1588431570920" TEXT="#{str}">
+<node CREATED="1588431577456" ID="ID_1723747510" MODIFIED="1588431602665" TEXT="The CLJ type hint for the passed argument"/>
+<node CREATED="1588431584793" ID="ID_349032591" MODIFIED="1588431585366" TEXT="Here the type hint is saying that the arguments "/>
+<node CREATED="1588431589661" ID="ID_559369435" MODIFIED="1588431591612" TEXT="... will be interpreted as a set of strings;"/>
+</node>
+<node CREATED="1588431608515" ID="ID_1035120755" MODIFIED="1588431609271" TEXT="&quot;:source-path&quot;">
+<node CREATED="1588431612935" ID="ID_1274124330" MODIFIED="1588431628438" TEXT="The description that will be incorporated"/>
+<node CREATED="1588431622391" ID="ID_964017020" MODIFIED="1588431626029" TEXT="... into command line help output."/>
+</node>
+</node>
+</node>
+<node CREATED="1588432692523" ID="ID_361441691" MODIFIED="1588432693258" TEXT="A short digression on CLJS compiler optimizations ">
+<node CREATED="1588432767708" ID="ID_1837720579" MODIFIED="1588432768768" TEXT="none">
+<node CREATED="1588432778507" ID="ID_602049604" MODIFIED="1588432784531" TEXT="Bypass Closure compiler"/>
+<node CREATED="1588432784966" ID="ID_890329063" MODIFIED="1588432786923" TEXT="Fastest"/>
+</node>
+<node CREATED="1588432769572" ID="ID_1341495490" MODIFIED="1588432771270" TEXT="whitespace"/>
+<node CREATED="1588432771923" ID="ID_1380848311" MODIFIED="1588432773316" TEXT="simple"/>
+<node CREATED="1588432773783" ID="ID_1501937106" MODIFIED="1588432775803" TEXT="advanced"/>
+<node CREATED="1588432788398" ID="ID_1650521389" MODIFIED="1588432789388" TEXT="see">
+<node CREATED="1588432789683" ID="ID_810221828" MODIFIED="1588432793753" TEXT="boot cljs -h">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1588433063340" MODIFIED="1588433063340" TEXT="Test Namespaces"/>
+</node>
+<node CREATED="1588433427522" ID="ID_1506186901" MODIFIED="1588433441903" POSITION="right" TEXT="REPLing with Enlive">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-7"/>
 </node>
 </node>
 </map>
