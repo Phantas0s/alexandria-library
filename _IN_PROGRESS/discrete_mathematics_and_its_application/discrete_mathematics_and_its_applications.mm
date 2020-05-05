@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1588327831290" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1588695891046" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5667,7 +5667,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588148059957" FOLDED="true" ID="ID_1394431281" MODIFIED="1588148060893" TEXT="Recursively Defined Sets and Structures ">
+<node CREATED="1588148059957" ID="ID_1394431281" MODIFIED="1588148060893" TEXT="Recursively Defined Sets and Structures ">
 <node CREATED="1588148111031" FOLDED="true" ID="ID_954325867" MODIFIED="1588148114168" TEXT="Two parts">
 <node CREATED="1588148114430" ID="ID_1645902686" MODIFIED="1588148123555" TEXT="Basis step">
 <icon BUILTIN="full-1"/>
@@ -5766,7 +5766,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588149856829" FOLDED="true" ID="ID_51354607" MODIFIED="1588149864173" TEXT="Full binary tree">
+<node CREATED="1588149856829" ID="ID_51354607" MODIFIED="1588149864173" TEXT="Full binary tree">
 <node CREATED="1588149864386" ID="ID_598665806" MODIFIED="1588151039188" TEXT="Definition">
 <icon BUILTIN="licq"/>
 <node CREATED="1588149867762" ID="ID_92578927" MODIFIED="1588149871886">
@@ -5867,8 +5867,7 @@
       {output is n!}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588320245328" ID="ID_452442750" MODIFIED="1588320255252" TEXT="Recursive definition of a^n">
@@ -5893,8 +5892,7 @@
       {output is a n}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -5940,8 +5938,7 @@
       {output is fibonacci(n)}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588321003693" ID="ID_370255696" MODIFIED="1588321032697" TEXT="Iterative algorithm">
 <richcontent TYPE="NOTE"><html>
@@ -5983,8 +5980,7 @@
       {output is the nth Fibonacci number}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -6028,6 +6024,181 @@
 <node CREATED="1587388646477" ID="ID_1922308220" MODIFIED="1587388688874" POSITION="left" TEXT="Graphs">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
+<node CREATED="1588694296780" ID="ID_445152677" MODIFIED="1588694301627" TEXT="Introduction">
+<node CREATED="1588694301854" ID="ID_326795882" MODIFIED="1588694308821" TEXT="Discrete structures with">
+<node CREATED="1588694308984" ID="ID_71288401" MODIFIED="1588694310224" TEXT="Vertices"/>
+<node CREATED="1588694310575" ID="ID_1580919635" MODIFIED="1588694314401" TEXT="Edges"/>
+</node>
+<node CREATED="1588694322658" ID="ID_449484425" MODIFIED="1588694394833" TEXT="Different types of graph"/>
+<node CREATED="1588694404610" ID="ID_345960229" MODIFIED="1588694411373" TEXT="Problems in many disciplines"/>
+<node CREATED="1588694411796" ID="ID_316573316" MODIFIED="1588694417206" TEXT="... can be solved with graph models"/>
+</node>
+<node CREATED="1588694473232" ID="ID_651628915" MODIFIED="1588694480750" TEXT="10.1 Graphs and Graph Models">
+<node CREATED="1588694490473" ID="ID_1006252210" MODIFIED="1588694671297" TEXT="Definition">
+<node CREATED="1588694609042" ID="ID_378492061" MODIFIED="1588694609878" TEXT="A graph G = (V , E) consists of">
+<node CREATED="1588694502987" ID="ID_150382551" MODIFIED="1588694617549" TEXT="V a nonempty set of vertices (or nodes)"/>
+<node CREATED="1588694529549" ID="ID_858378350" MODIFIED="1588694623775" TEXT="E a set of edges"/>
+</node>
+<node CREATED="1588694546537" ID="ID_1666667034" MODIFIED="1588694603720" TEXT="Each edge has either"/>
+<node CREATED="1588694559925" ID="ID_1077540887" MODIFIED="1588694561405" TEXT="... one or two vertices associated with it"/>
+<node CREATED="1588694566108" ID="ID_1571529765" MODIFIED="1588694644987" TEXT="... called its endpoints"/>
+<node CREATED="1588694575320" ID="ID_835156983" MODIFIED="1588694647783" TEXT="An edge is said to connect its endpoints."/>
+</node>
+<node CREATED="1588694675945" ID="ID_942709178" MODIFIED="1588695050097" TEXT="Infinite Graph">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588694688476" ID="ID_689503255" MODIFIED="1588694699659" TEXT="Infinite set of vertices"/>
+<node CREATED="1588694707037" ID="ID_64629621" MODIFIED="1588694720981" TEXT="... or infinite number of edges"/>
+</node>
+<node CREATED="1588694725628" ID="ID_1567317728" MODIFIED="1588695050637" TEXT="Finite graph">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588694728611" ID="ID_195045386" MODIFIED="1588694734499" TEXT="Finite set of vertices"/>
+<node CREATED="1588694734880" ID="ID_1742491815" MODIFIED="1588694750817" TEXT="... and a finite set of edges"/>
+</node>
+<node CREATED="1588694765298" ID="ID_158663622" MODIFIED="1588694921414" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1588694767093" ID="ID_372965053" MODIFIED="1588694772342" TEXT="Network with">
+<node CREATED="1588694772899" ID="ID_193719954" MODIFIED="1588694775351" TEXT="Data centers"/>
+<node CREATED="1588694775721" ID="ID_239550479" MODIFIED="1588694781890" TEXT="Communication links between computers"/>
+</node>
+<node CREATED="1588694788853" ID="ID_1422516429" MODIFIED="1588694792122" TEXT="Representation">
+<node CREATED="1588694792329" ID="ID_427320629" MODIFIED="1588694804336" TEXT="Each data center by a point">
+<node CREATED="1588694818505" ID="ID_1860105826" MODIFIED="1588694820356" TEXT="Vertices"/>
+</node>
+<node CREATED="1588694804700" ID="ID_32664877" MODIFIED="1588694810456" TEXT="Each communication link by a segment">
+<node CREATED="1588694821311" ID="ID_1094356597" MODIFIED="1588694822769" TEXT="Edges"/>
+</node>
+</node>
+<node CREATED="1588694823804" ID="ID_1565339532" MODIFIED="1588694917401" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1588694905320" ID="ID_1018574330" MODIFIED="1588694912796">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="simple_network_graph.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1588694973862" ID="ID_1045677124" MODIFIED="1588694976524" TEXT="Way of drawing">
+<node CREATED="1588694951231" ID="ID_45542152" MODIFIED="1588694955245" TEXT="Edges can be curved"/>
+<node CREATED="1588694943156" ID="ID_962678429" MODIFIED="1588694948431" TEXT="Try usually not to cross edges"/>
+<node CREATED="1588694979846" ID="ID_786635612" MODIFIED="1588694990402" TEXT="Pretty arbitrary"/>
+<node CREATED="1588694990894" ID="ID_1919366523" MODIFIED="1588695000639" TEXT="... as long as correct connections between vertices"/>
+</node>
+<node CREATED="1588695877680" ID="ID_1716215515" MODIFIED="1588695880975" TEXT="Graph types">
+<node CREATED="1588695040047" FOLDED="true" ID="ID_665377283" MODIFIED="1588695047342" TEXT="Simple graph">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588695064820" ID="ID_1120821900" MODIFIED="1588695113562" TEXT="Each edge connect two different vertices"/>
+<node CREATED="1588695070616" ID="ID_682687515" MODIFIED="1588695090743" TEXT="No two edges connect same pair of vertices"/>
+<node CREATED="1588695154078" ID="ID_584274434" MODIFIED="1588695155652" TEXT="Notes">
+<node CREATED="1588695155866" ID="ID_1816100422" MODIFIED="1588695162572" TEXT="Each edge is associated to an unordered pair of vertices"/>
+<node CREATED="1588695172089" ID="ID_153890656" MODIFIED="1588695172609" TEXT="no other edge is associated to this same edge"/>
+</node>
+<node CREATED="1588695220460" ID="ID_610767539" LINK="#ID_158663622" MODIFIED="1588695243241" TEXT="Example">
+<icon BUILTIN="wizard"/>
+</node>
+</node>
+<node CREATED="1588695215916" FOLDED="true" ID="ID_484906970" MODIFIED="1588695245358" TEXT="Multigraph">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588695248653" ID="ID_384021629" MODIFIED="1588695254957" TEXT="Multiple edges"/>
+<node CREATED="1588695255331" ID="ID_1252670738" MODIFIED="1588695261525" TEXT="... connecting the same vertices"/>
+<node CREATED="1588695262375" ID="ID_367450309" MODIFIED="1588695365550" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1588695351417" ID="ID_1720006078" MODIFIED="1588695360367">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="multigraph_network_graph.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1588695501480" FOLDED="true" ID="ID_209740451" MODIFIED="1588695545851" TEXT="Loops">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588695503272" ID="ID_403220438" MODIFIED="1588695563063" TEXT="Edge(s) connecting a vertex"/>
+<node CREATED="1588695509216" ID="ID_18707896" MODIFIED="1588695511182" TEXT="... to itself"/>
+<node CREATED="1588695511634" FOLDED="true" ID="ID_532186189" MODIFIED="1588695687012" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1588695537058" ID="ID_1157848280" MODIFIED="1588695542043">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="loop_network_graph.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1588695581488" FOLDED="true" ID="ID_377778641" MODIFIED="1588695601277" TEXT="Directed graphs">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588695594076" ID="ID_1370107064" MODIFIED="1588695609040" TEXT="Assigning direction to the edge of the graph"/>
+<node CREATED="1588695631220" FOLDED="true" ID="ID_356988481" MODIFIED="1588695682656" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1588695672317" ID="ID_925210092" MODIFIED="1588695679038">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="directed_network_graph.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1588695722989" ID="ID_1681657889" MODIFIED="1588695732057" TEXT="Definition">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A directed graph (or digraph) (V , E) consists of a nonempty set of vertices V and a set of
+    </p>
+    <p>
+      directed edges (or arcs) E. Each directed edge is associated with an ordered pair of vertices.
+    </p>
+    <p>
+      The directed edge associated with the ordered pair (u, v) is said to start at u and end at v.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1588695818600" ID="ID_1135613080" MODIFIED="1588695820950" TEXT="simple directed graph">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588695827280" ID="ID_610953585" MODIFIED="1588695828771" TEXT="directed multigraphs">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588695829173" ID="ID_1315044181" MODIFIED="1588695841546" TEXT="Multiple directed edges"/>
+<node CREATED="1588695841974" ID="ID_669772812" MODIFIED="1588695849680" TEXT="... from one to another vertex"/>
+<node CREATED="1588695850267" ID="ID_1134906875" MODIFIED="1588695853322" TEXT="... possibly the same"/>
+</node>
+</node>
+<node CREATED="1588695884041" FOLDED="true" ID="ID_960090007" MODIFIED="1588695895505" TEXT="Summary">
+<icon BUILTIN="licq"/>
+<node CREATED="1588695936183" ID="ID_623955684" MODIFIED="1588695940564">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="graph_type_summary.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1587388651463" ID="ID_424277622" MODIFIED="1587388693837" POSITION="left" TEXT="Trees">
 <icon BUILTIN="full-1"/>
