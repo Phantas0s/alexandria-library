@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1588763937896" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1588857735741" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -35,7 +35,20 @@
         Define normal order
       </li>
       <li>
-        What uses Scheme by default? Applicative or Normal order?
+        What are the steps to compute (f 5) in applicative order? In normal order?
+
+        <p>
+          <font face="SansSerif, sans-serif"><i>(define (square x) (* x x))</i></font>
+        </p>
+        <p>
+          <font face="SansSerif, sans-serif"><i>(define (sum-of-squares x y) &#160;&#160;(+ (square x) (square y)))</i></font>
+        </p>
+        <p>
+          <font face="SansSerif, sans-serif"><i>(define (f a) &#160;&#160;(sum-of-squares (+ a 1) (* a 2))) </i></font>
+        </p>
+      </li>
+      <li>
+        What uses Scheme by default? Applicative or normal order?
       </li>
       <li>
         How do you call a procedure evaluated as true or false?
@@ -70,6 +83,7 @@
   </body>
 </html>
 </richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1587143678085" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
 <node CREATED="1528634606285" ID="ID_1929326975" MODIFIED="1587143670696" TEXT="Introduction">
@@ -199,8 +213,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;6))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -232,7 +245,7 @@
 <node CREATED="1588766191859" ID="ID_1055703381" MODIFIED="1588766200253" TEXT="Computation can involve many different environements"/>
 </node>
 </node>
-<node CREATED="1528636223778" FOLDED="true" ID="ID_1555654302" MODIFIED="1549911657625" TEXT="1.1.3 Evaluating combinations">
+<node CREATED="1528636223778" ID="ID_1555654302" MODIFIED="1549911657625" TEXT="1.1.3 Evaluating combinations">
 <node CREATED="1528636422631" ID="ID_343358033" MODIFIED="1528636428919" TEXT="Evaluate a combination">
 <node CREATED="1528636432794" ID="ID_1392634115" MODIFIED="1528636451656" TEXT="Evaluate subexpressions of the combination">
 <icon BUILTIN="full-1"/>
@@ -264,8 +277,7 @@
   <body>
     <img src="tree-value-combinations.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -292,6 +304,13 @@
 <node CREATED="1528636613802" ID="ID_1476767855" MODIFIED="1588766674827" TEXT="syntax of a computer language"/>
 <node CREATED="1588766881186" ID="ID_775917913" MODIFIED="1588766886373" TEXT="For LISP, very simple one"/>
 </node>
+<node CREATED="1588858123529" ID="ID_1120310031" MODIFIED="1588858128685" TEXT="Syntactic sugar">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588858138890" ID="ID_1162063030" MODIFIED="1588858142613" TEXT="Peter Landin"/>
+<node CREATED="1588858164892" ID="ID_344457641" MODIFIED="1588858197635" TEXT="Special syntactic forms for things "/>
+<node CREATED="1588858191925" ID="ID_1905808423" MODIFIED="1588858203191" TEXT="... that are simply convenient alternative surface structures "/>
+<node CREATED="1588858197908" ID="ID_235788947" MODIFIED="1588858207138" TEXT="... that can be written in more uniform ways"/>
+</node>
 </node>
 <node CREATED="1528636673800" FOLDED="true" ID="ID_954289629" MODIFIED="1549911713716" TEXT="1.1.4 Compound procedures">
 <node CREATED="1528636685290" ID="ID_1138337227" MODIFIED="1528636693700" TEXT="Procedure definitions">
@@ -311,8 +330,7 @@
   <body>
     <img src="illustration_of_procedure.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588767058842" ID="ID_94045572" MODIFIED="1588767066508" TEXT="Compound procedure">
@@ -329,8 +347,8 @@
 <node CREATED="1588767231463" ID="ID_1821670511" MODIFIED="1588767239764" TEXT="Compbound procedures looks exactly the same"/>
 <node CREATED="1588767240193" ID="ID_275411917" MODIFIED="1588767244989" TEXT="... as primitive procedures"/>
 </node>
-<node CREATED="1528638318714" FOLDED="true" ID="ID_105103101" MODIFIED="1588767260120" TEXT="1.1.5 The Substitution Model for Procedure Application">
-<node CREATED="1588767542529" ID="ID_23926507" MODIFIED="1588767546443" TEXT="Substitution model">
+<node CREATED="1528638318714" ID="ID_105103101" MODIFIED="1588767260120" TEXT="1.1.5 The Substitution Model for Procedure Application">
+<node CREATED="1588767542529" FOLDED="true" ID="ID_23926507" MODIFIED="1588767546443" TEXT="Substitution model">
 <node CREATED="1588767346239" ID="ID_66887807" MODIFIED="1588767347566" TEXT="Example">
 <node CREATED="1588767351034" ID="ID_1668198925" MODIFIED="1588767445661" TEXT="">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -381,7 +399,7 @@
 <node CREATED="1588767759101" ID="ID_798303325" MODIFIED="1588767768443" TEXT="Imperfect way of thinking"/>
 <node CREATED="1588767769206" ID="ID_434339794" MODIFIED="1588767773481" TEXT="... we will correct overtime"/>
 </node>
-<node CREATED="1588767801518" ID="ID_255496206" MODIFIED="1588767807969" TEXT="Applicative order versus normal order">
+<node CREATED="1588767801518" FOLDED="true" ID="ID_255496206" MODIFIED="1588767807969" TEXT="Applicative order versus normal order">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1528638391105" ID="ID_418699584" MODIFIED="1549912080481" TEXT="Applicative order">
 <node CREATED="1528638395079" ID="ID_1006399112" MODIFIED="1549911667183" TEXT="See 1.2"/>
@@ -447,7 +465,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1588768308530" ID="ID_705992908" MODIFIED="1588768323298" TEXT="... can be expressed with">
+<node CREATED="1588768308530" FOLDED="true" ID="ID_705992908" MODIFIED="1588768323298" TEXT="... can be expressed with">
 <node CREATED="1588768324502" ID="ID_235226709" MODIFIED="1588768325559" TEXT="con">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -473,13 +491,12 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 <node CREATED="1588768364156" ID="ID_1443910051" MODIFIED="1588768377480" TEXT="Parenthesis called clause"/>
 </node>
-<node CREATED="1528639010786" ID="ID_661406913" MODIFIED="1528639014704" TEXT="predicate">
+<node CREATED="1528639010786" FOLDED="true" ID="ID_661406913" MODIFIED="1528639014704" TEXT="predicate">
 <node CREATED="1528639022026" ID="ID_539479998" MODIFIED="1528639025117" TEXT="procedures evaluated as true or false">
 <node CREATED="1588768398315" ID="ID_946295036" MODIFIED="1588768410757" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -505,8 +522,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else x)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588768493888" ID="ID_1136559849" MODIFIED="1588768497650" TEXT="Second way">
 <richcontent TYPE="NOTE"><html>
@@ -527,12 +543,11 @@
       &#160;&#160;&#160;&#160;&#160;&#160;x))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1588768745813" ID="ID_1715204833" MODIFIED="1588768752234" TEXT="Logical compbound operations">
+<node CREATED="1588768745813" FOLDED="true" ID="ID_1715204833" MODIFIED="1588768752234" TEXT="Logical compbound operations">
 <node CREATED="1588768752391" ID="ID_1795561671" MODIFIED="1588768759547" TEXT="... to construct compbound predicates"/>
 <node CREATED="1588768760179" ID="ID_1306689163" MODIFIED="1588768762166" TEXT="and">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -572,7 +587,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528639115408" ID="ID_1476008131" MODIFIED="1528639217458" TEXT="clause">
+<node CREATED="1528639115408" FOLDED="true" ID="ID_1476008131" MODIFIED="1528639217458" TEXT="clause">
 <node CREATED="1528639174314" ID="ID_526392324" MODIFIED="1528639213745" TEXT="pair of expression"/>
 <node CREATED="1528639218026" ID="ID_912588172" MODIFIED="1528639219120" TEXT="ex">
 <node CREATED="1528639219391" ID="ID_134608037" MODIFIED="1528639220219" TEXT="((= x 0) 0)"/>
@@ -580,62 +595,91 @@
 </node>
 <node CREATED="1528639224867" ID="ID_826805874" MODIFIED="1528639235679" TEXT="Return when first clause true"/>
 </node>
-<node COLOR="#ff0000" CREATED="1528737009779" ID="ID_419824407" MODIFIED="1588770626917" TEXT="1.1.7 Example: Square Roots by Newton&#x2019;s Method">
-<node COLOR="#ff0000" CREATED="1588770611529" ID="ID_1457616220" MODIFIED="1588770619928" TEXT="COME BACK HERE">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1528737009779" ID="ID_419824407" MODIFIED="1588842318047" TEXT="1.1.7 Example: Square Roots by Newton&#x2019;s Method">
+<node CREATED="1588842293293" ID="ID_256484034" MODIFIED="1588842298109" TEXT="Main difference between">
+<node CREATED="1588842298110" ID="ID_1074693733" MODIFIED="1588842304614" TEXT="Math functions"/>
+<node CREATED="1588842301185" ID="ID_628209055" MODIFIED="1588842303669" TEXT="Procedures"/>
 </node>
+<node CREATED="1588842305672" ID="ID_494639891" MODIFIED="1588842311670" TEXT="... procedures need to be effective!"/>
+<node CREATED="1588842410967" ID="ID_469797947" MODIFIED="1588842429071" TEXT="... difference between">
 <node CREATED="1528737019715" ID="ID_1685932458" MODIFIED="1528737048253" TEXT="Declarative description">
 <node CREATED="1528737048503" ID="ID_1574364585" MODIFIED="1528737051223" TEXT="What is?">
 <node CREATED="1528737051489" ID="ID_1975292160" MODIFIED="1528737088254" TEXT="Mathematics / functions"/>
 </node>
+<node CREATED="1588842388698" ID="ID_900035563" MODIFIED="1588842395590" TEXT="Describing properties of thing"/>
 </node>
 <node CREATED="1528737055145" ID="ID_776913068" MODIFIED="1528737069350" TEXT="Imperative description">
 <node CREATED="1528737069554" ID="ID_1711954677" MODIFIED="1528737073566" TEXT="How to">
 <node CREATED="1528737073825" ID="ID_1016681053" MODIFIED="1528737079502" TEXT="Computing / procedures"/>
 </node>
+<node CREATED="1588842396018" ID="ID_1583340292" MODIFIED="1588842399909" TEXT="Describing how to do things"/>
 </node>
 </node>
-<node CREATED="1528831370712" FOLDED="true" ID="ID_806499112" MODIFIED="1549911846105" TEXT="1.1.8 Procedures as Black-Box Abstractions">
-<node CREATED="1528831376172" ID="ID_939479519" MODIFIED="1528831561688" TEXT="Arguments name">
+</node>
+<node CREATED="1528831370712" ID="ID_806499112" MODIFIED="1549911846105" TEXT="1.1.8 Procedures as Black-Box Abstractions">
+<node CREATED="1588843355501" ID="ID_1980503035" MODIFIED="1588843360692" TEXT="Decomposition strategy">
+<node CREATED="1588843360874" ID="ID_1078014645" MODIFIED="1588843369852" TEXT="Not simply dividing program into parts"/>
+<node CREATED="1588843370608" ID="ID_458014008" MODIFIED="1588843392314" TEXT="Each procedures accomplishes identifiable task"/>
+<node CREATED="1588843393046" ID="ID_1652239088" MODIFIED="1588843399297" TEXT="... which can be used for other procedures"/>
+</node>
+<node CREATED="1588843426523" ID="ID_1474451959" MODIFIED="1588843429808" TEXT="Black box">
+<node CREATED="1588843429983" ID="ID_806605438" MODIFIED="1588843436326" TEXT="We don&apos;t care how procedure compute it results"/>
+<node CREATED="1588843436973" ID="ID_553184749" MODIFIED="1588843442638" TEXT="From outside, it&apos;s a black box"/>
+<node CREATED="1588843504165" ID="ID_916667143" MODIFIED="1588843514716" TEXT="Suppress details"/>
+</node>
+<node CREATED="1588843529694" ID="ID_287873002" MODIFIED="1588843532647" TEXT="Local names">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1528831376172" ID="ID_939479519" MODIFIED="1588843557152" TEXT="Arguments names of procedure don&apos;t matter">
 <node CREATED="1528831564803" ID="ID_491547994" MODIFIED="1528831568647" TEXT="Don&apos;t matter">
 <node CREATED="1528831383932" ID="ID_556513435" MODIFIED="1528831392433" TEXT="For the one using the procedure"/>
 <node CREATED="1528831574091" ID="ID_537184046" MODIFIED="1528831580353" TEXT="Concept of &quot;black box&quot;"/>
 </node>
-<node CREATED="1528831544683" ID="ID_449078016" MODIFIED="1528831644838" TEXT="called &quot;bound variable&quot;">
+<node CREATED="1588843645067" ID="ID_1537307117" MODIFIED="1588843663068" TEXT="Means that arguments is local to procedure"/>
+<node CREATED="1588843652518" ID="ID_1809120927" MODIFIED="1588843656977" TEXT="... and can&apos;t be used anywhere else"/>
+</node>
+<node CREATED="1528831544683" ID="ID_449078016" MODIFIED="1588843628019" TEXT="Bounded variables">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588843601986" ID="ID_1661656006" MODIFIED="1588843604935" TEXT="Arguments of procedure"/>
 <node CREATED="1528831596418" ID="ID_975969972" MODIFIED="1528831635887" TEXT="Procedure definition &quot;binds&quot; its formal parameters">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1588856969980" ID="ID_647214704" MODIFIED="1588856983938" TEXT="Procedure definition unchanged if we rename args"/>
 </node>
-<node CREATED="1528831668930" ID="ID_1297225095" MODIFIED="1528831673727" TEXT="If variable not bound">
-<node CREATED="1528831673994" ID="ID_1626171815" MODIFIED="1528831676671" TEXT="called &quot;free&quot;"/>
+<node CREATED="1528831673994" ID="ID_1626171815" MODIFIED="1588843615757" TEXT="Free variables">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588843616261" ID="ID_782599940" MODIFIED="1588843621799" TEXT="Variables not bound"/>
 </node>
+<node CREATED="1588857007730" ID="ID_1692028501" MODIFIED="1588857050662" TEXT="Scope">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588857009984" ID="ID_1182204920" MODIFIED="1588857022976" TEXT="Set of expression which a binding defines a name"/>
+<node CREATED="1588857023476" ID="ID_1456329849" MODIFIED="1588857030768" TEXT="For an arg, body of procedure"/>
 </node>
-<node CREATED="1528831711586" ID="ID_1906722337" MODIFIED="1528831741864" TEXT="Example">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      (define (good-enough? guess x)
-    </p>
-    <p>
-      &#160;&#160;(&lt; (abs (- (square guess) x)) 0.001))
-    </p>
-    <p>
-      
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1528831711586" ID="ID_1906722337" MODIFIED="1588857055492" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1588857059057" ID="ID_940293205" MODIFIED="1588857065514" TEXT="(define (good-enough? guess x) &#xa0;&#xa0;(&lt; (abs (- (square guess) x)) 0.001)) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 <node CREATED="1528831742489" ID="ID_49393219" MODIFIED="1528831749150" TEXT="Bound variables">
 <node CREATED="1528831749401" ID="ID_1367649277" MODIFIED="1528831752727" TEXT="guess"/>
 <node CREATED="1528831753449" ID="ID_1022556267" MODIFIED="1528831754254" TEXT="x"/>
 </node>
-<node CREATED="1528831763721" ID="ID_813255468" MODIFIED="1528831765798" TEXT="Free">
+<node CREATED="1528831763721" ID="ID_813255468" MODIFIED="1588857080000" TEXT="Free variables">
 <node CREATED="1528831766041" ID="ID_348471302" MODIFIED="1528831768262" TEXT="&lt;"/>
 <node CREATED="1528831772897" ID="ID_324583008" MODIFIED="1528831774181" TEXT="-"/>
 <node CREATED="1528831775825" ID="ID_1411291780" MODIFIED="1528831777629" TEXT="abs"/>
 <node CREATED="1528831778233" ID="ID_525910555" MODIFIED="1528831780117" TEXT="square"/>
+</node>
+</node>
+</node>
+<node CREATED="1588857408752" ID="ID_694367942" MODIFIED="1588857411736" TEXT="Internal definitions and block structure">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588857717792" ID="ID_1879364906" MODIFIED="1588857738655" TEXT="Lexical scoping">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1588857721098" ID="ID_196277741" MODIFIED="1588857724321" TEXT="Function in a function"/>
+<node CREATED="1588857724940" ID="ID_1431470945" MODIFIED="1588857730224" TEXT="... accessing argument of first function"/>
+<node CREATED="1588857914620" ID="ID_499939266" MODIFIED="1588857918671" TEXT="Block structure">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
