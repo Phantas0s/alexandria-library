@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1588577314862" TEXT="Vimscript the Hard Way">
+<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1588772755561" TEXT="Vimscript the Hard Way">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -10,7 +10,8 @@
       Good practices:<br /><br />https://google.github.io/styleguide/vimscriptguide.xml
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1587903834848" ID="ID_263951312" LINK="https://github.com/Phantas0s/playground/tree/master/vimscript/vimscript-hard-way" MODIFIED="1588155027198" POSITION="right" TEXT="Code">
 <icon BUILTIN="full-0"/>
@@ -1937,7 +1938,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588081816247" ID="ID_914550900" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/34.html" MODIFIED="1588156046122" POSITION="left" TEXT="Case Study: Grep Operator, Part Three">
+<node CREATED="1588081816247" FOLDED="true" ID="ID_914550900" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/34.html" MODIFIED="1588156046122" POSITION="left" TEXT="Case Study: Grep Operator, Part Three">
 <icon BUILTIN="full-3"/>
 <icon BUILTIN="full-4"/>
 <node CREATED="1588151248877" ID="ID_1983557426" MODIFIED="1588151255573" TEXT="34.1 Saving Registers">
