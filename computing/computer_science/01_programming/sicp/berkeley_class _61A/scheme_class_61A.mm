@@ -8,7 +8,7 @@
 <node CREATED="1528634089906" ID="ID_501513953" MODIFIED="1528634096522" TEXT="LISt Processing"/>
 </node>
 <node CREATED="1528634288534" ID="ID_1361930358" MODIFIED="1528634295540" POSITION="right" TEXT="Class 61A">
-<node CREATED="1528227496973" FOLDED="true" ID="ID_1480196480" MODIFIED="1586868208147" TEXT="Abstraction for flow of control">
+<node CREATED="1528227496973" ID="ID_1480196480" MODIFIED="1586868208147" TEXT="Abstraction for flow of control">
 <icon BUILTIN="full-1"/>
 <node CREATED="1527706615385" ID="ID_1258337708" MODIFIED="1564387517975" TEXT="Abstraction">
 <node CREATED="1527706618134" ID="ID_886851605" MODIFIED="1527706626627" TEXT="Used as name">
@@ -16,15 +16,16 @@
 </node>
 <node CREATED="1527706630686" ID="ID_961855731" MODIFIED="1527706833159" TEXT="Building on top the one underneath it"/>
 <node CREATED="1527706696510" ID="ID_1841327817" MODIFIED="1527706699122" TEXT="Example">
-<node CREATED="1527706699374" ID="ID_228039606" MODIFIED="1527706702306" TEXT="Application"/>
-<node CREATED="1527706703309" ID="ID_1373173674" MODIFIED="1527706710275" TEXT="High level language (PHP)"/>
-<node CREATED="1527706710974" ID="ID_565344955" MODIFIED="1527706715626" TEXT="Low level language (C)"/>
-<node CREATED="1527706716245" ID="ID_1978727513" MODIFIED="1527706723394" TEXT="Machine language / architecture"/>
-<node CREATED="1527706724117" ID="ID_1872860459" MODIFIED="1527706729650" TEXT="Logic gates"/>
-<node CREATED="1527706733621" ID="ID_1798191911" MODIFIED="1527706736346" TEXT="Transistors"/>
-<node CREATED="1527706736997" ID="ID_1849716317" MODIFIED="1527706742249" TEXT="Quantum physics"/>
+<node CREATED="1588951057197" MODIFIED="1588951057197" TEXT="Application programs"/>
+<node CREATED="1588951057199" MODIFIED="1588951057199" TEXT="High-level language (Scheme)"/>
+<node CREATED="1588951057199" MODIFIED="1588951057199" TEXT="Low-level language (C)"/>
+<node CREATED="1588951057199" MODIFIED="1588951057199" TEXT="Machine language"/>
+<node CREATED="1588951057200" MODIFIED="1588951057200" TEXT="Architecture (registers, memory, arithmetic unit, etc)"/>
+<node CREATED="1588951057200" MODIFIED="1588951057200" TEXT="circuit elements (gates)"/>
+<node CREATED="1588951057201" MODIFIED="1588951057201" TEXT="transistors"/>
+<node CREATED="1588951057202" MODIFIED="1588951057202" TEXT="solid-state physics"/>
+<node CREATED="1588951057202" MODIFIED="1588951057202" TEXT="quantum mechanics"/>
 </node>
-<node CREATED="1527706841916" ID="ID_654469732" MODIFIED="1527706860129" TEXT="&quot;PHP is an abstraction of C&quot;"/>
 </node>
 <node CREATED="1527709135803" ID="ID_1253064420" MODIFIED="1568703557823" TEXT="Functional programming">
 <node CREATED="1527707064058" ID="ID_430468719" MODIFIED="1527707067744" TEXT="Function">
@@ -32,7 +33,10 @@
 <node CREATED="1527707120451" ID="ID_1049128137" MODIFIED="1527707127975" TEXT="0 or more input"/>
 <node CREATED="1527707128538" ID="ID_1328720591" MODIFIED="1527707142999" TEXT="0 or more output"/>
 </node>
-<node CREATED="1527707145730" ID="ID_1318025714" MODIFIED="1527707153303" TEXT="With same input, same output"/>
+<node CREATED="1527707145730" ID="ID_1318025714" MODIFIED="1527707153303" TEXT="With same input, same output">
+<node CREATED="1588951134437" ID="ID_1359725621" MODIFIED="1588951142391" TEXT="Then, can reorder functions"/>
+<node CREATED="1588951142760" ID="ID_1579110165" MODIFIED="1588951160635" TEXT="Important for concurrency"/>
+</node>
 </node>
 <node CREATED="1527707491679" ID="ID_1711843433" MODIFIED="1527707494621" TEXT="Procedure">
 <node CREATED="1527707494920" ID="ID_894723881" MODIFIED="1527707538428" TEXT="Sequence of step for computing function"/>
@@ -53,8 +57,65 @@
 <node CREATED="1528054029306" ID="ID_1295508082" MODIFIED="1528054035546" TEXT="Immutable">
 <node CREATED="1528054035547" ID="ID_1054915610" MODIFIED="1528054049159" TEXT="Create values, don&apos;t change them"/>
 </node>
+<node CREATED="1588952742912" ID="ID_637991074" MODIFIED="1588952752705" TEXT="Applicative ordre vs normal order">
+<node CREATED="1588952753013" ID="ID_1296583755" MODIFIED="1588952754352" TEXT="Example">
+<node CREATED="1588952756127" ID="ID_427105737" MODIFIED="1588952771214" TEXT="Applicative order">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (zero (random 10))
+    </p>
+    <p>
+      (random 10) ==&gt; 5
+    </p>
+    <p>
+      (zero 5) ----&gt;
+    </p>
+    <p>
+      (- 5 5) ==&gt; 0
+    </p>
+    <p>
+      0
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1528044466659" ID="ID_548257725" MODIFIED="1528633507315" TEXT="User interface">
+<node CREATED="1588952771330" ID="ID_1123674667" MODIFIED="1588952783371" TEXT="Normal order">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (zero (random 10)) ----&gt;
+    </p>
+    <p>
+      (- (random 10) (random 10))
+    </p>
+    <p>
+      (random 10) ==&gt; 4
+    </p>
+    <p>
+      (random 10) ==&gt; 8
+    </p>
+    <p>
+      (- 4 8) ==&gt; -4
+    </p>
+    <p>
+      -4
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1528044466659" FOLDED="true" ID="ID_548257725" MODIFIED="1528633507315" TEXT="User interface">
 <node CREATED="1528044474897" ID="ID_843363380" MODIFIED="1568703576379" TEXT="Mouse">
 <node CREATED="1528044476700" ID="ID_1930421577" MODIFIED="1528044485904" TEXT="Conceived for children and adults"/>
 <node CREATED="1528044486355" ID="ID_236946990" MODIFIED="1528044878396" TEXT="Three mentality">
@@ -79,11 +140,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1528054338191" ID="ID_174681416" MODIFIED="1568703588535" TEXT="Running time">
+<node CREATED="1528054338191" FOLDED="true" ID="ID_174681416" MODIFIED="1568703588535" TEXT="Running time">
 <node CREATED="1528054353023" ID="ID_1025314804" MODIFIED="1528054359395" TEXT="Worst case is always more useful"/>
 <node CREATED="1528226004835" ID="ID_1347968023" MODIFIED="1528226012038" TEXT="Constant factor is usually useless"/>
 </node>
-<node CREATED="1528139717365" ID="ID_1038467197" MODIFIED="1568703592270" TEXT="Computing time">
+<node CREATED="1528139717365" FOLDED="true" ID="ID_1038467197" MODIFIED="1568703592270" TEXT="Computing time">
 <node CREATED="1528139762866" ID="ID_407856017" MODIFIED="1528139767280" TEXT="Searching">
 <node CREATED="1528139723212" ID="ID_1129472302" MODIFIED="1550996805204" TEXT="&#x3b8;(1)">
 <node CREATED="1528139809887" ID="ID_1479183736" MODIFIED="1528139858765" TEXT="Hash table"/>
@@ -126,7 +187,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528226248021" ID="ID_1313144941" MODIFIED="1574933519270" TEXT="Recursive / iterative processes">
+<node CREATED="1528226248021" FOLDED="true" ID="ID_1313144941" MODIFIED="1574933519270" TEXT="Recursive / iterative processes">
 <node CREATED="1528226254598" ID="ID_1598049886" MODIFIED="1550997679839" TEXT="Recursion process takes more memory">
 <node CREATED="1528226295154" ID="ID_1737794360" MODIFIED="1528226335162" TEXT="Computation happens to the way out"/>
 <node CREATED="1550997931904" ID="ID_1828960220" MODIFIED="1550997942709" TEXT="Memory used linear"/>
@@ -137,7 +198,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586868215628" ID="ID_327071360" MODIFIED="1586868219733" POSITION="right" TEXT="Order of Growth">
+<node CREATED="1586868215628" FOLDED="true" ID="ID_327071360" MODIFIED="1586868219733" POSITION="right" TEXT="Order of Growth">
 <node CREATED="1586868225011" ID="ID_696253307" MODIFIED="1586868230441" TEXT="Make your program works">
 <node CREATED="1586868230631" ID="ID_1600449246" MODIFIED="1586868235931" TEXT="then think about efficiency"/>
 </node>
@@ -159,7 +220,7 @@
 <node CREATED="1586872041109" ID="ID_1306447536" MODIFIED="1586872058588" TEXT="What we want to know is  time for large input"/>
 <node CREATED="1586872070174" ID="ID_1607597129" MODIFIED="1586872079420" TEXT="Constant factors don&apos;t matters for large input"/>
 </node>
-<node CREATED="1586872932356" ID="ID_80300192" MODIFIED="1586872935455" TEXT="Illustration">
+<node CREATED="1586872932356" FOLDED="true" ID="ID_80300192" MODIFIED="1586872935455" TEXT="Illustration">
 <node CREATED="1586872936149" ID="ID_77225223" MODIFIED="1586872940205" TEXT="CRAY-1 Fortran">
 <node CREATED="1586872940394" ID="ID_1912459321" MODIFIED="1586872945854" TEXT="Supercomputer at the time"/>
 </node>
@@ -177,8 +238,7 @@
   <body>
     <img src="order_of_growth_time.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
