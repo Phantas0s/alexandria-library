@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1589014115898" TEXT="Clojure For The Brave And Truem">
+<node CREATED="1572957365929" ID="ID_1722198687" LINK="https://www.braveclojure.com/" MODIFIED="1589117706643" TEXT="Clojure For The Brave And Truem">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -9,6 +9,63 @@
     <p>
       This is best to be followed with the code examples present here:<br /><br />https://github.com/Phantas0s/playground/tree/master/clojure/brave-clojure
     </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><u>3. Do Things: A Clojure Crash Course</u></b>
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        What are the two properties of a pure function
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+    <p>
+      <b>7. Clojure Alchemy: Reading, Evaluation, and Macros </b>
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        What are the two phases of compilation in Clojure?
+      </li>
+      <li>
+        Draw the compilation process showing every steps.
+      </li>
+      <li>
+        When are macros executed?
+      </li>
+    </ol>
+    <p>
+      <b>9. The Sacred Art of Concurrent and Parallel Programming</b>
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        What's the difference between concurrent programming and parallel programming?
+      </li>
+      <li>
+        What's a future?
+      </li>
+      <li>
+        What's a delay?
+      </li>
+      <li>
+        What's a promise?
+      </li>
+      <li>
+        What each of these tool let you decouple, at the level of a task?
+      </li>
+    </ol>
   </body>
 </html>
 </richcontent>
@@ -117,7 +174,7 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1572960953553" ID="ID_408168825" LINK="https://www.braveclojure.com/do-things/" MODIFIED="1587395564423" POSITION="right" TEXT="Do Things: A Clojure Crash Course">
+<node CREATED="1572960953553" FOLDED="true" ID="ID_408168825" LINK="https://www.braveclojure.com/do-things/" MODIFIED="1587395564423" POSITION="right" TEXT="Do Things: A Clojure Crash Course">
 <icon BUILTIN="full-3"/>
 <node CREATED="1572961016986" ID="ID_626921267" MODIFIED="1572961019190" TEXT="Syntax">
 <node CREATED="1572961038827" ID="ID_238894836" MODIFIED="1572961040519" TEXT="Forms">
@@ -502,7 +559,7 @@
 </node>
 </node>
 <node CREATED="1573213122242" FOLDED="true" ID="ID_613438985" MODIFIED="1573213122949" TEXT="Pulling It All Together">
-<node CREATED="1573220211843" ID="ID_263816681" MODIFIED="1589012983481" TEXT="let">
+<node CREATED="1573220211843" ID="ID_263816681" LINK="https://clojuredocs.org/clojure.core/let" MODIFIED="1589114720078" TEXT="let">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1573234069957" ID="ID_1597349734" MODIFIED="1573234076762" TEXT="Provide clarity by naming things"/>
 <node CREATED="1573234077587" ID="ID_556153323" MODIFIED="1573234080264" TEXT="Create a new scope">
@@ -518,16 +575,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1573234649040" ID="ID_234357628" MODIFIED="1589012984668" TEXT="into">
+<node CREATED="1573234649040" ID="ID_234357628" LINK="https://clojuredocs.org/clojure.core/into" MODIFIED="1589114729089" TEXT="into">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1573234651104" ID="ID_1732023259" MODIFIED="1573234656691" TEXT="Add values into a vector"/>
 </node>
-<node CREATED="1573234658072" ID="ID_1288107134" MODIFIED="1589012986393" TEXT="loop">
+<node CREATED="1573234658072" ID="ID_1288107134" LINK="https://clojuredocs.org/clojure.core/loop" MODIFIED="1589114738395" TEXT="loop">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1573234661344" ID="ID_1516650340" MODIFIED="1573234665404" TEXT="Other way to do recursion"/>
 </node>
 <node CREATED="1573235819365" ID="ID_1801768193" MODIFIED="1573235823762" TEXT="Regular expressions">
-<node CREATED="1573235938989" ID="ID_819839183" MODIFIED="1589012993578" TEXT="re-find">
+<node CREATED="1573235938989" ID="ID_819839183" LINK="https://clojuredocs.org/clojure.core/re-find" MODIFIED="1589114751620" TEXT="re-find">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1573235940036" ID="ID_1853035972" MODIFIED="1573235947218" TEXT="Match if the string as a pattern">
 <node CREATED="1573235947414" ID="ID_878705273" MODIFIED="1573235950498" TEXT="If yes return it"/>
@@ -542,7 +599,7 @@
 </node>
 </node>
 <node CREATED="1573237008797" ID="ID_1005115870" MODIFIED="1573237016810" TEXT="built in function for that">
-<node CREATED="1573237012934" ID="ID_674635780" MODIFIED="1589013014372" TEXT="reduce">
+<node CREATED="1573237012934" ID="ID_674635780" LINK="https://clojuredocs.org/clojure.core/reduce" MODIFIED="1589114761968" TEXT="reduce">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1573237155667" ID="ID_975055019" MODIFIED="1589013138052" TEXT="Apply the given function to two first elements of sequence">
 <icon BUILTIN="full-1"/>
@@ -963,14 +1020,6 @@
 </node>
 <node CREATED="1573653132512" ID="ID_183780025" MODIFIED="1573807512786" TEXT="Function Functions">
 <node CREATED="1573653180255" ID="ID_1200950295" MODIFIED="1573653192053" TEXT="Clojure accept functions as argument and can return functions"/>
-<node CREATED="1573653194198" ID="ID_221926788" MODIFIED="1573653198701" TEXT="functions">
-<node CREATED="1573653199001" ID="ID_1670801770" MODIFIED="1589013940321" TEXT="apply">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1573653200536" ID="ID_529082495" MODIFIED="1589013940321" TEXT="partial">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
 <node CREATED="1573653202377" ID="ID_1372815404" MODIFIED="1573653209461" TEXT="... both accept and return functions"/>
 <node CREATED="1573653212744" ID="ID_1234042248" LINK="https://clojuredocs.org/clojure.core/apply" MODIFIED="1589014018851" TEXT="apply">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -1009,8 +1058,8 @@
 </node>
 <node CREATED="1573807518256" FOLDED="true" ID="ID_1785830408" LINK="https://www.braveclojure.com/functional-programming/" MODIFIED="1587395551074" POSITION="right" TEXT="Functional Programming">
 <icon BUILTIN="full-5"/>
-<node CREATED="1573807533411" FOLDED="true" ID="ID_755680675" MODIFIED="1573807846110" TEXT="Pure Functions: What and Why">
-<node CREATED="1573807846490" FOLDED="true" ID="ID_1755214403" MODIFIED="1573807848550" TEXT="Introduction">
+<node CREATED="1573807533411" ID="ID_755680675" MODIFIED="1573807846110" TEXT="Pure Functions: What and Why">
+<node CREATED="1573807846490" ID="ID_1755214403" MODIFIED="1573807848550" TEXT="Introduction">
 <node CREATED="1573807593971" ID="ID_725819727" MODIFIED="1573807600128" TEXT="Definition">
 <node CREATED="1573807601284" ID="ID_1946200039" MODIFIED="1573807663310" TEXT="Always result same result with same arguments">
 <icon BUILTIN="full-1"/>
@@ -1018,7 +1067,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1573807647924" ID="ID_1373082310" MODIFIED="1573807665406" TEXT="Don&apos;t cause any side effect">
+<node CREATED="1573807647924" FOLDED="true" ID="ID_1373082310" MODIFIED="1573807665406" TEXT="Don&apos;t cause any side effect">
 <icon BUILTIN="full-2"/>
 <node CREATED="1573807672501" ID="ID_1251381178" MODIFIED="1573807689063" TEXT="Don&apos;t make any changes"/>
 <node CREATED="1573807689444" ID="ID_679918361" MODIFIED="1573807699902" TEXT="... observables outside of function"/>
@@ -1093,7 +1142,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1573842021205" FOLDED="true" ID="ID_1669864033" MODIFIED="1573842022212" TEXT="Living with Immutable Data Structures">
+<node CREATED="1573842021205" ID="ID_1669864033" MODIFIED="1573842022212" TEXT="Living with Immutable Data Structures">
 <node CREATED="1573842026571" FOLDED="true" ID="ID_781258101" MODIFIED="1573842028093" TEXT="Recursion Instead of for/while">
 <node CREATED="1573842114594" ID="ID_1282241958" MODIFIED="1573842127305" TEXT="In Clojure, all data structure are immutable"/>
 <node CREATED="1573842127805" ID="ID_1533782630" MODIFIED="1573842142991" TEXT="Functional alternative to mutation is recursion"/>
@@ -1108,8 +1157,8 @@
 </node>
 <node CREATED="1573844081053" FOLDED="true" ID="ID_1640718647" MODIFIED="1573844086039" TEXT="function composition">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1589014397558" ID="ID_459272355" MODIFIED="1589014402810" TEXT="... instead of attribute mutation"/>
-<node CREATED="1573844086859" ID="ID_189925539" MODIFIED="1573844097536" TEXT="passing one return of a function"/>
+<node CREATED="1589014397558" ID="ID_459272355" MODIFIED="1589115574315" TEXT="Instead of attribute mutation"/>
+<node CREATED="1573844086859" ID="ID_189925539" MODIFIED="1589115570117" TEXT="... passing one return of a function"/>
 <node CREATED="1589014410757" ID="ID_1043080070" MODIFIED="1589014415772" TEXT="... to an input of another"/>
 </node>
 <node CREATED="1573844196564" FOLDED="true" ID="ID_821333727" MODIFIED="1573844201977" TEXT="Difference of paradigm">
@@ -1168,7 +1217,7 @@
 </node>
 <node CREATED="1574923307900" ID="ID_579295220" MODIFIED="1574923317624" TEXT="Possibility to have multiple namespaces"/>
 <node CREATED="1574923328323" ID="ID_1271300495" MODIFIED="1574923333327" TEXT="You are always in a namespace"/>
-<node CREATED="1574923372635" ID="ID_771543471" MODIFIED="1574923378511" TEXT="Quote in clojure">
+<node CREATED="1574923372635" ID="ID_771543471" MODIFIED="1589115641349" TEXT="Quote &apos;">
 <node CREATED="1574923378817" ID="ID_743989940" MODIFIED="1574923387190" TEXT="Use symbol itself">
 <node CREATED="1574923387425" ID="ID_914085940" MODIFIED="1574923395270" TEXT="not the reference">
 <node CREATED="1574923395458" ID="ID_395802174" MODIFIED="1574923396990" TEXT="function"/>
@@ -1178,13 +1227,17 @@
 </node>
 <node CREATED="1574923401923" ID="ID_390195766" MODIFIED="1574923735322" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1574923405243" ID="ID_158538469" MODIFIED="1574923437455" TEXT="&apos;(map inc [1 2])"/>
-<node CREATED="1574923420050" ID="ID_1782985441" MODIFIED="1574923428967" TEXT="; =&gt; (map inc [1 2])"/>
+<node CREATED="1574923405243" ID="ID_158538469" MODIFIED="1589115625754" TEXT="&apos;(map inc [1 2])">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1574923420050" ID="ID_1782985441" MODIFIED="1589115647685" TEXT="; =&gt; (map inc [1 2])">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
 <node CREATED="1574923462530" FOLDED="true" ID="ID_838990957" MODIFIED="1587651435521" TEXT="Storing Objects with def">
-<node CREATED="1574923747479" ID="ID_296364500" MODIFIED="1587650468756" TEXT="interning a var">
+<node CREATED="1574923747479" FOLDED="true" ID="ID_296364500" MODIFIED="1587650468756" TEXT="interning a var">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1222,7 +1275,7 @@ great-books
 <icon BUILTIN="full-4"/>
 </node>
 </node>
-<node CREATED="1574940638763" ID="ID_257806524" MODIFIED="1574940640195" TEXT="#&apos;user/great-books">
+<node CREATED="1574940638763" FOLDED="true" ID="ID_257806524" MODIFIED="1574940640195" TEXT="#&apos;user/great-books">
 <node CREATED="1574940640508" ID="ID_1776228666" MODIFIED="1574940643843" TEXT="reader form">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1574940644469" ID="ID_979457955" MODIFIED="1574940645754" TEXT="of a var"/>
@@ -1230,43 +1283,59 @@ great-books
 </node>
 </node>
 <node CREATED="1574940945238" FOLDED="true" ID="ID_120715522" MODIFIED="1587650530761" TEXT="Creating and Switching to Namespaces">
-<node CREATED="1574940957651" ID="ID_70642259" MODIFIED="1574940959095" TEXT="Functions">
-<node CREATED="1574940959611" ID="ID_1925858340" MODIFIED="1574940962301" TEXT="create-ns">
+<node CREATED="1574940957651" ID="ID_70642259" MODIFIED="1589115738555" TEXT="Functions">
+<icon BUILTIN="list"/>
+<node CREATED="1574940959611" ID="ID_1925858340" LINK="https://clojuredocs.org/clojure.core/create-ns" MODIFIED="1589115730230" TEXT="create-ns">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1574941087432" ID="ID_1622821427" MODIFIED="1574941090413" TEXT="create namespace"/>
 <node CREATED="1574941070578" ID="ID_1324027104" MODIFIED="1574941074079" TEXT="not very used in practice"/>
 </node>
-<node CREATED="1574940962657" ID="ID_871512873" MODIFIED="1574940964215" TEXT="in-ns">
+<node CREATED="1574940962657" ID="ID_871512873" LINK="https://clojuredocs.org/clojure.core/in-ns" MODIFIED="1589115730230" TEXT="in-ns">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1574941081194" ID="ID_52757181" MODIFIED="1587650541308" TEXT="create and switch to namespace"/>
 <node CREATED="1574941093624" ID="ID_1424649999" MODIFIED="1574941094798" TEXT="more used"/>
 </node>
 </node>
-<node CREATED="1574940969601" ID="ID_51298573" MODIFIED="1574940972509" TEXT="Macro">
-<node CREATED="1574940972705" ID="ID_1226321002" MODIFIED="1574940973157" TEXT="ns"/>
+<node CREATED="1574940969601" ID="ID_51298573" MODIFIED="1589115741499" TEXT="Macro">
+<icon BUILTIN="edit"/>
+<node CREATED="1574940972705" ID="ID_1226321002" MODIFIED="1589115730229" TEXT="ns">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node CREATED="1574941512750" ID="ID_277265181" MODIFIED="1574941523242" TEXT="Get symbol from namespace">
-<node CREATED="1574941523446" ID="ID_97290436" MODIFIED="1574941535445" TEXT="cheese.taxonomy/cheddars "/>
 <node CREATED="1574941537812" ID="ID_1929766261" MODIFIED="1574941540082" TEXT="other ways">
 <node CREATED="1574941540293" ID="ID_703779234" MODIFIED="1574941540953" TEXT="func">
-<node CREATED="1574941542942" ID="ID_1122133585" MODIFIED="1574941543945" TEXT="refer"/>
-<node CREATED="1574941544318" ID="ID_1871335551" MODIFIED="1574941545505" TEXT="alias"/>
+<node CREATED="1574941542942" ID="ID_1122133585" LINK="https://clojuredocs.org/clojure.core/refer" MODIFIED="1589115782458" TEXT="refer">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1574941544318" ID="ID_1871335551" LINK="https://clojuredocs.org/clojure.core/alias" MODIFIED="1589115794387" TEXT="alias">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1589115746293" ID="ID_668287065" MODIFIED="1589115749048" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1574941523446" ID="ID_97290436" MODIFIED="1589115744824" TEXT="cheese.taxonomy/cheddars ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1574942646901" FOLDED="true" ID="ID_752095397" MODIFIED="1587651436541" TEXT=" Real Project Organization">
+<node CREATED="1574942646901" ID="ID_752095397" MODIFIED="1587651436541" TEXT=" Real Project Organization">
 <node CREATED="1574942656564" ID="ID_915532726" MODIFIED="1587650684591" TEXT=" The Relationship Between File Paths / Namespace Names">
 <node CREATED="1574942834036" ID="ID_474397784" MODIFIED="1574942835633" TEXT="Functions">
-<node CREATED="1574942835813" ID="ID_180154067" MODIFIED="1574942836248" TEXT="ns">
-<node CREATED="1574942836492" ID="ID_786941262" MODIFIED="1574942851491" TEXT="primary way to create namespace if doesn&apos;t exist and switch to it ">
+<node CREATED="1574942835813" ID="ID_180154067" LINK="https://clojuredocs.org/clojure.core/ns" MODIFIED="1589115809491" TEXT="ns"/>
+<node CREATED="1574942836492" ID="ID_786941262" MODIFIED="1589115822395" TEXT="primary way to create namespace">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-</node>
+<node CREATED="1589115816535" ID="ID_1598749240" MODIFIED="1589115817913" TEXT="...  if doesn&apos;t exist "/>
+<node CREATED="1589115822909" ID="ID_1840022142" MODIFIED="1589115824900" TEXT="... and switch to it"/>
 </node>
 <node CREATED="1574942879211" ID="ID_1624160045" MODIFIED="1574942906907" TEXT="One to one mapping between">
-<node CREATED="1574942906908" ID="ID_201551140" MODIFIED="1574942909471" TEXT="namespace name"/>
-<node CREATED="1574942909954" ID="ID_368097891" MODIFIED="1574942919903" TEXT="path of the file where the namespace is declared"/>
+<node CREATED="1574942906908" ID="ID_201551140" MODIFIED="1589115836221" TEXT="Namespace name"/>
+<node CREATED="1574942909954" ID="ID_368097891" MODIFIED="1589115848065" TEXT="Path of the file where namespace declared"/>
 </node>
-<node CREATED="1574942920906" FOLDED="true" ID="ID_1388904715" MODIFIED="1587650752615" TEXT="... according to the conventions">
+<node CREATED="1574942920906" ID="ID_1388904715" MODIFIED="1587650752615" TEXT="... according to the conventions">
 <node CREATED="1574942925196" ID="ID_829021086" MODIFIED="1574942934214" TEXT="When create directory with lein">
 <node CREATED="1574942934449" ID="ID_877610952" MODIFIED="1574942938319" TEXT="source code root"/>
 <node CREATED="1574942942530" ID="ID_188168248" MODIFIED="1574942945396" TEXT="... src">
@@ -1276,16 +1345,27 @@ great-books
 <node CREATED="1574942951506" ID="ID_1724260450" MODIFIED="1574942967912" TEXT="dash correspond to underscore in filesystem">
 <node CREATED="1574943043258" ID="ID_1178191285" MODIFIED="1574943050632" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1574942968147" ID="ID_847271578" MODIFIED="1574942975840" TEXT="the-divine-cheese-code"/>
-<node CREATED="1574942976285" ID="ID_1822030837" MODIFIED="1574942981702" TEXT="the_divine_cheese_code"/>
+<node CREATED="1589115869262" ID="ID_258527158" MODIFIED="1589115870626" TEXT="namespace">
+<node CREATED="1574942968147" ID="ID_847271578" MODIFIED="1589115901899" TEXT="the-divine-cheese-code">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1589115871134" ID="ID_960714515" MODIFIED="1589115873214" TEXT="filesystem">
+<node CREATED="1574942976285" ID="ID_1822030837" MODIFIED="1589115902207" TEXT="the_divine_cheese_code">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1574942989131" ID="ID_1613610329" MODIFIED="1574942999774" TEXT="Component preceding a period (.)">
-<node CREATED="1574943000155" ID="ID_1720877823" MODIFIED="1574943008448" TEXT="name of a directory"/>
+<node CREATED="1574943000155" ID="ID_1720877823" MODIFIED="1589115891517" TEXT="Name of a directory"/>
 <node CREATED="1574943013755" ID="ID_1506211114" MODIFIED="1574943052496" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1574943015131" ID="ID_1689534483" MODIFIED="1574943020775" TEXT="the-divine-cheese-code.core"/>
-<node CREATED="1574943021091" ID="ID_276424418" MODIFIED="1574943041607" TEXT="the_divine_cheese_code">
+<node CREATED="1574943015131" ID="ID_1689534483" MODIFIED="1589115900668" TEXT="the-divine-cheese-code.core">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1574943021091" ID="ID_276424418" MODIFIED="1589115901413" TEXT="the_divine_cheese_code">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1574943028250" ID="ID_22708547" MODIFIED="1574943030823" TEXT="is a directory"/>
 </node>
 </node>
@@ -1311,7 +1391,7 @@ great-books
 </node>
 </node>
 </node>
-<node CREATED="1575028450636" ID="ID_1619195506" MODIFIED="1575028652210" TEXT="The ns Macro">
+<node CREATED="1575028450636" ID="ID_1619195506" LINK="https://clojuredocs.org/clojure.core/ns" MODIFIED="1589115974418" TEXT="The ns Macro">
 <node CREATED="1575028521979" ID="ID_1573604704" MODIFIED="1575028533855" TEXT="Reference Clojure.core namespace by default"/>
 <node CREATED="1575028652210" ID="ID_527708307" MODIFIED="1575028657539" TEXT="references">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -1357,7 +1437,7 @@ great-books
 <node CREATED="1579970859904" ID="ID_1134118591" MODIFIED="1579970862396" TEXT="Other language"/>
 <node CREATED="1579970863128" ID="ID_231545859" MODIFIED="1579970863740" TEXT="..."/>
 </node>
-<node CREATED="1579970887968" ID="ID_1519339477" MODIFIED="1579970972556" TEXT="Compiler construct AST">
+<node CREATED="1579970887968" FOLDED="true" ID="ID_1519339477" MODIFIED="1579970972556" TEXT="Compiler construct AST">
 <node CREATED="1579970894598" ID="ID_1856255183" MODIFIED="1579970900384" TEXT="Abstract Syntax Tree">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -1390,7 +1470,7 @@ great-books
 </node>
 </node>
 </node>
-<node CREATED="1579971141052" ID="ID_191971474" MODIFIED="1579971580455" TEXT="In Clojure (and LISP)">
+<node CREATED="1579971141052" FOLDED="true" ID="ID_191971474" MODIFIED="1579971580455" TEXT="In Clojure (and LISP)">
 <node CREATED="1579971249963" ID="ID_363348992" MODIFIED="1579971321160" TEXT="AST is native data structure">
 <node CREATED="1579971267740" ID="ID_1877329744" MODIFIED="1579971288280" TEXT="Clojure lists / values">
 <node CREATED="1579971339909" ID="ID_146738085" MODIFIED="1579971355033" TEXT="Root">
@@ -1422,7 +1502,7 @@ great-books
 </node>
 <node CREATED="1579971481242" ID="ID_1585214775" MODIFIED="1585034442993" TEXT="... pretty ambiguous term"/>
 </node>
-<node CREATED="1579971559930" FOLDED="true" ID="ID_1615271223" MODIFIED="1585035569341" TEXT="Examples">
+<node CREATED="1579971559930" ID="ID_1615271223" MODIFIED="1585035569341" TEXT="Examples">
 <icon BUILTIN="wizard"/>
 <node CREATED="1585035069450" ID="ID_1202301220" MODIFIED="1585035100184" TEXT="General workflow">
 <icon BUILTIN="licq"/>
@@ -1437,7 +1517,7 @@ great-books
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1585035101605" ID="ID_333211452" MODIFIED="1585035507737" TEXT="addition-list">
+<node CREATED="1585035101605" FOLDED="true" ID="ID_333211452" MODIFIED="1585035507737" TEXT="addition-list">
 <node CREATED="1585035110162" ID="ID_1380141076" MODIFIED="1585035409167" TEXT="Base">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1481,7 +1561,7 @@ great-books
 </node>
 </node>
 </node>
-<node CREATED="1585035588256" ID="ID_167672866" MODIFIED="1585035593149" TEXT="The Reader">
+<node CREATED="1585035588256" FOLDED="true" ID="ID_167672866" MODIFIED="1585035593149" TEXT="The Reader">
 <node CREATED="1585039108983" ID="ID_449577513" MODIFIED="1585039163845" TEXT="Convert textual source code to data structure"/>
 <node CREATED="1585039173513" ID="ID_1546774777" MODIFIED="1585039175593" TEXT="Reading">
 <node CREATED="1585039213621" FOLDED="true" ID="ID_1462621089" MODIFIED="1585039874576" TEXT="Reader form">
@@ -1491,7 +1571,9 @@ great-books
 <node CREATED="1585039244499" FOLDED="true" ID="ID_220585571" MODIFIED="1585039874578" TEXT="Examples">
 <icon BUILTIN="wizard"/>
 <node CREATED="1585039660856" ID="ID_1970968821" MODIFIED="1585039662441" TEXT="Forms">
-<node CREATED="1585039245966" ID="ID_214436542" MODIFIED="1585039249249" TEXT="(str &quot;To understand what recursion is,&quot; &quot; you must first understand recursion.&quot;)"/>
+<node CREATED="1585039245966" ID="ID_214436542" MODIFIED="1589116377570" TEXT="(str &quot;To understand what recursion is,&quot; &quot; you must first understand recursion.&quot;)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 <node CREATED="1585039256817" ID="ID_552783890" MODIFIED="1585039259634" TEXT="Three forms">
 <node CREATED="1585039259829" ID="ID_470030428" MODIFIED="1585039267118" TEXT="str symbol"/>
 <node CREATED="1585039267513" ID="ID_1525471046" MODIFIED="1585039271979" TEXT="2 strings"/>
@@ -1516,8 +1598,11 @@ great-books
 </node>
 </node>
 </node>
-<node CREATED="1585039369934" FOLDED="true" ID="ID_1075644933" MODIFIED="1585039874578" TEXT="REPL">
-<node CREATED="1585039371855" ID="ID_1381779729" MODIFIED="1585039372400" TEXT="read-eval-print-loop"/>
+<node CREATED="1585039369934" ID="ID_1075644933" MODIFIED="1585039874578" TEXT="REPL">
+<node CREATED="1589116409711" ID="ID_668515420" MODIFIED="1589116410978" TEXT="Read"/>
+<node CREATED="1589116411605" ID="ID_572135835" MODIFIED="1589116412448" TEXT="Eval"/>
+<node CREATED="1589116412813" ID="ID_1356644272" MODIFIED="1589116414122" TEXT="Print"/>
+<node CREATED="1589116414485" ID="ID_1620389486" MODIFIED="1589116415489" TEXT="Loop"/>
 </node>
 <node CREATED="1585039385369" ID="ID_1752435063" MODIFIED="1585039402788" TEXT="Read can be performed independently"/>
 <node CREATED="1585039403761" ID="ID_675604388" MODIFIED="1585039408174" TEXT="... than evaluation"/>
@@ -1538,31 +1623,27 @@ great-books
 <node CREATED="1585040015016" ID="ID_298323425" MODIFIED="1585040018422" TEXT="... into data structures"/>
 <node CREATED="1585040060618" ID="ID_759283102" MODIFIED="1585040065530" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1585040069412" ID="ID_678815330" MODIFIED="1585040070253" TEXT="(read-string &quot;&apos;(a b c)&quot;)">
+<node CREATED="1585040069412" ID="ID_678815330" MODIFIED="1589116456193" TEXT="(read-string &quot;&apos;(a b c)&quot;)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1585040077120" ID="ID_345981551" MODIFIED="1585040077872" TEXT="(quote (a b c))"/>
 </node>
-<node CREATED="1585040071008" ID="ID_991647094" MODIFIED="1585040083201" TEXT="(read-string &quot;@var&quot;)">
+<node CREATED="1585040071008" ID="ID_991647094" MODIFIED="1589116456191" TEXT="(read-string &quot;@var&quot;)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1585040087256" ID="ID_467503223" MODIFIED="1585040087794" TEXT="(clojure.core/deref var)"/>
 </node>
 </node>
-<node CREATED="1585040104378" ID="ID_1915913267" MODIFIED="1585040122668" TEXT="Can ignore text too">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="pygments highlight"><code data-lang="clojure" class="block">(read-string &quot;; ignore!\n(+ 1 2)&quot;)
-; =&gt; (+ 1 2)</code></pre>
-    <p>
-      llkj
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1585040104378" ID="ID_1915913267" MODIFIED="1589116478831" TEXT="Can ignore text too">
+<node CREATED="1589116473756" ID="ID_470356236" MODIFIED="1589116485298" TEXT="(read-string &quot;; ignore!\n(+ 1 2)&quot;)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1589116478973" ID="ID_1236279153" MODIFIED="1589116485298" TEXT="; =&gt; (+ 1 2)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
 <node CREATED="1585040122836" ID="ID_1631587886" MODIFIED="1585040127060" TEXT="The Evaluator">
-<node CREATED="1585040149636" FOLDED="true" ID="ID_271999301" MODIFIED="1585045355373" TEXT="You can think of it like">
+<node CREATED="1585040149636" ID="ID_271999301" MODIFIED="1589116774417" TEXT="Process">
 <node CREATED="1585040143164" ID="ID_1019034373" MODIFIED="1585040162677" TEXT="Take data structure as argument">
 <icon BUILTIN="full-1"/>
 </node>
@@ -1601,14 +1682,14 @@ great-books
 <node CREATED="1585042164993" ID="ID_527858524" MODIFIED="1585042167525" TEXT="... anything you can use"/>
 </node>
 <node CREATED="1585042183267" ID="ID_823043208" MODIFIED="1585042193165" TEXT="Evaluate symbols by resolving them">
-<node CREATED="1585042208786" ID="ID_629057926" MODIFIED="1585042212640" TEXT="using namespace mapping"/>
+<node CREATED="1585042208786" ID="ID_629057926" MODIFIED="1589116526628" TEXT="... using namespace mapping"/>
 <node CREATED="1585042220231" ID="ID_1505857996" MODIFIED="1585042230419" TEXT="Symbol resolve either to">
 <node CREATED="1585042224251" ID="ID_599112500" MODIFIED="1585042235166" TEXT="Value"/>
 <node CREATED="1585042235504" ID="ID_1060880527" MODIFIED="1585042237028" TEXT="Special form"/>
 </node>
 </node>
-<node CREATED="1585042275061" ID="ID_185311379" MODIFIED="1585044856713" TEXT="Symbol resolution in order">
-<node CREATED="1585042286884" ID="ID_1569355138" MODIFIED="1585042333365" TEXT="If symbol names special form">
+<node CREATED="1585042275061" FOLDED="true" ID="ID_185311379" MODIFIED="1585044856713" TEXT="Symbol resolution in order">
+<node CREATED="1585042286884" ID="ID_1569355138" MODIFIED="1589116557875" TEXT="If symbol names special form">
 <icon BUILTIN="full-1"/>
 <node CREATED="1585042244195" ID="ID_512531181" MODIFIED="1585042247628" TEXT="Build in operator"/>
 <node CREATED="1585042252749" ID="ID_1604522950" MODIFIED="1585042257183" TEXT="Provide fundamental behavior"/>
@@ -1633,9 +1714,13 @@ great-books
 </node>
 </node>
 </node>
-<node CREATED="1585044860429" ID="ID_619999924" MODIFIED="1585045359398" TEXT="Lists">
-<node CREATED="1585044874918" ID="ID_1362140582" MODIFIED="1585044880668" TEXT="If empty list, evaluate to empty list"/>
-<node CREATED="1585044881072" ID="ID_13182291" MODIFIED="1585044900647" TEXT="... otherwise, evaluated as a call to first element"/>
+<node CREATED="1585044860429" FOLDED="true" ID="ID_619999924" MODIFIED="1585045359398" TEXT="Lists">
+<node CREATED="1585044874918" ID="ID_1362140582" MODIFIED="1589116704718" TEXT="If empty list">
+<node CREATED="1589116705129" ID="ID_318238851" MODIFIED="1589116710778" TEXT="Evaluate to empty list"/>
+</node>
+<node CREATED="1585044881072" ID="ID_13182291" MODIFIED="1589116725394" TEXT="... else">
+<node CREATED="1589116721458" ID="ID_1685318914" MODIFIED="1589116729221" TEXT="Evaluated as a call to first element"/>
+</node>
 <node CREATED="1585045106684" ID="ID_897718804" MODIFIED="1585045394443" TEXT="Call depends on first element of the list"/>
 <node CREATED="1585045111592" ID="ID_1617793674" MODIFIED="1585045178701" TEXT="Function Calls">
 <node CREATED="1585045124660" ID="ID_1769843771" MODIFIED="1585045138307" TEXT="Each operand evaluated">
@@ -1649,17 +1734,32 @@ great-books
 <node CREATED="1585045199624" ID="ID_473757672" MODIFIED="1585045207684" TEXT="Not same evaluating rules as normal function"/>
 <node CREATED="1585045218505" ID="ID_1209896980" MODIFIED="1585045309849" TEXT="Examples">
 <icon BUILTIN="wizard"/>
-<node CREATED="1585045219868" ID="ID_1812711062" MODIFIED="1585045220757" TEXT="if">
+<node CREATED="1585045219868" ID="ID_1812711062" MODIFIED="1589116751213" TEXT="if">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1585045220937" ID="ID_753241140" MODIFIED="1585045224620" TEXT="Not all operand evaluated"/>
 <node CREATED="1585045239937" ID="ID_1300809512" MODIFIED="1585045247486" TEXT="... depending of condition true or false"/>
 </node>
-<node CREATED="1585045284831" ID="ID_1415357848" MODIFIED="1585045285930" TEXT="quote"/>
-<node CREATED="1585045286350" ID="ID_1631909301" MODIFIED="1585045287069" TEXT="def"/>
-<node CREATED="1585045287497" ID="ID_1089002330" MODIFIED="1585045291223" TEXT="let"/>
-<node CREATED="1585045291776" ID="ID_1593380747" MODIFIED="1585045292750" TEXT="loop"/>
-<node CREATED="1585045295629" ID="ID_1554116201" MODIFIED="1585045296486" TEXT="fn"/>
-<node CREATED="1585045297107" ID="ID_442038837" MODIFIED="1585045297788" TEXT="do"/>
-<node CREATED="1585045299791" ID="ID_1754013259" MODIFIED="1585045300754" TEXT="recur"/>
+<node CREATED="1585045284831" ID="ID_1415357848" MODIFIED="1589116751214" TEXT="quote">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1585045286350" ID="ID_1631909301" MODIFIED="1589116751214" TEXT="def">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1585045287497" ID="ID_1089002330" MODIFIED="1589116751213" TEXT="let">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1585045291776" ID="ID_1593380747" MODIFIED="1589116751213" TEXT="loop">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1585045295629" ID="ID_1554116201" MODIFIED="1589116751213" TEXT="fn">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1585045297107" ID="ID_442038837" MODIFIED="1589116751213" TEXT="do">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1585045299791" ID="ID_1754013259" MODIFIED="1589116751213" TEXT="recur">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
@@ -1755,18 +1855,25 @@ great-books
 <node CREATED="1585734331270" FOLDED="true" ID="ID_1607777126" LINK="https://www.braveclojure.com/writing-macros/" MODIFIED="1587395525870" POSITION="left" TEXT="Writing Macros">
 <icon BUILTIN="full-8"/>
 <node CREATED="1585734528524" ID="ID_442508893" MODIFIED="1585734531812" TEXT="Macros are essential"/>
-<node CREATED="1585734794306" FOLDED="true" ID="ID_1255841281" MODIFIED="1586770714715" TEXT="Anatomy of a macro">
-<node CREATED="1585734804852" ID="ID_1497472351" MODIFIED="1585734811310" TEXT="Looks like function definition">
-<node CREATED="1585734811501" ID="ID_304320542" MODIFIED="1585734812253" TEXT="Name"/>
-<node CREATED="1585734816882" ID="ID_1560308792" MODIFIED="1585734820060" TEXT="Optional document string"/>
-<node CREATED="1585734822839" ID="ID_1590978279" MODIFIED="1585734825776" TEXT="Argument list"/>
-<node CREATED="1585734826244" ID="ID_1044446645" MODIFIED="1585734827391" TEXT="Body">
+<node CREATED="1585734794306" ID="ID_1255841281" MODIFIED="1586770714715" TEXT="Anatomy of a macro">
+<node CREATED="1585734804852" ID="ID_1497472351" MODIFIED="1585734811310" TEXT="Looks like function definition"/>
+<node CREATED="1585734811501" ID="ID_304320542" MODIFIED="1589116878432" TEXT="Name">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1585734816882" ID="ID_1560308792" MODIFIED="1589116880183" TEXT="Optional document string">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1585734822839" ID="ID_1590978279" MODIFIED="1589116882343" TEXT="Argument list">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1585734826244" ID="ID_1044446645" MODIFIED="1589116884728" TEXT="Body">
+<icon BUILTIN="full-4"/>
 <node CREATED="1585734832749" ID="ID_185425382" MODIFIED="1585734836609" TEXT="Almost always return a list"/>
 </node>
-<node CREATED="1585735034746" ID="ID_1384847824" MODIFIED="1585735040093" TEXT="Difference macro / function">
+<node CREATED="1585735034746" ID="ID_1384847824" MODIFIED="1589116886631" TEXT="Difference macro / function">
+<icon BUILTIN="full-5"/>
 <node CREATED="1585735040257" ID="ID_1960679695" MODIFIED="1585735067336" TEXT="Arguments are not evaluated"/>
 <node CREATED="1585735045561" ID="ID_693893796" MODIFIED="1585735059534" TEXT="... before passed to macros"/>
-</node>
 </node>
 </node>
 <node CREATED="1585735666483" FOLDED="true" ID="ID_1664185400" MODIFIED="1586770716704" TEXT="Building Lists of Evaluation">
@@ -1774,27 +1881,35 @@ great-books
 <node CREATED="1585735802452" ID="ID_1368572142" MODIFIED="1585735809020" TEXT="All about building a list to evaluate"/>
 <node CREATED="1585735809399" ID="ID_1928449015" MODIFIED="1585735813232" TEXT="Inverse your way of thinking"/>
 </node>
-<node CREATED="1585735847118" ID="ID_394984986" MODIFIED="1585735847763" TEXT="Distinguishing Symbols and Values"/>
+<node CREATED="1585735847118" ID="ID_394984986" MODIFIED="1589116903078" TEXT="Distinguishing">
+<node CREATED="1589116903436" ID="ID_489753492" MODIFIED="1589116905444" TEXT="Symbols"/>
+<node CREATED="1589116905831" ID="ID_30266659" MODIFIED="1589116907105" TEXT="Value"/>
+</node>
 <node CREATED="1585736053221" ID="ID_1821202560" MODIFIED="1585736053885" TEXT="Simple Quoting">
-<node CREATED="1585736111346" ID="ID_878815500" MODIFIED="1585736116830" TEXT="Quoting return symbol"/>
-<node CREATED="1585736117328" ID="ID_1691902742" MODIFIED="1585736235217" TEXT="... instead of its value"/>
-<node CREATED="1585736122138" ID="ID_1508115004" MODIFIED="1585736161019" TEXT="Example">
+<node CREATED="1585736111346" ID="ID_878815500" MODIFIED="1589116922855" TEXT="Return symbol instead of value"/>
+<node CREATED="1585736223238" ID="ID_1024890130" MODIFIED="1589116954281" TEXT="Doesn&apos;t matter if the symbol has a value"/>
+<node CREATED="1585736122138" ID="ID_1508115004" MODIFIED="1589116943130" TEXT="Example">
+<font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="wizard"/>
-<node CREATED="1585736123499" ID="ID_1480609907" MODIFIED="1585736304881" TEXT="(quote +(">
+<node CREATED="1585736123499" ID="ID_1480609907" MODIFIED="1589116935157" TEXT="(quote +)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1585736135942" ID="ID_1857987117" MODIFIED="1585736139409" TEXT="return +"/>
 </node>
 <node CREATED="1585736127661" ID="ID_1757153907" MODIFIED="1585736141373" TEXT="+">
 <node CREATED="1585736141635" ID="ID_1828756055" MODIFIED="1585736154210" TEXT="return #&lt;core$_PLUS_ clojure.core$_PLUS_@47b36583&gt;"/>
 </node>
 </node>
-<node CREATED="1585736223238" ID="ID_1024890130" MODIFIED="1585736229712" TEXT="Doesn&apos;t matter if the symbol as a value"/>
 <node CREATED="1585736252578" ID="ID_1394333672" MODIFIED="1585736258708" TEXT="Character &apos;">
 <node CREATED="1585736258899" ID="ID_423698219" MODIFIED="1585736287145" TEXT="Macro for quote"/>
 <node CREATED="1585736267665" ID="ID_1253357330" MODIFIED="1585736270902" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1585736275905" ID="ID_1555673359" MODIFIED="1585736282884" TEXT="(quote +)"/>
-<node CREATED="1585736306286" ID="ID_143601823" MODIFIED="1585736310386" TEXT="... is equivalent to"/>
-<node CREATED="1585736291864" ID="ID_975485353" MODIFIED="1585736329010" TEXT="&apos;+"/>
+<node CREATED="1585736306286" ID="ID_143601823" MODIFIED="1589116988236" TEXT="Are equivalent:"/>
+<node CREATED="1585736275905" ID="ID_1555673359" MODIFIED="1589116989174" TEXT="(quote +)">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1585736291864" ID="ID_975485353" MODIFIED="1589116990594" TEXT="&apos;+">
+<icon BUILTIN="full-2"/>
+</node>
 </node>
 </node>
 </node>
@@ -1809,11 +1924,16 @@ great-books
 <node CREATED="1585995282049" ID="ID_1617389452" MODIFIED="1585995307957" TEXT="Help avoid naming collision">
 <icon BUILTIN="full-1"/>
 </node>
-<node CREATED="1585995308954" ID="ID_170817600" MODIFIED="1585995323998" TEXT="Can unquote form with ~">
+<node CREATED="1585995308954" ID="ID_170817600" MODIFIED="1589117018688" TEXT="Can unquote form with ~">
+<icon BUILTIN="full-2"/>
 <node CREATED="1585995327606" ID="ID_393805966" MODIFIED="1585995331437" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1585995337029" ID="ID_1310396995" MODIFIED="1585995339390" TEXT="`(+ 1 ~(inc 1))"/>
-<node CREATED="1585995349206" ID="ID_888506395" MODIFIED="1585995354727" TEXT="(clojure.core/+ 1 2)"/>
+<node CREATED="1585995337029" ID="ID_1310396995" MODIFIED="1589117000776" TEXT="`(+ 1 ~(inc 1))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1585995349206" ID="ID_888506395" MODIFIED="1589117001378" TEXT="(clojure.core/+ 1 2)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
@@ -1903,12 +2023,14 @@ great-books
 </node>
 <node CREATED="1585997108133" ID="ID_842327039" MODIFIED="1585997108869" TEXT="Refactoring a Macro and Unquote Splicing">
 <node CREATED="1585999721989" ID="ID_347925192" MODIFIED="1585999727878" TEXT="Unquote splicing">
-<node CREATED="1585999728413" ID="ID_833292885" MODIFIED="1585999728991" TEXT="~@"/>
+<node CREATED="1585999728413" ID="ID_833292885" MODIFIED="1589117050245" TEXT="~@">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 <node CREATED="1585999785036" ID="ID_60495465" MODIFIED="1585999794512" TEXT="Unwrap seqable data structure"/>
 </node>
 </node>
 </node>
-<node CREATED="1585999984766" FOLDED="true" ID="ID_733558664" MODIFIED="1586770717911" TEXT="Things to Watch Out For">
+<node CREATED="1585999984766" ID="ID_733558664" MODIFIED="1586770717911" TEXT="Things to Watch Out For">
 <node CREATED="1585999995312" ID="ID_120277177" MODIFIED="1586000004413" TEXT="Macro have pitfalls"/>
 <node CREATED="1586000010060" ID="ID_1143026552" MODIFIED="1586000011814" TEXT="Variable Capture">
 <node CREATED="1586000028096" ID="ID_152323974" MODIFIED="1586000036249" TEXT="Macro which introduce its own binding"/>
@@ -2005,16 +2127,14 @@ great-books
 <node CREATED="1586530788165" ID="ID_1463893808" MODIFIED="1586530794224" TEXT="&quot;Something which needs to get done&quot;"/>
 </node>
 <node CREATED="1586530762882" ID="ID_1825639847" MODIFIED="1586530764141" TEXT="Concurrency">
-<node CREATED="1586530970857" ID="ID_1410781818" MODIFIED="1586530976449" TEXT="Managing multiple tasks at the same time"/>
 <node CREATED="1586530848838" ID="ID_611439956" MODIFIED="1586530885749" TEXT="Managing multiple tasks"/>
 <node CREATED="1586530855084" ID="ID_1856648777" MODIFIED="1586530861192" TEXT="... but not at the same time">
-<node CREATED="1586530861789" ID="ID_1683125650" MODIFIED="1586530906165" TEXT="Switch between them">
+<node CREATED="1586530861789" ID="ID_1683125650" MODIFIED="1589117188922" TEXT="Switch between them">
 <node CREATED="1586530867439" ID="ID_1575708227" MODIFIED="1586530870773" TEXT="Interleaving">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1586530908115" ID="ID_1977742588" MODIFIED="1586530911634" TEXT="No need to finish a task"/>
-<node CREATED="1586530912001" ID="ID_1024014144" MODIFIED="1586530918674" TEXT="... before switching to another"/>
+<node CREATED="1586530908115" ID="ID_1977742588" MODIFIED="1589117190714" TEXT="No need to finish a task before switching"/>
 </node>
 </node>
 <node CREATED="1586530981503" ID="ID_707610904" MODIFIED="1586530988184" TEXT="Parallelism">
@@ -2033,8 +2153,8 @@ great-books
 <node CREATED="1586531407641" ID="ID_290862966" MODIFIED="1586531408520" TEXT="Concurrent Programming and Parallel Programming"/>
 </node>
 </node>
-<node CREATED="1586531442162" FOLDED="true" ID="ID_1599913761" MODIFIED="1587991641484" TEXT="Clojure Implementation: JVM Threads">
-<node CREATED="1586531500733" FOLDED="true" ID="ID_1124783552" MODIFIED="1586533326098" TEXT="What&apos;s a thread?">
+<node CREATED="1586531442162" ID="ID_1599913761" MODIFIED="1587991641484" TEXT="Clojure Implementation: JVM Threads">
+<node CREATED="1586531500733" ID="ID_1124783552" MODIFIED="1586533326098" TEXT="What&apos;s a thread?">
 <node CREATED="1586531509507" ID="ID_1585675506" MODIFIED="1586531513208" TEXT="Subprogram"/>
 <node CREATED="1586531517716" ID="ID_707288092" MODIFIED="1586531522683" TEXT="Program can have many threads"/>
 <node CREATED="1586531530005" ID="ID_1465126868" MODIFIED="1586531539828" TEXT="Each thread executes its own set of instruction"/>
@@ -2067,14 +2187,14 @@ great-books
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1586531913324" ID="ID_484275995" MODIFIED="1586531920328" TEXT="Thread can spawn new thread">
-<node CREATED="1586531920647" ID="ID_347935448" MODIFIED="1586531935266" TEXT="to execute task concurrently"/>
+<node CREATED="1586531913324" FOLDED="true" ID="ID_484275995" MODIFIED="1586531920328" TEXT="Thread can spawn new thread">
+<node CREATED="1586531920647" ID="ID_347935448" MODIFIED="1589117323776" TEXT="... to execute task concurrently"/>
 <node CREATED="1586531948186" ID="ID_1824704065" MODIFIED="1586531957312" TEXT="Processor switch back and  forth between threads">
 <node CREATED="1586531957527" ID="ID_1679536965" MODIFIED="1586531962732" TEXT="Interleaving">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1586531976407" ID="ID_70248589" MODIFIED="1586531989371" TEXT="... no guaranty when switch back and forth"/>
+<node CREATED="1586531976407" ID="ID_70248589" MODIFIED="1589117336543" TEXT="... no guaranty when"/>
 </node>
 <node CREATED="1586532052495" FOLDED="true" ID="ID_1266380727" MODIFIED="1586532157856" TEXT="Multiple threads / single core">
 <icon BUILTIN="licq"/>
@@ -2095,7 +2215,7 @@ great-books
 </node>
 </node>
 </node>
-<node CREATED="1586532159363" ID="ID_972845997" MODIFIED="1586532455586" TEXT="Multiple threads  / multiple cores">
+<node CREATED="1586532159363" FOLDED="true" ID="ID_972845997" MODIFIED="1586532455586" TEXT="Multiple threads  / multiple cores">
 <icon BUILTIN="licq"/>
 <node CREATED="1586532448130" ID="ID_1105008139" MODIFIED="1586532451610">
 <richcontent TYPE="NODE"><html>
@@ -2112,8 +2232,8 @@ great-books
 </node>
 </node>
 </node>
-<node CREATED="1586532515678" ID="ID_1328824275" MODIFIED="1586536892861" TEXT="The Three Goblins">
-<node CREATED="1586532561279" ID="ID_479989073" MODIFIED="1586532870234" TEXT="Reference cell problem">
+<node CREATED="1586532515678" FOLDED="true" ID="ID_1328824275" MODIFIED="1586536892861" TEXT="The Three Goblins">
+<node CREATED="1586532561279" FOLDED="true" ID="ID_479989073" MODIFIED="1586532870234" TEXT="Reference cell problem">
 <icon BUILTIN="full-1"/>
 <node CREATED="1586532581546" ID="ID_1876326742" MODIFIED="1586532863221" TEXT="Program with nondeterministic outcome">
 <icon BUILTIN="licq"/>
@@ -2168,8 +2288,8 @@ great-books
 </node>
 </node>
 </node>
-<node CREATED="1586533330381" FOLDED="true" ID="ID_1010925760" MODIFIED="1587991641486" TEXT="Futures, Delays, and Promises">
-<node CREATED="1586533514933" ID="ID_1304013548" MODIFIED="1586533517612" TEXT="Introduction">
+<node CREATED="1586533330381" ID="ID_1010925760" MODIFIED="1587991641486" TEXT="Futures, Delays, and Promises">
+<node CREATED="1586533514933" FOLDED="true" ID="ID_1304013548" MODIFIED="1586533517612" TEXT="Introduction">
 <node CREATED="1586533338995" ID="ID_567406242" MODIFIED="1586533353552" TEXT="Lightweight tools for concurrent programming"/>
 <node CREATED="1586533414255" ID="ID_1410287275" MODIFIED="1586533418197" TEXT="When write serial code"/>
 <node CREATED="1586533418623" ID="ID_1927147232" MODIFIED="1586533422108" TEXT="... bind together">
@@ -2193,15 +2313,21 @@ great-books
 <node CREATED="1586533745474" ID="ID_994078257" MODIFIED="1586533748559" TEXT="... to fetch result">
 <node CREATED="1586533794150" ID="ID_590505882" MODIFIED="1586533801369" TEXT="Need to wait if future didn&apos;t compute result"/>
 </node>
-<node CREATED="1586533812563" ID="ID_1778490482" MODIFIED="1586533833551" TEXT="Fetching future result">
-<node CREATED="1586533833733" ID="ID_58240059" MODIFIED="1586533851273" TEXT="Dereferencing the future">
+<node CREATED="1586533812563" FOLDED="true" ID="ID_1778490482" MODIFIED="1586533833551" TEXT="Fetching future result">
+<node CREATED="1586533833733" ID="ID_58240059" MODIFIED="1589117514415" TEXT="Dereferencing the future">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1586533861801" ID="ID_448224916" MODIFIED="1589117478411" TEXT="function">
+<icon BUILTIN="list"/>
+<node CREATED="1586533866506" ID="ID_1459207183" LINK="https://clojuredocs.org/clojure.core/deref" MODIFIED="1589117496888" TEXT="deref">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1586533861801" ID="ID_448224916" MODIFIED="1586533866339" TEXT="function">
-<node CREATED="1586533866506" ID="ID_1459207183" MODIFIED="1586533867509" TEXT="deref"/>
 </node>
-<node CREATED="1586533868095" ID="ID_679506262" MODIFIED="1586533870169" TEXT="macro">
-<node CREATED="1586533870446" ID="ID_599375142" MODIFIED="1586533872702" TEXT="@"/>
+<node CREATED="1586533868095" ID="ID_679506262" MODIFIED="1589117481259" TEXT="macro">
+<icon BUILTIN="edit"/>
+<node CREATED="1586533870446" ID="ID_599375142" MODIFIED="1589117483274" TEXT="@">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 <node CREATED="1586533886098" ID="ID_1804203265" MODIFIED="1586533888562" TEXT="Future result">
 <node CREATED="1586533888777" ID="ID_1067111699" MODIFIED="1586533897186" TEXT="Last expression"/>
@@ -2211,7 +2337,7 @@ great-books
 <node CREATED="1586534202323" ID="ID_1349545667" MODIFIED="1586534216950" TEXT="... for waiting for result"/>
 <node CREATED="1586534306722" ID="ID_1067599962" MODIFIED="1586534326251" TEXT="Asking if future is done">
 <node CREATED="1586534313052" ID="ID_875739382" MODIFIED="1586534331375" TEXT="function">
-<node CREATED="1586534318009" ID="ID_680866936" MODIFIED="1586534320392" TEXT="realized?"/>
+<node CREATED="1586534318009" ID="ID_680866936" LINK="https://clojuredocs.org/clojure.core/realized_q" MODIFIED="1589117541199" TEXT="realized?"/>
 </node>
 </node>
 </node>
@@ -2238,11 +2364,11 @@ great-books
 <node CREATED="1586539663563" ID="ID_945387830" MODIFIED="1586539668380" TEXT="Can use promise to register callback"/>
 </node>
 <node CREATED="1586540103338" ID="ID_799077050" MODIFIED="1586540107464" TEXT="Rolling Your Own Queue">
-<node CREATED="1586540205062" ID="ID_1475527313" MODIFIED="1586540213684" TEXT="Common of the Three Concurency Goblin">
+<node CREATED="1586540205062" FOLDED="true" ID="ID_1475527313" MODIFIED="1586540213684" TEXT="Common of the Three Concurency Goblin">
 <node CREATED="1586540217124" ID="ID_621056842" MODIFIED="1586540222789" TEXT="Tasks accessing shared resource"/>
 <node CREATED="1586540227274" ID="ID_1440251043" MODIFIED="1586540247366" TEXT="... in uncoordinated way"/>
 </node>
-<node CREATED="1586540459624" ID="ID_592215984" MODIFIED="1586540465550" TEXT="What about separating">
+<node CREATED="1586540459624" FOLDED="true" ID="ID_592215984" MODIFIED="1586540465550" TEXT="What about separating">
 <node CREATED="1586540465731" ID="ID_1960259431" MODIFIED="1586540474173" TEXT="Tasks which needs to be serial"/>
 <node CREATED="1586540474527" ID="ID_465364667" MODIFIED="1586540492270" TEXT="Other tasks which can run concurrently"/>
 <node CREATED="1586540587439" FOLDED="true" ID="ID_533162235" MODIFIED="1586540602987" TEXT="Illustration">
@@ -2261,9 +2387,15 @@ great-books
 </node>
 </node>
 <node CREATED="1586615792148" ID="ID_1728766546" MODIFIED="1586615793170" TEXT="Each tool lets you decouple ">
-<node CREATED="1586615798570" ID="ID_1231630687" MODIFIED="1586615801950" TEXT="Defining a task"/>
-<node CREATED="1586615802314" ID="ID_968938607" MODIFIED="1586615805802" TEXT="Executing a task"/>
-<node CREATED="1586615814391" ID="ID_1685995336" MODIFIED="1586615817760" TEXT="Requiring a task result"/>
+<node CREATED="1586615798570" ID="ID_1231630687" MODIFIED="1589117651072" TEXT="Defining a task">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1586615802314" ID="ID_968938607" MODIFIED="1589117653146" TEXT="Executing a task">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1586615814391" ID="ID_1685995336" MODIFIED="1589117655391" TEXT="Requiring a task result">
+<icon BUILTIN="full-3"/>
+</node>
 </node>
 </node>
 </node>
@@ -2286,7 +2418,7 @@ great-books
 <node CREATED="1586616291448" ID="ID_472276899" MODIFIED="1586616296476" TEXT="Object have mutable states">
 <node CREATED="1586616296690" ID="ID_1212624768" MODIFIED="1586616298493" TEXT="Change over time"/>
 </node>
-<node CREATED="1586616393371" ID="ID_163851139" MODIFIED="1586616402889" TEXT="Changing states by two threads can be a problem">
+<node CREATED="1586616393371" FOLDED="true" ID="ID_163851139" MODIFIED="1586616402889" TEXT="Changing states by two threads can be a problem">
 <node CREATED="1586616403071" ID="ID_182278594" MODIFIED="1586711018557" TEXT="Illustration">
 <icon BUILTIN="licq"/>
 <node CREATED="1586616408013" ID="ID_1368021300" MODIFIED="1586710993938">
@@ -2306,8 +2438,7 @@ great-books
 <node CREATED="1586711428755" ID="ID_756579206" MODIFIED="1586711434602" TEXT="Follow intuitive sense of the world">
 <node CREATED="1586711434774" ID="ID_1084205303" MODIFIED="1586711439311" TEXT="An object can change"/>
 <node CREATED="1586711439739" ID="ID_289696537" MODIFIED="1586711444859" TEXT="... it&apos;s still the same object"/>
-<node CREATED="1586711449635" ID="ID_126773559" MODIFIED="1586711460009" TEXT="... and object can change states"/>
-<node CREATED="1586711460388" ID="ID_96632573" MODIFIED="1586711462492" TEXT="... of each others">
+<node CREATED="1586711449635" ID="ID_126773559" MODIFIED="1589117830338" TEXT="Objects can change states of others">
 <node CREATED="1586711469194" ID="ID_581800684" MODIFIED="1586711491138" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1586711471070" ID="ID_734306750" MODIFIED="1586711477343" TEXT="A Person object..."/>
@@ -2321,8 +2452,8 @@ great-books
 <node CREATED="1586711508956" ID="ID_1543964565" MODIFIED="1586711522210" TEXT="We never encounter same zombie twice"/>
 <node CREATED="1586711528206" ID="ID_783717187" MODIFIED="1586711532175" TEXT="It&apos;s just a succession of values"/>
 <node CREATED="1586711545214" ID="ID_1311040298" MODIFIED="1586711547469" TEXT="Values are">
-<node CREATED="1586711547658" ID="ID_432112573" MODIFIED="1586711555530" TEXT="atomic">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1586711547658" ID="ID_432112573" MODIFIED="1589117850736" TEXT="atomic">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1586711556030" ID="ID_1023785916" MODIFIED="1586711568850" TEXT="Singe irreducible unit"/>
 <node CREATED="1586711569313" ID="ID_1294469474" MODIFIED="1586711576689" TEXT="... in a larger system"/>
 </node>
@@ -2336,14 +2467,14 @@ great-books
 <node CREATED="1586711650485" ID="ID_1281401818" MODIFIED="1586711654206" TEXT="... to mutate to another value"/>
 <node CREATED="1586711670971" ID="ID_1472880247" MODIFIED="1586711674391" TEXT="15 - 2">
 <node CREATED="1586711674628" ID="ID_1253449398" MODIFIED="1586711675680" TEXT="13"/>
-<node CREATED="1586711676057" ID="ID_1432505146" MODIFIED="1586711682357" TEXT="13 is not 15 who changes"/>
-<node CREATED="1586711682873" ID="ID_988345287" MODIFIED="1586711699159" TEXT="It&apos;s a new number"/>
+<node CREATED="1586711676057" ID="ID_1432505146" MODIFIED="1589117866213" TEXT="13 is not 15 which changed"/>
+<node CREATED="1586711682873" ID="ID_988345287" MODIFIED="1589117885371" TEXT="... but a new number"/>
 </node>
 </node>
 </node>
-<node CREATED="1586711714046" ID="ID_1021250359" MODIFIED="1586711738780" TEXT="Values don&apos;t change">
-<node CREATED="1586711718567" ID="ID_1609449285" MODIFIED="1586711730311" TEXT="... but you can apply process on value"/>
-<node CREATED="1586711730664" ID="ID_1243629369" MODIFIED="1586711734500" TEXT="... to create new value"/>
+<node CREATED="1586711714046" ID="ID_1021250359" MODIFIED="1586711738780" TEXT="Values don&apos;t change"/>
+<node CREATED="1589117910841" ID="ID_369386667" MODIFIED="1589117914248" TEXT="To create new value">
+<node CREATED="1589117918660" ID="ID_1885661084" MODIFIED="1589117924284" TEXT="Apply a process on a vlue"/>
 </node>
 <node CREATED="1586711768911" ID="ID_680674308" MODIFIED="1586711770947" TEXT="Identity">
 <node CREATED="1586711771136" ID="ID_1022505940" MODIFIED="1586711775290" TEXT="It&apos;s not a changing object"/>
@@ -2354,12 +2485,12 @@ great-books
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1586711838051" ID="ID_431131772" MODIFIED="1586711846257" TEXT="Name Fred">
-<node CREATED="1586711848830" ID="ID_752585692" MODIFIED="1586711855012" TEXT="Serie of individual states"/>
-</node>
 <node CREATED="1586711826535" ID="ID_1273274322" MODIFIED="1586711828041" TEXT="State">
 <node CREATED="1586711828206" ID="ID_736847515" MODIFIED="1586711831104" TEXT="Value of an identity"/>
 <node CREATED="1586711831493" ID="ID_1335255057" MODIFIED="1586711837410" TEXT="... at a point in time"/>
+</node>
+<node CREATED="1586711838051" ID="ID_431131772" MODIFIED="1589117960608" TEXT="Fred">
+<node CREATED="1586711848830" ID="ID_752585692" MODIFIED="1586711855012" TEXT="Serie of individual states"/>
 </node>
 </node>
 <node CREATED="1586711889058" ID="ID_8195353" MODIFIED="1586711894256" TEXT="Instead of saying the value changed"/>
@@ -2382,7 +2513,7 @@ great-books
 <node CREATED="1586712032271" ID="ID_439127699" MODIFIED="1586712041846" TEXT="Manage identity in Clojure"/>
 </node>
 </node>
-<node CREATED="1586712043564" FOLDED="true" ID="ID_838208457" MODIFIED="1586964387495" TEXT="Atoms">
+<node CREATED="1586712043564" ID="ID_838208457" MODIFIED="1586964387495" TEXT="Atoms">
 <node CREATED="1586712328542" ID="ID_701790750" MODIFIED="1586712330944" TEXT="Unlike">
 <node CREATED="1586712331125" ID="ID_227787118" MODIFIED="1586712334827" TEXT="futures"/>
 <node CREATED="1586712335215" ID="ID_1948470083" MODIFIED="1586712336424" TEXT="delays"/>
@@ -2395,7 +2526,7 @@ great-books
 <node CREATED="1586712538849" ID="ID_573166861" MODIFIED="1586712596467" TEXT="... but the reference type of the atom"/>
 <node CREATED="1586712598083" ID="ID_1948286306" MODIFIED="1586712600656" TEXT="... can change"/>
 <node CREATED="1586712601752" ID="ID_1033546219" MODIFIED="1586712605721" TEXT="function">
-<node CREATED="1586712605880" ID="ID_638765673" MODIFIED="1586712608089" TEXT="swap!"/>
+<node CREATED="1586712605880" ID="ID_638765673" LINK="swap" MODIFIED="1589118029443" TEXT="swap!"/>
 </node>
 </node>
 <node CREATED="1586771752140" ID="ID_517969625" MODIFIED="1586771766168" TEXT="Possibility to retain past states"/>
@@ -2406,13 +2537,13 @@ great-books
 </node>
 </node>
 <node CREATED="1586771832364" ID="ID_418319940" MODIFIED="1586771835289" TEXT="... which means">
-<node CREATED="1586771835493" ID="ID_1323709431" MODIFIED="1586771841873" TEXT="It reads the current state of the atom">
+<node CREATED="1586771835493" ID="ID_1323709431" MODIFIED="1589118086756" TEXT="Read current state of atom">
 <icon BUILTIN="full-1"/>
 </node>
-<node CREATED="1586771853043" ID="ID_980341985" MODIFIED="1586771929478" TEXT="It then applies the update function to the state">
+<node CREATED="1586771853043" ID="ID_980341985" MODIFIED="1589118083810" TEXT="Apply the update function to the state">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1586771868958" ID="ID_1929902058" MODIFIED="1586771887890" TEXT="Next, check if value in step 1 is identical to current value">
+<node CREATED="1586771868958" ID="ID_1929902058" MODIFIED="1589118095376" TEXT="Check if value in step 1 = current value">
 <icon BUILTIN="full-3"/>
 </node>
 <node CREATED="1586771894893" ID="ID_1325480666" MODIFIED="1586771941397" TEXT="If it is, swap! updates atom to refer result on step 2">
@@ -2422,17 +2553,21 @@ great-books
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node CREATED="1586771955947" ID="ID_1688666228" MODIFIED="1586771960599" TEXT="... not swap will get ever lost"/>
+<node CREATED="1586771955947" ID="ID_1688666228" MODIFIED="1589118124206" TEXT="... no swap will get ever lost"/>
 <node CREATED="1586771974165" ID="ID_522890663" MODIFIED="1586772001518" TEXT="Atom update happens synchronously"/>
 <node CREATED="1586772009003" ID="ID_925358231" MODIFIED="1586772015279" TEXT="... they will block their threads"/>
-<node CREATED="1586772023656" ID="ID_1817232295" MODIFIED="1586772025455" TEXT="Examples">
+<node CREATED="1586772023656" ID="ID_1817232295" MODIFIED="1589118148891" TEXT="Examples">
+<icon BUILTIN="wizard"/>
 <node CREATED="1586772025668" ID="ID_412500175" MODIFIED="1586772038169" TEXT="Update function calls Thread/sleep 1000"/>
 <node CREATED="1586772038588" ID="ID_1527083455" MODIFIED="1586772048916" TEXT="... thread will block till swap! complete"/>
 </node>
 </node>
 <node CREATED="1586772055803" ID="ID_1066455974" MODIFIED="1586772069459" TEXT="Update atom without checking current value">
-<node CREATED="1586772070273" ID="ID_1124621534" MODIFIED="1586772072731" TEXT="function">
-<node CREATED="1586772073721" ID="ID_405988586" MODIFIED="1586772075215" TEXT="reset!"/>
+<node CREATED="1586772070273" ID="ID_1124621534" MODIFIED="1589118177758" TEXT="function">
+<icon BUILTIN="list"/>
+<node CREATED="1586772073721" ID="ID_405988586" LINK="https://clojuredocs.org/clojure.core/reset!" MODIFIED="1589118168066" TEXT="reset!">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node CREATED="1586772134762" ID="ID_454860187" MODIFIED="1586772138125" TEXT="Can attach to atoms">
@@ -2440,8 +2575,8 @@ great-books
 <node CREATED="1586772140195" ID="ID_105254278" MODIFIED="1586772142322" TEXT="validators"/>
 </node>
 </node>
-<node CREATED="1586772144745" FOLDED="true" ID="ID_137381734" MODIFIED="1586964386052" TEXT="Watches and Validators">
-<node CREATED="1586772165662" FOLDED="true" ID="ID_1638469115" MODIFIED="1586773625576" TEXT="Watches">
+<node CREATED="1586772144745" ID="ID_137381734" MODIFIED="1586964386052" TEXT="Watches and Validators">
+<node CREATED="1586772165662" FOLDED="true" ID="ID_1638469115" MODIFIED="1589118212480" TEXT="Watches">
 <node CREATED="1586772223832" ID="ID_431465512" MODIFIED="1586772228355" TEXT="Function with arguments">
 <node CREATED="1586772228720" ID="ID_1673368016" MODIFIED="1586772230928" TEXT="key"/>
 <node CREATED="1586772231338" ID="ID_1256746222" MODIFIED="1586772242805" TEXT="reference being watched"/>
@@ -2463,12 +2598,12 @@ great-books
 <node CREATED="1586772969346" ID="ID_917425619" MODIFIED="1586772974320" TEXT="... reference not updated"/>
 </node>
 </node>
-<node CREATED="1586773637518" FOLDED="true" ID="ID_498031559" MODIFIED="1586964384446" TEXT="Modeling Sock Transfers">
+<node CREATED="1586773637518" ID="ID_498031559" MODIFIED="1586964384446" TEXT="Modeling Sock Transfers">
 <node CREATED="1586773640113" ID="ID_208610863" MODIFIED="1586773643501" TEXT="refs">
 <node CREATED="1586773643502" ID="ID_1866808061" MODIFIED="1586773650218" TEXT="Updating multiple atoms"/>
 <node CREATED="1586773652650" ID="ID_1459691236" MODIFIED="1586773654840" TEXT="... at once"/>
 </node>
-<node CREATED="1586882686415" ID="ID_126062472" MODIFIED="1586882695237" TEXT="Transactions with 3 features">
+<node CREATED="1586882686415" FOLDED="true" ID="ID_126062472" MODIFIED="1586882695237" TEXT="Transactions with 3 features">
 <node CREATED="1586882695481" ID="ID_1110377908" MODIFIED="1586882903471" TEXT="atomic">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
@@ -2891,7 +3026,7 @@ great-books
 </node>
 </node>
 </node>
-<node CREATED="1587395475150" ID="ID_1805705227" LINK="https://www.braveclojure.com/java/" MODIFIED="1587395851116" POSITION="left" TEXT="Working with the JVM">
+<node CREATED="1587395475150" FOLDED="true" ID="ID_1805705227" LINK="https://www.braveclojure.com/java/" MODIFIED="1587395851116" POSITION="left" TEXT="Working with the JVM">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1588010046175" FOLDED="true" ID="ID_1662795635" MODIFIED="1588010047939" TEXT="Introduction">
@@ -3257,7 +3392,7 @@ great-books
 </node>
 </node>
 </node>
-<node CREATED="1587395632552" ID="ID_1988238703" LINK="https://www.braveclojure.com/multimethods-records-protocols/" MODIFIED="1587395845309" POSITION="left" TEXT="Creating and Extending Abstractions with Multimethods, Protocols, and Records">
+<node CREATED="1587395632552" FOLDED="true" ID="ID_1988238703" LINK="https://www.braveclojure.com/multimethods-records-protocols/" MODIFIED="1587395845309" POSITION="left" TEXT="Creating and Extending Abstractions with Multimethods, Protocols, and Records">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1588094635738" ID="ID_304614112" MODIFIED="1588094638060" TEXT="Introduction">
@@ -3377,7 +3512,7 @@ great-books
 <node CREATED="1588159171389" ID="ID_1046369150" LINK="http://clojure.org/datatypes/." MODIFIED="1588159184318" TEXT="Further Study"/>
 </node>
 </node>
-<node CREATED="1587395644657" ID="ID_216282533" MODIFIED="1587992272366" POSITION="left" TEXT="Appendix">
+<node CREATED="1587395644657" FOLDED="true" ID="ID_216282533" MODIFIED="1587992272366" POSITION="left" TEXT="Appendix">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-4"/>
 <node CREATED="1587395669671" ID="ID_16948058" LINK="https://www.braveclojure.com/appendix-a/" MODIFIED="1587395679384" TEXT="Building and Developing with Leiningen">
