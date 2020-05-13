@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1589291675288" ID="ID_1522010724" MODIFIED="1589292032711" TEXT="Go Scheduler">
-<node CREATED="1589291980782" ID="ID_832523280" MODIFIED="1589296745462" POSITION="right" TEXT="OS Scheduler">
+<node CREATED="1589291980782" FOLDED="true" ID="ID_832523280" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html" MODIFIED="1589373444464" POSITION="right" TEXT="OS Scheduler">
 <icon BUILTIN="full-1"/>
 <node CREATED="1589291991623" FOLDED="true" ID="ID_833789849" MODIFIED="1589292196946" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -98,8 +98,7 @@
   <body>
     <img src="instruction_pointer.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589292998145" ID="ID_263491842" MODIFIED="1589293012170" TEXT="Stack trace in Go programs">
@@ -185,11 +184,11 @@ func example(slice []string, str string, i int) {
 </node>
 </node>
 </node>
-<node CREATED="1589293522468" FOLDED="true" ID="ID_1659681586" MODIFIED="1589296726638" TEXT="Thread States">
+<node CREATED="1589293522468" ID="ID_1659681586" MODIFIED="1589296726638" TEXT="Thread States">
 <icon BUILTIN="full-3"/>
 <node CREATED="1589293538140" ID="ID_991104069" MODIFIED="1589293545861" TEXT="Dictates role scheduler takes with Thread"/>
 <node CREATED="1589293556614" ID="ID_1543793818" MODIFIED="1589293564465" TEXT="Thread can be in 1 of 3 states">
-<node CREATED="1589293564663" ID="ID_14810574" MODIFIED="1589293572235" TEXT="Waiting">
+<node CREATED="1589293564663" ID="ID_14810574" MODIFIED="1589368617188" TEXT="Waiting">
 <icon BUILTIN="full-1"/>
 <node CREATED="1589293582157" ID="ID_465704740" MODIFIED="1589293585379" TEXT="Thread stopped"/>
 <node CREATED="1589293585728" ID="ID_822793605" MODIFIED="1589293591486" TEXT="Waiting for something to continue"/>
@@ -477,8 +476,7 @@ func example(slice []string, str string, i int) {
   <body>
     <img src="false-sharing.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -490,6 +488,498 @@ func example(slice []string, str string, i int) {
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 </node>
+</node>
+<node CREATED="1589366122201" FOLDED="true" ID="ID_102800878" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html#practical-example" MODIFIED="1589373435400" POSITION="right" TEXT="Go Scheduler">
+<icon BUILTIN="full-2"/>
+<node CREATED="1589366819063" FOLDED="true" ID="ID_400564511" MODIFIED="1589366822879" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1589366835417" ID="ID_1501028311" MODIFIED="1589366842667" TEXT="Go Scheduler is a complex system"/>
+<node CREATED="1589366846298" ID="ID_551222035" MODIFIED="1589366854197" TEXT="Important to have high level model"/>
+</node>
+<node CREATED="1589366859656" FOLDED="true" ID="ID_42761049" MODIFIED="1589366973303" TEXT="Your Program Starts">
+<icon BUILTIN="full-1"/>
+<node CREATED="1589366997889" ID="ID_1104646279" MODIFIED="1589367838373" TEXT="Given a Logical Processor (P) for every virtual core">
+<node CREATED="1589367035749" ID="ID_1509731524" MODIFIED="1589367060925" TEXT="If hardware threads per physical processor">
+<node CREATED="1589367169507" ID="ID_728846411" LINK="https://en.wikipedia.org/wiki/Hyper-threading" MODIFIED="1589367175372" TEXT="Hyper-threading"/>
+</node>
+<node CREATED="1589367190230" ID="ID_641807120" MODIFIED="1589367194884" TEXT="... each presented as virtual core"/>
+<node CREATED="1589367223473" FOLDED="true" ID="ID_647391484" MODIFIED="1589367287366" TEXT="Example">
+<icon BUILTIN="licq"/>
+<icon BUILTIN="wizard"/>
+<node CREATED="1589367315394" ID="ID_1112208755" MODIFIED="1589367317244" TEXT="Illustration">
+<node CREATED="1589367258462" ID="ID_1778873706" MODIFIED="1589367264474">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="hardware_example.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1589367287862" ID="ID_720374299" MODIFIED="1589367294274" TEXT="4 physical cores"/>
+<node CREATED="1589367294927" ID="ID_1883221946" MODIFIED="1589367299480" TEXT="2 hardware threads per core"/>
+<node CREATED="1589367304210" ID="ID_1417352363" MODIFIED="1589367312356" TEXT="Go program will see 8 virtual cores">
+<node CREATED="1589367332280" ID="ID_1404353137" MODIFIED="1589367343058" TEXT="... to execute OS Threads"/>
+<node CREATED="1589367343541" ID="ID_332205457" MODIFIED="1589367351896" TEXT="... in parallel"/>
+</node>
+<node CREATED="1589367393511" ID="ID_853315298" MODIFIED="1589367395218" TEXT="If you call">
+<node CREATED="1589367395402" ID="ID_1705190602" MODIFIED="1589367396640" TEXT=" fmt.Println(runtime.NumCPU())">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1589367397314" ID="ID_1247753570" MODIFIED="1589367401450" TEXT="... return 8"/>
+</node>
+</node>
+<node CREATED="1589367514179" ID="ID_1723239730" MODIFIED="1589367534845" TEXT="Every P has an OS Thread">
+<node CREATED="1589367525506" ID="ID_1295286992" MODIFIED="1589367533052" TEXT="&quot;M&quot; for machine"/>
+<node CREATED="1589367544728" ID="ID_1593635571" MODIFIED="1589367548364" TEXT="Still managed by OS"/>
+</node>
+<node CREATED="1589367565382" ID="ID_81625926" MODIFIED="1589367569795" TEXT="When running Go program">
+<node CREATED="1589367569961" ID="ID_1796050009" MODIFIED="1589367578407" TEXT="x threads available"/>
+<node CREATED="1589367578773" ID="ID_55592495" MODIFIED="1589367583467" TEXT="... all atached to a P"/>
+</node>
+</node>
+<node CREATED="1589367654857" FOLDED="true" ID="ID_1572089000" MODIFIED="1589367840154" TEXT="Given an initial Goroutine">
+<node CREATED="1589367676391" ID="ID_750780782" MODIFIED="1589367680636" TEXT="Path of execution for Go program"/>
+<node CREATED="1589367691119" ID="ID_246660340" LINK="https://en.wikipedia.org/wiki/Coroutine" MODIFIED="1589367706471" TEXT="Essentially Coroutine">
+<node CREATED="1589367695474" ID="ID_1846692046" MODIFIED="1589367698540" TEXT="... with a G"/>
+</node>
+<node CREATED="1589367715364" ID="ID_976691662" MODIFIED="1589367720004" TEXT="Application level threads"/>
+<node CREATED="1589367720210" ID="ID_660828893" MODIFIED="1589367729113" TEXT="Similar to OS Threads in many ways"/>
+<node CREATED="1589367770502" ID="ID_1993987202" MODIFIED="1589367866119" TEXT="Context switched on/off">
+<node CREATED="1589367866325" ID="ID_1628366561" MODIFIED="1589367891542" TEXT="for OS Thread">
+<node CREATED="1589367870190" ID="ID_47940421" MODIFIED="1589367871735" TEXT="a core"/>
+</node>
+<node CREATED="1589367872433" ID="ID_1639216075" MODIFIED="1589367895051" TEXT="for Goroutine">
+<node CREATED="1589367874431" ID="ID_449580768" MODIFIED="1589367878960" TEXT="an &quot;M&quot;"/>
+</node>
+</node>
+</node>
+<node CREATED="1589367823912" ID="ID_931327816" MODIFIED="1589367826778" TEXT="Run Queue">
+<node CREATED="1589367842215" ID="ID_667936843" MODIFIED="1589367904602" TEXT="Two different">
+<node CREATED="1589367904798" ID="ID_613684562" MODIFIED="1589367911353" TEXT="Global Run Queue (GRQ)"/>
+<node CREATED="1589367912021" ID="ID_823509817" MODIFIED="1589367919261" TEXT="Local Run Queue (LRQ)"/>
+</node>
+<node CREATED="1589367924919" ID="ID_531742534" MODIFIED="1589367932411" TEXT="Each P is given a LRQ">
+<node CREATED="1589367932713" ID="ID_273937712" MODIFIED="1589367938880" TEXT="Manage Goroutines"/>
+<node CREATED="1589367939372" ID="ID_1493937347" MODIFIED="1589367943869" TEXT="... assigned to execute"/>
+<node CREATED="1589367944376" ID="ID_334778677" MODIFIED="1589367946948" TEXT="... in the context of P"/>
+<node CREATED="1589367954760" ID="ID_1066080342" MODIFIED="1589367976704" TEXT="Goroutines context-switched on/off M"/>
+</node>
+<node CREATED="1589367996969" ID="ID_547335799" MODIFIED="1589367998301" TEXT="GRQ">
+<node CREATED="1589367998540" ID="ID_1860746951" MODIFIED="1589368004015" TEXT="For Goroutine not assigned to a P yet"/>
+</node>
+</node>
+<node CREATED="1589368020898" ID="ID_1410171513" MODIFIED="1589368076048" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1589368064160" ID="ID_690859513" MODIFIED="1589368072214">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="go_program_start.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1589368123695" FOLDED="true" ID="ID_1823621694" MODIFIED="1589368128961" TEXT="Cooperating Scheduler">
+<icon BUILTIN="full-2"/>
+<node CREATED="1589368171365" ID="ID_645282523" MODIFIED="1589368175958" TEXT="OS scheduler is preemptive"/>
+<node CREATED="1589368156452" ID="ID_685590258" MODIFIED="1589368163356" TEXT="Applications running on top of OS"/>
+<node CREATED="1589368180889" ID="ID_123083808" MODIFIED="1589368192333" TEXT="... have no control over kernel scheduling"/>
+<node CREATED="1589368193181" FOLDED="true" ID="ID_53624800" MODIFIED="1589368199496" TEXT="... unless they use sync primitives">
+<node CREATED="1589368199695" ID="ID_1396693395" LINK="https://en.wikipedia.org/wiki/Linearizability" MODIFIED="1589368211195" TEXT="atomic"/>
+<node CREATED="1589368202930" ID="ID_1071529290" LINK="https://en.wikipedia.org/wiki/Lock_(computer_science)" MODIFIED="1589368215511" TEXT="mutex"/>
+</node>
+<node CREATED="1589368235821" FOLDED="true" ID="ID_1701521836" MODIFIED="1589368239298" TEXT="Go Runtime">
+<node CREATED="1589368240839" ID="ID_1759509178" MODIFIED="1589368250212" TEXT="Go Scheduler part of it"/>
+<node CREATED="1589368250936" ID="ID_1247039416" MODIFIED="1589368256118" TEXT="Built into your app"/>
+<node CREATED="1589368257600" ID="ID_976935425" MODIFIED="1589368266975" TEXT="... means it runs in">
+<node CREATED="1589368267122" ID="ID_1722822452" LINK="https://en.wikipedia.org/wiki/User_space" MODIFIED="1589368275733" TEXT="user space"/>
+</node>
+<node CREATED="1589368278359" ID="ID_735410990" MODIFIED="1589368281959" TEXT="... above the kernel"/>
+</node>
+<node CREATED="1589368297770" ID="ID_480453818" MODIFIED="1589368304825" TEXT="Go Scheduler not preemptive"/>
+<node CREATED="1589368310382" FOLDED="true" ID="ID_1061634290" LINK="https://en.wikipedia.org/wiki/Cooperative_multitasking" MODIFIED="1589368323216" TEXT="... but cooperating">
+<node CREATED="1589368329048" ID="ID_853754044" MODIFIED="1589368342195" TEXT="Needs well-defined user space events"/>
+<node CREATED="1589368342950" ID="ID_734630772" MODIFIED="1589368350411" TEXT="... happening at safe points in code"/>
+<node CREATED="1589368350799" ID="ID_1806917469" MODIFIED="1589368355114" TEXT="... to make scheduling decisions"/>
+</node>
+<node CREATED="1589368360029" FOLDED="true" ID="ID_905878332" MODIFIED="1589368366285" TEXT="... but looks / feel preemptive">
+<node CREATED="1589368374538" ID="ID_1846936524" MODIFIED="1589368381218" TEXT="Can&apos;t predict what Go scheduler will do"/>
+<node CREATED="1589368395323" ID="ID_1076259806" MODIFIED="1589368405009" TEXT="Go runtime makes decisions"/>
+<node CREATED="1589368422487" ID="ID_1438955276" MODIFIED="1589368425507" TEXT="... not the developer"/>
+</node>
+</node>
+<node CREATED="1589368427210" FOLDED="true" ID="ID_322600833" MODIFIED="1589368431782" TEXT="Goroutine States">
+<icon BUILTIN="full-3"/>
+<node CREATED="1589368444765" ID="ID_1456922773" MODIFIED="1589368464368" TEXT="Have 3 high level states">
+<node CREATED="1589368464582" ID="ID_432088571" MODIFIED="1589368467254" TEXT="Like Threads!"/>
+</node>
+<node CREATED="1589368468494" ID="ID_1090673959" MODIFIED="1589368493217" TEXT="... can only have one of them">
+<node CREATED="1589368493399" ID="ID_483517691" LINK="#ID_14810574" MODIFIED="1589368621765" TEXT="Waiting">
+<node CREATED="1589368495434" ID="ID_1362737498" MODIFIED="1589368501802" TEXT="Waiting for something"/>
+<node CREATED="1589368502170" ID="ID_825048732" MODIFIED="1589368504913" TEXT="... to continue"/>
+<node CREATED="1589368676746" ID="ID_1981326223" MODIFIED="1589368681462" TEXT="Same as OS Threads"/>
+</node>
+<node CREATED="1589368505619" ID="ID_270463383" LINK="#ID_1944737675" MODIFIED="1589368629511" TEXT="Runnable">
+<node CREATED="1589368548043" ID="ID_1089065314" MODIFIED="1589368555019" TEXT="Wants time on an &quot;M&quot;"/>
+<node CREATED="1589368556303" ID="ID_468577510" MODIFIED="1589368563020" TEXT="... so it can execute instructions"/>
+<node CREATED="1589368573877" ID="ID_1851379311" MODIFIED="1589368580967" TEXT="Same as OS Thread"/>
+</node>
+<node CREATED="1589368508027" ID="ID_661335100" LINK="#ID_1754682917" MODIFIED="1589368657060" TEXT="Executing">
+<node CREATED="1589368639426" ID="ID_431858569" MODIFIED="1589368644912" TEXT="Goroutine placed on &quot;M&quot;"/>
+<node CREATED="1589368645595" ID="ID_995856688" MODIFIED="1589368650176" TEXT="Execute instructions"/>
+<node CREATED="1589368573877" ID="ID_335666770" MODIFIED="1589368580967" TEXT="Same as OS Thread"/>
+</node>
+</node>
+</node>
+<node CREATED="1589368691430" FOLDED="true" ID="ID_356311723" MODIFIED="1589368693379" TEXT="Context Switching">
+<icon BUILTIN="full-4"/>
+<node CREATED="1589368711640" ID="ID_543585586" MODIFIED="1589368718731" TEXT="Go Scheduler requires">
+<node CREATED="1589368718944" ID="ID_1149273889" MODIFIED="1589368725698" TEXT="user-space events"/>
+<node CREATED="1589368726238" ID="ID_658051915" MODIFIED="1589368731044" TEXT="... that occurs at safe points in code"/>
+<node CREATED="1589368731944" ID="ID_1387335915" MODIFIED="1589368737122" TEXT="... to context-switch from"/>
+</node>
+<node CREATED="1589368740742" ID="ID_1529477111" MODIFIED="1589368748549" TEXT="... manifest themselves in function calls">
+<node CREATED="1589368750943" ID="ID_103550890" MODIFIED="1589368762465" TEXT="Functions critical for Go scheduler health"/>
+</node>
+<node CREATED="1589368816833" ID="ID_222974710" MODIFIED="1589368855016" TEXT="Events where scheduler can make decisions">
+<node CREATED="1589368856683" ID="ID_1263862846" MODIFIED="1589368862081" TEXT="Doesn&apos;t mean it will happen all the time!"/>
+<node CREATED="1589368863546" ID="ID_378844084" MODIFIED="1589368892640" TEXT="Use of keyword &quot;go&quot;">
+<icon BUILTIN="full-1"/>
+<node CREATED="1589368908359" ID="ID_73321655" MODIFIED="1589368912006" TEXT="How you create goroutines"/>
+<node CREATED="1589368918802" ID="ID_1985072093" MODIFIED="1589368921122" TEXT="At creation">
+<node CREATED="1589368921279" ID="ID_1069997864" MODIFIED="1589368925247" TEXT="Opportunity for scheduler"/>
+<node CREATED="1589368925635" ID="ID_1370771442" MODIFIED="1589368934635" TEXT="... to make a scheduling decision"/>
+</node>
+</node>
+<node CREATED="1589368877504" ID="ID_1440198043" MODIFIED="1589368893712" TEXT="Garbage collection">
+<icon BUILTIN="full-2"/>
+<node CREATED="1589368938520" ID="ID_563973993" MODIFIED="1589368944154" TEXT="Run using own set of goroutines"/>
+<node CREATED="1589368948486" ID="ID_1025977572" MODIFIED="1589368958242" TEXT="... so need time on an &quot;M&quot; to run"/>
+<node CREATED="1589368962508" ID="ID_718335626" MODIFIED="1589368967587" TEXT="Creates lot of scheduling chaos">
+<node CREATED="1589368974678" ID="ID_1692790625" MODIFIED="1589368978520" TEXT="but scheduler is smart!"/>
+<node CREATED="1589368992547" ID="ID_1210600871" MODIFIED="1589369029622" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1589368999498" ID="ID_1909026734" MODIFIED="1589369002302" TEXT="During GC"/>
+<node CREATED="1589369003019" ID="ID_313363296" MODIFIED="1589369015407" TEXT="... context-switching Goroutine wants to touch heap"/>
+<node CREATED="1589369016377" ID="ID_1946038940" MODIFIED="1589369025488" TEXT="... with those who don&apos;t touch the heap"/>
+</node>
+</node>
+</node>
+<node CREATED="1589368881676" ID="ID_534342724" MODIFIED="1589368894750" TEXT="System calls">
+<icon BUILTIN="full-3"/>
+<node CREATED="1589369038599" ID="ID_1900962335" MODIFIED="1589369052006" TEXT="Goroutine makes system call"/>
+<node CREATED="1589369046126" ID="ID_1046591043" MODIFIED="1589369084560" TEXT="...so block the &quot;M&quot;"/>
+<node CREATED="1589369097617" ID="ID_660762860" MODIFIED="1589369120114" TEXT="Sometimes scheduler able to context-switch Goroutine off &quot;M&quot;"/>
+<node CREATED="1589369120936" ID="ID_402321809" MODIFIED="1589369134278" TEXT="... to keep executing Goroutines queuing on P"/>
+</node>
+<node CREATED="1589368884482" ID="ID_1965009593" MODIFIED="1589368895555" TEXT="Synchronization / Orchestration">
+<icon BUILTIN="full-4"/>
+<node CREATED="1589369222056" ID="ID_1705817348" MODIFIED="1589369226703" TEXT="Operation">
+<node CREATED="1589369226917" ID="ID_1272970514" MODIFIED="1589369229035" TEXT="Atomic"/>
+<node CREATED="1589369229394" ID="ID_186218054" MODIFIED="1589369230404" TEXT="Channel"/>
+<node CREATED="1589369230755" ID="ID_1056713343" MODIFIED="1589369231889" TEXT="Mutex"/>
+</node>
+<node CREATED="1589369235064" ID="ID_1522892147" MODIFIED="1589369244915" TEXT="... cause Goroutine to block"/>
+<node CREATED="1589369245266" ID="ID_130221148" MODIFIED="1589369257742" TEXT="Scheduler can context-switch new Goroutine to run"/>
+<node CREATED="1589369262810" ID="ID_715322347" MODIFIED="1589369269501" TEXT="When Goroutine can run again">
+<node CREATED="1589369269684" ID="ID_344673784" MODIFIED="1589369277633" TEXT="Can be re-queued"/>
+<node CREATED="1589369278404" ID="ID_1469442971" MODIFIED="1589369283893" TEXT="... and eventually"/>
+<node CREATED="1589369284385" ID="ID_1631101975" MODIFIED="1589369289381" TEXT="... context-switched back on M"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1589369292548" FOLDED="true" ID="ID_1595680025" MODIFIED="1589369299209" TEXT="Asynchronous System Calls">
+<icon BUILTIN="full-5"/>
+<node CREATED="1589369322359" ID="ID_1806906258" MODIFIED="1589369333870" TEXT="When OS has hability to run system call asynchronously"/>
+<node CREATED="1589369336744" ID="ID_656424990" LINK="https://golang.org/src/runtime/netpoll.go" MODIFIED="1589369544058" TEXT="... network poller can be used to make system call efficient">
+<node CREATED="1589369544482" ID="ID_1274139802" MODIFIED="1589369567477" TEXT="MacOS">
+<node CREATED="1589369567665" ID="ID_71569625" MODIFIED="1589369568875" TEXT="kqueue"/>
+</node>
+<node CREATED="1589369550901" ID="ID_1613992207" MODIFIED="1589369573440" TEXT="Linux">
+<node CREATED="1589369552900" ID="ID_44948085" MODIFIED="1589369576861" TEXT="epoll"/>
+</node>
+<node CREATED="1589369578142" ID="ID_1005493670" MODIFIED="1589369579723" TEXT="Windows">
+<node CREATED="1589369579905" ID="ID_1823483896" MODIFIED="1589369581158" TEXT="iocp"/>
+</node>
+<node CREATED="1589369597366" ID="ID_1566136886" MODIFIED="1589369604017" TEXT="Network poller get its name">
+<node CREATED="1589369604230" ID="ID_1548021481" MODIFIED="1589369611581" TEXT="... because many networking based system calls"/>
+<node CREATED="1589369612440" ID="ID_393756233" MODIFIED="1589369626292" TEXT="... can be processed asynchronously by OS"/>
+<node CREATED="1589369729732" ID="ID_1349034231" MODIFIED="1589369739130" TEXT="... primary use of network poller"/>
+</node>
+</node>
+<node CREATED="1589369594622" ID="ID_889764244" MODIFIED="1589369757395" TEXT="When Goroutine do system calls">
+<node CREATED="1589369757586" ID="ID_1000282893" MODIFIED="1589369761644" TEXT="network poller can prevent it"/>
+<node CREATED="1589369762034" ID="ID_553991837" MODIFIED="1589369773439" TEXT="... to block the M"/>
+<node CREATED="1589369786206" ID="ID_96904125" MODIFIED="1589369808747" TEXT="Keep M available to execute other Goroutines on P"/>
+<node CREATED="1589369810765" ID="ID_1044454964" MODIFIED="1589369816142" TEXT="... without need to create new M">
+<node CREATED="1589369816339" ID="ID_1067943223" MODIFIED="1589369821827" TEXT="Reduce scheduling load on OS"/>
+</node>
+</node>
+<node CREATED="1589369835345" ID="ID_1831858155" MODIFIED="1589369997178" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1589369955233" FOLDED="true" ID="ID_417363453" MODIFIED="1589369983785" TEXT="">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1589369963264" ID="ID_138570930" MODIFIED="1589369965626">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="network_poll_example_1.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589369967741" FOLDED="true" ID="ID_701146552" MODIFIED="1589369986896" TEXT="">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1589369970675" ID="ID_702660224" MODIFIED="1589369973707">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="network_poll_example_2.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589369975105" FOLDED="true" ID="ID_1173382354" MODIFIED="1589369988742" TEXT="">
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1589369977906" ID="ID_679952234" MODIFIED="1589369980373">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="network_poll_example_3.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1589371520296" FOLDED="true" ID="ID_429767630" MODIFIED="1589371522442" TEXT="Synchronous System Calls">
+<icon BUILTIN="full-6"/>
+<node CREATED="1589371532383" ID="ID_2569503" MODIFIED="1589371550458" TEXT="When Goroutine doing system call which can&apos;t be synchronize"/>
+<node CREATED="1589371541561" ID="ID_1562179799" MODIFIED="1589371546323" TEXT="... it blocks the M"/>
+<node CREATED="1589371566007" ID="ID_1279153623" MODIFIED="1589371848376" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1589371567323" ID="ID_1914042048" MODIFIED="1589371569446" TEXT="File system call">
+<node CREATED="1589371592919" ID="ID_1340005150" MODIFIED="1589371604699" TEXT="Even if Windows can technically do it"/>
+</node>
+<node CREATED="1589371621821" FOLDED="true" ID="ID_1838872875" MODIFIED="1589371855720" TEXT="">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1589371827947" ID="ID_895014972" MODIFIED="1589371834832">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="file_system_call_example_1.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589371819033" FOLDED="true" ID="ID_1521769448" MODIFIED="1589371857471" TEXT="">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1589371837160" ID="ID_513992443" MODIFIED="1589371839797">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="file_system_call_example_2.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589371819942" FOLDED="true" ID="ID_46291076" MODIFIED="1589371858742" TEXT="">
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1589371841647" ID="ID_240989679" MODIFIED="1589371843952">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="file_system_call_example_3.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1589371867847" FOLDED="true" ID="ID_1809651912" MODIFIED="1589371872341" TEXT="Work Stealing">
+<icon BUILTIN="full-7"/>
+<node CREATED="1589371878807" ID="ID_1580870830" MODIFIED="1589371883157" TEXT="Scheduler is work-stealing"/>
+<node CREATED="1589371888383" ID="ID_445641958" MODIFIED="1589371895059" TEXT="Help to keep efficiency in some cases">
+<node CREATED="1589371909310" ID="ID_1261375928" MODIFIED="1589371922824" TEXT="Don&apos;t want an M moving to waiting">
+<node CREATED="1589371922998" ID="ID_491611850" MODIFIED="1589371929129" TEXT="OS will context-switch the M"/>
+<node CREATED="1589371929542" ID="ID_204990018" MODIFIED="1589371931747" TEXT="... off the core"/>
+<node CREATED="1589371937415" ID="ID_654848269" MODIFIED="1589371941520" TEXT="P can&apos;t do anything"/>
+<node CREATED="1589371941829" ID="ID_482351105" MODIFIED="1589371946870" TEXT="... till M comes back to the core"/>
+</node>
+<node CREATED="1589371969585" ID="ID_1908102882" MODIFIED="1589371980930" TEXT="Balance Goroutines accross all the P&apos;s"/>
+<node CREATED="1589371981390" ID="ID_119182616" MODIFIED="1589371986250" TEXT="... so the work is better">
+<node CREATED="1589371986504" ID="ID_743722727" MODIFIED="1589371989230" TEXT="distributed"/>
+<node CREATED="1589371989563" ID="ID_1207868999" MODIFIED="1589371993559" TEXT="done efficiently"/>
+</node>
+</node>
+<node CREATED="1589371998344" ID="ID_1836042787" MODIFIED="1589372779540" TEXT="Example">
+<icon BUILTIN="licq"/>
+<node CREATED="1589372000178" FOLDED="true" ID="ID_1494777866" MODIFIED="1589372189405" TEXT="">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1589372161670" ID="ID_1968126788" MODIFIED="1589372174511">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="work_stealing_example_1.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589372176757" FOLDED="true" ID="ID_197368754" MODIFIED="1589372192326" TEXT="">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1589372181805" ID="ID_306817431" MODIFIED="1589372184684">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="work_stealing_example_2.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589372193580" ID="ID_1253099549" MODIFIED="1589372570653" TEXT="P1 is idle, time to steal some work!">
+<icon BUILTIN="full-3"/>
+<node CREATED="1589372217254" ID="ID_2262423" MODIFIED="1589372224028" TEXT="Rules are as follow">
+<node CREATED="1589372228331" ID="ID_1301080084" MODIFIED="1589372295039" TEXT="Only 1/61 of the time, check the global runnable queue for a G"/>
+<node CREATED="1589372236036" ID="ID_691559619" MODIFIED="1589372236557" TEXT="if not found, check the local queue."/>
+<node CREATED="1589372240962" ID="ID_823272333" MODIFIED="1589372269619" TEXT=" if not found">
+<node CREATED="1589372244144" ID="ID_1016581901" MODIFIED="1589372267029" TEXT=" try to steal from other Ps"/>
+<node CREATED="1589372249211" ID="ID_883045457" MODIFIED="1589372304162" TEXT="if not, check the global runnable queue"/>
+<node CREATED="1589372258151" ID="ID_1442785269" MODIFIED="1589372261951" TEXT="if not found, poll network"/>
+</node>
+</node>
+</node>
+<node CREATED="1589372309556" ID="ID_371042694" MODIFIED="1589372575326" TEXT="Based on rules">
+<icon BUILTIN="full-4"/>
+<node CREATED="1589372336946" ID="ID_790889252" MODIFIED="1589372356502" TEXT="P1 needs to check P2 for goroutines (and its LRQ)"/>
+<node CREATED="1589372345059" ID="ID_855255160" MODIFIED="1589372465966" TEXT="... and take half of what it finds">
+<icon BUILTIN="licq"/>
+<node CREATED="1589372366878" ID="ID_560637067" MODIFIED="1589372463147">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="work_stealing_example_3.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1589372578394" ID="ID_1160624125" MODIFIED="1589372586594" TEXT="">
+<icon BUILTIN="full-5"/>
+<node CREATED="1589372591336" ID="ID_162960021" MODIFIED="1589372597714">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="work_stealing_example_4.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589372587207" ID="ID_1177544173" MODIFIED="1589372589207" TEXT="">
+<icon BUILTIN="full-6"/>
+<node CREATED="1589372612082" ID="ID_1637276334" MODIFIED="1589372615564">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="work_stealing_example_5.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1589372783061" FOLDED="true" ID="ID_1494724639" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html#practical-example" MODIFIED="1589372823949" TEXT="Practical Example">
+<icon BUILTIN="full-8"/>
+<node COLOR="#338800" CREATED="1589373120497" ID="ID_1819602922" MODIFIED="1589373133310" TEXT="Skipped some example. I encourage you to read them">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+<node CREATED="1589373042072" ID="ID_1705098626" MODIFIED="1589373069350" TEXT="Advantage of Goroutines"/>
+<node CREATED="1589373072399" ID="ID_866784943" MODIFIED="1589373073840" TEXT="In C">
+<node CREATED="1589373074025" ID="ID_485689403" MODIFIED="1589373118034" TEXT="Each thread sending messages to each other"/>
+<node CREATED="1589373082384" ID="ID_1843467946" MODIFIED="1589373086415" TEXT="... are managed by the OS"/>
+<node CREATED="1589373086767" ID="ID_1494834690" MODIFIED="1589373093604" TEXT="... and context-switched">
+<node CREATED="1589373175375" ID="ID_1344048051" MODIFIED="1589373179803" TEXT="... between running / waiting"/>
+<node CREATED="1589373094050" ID="ID_1573726782" MODIFIED="1589373097037" TEXT="Take time!"/>
+<node CREATED="1589373097378" ID="ID_1864215505" MODIFIED="1589373105054" TEXT="Latency problem"/>
+</node>
+</node>
+<node CREATED="1589373105829" ID="ID_513451971" MODIFIED="1589373107313" TEXT="In Go">
+<node CREATED="1589373107478" ID="ID_1616342809" MODIFIED="1589373115418" TEXT="Each goroutine sending messages to each other"/>
+<node CREATED="1589373136662" ID="ID_1993102823" MODIFIED="1589373142821" TEXT="... are managed by go schedular"/>
+<node CREATED="1589373143180" ID="ID_1477968564" MODIFIED="1589373147927" TEXT="... on OS level, same Thread used!">
+<node CREATED="1589373148117" ID="ID_1639228476" MODIFIED="1589373152184" TEXT="No context switching"/>
+<node CREATED="1589373152506" ID="ID_1752035662" MODIFIED="1589373156378" TEXT="No latency problem"/>
+</node>
+<node CREATED="1589373204556" ID="ID_849045613" MODIFIED="1589373228714" TEXT="Turned IO/Blocking work to CPU-bound work at OS level"/>
+<node CREATED="1589373234933" ID="ID_420177043" MODIFIED="1589373240529" TEXT="Context switching at application level">
+<node CREATED="1589373245987" ID="ID_1526850623" MODIFIED="1589373248697" TEXT="Cost less time"/>
+</node>
+<node CREATED="1589373268631" ID="ID_905099908" MODIFIED="1589373272478" TEXT="Scheduler helps on">
+<node CREATED="1589373272633" ID="ID_209408197" MODIFIED="1589373275893" TEXT="cache line efficiencies"/>
+<node CREATED="1589373276304" ID="ID_1212119576" MODIFIED="1589373277344" TEXT="NUMA"/>
+</node>
+<node CREATED="1589373280716" ID="ID_1876632294" MODIFIED="1589373285306" TEXT="That&apos;s why we don&apos;t need more threads"/>
+<node CREATED="1589373290471" ID="ID_1739199861" MODIFIED="1589373293978" TEXT="... than we have virtual cores"/>
+</node>
+</node>
+<node CREATED="1589373337125" FOLDED="true" ID="ID_1114856630" MODIFIED="1589373402307" TEXT="Conclusion">
+<icon BUILTIN="full-9"/>
+<node CREATED="1589373340560" ID="ID_281125742" MODIFIED="1589373345600" TEXT="Less is always more, even with goroutine"/>
+<node CREATED="1589373345988" ID="ID_491518394" MODIFIED="1589373376946" TEXT="... but you can use many of them with less performance loss"/>
+<node CREATED="1589373377398" ID="ID_536880559" MODIFIED="1589373392422" TEXT="... than if every Threads was managed by OS"/>
+<node CREATED="1589373392755" ID="ID_1443002097" MODIFIED="1589373395953" TEXT="... and not Go scheduler"/>
+</node>
+</node>
+<node CREATED="1589373418675" ID="ID_959374447" LINK="v" MODIFIED="1589373429440" POSITION="right" TEXT="Concurrency">
+<icon BUILTIN="full-3"/>
 </node>
 </node>
 </map>
