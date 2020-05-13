@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1588618314276" ID="ID_1783193672" LINK="https://www.youtube.com/watch?v=x9pxbnFC4aQ" MODIFIED="1588622011889" TEXT="On Abstraction">
-<node CREATED="1588618475268" ID="ID_872305347" MODIFIED="1588618482623" POSITION="right" TEXT="Two kinds of Abstractions">
+<node CREATED="1588618475268" FOLDED="true" ID="ID_872305347" MODIFIED="1588618482623" POSITION="right" TEXT="Two kinds of Abstractions">
 <node CREATED="1588618483272" ID="ID_960568453" MODIFIED="1588618985737" TEXT="Church numerals">
 <icon BUILTIN="full-1"/>
 <node CREATED="1588618551548" ID="ID_273298535" MODIFIED="1588618556471" TEXT="Useful to construct proof"/>
@@ -16,7 +16,8 @@
 <node CREATED="1588618975558" ID="ID_432070216" MODIFIED="1588618977853" TEXT="Transitory"/>
 </node>
 </node>
-<node CREATED="1588618720606" ID="ID_903955056" LINK="https://pdfs.semanticscholar.org/b17e/6c458d59d5dbc01d9d85cae2c0c96a9bb6e9.pdf" MODIFIED="1588618891374" POSITION="right" TEXT="Proof of Correctness of Data Representation">
+<node CREATED="1588618720606" FOLDED="true" ID="ID_903955056" LINK="https://pdfs.semanticscholar.org/b17e/6c458d59d5dbc01d9d85cae2c0c96a9bb6e9.pdf" MODIFIED="1589393062471" POSITION="right" TEXT="Proof of Correctness of Data Representation">
+<icon BUILTIN="full-1"/>
 <node CREATED="1588618740134" ID="ID_846560565" MODIFIED="1588618743344" TEXT="Abstraction">
 <node CREATED="1588618743550" ID="ID_1862243832" MODIFIED="1588618747404" TEXT="maps the internal model"/>
 <node CREATED="1588618748063" ID="ID_1587901684" MODIFIED="1588618751605" TEXT="... onto external semantics"/>
@@ -58,7 +59,8 @@
 <node CREATED="1588619109973" ID="ID_889241018" MODIFIED="1588619122723" TEXT="Is it a good abstraction?"/>
 </node>
 </node>
-<node CREATED="1588619112929" ID="ID_47195979" MODIFIED="1588621760779" POSITION="right" TEXT="The Context">
+<node CREATED="1588619112929" FOLDED="true" ID="ID_47195979" MODIFIED="1589393094168" POSITION="right" TEXT="The Context">
+<icon BUILTIN="full-2"/>
 <node CREATED="1588619171726" ID="ID_1460765486" MODIFIED="1588619178101" TEXT="When talking about abstractions"/>
 <node CREATED="1588619178736" ID="ID_1250403926" MODIFIED="1588619188980" TEXT="... we can&apos;t only speak about invariants we control"/>
 <node CREATED="1588619189432" ID="ID_1567497806" MODIFIED="1588619198306" TEXT="... but our assumptions to the context"/>
@@ -106,7 +108,8 @@
 </node>
 <node CREATED="1588619977431" ID="ID_1492120059" MODIFIED="1588621855530" TEXT="Interface changes as ripple effect on the model"/>
 </node>
-<node CREATED="1588619911678" ID="ID_983282355" MODIFIED="1588619915660" POSITION="right" TEXT="Consequence of our Model">
+<node CREATED="1588619911678" FOLDED="true" ID="ID_983282355" MODIFIED="1589393097200" POSITION="right" TEXT="Consequence of our Model">
+<icon BUILTIN="full-3"/>
 <node CREATED="1588620009084" ID="ID_1428035072" MODIFIED="1588620014723" TEXT="To abstract is to ignore"/>
 <node CREATED="1588620055790" ID="ID_5225403" MODIFIED="1588620059282" TEXT="When making a model">
 <node CREATED="1588620059649" ID="ID_187517090" MODIFIED="1588621872710" TEXT="What is worse pay attention?"/>
@@ -168,7 +171,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1588620825923" ID="ID_1772815288" MODIFIED="1588620832104" POSITION="right" TEXT="Systems of Abstractions">
+<node CREATED="1588620825923" FOLDED="true" ID="ID_1772815288" MODIFIED="1589393099650" POSITION="right" TEXT="Systems of Abstractions">
+<icon BUILTIN="full-4"/>
 <node CREATED="1588620837115" ID="ID_575295756" MODIFIED="1588620838573" TEXT="Two ways">
 <node CREATED="1588620838803" ID="ID_449481948" MODIFIED="1588620840314" TEXT="Principled">
 <node CREATED="1588620843413" ID="ID_349091787" MODIFIED="1588620850432" TEXT="Everything predictibly structure"/>
