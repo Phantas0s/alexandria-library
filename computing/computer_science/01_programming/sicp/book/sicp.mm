@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1589458493304" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1589527842921" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -86,7 +86,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1587143678085" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
-<node CREATED="1528634606285" ID="ID_1929326975" MODIFIED="1587143670696" TEXT="Introduction">
+<node CREATED="1528634606285" FOLDED="true" ID="ID_1929326975" MODIFIED="1587143670696" TEXT="Introduction">
 <node CREATED="1528633486362" ID="ID_1751522928" MODIFIED="1549911501085" TEXT="Act of the mind (Locke)">
 <node CREATED="1528633517258" ID="ID_519591107" MODIFIED="1528633547485" TEXT="Combining several ideas into one compound">
 <icon BUILTIN="full-1"/>
@@ -896,8 +896,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(fib (- n 2))))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1529145198807" FOLDED="true" ID="ID_1474271353" MODIFIED="1587143633112" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1529143952109" ID="ID_1161183280" MODIFIED="1529143963421">
@@ -1030,8 +1029,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;(* b (expt b (- n 1)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589462631161" ID="ID_863029913" MODIFIED="1589462635745" TEXT="Linear recursive process">
 <node CREATED="1589462639165" ID="ID_996288629" MODIFIED="1589462650191" TEXT="Steps">
