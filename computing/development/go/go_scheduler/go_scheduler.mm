@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1589291675288" ID="ID_1522010724" MODIFIED="1589292032711" TEXT="Go Scheduler">
-<node CREATED="1589291980782" FOLDED="true" ID="ID_832523280" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html" MODIFIED="1589373444464" POSITION="right" TEXT="OS Scheduler">
+<node CREATED="1589291980782" ID="ID_832523280" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html" MODIFIED="1589373444464" POSITION="right" TEXT="OS Scheduler">
 <icon BUILTIN="full-1"/>
 <node CREATED="1589291991623" FOLDED="true" ID="ID_833789849" MODIFIED="1589292196946" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -228,10 +228,10 @@ func example(slice []string, str string, i int) {
 </node>
 </node>
 </node>
-<node CREATED="1589293797407" FOLDED="true" ID="ID_1424689980" MODIFIED="1589296727479" TEXT="Types of Work">
+<node CREATED="1589293797407" ID="ID_1424689980" MODIFIED="1589296727479" TEXT="Types of Work">
 <icon BUILTIN="full-4"/>
 <node CREATED="1589293802858" ID="ID_415019320" MODIFIED="1589293809628" TEXT="Two types of work a Thread can do">
-<node CREATED="1589293809794" ID="ID_406491504" MODIFIED="1589293844213" TEXT="CPU-Bound">
+<node CREATED="1589293809794" ID="ID_406491504" MODIFIED="1589550749576" TEXT="CPU-Bound">
 <icon BUILTIN="full-1"/>
 <node CREATED="1589293818108" ID="ID_1988050862" MODIFIED="1589293829081" TEXT="Never creates waiting state"/>
 <node CREATED="1589293838145" ID="ID_1245731574" MODIFIED="1589293843334" TEXT="Constantly make calculation"/>
@@ -240,7 +240,8 @@ func example(slice []string, str string, i int) {
 <node CREATED="1589293854929" ID="ID_918957127" MODIFIED="1589293860809" TEXT="Thread calculating PI to Nth digit"/>
 </node>
 </node>
-<node CREATED="1589293866083" ID="ID_1705009860" MODIFIED="1589293870592" TEXT="IO-Bound">
+<node CREATED="1589293866083" ID="ID_1705009860" MODIFIED="1589550724837" TEXT="IO-Bound">
+<icon BUILTIN="full-2"/>
 <node CREATED="1589293874264" ID="ID_1753992254" MODIFIED="1589293883650" TEXT="Works causing Thread to go Waiting state"/>
 <node CREATED="1589293908999" ID="ID_893241604" MODIFIED="1589293912569" TEXT="Examples">
 <icon BUILTIN="wizard"/>
@@ -254,7 +255,7 @@ func example(slice []string, str string, i int) {
 </node>
 </node>
 </node>
-<node CREATED="1589293928964" FOLDED="true" ID="ID_158389861" MODIFIED="1589296728464" TEXT="Context Switching">
+<node CREATED="1589293928964" ID="ID_158389861" MODIFIED="1589296728464" TEXT="Context Switching">
 <icon BUILTIN="full-5"/>
 <node CREATED="1589293938287" ID="ID_1405253729" MODIFIED="1589293946913" TEXT="If running either on">
 <node CREATED="1589293940589" ID="ID_1564620575" MODIFIED="1589293941631" TEXT="Linux"/>
@@ -581,8 +582,7 @@ func example(slice []string, str string, i int) {
   <body>
     <img src="go_program_start.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -736,8 +736,7 @@ func example(slice []string, str string, i int) {
   <body>
     <img src="network_poll_example_1.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589369967741" FOLDED="true" ID="ID_701146552" MODIFIED="1589369986896" TEXT="">
@@ -751,8 +750,7 @@ func example(slice []string, str string, i int) {
   <body>
     <img src="network_poll_example_2.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589369975105" FOLDED="true" ID="ID_1173382354" MODIFIED="1589369988742" TEXT="">
@@ -766,8 +764,7 @@ func example(slice []string, str string, i int) {
   <body>
     <img src="network_poll_example_3.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -792,8 +789,7 @@ func example(slice []string, str string, i int) {
   <body>
     <img src="file_system_call_example_1.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589371819033" FOLDED="true" ID="ID_1521769448" MODIFIED="1589371857471" TEXT="">
@@ -807,8 +803,7 @@ func example(slice []string, str string, i int) {
   <body>
     <img src="file_system_call_example_2.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589371819942" FOLDED="true" ID="ID_46291076" MODIFIED="1589371858742" TEXT="">
@@ -822,8 +817,7 @@ func example(slice []string, str string, i int) {
   <body>
     <img src="file_system_call_example_3.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -857,8 +851,7 @@ func example(slice []string, str string, i int) {
   <body>
     <img src="work_stealing_example_1.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589372176757" FOLDED="true" ID="ID_197368754" MODIFIED="1589372192326" TEXT="">
@@ -872,8 +865,7 @@ func example(slice []string, str string, i int) {
   <body>
     <img src="work_stealing_example_2.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589372193580" ID="ID_1253099549" MODIFIED="1589372570653" TEXT="P1 is idle, time to steal some work!">
@@ -915,8 +907,7 @@ func example(slice []string, str string, i int) {
   <body>
     <img src="work_stealing_example_4.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589372587207" ID="ID_1177544173" MODIFIED="1589372589207" TEXT="">
@@ -929,8 +920,7 @@ func example(slice []string, str string, i int) {
   <body>
     <img src="work_stealing_example_5.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -980,6 +970,565 @@ func example(slice []string, str string, i int) {
 </node>
 <node CREATED="1589373418675" ID="ID_959374447" LINK="v" MODIFIED="1589373429440" POSITION="right" TEXT="Concurrency">
 <icon BUILTIN="full-3"/>
+<node CREATED="1589549410817" ID="ID_1081882050" MODIFIED="1589549642122" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1589549413224" ID="ID_1615883714" MODIFIED="1589549420673" TEXT="When solving new problem">
+<node CREATED="1589549420878" ID="ID_780970962" MODIFIED="1589549439323" TEXT="Look for sequential solution">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1589549436468" ID="ID_13160493" MODIFIED="1589549440556" TEXT="Make it work">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1589549446367" ID="ID_1133829252" MODIFIED="1589549482029" TEXT="Reviews">
+<icon BUILTIN="full-3"/>
+<node CREATED="1589549453963" ID="ID_1668838030" MODIFIED="1589549476138" TEXT="Readability"/>
+<node CREATED="1589549458519" ID="ID_241283801" MODIFIED="1589549460132" TEXT="Technical"/>
+</node>
+<node CREATED="1589549496009" ID="ID_109237944" MODIFIED="1589549508990" TEXT="Is concurrency">
+<icon BUILTIN="full-4"/>
+<node CREATED="1589549501832" ID="ID_1270255676" MODIFIED="1589549504130" TEXT="reasonable?"/>
+<node CREATED="1589549504536" ID="ID_213960677" MODIFIED="1589549506936" TEXT="practical?"/>
+</node>
+</node>
+<node CREATED="1589549531030" ID="ID_1711747957" MODIFIED="1589549542161" TEXT="In article bring together">
+<node CREATED="1589549542373" ID="ID_1884887923" MODIFIED="1589549545359" TEXT="Go scheduler"/>
+<node CREATED="1589549545715" ID="ID_1901122070" MODIFIED="1589549553362" TEXT="OS scheduler"/>
+</node>
+<node CREATED="1589549555481" ID="ID_1901822684" MODIFIED="1589549564062" TEXT="... to provide deeper insight of concurrency"/>
+</node>
+<node CREATED="1589549624258" FOLDED="true" ID="ID_359138113" MODIFIED="1589549643342" TEXT="What is concurrency">
+<icon BUILTIN="full-1"/>
+<node CREATED="1589549630649" ID="ID_942555385" MODIFIED="1589549637725" TEXT="Means &quot;out of order&quot; execution"/>
+<node CREATED="1589549646754" ID="ID_1081298172" MODIFIED="1589549671730" TEXT="Take set of instructions">
+<node CREATED="1589549671928" ID="ID_46633670" MODIFIED="1589549676640" TEXT="Normally run sequentially"/>
+<node CREATED="1589549677932" ID="ID_943989918" MODIFIED="1589549686955" TEXT="Finding a way to execute them out of order"/>
+<node CREATED="1589549806698" ID="ID_456611779" MODIFIED="1589549813859" TEXT="... to produce same result"/>
+<node CREATED="1589549835396" ID="ID_796683056" MODIFIED="1589549868624" TEXT="Concurrency needs to add value">
+<node CREATED="1589549868836" ID="ID_974863245" MODIFIED="1589549939028" TEXT="Enough of performance gain"/>
+<node CREATED="1589549939380" ID="ID_398249593" MODIFIED="1589549943600" TEXT="... for complexity cost"/>
+</node>
+</node>
+<node CREATED="1589549952110" ID="ID_1443448751" MODIFIED="1589549960812" TEXT="Concurrency different than parallelism">
+<node CREATED="1589549968009" ID="ID_80178164" MODIFIED="1589549971456" TEXT="Parallelism">
+<node CREATED="1589549971606" ID="ID_438941961" MODIFIED="1589549984553" TEXT="Executing 2+ execution at same itme"/>
+<node CREATED="1589549990649" ID="ID_1095109269" MODIFIED="1589549993349" TEXT="Only possible when">
+<node CREATED="1589549993517" ID="ID_1654153858" MODIFIED="1589550002234" TEXT="2 OS and hardward threads"/>
+<node CREATED="1589550002969" ID="ID_1967086475" MODIFIED="1589550007780" TEXT="2 different Go routine"/>
+<node CREATED="1589550014435" ID="ID_880109999" MODIFIED="1589550022170" TEXT="... each running independently"/>
+<node CREATED="1589550023189" ID="ID_87944494" MODIFIED="1589550026254" TEXT="... on each OS thread"/>
+</node>
+<node CREATED="1589550086513" ID="ID_360703339" MODIFIED="1589550106543" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1589550090009" ID="ID_1536899531" MODIFIED="1589550101256">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="concurrency_vs_parallelism.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1589550161230" ID="ID_1506183243" MODIFIED="1589550211227" TEXT="G1 and G2 run in parallel"/>
+<node CREATED="1589550211822" ID="ID_1113136678" MODIFIED="1589550222787" TEXT="G2, G3 and G5 run concurrently"/>
+</node>
+</node>
+<node CREATED="1589550249827" ID="ID_1491945551" MODIFIED="1589550388183" TEXT="Leveraging concurrency ">
+<node CREATED="1589550388469" ID="ID_1456148689" MODIFIED="1589550389126" TEXT="instead of parallelism">
+<node CREATED="1589550263154" ID="ID_1443410235" MODIFIED="1589550378564" TEXT="Can reduce throughput"/>
+</node>
+<node CREATED="1589550394639" ID="ID_111136370" MODIFIED="1589550397194" TEXT="with parallelism">
+<node CREATED="1589550397384" ID="ID_687037936" MODIFIED="1589550413959" TEXT="Doesn&apos;t necessarily increase  significantly performance"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1589550415982" FOLDED="true" ID="ID_1685543987" MODIFIED="1589550980786" TEXT="Workloads">
+<icon BUILTIN="full-2"/>
+<node CREATED="1589550437649" ID="ID_1443973633" MODIFIED="1589550881303" TEXT="Ask: what&apos;s problem&apos;s type of workload?">
+<node CREATED="1589550462353" ID="ID_991393328" LINK="#ID_406491504" MODIFIED="1589550767428" TEXT="CPU Bound">
+<icon BUILTIN="full-1"/>
+<node CREATED="1589550465360" ID="ID_214239226" MODIFIED="1589550470960" TEXT="No gain having Goroutines"/>
+<node CREATED="1589550471301" ID="ID_166668858" MODIFIED="1589550477153" TEXT="CPU is working all the time anyway"/>
+<node CREATED="1589550531863" ID="ID_588469207" MODIFIED="1589550545767" TEXT="Needs parallelism">
+<node CREATED="1589550551343" ID="ID_513424439" MODIFIED="1589550569024" TEXT="Concurrency don&apos;t switch"/>
+<node CREATED="1589550560092" ID="ID_1733747362" MODIFIED="1589550566161" TEXT="... Goroutine in and out"/>
+<node CREATED="1589550569836" ID="ID_576409356" MODIFIED="1589550572199" TEXT="... waiting state"/>
+<node CREATED="1589550572579" ID="ID_95970734" MODIFIED="1589550578846" TEXT="... since they are always busy"/>
+<node CREATED="1589550593102" ID="ID_860502850" MODIFIED="1589550610314" TEXT="If more Goroutines than OS/hardware Threads">
+<node CREATED="1589550610776" ID="ID_1445698495" MODIFIED="1589550614977" TEXT="Give latency"/>
+<node CREATED="1589550615325" ID="ID_1041314401" MODIFIED="1589550620069" TEXT="Move in and out Goroutine"/>
+<node CREATED="1589550634836" ID="ID_217988916" MODIFIED="1589550636925" TEXT="... takes time"/>
+<node CREATED="1589550649043" ID="ID_675577049" MODIFIED="1589550655751" TEXT="... Stop of the World event"/>
+</node>
+</node>
+</node>
+<node CREATED="1589550491813" ID="ID_1495939496" LINK="#ID_1705009860" MODIFIED="1589550769199" TEXT="IO-Bound">
+<icon BUILTIN="full-2"/>
+<node CREATED="1589550499330" ID="ID_1871485850" MODIFIED="1589550507583" TEXT="Cause Goroutine to enter waiting state"/>
+<node CREATED="1589550669958" ID="ID_617629774" MODIFIED="1589550674083" TEXT="Don&apos;t need parallelism">
+<node CREATED="1589550783897" ID="ID_1794274656" MODIFIED="1589550795817" TEXT="Goroutine switch waiting state"/>
+<node CREATED="1589550796223" ID="ID_175022938" MODIFIED="1589550801790" TEXT="... naturally as part of their workload"/>
+<node CREATED="1589550815245" ID="ID_1905233425" MODIFIED="1589550822014" TEXT="Can have more Goroutine than OS threads">
+<node CREATED="1589550823959" ID="ID_1543665715" MODIFIED="1589550832062" TEXT="Multiple Goroutine can switch..."/>
+<node CREATED="1589550832458" ID="ID_854163341" MODIFIED="1589550835969" TEXT="... on one OS thread"/>
+<node CREATED="1589550836381" ID="ID_840010857" MODIFIED="1589550842696" TEXT="... without Stop of the World"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1589550899260" ID="ID_633627075" MODIFIED="1589550930994" TEXT="How many Goroutine per hardware thread provides best throughput?">
+<node CREATED="1589550935434" ID="ID_777257206" MODIFIED="1589550938714" TEXT="Too few">
+<node CREATED="1589550939056" ID="ID_431060662" MODIFIED="1589550940696" TEXT="More idle time"/>
+</node>
+<node CREATED="1589550941257" ID="ID_1455369850" MODIFIED="1589550942587" TEXT="Too many">
+<node CREATED="1589550942793" ID="ID_1177882212" MODIFIED="1589550948944" TEXT="More context switch latency time"/>
+</node>
+</node>
+</node>
+<node CREATED="1589550974457" ID="ID_751217405" MODIFIED="1589550978948" TEXT="Adding Numbers">
+<icon BUILTIN="full-3"/>
+<node CREATED="1589551782430" ID="ID_573251093" LINK="https://play.golang.org/p/r9LdqUsEzEz" MODIFIED="1589552519717" TEXT="Simple code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>36 func add(numbers []int) int {
+37     var v int
+38     for _, n := range numbers {
+39         v += n
+40     }
+41     return v
+42 }</code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1589551789075" ID="ID_807189891" MODIFIED="1589551800267" TEXT="Is it suitable for out of order execution?">
+<node CREATED="1589551800441" ID="ID_939430517" MODIFIED="1589551801328" TEXT="Yep"/>
+<node CREATED="1589551801666" ID="ID_1156558327" MODIFIED="1589551822942" TEXT="List could be broken in smaller list"/>
+<node CREATED="1589551823402" ID="ID_1853382876" MODIFIED="1589551829296" TEXT="... and then processed concurrently"/>
+<node CREATED="1589551835715" ID="ID_519379181" MODIFIED="1589551839884" TEXT="When all list are summed"/>
+<node CREATED="1589551840408" ID="ID_313035547" MODIFIED="1589551847667" TEXT="... everything summed back together"/>
+</node>
+<node CREATED="1589551855651" ID="ID_764055748" MODIFIED="1589551878462" TEXT="How many smaller lists to get best throughput?">
+<node CREATED="1589551889498" ID="ID_948512890" MODIFIED="1589551895597" TEXT="What kind of workload?"/>
+<node CREATED="1589551896002" ID="ID_1041593882" MODIFIED="1589551909256" TEXT="add function perform CPU-Bound">
+<node CREATED="1589551915912" ID="ID_1744066275" MODIFIED="1589551917490" TEXT="Pure math"/>
+</node>
+<node CREATED="1589551927628" ID="ID_1850476298" MODIFIED="1589551935002" TEXT="One Goroutine by OS/hardware Thread"/>
+</node>
+<node CREATED="1589551977124" ID="ID_172647897" LINK="https://play.golang.org/p/r9LdqUsEzEz" MODIFIED="1589552515947" TEXT="Simple Code - concurrent version">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>44 func addConcurrent(goroutines int, numbers []int) int {
+45     var v int64
+46     totalNumbers := len(numbers)
+47     lastGoroutine := goroutines - 1
+48     stride := totalNumbers / goroutines
+49
+50     var wg sync.WaitGroup
+51     wg.Add(goroutines)
+52
+53     for g := 0; g &lt; goroutines; g++ {
+54         go func(g int) {
+55             start := g * stride
+56             end := start + stride
+57             if g == lastGoroutine {
+58                 end = totalNumbers
+59             }
+60
+61             var lv int
+62             for _, n := range numbers[start:end] {
+63                 lv += n
+64             }
+65
+66             atomic.AddInt64(&amp;v, int64(lv))
+67             wg.Done()
+68         }(g)
+69     }
+70
+71     wg.Wait()
+72
+73     return int(v)
+74 }</code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1589552120505" ID="ID_1429833509" MODIFIED="1589552125321" TEXT="Is concurrent version worth it?">
+<node CREATED="1589552125495" ID="ID_803499381" MODIFIED="1589552134672" TEXT="Need to create a benchmark">
+<node CREATED="1589552191580" ID="ID_1037480840" MODIFIED="1589552197548" TEXT="Complicated on local machine"/>
+<node CREATED="1589552197944" ID="ID_303641302" MODIFIED="1589552205152" TEXT="Make sure machine is idle as possible"/>
+<node CREATED="1589552205573" ID="ID_1906930013" MODIFIED="1589552209968" TEXT="Run benchmarks few times"/>
+<node CREATED="1589552212018" ID="ID_1012992892" MODIFIED="1589552319898" TEXT="... to make sure consistency in results"/>
+</node>
+<node CREATED="1589552143441" ID="ID_1174065162" MODIFIED="1589552164067" TEXT="Simple benchmark">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>func BenchmarkSequential(b *testing.B) {
+    for i := 0; i &lt; b.N; i++ {
+        add(numbers)
+    }
+}
+
+func BenchmarkConcurrent(b *testing.B) {
+    for i := 0; i &lt; b.N; i++ {
+        addConcurrent(runtime.NumCPU(), numbers)
+    }
+}</code></pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589552230523" ID="ID_877134606" MODIFIED="1589552283775" TEXT="Result for 1 OS thread">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>10 Million Numbers using 8 goroutines with 1 core
+2.9 GHz Intel 4 Core i7
+Concurrency WITHOUT Parallelism
+-----------------------------------------------------------------------------
+$ GOGC=off go test -cpu 1 -run none -bench . -benchtime 3s
+goos: darwin
+goarch: amd64
+pkg: github.com/ardanlabs/gotraining/topics/go/testing/benchmarks/cpu-bound
+BenchmarkSequential      &#x9;    1000&#x9;   5720764 ns/op : ~10% Faster
+BenchmarkConcurrent      &#x9;    1000&#x9;   6387344 ns/op
+BenchmarkSequentialAgain &#x9;    1000&#x9;   5614666 ns/op : ~13% Faster
+BenchmarkConcurrentAgain &#x9;    1000&#x9;   6482612 ns/op</code></pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589552283956" ID="ID_278774936" MODIFIED="1589552287553" TEXT="Concurrency version slower"/>
+<node CREATED="1589552287932" ID="ID_821853945" MODIFIED="1589552292369" TEXT="Context switching price"/>
+</node>
+<node CREATED="1589552293240" ID="ID_1796511463" MODIFIED="1589552305055" TEXT="Result for 8 OS thread">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>10 Million Numbers using 8 goroutines with 8 cores
+2.9 GHz Intel 4 Core i7
+Concurrency WITH Parallelism
+-----------------------------------------------------------------------------
+$ GOGC=off go test -cpu 8 -run none -bench . -benchtime 3s
+goos: darwin
+goarch: amd64
+pkg: github.com/ardanlabs/gotraining/topics/go/testing/benchmarks/cpu-bound
+BenchmarkSequential-8        &#x9;    1000&#x9;   5910799 ns/op
+BenchmarkConcurrent-8        &#x9;    2000&#x9;   3362643 ns/op : ~43% Faster
+BenchmarkSequentialAgain-8   &#x9;    1000&#x9;   5933444 ns/op
+BenchmarkConcurrentAgain-8   &#x9;    2000&#x9;   3477253 ns/op : ~41% Faster</code></pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589552305907" ID="ID_791060464" MODIFIED="1589552309833" TEXT="Concurrency version faster"/>
+<node CREATED="1589552332185" ID="ID_1949200174" MODIFIED="1589552334820" TEXT="Parallelism"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1589552340954" ID="ID_1666793962" MODIFIED="1589552345589" TEXT="Sorting">
+<icon BUILTIN="full-4"/>
+<node CREATED="1589552358364" ID="ID_21482368" MODIFIED="1589552435955" TEXT="Not all CPU-Bound workload better with concurrency"/>
+<node CREATED="1589552371289" ID="ID_1380971108" MODIFIED="1589552417916" TEXT="Sometimes very expensive to and/or">
+<node CREATED="1589552392214" ID="ID_1001989193" MODIFIED="1589552394842" TEXT="break work up"/>
+<node CREATED="1589552395285" ID="ID_1258327907" MODIFIED="1589552400489" TEXT="combine results"/>
+</node>
+<node CREATED="1589552445454" ID="ID_1649037024" MODIFIED="1589552447930" TEXT="Example">
+<node CREATED="1589552448096" ID="ID_981736324" LINK="https://play.golang.org/p/S0Us1wYBqG6" MODIFIED="1589552542577" TEXT="Bubble sort">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>01 package main
+02
+03 import &quot;fmt&quot;
+04
+05 func bubbleSort(numbers []int) {
+06     n := len(numbers)
+07     for i := 0; i &lt; n; i++ {
+08         if !sweep(numbers, i) {
+09             return
+10         }
+11     }
+12 }
+13
+14 func sweep(numbers []int, currentPass int) bool {
+15     var idx int
+16     idxNext := idx + 1
+17     n := len(numbers)
+18     var swap bool
+19
+20     for idxNext &lt; (n - currentPass) {
+21         a := numbers[idx]
+22         b := numbers[idxNext]
+23         if a &gt; b {
+24             numbers[idx] = b
+25             numbers[idxNext] = a
+26             swap = true
+27         }
+28         idx++
+29         idxNext = idx + 1
+30     }
+31     return swap
+32 }
+33
+34 func main() {
+35     org := []int{1, 3, 2, 4, 8, 6, 7, 2, 3, 0}
+36     fmt.Println(org)
+37
+38     bubbleSort(org)
+39     fmt.Println(org)
+40 }</code></pre>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1589552659992" ID="ID_1729992325" MODIFIED="1589552666814" TEXT="Suitable for concurrency?">
+<node CREATED="1589552666973" ID="ID_1274040053" MODIFIED="1589552667940" TEXT="No"/>
+<node CREATED="1589552668415" ID="ID_1496843802" MODIFIED="1589552687062" TEXT="Could sort every slice of list concurrently"/>
+<node CREATED="1589552677892" ID="ID_449943862" MODIFIED="1589552697493" TEXT="... but then no way to sort smaller lists together"/>
+</node>
+<node CREATED="1589552698454" ID="ID_817889013" MODIFIED="1589552714430" TEXT="Bubble sort concurrency">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>01 func bubbleSortConcurrent(goroutines int, numbers []int) {
+02     totalNumbers := len(numbers)
+03     lastGoroutine := goroutines - 1
+04     stride := totalNumbers / goroutines
+05
+06     var wg sync.WaitGroup
+07     wg.Add(goroutines)
+08
+09     for g := 0; g &lt; goroutines; g++ {
+10         go func(g int) {
+11             start := g * stride
+12             end := start + stride
+13             if g == lastGoroutine {
+14                 end = totalNumbers
+15             }
+16
+17             bubbleSort(numbers[start:end])
+18             wg.Done()
+19         }(g)
+20     }
+21
+22     wg.Wait()
+23
+24     // Ugh, we have to sort the entire list again.
+25     bubbleSort(numbers)
+26 }</code></pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589552750708" ID="ID_977039878" MODIFIED="1589552754590" TEXT="Result">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>Before:
+  25 51 15 57 87 10 10 85 90 32 98 53
+  91 82 84 97 67 37 71 94 26  2 81 79
+  66 70 93 86 19 81 52 75 85 10 87 49
+
+After:
+  10 10 15 25 32 51 53 57 85 87 90 98
+   2 26 37 67 71 79 81 82 84 91 94 97
+  10 19 49 52 66 70 75 81 85 86 87 93</code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1589552767874" ID="ID_1804761892" MODIFIED="1589552772093" TEXT="Reading File">
+<icon BUILTIN="full-5"/>
+<node CREATED="1589552776060" ID="ID_569665586" MODIFIED="1589552781830" TEXT="What about IO-Bound workload?"/>
+<node CREATED="1589552793887" ID="ID_1077950132" LINK="https://play.golang.org/p/8gFe5F8zweN" MODIFIED="1589552805804" TEXT="Sequential find">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>42 func find(topic string, docs []string) int {
+43     var found int
+44     for _, doc := range docs {
+45         items, err := read(doc)
+46         if err != nil {
+47             continue
+48         }
+49         for _, item := range items {
+50             if strings.Contains(item.Description, topic) {
+51                 found++
+52             }
+53         }
+54     }
+55     return found
+56 }</code></pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589552869077" ID="ID_1980290835" MODIFIED="1589552875260" TEXT="Read implementation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>33 func read(doc string) ([]item, error) {
+34     time.Sleep(time.Millisecond) // Simulate blocking disk read.
+35     var d document
+36     if err := xml.Unmarshal([]byte(file), &amp;d); err != nil {
+37         return nil, err
+38     }
+39     return d.Channel.Items, nil
+40 }</code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589552956423" ID="ID_1702765931" LINK="https://play.golang.org/p/8gFe5F8zweN" MODIFIED="1589552966614" TEXT="Concurrent find">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>58 func findConcurrent(goroutines int, topic string, docs []string) int {
+59     var found int64
+60
+61     ch := make(chan string, len(docs))
+62     for _, doc := range docs {
+63         ch &lt;- doc
+64     }
+65     close(ch)
+66
+67     var wg sync.WaitGroup
+68     wg.Add(goroutines)
+69
+70     for g := 0; g &lt; goroutines; g++ {
+71         go func() {
+72             var lFound int64
+73             for doc := range ch {
+74                 items, err := read(doc)
+75                 if err != nil {
+76                     continue
+77                 }
+78                 for _, item := range items {
+79                     if strings.Contains(item.Description, topic) {
+80                         lFound++
+81                     }
+82                 }
+83             }
+84             atomic.AddInt64(&amp;found, lFound)
+85             wg.Done()
+86         }()
+87     }
+88
+89     wg.Wait()
+90
+91     return int(found)
+92 }</code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1589553105302" ID="ID_958404511" MODIFIED="1589553108222" TEXT="Is it worth it?">
+<node CREATED="1589553112848" ID="ID_875898157" MODIFIED="1589553151305" TEXT="Benchmark single OS thread">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>func BenchmarkSequential(b *testing.B) {
+    for i := 0; i &lt; b.N; i++ {
+        find(&quot;test&quot;, docs)
+    }
+}
+
+func BenchmarkConcurrent(b *testing.B) {
+    for i := 0; i &lt; b.N; i++ {
+        findConcurrent(runtime.NumCPU(), &quot;test&quot;, docs)
+    }
+}</code></pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589553125753" ID="ID_1977057715" MODIFIED="1589553129103" TEXT="Result">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>10 Thousand Documents using 8 goroutines with 1 core
+2.9 GHz Intel 4 Core i7
+Concurrency WITHOUT Parallelism
+-----------------------------------------------------------------------------
+$ GOGC=off go test -cpu 1 -run none -bench . -benchtime 3s
+goos: darwin
+goarch: amd64
+pkg: github.com/ardanlabs/gotraining/topics/go/testing/benchmarks/io-bound
+BenchmarkSequential      &#x9;       3&#x9;1483458120 ns/op
+BenchmarkConcurrent      &#x9;      20&#x9; 188941855 ns/op : ~87% Faster
+BenchmarkSequentialAgain &#x9;       2&#x9;1502682536 ns/op
+BenchmarkConcurrentAgain &#x9;      20&#x9; 184037843 ns/op : ~88% Faster</code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1589553130161" ID="ID_741337085" MODIFIED="1589553134949" TEXT="Concurrent versions faster"/>
+</node>
+<node CREATED="1589553159322" ID="ID_1006548541" MODIFIED="1589553167846" TEXT="Benchmark parallelism">
+<node CREATED="1589553172372" ID="ID_172634706" MODIFIED="1589553175035" TEXT="Result">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>10 Thousand Documents using 8 goroutines with 1 core
+2.9 GHz Intel 4 Core i7
+Concurrency WITH Parallelism
+-----------------------------------------------------------------------------
+$ GOGC=off go test -run none -bench . -benchtime 3s
+goos: darwin
+goarch: amd64
+pkg: github.com/ardanlabs/gotraining/topics/go/testing/benchmarks/io-bound
+BenchmarkSequential-8        &#x9;       3&#x9;1490947198 ns/op
+BenchmarkConcurrent-8        &#x9;      20&#x9; 187382200 ns/op : ~88% Faster
+BenchmarkSequentialAgain-8   &#x9;       3&#x9;1416126029 ns/op
+BenchmarkConcurrentAgain-8   &#x9;      20&#x9; 185965460 ns/op : ~87% Faster</code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1589553180702" ID="ID_323796000" MODIFIED="1589553183530" TEXT="No more performance"/>
+<node CREATED="1589553191644" ID="ID_511164358" MODIFIED="1589553196302" TEXT="... compared with one OS Thread"/>
+</node>
+</node>
+</node>
+<node CREATED="1589553188161" ID="ID_400987382" MODIFIED="1589553224488" TEXT="Conclusion">
+<icon BUILTIN="full-6"/>
+</node>
 </node>
 </node>
 </map>
