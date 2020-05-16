@@ -1,20 +1,55 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1586077556509" ID="ID_80997837" MODIFIED="1588441432576" TEXT="Language Mechanics">
+<node CREATED="1586077556509" ID="ID_80997837" MODIFIED="1589630252919" TEXT="Language Mechanics">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>Questions:</b>
+      <b>Questions: </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>1. Language mechanics on stack and pointers</b>
     </p>
     <ol>
       <li>
-        Look at this example: https://play.golang.org/p/ZtvyJDfFpgY - What's the state of the memory at line 5? at line 11? at line 6?<br />
+        Look at this example: https://play.golang.org/p/ZtvyJDfFpgY - Draw the state of the memory when last line of program is executed.<br />
       </li>
       <li>
-        Look at this example: https://play.golang.org/p/ZEUgCU0zZbr - What's the state of the memory at line 5? At line 14? At line 8?
+        Look at this example: https://play.golang.org/p/ZEUgCU0zZbr - Draw the state of the memory when last line of program is executed.
+      </li>
+    </ol>
+    <p>
+      <b>2. Language mechanics on stack and pointers </b>
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        Look at this example: https://play.golang.org/p/Y_VZxYteKO - Draw the state of the memory for createUserV2 and its caller, if you would only have stack frames.
+      </li>
+      <li>
+        Draw the state of the memory how it's actually is. Why is it as it is?<br /><br />
+      </li>
+    </ol>
+    <p>
+      <b>3. Language Mechanics on Memory and Profiling</b>
+    </p>
+    <p>
+      <br />
+      
+    </p>
+    <p>
+      <b>4. Design Philosophy On Data And Semantics</b>
+    </p>
+    <ol>
+      <li>
+        When is the stack of a function removed?
       </li>
       <li>
         When should you determine if a type has pointer or value semantics?
@@ -168,7 +203,7 @@
 <node CREATED="1586079248301" ID="ID_90427287" MODIFIED="1586079250714" TEXT="Function return">
 <node CREATED="1586079257467" ID="ID_1393232546" MODIFIED="1586079265448" TEXT="When function return"/>
 <node CREATED="1586079266220" ID="ID_844756406" MODIFIED="1586079272059" TEXT="... and control goes back to calling function"/>
-<node CREATED="1586079338450" FOLDED="true" ID="ID_189039196" LINK="#ID_585871128" MODIFIED="1586705588480" TEXT="State of memory">
+<node CREATED="1586079338450" ID="ID_189039196" LINK="#ID_585871128" MODIFIED="1586705588480" TEXT="State of memory">
 <icon BUILTIN="licq"/>
 <node CREATED="1586079367939" ID="ID_627424028" MODIFIED="1586079372384">
 <richcontent TYPE="NODE"><html>
@@ -233,7 +268,7 @@
 </node>
 </node>
 <node CREATED="1586087774525" ID="ID_955259287" MODIFIED="1586087778347" TEXT="Indirect memory access">
-<node CREATED="1586087794599" FOLDED="true" ID="ID_532746692" MODIFIED="1586705641918" TEXT="Small program">
+<node CREATED="1586087794599" ID="ID_532746692" LINK="https://play.golang.org/p/ZEUgCU0zZbr" MODIFIED="1589631613652" TEXT="Small program">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -294,7 +329,7 @@
 <node CREATED="1586087955542" ID="ID_25159635" MODIFIED="1586087965033" TEXT="... but no address can be passed"/>
 <node CREATED="1586087965493" ID="ID_1732535140" MODIFIED="1586087974431" TEXT="... only address associated with pointer type"/>
 </node>
-<node CREATED="1586087999721" ID="ID_77167167" MODIFIED="1586088007856" TEXT="Stack after call of increment">
+<node CREATED="1586087999721" FOLDED="true" ID="ID_77167167" MODIFIED="1586088007856" TEXT="Stack after call of increment">
 <icon BUILTIN="licq"/>
 <node CREATED="1586705575301" ID="ID_1853318896" MODIFIED="1586705580543">
 <richcontent TYPE="NODE"><html>
@@ -328,9 +363,9 @@
 <node CREATED="1586088234496" ID="ID_725464489" MODIFIED="1586088236031" TEXT="Hold a value"/>
 </node>
 </node>
-<node CREATED="1586077858673" ID="ID_378544821" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html" MODIFIED="1586706057505" POSITION="right" TEXT="Language Mechanics On Escape Analysis">
+<node CREATED="1586077858673" FOLDED="true" ID="ID_378544821" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html" MODIFIED="1586706057505" POSITION="right" TEXT="Language Mechanics On Escape Analysis">
 <icon BUILTIN="full-2"/>
-<node CREATED="1586088277741" ID="ID_378668439" MODIFIED="1586705677410" TEXT="Introduction">
+<node CREATED="1586088277741" FOLDED="true" ID="ID_378668439" MODIFIED="1586705677410" TEXT="Introduction">
 <node CREATED="1586088309613" ID="ID_115861512" MODIFIED="1586088314216" TEXT="How to share a value up the stack?"/>
 <node CREATED="1586088325151" ID="ID_1618164943" MODIFIED="1586705678728" TEXT="Let&apos;s see">
 <node CREATED="1586088326997" ID="ID_628783370" MODIFIED="1586088329248" TEXT="Heap"/>
@@ -391,7 +426,7 @@
 <node CREATED="1586088957960" ID="ID_520446247" MODIFIED="1586088962046" TEXT="Escape Mechanics">
 <node CREATED="1586089284402" ID="ID_1262719607" MODIFIED="1586089301088" TEXT="Anytime a value is shared outside scope of function&apos;s stack frame"/>
 <node CREATED="1586089301668" ID="ID_1342963408" MODIFIED="1586089306410" TEXT="... will be allocated on the heap"/>
-<node CREATED="1586089418376" ID="ID_1977212358" MODIFIED="1586089424113" TEXT="Small program">
+<node CREATED="1586089418376" ID="ID_1977212358" LINK="https://play.golang.org/p/Y_VZxYteKO" MODIFIED="1589629946168" TEXT="Small program">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -480,7 +515,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586090067320" ID="ID_1745148211" MODIFIED="1586090069597" TEXT="Readability">
+<node CREATED="1586090067320" FOLDED="true" ID="ID_1745148211" MODIFIED="1586090069597" TEXT="Readability">
 <node CREATED="1586090119943" ID="ID_560462416" LINK="#ID_1977212358" MODIFIED="1586705803969" TEXT="Stack look like this after createUserV2()">
 <icon BUILTIN="licq"/>
 <node CREATED="1586090149203" ID="ID_421459267" MODIFIED="1586090190850">
@@ -564,7 +599,7 @@
 </node>
 <node CREATED="1586090522551" ID="ID_1208045471" MODIFIED="1586090526900" TEXT="Make clear how values are shared!"/>
 </node>
-<node CREATED="1586090531491" ID="ID_1560312315" MODIFIED="1588441469732" TEXT="Compiler reporting">
+<node CREATED="1586090531491" FOLDED="true" ID="ID_1560312315" MODIFIED="1588441469732" TEXT="Compiler reporting">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -572,9 +607,8 @@
   <body>
     <pre http-equiv="content-type" content="text/html; charset=utf-8"><code>go build -gcflags &quot;-m -m&quot;</code></pre>
   </body>
-</html>
-</richcontent>
-<node CREATED="1586091022505" ID="ID_1747838959" MODIFIED="1586091030199" TEXT="Example">
+</html></richcontent>
+<node CREATED="1586091022505" ID="ID_1747838959" MODIFIED="1589629170855" TEXT="Example">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -592,7 +626,8 @@
 ./main.go:12: main &amp;u1 does not escape
 ./main.go:12: main &amp;u2 does not escape</code></pre>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 </node>
@@ -668,7 +703,7 @@
 <node CREATED="1586091528416" ID="ID_1044506689" MODIFIED="1586091532223" TEXT="How much pressure on the heap?"/>
 </node>
 <node CREATED="1586091425158" ID="ID_1260397708" MODIFIED="1586091430327" TEXT="Benchmarking">
-<node CREATED="1586091560858" ID="ID_1686912064" MODIFIED="1586091568821" TEXT="Benchmark function">
+<node CREATED="1586091560858" ID="ID_1686912064" MODIFIED="1589630294610" TEXT="Benchmark function">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -689,6 +724,7 @@
 27 }</code></pre>
   </body>
 </html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1586091580275" ID="ID_605635913" MODIFIED="1586091599891" TEXT="go test -run none -bench AlgorithmOne -benchtime 3s -benchmem">
 <node CREATED="1586091587608" ID="ID_1965874887" MODIFIED="1586091592317" TEXT="result">
@@ -707,7 +743,8 @@
 </node>
 <node CREATED="1586091626961" ID="ID_737898005" MODIFIED="1586091639906" TEXT="Profiling">
 <node CREATED="1586091710078" ID="ID_1378974902" MODIFIED="1586091715334" TEXT="Using memprofile switch"/>
-<node CREATED="1586091715556" ID="ID_912321218" MODIFIED="1586091716181" TEXT="go test -run none -bench AlgorithmOne -benchtime 3s -benchmem -memprofile mem.out">
+<node CREATED="1586091715556" ID="ID_912321218" MODIFIED="1589630306113" TEXT="go test -run none -bench AlgorithmOne -benchtime 3s -benchmem -memprofile mem.out">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1586091725656" ID="ID_1742593618" MODIFIED="1586091730366" TEXT="result">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -742,10 +779,11 @@ total 9248
 </node>
 </node>
 <node CREATED="1586091853452" ID="ID_1540772852" MODIFIED="1586091859394" TEXT="... them use pprof">
-<node CREATED="1586091861351" ID="ID_1361846022" MODIFIED="1586091862129" TEXT="go tool pprof -alloc_space memcpu.test mem.out"/>
+<node CREATED="1586091861351" ID="ID_1361846022" MODIFIED="1589630316931" TEXT="go tool pprof -alloc_space memcpu.test mem.out">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 <node CREATED="1586091890220" ID="ID_1256737593" MODIFIED="1586091892967" TEXT="... then">
-<node CREATED="1586091893245" ID="ID_282601343" MODIFIED="1586091893974" TEXT="(pprof) list algOne">
-<node CREATED="1586091898184" ID="ID_1432644892" MODIFIED="1586091902719" TEXT="result">
+<node CREATED="1586091898184" ID="ID_1432644892" MODIFIED="1589630504195" TEXT="result">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -774,8 +812,8 @@ ROUTINE ======================== .../memcpu.algOne in code/go/src/.../memcpu/str
         .          .     94:       output.Write(buf[:n])
 (pprof) _</code></pre>
   </body>
-</html></richcontent>
-</node>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -816,15 +854,15 @@ ROUTINE ======================== .../memcpu.algOne in code/go/src/.../memcpu/str
 <node CREATED="1586092289084" ID="ID_1180634241" MODIFIED="1586092368269" TEXT="Why?">
 <node CREATED="1586092291124" ID="ID_186777037" MODIFIED="1586092302272" TEXT="Profiler tells what values are escaped"/>
 <node CREATED="1586092302637" ID="ID_756188197" MODIFIED="1586092304538" TEXT="... not why">
-<node CREATED="1586092314562" ID="ID_115596999" MODIFIED="1586092317000" TEXT="Need to use">
+<node CREATED="1586092314562" ID="ID_115596999" MODIFIED="1586092317000" TEXT="Need to use"/>
 <node CREATED="1586092317206" ID="ID_111765656" MODIFIED="1586092321870" TEXT="$ go build -gcflags &quot;-m -m&quot;"/>
 </node>
 </node>
 </node>
 </node>
-</node>
 <node CREATED="1586092324394" ID="ID_1132535508" MODIFIED="1586092327098" TEXT="Compiler reporting">
-<node CREATED="1586092335671" ID="ID_823788906" MODIFIED="1586092339613" TEXT="go build -gcflags &quot;-m -m&quot;">
+<node CREATED="1586092335671" ID="ID_823788906" MODIFIED="1589630257741" TEXT="go build -gcflags &quot;-m -m&quot;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1586092339850" ID="ID_1706161464" MODIFIED="1586092342608" TEXT="Lots of output"/>
 <node CREATED="1586092343411" ID="ID_243581702" LINK="#ID_1180634241" MODIFIED="1586092374904" TEXT="To answer question, looks for">
 <node CREATED="1586092353500" ID="ID_380546409" MODIFIED="1586092383377" TEXT="stream.go:83">
@@ -1172,14 +1210,13 @@ BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x
 <node CREATED="1586094011749" ID="ID_1397407160" MODIFIED="1586094016844" TEXT="Provide integrity of data"/>
 <node CREATED="1586094017487" ID="ID_1932791501" MODIFIED="1586094019094" TEXT="... to compiler"/>
 </node>
-<node CREATED="1586094027358" ID="ID_1667426261" MODIFIED="1586706192991" TEXT="When proper value / pointer semantics start"/>
-<node CREATED="1586094037578" ID="ID_598003844" MODIFIED="1586094039763" TEXT="... with types"/>
+<node CREATED="1586094027358" ID="ID_1667426261" MODIFIED="1589629837245" TEXT="Proper value / pointer semantics start with types"/>
 </node>
 <node CREATED="1586094043595" ID="ID_258656038" MODIFIED="1586094048027" TEXT="Data (With Capabilities)">
 <node CREATED="1586094065636" ID="ID_1361092142" MODIFIED="1586094069367" TEXT="Method">
 <node CREATED="1586094069517" ID="ID_29716242" MODIFIED="1586094072042" TEXT="Data capability"/>
 </node>
-<node CREATED="1586094081635" ID="ID_946741623" MODIFIED="1586094091997" TEXT="... data drives everything">
+<node CREATED="1586094081635" ID="ID_946741623" MODIFIED="1589629855321" TEXT="Data drives everything">
 <node CREATED="1586094111800" ID="ID_1918306273" MODIFIED="1586094116848" TEXT="Functionality of program"/>
 <node CREATED="1586094117692" ID="ID_567364568" MODIFIED="1586094121017" TEXT="Algorithms"/>
 <node CREATED="1586094121352" ID="ID_380549361" MODIFIED="1586094126220" TEXT="Encapsulation"/>
@@ -1192,8 +1229,8 @@ BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x
 </node>
 <node CREATED="1586094195354" ID="ID_968152432" MODIFIED="1586094202401" TEXT="Prototype First Approach">
 <node CREATED="1586094246226" ID="ID_1660595471" MODIFIED="1586094256351" TEXT="Understand">
-<node CREATED="1586094256525" ID="ID_1943646341" MODIFIED="1586094258981" TEXT="concrete data"/>
-<node CREATED="1586094259729" ID="ID_1954813962" MODIFIED="1586094261659" TEXT="algorithm"/>
+<node CREATED="1586094256525" ID="ID_1943646341" MODIFIED="1589629869680" TEXT="Concrete data"/>
+<node CREATED="1586094259729" ID="ID_1954813962" MODIFIED="1589629871834" TEXT="Algorithm"/>
 </node>
 <node CREATED="1586094266194" ID="ID_1926717609" MODIFIED="1586094278650" TEXT="Write concrete implementation"/>
 <node CREATED="1586094279183" ID="ID_1561687674" MODIFIED="1586094291831" TEXT="Decouple implementation from concrete data">
@@ -1203,8 +1240,8 @@ BenchmarkAlgorithmOne-8    &#x9;3000000 &#x9;     1720 ns/op         0 B/op  &#x
 <node CREATED="1586094304881" ID="ID_1523696847" MODIFIED="1586706239207" TEXT="Semantic Guidelines">
 <node CREATED="1586094315204" ID="ID_1312530675" MODIFIED="1586094317786" TEXT="When type declared"/>
 <node CREATED="1586094318500" ID="ID_1178629244" MODIFIED="1586094323188" TEXT="... need to decide between">
-<node CREATED="1586094323386" ID="ID_161780808" MODIFIED="1586094331374" TEXT="value semantics"/>
-<node CREATED="1586094326374" ID="ID_1995267052" MODIFIED="1586094330144" TEXT="pointer semantics"/>
+<node CREATED="1586094323386" ID="ID_161780808" MODIFIED="1589629886891" TEXT="Value semantics"/>
+<node CREATED="1586094326374" ID="ID_1995267052" MODIFIED="1589629890615" TEXT="Pointer semantics"/>
 </node>
 <node CREATED="1586094368240" ID="ID_766149780" MODIFIED="1586094372622" TEXT="API needs to follow this decision"/>
 <node CREATED="1586094388616" ID="ID_1476178678" MODIFIED="1586094390282" TEXT="Guideline">
@@ -1423,8 +1460,7 @@ func (t *Time) UnmarshalText(data []byte) error {</code></pre>
 29     }
 30 }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586604254957" FOLDED="true" ID="ID_855140581" MODIFIED="1586604295985" TEXT="line 13">
 <richcontent TYPE="NOTE"><html>
   <head>
