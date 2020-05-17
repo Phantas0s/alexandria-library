@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1589354502121" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1589701556817" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5620,7 +5620,7 @@
 <node CREATED="1588147297731" ID="ID_1940647076" MODIFIED="1588147302242" TEXT="Use structural induction"/>
 </node>
 </node>
-<node CREATED="1588147307508" FOLDED="true" ID="ID_1486897108" MODIFIED="1588147311567" TEXT="Recursively Defined Functions">
+<node CREATED="1588147307508" ID="ID_1486897108" MODIFIED="1588147311567" TEXT="Recursively Defined Functions">
 <node CREATED="1588147317645" ID="ID_541368620" MODIFIED="1588147333316" TEXT="Two steps for function with set of nonnegative integers">
 <node CREATED="1588147333809" ID="ID_1702109425" MODIFIED="1588147386394" TEXT="Basis step">
 <icon BUILTIN="full-1"/>
@@ -5637,7 +5637,7 @@
 </node>
 <node CREATED="1588147440839" ID="ID_1374541036" MODIFIED="1588147582318" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1588147445448" ID="ID_185373664" MODIFIED="1588147521789" TEXT="function f defined recursively by">
+<node CREATED="1588147445448" ID="ID_185373664" MODIFIED="1588147521789" TEXT="function f defined recursively by"/>
 <node CREATED="1588147523193" ID="ID_659399890" MODIFIED="1588147528217" TEXT="f(0) = 3"/>
 <node CREATED="1588147528875" ID="ID_238582535" MODIFIED="1588147538881" TEXT="f(n+1) = 2f(n) + 3"/>
 <node CREATED="1588147548823" ID="ID_506171078" MODIFIED="1588147550076" TEXT="Results">
@@ -5647,12 +5647,18 @@
 <node CREATED="1588147550597" ID="ID_1270332133" MODIFIED="1588147576977" TEXT="f(4) = 2f (3) + 3 = 2 &#xb7; 45 + 3 = 93"/>
 </node>
 </node>
-</node>
 <node CREATED="1588147588577" ID="ID_27126986" MODIFIED="1588147604602" TEXT="Recursively defined functions are well defined">
 <node CREATED="1588147610012" ID="ID_1324140308" MODIFIED="1588147615336" TEXT="For every Z+"/>
 <node CREATED="1588147616576" ID="ID_203465550" MODIFIED="1588147621846" TEXT="... value of the function"/>
-<node CREATED="1588147625128" ID="ID_367937804" MODIFIED="1588147628757" TEXT="... at this integer"/>
-<node CREATED="1588147629163" ID="ID_1343072075" MODIFIED="1588147638639" TEXT="... determined in unambiguous way"/>
+<node CREATED="1588147625128" ID="ID_367937804" MODIFIED="1589701794270" TEXT="... at chosen integer"/>
+<node CREATED="1588147629163" ID="ID_1343072075" MODIFIED="1588147638639" TEXT="... determined in unambiguous way">
+<node CREATED="1589701817084" ID="ID_423415699" MODIFIED="1589701822193" TEXT="Obtain the same value"/>
+<node CREATED="1589701822668" ID="ID_1815575417" MODIFIED="1589701827171" TEXT="... using two parts of definition">
+<node CREATED="1589701827323" ID="ID_1762833247" MODIFIED="1589701830401" TEXT="Basis step"/>
+<node CREATED="1589701830825" ID="ID_1321109321" MODIFIED="1589701833323" TEXT="Recursive step"/>
+</node>
+<node CREATED="1589701844428" ID="ID_1063840566" MODIFIED="1589701849576" TEXT="... no matter how we apply them"/>
+</node>
 </node>
 <node CREATED="1588147977532" FOLDED="true" ID="ID_1556185068" MODIFIED="1588147982563" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -5678,7 +5684,7 @@
 </node>
 </node>
 <node CREATED="1588148142067" ID="ID_1865856634" MODIFIED="1588148150063" TEXT="... can include exclusion rule">
-<node CREATED="1588148172908" ID="ID_116693220" MODIFIED="1588148181078" TEXT="Specifies that nothing is in the sex"/>
+<node CREATED="1588148172908" ID="ID_116693220" MODIFIED="1589701892203" TEXT="Specifies that nothing is in the sequence"/>
 <node CREATED="1588148181529" ID="ID_1575291314" MODIFIED="1588148187464" TEXT="... except what defined by">
 <node CREATED="1588148187465" ID="ID_1901244148" MODIFIED="1588148189224" TEXT="basis step"/>
 <node CREATED="1588148189668" ID="ID_583177722" MODIFIED="1588148192172" TEXT="recursive step"/>
@@ -5698,7 +5704,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1588148661924" FOLDED="true" ID="ID_414698281" MODIFIED="1588149216067" TEXT="Concatenation definition">
+<node CREATED="1588148661924" ID="ID_414698281" MODIFIED="1588149216067" TEXT="Concatenation definition">
 <icon BUILTIN="licq"/>
 <node CREATED="1588149091156" ID="ID_1999893058" MODIFIED="1588149101734">
 <richcontent TYPE="NODE"><html>
@@ -5711,10 +5717,10 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1588149035752" FOLDED="true" ID="ID_295144437" MODIFIED="1588149808278" TEXT="Rooted tree">
+<node CREATED="1588149035752" ID="ID_295144437" MODIFIED="1588149808278" TEXT="Rooted tree">
 <node CREATED="1588149493647" ID="ID_1505782579" MODIFIED="1588149792464" TEXT="Definition">
 <icon BUILTIN="licq"/>
-<node CREATED="1588149129191" ID="ID_1501406561" MODIFIED="1588149138673">
+<node CREATED="1589702088077" ID="ID_1669682144" MODIFIED="1589702116930">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5722,7 +5728,8 @@
   <body>
     <img src="definition_recursive_rooted_tree.png" />
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1588149742095" ID="ID_1685759301" MODIFIED="1588149765621" TEXT="Example">
