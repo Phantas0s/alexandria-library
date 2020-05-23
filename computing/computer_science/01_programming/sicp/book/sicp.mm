@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1589527842921" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1590054789273" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -773,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" ID="ID_1681489065" MODIFIED="1529145173226" TEXT="Iterative process">
+<node CREATED="1528914006707" ID="ID_1681489065" MODIFIED="1590054789292" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -795,7 +795,7 @@
       &#160;&#160;&#160;&#160;product
     </p>
     <p>
-      &#160;&#160;&#160;&#160;(fact-iter (* counter product)
+      &#160;&#160;&#160;&#160;(fact-iter (* counter product)S
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(+ counter 1)
@@ -804,8 +804,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1528914414966" FOLDED="true" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
+</html>
+</richcontent>
+<node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
 <richcontent TYPE="NODE"><html>
@@ -861,6 +862,15 @@
 <node CREATED="1589460394295" ID="ID_567933732" MODIFIED="1589460395278" TEXT="repeat"/>
 <node CREATED="1589460396273" ID="ID_332165328" MODIFIED="1589460397627" TEXT="while"/>
 <node CREATED="1589460398303" ID="ID_243361247" MODIFIED="1589460399008" TEXT="..."/>
+</node>
+<node CREATED="1590054997739" ID="ID_57188074" MODIFIED="1590055000353" TEXT="In Scheme">
+<node CREATED="1590055000510" ID="ID_383362045" MODIFIED="1590055007011" TEXT="Recursion for iterative procedure"/>
+<node CREATED="1590055007840" ID="ID_209646339" MODIFIED="1590055014578" TEXT="... executed in constant space"/>
+<node CREATED="1590055021545" ID="ID_1416463389" MODIFIED="1590055028413" TEXT="Implementation of this property called">
+<node CREATED="1590055028415" ID="ID_1802599553" MODIFIED="1590055032990" TEXT="tail-recursive">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1589460419485" ID="ID_795347925" MODIFIED="1589460423490" TEXT="tail-recursive">
