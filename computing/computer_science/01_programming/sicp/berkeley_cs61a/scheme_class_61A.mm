@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1527706601022" ID="ID_1677517690" LINK="https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9" MODIFIED="1586868351729" TEXT="Berkeley 61A">
+<node CREATED="1527706601022" ID="ID_1677517690" LINK="https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9" MODIFIED="1590312113800" TEXT="Berkeley cs61a">
 <node CREATED="1528634288534" ID="ID_1361930358" MODIFIED="1528634295540" POSITION="right" TEXT="Class 61A"/>
 <node CREATED="1528227496973" ID="ID_1480196480" MODIFIED="1589107754214" POSITION="right" TEXT="Functional programming">
 <icon BUILTIN="full-1"/>
@@ -107,8 +107,7 @@
       -4
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -189,7 +188,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586868215628" FOLDED="true" ID="ID_327071360" MODIFIED="1589107924192" POSITION="right" TEXT="Order of Growth">
+<node CREATED="1586868215628" ID="ID_327071360" MODIFIED="1589107924192" POSITION="right" TEXT="Order of Growth">
 <icon BUILTIN="full-4"/>
 <node CREATED="1586868225011" ID="ID_696253307" MODIFIED="1586868230441" TEXT="Make your program works">
 <node CREATED="1586868230631" ID="ID_1600449246" MODIFIED="1586868235931" TEXT="then think about efficiency"/>
@@ -268,7 +267,8 @@
 <node CREATED="1528226311405" ID="ID_689006288" MODIFIED="1528226319746" TEXT="Computation happens the way in"/>
 </node>
 </node>
-<node CREATED="1586872932356" FOLDED="true" ID="ID_80300192" MODIFIED="1586872935455" TEXT="Illustration">
+<node CREATED="1586872932356" FOLDED="true" ID="ID_80300192" MODIFIED="1590312542876" TEXT="Illustration">
+<icon BUILTIN="licq"/>
 <node CREATED="1586872936149" ID="ID_77225223" MODIFIED="1586872940205" TEXT="CRAY-1 Fortran">
 <node CREATED="1586872940394" ID="ID_1912459321" MODIFIED="1586872945854" TEXT="Supercomputer at the time"/>
 </node>
@@ -278,7 +278,7 @@
 <node CREATED="1586872958112" ID="ID_1845797236" MODIFIED="1586872959845" TEXT="Clunky"/>
 </node>
 </node>
-<node CREATED="1586872961159" ID="ID_851869221" MODIFIED="1586873090805">
+<node CREATED="1590312533734" ID="ID_555660129" MODIFIED="1590312537812">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -286,7 +286,289 @@
   <body>
     <img src="order_of_growth_time.png" />
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1590312559590" FOLDED="true" ID="ID_892145089" MODIFIED="1590312575799" TEXT="Roughly for categories for order of growth">
+<node CREATED="1590312579007" ID="ID_1010550416" MODIFIED="1590312584663" TEXT="Searching for value">
+<icon BUILTIN="full-1"/>
+<node CREATED="1590312626923" ID="ID_523012824" MODIFIED="1590312631594" TEXT="Most obvious">
+<node CREATED="1590312632169" ID="ID_1308482060" MODIFIED="1590312638957" TEXT="Look at everything till you find it"/>
+<node CREATED="1590312639347" ID="ID_605483975" MODIFIED="1590312649737" TEXT="&#x398;(N)"/>
+</node>
+<node CREATED="1590312652192" ID="ID_772920874" MODIFIED="1590312653973" TEXT="Smarter">
+<node CREATED="1590312655241" ID="ID_561063327" MODIFIED="1590312662157" TEXT="&#x398;(log N)"/>
+<node CREATED="1590312663943" ID="ID_376978636" MODIFIED="1590312666346" TEXT="&#x398;(1)">
+<node CREATED="1590312666544" ID="ID_1342379606" MODIFIED="1590312670985" TEXT="constant time"/>
+</node>
+</node>
+</node>
+<node CREATED="1590312676453" ID="ID_637001793" MODIFIED="1590312679224" TEXT="Sorting">
+<icon BUILTIN="full-2"/>
+<node CREATED="1590312691202" ID="ID_464553707" MODIFIED="1590312722128" TEXT="Many other pbs not explicitly sorting"/>
+<node CREATED="1590312702569" ID="ID_333826798" MODIFIED="1590312704657" TEXT="... are similar"/>
+<node CREATED="1590312727359" ID="ID_981895115" MODIFIED="1590312730068" TEXT="Most obvious">
+<node CREATED="1590312730395" ID="ID_647910329" MODIFIED="1590312754638" TEXT="&#x398;(N^2)"/>
+</node>
+<node CREATED="1590312735951" ID="ID_1816755233" MODIFIED="1590312738729" TEXT="Smarter">
+<node CREATED="1590312742595" ID="ID_1947094482" MODIFIED="1590312748050" TEXT="&#x398;(N log N )"/>
+</node>
+</node>
+<node CREATED="1590312763493" ID="ID_420238795" MODIFIED="1590312844592" TEXT="Obscure problems">
+<icon BUILTIN="full-3"/>
+<node CREATED="1590312769325" ID="ID_1283012787" MODIFIED="1590312770449" TEXT="Example">
+<node CREATED="1590312770615" ID="ID_1927873807" MODIFIED="1590312776217" TEXT="Matrix multiplication"/>
+<node CREATED="1590312780841" ID="ID_276478969" MODIFIED="1590312784522" TEXT="&#x398;(N3)"/>
+</node>
+</node>
+<node CREATED="1590312791249" ID="ID_564917697" MODIFIED="1590312842137" TEXT="Intractable problems">
+<icon BUILTIN="full-4"/>
+<node CREATED="1590312802488" ID="ID_1255803514" MODIFIED="1590312807212" TEXT="&#x398;(2^N) "/>
+<node CREATED="1590312810234" ID="ID_1844381812" MODIFIED="1590312812848" TEXT="&#x398;(N!)"/>
+<node CREATED="1590312813696" ID="ID_1858318997" MODIFIED="1590312821428" TEXT="... faster computer won&apos;t help"/>
+</node>
+</node>
+</node>
+<node CREATED="1590312221639" ID="ID_1452803477" MODIFIED="1590312225274" POSITION="right" TEXT="Recursion and Iteration">
+<node CREATED="1590312858563" ID="ID_1325387540" MODIFIED="1590312863697" TEXT="Memory efficiency">
+<node CREATED="1590312873362" ID="ID_1826982789" MODIFIED="1590312881086" TEXT="More memory require swapping"/>
+<node CREATED="1590312881490" ID="ID_976321733" MODIFIED="1590312884019" TEXT="... so takes time!"/>
+</node>
+<node CREATED="1590312898009" ID="ID_1246560084" MODIFIED="1590312919942" TEXT="Recursive process">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (count sent)
+    </p>
+    <p>
+      &#160;&#160;(if (empty? sent)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(+ 1 (count (bf sent))) ))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590312928623" ID="ID_119170302" MODIFIED="1590312938652" TEXT="Takes &#x398;(N) ">
+<node CREATED="1590312942082" ID="ID_1830192142" MODIFIED="1590312943120" TEXT="time"/>
+<node CREATED="1590312943987" ID="ID_270612142" MODIFIED="1590312946286" TEXT="space"/>
+</node>
+<node CREATED="1590312950721" ID="ID_1166561361" MODIFIED="1590312955948" TEXT="Processing">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (count &#8217;(i want to hold your hand))
+    </p>
+    <p>
+      (+ 1 (count &#8217;(want to hold your hand)))
+    </p>
+    <p>
+      (+ 1 (+ 1 (count &#8217;(to hold your hand))))
+    </p>
+    <p>
+      (+ 1 (+ 1 (+ 1 (count &#8217;(hold your hand)))))
+    </p>
+    <p>
+      (+ 1 (+ 1 (+ 1 (+ 1 (count &#8217;(your hand))))))
+    </p>
+    <p>
+      (+ 1 (+ 1 (+ 1 (+ 1 (+ 1 (count &#8217;(hand)))))))
+    </p>
+    <p>
+      (+ 1 (+ 1 (+ 1 (+ 1 (+ 1 (+ 1 (count &#8217;())))))))
+    </p>
+    <p>
+      (+ 1 (+ 1 (+ 1 (+ 1 (+ 1 (+ 1 0))))))
+    </p>
+    <p>
+      (+ 1 (+ 1 (+ 1 (+ 1 (+ 1 1)))))
+    </p>
+    <p>
+      (+ 1 (+ 1 (+ 1 (+ 1 2))))
+    </p>
+    <p>
+      (+ 1 (+ 1 (+ 1 3)))
+    </p>
+    <p>
+      (+ 1 (+ 1 4))
+    </p>
+    <p>
+      (+ 1 5)
+    </p>
+    <p>
+      6
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590312965638" ID="ID_841442701" MODIFIED="1590312986122" TEXT="... each remembered independent tasks"/>
+<node CREATED="1590312972786" ID="ID_1156192932" MODIFIED="1590312980080" TEXT="... require memory"/>
+</node>
+<node CREATED="1590312991699" ID="ID_1403643727" MODIFIED="1590313013943" TEXT="Iterative process">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (count sent)
+    </p>
+    <p>
+      &#160;&#160;(define (iter wds result)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if (empty? wds)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;result
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(iter (bf wds) (+ result 1))))
+    </p>
+    <p>
+      (iter sent 0) )
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590313020202" ID="ID_1682037649" MODIFIED="1590313025011" TEXT="Processing">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (count &#8217;(i want to hold your hand))
+    </p>
+    <p>
+      (iter &#8217;(i want to hold your hand) 0)
+    </p>
+    <p>
+      (iter &#8217;(want to hold your hand) 1)
+    </p>
+    <p>
+      (iter &#8217;(to hold your hand) 2)
+    </p>
+    <p>
+      (iter &#8217;(hold your hand) 3)
+    </p>
+    <p>
+      (iter &#8217;(your hand) 4)
+    </p>
+    <p>
+      (iter &#8217;(hand) 5)
+    </p>
+    <p>
+      (iter &#8217;() 6)
+    </p>
+    <p>
+      6
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590313031824" ID="ID_585135694" MODIFIED="1590313035225" TEXT="No more extra memory"/>
+<node CREATED="1590313035614" ID="ID_1049261095" MODIFIED="1590313037834" TEXT="... for scheme">
+<node CREATED="1590313037992" ID="ID_254330005" MODIFIED="1590313043478" TEXT="Other programming language"/>
+<node CREATED="1590313043841" ID="ID_1959079217" MODIFIED="1590313046614" TEXT="... will take the memory"/>
+<node CREATED="1590313046993" ID="ID_1730852915" MODIFIED="1590313055977" TEXT="... as soon as the form"/>
+<node CREATED="1590313056368" ID="ID_1555359483" MODIFIED="1590313058561" TEXT="... is recursive">
+<node CREATED="1590313061952" ID="ID_133068013" MODIFIED="1590313065726" TEXT="Whatever the process!"/>
+</node>
+</node>
+</node>
+<node CREATED="1590313093323" ID="ID_688418350" MODIFIED="1590313120204" TEXT="Computing Pascal Triangle">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ;;;;;
+    </p>
+    <p>
+      &#160;In file cs61a/lectures/1.2/pascal.scm
+    </p>
+    <p>
+      (define (pascal row col)
+    </p>
+    <p>
+      &#160;&#160;(cond ((= col 0) 1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((= col row) 1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (+ (pascal (- row 1) (- col 1))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(pascal (- row 1) col) ))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590313133801" ID="ID_1330997135" MODIFIED="1590313217753" TEXT="Takes &#x398;(2^n) time!"/>
+<node CREATED="1590313238430" ID="ID_1823517330" MODIFIED="1590313242951" TEXT="Compute some entry twice"/>
+<node CREATED="1590313162439" ID="ID_1912465384" MODIFIED="1590313192458" TEXT="Other solution">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (pascal-row row-num)
+    </p>
+    <p>
+      &#160;&#160;(define (iter in out)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if (empty? (bf in))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;out
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(iter (bf in) (se (+ (first in) (first (bf in))) out)) ))
+    </p>
+    <p>
+      &#160;&#160;(define (next-row old-row num)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if (= num 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;old-row
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(next-row (se 1 (iter old-row '(1))) (- num 1)) ))
+    </p>
+    <p>
+      &#160;&#160;(next-row '(1) row-num) )
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590313196844" ID="ID_300860436" MODIFIED="1590313201658" TEXT="Compute one row at a time"/>
+<node CREATED="1590313202423" ID="ID_1653149137" MODIFIED="1590313204947" TEXT="Harder to write"/>
+<node CREATED="1590313209226" ID="ID_352008765" MODIFIED="1590313224187" TEXT="&#x398;(N^2)"/>
+<node CREATED="1590313246687" ID="ID_77435658" MODIFIED="1590313254769" TEXT="Computes each entry once"/>
+</node>
+<node CREATED="1590313264669" ID="ID_50943925" MODIFIED="1590313278295" TEXT="When performance really matters">
+<node CREATED="1590313270526" ID="ID_230702561" MODIFIED="1590313282954" TEXT="... think hard about algorithm"/>
+<node CREATED="1590313283502" ID="ID_674107279" MODIFIED="1590313288780" TEXT="... instead of trying to gain some microsecond"/>
+<node CREATED="1590313289127" ID="ID_910005541" MODIFIED="1590313291899" TEXT="... on the obvious one!"/>
 </node>
 </node>
 </node>
