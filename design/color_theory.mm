@@ -1,11 +1,45 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1510687647370" ID="ID_83756238" MODIFIED="1510687657322" TEXT="Color theory">
-<node CREATED="1510687846871" ID="ID_1409163762" MODIFIED="1510688022324" POSITION="left" TEXT="Color Harmonie">
+<node CREATED="1510687647370" ID="ID_83756238" LINK="https://www.davemorrowphotography.com/color-theory-photography" MODIFIED="1590323708969" TEXT="Color theory">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        What is brightness?
+      </li>
+      <li>
+        What is luminance?
+      </li>
+      <li>
+        What is lightness / luminosity?
+      </li>
+      <li>
+        Can color can have same brightness and different lightness? Give an example.
+      </li>
+      <li>
+        What is the lightness of pure black? Pure white?
+      </li>
+      <li>
+        What is a Hue?
+      </li>
+      <li>
+        What is saturation?
+      </li>
+      <li>
+        What are the different types of color harmony you know?
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1510687846871" ID="ID_1409163762" MODIFIED="1590323711659" POSITION="left" TEXT="Color Harmony">
 <node CREATED="1510687729903" ID="ID_625895684" MODIFIED="1510687843407" TEXT="Key color">
 <node CREATED="1510687843811" ID="ID_1201548251" MODIFIED="1510687845566" TEXT="Main color"/>
 </node>
-<node CREATED="1510689745898" ID="ID_1564730956" MODIFIED="1510689749137" TEXT="analogous">
+<node CREATED="1510689745898" ID="ID_1564730956" MODIFIED="1590323662549" TEXT="Analogous">
 <node CREATED="1510689749137" ID="ID_1189870985" MODIFIED="1510691851800" TEXT="Colors close on the color wheels ">
 <node CREATED="1510691851800" ID="ID_1020887432" MODIFIED="1510691863635" TEXT="Same distance than key color"/>
 </node>
@@ -62,27 +96,29 @@
 </node>
 <node CREATED="1510687692140" ID="ID_1246779296" MODIFIED="1510863674284" POSITION="right" TEXT="Color Definition">
 <node CREATED="1510690355117" ID="ID_413563347" MODIFIED="1510863677925" TEXT="Brightness">
-<node CREATED="1510690359892" ID="ID_281325779" MODIFIED="1510861868053" TEXT="How the human eyes perceive the luminance">
-<node CREATED="1510861817701" ID="ID_580003594" MODIFIED="1510861824967" TEXT="Depends on context">
+<node CREATED="1510690359892" ID="ID_281325779" MODIFIED="1510861868053" TEXT="How the human eyes perceive the luminance"/>
+<node CREATED="1510861817701" ID="ID_580003594" MODIFIED="1510861824967" TEXT="Depends on context"/>
 <node CREATED="1510861830862" ID="ID_1557328318" MODIFIED="1510861842045" TEXT="Bright screen is brighter in the dark"/>
 </node>
-</node>
-</node>
 <node CREATED="1510690389680" ID="ID_589453591" MODIFIED="1510690392988" TEXT="Luminance">
-<node CREATED="1510861759021" ID="ID_1885179196" MODIFIED="1510861776053" TEXT="Absolute measure of light">
+<node CREATED="1510861759021" ID="ID_1885179196" MODIFIED="1510861776053" TEXT="Absolute measure of light"/>
 <node CREATED="1510861776053" ID="ID_1351353761" MODIFIED="1510861790813" TEXT="Purely physic measure"/>
 </node>
-</node>
-<node CREATED="1510690395463" ID="ID_852172173" MODIFIED="1510861937209" TEXT="Lightness / luminosity">
-<node CREATED="1510690403585" ID="ID_1067359516" MODIFIED="1510690463187" TEXT="Perceived brightness ">
-<node CREATED="1510690410809" ID="ID_1116506488" MODIFIED="1510690417287" TEXT="compared to a pure white object">
-<node CREATED="1510690466855" ID="ID_1196874722" MODIFIED="1510690488162" TEXT="Ex: 54% from pure white">
-<node CREATED="1510690480445" ID="ID_1587408477" MODIFIED="1510690482245" TEXT="Midtone"/>
-</node>
+<node CREATED="1510690395463" ID="ID_852172173" MODIFIED="1590323146998" TEXT="Lightness (value)">
+<node CREATED="1510690403585" ID="ID_1067359516" MODIFIED="1510690463187" TEXT="Perceived brightness "/>
+<node CREATED="1510690410809" ID="ID_1116506488" MODIFIED="1590323019881" TEXT="... compared to a pure white object">
+<node CREATED="1590322780152" ID="ID_328015990" MODIFIED="1590322801478" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1590322781898" ID="ID_1623201862" MODIFIED="1590322785818" TEXT="Midtone"/>
+<node CREATED="1590322786358" ID="ID_286136874" MODIFIED="1590322794384" TEXT="54% from pure white"/>
 </node>
 </node>
 <node CREATED="1510690636818" ID="ID_1909108646" MODIFIED="1510690651443" TEXT="Color can have same brightness but different lightness">
-<node CREATED="1510690651443" ID="ID_1661783962" MODIFIED="1510690666359" TEXT="Ex: Saturated yellow / saturated blue"/>
+<node CREATED="1590322803180" ID="ID_1096584258" MODIFIED="1590322818131" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1590322804951" ID="ID_1382830840" MODIFIED="1590322808400" TEXT="Saturated yellow"/>
+<node CREATED="1590322808783" ID="ID_463252455" MODIFIED="1590322812433" TEXT="Saturated blue"/>
+</node>
 </node>
 <node CREATED="1510861889856" ID="ID_1545339274" MODIFIED="1510861892310" TEXT="Pure black">
 <node CREATED="1510861892310" ID="ID_1722732035" MODIFIED="1510861896651" TEXT="0% lightness"/>

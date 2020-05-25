@@ -1,7 +1,18 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1536395019690" ID="ID_713808190" MODIFIED="1552720807210" TEXT="General Mathematics">
-<node CREATED="1536395029710" ID="ID_329999755" MODIFIED="1536396195032" POSITION="right" TEXT="Logarithm">
+<node CREATED="1536395019690" ID="ID_713808190" MODIFIED="1590323908433" TEXT="General Mathematics">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This is a misc of math
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1536395029710" ID="ID_329999755" LINK="https://www.youtube.com/watch?v=ntBWrcbAhaY" MODIFIED="1590323969838" POSITION="right" TEXT="Logarithm">
 <node CREATED="1536395359213" ID="ID_56838940" MODIFIED="1536395361524" TEXT="Definition">
 <node CREATED="1536395367545" ID="ID_1115148602" MODIFIED="1536395386105" TEXT="Way of looking differently at exponentials"/>
 </node>
