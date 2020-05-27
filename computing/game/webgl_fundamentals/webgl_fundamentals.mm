@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1590406411005" ID="ID_381599990" LINK="https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html" MODIFIED="1590428465183" TEXT="WebGL Fundamentals">
+<node CREATED="1590406411005" ID="ID_381599990" MODIFIED="1590605105713" TEXT="WebGL Fundamentals">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -21,7 +21,9 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1590418451905" ID="ID_1056379698" MODIFIED="1590419582341" POSITION="right" TEXT="Introduction">
+<node CREATED="1590605094864" ID="ID_1038173199" LINK="https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html" MODIFIED="1590605108901" POSITION="right" TEXT="Fundamentals">
+<icon BUILTIN="full-1"/>
+<node CREATED="1590418451905" FOLDED="true" ID="ID_1056379698" MODIFIED="1590419582341" TEXT="Introduction">
 <icon BUILTIN="full-1"/>
 <node CREATED="1590418441420" ID="ID_494891210" MODIFIED="1590418442719" TEXT="Web Graphics Library"/>
 <node CREATED="1590418459775" ID="ID_1091439334" LINK="https://webglfundamentals.org/webgl/lessons/webgl-2d-vs-3d-library.html" MODIFIED="1590418549923" TEXT="Not a 3D API but rasterization engine">
@@ -163,9 +165,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1590419583874" FOLDED="true" ID="ID_1197889781" MODIFIED="1590419585631" POSITION="right" TEXT="WebGL Hello World">
+<node CREATED="1590419583874" ID="ID_1197889781" MODIFIED="1590419585631" TEXT="WebGL Hello World">
 <icon BUILTIN="full-2"/>
-<node CREATED="1590419597604" ID="ID_212839799" MODIFIED="1590419603597" TEXT="WebGL care about two things">
+<node CREATED="1590419597604" FOLDED="true" ID="ID_212839799" MODIFIED="1590419603597" TEXT="WebGL care about two things">
 <node CREATED="1590419603826" ID="ID_19955837" MODIFIED="1590419634525" TEXT="Clip space coordinates">
 <icon BUILTIN="full-1"/>
 <node CREATED="1590419688632" ID="ID_1979299536" MODIFIED="1590419698835" TEXT="Provided by Vertex shader"/>
@@ -175,7 +177,7 @@
 <node CREATED="1590419677780" ID="ID_1157569721" MODIFIED="1590419688236" TEXT="Provided by fragment shader"/>
 </node>
 </node>
-<node CREATED="1590419704688" ID="ID_1188897902" MODIFIED="1590419708854" TEXT="Clip space coordinates">
+<node CREATED="1590419704688" FOLDED="true" ID="ID_1188897902" MODIFIED="1590419708854" TEXT="Clip space coordinates">
 <node CREATED="1590419709076" ID="ID_1954372719" MODIFIED="1590419717184" TEXT="Always from -1 to +1"/>
 <node CREATED="1590419718867" ID="ID_1574088074" MODIFIED="1590419722918" TEXT="... no matter size of canvas"/>
 <node CREATED="1590419723298" ID="ID_1614397358" MODIFIED="1590419821213" TEXT="Illustration">
@@ -188,8 +190,7 @@
   <body>
     <img src="space_coordinates.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -385,8 +386,7 @@
       &lt;canvas id=&quot;c&quot;&gt;&lt;/canvas&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1590420285068" ID="ID_1444170247" MODIFIED="1590420359833" TEXT="Look at canvas in JS">
@@ -399,8 +399,7 @@
       var canvas = document.querySelector(&quot;#c&quot;);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-2"/>
 </node>
 <node CREATED="1590420359934" ID="ID_779591719" MODIFIED="1590420557259" TEXT="Create a Webgl rendering context">
@@ -425,8 +424,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-3"/>
 </node>
 <node CREATED="1590420392255" ID="ID_1205826405" MODIFIED="1590420560203" TEXT="Compute shaders to put them on GPU">
@@ -523,8 +521,7 @@
       &lt;/script&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-4"/>
 <node CREATED="1590420471104" ID="ID_1862172882" MODIFIED="1590420479683" TEXT="Need to get them into strings">
 <node CREATED="1590420489346" ID="ID_1478440092" MODIFIED="1590420493442" TEXT="Concatenating"/>
@@ -535,7 +532,7 @@
 <node CREATED="1590420521416" ID="ID_927754015" MODIFIED="1590420538345" TEXT="In this case, non JS typed script tag"/>
 <node CREATED="1590420606495" ID="ID_1169188975" MODIFIED="1590420615063" TEXT="Most 3D engine generate GLSL shaders on fly"/>
 </node>
-<node CREATED="1590420619849" ID="ID_247869639" MODIFIED="1590420749963" TEXT="Function that">
+<node CREATED="1590420619849" ID="ID_247869639" MODIFIED="1590604502821" TEXT="Create 2 shaders and program">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -575,22 +572,8 @@
       &#160;&#160;&#160;&#160;gl.deleteShader(shader);
     </p>
     <p>
-      }
+      }<br /><br />
     </p>
-  </body>
-</html>
-</richcontent>
-<icon BUILTIN="full-5"/>
-<node CREATED="1590420625142" ID="ID_794983078" MODIFIED="1590420630508" TEXT="Create a shader"/>
-<node CREATED="1590420630890" ID="ID_1106989128" MODIFIED="1590420639839" TEXT="Upload GLSL source"/>
-<node CREATED="1590420640548" ID="ID_1914692830" MODIFIED="1590420646710" TEXT="Compile shader"/>
-</node>
-<node CREATED="1590420713275" ID="ID_224505366" MODIFIED="1590420752069" TEXT="Can now call this function to create 2 shaders">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
     <p>
       var vertexShaderSource = document.querySelector(&quot;#vertex-shader-2d&quot;).text;
     </p>
@@ -613,13 +596,13 @@
       var program = createProgram(gl, vertexShader, fragmentShader);
     </p>
   </body>
-</html>
-</richcontent>
-<icon BUILTIN="full-6"/>
-<node CREATED="1590420768930" ID="ID_844314552" MODIFIED="1590420777966" TEXT="GLSL program created"/>
-<node CREATED="1590420778441" ID="ID_370417466" MODIFIED="1590420780046" TEXT="... on GPU!"/>
+</html></richcontent>
+<icon BUILTIN="full-5"/>
+<node CREATED="1590420630890" ID="ID_1106989128" MODIFIED="1590420639839" TEXT="Upload GLSL source"/>
+<node CREATED="1590420640548" ID="ID_1914692830" MODIFIED="1590420646710" TEXT="Compile shader"/>
+<node CREATED="1590604473330" ID="ID_626067774" MODIFIED="1590604480326" TEXT="Program created on GPU!"/>
 </node>
-<node CREATED="1590420780901" ID="ID_1878158435" MODIFIED="1590420897409" TEXT="Supply data to GLSL program">
+<node CREATED="1590420780901" ID="ID_1878158435" MODIFIED="1590604521930" TEXT="Supply data to GLSL program">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -629,15 +612,14 @@
       var positionAttributeLocation = gl.getAttribLocation(program, &quot;a_position&quot;);
     </p>
   </body>
-</html>
-</richcontent>
-<icon BUILTIN="full-7"/>
+</html></richcontent>
+<icon BUILTIN="full-6"/>
 <node CREATED="1590420814931" ID="ID_1941957794" MODIFIED="1590420822985" TEXT="Look up the location of attribute"/>
 <node CREATED="1590420823646" ID="ID_1654025275" MODIFIED="1590420832722" TEXT="... for program just created"/>
 <node CREATED="1590420857415" ID="ID_1284317842" MODIFIED="1590420862898" TEXT="Should be done in initialization"/>
 <node CREATED="1590420863286" ID="ID_1019957797" MODIFIED="1590420867065" TEXT="... not during render loop"/>
 </node>
-<node CREATED="1590420872395" ID="ID_530452486" MODIFIED="1590427999824" TEXT="Create a buffer">
+<node CREATED="1590420872395" ID="ID_530452486" MODIFIED="1590604526671" TEXT="Create a buffer">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -647,12 +629,11 @@
       var positionBuffer = gl.createBuffer();
     </p>
   </body>
-</html>
-</richcontent>
-<icon BUILTIN="full-8"/>
+</html></richcontent>
+<icon BUILTIN="full-7"/>
 <node CREATED="1590420881410" ID="ID_1250444375" MODIFIED="1590420885301" TEXT="Attribute get data from buffers"/>
 </node>
-<node CREATED="1590420965663" ID="ID_465367180" MODIFIED="1590428016367" TEXT="Create global bind point">
+<node CREATED="1590420965663" ID="ID_465367180" MODIFIED="1590604530445" TEXT="Create global bind point">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -662,9 +643,8 @@
       gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
     </p>
   </body>
-</html>
-</richcontent>
-<icon BUILTIN="full-9"/>
+</html></richcontent>
+<icon BUILTIN="full-8"/>
 <node CREATED="1590420949229" ID="ID_691352619" MODIFIED="1590420952924" TEXT="Can think about it as"/>
 <node CREATED="1590420936885" ID="ID_1275523714" MODIFIED="1590420956972" TEXT="... internal global variable inside WebGl"/>
 <node CREATED="1590420989364" ID="ID_53550468" MODIFIED="1590421011259" TEXT="Bind resource to a bind point">
@@ -674,7 +654,7 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node CREATED="1590421021625" ID="ID_1166179176" MODIFIED="1590428022476" TEXT="Put data on buffer">
+<node CREATED="1590421021625" ID="ID_1166179176" MODIFIED="1590604534088" TEXT="Put data on buffer">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -702,10 +682,8 @@
       gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
     </p>
   </body>
-</html>
-</richcontent>
-<icon BUILTIN="full-1"/>
-<icon BUILTIN="full-0"/>
+</html></richcontent>
+<icon BUILTIN="full-9"/>
 <node CREATED="1590421061274" ID="ID_892095295" MODIFIED="1590421068235" TEXT="WebGL needs strongly typed data">
 <node CREATED="1590421068514" ID="ID_1959964883" MODIFIED="1590421069353" TEXT="new Float32Array(positions)">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -726,7 +704,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590421313881" ID="ID_52220724" MODIFIED="1590421319500" TEXT="Rendering">
+<node CREATED="1590421313881" FOLDED="true" ID="ID_52220724" MODIFIED="1590421319500" TEXT="Rendering">
 <icon BUILTIN="wizard"/>
 <node CREATED="1590427189243" ID="ID_488367615" MODIFIED="1590427738670" TEXT="Resize canvas to match its display size">
 <richcontent TYPE="NOTE"><html>
@@ -738,8 +716,7 @@
       webglUtils.resizeCanvasToDisplaySize(gl.canvas);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-1"/>
 <node CREATED="1590427201425" ID="ID_1099229479" MODIFIED="1590427204015" TEXT="Always using CSS">
 <node CREATED="1590427213296" ID="ID_237015385" MODIFIED="1590427216563" TEXT="Far more flexible"/>
@@ -760,8 +737,7 @@
       gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-2"/>
 <node CREATED="1590427641424" ID="ID_879066740" MODIFIED="1590427650837" TEXT="where we set gl_position"/>
 <node CREATED="1590427651485" ID="ID_1712277590" MODIFIED="1590427657257" TEXT="... back to pixel"/>
@@ -792,8 +768,7 @@
       gl.clear(gl.COLOR_BUFFER_BIT);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-3"/>
 </node>
 <node CREATED="1590427877021" ID="ID_535241535" MODIFIED="1590429014437" TEXT="Tell WebGL shader program to execute">
@@ -806,8 +781,7 @@
       gl.useProgram(program);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-4"/>
 </node>
 <node CREATED="1590427911389" ID="ID_1538315484" MODIFIED="1590429016359" TEXT="Turn attribute on">
@@ -820,8 +794,7 @@
       gl.enableVertexAttribArray(positionAttributeLocation);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-5"/>
 </node>
 <node CREATED="1590427933117" ID="ID_498021304" MODIFIED="1590429018728" TEXT="Suplly buffer data to attribute">
@@ -864,8 +837,7 @@
       &#160;&#160;&#160;&#160;positionAttributeLocation, size, type, normalize, stride, offset)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-6"/>
 <node CREATED="1590428207748" ID="ID_425773421" MODIFIED="1590428209622" TEXT="gl.vertexAttribPointer">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -886,8 +858,7 @@
       attribute vec4 a_position;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590428331507" ID="ID_1883344694" MODIFIED="1590428335143" TEXT="in JS, something like">
 <node CREATED="1590428339095" ID="ID_72895431" MODIFIED="1590428340547" TEXT="a_position = {x: 0, y: 0, z: 0, w: 0}">
@@ -925,8 +896,7 @@
       gl.drawArrays(primitiveType, offset, count);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-7"/>
 <node CREATED="1590428477495" ID="ID_1466304766" MODIFIED="1590428481246" TEXT="count = 3">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -984,8 +954,7 @@
       0.7, 0,
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590429203087" ID="ID_1928743337" MODIFIED="1590429283791" TEXT="Convert clip space -&gt; screen space">
 <richcontent TYPE="NOTE"><html>
@@ -1006,8 +975,7 @@
       0.7, 0&#160;&#160;&#160;&#160;&#160;&#160;&#160;-&gt;&#160;&#160;&#160;340, 150
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590429291601" ID="ID_925863308" MODIFIED="1590429297175" TEXT="for canvas 400x300"/>
 </node>
 </node>
@@ -1024,8 +992,7 @@
   <body>
     <img src="webgl_hello_world_triangle.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590429851119" ID="ID_1471188957" MODIFIED="1590429858140" TEXT="First point in middle of canvas">
@@ -1107,8 +1074,7 @@
       var&#160;resolutionUniformLocation =&#160;gl.getUniformLocation(program,&#160;&quot;u_resolution&quot;);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590430297113" ID="ID_1598449984" MODIFIED="1590430315493" TEXT="Change our position values to pixels">
@@ -1145,8 +1111,7 @@
       gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590430407830" ID="ID_1378904055" MODIFIED="1590430415994" TEXT="After g.useProgram">
 <node CREATED="1590430416216" ID="ID_1711463519" MODIFIED="1590430445615" TEXT="... set uniforms on current program">
@@ -1174,8 +1139,7 @@
       gl.uniform2f(resolutionUniformLocation, gl.canvas.width, gl.canvas.height);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590430484314" ID="ID_1592908629" MODIFIED="1590430496163" TEXT="Create two trianges">
@@ -1200,14 +1164,14 @@
       gl.drawArrays(primitiveType, offset, count);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590430503371" ID="ID_31519584" MODIFIED="1590430511086" TEXT="Execute shader 6 times"/>
 </node>
 <node CREATED="1590430526656" ID="ID_999761023" LINK="https://codepen.io/pen/?&amp;editable=true&amp;editors=101&amp;prefill_data_id=93d28950-80e1-0138-d360-02420aff001a&amp;referer=https%3A%2F%2Fwebglfundamentals.org%2Fwebgl%2Flessons%2Fwebgl-fundamentals.html" MODIFIED="1590430539263" TEXT="We have a rectangle"/>
 </node>
 </node>
-<node CREATED="1590429821958" ID="ID_1675244521" MODIFIED="1590429838401" TEXT="Entire program">
+<node CREATED="1590429821958" ID="ID_1675244521" LINK="https://codepen.io/pen/?editors=0010" MODIFIED="1590604915586" TEXT="Entire program">
+<node CREATED="1590604771265" ID="ID_1321481402" MODIFIED="1590604776500" TEXT="Initialization">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1405,6 +1369,15 @@
     <p>
       &#160;&#160;gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
     </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1590604738314" ID="ID_1866693140" MODIFIED="1590604742766" TEXT="Rendering">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
     <p>
       
     </p>
@@ -1525,12 +1498,272 @@
   </body>
 </html></richcontent>
 </node>
+</node>
 <node CREATED="1590430640657" ID="ID_1500683895" MODIFIED="1590430643258" TEXT="Common to have">
 <node CREATED="1590430643461" ID="ID_1520847083" MODIFIED="1590430646441" TEXT="Multiple attributes"/>
 <node CREATED="1590430646821" ID="ID_1268506646" MODIFIED="1590430650802" TEXT="Multiple uniforms"/>
 </node>
 <node CREATED="1590430688100" ID="ID_1291793280" MODIFIED="1590430695427" TEXT="Way to position is not very common">
 <node CREATED="1590430695640" ID="ID_1911649389" MODIFIED="1590430698827" TEXT="but simple for first time"/>
+</node>
+</node>
+</node>
+<node CREATED="1590605112739" ID="ID_1377676251" LINK="https://webglfundamentals.org/webgl/lessons/webgl-how-it-works.html" MODIFIED="1590605125604" POSITION="right" TEXT="How it Works">
+<icon BUILTIN="full-2"/>
+<node CREATED="1590605141796" ID="ID_807865558" MODIFIED="1590605206760" TEXT="Introduction">
+<icon BUILTIN="full-1"/>
+<node CREATED="1590605164175" ID="ID_1489873813" MODIFIED="1590605169613" TEXT="Two part of GPU processing">
+<node CREATED="1590605170338" ID="ID_92165408" MODIFIED="1590605201435" TEXT="Processes vertices">
+<icon BUILTIN="full-1"/>
+<node CREATED="1590605174525" ID="ID_427081246" MODIFIED="1590605180743" TEXT="streams of data"/>
+<node CREATED="1590605184072" ID="ID_45801943" MODIFIED="1590605188396" TEXT="... into clip space vertices"/>
+</node>
+<node CREATED="1590605192012" ID="ID_1668854221" MODIFIED="1590605203503" TEXT="Draw pixels">
+<icon BUILTIN="full-2"/>
+<node CREATED="1590605195525" ID="ID_1382484168" MODIFIED="1590605200279" TEXT="Bases on vertices processed"/>
+</node>
+</node>
+<node CREATED="1590605214314" ID="ID_557006719" MODIFIED="1590605246132" TEXT="When calling that">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var primitiveType = gl.TRIANGLES;
+    </p>
+    <p>
+      var offset = 0;
+    </p>
+    <p>
+      var count = 9;
+    </p>
+    <p>
+      gl.drawArrays(primitiveType, offset, count);
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590605334696" ID="ID_462667330" MODIFIED="1590605352695" TEXT="Animation">
+<icon BUILTIN="licq"/>
+<node CREATED="1590605327645" ID="ID_1050371925" MODIFIED="1590605330272">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="vertex_shader_anim.gif" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1590605432115" ID="ID_1644483178" MODIFIED="1590605436121" TEXT="Original vertices">
+<node CREATED="1590605436313" ID="ID_30554539" MODIFIED="1590605439962" TEXT="Data you provide"/>
+</node>
+<node CREATED="1590605457171" ID="ID_757353315" MODIFIED="1590605460842" TEXT="Vertex shaders">
+<node CREATED="1590605467785" ID="ID_217102000" MODIFIED="1590605475963" TEXT="Function you write in GLSL"/>
+<node CREATED="1590605478265" ID="ID_1085342132" MODIFIED="1590605486041" TEXT="Get called once for each vertex"/>
+<node CREATED="1590605493939" ID="ID_1464798500" MODIFIED="1590605496173" TEXT="Do some math"/>
+<node CREATED="1590605497171" ID="ID_1482805231" MODIFIED="1590605501908" TEXT="... to set special variable">
+<node CREATED="1590605502082" ID="ID_1608252426" MODIFIED="1590605504895" TEXT="gl_Position">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1590605508201" ID="ID_225030214" MODIFIED="1590605514091" TEXT="... with clip space value for current vertex"/>
+<node CREATED="1590605516058" ID="ID_247442445" MODIFIED="1590605527149" TEXT="... GPU takes value and store internally"/>
+</node>
+<node CREATED="1590605544775" ID="ID_1548875159" MODIFIED="1590605549645" TEXT="PrimitiveType">
+<node CREATED="1590605549889" ID="ID_838241069" MODIFIED="1590605554524" TEXT="TRIANGLE"/>
+<node CREATED="1590605563921" ID="ID_1668808474" MODIFIED="1590605573037" TEXT="GPU use vertices to generate triangles"/>
+<node CREATED="1590605589379" ID="ID_1624276748" MODIFIED="1590605594030" TEXT="... and rasterize it">
+<node CREATED="1590605594244" ID="ID_923200567" MODIFIED="1590605601006" TEXT="&quot;draw it with pixels&quot;"/>
+</node>
+<node CREATED="1590605604928" ID="ID_454457850" MODIFIED="1590605608238" TEXT="For each pixel">
+<node CREATED="1590605608388" ID="ID_1720936359" MODIFIED="1590605614801" TEXT="Ask fragment shader for color"/>
+<node CREATED="1590605617848" ID="ID_69879301" MODIFIED="1590605625486" TEXT="Fragment shader needs to set">
+<node CREATED="1590605625668" ID="ID_1990334404" MODIFIED="1590605629348" TEXT="gl_FragColor">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590605632425" ID="ID_855793023" MODIFIED="1590605636310" TEXT="... with color of pixel"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1590605657670" ID="ID_1583215173" MODIFIED="1590605659669" TEXT="More pixels!">
+<node CREATED="1590605663572" ID="ID_1903747220" MODIFIED="1590605668081" TEXT="Define &quot;varyings&quot;"/>
+<node CREATED="1590605668604" ID="ID_1188741157" MODIFIED="1590605675978" TEXT="... for each value from Vertex shader"/>
+<node CREATED="1590605676470" ID="ID_115008045" MODIFIED="1590605681121" TEXT="... to fragment shader"/>
+<node CREATED="1590606047595" ID="ID_545666593" LINK="https://codepen.io/pen/?&amp;editable=true&amp;editors=101&amp;prefill_data_id=c49e2430-827a-0138-12f2-0242ac120003&amp;referer=https%3A%2F%2Fwebglfundamentals.org%2Fwebgl%2Flessons%2Fwebgl-how-it-works.html" MODIFIED="1590606275138" TEXT="Example">
+<node CREATED="1590606051156" ID="ID_1420130074" LINK="#ID_1166179176" MODIFIED="1590606181806" TEXT="Fill buffer with triangle values">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // Fill the buffer with the values that define a triangle.
+    </p>
+    <p>
+      function setGeometry(gl) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.bufferData(
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gl.ARRAY_BUFFER,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;new Float32Array([
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0, -100,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;150,&#160;&#160;125,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-175,&#160;&#160;100]),
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gl.STATIC_DRAW);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1590606134022" ID="ID_484045293" MODIFIED="1590606183252" TEXT="Draw only 3 vertices">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // Draw the scene.
+    </p>
+    <p>
+      function drawScene() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;...
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Draw the geometry.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var primitiveType = gl.TRIANGLES;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var offset = 0;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var count = 3;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.drawArrays(primitiveType, offset, count);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1590606159930" ID="ID_1440875639" MODIFIED="1590606185139" TEXT="declare varying in vertex shader">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      varying vec4 v_color;
+    </p>
+    <p>
+      ...
+    </p>
+    <p>
+      void main() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Multiply the position by the matrix.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl_Position = vec4((u_matrix * vec3(a_position, 1)).xy, 0, 1);
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Convert from clip space to color space.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Clip space goes -1.0 to +1.0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Color space goes from 0.0 to 1.0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;v_color = gl_Position * 0.5 + 0.5;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1590606190434" ID="ID_216240575" MODIFIED="1590606636521" TEXT="Declare same varying in fragment shader">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      precision mediump float;
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      varying vec4 v_color;
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      void main() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl_FragColor = v_color;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-4"/>
+<node CREATED="1590606245099" ID="ID_1554252716" MODIFIED="1590606253584" TEXT="Varying connect between">
+<node CREATED="1590606254310" ID="ID_184658433" MODIFIED="1590606257086" TEXT="Vertex shader"/>
+<node CREATED="1590606257483" ID="ID_1929972966" MODIFIED="1590606260229" TEXT="Fragment shader"/>
+</node>
+</node>
+</node>
+<node CREATED="1590606828654" ID="ID_966196860" MODIFIED="1590606838499" TEXT="Vertex only computed 3 times">
+<node CREATED="1590606838712" ID="ID_362329961" MODIFIED="1590606847789" TEXT="Yet triangle has many colors!"/>
+<node CREATED="1590606962508" ID="ID_1349381902" MODIFIED="1590606968206" TEXT="Why it&apos;s called varying">
+<node CREATED="1590606968379" ID="ID_479227553" MODIFIED="1590606974190" TEXT="Interpolated for each pixel"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
