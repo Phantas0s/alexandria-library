@@ -1,9 +1,61 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1589291675288" ID="ID_1522010724" MODIFIED="1589292032711" TEXT="Go Scheduler">
-<node CREATED="1589291980782" ID="ID_832523280" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html" MODIFIED="1589373444464" POSITION="right" TEXT="OS Scheduler">
+<node CREATED="1589291675288" ID="ID_1522010724" MODIFIED="1590654714421" TEXT="Go Scheduler">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4"><u>OS Scheduler</u> </font></b>
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        How can you define a program?
+      </li>
+      <li>
+        How can you define a thread?
+      </li>
+      <li>
+        What means concurrency? Parallelism?
+      </li>
+      <li>
+        How does a Thread keep track of what to execute?
+      </li>
+      <li>
+        What are the three different states of a Thread? What is imposing these states?
+      </li>
+      <li>
+        What kind of work a Thread can do? What's the difference between them?
+      </li>
+      <li>
+        What is context switch?
+      </li>
+      <li>
+        What is a preemptive scheduler?
+      </li>
+      <li>
+        What is the state you want to avoid for threads?
+      </li>
+      <li>
+        What balance do you need to find for efficiency?
+      </li>
+      <li>
+        What could be a solution to find this balance?
+      </li>
+      <li>
+        Find two causes related to the balance discussed earlier for latency.
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589291980782" FOLDED="true" ID="ID_832523280" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html" MODIFIED="1589373444464" POSITION="right" TEXT="OS Scheduler">
 <icon BUILTIN="full-1"/>
-<node CREATED="1589291991623" FOLDED="true" ID="ID_833789849" MODIFIED="1589292196946" TEXT="Introduction">
+<node CREATED="1589291991623" ID="ID_833789849" MODIFIED="1589292196946" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1589291995139" ID="ID_1213024889" MODIFIED="1589292014617" TEXT="Scheduler allows multithreaded Go programs">
 <node CREATED="1589292017797" ID="ID_587795151" MODIFIED="1589292020837" TEXT="efficient"/>
@@ -13,9 +65,6 @@
 <node CREATED="1589292081096" ID="ID_834088347" MODIFIED="1589292083371" TEXT="Go scheduler"/>
 <node CREATED="1589292083736" ID="ID_1672711331" MODIFIED="1589292090527" TEXT="OS scheduler"/>
 </node>
-<node CREATED="1589292101525" ID="ID_1152136024" MODIFIED="1589292116209" TEXT="For this to matter, code"/>
-<node CREATED="1589292116692" ID="ID_26348180" MODIFIED="1589292130660" TEXT="... needs to be mechanically sympathetic"/>
-<node CREATED="1589292136410" ID="ID_1926415538" MODIFIED="1589292144417" TEXT="... with how schedulers work"/>
 <node CREATED="1589292172741" ID="ID_836613965" MODIFIED="1589292182628" TEXT="Critical part of foundational knowledge">
 <node CREATED="1589292182866" ID="ID_181966732" MODIFIED="1589292185166" TEXT="Mechanics"/>
 <node CREATED="1589292185514" ID="ID_1327274957" MODIFIED="1589292188067" TEXT="Semantics"/>
@@ -59,8 +108,7 @@
 <node CREATED="1589292426916" ID="ID_1615433240" MODIFIED="1589292430494" TEXT="... on different cores"/>
 </node>
 </node>
-<node CREATED="1589292448182" ID="ID_175244372" MODIFIED="1589292455986" TEXT="Maintain their own state"/>
-<node CREATED="1589292456543" ID="ID_1177411507" MODIFIED="1589292867923" TEXT="... for execution">
+<node CREATED="1589292448182" ID="ID_175244372" MODIFIED="1590653701008" TEXT="Maintain their own state for execution">
 <node CREATED="1589292464160" ID="ID_1394587209" MODIFIED="1589292465021" TEXT="safe"/>
 <node CREATED="1589292465410" ID="ID_1738916800" MODIFIED="1589292466533" TEXT="local"/>
 <node CREATED="1589292466993" ID="ID_1438108937" MODIFIED="1589292470226" TEXT="independent"/>
@@ -79,10 +127,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1589292661946" FOLDED="true" ID="ID_1467650007" MODIFIED="1589296725211" TEXT="Executing instructions">
+<node CREATED="1589292661946" ID="ID_1467650007" MODIFIED="1589296725211" TEXT="Executing instructions">
 <icon BUILTIN="full-2"/>
-<node CREATED="1589292676633" ID="ID_1102431406" LINK="https://en.wikipedia.org/wiki/Program_counter" MODIFIED="1589292699793" TEXT="Program counted (PC)">
+<node CREATED="1589292676633" ID="ID_1102431406" LINK="https://en.wikipedia.org/wiki/Program_counter" MODIFIED="1590653731844" TEXT="Program counter (PC)">
 <node CREATED="1589292684292" ID="ID_707617983" MODIFIED="1589292693083" TEXT="Called as well Instruction Pointer (IP)"/>
+</node>
 <node CREATED="1589292705672" ID="ID_326716484" MODIFIED="1589292723822" TEXT="Allows Thread to keep track of next instruction to execute"/>
 <node CREATED="1589292733562" ID="ID_74968861" MODIFIED="1589292737919" TEXT="In most processor">
 <node CREATED="1589292738355" ID="ID_257011987" MODIFIED="1589292743333" TEXT="... point to the next instruction"/>
@@ -183,8 +232,7 @@ func example(slice []string, str string, i int) {
 </node>
 </node>
 </node>
-</node>
-<node CREATED="1589293522468" ID="ID_1659681586" MODIFIED="1589296726638" TEXT="Thread States">
+<node CREATED="1589293522468" FOLDED="true" ID="ID_1659681586" MODIFIED="1589296726638" TEXT="Thread States">
 <icon BUILTIN="full-3"/>
 <node CREATED="1589293538140" ID="ID_991104069" MODIFIED="1589293545861" TEXT="Dictates role scheduler takes with Thread"/>
 <node CREATED="1589293556614" ID="ID_1543793818" MODIFIED="1589293564465" TEXT="Thread can be in 1 of 3 states">
@@ -192,7 +240,8 @@ func example(slice []string, str string, i int) {
 <icon BUILTIN="full-1"/>
 <node CREATED="1589293582157" ID="ID_465704740" MODIFIED="1589293585379" TEXT="Thread stopped"/>
 <node CREATED="1589293585728" ID="ID_822793605" MODIFIED="1589293591486" TEXT="Waiting for something to continue"/>
-<node CREATED="1589293593000" ID="ID_61217596" MODIFIED="1589293594398" TEXT="Example">
+<node CREATED="1589293593000" ID="ID_61217596" MODIFIED="1590653910286" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1589293595107" ID="ID_972773246" MODIFIED="1589293600011" TEXT="Waiting for hardware">
 <node CREATED="1589293600163" ID="ID_116064331" MODIFIED="1589293601253" TEXT="Disk"/>
 <node CREATED="1589293601564" ID="ID_1174670321" MODIFIED="1589293602694" TEXT="Network"/>
@@ -228,7 +277,7 @@ func example(slice []string, str string, i int) {
 </node>
 </node>
 </node>
-<node CREATED="1589293797407" ID="ID_1424689980" MODIFIED="1589296727479" TEXT="Types of Work">
+<node CREATED="1589293797407" FOLDED="true" ID="ID_1424689980" MODIFIED="1589296727479" TEXT="Types of Work">
 <icon BUILTIN="full-4"/>
 <node CREATED="1589293802858" ID="ID_415019320" MODIFIED="1589293809628" TEXT="Two types of work a Thread can do">
 <node CREATED="1589293809794" ID="ID_406491504" MODIFIED="1589550749576" TEXT="CPU-Bound">
@@ -255,7 +304,7 @@ func example(slice []string, str string, i int) {
 </node>
 </node>
 </node>
-<node CREATED="1589293928964" ID="ID_158389861" MODIFIED="1589296728464" TEXT="Context Switching">
+<node CREATED="1589293928964" FOLDED="true" ID="ID_158389861" MODIFIED="1589296728464" TEXT="Context Switching">
 <icon BUILTIN="full-5"/>
 <node CREATED="1589293938287" ID="ID_1405253729" MODIFIED="1589293946913" TEXT="If running either on">
 <node CREATED="1589293940589" ID="ID_1564620575" MODIFIED="1589293941631" TEXT="Linux"/>
@@ -319,11 +368,11 @@ func example(slice []string, str string, i int) {
 <node CREATED="1589294494639" ID="ID_91555910" MODIFIED="1589294501729" TEXT="Only one Thread executing at any time"/>
 <node CREATED="1589294505320" ID="ID_1071147259" LINK="https://lwn.net/Articles/404993/" MODIFIED="1589294589871" TEXT="Define scheduler period">
 <node CREATED="1589294509993" ID="ID_746261661" MODIFIED="1589294523661" TEXT="Attempt to execute all runnable Threads"/>
-<node CREATED="1589294549827" ID="ID_843371428" MODIFIED="1589294557070" TEXT="... within period of time">
+<node CREATED="1589294549827" ID="ID_843371428" MODIFIED="1589294557070" TEXT="... within period of time"/>
 <node CREATED="1589294559200" ID="ID_362407558" MODIFIED="1589294573264" TEXT="... scheduling period / number of Thread to run"/>
 </node>
-</node>
-<node CREATED="1589294619465" ID="ID_956786514" MODIFIED="1589294621118" TEXT="Example">
+<node CREATED="1589294619465" ID="ID_956786514" MODIFIED="1590654442152" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1589294622131" ID="ID_1445947421" MODIFIED="1589294633879" TEXT="Scheduler period = 1000ms (1s)"/>
 <node CREATED="1589294628350" ID="ID_402682466" MODIFIED="1589294662252" TEXT="10 Threads to run">
 <node CREATED="1589294650757" ID="ID_334786313" MODIFIED="1589294655158" TEXT="Each thread 100ms each"/>
@@ -358,7 +407,7 @@ func example(slice []string, str string, i int) {
 <node CREATED="1589294994791" ID="ID_1114566965" MODIFIED="1589294997960" TEXT="More work done!"/>
 </node>
 </node>
-<node CREATED="1589294999410" FOLDED="true" ID="ID_1774934479" MODIFIED="1589296731246" TEXT="Find the Balance">
+<node CREATED="1589294999410" ID="ID_1774934479" MODIFIED="1589296731246" TEXT="Find the Balance">
 <icon BUILTIN="full-7"/>
 <node CREATED="1589295022781" ID="ID_834634865" MODIFIED="1589295027414" TEXT="Balance to find between">
 <node CREATED="1589295027644" ID="ID_1206070250" MODIFIED="1589295033452" TEXT="Number of cores you have"/>
@@ -371,7 +420,8 @@ func example(slice []string, str string, i int) {
 <node CREATED="1589295253561" ID="ID_1819811312" MODIFIED="1589295256527" TEXT="How many pools you need"/>
 <node CREATED="1589295256868" ID="ID_1762440707" MODIFIED="1589295274663" TEXT="Max Threads per pool"/>
 </node>
-<node CREATED="1589295304533" ID="ID_1790879000" MODIFIED="1589295305899" TEXT="Example">
+<node CREATED="1589295304533" ID="ID_1790879000" MODIFIED="1590654541944" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1589295313116" ID="ID_1405915720" MODIFIED="1589295319804" TEXT="Windows NT with c++"/>
 <node CREATED="1589295320537" ID="ID_217336719" MODIFIED="1589295332333" TEXT="3 Threads per core was magical">
 <node CREATED="1589295336368" ID="ID_1019231907" MODIFIED="1589295343547" TEXT="Minimized latency cost"/>
@@ -400,13 +450,13 @@ func example(slice []string, str string, i int) {
 </node>
 </node>
 </node>
-<node CREATED="1589295599228" FOLDED="true" ID="ID_1845107675" MODIFIED="1589296733020" TEXT="Cache Lines">
+<node CREATED="1589295599228" ID="ID_1845107675" MODIFIED="1589296733020" TEXT="Cache Lines">
 <icon BUILTIN="full-8"/>
 <node CREATED="1589295613313" ID="ID_1325313909" MODIFIED="1589295621613" TEXT="Accessing data from main memory">
 <node CREATED="1589295621826" ID="ID_1529238744" MODIFIED="1589295626148" TEXT="High latency costs!">
 <node CREATED="1589295626473" ID="ID_1553086481" MODIFIED="1589295626993" TEXT="~100 to ~300 clock cycles"/>
 </node>
-<node CREATED="1589295637485" ID="ID_523299185" MODIFIED="1589295645516" TEXT="... so processors hav elocal caches"/>
+<node CREATED="1589295637485" ID="ID_523299185" MODIFIED="1590654629152" TEXT="... so processors have local caches"/>
 <node CREATED="1589295645912" ID="ID_1126145110" MODIFIED="1589295652411" TEXT="... to keep data close to the hardware">
 <node CREATED="1589295662831" ID="ID_59650628" MODIFIED="1589295678042" TEXT="only ~3 to ~40 clock cycles"/>
 <node CREATED="1589295679627" ID="ID_1147346242" MODIFIED="1589295681881" TEXT="... depending on cache"/>
@@ -968,7 +1018,7 @@ func example(slice []string, str string, i int) {
 <node CREATED="1589373392755" ID="ID_1443002097" MODIFIED="1589373395953" TEXT="... and not Go scheduler"/>
 </node>
 </node>
-<node CREATED="1589373418675" ID="ID_959374447" LINK="v" MODIFIED="1589373429440" POSITION="right" TEXT="Concurrency">
+<node CREATED="1589373418675" FOLDED="true" ID="ID_959374447" LINK="v" MODIFIED="1589373429440" POSITION="right" TEXT="Concurrency">
 <icon BUILTIN="full-3"/>
 <node CREATED="1589549410817" ID="ID_1081882050" MODIFIED="1589549642122" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1027,8 +1077,7 @@ func example(slice []string, str string, i int) {
   <body>
     <img src="concurrency_vs_parallelism.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589550161230" ID="ID_1506183243" MODIFIED="1589550211227" TEXT="G1 and G2 run in parallel"/>
 <node CREATED="1589550211822" ID="ID_1113136678" MODIFIED="1589550222787" TEXT="G2, G3 and G5 run concurrently"/>
@@ -1103,8 +1152,7 @@ func example(slice []string, str string, i int) {
 41     return v
 42 }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589551789075" ID="ID_807189891" MODIFIED="1589551800267" TEXT="Is it suitable for out of order execution?">
 <node CREATED="1589551800441" ID="ID_939430517" MODIFIED="1589551801328" TEXT="Yep"/>
@@ -1158,8 +1206,7 @@ func example(slice []string, str string, i int) {
 73     return int(v)
 74 }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589552120505" ID="ID_1429833509" MODIFIED="1589552125321" TEXT="Is concurrent version worth it?">
 <node CREATED="1589552125495" ID="ID_803499381" MODIFIED="1589552134672" TEXT="Need to create a benchmark">
@@ -1186,8 +1233,7 @@ func BenchmarkConcurrent(b *testing.B) {
     }
 }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589552230523" ID="ID_877134606" MODIFIED="1589552283775" TEXT="Result for 1 OS thread">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1207,8 +1253,7 @@ BenchmarkConcurrent      &#x9;    1000&#x9;   6387344 ns/op
 BenchmarkSequentialAgain &#x9;    1000&#x9;   5614666 ns/op : ~13% Faster
 BenchmarkConcurrentAgain &#x9;    1000&#x9;   6482612 ns/op</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589552283956" ID="ID_278774936" MODIFIED="1589552287553" TEXT="Concurrency version slower"/>
 <node CREATED="1589552287932" ID="ID_821853945" MODIFIED="1589552292369" TEXT="Context switching price"/>
 </node>
@@ -1231,8 +1276,7 @@ BenchmarkConcurrent-8        &#x9;    2000&#x9;   3362643 ns/op : ~43% Faster
 BenchmarkSequentialAgain-8   &#x9;    1000&#x9;   5933444 ns/op
 BenchmarkConcurrentAgain-8   &#x9;    2000&#x9;   3477253 ns/op : ~41% Faster</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589552305907" ID="ID_791060464" MODIFIED="1589552309833" TEXT="Concurrency version faster"/>
 <node CREATED="1589552332185" ID="ID_1949200174" MODIFIED="1589552334820" TEXT="Parallelism"/>
 </node>
@@ -1297,8 +1341,7 @@ BenchmarkConcurrentAgain-8   &#x9;    2000&#x9;   3477253 ns/op : ~41% Faster</c
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589552659992" ID="ID_1729992325" MODIFIED="1589552666814" TEXT="Suitable for concurrency?">
 <node CREATED="1589552666973" ID="ID_1274040053" MODIFIED="1589552667940" TEXT="No"/>
@@ -1338,8 +1381,7 @@ BenchmarkConcurrentAgain-8   &#x9;    2000&#x9;   3477253 ns/op : ~41% Faster</c
 25     bubbleSort(numbers)
 26 }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589552750708" ID="ID_977039878" MODIFIED="1589552754590" TEXT="Result">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1356,8 +1398,7 @@ After:
    2 26 37 67 71 79 81 82 84 91 94 97
   10 19 49 52 66 70 75 81 85 86 87 93</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1387,8 +1428,7 @@ After:
 55     return found
 56 }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589552869077" ID="ID_1980290835" MODIFIED="1589552875260" TEXT="Read implementation">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1404,8 +1444,7 @@ After:
 39     return d.Channel.Items, nil
 40 }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589552956423" ID="ID_1702765931" LINK="https://play.golang.org/p/8gFe5F8zweN" MODIFIED="1589552966614" TEXT="Concurrent find">
@@ -1450,8 +1489,7 @@ After:
 91     return int(found)
 92 }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589553105302" ID="ID_958404511" MODIFIED="1589553108222" TEXT="Is it worth it?">
 <node CREATED="1589553112848" ID="ID_875898157" MODIFIED="1589553151305" TEXT="Benchmark single OS thread">
@@ -1472,8 +1510,7 @@ func BenchmarkConcurrent(b *testing.B) {
     }
 }</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589553125753" ID="ID_1977057715" MODIFIED="1589553129103" TEXT="Result">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1493,8 +1530,7 @@ BenchmarkConcurrent      &#x9;      20&#x9; 188941855 ns/op : ~87% Faster
 BenchmarkSequentialAgain &#x9;       2&#x9;1502682536 ns/op
 BenchmarkConcurrentAgain &#x9;      20&#x9; 184037843 ns/op : ~88% Faster</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589553130161" ID="ID_741337085" MODIFIED="1589553134949" TEXT="Concurrent versions faster"/>
 </node>
@@ -1518,8 +1554,7 @@ BenchmarkConcurrent-8        &#x9;      20&#x9; 187382200 ns/op : ~88% Faster
 BenchmarkSequentialAgain-8   &#x9;       3&#x9;1416126029 ns/op
 BenchmarkConcurrentAgain-8   &#x9;      20&#x9; 185965460 ns/op : ~87% Faster</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589553180702" ID="ID_323796000" MODIFIED="1589553183530" TEXT="No more performance"/>
 <node CREATED="1589553191644" ID="ID_511164358" MODIFIED="1589553196302" TEXT="... compared with one OS Thread"/>
