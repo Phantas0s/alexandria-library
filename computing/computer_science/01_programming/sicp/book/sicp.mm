@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1590655432024" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1590760980898" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -84,7 +84,7 @@
 </html>
 </richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1587143678085" POSITION="right" TEXT="Building abstractions with procedures">
+<node CREATED="1528634320405" FOLDED="true" ID="ID_1250742120" MODIFIED="1587143678085" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
 <node CREATED="1528634606285" FOLDED="true" ID="ID_1929326975" MODIFIED="1587143670696" TEXT="Introduction">
 <node CREATED="1528633486362" ID="ID_1751522928" MODIFIED="1549911501085" TEXT="Act of the mind (Locke)">
@@ -684,7 +684,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528913874738" FOLDED="true" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
+<node CREATED="1528913874738" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
 <node CREATED="1589458544735" FOLDED="true" ID="ID_653912668" MODIFIED="1589458547948" TEXT="Introduction">
 <node CREATED="1589458548819" ID="ID_86441762" MODIFIED="1589458650910" TEXT="Visualise consequences of actions"/>
 <node CREATED="1589458555794" ID="ID_910828291" MODIFIED="1589458641944" TEXT="... crucial for an expert programmer"/>
@@ -718,7 +718,7 @@
 <node CREATED="1589459086672" ID="ID_1318417739" MODIFIED="1590655506445" TEXT="Very difficult task!"/>
 </node>
 </node>
-<node CREATED="1528913920315" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
+<node CREATED="1528913920315" FOLDED="true" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
 <node CREATED="1528913960322" ID="ID_230822821" MODIFIED="1532274721630" TEXT="Recursive process">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -773,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1590655432044" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1590760980957" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -875,7 +875,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1529142812610" ID="ID_767812051" MODIFIED="1529143780691" TEXT="1.2.2 Tree recursion">
+<node CREATED="1529142812610" FOLDED="true" ID="ID_767812051" MODIFIED="1529143780691" TEXT="1.2.2 Tree recursion">
 <node CREATED="1529143931599" ID="ID_1076705389" MODIFIED="1589461107823" TEXT="Fibonacci computation">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -939,7 +939,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1529170190102" ID="ID_1114122839" MODIFIED="1587143605047" TEXT="1.2.3 Order of growth">
+<node CREATED="1529170190102" FOLDED="true" ID="ID_1114122839" MODIFIED="1587143605047" TEXT="1.2.3 Order of growth">
 <node CREATED="1529170921415" ID="ID_761958546" MODIFIED="1590655790966" TEXT="Only crude description of process behavior">
 <node CREATED="1529170988190" ID="ID_435797624" MODIFIED="1589462233022" TEXT="Examples">
 <icon BUILTIN="wizard"/>
@@ -995,8 +995,7 @@
       &quot;f(x) is &quot;equal&quot; to big Theta of function g(x) iff it exists variable k and N such as for all x &gt; N, f(x) is lesser than k by g(x)&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1529610592395" ID="ID_1177336746" MODIFIED="1529610609758" TEXT="We don&apos;t care about small value of x">
 <node CREATED="1529610609760" ID="ID_1067597175" MODIFIED="1529610611638" TEXT="N"/>
 </node>
@@ -1016,7 +1015,7 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1589462342675" ID="ID_1685438007" MODIFIED="1589462347284" TEXT="1.2.4 Exponentiation">
+<node CREATED="1589462342675" FOLDED="true" ID="ID_1685438007" MODIFIED="1589462347284" TEXT="1.2.4 Exponentiation">
 <node CREATED="1589462422589" ID="ID_1254940670" MODIFIED="1589462426236" TEXT="Compute exponent">
 <node CREATED="1589462450505" ID="ID_1313624759" MODIFIED="1589462455727" TEXT="b^0 = 1"/>
 <node CREATED="1589462426516" ID="ID_1322624130" MODIFIED="1589462446199" TEXT="b^n = b * b^(n&#x2212;1)"/>
@@ -1051,7 +1050,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1530041695088" ID="ID_1869493346" MODIFIED="1530041698411" TEXT="1.2.5 Greatest Common Divisors">
+<node CREATED="1530041695088" FOLDED="true" ID="ID_1869493346" MODIFIED="1530041698411" TEXT="1.2.5 Greatest Common Divisors">
 <node CREATED="1530041700229" ID="ID_838198488" MODIFIED="1530041703536" TEXT="GCD">
 <node CREATED="1530041710984" ID="ID_1082728174" MODIFIED="1530041769660" TEXT="the largest integer that divides both a and b with no remainder"/>
 <node CREATED="1530041765292" ID="ID_917493841" MODIFIED="1530041772016" TEXT="Euclid&#x2019;s Algorithm ">
@@ -1082,7 +1081,7 @@
 </node>
 </node>
 <node CREATED="1532265495363" ID="ID_1760732982" MODIFIED="1587143670706" TEXT="1.3. Formulating Abstractions with Higher Order Procedures">
-<node CREATED="1589104540547" ID="ID_1990052074" MODIFIED="1589106602384" TEXT="1.3.1 Procedures as Arguments">
+<node CREATED="1589104540547" FOLDED="true" ID="ID_1990052074" MODIFIED="1589106602384" TEXT="1.3.1 Procedures as Arguments">
 <node CREATED="1532265565252" ID="ID_1352441582" MODIFIED="1589104385499" TEXT="Procedure as abstraction">
 <node CREATED="1589103996886" ID="ID_87075520" MODIFIED="1589104011726" TEXT="Compound operations on number"/>
 <node CREATED="1589104014016" ID="ID_1443935880" MODIFIED="1589104019011" TEXT="... independent of particular number"/>
@@ -1125,7 +1124,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589104557246" ID="ID_1526494285" MODIFIED="1589104560744" TEXT="1.3.2 Constructing Procedures Using Lambda">
+<node CREATED="1589104557246" FOLDED="true" ID="ID_1526494285" MODIFIED="1589104560744" TEXT="1.3.2 Constructing Procedures Using Lambda">
 <node CREATED="1589104604671" ID="ID_427144857" MODIFIED="1589104607379" TEXT="lambda">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1589104585515" ID="ID_1003401307" MODIFIED="1589104614758" TEXT="Special form"/>
@@ -1277,7 +1276,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589106463927" ID="ID_1957123757" MODIFIED="1589106468168" TEXT="1.3.3 Procedures as General Methods">
+<node CREATED="1589106463927" FOLDED="true" ID="ID_1957123757" MODIFIED="1589106468168" TEXT="1.3.3 Procedures as General Methods">
 <node CREATED="1589106604290" ID="ID_659563054" MODIFIED="1589106608121" TEXT="More powerful abstraction">
 <node CREATED="1589106608303" ID="ID_1078355452" MODIFIED="1589106622979" TEXT="Procedures express general method of computation"/>
 <node CREATED="1589106623599" ID="ID_1191736912" MODIFIED="1589106632057" TEXT="... independent of the particular function involved"/>
@@ -1289,7 +1288,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1589106889744" ID="ID_1531548371" MODIFIED="1589106892565" TEXT="1.3.4 Procedures as Returned Values">
+<node CREATED="1589106889744" FOLDED="true" ID="ID_1531548371" MODIFIED="1589106892565" TEXT="1.3.4 Procedures as Returned Values">
 <node CREATED="1589106905623" ID="ID_49331499" MODIFIED="1589106914271" TEXT="Even more expressive power"/>
 <node CREATED="1589106998944" ID="ID_352108204" MODIFIED="1589107000234" TEXT="Abstractions and first-class procedures">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1335,6 +1334,192 @@
 <icon BUILTIN="full-0"/>
 <node CREATED="1528632546563" FOLDED="true" ID="ID_576413795" MODIFIED="1587143675336" TEXT="Algorithm">
 <node CREATED="1528632556211" ID="ID_1211379132" MODIFIED="1528632564762" TEXT="Part of program with precise mathematical function"/>
+</node>
+</node>
+<node CREATED="1590761022498" ID="ID_1126847699" MODIFIED="1590761034745" POSITION="right" TEXT="Building Abstractions with Data">
+<icon BUILTIN="full-2"/>
+<node CREATED="1590761036478" ID="ID_1382704424" MODIFIED="1590762715303" TEXT="Introduction">
+<node CREATED="1590761135338" ID="ID_527217914" MODIFIED="1590761150771" TEXT="Combining abstraction "/>
+<node CREATED="1590761151490" ID="ID_31192421" MODIFIED="1590761156265" TEXT="... by combining data objects"/>
+<node CREATED="1590761156711" ID="ID_1700226218" MODIFIED="1590761161307" TEXT="... to form">
+<node CREATED="1590761161474" ID="ID_375642149" MODIFIED="1590761166585" TEXT="compound data">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1590761179990" ID="ID_116543996" MODIFIED="1590761184197" TEXT="Why the need?">
+<node CREATED="1590761184699" ID="ID_1520271878" MODIFIED="1590761199932" TEXT="Elevate conceptual level of program design"/>
+<node CREATED="1590761200345" ID="ID_1010475240" MODIFIED="1590761212755" TEXT="Increase design modularity"/>
+<node CREATED="1590761213475" ID="ID_1944953937" MODIFIED="1590761231092" TEXT="Enhance expressive power of language"/>
+</node>
+<node CREATED="1590761984690" ID="ID_1143027632" MODIFIED="1590761986651" TEXT="Can isolate">
+<node CREATED="1590761986798" ID="ID_366238185" MODIFIED="1590761994867" TEXT="How data objects are represented"/>
+<node CREATED="1590761995694" ID="ID_1011098237" MODIFIED="1590762002043" TEXT="How data objects are used"/>
+</node>
+<node CREATED="1590762002798" ID="ID_1551940228" MODIFIED="1590762013887" TEXT="... data abstraction">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590762379131" ID="ID_312662607" MODIFIED="1590762381446" TEXT="Abstraction">
+<node CREATED="1590762381622" ID="ID_1197902312" MODIFIED="1590762385812" TEXT="Means to reduce complexity"/>
+<node CREATED="1590762386241" ID="ID_948602059" MODIFIED="1590762388850" TEXT="Can create">
+<node CREATED="1590762389001" ID="ID_360288775" MODIFIED="1590762392030" TEXT="abstraction barriers">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1590762455794" ID="ID_1916306653" MODIFIED="1590762465998" TEXT="Need &quot;glue&quot; to create compound data objects">
+<node CREATED="1590762466238" ID="ID_1473329880" MODIFIED="1590762469631" TEXT="Many sort of glue possible"/>
+<node CREATED="1590762495527" ID="ID_1160498599" MODIFIED="1590762591701" TEXT="Glue should work to compound">
+<node CREATED="1590762503817" ID="ID_1334623791" MODIFIED="1590762507282" TEXT="primitive data object"/>
+<node CREATED="1590762507618" ID="ID_973458818" MODIFIED="1590762521516" TEXT="compound data objects"/>
+</node>
+</node>
+<node CREATED="1590762619955" ID="ID_560020841" MODIFIED="1590762630403" TEXT="Handling many different data">
+<node CREATED="1590762630616" ID="ID_1333198665" MODIFIED="1590762634033" TEXT="generic operations">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1590762657180" ID="ID_1074041171" MODIFIED="1590762660976" TEXT="data-directed programming">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590762661384" ID="ID_1904663485" MODIFIED="1590762669086" TEXT="Allow individual data representation"/>
+<node CREATED="1590762669770" ID="ID_1499133232" MODIFIED="1590762674538" TEXT=".... to be designed in isolation"/>
+<node CREATED="1590762676299" ID="ID_343453665" MODIFIED="1590762681689" TEXT="... and then combined additively">
+<node CREATED="1590762682190" ID="ID_59874830" MODIFIED="1590762695089" TEXT="i.e. without modification"/>
+</node>
+</node>
+</node>
+<node CREATED="1590762716523" ID="ID_531962734" MODIFIED="1590762724258" TEXT="2.1 Introduction do Data Abstractoin">
+<node CREATED="1590763193716" ID="ID_474787162" MODIFIED="1590763196174" TEXT="Introduction">
+<node CREATED="1590762778933" ID="ID_460518805" MODIFIED="1590762784986" TEXT="More complex procedure">
+<node CREATED="1590762785216" ID="ID_615491137" MODIFIED="1590762791978" TEXT="Collection of particular operations"/>
+<node CREATED="1590762792643" ID="ID_1295245277" MODIFIED="1590762872962" TEXT="Procedural abstraction">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590762800396" ID="ID_108362324" MODIFIED="1590762814134" TEXT="Details how procedure implemented supressed"/>
+<node CREATED="1590762815184" ID="ID_26861561" MODIFIED="1590762821864" TEXT="Procedure itself"/>
+<node CREATED="1590762822222" ID="ID_875309832" MODIFIED="1590762830109" TEXT="... can be replaced"/>
+<node CREATED="1590762830816" ID="ID_1310073673" MODIFIED="1590762834465" TEXT="... by same procedure"/>
+<node CREATED="1590762835153" ID="ID_507535765" MODIFIED="1590762839475" TEXT="... with same overall behavior"/>
+</node>
+</node>
+<node CREATED="1590762854363" ID="ID_347898317" MODIFIED="1590762868419" TEXT="Analogous notion for compound data">
+<node CREATED="1590762868649" ID="ID_1169413900" MODIFIED="1590762873483" TEXT="Data abstraction">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590763088448" ID="ID_1079182392" MODIFIED="1590763091022" TEXT="Abstract data">
+<node CREATED="1590763091254" ID="ID_1762743092" MODIFIED="1590763097132" TEXT="Program has no assumption"/>
+<node CREATED="1590763097513" ID="ID_1636114535" MODIFIED="1590763101540" TEXT="... about data"/>
+<node CREATED="1590763102016" ID="ID_1307987296" MODIFIED="1590763112087" TEXT="... not strictly necessary for task at hand"/>
+</node>
+<node CREATED="1590763116658" ID="ID_1513118792" MODIFIED="1590763121399" TEXT="Concrete data representation">
+<node CREATED="1590763138638" ID="ID_1043332576" MODIFIED="1590763147194" TEXT="Defined independent"/>
+<node CREATED="1590763147701" ID="ID_717894624" MODIFIED="1590763151062" TEXT="... of the programs that use data"/>
+</node>
+<node CREATED="1590763153260" ID="ID_1826611882" MODIFIED="1590763159841" TEXT="... interface between the two">
+<node CREATED="1590763160071" ID="ID_1079808161" MODIFIED="1590763163294" TEXT="Procedures"/>
+<node CREATED="1590763165803" ID="ID_411512857" MODIFIED="1590763169104" TEXT="... called">
+<node CREATED="1590763169341" ID="ID_1615346071" MODIFIED="1590763172178" TEXT="selectors">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590763172675" ID="ID_685612373" MODIFIED="1590763175182" TEXT="constructors">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1590763197771" ID="ID_1574264284" MODIFIED="1590763200212" TEXT="2.1.1 Example: Arithmetic Operations for Rational Numbers ">
+<node CREATED="1590763275193" ID="ID_206133839" MODIFIED="1590763298342" TEXT="Need to perform operations on rationals">
+<node CREATED="1590763282834" ID="ID_220114235" MODIFIED="1590763283577" TEXT="add"/>
+<node CREATED="1590763283973" ID="ID_899731273" MODIFIED="1590763311061" TEXT="substract"/>
+<node CREATED="1590763311463" ID="ID_1543017012" MODIFIED="1590763314554" TEXT="multiply"/>
+<node CREATED="1590763314925" ID="ID_155281263" MODIFIED="1590763316181" TEXT="divide"/>
+</node>
+<node CREATED="1590763317456" ID="ID_296783692" MODIFIED="1590763357244" TEXT="constructor">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590763357550" ID="ID_575223108" MODIFIED="1590763367090" TEXT="(make-rat n d)">
+<node CREATED="1590763367293" ID="ID_1546324382" MODIFIED="1590763378118" TEXT="Return rational number"/>
+<node CREATED="1590763378530" ID="ID_1556250743" MODIFIED="1590763379189" TEXT="n">
+<node CREATED="1590763379378" ID="ID_303743102" MODIFIED="1590763380917" TEXT="numerator"/>
+</node>
+<node CREATED="1590763381439" ID="ID_496235002" MODIFIED="1590763382058" TEXT="d">
+<node CREATED="1590763382281" ID="ID_790569786" MODIFIED="1590763384743" TEXT="denominator"/>
+</node>
+</node>
+</node>
+<node CREATED="1590763389418" ID="ID_1749073711" MODIFIED="1590763392844" TEXT="selectors">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590763393164" ID="ID_1066140736" MODIFIED="1590763417906" TEXT="(num x)">
+<node CREATED="1590763398323" ID="ID_346669868" MODIFIED="1590763405112" TEXT="return numerator of x"/>
+</node>
+<node CREATED="1590763406026" ID="ID_379165697" MODIFIED="1590763409464" TEXT="(denom x)">
+<node CREATED="1590763409645" ID="ID_731633289" MODIFIED="1590763414170" TEXT="return denominator of x"/>
+</node>
+</node>
+<node CREATED="1590763486350" ID="ID_1598401828" MODIFIED="1590763489558" TEXT="Wishful thinking">
+<node CREATED="1590763498312" ID="ID_1769013779" MODIFIED="1590763501949" TEXT="Strategy of synthesis"/>
+<node CREATED="1590763489713" ID="ID_1900155848" MODIFIED="1590763496179" TEXT="We don&apos;t know how all of that is implemented"/>
+<node CREATED="1590763533909" ID="ID_1310806869" MODIFIED="1590763591757" TEXT="We can even implement operations">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (add-rat x y)
+    </p>
+    <p>
+      &#160;&#160;(make-rat (+ (* (numer x) (denom y))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (numer y) (denom x)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (denom y))))
+    </p>
+    <p>
+      (define (sub-rat x y)
+    </p>
+    <p>
+      &#160;&#160;(make-rat (- (* (numer x) (denom y))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (numer y) (denom x)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (denom y))))
+    </p>
+    <p>
+      (define (mul-rat x y)
+    </p>
+    <p>
+      &#160;&#160;(make-rat (* (numer x) (numer y))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (denom y))))
+    </p>
+    <p>
+      (define (div-rat x y)
+    </p>
+    <p>
+      &#160;&#160;(make-rat (* (numer x) (denom y))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (numer y))))
+    </p>
+    <p>
+      (define (equal-rat? x y)
+    </p>
+    <p>
+      &#160;&#160;(= (* (numer x) (denom y))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;(* (numer y) (denom x))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
