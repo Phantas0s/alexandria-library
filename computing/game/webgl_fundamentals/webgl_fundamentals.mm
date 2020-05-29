@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1590406411005" ID="ID_381599990" MODIFIED="1590605105713" TEXT="WebGL Fundamentals">
+<node CREATED="1590406411005" ID="ID_381599990" MODIFIED="1590685875739" TEXT="WebGL Fundamentals">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -165,7 +165,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590419583874" ID="ID_1197889781" MODIFIED="1590419585631" TEXT="WebGL Hello World">
+<node CREATED="1590419583874" FOLDED="true" ID="ID_1197889781" MODIFIED="1590419585631" TEXT="WebGL Hello World">
 <icon BUILTIN="full-2"/>
 <node CREATED="1590419597604" FOLDED="true" ID="ID_212839799" MODIFIED="1590419603597" TEXT="WebGL care about two things">
 <node CREATED="1590419603826" ID="ID_19955837" MODIFIED="1590419634525" TEXT="Clip space coordinates">
@@ -1510,7 +1510,7 @@
 </node>
 <node CREATED="1590605112739" ID="ID_1377676251" LINK="https://webglfundamentals.org/webgl/lessons/webgl-how-it-works.html" MODIFIED="1590605125604" POSITION="right" TEXT="How it Works">
 <icon BUILTIN="full-2"/>
-<node CREATED="1590605141796" ID="ID_807865558" MODIFIED="1590605206760" TEXT="Introduction">
+<node CREATED="1590605141796" FOLDED="true" ID="ID_807865558" MODIFIED="1590605206760" TEXT="Introduction">
 <icon BUILTIN="full-1"/>
 <node CREATED="1590605164175" ID="ID_1489873813" MODIFIED="1590605169613" TEXT="Two part of GPU processing">
 <node CREATED="1590605170338" ID="ID_92165408" MODIFIED="1590605201435" TEXT="Processes vertices">
@@ -1542,8 +1542,7 @@
       gl.drawArrays(primitiveType, offset, count);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590605334696" ID="ID_462667330" MODIFIED="1590605352695" TEXT="Animation">
 <icon BUILTIN="licq"/>
 <node CREATED="1590605327645" ID="ID_1050371925" MODIFIED="1590605330272">
@@ -1631,8 +1630,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1590606134022" ID="ID_484045293" MODIFIED="1590606183252" TEXT="Draw only 3 vertices">
@@ -1672,8 +1670,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-2"/>
 </node>
 <node CREATED="1590606159930" ID="ID_1440875639" MODIFIED="1590606185139" TEXT="declare varying in vertex shader">
@@ -1716,8 +1713,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-3"/>
 </node>
 <node CREATED="1590606190434" ID="ID_216240575" MODIFIED="1590606636521" TEXT="Declare same varying in fragment shader">
@@ -1748,8 +1744,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-4"/>
 <node CREATED="1590606245099" ID="ID_1554252716" MODIFIED="1590606253584" TEXT="Varying connect between">
 <node CREATED="1590606254310" ID="ID_184658433" MODIFIED="1590606257086" TEXT="Vertex shader"/>
@@ -1765,6 +1760,84 @@
 </node>
 </node>
 </node>
+<node CREATED="1590685914196" FOLDED="true" ID="ID_1834785792" MODIFIED="1590685921815" TEXT="What do these buffer and attribute commands do?">
+<icon BUILTIN="full-2"/>
+<node CREATED="1590685927165" ID="ID_128958125" MODIFIED="1590685935590" TEXT="Buffer">
+<node CREATED="1590685935787" ID="ID_1174142165" MODIFIED="1590685945540" TEXT="Way of getting vertex"/>
+<node CREATED="1590685946097" ID="ID_933602467" MODIFIED="1590685950177" TEXT="... and other per vertex data"/>
+<node CREATED="1590685950660" ID="ID_1630750804" MODIFIED="1590685953002" TEXT="... to the GPU"/>
+<node CREATED="1590685956093" ID="ID_42548883" MODIFIED="1590685961517" TEXT="gl.createBuffer">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590685961922" ID="ID_596373927" MODIFIED="1590685964087" TEXT="Create a buffer"/>
+</node>
+<node CREATED="1590685964696" ID="ID_78451302" MODIFIED="1590685994332" TEXT="g.bindBuffer">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590685970502" ID="ID_877887742" MODIFIED="1590685985691" TEXT="Sets buffer"/>
+<node CREATED="1590685986060" ID="ID_1175471386" MODIFIED="1590685993285" TEXT="... as buffer to be worked on"/>
+</node>
+<node CREATED="1590685997126" ID="ID_1428156481" MODIFIED="1590686004154" TEXT="gl.bufferData">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590686004386" ID="ID_279672873" MODIFIED="1590686008429" TEXT="Copy data into buffer"/>
+<node CREATED="1590686011007" ID="ID_899351114" MODIFIED="1590686017243" TEXT="Usually done at initialization"/>
+</node>
+</node>
+<node CREATED="1590686031016" ID="ID_747165532" MODIFIED="1590686039663" TEXT="When data on buffer"/>
+<node CREATED="1590686040098" ID="ID_1083631154" MODIFIED="1590686049187" TEXT="... needs to tell WebGL to get data out of it"/>
+<node CREATED="1590686051449" ID="ID_821701127" MODIFIED="1590686060241" TEXT="... and provide it to the vertex shader&apos;s attribute">
+<node CREATED="1590686090580" ID="ID_631019387" MODIFIED="1590686097148" TEXT="Find location">
+<node CREATED="1590686097689" ID="ID_451949949" MODIFIED="1590686104224" TEXT="gl.getAttribLocation">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1590686120991" ID="ID_532190776" MODIFIED="1590686130938" TEXT="Want to supply data from a buffer">
+<node CREATED="1590686131144" ID="ID_978887859" MODIFIED="1590686138685" TEXT="gl.enableVertexAttribArray">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1590686151313" ID="ID_28986933" MODIFIED="1590686162465" TEXT="Bind buffer to ARRAY_BUFFER bind point">
+<node CREATED="1590686162623" ID="ID_1292651546" MODIFIED="1590686186988" TEXT="gl.bindBuffer(gl.ARRAY_BUFFER, someBuffer)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1590686205797" ID="ID_1447213194" MODIFIED="1590686222063" TEXT="Get data from buffer binded to ARRAY_BUFFER">
+<node CREATED="1590686222332" ID="ID_1606273277" MODIFIED="1590686238233" TEXT="gl.vertexAttribPointer">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      gl.vertexAttribPointer(
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;location,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;numComponents,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;typeOfData,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;normalizeFlag,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;strideToNextPieceOfData,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;offsetIntoBuffer);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1590686384297" ID="ID_508571800" MODIFIED="1590686387656" POSITION="left" TEXT="Tools">
+<icon BUILTIN="full-0"/>
+<node CREATED="1590686376813" ID="ID_1988794580" LINK="https://webglfundamentals.org/webgl/lessons/resources/webgl-state-diagram.html" MODIFIED="1590686390537" TEXT="State Diagram"/>
 </node>
 </node>
 </map>
