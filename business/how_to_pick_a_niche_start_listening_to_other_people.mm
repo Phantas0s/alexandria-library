@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1548392819531" ID="ID_1757159682" LINK="https://daedtech.com/how-to-pick-a-niche/" MODIFIED="1548395376957" TEXT="How to Pick a Niche: Start Listening to Other People">
 <node CREATED="1548392899509" ID="ID_1722353864" MODIFIED="1548392910704" POSITION="right" TEXT="Difficult to speak about specificity in abstract"/>
-<node CREATED="1548392948100" FOLDED="true" ID="ID_1991702964" MODIFIED="1548395243899" POSITION="left" TEXT="Definitions">
+<node CREATED="1548392948100" FOLDED="true" ID="ID_1991702964" MODIFIED="1548395243899" POSITION="right" TEXT="Definitions">
 <icon BUILTIN="full-1"/>
 <node CREATED="1548392955076" ID="ID_178565633" MODIFIED="1548392978118" TEXT="Generalist">
 <node CREATED="1548392958322" ID="ID_907531956" MODIFIED="1548392960904" TEXT="Human resource"/>
@@ -28,7 +28,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1548393229640" FOLDED="true" ID="ID_1084104519" MODIFIED="1548395249798" POSITION="right" TEXT=" Finding a Niche but Stumble into a Specialty">
+<node CREATED="1548393229640" ID="ID_1084104519" MODIFIED="1548395249798" POSITION="right" TEXT=" Finding a Niche but Stumble into a Specialty">
 <icon BUILTIN="full-2"/>
 <node CREATED="1548393274489" ID="ID_1832681230" MODIFIED="1548393288990" TEXT="I optimize for intersection">
 <node CREATED="1548393289193" ID="ID_879101580" MODIFIED="1548393291950" TEXT="What I love to do"/>
@@ -39,7 +39,7 @@
 <node CREATED="1548393390503" ID="ID_1610750241" MODIFIED="1548393394998" TEXT="Hope is not a strategy"/>
 </node>
 </node>
-<node CREATED="1548393405696" FOLDED="true" ID="ID_1283159658" MODIFIED="1548395243002" POSITION="left" TEXT="Start listening">
+<node CREATED="1548393405696" FOLDED="true" ID="ID_1283159658" MODIFIED="1548395243002" POSITION="right" TEXT="Start listening">
 <icon BUILTIN="full-3"/>
 <node CREATED="1548393519383" ID="ID_1876194985" MODIFIED="1548393523980" TEXT="Questions">
 <node CREATED="1548393462688" ID="ID_1537760578" MODIFIED="1548393466363" TEXT="What skills of mine">
@@ -59,7 +59,7 @@
 <node CREATED="1548393622143" ID="ID_453037753" MODIFIED="1548393625140" TEXT="How you can help them"/>
 </node>
 </node>
-<node CREATED="1548393691756" FOLDED="true" ID="ID_1060534452" MODIFIED="1548395248668" POSITION="right" TEXT="How I learned to niche">
+<node CREATED="1548393691756" ID="ID_1060534452" MODIFIED="1548395248668" POSITION="left" TEXT="How I learned to niche">
 <icon BUILTIN="full-4"/>
 <node CREATED="1548393756653" ID="ID_1529712999" MODIFIED="1548393759338" TEXT="Consultancy">
 <node CREATED="1548393759613" ID="ID_1697999303" MODIFIED="1548393774362" TEXT="Static code analysis">
@@ -178,7 +178,7 @@
 <node CREATED="1548395037611" ID="ID_1983581450" MODIFIED="1548395041303" TEXT="Get good to talk with people"/>
 </node>
 </node>
-<node CREATED="1548395051299" FOLDED="true" ID="ID_1158521871" MODIFIED="1548395251340" POSITION="right" TEXT="Don&apos;t worry yet about business viability">
+<node CREATED="1548395051299" FOLDED="true" ID="ID_1158521871" MODIFIED="1548395251340" POSITION="left" TEXT="Don&apos;t worry yet about business viability">
 <icon BUILTIN="full-6"/>
 <node CREATED="1548395090745" ID="ID_1726462362" MODIFIED="1548395094990" TEXT="How do I pick a niche?">
 <node CREATED="1548395133290" ID="ID_1206125427" MODIFIED="1548395137015" TEXT="Pick a LOT of them"/>
