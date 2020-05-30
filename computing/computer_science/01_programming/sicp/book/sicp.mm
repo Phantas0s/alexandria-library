@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1590760980898" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1590827535415" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -804,8 +804,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
@@ -1515,8 +1514,338 @@
       &#160;&#160;&#160;&#160;&#160;(* (numer y) (denom x))))
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1590827555730" ID="ID_344787197" MODIFIED="1590827564492" TEXT="Needs to glue together">
+<node CREATED="1590827564790" ID="ID_1149584409" MODIFIED="1590827566570" TEXT="nominator"/>
+<node CREATED="1590827566936" ID="ID_1927006499" MODIFIED="1590827570195" TEXT="denominator"/>
+</node>
+<node CREATED="1590827581092" ID="ID_1482114875" MODIFIED="1590827582417" TEXT="Pairs">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590827669160" ID="ID_472001089" MODIFIED="1590827670386" TEXT="pair">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590827671070" ID="ID_814907628" MODIFIED="1590827679134" TEXT="Compound structure"/>
+</node>
+<node CREATED="1590827906101" ID="ID_1397118607" MODIFIED="1590827912512" TEXT="constructed with">
+<node CREATED="1590827912515" ID="ID_186967021" MODIFIED="1590827914495" TEXT="cons">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590828126320" ID="ID_786481077" MODIFIED="1590828128955" TEXT="&quot;construct&quot;"/>
+</node>
+<node CREATED="1590827922607" ID="ID_753822824" MODIFIED="1590827926389" TEXT="Take 2 arguments"/>
+<node CREATED="1590827927357" ID="ID_1325676670" MODIFIED="1590827936471" TEXT="Return compound data object"/>
+<node CREATED="1590827940372" ID="ID_1211702684" MODIFIED="1590827949302" TEXT="... contain two args as parts"/>
+<node CREATED="1590827956393" ID="ID_399086619" MODIFIED="1590827960755" TEXT="Can extract part using">
+<node CREATED="1590827960918" ID="ID_1763996990" MODIFIED="1590827962235" TEXT="car">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590827962702" ID="ID_164254076" MODIFIED="1590827964234" TEXT="cdr">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1590827980502" ID="ID_398891473" MODIFIED="1590828117423" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1590828055059" ID="ID_1754665482" MODIFIED="1590828118411" TEXT="Simple pair">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define x (cons 1 2))
+    </p>
+    <p>
+      (car x)
+    </p>
+    <p>
+      1
+    </p>
+    <p>
+      (cdr x)
+    </p>
+    <p>
+      2
+    </p>
+    <p>
+      
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1590828066906" ID="ID_969264108" MODIFIED="1590828107710" TEXT="Pair of pair">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define x (cons 1 2))
+    </p>
+    <p>
+      (define y (cons 3 4))
+    </p>
+    <p>
+      (define z (cons x y))
+    </p>
+    <p>
+      (car (car z))
+    </p>
+    <p>
+      1
+    </p>
+    <p>
+      (car (cdr z))
+    </p>
+    <p>
+      3
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1590828165477" ID="ID_400273555" MODIFIED="1590828176198" TEXT="list-structured">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590828181537" ID="ID_887600188" MODIFIED="1590828187909" TEXT="data constructed from pairs"/>
+</node>
+</node>
+<node CREATED="1590828200114" ID="ID_1659861867" MODIFIED="1590828201980" TEXT="Representing rational numbers ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590828233846" ID="ID_638517557" MODIFIED="1590828263325" TEXT="Implementation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-rat n d) (cons n d))
+    </p>
+    <p>
+      (define (numer x) (car x))
+    </p>
+    <p>
+      (define (denom x) (cdr x))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590828339037" ID="ID_65542930" MODIFIED="1590828348426" TEXT="display">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (print-rat x)
+    </p>
+    <p>
+      &#160;&#160;(newline)
+    </p>
+    <p>
+      &#160;&#160;(display (numer x))
+    </p>
+    <p>
+      &#160;&#160;(display &quot;/&quot;)
+    </p>
+    <p>
+      &#160;&#160;(display (denom x)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1590828400846" ID="ID_432143703" MODIFIED="1590828402063" TEXT="2.1.2 Abstraction Barriers ">
+<node CREATED="1590828421731" ID="ID_949377487" MODIFIED="1590828428326" TEXT="Underlying idea of data abstraction">
+<node CREATED="1590828431842" ID="ID_1078044444" MODIFIED="1590828441912" TEXT="Identify for each type of data object"/>
+<node CREATED="1590828442666" ID="ID_41342702" MODIFIED="1590828449104" TEXT="... a basic set of operations"/>
+<node CREATED="1590828449509" ID="ID_1235035523" MODIFIED="1590828491160" TEXT="... manipulating data object of that type"/>
+<node CREATED="1590828474713" ID="ID_1409618886" MODIFIED="1590828509626" TEXT="Only use these operations to manipulate the data"/>
+<node CREATED="1590828519957" ID="ID_37730316" MODIFIED="1590828522857" TEXT="Abstraction barrier">
+<node CREATED="1590828523086" ID="ID_769852443" MODIFIED="1590828543215" TEXT="Isolate different &quot;levels&quot; of the system"/>
+<node CREATED="1590828561066" ID="ID_869930041" MODIFIED="1590828570117" TEXT="At each level barrier separates">
+<node CREATED="1590828571767" ID="ID_988298411" MODIFIED="1590828602960" TEXT="Programs (above) that use the data abstraction"/>
+<node CREATED="1590828580069" ID="ID_1882265938" MODIFIED="1590828595845" TEXT="Programs (below) that implement data abstraction"/>
+<node CREATED="1590828836513" ID="ID_1876311341" MODIFIED="1590828849950" TEXT="... procedures are interfaces to connect levels"/>
+</node>
+<node CREATED="1590828718170" ID="ID_1498710375" MODIFIED="1590828834696" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1590828624464" ID="ID_3703958" MODIFIED="1590828737717" TEXT="Programs use rational number use">
+<icon BUILTIN="full-3"/>
+<node CREATED="1590828632406" ID="ID_843185001" MODIFIED="1590828646337" TEXT="add-rat">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590828635224" ID="ID_227090923" MODIFIED="1590828646979" TEXT="sub-rat">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590828637539" ID="ID_1335253647" MODIFIED="1590828647445" TEXT="mul-rat">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590828642082" ID="ID_187341031" MODIFIED="1590828647878" TEXT="div-rat">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1590828648491" ID="ID_1365182332" MODIFIED="1590828741405" TEXT="... are implemented in terms of">
+<icon BUILTIN="full-2"/>
+<node CREATED="1590828682081" ID="ID_395329788" MODIFIED="1590828685855" TEXT="constructor / selectors"/>
+<node CREATED="1590828665188" ID="ID_507085963" MODIFIED="1590828667313" TEXT="make-rat">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590828667896" ID="ID_332870796" MODIFIED="1590828672047" TEXT="number">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590828672582" ID="ID_699072220" MODIFIED="1590828677895" TEXT="denom">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1590828696561" ID="ID_126817016" MODIFIED="1590828743605" TEXT="... which are implemented in terms of">
+<icon BUILTIN="full-1"/>
+<node CREATED="1590828701784" ID="ID_1484675153" MODIFIED="1590828703220" TEXT="pairs">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1590829278536" FOLDED="true" ID="ID_591237807" MODIFIED="1590829283215" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1590829284266" ID="ID_194522599" MODIFIED="1590829286934">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="abstraction_barrier.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1590828857863" ID="ID_310200560" MODIFIED="1590828860261" TEXT="Advantages">
+<node CREATED="1590828862714" ID="ID_1968661813" MODIFIED="1590828869375" TEXT="Program easier to">
+<node CREATED="1590828869548" ID="ID_275849322" MODIFIED="1590828870761" TEXT="maintain"/>
+<node CREATED="1590828871129" ID="ID_665953568" MODIFIED="1590828872023" TEXT="modify"/>
+</node>
+<node CREATED="1590828885336" ID="ID_427947885" MODIFIED="1590828889539" TEXT="Complex data structure"/>
+<node CREATED="1590828889877" ID="ID_1827016706" MODIFIED="1590828895837" TEXT="... can be represented with simple ones"/>
+<node CREATED="1590828896176" ID="ID_1339217205" MODIFIED="1590828903569" TEXT="... provided by language"/>
+<node CREATED="1590829433025" ID="ID_1647091187" MODIFIED="1590829438070" TEXT="Constraining the dependence on the representation"/>
+<node CREATED="1590829438867" ID="ID_574784665" MODIFIED="1590829440332" TEXT="...  to a few interface "/>
+<node CREATED="1590829441487" ID="ID_1221359051" MODIFIED="1590829448321" TEXT="... can help us defer decision of implementation"/>
+<node CREATED="1590829448686" ID="ID_1300503317" MODIFIED="1590829451921" TEXT="... without changing everything"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1590829488840" ID="ID_1693763654" MODIFIED="1590829489554" TEXT="2.1.3 What Is Meant by Data? ">
+<node CREATED="1590829552179" ID="ID_580072416" MODIFIED="1590829559622" TEXT="In general, collection">
+<node CREATED="1590829559804" ID="ID_664340793" MODIFIED="1590829562412" TEXT="selectors"/>
+<node CREATED="1590829562745" ID="ID_138237895" MODIFIED="1590829564605" TEXT="constructors"/>
+<node CREATED="1590829568057" ID="ID_1512783603" MODIFIED="1590829575741" TEXT="... with specified conditions"/>
+<node CREATED="1590829576144" ID="ID_1187806870" MODIFIED="1590829584058" TEXT="... that these procedures must fulfill"/>
+<node CREATED="1590829585012" ID="ID_1861164382" LINK="http://csg.csail.mit.edu/CSGArchives/memos/Memo-117.pdf" MODIFIED="1590829747773" TEXT="... to be valid representation"/>
+<node CREATED="1590829807032" ID="ID_575792027" MODIFIED="1590830238239" TEXT="Pair implementatoin">
+<icon BUILTIN="wizard"/>
+<node CREATED="1590829817029" ID="ID_278738251" MODIFIED="1590829836476" TEXT="Pair"/>
+<node CREATED="1590830249209" ID="ID_445297625" MODIFIED="1590830257861" TEXT="Condition to respect">
+<node CREATED="1590829837599" ID="ID_433628154" MODIFIED="1590829847182" TEXT="For any objet x and y"/>
+<node CREATED="1590829847808" ID="ID_454060626" MODIFIED="1590829854135" TEXT="... if z is (cons x y)"/>
+<node CREATED="1590829855538" ID="ID_900534741" MODIFIED="1590829863583" TEXT="... then (car z) is x"/>
+<node CREATED="1590829864394" ID="ID_847514991" MODIFIED="1590829871879" TEXT="... (cdr z) is y"/>
+</node>
+<node CREATED="1590829892594" ID="ID_968734633" MODIFIED="1590829901831" TEXT="Any triple procedure satisfying these conditions"/>
+<node CREATED="1590829902211" ID="ID_1061306916" MODIFIED="1590829907151" TEXT="... can be used to implement pairs"/>
+<node CREATED="1590830067202" ID="ID_1778423458" MODIFIED="1590830272699" TEXT="code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (cons x y)
+    </p>
+    <p>
+      &#160;&#160;(define (dispatch m)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cond ((= m 0) x)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((= m 1) y)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Argument not 0 or 1: CONS&quot; m))))
+    </p>
+    <p>
+      &#160;&#160;dispatch)
+    </p>
+    <p>
+      (define (car z) (z 0))
+    </p>
+    <p>
+      (define (cdr z) (z 1))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590830142949" ID="ID_1258705179" MODIFIED="1590830153925" TEXT="LISP implement it differently"/>
+<node CREATED="1590830154593" ID="ID_103176582" MODIFIED="1590830160071" TEXT="... for efficiency reasons"/>
+<node CREATED="1590830160445" ID="ID_1012970942" MODIFIED="1590830166099" TEXT="... but it&apos;s the same result!"/>
+<node CREATED="1590830179194" ID="ID_1310719167" MODIFIED="1590830194746" TEXT="All condition for valid pair"/>
+<node CREATED="1590830195581" ID="ID_854663609" MODIFIED="1590830198456" TEXT="... are fulfilled"/>
+</node>
+</node>
+<node CREATED="1590830220028" ID="ID_869213930" MODIFIED="1590830225173" TEXT="... procedural representation of data">
+<node CREATED="1590830296664" ID="ID_341405347" MODIFIED="1590830302197" TEXT="Style of programming called"/>
+<node CREATED="1590830290903" ID="ID_432936131" MODIFIED="1590830309155" TEXT="... message passing">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1590830355637" ID="ID_1473538386" MODIFIED="1590830356319" TEXT="2.1.4 Extended Exercise: Interval Arithmetic "/>
+<node CREATED="1590830397204" ID="ID_1410375303" MODIFIED="1590830397900" TEXT="2.2 Hierarchical Data and the Closure Property ">
+<node CREATED="1590830572641" ID="ID_28105509" MODIFIED="1590830584323" TEXT="Introduction">
+<node CREATED="1590830584536" ID="ID_431387783" MODIFIED="1590830592046" TEXT="Visualising a pair">
+<node CREATED="1590830510078" ID="ID_1769313214" MODIFIED="1590830519212" TEXT="box-and-pointer notation">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590830520928" ID="ID_1960913397" MODIFIED="1590830526047" TEXT="Each object is a pointer to a box"/>
+<node CREATED="1590830546487" ID="ID_332334923" MODIFIED="1590830600549" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1590830554249" ID="ID_710202870" MODIFIED="1590830559244" TEXT="Box for a number">
+<node CREATED="1590830559464" ID="ID_124908281" MODIFIED="1590830564312" TEXT="contains numeral"/>
+</node>
+<node CREATED="1590830601546" ID="ID_1867135983" MODIFIED="1590830605371" TEXT="Box for a pair">
+<node CREATED="1590830605537" ID="ID_1240943253" MODIFIED="1590830607702" TEXT="Double box"/>
+<node CREATED="1590830608410" ID="ID_309212727" MODIFIED="1590830620526" TEXT="Left part pointer to car of pair"/>
+<node CREATED="1590830622104" ID="ID_1498277739" MODIFIED="1590830628430" TEXT="Right part contains cdr"/>
+</node>
+</node>
+<node CREATED="1590830420443" FOLDED="true" ID="ID_1740127187" MODIFIED="1590830490957" TEXT="Representation of a pairs">
+<icon BUILTIN="licq"/>
+<node CREATED="1590830483296" ID="ID_1095434847" MODIFIED="1590830486110">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="pair_representation.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1590830675247" ID="ID_1439233587" MODIFIED="1590830683823" TEXT="Creating pairs from pairs">
+<node CREATED="1590830684708" ID="ID_1964850961" MODIFIED="1590830694403" TEXT="Essence of list structure&apos;s important"/>
+<node CREATED="1590830699236" ID="ID_730502498" MODIFIED="1590830726524" TEXT="Ability called">
+<node CREATED="1590830711095" ID="ID_413573479" MODIFIED="1590830715975" TEXT="closure property">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590830716462" ID="ID_1679822564" MODIFIED="1590830717950" TEXT="... of cons"/>
+</node>
 </node>
 </node>
 </node>
