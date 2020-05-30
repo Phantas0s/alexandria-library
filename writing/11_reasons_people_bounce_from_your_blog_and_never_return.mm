@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1590857181601" ID="ID_454907862" MODIFIED="1590857187266" TEXT=" 11 Reasons People Bounce from Your Blog and Never Return ">
+<node CREATED="1590857181601" ID="ID_454907862" LINK="https://smartblogger.com/bounce-reasons/" MODIFIED="1590863281285" TEXT=" 11 Reasons People Bounce from Your Blog and Never Return ">
 <node CREATED="1590857193430" ID="ID_1653780400" MODIFIED="1590857424369" POSITION="right" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1590857211534" ID="ID_116871423" MODIFIED="1590857216736" TEXT="Someone shows up"/>
