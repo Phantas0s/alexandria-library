@@ -1,0 +1,54 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1590857181601" ID="ID_454907862" MODIFIED="1590857187266" TEXT=" 11 Reasons People Bounce from Your Blog and Never Return ">
+<node CREATED="1590857193430" ID="ID_1653780400" MODIFIED="1590857424369" POSITION="right" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1590857211534" ID="ID_116871423" MODIFIED="1590857216736" TEXT="Someone shows up"/>
+<node CREATED="1590857217628" ID="ID_726006924" MODIFIED="1590857219168" TEXT="... check out"/>
+<node CREATED="1590857219557" ID="ID_1512136962" MODIFIED="1590857221861" TEXT="... and bounce"/>
+</node>
+<node CREATED="1590857418956" ID="ID_1810811935" MODIFIED="1590857422255" POSITION="right" TEXT="Your Headline&#x2019;s Writing Checks Your Post Can&#x2019;t Cash">
+<icon BUILTIN="full-1"/>
+<node CREATED="1590857523143" ID="ID_1803711907" MODIFIED="1590857529324" TEXT="Weak headline kill your post"/>
+<node CREATED="1590857536123" ID="ID_1678582261" MODIFIED="1590857538692" TEXT="It&apos;s a promise">
+<node CREATED="1590857540057" ID="ID_601370672" MODIFIED="1590857544795" TEXT="&quot;Lend me your attention"/>
+<node CREATED="1590857545342" ID="ID_100906813" MODIFIED="1590857548648" TEXT="... and I give you the result&quot;"/>
+</node>
+<node CREATED="1590857554209" ID="ID_83715232" MODIFIED="1590857561556" TEXT="Headline leads to a &quot;meh&quot; post">
+<node CREATED="1590857562081" ID="ID_664631265" MODIFIED="1590857564567" TEXT="Bouncing!"/>
+</node>
+</node>
+<node CREATED="1590857681025" ID="ID_1079685502" MODIFIED="1590857684657" POSITION="right" TEXT="You&#x2019;re Over Eager (and It&#x2019;s Embarrassing)">
+<icon BUILTIN="full-2"/>
+<node CREATED="1590857694112" ID="ID_293796778" MODIFIED="1590857700392" TEXT="Pop up after two seconds on the blog"/>
+<node CREATED="1590857703463" ID="ID_1604770796" MODIFIED="1590857705531" TEXT="It&apos;s too soon!"/>
+</node>
+<node CREATED="1590857726882" ID="ID_57270398" MODIFIED="1590857730072" POSITION="right" TEXT="You&#x2019;re Convinced Your Content is Worth Waiting For">
+<icon BUILTIN="full-3"/>
+<node CREATED="1590857735239" ID="ID_622603057" MODIFIED="1590857740765" TEXT="Your website needs to be fast"/>
+</node>
+<node CREATED="1590857764358" ID="ID_65349696" MODIFIED="1590857767785" POSITION="right" TEXT="You Make People Exhausted Not Energized">
+<icon BUILTIN="full-4"/>
+<node CREATED="1590857775286" ID="ID_1333035680" MODIFIED="1590857778998" TEXT="Purpose of your blog"/>
+<node CREATED="1590857779627" ID="ID_898914427" MODIFIED="1590857786035" TEXT="... not only transfer information">
+<node CREATED="1590857786289" ID="ID_1078521334" MODIFIED="1590857788181" TEXT="from your brain"/>
+<node CREATED="1590857788608" ID="ID_762472256" MODIFIED="1590857792042" TEXT="... to the reader&apos;s"/>
+</node>
+<node CREATED="1590857803976" ID="ID_1873013491" MODIFIED="1590857807349" TEXT="Favorite teachers">
+<node CREATED="1590857813531" ID="ID_1849148067" MODIFIED="1590857820440" TEXT="Not the most knowledgeable"/>
+<node CREATED="1590857807564" ID="ID_1717789339" MODIFIED="1590857826500" TEXT="... but make the subject fun!"/>
+</node>
+<node CREATED="1590857837831" ID="ID_729202490" MODIFIED="1590857842464" TEXT="At the end you have more">
+<node CREATED="1590857842621" ID="ID_1886102845" MODIFIED="1590857845436" TEXT="passion"/>
+<node CREATED="1590857845840" ID="ID_217718521" MODIFIED="1590857847832" TEXT="enthusiasm"/>
+</node>
+<node CREATED="1590857855662" ID="ID_1837702488" MODIFIED="1590857861478" TEXT="Learning takes mental effort">
+<node CREATED="1590857861836" ID="ID_158085413" MODIFIED="1590857867203" TEXT="Mental energy of reader will go down"/>
+<node CREATED="1590857870542" ID="ID_1636186535" MODIFIED="1590857874209" TEXT="Invigorate them!"/>
+</node>
+</node>
+<node CREATED="1590857879112" ID="ID_495670380" MODIFIED="1590857888930" POSITION="right" TEXT="You&apos;re too damn wordy">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+</map>
