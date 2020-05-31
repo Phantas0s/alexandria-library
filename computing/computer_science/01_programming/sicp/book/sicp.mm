@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1590827535415" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1590908413856" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -84,7 +84,7 @@
 </html>
 </richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1528634320405" FOLDED="true" ID="ID_1250742120" MODIFIED="1587143678085" POSITION="right" TEXT="Building abstractions with procedures">
+<node CREATED="1528634320405" FOLDED="true" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
 <node CREATED="1528634606285" FOLDED="true" ID="ID_1929326975" MODIFIED="1587143670696" TEXT="Introduction">
 <node CREATED="1528633486362" ID="ID_1751522928" MODIFIED="1549911501085" TEXT="Act of the mind (Locke)">
@@ -718,7 +718,7 @@
 <node CREATED="1589459086672" ID="ID_1318417739" MODIFIED="1590655506445" TEXT="Very difficult task!"/>
 </node>
 </node>
-<node CREATED="1528913920315" FOLDED="true" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
+<node CREATED="1528913920315" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
 <node CREATED="1528913960322" ID="ID_230822821" MODIFIED="1532274721630" TEXT="Recursive process">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -773,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1590760980957" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1590908413891" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -804,7 +804,8 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
@@ -1570,8 +1571,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590828066906" ID="ID_969264108" MODIFIED="1590828107710" TEXT="Pair of pair">
 <richcontent TYPE="NOTE"><html>
@@ -1601,8 +1601,7 @@
       3
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1629,8 +1628,7 @@
       (define (denom x) (cdr x))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590828339037" ID="ID_65542930" MODIFIED="1590828348426" TEXT="display">
 <richcontent TYPE="NOTE"><html>
@@ -1654,8 +1652,7 @@
       &#160;&#160;(display (denom x)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1718,8 +1715,7 @@
   <body>
     <img src="abstraction_barrier.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1788,8 +1784,7 @@
       (define (cdr z) (z 1))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590830142949" ID="ID_1258705179" MODIFIED="1590830153925" TEXT="LISP implement it differently"/>
 <node CREATED="1590830154593" ID="ID_103176582" MODIFIED="1590830160071" TEXT="... for efficiency reasons"/>
 <node CREATED="1590830160445" ID="ID_1012970942" MODIFIED="1590830166099" TEXT="... but it&apos;s the same result!"/>
@@ -1839,12 +1834,437 @@
 </node>
 </node>
 <node CREATED="1590830675247" ID="ID_1439233587" MODIFIED="1590830683823" TEXT="Creating pairs from pairs">
-<node CREATED="1590830684708" ID="ID_1964850961" MODIFIED="1590830694403" TEXT="Essence of list structure&apos;s important"/>
+<node CREATED="1590830684708" ID="ID_1964850961" MODIFIED="1590908452104" TEXT="Essence of list structure&apos;s importance"/>
+<node CREATED="1590908453404" ID="ID_19371117" MODIFIED="1590908458007" TEXT="... as a representation tool"/>
 <node CREATED="1590830699236" ID="ID_730502498" MODIFIED="1590830726524" TEXT="Ability called">
-<node CREATED="1590830711095" ID="ID_413573479" MODIFIED="1590830715975" TEXT="closure property">
+<node CREATED="1590830711095" ID="ID_413573479" MODIFIED="1590908691127" TEXT="closure property">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The use of the word &#8220;closure&#8221; here comes from abstract algebra, where a set of ele-
+    </p>
+    <p>
+      ments is said to be closed under an operation if applying the operation to elements
+    </p>
+    <p>
+      in the set produces an element that is again an element of the set. The Lisp com-
+    </p>
+    <p>
+      munity also (unfortunately) uses the word &#8220;closure&#8221; to describe a totally unrelated
+    </p>
+    <p>
+      concept: A closure is an implementation technique for representing procedures
+    </p>
+    <p>
+      with free variables. We do not use the word &#8220;closure&#8221; in this second sense in this
+    </p>
+    <p>
+      book.
+    </p>
+  </body>
+</html>
+</richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1590830716462" ID="ID_1679822564" MODIFIED="1590830717950" TEXT="... of cons"/>
+</node>
+</node>
+<node CREATED="1590908497893" ID="ID_1215441161" MODIFIED="1590908499248" TEXT="Closure">
+<node CREATED="1590908499464" ID="ID_1566779558" MODIFIED="1590908504034" TEXT="Key to power of combination"/>
+<node CREATED="1590908504487" ID="ID_1666742199" MODIFIED="1590908513654" TEXT="Permits to create hierarchical structures">
+<node CREATED="1590908514804" ID="ID_1825594783" MODIFIED="1590908519675" TEXT="Structures made up of parts"/>
+<node CREATED="1590908520106" ID="ID_1534269934" MODIFIED="1590908525015" TEXT="... which are made up of parts"/>
+<node CREATED="1590908525446" ID="ID_316510431" MODIFIED="1590908529487" TEXT="... which are made up of parts"/>
+<node CREATED="1590908529946" ID="ID_671989882" MODIFIED="1590908530570" TEXT="..."/>
+</node>
+<node CREATED="1590908556024" ID="ID_1065133225" LINK="#ID_1250742120" MODIFIED="1590908586799" TEXT="Very important for procedures"/>
+<node CREATED="1590908591796" ID="ID_213629250" MODIFIED="1590908611649" TEXT="Very important for compound data"/>
+</node>
+</node>
+<node CREATED="1590908627826" ID="ID_802755279" MODIFIED="1590908632313" TEXT="2.2.1 Representing Sequences">
+<node CREATED="1590908859244" ID="ID_1643291695" MODIFIED="1590908869435" TEXT="Many ways to represent sequences with pairs"/>
+<node CREATED="1590908941624" ID="ID_907219260" MODIFIED="1590908942883" TEXT="List">
+<node CREATED="1590908870078" ID="ID_1340977596" MODIFIED="1590908909168" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1590908872674" ID="ID_1677034220" MODIFIED="1590908888055" TEXT="Sequence 1, 2, 3, 4"/>
+<node CREATED="1590909002148" ID="ID_1814130845" MODIFIED="1590909005885" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1590909006330" ID="ID_1953024416" MODIFIED="1590909009167">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="list_example.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1590909122117" ID="ID_1716108233" MODIFIED="1590909131012" TEXT="Sequence of pairs"/>
+<node CREATED="1590909131689" ID="ID_1572586716" MODIFIED="1590909134998" TEXT="Formed by nested cons"/>
+<node CREATED="1590909148659" ID="ID_1102416093" MODIFIED="1590909155419" TEXT="Primitive">
+<node CREATED="1590909155736" ID="ID_1322873779" MODIFIED="1590909157306" TEXT="list">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590909158132" ID="ID_1736602231" MODIFIED="1590909201740" TEXT="(list &#x3008;a1&#x3009; &#x3008;a2&#x3009; ... &#x3008;an&#x3009;) ">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (cons &#12296;a1&#12297;
+    </p>
+    <p>
+      &#160;&#160;(cons &#12296;a2&#12297;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cons ...
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(cons &#12296;a n &#12297;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nil)...)))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590909246748" ID="ID_875358917" MODIFIED="1590909267454" TEXT="Representation">
+<icon BUILTIN="wizard"/>
+<node CREATED="1590909249167" ID="ID_889176786" MODIFIED="1590909258665" TEXT="(list 1 2 3 4)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1590909253883" ID="ID_1194043431" MODIFIED="1590909257870" TEXT="Printed (1 2 3 4)"/>
+</node>
+</node>
+<node CREATED="1590909292360" ID="ID_957597271" MODIFIED="1590909299788" TEXT="car">
+<node CREATED="1590909299978" ID="ID_1337462865" MODIFIED="1590909303579" TEXT="Selecting first item in list"/>
+</node>
+<node CREATED="1590909304293" ID="ID_117728658" MODIFIED="1590909305547" TEXT="cdr">
+<node CREATED="1590909305778" ID="ID_243812264" MODIFIED="1590909314114" TEXT="Selecting sublist consisting of all"/>
+<node CREATED="1590909314471" ID="ID_1342038774" MODIFIED="1590909316950" TEXT="... but the first item"/>
+</node>
+<node CREATED="1590909361135" ID="ID_468681340" MODIFIED="1590909362644" TEXT="cons">
+<node CREATED="1590909363346" ID="ID_497700582" MODIFIED="1590909367041" TEXT="With list as argument"/>
+<node CREATED="1590909370260" ID="ID_520483703" MODIFIED="1590909373846" TEXT="... add elements at the front"/>
+</node>
+<node CREATED="1590909379736" ID="ID_729708720" MODIFIED="1590909542258" TEXT="Examples">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define one-through-four (list 1 2 3 4))
+    </p>
+    <p>
+      one-through-four
+    </p>
+    <p>
+      (1 2 3 4)
+    </p>
+    <p>
+      <br />
+      (car one-through-four)
+    </p>
+    <p>
+      1
+    </p>
+    <p>
+      (cdr one-through-four)
+    </p>
+    <p>
+      (2 3 4)
+    </p>
+    <p>
+      (car (cdr one-through-four))
+    </p>
+    <p>
+      2<br />
+    </p>
+    <p>
+      <br />
+      <br />
+      
+    </p>
+    <p>
+      (cons 10 one-through-four)
+    </p>
+    <p>
+      (10 1 2 3 4)
+    </p>
+    <p>
+      (cons 5 one-through-four)
+    </p>
+    <p>
+      (5 1 2 3 4)
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="wizard"/>
+<node CREATED="1590909544957" ID="ID_1259360930" MODIFIED="1590909558053" TEXT="Abbreviation for nested car / cdr">
+<node CREATED="1590909558652" ID="ID_1581102800" MODIFIED="1590909558652">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (cadr&#12296;arg&#12297;) = (car (cdr &#12296;arg&#12297;))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590909574313" ID="ID_315540774" MODIFIED="1590909581342" TEXT="Names procedure">
+<node CREATED="1590909581628" ID="ID_1653757572" MODIFIED="1590909640806" TEXT="Start with &quot;c&quot;"/>
+<node CREATED="1590909585014" ID="ID_1378196455" MODIFIED="1590909637283" TEXT="End with &quot;r&quot;"/>
+<node CREATED="1590909603939" ID="ID_338858060" MODIFIED="1590909631847" TEXT="Each &quot;a&quot; between">
+<node CREATED="1590909648290" ID="ID_569067814" MODIFIED="1590909650997" TEXT="car operation"/>
+</node>
+<node CREATED="1590909651720" ID="ID_730929890" MODIFIED="1590909654615" TEXT="Each &quot;d&quot; between">
+<node CREATED="1590909654820" ID="ID_163165211" MODIFIED="1590909657279" TEXT="cdr operation"/>
+</node>
+<node CREATED="1590909674277" ID="ID_1097163855" MODIFIED="1590909681665" TEXT="... applied in order of the name"/>
+</node>
+</node>
+</node>
+<node CREATED="1590909699482" ID="ID_1581940818" MODIFIED="1590909707018" TEXT="End of chain of pair">
+<node CREATED="1590909707241" ID="ID_109754219" MODIFIED="1590909707961" TEXT="nil">
+<node CREATED="1590909725247" ID="ID_1104251407" MODIFIED="1590909729986" TEXT="contraction of latin nihil"/>
+<node CREATED="1590909730437" ID="ID_1814741942" MODIFIED="1590909734423" TEXT="... means nothing"/>
+</node>
+<node CREATED="1590909711233" ID="ID_940764185" MODIFIED="1590909717118" TEXT="Sequence of no element">
+<node CREATED="1590909717332" ID="ID_950793540" MODIFIED="1590909718951" TEXT="empty list">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1590909214193" ID="ID_1529466003" MODIFIED="1590909216623" TEXT="List structure">
+<node CREATED="1590909220811" ID="ID_942484385" MODIFIED="1590909226867" TEXT="Any data structure made of pairs"/>
+<node CREATED="1590909227406" ID="ID_710483281" MODIFIED="1590909229714" TEXT="... not just lists!"/>
+</node>
+<node CREATED="1590910313527" ID="ID_350212195" MODIFIED="1590910315619" TEXT="List operations ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590910355050" ID="ID_1178553049" MODIFIED="1590910375499" TEXT="Often manipulate lists by &quot;cdring down&quot; the lists"/>
+<node CREATED="1590910582430" ID="ID_1149146590" MODIFIED="1590911065568" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1590910584849" ID="ID_1501616617" MODIFIED="1590910620698" TEXT="list-ref">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (list-ref items n)
+    </p>
+    <p>
+      &#160;&#160;(if (= n 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(car items)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(list-ref (cdr items) (- n 1))))
+    </p>
+    <p>
+      (define squares (list 1 4 9 16 25))
+    </p>
+    <p>
+      (list-ref squares 3)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590910967527" ID="ID_1014570563" MODIFIED="1590910989044" TEXT="length">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (length items)
+    </p>
+    <p>
+      &#160;&#160;(if (null? items)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(+ 1 (length (cdr items)))))
+    </p>
+    <p>
+      (define odds (list 1 3 5 7))
+    </p>
+    <p>
+      (length odds)
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590910993675" ID="ID_1845597791" MODIFIED="1590911002669" TEXT="Iterative">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (length items)
+    </p>
+    <p>
+      &#160;&#160;(define (length-iter a count)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if (null? a)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;count
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(length-iter (cdr a) (+ 1 count))))
+    </p>
+    <p>
+      &#160;&#160;(length-iter items 0))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1590911053229" ID="ID_255674508" MODIFIED="1590911061348" TEXT="append">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (append list1 list2)
+    </p>
+    <p>
+      &#160;&#160;(if (null? list1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;list2
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cons (car list1) (append (cdr list1) list2))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1590910588269" ID="ID_619056271" MODIFIED="1590910987543" TEXT="Return nth element of list"/>
+</node>
+</node>
+<node CREATED="1590911336190" ID="ID_1388155253" MODIFIED="1590911337705" TEXT="Mapping over lists ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1590911344876" ID="ID_292875472" MODIFIED="1590911353826" TEXT="Apply some transformation"/>
+<node CREATED="1590911354733" ID="ID_837943568" MODIFIED="1590911361657" TEXT="... to each element of list"/>
+<node CREATED="1590911362348" ID="ID_242956312" MODIFIED="1590911367623" TEXT="... and generate list of results">
+<node CREATED="1590911397188" ID="ID_1739604985" MODIFIED="1590911787322" TEXT="scale-list">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (scale-list items factor)
+    </p>
+    <p>
+      &#160;&#160;(if (null? items)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;nil
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cons (* (car items) factor)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(scale-list (cdr items)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;factor))))
+    </p>
+    <p>
+      (scale-list (list 1 2 3 4 5) 10)
+    </p>
+    <p>
+      (10 20 30 40 50)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590911445139" ID="ID_391364555" MODIFIED="1590911451335" TEXT="Map implementation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (map proc items)
+    </p>
+    <p>
+      &#160;&#160;(if (null? items)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;nil
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cons (proc (car items))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(map proc (cdr items)))))
+    </p>
+    <p>
+      (map abs (list -10 2.5 -11.6 17))
+    </p>
+    <p>
+      (10 2.5 11.6 17)
+    </p>
+    <p>
+      (map (lambda (x) (* x x)) (list 1 2 3 4))
+    </p>
+    <p>
+      (1 4 9 16)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1590911618770" ID="ID_27879507" MODIFIED="1590911625218" TEXT="Capture common pattern"/>
+<node CREATED="1590911626029" ID="ID_295385411" MODIFIED="1590911632344" TEXT="Higher level of abstraction to deal with lists">
+<node CREATED="1590911777742" ID="ID_71482419" MODIFIED="1590911783391" TEXT="Difference between">
+<node CREATED="1590911790286" ID="ID_428658493" MODIFIED="1590911792077" TEXT="scale-list"/>
+<node CREATED="1590911792458" ID="ID_1618010870" MODIFIED="1590911793146" TEXT="map"/>
+</node>
+<node CREATED="1590911793804" ID="ID_232150724" MODIFIED="1590911804022" TEXT="... we think about the process differently"/>
+<node CREATED="1590911810682" ID="ID_144646410" MODIFIED="1590911862988" TEXT="Abstraction barrier">
+<node CREATED="1590911812045" ID="ID_1370578555" MODIFIED="1590911814857" TEXT="Abstraction barrier"/>
+<node CREATED="1590911815222" ID="ID_94970462" MODIFIED="1590911821493" TEXT="... isolate implementation of procedures"/>
+<node CREATED="1590911828269" ID="ID_485572914" MODIFIED="1590911875643" TEXT="... that transforms list "/>
+<node CREATED="1590911838664" ID="ID_1457881423" MODIFIED="1590911880331" TEXT="... to how list is extracted and combined"/>
+</node>
+<node CREATED="1590911863489" ID="ID_407049994" MODIFIED="1590911868511" TEXT="... allow us to change abstraction details"/>
+<node CREATED="1590911894622" ID="ID_1448129317" MODIFIED="1590911914687" TEXT="... while keeping transformation">
+<node CREATED="1590911914956" ID="ID_1168081276" MODIFIED="1590911922269" TEXT="... from sequence"/>
+<node CREATED="1590911918016" ID="ID_918121167" MODIFIED="1590911919718" TEXT="... to sequence"/>
+</node>
 </node>
 </node>
 </node>
