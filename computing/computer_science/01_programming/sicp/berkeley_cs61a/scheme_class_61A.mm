@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1527706601022" ID="ID_1677517690" LINK="https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9" MODIFIED="1590312113800" TEXT="Berkeley cs61a">
 <node CREATED="1528634288534" ID="ID_1361930358" MODIFIED="1528634295540" POSITION="right" TEXT="Class 61A"/>
-<node CREATED="1528227496973" ID="ID_1480196480" MODIFIED="1589107754214" POSITION="right" TEXT="Functional programming">
+<node CREATED="1528227496973" FOLDED="true" ID="ID_1480196480" MODIFIED="1589107754214" POSITION="right" TEXT="Functional programming">
 <icon BUILTIN="full-1"/>
 <node CREATED="1528634083970" FOLDED="true" ID="ID_972019975" MODIFIED="1528634159796" TEXT="Lisp">
 <node CREATED="1528634089906" ID="ID_501513953" MODIFIED="1528634096522" TEXT="LISt Processing"/>
@@ -113,7 +113,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589107723859" ID="ID_1201088196" MODIFIED="1589107788482" POSITION="right" TEXT="Higher-order procedures ">
+<node CREATED="1589107723859" FOLDED="true" ID="ID_1201088196" MODIFIED="1589107788482" POSITION="right" TEXT="Higher-order procedures ">
 <icon BUILTIN="full-2"/>
 <node CREATED="1589107966002" ID="ID_1424676166" MODIFIED="1589107968804" TEXT="Functions as data"/>
 <node CREATED="1589107988982" ID="ID_1775774987" MODIFIED="1589107993493" TEXT="Calculus derivative">
@@ -188,7 +188,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586868215628" ID="ID_327071360" MODIFIED="1589107924192" POSITION="right" TEXT="Order of Growth">
+<node CREATED="1586868215628" FOLDED="true" ID="ID_327071360" MODIFIED="1589107924192" POSITION="right" TEXT="Order of Growth">
 <icon BUILTIN="full-4"/>
 <node CREATED="1586868225011" ID="ID_696253307" MODIFIED="1586868230441" TEXT="Make your program works">
 <node CREATED="1586868230631" ID="ID_1600449246" MODIFIED="1586868235931" TEXT="then think about efficiency"/>
@@ -286,8 +286,7 @@
   <body>
     <img src="order_of_growth_time.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590312559590" FOLDED="true" ID="ID_892145089" MODIFIED="1590312575799" TEXT="Roughly for categories for order of growth">
@@ -330,7 +329,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1590312221639" ID="ID_1452803477" MODIFIED="1590312225274" POSITION="right" TEXT="Recursion and Iteration">
+<node CREATED="1590312221639" FOLDED="true" ID="ID_1452803477" MODIFIED="1591122563715" POSITION="right" TEXT="Recursion and Iteration">
+<icon BUILTIN="full-5"/>
 <node CREATED="1590312858563" ID="ID_1325387540" MODIFIED="1590312863697" TEXT="Memory efficiency">
 <node CREATED="1590312873362" ID="ID_1826982789" MODIFIED="1590312881086" TEXT="More memory require swapping"/>
 <node CREATED="1590312881490" ID="ID_976321733" MODIFIED="1590312884019" TEXT="... so takes time!"/>
@@ -354,8 +354,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(+ 1 (count (bf sent))) ))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590312928623" ID="ID_119170302" MODIFIED="1590312938652" TEXT="Takes &#x398;(N) ">
 <node CREATED="1590312942082" ID="ID_1830192142" MODIFIED="1590312943120" TEXT="time"/>
 <node CREATED="1590312943987" ID="ID_270612142" MODIFIED="1590312946286" TEXT="space"/>
@@ -409,8 +408,7 @@
       6
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590312965638" ID="ID_841442701" MODIFIED="1590312986122" TEXT="... each remembered independent tasks"/>
 <node CREATED="1590312972786" ID="ID_1156192932" MODIFIED="1590312980080" TEXT="... require memory"/>
@@ -440,8 +438,7 @@
       (iter sent 0) )
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590313020202" ID="ID_1682037649" MODIFIED="1590313025011" TEXT="Processing">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -476,8 +473,7 @@
       6
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590313031824" ID="ID_585135694" MODIFIED="1590313035225" TEXT="No more extra memory"/>
 <node CREATED="1590313035614" ID="ID_1049261095" MODIFIED="1590313037834" TEXT="... for scheme">
@@ -517,8 +513,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(pascal (- row 1) col) ))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590313133801" ID="ID_1330997135" MODIFIED="1590313217753" TEXT="Takes &#x398;(2^n) time!"/>
 <node CREATED="1590313238430" ID="ID_1823517330" MODIFIED="1590313242951" TEXT="Compute some entry twice"/>
 <node CREATED="1590313162439" ID="ID_1912465384" MODIFIED="1590313192458" TEXT="Other solution">
@@ -558,8 +553,7 @@
       &#160;&#160;(next-row '(1) row-num) )
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590313196844" ID="ID_300860436" MODIFIED="1590313201658" TEXT="Compute one row at a time"/>
 <node CREATED="1590313202423" ID="ID_1653149137" MODIFIED="1590313204947" TEXT="Harder to write"/>
 <node CREATED="1590313209226" ID="ID_352008765" MODIFIED="1590313224187" TEXT="&#x398;(N^2)"/>
@@ -570,6 +564,325 @@
 <node CREATED="1590313283502" ID="ID_674107279" MODIFIED="1590313288780" TEXT="... instead of trying to gain some microsecond"/>
 <node CREATED="1590313289127" ID="ID_910005541" MODIFIED="1590313291899" TEXT="... on the obvious one!"/>
 </node>
+</node>
+</node>
+<node CREATED="1591122592963" ID="ID_1676986065" MODIFIED="1591122601216" POSITION="right" TEXT="Data Abstraction">
+<icon BUILTIN="full-6"/>
+<node CREATED="1591122616370" ID="ID_1194538243" MODIFIED="1591122619254" TEXT="Big ideas">
+<node CREATED="1591122619531" ID="ID_1870581691" MODIFIED="1591122623773" TEXT="Data abstraction"/>
+<node CREATED="1591122625161" ID="ID_932132554" MODIFIED="1591122628046" TEXT="Abstraction barrier"/>
+</node>
+<node CREATED="1591122636746" ID="ID_320700754" MODIFIED="1591122646893" TEXT="If dealing with specific type of data">
+<node CREATED="1591122647081" ID="ID_1395762267" MODIFIED="1591122651133" TEXT="... care of the meaning"/>
+<node CREATED="1591122651498" ID="ID_1952889710" MODIFIED="1591122660917" TEXT="... not how it&apos;s represented"/>
+<node CREATED="1591122661313" ID="ID_1459493131" MODIFIED="1591122663500" TEXT="... in computer"/>
+</node>
+<node CREATED="1591122735079" ID="ID_844099275" MODIFIED="1591122738234" TEXT="selectors">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591122738807" ID="ID_1074616140" MODIFIED="1591122743371" TEXT="select one component"/>
+<node CREATED="1591122743823" ID="ID_959685666" MODIFIED="1591122752155" TEXT="... of a multi-part datum"/>
+</node>
+<node CREATED="1591122814206" ID="ID_1187650710" MODIFIED="1591122816887" TEXT="constructors">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591122817270" ID="ID_1628221407" MODIFIED="1591122823298" TEXT="Create type of data"/>
+<node CREATED="1591122824161" ID="ID_79351312" MODIFIED="1591122830202" TEXT="Hide representation"/>
+<node CREATED="1591122831518" ID="ID_574945597" MODIFIED="1591122864187" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-card rank suit)
+    </p>
+    <p>
+      &#160;&#160;(word rank (first suit)) )
+    </p>
+    <p>
+      (define make-hand se)
+    </p>
+    <p>
+      &gt; (total (make-hand (make-card 3 &#8217;heart)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(make-card 10 &#8217;club)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(make-card 4 &#8217;diamond) ))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1591122872605" ID="ID_1541136487" MODIFIED="1591122963264" TEXT="Changing implementation of data type">
+<node CREATED="1591122877053" ID="ID_1666317024" MODIFIED="1591122974903" TEXT="Possible with data abstraction"/>
+<node CREATED="1591122887657" ID="ID_1831520295" MODIFIED="1591122898592" TEXT="... without affecting what uses it"/>
+<node CREATED="1591122904892" ID="ID_777327505" MODIFIED="1591122917393" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-card rank suit)
+    </p>
+    <p>
+      &#160;&#160;(cond ((equal? suit &#8217;heart) rank)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((equal? suit &#8217;spade) (+ rank 13))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((equal? suit &#8217;diamond) (+ rank 26))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((equal? suit &#8217;club) (+ rank 39))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;say what?&quot;)) ))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1591122934364" ID="ID_633085013" MODIFIED="1591122940160" TEXT="Don&apos;t need to change"/>
+<node CREATED="1591122940580" ID="ID_272681239" MODIFIED="1591122947543" TEXT="... the procedure total"/>
+</node>
+</node>
+<node CREATED="1591123137136" ID="ID_132489999" MODIFIED="1591123147348" TEXT="Avoid getting confused with lot of data type">
+<node CREATED="1591123147520" ID="ID_96763590" MODIFIED="1591123152148" TEXT="Don&apos;t be religious about it"/>
+<node CREATED="1591123152544" ID="ID_224055177" MODIFIED="1591123161172" TEXT="It sometimes necessary to know implementation"/>
+<node CREATED="1591123161576" ID="ID_212195353" MODIFIED="1591123186425" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591123171912" ID="ID_461164901" MODIFIED="1591123174684" TEXT="Some data type"/>
+<node CREATED="1591123175104" ID="ID_1101591968" MODIFIED="1591123179052" TEXT="...can be more performant"/>
+</node>
+</node>
+<node CREATED="1591123294414" ID="ID_1633483123" MODIFIED="1591123467764" TEXT="Pairs">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591123304797" ID="ID_1556997869" MODIFIED="1591123312761" TEXT="Needs way to aggregate informatin"/>
+<node CREATED="1591123315789" ID="ID_810722985" MODIFIED="1591123321281" TEXT="Many language implement arrays"/>
+<node CREATED="1591123324750" ID="ID_1214310233" MODIFIED="1591123331481" TEXT="In Lisp, pari">
+<node CREATED="1591123332685" ID="ID_581598588" MODIFIED="1591123335745" TEXT="Two things combined"/>
+<node CREATED="1591123336117" ID="ID_1461817106" MODIFIED="1591123339329" TEXT="... to form bigger thing"/>
+</node>
+<node CREATED="1591123347181" ID="ID_592956246" MODIFIED="1591123355864" TEXT="constructor">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591123351180" ID="ID_1657400504" MODIFIED="1591123373397" TEXT="cons">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1591123356869" ID="ID_1575051986" MODIFIED="1591123364033" TEXT="selectors">
+<node CREATED="1591123364252" ID="ID_1132916280" MODIFIED="1591123371837" TEXT="car">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591123848244" ID="ID_525939069" MODIFIED="1591123850080" TEXT="first"/>
+</node>
+<node CREATED="1591123368413" ID="ID_52456149" MODIFIED="1591123372454" TEXT="cdr">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591123850764" ID="ID_1974478087" MODIFIED="1591123851704" TEXT="rest"/>
+</node>
+</node>
+</node>
+<node CREATED="1591123465427" ID="ID_597275337" MODIFIED="1591123489823" TEXT="Data aggregation doesn&#x2019;t have to be primitive">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591123479300" ID="ID_1455963504" MODIFIED="1591123483334" TEXT="If first class function"/>
+<node CREATED="1591123483842" ID="ID_1548505608" MODIFIED="1591123488142" TEXT="... can use function to represent a pair"/>
+<node CREATED="1591123530402" ID="ID_682868394" MODIFIED="1591123539843" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (cons x y)
+    </p>
+    <p>
+      &#160;&#160;(lambda (which)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cond ((equal? which &#8217;car) x)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((equal? which &#8217;cdr) y)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Bad message to CONS&quot; message)) )))
+    </p>
+    <p>
+      (define (car pair)
+    </p>
+    <p>
+      &#160;&#160;(pair &#8217;car))
+    </p>
+    <p>
+      (define (cdr pair)
+    </p>
+    <p>
+      &#160;&#160;(pair &#8217;cdr))
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="wizard"/>
+</node>
+</node>
+<node CREATED="1591123648087" ID="ID_1369727133" MODIFIED="1591123654912" TEXT="Big idea: abstract data type sequence (or list )">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591123699590" ID="ID_118465364" MODIFIED="1591123707739" TEXT="Represent\ ordered sequence of things"/>
+<node CREATED="1591123709166" ID="ID_499128491" MODIFIED="1591123717978" TEXT="constructor">
+<node CREATED="1591123718206" ID="ID_1446247758" MODIFIED="1591123719383" TEXT="list">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1591123720174" ID="ID_461763245" MODIFIED="1591123723458" TEXT="selector">
+<node CREATED="1591123723718" ID="ID_1677284166" MODIFIED="1591123725503" TEXT="nth">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1591123726006" ID="ID_1002251291" MODIFIED="1591123733802" TEXT="... even though it&apos;s sometimes easier"/>
+<node CREATED="1591123734174" ID="ID_1527096041" MODIFIED="1591123746554" TEXT="... to use selectors for">
+<node CREATED="1591123746814" ID="ID_1424131051" MODIFIED="1591123750961" TEXT="first element"/>
+<node CREATED="1591123751366" ID="ID_716779105" MODIFIED="1591123757634" TEXT="everything else"/>
+</node>
+<node CREATED="1591123758309" ID="ID_413737088" MODIFIED="1591123772846" TEXT="... useful for recursive functions">
+<node CREATED="1591123772846" ID="ID_1532686367" MODIFIED="1591123775505" TEXT="mapping"/>
+<node CREATED="1591123775846" ID="ID_335506326" MODIFIED="1591123778617" TEXT="filtering"/>
+</node>
+</node>
+<node CREATED="1591123884907" ID="ID_232760475" MODIFIED="1591123894079" TEXT="Printed using different notation in scheme"/>
+</node>
+<node CREATED="1591123902491" ID="ID_394118825" MODIFIED="1591123905523" TEXT="List constructors">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591123913619" ID="ID_1268299796" MODIFIED="1591123915647" TEXT="Sentence">
+<node CREATED="1591123915803" ID="ID_1230048273" MODIFIED="1591123919231" TEXT="Very simple structure"/>
+<node CREATED="1591123919595" ID="ID_981131231" MODIFIED="1591123923758" TEXT="Only one constructor"/>
+</node>
+<node CREATED="1591123929650" ID="ID_1074131063" MODIFIED="1591123931643" TEXT="List">
+<node CREATED="1591123931643" ID="ID_547501510" MODIFIED="1591123933758" TEXT="More complicated"/>
+<node CREATED="1591123934099" ID="ID_951626975" MODIFIED="1591123938998" TEXT="Three constructors">
+<node CREATED="1591123940954" ID="ID_1343078913" MODIFIED="1591123944066" TEXT="list">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591123952450" ID="ID_1749385047" MODIFIED="1591123959142" TEXT="Any number of args"/>
+<node CREATED="1591123959474" ID="ID_37643840" MODIFIED="1591123962046" TEXT="Could be anything"/>
+<node CREATED="1591123964748" ID="ID_1252516420" MODIFIED="1591123969270" TEXT="Return list containing them"/>
+<node CREATED="1591123976706" ID="ID_1730787596" MODIFIED="1591123980926" TEXT="Need to know how many elements"/>
+<node CREATED="1591123981314" ID="ID_1309619664" MODIFIED="1591123983253" TEXT="... in the list"/>
+<node CREATED="1591124006217" ID="ID_703441916" MODIFIED="1591124015448" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (point x y z)
+    </p>
+    <p>
+      &#160;&#160;(list x y z))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1591124023129" ID="ID_1476689320" MODIFIED="1591124024650" TEXT="cons">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591124024913" ID="ID_737395936" MODIFIED="1591124027885" TEXT="Add one element"/>
+<node CREATED="1591124028233" ID="ID_1879884394" MODIFIED="1591124034157" TEXT=",.. on front of existing list"/>
+<node CREATED="1591124075152" ID="ID_797272243" MODIFIED="1591124082060" TEXT="Most commonly used constructor"/>
+<node CREATED="1591124144871" ID="ID_665656815" MODIFIED="1591124155743" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (map fn seq)
+    </p>
+    <p>
+      &#160;&#160;(if (null? seq)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#8217;()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(CONS (fn (car seq))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(map fn (cdr seq)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1591124110231" ID="ID_33499176" MODIFIED="1591124111832" TEXT="append">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591124115311" ID="ID_1004658343" MODIFIED="1591124120587" TEXT="Combine 2+ lists"/>
+<node CREATED="1591124121193" ID="ID_1389587105" MODIFIED="1591124138707" TEXT="... flattens them"/>
+<node CREATED="1591124139121" ID="ID_419099611" MODIFIED="1591124174360" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (append &#8217;(one list) &#8217;(and another list))
+    </p>
+    <p>
+      (one list and another list)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1591124185511" ID="ID_575353590" MODIFIED="1591124192114" TEXT="Useful for union of sets"/>
+<node CREATED="1591124192622" ID="ID_659820267" MODIFIED="1591124212257" TEXT="... in case of multiple recursive calls"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1591124552119" ID="ID_103644976" MODIFIED="1591124561556" TEXT="Lists vs. sentences">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591124571559" ID="ID_1920939553" MODIFIED="1591124580875" TEXT="sentence abstract data type">
+<node CREATED="1591124581047" ID="ID_686981242" MODIFIED="1591124583107" TEXT="Looks like a list"/>
+<node CREATED="1591124583487" ID="ID_1597680755" MODIFIED="1591124587131" TEXT="What&apos;s the difference?"/>
+</node>
+<node CREATED="1591124595975" ID="ID_409402721" MODIFIED="1591124597499" TEXT="Goal">
+<node CREATED="1591124597791" ID="ID_1729678417" MODIFIED="1591124602459" TEXT="Using aggregates of words"/>
+<node CREATED="1591124602855" ID="ID_1962741614" MODIFIED="1591124610491" TEXT="... without thinking of internal representation"/>
+</node>
+<node CREATED="1591124622118" ID="ID_1869218056" MODIFIED="1591124626506" TEXT="Element of sentence">
+<node CREATED="1591124626718" ID="ID_321113075" MODIFIED="1591124634650" TEXT="Only words"/>
+<node CREATED="1591124635654" ID="ID_376931938" MODIFIED="1591124640330" TEXT="No sublists"/>
+<node CREATED="1591124640994" ID="ID_1432113964" MODIFIED="1591124649402" TEXT="Enforcing with constructor">
+<node CREATED="1591124645758" ID="ID_619132787" MODIFIED="1591124722676" TEXT="sentence">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (se a b)
+    </p>
+    <p>
+      &#160;&#160;(cond ((word? a) (se (list a) b))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((word? b) (se a (list b)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (append a b)) ))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1591124652454" ID="ID_1034547105" MODIFIED="1591124660434" TEXT="Create only sentences"/>
+</node>
+</node>
+</node>
+<node CREATED="1591124804139" ID="ID_1542392694" MODIFIED="1591124823387" TEXT="Box and pointer diagrams. ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>

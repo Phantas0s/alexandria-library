@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1590908413856" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1591120305498" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -81,10 +81,9 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1528634320405" FOLDED="true" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
+<node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
 <node CREATED="1528634606285" FOLDED="true" ID="ID_1929326975" MODIFIED="1587143670696" TEXT="Introduction">
 <node CREATED="1528633486362" ID="ID_1751522928" MODIFIED="1549911501085" TEXT="Act of the mind (Locke)">
@@ -804,8 +803,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
@@ -1865,8 +1863,7 @@
       book.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1590830716462" ID="ID_1679822564" MODIFIED="1590830717950" TEXT="... of cons"/>
@@ -1900,8 +1897,7 @@
   <body>
     <img src="list_example.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1933,8 +1929,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nil)...)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1590909246748" ID="ID_875358917" MODIFIED="1590909267454" TEXT="Representation">
@@ -2008,8 +2003,7 @@
       (5 1 2 3 4)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 <node CREATED="1590909544957" ID="ID_1259360930" MODIFIED="1590909558053" TEXT="Abbreviation for nested car / cdr">
 <node CREATED="1590909558652" ID="ID_1581102800" MODIFIED="1590909558652">
@@ -2022,8 +2016,7 @@
       (cadr&#12296;arg&#12297;) = (car (cdr &#12296;arg&#12297;))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590909574313" ID="ID_315540774" MODIFIED="1590909581342" TEXT="Names procedure">
 <node CREATED="1590909581628" ID="ID_1653757572" MODIFIED="1590909640806" TEXT="Start with &quot;c&quot;"/>
@@ -2084,8 +2077,7 @@
       (list-ref squares 3)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590910967527" ID="ID_1014570563" MODIFIED="1590910989044" TEXT="length">
 <richcontent TYPE="NOTE"><html>
@@ -2115,8 +2107,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590910993675" ID="ID_1845597791" MODIFIED="1590911002669" TEXT="Iterative">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2142,8 +2133,7 @@
       &#160;&#160;(length-iter items 0))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590911053229" ID="ID_255674508" MODIFIED="1590911061348" TEXT="append">
@@ -2206,8 +2196,7 @@
       (10 20 30 40 50)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590911445139" ID="ID_391364555" MODIFIED="1590911451335" TEXT="Map implementation">
 <richcontent TYPE="NOTE"><html>
@@ -2243,8 +2232,7 @@
       (1 4 9 16)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590911618770" ID="ID_27879507" MODIFIED="1590911625218" TEXT="Capture common pattern"/>
@@ -2262,11 +2250,14 @@
 </node>
 <node CREATED="1590911863489" ID="ID_407049994" MODIFIED="1590911868511" TEXT="... allow us to change abstraction details"/>
 <node CREATED="1590911894622" ID="ID_1448129317" MODIFIED="1590911914687" TEXT="... while keeping transformation">
-<node CREATED="1590911914956" ID="ID_1168081276" MODIFIED="1590911922269" TEXT="... from sequence"/>
+<node CREATED="1590911914956" ID="ID_1168081276" MODIFIED="1590913210798" TEXT=""/>
 <node CREATED="1590911918016" ID="ID_918121167" MODIFIED="1590911919718" TEXT="... to sequence"/>
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1591122421069" ID="ID_746511175" MODIFIED="1591122424182" TEXT="2.2.2 Hierarchical Structures ">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
