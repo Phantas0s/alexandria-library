@@ -611,8 +611,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(make-card 4 &#8217;diamond) ))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1591122872605" ID="ID_1541136487" MODIFIED="1591122963264" TEXT="Changing implementation of data type">
@@ -643,8 +642,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;say what?&quot;)) ))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1591122934364" ID="ID_633085013" MODIFIED="1591122940160" TEXT="Don&apos;t need to change"/>
 <node CREATED="1591122940580" ID="ID_272681239" MODIFIED="1591122947543" TEXT="... the procedure total"/>
 </node>
@@ -721,8 +719,7 @@
       &#160;&#160;(pair &#8217;cdr))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 </node>
@@ -779,8 +776,7 @@
       &#160;&#160;(list x y z))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1591124023129" ID="ID_1476689320" MODIFIED="1591124024650" TEXT="cons">
@@ -810,8 +806,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(map fn (cdr seq)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1591124110231" ID="ID_33499176" MODIFIED="1591124111832" TEXT="append">
@@ -831,8 +826,7 @@
       (one list and another list)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1591124185511" ID="ID_575353590" MODIFIED="1591124192114" TEXT="Useful for union of sets"/>
 <node CREATED="1591124192622" ID="ID_659820267" MODIFIED="1591124212257" TEXT="... in case of multiple recursive calls"/>
@@ -873,16 +867,167 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (append a b)) ))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1591124652454" ID="ID_1034547105" MODIFIED="1591124660434" TEXT="Create only sentences"/>
 </node>
 </node>
 </node>
-<node CREATED="1591124804139" ID="ID_1542392694" MODIFIED="1591124823387" TEXT="Box and pointer diagrams. ">
+<node CREATED="1591124804139" ID="ID_1542392694" MODIFIED="1591172181346" TEXT="Box and pointer diagrams">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591172256622" ID="ID_222954581" MODIFIED="1591172257744" TEXT="Rules">
+<node CREATED="1591172209305" ID="ID_1067614198" MODIFIED="1591172263404" TEXT="An arrow can&apos;t point to half of a pair">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1591172264413" ID="ID_388219167" MODIFIED="1591172317429" TEXT="Direction of arrow is irrelevant">
+<icon BUILTIN="full-2"/>
+<node CREATED="1591172280356" ID="ID_1693992874" MODIFIED="1591172287601" TEXT="Arrow head is mandatory!"/>
+<node CREATED="1591172288006" ID="ID_1604071481" MODIFIED="1591172297737" TEXT="Make the arrangement">
+<node CREATED="1591172297916" ID="ID_1980075984" MODIFIED="1591172298712" TEXT="clear"/>
+<node CREATED="1591172299110" ID="ID_1261649739" MODIFIED="1591172299992" TEXT="neat"/>
+</node>
+</node>
+<node CREATED="1591172330789" ID="ID_280830620" MODIFIED="1591172361864" TEXT="There must be a top-level arrow">
+<icon BUILTIN="full-3"/>
+<node CREATED="1591172348501" ID="ID_1414061143" MODIFIED="1591172359505" TEXT="Show where structure begins"/>
+<node CREATED="1591172437523" ID="ID_828839772" MODIFIED="1591172467543" TEXT="Diagram for complicated list">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591172476896" ID="ID_672901004" MODIFIED="1591172476896" TEXT="((a b) c (d (e f)))"/>
+<node CREATED="1591172488082" ID="ID_776301176" MODIFIED="1591172657282" TEXT="How many elements?">
+<node CREATED="1591172493610" ID="ID_1505297691" MODIFIED="1591172497103" TEXT="(a b)"/>
+<node CREATED="1591172497588" ID="ID_1443708359" MODIFIED="1591172499317" TEXT="c"/>
+<node CREATED="1591172500050" ID="ID_1951741093" MODIFIED="1591172506046" TEXT="(d (e f))"/>
+<node CREATED="1591172510050" ID="ID_942299340" MODIFIED="1591172593414" TEXT="... draw three pairs">
+<icon BUILTIN="licq"/>
+<node CREATED="1591172586684" ID="ID_1181556390" MODIFIED="1591172589535">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="complicated_pair_diagram.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1591172669521" ID="ID_1828833551" MODIFIED="1591172710062" TEXT="MapReduce">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591172732728" ID="ID_1209840506" MODIFIED="1591172857674" TEXT="Computation of a lot of data in parallel"/>
+<node CREATED="1591172858455" ID="ID_949794097" MODIFIED="1591172865564" TEXT="Functional programming well suited for that">
+<node CREATED="1591172868463" ID="ID_205658323" MODIFIED="1591172881094" TEXT="Independent procedures"/>
+</node>
+<node CREATED="1591172754993" ID="ID_1079558646" MODIFIED="1591172758036" TEXT="Workflow">
+<node CREATED="1591172758214" ID="ID_1115847829" MODIFIED="1591172771032" TEXT="Map">
+<icon BUILTIN="full-1"/>
+<node CREATED="1591172820472" ID="ID_1879308305" MODIFIED="1591172823868" TEXT="One argument function"/>
+</node>
+<node CREATED="1591172760616" ID="ID_1559843601" MODIFIED="1591172771778" TEXT="Accumulate">
+<icon BUILTIN="full-2"/>
+<node CREATED="1591172763992" ID="ID_1613822918" MODIFIED="1591172768997" TEXT="... also called reduce"/>
+<node CREATED="1591172828280" ID="ID_602560220" MODIFIED="1591172831836" TEXT="Two arguments function"/>
+</node>
+</node>
+<node CREATED="1591172799992" ID="ID_1099783351" MODIFIED="1591173270653" TEXT="Toy example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591173020743" ID="ID_1716607364" MODIFIED="1591173026259" TEXT="Only one processor"/>
+<node CREATED="1591173026894" ID="ID_372151367" MODIFIED="1591173031346" TEXT="Small amount of data"/>
+<node CREATED="1591173272516" ID="ID_1321705789" MODIFIED="1591173280432" TEXT="Base code">
+<node CREATED="1591173292373" ID="ID_1217450458" MODIFIED="1591173318062" TEXT="(define make-kv-pair cons)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1591173298763" ID="ID_1903151939" MODIFIED="1591173318069" TEXT="(define kv-key car)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1591173284129" ID="ID_1111203104" MODIFIED="1591173318064">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define kv-value cdr)
+    </p>
+  </body>
+</html></richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1591172969519" ID="ID_1078162757" MODIFIED="1591172977587" TEXT="List of key value pair">
+<node CREATED="1591172977911" ID="ID_847050629" MODIFIED="1591172984219" TEXT="association list"/>
+<node CREATED="1591172985134" ID="ID_941982201" MODIFIED="1591172990611" TEXT="... a-list for short"/>
+</node>
+<node CREATED="1591173003029" ID="ID_961841646" MODIFIED="1591173007386" TEXT="input of mapReduce">
+<node CREATED="1591173007552" ID="ID_1625328539" MODIFIED="1591173008979" TEXT="a-list"/>
+<node CREATED="1591173014685" ID="ID_1541465231" MODIFIED="1591173019674" TEXT="In practice, several of them"/>
+<node CREATED="1591173073158" ID="ID_1406957182" MODIFIED="1591173085658" TEXT="... each on one processor"/>
+</node>
+<node CREATED="1591173090646" ID="ID_584380818" MODIFIED="1591173096722" TEXT="Any computation with two function arguments">
+<node CREATED="1591173097054" ID="ID_1791399873" MODIFIED="1591173197991" TEXT="mapper">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591173191405" ID="ID_1979383410" MODIFIED="1591173193056" TEXT="(map mapper data) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1591173099086" ID="ID_294958802" MODIFIED="1591173100887" TEXT="reducer">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1591173439171" ID="ID_952344050" MODIFIED="1591173441207" TEXT="Workflow">
+<node CREATED="1591173221453" ID="ID_48646537" MODIFIED="1591173353141" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1591173254364" ID="ID_1431346420" MODIFIED="1591173257127">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="map_reduce.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1591173446491" ID="ID_1699352439" MODIFIED="1591173456287" TEXT="Argument for mapper always kv-pair">
+<node CREATED="1591173461067" ID="ID_1587418095" MODIFIED="1591173467687" TEXT="Key to keep track where data comes from"/>
+<node CREATED="1591173479499" ID="ID_1233470155" MODIFIED="1591173491208" TEXT="Most use of a-list">
+<node CREATED="1591173491451" ID="ID_973625818" MODIFIED="1591173494263" TEXT="Only one kv pair"/>
+<node CREATED="1591173494667" ID="ID_1223967512" MODIFIED="1591173508455" TEXT="... for given key"/>
+</node>
+<node CREATED="1591173512426" ID="ID_1091538765" MODIFIED="1591173515383" TEXT="... but not true here"/>
+</node>
+<node CREATED="1591173522386" ID="ID_982425067" MODIFIED="1591173537640" TEXT="Value returned by mapper">
+<node CREATED="1591173527987" ID="ID_1210662134" MODIFIED="1591173540790" TEXT="list of kv pairs"/>
+</node>
+<node CREATED="1591173583707" ID="ID_1447362981" MODIFIED="1591173587182" TEXT="Sorted based on key">
+<node CREATED="1591173587314" ID="ID_1071343286" MODIFIED="1591173592566" TEXT="Mapping can occurs on any machine"/>
+<node CREATED="1591173592970" ID="ID_1903723834" MODIFIED="1591173597413" TEXT="... not true for reducer">
+<node CREATED="1591173597642" ID="ID_202732470" MODIFIED="1591173619190" TEXT="Data needs to be combined"/>
+<node CREATED="1591173619562" ID="ID_329958774" MODIFIED="1591173626214" TEXT="... so need to know on which machine"/>
+<node CREATED="1591173626538" ID="ID_58067618" MODIFIED="1591173627877" TEXT="... is data"/>
+</node>
+<node CREATED="1591173639346" ID="ID_583293559" MODIFIED="1591173646318" TEXT="... where keys is important">
+<node CREATED="1591173656450" ID="ID_427468668" MODIFIED="1591173667790" TEXT="kv pairs sorted by key"/>
+<node CREATED="1591173668178" ID="ID_619179983" MODIFIED="1591173684902" TEXT="... then pairs with same keys"/>
+<node CREATED="1591173685263" ID="ID_1752985505" MODIFIED="1591173688389" TEXT="... reduced together"/>
+</node>
+<node CREATED="1591173715673" ID="ID_373189193" MODIFIED="1591173724253" TEXT="Reducer don&apos;t care about keys anymore"/>
+</node>
+<node CREATED="1591173725881" ID="ID_1524770810" MODIFIED="1591173727894" TEXT="Result">
+<node CREATED="1591173728097" ID="ID_1114171493" MODIFIED="1591173733101" TEXT="a-list"/>
+<node CREATED="1591173742145" ID="ID_780333539" MODIFIED="1591173746893" TEXT="Each key occurs only once"/>
+<node CREATED="1591173758489" ID="ID_589976064" MODIFIED="1591173761853" TEXT="Key in order"/>
+</node>
+<node CREATED="1591173942720" ID="ID_1067077367" MODIFIED="1591173945220" TEXT="Toy project">
+<node CREATED="1591173946023" ID="ID_1160090962" MODIFIED="1591173964027" TEXT="See the course notes p.292"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
