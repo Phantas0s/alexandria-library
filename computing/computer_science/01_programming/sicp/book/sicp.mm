@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1591120305498" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1591346513765" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -81,9 +81,10 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
+<node CREATED="1528634320405" FOLDED="true" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
 <node CREATED="1528634606285" FOLDED="true" ID="ID_1929326975" MODIFIED="1587143670696" TEXT="Introduction">
 <node CREATED="1528633486362" ID="ID_1751522928" MODIFIED="1549911501085" TEXT="Act of the mind (Locke)">
@@ -683,7 +684,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528913874738" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
+<node CREATED="1528913874738" FOLDED="true" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
 <node CREATED="1589458544735" FOLDED="true" ID="ID_653912668" MODIFIED="1589458547948" TEXT="Introduction">
 <node CREATED="1589458548819" ID="ID_86441762" MODIFIED="1589458650910" TEXT="Visualise consequences of actions"/>
 <node CREATED="1589458555794" ID="ID_910828291" MODIFIED="1589458641944" TEXT="... crucial for an expert programmer"/>
@@ -772,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1590908413891" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1591346513799" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -803,7 +804,8 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
