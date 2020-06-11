@@ -1,27 +1,9 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1590406411005" ID="ID_381599990" MODIFIED="1590685875739" TEXT="WebGL Fundamentals">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      var primitiveType = gl.TRIANGLES;
-    </p>
-    <p>
-      var offset = 0;
-    </p>
-    <p>
-      var count = 3;
-    </p>
-    <p>
-      gl.drawArrays(primitiveType, offset, count);
-    </p>
-  </body>
-</html>
-</richcontent>
-<node CREATED="1590605094864" ID="ID_1038173199" LINK="https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html" MODIFIED="1590605108901" POSITION="right" TEXT="Fundamentals">
+<node CREATED="1590406411005" ID="ID_381599990" LINK="https://webglfundamentals.org/" MODIFIED="1591553891504" TEXT="WebGL Fundamentals">
+<node CREATED="1590605094864" ID="ID_1038173199" MODIFIED="1591553868890" POSITION="right" TEXT="Fundamentals">
+<icon BUILTIN="full-1"/>
+<node CREATED="1591553810149" ID="ID_104883405" LINK="https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html" MODIFIED="1591553875288" TEXT="Fundamentals">
 <icon BUILTIN="full-1"/>
 <node CREATED="1590418451905" FOLDED="true" ID="ID_1056379698" MODIFIED="1590419582341" TEXT="Introduction">
 <icon BUILTIN="full-1"/>
@@ -1508,7 +1490,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590605112739" ID="ID_1377676251" LINK="https://webglfundamentals.org/webgl/lessons/webgl-how-it-works.html" MODIFIED="1590605125604" POSITION="right" TEXT="How it Works">
+<node CREATED="1590605112739" FOLDED="true" ID="ID_1377676251" LINK="https://webglfundamentals.org/webgl/lessons/webgl-how-it-works.html" MODIFIED="1590605125604" TEXT="How it Works">
 <icon BUILTIN="full-2"/>
 <node CREATED="1590605141796" FOLDED="true" ID="ID_807865558" MODIFIED="1590605206760" TEXT="Introduction">
 <icon BUILTIN="full-1"/>
@@ -1828,8 +1810,8 @@
       &#160;&#160;&#160;&#160;offsetIntoBuffer);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -1838,6 +1820,429 @@
 <node CREATED="1590686384297" ID="ID_508571800" MODIFIED="1590686387656" POSITION="left" TEXT="Tools">
 <icon BUILTIN="full-0"/>
 <node CREATED="1590686376813" ID="ID_1988794580" LINK="https://webglfundamentals.org/webgl/lessons/resources/webgl-state-diagram.html" MODIFIED="1590686390537" TEXT="State Diagram"/>
+</node>
+<node CREATED="1591552484266" ID="ID_683036326" MODIFIED="1591553859127" POSITION="right" TEXT="Image Processing">
+<icon BUILTIN="full-2"/>
+<node CREATED="1591553834562" ID="ID_1869754097" LINK="https://webglfundamentals.org/webgl/lessons/webgl-image-processing.html" MODIFIED="1591553862413" TEXT="Image Processing">
+<icon BUILTIN="full-1"/>
+<node CREATED="1591552713765" ID="ID_535810940" MODIFIED="1591552718233" TEXT="Need to use textures"/>
+<node CREATED="1591552722891" ID="ID_1694394990" MODIFIED="1591552731571" TEXT="Expect texture coordinates when reading texture">
+<node CREATED="1591552740054" ID="ID_870691754" MODIFIED="1591552741935" TEXT="From 0.0"/>
+<node CREATED="1591552752173" ID="ID_1343104203" MODIFIED="1591552754912" TEXT="To 1.0"/>
+</node>
+<node CREATED="1591552911019" ID="ID_628136399" MODIFIED="1591552921037" TEXT="Drawing two triangles">
+<node CREATED="1591552924682" ID="ID_1625429707" MODIFIED="1591552931615" TEXT="Needs to tell WebGL"/>
+<node CREATED="1591552932034" ID="ID_1159819303" MODIFIED="1591552937022" TEXT="... each points correspond to"/>
+</node>
+<node CREATED="1591552941659" ID="ID_922016407" MODIFIED="1591552944471" TEXT="Pass information">
+<node CREATED="1591552944867" ID="ID_160612478" MODIFIED="1591552949623" TEXT="from vertex shader"/>
+<node CREATED="1591552949946" ID="ID_555250482" MODIFIED="1591552954478" TEXT="... to fragment shader"/>
+<node CREATED="1591553000818" ID="ID_1015617213" MODIFIED="1591553005414" TEXT="... which draw pixels"/>
+</node>
+<node CREATED="1591552963034" ID="ID_101409711" MODIFIED="1591552966663" TEXT="... using a varying">
+<node CREATED="1591552966828" ID="ID_755198888" MODIFIED="1591552976118" TEXT="Special kind of variable"/>
+<node CREATED="1591552976546" ID="ID_547102932" MODIFIED="1591552980696" TEXT="... which varies"/>
+</node>
+<node CREATED="1591553382073" ID="ID_1635465847" LINK="https://codepen.io/pen/?&amp;editable=true&amp;editors=101&amp;prefill_data_id=0653da10-8b18-0138-daa4-02420aff0004&amp;referer=https%3A%2F%2Fwebglfundamentals.org%2Fwebgl%2Flessons%2Fwebgl-image-processing.html" MODIFIED="1591553849730" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &quot;use strict&quot;;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      function main() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var image = new Image();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;image.src = &quot;https://webglfundamentals.org/webgl/resources/leaves.jpg&quot;;&#160;&#160;// MUST BE SAME DOMAIN!!!
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;image.onload = function() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;render(image);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;};
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      function render(image) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Get A WebGL context
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** @type {HTMLCanvasElement} */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var canvas = document.querySelector(&quot;#canvas&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var gl = canvas.getContext(&quot;webgl&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (!gl) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// setup GLSL program
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var program = webglUtils.createProgramFromScripts(gl, [&quot;vertex-shader-2d&quot;, &quot;fragment-shader-2d&quot;]);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// look up where the vertex data needs to go.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var positionLocation = gl.getAttribLocation(program, &quot;a_position&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var texcoordLocation = gl.getAttribLocation(program, &quot;a_texCoord&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Create a buffer to put three 2d clip space points in
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var positionBuffer = gl.createBuffer();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Bind it to ARRAY_BUFFER (think of it as ARRAY_BUFFER = positionBuffer)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Set a rectangle the same size as the image.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;setRectangle(gl, 0, 0, image.width, image.height);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// provide texture coordinates for the rectangle.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var texcoordBuffer = gl.createBuffer();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.bindBuffer(gl.ARRAY_BUFFER, texcoordBuffer);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0.0,&#160;&#160;0.0,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1.0,&#160;&#160;0.0,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0.0,&#160;&#160;1.0,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0.0,&#160;&#160;1.0,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1.0,&#160;&#160;0.0,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1.0,&#160;&#160;1.0,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;]), gl.STATIC_DRAW);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Create a texture.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var texture = gl.createTexture();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.bindTexture(gl.TEXTURE_2D, texture);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Set the parameters so we can render any size image.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Upload the image into the texture.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// lookup uniforms
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var resolutionLocation = gl.getUniformLocation(program, &quot;u_resolution&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;webglUtils.resizeCanvasToDisplaySize(gl.canvas);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Tell WebGL how to convert from clip space to pixels
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Clear the canvas
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.clearColor(0, 0, 0, 0);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.clear(gl.COLOR_BUFFER_BIT);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Tell it to use our program (pair of shaders)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.useProgram(program);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Turn on the position attribute
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.enableVertexAttribArray(positionLocation);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Bind the position buffer.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Tell the position attribute how to get data out of positionBuffer (ARRAY_BUFFER)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var size = 2;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// 2 components per iteration
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var type = gl.FLOAT;&#160;&#160;&#160;// the data is 32bit floats
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var normalize = false; // don't normalize the data
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var stride = 0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// 0 = move forward size * sizeof(type) each iteration to get the next position
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var offset = 0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// start at the beginning of the buffer
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.vertexAttribPointer(
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;positionLocation, size, type, normalize, stride, offset);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Turn on the texcoord attribute
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.enableVertexAttribArray(texcoordLocation);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// bind the texcoord buffer.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.bindBuffer(gl.ARRAY_BUFFER, texcoordBuffer);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Tell the texcoord attribute how to get data out of texcoordBuffer (ARRAY_BUFFER)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var size = 2;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// 2 components per iteration
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var type = gl.FLOAT;&#160;&#160;&#160;// the data is 32bit floats
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var normalize = false; // don't normalize the data
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var stride = 0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// 0 = move forward size * sizeof(type) each iteration to get the next position
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var offset = 0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// start at the beginning of the buffer
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.vertexAttribPointer(
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;texcoordLocation, size, type, normalize, stride, offset);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// set the resolution
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.uniform2f(resolutionLocation, gl.canvas.width, gl.canvas.height);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// Draw the rectangle.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var primitiveType = gl.TRIANGLES;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var offset = 0;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var count = 6;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.drawArrays(primitiveType, offset, count);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      function setRectangle(gl, x, y, width, height) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var x1 = x;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var x2 = x + width;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var y1 = y;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var y2 = y + height;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x1, y1,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x2, y1,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x1, y2,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x1, y2,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x2, y1,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x2, y2,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;]), gl.STATIC_DRAW);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      main();
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>
