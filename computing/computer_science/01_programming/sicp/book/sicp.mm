@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1591868532946" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1591948404256" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -773,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1591868532980" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1591948404294" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1388,8 +1388,8 @@
 </node>
 </node>
 <node CREATED="1590762716523" ID="ID_531962734" MODIFIED="1590762724258" TEXT="2.1 Introduction do Data Abstractoin">
-<node CREATED="1590763193716" ID="ID_474787162" MODIFIED="1590763196174" TEXT="Introduction">
-<node CREATED="1590762778933" ID="ID_460518805" MODIFIED="1590762784986" TEXT="More complex procedure">
+<node CREATED="1590763193716" FOLDED="true" ID="ID_474787162" MODIFIED="1590763196174" TEXT="Introduction">
+<node CREATED="1590762778933" FOLDED="true" ID="ID_460518805" MODIFIED="1590762784986" TEXT="More complex procedure">
 <node CREATED="1590762785216" ID="ID_615491137" MODIFIED="1590762791978" TEXT="Collection of particular operations"/>
 <node CREATED="1590762792643" ID="ID_1295245277" MODIFIED="1590762872962" TEXT="Procedural abstraction">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -1400,7 +1400,7 @@
 <node CREATED="1590762835153" ID="ID_507535765" MODIFIED="1590762839475" TEXT="... with same overall behavior"/>
 </node>
 </node>
-<node CREATED="1590762854363" ID="ID_347898317" MODIFIED="1590762868419" TEXT="Analogous notion for compound data">
+<node CREATED="1590762854363" FOLDED="true" ID="ID_347898317" MODIFIED="1590762868419" TEXT="Analogous notion for compound data">
 <node CREATED="1590762868649" ID="ID_1169413900" MODIFIED="1590762873483" TEXT="Data abstraction">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -1426,14 +1426,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1590763197771" ID="ID_1574264284" MODIFIED="1590763200212" TEXT="2.1.1 Example: Arithmetic Operations for Rational Numbers ">
-<node CREATED="1590763275193" ID="ID_206133839" MODIFIED="1590763298342" TEXT="Need to perform operations on rationals">
+<node CREATED="1590763197771" FOLDED="true" ID="ID_1574264284" MODIFIED="1590763200212" TEXT="2.1.1 Example: Arithmetic Operations for Rational Numbers ">
+<node CREATED="1590763275193" FOLDED="true" ID="ID_206133839" MODIFIED="1590763298342" TEXT="Need to perform operations on rationals">
 <node CREATED="1590763282834" ID="ID_220114235" MODIFIED="1590763283577" TEXT="add"/>
 <node CREATED="1590763283973" ID="ID_899731273" MODIFIED="1590763311061" TEXT="substract"/>
 <node CREATED="1590763311463" ID="ID_1543017012" MODIFIED="1590763314554" TEXT="multiply"/>
 <node CREATED="1590763314925" ID="ID_155281263" MODIFIED="1590763316181" TEXT="divide"/>
 </node>
-<node CREATED="1590763317456" ID="ID_296783692" MODIFIED="1590763357244" TEXT="constructor">
+<node CREATED="1590763317456" FOLDED="true" ID="ID_296783692" MODIFIED="1590763357244" TEXT="constructor">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1590763357550" ID="ID_575223108" MODIFIED="1590763367090" TEXT="(make-rat n d)">
 <node CREATED="1590763367293" ID="ID_1546324382" MODIFIED="1590763378118" TEXT="Return rational number"/>
@@ -1445,7 +1445,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590763389418" ID="ID_1749073711" MODIFIED="1590763392844" TEXT="selectors">
+<node CREATED="1590763389418" FOLDED="true" ID="ID_1749073711" MODIFIED="1590763392844" TEXT="selectors">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1590763393164" ID="ID_1066140736" MODIFIED="1590763417906" TEXT="(num x)">
 <node CREATED="1590763398323" ID="ID_346669868" MODIFIED="1590763405112" TEXT="return numerator of x"/>
@@ -1454,7 +1454,7 @@
 <node CREATED="1590763409645" ID="ID_731633289" MODIFIED="1590763414170" TEXT="return denominator of x"/>
 </node>
 </node>
-<node CREATED="1590763486350" ID="ID_1598401828" MODIFIED="1590763489558" TEXT="Wishful thinking">
+<node CREATED="1590763486350" FOLDED="true" ID="ID_1598401828" MODIFIED="1590763489558" TEXT="Wishful thinking">
 <node CREATED="1590763498312" ID="ID_1769013779" MODIFIED="1590763501949" TEXT="Strategy of synthesis"/>
 <node CREATED="1590763489713" ID="ID_1900155848" MODIFIED="1590763496179" TEXT="We don&apos;t know how all of that is implemented"/>
 <node CREATED="1590763533909" ID="ID_1310806869" MODIFIED="1590763591757" TEXT="We can even implement operations">
@@ -1518,11 +1518,11 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1590827555730" ID="ID_344787197" MODIFIED="1590827564492" TEXT="Needs to glue together">
+<node CREATED="1590827555730" FOLDED="true" ID="ID_344787197" MODIFIED="1590827564492" TEXT="Needs to glue together">
 <node CREATED="1590827564790" ID="ID_1149584409" MODIFIED="1590827566570" TEXT="nominator"/>
 <node CREATED="1590827566936" ID="ID_1927006499" MODIFIED="1590827570195" TEXT="denominator"/>
 </node>
-<node CREATED="1590827581092" ID="ID_1482114875" MODIFIED="1590827582417" TEXT="Pairs">
+<node CREATED="1590827581092" FOLDED="true" ID="ID_1482114875" MODIFIED="1590827582417" TEXT="Pairs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1590827669160" ID="ID_472001089" MODIFIED="1590827670386" TEXT="pair">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -1610,7 +1610,7 @@
 <node CREATED="1590828181537" ID="ID_887600188" MODIFIED="1590828187909" TEXT="data constructed from pairs"/>
 </node>
 </node>
-<node CREATED="1590828200114" ID="ID_1659861867" MODIFIED="1590828201980" TEXT="Representing rational numbers ">
+<node CREATED="1590828200114" FOLDED="true" ID="ID_1659861867" MODIFIED="1590828201980" TEXT="Representing rational numbers ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1590828233846" ID="ID_638517557" MODIFIED="1590828263325" TEXT="Implementation">
 <richcontent TYPE="NOTE"><html>
@@ -1656,13 +1656,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1590828400846" ID="ID_432143703" MODIFIED="1590828402063" TEXT="2.1.2 Abstraction Barriers ">
-<node CREATED="1590828421731" ID="ID_949377487" MODIFIED="1590828428326" TEXT="Underlying idea of data abstraction">
+<node CREATED="1590828400846" FOLDED="true" ID="ID_432143703" MODIFIED="1590828402063" TEXT="2.1.2 Abstraction Barriers ">
+<node CREATED="1590828421731" ID="ID_949377487" MODIFIED="1590828428326" TEXT="Underlying idea of data abstraction"/>
 <node CREATED="1590828431842" ID="ID_1078044444" MODIFIED="1590828441912" TEXT="Identify for each type of data object"/>
 <node CREATED="1590828442666" ID="ID_41342702" MODIFIED="1590828449104" TEXT="... a basic set of operations"/>
 <node CREATED="1590828449509" ID="ID_1235035523" MODIFIED="1590828491160" TEXT="... manipulating data object of that type"/>
 <node CREATED="1590828474713" ID="ID_1409618886" MODIFIED="1590828509626" TEXT="Only use these operations to manipulate the data"/>
-<node CREATED="1590828519957" ID="ID_37730316" MODIFIED="1590828522857" TEXT="Abstraction barrier">
+<node CREATED="1590828519957" FOLDED="true" ID="ID_37730316" MODIFIED="1590828522857" TEXT="Abstraction barrier">
 <node CREATED="1590828523086" ID="ID_769852443" MODIFIED="1590828543215" TEXT="Isolate different &quot;levels&quot; of the system"/>
 <node CREATED="1590828561066" ID="ID_869930041" MODIFIED="1590828570117" TEXT="At each level barrier separates">
 <node CREATED="1590828571767" ID="ID_988298411" MODIFIED="1590828602960" TEXT="Programs (above) that use the data abstraction"/>
@@ -1734,9 +1734,8 @@
 </node>
 </node>
 </node>
-</node>
-<node CREATED="1590829488840" ID="ID_1693763654" MODIFIED="1590829489554" TEXT="2.1.3 What Is Meant by Data? ">
-<node CREATED="1590829552179" ID="ID_580072416" MODIFIED="1590829559622" TEXT="In general, collection">
+<node CREATED="1590829488840" FOLDED="true" ID="ID_1693763654" MODIFIED="1590829489554" TEXT="2.1.3 What Is Meant by Data? ">
+<node CREATED="1590829552179" FOLDED="true" ID="ID_580072416" MODIFIED="1590829559622" TEXT="In general, collection">
 <node CREATED="1590829559804" ID="ID_664340793" MODIFIED="1590829562412" TEXT="selectors"/>
 <node CREATED="1590829562745" ID="ID_138237895" MODIFIED="1590829564605" TEXT="constructors"/>
 <node CREATED="1590829568057" ID="ID_1512783603" MODIFIED="1590829575741" TEXT="... with specified conditions"/>
@@ -1802,8 +1801,8 @@
 </node>
 <node CREATED="1590830355637" ID="ID_1473538386" MODIFIED="1590830356319" TEXT="2.1.4 Extended Exercise: Interval Arithmetic "/>
 <node CREATED="1590830397204" ID="ID_1410375303" MODIFIED="1590830397900" TEXT="2.2 Hierarchical Data and the Closure Property ">
-<node CREATED="1590830572641" ID="ID_28105509" MODIFIED="1590830584323" TEXT="Introduction">
-<node CREATED="1590830584536" ID="ID_431387783" MODIFIED="1590830592046" TEXT="Visualising a pair">
+<node CREATED="1590830572641" FOLDED="true" ID="ID_28105509" MODIFIED="1590830584323" TEXT="Introduction">
+<node CREATED="1590830584536" FOLDED="true" ID="ID_431387783" MODIFIED="1590830592046" TEXT="Visualising a pair">
 <node CREATED="1590830510078" ID="ID_1769313214" MODIFIED="1590830519212" TEXT="box-and-pointer notation">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -1833,7 +1832,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590830675247" ID="ID_1439233587" MODIFIED="1590830683823" TEXT="Creating pairs from pairs">
+<node CREATED="1590830675247" FOLDED="true" ID="ID_1439233587" MODIFIED="1590830683823" TEXT="Creating pairs from pairs">
 <node CREATED="1590830684708" ID="ID_1964850961" MODIFIED="1590908452104" TEXT="Essence of list structure&apos;s importance"/>
 <node CREATED="1590908453404" ID="ID_19371117" MODIFIED="1590908458007" TEXT="... as a representation tool"/>
 <node CREATED="1590830699236" ID="ID_730502498" MODIFIED="1590830726524" TEXT="Ability called">
@@ -1871,7 +1870,7 @@
 <node CREATED="1590830716462" ID="ID_1679822564" MODIFIED="1590830717950" TEXT="... of cons"/>
 </node>
 </node>
-<node CREATED="1590908497893" ID="ID_1215441161" MODIFIED="1590908499248" TEXT="Closure">
+<node CREATED="1590908497893" FOLDED="true" ID="ID_1215441161" MODIFIED="1590908499248" TEXT="Closure">
 <node CREATED="1590908499464" ID="ID_1566779558" MODIFIED="1590908504034" TEXT="Key to power of combination"/>
 <node CREATED="1590908504487" ID="ID_1666742199" MODIFIED="1590908513654" TEXT="Permits to create hierarchical structures">
 <node CREATED="1590908514804" ID="ID_1825594783" MODIFIED="1590908519675" TEXT="Structures made up of parts"/>
@@ -1883,13 +1882,12 @@
 <node CREATED="1590908591796" ID="ID_213629250" MODIFIED="1590908611649" TEXT="Very important for compound data"/>
 </node>
 </node>
-<node CREATED="1590908627826" ID="ID_802755279" MODIFIED="1590908632313" TEXT="2.2.1 Representing Sequences">
+<node CREATED="1590908627826" FOLDED="true" ID="ID_802755279" MODIFIED="1590908632313" TEXT="2.2.1 Representing Sequences">
 <node CREATED="1590908859244" ID="ID_1643291695" MODIFIED="1590908869435" TEXT="Many ways to represent sequences with pairs"/>
-<node CREATED="1590908941624" ID="ID_907219260" MODIFIED="1590908942883" TEXT="List">
-<node CREATED="1590908870078" ID="ID_1340977596" MODIFIED="1590908909168" TEXT="Example">
+<node CREATED="1590908941624" FOLDED="true" ID="ID_907219260" MODIFIED="1590908942883" TEXT="List">
+<node CREATED="1590908870078" ID="ID_1340977596" MODIFIED="1591948873179" TEXT="Examples">
 <icon BUILTIN="wizard"/>
-<node CREATED="1590908872674" ID="ID_1677034220" MODIFIED="1590908888055" TEXT="Sequence 1, 2, 3, 4"/>
-<node CREATED="1590909002148" ID="ID_1814130845" MODIFIED="1590909005885" TEXT="Illustration">
+<node CREATED="1590908872674" ID="ID_1677034220" MODIFIED="1591948881372" TEXT="Sequence 1, 2, 3, 4">
 <icon BUILTIN="licq"/>
 <node CREATED="1590909006330" ID="ID_1953024416" MODIFIED="1590909009167">
 <richcontent TYPE="NODE"><html>
@@ -2045,11 +2043,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1590909214193" ID="ID_1529466003" MODIFIED="1590909216623" TEXT="List structure">
+<node CREATED="1590909214193" FOLDED="true" ID="ID_1529466003" MODIFIED="1590909216623" TEXT="List structure">
 <node CREATED="1590909220811" ID="ID_942484385" MODIFIED="1590909226867" TEXT="Any data structure made of pairs"/>
 <node CREATED="1590909227406" ID="ID_710483281" MODIFIED="1590909229714" TEXT="... not just lists!"/>
 </node>
-<node CREATED="1590910313527" ID="ID_350212195" MODIFIED="1590910315619" TEXT="List operations ">
+<node CREATED="1590910313527" FOLDED="true" ID="ID_350212195" MODIFIED="1590910315619" TEXT="List operations ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1590910355050" ID="ID_1178553049" MODIFIED="1590910375499" TEXT="Often manipulate lists by &quot;cdring down&quot; the lists"/>
 <node CREATED="1590910582430" ID="ID_1149146590" MODIFIED="1590911065568" TEXT="Example">
@@ -2162,7 +2160,7 @@
 <node CREATED="1590910588269" ID="ID_619056271" MODIFIED="1590910987543" TEXT="Return nth element of list"/>
 </node>
 </node>
-<node CREATED="1590911336190" ID="ID_1388155253" MODIFIED="1590911337705" TEXT="Mapping over lists ">
+<node CREATED="1590911336190" FOLDED="true" ID="ID_1388155253" MODIFIED="1590911337705" TEXT="Mapping over lists ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1590911344876" ID="ID_292875472" MODIFIED="1590911353826" TEXT="Apply some transformation"/>
 <node CREATED="1590911354733" ID="ID_837943568" MODIFIED="1590911361657" TEXT="... to each element of list"/>
@@ -2251,16 +2249,779 @@
 <node CREATED="1590911838664" ID="ID_1457881423" MODIFIED="1590911880331" TEXT="... to how list is extracted and combined"/>
 </node>
 <node CREATED="1590911863489" ID="ID_407049994" MODIFIED="1590911868511" TEXT="... allow us to change abstraction details"/>
-<node CREATED="1590911894622" ID="ID_1448129317" MODIFIED="1590911914687" TEXT="... while keeping transformation">
-<node CREATED="1590911914956" ID="ID_1168081276" MODIFIED="1590913210798" TEXT=""/>
+<node CREATED="1590911894622" ID="ID_1448129317" MODIFIED="1590911914687" TEXT="... while keeping transformation"/>
 <node CREATED="1590911918016" ID="ID_918121167" MODIFIED="1590911919718" TEXT="... to sequence"/>
 </node>
 </node>
 </node>
-</node>
-<node CREATED="1591122421069" ID="ID_746511175" MODIFIED="1591122424182" TEXT="2.2.2 Hierarchical Structures ">
+<node CREATED="1591122421069" FOLDED="true" ID="ID_746511175" MODIFIED="1591122424182" TEXT="2.2.2 Hierarchical Structures ">
 <font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591948982169" ID="ID_1551478346" MODIFIED="1591949036659" TEXT="List can represent sequence of sequence"/>
+<node CREATED="1591949101319" ID="ID_1344037324" MODIFIED="1591949108875" TEXT="Can be represented as a tree">
+<node CREATED="1591949113005" ID="ID_1792600942" MODIFIED="1591949149147" TEXT="Elements of sequences are the branches"/>
+<node CREATED="1591949127039" ID="ID_1847653042" MODIFIED="1591949144747" TEXT="Subtree if the element is another sequence"/>
 </node>
+<node CREATED="1591949044656" ID="ID_624769578" MODIFIED="1591949061187" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591949163870" ID="ID_1157944996" MODIFIED="1591949169455" TEXT="(cons (list 1 2) (list 3 4))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1591948834264" ID="ID_1582862133" MODIFIED="1591949174855" TEXT="box diagram">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1591948837673" ID="ID_5436605" MODIFIED="1591948869252">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="example_box_diagram_cons.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1591949176209" ID="ID_336655191" MODIFIED="1591949177034" TEXT="Tree">
+<node CREATED="1591949237885" ID="ID_1623668751" MODIFIED="1591949252401">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="example_tree_cons.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1591949269949" ID="ID_901753977" MODIFIED="1591949280289" TEXT="Natural tool to deal with tree structures">
+<node CREATED="1591949280494" ID="ID_1438496740" MODIFIED="1591949282592" TEXT="Recursion"/>
+<node CREATED="1591949287150" ID="ID_1451675716" MODIFIED="1591949291954" TEXT="Can reduce operations on trees"/>
+<node CREATED="1591949292335" ID="ID_445412967" MODIFIED="1591949298490" TEXT="... on operations on their branches"/>
+<node CREATED="1591949301470" ID="ID_1862821248" MODIFIED="1591949311698" TEXT="... which reduce on operations of the branches of the branches"/>
+<node CREATED="1591949312076" ID="ID_1265184991" MODIFIED="1591949330521" TEXT="... until the leaves of the tree"/>
+</node>
+<node CREATED="1591949420275" ID="ID_1502934922" MODIFIED="1591949520570" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591949425180" ID="ID_714780965" MODIFIED="1591949565854" TEXT="Implementation of count-leaves">
+<node CREATED="1591949429669" ID="ID_373891908" MODIFIED="1591949433576" TEXT="Count the leaves of a tree"/>
+</node>
+<node CREATED="1591949435979" ID="ID_727347060" MODIFIED="1591949549285" TEXT="(cons (list 1 2) (list 3 4))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591949461548" ID="ID_433512795" MODIFIED="1591949550123" TEXT="(length x)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591949463187" ID="ID_460074813" MODIFIED="1591949464144" TEXT="3"/>
+</node>
+<node CREATED="1591949467989" ID="ID_72592518" MODIFIED="1591949556237" TEXT="(count-leaves x)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591949469059" ID="ID_1663285147" MODIFIED="1591949470360" TEXT="4"/>
+</node>
+</node>
+<node CREATED="1591949479875" ID="ID_846302240" MODIFIED="1591949540440" TEXT="Recursion for length">
+<node CREATED="1591949504595" ID="ID_217460701" MODIFIED="1591949506743" TEXT="base step">
+<node CREATED="1591949499491" ID="ID_575060878" MODIFIED="1591949500304" TEXT="length of the empty list is 0"/>
+</node>
+<node CREATED="1591949510347" ID="ID_1730980578" MODIFIED="1591949513328" TEXT="recursive step">
+<node CREATED="1591949484524" ID="ID_181426567" MODIFIED="1591949485018" TEXT="length of a list x is 1 plus length of the cdr of x. "/>
+</node>
+</node>
+<node CREATED="1591949541407" ID="ID_768378544" MODIFIED="1591949546927" TEXT="Recursion for count-leaves">
+<node CREATED="1591949575635" ID="ID_1749469223" MODIFIED="1591949591319" TEXT="base step">
+<node CREATED="1591949577786" ID="ID_755658382" MODIFIED="1591949583383" TEXT="count-leaves of empty list is 0"/>
+</node>
+<node CREATED="1591949585435" ID="ID_1290294229" MODIFIED="1591949589231" TEXT="recursive step">
+<node CREATED="1591949600531" ID="ID_1051152228" MODIFIED="1591949612856" TEXT="car might be a tree with leaves"/>
+<node CREATED="1591949613962" ID="ID_148581319" MODIFIED="1591949623933" TEXT="count-leaves of a tree x is count-leaves of the car of x "/>
+<node CREATED="1591949627819" ID="ID_869678538" MODIFIED="1591949629461" TEXT="....  plus count-leaves of the cdr of x. "/>
+</node>
+<node CREATED="1591949635970" ID="ID_734459083" MODIFIED="1591949642245" TEXT="Need another base case">
+<node CREATED="1591949643170" ID="ID_717423400" MODIFIED="1591949643654" TEXT="count-leaves of a leaf is 1. "/>
+</node>
+</node>
+<node CREATED="1591949654618" ID="ID_1819671168" MODIFIED="1591949700811" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (count-leaves x)
+    </p>
+    <p>
+      &#160;&#160;(cond ((null? x) 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((not (pair? x)) 1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (+ (count-leaves (car x))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(count-leaves (cdr x))))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1591949727469" ID="ID_1046351623" MODIFIED="1591949775196" TEXT="Mapping over trees ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591949780537" ID="ID_127150098" MODIFIED="1591949783749" TEXT="Map and recursion">
+<node CREATED="1591949783897" ID="ID_1350168283" MODIFIED="1591949789589" TEXT="Powerful to deal with trees"/>
+</node>
+<node CREATED="1591949801074" ID="ID_1429145965" MODIFIED="1591949806396" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591949807466" ID="ID_64471542" MODIFIED="1591949811509" TEXT="Scale tree"/>
+<node CREATED="1591949835697" ID="ID_1411075702" MODIFIED="1591949838148" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (scale-tree tree factor)
+    </p>
+    <p>
+      &#160;&#160;(cond ((null? tree) nil)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((not (pair? tree)) (* tree factor))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (cons (scale-tree (car tree) factor)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(scale-tree (cdr tree) factor)))))
+    </p>
+    <p>
+      (scale-tree (list 1 (list 2 (list 3 4) 5) (list 6 7)) 10)
+    </p>
+    <p>
+      (10 (20 (30 40) 50) (60 70))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1591950065398" ID="ID_105455684" MODIFIED="1591950135903" TEXT="With map">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (scale-tree tree factor)
+    </p>
+    <p>
+      &#160;&#160;(map (lambda (sub-tree)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if (pair? sub-tree)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(scale-tree sub-tree factor)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* sub-tree factor)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;tree))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1591950177737" FOLDED="true" ID="ID_1745815614" MODIFIED="1591950178488" TEXT="2.2.3 Sequences as Conventional Interfaces ">
+<node CREATED="1591950201821" FOLDED="true" ID="ID_1014208181" MODIFIED="1591950209162" TEXT="Compound data">
+<node CREATED="1591950209390" ID="ID_1766788809" MODIFIED="1591950225218" TEXT="Design program without worrying about details of data abstraction"/>
+<node CREATED="1591950225989" ID="ID_1007693502" MODIFIED="1591950240482" TEXT="Enable us to experiment with alternative representation"/>
+</node>
+<node CREATED="1591950271365" FOLDED="true" ID="ID_1057236821" MODIFIED="1591950279191" TEXT="conventional interfaces">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591950279446" ID="ID_939193057" MODIFIED="1591950286882" TEXT="Another powerful design principle"/>
+</node>
+<node CREATED="1591950516348" FOLDED="true" ID="ID_757356308" MODIFIED="1591950524933" TEXT="Two similar structure">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591950538452" ID="ID_537078534" MODIFIED="1591950662204" TEXT="Procedure 1">
+<node CREATED="1591950533300" ID="ID_6530439" MODIFIED="1591950564728" TEXT="takes a tree as argument"/>
+<node CREATED="1591950554156" ID="ID_733453095" MODIFIED="1591950556433" TEXT="... and computes the sum of the squares"/>
+<node CREATED="1591950560892" ID="ID_1143893095" MODIFIED="1591950562432" TEXT="... of the leaves that are odd"/>
+<node CREATED="1591950570012" ID="ID_466383558" MODIFIED="1591950578954" TEXT="code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (sum-odd-squares tree)
+    </p>
+    <p>
+      &#160;&#160;(cond ((null? tree) 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((not (pair? tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if (odd? tree) (square tree) 0))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (+ (sum-odd-squares (car tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(sum-odd-squares (cdr tree))))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1591950580580" ID="ID_384228858" MODIFIED="1591950665431" TEXT="Procedure 2">
+<node CREATED="1591950587108" ID="ID_310613485" MODIFIED="1591950603615" TEXT="Construct a list of all even Fibonacci numbers Fib(k)"/>
+<node CREATED="1591950605216" ID="ID_1447674776" MODIFIED="1591950614623" TEXT="... when k is less or equal to integer n"/>
+<node CREATED="1591950618411" ID="ID_1396085448" MODIFIED="1591950644512" TEXT="code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (even-fibs n)
+    </p>
+    <p>
+      &#160;&#160;(define (next k)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if (&gt; k n)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;nil
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(let ((f (fib k)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if (even? f)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons f (next (+ k 1)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(next (+ k 1))))))
+    </p>
+    <p>
+      &#160;&#160;(next 0))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1591950648771" ID="ID_1488153558" MODIFIED="1591951018347" TEXT="Signal flaw structure">
+<node CREATED="1591950675843" ID="ID_148475355" MODIFIED="1591950782270" TEXT="Let&apos;s analyze their flow"/>
+<node CREATED="1591950680691" ID="ID_289985617" MODIFIED="1591950682767" TEXT="Procedure 1">
+<node CREATED="1591950749690" ID="ID_856466066" MODIFIED="1591950752688">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="procedure_1_interface_example.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1591950746475" ID="ID_1416019908" MODIFIED="1591950748687" TEXT="Procedure 2">
+<node CREATED="1591950754322" ID="ID_1927032451" MODIFIED="1591950757884">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="procedure_2_interface_example.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1591950768900" ID="ID_1851293681" MODIFIED="1591950777328" TEXT="Similarity between two programs!"/>
+<node CREATED="1591950822826" ID="ID_1471663448" MODIFIED="1591950835493" TEXT="Can conceptualize in terms of signals flowing"/>
+<node CREATED="1591950836204" ID="ID_953178684" MODIFIED="1591950843053" TEXT="... through cascade of stages"/>
+<node CREATED="1591950843834" ID="ID_1040001349" MODIFIED="1591950908700" TEXT="Both procedure more or less ">
+<node CREATED="1591950859194" ID="ID_1966389189" MODIFIED="1591950938075" TEXT="Enumerator">
+<icon BUILTIN="full-1"/>
+<node CREATED="1591950910817" ID="ID_1207738853" MODIFIED="1591950914405" TEXT="Create a &quot;signal&quot;"/>
+</node>
+<node CREATED="1591950865889" ID="ID_1297352790" MODIFIED="1591950939250" TEXT="Filter">
+<icon BUILTIN="full-2"/>
+<node CREATED="1591950915433" ID="ID_347899336" MODIFIED="1591950921988" TEXT="&quot;signal&quot; filtered through"/>
+</node>
+<node CREATED="1591950872978" ID="ID_921000661" MODIFIED="1591950940481" TEXT="Map">
+<icon BUILTIN="full-3"/>
+<node CREATED="1591950878673" ID="ID_1888415524" MODIFIED="1591950927085" TEXT="&quot;transducer&quot;"/>
+</node>
+<node CREATED="1591950885657" ID="ID_868173686" MODIFIED="1591950941246" TEXT="Accumulator">
+<icon BUILTIN="full-4"/>
+<node CREATED="1591950930658" ID="ID_878222354" MODIFIED="1591950932637" TEXT="Combine elements"/>
+</node>
+</node>
+<node CREATED="1591950964361" ID="ID_1289841349" MODIFIED="1591950972739" TEXT="... however not really visible"/>
+<node CREATED="1591950973233" ID="ID_37805320" MODIFIED="1591950980716" TEXT="... when looking at the code itself"/>
+</node>
+</node>
+<node CREATED="1591950996424" ID="ID_1155668277" MODIFIED="1591951031676" TEXT="... should reorganize program "/>
+<node CREATED="1591951032256" ID="ID_660189621" MODIFIED="1591951037628" TEXT="... to make the signal flaw structure manifest"/>
+<node CREATED="1591951062577" FOLDED="true" ID="ID_1709351365" MODIFIED="1591951064714" TEXT="Sequence Operations ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591951072799" ID="ID_633589172" MODIFIED="1591951079260" TEXT="Key for signal flaw structure">
+<node CREATED="1591951084487" ID="ID_1117188563" MODIFIED="1591951088628" TEXT="Concentrate on the &quot;signals&quot;"/>
+<node CREATED="1591951089360" ID="ID_985378779" MODIFIED="1591951094980" TEXT="... that flow from one stage"/>
+<node CREATED="1591951095352" ID="ID_162751690" MODIFIED="1591951097252" TEXT="... to the next"/>
+</node>
+<node CREATED="1591951105112" ID="ID_1858204011" MODIFIED="1591951112603" TEXT="Represent signals as lists">
+<node CREATED="1591951117535" ID="ID_1145465893" MODIFIED="1591951120908" TEXT="Implement list operations"/>
+<node CREATED="1591951121296" ID="ID_47999644" MODIFIED="1591951129875" TEXT="... for implement processing"/>
+<node CREATED="1591951130228" ID="ID_701268598" MODIFIED="1591951132123" TEXT="... at each stage"/>
+</node>
+<node CREATED="1591951152999" ID="ID_564163630" MODIFIED="1591951381450" TEXT="Mapping a sequence">
+<node CREATED="1591951150911" ID="ID_1988768307" MODIFIED="1591951367352" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591951158279" ID="ID_429218085" MODIFIED="1591951162457" TEXT="(map square (list 1 2 3 4 5)) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1591951172577" ID="ID_1981228117" MODIFIED="1591951202523" TEXT="Filtering a sequence ">
+<node CREATED="1591951202927" ID="ID_1941458281" MODIFIED="1591951209314" TEXT=".... selecting only elements"/>
+<node CREATED="1591951209879" ID="ID_1631265646" MODIFIED="1591951211297" TEXT="...  satisfying a predicate"/>
+<node CREATED="1591951190919" ID="ID_1818957837" MODIFIED="1591951230552" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (filter predicate sequence)
+    </p>
+    <p>
+      &#160;&#160;(cond ((null? sequence) nil)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((predicate (car sequence))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons (car sequence)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(filter predicate (cdr sequence))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (filter predicate (cdr sequence)))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591951231775" ID="ID_1828316892" MODIFIED="1591951236346" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591951237674" ID="ID_665335601" MODIFIED="1591951244793" TEXT="(filter odd? (list 1 2 3 4 5))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1591951237677" ID="ID_1807138235" MODIFIED="1591951244792" TEXT="(1 3 5)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1591951259271" ID="ID_1579061388" MODIFIED="1591951264027" TEXT="Accumulating a sequence">
+<node CREATED="1591951267135" ID="ID_194145295" MODIFIED="1591951283004" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (accumulate op initial sequence)
+    </p>
+    <p>
+      &#160;&#160;(if (null? sequence)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;initial
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(op (car sequence)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(accumulate op initial (cdr sequence)))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591951288246" ID="ID_436621161" MODIFIED="1591951322621" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591951292847" ID="ID_1341314633" MODIFIED="1591951294496" TEXT="(accumulate + 0 (list 1 2 3 4 5)) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591951295246" ID="ID_212546421" MODIFIED="1591951296466" TEXT="15"/>
+</node>
+<node CREATED="1591951299294" ID="ID_50038736" MODIFIED="1591951300887" TEXT="(accumulate * 1 (list 1 2 3 4 5)) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591951303030" ID="ID_1582670891" MODIFIED="1591951306785" TEXT="120"/>
+</node>
+<node CREATED="1591951311343" ID="ID_778123333" MODIFIED="1591951313272" TEXT="(accumulate cons nil (list 1 2 3 4 5)) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591951315989" ID="ID_1930855624" MODIFIED="1591951318085" TEXT="(1 2 3 4 5) "/>
+</node>
+</node>
+</node>
+<node CREATED="1591951502637" ID="ID_715399254" MODIFIED="1591951511010" TEXT="Enumerate sequence of elements">
+<node CREATED="1591951580213" ID="ID_1832664646" MODIFIED="1591951583952" TEXT="For even-fibs"/>
+<node CREATED="1591951585798" ID="ID_648349" MODIFIED="1591951591889" TEXT="... generate sequence of integers in a range"/>
+<node CREATED="1591951592396" ID="ID_41393236" MODIFIED="1591951600191" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (enumerate-interval low high)
+    </p>
+    <p>
+      &#160;&#160;(if (&gt; low high)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;nil
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cons low (enumerate-interval (+ low 1) high))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591951605684" ID="ID_1760257323" MODIFIED="1591951620804" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591951609836" ID="ID_1187061772" MODIFIED="1591951611509" TEXT="(enumerate-interval 2 7) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591951615374" ID="ID_1452186162" MODIFIED="1591951615849" TEXT="(2 3 4 5 6 7) "/>
+</node>
+</node>
+<node CREATED="1591951636876" ID="ID_511915908" MODIFIED="1591951641296" TEXT="Enumerate leaves of a tree">
+<node CREATED="1591951641964" ID="ID_1222988237" MODIFIED="1591951667616" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (enumerate-tree tree)
+    </p>
+    <p>
+      &#160;&#160;(cond ((null? tree) nil)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((not (pair? tree)) (list tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (append (enumerate-tree (car tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(enumerate-tree (cdr tree))))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1591951747363" ID="ID_1727594837" MODIFIED="1591951763889" TEXT="New sum-odd-squares">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (sum-odd-squares tree)
+    </p>
+    <p>
+      &#160;&#160;(accumulate
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;+ 0 (map square (filter odd? (enumerate-tree tree)))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591951861915" ID="ID_753928147" MODIFIED="1591951881536" TEXT="New even-fibs">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (even-fibs n)
+    </p>
+    <p>
+      &#160;&#160;(accumulate
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;cons
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;nil
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(filter even? (map fib (enumerate-interval 0 n)))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591971750338" ID="ID_1166465501" MODIFIED="1591971759323" TEXT="Value of programs as sequence operations">
+<node CREATED="1591971759823" ID="ID_334959134" MODIFIED="1591971766715" TEXT="Help us make modular programs"/>
+<node CREATED="1591971774287" ID="ID_200452625" MODIFIED="1591971786475" TEXT="Encourage modular design">
+<node CREATED="1591971786655" ID="ID_272853940" MODIFIED="1591971793618" TEXT="Library of standard components"/>
+<node CREATED="1591971813102" ID="ID_742278708" MODIFIED="1591971820762" TEXT="... with conventional interface"/>
+<node CREATED="1591971821539" ID="ID_1399674209" MODIFIED="1591971825378" TEXT="... to connect components"/>
+<node CREATED="1591971825716" ID="ID_997081148" MODIFIED="1591971828570" TEXT="... in flexible ways"/>
+</node>
+</node>
+<node CREATED="1591971972318" ID="ID_883877031" MODIFIED="1591971976793" TEXT="... powerful against complexity">
+<node CREATED="1591972002118" ID="ID_1398005052" MODIFIED="1591972011702" TEXT="Can reuse the pieces independently"/>
+</node>
+<node CREATED="1591972529242" ID="ID_1566849118" MODIFIED="1591972545006" TEXT="When representing structures as sequence">
+<node CREATED="1591972545186" ID="ID_919244395" MODIFIED="1591972559166" TEXT="Localized data structure dependencies"/>
+<node CREATED="1591972559633" ID="ID_100406469" MODIFIED="1591972566702" TEXT="... in small number of sequence operations"/>
+<node CREATED="1591972568722" ID="ID_1349828060" MODIFIED="1591972579764" TEXT="Then can experiment alternative representation of sequence"/>
+<node CREATED="1591972580185" ID="ID_1411335769" MODIFIED="1591972584982" TEXT="... without touching design of application"/>
+</node>
+</node>
+<node CREATED="1591973081062" FOLDED="true" ID="ID_657538141" MODIFIED="1591973082744" TEXT="Nested Mappings ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#338800" CREATED="1591973719961" ID="ID_463895588" MODIFIED="1591973743503" TEXT="Many good example in the book">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+<node CREATED="1591973744706" ID="ID_1512296879" MODIFIED="1591973747677" TEXT="p166"/>
+</node>
+<node CREATED="1591973388056" ID="ID_952327954" MODIFIED="1591973398168" TEXT="Nested mapping expressed by nested loop"/>
+<node CREATED="1591973399236" ID="ID_741743979" MODIFIED="1591973415264" TEXT="... can be expressed via sequence paradigm"/>
+<node CREATED="1591973426220" ID="ID_585914046" MODIFIED="1591973427552" TEXT="Example">
+<node CREATED="1591973490603" ID="ID_1002588174" MODIFIED="1591973594416" TEXT="Accumulate">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (accumulate
+    </p>
+    <p>
+      &#160;&#160;append nil (map (lambda (i)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(map (lambda (j) (list i j))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(enumerate-interval 1 (- i 1))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(enumerate-interval 1 n)))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591973615786" ID="ID_1870698645" MODIFIED="1591973624774" TEXT="Filter">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (prime-sum? pair)
+    </p>
+    <p>
+      &#160;&#160;(prime? (+ (car pair) (cadr pair))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591973666794" ID="ID_570540465" MODIFIED="1591973681682" TEXT="Map">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-pair-sum pair)
+    </p>
+    <p>
+      &#160;&#160;(list (car pair) (cadr pair) (+ (car pair) (cadr pair))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591973685180" ID="ID_611095251" MODIFIED="1591973694452" TEXT="Complete procedure">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (prime-sum-pairs n)
+    </p>
+    <p>
+      &#160;&#160;(map make-pair-sum
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(filter prime-sum? (flatmap
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (i)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(map (lambda (j) (list i j))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(enumerate-interval 1 (- i 1))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(enumerate-interval 1 n)))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1591973554523" ID="ID_1035539875" MODIFIED="1591973575286" TEXT="Combination of mapping + accumulating very common">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (flatmap proc seq)
+    </p>
+    <p>
+      &#160;&#160;(accumulate append nil (map proc seq)))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591973703370" ID="ID_1973093489" MODIFIED="1591973709462" TEXT="Useful for more than sequence with intervals">
+<node CREATED="1591973791729" ID="ID_461201596" MODIFIED="1591973897475" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591973793177" ID="ID_806578617" MODIFIED="1591973798733" TEXT="All set permutation possible"/>
+<node CREATED="1591973799776" ID="ID_1632982193" MODIFIED="1591973936857" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (permutations s)
+    </p>
+    <p>
+      &#160;&#160;(if (null? s)&#160;&#160;&#160;&#160;; empty set?
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(list nil)&#160;&#160;&#160;&#160;&#160;&#160;; sequence containing empty set
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(flatmap (lambda (x)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(map (lambda (p) (cons x p))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(permutations (remove x s))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;s)))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1591974154559" ID="ID_1128850495" MODIFIED="1591974162953" TEXT="2.2.4 Example: A Picture Language "/>
+</node>
+<node CREATED="1591974184598" ID="ID_1935549889" MODIFIED="1591974188702" TEXT="2.3 Symbolic Data">
+<node CREATED="1591974244686" ID="ID_1072378530" MODIFIED="1591974246434" TEXT="Introduction">
+<node CREATED="1591974218422" ID="ID_1948395330" MODIFIED="1591974226778" TEXT="Not only working with numbers"/>
+<node CREATED="1591974234678" ID="ID_1411560606" MODIFIED="1591974239690" TEXT="... but with symbols as data"/>
+</node>
+<node CREATED="1591974240838" ID="ID_707299399" MODIFIED="1591974264666" TEXT="2.3.1 Quotation">
+<node CREATED="1591974297046" ID="ID_17601004" MODIFIED="1591974301440" TEXT="Can have list with symbols">
+<node CREATED="1591974301652" ID="ID_918969219" MODIFIED="1591974327906" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591974303845" ID="ID_1426258233" MODIFIED="1591974323479" TEXT="(a b c d)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1591974307405" ID="ID_992180856" MODIFIED="1591974323486" TEXT="(23 45 17)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1591974316238" ID="ID_816633763" MODIFIED="1591974323480" TEXT="((Norah 12) (Molly 9) (Anna 7) (Lauren 6) (Charlotte 4)) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1591974342605" ID="ID_543655790" MODIFIED="1591974350537" TEXT="Need a new element in the language">
+<node CREATED="1591974350757" ID="ID_1394445883" MODIFIED="1591974352262" TEXT="quotes">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1591974357677" ID="ID_254750789" MODIFIED="1591974362208" TEXT="... a data object"/>
+<node CREATED="1591974371477" ID="ID_1364931508" MODIFIED="1591974481433" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591974374541" ID="ID_704724438" MODIFIED="1591974457560" TEXT="(list a b)"/>
+<node CREATED="1591974460980" ID="ID_259944283" MODIFIED="1591974473048" TEXT="... construct list of the values a and b"/>
+<node CREATED="1591974474972" ID="ID_431094456" MODIFIED="1591974478664" TEXT="... so we need something else"/>
+</node>
+<node CREATED="1591974513284" ID="ID_1533473855" MODIFIED="1591974522936" TEXT="Quotation in natural language">
+<node CREATED="1591974523099" ID="ID_1737109134" MODIFIED="1591974532584" TEXT="Ask for syntax"/>
+<node CREATED="1591974532985" ID="ID_815245845" MODIFIED="1591974534840" TEXT="... not semantic"/>
+<node CREATED="1591974535189" ID="ID_1789069057" MODIFIED="1591974536640" TEXT="Example">
+<node CREATED="1591974543676" ID="ID_1620195055" MODIFIED="1591974544374" TEXT="&#x201c;say your name aloud,&#x201d;">
+<node CREATED="1591974552701" ID="ID_1630129048" MODIFIED="1591974555560" TEXT="Expect the name"/>
+</node>
+<node CREATED="1591974550460" ID="ID_888179910" MODIFIED="1591974551032" TEXT=" &#x201c;say &#x2018;your name&#x2019; aloud,&#x201d;">
+<node CREATED="1591974557852" ID="ID_1128952817" MODIFIED="1591974561208" TEXT="Expect &quot;your name&quot;"/>
+</node>
+</node>
+</node>
+<node CREATED="1591974627851" ID="ID_1887557493" MODIFIED="1591974656219" TEXT="In LISP, quote differentiate value and data object"/>
+<node CREATED="1591974641771" ID="ID_295871823" MODIFIED="1591974649167" TEXT="Syntax is only one quote at beginning">
+<node CREATED="1591974756803" ID="ID_1615043127" MODIFIED="1591974764703" TEXT="Only syntaxic sugar or the function">
+<node CREATED="1591974764883" ID="ID_1326991360" MODIFIED="1591974767612" TEXT="quote">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1591974674410" ID="ID_1978957455" MODIFIED="1591974693445" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1591974676542" ID="ID_329889133" MODIFIED="1591974700222" TEXT="(define a 1)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1591974676544" ID="ID_759765452" MODIFIED="1591974700223" TEXT="(define b 2)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1591974676545" ID="ID_339310477" MODIFIED="1591974700223" TEXT="(list a b)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591974676546" ID="ID_1355380466" MODIFIED="1591974705053" TEXT="(1 2)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1591974676546" ID="ID_1745850379" MODIFIED="1591974700223" TEXT="(list &apos;a &apos;b)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591974676547" ID="ID_669671842" MODIFIED="1591974705052" TEXT="(a b)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1591974676548" ID="ID_660109263" MODIFIED="1591974700222" TEXT="(list &apos;a b)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591974676548" ID="ID_1228924755" MODIFIED="1591974705053" TEXT="(a 2)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1591974836146" ID="ID_1996470756" MODIFIED="1591974837576" TEXT="2.3.2 Example: Symbolic Differentiation "/>
+<node CREATED="1591974850849" ID="ID_891188873" MODIFIED="1591974859557" TEXT="2.3.3 Example: Representing Sets "/>
 </node>
 </node>
 </node>
