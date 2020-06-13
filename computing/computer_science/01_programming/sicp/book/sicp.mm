@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1591948404256" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1592030169219" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -773,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1591948404294" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1592030169257" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2289,8 +2289,7 @@
   <body>
     <img src="example_tree_cons.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2360,8 +2359,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(count-leaves (cdr x))))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1591949727469" ID="ID_1046351623" MODIFIED="1591949775196" TEXT="Mapping over trees ">
@@ -2400,8 +2398,7 @@
       (10 (20 (30 40) 50) (60 70))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1591950065398" ID="ID_105455684" MODIFIED="1591950135903" TEXT="With map">
 <richcontent TYPE="NOTE"><html>
@@ -2428,8 +2425,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;tree))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3021,7 +3017,417 @@
 </node>
 </node>
 <node CREATED="1591974836146" ID="ID_1996470756" MODIFIED="1591974837576" TEXT="2.3.2 Example: Symbolic Differentiation "/>
-<node CREATED="1591974850849" ID="ID_891188873" MODIFIED="1591974859557" TEXT="2.3.3 Example: Representing Sets "/>
+<node CREATED="1591974850849" ID="ID_891188873" MODIFIED="1591974859557" TEXT="2.3.3 Example: Representing Sets ">
+<node CREATED="1592030315412" ID="ID_451506854" MODIFIED="1592030328443" TEXT="Representation of a set is less obvious"/>
+<node CREATED="1592030332851" ID="ID_498815184" MODIFIED="1592030340359" TEXT="What&apos;s a set?">
+<node CREATED="1592030340531" ID="ID_578425848" MODIFIED="1592030347801" TEXT="Collection of distincts objects"/>
+<node CREATED="1592030569625" ID="ID_70594910" MODIFIED="1592030572984" TEXT="To be more precise">
+<node CREATED="1592030574073" ID="ID_1196240852" MODIFIED="1592030577607" TEXT="Can use data abstraction"/>
+<node CREATED="1592030578409" ID="ID_1165865137" MODIFIED="1592030591990" TEXT="... defining set by specifying operations be used on sets"/>
+</node>
+<node CREATED="1592030597323" ID="ID_280217973" MODIFIED="1592030601543" TEXT="... these are">
+<node CREATED="1592030601714" ID="ID_1409740409" MODIFIED="1592030625176" TEXT="union-set">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1592030713488" ID="ID_1112456844" MODIFIED="1592030719182" TEXT="compute union of two sets"/>
+</node>
+<node CREATED="1592030604984" ID="ID_1497096582" MODIFIED="1592030625178" TEXT="intersection-set">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1592030610629" ID="ID_834277886" MODIFIED="1592030625178" TEXT="element-of-set?">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1592030615257" ID="ID_463986218" MODIFIED="1592030625177" TEXT="adjoin-set">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1592030698161" ID="ID_618025560" MODIFIED="1592030700325" TEXT="Add element to set"/>
+</node>
+</node>
+</node>
+<node CREATED="1592030774439" ID="ID_97826711" MODIFIED="1592030776129" TEXT="Sets as unordered lists ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1592030785416" ID="ID_164084918" MODIFIED="1592030804828" TEXT="Set is a list of elements"/>
+<node CREATED="1592030805184" ID="ID_1095191743" MODIFIED="1592030810060" TEXT="... where no elements appear more than once"/>
+<node CREATED="1592030813002" ID="ID_334773337" MODIFIED="1592030815348" TEXT="Empty set">
+<node CREATED="1592030815583" ID="ID_933018795" MODIFIED="1592030819355" TEXT="Represented by empty list"/>
+</node>
+<node CREATED="1592030836672" ID="ID_94183017" MODIFIED="1592031413472" TEXT="element-of-set?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (element-of-set? x set)
+    </p>
+    <p>
+      &#160;(cond ((null? set) false)
+    </p>
+    <p>
+      &#160;&#160;((equal? x (car set)) true)
+    </p>
+    <p>
+      &#160;&#160;(else (element-of-set? x (cdr set)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1592031394357" ID="ID_849905436" MODIFIED="1592031400007" TEXT="Order of growth">
+<node CREATED="1592031400180" ID="ID_1870875429" MODIFIED="1592031402064" TEXT="Worst case">
+<node CREATED="1592031402364" ID="ID_98239071" MODIFIED="1592031409256" TEXT="Element is not in set"/>
+</node>
+<node CREATED="1592031418972" ID="ID_1178886159" MODIFIED="1592031424840" TEXT="... need to scan the entire set"/>
+<node CREATED="1592031439005" ID="ID_653525256" MODIFIED="1592031439433" TEXT="&#x398;(n)"/>
+</node>
+</node>
+<node CREATED="1592030879408" ID="ID_16880040" MODIFIED="1592030909370" TEXT="adjoin-set">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (adjoin-set x set)
+    </p>
+    <p>
+      &#160;(if (element-of-set? x set)
+    </p>
+    <p>
+      &#160;&#160;set
+    </p>
+    <p>
+      &#160;&#160;(cons x set)))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1592031394357" ID="ID_1124763298" MODIFIED="1592031400007" TEXT="Order of growth">
+<node CREATED="1592031451091" ID="ID_1161468515" MODIFIED="1592031456525" TEXT="Use element-of-set?"/>
+<node CREATED="1592031439005" ID="ID_188808638" MODIFIED="1592031439433" TEXT="&#x398;(n)"/>
+</node>
+</node>
+<node CREATED="1592030905343" ID="ID_100904465" MODIFIED="1592031276315" TEXT="intersection-set">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (intersection-set set1 set2)
+    </p>
+    <p>
+      &#160;(cond ((or (null? set1) (null? set2)) '())
+    </p>
+    <p>
+      &#160;&#160;((element-of-set? (car set1) set2)
+    </p>
+    <p>
+      &#160;&#160;&#160;(cons (car set1) (intersection-set (cdr set1) set2)))
+    </p>
+    <p>
+      &#160;&#160;(else (intersection-set (cdr set1) set2))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1592031464324" ID="ID_1347147573" MODIFIED="1592031467128" TEXT="Order of growth">
+<node CREATED="1592031671049" ID="ID_1849497426" MODIFIED="1592031673094" TEXT="Two sets"/>
+<node CREATED="1592031673489" ID="ID_688657695" MODIFIED="1592031677886" TEXT="... using element-of-set?"/>
+</node>
+<node CREATED="1592031678666" ID="ID_1445797264" MODIFIED="1592031692943" TEXT="&#x398;(n^2)"/>
+</node>
+</node>
+<node CREATED="1592031341956" ID="ID_1308025836" MODIFIED="1592031349110" TEXT="Sets as ordered lists ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1592031743602" ID="ID_1129043689" MODIFIED="1592031750206" TEXT="One way to speed up the operations"/>
+<node CREATED="1592031751265" ID="ID_55903205" MODIFIED="1592031760742" TEXT="... change the representation to list of increasing order"/>
+<node CREATED="1592031773513" ID="ID_542225950" MODIFIED="1592031778109" TEXT="Need to compare two objects">
+<node CREATED="1592031778337" ID="ID_878786762" MODIFIED="1592031783077" TEXT="To know which is bigger"/>
+<node CREATED="1592031792729" ID="ID_270222564" MODIFIED="1592031795581" TEXT="For number, easy"/>
+<node CREATED="1592031795961" ID="ID_781754929" MODIFIED="1592031801622" TEXT="For symbols">
+<node CREATED="1592031802441" ID="ID_1901525741" MODIFIED="1592031823598" TEXT="Assign an unique number"/>
+<node CREATED="1592031805297" ID="ID_242198425" MODIFIED="1592031816110" TEXT="Compare lexicographically"/>
+</node>
+</node>
+<node CREATED="1592031837552" ID="ID_1474428329" MODIFIED="1592031847965" TEXT="Only example with set of numbers here"/>
+<node CREATED="1592031865417" ID="ID_1472190910" MODIFIED="1592032052585" TEXT="element-of-set?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (element-of-set? x set)
+    </p>
+    <p>
+      &#160;(cond ((null? set) false)
+    </p>
+    <p>
+      &#160;&#160;((= x (car set)) true)
+    </p>
+    <p>
+      &#160;&#160;((&lt; x (car set)) false)
+    </p>
+    <p>
+      &#160;&#160;(else (element-of-set? x (cdr set)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1592031870648" ID="ID_978413127" MODIFIED="1592031874661" TEXT="No need to scan the whole set"/>
+<node CREATED="1592031878841" ID="ID_308637388" MODIFIED="1592031882685" TEXT="... if we reach an element larger"/>
+<node CREATED="1592031883111" ID="ID_1416178843" MODIFIED="1592031886509" TEXT="... we know it&apos;s not in the set"/>
+<node CREATED="1592031931816" ID="ID_409798335" MODIFIED="1592031935299" TEXT="Order of growth">
+<node CREATED="1592031935456" ID="ID_306635029" MODIFIED="1592031941498" TEXT="Still &#x398;(n)"/>
+<node CREATED="1592031942296" ID="ID_1509811133" MODIFIED="1592031949667" TEXT="... but can save on average "/>
+<node CREATED="1592031950489" ID="ID_1108338142" MODIFIED="1592031958788" TEXT="... factor of 2 number of steps"/>
+<node CREATED="1592031959136" ID="ID_1153498532" MODIFIED="1592031968468" TEXT="... especially if sets has very different (bigger?) numbers"/>
+</node>
+</node>
+<node CREATED="1592032040167" ID="ID_505339508" MODIFIED="1592032049672" TEXT="intersection-set">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (intersection-set set1 set2)
+    </p>
+    <p>
+      (if (or (null? set1) (null? set2))
+    </p>
+    <p>
+      '()
+    </p>
+    <p>
+      (let ((x1 (car set1)) (x2 (car set2)))
+    </p>
+    <p>
+      (cond ((= x1 x2)
+    </p>
+    <p>
+      (cons x1 (intersection-set (cdr set1)
+    </p>
+    <p>
+      (cdr set2))))
+    </p>
+    <p>
+      ((&lt; x1 x2)
+    </p>
+    <p>
+      (intersection-set (cdr set1) set2))
+    </p>
+    <p>
+      ((&lt; x2 x1)
+    </p>
+    <p>
+      (intersection-set set1 (cdr set2)))))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1592032062639" ID="ID_993429475" MODIFIED="1592032069811" TEXT="Compare initial elements of sets">
+<node CREATED="1592032080944" ID="ID_1062765200" MODIFIED="1592032081923" TEXT="x1"/>
+<node CREATED="1592032082278" ID="ID_516423050" MODIFIED="1592032084531" TEXT="x2"/>
+</node>
+<node CREATED="1592032085143" ID="ID_805257633" MODIFIED="1592032092876" TEXT="If x1 equals x2">
+<node CREATED="1592032188727" ID="ID_1772689615" MODIFIED="1592032195531" TEXT="x1 part of intersection"/>
+</node>
+<node CREATED="1592032196148" ID="ID_1352864980" MODIFIED="1592032202091" TEXT="if x1 &lt; x2">
+<node CREATED="1592032202575" ID="ID_574097771" MODIFIED="1592032238914" TEXT="x1 not part of intersection"/>
+</node>
+<node CREATED="1592032241589" ID="ID_1617368232" MODIFIED="1592032246434" TEXT="if x2 &lt; x1">
+<node CREATED="1592032246646" ID="ID_319714545" MODIFIED="1592032252706" TEXT="x1 not part of intersection"/>
+</node>
+<node CREATED="1592032253430" ID="ID_591851964" MODIFIED="1592032262394" TEXT="... not need element-of-set? anymore!"/>
+<node CREATED="1592032262764" ID="ID_416571092" MODIFIED="1592032266090" TEXT="Order of growth">
+<node CREATED="1592032266262" ID="ID_46975953" MODIFIED="1592032274119" TEXT="&#x398;(n)"/>
+</node>
+</node>
+</node>
+<node CREATED="1592032279566" ID="ID_253572790" MODIFIED="1592032285432" TEXT="Sets as binary trees ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1592032292294" ID="ID_1951049885" MODIFIED="1592032296226" TEXT="Can do even better with a tree"/>
+<node CREATED="1592032327046" ID="ID_1885925326" MODIFIED="1592032343754" TEXT="Elements in the left subtree"/>
+<node CREATED="1592032334677" ID="ID_1286942826" MODIFIED="1592032340808" TEXT="... always smaller than elements in the right subtree"/>
+<node CREATED="1592032366942" ID="ID_1038727959" MODIFIED="1592032370418" TEXT="If tree is balanced">
+<node CREATED="1592032384590" ID="ID_576418006" MODIFIED="1592032404329" TEXT="Each of subtree half size of original"/>
+<node CREATED="1592032373477" ID="ID_1436445783" MODIFIED="1592032382032" TEXT="We search the tree size n / 2"/>
+<node CREATED="1592032424444" ID="ID_1927914977" MODIFIED="1592032431190" TEXT="Size tree halved at each step"/>
+<node CREATED="1592032431701" ID="ID_1128286934" MODIFIED="1592032631401" TEXT="... with is characteristic order of growth &#x398;(log n)">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1592032452317" ID="ID_693998283" MODIFIED="1592032517144" TEXT="Example">
+<icon BUILTIN="licq"/>
+<icon BUILTIN="wizard"/>
+<node CREATED="1592032503733" ID="ID_1980647594" MODIFIED="1592032508958">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="binary_tree_set.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1592032526292" ID="ID_1460800607" MODIFIED="1592032531823" TEXT="Representing tree using lists">
+<node CREATED="1592032535396" ID="ID_14591436" MODIFIED="1592032543097" TEXT="Each node three items">
+<node CREATED="1592032544244" ID="ID_939850991" MODIFIED="1592032548344" TEXT="Entry at the node"/>
+<node CREATED="1592032549401" ID="ID_940260391" MODIFIED="1592032552112" TEXT="Left subtree"/>
+<node CREATED="1592032552484" ID="ID_60826414" MODIFIED="1592032556200" TEXT="Right subtree"/>
+</node>
+<node CREATED="1592032566532" ID="ID_948980154" MODIFIED="1592032575440" TEXT="Empty list for no subtree"/>
+<node CREATED="1592032658339" ID="ID_842229464" MODIFIED="1592032673956" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (entry tree) (car tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(define (left-branch tree) (cadr tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(define (right-branch tree) (caddr tree))
+    </p>
+    <p>
+      (define (make-tree entry left right)
+    </p>
+    <p>
+      &#160;(list entry left right))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1592032680674" ID="ID_1001921915" MODIFIED="1592032693985" TEXT="element-of-set?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (element-of-set? x set)
+    </p>
+    <p>
+      &#160;(cond ((null? set) false)
+    </p>
+    <p>
+      &#160;&#160;((= x (entry set)) true)
+    </p>
+    <p>
+      &#160;&#160;((&lt; x (entry set))
+    </p>
+    <p>
+      &#160;&#160;&#160;(element-of-set? x (left-branch set)))
+    </p>
+    <p>
+      &#160;&#160;((&gt; x (entry set))
+    </p>
+    <p>
+      &#160;&#160;&#160;(element-of-set? x (right-branch set)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1592032867289" ID="ID_1061399910" MODIFIED="1592032886375" TEXT="adjoin-set">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (adjoin-set x set)
+    </p>
+    <p>
+      &#160;(cond ((null? set) (make-tree x '() '()))
+    </p>
+    <p>
+      &#160;&#160;((= x (entry set)) set)
+    </p>
+    <p>
+      &#160;&#160;((&lt; x (entry set))
+    </p>
+    <p>
+      &#160;&#160;&#160;(make-tree (entry set)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(adjoin-set x (left-branch set))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(right-branch set)))
+    </p>
+    <p>
+      &#160;&#160;((&gt; x (entry set))
+    </p>
+    <p>
+      &#160;&#160;&#160;212
+    </p>
+    <p>
+      &#160;&#160;&#160;(make-tree (entry set) (left-branch set)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(adjoin-set x (right-branch set))))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1592035955870" ID="ID_1661829196" MODIFIED="1592035990977" TEXT="How to balance a tree?">
+<node CREATED="1592035991158" ID="ID_1595472595" MODIFIED="1592035998848" TEXT="How to have approximatively same number"/>
+<node CREATED="1592035999188" ID="ID_398547133" MODIFIED="1592036002001" TEXT="... of elements"/>
+<node CREATED="1592036002357" ID="ID_476143626" MODIFIED="1592036004816" TEXT="... on right and left?"/>
+</node>
+<node CREATED="1592036017349" ID="ID_619925146" MODIFIED="1592036030089" TEXT="... if add elements randomly">
+<node CREATED="1592036030253" ID="ID_1855643986" MODIFIED="1592036034456" TEXT="Tree balanced in average"/>
+<node CREATED="1592036034821" ID="ID_376566437" MODIFIED="1592036038633" TEXT="... but no guarantee"/>
+<node CREATED="1592036044813" ID="ID_827325868" MODIFIED="1592036112599" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1592036053453" ID="ID_1432013172" MODIFIED="1592036059016" TEXT="Adding number 1 to 7"/>
+<node CREATED="1592036059964" ID="ID_1294048459" MODIFIED="1592036108680" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1592036098621" ID="ID_1749117217" MODIFIED="1592036102780">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="unbalanced-tree.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1592036126157" ID="ID_433270320" MODIFIED="1592036136201" TEXT="No advantage over a simple ordered list"/>
+</node>
+</node>
+<node CREATED="1592036149876" ID="ID_1568244205" MODIFIED="1592036155847" TEXT="To solve problem of tree balancing">
+<node CREATED="1592036156036" ID="ID_1926803595" MODIFIED="1592036165776" TEXT="Add operation which  balance tree automatically"/>
+<node CREATED="1592036170567" ID="ID_141525140" MODIFIED="1592036176001" TEXT="... with the same elements"/>
+<node CREATED="1592036176388" ID="ID_939013330" MODIFIED="1592036181911" TEXT="... after each adjoin-set"/>
+<node CREATED="1592036189531" ID="ID_656245670" MODIFIED="1592036199425" TEXT="Design new data structures">
+<node CREATED="1592036213556" ID="ID_1923541157" MODIFIED="1592036220439" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1592036199780" ID="ID_1104093139" MODIFIED="1592036203248" TEXT="B-trees"/>
+<node CREATED="1592036203619" ID="ID_1945226393" MODIFIED="1592036208367" TEXT="red-black trees"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1592036243475" ID="ID_382074888" MODIFIED="1592036245245" TEXT="Sets and information retrieval ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 </node>
 </node>
