@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1550384512443" ID="ID_941154032" MODIFIED="1570255445709" TEXT="The secret of consulting">
+<node CREATED="1550384512443" ID="ID_941154032" LINK="https://www.goodreads.com/en/book/show/566213.The_Secrets_of_Consulting" MODIFIED="1592063645630" TEXT="The secret of consulting">
 <node CREATED="1550384530073" ID="ID_1492750908" MODIFIED="1558269243774" POSITION="left" TEXT="Preface">
 <node CREATED="1550384597591" FOLDED="true" ID="ID_1980186605" MODIFIED="1558269262425" TEXT="Consultant">
 <node CREATED="1550384604882" ID="ID_1060628180" MODIFIED="1550384610923" TEXT="Anybody who gives advises"/>
@@ -11,11 +11,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1550384667421" FOLDED="true" ID="ID_393339137" MODIFIED="1558634718188" POSITION="left" TEXT="Why consulting is so tough?">
+<node CREATED="1550384667421" ID="ID_393339137" MODIFIED="1558634718188" POSITION="left" TEXT="Why consulting is so tough?">
 <icon BUILTIN="full-1"/>
-<node CREATED="1550384690879" FOLDED="true" ID="ID_85106986" MODIFIED="1558269683843" TEXT="Sherbies Law of consulting">
+<node CREATED="1550384690879" ID="ID_85106986" MODIFIED="1558269683843" TEXT="Sherbies Law of consulting">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1550384707469" FOLDED="true" ID="ID_1138080047" MODIFIED="1558269269461" TEXT="Antagonist">
+<node CREATED="1550384707469" ID="ID_1138080047" MODIFIED="1558269269461" TEXT="Antagonist">
 <node CREATED="1550384711489" ID="ID_130817712" MODIFIED="1550384713031" TEXT="Management"/>
 <node CREATED="1550384713749" ID="ID_1417091551" MODIFIED="1550384715601" TEXT="Consultants"/>
 <node CREATED="1550384721372" ID="ID_1246754036" MODIFIED="1550384725044" TEXT="Never speak to them">
@@ -121,7 +121,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1550385707814" FOLDED="true" ID="ID_126269270" MODIFIED="1558269774636" TEXT="The Law of Raspberry Jam">
+<node CREATED="1550385707814" ID="ID_126269270" MODIFIED="1558269774636" TEXT="The Law of Raspberry Jam">
 <node COLOR="#ff0000" CREATED="1550385724977" ID="ID_1510427719" MODIFIED="1551518876831" TEXT="&quot;The wider you spread it, the thinner it gets&quot;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -185,7 +185,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1551519264107" FOLDED="true" ID="ID_1329487315" MODIFIED="1570255762397" POSITION="left" TEXT="Cultivating a paradoxical frame of mind">
+<node CREATED="1551519264107" ID="ID_1329487315" MODIFIED="1570255762397" POSITION="left" TEXT="Cultivating a paradoxical frame of mind">
 <icon BUILTIN="full-2"/>
 <node CREATED="1551519301142" FOLDED="true" ID="ID_48647024" MODIFIED="1570255728020" TEXT="Many laws in consulting are">
 <node CREATED="1551519306376" ID="ID_1616206526" MODIFIED="1551519309482" TEXT="Paradoxes"/>
