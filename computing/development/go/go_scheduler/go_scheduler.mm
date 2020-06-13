@@ -1,20 +1,20 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1589291675288" ID="ID_1522010724" MODIFIED="1590654714421" TEXT="Go Scheduler">
+<node CREATED="1589291675288" ID="ID_1522010724" MODIFIED="1592039325351" TEXT="Go Scheduler">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b><font size="4"><u>OS Scheduler</u> </font></b>
+      <b><font size="4"><u>OS Scheduler</u>&#160;</font></b>
     </p>
     <p>
       
     </p>
     <ol>
       <li>
-        How can you define a program?
+        How can you define a program? What does it create when running?
       </li>
       <li>
         How can you define a thread?
@@ -32,7 +32,7 @@
         What kind of work a Thread can do? What's the difference between them?
       </li>
       <li>
-        What is context switch?
+        What is context switch? What the consequences on the kind of work they can do? (see previous question)
       </li>
       <li>
         What is a preemptive scheduler?
@@ -53,9 +53,9 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1589291980782" FOLDED="true" ID="ID_832523280" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html" MODIFIED="1589373444464" POSITION="right" TEXT="OS Scheduler">
+<node CREATED="1589291980782" ID="ID_832523280" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html" MODIFIED="1589373444464" POSITION="right" TEXT="OS Scheduler">
 <icon BUILTIN="full-1"/>
-<node CREATED="1589291991623" ID="ID_833789849" MODIFIED="1589292196946" TEXT="Introduction">
+<node CREATED="1589291991623" FOLDED="true" ID="ID_833789849" MODIFIED="1589292196946" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1589291995139" ID="ID_1213024889" MODIFIED="1589292014617" TEXT="Scheduler allows multithreaded Go programs">
 <node CREATED="1589292017797" ID="ID_587795151" MODIFIED="1589292020837" TEXT="efficient"/>
@@ -127,7 +127,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589292661946" ID="ID_1467650007" MODIFIED="1589296725211" TEXT="Executing instructions">
+<node CREATED="1589292661946" FOLDED="true" ID="ID_1467650007" MODIFIED="1589296725211" TEXT="Executing instructions">
 <icon BUILTIN="full-2"/>
 <node CREATED="1589292676633" ID="ID_1102431406" LINK="https://en.wikipedia.org/wiki/Program_counter" MODIFIED="1590653731844" TEXT="Program counter (PC)">
 <node CREATED="1589292684292" ID="ID_707617983" MODIFIED="1589292693083" TEXT="Called as well Instruction Pointer (IP)"/>
@@ -137,7 +137,7 @@
 <node CREATED="1589292738355" ID="ID_257011987" MODIFIED="1589292743333" TEXT="... point to the next instruction"/>
 <node CREATED="1589292743676" ID="ID_1329636159" MODIFIED="1589292746047" TEXT="... not the current one"/>
 </node>
-<node CREATED="1589292960022" ID="ID_1913732204" MODIFIED="1589292964328" TEXT="Illustration">
+<node CREATED="1589292960022" FOLDED="true" ID="ID_1913732204" MODIFIED="1589292964328" TEXT="Illustration">
 <icon BUILTIN="licq"/>
 <node CREATED="1589292964720" ID="ID_1371693544" MODIFIED="1589292967466">
 <richcontent TYPE="NODE"><html>
@@ -304,7 +304,7 @@ func example(slice []string, str string, i int) {
 </node>
 </node>
 </node>
-<node CREATED="1589293928964" FOLDED="true" ID="ID_158389861" MODIFIED="1589296728464" TEXT="Context Switching">
+<node CREATED="1589293928964" ID="ID_158389861" MODIFIED="1589296728464" TEXT="Context Switching">
 <icon BUILTIN="full-5"/>
 <node CREATED="1589293938287" ID="ID_1405253729" MODIFIED="1589293946913" TEXT="If running either on">
 <node CREATED="1589293940589" ID="ID_1564620575" MODIFIED="1589293941631" TEXT="Linux"/>
