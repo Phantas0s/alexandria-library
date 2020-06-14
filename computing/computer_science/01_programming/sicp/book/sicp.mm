@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1592030169219" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1592124193563" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -804,8 +804,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
@@ -3068,8 +3067,7 @@
       &#160;&#160;(else (element-of-set? x (cdr set)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1592031394357" ID="ID_849905436" MODIFIED="1592031400007" TEXT="Order of growth">
 <node CREATED="1592031400180" ID="ID_1870875429" MODIFIED="1592031402064" TEXT="Worst case">
@@ -3098,8 +3096,7 @@
       &#160;&#160;(cons x set)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1592031394357" ID="ID_1124763298" MODIFIED="1592031400007" TEXT="Order of growth">
 <node CREATED="1592031451091" ID="ID_1161468515" MODIFIED="1592031456525" TEXT="Use element-of-set?"/>
@@ -3128,8 +3125,7 @@
       &#160;&#160;(else (intersection-set (cdr set1) set2))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1592031464324" ID="ID_1347147573" MODIFIED="1592031467128" TEXT="Order of growth">
 <node CREATED="1592031671049" ID="ID_1849497426" MODIFIED="1592031673094" TEXT="Two sets"/>
@@ -3173,8 +3169,7 @@
       &#160;&#160;(else (element-of-set? x (cdr set)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1592031870648" ID="ID_978413127" MODIFIED="1592031874661" TEXT="No need to scan the whole set"/>
 <node CREATED="1592031878841" ID="ID_308637388" MODIFIED="1592031882685" TEXT="... if we reach an element larger"/>
@@ -3226,8 +3221,7 @@
       (intersection-set set1 (cdr set2)))))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1592032062639" ID="ID_993429475" MODIFIED="1592032069811" TEXT="Compare initial elements of sets">
 <node CREATED="1592032080944" ID="ID_1062765200" MODIFIED="1592032081923" TEXT="x1"/>
@@ -3272,8 +3266,7 @@
   <body>
     <img src="binary_tree_set.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1592032526292" ID="ID_1460800607" MODIFIED="1592032531823" TEXT="Representing tree using lists">
@@ -3305,8 +3298,7 @@
       &#160;(list entry left right))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1592032680674" ID="ID_1001921915" MODIFIED="1592032693985" TEXT="element-of-set?">
@@ -3337,8 +3329,7 @@
       &#160;&#160;&#160;(element-of-set? x (right-branch set)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1592032867289" ID="ID_1061399910" MODIFIED="1592032886375" TEXT="adjoin-set">
 <richcontent TYPE="NOTE"><html>
@@ -3380,8 +3371,7 @@
       &#160;&#160;&#160;&#160;(adjoin-set x (right-branch set))))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1592035955870" ID="ID_1661829196" MODIFIED="1592035990977" TEXT="How to balance a tree?">
 <node CREATED="1592035991158" ID="ID_1595472595" MODIFIED="1592035998848" TEXT="How to have approximatively same number"/>
@@ -3404,8 +3394,7 @@
   <body>
     <img src="unbalanced-tree.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1592036126157" ID="ID_433270320" MODIFIED="1592036136201" TEXT="No advantage over a simple ordered list"/>
@@ -3426,6 +3415,39 @@
 </node>
 <node CREATED="1592036243475" ID="ID_382074888" MODIFIED="1592036245245" TEXT="Sets and information retrieval ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1592124436339" ID="ID_1067295034" MODIFIED="1592124443285" TEXT="Lookup in a database using a key"/>
+<node CREATED="1592124500189" ID="ID_717982737" MODIFIED="1592124508263" TEXT="If set of record implemented as ordered list">
+<node CREATED="1592124508478" ID="ID_1399926162" MODIFIED="1592124539594" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (lookup given-key set-of-records)
+    </p>
+    <p>
+      &#160;(cond ((null? set-of-records) false)
+    </p>
+    <p>
+      &#160;&#160;((equal? given-key (key (car set-of-records)))
+    </p>
+    <p>
+      &#160;&#160;&#160;(car set-of-records))
+    </p>
+    <p>
+      &#160;&#160;(else (lookup given-key (cdr set-of-records)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1592124573635" ID="ID_823286854" MODIFIED="1592124581826" TEXT="Information retrieval systems often represented as tree"/>
+<node CREATED="1592124607620" ID="ID_737046868" MODIFIED="1592124612265" TEXT="Data abstraction helps">
+<node CREATED="1592124612487" ID="ID_1483965669" MODIFIED="1592124620870" TEXT="First, implement database as unordered list to see if it works"/>
+<node CREATED="1592124621226" ID="ID_1156866201" MODIFIED="1592124642854" TEXT="Later, can still be modified to be more sophisticated"/>
+</node>
 </node>
 </node>
 </node>
