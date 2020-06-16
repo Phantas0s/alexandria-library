@@ -174,7 +174,7 @@
 </node>
 <node CREATED="1591877910805" ID="ID_326692429" MODIFIED="1591877922422" POSITION="right" TEXT="Getting Started with DDD">
 <icon BUILTIN="full-1"/>
-<node CREATED="1591878476362" ID="ID_311117876" MODIFIED="1591878492066" TEXT="Can I DDD?">
+<node CREATED="1591878476362" FOLDED="true" ID="ID_311117876" MODIFIED="1591878492066" TEXT="Can I DDD?">
 <icon BUILTIN="full-1"/>
 <node CREATED="1591878036798" ID="ID_9198407" MODIFIED="1591878043746" TEXT="Even bug free software don&apos;t mean model is good"/>
 <node CREATED="1591878047510" ID="ID_264331388" MODIFIED="1591878058282" TEXT="... it needs to reflect intended business objectives!"/>
@@ -213,7 +213,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1591878444891" ID="ID_1896586594" MODIFIED="1591878454216" TEXT="Why you should do DDD">
+<node CREATED="1591878444891" FOLDED="true" ID="ID_1896586594" MODIFIED="1591878454216" TEXT="Why you should do DDD">
 <icon BUILTIN="full-2"/>
 <node CREATED="1591878510874" ID="ID_158400691" MODIFIED="1591878558126" TEXT="Developer / domain expert at the same level"/>
 <node CREATED="1591878576034" ID="ID_1418415154" MODIFIED="1591878585616" TEXT="Software as close to business as possible"/>
@@ -360,8 +360,7 @@
   <body>
     <img src="is_domain_model_healthy.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -378,8 +377,7 @@
   <body>
     <img src="anemia_influence.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -416,7 +414,7 @@
 <node CREATED="1592041982310" ID="ID_1865582723" MODIFIED="1592041988259" TEXT="Anemia induced memory loss"/>
 </node>
 </node>
-<node CREATED="1592041996326" ID="ID_1322452933" MODIFIED="1592042000555" TEXT="How to do DDD">
+<node CREATED="1592041996326" FOLDED="true" ID="ID_1322452933" MODIFIED="1592042000555" TEXT="How to do DDD">
 <icon BUILTIN="full-3"/>
 <node CREATED="1592042075590" ID="ID_1732718213" MODIFIED="1592042078425" TEXT="Two pillars">
 <node CREATED="1592042078702" ID="ID_1081306054" MODIFIED="1592042102094" TEXT="Ubiquitous language">
@@ -456,8 +454,7 @@
   <body>
     <img src="analyzing_best_model_for_business.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1592042528866" ID="ID_95220185" MODIFIED="1592042534662" TEXT="Experimentation necessary">
@@ -529,7 +526,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1592044355822" ID="ID_1702432619" MODIFIED="1592044380835" TEXT="The Business Value of Using DDD">
+<node CREATED="1592044355822" FOLDED="true" ID="ID_1702432619" MODIFIED="1592044380835" TEXT="The Business Value of Using DDD">
 <icon BUILTIN="full-4"/>
 <node CREATED="1592044383574" ID="ID_914068404" MODIFIED="1592044418378" TEXT="Why using technic / technology?">
 <node CREATED="1592044418622" ID="ID_716643790" MODIFIED="1592044423098" TEXT="Provide value to the business"/>
@@ -612,7 +609,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1592045847516" ID="ID_1266949894" MODIFIED="1592045870347" TEXT="The Challenges of Applying DDD">
+<node CREATED="1592045847516" FOLDED="true" ID="ID_1266949894" MODIFIED="1592045870347" TEXT="The Challenges of Applying DDD">
 <icon BUILTIN="full-5"/>
 <node CREATED="1592045899988" ID="ID_1698406245" MODIFIED="1592045902912" TEXT="Most common">
 <node CREATED="1592045903316" ID="ID_940078138" MODIFIED="1592046027409" TEXT="Allowing time / effort for ubiquitous language">
@@ -642,6 +639,245 @@
 <node CREATED="1592048410724" ID="ID_1138835686" MODIFIED="1592048414136" TEXT="more collaboration"/>
 </node>
 <node CREATED="1592048417220" ID="ID_284453378" MODIFIED="1592048435416" TEXT="... new thoughts are worth it!"/>
+<node CREATED="1592315625155" ID="ID_1553589066" MODIFIED="1592315630510" TEXT="Justification for Domain Modeling ">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1592315645357" ID="ID_1714472879" MODIFIED="1592315650777" TEXT="Tactical modelling"/>
+<node CREATED="1592315651189" ID="ID_725428185" MODIFIED="1592315654084" TEXT="... more complex"/>
+<node CREATED="1592315654541" ID="ID_106058638" MODIFIED="1592315659234" TEXT="... than strategical modelling"/>
+<node CREATED="1592315678933" ID="ID_580126771" MODIFIED="1592315686849" TEXT="Core domain / subdomain">
+<node CREATED="1592315687013" ID="ID_1660531801" MODIFIED="1592315785081" TEXT="Unknown"/>
+<node CREATED="1592315689726" ID="ID_1955711978" MODIFIED="1592315787106" TEXT="Difficult area"/>
+<node CREATED="1592315792245" ID="ID_869412996" MODIFIED="1592315796015" TEXT="Need right tactics"/>
+</node>
+<node CREATED="1592315799555" ID="ID_1601909801" MODIFIED="1592315804560" TEXT="Practical guidance">
+<node CREATED="1592315805020" ID="ID_373842032" MODIFIED="1592315812064" TEXT="Core domain vital for business success">
+<node CREATED="1592315816324" ID="ID_1413682782" MODIFIED="1592315819655" TEXT="Not well understood"/>
+<node CREATED="1592315819948" ID="ID_64993336" MODIFIED="1592315822112" TEXT="Require">
+<node CREATED="1592315822772" ID="ID_1629573749" MODIFIED="1592315825824" TEXT="Experimentation"/>
+<node CREATED="1592315826148" ID="ID_1567193181" MODIFIED="1592315827598" TEXT="Refactoring"/>
+</node>
+<node CREATED="1592315831660" ID="ID_412301046" MODIFIED="1592315837048" TEXT="May not be always core domain"/>
+<node CREATED="1592315837826" ID="ID_1129980073" MODIFIED="1592315864174" TEXT="Bounded context useful if">
+<node CREATED="1592315864419" ID="ID_552372874" MODIFIED="1592315868570" TEXT="Innovative"/>
+<node CREATED="1592315868980" ID="ID_1404282468" MODIFIED="1592315871319" TEXT="Complex"/>
+<node CREATED="1592315871716" ID="ID_267016305" MODIFIED="1592315877496" TEXT="Needs to endure for long time"/>
+</node>
+<node CREATED="1592315894323" ID="ID_199950474" MODIFIED="1592315897776" TEXT="Tactical patterns">
+<node CREATED="1592315897924" ID="ID_234978571" MODIFIED="1592315902303" TEXT="Investment for future"/>
+</node>
+<node CREATED="1592315904178" ID="ID_1194312325" MODIFIED="1592315910400" TEXT="Deserve best developers"/>
+</node>
+</node>
+<node CREATED="1592315916787" ID="ID_339842989" MODIFIED="1592315933008" TEXT=" Generic / Supporting subdomains">
+<node CREATED="1592315993587" ID="ID_1257896944" MODIFIED="1592315998151" TEXT="Might be a core domain!"/>
+<node CREATED="1592316018523" ID="ID_642059540" MODIFIED="1592316027052" TEXT="Consider tactical patterns"/>
+<node CREATED="1592316027603" ID="ID_1520471322" MODIFIED="1592316033796" TEXT="... depending on">
+<node CREATED="1592316033947" ID="ID_527156484" MODIFIED="1592316037277" TEXT="Skills of teams"/>
+<node CREATED="1592316037658" ID="ID_1855641601" MODIFIED="1592316045334" TEXT="Model new / innovative"/>
+<node CREATED="1592316046272" ID="ID_892725049" MODIFIED="1592316051511" TEXT="If needs to stay a long time"/>
+</node>
+</node>
+<node CREATED="1592316061075" ID="ID_1346451837" MODIFIED="1592316072894" TEXT="Follow developers choice if high modeling experience"/>
+<node CREATED="1592316080618" ID="ID_719640394" MODIFIED="1592316084621" TEXT="Ask yourself">
+<node CREATED="1592316086826" ID="ID_311853579" MODIFIED="1592316091902" TEXT="Are domain expert available?"/>
+<node CREATED="1592316092286" ID="ID_1680830431" MODIFIED="1592316104102" TEXT="Are you ready to build a team around them?"/>
+<node CREATED="1592316104505" ID="ID_643880726" MODIFIED="1592316114798" TEXT="Will business complexity grow?"/>
+<node CREATED="1592316115890" ID="ID_531425441" MODIFIED="1592316148671" TEXT="Tactical patterns make bounded context easier to integrate?"/>
+<node CREATED="1592316149410" ID="ID_1536594133" MODIFIED="1592316165318" TEXT="Development really simpler using transaction scripts?"/>
+<node CREATED="1592316169202" ID="ID_573491674" MODIFIED="1592316176414" TEXT="Timeline allow overhead for tactical investment?"/>
+<node CREATED="1592316177122" ID="ID_1632036666" MODIFIED="1592316220813" TEXT="Is core domain protected by architectural changes"/>
+<node CREATED="1592316221732" ID="ID_1163689355" MODIFIED="1592316227901" TEXT="... thanks to tactical investment?"/>
+<node CREATED="1592316239257" ID="ID_299305405" MODIFIED="1592316249661" TEXT="Could the application be replaced tomorrow?"/>
+</node>
+<node CREATED="1592316273184" ID="ID_460102046" MODIFIED="1592316284028" TEXT="Use the best solution to your advantage!"/>
+<node CREATED="1592316287368" ID="ID_951764876" MODIFIED="1592316330341" TEXT="At the end,. customer should be pleased"/>
+</node>
+<node CREATED="1592316342879" ID="ID_1527353543" MODIFIED="1592316344672" TEXT="DDD Is Not Heavy ">
+<icon BUILTIN="full-2"/>
+<node CREATED="1592316349544" ID="ID_370358410" MODIFIED="1592316355237" TEXT="Fit well in agile process framework"/>
+<node CREATED="1592316359663" ID="ID_329730281" MODIFIED="1592316370509" TEXT="Rapid test-first refinement">
+<node CREATED="1592316370688" ID="ID_1047109177" MODIFIED="1592316501550" TEXT="Write a test demonstrate">
+<icon BUILTIN="full-1"/>
+<node CREATED="1592316379703" ID="ID_1637435546" MODIFIED="1592316556666" TEXT="how new domain objects"/>
+<node CREATED="1592316384519" ID="ID_1470595107" MODIFIED="1592316446755" TEXT="... should be used"/>
+<node CREATED="1592316405183" ID="ID_1217338583" MODIFIED="1592316444266" TEXT=".. by client of object models"/>
+</node>
+<node CREATED="1592316481504" ID="ID_1278738312" MODIFIED="1592316504854" TEXT="Create new domain object">
+<icon BUILTIN="full-2"/>
+<node CREATED="1592316485768" ID="ID_532580771" MODIFIED="1592316490883" TEXT="... with enough code"/>
+<node CREATED="1592316494143" ID="ID_1932220072" MODIFIED="1592316499924" TEXT="... for running test"/>
+</node>
+<node CREATED="1592316507175" ID="ID_612968595" MODIFIED="1592316536313" TEXT="Refactor till">
+<icon BUILTIN="full-3"/>
+<node CREATED="1592316511391" ID="ID_1831361334" MODIFIED="1592316516388" TEXT="Test represent way client"/>
+<node CREATED="1592316516839" ID="ID_1039651514" MODIFIED="1592316521171" TEXT="... would use domain object"/>
+<node CREATED="1592316523159" ID="ID_1317072071" MODIFIED="1592316529363" TEXT="Domain object proper"/>
+<node CREATED="1592316529879" ID="ID_749510773" MODIFIED="1592316535035" TEXT="... behavioral domain signature"/>
+</node>
+<node CREATED="1592316568903" ID="ID_1044817737" MODIFIED="1592316599266" TEXT="Implement each object behavior till test pass">
+<icon BUILTIN="full-4"/>
+<node CREATED="1592316582663" ID="ID_390340761" MODIFIED="1592316587625" TEXT="Don&apos;t forget DRY"/>
+</node>
+<node CREATED="1592316605431" ID="ID_1454978827" MODIFIED="1592316641275" TEXT="Show to team AND domain expert">
+<icon BUILTIN="full-5"/>
+<node CREATED="1592316618854" ID="ID_1146048075" MODIFIED="1592316624419" TEXT="To be sure it&apos;s used correctly"/>
+<node CREATED="1592316624801" ID="ID_815370092" MODIFIED="1592316629915" TEXT="... following ubiquitous language"/>
+<node CREATED="1592316648734" ID="ID_486293893" MODIFIED="1592316656986" TEXT="Don&apos;t focus for bullet proof model"/>
+</node>
+<node CREATED="1592316679138" ID="ID_1311734548" MODIFIED="1592316748394" TEXT="Repeat till you have a model working for current iteration">
+<icon BUILTIN="full-6"/>
+</node>
+<node CREATED="1592316707765" ID="ID_1826102274" MODIFIED="1592316711650" TEXT="Test drives the architecture"/>
+<node CREATED="1592316687261" ID="ID_884291244" MODIFIED="1592316697513" TEXT="Domain experts need help for understand from engineers"/>
+<node CREATED="1592316697925" ID="ID_1769201702" MODIFIED="1592316705906" TEXT="Test data needs to be realistic"/>
+</node>
+</node>
+</node>
+<node CREATED="1592316763286" ID="ID_1684830483" MODIFIED="1592316776509" TEXT="Fiction, with Bucketfuls of Reality ">
+<icon BUILTIN="full-6"/>
+<node CREATED="1592316786413" ID="ID_65563635" MODIFIED="1592316796974" TEXT="Learning by others mistakes"/>
+<node CREATED="1592316797961" ID="ID_1335958142" MODIFIED="1592316801977" TEXT="Knowing">
+<node CREATED="1592316802130" ID="ID_734477158" MODIFIED="1592316805690" TEXT="where you here"/>
+<node CREATED="1592316806021" ID="ID_34145833" MODIFIED="1592316815377" TEXT="where you&apos;re going"/>
+</node>
+<node CREATED="1592316821261" ID="ID_19720855" MODIFIED="1592316828417" TEXT="Make adjustment to fix problems"/>
+</node>
+<node CREATED="1592316831149" ID="ID_1606773428" MODIFIED="1592316834044" TEXT="Wrap up">
+<icon BUILTIN="full-7"/>
+</node>
+</node>
+<node CREATED="1592316838237" ID="ID_1808783721" MODIFIED="1592316862072" POSITION="right" TEXT="Domains, Subdomains, and Bounded Contexts ">
+<icon BUILTIN="full-2"/>
+<node CREATED="1592316885596" ID="ID_768909856" MODIFIED="1592316892000" TEXT="You&apos;ll need to understand very clearly">
+<node CREATED="1592316892333" ID="ID_1392273015" MODIFIED="1592316910611" TEXT="What your domain is">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1592316895340" ID="ID_1018167682" MODIFIED="1592316963739" TEXT="What your subdomains are">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1592316900894" ID="ID_680009872" MODIFIED="1592316969427" TEXT="What your bounded contexts are">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1592317113370" ID="ID_232596541" MODIFIED="1592317119092" TEXT=" Big Picture">
+<icon BUILTIN="full-1"/>
+<node CREATED="1592317128218" ID="ID_1563417031" MODIFIED="1592317130271" TEXT="Domain">
+<node CREATED="1592317130443" ID="ID_1716399330" MODIFIED="1592317136855" TEXT="What an organisation does"/>
+<node CREATED="1592317140475" ID="ID_241617948" MODIFIED="1592317143791" TEXT="The world it does it in"/>
+<node CREATED="1592317149146" ID="ID_1366032460" MODIFIED="1592317158390" TEXT="Developing software for organisation"/>
+<node CREATED="1592317158797" ID="ID_1080706602" MODIFIED="1592317163734" TEXT="... is working in its domain"/>
+<node CREATED="1592318051615" ID="ID_761222372" MODIFIED="1592318057889" TEXT="Can reference">
+<node CREATED="1592318058069" ID="ID_1551485994" MODIFIED="1592318067544" TEXT="Entire domain of business"/>
+<node CREATED="1592318068581" ID="ID_1655726198" MODIFIED="1592318092000" TEXT="Core (supporting) area of it">
+<node CREATED="1592318076597" ID="ID_1362168570" MODIFIED="1592318078929" TEXT="Core domain"/>
+<node CREATED="1592318079283" ID="ID_542308867" MODIFIED="1592318081528" TEXT="Subdomains"/>
+</node>
+</node>
+</node>
+<node CREATED="1592318096085" ID="ID_745896868" MODIFIED="1592318100192" TEXT="Domain Model">
+<node CREATED="1592318127796" ID="ID_932183422" MODIFIED="1592318131600" TEXT="Multiples"/>
+<node CREATED="1592318135443" ID="ID_1847790208" MODIFIED="1592318139408" TEXT="Distinct and separated"/>
+<node CREATED="1592318142652" ID="ID_471851826" MODIFIED="1592318155313" TEXT="Doesn&apos;t matter if organisation is huge or not"/>
+</node>
+<node CREATED="1592318170476" FOLDED="true" ID="ID_1366034025" MODIFIED="1592318235568" TEXT="Subdomains and Bounded Contexts at Work">
+<icon BUILTIN="full-1"/>
+<node CREATED="1592318236484" ID="ID_657094647" MODIFIED="1592318250207" TEXT="Example e-commerce system">
+<icon BUILTIN="licq"/>
+<node CREATED="1592318243220" ID="ID_1958097325" MODIFIED="1592318245824">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="example_ecommerce_system.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1592318254788" ID="ID_1500815226" MODIFIED="1592318283743" TEXT="Subsystems responsible for many business functions">
+<node CREATED="1592318284827" ID="ID_546478444" MODIFIED="1592318286912" TEXT="It&apos;s usual"/>
+<node CREATED="1592318287259" ID="ID_1438665869" MODIFIED="1592318289120" TEXT="It&apos;s not good"/>
+</node>
+<node CREATED="1592318306898" ID="ID_1756396290" MODIFIED="1592318314247" TEXT="Bounded context not cleanly separated">
+<node CREATED="1592318317362" ID="ID_1382744803" MODIFIED="1592318320679" TEXT="Only one software model"/>
+<node CREATED="1592318324866" ID="ID_1110954982" MODIFIED="1592318329760" TEXT="Complex to blend everything together!"/>
+<node CREATED="1592318335929" ID="ID_1452714165" MODIFIED="1592318341550" TEXT="Dependency is a classical problem"/>
+</node>
+<node CREATED="1592318344730" ID="ID_779043630" MODIFIED="1592318356789" TEXT="Let&apos;s separate using DDD strategic design tools">
+<node CREATED="1592318413235" ID="ID_810718391" MODIFIED="1592318415741" TEXT="Dashed lines">
+<node CREATED="1592318415962" ID="ID_664766531" MODIFIED="1592318421222" TEXT="DDD subdomain separations"/>
+</node>
+</node>
+<node CREATED="1592318431306" ID="ID_596219743" MODIFIED="1592318436846" TEXT="Domain complexity of the company">
+<node CREATED="1592318443714" ID="ID_1255471920" MODIFIED="1592318449582" TEXT="Need forecasting to manage better stocks"/>
+<node CREATED="1592318457090" ID="ID_1038698741" MODIFIED="1592318461054" TEXT="This is the core domain">
+<node CREATED="1592318461177" ID="ID_1829433497" MODIFIED="1592318476926" TEXT="Huge strategic advantage if success"/>
+</node>
+<node CREATED="1592319052934" ID="ID_1248516216" MODIFIED="1592319061195" TEXT="Team need to understand subdomains around">
+<node CREATED="1592319061606" ID="ID_1445946433" LINK="#ID_657094647" MODIFIED="1592319071278" TEXT="Basically figure 2.1"/>
+</node>
+</node>
+<node CREATED="1592319081822" ID="ID_1183687646" MODIFIED="1592319090338" TEXT="Subdomains are not always very distincts">
+<node CREATED="1592319092844" ID="ID_256110075" MODIFIED="1592319097370" TEXT="Can as simple as set of algorithms"/>
+<node CREATED="1592319097973" ID="ID_1125629411" MODIFIED="1592319119338" TEXT="Need separation from core using modules"/>
+</node>
+<node CREATED="1592319139637" ID="ID_1131377079" MODIFIED="1592319142873" TEXT="Key to implement DDD">
+<node CREATED="1592319143013" ID="ID_1226087782" MODIFIED="1592319153570" TEXT="Linguistic boundaries between bounded contexts"/>
+<node CREATED="1592319340108" ID="ID_180526840" MODIFIED="1592319420391" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1592319444180" ID="ID_1743739180" MODIFIED="1592319450056" TEXT="&quot;customer&quot;">
+<node CREATED="1592319341820" ID="ID_302596986" MODIFIED="1592319352655" TEXT="&quot;customer&quot; on website">
+<node CREATED="1592319352844" ID="ID_1636366697" MODIFIED="1592319362280" TEXT="Context of previous purchases"/>
+<node CREATED="1592319362973" ID="ID_590392701" MODIFIED="1592319368472" TEXT="Loyalty"/>
+<node CREATED="1592319369934" ID="ID_1101231641" MODIFIED="1592319378664" TEXT="Available products"/>
+<node CREATED="1592319379028" ID="ID_729003991" MODIFIED="1592319380703" TEXT="Discounts"/>
+</node>
+<node CREATED="1592319381372" ID="ID_648643125" MODIFIED="1592319384399" TEXT="&quot;customer&quot; on order">
+<node CREATED="1592319386644" ID="ID_1709589893" MODIFIED="1592319388880" TEXT="Limited meaning"/>
+<node CREATED="1592319389208" ID="ID_1380893552" MODIFIED="1592319391112" TEXT="Address"/>
+<node CREATED="1592319391466" ID="ID_1408015860" MODIFIED="1592319393000" TEXT="Total due"/>
+<node CREATED="1592319400204" ID="ID_1026096764" MODIFIED="1592319403896" TEXT="Payment terms"/>
+</node>
+<node CREATED="1592319407811" ID="ID_1581726054" MODIFIED="1592319417521" TEXT="Not &quot;one&quot; clean meaning of &quot;customer&quot; everywhere!"/>
+<node CREATED="1592319430045" ID="ID_382893512" MODIFIED="1592319437328" TEXT="Need different bounded contexts"/>
+</node>
+<node CREATED="1592319493956" ID="ID_14872515" MODIFIED="1592319498311" TEXT="&quot;inventory systems&quot;">
+<node CREATED="1592319499308" ID="ID_1106366581" MODIFIED="1592319504214" TEXT="Clear distinction between">
+<node CREATED="1592319504442" ID="ID_261551328" MODIFIED="1592319508679" TEXT="Item ordered"/>
+<node CREATED="1592319509080" ID="ID_1952505979" MODIFIED="1592319513206" TEXT="Item received"/>
+<node CREATED="1592319513546" ID="ID_162834852" MODIFIED="1592319516334" TEXT="Item in stock"/>
+<node CREATED="1592319516707" ID="ID_1855630855" MODIFIED="1592319521039" TEXT="Item moving out of stock"/>
+</node>
+<node CREATED="1592319526235" ID="ID_622916333" MODIFIED="1592319530615" TEXT="Each of these concepts need to be">
+<node CREATED="1592319530843" ID="ID_1107366242" MODIFIED="1592319535117" TEXT="Well understood"/>
+<node CREATED="1592319535459" ID="ID_673885081" MODIFIED="1592319557528" TEXT="Spoken explicitly"/>
+<node CREATED="1592319541619" ID="ID_667149573" MODIFIED="1592319553828" TEXT="Modeled explicitly"/>
+</node>
+<node CREATED="1592319573003" ID="ID_425470822" MODIFIED="1592319579007" TEXT="Way expert use to describe concepts"/>
+<node CREATED="1592319586451" ID="ID_1945790240" MODIFIED="1592319594822" TEXT="... lead to separation in bounded contexts"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1592319632842" ID="ID_1846040458" MODIFIED="1592319667772" TEXT="Focus on the Core Domain">
+<icon BUILTIN="full-2"/>
+<node CREATED="1592319673344" FOLDED="true" ID="ID_662683708" MODIFIED="1592319747874" TEXT="Abstract business domain">
+<icon BUILTIN="licq"/>
+<node CREATED="1592319738690" ID="ID_1213165745" MODIFIED="1592319742604">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="abstract_business_domain_subdomains.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
