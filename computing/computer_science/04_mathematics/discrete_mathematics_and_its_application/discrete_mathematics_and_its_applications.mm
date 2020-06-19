@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1589701556817" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1592556060174" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4425,9 +4425,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1574834995735" FOLDED="true" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
+<node CREATED="1574834995735" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
 <icon BUILTIN="full-3"/>
-<node CREATED="1574835164172" FOLDED="true" ID="ID_1120871976" MODIFIED="1587200115860" TEXT="3.1 Algorithms">
+<node CREATED="1574835164172" ID="ID_1120871976" MODIFIED="1587200115860" TEXT="3.1 Algorithms">
 <node CREATED="1574835186764" FOLDED="true" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
 <node CREATED="1574835189653" ID="ID_1097192422" MODIFIED="1574835201089" TEXT="An algorithm is a finite sequence of precise instructions"/>
 <node CREATED="1574835202067" ID="ID_476920489" MODIFIED="1574835210882" TEXT="... for performing a computation or for solving a problem"/>
@@ -4457,7 +4457,7 @@
 <node CREATED="1574835758057" ID="ID_536950443" MODIFIED="1574835763559" TEXT="... not just for a particular set of input values"/>
 </node>
 </node>
-<node CREATED="1575540305063" FOLDED="true" ID="ID_438269992" MODIFIED="1586869600886" TEXT="Searching Algorithms">
+<node CREATED="1575540305063" ID="ID_438269992" MODIFIED="1586869600886" TEXT="Searching Algorithms">
 <node CREATED="1575540339309" FOLDED="true" ID="ID_1967953012" MODIFIED="1586869556000" TEXT="Linear Search">
 <node CREATED="1575540406581" ID="ID_695630487" MODIFIED="1575540413353" TEXT="Sequential search"/>
 <node CREATED="1575540416789" ID="ID_234428582" MODIFIED="1575540424328" TEXT="Compare each member of set with x"/>
@@ -4479,8 +4479,8 @@
 </node>
 <node CREATED="1575540591497" ID="ID_135888900" MODIFIED="1575872523539" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1575540626963" ID="ID_1037596508" MODIFIED="1575540774005" TEXT="Search 19 in a list">
-<node CREATED="1575540593187" ID="ID_1289569244" MODIFIED="1575540596320" TEXT="1 2 3 5 6 7 8 10 12 13 15 16 18 19 20 22,">
+<node CREATED="1575540626963" FOLDED="true" ID="ID_1037596508" MODIFIED="1575540774005" TEXT="Search 19 in a list">
+<node CREATED="1575540593187" ID="ID_1289569244" MODIFIED="1592556954046" TEXT="1 2 3 5 6 7 8 10 12 13 15 16 18 19 20 22">
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1575540711674" ID="ID_1638730690" MODIFIED="1575540720046" TEXT="Split list">
@@ -4740,7 +4740,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585568795246" FOLDED="true" ID="ID_1838004265" MODIFIED="1586941276405" TEXT="3.2 The growth of functions">
+<node CREATED="1585568795246" ID="ID_1838004265" MODIFIED="1586941276405" TEXT="3.2 The growth of functions">
 <node CREATED="1585568911524" FOLDED="true" ID="ID_826016681" MODIFIED="1586862377278" TEXT="Introduction">
 <node CREATED="1585568880579" ID="ID_127667806" MODIFIED="1585568910159" TEXT="Times to solve a problem depends on">
 <node CREATED="1585568886420" ID="ID_1650702354" MODIFIED="1585568888177" TEXT="software"/>
@@ -4771,8 +4771,8 @@
 <node CREATED="1585569150438" ID="ID_496182084" MODIFIED="1585569158329" TEXT="Estimate number of operations as the input grows"/>
 </node>
 </node>
-<node CREATED="1585569203298" FOLDED="true" ID="ID_156397727" MODIFIED="1586862374527" TEXT="Big-O notation">
-<node CREATED="1585569270739" ID="ID_830801563" MODIFIED="1585569281068" TEXT="Definition">
+<node CREATED="1585569203298" ID="ID_156397727" MODIFIED="1586862374527" TEXT="Big-O notation">
+<node CREATED="1585569270739" ID="ID_830801563" MODIFIED="1592558306062" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4785,13 +4785,11 @@
       numbers. We say that f (x) is O(g(x)) if there are constants C and k such that
     </p>
     <p>
-      |f (x)| &#8804; C|g(x)|
-    </p>
-    <p>
-      whenever x &gt; k. [This is read as &#8220;f (x) is big-oh of g(x).&#8221;]
+      |f (x)| &#8804; C|g(x)| whenever x &gt; k. [This is read as &#8220;f (x) is big-oh of g(x).&#8221;]
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1585569324643" ID="ID_1280718598" MODIFIED="1585569328614" TEXT="Constants C and k">
 <node CREATED="1585569328826" ID="ID_655563591" MODIFIED="1585569344386" TEXT="Called witnesses to the relationship">
@@ -4805,8 +4803,9 @@
 <icon BUILTIN="full-1"/>
 <node CREATED="1585666999895" ID="ID_945037447" MODIFIED="1585667002644" TEXT="when x &gt; k"/>
 </node>
-<node CREATED="1585667026455" ID="ID_1389552677" MODIFIED="1585667041272" TEXT="See if we can find a value of C from previous estimate">
-<node CREATED="1585667056296" ID="ID_1307924209" MODIFIED="1585667059550" TEXT="for which |f (x)| &#x2264; C|g(x)| for x &gt; k"/>
+<node CREATED="1585667026455" ID="ID_1389552677" MODIFIED="1592557098199" TEXT="See if we can find a value of C from previous estimate">
+<icon BUILTIN="full-2"/>
+<node CREATED="1585667056296" ID="ID_1307924209" MODIFIED="1592557327874" TEXT="for which |f(x)| &#x2264; C|g(x)| for x &gt; k"/>
 </node>
 </node>
 <node CREATED="1586166497363" ID="ID_24023513" MODIFIED="1586166581034" TEXT="Same order">
@@ -5191,7 +5190,7 @@
 </node>
 </node>
 <node CREATED="1587386300992" ID="ID_1290706232" MODIFIED="1587386312887" TEXT="Algorithmic Paradigms">
-<node CREATED="1587386325067" ID="ID_645433862" MODIFIED="1587386339254" TEXT="Algorithm paradigm">
+<node CREATED="1587386325067" FOLDED="true" ID="ID_645433862" MODIFIED="1587386339254" TEXT="Algorithm paradigm">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1587386346024" ID="ID_980197635" MODIFIED="1587386353785" TEXT="General approach"/>
 <node CREATED="1587386354466" ID="ID_1641899363" MODIFIED="1587386361184" TEXT="... based on particular concept"/>
@@ -5214,7 +5213,8 @@
 <node CREATED="1587386524686" ID="ID_921784106" MODIFIED="1587386528520" TEXT="statement of the problem"/>
 <node CREATED="1587386529189" ID="ID_1642870505" MODIFIED="1587386538124" TEXT="definition of the terms"/>
 </node>
-<node CREATED="1587386572436" ID="ID_1651554717" MODIFIED="1587386574120" TEXT="Example">
+<node CREATED="1587386572436" ID="ID_1651554717" MODIFIED="1592556144109" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1587386574277" ID="ID_893750244" MODIFIED="1587386576557" TEXT="Bubble sort"/>
 <node CREATED="1587386577125" ID="ID_987171640" MODIFIED="1587386579352" TEXT="Insertion sort"/>
 <node CREATED="1587386580028" ID="ID_1084549007" MODIFIED="1587386588645" TEXT="Selection sort"/>
@@ -5314,7 +5314,7 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1587388497496" ID="ID_136007063" MODIFIED="1587388567445" POSITION="right" TEXT="Induction and Recursion">
+<node CREATED="1587388497496" FOLDED="true" ID="ID_136007063" MODIFIED="1587388567445" POSITION="right" TEXT="Induction and Recursion">
 <icon BUILTIN="full-5"/>
 <node CREATED="1587469753575" FOLDED="true" ID="ID_996166179" MODIFIED="1587472939052" TEXT="Introduction">
 <node CREATED="1587469493576" ID="ID_286076869" MODIFIED="1587469630750" TEXT="Proof using mathematic induction ">
@@ -5728,8 +5728,7 @@
   <body>
     <img src="definition_recursive_rooted_tree.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588149742095" ID="ID_1685759301" MODIFIED="1588149765621" TEXT="Example">
