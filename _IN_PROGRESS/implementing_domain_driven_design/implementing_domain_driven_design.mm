@@ -792,8 +792,7 @@
   <body>
     <img src="example_ecommerce_system.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1592318254788" ID="ID_1500815226" MODIFIED="1592318283743" TEXT="Subsystems responsible for many business functions">
@@ -873,12 +872,154 @@
   <body>
     <img src="abstract_business_domain_subdomains.png" />
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1592977139243" ID="ID_1410395520" MODIFIED="1592977146692" TEXT="Primary importance for organization success"/>
+<node CREATED="1592977156715" ID="ID_1569500535" MODIFIED="1592977161286" TEXT="Highest priority"/>
+<node CREATED="1592977173294" ID="ID_339862289" MODIFIED="1592977184009" TEXT="Assign">
+<node CREATED="1592977161919" ID="ID_420646976" MODIFIED="1592977170929" TEXT="Domain experts with deep knowledge"/>
+<node CREATED="1592977186017" ID="ID_659542121" MODIFIED="1592977190983" TEXT="Best developers"/>
+</node>
+<node CREATED="1592977176412" ID="ID_1345552268" MODIFIED="1592977197602" TEXT="Get most of DDD effort"/>
+<node CREATED="1592977233659" ID="ID_1406826745" MODIFIED="1592977238512" TEXT="Two other kind of subdomains">
+<node CREATED="1592977238692" ID="ID_891547800" MODIFIED="1592977291230" TEXT="Supporting subdomain">
+<icon BUILTIN="full-1"/>
+<node CREATED="1592977253891" ID="ID_865531741" MODIFIED="1592977261879" TEXT="Essential to support business"/>
+<node CREATED="1592977262250" ID="ID_801448258" MODIFIED="1592977265247" TEXT="... but not core domain"/>
+<node CREATED="1592977279291" ID="ID_1698615700" MODIFIED="1592977283455" TEXT="Somewhat specialized"/>
+</node>
+<node CREATED="1592977243260" ID="ID_706277551" MODIFIED="1592977291952" TEXT="Generic subdomain">
+<icon BUILTIN="full-2"/>
+<node CREATED="1592977269947" ID="ID_1434440257" MODIFIED="1592977275639" TEXT="Capture nothing special from business"/>
+<node CREATED="1592977284163" ID="ID_777273959" MODIFIED="1592977308039" TEXT="Required for overall business solution"/>
+</node>
+<node CREATED="1592977311552" ID="ID_103560438" MODIFIED="1592977317526" TEXT="Both important for success"/>
+<node CREATED="1592977317986" ID="ID_1684198615" MODIFIED="1592977321013" TEXT="... but no need to excel"/>
+</node>
+<node CREATED="1592977338307" ID="ID_1427658319" MODIFIED="1592977346710" TEXT="Ask the domain experts!">
+<node CREATED="1592977348234" ID="ID_675602972" MODIFIED="1592977353894" TEXT="Discuss each">
+<node CREATED="1592977354065" ID="ID_343303600" MODIFIED="1592977356037" TEXT="subdomain"/>
+<node CREATED="1592977356458" ID="ID_771035519" MODIFIED="1592977359382" TEXT="bounded context"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1592977363025" ID="ID_1565680821" MODIFIED="1592977412737" TEXT="Why Strategic Design Is So Incredibly Essential">
+<icon BUILTIN="full-2"/>
+<node CREATED="1592977442914" FOLDED="true" ID="ID_840405147" MODIFIED="1592977687884" TEXT="Collaboration context">
+<icon BUILTIN="licq"/>
+<node CREATED="1592977448561" ID="ID_1000562000" MODIFIED="1592977497595">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="wrong_strategic_decisions.png" />
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
+<node CREATED="1592977500656" ID="ID_1014146336" MODIFIED="1592977521884" TEXT="Users / permissions">
+<node CREATED="1592977522080" ID="ID_20838542" MODIFIED="1592977526194" TEXT="Nothing to do with collaboration"/>
+<node CREATED="1592977526832" ID="ID_1094576335" MODIFIED="1592977539116" TEXT="Just identity / access concepts"/>
+</node>
+<node CREATED="1592977625240" ID="ID_816294750" MODIFIED="1592977634196" TEXT="... shouldn&apos;t be coupled with collaboration!"/>
+<node CREATED="1592977546174" ID="ID_1149001727" MODIFIED="1592977552621" TEXT="Should focus on">
+<node CREATED="1592977570136" ID="ID_652128411" MODIFIED="1592977573596" TEXT="Collaboration concepts"/>
+<node CREATED="1592977573952" ID="ID_123005883" MODIFIED="1592977590196" TEXT="... with ubiquitous language "/>
+<node CREATED="1592977590669" ID="ID_42954189" MODIFIED="1592977593019" TEXT="... of collaboration"/>
+</node>
+<node CREATED="1592977723174" ID="ID_567930314" MODIFIED="1592977727713" TEXT="Bounded context naming">
+<node CREATED="1592977736599" ID="ID_1719535790" MODIFIED="1592977757275" TEXT="Always named with &quot;context&quot;"/>
+<node CREATED="1592977727902" ID="ID_1602309650" MODIFIED="1592977735556" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1592977730149" ID="ID_303818559" MODIFIED="1592977837457" TEXT="Collaboration Context"/>
+<node CREATED="1592977741279" ID="ID_858273151" MODIFIED="1592977746282" TEXT="... contain models of collaboration project"/>
+<node CREATED="1592977825646" ID="ID_1325218325" MODIFIED="1592977831154" TEXT="Agile Project Management Context"/>
+<node CREATED="1592977774718" ID="ID_1277731398" MODIFIED="1592977856978" TEXT="Identity and Access Context"/>
+<node CREATED="1592977804398" ID="ID_1694527515" MODIFIED="1592977812842" TEXT="... for user / permissions"/>
 </node>
 </node>
+</node>
+<node CREATED="1592977866846" ID="ID_1624518076" MODIFIED="1592977876004" TEXT="Real-World Domains and Subdomains ">
+<icon BUILTIN="full-3"/>
+<node CREATED="1592977880661" ID="ID_617358899" MODIFIED="1592977884313" TEXT="Domains have">
+<node CREATED="1592977884477" ID="ID_29329775" MODIFIED="1592977897939" TEXT="Problem space">
+<icon BUILTIN="full-1"/>
+<node CREATED="1592977909320" ID="ID_11871756" MODIFIED="1592977916073" TEXT="Strategic business challenges"/>
+<node CREATED="1592977916445" ID="ID_271314895" MODIFIED="1592977918769" TEXT="... to be solved"/>
+<node CREATED="1592977944877" ID="ID_1321330842" MODIFIED="1592977949112" TEXT="Include">
+<node CREATED="1592977949308" ID="ID_663119573" MODIFIED="1592977955593" TEXT="Core domain"/>
+<node CREATED="1592977956341" ID="ID_727822993" MODIFIED="1592977958289" TEXT="Subdomains"/>
+</node>
+</node>
+<node CREATED="1592977887173" ID="ID_1246027489" MODIFIED="1592977899100" TEXT="Solution space">
+<icon BUILTIN="full-2"/>
+<node CREATED="1592977923549" ID="ID_435811640" MODIFIED="1592977927457" TEXT="How to implement the software"/>
+<node CREATED="1592977927845" ID="ID_1264011655" MODIFIED="1592977930593" TEXT="... which will solve"/>
+<node CREATED="1592977931293" ID="ID_65398054" MODIFIED="1592977936880" TEXT="... the business challenges"/>
+<node CREATED="1592977959781" ID="ID_1879740196" MODIFIED="1592977965888" TEXT="Include">
+<node CREATED="1592977966252" ID="ID_269852916" MODIFIED="1592977987504" TEXT="bounded context(s)">
+<node CREATED="1592977992924" ID="ID_295453537" MODIFIED="1592977995808" TEXT="Specific solution"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1592978022516" ID="ID_302684986" MODIFIED="1592978025072" TEXT="Goal">
+<node CREATED="1592978025244" ID="ID_574116497" MODIFIED="1592978034600" TEXT="Aligning bounded contexts"/>
+<node CREATED="1592978035052" ID="ID_802583918" MODIFIED="1592978040064" TEXT="... 1 to 1"/>
+<node CREATED="1592978041196" ID="ID_1324373445" MODIFIED="1592978044368" TEXT="... to subdomains"/>
+<node CREATED="1592978059555" ID="ID_1215295988" MODIFIED="1592978062712" TEXT="Melding">
+<node CREATED="1592978062868" ID="ID_1282483190" MODIFIED="1592978065328" TEXT="Problem space"/>
+<node CREATED="1592978065708" ID="ID_696411666" MODIFIED="1592978067992" TEXT="Solution space"/>
+</node>
+<node CREATED="1592978075154" ID="ID_1220443697" MODIFIED="1592978078639" TEXT="... but not always possilbe"/>
+</node>
+<node CREATED="1592978084987" ID="ID_536143674" MODIFIED="1592978098431" TEXT="Need to make assessment">
+<node CREATED="1592978098772" ID="ID_1618904994" MODIFIED="1592978101279" TEXT="... between">
+<node CREATED="1592978101419" ID="ID_405131961" MODIFIED="1592978103471" TEXT="problem space"/>
+<node CREATED="1592978103859" ID="ID_714059029" MODIFIED="1592978107167" TEXT="solution space"/>
+</node>
+<node CREATED="1592978145076" FOLDED="true" ID="ID_1848131770" MODIFIED="1592978152287" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1592978152787" ID="ID_1688041284" MODIFIED="1592978156071">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="problem_space_analysis.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1592978169346" ID="ID_342646469" MODIFIED="1592978260030" TEXT="Questions to ask">
+<node CREATED="1592978260442" ID="ID_126099442" MODIFIED="1592978264398" TEXT="Problem Space">
+<node CREATED="1592978179547" ID="ID_387971924" MODIFIED="1592978183527" TEXT="What is the name of and vision for the strategic Core Domain? "/>
+<node CREATED="1592978187234" ID="ID_1228637310" MODIFIED="1592978190573" TEXT="What concepts should be considered part of the strategic Core Domain?"/>
+<node CREATED="1592978196418" ID="ID_661896934" MODIFIED="1592978200833" TEXT="What are the necessary Supporting Subdomains and the Generic Subdomains?"/>
+<node CREATED="1592978204922" ID="ID_1874992386" MODIFIED="1592978206295" TEXT="Who should do the work in each area of the domain?"/>
+<node CREATED="1592978211714" ID="ID_1798120548" MODIFIED="1592978212404" TEXT="Can the right teams be assembled? "/>
+</node>
+<node CREATED="1592978267490" ID="ID_1012439079" MODIFIED="1592978270390" TEXT="Solution Space">
+<node CREATED="1592978274529" ID="ID_932378305" MODIFIED="1592978275148" TEXT="What software assets already exist, and can they be reused? "/>
+<node CREATED="1592978280379" MODIFIED="1592978280379" TEXT="What assets need to be acquired or created?"/>
+<node CREATED="1592978286538" ID="ID_772720735" MODIFIED="1592978287315" TEXT="How are all of these connected to each other, or integrated? "/>
+<node CREATED="1592978290830" MODIFIED="1592978290830" TEXT="What additional integration will be needed?"/>
+<node CREATED="1592978293792" ID="ID_4437395" MODIFIED="1592978294370" TEXT="Given the existing assets and those that need to be created, what is the required effort? "/>
+<node CREATED="1592978299033" ID="ID_186415009" MODIFIED="1592978299597" TEXT="Do the strategic initiative and all supporting projects have a high proba- bility of success, or will any one of them cause the overall program to be delayed or even fail? "/>
+<node CREATED="1592978302553" ID="ID_1111173779" MODIFIED="1592978303082" TEXT="Where are the terms of the Ubiquitous Languages involved completely different? "/>
+<node CREATED="1592978306088" ID="ID_1164934455" MODIFIED="1592978306630" TEXT="Where are the terms of the Ubiquitous Languages involved completely different? "/>
+<node CREATED="1592978309993" ID="ID_218061622" MODIFIED="1592978310607" TEXT="How are shared terms and/or overlapping concepts mapped and trans- lated between the Bounded Contexts? "/>
+<node CREATED="1592978322539" ID="ID_1549602409" MODIFIED="1592978323082" TEXT="Which Bounded Context contains the concepts that address the Core Domain and which of the [Evans] tactical patterns will be used to model it? "/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1592978343049" ID="ID_134134947" MODIFIED="1592978365352" TEXT="Making Sense of Bounded Contexts "/>
 </node>
 </node>
 </map>
