@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1592124193563" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1592992845357" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -718,7 +718,7 @@
 <node CREATED="1589459086672" ID="ID_1318417739" MODIFIED="1590655506445" TEXT="Very difficult task!"/>
 </node>
 </node>
-<node CREATED="1528913920315" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
+<node CREATED="1528913920315" FOLDED="true" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
 <node CREATED="1528913960322" FOLDED="true" ID="ID_230822821" MODIFIED="1532274721630" TEXT="Recursive process">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -773,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1592030169257" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1592992845384" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -804,8 +804,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
+</html>
+</richcontent>
+<node CREATED="1528914414966" FOLDED="true" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
 <richcontent TYPE="NODE"><html>
@@ -819,13 +820,13 @@
 </node>
 </node>
 <node CREATED="1589459928570" ID="ID_46284979" MODIFIED="1589459936218" TEXT="Process don&apos;t grow and shrink"/>
-<node CREATED="1549912568632" ID="ID_1917446705" MODIFIED="1589460027088" TEXT="State only captured by its variables">
+<node CREATED="1549912568632" FOLDED="true" ID="ID_1917446705" MODIFIED="1589460027088" TEXT="State only captured by its variables">
 <node CREATED="1589460036214" ID="ID_733874498" MODIFIED="1589460040767" TEXT="Updated when process move"/>
 <node CREATED="1589460045992" ID="ID_820116699" MODIFIED="1589460051864" TEXT="... from state to state"/>
 <node CREATED="1589460090028" ID="ID_48545055" MODIFIED="1589460103768" TEXT="Give complete description of state of process"/>
 <node CREATED="1589460104323" ID="ID_1444928113" MODIFIED="1589460107823" TEXT="... at any point"/>
 </node>
-<node CREATED="1528914088881" ID="ID_556822999" MODIFIED="1589460067380" TEXT="When number of steps grows linearly with n">
+<node CREATED="1528914088881" FOLDED="true" ID="ID_556822999" MODIFIED="1589460067380" TEXT="When number of steps grows linearly with n">
 <node CREATED="1528914092761" ID="ID_574997486" MODIFIED="1528914480355" TEXT="linear iterative process "/>
 </node>
 </node>
@@ -1340,24 +1341,24 @@
 <node CREATED="1590761036478" ID="ID_1382704424" MODIFIED="1590762715303" TEXT="Introduction">
 <node CREATED="1590761135338" ID="ID_527217914" MODIFIED="1590761150771" TEXT="Combining abstraction "/>
 <node CREATED="1590761151490" ID="ID_31192421" MODIFIED="1590761156265" TEXT="... by combining data objects"/>
-<node CREATED="1590761156711" ID="ID_1700226218" MODIFIED="1590761161307" TEXT="... to form">
+<node CREATED="1590761156711" FOLDED="true" ID="ID_1700226218" MODIFIED="1590761161307" TEXT="... to form">
 <node CREATED="1590761161474" ID="ID_375642149" MODIFIED="1590761166585" TEXT="compound data">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1590761179990" ID="ID_116543996" MODIFIED="1590761184197" TEXT="Why the need?">
+<node CREATED="1590761179990" FOLDED="true" ID="ID_116543996" MODIFIED="1590761184197" TEXT="Why the need?">
 <node CREATED="1590761184699" ID="ID_1520271878" MODIFIED="1590761199932" TEXT="Elevate conceptual level of program design"/>
 <node CREATED="1590761200345" ID="ID_1010475240" MODIFIED="1590761212755" TEXT="Increase design modularity"/>
 <node CREATED="1590761213475" ID="ID_1944953937" MODIFIED="1590761231092" TEXT="Enhance expressive power of language"/>
 </node>
-<node CREATED="1590761984690" ID="ID_1143027632" MODIFIED="1590761986651" TEXT="Can isolate">
+<node CREATED="1590761984690" FOLDED="true" ID="ID_1143027632" MODIFIED="1590761986651" TEXT="Can isolate">
 <node CREATED="1590761986798" ID="ID_366238185" MODIFIED="1590761994867" TEXT="How data objects are represented"/>
 <node CREATED="1590761995694" ID="ID_1011098237" MODIFIED="1590762002043" TEXT="How data objects are used"/>
 </node>
 <node CREATED="1590762002798" ID="ID_1551940228" MODIFIED="1590762013887" TEXT="... data abstraction">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1590762379131" ID="ID_312662607" MODIFIED="1590762381446" TEXT="Abstraction">
+<node CREATED="1590762379131" FOLDED="true" ID="ID_312662607" MODIFIED="1590762381446" TEXT="Abstraction">
 <node CREATED="1590762381622" ID="ID_1197902312" MODIFIED="1590762385812" TEXT="Means to reduce complexity"/>
 <node CREATED="1590762386241" ID="ID_948602059" MODIFIED="1590762388850" TEXT="Can create">
 <node CREATED="1590762389001" ID="ID_360288775" MODIFIED="1590762392030" TEXT="abstraction barriers">
@@ -1365,19 +1366,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1590762455794" ID="ID_1916306653" MODIFIED="1590762465998" TEXT="Need &quot;glue&quot; to create compound data objects">
+<node CREATED="1590762455794" FOLDED="true" ID="ID_1916306653" MODIFIED="1590762465998" TEXT="Need &quot;glue&quot; to create compound data objects">
 <node CREATED="1590762466238" ID="ID_1473329880" MODIFIED="1590762469631" TEXT="Many sort of glue possible"/>
 <node CREATED="1590762495527" ID="ID_1160498599" MODIFIED="1590762591701" TEXT="Glue should work to compound">
 <node CREATED="1590762503817" ID="ID_1334623791" MODIFIED="1590762507282" TEXT="primitive data object"/>
 <node CREATED="1590762507618" ID="ID_973458818" MODIFIED="1590762521516" TEXT="compound data objects"/>
 </node>
 </node>
-<node CREATED="1590762619955" ID="ID_560020841" MODIFIED="1590762630403" TEXT="Handling many different data">
+<node CREATED="1590762619955" FOLDED="true" ID="ID_560020841" MODIFIED="1590762630403" TEXT="Handling many different data">
 <node CREATED="1590762630616" ID="ID_1333198665" MODIFIED="1590762634033" TEXT="generic operations">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1590762657180" ID="ID_1074041171" MODIFIED="1590762660976" TEXT="data-directed programming">
+<node CREATED="1590762657180" FOLDED="true" ID="ID_1074041171" MODIFIED="1590762660976" TEXT="data-directed programming">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1590762661384" ID="ID_1904663485" MODIFIED="1590762669086" TEXT="Allow individual data representation"/>
 <node CREATED="1590762669770" ID="ID_1499133232" MODIFIED="1590762674538" TEXT=".... to be designed in isolation"/>
@@ -1799,7 +1800,8 @@
 </node>
 </node>
 <node CREATED="1590830355637" ID="ID_1473538386" MODIFIED="1590830356319" TEXT="2.1.4 Extended Exercise: Interval Arithmetic "/>
-<node CREATED="1590830397204" ID="ID_1410375303" MODIFIED="1590830397900" TEXT="2.2 Hierarchical Data and the Closure Property ">
+</node>
+<node CREATED="1590830397204" FOLDED="true" ID="ID_1410375303" MODIFIED="1590830397900" TEXT="2.2 Hierarchical Data and the Closure Property ">
 <node CREATED="1590830572641" FOLDED="true" ID="ID_28105509" MODIFIED="1590830584323" TEXT="Introduction">
 <node CREATED="1590830584536" FOLDED="true" ID="ID_431387783" MODIFIED="1590830592046" TEXT="Visualising a pair">
 <node CREATED="1590830510078" ID="ID_1769313214" MODIFIED="1590830519212" TEXT="box-and-pointer notation">
@@ -2935,7 +2937,7 @@
 </node>
 <node CREATED="1591974154559" ID="ID_1128850495" MODIFIED="1591974162953" TEXT="2.2.4 Example: A Picture Language "/>
 </node>
-<node CREATED="1591974184598" ID="ID_1935549889" MODIFIED="1591974188702" TEXT="2.3 Symbolic Data">
+<node CREATED="1591974184598" FOLDED="true" ID="ID_1935549889" MODIFIED="1591974188702" TEXT="2.3 Symbolic Data">
 <node CREATED="1591974244686" ID="ID_1072378530" MODIFIED="1591974246434" TEXT="Introduction">
 <node CREATED="1591974218422" ID="ID_1948395330" MODIFIED="1591974226778" TEXT="Not only working with numbers"/>
 <node CREATED="1591974234678" ID="ID_1411560606" MODIFIED="1591974239690" TEXT="... but with symbols as data"/>
@@ -3439,15 +3441,13 @@
       &#160;&#160;(else (lookup given-key (cdr set-of-records)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1592124573635" ID="ID_823286854" MODIFIED="1592124581826" TEXT="Information retrieval systems often represented as tree"/>
 <node CREATED="1592124607620" ID="ID_737046868" MODIFIED="1592124612265" TEXT="Data abstraction helps">
 <node CREATED="1592124612487" ID="ID_1483965669" MODIFIED="1592124620870" TEXT="First, implement database as unordered list to see if it works"/>
 <node CREATED="1592124621226" ID="ID_1156866201" MODIFIED="1592124642854" TEXT="Later, can still be modified to be more sophisticated"/>
-</node>
 </node>
 </node>
 </node>
