@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1592556060174" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1593088163017" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4425,7 +4425,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1574834995735" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
+<node CREATED="1574834995735" FOLDED="true" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
 <icon BUILTIN="full-3"/>
 <node CREATED="1574835164172" ID="ID_1120871976" MODIFIED="1587200115860" TEXT="3.1 Algorithms">
 <node CREATED="1574835186764" FOLDED="true" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
@@ -4740,7 +4740,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585568795246" ID="ID_1838004265" MODIFIED="1586941276405" TEXT="3.2 The growth of functions">
+<node CREATED="1585568795246" FOLDED="true" ID="ID_1838004265" MODIFIED="1586941276405" TEXT="3.2 The growth of functions">
 <node CREATED="1585568911524" FOLDED="true" ID="ID_826016681" MODIFIED="1586862377278" TEXT="Introduction">
 <node CREATED="1585568880579" ID="ID_127667806" MODIFIED="1585568910159" TEXT="Times to solve a problem depends on">
 <node CREATED="1585568886420" ID="ID_1650702354" MODIFIED="1585568888177" TEXT="software"/>
@@ -4788,8 +4788,7 @@
       |f (x)| &#8804; C|g(x)| whenever x &gt; k. [This is read as &#8220;f (x) is big-oh of g(x).&#8221;]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1585569324643" ID="ID_1280718598" MODIFIED="1585569328614" TEXT="Constants C and k">
 <node CREATED="1585569328826" ID="ID_655563591" MODIFIED="1585569344386" TEXT="Called witnesses to the relationship">
