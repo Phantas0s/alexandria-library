@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1568986214867" ID="ID_1384012147" MODIFIED="1587282979796" TEXT="The Pragmatic Programmer">
+<node CREATED="1568986214867" ID="ID_1384012147" MODIFIED="1593159900056" TEXT="The Pragmatic Programmer">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -272,9 +272,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1568986301072" FOLDED="true" ID="ID_277768450" MODIFIED="1587283201641" POSITION="right" TEXT="A Pragmatic Philosophy">
+<node CREATED="1568986301072" ID="ID_277768450" MODIFIED="1587283201641" POSITION="right" TEXT="A Pragmatic Philosophy">
 <icon BUILTIN="full-1"/>
-<node CREATED="1568987863098" ID="ID_307205266" MODIFIED="1572774187163" TEXT="Introduction">
+<node CREATED="1568987863098" FOLDED="true" ID="ID_307205266" MODIFIED="1572774187163" TEXT="Introduction">
 <node CREATED="1568987868619" ID="ID_1435301503" MODIFIED="1572774188255" TEXT="Pragmatic Programmers">
 <node CREATED="1568987890265" ID="ID_1899022700" MODIFIED="1568987987069" TEXT="Place the problem in context"/>
 <node CREATED="1568987883800" ID="ID_1574463006" MODIFIED="1568987982454" TEXT="Think beyond the problem"/>
