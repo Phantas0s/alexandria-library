@@ -1,11 +1,14 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1589291675288" ID="ID_1522010724" MODIFIED="1592039325351" TEXT="Go Scheduler">
+<node CREATED="1589291675288" ID="ID_1522010724" MODIFIED="1593345325969" TEXT="Go Scheduler">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
+    <p>
+      
+    </p>
     <p>
       <b><font size="4"><u>OS Scheduler</u>&#160;</font></b>
     </p>
@@ -47,13 +50,39 @@
         What could be a solution to find this balance?
       </li>
       <li>
-        Find two causes related to the balance discussed earlier for latency.
+        Find two causes related to the balance discussed earlier for latency.<br />
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+    <p>
+      <b><font size="4"><u>Go Scheduler</u>&#160;</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        Explain simply hyper threading
+      </li>
+      <li>
+        What are the two different run queue for a Go program?
+      </li>
+      <li>
+        What are the three goroutine states?
+      </li>
+      <li>
+        Is Go scheduler preemptive? What does it mean for context switching?
+      </li>
+      <li>
+        What are the user space event the Go scheduler needs for context switching?
       </li>
     </ol>
   </body>
 </html>
 </richcontent>
-<node CREATED="1589291980782" ID="ID_832523280" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html" MODIFIED="1589373444464" POSITION="right" TEXT="OS Scheduler">
+<node CREATED="1589291980782" FOLDED="true" ID="ID_832523280" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html" MODIFIED="1589373444464" POSITION="right" TEXT="OS Scheduler">
 <icon BUILTIN="full-1"/>
 <node CREATED="1589291991623" FOLDED="true" ID="ID_833789849" MODIFIED="1589292196946" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -150,7 +179,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1589292998145" ID="ID_263491842" MODIFIED="1589293012170" TEXT="Stack trace in Go programs">
+<node CREATED="1589292998145" FOLDED="true" ID="ID_263491842" MODIFIED="1589293012170" TEXT="Stack trace in Go programs">
 <node CREATED="1589293494785" ID="ID_1044958872" MODIFIED="1589293498875" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1589293012783" ID="ID_920725218" MODIFIED="1589293280988" TEXT="Example panic">
@@ -235,7 +264,7 @@ func example(slice []string, str string, i int) {
 <node CREATED="1589293522468" FOLDED="true" ID="ID_1659681586" MODIFIED="1589296726638" TEXT="Thread States">
 <icon BUILTIN="full-3"/>
 <node CREATED="1589293538140" ID="ID_991104069" MODIFIED="1589293545861" TEXT="Dictates role scheduler takes with Thread"/>
-<node CREATED="1589293556614" ID="ID_1543793818" MODIFIED="1589293564465" TEXT="Thread can be in 1 of 3 states">
+<node CREATED="1589293556614" FOLDED="true" ID="ID_1543793818" MODIFIED="1589293564465" TEXT="Thread can be in 1 of 3 states">
 <node CREATED="1589293564663" ID="ID_14810574" MODIFIED="1589368617188" TEXT="Waiting">
 <icon BUILTIN="full-1"/>
 <node CREATED="1589293582157" ID="ID_465704740" MODIFIED="1589293585379" TEXT="Thread stopped"/>
@@ -304,7 +333,7 @@ func example(slice []string, str string, i int) {
 </node>
 </node>
 </node>
-<node CREATED="1589293928964" ID="ID_158389861" MODIFIED="1589296728464" TEXT="Context Switching">
+<node CREATED="1589293928964" FOLDED="true" ID="ID_158389861" MODIFIED="1589296728464" TEXT="Context Switching">
 <icon BUILTIN="full-5"/>
 <node CREATED="1589293938287" ID="ID_1405253729" MODIFIED="1589293946913" TEXT="If running either on">
 <node CREATED="1589293940589" ID="ID_1564620575" MODIFIED="1589293941631" TEXT="Linux"/>
@@ -407,14 +436,14 @@ func example(slice []string, str string, i int) {
 <node CREATED="1589294994791" ID="ID_1114566965" MODIFIED="1589294997960" TEXT="More work done!"/>
 </node>
 </node>
-<node CREATED="1589294999410" ID="ID_1774934479" MODIFIED="1589296731246" TEXT="Find the Balance">
+<node CREATED="1589294999410" FOLDED="true" ID="ID_1774934479" MODIFIED="1589296731246" TEXT="Find the Balance">
 <icon BUILTIN="full-7"/>
 <node CREATED="1589295022781" ID="ID_834634865" MODIFIED="1589295027414" TEXT="Balance to find between">
 <node CREATED="1589295027644" ID="ID_1206070250" MODIFIED="1589295033452" TEXT="Number of cores you have"/>
 <node CREATED="1589295036416" ID="ID_61379482" MODIFIED="1589295045201" TEXT="Number of Threads you need"/>
 </node>
 <node CREATED="1589295045781" ID="ID_1571815435" MODIFIED="1589295055990" TEXT="... to get best throughput for your app"/>
-<node CREATED="1589295213307" ID="ID_1106379452" MODIFIED="1589295581124" TEXT="Thread pools to manage balance">
+<node CREATED="1589295213307" FOLDED="true" ID="ID_1106379452" MODIFIED="1589295581124" TEXT="Thread pools to manage balance">
 <node CREATED="1589295230153" ID="ID_1119407927" MODIFIED="1589295233904" TEXT="Not necessary anymore with Go"/>
 <node CREATED="1589295251876" ID="ID_1836779416" MODIFIED="1589295283164" TEXT="Need to decide">
 <node CREATED="1589295253561" ID="ID_1819811312" MODIFIED="1589295256527" TEXT="How many pools you need"/>
@@ -450,7 +479,7 @@ func example(slice []string, str string, i int) {
 </node>
 </node>
 </node>
-<node CREATED="1589295599228" ID="ID_1845107675" MODIFIED="1589296733020" TEXT="Cache Lines">
+<node CREATED="1589295599228" FOLDED="true" ID="ID_1845107675" MODIFIED="1589296733020" TEXT="Cache Lines">
 <icon BUILTIN="full-8"/>
 <node CREATED="1589295613313" ID="ID_1325313909" MODIFIED="1589295621613" TEXT="Accessing data from main memory">
 <node CREATED="1589295621826" ID="ID_1529238744" MODIFIED="1589295626148" TEXT="High latency costs!">
@@ -540,7 +569,7 @@ func example(slice []string, str string, i int) {
 <icon BUILTIN="full-0"/>
 </node>
 </node>
-<node CREATED="1589366122201" FOLDED="true" ID="ID_102800878" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html#practical-example" MODIFIED="1589373435400" POSITION="right" TEXT="Go Scheduler">
+<node CREATED="1589366122201" ID="ID_102800878" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html#practical-example" MODIFIED="1589373435400" POSITION="right" TEXT="Go Scheduler">
 <icon BUILTIN="full-2"/>
 <node CREATED="1589366819063" FOLDED="true" ID="ID_400564511" MODIFIED="1589366822879" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -554,10 +583,10 @@ func example(slice []string, str string, i int) {
 <node CREATED="1589367169507" ID="ID_728846411" LINK="https://en.wikipedia.org/wiki/Hyper-threading" MODIFIED="1589367175372" TEXT="Hyper-threading"/>
 </node>
 <node CREATED="1589367190230" ID="ID_641807120" MODIFIED="1589367194884" TEXT="... each presented as virtual core"/>
-<node CREATED="1589367223473" FOLDED="true" ID="ID_647391484" MODIFIED="1589367287366" TEXT="Example">
-<icon BUILTIN="licq"/>
+<node CREATED="1589367223473" ID="ID_647391484" MODIFIED="1593344759434" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1589367315394" ID="ID_1112208755" MODIFIED="1589367317244" TEXT="Illustration">
+<node CREATED="1589367315394" ID="ID_1112208755" MODIFIED="1593344763992" TEXT="Illustration">
+<icon BUILTIN="licq"/>
 <node CREATED="1589367258462" ID="ID_1778873706" MODIFIED="1589367264474">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -591,7 +620,7 @@ func example(slice []string, str string, i int) {
 <node CREATED="1589367578773" ID="ID_55592495" MODIFIED="1589367583467" TEXT="... all atached to a P"/>
 </node>
 </node>
-<node CREATED="1589367654857" FOLDED="true" ID="ID_1572089000" MODIFIED="1589367840154" TEXT="Given an initial Goroutine">
+<node CREATED="1589367654857" ID="ID_1572089000" MODIFIED="1589367840154" TEXT="Given an initial Goroutine">
 <node CREATED="1589367676391" ID="ID_750780782" MODIFIED="1589367680636" TEXT="Path of execution for Go program"/>
 <node CREATED="1589367691119" ID="ID_246660340" LINK="https://en.wikipedia.org/wiki/Coroutine" MODIFIED="1589367706471" TEXT="Essentially Coroutine">
 <node CREATED="1589367695474" ID="ID_1846692046" MODIFIED="1589367698540" TEXT="... with a G"/>
@@ -636,7 +665,7 @@ func example(slice []string, str string, i int) {
 </node>
 </node>
 </node>
-<node CREATED="1589368123695" FOLDED="true" ID="ID_1823621694" MODIFIED="1589368128961" TEXT="Cooperating Scheduler">
+<node CREATED="1589368123695" ID="ID_1823621694" MODIFIED="1589368128961" TEXT="Cooperating Scheduler">
 <icon BUILTIN="full-2"/>
 <node CREATED="1589368171365" ID="ID_645282523" MODIFIED="1589368175958" TEXT="OS scheduler is preemptive"/>
 <node CREATED="1589368156452" ID="ID_685590258" MODIFIED="1589368163356" TEXT="Applications running on top of OS"/>
@@ -654,18 +683,18 @@ func example(slice []string, str string, i int) {
 <node CREATED="1589368278359" ID="ID_735410990" MODIFIED="1589368281959" TEXT="... above the kernel"/>
 </node>
 <node CREATED="1589368297770" ID="ID_480453818" MODIFIED="1589368304825" TEXT="Go Scheduler not preemptive"/>
-<node CREATED="1589368310382" FOLDED="true" ID="ID_1061634290" LINK="https://en.wikipedia.org/wiki/Cooperative_multitasking" MODIFIED="1589368323216" TEXT="... but cooperating">
+<node CREATED="1589368310382" ID="ID_1061634290" LINK="https://en.wikipedia.org/wiki/Cooperative_multitasking" MODIFIED="1589368323216" TEXT="... but cooperating">
 <node CREATED="1589368329048" ID="ID_853754044" MODIFIED="1589368342195" TEXT="Needs well-defined user space events"/>
 <node CREATED="1589368342950" ID="ID_734630772" MODIFIED="1589368350411" TEXT="... happening at safe points in code"/>
 <node CREATED="1589368350799" ID="ID_1806917469" MODIFIED="1589368355114" TEXT="... to make scheduling decisions"/>
 </node>
-<node CREATED="1589368360029" FOLDED="true" ID="ID_905878332" MODIFIED="1589368366285" TEXT="... but looks / feel preemptive">
+<node CREATED="1589368360029" ID="ID_905878332" MODIFIED="1589368366285" TEXT="... but looks / feel preemptive">
 <node CREATED="1589368374538" ID="ID_1846936524" MODIFIED="1589368381218" TEXT="Can&apos;t predict what Go scheduler will do"/>
 <node CREATED="1589368395323" ID="ID_1076259806" MODIFIED="1589368405009" TEXT="Go runtime makes decisions"/>
 <node CREATED="1589368422487" ID="ID_1438955276" MODIFIED="1589368425507" TEXT="... not the developer"/>
 </node>
 </node>
-<node CREATED="1589368427210" FOLDED="true" ID="ID_322600833" MODIFIED="1589368431782" TEXT="Goroutine States">
+<node CREATED="1589368427210" ID="ID_322600833" MODIFIED="1589368431782" TEXT="Goroutine States">
 <icon BUILTIN="full-3"/>
 <node CREATED="1589368444765" ID="ID_1456922773" MODIFIED="1589368464368" TEXT="Have 3 high level states">
 <node CREATED="1589368464582" ID="ID_432088571" MODIFIED="1589368467254" TEXT="Like Threads!"/>
@@ -688,7 +717,7 @@ func example(slice []string, str string, i int) {
 </node>
 </node>
 </node>
-<node CREATED="1589368691430" FOLDED="true" ID="ID_356311723" MODIFIED="1589368693379" TEXT="Context Switching">
+<node CREATED="1589368691430" ID="ID_356311723" MODIFIED="1589368693379" TEXT="Context Switching">
 <icon BUILTIN="full-4"/>
 <node CREATED="1589368711640" ID="ID_543585586" MODIFIED="1589368718731" TEXT="Go Scheduler requires">
 <node CREATED="1589368718944" ID="ID_1149273889" MODIFIED="1589368725698" TEXT="user-space events"/>
