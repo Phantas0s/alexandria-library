@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528482084555" ID="ID_620096067" MODIFIED="1571924367404" TEXT="Go beautiful package">
+<node CREATED="1528482084555" ID="ID_620096067" LINK="https://www.youtube.com/watch?v=cmkKxNN7cs4" MODIFIED="1593952884112" TEXT="Go beautiful package">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -18,6 +18,10 @@
   </body>
 </html>
 </richcontent>
+<node COLOR="#338800" CREATED="1593952888926" ID="ID_1602887709" LINK="https://github.com/golang-standards/project-layout" MODIFIED="1593952933607" POSITION="right" TEXT="Go standard project layout">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
 <node CREATED="1528482351119" ID="ID_423854315" MODIFIED="1532014332417" POSITION="right" TEXT="Small footprints">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1528482371116" ID="ID_1990463334" MODIFIED="1528482382234" TEXT="Small functions exported"/>
