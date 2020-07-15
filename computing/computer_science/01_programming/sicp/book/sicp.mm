@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1592992845357" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1594800726850" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -718,7 +718,7 @@
 <node CREATED="1589459086672" ID="ID_1318417739" MODIFIED="1590655506445" TEXT="Very difficult task!"/>
 </node>
 </node>
-<node CREATED="1528913920315" FOLDED="true" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
+<node CREATED="1528913920315" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
 <node CREATED="1528913960322" FOLDED="true" ID="ID_230822821" MODIFIED="1532274721630" TEXT="Recursive process">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -773,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1592992845384" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1594800726885" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3449,6 +3449,210 @@
 <node CREATED="1592124612487" ID="ID_1483965669" MODIFIED="1592124620870" TEXT="First, implement database as unordered list to see if it works"/>
 <node CREATED="1592124621226" ID="ID_1156866201" MODIFIED="1592124642854" TEXT="Later, can still be modified to be more sophisticated"/>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1594800738693" ID="ID_69520908" MODIFIED="1594800757382" TEXT="2.4 Multiple Representation for Abstract Data">
+<node CREATED="1594802347631" FOLDED="true" ID="ID_97354207" MODIFIED="1594802349740" TEXT="Introduction">
+<node CREATED="1594801038076" ID="ID_1412838296" MODIFIED="1594801042637" TEXT="Abstraction barrier">
+<node CREATED="1594801042638" ID="ID_1627723167" MODIFIED="1594801045922" TEXT="Constructor"/>
+<node CREATED="1594801046309" ID="ID_605170088" MODIFIED="1594801048465" TEXT="Selectors"/>
+<node CREATED="1594801048925" ID="ID_1425171457" MODIFIED="1594801054281" TEXT="... isolating from one layer to another"/>
+</node>
+<node CREATED="1594801058430" ID="ID_1458279084" MODIFIED="1594801062654" TEXT="... powerful but not enough">
+<node CREATED="1594801069965" ID="ID_212129908" MODIFIED="1594801081142" TEXT="More than one useful representation for data object"/>
+<node CREATED="1594801120830" ID="ID_729688158" MODIFIED="1594801130487" TEXT="Deal with system with multiple representation"/>
+</node>
+<node CREATED="1594801160844" ID="ID_847118301" MODIFIED="1594801166863" TEXT="Programming system designed">
+<node CREATED="1594801167123" ID="ID_653368269" MODIFIED="1594801174623" TEXT="... by many people"/>
+<node CREATED="1594801175412" ID="ID_1562135478" MODIFIED="1594801183454" TEXT="... working on long period of time"/>
+<node CREATED="1594801184434" ID="ID_1787974615" MODIFIED="1594801189631" TEXT="... with requirement which change"/>
+<node CREATED="1594801192682" ID="ID_1268203497" MODIFIED="1594801205047" TEXT="Not possible to afree in advance of data representation"/>
+</node>
+<node CREATED="1594801680316" ID="ID_1770921488" MODIFIED="1594801685456" TEXT="Need abstraction abrrier">
+<node CREATED="1594801685680" ID="ID_939931077" MODIFIED="1594801712055" TEXT="... isolate representation"/>
+<node CREATED="1594801702697" ID="ID_1595573946" MODIFIED="1594801708574" TEXT="... permit different representation to coexist"/>
+<node CREATED="1594801732314" ID="ID_638540074" MODIFIED="1594801749781" TEXT="Incorporate additively module in larger system"/>
+<node CREATED="1594801750937" ID="ID_1728735965" MODIFIED="1594801754795" TEXT="... without">
+<node CREATED="1594801755321" ID="ID_1050546481" MODIFIED="1594801757364" TEXT="redesign"/>
+<node CREATED="1594801757965" ID="ID_1312510925" MODIFIED="1594801762603" TEXT="reimplementation"/>
+</node>
+</node>
+<node CREATED="1594801777146" ID="ID_639794876" MODIFIED="1594801783644" TEXT="Constructing generic procedures">
+<node CREATED="1594801784776" ID="ID_1357359986" MODIFIED="1594801794797" TEXT="procedures which can operate on data"/>
+<node CREATED="1594801795172" ID="ID_1121647628" MODIFIED="1594801799765" TEXT="... represented in more than one way"/>
+</node>
+<node CREATED="1594801894341" ID="ID_923273003" MODIFIED="1594802212056" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1594801898334" ID="ID_885163375" MODIFIED="1594801904426" TEXT="Complex number system"/>
+<node CREATED="1594802185979" ID="ID_221741999" MODIFIED="1594802192981" TEXT="Abstraction barriers">
+<icon BUILTIN="licq"/>
+<node CREATED="1594802193514" ID="ID_1389351066" MODIFIED="1594802197830">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="real_number_abstraction_barrier.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1594802342022" ID="ID_1031658094" MODIFIED="1594802342901" TEXT="2.4.1 Representations for Complex Numbers ">
+<node CREATED="1594802611915" ID="ID_1509823857" MODIFIED="1594802618383" TEXT="Representing complex numbers"/>
+<node CREATED="1594802778434" ID="ID_467266183" MODIFIED="1594802796701" TEXT="Complex number implementation">
+<node CREATED="1594802816576" ID="ID_1552616569" MODIFIED="1594802820188" TEXT="Rectangular form"/>
+<node CREATED="1594802820616" ID="ID_220831170" MODIFIED="1594802822780" TEXT="Polar form"/>
+</node>
+<node CREATED="1594802830335" ID="ID_1002954175" MODIFIED="1594802898281" TEXT="Base">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (make-from-real-imag (real-part z) (imag-part z))<br />(make-from-mag-ang (magnitude z) (angle z))
+    </p>
+    <p>
+      <br />
+      (define (add-complex z1 z2)
+    </p>
+    <p>
+      (make-from-real-imag (+ (real-part z1) (real-part z2))
+    </p>
+    <p>
+      (+ (imag-part z1) (imag-part z2))))
+    </p>
+    <p>
+      (define (sub-complex z1 z2)
+    </p>
+    <p>
+      (make-from-real-imag (- (real-part z1) (real-part z2))
+    </p>
+    <p>
+      (- (imag-part z1) (imag-part z2))))
+    </p>
+    <p>
+      (define (mul-complex z1 z2)
+    </p>
+    <p>
+      (make-from-mag-ang (* (magnitude z1) (magnitude z2))
+    </p>
+    <p>
+      (+ (angle z1) (angle z2))))
+    </p>
+    <p>
+      (define (div-complex z1 z2)
+    </p>
+    <p>
+      (make-from-mag-ang (/ (magnitude z1) (magnitude z2))
+    </p>
+    <p>
+      (- (angle z1) (angle z2))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1594803013076" ID="ID_117115831" MODIFIED="1594803015153" TEXT="Representations">
+<node CREATED="1594802898526" ID="ID_1447438549" MODIFIED="1594803024505" TEXT="Rectangular">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (real-part z) (car z))
+    </p>
+    <p>
+      (define (imag-part z) (cdr z))
+    </p>
+    <p>
+      (define (magnitude z)
+    </p>
+    <p>
+      &#160;&#160;(sqrt (+ (square (real-part z))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(square (imag-part z)))))
+    </p>
+    <p>
+      (define (angle z)
+    </p>
+    <p>
+      &#160;&#160;(atan (imag-part z) (real-part z)))
+    </p>
+    <p>
+      (define (make-from-real-imag x y) (cons x y))
+    </p>
+    <p>
+      (define (make-from-mag-ang r a)
+    </p>
+    <p>
+      &#160;&#160;(cons (* r (cos a)) (* r (sin a))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1594802949541" ID="ID_762770775" MODIFIED="1594803027920" TEXT="Polar">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (real-part z) (* (magnitude z) (cos (angle z))))
+    </p>
+    <p>
+      (define (imag-part z) (* (magnitude z) (sin (angle z))))
+    </p>
+    <p>
+      (define (magnitude z) (car z))
+    </p>
+    <p>
+      (define (angle z) (cdr z))
+    </p>
+    <p>
+      (define (make-from-real-imag x y)
+    </p>
+    <p>
+      &#160;&#160;(cons (sqrt (+ (square x) (square y)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(atan y x)))
+    </p>
+    <p>
+      (define (make-from-mag-ang r a) (cons r a))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1594802965422" ID="ID_1120690630" MODIFIED="1594802976273" TEXT="Data abstraction should ensure"/>
+<node CREATED="1594802976701" ID="ID_1300494389" MODIFIED="1594802985401" TEXT="... that same implementation">
+<node CREATED="1594802986229" ID="ID_251724487" MODIFIED="1594802999396" TEXT="add-complex">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1594802990894" ID="ID_527987716" MODIFIED="1594802999825" TEXT="sub-complex">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1594802994181" ID="ID_1373947055" MODIFIED="1594803000227" TEXT="mul-complex">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1594802996556" ID="ID_546347090" MODIFIED="1594803000607" TEXT="div-complex">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1594803001324" ID="ID_199657808" MODIFIED="1594803012001" TEXT="... works for polar / rectangular representation"/>
+</node>
+<node CREATED="1594803032836" ID="ID_888778174" MODIFIED="1594803033469" TEXT="2.4.2 Tagged data ">
+<node CREATED="1594803052106" ID="ID_638390072" MODIFIED="1594803063528" TEXT="Can view data abstraction of application"/>
+<node CREATED="1594803069035" ID="ID_1133074887" MODIFIED="1594803074991" TEXT="... of the &quot;principle of least commitment&quot;">
+<node CREATED="1594803340166" ID="ID_1390111865" MODIFIED="1594803367979" TEXT="Can defer to choose selector representation"/>
+<node CREATED="1594803368962" ID="ID_799860083" MODIFIED="1594803373531" TEXT="... and implement everything else"/>
+<node CREATED="1594803374071" ID="ID_1568132814" MODIFIED="1594803381555" TEXT="Abstraction barrier will "/>
 </node>
 </node>
 </node>
