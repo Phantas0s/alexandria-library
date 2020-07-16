@@ -81,8 +81,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
@@ -3720,8 +3719,7 @@
       (define (polar? z) (eq? (type-tag z) 'polar))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1594883646561" ID="ID_1940975868" MODIFIED="1594883669701" TEXT="Rectangular new implementation">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -3768,8 +3766,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons (* r (cos a)) (* r (sin a)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1594883670826" ID="ID_987684501" MODIFIED="1594883685738" TEXT="Polar new implementation">
 <richcontent TYPE="NOTE"><html>
@@ -3814,8 +3811,7 @@
       &#160;&#160;(attach-tag 'polar (cons r a)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1594883734825" ID="ID_1436560651" MODIFIED="1594883758936" TEXT="Selectors">
 <richcontent TYPE="NOTE"><html>
@@ -3896,8 +3892,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown type: ANGLE&quot; z))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1594883856936" ID="ID_448333583" MODIFIED="1594883866156" TEXT="Important organizational strategy">
@@ -3907,6 +3902,10 @@
 </node>
 </node>
 <node CREATED="1594883901438" ID="ID_1843437990" MODIFIED="1594883902208" TEXT="2.4.3 Data-Directed Programming and Additivity ">
+<node COLOR="#338800" CREATED="1594897318201" ID="ID_760031323" LINK="https://www.youtube.com/watch?v=zgbBNEuHs2w&amp;list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9&amp;index=17&amp;t=2s" MODIFIED="1594897352122" TEXT="Generic Operators From Brian Harvey cs61a is way clearer">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
 <node CREATED="1594883908976" ID="ID_1442721382" MODIFIED="1594884005588" TEXT="Dispatching on type">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1594883914560" ID="ID_1726549592" MODIFIED="1594883930362" TEXT="General strategy of checking the type of datum"/>
@@ -3959,7 +3958,7 @@
 <node CREATED="1594884428404" ID="ID_766298420" MODIFIED="1594884561020" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1594884431892" ID="ID_938997502" MODIFIED="1594884450064" TEXT="Complex number system"/>
-<node CREATED="1594884547251" ID="ID_116139881" MODIFIED="1594884557641" TEXT="Illustration">
+<node CREATED="1594884547251" FOLDED="true" ID="ID_116139881" MODIFIED="1594884557641" TEXT="Illustration">
 <icon BUILTIN="licq"/>
 <node CREATED="1594884549858" ID="ID_546033782" MODIFIED="1594884554140">
 <richcontent TYPE="NODE"><html>
@@ -3969,8 +3968,7 @@
   <body>
     <img src="table_operations_complex_number.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3978,6 +3976,15 @@
 <node CREATED="1594884631306" ID="ID_368483588" MODIFIED="1594884636367" TEXT="... which works with such a table directly"/>
 <node CREATED="1594884665187" ID="ID_1949027287" MODIFIED="1594884672302" TEXT="To add a new representation package"/>
 <node CREATED="1594884672747" ID="ID_1164846219" MODIFIED="1594884681533" TEXT="... we only need to add new entry in the table"/>
+<node CREATED="1594899400587" ID="ID_1136937565" MODIFIED="1594899404535" TEXT="In more general term">
+<node CREATED="1594899404826" ID="ID_127862931" MODIFIED="1594899414840" TEXT="directed programming use data"/>
+<node CREATED="1594899415273" ID="ID_502893322" MODIFIED="1594899451294" TEXT="... to make the software"/>
+<node CREATED="1594899452117" ID="ID_824556043" MODIFIED="1594899457438" TEXT=",,, behave in some ways"/>
+<node CREATED="1594899418874" ID="ID_1519188657" MODIFIED="1594899434587" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1594899420009" ID="ID_250297173" MODIFIED="1594899430341" TEXT="Any config file"/>
+</node>
+</node>
 </node>
 <node CREATED="1594884745218" ID="ID_287160654" MODIFIED="1594884748310" TEXT="Implementation">
 <node CREATED="1594884759490" ID="ID_103791732" MODIFIED="1594884791438" TEXT="(put &#x27e8;op &#x27e9; &#x27e8;type &#x27e9; &#x27e8;item &#x27e9;) ">
@@ -4066,8 +4073,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1594885029959" ID="ID_1477266959" MODIFIED="1594885035919" TEXT="Polar package">
 <richcontent TYPE="NOTE"><html>
@@ -4139,8 +4145,7 @@
       &#160;&#160;'done)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1594884936088" ID="ID_634408461" MODIFIED="1594884953957" TEXT="Procedures are internal">
 <node CREATED="1594884939601" ID="ID_1386305819" MODIFIED="1594884943180" TEXT="No name conflict anymore"/>
@@ -4176,8 +4181,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(list op type-tags))))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1594885239982" ID="ID_983504827" MODIFIED="1594885250815" TEXT="generic selectors">
 <richcontent TYPE="NOTE"><html>
@@ -4198,8 +4202,7 @@
       (define (angle z) (apply-generic 'angle z))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1594885267087" ID="ID_1113121947" MODIFIED="1594885274067" TEXT="Don&apos;t change if new representation"/>
 <node CREATED="1594885274422" ID="ID_247473018" MODIFIED="1594885278003" TEXT="... added in the system"/>
 </node>
@@ -4222,8 +4225,7 @@
       &#160;&#160;((get 'make-from-mag-ang 'polar) r a))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -4273,8 +4275,7 @@
       &#160;&#160;dispatch)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1594885698333" ID="ID_1899730626" MODIFIED="1594885703720" TEXT="Value returned is a procedure"/>
 <node CREATED="1594885704748" ID="ID_205384036" MODIFIED="1594885716632" TEXT="... invoked when apply generic request an operation to be performed"/>
 </node>
@@ -4288,8 +4289,7 @@
       (define (apply-generic op arg) (arg op))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1594885666060" ID="ID_1605540412" MODIFIED="1594885677432" TEXT="But only generic procedure with one argument"/>
 </node>
 </node>
