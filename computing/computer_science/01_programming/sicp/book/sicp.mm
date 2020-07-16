@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1594800726850" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1594883583013" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -804,8 +804,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1528914414966" FOLDED="true" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
@@ -1387,7 +1386,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590762716523" ID="ID_531962734" MODIFIED="1590762724258" TEXT="2.1 Introduction do Data Abstractoin">
+<node CREATED="1590762716523" FOLDED="true" ID="ID_531962734" MODIFIED="1590762724258" TEXT="2.1 Introduction do Data Abstractoin">
 <node CREATED="1590763193716" FOLDED="true" ID="ID_474787162" MODIFIED="1590763196174" TEXT="Introduction">
 <node CREATED="1590762778933" FOLDED="true" ID="ID_460518805" MODIFIED="1590762784986" TEXT="More complex procedure">
 <node CREATED="1590762785216" ID="ID_615491137" MODIFIED="1590762791978" TEXT="Collection of particular operations"/>
@@ -1656,13 +1655,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1590828400846" FOLDED="true" ID="ID_432143703" MODIFIED="1590828402063" TEXT="2.1.2 Abstraction Barriers ">
+<node CREATED="1590828400846" ID="ID_432143703" MODIFIED="1590828402063" TEXT="2.1.2 Abstraction Barriers ">
 <node CREATED="1590828421731" ID="ID_949377487" MODIFIED="1590828428326" TEXT="Underlying idea of data abstraction"/>
 <node CREATED="1590828431842" ID="ID_1078044444" MODIFIED="1590828441912" TEXT="Identify for each type of data object"/>
 <node CREATED="1590828442666" ID="ID_41342702" MODIFIED="1590828449104" TEXT="... a basic set of operations"/>
 <node CREATED="1590828449509" ID="ID_1235035523" MODIFIED="1590828491160" TEXT="... manipulating data object of that type"/>
 <node CREATED="1590828474713" ID="ID_1409618886" MODIFIED="1590828509626" TEXT="Only use these operations to manipulate the data"/>
-<node CREATED="1590828519957" FOLDED="true" ID="ID_37730316" MODIFIED="1590828522857" TEXT="Abstraction barrier">
+<node CREATED="1590828519957" ID="ID_37730316" MODIFIED="1590828522857" TEXT="Abstraction barrier">
 <node CREATED="1590828523086" ID="ID_769852443" MODIFIED="1590828543215" TEXT="Isolate different &quot;levels&quot; of the system"/>
 <node CREATED="1590828561066" ID="ID_869930041" MODIFIED="1590828570117" TEXT="At each level barrier separates">
 <node CREATED="1590828571767" ID="ID_988298411" MODIFIED="1590828602960" TEXT="Programs (above) that use the data abstraction"/>
@@ -3553,8 +3552,7 @@
       (- (angle z1) (angle z2))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1594803013076" ID="ID_117115831" MODIFIED="1594803015153" TEXT="Representations">
 <node CREATED="1594802898526" ID="ID_1447438549" MODIFIED="1594803024505" TEXT="Rectangular">
@@ -3652,10 +3650,659 @@
 <node CREATED="1594803069035" ID="ID_1133074887" MODIFIED="1594803074991" TEXT="... of the &quot;principle of least commitment&quot;">
 <node CREATED="1594803340166" ID="ID_1390111865" MODIFIED="1594803367979" TEXT="Can defer to choose selector representation"/>
 <node CREATED="1594803368962" ID="ID_799860083" MODIFIED="1594803373531" TEXT="... and implement everything else"/>
-<node CREATED="1594803374071" ID="ID_1568132814" MODIFIED="1594803381555" TEXT="Abstraction barrier will "/>
+<node CREATED="1594883150414" ID="ID_1353997146" MODIFIED="1594883155413" TEXT="Going even further">
+<node CREATED="1594883155579" ID="ID_132177146" MODIFIED="1594883168825" TEXT="Maintain ambiguity of representation"/>
+<node CREATED="1594883169574" ID="ID_1950799890" MODIFIED="1594883178386" TEXT="... after designed selectors / constructors"/>
+<node CREATED="1594883181733" ID="ID_304397008" MODIFIED="1594883185834" TEXT="... using both representation"/>
+</node>
+</node>
+<node CREATED="1594883407653" ID="ID_1461848043" MODIFIED="1594883421022" TEXT="... but need ways to distinguish data">
+<node CREATED="1594883421275" ID="ID_1299129332" MODIFIED="1594883425006" TEXT="... in polar form"/>
+<node CREATED="1594883425630" ID="ID_1546864595" MODIFIED="1594883431224" TEXT="... and in rectangular form"/>
+</node>
+<node CREATED="1594883440171" ID="ID_549650110" MODIFIED="1594883453912" TEXT="Including type tag part of each complex number">
+<node CREATED="1594883454163" ID="ID_174182750" MODIFIED="1594883461261" TEXT="... rectangular"/>
+<node CREATED="1594883461683" ID="ID_341714434" MODIFIED="1594883463127" TEXT="... or polar"/>
+</node>
+<node CREATED="1594883470563" ID="ID_1082563561" MODIFIED="1594883477192" TEXT="When manipulating complex number">
+<node CREATED="1594883477411" ID="ID_680940085" MODIFIED="1594883481568" TEXT="...decide of the tag"/>
+<node CREATED="1594883481938" ID="ID_839460722" MODIFIED="1594883492607" TEXT="... for which selector to apply"/>
+</node>
+<node CREATED="1594883539427" ID="ID_79579368" MODIFIED="1594883591306" TEXT="Tag implementation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (attach-tag type-tag contents)
+    </p>
+    <p>
+      &#160;&#160;(cons type-tag contents))
+    </p>
+    <p>
+      (define (type-tag datum)
+    </p>
+    <p>
+      &#160;&#160;(if (pair? datum)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(car datum)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(error &quot;Bad tagged datum: TYPE-TAG&quot; datum)))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (contents datum)
+    </p>
+    <p>
+      &#160;&#160;(if (pair? datum)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cdr datum)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(error &quot;Bad tagged datum: CONTENTS&quot; datum)))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (rectangular? z)
+    </p>
+    <p>
+      (eq? (type-tag z) 'rectangular))
+    </p>
+    <p>
+      (define (polar? z) (eq? (type-tag z) 'polar))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1594883646561" ID="ID_1940975868" MODIFIED="1594883669701" TEXT="Rectangular new implementation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (real-part-rectangular z) (car z))
+    </p>
+    <p>
+      (define (imag-part-rectangular z) (cdr z))
+    </p>
+    <p>
+      (define (magnitude-rectangular z)
+    </p>
+    <p>
+      &#160;&#160;(sqrt (+ (square (real-part-rectangular z))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(square (imag-part-rectangular z)))))
+    </p>
+    <p>
+      (define (angle-rectangular z)
+    </p>
+    <p>
+      &#160;&#160;(atan (imag-part-rectangular z)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(real-part-rectangular z)))
+    </p>
+    <p>
+      (define (make-from-real-imag-rectangular x y)
+    </p>
+    <p>
+      &#160;&#160;(attach-tag 'rectangular (cons x y)))
+    </p>
+    <p>
+      (define (make-from-mag-ang-rectangular r a)
+    </p>
+    <p>
+      &#160;&#160;(attach-tag 'rectangular
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons (* r (cos a)) (* r (sin a)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1594883670826" ID="ID_987684501" MODIFIED="1594883685738" TEXT="Polar new implementation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (real-part-polar z)
+    </p>
+    <p>
+      &#160;&#160;(* (magnitude-polar z) (cos (angle-polar z))))
+    </p>
+    <p>
+      (define (imag-part-polar z)
+    </p>
+    <p>
+      &#160;&#160;(* (magnitude-polar z) (sin (angle-polar z))))
+    </p>
+    <p>
+      (define (magnitude-polar z) (car z))
+    </p>
+    <p>
+      (define (angle-polar z) (cdr z))
+    </p>
+    <p>
+      (define (make-from-real-imag-polar x y)
+    </p>
+    <p>
+      &#160;&#160;(attach-tag 'polar
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons (sqrt (+ (square x) (square y)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(atan y x))))
+    </p>
+    <p>
+      (define (make-from-mag-ang-polar r a)
+    </p>
+    <p>
+      &#160;&#160;(attach-tag 'polar (cons r a)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1594883734825" ID="ID_1436560651" MODIFIED="1594883758936" TEXT="Selectors">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (real-part z)
+    </p>
+    <p>
+      &#160;&#160;(cond ((rectangular? z)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(real-part-rectangular (contents z)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((polar? z)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(real-part-polar (contents z)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown type: REAL-PART&quot; z))))
+    </p>
+    <p>
+      (define (imag-part z)
+    </p>
+    <p>
+      &#160;&#160;(cond ((rectangular? z)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(imag-part-rectangular (contents z)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((polar? z)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(imag-part-polar (contents z)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown type: IMAG-PART&quot; z))))
+    </p>
+    <p>
+      (define (magnitude z)
+    </p>
+    <p>
+      &#160;&#160;(cond ((rectangular? z)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(magnitude-rectangular (contents z)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((polar? z)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(magnitude-polar (contents z)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown type: MAGNITUDE&quot; z))))
+    </p>
+    <p>
+      (define (angle z)
+    </p>
+    <p>
+      &#160;&#160;(cond ((rectangular? z)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(angle-rectangular (contents z)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((polar? z)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(angle-polar (contents z)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown type: ANGLE&quot; z))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1594883856936" ID="ID_448333583" MODIFIED="1594883866156" TEXT="Important organizational strategy">
+<node CREATED="1594883868879" ID="ID_443097689" MODIFIED="1594883872637" TEXT="Attaching tags"/>
+<node CREATED="1594883873024" ID="ID_100707792" MODIFIED="1594883875788" TEXT="Stripping off tags"/>
+<node CREATED="1594883876528" ID="ID_541164946" MODIFIED="1594883881005" TEXT="... from level to level"/>
+</node>
+</node>
+<node CREATED="1594883901438" ID="ID_1843437990" MODIFIED="1594883902208" TEXT="2.4.3 Data-Directed Programming and Additivity ">
+<node CREATED="1594883908976" ID="ID_1442721382" MODIFIED="1594884005588" TEXT="Dispatching on type">
+<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1594883914560" ID="ID_1726549592" MODIFIED="1594883930362" TEXT="General strategy of checking the type of datum"/>
+<node CREATED="1594883926760" ID="ID_1604931338" MODIFIED="1594883937988" TEXT="... and calling appropriate procedure"/>
+</node>
+<node CREATED="1594883945496" ID="ID_1819120355" MODIFIED="1594883955252" TEXT="Good for modularity in system design"/>
+<node CREATED="1594883968007" ID="ID_1124083904" MODIFIED="1594883979004" TEXT="Previous implementation has two weaknesses">
+<node CREATED="1594884095231" ID="ID_1475139336" MODIFIED="1594884135915" TEXT="Types need to be known">
+<icon BUILTIN="full-1"/>
+<node CREATED="1594883979311" ID="ID_1551434809" MODIFIED="1594883987331" TEXT="Generic interface procedure">
+<node CREATED="1594883987639" ID="ID_582316721" MODIFIED="1594884001281" TEXT="real-part">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1594883990271" ID="ID_1762763368" MODIFIED="1594884002012" TEXT="imag part">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1594883992612" ID="ID_1187509235" MODIFIED="1594884002432" TEXT="magnitude">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1594883994807" ID="ID_1091704398" MODIFIED="1594884002883" TEXT="angle">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1594883998575" ID="ID_1768201664" MODIFIED="1594884021035" TEXT="... must know about all different representation">
+<node CREATED="1594884034767" ID="ID_16711263" MODIFIED="1594884038563" TEXT="Problem when adding new type"/>
+<node CREATED="1594884038975" ID="ID_980391965" MODIFIED="1594884066795" TEXT="... need to modify every generic interface procedures"/>
+</node>
+</node>
+<node CREATED="1594884107712" ID="ID_976802175" MODIFIED="1594884135018" TEXT="Name collision">
+<icon BUILTIN="full-2"/>
+<node CREATED="1594884115070" ID="ID_1911164930" MODIFIED="1594884128082" TEXT="Must guarantee that no two procedures"/>
+<node CREATED="1594884128453" ID="ID_600579925" MODIFIED="1594884131362" TEXT="... has the same name"/>
+<node CREATED="1594884131773" ID="ID_260418474" MODIFIED="1594884134186" TEXT="... in the system"/>
+</node>
+</node>
+<node CREATED="1594884150381" ID="ID_1187548649" MODIFIED="1594884163554" TEXT="... technique to implement generic interface not additive">
+<node CREATED="1594884175590" ID="ID_1504047040" MODIFIED="1594884179706" TEXT="Many changes in the code"/>
+</node>
+<node CREATED="1594884209734" ID="ID_867265363" MODIFIED="1594884215210" TEXT="Need to modularize system further"/>
+<node CREATED="1594884215621" ID="ID_8942917" MODIFIED="1594884222983" TEXT="data-directed programming">
+<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1594884343253" ID="ID_967751713" MODIFIED="1594884356857" TEXT="Two dimensional table">
+<node CREATED="1594884357693" ID="ID_1313162488" MODIFIED="1594884366097" TEXT="Possible operations on one axis"/>
+<node CREATED="1594884366477" ID="ID_594029412" MODIFIED="1594884372681" TEXT="... all the possible types on another"/>
+</node>
+<node CREATED="1594884395548" ID="ID_1321232041" MODIFIED="1594884398825" TEXT="Entry of the table">
+<node CREATED="1594884400429" ID="ID_1912079912" MODIFIED="1594884407768" TEXT="Procedures that implement each operation"/>
+<node CREATED="1594884408764" ID="ID_202692270" MODIFIED="1594884413672" TEXT="... for each type of argument presented"/>
+</node>
+<node CREATED="1594884428404" ID="ID_766298420" MODIFIED="1594884561020" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1594884431892" ID="ID_938997502" MODIFIED="1594884450064" TEXT="Complex number system"/>
+<node CREATED="1594884547251" ID="ID_116139881" MODIFIED="1594884557641" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1594884549858" ID="ID_546033782" MODIFIED="1594884554140">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="table_operations_complex_number.png" />
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
+<node CREATED="1594884620507" ID="ID_537276366" MODIFIED="1594884630959" TEXT="Data directed programming is designing a program"/>
+<node CREATED="1594884631306" ID="ID_368483588" MODIFIED="1594884636367" TEXT="... which works with such a table directly"/>
+<node CREATED="1594884665187" ID="ID_1949027287" MODIFIED="1594884672302" TEXT="To add a new representation package"/>
+<node CREATED="1594884672747" ID="ID_1164846219" MODIFIED="1594884681533" TEXT="... we only need to add new entry in the table"/>
+</node>
+<node CREATED="1594884745218" ID="ID_287160654" MODIFIED="1594884748310" TEXT="Implementation">
+<node CREATED="1594884759490" ID="ID_103791732" MODIFIED="1594884791438" TEXT="(put &#x27e8;op &#x27e9; &#x27e8;type &#x27e9; &#x27e8;item &#x27e9;) ">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1594884767290" ID="ID_1771158783" MODIFIED="1594884781134" TEXT="(get &#x27e8;op &#x27e9; &#x27e8;type &#x27e9;)">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1594884825081" ID="ID_609553045" MODIFIED="1594885039419" TEXT="Assuming put and get given">
+<node CREATED="1594885024566" ID="ID_1533195916" MODIFIED="1594885040585" TEXT="Rectangular package">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (install-rectangular-package)
+    </p>
+    <p>
+      &#160;&#160;;; internal procedures
+    </p>
+    <p>
+      &#160;&#160;(define (real-part z) (car z))
+    </p>
+    <p>
+      &#160;&#160;(define (imag-part z) (cdr z))
+    </p>
+    <p>
+      &#160;&#160;(define (make-from-real-imag x y) (cons x y))
+    </p>
+    <p>
+      &#160;&#160;(define (magnitude z)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(sqrt (+ (square (real-part z))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(square (imag-part z)))))
+    </p>
+    <p>
+      &#160;&#160;(define (angle z)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(atan (imag-part z) (real-part z)))
+    </p>
+    <p>
+      &#160;&#160;(define (make-from-mag-ang r a)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cons (* r (cos a)) (* r (sin a))))
+    </p>
+    <p>
+      &#160;&#160;;; interface to the rest of the system
+    </p>
+    <p>
+      &#160;&#160;(define (tag x) (attach-tag 'rectangular x))
+    </p>
+    <p>
+      &#160;&#160;(put 'real-part '(rectangular) real-part)
+    </p>
+    <p>
+      &#160;&#160;(put 'imag-part '(rectangular) imag-part)
+    </p>
+    <p>
+      &#160;&#160;(put 'magnitude '(rectangular) magnitude)
+    </p>
+    <p>
+      &#160;&#160;(put 'angle '(rectangular) angle)
+    </p>
+    <p>
+      &#160;&#160;(put 'make-from-real-imag 'rectangular
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (make-from-real-imag x y))))
+    </p>
+    <p>
+      &#160;&#160;(put 'make-from-mag-ang 'rectangular
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (r a) (tag (make-from-mag-ang r a))))
+    </p>
+    <p>
+      &#160;&#160;'done)
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1594885029959" ID="ID_1477266959" MODIFIED="1594885035919" TEXT="Polar package">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (install-polar-package)
+    </p>
+    <p>
+      &#160;&#160;;; internal procedures
+    </p>
+    <p>
+      &#160;&#160;(define (magnitude z) (car z))
+    </p>
+    <p>
+      &#160;&#160;(define (angle z) (cdr z))
+    </p>
+    <p>
+      &#160;&#160;(define (make-from-mag-ang r a) (cons r a))
+    </p>
+    <p>
+      &#160;&#160;(define (real-part z) (* (magnitude z) (cos (angle z))))
+    </p>
+    <p>
+      &#160;&#160;(define (imag-part z) (* (magnitude z) (sin (angle z))))
+    </p>
+    <p>
+      &#160;&#160;(define (make-from-real-imag x y)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cons (sqrt (+ (square x) (square y)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(atan y x)))
+    </p>
+    <p>
+      &#160;&#160;;; interface to the rest of the system
+    </p>
+    <p>
+      &#160;&#160;(define (tag x) (attach-tag 'polar x))
+    </p>
+    <p>
+      &#160;&#160;(put 'real-part '(polar) real-part)
+    </p>
+    <p>
+      &#160;&#160;(put 'imag-part '(polar) imag-part)
+    </p>
+    <p>
+      &#160;&#160;(put 'magnitude '(polar) magnitude)
+    </p>
+    <p>
+      &#160;&#160;(put 'angle '(polar) angle)
+    </p>
+    <p>
+      &#160;&#160;(put 'make-from-real-imag 'polar
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (make-from-real-imag x y))))
+    </p>
+    <p>
+      &#160;&#160;(put 'make-from-mag-ang 'polar
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (r a) (tag (make-from-mag-ang r a))))
+    </p>
+    <p>
+      &#160;&#160;'done)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1594884936088" ID="ID_634408461" MODIFIED="1594884953957" TEXT="Procedures are internal">
+<node CREATED="1594884939601" ID="ID_1386305819" MODIFIED="1594884943180" TEXT="No name conflict anymore"/>
+</node>
+<node CREATED="1594885206511" ID="ID_37403530" MODIFIED="1594885213899" TEXT="apply-generic">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (apply-generic op . args)
+    </p>
+    <p>
+      &#160;&#160;(let ((type-tags (map type-tag args)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(let ((proc (get op type-tags)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(if proc
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(apply proc (map contents args))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(error
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;No method for these types: APPLY-GENERIC&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(list op type-tags))))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1594885239982" ID="ID_983504827" MODIFIED="1594885250815" TEXT="generic selectors">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (real-part z) (apply-generic 'real-part z))
+    </p>
+    <p>
+      (define (imag-part z) (apply-generic 'imag-part z))
+    </p>
+    <p>
+      (define (magnitude z) (apply-generic 'magnitude z))
+    </p>
+    <p>
+      (define (angle z) (apply-generic 'angle z))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1594885267087" ID="ID_1113121947" MODIFIED="1594885274067" TEXT="Don&apos;t change if new representation"/>
+<node CREATED="1594885274422" ID="ID_247473018" MODIFIED="1594885278003" TEXT="... added in the system"/>
+</node>
+<node CREATED="1594885349390" ID="ID_1011281723" MODIFIED="1594885361157" TEXT="constructors">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-from-real-imag x y)
+    </p>
+    <p>
+      &#160;&#160;((get 'make-from-real-imag 'rectangular) x y))
+    </p>
+    <p>
+      (define (make-from-mag-ang r a)
+    </p>
+    <p>
+      &#160;&#160;((get 'make-from-mag-ang 'polar) r a))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1594885371750" ID="ID_1521161263" MODIFIED="1594885376289" TEXT="Message Passing">
+<icon BUILTIN="full-1"/>
+<node CREATED="1594885466373" ID="ID_843694015" MODIFIED="1594885477505" TEXT="Previous implementation of data-directed programming">
+<node CREATED="1594885477893" ID="ID_1974685985" MODIFIED="1594885484521" TEXT="Operation take care of its dispatching"/>
+<node CREATED="1594885489269" ID="ID_1755647539" MODIFIED="1594885495745" TEXT="Decompose operation-and-type in rows"/>
+<node CREATED="1594885499957" ID="ID_1710943230" MODIFIED="1594885505473" TEXT="Each generic procedure is a row in table"/>
+</node>
+<node CREATED="1594885506485" ID="ID_1290662124" MODIFIED="1594885513081" TEXT="... alternative implementation strtagy">
+<node CREATED="1594885513365" ID="ID_209200826" MODIFIED="1594885517705" TEXT="Decompose table into columns"/>
+<node CREATED="1594885518989" ID="ID_1596921047" MODIFIED="1594885524631" TEXT="... don&apos;t use &quot;intelligent operations&quot;"/>
+<node CREATED="1594885525061" ID="ID_794211066" MODIFIED="1594885534609" TEXT="... but &quot;intelligent data objects&quot;">
+<node CREATED="1594885535125" ID="ID_1752163384" MODIFIED="1594885542969" TEXT="Dispatch on operation names"/>
+</node>
+</node>
+<node CREATED="1594885623588" ID="ID_576434849" MODIFIED="1594885626824" TEXT="Implementation">
+<node CREATED="1594885627036" ID="ID_849708010" MODIFIED="1594885646957" TEXT="make-from-real-imag">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-from-real-imag x y)
+    </p>
+    <p>
+      &#160;&#160;(define (dispatch op)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cond ((eq? op 'real-part) x)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? op 'imag-part) y)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? op 'magnitude) (sqrt (+ (square x) (square y))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? op 'angle) (atan y x))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown op: MAKE-FROM-REAL-IMAG&quot; op))))
+    </p>
+    <p>
+      &#160;&#160;dispatch)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1594885698333" ID="ID_1899730626" MODIFIED="1594885703720" TEXT="Value returned is a procedure"/>
+<node CREATED="1594885704748" ID="ID_205384036" MODIFIED="1594885716632" TEXT="... invoked when apply generic request an operation to be performed"/>
+</node>
+<node CREATED="1594885659388" ID="ID_1390831246" MODIFIED="1594885665645" TEXT="apply-generic">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (apply-generic op arg) (arg op))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1594885666060" ID="ID_1605540412" MODIFIED="1594885677432" TEXT="But only generic procedure with one argument"/>
+</node>
+</node>
+<node CREATED="1594885724860" ID="ID_225163439" MODIFIED="1594885730675" TEXT="... called message passing">
+<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1594885741819" ID="ID_1189423590" MODIFIED="1594885746751" TEXT="Data object is an entity"/>
+<node CREATED="1594885748419" ID="ID_1329829784" MODIFIED="1594885766888" TEXT="... that receives requested operation name"/>
+<node CREATED="1594885771715" ID="ID_79379286" MODIFIED="1594885776359" TEXT="... as a &quot;message&quot;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1594885888976" ID="ID_1034488985" MODIFIED="1594885889888" TEXT="2.5 Systems with Generic Operations "/>
 </node>
 </node>
 </map>
