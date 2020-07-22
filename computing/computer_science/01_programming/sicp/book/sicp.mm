@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1594883583013" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1595406124519" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -81,7 +81,8 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
@@ -772,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1594800726885" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1595406124551" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -803,7 +804,8 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1528914414966" FOLDED="true" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
@@ -4150,7 +4152,7 @@
 <node CREATED="1594884936088" ID="ID_634408461" MODIFIED="1594884953957" TEXT="Procedures are internal">
 <node CREATED="1594884939601" ID="ID_1386305819" MODIFIED="1594884943180" TEXT="No name conflict anymore"/>
 </node>
-<node CREATED="1594885206511" ID="ID_37403530" MODIFIED="1594885213899" TEXT="apply-generic">
+<node CREATED="1594885206511" ID="ID_37403530" MODIFIED="1595410697348" TEXT="apply-generic">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4302,7 +4304,656 @@
 </node>
 </node>
 </node>
-<node CREATED="1594885888976" ID="ID_1034488985" MODIFIED="1594885889888" TEXT="2.5 Systems with Generic Operations "/>
+<node CREATED="1594885888976" ID="ID_1034488985" MODIFIED="1594885889888" TEXT="2.5 Systems with Generic Operations ">
+<node CREATED="1595406272792" ID="ID_886539139" MODIFIED="1595406275065" TEXT="Introduction">
+<node CREATED="1595406277716" ID="ID_785995761" MODIFIED="1595406283578" TEXT="Creating an arithmetic package"/>
+<node CREATED="1595406275343" FOLDED="true" ID="ID_431719080" MODIFIED="1595406380172" TEXT="Goal">
+<icon BUILTIN="licq"/>
+<node CREATED="1595406336455" ID="ID_925431360" MODIFIED="1595406375704">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="generic_arithmetic_system.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1595406250304" ID="ID_1244972407" MODIFIED="1595406250900" TEXT="2.5.1 Generic Arithmetic Operations ">
+<node CREATED="1595406426293" ID="ID_1038316163" MODIFIED="1595406440576" TEXT="Generic arithmetic procedures">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (add x y) (apply-generic 'add x y))
+    </p>
+    <p>
+      (define (sub x y) (apply-generic 'sub x y))
+    </p>
+    <p>
+      (define (mul x y) (apply-generic 'mul x y))
+    </p>
+    <p>
+      (define (div x y) (apply-generic 'div x y))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1595406584973" ID="ID_1665051714" MODIFIED="1595406759316" TEXT="Tag scheme-number">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (install-scheme-number-package)
+    </p>
+    <p>
+      &#160;&#160;(define (tag x) (attach-tag 'scheme-number x))
+    </p>
+    <p>
+      &#160;&#160;(put 'add '(scheme-number scheme-number)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (+ x y))))
+    </p>
+    <p>
+      &#160;&#160;(put 'sub '(scheme-number scheme-number)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (- x y))))
+    </p>
+    <p>
+      &#160;&#160;(put 'mul '(scheme-number scheme-number)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (* x y))))
+    </p>
+    <p>
+      &#160;&#160;(put 'div '(scheme-number scheme-number)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (/ x y))))
+    </p>
+    <p>
+      &#160;&#160;(put 'make 'scheme-number (lambda (x) (tag x)))
+    </p>
+    <p>
+      &#160;&#160;'done)<br /><br />(define (make-scheme-number n)
+    </p>
+    <p>
+      &#160;&#160;((get 'make 'scheme-number) n))
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1595406788780" ID="ID_487107884" MODIFIED="1595406820198" TEXT="Rational numbers">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (install-rational-package)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;;; internal procedures
+    </p>
+    <p>
+      &#160;&#160;(define (numer x) (car x))
+    </p>
+    <p>
+      &#160;&#160;(define (denom x) (cdr x))
+    </p>
+    <p>
+      &#160;&#160;(define (make-rat n d)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(let ((g (gcd n d)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(cons (/ n g) (/ d g))))
+    </p>
+    <p>
+      &#160;&#160;(define (add-rat x y)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(make-rat (+ (* (numer x) (denom y))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (numer y) (denom x)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (denom y))))
+    </p>
+    <p>
+      &#160;&#160;(define (sub-rat x y)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(make-rat (- (* (numer x) (denom y))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (numer y) (denom x)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (denom y))))
+    </p>
+    <p>
+      &#160;&#160;(define (mul-rat x y)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(make-rat (* (numer x) (numer y))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (denom y))))
+    </p>
+    <p>
+      &#160;&#160;(define (div-rat x y)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(make-rat (* (numer x) (denom y))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (numer y))))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;;; interface to rest of the system
+    </p>
+    <p>
+      &#160;&#160;(define (tag x) (attach-tag 'rational x))
+    </p>
+    <p>
+      &#160;&#160;(put 'add '(rational rational)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (add-rat x y))))
+    </p>
+    <p>
+      &#160;&#160;(put 'sub '(rational rational)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (sub-rat x y))))
+    </p>
+    <p>
+      &#160;&#160;(put 'mul '(rational rational)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (mul-rat x y))))
+    </p>
+    <p>
+      &#160;&#160;(put 'div '(rational rational)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (div-rat x y))))
+    </p>
+    <p>
+      &#160;&#160;(put 'make 'rational
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (n d) (tag (make-rat n d))))
+    </p>
+    <p>
+      &#160;&#160;'done)
+    </p>
+    <p>
+      (define (make-rational n d)
+    </p>
+    <p>
+      &#160;&#160;((get 'make 'rational) n d))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1595406831411" ID="ID_754430934" MODIFIED="1595406989725" TEXT="Complex numbers">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (install-complex-package)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;;; imported procedures from rectangular and polar packages
+    </p>
+    <p>
+      &#160;&#160;(define (make-from-real-imag x y)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;((get 'make-from-real-imag 'rectangular) x y))
+    </p>
+    <p>
+      &#160;&#160;(define (make-from-mag-ang r a)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;((get 'make-from-mag-ang 'polar) r a))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;;; internal procedures
+    </p>
+    <p>
+      &#160;&#160;(define (add-complex z1 z2)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(make-from-real-imag (+ (real-part z1) (real-part z2))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(+ (imag-part z1) (imag-part z2))))
+    </p>
+    <p>
+      &#160;&#160;(define (sub-complex z1 z2)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(make-from-real-imag (- (real-part z1) (real-part z2))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(- (imag-part z1) (imag-part z2))))
+    </p>
+    <p>
+      &#160;&#160;(define (mul-complex z1 z2)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(make-from-mag-ang (* (magnitude z1) (magnitude z2))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(+ (angle z1) (angle z2))))
+    </p>
+    <p>
+      &#160;&#160;(define (div-complex z1 z2)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(make-from-mag-ang (/ (magnitude z1) (magnitude z2))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(- (angle z1) (angle z2))))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;;; interface to rest of the system
+    </p>
+    <p>
+      &#160;&#160;(define (tag z) (attach-tag 'complex z))
+    </p>
+    <p>
+      &#160;&#160;(put 'add '(complex complex)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (z1 z2) (tag (add-complex z1 z2))))
+    </p>
+    <p>
+      &#160;&#160;(put 'sub '(complex complex)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (z1 z2) (tag (sub-complex z1 z2))))
+    </p>
+    <p>
+      &#160;&#160;(put 'mul '(complex complex)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (z1 z2) (tag (mul-complex z1 z2))))
+    </p>
+    <p>
+      &#160;&#160;(put 'div '(complex complex)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (z1 z2) (tag (div-complex z1 z2))))
+    </p>
+    <p>
+      &#160;&#160;(put 'make-from-real-imag 'complex
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (make-from-real-imag x y))))
+    </p>
+    <p>
+      &#160;&#160;(put 'make-from-mag-ang 'complex
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (r a) (tag (make-from-mag-ang r a))))
+    </p>
+    <p>
+      &#160;&#160;'done)
+    </p>
+    <p>
+      <br />
+      (define (make-complex-from-real-imag x y)
+    </p>
+    <p>
+      &#160;&#160;((get 'make-from-real-imag 'complex) x y))
+    </p>
+    <p>
+      (define (make-complex-from-mag-ang r a)
+    </p>
+    <p>
+      &#160;&#160;((get 'make-from-mag-ang 'complex) r a))
+    </p>
+    <p>
+      <br />
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1595407023009" ID="ID_1539672367" MODIFIED="1595407030028" TEXT="Representation">
+<icon BUILTIN="licq"/>
+<node CREATED="1595407030554" ID="ID_190876046" MODIFIED="1595407034568">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="representation_complex_form.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1595407078434" ID="ID_1485919301" MODIFIED="1595407079260" TEXT="2.5.2 Combining Data of Different Types ">
+<node CREATED="1595407101490" ID="ID_897503318" MODIFIED="1595407111478" TEXT="How to define operations that cross type boundaries?"/>
+<node CREATED="1595409748064" ID="ID_639481448" MODIFIED="1595409757941" TEXT="Cross type operation in ways">
+<node CREATED="1595409752656" ID="ID_1312853853" MODIFIED="1595409759837" TEXT="controlled"/>
+<node CREATED="1595409760224" ID="ID_1472255339" MODIFIED="1595409761580" TEXT="careful"/>
+</node>
+<node CREATED="1595409833017" ID="ID_1564882537" MODIFIED="1595409850827" TEXT="Procedure for each combination of types">
+<node CREATED="1595409851087" ID="ID_1298999279" MODIFIED="1595409853427" TEXT="Cumbersome">
+<node CREATED="1595410174638" ID="ID_1413915218" MODIFIED="1595410179737" TEXT="Each time you want new type"/>
+<node CREATED="1595410180181" ID="ID_1308587488" MODIFIED="1595410183298" TEXT="... need to implement it"/>
+<node CREATED="1595410183726" ID="ID_1549134522" MODIFIED="1595410189474" TEXT="... plus every cross-type operations"/>
+<node CREATED="1595410203365" ID="ID_904698285" MODIFIED="1595410211777" TEXT="Type not that independent anymore"/>
+<node CREATED="1595410255988" ID="ID_892868562" MODIFIED="1595410281137" TEXT="Where to put operations complex / rational?">
+<node CREATED="1595410281469" ID="ID_1126894374" MODIFIED="1595410285608" TEXT="Complex number package?"/>
+<node CREATED="1595410286201" ID="ID_1037172783" MODIFIED="1595410289272" TEXT="Rational package?"/>
+<node CREATED="1595410289693" ID="ID_596857755" MODIFIED="1595410291896" TEXT="Another one?"/>
+<node CREATED="1595410296868" ID="ID_1244175337" MODIFIED="1595410306641" TEXT="When many">
+<node CREATED="1595410306836" ID="ID_913686997" MODIFIED="1595410329849" TEXT="packages"/>
+<node CREATED="1595410309060" ID="ID_1792845056" MODIFIED="1595410321920" TEXT="cross type operations"/>
+</node>
+<node CREATED="1595410322508" ID="ID_496047242" MODIFIED="1595410326416" TEXT="... overwhelming task"/>
+</node>
+</node>
+<node CREATED="1595409856054" ID="ID_1216597020" MODIFIED="1595410101687" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595409861087" ID="ID_1182563942" MODIFIED="1595409868779" TEXT="adding complex numbers"/>
+<node CREATED="1595409869169" ID="ID_1932456501" MODIFIED="1595409873755" TEXT="... to ordinary numbers"/>
+<node CREATED="1595409882919" ID="ID_558961499" MODIFIED="1595409896979" TEXT="code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ;; to be included in the complex package
+    </p>
+    <p>
+      (define (add-complex-to-schemenum z x)
+    </p>
+    <p>
+      &#160;&#160;(make-from-real-imag (+ (real-part z) x) (imag-part z)))
+    </p>
+    <p>
+      (put 'add '(complex scheme-number)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;(lambda (z x) (tag (add-complex-to-schemenum z x))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1595410345272" ID="ID_992024466" MODIFIED="1595410347831" TEXT="Coercion">
+<icon BUILTIN="full-1"/>
+<node CREATED="1595410367588" ID="ID_269285120" MODIFIED="1595410372336" TEXT="General situation of">
+<node CREATED="1595410372787" ID="ID_1325790941" MODIFIED="1595410379654" TEXT="completely unrelated operations"/>
+<node CREATED="1595410380019" ID="ID_1789625284" MODIFIED="1595410388832" TEXT="... acting on completely unrelated types"/>
+<node CREATED="1595410389364" ID="ID_1169377064" MODIFIED="1595410396792" TEXT="... cross type operations is the only way"/>
+</node>
+<node CREATED="1595410404012" ID="ID_1253637625" MODIFIED="1595410408440" TEXT="... but can do better in geneal"/>
+<node CREATED="1595410413796" ID="ID_694844599" MODIFIED="1595410422640" TEXT="... by using latent additional structure of the system"/>
+<node CREATED="1595410426209" ID="ID_1234292568" MODIFIED="1595410434807" TEXT="Often different data type not completely independent">
+<node CREATED="1595410441620" ID="ID_1211153717" MODIFIED="1595410446872" TEXT="One object of one type"/>
+<node CREATED="1595410447307" ID="ID_1550450623" MODIFIED="1595410457183" TEXT="...can be viewed as another type"/>
+</node>
+<node CREATED="1595410458355" ID="ID_52396776" MODIFIED="1595410462631" TEXT="... process called coercion">
+<node CREATED="1595410543531" ID="ID_1409827545" MODIFIED="1595410549191" TEXT="Coercion method transforming">
+<node CREATED="1595410549386" ID="ID_1592576089" MODIFIED="1595410551935" TEXT="object of one type"/>
+<node CREATED="1595410552299" ID="ID_1623379821" MODIFIED="1595410561359" TEXT="... to equivalent object of another type"/>
+</node>
+<node CREATED="1595410482667" ID="ID_589197967" MODIFIED="1595410597352" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595410486067" ID="ID_74842216" MODIFIED="1595410492144" TEXT="Arithmetically combine">
+<node CREATED="1595410492387" ID="ID_447948547" MODIFIED="1595410497175" TEXT="ordinary number"/>
+<node CREATED="1595410497635" ID="ID_1718474607" MODIFIED="1595410499719" TEXT="complex number"/>
+</node>
+<node CREATED="1595410500899" ID="ID_475310598" MODIFIED="1595410510367" TEXT="... view ordinary number as complex number"/>
+<node CREATED="1595410511051" ID="ID_320624293" MODIFIED="1595410528893" TEXT="... whose imaginary part is 0"/>
+<node CREATED="1595410574779" ID="ID_1466608120" MODIFIED="1595410620416" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (scheme-number-&gt;complex n)
+    </p>
+    <p>
+      &#160;&#160;(make-complex-from-real-imag (contents n) 0))
+    </p>
+    <p>
+      <br />
+      (put-coercion 'scheme-number
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'complex
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;scheme-number-&gt;complex)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1595410663466" ID="ID_1183540795" MODIFIED="1595410667702" TEXT="Need coercion table">
+<node CREATED="1595410668330" ID="ID_1292662491" MODIFIED="1595410674558" TEXT="When set up, can handle coercion"/>
+<node CREATED="1595410674970" ID="ID_110181921" LINK="#ID_37403530" MODIFIED="1595410770365" TEXT="... by modifying apply-generic">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (apply-generic op . args)
+    </p>
+    <p>
+      &#160;&#160;(let ((type-tags (map type-tag args)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(let ((proc (get op type-tags)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(if proc
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(apply proc (map contents args))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if (= (length args) 2)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(let ((type1 (car type-tags))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(type2 (cadr type-tags))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(a1 (car args))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(a2 (cadr args)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(let ((t1-&gt;t2 (get-coercion type1 type2))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(t2-&gt;t1 (get-coercion type2 type1)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cond (t1-&gt;t2
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(apply-generic op (t1-&gt;t2 a1) a2))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(t2-&gt;t1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(apply-generic op a1 (t2-&gt;t1 a2)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;No method for these types&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(list op type-tags))))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(error &quot;No method for these types&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(list op type-tags)))))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1595410797233" ID="ID_368363693" MODIFIED="1595410804620" TEXT="... only one procedure for each pair of types"/>
+</node>
+<node CREATED="1595410852681" ID="ID_791948507" MODIFIED="1595410867413" TEXT="For some application, not general enough">
+<node CREATED="1595410867577" ID="ID_1685243851" MODIFIED="1595410923948" TEXT="Might be possible for two very different types"/>
+<node CREATED="1595410873120" ID="ID_317946514" MODIFIED="1595410877437" TEXT="... to be converted to a third type"/>
+</node>
+</node>
+<node CREATED="1595410939504" ID="ID_1358979939" MODIFIED="1595410949670" TEXT="Hierarchies of types">
+<icon BUILTIN="full-2"/>
+<node CREATED="1595411001064" ID="ID_1813468142" MODIFIED="1595411013179" TEXT="Above coercion scheme rely on natural relation between types"/>
+<node CREATED="1595411016984" ID="ID_954149815" MODIFIED="1595411024636" TEXT="Often there is more &quot;global&quot; structure"/>
+<node CREATED="1595411025611" ID="ID_95900278" MODIFIED="1595411029732" TEXT="... how types are related to each others"/>
+<node CREATED="1595411108934" FOLDED="true" ID="ID_1391077884" MODIFIED="1595411168474" TEXT="Integer subtype of rational subtype of real...">
+<icon BUILTIN="licq"/>
+<node CREATED="1595411118943" ID="ID_1658588239" MODIFIED="1595411164570">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="tower_of_types.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1595411251958" ID="ID_1523793434" MODIFIED="1595411262151" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595411197366" ID="ID_439764635" MODIFIED="1595411202768" TEXT="if we need integer-&gt;complex">
+<node CREATED="1595411250302" ID="ID_1559701355" MODIFIED="1595411250302" TEXT=""/>
+</node>
+<node CREATED="1595411203157" ID="ID_1085143904" MODIFIED="1595411231882" TEXT="Define how integer is transformed to rational"/>
+<node CREATED="1595411211086" ID="ID_1873345366" MODIFIED="1595411221290" TEXT="... how rational transformed into real"/>
+<node CREATED="1595411222246" ID="ID_1794258758" MODIFIED="1595411226714" TEXT="... how real transformed to complex"/>
+<node CREATED="1595411241446" ID="ID_1094889497" MODIFIED="1595411249578" TEXT="System transform through these three steps"/>
+</node>
+<node CREATED="1595411279702" ID="ID_901706142" MODIFIED="1595411283897" TEXT="For each type, raise procedure">
+<node CREATED="1595411287790" ID="ID_720088321" MODIFIED="1595411297338" TEXT="&quot;raises&quot; object of that type one level in tower"/>
+<node COLOR="#338800" CREATED="1595411571700" FOLDED="true" ID="ID_1649747368" MODIFIED="1595411618071" TEXT="Illustration">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      See Generic Operation (2) from Berkeley CS61a
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="licq"/>
+<icon BUILTIN="password"/>
+<node CREATED="1595411574996" ID="ID_1813075598" MODIFIED="1595411583042">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="raise_type.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1595411633939" ID="ID_1861377348" MODIFIED="1595411647223" TEXT="Every type &quot;inherits&quot; all operations of supertype"/>
+<node CREATED="1595411650266" ID="ID_633458241" MODIFIED="1595411687624" TEXT="Simplest way to &quot;lower&quot; data object"/>
+<node CREATED="1595411688307" ID="ID_478567739" MODIFIED="1595411692671" TEXT="... to its simpler representation"/>
+</node>
+</node>
+<node CREATED="1595411711371" ID="ID_288343045" MODIFIED="1595411713217" TEXT="Inadequacies of hierarchies ">
+<icon BUILTIN="full-3"/>
+<node CREATED="1595411738442" ID="ID_1074327238" MODIFIED="1595411752151" TEXT="If data type can be naturally a tower"/>
+<node CREATED="1595411752587" ID="ID_1000099137" MODIFIED="1595411757423" TEXT="... it simplify everything"/>
+<node CREATED="1595411757779" ID="ID_430887011" MODIFIED="1595411762183" TEXT="Usually, it&apos;s not the case"/>
+<node CREATED="1595411769787" FOLDED="true" ID="ID_1212601741" MODIFIED="1595411836001" TEXT="More complex arrangement of mixed types">
+<icon BUILTIN="licq"/>
+<node CREATED="1595411800754" ID="ID_94623432" MODIFIED="1595411830469">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="geometry_mixed_type.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1595411848914" ID="ID_553041438" MODIFIED="1595411889798" TEXT="... type can have more than one">
+<node CREATED="1595411889994" ID="ID_1708690406" MODIFIED="1595411895694" TEXT="subtype"/>
+<node CREATED="1595411896579" ID="ID_1754192526" MODIFIED="1595411898758" TEXT="supertype"/>
+</node>
+<node CREATED="1595411907506" ID="ID_115768300" MODIFIED="1595411917839" TEXT="... no unique way to &quot;raise&quot; a type!"/>
+<node CREATED="1595411944522" ID="ID_911673630" MODIFIED="1595411951821" TEXT="Large number of interrelated type"/>
+<node CREATED="1595411952472" ID="ID_549509745" MODIFIED="1595411956869" TEXT="... while preserving modularity"/>
+<node CREATED="1595411957313" ID="ID_1205799262" MODIFIED="1595411960325" TEXT="... is very difficult">
+<node CREATED="1595411961593" ID="ID_1429085130" MODIFIED="1595411966237" TEXT="No good answer for now"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
