@@ -11,7 +11,7 @@ You'll find here the result of my insatiable thirst of knowledge, mainly in the 
 
 ## How does it look like?
 
-To open the mindmaps, you'll need the software [Freemind](http://freemind.sourceforge.net/wiki/index.php/Main_Page) installed on your shiny computer.
+To open the mindmaps, you'll need the software [Freemind](http://freemind.sourceforge.net/wiki/index.php/Main_Page).
 
 It will look like that:
 
@@ -21,7 +21,7 @@ The center is the name of the source. Often, it will be a book, an article, or a
 
 ## What is it for?
 
-As far as I remember, I always liked reading books. However, very quickly, I found that it was difficult for me to recall what I learned, in my attempts to explain and share my discoveries. What was the point to read, then?
+As far as I remember, I always liked reading books. But I found that it was difficult for me to recall what I learned, in my attempts to share my discoveries. What was the point to read, then?
 
 It could have easily discouraged me to open books again; instead, I tried to find a solution to retain the knowledge of my favorite authors. Some years ago, after trying many techniques, I discovered mindmaps and the fantastic open-source [Freemind](http://freemind.sourceforge.net/wiki/index.php/Main_Page).
 
