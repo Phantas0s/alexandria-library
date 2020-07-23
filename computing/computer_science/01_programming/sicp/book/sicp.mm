@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1595412480570" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1595493561878" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -773,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1595406124551" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1595493561917" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -804,8 +804,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1528914414966" FOLDED="true" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
+</html>
+</richcontent>
+<node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
 <richcontent TYPE="NODE"><html>
@@ -819,13 +820,13 @@
 </node>
 </node>
 <node CREATED="1589459928570" ID="ID_46284979" MODIFIED="1589459936218" TEXT="Process don&apos;t grow and shrink"/>
-<node CREATED="1549912568632" FOLDED="true" ID="ID_1917446705" MODIFIED="1589460027088" TEXT="State only captured by its variables">
+<node CREATED="1549912568632" ID="ID_1917446705" MODIFIED="1589460027088" TEXT="State only captured by its variables">
 <node CREATED="1589460036214" ID="ID_733874498" MODIFIED="1589460040767" TEXT="Updated when process move"/>
 <node CREATED="1589460045992" ID="ID_820116699" MODIFIED="1589460051864" TEXT="... from state to state"/>
 <node CREATED="1589460090028" ID="ID_48545055" MODIFIED="1589460103768" TEXT="Give complete description of state of process"/>
 <node CREATED="1589460104323" ID="ID_1444928113" MODIFIED="1589460107823" TEXT="... at any point"/>
 </node>
-<node CREATED="1528914088881" FOLDED="true" ID="ID_556822999" MODIFIED="1589460067380" TEXT="When number of steps grows linearly with n">
+<node CREATED="1528914088881" ID="ID_556822999" MODIFIED="1589460067380" TEXT="When number of steps grows linearly with n">
 <node CREATED="1528914092761" ID="ID_574997486" MODIFIED="1528914480355" TEXT="linear iterative process "/>
 </node>
 </node>
@@ -3451,7 +3452,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1594800738693" ID="ID_69520908" MODIFIED="1594800757382" TEXT="2.4 Multiple Representation for Abstract Data">
+<node CREATED="1594800738693" FOLDED="true" ID="ID_69520908" MODIFIED="1594800757382" TEXT="2.4 Multiple Representation for Abstract Data">
 <node CREATED="1594802347631" ID="ID_97354207" MODIFIED="1594802349740" TEXT="Introduction">
 <node CREATED="1594801038076" ID="ID_1412838296" MODIFIED="1594801042637" TEXT="Abstraction barrier">
 <node CREATED="1594801042638" ID="ID_1627723167" MODIFIED="1594801045922" TEXT="Constructor"/>
@@ -3895,8 +3896,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown type: ANGLE&quot; z))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1594883856936" ID="ID_448333583" MODIFIED="1594883866156" TEXT="Important organizational strategy">
@@ -4089,8 +4089,7 @@
       &#160;&#160;'done)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1594885029959" ID="ID_1477266959" MODIFIED="1595412823744" TEXT="Polar package">
 <richcontent TYPE="NOTE"><html>
@@ -4175,8 +4174,7 @@
       &#160;&#160;'done)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1594884936088" ID="ID_634408461" MODIFIED="1594884953957" TEXT="Procedures are internal">
 <node CREATED="1594884939601" ID="ID_1386305819" MODIFIED="1594884943180" TEXT="No name conflict anymore"/>
@@ -4257,8 +4255,7 @@
       &#160;&#160;((get 'make-from-mag-ang 'polar) r a))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
