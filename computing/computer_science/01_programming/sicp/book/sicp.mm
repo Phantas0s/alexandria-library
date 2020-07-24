@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1595493561878" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1595576409093" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -773,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1595493561917" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1595576409134" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3452,8 +3452,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1594800738693" FOLDED="true" ID="ID_69520908" MODIFIED="1594800757382" TEXT="2.4 Multiple Representation for Abstract Data">
-<node CREATED="1594802347631" ID="ID_97354207" MODIFIED="1594802349740" TEXT="Introduction">
+<node CREATED="1594800738693" ID="ID_69520908" MODIFIED="1594800757382" TEXT="2.4 Multiple Representation for Abstract Data">
+<node CREATED="1594802347631" FOLDED="true" ID="ID_97354207" MODIFIED="1594802349740" TEXT="Introduction">
 <node CREATED="1594801038076" ID="ID_1412838296" MODIFIED="1594801042637" TEXT="Abstraction barrier">
 <node CREATED="1594801042638" ID="ID_1627723167" MODIFIED="1594801045922" TEXT="Constructor"/>
 <node CREATED="1594801046309" ID="ID_605170088" MODIFIED="1594801048465" TEXT="Selectors"/>
@@ -3500,7 +3500,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1594802342022" ID="ID_1031658094" MODIFIED="1594802342901" TEXT="2.4.1 Representations for Complex Numbers ">
+<node CREATED="1594802342022" FOLDED="true" ID="ID_1031658094" MODIFIED="1594802342901" TEXT="2.4.1 Representations for Complex Numbers ">
 <node CREATED="1594802611915" ID="ID_1509823857" MODIFIED="1594802618383" TEXT="Representing complex numbers"/>
 <node CREATED="1594802778434" ID="ID_467266183" MODIFIED="1594802796701" TEXT="Complex number implementation">
 <node CREATED="1594802816576" ID="ID_1552616569" MODIFIED="1594802820188" TEXT="Rectangular form"/>
@@ -3646,7 +3646,7 @@
 </node>
 <node CREATED="1594803001324" ID="ID_199657808" MODIFIED="1594803012001" TEXT="... works for polar / rectangular representation"/>
 </node>
-<node CREATED="1594803032836" ID="ID_888778174" MODIFIED="1594803033469" TEXT="2.4.2 Tagged data ">
+<node CREATED="1594803032836" FOLDED="true" ID="ID_888778174" MODIFIED="1594803033469" TEXT="2.4.2 Tagged data ">
 <node CREATED="1594803052106" ID="ID_638390072" MODIFIED="1594803063528" TEXT="Can view data abstraction of application"/>
 <node CREATED="1594803069035" ID="ID_1133074887" MODIFIED="1594803074991" TEXT="... of the &quot;principle of least commitment&quot;">
 <node CREATED="1594803340166" ID="ID_1390111865" MODIFIED="1594803367979" TEXT="Can defer to choose selector representation"/>
@@ -3910,13 +3910,13 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
 </node>
-<node CREATED="1594883908976" ID="ID_1442721382" MODIFIED="1594884005588" TEXT="Dispatching on type">
+<node CREATED="1594883908976" FOLDED="true" ID="ID_1442721382" MODIFIED="1594884005588" TEXT="Dispatching on type">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1594883914560" ID="ID_1726549592" MODIFIED="1594883930362" TEXT="General strategy of checking the type of datum"/>
 <node CREATED="1594883926760" ID="ID_1604931338" MODIFIED="1594883937988" TEXT="... and calling appropriate procedure"/>
 </node>
 <node CREATED="1594883945496" ID="ID_1819120355" MODIFIED="1594883955252" TEXT="Good for modularity in system design"/>
-<node CREATED="1594883968007" ID="ID_1124083904" MODIFIED="1594883979004" TEXT="Previous implementation has two weaknesses">
+<node CREATED="1594883968007" FOLDED="true" ID="ID_1124083904" MODIFIED="1594883979004" TEXT="Previous implementation has two weaknesses">
 <node CREATED="1594884095231" ID="ID_1475139336" MODIFIED="1594884135915" TEXT="Types need to be known">
 <icon BUILTIN="full-1"/>
 <node CREATED="1594883979311" ID="ID_1551434809" MODIFIED="1594883987331" TEXT="Generic interface procedure">
@@ -3945,7 +3945,7 @@
 <node CREATED="1594884131773" ID="ID_260418474" MODIFIED="1594884134186" TEXT="... in the system"/>
 </node>
 </node>
-<node CREATED="1594884150381" ID="ID_1187548649" MODIFIED="1594884163554" TEXT="... technique to implement generic interface not additive">
+<node CREATED="1594884150381" FOLDED="true" ID="ID_1187548649" MODIFIED="1594884163554" TEXT="... technique to implement generic interface not additive">
 <node CREATED="1594884175590" ID="ID_1504047040" MODIFIED="1594884179706" TEXT="Many changes in the code"/>
 </node>
 <node CREATED="1594884209734" ID="ID_867265363" MODIFIED="1594884215210" TEXT="Need to modularize system further"/>
@@ -3962,7 +3962,7 @@
 <node CREATED="1594884428404" ID="ID_766298420" MODIFIED="1594884561020" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1594884431892" ID="ID_938997502" MODIFIED="1594884450064" TEXT="Complex number system"/>
-<node CREATED="1594884547251" FOLDED="true" ID="ID_116139881" MODIFIED="1594884557641" TEXT="Illustration">
+<node CREATED="1594884547251" ID="ID_116139881" MODIFIED="1594884557641" TEXT="Illustration">
 <icon BUILTIN="licq"/>
 <node CREATED="1594884549858" ID="ID_546033782" MODIFIED="1594884554140">
 <richcontent TYPE="NODE"><html>
@@ -3998,7 +3998,7 @@
 <icon BUILTIN="full-2"/>
 </node>
 <node CREATED="1594884825081" ID="ID_609553045" MODIFIED="1594885039419" TEXT="Assuming put and get given">
-<node CREATED="1594885024566" ID="ID_1533195916" MODIFIED="1595412742490" TEXT="Rectangular package">
+<node CREATED="1594885024566" ID="ID_1533195916" MODIFIED="1595576760248" TEXT="Rectangular package">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4040,6 +4040,9 @@
     </p>
     <p>
       &#160;&#160;&#160;&#160;(atan (imag-part z) (real-part z)))
+    </p>
+    <p>
+      
     </p>
     <p>
       &#160;&#160;(define (make-from-mag-ang r a)
@@ -4089,7 +4092,8 @@
       &#160;&#160;'done)
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1594885029959" ID="ID_1477266959" MODIFIED="1595412823744" TEXT="Polar package">
 <richcontent TYPE="NOTE"><html>
@@ -4266,15 +4270,15 @@
 <node CREATED="1594885489269" ID="ID_1755647539" MODIFIED="1594885495745" TEXT="Decompose operation-and-type in rows"/>
 <node CREATED="1594885499957" ID="ID_1710943230" MODIFIED="1594885505473" TEXT="Each generic procedure is a row in table"/>
 </node>
-<node CREATED="1594885506485" ID="ID_1290662124" MODIFIED="1594885513081" TEXT="... alternative implementation strtagy">
-<node CREATED="1594885513365" ID="ID_209200826" MODIFIED="1594885517705" TEXT="Decompose table into columns"/>
+<node CREATED="1594885506485" ID="ID_1290662124" MODIFIED="1595576589532" TEXT="... alternative implementation strategy">
+<node CREATED="1594885513365" ID="ID_209200826" LINK="#ID_116139881" MODIFIED="1595577181402" TEXT="Decompose table into columns"/>
 <node CREATED="1594885518989" ID="ID_1596921047" MODIFIED="1594885524631" TEXT="... don&apos;t use &quot;intelligent operations&quot;"/>
 <node CREATED="1594885525061" ID="ID_794211066" MODIFIED="1594885534609" TEXT="... but &quot;intelligent data objects&quot;">
 <node CREATED="1594885535125" ID="ID_1752163384" MODIFIED="1594885542969" TEXT="Dispatch on operation names"/>
 </node>
 </node>
 <node CREATED="1594885623588" ID="ID_576434849" MODIFIED="1594885626824" TEXT="Implementation">
-<node CREATED="1594885627036" ID="ID_849708010" MODIFIED="1594885646957" TEXT="make-from-real-imag">
+<node CREATED="1594885627036" ID="ID_849708010" MODIFIED="1595578621895" TEXT="make-from-real-imag">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4302,10 +4306,29 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown op: MAKE-FROM-REAL-IMAG&quot; op))))
     </p>
     <p>
-      &#160;&#160;dispatch)
+      &#160;&#160;dispatch)<br /><br />; From exercise 2.75<br /><br />(define (make-from-mag-ang r a)
+    </p>
+    <p>
+      &#160;&#160;(define (dispatch op)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cond ((eq? op 'real-part) (* r (cos a)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? op 'imag-part) (* r (sin a)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? op 'magnitude) r)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? op 'angle) a)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown op: make-from-mag-ang&quot; op))))<br />&#160;&#160;dispatch)
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1594885698333" ID="ID_1899730626" MODIFIED="1594885703720" TEXT="Value returned is a procedure"/>
 <node CREATED="1594885704748" ID="ID_205384036" MODIFIED="1594885716632" TEXT="... invoked when apply generic request an operation to be performed"/>
 </node>
@@ -4333,7 +4356,7 @@
 </node>
 </node>
 <node CREATED="1594885888976" FOLDED="true" ID="ID_1034488985" MODIFIED="1594885889888" TEXT="2.5 Systems with Generic Operations ">
-<node CREATED="1595406272792" ID="ID_886539139" MODIFIED="1595406275065" TEXT="Introduction">
+<node CREATED="1595406272792" FOLDED="true" ID="ID_886539139" MODIFIED="1595406275065" TEXT="Introduction">
 <node CREATED="1595406277716" ID="ID_785995761" MODIFIED="1595406283578" TEXT="Creating an arithmetic package"/>
 <node CREATED="1595406275343" FOLDED="true" ID="ID_431719080" MODIFIED="1595406380172" TEXT="Goal">
 <icon BUILTIN="licq"/>
@@ -4349,7 +4372,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595406250304" ID="ID_1244972407" MODIFIED="1595406250900" TEXT="2.5.1 Generic Arithmetic Operations ">
+<node CREATED="1595406250304" FOLDED="true" ID="ID_1244972407" MODIFIED="1595406250900" TEXT="2.5.1 Generic Arithmetic Operations ">
 <node CREATED="1595406426293" ID="ID_1038316163" MODIFIED="1595406440576" TEXT="Generic arithmetic procedures">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -4695,7 +4718,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595407078434" ID="ID_1485919301" MODIFIED="1595407079260" TEXT="2.5.2 Combining Data of Different Types ">
+<node CREATED="1595407078434" FOLDED="true" ID="ID_1485919301" MODIFIED="1595407079260" TEXT="2.5.2 Combining Data of Different Types ">
 <node CREATED="1595407101490" ID="ID_897503318" MODIFIED="1595407111478" TEXT="How to define operations that cross type boundaries?"/>
 <node CREATED="1595409748064" ID="ID_639481448" MODIFIED="1595409757941" TEXT="Cross type operation in ways">
 <node CREATED="1595409752656" ID="ID_1312853853" MODIFIED="1595409759837" TEXT="controlled"/>
