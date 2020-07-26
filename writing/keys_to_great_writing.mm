@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1595155669849" ID="ID_980361101" MODIFIED="1595676943472" TEXT="Keys to Great Writing">
+<node CREATED="1595155669849" ID="ID_980361101" MODIFIED="1595741535820" TEXT="Keys to Great Writing">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,7 +12,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1595155762681" FOLDED="true" ID="ID_745447903" MODIFIED="1595155765901" POSITION="right" TEXT="Introduction">
+<node CREATED="1595155762681" ID="ID_745447903" MODIFIED="1595155765901" POSITION="right" TEXT="Introduction">
 <node CREATED="1595156075247" ID="ID_762498783" MODIFIED="1595156080491" TEXT="Writing with style">
 <node CREATED="1595156083226" ID="ID_816010460" MODIFIED="1595156086250" TEXT="Read good writing"/>
 <node CREATED="1595156086925" ID="ID_321415046" MODIFIED="1595156094516" TEXT="Study stylistic techniques"/>
@@ -640,7 +640,7 @@
 </node>
 <node CREATED="1595155860416" ID="ID_1766239134" MODIFIED="1595155885975" TEXT="Chapter Three: Action">
 <icon BUILTIN="full-3"/>
-<node CREATED="1595676564893" ID="ID_698062446" MODIFIED="1595676575613" TEXT="Use action and movement">
+<node CREATED="1595676564893" FOLDED="true" ID="ID_698062446" MODIFIED="1595676575613" TEXT="Use action and movement">
 <icon BUILTIN="full-1"/>
 <node CREATED="1595676568309" ID="ID_484854618" MODIFIED="1595676573818" TEXT="... to engage your reader"/>
 <node CREATED="1595676716996" ID="ID_1104697939" MODIFIED="1595676721768" TEXT="People attracted to movement">
@@ -701,7 +701,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595677174217" ID="ID_1343888306" MODIFIED="1595677186208" TEXT="Know How to Work with the Active and Passive Voices">
+<node CREATED="1595677174217" FOLDED="true" ID="ID_1343888306" MODIFIED="1595677186208" TEXT="Know How to Work with the Active and Passive Voices">
 <icon BUILTIN="full-2"/>
 <node CREATED="1595677231121" ID="ID_1626747844" MODIFIED="1595677234485" TEXT="Definitions">
 <node CREATED="1595677222905" ID="ID_851930986" MODIFIED="1595677224749" TEXT="Active voice">
@@ -762,8 +762,7 @@
       should be influenced by the likelihood that the unionized workers will strike.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-4"/>
 </node>
 <node CREATED="1595677479664" ID="ID_1577101907" MODIFIED="1595677554110" TEXT="To maintain consistent point of view / sequence of subjects">
@@ -788,13 +787,12 @@
       conveyed to our investors, who provide us with operating capital.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-5"/>
 </node>
 </node>
 </node>
-<node CREATED="1595677560534" ID="ID_811743286" MODIFIED="1595677578375" TEXT="Know how to work with verbs and nouns">
+<node CREATED="1595677560534" FOLDED="true" ID="ID_811743286" MODIFIED="1595677578375" TEXT="Know how to work with verbs and nouns">
 <icon BUILTIN="full-3"/>
 <node CREATED="1595677608039" ID="ID_1051844984" MODIFIED="1595677628060" TEXT="Prefer strong action verbs">
 <icon BUILTIN="full-1"/>
@@ -886,6 +884,454 @@
 </node>
 <node CREATED="1595155865277" ID="ID_520284532" MODIFIED="1595155888334" TEXT="Chapter Four: Music">
 <icon BUILTIN="full-4"/>
+<node CREATED="1595741618569" FOLDED="true" ID="ID_980741492" MODIFIED="1595741623338" TEXT="Listen to the Music">
+<icon BUILTIN="full-1"/>
+<node CREATED="1595741715549" ID="ID_917568383" MODIFIED="1595741719952" TEXT="Listen to your voice">
+<icon BUILTIN="full-1"/>
+<node CREATED="1595741692181" ID="ID_1052750243" MODIFIED="1595741694326" TEXT="Written voice">
+<node CREATED="1595741694550" ID="ID_1422485367" MODIFIED="1595741696425" TEXT="Word choice"/>
+<node CREATED="1595741697180" ID="ID_284479512" MODIFIED="1595741699786" TEXT="Sentence structure"/>
+</node>
+</node>
+<node CREATED="1595741703181" ID="ID_1013240560" MODIFIED="1595741709355" TEXT="Write with rhythm">
+<icon BUILTIN="full-2"/>
+<node CREATED="1595741771212" ID="ID_1618680524" MODIFIED="1595741779039" TEXT="Provide variety with sentence length"/>
+<node CREATED="1595741784452" ID="ID_1568556454" MODIFIED="1595741787598" TEXT="... if same length">
+<node CREATED="1595741787812" ID="ID_117196118" MODIFIED="1595741801136" TEXT="Monotonous style"/>
+<node CREATED="1595741792916" ID="ID_979242704" MODIFIED="1595741798415" TEXT="Lack variety"/>
+</node>
+<node CREATED="1595741806427" ID="ID_222957081" MODIFIED="1595741811440" TEXT="Sentence structure should be varied">
+<node CREATED="1595741816715" ID="ID_519783757" MODIFIED="1595741824560" TEXT="Need subordinate elements"/>
+<node CREATED="1595741828763" ID="ID_1363462966" MODIFIED="1595741829952" TEXT="... bring">
+<node CREATED="1595741830131" ID="ID_1077440690" MODIFIED="1595741831447" TEXT="variety"/>
+<node CREATED="1595741832068" ID="ID_1154011778" MODIFIED="1595741832767" TEXT="flow"/>
+<node CREATED="1595741833363" ID="ID_1296582757" MODIFIED="1595741834751" TEXT="energy"/>
+</node>
+<node CREATED="1595741838813" ID="ID_863902943" MODIFIED="1595741845903" TEXT="Often technical writers fall in this trap"/>
+</node>
+</node>
+</node>
+<node CREATED="1595741855347" ID="ID_779822326" MODIFIED="1595741863331" TEXT="Use Variety to Create Emphasis">
+<icon BUILTIN="full-2"/>
+<node CREATED="1595741889978" FOLDED="true" ID="ID_1132580200" MODIFIED="1595741897767" TEXT="Sentences are no isolate blocks">
+<node CREATED="1595741904714" ID="ID_1756742708" MODIFIED="1595741915142" TEXT="Listen how sentence structures"/>
+<node CREATED="1595741908842" ID="ID_612650526" MODIFIED="1595741921431" TEXT="... are related"/>
+<node CREATED="1595741922139" ID="ID_1141293497" MODIFIED="1595741924158" TEXT="... to one another"/>
+</node>
+<node CREATED="1595741937410" ID="ID_373288182" MODIFIED="1595741946464" TEXT="Vary your sentence length and structure">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1595741947322" ID="ID_919615512" MODIFIED="1595741971115" TEXT="Avoid creating strings of simple declarative sentences">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This paragraph is made up entirely of simple declarative sentences. It is like an earlier paragraph. Perhaps you
+    </p>
+    <p>
+      remember that paragraph. It also was made up entirely of simple declarative sentences. A simple declarative
+    </p>
+    <p>
+      sentence makes a statement. It has no subordinate elements. A string of simple declarative sentences creates
+    </p>
+    <p>
+      monotony. Monotony steals life from your writing.
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1595741976657" FOLDED="true" ID="ID_309301797" MODIFIED="1595741985794" TEXT="But for special effect, repeat short emphatic sentences">
+<icon BUILTIN="full-3"/>
+<node CREATED="1595741994874" ID="ID_784130723" MODIFIED="1595742001030" TEXT="To produce effect, repeat">
+<node CREATED="1595742001657" ID="ID_1308414939" MODIFIED="1595742015622" TEXT="Sentence structure"/>
+<node CREATED="1595742005074" ID="ID_129571720" MODIFIED="1595742018062" TEXT="Word or phrase"/>
+</node>
+</node>
+<node CREATED="1595742032993" FOLDED="true" ID="ID_1054786394" MODIFIED="1595742047153" TEXT="Avoid common patterns of monotonous sentence structure">
+<icon BUILTIN="full-4"/>
+<node CREATED="1595742047882" ID="ID_1076279904" MODIFIED="1595742059295" TEXT="Succession of declarative sentences">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1595742060161" ID="ID_821230560" MODIFIED="1595742079051" TEXT="Sentence paired around conjunction">
+<icon BUILTIN="full-2"/>
+<node CREATED="1595742069953" ID="ID_787742940" MODIFIED="1595742072309" TEXT="&quot;and&quot;"/>
+<node CREATED="1595742072899" ID="ID_702103582" MODIFIED="1595742075541" TEXT="&quot;or&quot;"/>
+<node CREATED="1595742076136" ID="ID_1262745327" MODIFIED="1595742078093" TEXT="&quot;but&quot;"/>
+<node CREATED="1595742139353" ID="ID_1851892778" MODIFIED="1595742152804" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      I walked into my office and sat down at my desk. I booted up my computer and checked my e-mail. Then I answered the most pressing messages and returned phone calls.
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="wizard"/>
+</node>
+</node>
+<node CREATED="1595742084985" ID="ID_1726310351" MODIFIED="1595742093562" TEXT="Sentence beginning with subordinate element">
+<icon BUILTIN="full-3"/>
+<node CREATED="1595742156104" ID="ID_345530223" MODIFIED="1595742164887" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      As soon as I arrived at my office, I sat down at my desk. Before checking my e-mail, I booted up my computer. After answering the most pressing messages, I returned phone calls.
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="wizard"/>
+</node>
+</node>
+<node CREATED="1595742099057" ID="ID_1249526386" MODIFIED="1595742107415" TEXT="Sentence ending with subordinate element">
+<icon BUILTIN="full-4"/>
+<node CREATED="1595742172368" ID="ID_750997768" MODIFIED="1595742183614" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      I arrived at my office, ready to get to work. I checked my e-mail after booting up my computer. I answered the most pressing messages, hoping I would find time later to return phone calls.
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="wizard"/>
+</node>
+</node>
+</node>
+<node CREATED="1595742206784" FOLDED="true" ID="ID_196537467" MODIFIED="1595742221745" TEXT="Elaborate before, within, or after the main clause">
+<icon BUILTIN="full-5"/>
+<node CREATED="1595742225096" ID="ID_1587322849" MODIFIED="1595742227076" TEXT="Vary the flow">
+<node CREATED="1595742231000" ID="ID_910449650" MODIFIED="1595742234612" TEXT="Before main clause"/>
+<node CREATED="1595742235214" ID="ID_1854833295" MODIFIED="1595742238067" TEXT="After main clause"/>
+<node CREATED="1595742238612" ID="ID_240345533" MODIFIED="1595742241236" TEXT="Aside">
+<node CREATED="1595742247279" ID="ID_1987106754" MODIFIED="1595742248636" TEXT="Commas"/>
+<node CREATED="1595742249104" ID="ID_905911255" MODIFIED="1595742251716" TEXT="Parentheses"/>
+<node CREATED="1595742252671" ID="ID_550869235" MODIFIED="1595742255148" TEXT="Dashes"/>
+</node>
+</node>
+<node CREATED="1595742270263" ID="ID_971816184" MODIFIED="1595742278067" TEXT="Never lose sense of meat of the sentence">
+<node CREATED="1595742278303" ID="ID_738900236" MODIFIED="1595742279916" TEXT="Main clause"/>
+</node>
+</node>
+<node CREATED="1595742283232" FOLDED="true" ID="ID_284171064" MODIFIED="1595742412885" TEXT="Follow a long sentence with a short">
+<icon BUILTIN="full-6"/>
+<node CREATED="1595742290575" ID="ID_1930198447" MODIFIED="1595742292562" TEXT="... snappy one"/>
+<node CREATED="1595742391686" ID="ID_498229451" MODIFIED="1595742395587" TEXT="Don&apos;t overdo it"/>
+</node>
+<node CREATED="1595742413830" FOLDED="true" ID="ID_433430808" MODIFIED="1595742423549" TEXT="Use sentence fragments for emphasis">
+<icon BUILTIN="full-7"/>
+<node CREATED="1595742430038" ID="ID_1815924957" MODIFIED="1595742436330" TEXT="Sharp accent to the thought being presented"/>
+<node CREATED="1595742441838" ID="ID_834435325" MODIFIED="1595742460803" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595742444085" ID="ID_1947303155" MODIFIED="1595742457538" TEXT="&quot;My concern: will people in our generation outlive their resources?&quot;"/>
+<node CREATED="1595742494310" ID="ID_840081067" MODIFIED="1595742504722" TEXT="&quot;The first thing you expect is an apology. Up front.&quot;"/>
+</node>
+</node>
+<node CREATED="1595742509750" FOLDED="true" ID="ID_1397827802" MODIFIED="1595742514770" TEXT="Invert the usual order">
+<icon BUILTIN="full-8"/>
+<node CREATED="1595742517877" ID="ID_42470086" MODIFIED="1595742520633" TEXT="Lift a sentence"/>
+<node CREATED="1595742521126" ID="ID_952854995" MODIFIED="1595742526673" TEXT="... and breathes life into it"/>
+<node CREATED="1595742532574" ID="ID_271382447" MODIFIED="1595742592272" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595742534082" ID="ID_29736759" MODIFIED="1595742541681" TEXT="&quot;Word choice is equally important&quot;"/>
+<node CREATED="1595742542269" ID="ID_104908593" MODIFIED="1595742547073" TEXT="&quot;Equally important is word choice&quot;"/>
+</node>
+<node CREATED="1595742557469" ID="ID_377467612" MODIFIED="1595742564457" TEXT="Second part of sentence can be a transition"/>
+<node CREATED="1595742569157" ID="ID_1328166213" MODIFIED="1595742576289" TEXT="For new idea"/>
+<node CREATED="1595742576645" ID="ID_1470515581" MODIFIED="1595742589025" TEXT="... invite to explanation afterward"/>
+</node>
+<node CREATED="1595742600637" FOLDED="true" ID="ID_1707201026" MODIFIED="1595742610337" TEXT="Use subordination to manage emphasis">
+<icon BUILTIN="full-9"/>
+<node CREATED="1595742615405" ID="ID_1277200186" MODIFIED="1595742621655" TEXT="When you subordinate one part of sentence"/>
+<node CREATED="1595742622108" ID="ID_1369395231" MODIFIED="1595742633154" TEXT="... throw the emphasis on the other part"/>
+<node CREATED="1595742719964" ID="ID_556125670" MODIFIED="1595742737591" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595742721548" ID="ID_642010389" MODIFIED="1595742723192" TEXT="&quot;Kathy is the director of fund-raising, and she is in a good position to coordinate our efforts&quot;"/>
+<node CREATED="1595742729782" ID="ID_93978537" MODIFIED="1595742730505" TEXT="&#x201c;As director of fund raising, Kathy is in a good position to coordinate our efforts&#x201d;"/>
+<node CREATED="1595742765491" ID="ID_297091790" MODIFIED="1595742767344" TEXT="&#x201c;Our budget projections, which underscore this trend, are attached&#x201d;"/>
+<node CREATED="1595742774084" ID="ID_577933914" MODIFIED="1595742777326" TEXT="&#x201c;Our budget projections (attached) underscore this trend.&#x201d;"/>
+</node>
+<node CREATED="1595742637492" ID="ID_1384974278" MODIFIED="1595742649905" TEXT="Need to make a choice on what&apos;s the emphasis"/>
+<node CREATED="1595742659269" ID="ID_1603249909" MODIFIED="1595742663736" TEXT="Two thought in two main closes">
+<node CREATED="1595742665061" ID="ID_1298687932" MODIFIED="1595742667624" TEXT="No emphasis"/>
+</node>
+<node CREATED="1595742671165" ID="ID_701523191" MODIFIED="1595742677313" TEXT="Subordination is proof of intelligent thinking"/>
+</node>
+</node>
+<node CREATED="1595742789507" ID="ID_1480388984" MODIFIED="1595742792083" TEXT="Use Rhythm to Create Closing Emphasis  ">
+<icon BUILTIN="full-3"/>
+<node CREATED="1595742807643" FOLDED="true" ID="ID_961546899" MODIFIED="1595742817509" TEXT="Place important words at the ends of sentences">
+<icon BUILTIN="full-1"/>
+<node CREATED="1595742842675" ID="ID_322843727" MODIFIED="1595742848431" TEXT="Emphasis comes before period"/>
+<node CREATED="1595742849219" ID="ID_1682977718" MODIFIED="1595742853967" TEXT="Period create a pause">
+<node CREATED="1595742858099" ID="ID_1855996885" MODIFIED="1595742862903" TEXT="Rhythm and emphasis"/>
+</node>
+<node CREATED="1595742866107" ID="ID_1906825784" MODIFIED="1595742871879" TEXT="Wordiness interfere with emphasis">
+<node CREATED="1595742876235" ID="ID_16925285" MODIFIED="1595742881999" TEXT="Rearrange and condence"/>
+<node CREATED="1595742883018" ID="ID_1873903750" MODIFIED="1595742886727" TEXT="Be economical"/>
+<node CREATED="1595742887547" ID="ID_883144490" MODIFIED="1595742893063" TEXT="Once you&apos;ve made your point, stop"/>
+</node>
+</node>
+<node CREATED="1595742896787" FOLDED="true" ID="ID_1161718943" MODIFIED="1595742904362" TEXT="Use ellipses to end sentences economically">
+<icon BUILTIN="full-2"/>
+<node CREATED="1595742905147" ID="ID_201665984" MODIFIED="1595742916439" TEXT="Two varieties of ellipse">
+<node CREATED="1595742916755" ID="ID_1371166190" MODIFIED="1595742919254" TEXT="The one you can see">
+<node CREATED="1595742935483" ID="ID_1026024308" MODIFIED="1595742940990" TEXT="Punctuation to say something is missing"/>
+<node CREATED="1595742941467" ID="ID_1212926231" MODIFIED="1595742944199" TEXT="&quot;...&quot;"/>
+</node>
+<node CREATED="1595742919843" ID="ID_1787782762" MODIFIED="1595742926702" TEXT="The one you can hear">
+<node CREATED="1595742950210" ID="ID_1659834571" MODIFIED="1595742957397" TEXT="Word dropped to subtext"/>
+<node CREATED="1595742958034" ID="ID_244804685" MODIFIED="1595742961190" TEXT="... where they still function">
+<node CREATED="1595742968682" ID="ID_574461781" MODIFIED="1595742972214" TEXT="Suggested by context"/>
+<node CREATED="1595742975003" ID="ID_522221480" MODIFIED="1595742978654" TEXT="Can be heard by the reader"/>
+</node>
+<node CREATED="1595742983834" ID="ID_149097932" MODIFIED="1595742990326" TEXT="Can be useful for end of sentence emphasis"/>
+</node>
+</node>
+</node>
+<node CREATED="1595749969977" FOLDED="true" ID="ID_1086153058" MODIFIED="1595749979212" TEXT="Use prepositional phrases for concluding flourish">
+<icon BUILTIN="full-3"/>
+<node CREATED="1595749984825" ID="ID_241269321" MODIFIED="1595749991285" TEXT="Introduced by prepositions">
+<node CREATED="1595750031761" ID="ID_1996251926" MODIFIED="1595750147256" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595750033408" ID="ID_1452343329" MODIFIED="1595750034965" TEXT="&quot;We observe today not a victory of party but a celebration of freedom&quot;"/>
+<node CREATED="1595750072904" ID="ID_1849409695" MODIFIED="1595750143988" TEXT="&quot;An essay is a thing of the imagination&quot;"/>
+</node>
+</node>
+<node CREATED="1595750046002" ID="ID_622844023" MODIFIED="1595750050491" TEXT="... especially using &quot;of&quot;"/>
+<node CREATED="1595750051248" ID="ID_544702047" MODIFIED="1595750059965" TEXT="Lead naturally to point of emphasis">
+<node CREATED="1595750161567" ID="ID_728041616" MODIFIED="1595750165235" TEXT="Unstressed propositions"/>
+<node CREATED="1595750165791" ID="ID_194800845" MODIFIED="1595750168740" TEXT="... always followed "/>
+<node CREATED="1595750169504" ID="ID_567125412" MODIFIED="1595750197820" TEXT="... by words with stressed syllables"/>
+<node CREATED="1595750207191" ID="ID_1599985196" MODIFIED="1595750216347" TEXT="Rhythm of conclusion">
+<node CREATED="1595750216503" ID="ID_116347548" MODIFIED="1595750220124" TEXT="unstressed / stressed"/>
+</node>
+<node CREATED="1595750221119" ID="ID_762170321" MODIFIED="1595750227108" TEXT="... that add">
+<node CREATED="1595750227270" ID="ID_246056702" MODIFIED="1595750229108" TEXT="flourish"/>
+<node CREATED="1595750229724" ID="ID_1073405548" MODIFIED="1595750231459" TEXT="elegance"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1595750233799" ID="ID_1533205761" MODIFIED="1595750246966" TEXT="Punctuate your beat">
+<icon BUILTIN="full-4"/>
+<node CREATED="1595750476446" FOLDED="true" ID="ID_1907978664" MODIFIED="1595750482989" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1595750250334" ID="ID_1947577096" MODIFIED="1595750258364" TEXT="Think of punctuation as your ally"/>
+<node CREATED="1595750276319" ID="ID_1074516959" MODIFIED="1595750287866" TEXT="Do in writing "/>
+<node CREATED="1595750291279" ID="ID_4301637" MODIFIED="1595750292507" TEXT="... what your voice do in speaking"/>
+<node CREATED="1595750299591" ID="ID_181634928" MODIFIED="1595750304011" TEXT="Not all punctuation mandtory"/>
+<node CREATED="1595750306031" ID="ID_1014012062" MODIFIED="1595750310724" TEXT="It can">
+<node CREATED="1595750310902" ID="ID_1896937756" MODIFIED="1595750312067" TEXT="accentuate"/>
+<node CREATED="1595750312551" ID="ID_256172377" MODIFIED="1595750313579" TEXT="emphasis"/>
+</node>
+<node CREATED="1595750317791" ID="ID_1728852192" MODIFIED="1595750321131" TEXT="Mark of clarification">
+<node CREATED="1595750321375" ID="ID_1300341043" MODIFIED="1595750324763" TEXT="Hyphens"/>
+<node CREATED="1595750325210" ID="ID_391866260" MODIFIED="1595750327586" TEXT="Quotation marks"/>
+<node CREATED="1595750328087" ID="ID_1746773993" MODIFIED="1595750330755" TEXT="Parenthesis"/>
+<node CREATED="1595750337910" ID="ID_865677199" MODIFIED="1595750342107" TEXT="... less stylistic value">
+<node CREATED="1595750342247" ID="ID_151191637" MODIFIED="1595750345890" TEXT="More mechanic"/>
+<node CREATED="1595750346573" ID="ID_1241393985" MODIFIED="1595750348195" TEXT="... than style"/>
+</node>
+</node>
+<node CREATED="1595750354070" ID="ID_411614121" MODIFIED="1595750357547" TEXT="Mark of inflection">
+<node CREATED="1595750357719" ID="ID_468286870" MODIFIED="1595750363611" TEXT="Question mark"/>
+<node CREATED="1595750364428" ID="ID_114960194" MODIFIED="1595750367562" TEXT="Exclamation mark"/>
+<node CREATED="1595750369934" ID="ID_1345902299" MODIFIED="1595750374554" TEXT="... great stylistic value"/>
+<node CREATED="1595750377366" ID="ID_642303781" MODIFIED="1595750388226" TEXT="... indicate the speaking intonation "/>
+</node>
+<node CREATED="1595750399655" ID="ID_1346315450" MODIFIED="1595750403489" TEXT="Mark of separation">
+<node CREATED="1595750408718" ID="ID_949398860" MODIFIED="1595750413905" TEXT="Periods"/>
+<node CREATED="1595750414556" ID="ID_1120456585" MODIFIED="1595750415362" TEXT="Comma"/>
+<node CREATED="1595750416221" ID="ID_1858496919" MODIFIED="1595750417634" TEXT="Colons"/>
+<node CREATED="1595750418210" ID="ID_1809065269" MODIFIED="1595750420346" TEXT="Semicolons"/>
+<node CREATED="1595750420864" ID="ID_950140965" MODIFIED="1595750421642" TEXT="Dash"/>
+<node CREATED="1595750422393" ID="ID_717439544" MODIFIED="1595750426146" TEXT="... separate">
+<node CREATED="1595750426366" ID="ID_1626990306" MODIFIED="1595750429859" TEXT="Words"/>
+<node CREATED="1595750430727" ID="ID_255288076" MODIFIED="1595750432298" TEXT="Phrases"/>
+<node CREATED="1595750432847" ID="ID_1901409284" MODIFIED="1595750433954" TEXT="Clauses"/>
+<node CREATED="1595750434471" ID="ID_1798057401" MODIFIED="1595750435642" TEXT="Sentences"/>
+</node>
+<node CREATED="1595750439526" ID="ID_1687790386" MODIFIED="1595750446210" TEXT="... create most useful device of">
+<node CREATED="1595750446325" ID="ID_20883460" MODIFIED="1595750452202" TEXT="Rhythm"/>
+<node CREATED="1595750452824" ID="ID_1711578085" MODIFIED="1595750454770" TEXT="Variety"/>
+<node CREATED="1595750460006" ID="ID_763287215" MODIFIED="1595750461282" TEXT="... the pause"/>
+</node>
+</node>
+<node CREATED="1595750465832" ID="ID_827818454" MODIFIED="1595750470730" TEXT="Punctuation is like musical notation"/>
+</node>
+<node CREATED="1595750484829" FOLDED="true" ID="ID_1663433604" MODIFIED="1595750495054" TEXT="Use periods to punctuate your thoughts">
+<icon BUILTIN="full-1"/>
+<node CREATED="1595750499141" ID="ID_1613750501" MODIFIED="1595750502545" TEXT="Do more than separate sentence"/>
+<node CREATED="1595750503261" ID="ID_1590966577" MODIFIED="1595750510034" TEXT="Pause create emphasis"/>
+<node CREATED="1595750510877" ID="ID_159930189" MODIFIED="1595750517145" TEXT="Short sentences are empathic"/>
+<node CREATED="1595750520461" ID="ID_288369146" MODIFIED="1595750521657" TEXT="Period">
+<node CREATED="1595750521853" ID="ID_982679458" MODIFIED="1595750523618" TEXT="Whole note rest"/>
+<node CREATED="1595750524181" ID="ID_784421520" MODIFIED="1595750525458" TEXT="Full stop"/>
+</node>
+<node CREATED="1595750529589" ID="ID_1830904031" MODIFIED="1595750536385" TEXT="Use it to emphasis what&apos;s just before"/>
+</node>
+<node CREATED="1595750539293" FOLDED="true" ID="ID_1606491890" MODIFIED="1595750544043" TEXT="Use colons to create anticipation">
+<icon BUILTIN="full-2"/>
+<node CREATED="1595750546317" ID="ID_1500766637" MODIFIED="1595750552897" TEXT="Indicates a full stop"/>
+<node CREATED="1595750553525" ID="ID_1575731511" MODIFIED="1595750563695" TEXT="Period prompt reader to look backward"/>
+<node CREATED="1595750577453" ID="ID_881012376" MODIFIED="1595750583304" TEXT="Leaves reader leaning forward"/>
+<node CREATED="1595750583740" ID="ID_773138675" MODIFIED="1595750588753" TEXT="... with a promise of more to come"/>
+<node CREATED="1595750592741" ID="ID_119984101" MODIFIED="1595750598049" TEXT="More effective when producing"/>
+<node CREATED="1595750598965" ID="ID_135446934" MODIFIED="1595750606393" TEXT="... abrupt / dramatic halt"/>
+<node CREATED="1595750609637" ID="ID_552188391" MODIFIED="1595750612871" TEXT="Punchy style emphasis">
+<node CREATED="1595750615708" ID="ID_1520441754" MODIFIED="1595750634465" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595750619765" ID="ID_250584574" MODIFIED="1595750631401" TEXT="&quot;The result: a business boom that has lasted a decade&quot;"/>
+</node>
+</node>
+<node CREATED="1595750639758" ID="ID_1731543306" MODIFIED="1595750642992" TEXT="Three quarter note rest">
+<node CREATED="1595750659108" ID="ID_1983578731" MODIFIED="1595750662105" TEXT="Shorter than period"/>
+<node CREATED="1595750662613" ID="ID_865778554" MODIFIED="1595750667472" TEXT="Longer than semicolon"/>
+</node>
+</node>
+<node CREATED="1595750670676" FOLDED="true" ID="ID_1914254409" MODIFIED="1595750677842" TEXT="A semicolon to suggest a connection">
+<icon BUILTIN="full-3"/>
+<node CREATED="1595750680787" ID="ID_1774864670" MODIFIED="1595750683936" TEXT="Hybrid mark that">
+<node CREATED="1595750684140" ID="ID_110857101" MODIFIED="1595750685528" TEXT="separate"/>
+<node CREATED="1595750686339" ID="ID_186098859" MODIFIED="1595750688864" TEXT="connect"/>
+</node>
+<node CREATED="1595750699042" ID="ID_1244201594" MODIFIED="1595750700056" TEXT="Colon">
+<node CREATED="1595750700236" ID="ID_1746443151" MODIFIED="1595750701392" TEXT="Open door"/>
+</node>
+<node CREATED="1595750705460" ID="ID_1337056431" MODIFIED="1595750708352" TEXT="Semi colon">
+<node CREATED="1595750712723" ID="ID_726883008" MODIFIED="1595750715952" TEXT="Door standing ajar"/>
+</node>
+<node CREATED="1595750717908" ID="ID_1201901895" MODIFIED="1595750719944" TEXT="Brief pause"/>
+<node CREATED="1595750721156" ID="ID_1091946643" MODIFIED="1595750727648" TEXT="Show close relationship between two sentences"/>
+<node CREATED="1595750731260" ID="ID_670246584" MODIFIED="1595750737943" TEXT="... &quot;cause and consequence&quot; relationship"/>
+<node CREATED="1595750743348" ID="ID_1467959971" MODIFIED="1595750745848" TEXT="Half note rest">
+<node CREATED="1595750746051" ID="ID_1852853155" MODIFIED="1595750747664" TEXT="Brief pause"/>
+</node>
+</node>
+<node CREATED="1595750749252" FOLDED="true" ID="ID_1170099279" MODIFIED="1595750756756" TEXT="Use commas to separate parts of sentence">
+<icon BUILTIN="full-4"/>
+<node CREATED="1595750758380" ID="ID_358937322" MODIFIED="1595750766920" TEXT="Perhaps most expressive"/>
+<node CREATED="1595750768260" ID="ID_1174828486" MODIFIED="1595750773543" TEXT="Some required by grammar"/>
+<node CREATED="1595750774259" ID="ID_1773393266" MODIFIED="1595750776423" TEXT="... some optional"/>
+<node CREATED="1595750782439" ID="ID_325536667" MODIFIED="1595750786471" TEXT="More commas">
+<node CREATED="1595750806251" ID="ID_1138078190" MODIFIED="1595750818498" TEXT="Deliberate"/>
+<node CREATED="1595750809179" ID="ID_586089451" MODIFIED="1595750812887" TEXT="Reflective"/>
+</node>
+<node CREATED="1595750801123" ID="ID_1195160500" MODIFIED="1595750803566" TEXT="Less commas">
+<node CREATED="1595750803923" ID="ID_1342019614" MODIFIED="1595750823071" TEXT="Faster paced"/>
+<node CREATED="1595750823718" ID="ID_330231007" MODIFIED="1595750826208" TEXT="More direct"/>
+</node>
+<node CREATED="1595750837747" ID="ID_1891683624" MODIFIED="1595750841311" TEXT="Quarter note rest">
+<node CREATED="1595750842707" ID="ID_327208315" MODIFIED="1595750846863" TEXT="brief pause"/>
+<node CREATED="1595750847577" ID="ID_1526943611" MODIFIED="1595750850943" TEXT="Slight hesitation"/>
+</node>
+<node CREATED="1595750852635" ID="ID_823533656" MODIFIED="1595750855207" TEXT="Separate and connect">
+<node CREATED="1595750856787" ID="ID_290424143" MODIFIED="1595750865476" TEXT="Less obtrusive"/>
+<node CREATED="1595750866251" ID="ID_1095416314" MODIFIED="1595750869151" TEXT="... than semicolon"/>
+</node>
+</node>
+<node CREATED="1595750871730" FOLDED="true" ID="ID_1344319022" MODIFIED="1595750878317" TEXT="Use dashes for a dashing effect">
+<icon BUILTIN="full-5"/>
+<node CREATED="1595750878827" ID="ID_1631378804" MODIFIED="1595750884911" TEXT="Abrupt interruption">
+<node CREATED="1595750887834" ID="ID_617744372" MODIFIED="1595750889735" TEXT="Bold"/>
+<node CREATED="1595750890236" ID="ID_1596600320" MODIFIED="1595750891271" TEXT="Showy"/>
+<node CREATED="1595750893402" ID="ID_1591279010" MODIFIED="1595750895862" TEXT="... way to change flow"/>
+</node>
+<node CREATED="1595750907186" ID="ID_1137198668" MODIFIED="1595750911374" TEXT="When more emphasis needed">
+<node CREATED="1595750911739" ID="ID_1912942562" MODIFIED="1595750916311" TEXT="Stronger than">
+<node CREATED="1595750916474" ID="ID_1515687861" MODIFIED="1595750917415" TEXT="commas"/>
+<node CREATED="1595750917802" ID="ID_1601327057" MODIFIED="1595750919991" TEXT="parentheses"/>
+</node>
+</node>
+<node CREATED="1595750921122" ID="ID_278242736" MODIFIED="1595750928806" TEXT="Useful as a mark of clarification">
+<node CREATED="1595750930298" ID="ID_1038227953" MODIFIED="1595750934694" TEXT="mark aside"/>
+<node CREATED="1595750935226" ID="ID_695254300" MODIFIED="1595750938686" TEXT="parenthesis statement"/>
+</node>
+</node>
+<node CREATED="1595750947562" FOLDED="true" ID="ID_1229432158" MODIFIED="1595750955585" TEXT="Use exclamation points to say it with gusto">
+<icon BUILTIN="full-6"/>
+<node CREATED="1595750956089" ID="ID_1149139203" MODIFIED="1595750960550" TEXT="Not subtle at all"/>
+<node CREATED="1595750965362" ID="ID_1456094954" MODIFIED="1595750969462" TEXT="Total contrary of semicolon"/>
+<node CREATED="1595750974170" ID="ID_647762000" MODIFIED="1595750978029" TEXT="Unabashed enthusiasm"/>
+</node>
+<node CREATED="1595750983570" FOLDED="true" ID="ID_1585889956" MODIFIED="1595751003176" TEXT="Use ellipses to suggest troubled pause or trailing off at end of sentence">
+<icon BUILTIN="full-7"/>
+<node CREATED="1595751003682" ID="ID_749419868" MODIFIED="1595751008142" TEXT="Ellipse you can see">
+<node CREATED="1595751008314" ID="ID_42768718" MODIFIED="1595751009942" TEXT="&quot;...&quot;"/>
+</node>
+<node CREATED="1595751011002" ID="ID_54783723" MODIFIED="1595751014989" TEXT="Troubled pause">
+<node CREATED="1595751015178" ID="ID_612955044" MODIFIED="1595751017972" TEXT="&quot;Well...&quot;"/>
+</node>
+<node CREATED="1595751021826" ID="ID_1107117107" MODIFIED="1595751029278" TEXT="Trailing off a thought at end of sentence"/>
+<node CREATED="1595751036209" ID="ID_1788766210" MODIFIED="1595751045781" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595751037841" ID="ID_1348425676" MODIFIED="1595751043294" TEXT="&quot;If only I had a heart...&quot;"/>
+</node>
+</node>
+</node>
+<node CREATED="1595751052474" ID="ID_1320061713" MODIFIED="1595751086641" TEXT="Don&apos;t let long sentence sprawl">
+<icon BUILTIN="full-5"/>
+<node CREATED="1595751097137" ID="ID_15918760" MODIFIED="1595751098709" TEXT="Long sentence">
+<node CREATED="1595751100074" ID="ID_268846635" MODIFIED="1595751102517" TEXT="Lack of clarity"/>
+<node CREATED="1595751103305" ID="ID_497088572" MODIFIED="1595751108205" TEXT="Too long to get to the point"/>
+<node CREATED="1595751111753" ID="ID_1010258032" MODIFIED="1595751115421" TEXT="Sprawl out of control"/>
+</node>
+<node CREATED="1595751121665" ID="ID_1358713191" MODIFIED="1595751130165" TEXT="Short sentence more likely">
+<node CREATED="1595751130568" ID="ID_1092740333" MODIFIED="1595751132205" TEXT="Clear"/>
+<node CREATED="1595751132665" ID="ID_507008280" MODIFIED="1595751134733" TEXT="Easy to follow"/>
+</node>
+<node CREATED="1595751136465" ID="ID_166285051" MODIFIED="1595751140797" TEXT="Long sentence offer opportunity">
+<node CREATED="1595751142056" ID="ID_1354939913" MODIFIED="1595751146837" TEXT="Write with flourish"/>
+<node CREATED="1595751147592" ID="ID_1348683951" MODIFIED="1595751154612" TEXT="Achieve more intentional effects"/>
+<node CREATED="1595751157474" ID="ID_1430245275" MODIFIED="1595751162533" TEXT="Declaration of writer composure"/>
+<node CREATED="1595751167751" ID="ID_948703805" MODIFIED="1595751178381" TEXT="Deliberate pause in a world of">
+<node CREATED="1595751173153" ID="ID_524362996" MODIFIED="1595751175285" TEXT="hurry"/>
+<node CREATED="1595751176337" ID="ID_1410588111" MODIFIED="1595751177404" TEXT="haste"/>
+</node>
+</node>
+<node CREATED="1595751307391" ID="ID_193864026" MODIFIED="1595751312508" TEXT="Eliminate wordiness">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1595751313272" ID="ID_465124621" MODIFIED="1595751344407" TEXT="Break long, sprawling sentence in smaller units">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1595751339223" ID="ID_847663731" MODIFIED="1595751345030" TEXT="Condense clauses into phrases">
+<icon BUILTIN="full-3"/>
+<node CREATED="1595751349567" ID="ID_685695765" MODIFIED="1595751351347" TEXT="Clause">
+<node CREATED="1595751351873" ID="ID_1910517184" MODIFIED="1595751354556" TEXT="Group of words"/>
+<node CREATED="1595751354967" ID="ID_1981074234" MODIFIED="1595751369587" TEXT="Can be independent"/>
+<node CREATED="1595751357519" ID="ID_461449683" MODIFIED="1595751374707" TEXT="With subject + verb"/>
+</node>
+<node CREATED="1595751391286" ID="ID_590800532" MODIFIED="1595751394643" TEXT="Subordinate clause">
+<node CREATED="1595751394866" ID="ID_1712662312" MODIFIED="1595751397155" TEXT="Don&apos;t stand alone"/>
+</node>
+<node CREATED="1595751403647" ID="ID_1008367302" MODIFIED="1595751404787" TEXT="Phrase">
+<node CREATED="1595751404951" ID="ID_799982592" MODIFIED="1595751412211" TEXT="No subject or independent verb"/>
+</node>
+</node>
+<node CREATED="1595751508118" ID="ID_1140763870" MODIFIED="1595751575999" TEXT="Shape long sentence">
+<icon BUILTIN="full-4"/>
+<node CREATED="1595751519446" ID="ID_1256217434" MODIFIED="1595751522074" TEXT="... by">
+<node CREATED="1595751522357" ID="ID_1842057244" MODIFIED="1595751526402" TEXT="restructuring"/>
+<node CREATED="1595751527046" ID="ID_133485719" MODIFIED="1595751528281" TEXT="pausing"/>
+<node CREATED="1595751528867" ID="ID_127093631" MODIFIED="1595751533498" TEXT="repeating certain words"/>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1595155869024" ID="ID_1516877912" MODIFIED="1595155890558" TEXT="Chapter Five: Personality">
 <icon BUILTIN="full-5"/>
