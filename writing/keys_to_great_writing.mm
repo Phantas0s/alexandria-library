@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1595155669849" ID="ID_980361101" MODIFIED="1595741535820" TEXT="Keys to Great Writing">
+<node CREATED="1595155669849" ID="ID_980361101" MODIFIED="1595780002725" TEXT="Keys to Great Writing">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -940,8 +940,7 @@
       monotony. Monotony steals life from your writing.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-2"/>
 </node>
 <node CREATED="1595741976657" FOLDED="true" ID="ID_309301797" MODIFIED="1595741985794" TEXT="But for special effect, repeat short emphatic sentences">
@@ -971,8 +970,7 @@
       I walked into my office and sat down at my desk. I booted up my computer and checked my e-mail. Then I answered the most pressing messages and returned phone calls.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 </node>
@@ -988,8 +986,7 @@
       As soon as I arrived at my office, I sat down at my desk. Before checking my e-mail, I booted up my computer. After answering the most pressing messages, I returned phone calls.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 </node>
@@ -1005,8 +1002,7 @@
       I arrived at my office, ready to get to work. I checked my e-mail after booting up my computer. I answered the most pressing messages, hoping I would find time later to return phone calls.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 </node>
@@ -1329,6 +1325,185 @@
 <node CREATED="1595751522357" ID="ID_1842057244" MODIFIED="1595751526402" TEXT="restructuring"/>
 <node CREATED="1595751527046" ID="ID_133485719" MODIFIED="1595751528281" TEXT="pausing"/>
 <node CREATED="1595751528867" ID="ID_127093631" MODIFIED="1595751533498" TEXT="repeating certain words"/>
+</node>
+<node CREATED="1595780033134" ID="ID_927925263" MODIFIED="1595780043724" TEXT="Keep subject / verbs close together">
+<icon BUILTIN="full-1"/>
+<node CREATED="1595780044286" ID="ID_1788875040" MODIFIED="1595780053371" TEXT="Reader can&apos;t make sense to sentence"/>
+<node CREATED="1595780054504" ID="ID_111035362" MODIFIED="1595780061746" TEXT="... before connecting">
+<node CREATED="1595780061943" ID="ID_868053009" MODIFIED="1595780063970" TEXT="subject"/>
+<node CREATED="1595780064422" ID="ID_1889157583" MODIFIED="1595780065226" TEXT="verbs"/>
+</node>
+<node CREATED="1595780068735" ID="ID_718351141" MODIFIED="1595780072739" TEXT="Keep them close together"/>
+</node>
+<node CREATED="1595780078730" ID="ID_1138372621" MODIFIED="1595780083732" TEXT="Pause before elaborating">
+<icon BUILTIN="full-2"/>
+<node CREATED="1595780088734" ID="ID_1562500469" MODIFIED="1595780093226" TEXT="Meaning conveyed in units">
+<node CREATED="1595780114687" ID="ID_1729520422" MODIFIED="1595780115850" TEXT="Words"/>
+<node CREATED="1595780120245" ID="ID_765266533" MODIFIED="1595780121434" TEXT="Phrases"/>
+<node CREATED="1595780121964" ID="ID_1132690858" MODIFIED="1595780122898" TEXT="Clauses"/>
+<node CREATED="1595780124494" ID="ID_1418083391" MODIFIED="1595780126705" TEXT="Sentences"/>
+<node CREATED="1595780127253" ID="ID_471190915" MODIFIED="1595780130602" TEXT="Paragraphs"/>
+<node CREATED="1595780131670" ID="ID_1714348330" MODIFIED="1595780132178" TEXT="..."/>
+</node>
+</node>
+<node CREATED="1595780136101" ID="ID_1690842583" MODIFIED="1595780142093" TEXT="Use parallel structure to tie the parts together">
+<icon BUILTIN="full-3"/>
+<node CREATED="1595780146302" ID="ID_743684671" MODIFIED="1595780152122" TEXT="Keep same structure"/>
+<node CREATED="1595780153073" ID="ID_247921451" MODIFIED="1595780156618" TEXT="... for different part of sentence"/>
+</node>
+</node>
+<node CREATED="1595780164237" ID="ID_656383281" MODIFIED="1595780170669" TEXT="Know Your Sentence Types">
+<icon BUILTIN="full-5"/>
+<node CREATED="1595780172974" ID="ID_1893468491" MODIFIED="1595780174305" TEXT="Clause">
+<node CREATED="1595780174494" ID="ID_1778349255" MODIFIED="1595780175777" TEXT="Subject"/>
+<node CREATED="1595780176438" ID="ID_715031802" MODIFIED="1595780177401" TEXT="Verb"/>
+<node CREATED="1595780178254" ID="ID_1471246544" MODIFIED="1595780186239" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595780179982" ID="ID_1225027690" MODIFIED="1595780182609" TEXT="&quot;I eat a cake&quot;"/>
+</node>
+</node>
+<node CREATED="1595780194613" ID="ID_174400782" MODIFIED="1595780196634" TEXT="Phrase">
+<node CREATED="1595780196894" ID="ID_1931052441" MODIFIED="1595780199825" TEXT="Group of words"/>
+<node CREATED="1595780200505" ID="ID_1720929334" MODIFIED="1595780206456" TEXT="... without">
+<node CREATED="1595780206789" ID="ID_130334468" MODIFIED="1595780285816" TEXT="Subject"/>
+<node CREATED="1595780209273" ID="ID_192996049" MODIFIED="1595780283041" TEXT="Verb"/>
+<node CREATED="1595780246981" ID="ID_26547660" MODIFIED="1595780251721" TEXT="... but might have verb form"/>
+</node>
+<node CREATED="1595780219982" ID="ID_43135248" MODIFIED="1595780237188" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595780221821" ID="ID_1172831588" MODIFIED="1595780224281" TEXT="Inside the book"/>
+<node CREATED="1595780225342" ID="ID_1482360279" MODIFIED="1595780228097" TEXT="To read the book"/>
+<node CREATED="1595780228833" ID="ID_25745544" MODIFIED="1595780230937" TEXT="Reading the book"/>
+</node>
+</node>
+<node CREATED="1595780261901" ID="ID_1179642047" MODIFIED="1595780264889" TEXT="Main clause">
+<node CREATED="1595780265173" ID="ID_1713133088" MODIFIED="1595780267817" TEXT="Independent clause"/>
+<node CREATED="1595780274612" ID="ID_1836897449" MODIFIED="1595780275848" TEXT="Subject"/>
+<node CREATED="1595780276419" ID="ID_795353381" MODIFIED="1595780277233" TEXT="Verb"/>
+<node CREATED="1595780293301" ID="ID_974446643" MODIFIED="1595780296361" TEXT="Express complete thought"/>
+<node CREATED="1595780297005" ID="ID_1079641823" MODIFIED="1595780300745" TEXT="Can stand alone"/>
+<node CREATED="1595780303629" ID="ID_1590784463" MODIFIED="1595780309632" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595780305269" ID="ID_1329407816" MODIFIED="1595780307368" TEXT="I lost my shirt"/>
+</node>
+</node>
+<node CREATED="1595780312277" ID="ID_650373342" MODIFIED="1595780315601" TEXT="Subordinate clause">
+<node CREATED="1595780317029" ID="ID_950726115" MODIFIED="1595780318319" TEXT="Subject"/>
+<node CREATED="1595780318902" ID="ID_1946220180" MODIFIED="1595780319649" TEXT="Verb"/>
+<node CREATED="1595780320442" ID="ID_218068780" MODIFIED="1595780324409" TEXT="No complete thought"/>
+<node CREATED="1595780338737" ID="ID_556890340" MODIFIED="1595780347102" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595780340212" ID="ID_1446244739" MODIFIED="1595780357305" TEXT="After I lost my shirt, ..."/>
+</node>
+<node CREATED="1595780367205" ID="ID_1053487684" MODIFIED="1595780371312" TEXT="Less important than main clause"/>
+</node>
+<node CREATED="1595780397052" ID="ID_1445239483" MODIFIED="1595780445635" TEXT="Functional Sentences">
+<icon BUILTIN="full-1"/>
+<node CREATED="1595780408724" ID="ID_252454855" MODIFIED="1595780492786" TEXT="Declarative sentence">
+<icon BUILTIN="full-1"/>
+<node CREATED="1595780413178" ID="ID_58951407" MODIFIED="1595780416048" TEXT="Make a statement"/>
+</node>
+<node CREATED="1595780422019" ID="ID_1178215939" MODIFIED="1595780507775" TEXT="Interrogative sentence">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1595780440383" ID="ID_778708542" MODIFIED="1595780510695" TEXT="Imperative sentence">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1595780451003" ID="ID_834094337" MODIFIED="1595780513390" TEXT="Exclamatory sentence">
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+<node CREATED="1595780494709" ID="ID_1560715594" MODIFIED="1595780500637" TEXT="Grammatical Sentences">
+<icon BUILTIN="full-2"/>
+<node CREATED="1595780517012" ID="ID_522776028" MODIFIED="1595780735475" TEXT="Simple sentence">
+<icon BUILTIN="full-1"/>
+<node CREATED="1595780519819" ID="ID_314707122" MODIFIED="1595780522151" TEXT="Only main clause"/>
+</node>
+<node CREATED="1595780524395" ID="ID_638752233" MODIFIED="1595780736423" TEXT="Compbound sentence">
+<icon BUILTIN="full-2"/>
+<node CREATED="1595780530179" ID="ID_1809813899" MODIFIED="1595780535191" TEXT="Two main clause"/>
+<node CREATED="1595780536131" ID="ID_138905544" LINK="https://englishstudypage.com/wp-content/uploads/2017/02/coordinating-conjunctions-examples.png" MODIFIED="1595780716415" TEXT="... joint with coordinating conjunction"/>
+</node>
+<node CREATED="1595780730442" ID="ID_973603163" MODIFIED="1595780737181" TEXT="Complex sentence">
+<icon BUILTIN="full-3"/>
+<node CREATED="1595780738218" ID="ID_1847422484" MODIFIED="1595780744846" TEXT="One subordinate clause"/>
+<node CREATED="1595780745419" ID="ID_155290462" MODIFIED="1595780747021" TEXT="One main clause"/>
+<node CREATED="1595780752041" ID="ID_1548938772" MODIFIED="1595780792105" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595780753474" ID="ID_995860848" MODIFIED="1595780775318" TEXT="After I ride home on my bicycle"/>
+<node CREATED="1595780769329" ID="ID_714469415" MODIFIED="1595780788956" TEXT="... I slept in the hayloft"/>
+</node>
+</node>
+<node CREATED="1595780795968" ID="ID_1007615505" MODIFIED="1595780808982" TEXT="Compound complex sentence">
+<icon BUILTIN="full-4"/>
+<node CREATED="1595780813105" ID="ID_297901145" MODIFIED="1595780815654" TEXT="Two main clause"/>
+<node CREATED="1595780816248" ID="ID_1425693725" MODIFIED="1595780826045" TEXT="One main clause with subordinate"/>
+<node CREATED="1595780872352" ID="ID_1886294544" MODIFIED="1595780884669" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595780874465" ID="ID_1850012905" MODIFIED="1595780878549" TEXT="&quot;I rode home on my bicycle, and I slept in the hayloft because I wanted to be alone&quot;"/>
+</node>
+</node>
+</node>
+<node CREATED="1595780898008" ID="ID_1308418967" MODIFIED="1595780903521" TEXT="Rhetorical Sentences">
+<icon BUILTIN="full-3"/>
+<node CREATED="1595780906033" ID="ID_1756318355" MODIFIED="1595781076620" TEXT="Periodic sentence">
+<icon BUILTIN="full-1"/>
+<node CREATED="1595780911368" ID="ID_220547239" MODIFIED="1595780914941" TEXT="Elaboration before main clause"/>
+<node CREATED="1595780917819" ID="ID_67857030" MODIFIED="1595780944246" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595780920472" ID="ID_1016493805" MODIFIED="1595780940660" TEXT="&quot;Confused, overwhelmed, exasperated, I ... &quot;"/>
+</node>
+</node>
+<node CREATED="1595780947160" ID="ID_1099380537" MODIFIED="1595781078751" TEXT="Loose sentence">
+<icon BUILTIN="full-2"/>
+<node CREATED="1595780953960" ID="ID_1895400448" MODIFIED="1595780958420" TEXT="Elaboration after main clause"/>
+<node CREATED="1595780991253" ID="ID_1594345972" MODIFIED="1595780997104" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595780970961" ID="ID_1435775076" MODIFIED="1595780988196" TEXT="&quot;The reader went away, though confused, overwhelmed, exasperated&quot;"/>
+</node>
+</node>
+<node CREATED="1595781002456" ID="ID_131688016" MODIFIED="1595781079583" TEXT="Balanced sentence">
+<icon BUILTIN="full-3"/>
+<node CREATED="1595781005600" ID="ID_925469822" MODIFIED="1595781011228" TEXT="Parallel elements"/>
+<node CREATED="1595781013576" ID="ID_1776466617" MODIFIED="1595781024179" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595781024932" ID="ID_1964691412" MODIFIED="1595781052779" TEXT="&quot;What is read without effort is remembered without pleasure&quot;"/>
+</node>
+</node>
+<node CREATED="1595781080136" ID="ID_1589329784" MODIFIED="1595781099469" TEXT="Antithetical sentence">
+<icon BUILTIN="full-4"/>
+<node CREATED="1595781101503" ID="ID_1417531149" MODIFIED="1595781104730" TEXT="With contrasting elements"/>
+<node CREATED="1595781106431" ID="ID_1897439574" MODIFIED="1595781109707" TEXT="Often parallel structure"/>
+<node CREATED="1595781110687" ID="ID_1447273262" MODIFIED="1595781114365" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595781122022" ID="ID_891221811" MODIFIED="1595781125586" TEXT="&quot;I didn&#x2019;t promise you a rose garden; I promised you an adventure&quot;"/>
+</node>
+</node>
+<node CREATED="1595781138079" ID="ID_887046765" MODIFIED="1595781148155" TEXT="Dependent on rhythm for their effects"/>
+<node CREATED="1595781149311" ID="ID_1192491974" MODIFIED="1595781154091" TEXT="High stylistic value"/>
+</node>
+<node CREATED="1595781196119" ID="ID_294123297" MODIFIED="1595781206266" TEXT="When more than one clause">
+<node CREATED="1595781207694" ID="ID_1144432575" MODIFIED="1595781216810" TEXT="Many option regarding subordinate element">
+<node CREATED="1595781218093" ID="ID_1352295270" MODIFIED="1595781272722" TEXT="Before main clause"/>
+<node CREATED="1595781225679" ID="ID_737611245" MODIFIED="1595781276834" TEXT="Within main clause"/>
+<node CREATED="1595781221337" ID="ID_903384013" MODIFIED="1595781280682" TEXT="After main clause"/>
+</node>
+<node CREATED="1595781246238" ID="ID_101440814" MODIFIED="1595781252394" TEXT="Where you choose to elaborate">
+<node CREATED="1595781252606" ID="ID_1093934986" MODIFIED="1595781255993" TEXT="Important element of your style"/>
+</node>
+<node CREATED="1595781289181" ID="ID_943276577" MODIFIED="1595781327163" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1595781290702" ID="ID_503282253" MODIFIED="1595781292970" TEXT="Before main clause">
+<node CREATED="1595781294238" ID="ID_1192016452" MODIFIED="1595781297346" TEXT="Periodic sentence"/>
+</node>
+<node CREATED="1595781300302" ID="ID_908584033" MODIFIED="1595781303065" TEXT="After main clause">
+<node CREATED="1595781303486" ID="ID_192774668" MODIFIED="1595781309321" TEXT="Loose sentence"/>
+</node>
+<node CREATED="1595781316366" ID="ID_122102545" MODIFIED="1595781319850" TEXT="... produce distinct">
+<node CREATED="1595781320077" ID="ID_1179000439" MODIFIED="1595781322322" TEXT="Rhythm"/>
+<node CREATED="1595781322947" ID="ID_498689204" MODIFIED="1595781324130" TEXT="Effects"/>
+</node>
+</node>
 </node>
 </node>
 </node>

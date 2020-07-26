@@ -1,6 +1,10 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1571926843312" ID="ID_1844206412" LINK="https://blog.samaltman.com/how-to-be-successful" MODIFIED="1571926854126" TEXT="How to be successful">
+<node COLOR="#338800" CREATED="1595779601354" ID="ID_908065602" MODIFIED="1595779612366" POSITION="right" TEXT="Very valuable advice in there!">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
 <node CREATED="1571926865033" FOLDED="true" ID="ID_1807326890" MODIFIED="1587137443278" POSITION="right" TEXT="Compound yourself">
 <icon BUILTIN="full-1"/>
 <node CREATED="1571926903833" ID="ID_1344785" MODIFIED="1590740494740" TEXT="Exponential curves">
@@ -30,7 +34,7 @@
 <node CREATED="1571927124599" ID="ID_709449575" MODIFIED="1571927129554" TEXT="Be pleasantly surprised"/>
 </node>
 </node>
-<node CREATED="1571927136661" ID="ID_955148789" MODIFIED="1587137540851" POSITION="right" TEXT="Have almost too much self belief">
+<node CREATED="1571927136661" FOLDED="true" ID="ID_955148789" MODIFIED="1587137540851" POSITION="right" TEXT="Have almost too much self belief">
 <icon BUILTIN="full-2"/>
 <node CREATED="1571927174889" ID="ID_758255487" MODIFIED="1571927181276" TEXT="Have hardcore convictions"/>
 <node CREATED="1571927186775" ID="ID_536064272" MODIFIED="1571927191322" TEXT="Needed for managing">
@@ -114,7 +118,8 @@
 <node CREATED="1571927961375" ID="ID_267828443" MODIFIED="1571927968157" TEXT="Finding your purpose"/>
 <node CREATED="1571927968769" ID="ID_991803822" MODIFIED="1571927971565" TEXT="Excel at it"/>
 <node CREATED="1571927972008" ID="ID_350595558" MODIFIED="1571927983459" TEXT="Impact matters in something larger than yourself"/>
-<node COLOR="#338800" CREATED="1587138236419" FOLDED="true" ID="ID_569015170" MODIFIED="1587138653955" TEXT="To me, it&apos;s more about &quot;creating&quot; your purpose">
+<node COLOR="#338800" CREATED="1587138236419" FOLDED="true" ID="ID_569015170" MODIFIED="1595779594222" TEXT="To me, it&apos;s more about &quot;creating&quot; your purpose">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
 <node CREATED="1587138582144" ID="ID_499461667" MODIFIED="1587138585468" TEXT="More you act for it"/>
 <node CREATED="1587138585992" ID="ID_122133468" MODIFIED="1587138593450" TEXT="... more you should be convinced of it"/>

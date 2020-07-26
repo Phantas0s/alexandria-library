@@ -3,7 +3,7 @@
 <node CREATED="1553445319016" ID="ID_1210762025" LINK="https://blog.hubspot.com/marketing/beginner-inbound-lead-generation-guide-ht" MODIFIED="1553445341934" TEXT="What is lead generation">
 <node CREATED="1553446947539" FOLDED="true" ID="ID_1947740758" MODIFIED="1558807215621" POSITION="right" TEXT="Inbound lead generation">
 <icon BUILTIN="full-1"/>
-<node CREATED="1553445387640" FOLDED="true" ID="ID_1146942249" MODIFIED="1558807132805" TEXT="What is a lead?">
+<node CREATED="1553445387640" ID="ID_1146942249" MODIFIED="1558807132805" TEXT="What is a lead?">
 <icon BUILTIN="full-1"/>
 <node CREATED="1553445396144" ID="ID_1692319802" MODIFIED="1553445408835" TEXT="Person interested in your product in some">
 <node CREATED="1553445409023" ID="ID_1893877217" MODIFIED="1553445410075" TEXT="Ways"/>
@@ -109,7 +109,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1553446753421" FOLDED="true" ID="ID_1801510767" MODIFIED="1558807214373" POSITION="right" TEXT="How to qualify a lead">
+<node CREATED="1553446753421" ID="ID_1801510767" MODIFIED="1558807214373" POSITION="right" TEXT="How to qualify a lead">
 <icon BUILTIN="full-2"/>
 <node CREATED="1553446792789" ID="ID_349828081" MODIFIED="1553446977925" TEXT="Gauging lead level of interest">
 <icon BUILTIN="full-1"/>
