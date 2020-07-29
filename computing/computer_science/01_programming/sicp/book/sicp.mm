@@ -81,10 +81,9 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
+<node CREATED="1528634320405" FOLDED="true" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
 <node CREATED="1528634606285" FOLDED="true" ID="ID_1929326975" MODIFIED="1587143670696" TEXT="Introduction">
 <node CREATED="1528633486362" ID="ID_1751522928" MODIFIED="1549911501085" TEXT="Act of the mind (Locke)">
@@ -773,7 +772,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1595576409134" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1596010934357" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3500,63 +3499,80 @@
 </node>
 </node>
 </node>
-<node CREATED="1594802342022" FOLDED="true" ID="ID_1031658094" MODIFIED="1594802342901" TEXT="2.4.1 Representations for Complex Numbers ">
+<node CREATED="1594802342022" ID="ID_1031658094" MODIFIED="1594802342901" TEXT="2.4.1 Representations for Complex Numbers ">
 <node CREATED="1594802611915" ID="ID_1509823857" MODIFIED="1594802618383" TEXT="Representing complex numbers"/>
 <node CREATED="1594802778434" ID="ID_467266183" MODIFIED="1594802796701" TEXT="Complex number implementation">
 <node CREATED="1594802816576" ID="ID_1552616569" MODIFIED="1594802820188" TEXT="Rectangular form"/>
 <node CREATED="1594802820616" ID="ID_220831170" MODIFIED="1594802822780" TEXT="Polar form"/>
 </node>
-<node CREATED="1594802830335" ID="ID_1002954175" MODIFIED="1594802898281" TEXT="Base">
+<node CREATED="1594802830335" ID="ID_1002954175" MODIFIED="1596012539974" TEXT="Base">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      (make-from-real-imag (real-part z) (imag-part z))<br />(make-from-mag-ang (magnitude z) (angle z))
+      (make-from-real-imag (real-part z) (imag-part z))
+    </p>
+    <p>
+      <br />
+      (make-from-mag-ang (magnitude z) (angle z))
     </p>
     <p>
       <br />
       (define (add-complex z1 z2)
     </p>
     <p>
+      
+    </p>
+    <p>
       (make-from-real-imag (+ (real-part z1) (real-part z2))
     </p>
     <p>
-      (+ (imag-part z1) (imag-part z2))))
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(+ (imag-part z1) (imag-part z2))))
+    </p>
+    <p>
+      
     </p>
     <p>
       (define (sub-complex z1 z2)
     </p>
     <p>
-      (make-from-real-imag (- (real-part z1) (real-part z2))
+      &#160;&#160;(make-from-real-imag (- (real-part z1) (real-part z2))
     </p>
     <p>
-      (- (imag-part z1) (imag-part z2))))
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(- (imag-part z1) (imag-part z2))))
+    </p>
+    <p>
+      
     </p>
     <p>
       (define (mul-complex z1 z2)
     </p>
     <p>
-      (make-from-mag-ang (* (magnitude z1) (magnitude z2))
+      &#160;&#160;(make-from-mag-ang (* (magnitude z1) (magnitude z2))
     </p>
     <p>
-      (+ (angle z1) (angle z2))))
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(+ (angle z1) (angle z2))))
+    </p>
+    <p>
+      
     </p>
     <p>
       (define (div-complex z1 z2)
     </p>
     <p>
-      (make-from-mag-ang (/ (magnitude z1) (magnitude z2))
+      &#160;&#160;(make-from-mag-ang (/ (magnitude z1) (magnitude z2))
     </p>
     <p>
-      (- (angle z1) (angle z2))))
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(- (angle z1) (angle z2))))
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1594803013076" ID="ID_117115831" MODIFIED="1594803015153" TEXT="Representations">
-<node CREATED="1594802898526" ID="ID_1447438549" MODIFIED="1594803024505" TEXT="Rectangular">
+<node CREATED="1594802898526" ID="ID_1447438549" MODIFIED="1596012572318" TEXT="Rectangular">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3566,7 +3582,13 @@
       (define (real-part z) (car z))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (imag-part z) (cdr z))
+    </p>
+    <p>
+      
     </p>
     <p>
       (define (magnitude z)
@@ -3578,13 +3600,22 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(square (imag-part z)))))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (angle z)
     </p>
     <p>
       &#160;&#160;(atan (imag-part z) (real-part z)))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (make-from-real-imag x y) (cons x y))
+    </p>
+    <p>
+      
     </p>
     <p>
       (define (make-from-mag-ang r a)
@@ -3593,9 +3624,10 @@
       &#160;&#160;(cons (* r (cos a)) (* r (sin a))))
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1594802949541" ID="ID_762770775" MODIFIED="1594803027920" TEXT="Polar">
+<node CREATED="1594802949541" ID="ID_762770775" MODIFIED="1596012580249" TEXT="Polar">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3605,13 +3637,25 @@
       (define (real-part z) (* (magnitude z) (cos (angle z))))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (imag-part z) (* (magnitude z) (sin (angle z))))
+    </p>
+    <p>
+      
     </p>
     <p>
       (define (magnitude z) (car z))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (angle z) (cdr z))
+    </p>
+    <p>
+      
     </p>
     <p>
       (define (make-from-real-imag x y)
@@ -3623,10 +3667,14 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(atan y x)))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (make-from-mag-ang r a) (cons r a))
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1594802965422" ID="ID_1120690630" MODIFIED="1594802976273" TEXT="Data abstraction should ensure"/>
@@ -3646,7 +3694,7 @@
 </node>
 <node CREATED="1594803001324" ID="ID_199657808" MODIFIED="1594803012001" TEXT="... works for polar / rectangular representation"/>
 </node>
-<node CREATED="1594803032836" FOLDED="true" ID="ID_888778174" MODIFIED="1594803033469" TEXT="2.4.2 Tagged data ">
+<node CREATED="1594803032836" ID="ID_888778174" MODIFIED="1594803033469" TEXT="2.4.2 Tagged data ">
 <node CREATED="1594803052106" ID="ID_638390072" MODIFIED="1594803063528" TEXT="Can view data abstraction of application"/>
 <node CREATED="1594803069035" ID="ID_1133074887" MODIFIED="1594803074991" TEXT="... of the &quot;principle of least commitment&quot;">
 <node CREATED="1594803340166" ID="ID_1390111865" MODIFIED="1594803367979" TEXT="Can defer to choose selector representation"/>
@@ -3669,7 +3717,7 @@
 <node CREATED="1594883477411" ID="ID_680940085" MODIFIED="1594883481568" TEXT="...decide of the tag"/>
 <node CREATED="1594883481938" ID="ID_839460722" MODIFIED="1594883492607" TEXT="... for which selector to apply"/>
 </node>
-<node CREATED="1594883539427" ID="ID_79579368" MODIFIED="1594883591306" TEXT="Tag implementation">
+<node CREATED="1594883539427" ID="ID_79579368" MODIFIED="1596012624587" TEXT="Tag implementation">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3680,6 +3728,9 @@
     </p>
     <p>
       &#160;&#160;(cons type-tag contents))
+    </p>
+    <p>
+      
     </p>
     <p>
       (define (type-tag datum)
@@ -3721,8 +3772,9 @@
       (define (polar? z) (eq? (type-tag z) 'polar))
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1594883646561" ID="ID_1940975868" MODIFIED="1594883669701" TEXT="Rectangular new implementation">
+</html>
+</richcontent>
+<node CREATED="1594883646561" ID="ID_1940975868" MODIFIED="1596012597260" TEXT="Rectangular new implementation">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3732,7 +3784,13 @@
       (define (real-part-rectangular z) (car z))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (imag-part-rectangular z) (cdr z))
+    </p>
+    <p>
+      
     </p>
     <p>
       (define (magnitude-rectangular z)
@@ -3744,6 +3802,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(square (imag-part-rectangular z)))))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (angle-rectangular z)
     </p>
     <p>
@@ -3753,10 +3814,16 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(real-part-rectangular z)))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (make-from-real-imag-rectangular x y)
     </p>
     <p>
       &#160;&#160;(attach-tag 'rectangular (cons x y)))
+    </p>
+    <p>
+      
     </p>
     <p>
       (define (make-from-mag-ang-rectangular r a)
@@ -3768,9 +3835,10 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons (* r (cos a)) (* r (sin a)))))
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1594883670826" ID="ID_987684501" MODIFIED="1594883685738" TEXT="Polar new implementation">
+<node CREATED="1594883670826" ID="ID_987684501" MODIFIED="1596012605438" TEXT="Polar new implementation">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3783,16 +3851,28 @@
       &#160;&#160;(* (magnitude-polar z) (cos (angle-polar z))))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (imag-part-polar z)
     </p>
     <p>
       &#160;&#160;(* (magnitude-polar z) (sin (angle-polar z))))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (magnitude-polar z) (car z))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (angle-polar z) (cdr z))
+    </p>
+    <p>
+      
     </p>
     <p>
       (define (make-from-real-imag-polar x y)
@@ -3807,13 +3887,17 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(atan y x))))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (make-from-mag-ang-polar r a)
     </p>
     <p>
       &#160;&#160;(attach-tag 'polar (cons r a)))
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1594883734825" ID="ID_1436560651" MODIFIED="1595412683394" TEXT="Selectors">
 <richcontent TYPE="NOTE"><html>
@@ -3910,13 +3994,13 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
 </node>
-<node CREATED="1594883908976" FOLDED="true" ID="ID_1442721382" MODIFIED="1594884005588" TEXT="Dispatching on type">
+<node CREATED="1594883908976" ID="ID_1442721382" MODIFIED="1594884005588" TEXT="Dispatching on type">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1594883914560" ID="ID_1726549592" MODIFIED="1594883930362" TEXT="General strategy of checking the type of datum"/>
 <node CREATED="1594883926760" ID="ID_1604931338" MODIFIED="1594883937988" TEXT="... and calling appropriate procedure"/>
 </node>
 <node CREATED="1594883945496" ID="ID_1819120355" MODIFIED="1594883955252" TEXT="Good for modularity in system design"/>
-<node CREATED="1594883968007" FOLDED="true" ID="ID_1124083904" MODIFIED="1594883979004" TEXT="Previous implementation has two weaknesses">
+<node CREATED="1594883968007" ID="ID_1124083904" MODIFIED="1594883979004" TEXT="Previous implementation has two weaknesses">
 <node CREATED="1594884095231" ID="ID_1475139336" MODIFIED="1594884135915" TEXT="Types need to be known">
 <icon BUILTIN="full-1"/>
 <node CREATED="1594883979311" ID="ID_1551434809" MODIFIED="1594883987331" TEXT="Generic interface procedure">
@@ -3945,7 +4029,7 @@
 <node CREATED="1594884131773" ID="ID_260418474" MODIFIED="1594884134186" TEXT="... in the system"/>
 </node>
 </node>
-<node CREATED="1594884150381" FOLDED="true" ID="ID_1187548649" MODIFIED="1594884163554" TEXT="... technique to implement generic interface not additive">
+<node CREATED="1594884150381" ID="ID_1187548649" MODIFIED="1594884163554" TEXT="... technique to implement generic interface not additive">
 <node CREATED="1594884175590" ID="ID_1504047040" MODIFIED="1594884179706" TEXT="Many changes in the code"/>
 </node>
 <node CREATED="1594884209734" ID="ID_867265363" MODIFIED="1594884215210" TEXT="Need to modularize system further"/>
@@ -4092,8 +4176,7 @@
       &#160;&#160;'done)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1594885029959" ID="ID_1477266959" MODIFIED="1595412823744" TEXT="Polar package">
 <richcontent TYPE="NOTE"><html>
@@ -4327,8 +4410,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown op: make-from-mag-ang&quot; op))))<br />&#160;&#160;dispatch)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1594885698333" ID="ID_1899730626" MODIFIED="1594885703720" TEXT="Value returned is a procedure"/>
 <node CREATED="1594885704748" ID="ID_205384036" MODIFIED="1594885716632" TEXT="... invoked when apply generic request an operation to be performed"/>
 </node>
@@ -4355,7 +4437,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1594885888976" FOLDED="true" ID="ID_1034488985" MODIFIED="1594885889888" TEXT="2.5 Systems with Generic Operations ">
+<node CREATED="1594885888976" ID="ID_1034488985" MODIFIED="1594885889888" TEXT="2.5 Systems with Generic Operations ">
 <node CREATED="1595406272792" FOLDED="true" ID="ID_886539139" MODIFIED="1595406275065" TEXT="Introduction">
 <node CREATED="1595406277716" ID="ID_785995761" MODIFIED="1595406283578" TEXT="Creating an arithmetic package"/>
 <node CREATED="1595406275343" FOLDED="true" ID="ID_431719080" MODIFIED="1595406380172" TEXT="Goal">
@@ -4372,7 +4454,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595406250304" FOLDED="true" ID="ID_1244972407" MODIFIED="1595406250900" TEXT="2.5.1 Generic Arithmetic Operations ">
+<node CREATED="1595406250304" ID="ID_1244972407" MODIFIED="1595406250900" TEXT="2.5.1 Generic Arithmetic Operations ">
 <node CREATED="1595406426293" ID="ID_1038316163" MODIFIED="1595406440576" TEXT="Generic arithmetic procedures">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -4394,7 +4476,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1595406584973" ID="ID_1665051714" MODIFIED="1595406759316" TEXT="Tag scheme-number">
+<node CREATED="1595406584973" ID="ID_1665051714" MODIFIED="1596011709721" TEXT="Tag scheme-number">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4407,10 +4489,16 @@
       &#160;&#160;(define (tag x) (attach-tag 'scheme-number x))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(put 'add '(scheme-number scheme-number)
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (+ x y))))
+    </p>
+    <p>
+      
     </p>
     <p>
       &#160;&#160;(put 'sub '(scheme-number scheme-number)
@@ -4419,16 +4507,25 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (- x y))))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(put 'mul '(scheme-number scheme-number)
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (* x y))))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(put 'div '(scheme-number scheme-number)
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (/ x y))))
+    </p>
+    <p>
+      
     </p>
     <p>
       &#160;&#160;(put 'make 'scheme-number (lambda (x) (tag x)))
@@ -4439,13 +4536,11 @@
     <p>
       &#160;&#160;((get 'make 'scheme-number) n))
     </p>
-    <p>
-      
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1595406788780" ID="ID_487107884" MODIFIED="1595406820198" TEXT="Rational numbers">
+<node CREATED="1595406788780" ID="ID_487107884" MODIFIED="1596011695310" TEXT="Rational numbers">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4464,7 +4559,13 @@
       &#160;&#160;(define (numer x) (car x))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(define (denom x) (cdr x))
+    </p>
+    <p>
+      
     </p>
     <p>
       &#160;&#160;(define (make-rat n d)
@@ -4474,6 +4575,9 @@
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;(cons (/ n g) (/ d g))))
+    </p>
+    <p>
+      
     </p>
     <p>
       &#160;&#160;(define (add-rat x y)
@@ -4488,6 +4592,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (denom y))))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(define (sub-rat x y)
     </p>
     <p>
@@ -4500,6 +4607,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (denom y))))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(define (mul-rat x y)
     </p>
     <p>
@@ -4507,6 +4617,9 @@
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (denom y))))
+    </p>
+    <p>
+      
     </p>
     <p>
       &#160;&#160;(define (div-rat x y)
@@ -4527,10 +4640,16 @@
       &#160;&#160;(define (tag x) (attach-tag 'rational x))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(put 'add '(rational rational)
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (add-rat x y))))
+    </p>
+    <p>
+      
     </p>
     <p>
       &#160;&#160;(put 'sub '(rational rational)
@@ -4539,16 +4658,25 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (sub-rat x y))))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(put 'mul '(rational rational)
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (mul-rat x y))))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(put 'div '(rational rational)
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (div-rat x y))))
+    </p>
+    <p>
+      
     </p>
     <p>
       &#160;&#160;(put 'make 'rational
@@ -4560,15 +4688,19 @@
       &#160;&#160;'done)
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (make-rational n d)
     </p>
     <p>
       &#160;&#160;((get 'make 'rational) n d))
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1595406831411" ID="ID_754430934" MODIFIED="1595406989725" TEXT="Complex numbers">
+<node CREATED="1595406831411" ID="ID_754430934" MODIFIED="1596013382797" TEXT="Complex numbers">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4588,6 +4720,9 @@
     </p>
     <p>
       &#160;&#160;&#160;&#160;((get 'make-from-real-imag 'rectangular) x y))
+    </p>
+    <p>
+      
     </p>
     <p>
       &#160;&#160;(define (make-from-mag-ang r a)
@@ -4611,6 +4746,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(+ (imag-part z1) (imag-part z2))))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(define (sub-complex z1 z2)
     </p>
     <p>
@@ -4620,6 +4758,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(- (imag-part z1) (imag-part z2))))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(define (mul-complex z1 z2)
     </p>
     <p>
@@ -4627,6 +4768,9 @@
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(+ (angle z1) (angle z2))))
+    </p>
+    <p>
+      
     </p>
     <p>
       &#160;&#160;(define (div-complex z1 z2)
@@ -4647,10 +4791,16 @@
       &#160;&#160;(define (tag z) (attach-tag 'complex z))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(put 'add '(complex complex)
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (z1 z2) (tag (add-complex z1 z2))))
+    </p>
+    <p>
+      
     </p>
     <p>
       &#160;&#160;(put 'sub '(complex complex)
@@ -4659,10 +4809,16 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (z1 z2) (tag (sub-complex z1 z2))))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(put 'mul '(complex complex)
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (z1 z2) (tag (mul-complex z1 z2))))
+    </p>
+    <p>
+      
     </p>
     <p>
       &#160;&#160;(put 'div '(complex complex)
@@ -4671,10 +4827,16 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (z1 z2) (tag (div-complex z1 z2))))
     </p>
     <p>
+      
+    </p>
+    <p>
       &#160;&#160;(put 'make-from-real-imag 'complex
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x y) (tag (make-from-real-imag x y))))
+    </p>
+    <p>
+      
     </p>
     <p>
       &#160;&#160;(put 'make-from-mag-ang 'complex
@@ -4693,6 +4855,9 @@
       &#160;&#160;((get 'make-from-real-imag 'complex) x y))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (make-complex-from-mag-ang r a)
     </p>
     <p>
@@ -4702,7 +4867,8 @@
       <br />
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1595407023009" ID="ID_1539672367" MODIFIED="1595407030028" TEXT="Representation">
 <icon BUILTIN="licq"/>
 <node CREATED="1595407030554" ID="ID_190876046" MODIFIED="1595407034568">
@@ -4718,13 +4884,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1595407078434" FOLDED="true" ID="ID_1485919301" MODIFIED="1595407079260" TEXT="2.5.2 Combining Data of Different Types ">
+<node CREATED="1595407078434" ID="ID_1485919301" MODIFIED="1595407079260" TEXT="2.5.2 Combining Data of Different Types ">
 <node CREATED="1595407101490" ID="ID_897503318" MODIFIED="1595407111478" TEXT="How to define operations that cross type boundaries?"/>
-<node CREATED="1595409748064" ID="ID_639481448" MODIFIED="1595409757941" TEXT="Cross type operation in ways">
+<node CREATED="1595409748064" FOLDED="true" ID="ID_639481448" MODIFIED="1595409757941" TEXT="Cross type operation in ways">
 <node CREATED="1595409752656" ID="ID_1312853853" MODIFIED="1595409759837" TEXT="controlled"/>
 <node CREATED="1595409760224" ID="ID_1472255339" MODIFIED="1595409761580" TEXT="careful"/>
 </node>
-<node CREATED="1595409833017" ID="ID_1564882537" MODIFIED="1595409850827" TEXT="Procedure for each combination of types">
+<node CREATED="1595409833017" FOLDED="true" ID="ID_1564882537" MODIFIED="1595409850827" TEXT="Procedure for each combination of types">
 <node CREATED="1595409851087" ID="ID_1298999279" MODIFIED="1595409853427" TEXT="Cumbersome">
 <node CREATED="1595410174638" ID="ID_1413915218" MODIFIED="1595410179737" TEXT="Each time you want new type"/>
 <node CREATED="1595410180181" ID="ID_1308587488" MODIFIED="1595410183298" TEXT="... need to implement it"/>
@@ -4771,7 +4937,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595410345272" ID="ID_992024466" MODIFIED="1595410347831" TEXT="Coercion">
+<node CREATED="1595410345272" FOLDED="true" ID="ID_992024466" MODIFIED="1595410347831" TEXT="Coercion">
 <icon BUILTIN="full-1"/>
 <node CREATED="1595410367588" ID="ID_269285120" MODIFIED="1595410372336" TEXT="General situation of">
 <node CREATED="1595410372787" ID="ID_1325790941" MODIFIED="1595410379654" TEXT="completely unrelated operations"/>
@@ -4902,7 +5068,7 @@
 <node CREATED="1595410873120" ID="ID_317946514" MODIFIED="1595410877437" TEXT="... to be converted to a third type"/>
 </node>
 </node>
-<node CREATED="1595410939504" ID="ID_1358979939" MODIFIED="1595410949670" TEXT="Hierarchies of types">
+<node CREATED="1595410939504" FOLDED="true" ID="ID_1358979939" MODIFIED="1595410949670" TEXT="Hierarchies of types">
 <icon BUILTIN="full-2"/>
 <node CREATED="1595411001064" ID="ID_1813468142" MODIFIED="1595411013179" TEXT="Above coercion scheme rely on natural relation between types"/>
 <node CREATED="1595411016984" ID="ID_954149815" MODIFIED="1595411024636" TEXT="Often there is more &quot;global&quot; structure"/>
@@ -4962,7 +5128,7 @@
 <node CREATED="1595411688307" ID="ID_478567739" MODIFIED="1595411692671" TEXT="... to its simpler representation"/>
 </node>
 </node>
-<node CREATED="1595411711371" ID="ID_288343045" MODIFIED="1595411713217" TEXT="Inadequacies of hierarchies ">
+<node CREATED="1595411711371" FOLDED="true" ID="ID_288343045" MODIFIED="1595411713217" TEXT="Inadequacies of hierarchies ">
 <icon BUILTIN="full-3"/>
 <node CREATED="1595411738442" ID="ID_1074327238" MODIFIED="1595411752151" TEXT="If data type can be naturally a tower"/>
 <node CREATED="1595411752587" ID="ID_1000099137" MODIFIED="1595411757423" TEXT="... it simplify everything"/>
