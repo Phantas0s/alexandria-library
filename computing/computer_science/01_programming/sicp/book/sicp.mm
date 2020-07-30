@@ -83,7 +83,7 @@
   </body>
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1528634320405" FOLDED="true" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
+<node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
 <node CREATED="1528634606285" FOLDED="true" ID="ID_1929326975" MODIFIED="1587143670696" TEXT="Introduction">
 <node CREATED="1528633486362" ID="ID_1751522928" MODIFIED="1549911501085" TEXT="Act of the mind (Locke)">
@@ -683,7 +683,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528913874738" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
+<node CREATED="1528913874738" FOLDED="true" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
 <node CREATED="1589458544735" FOLDED="true" ID="ID_653912668" MODIFIED="1589458547948" TEXT="Introduction">
 <node CREATED="1589458548819" ID="ID_86441762" MODIFIED="1589458650910" TEXT="Visualise consequences of actions"/>
 <node CREATED="1589458555794" ID="ID_910828291" MODIFIED="1589458641944" TEXT="... crucial for an expert programmer"/>
@@ -717,7 +717,7 @@
 <node CREATED="1589459086672" ID="ID_1318417739" MODIFIED="1590655506445" TEXT="Very difficult task!"/>
 </node>
 </node>
-<node CREATED="1528913920315" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
+<node CREATED="1528913920315" FOLDED="true" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
 <node CREATED="1528913960322" FOLDED="true" ID="ID_230822821" MODIFIED="1532274721630" TEXT="Recursive process">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -772,7 +772,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1596010934357" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1596098695858" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1079,7 +1079,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1532265495363" ID="ID_1760732982" MODIFIED="1587143670706" TEXT="1.3. Formulating Abstractions with Higher Order Procedures">
+<node CREATED="1532265495363" FOLDED="true" ID="ID_1760732982" MODIFIED="1587143670706" TEXT="1.3. Formulating Abstractions with Higher Order Procedures">
 <node CREATED="1589104540547" FOLDED="true" ID="ID_1990052074" MODIFIED="1589106602384" TEXT="1.3.1 Procedures as Arguments">
 <node CREATED="1532265565252" ID="ID_1352441582" MODIFIED="1589104385499" TEXT="Procedure as abstraction">
 <node CREATED="1589103996886" ID="ID_87075520" MODIFIED="1589104011726" TEXT="Compound operations on number"/>
@@ -1386,7 +1386,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590762716523" FOLDED="true" ID="ID_531962734" MODIFIED="1590762724258" TEXT="2.1 Introduction do Data Abstractoin">
+<node CREATED="1590762716523" FOLDED="true" ID="ID_531962734" MODIFIED="1596099194928" TEXT="2.1 Introduction do Data Abstraction">
 <node CREATED="1590763193716" FOLDED="true" ID="ID_474787162" MODIFIED="1590763196174" TEXT="Introduction">
 <node CREATED="1590762778933" FOLDED="true" ID="ID_460518805" MODIFIED="1590762784986" TEXT="More complex procedure">
 <node CREATED="1590762785216" ID="ID_615491137" MODIFIED="1590762791978" TEXT="Collection of particular operations"/>
@@ -1521,7 +1521,7 @@
 <node CREATED="1590827564790" ID="ID_1149584409" MODIFIED="1590827566570" TEXT="nominator"/>
 <node CREATED="1590827566936" ID="ID_1927006499" MODIFIED="1590827570195" TEXT="denominator"/>
 </node>
-<node CREATED="1590827581092" FOLDED="true" ID="ID_1482114875" MODIFIED="1590827582417" TEXT="Pairs">
+<node CREATED="1590827581092" ID="ID_1482114875" MODIFIED="1590827582417" TEXT="Pairs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1590827669160" ID="ID_472001089" MODIFIED="1590827670386" TEXT="pair">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -1609,7 +1609,7 @@
 <node CREATED="1590828181537" ID="ID_887600188" MODIFIED="1590828187909" TEXT="data constructed from pairs"/>
 </node>
 </node>
-<node CREATED="1590828200114" FOLDED="true" ID="ID_1659861867" MODIFIED="1590828201980" TEXT="Representing rational numbers ">
+<node CREATED="1590828200114" ID="ID_1659861867" MODIFIED="1590828201980" TEXT="Representing rational numbers ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1590828233846" ID="ID_638517557" MODIFIED="1590828263325" TEXT="Implementation">
 <richcontent TYPE="NOTE"><html>
@@ -3451,7 +3451,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1594800738693" ID="ID_69520908" MODIFIED="1594800757382" TEXT="2.4 Multiple Representation for Abstract Data">
+<node CREATED="1594800738693" FOLDED="true" ID="ID_69520908" MODIFIED="1594800757382" TEXT="2.4 Multiple Representation for Abstract Data">
 <node CREATED="1594802347631" FOLDED="true" ID="ID_97354207" MODIFIED="1594802349740" TEXT="Introduction">
 <node CREATED="1594801038076" ID="ID_1412838296" MODIFIED="1594801042637" TEXT="Abstraction barrier">
 <node CREATED="1594801042638" ID="ID_1627723167" MODIFIED="1594801045922" TEXT="Constructor"/>
@@ -3568,8 +3568,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(- (angle z1) (angle z2))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1594803013076" ID="ID_117115831" MODIFIED="1594803015153" TEXT="Representations">
 <node CREATED="1594802898526" ID="ID_1447438549" MODIFIED="1596012572318" TEXT="Rectangular">
@@ -3624,8 +3623,7 @@
       &#160;&#160;(cons (* r (cos a)) (* r (sin a))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1594802949541" ID="ID_762770775" MODIFIED="1596012580249" TEXT="Polar">
 <richcontent TYPE="NOTE"><html>
@@ -3673,8 +3671,7 @@
       (define (make-from-mag-ang r a) (cons r a))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1594802965422" ID="ID_1120690630" MODIFIED="1594802976273" TEXT="Data abstraction should ensure"/>
@@ -3772,8 +3769,7 @@
       (define (polar? z) (eq? (type-tag z) 'polar))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1594883646561" ID="ID_1940975868" MODIFIED="1596012597260" TEXT="Rectangular new implementation">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -3835,8 +3831,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons (* r (cos a)) (* r (sin a)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1594883670826" ID="ID_987684501" MODIFIED="1596012605438" TEXT="Polar new implementation">
 <richcontent TYPE="NOTE"><html>
@@ -3896,8 +3891,7 @@
       &#160;&#160;(attach-tag 'polar (cons r a)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1594883734825" ID="ID_1436560651" MODIFIED="1595412683394" TEXT="Selectors">
 <richcontent TYPE="NOTE"><html>
@@ -4437,7 +4431,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1594885888976" ID="ID_1034488985" MODIFIED="1594885889888" TEXT="2.5 Systems with Generic Operations ">
+<node CREATED="1594885888976" FOLDED="true" ID="ID_1034488985" MODIFIED="1594885889888" TEXT="2.5 Systems with Generic Operations ">
 <node CREATED="1595406272792" FOLDED="true" ID="ID_886539139" MODIFIED="1595406275065" TEXT="Introduction">
 <node CREATED="1595406277716" ID="ID_785995761" MODIFIED="1595406283578" TEXT="Creating an arithmetic package"/>
 <node CREATED="1595406275343" FOLDED="true" ID="ID_431719080" MODIFIED="1595406380172" TEXT="Goal">
@@ -4537,8 +4531,7 @@
       &#160;&#160;((get 'make 'scheme-number) n))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1595406788780" ID="ID_487107884" MODIFIED="1596011695310" TEXT="Rational numbers">
 <richcontent TYPE="NOTE"><html>
@@ -4697,8 +4690,7 @@
       &#160;&#160;((get 'make 'rational) n d))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1595406831411" ID="ID_754430934" MODIFIED="1596013382797" TEXT="Complex numbers">
 <richcontent TYPE="NOTE"><html>
@@ -4867,8 +4859,7 @@
       <br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1595407023009" ID="ID_1539672367" MODIFIED="1595407030028" TEXT="Representation">
 <icon BUILTIN="licq"/>
 <node CREATED="1595407030554" ID="ID_190876046" MODIFIED="1595407034568">
