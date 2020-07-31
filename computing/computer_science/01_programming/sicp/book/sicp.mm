@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1595576409093" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1596185109073" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -81,7 +81,8 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
@@ -683,7 +684,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528913874738" FOLDED="true" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
+<node CREATED="1528913874738" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
 <node CREATED="1589458544735" FOLDED="true" ID="ID_653912668" MODIFIED="1589458547948" TEXT="Introduction">
 <node CREATED="1589458548819" ID="ID_86441762" MODIFIED="1589458650910" TEXT="Visualise consequences of actions"/>
 <node CREATED="1589458555794" ID="ID_910828291" MODIFIED="1589458641944" TEXT="... crucial for an expert programmer"/>
@@ -717,7 +718,7 @@
 <node CREATED="1589459086672" ID="ID_1318417739" MODIFIED="1590655506445" TEXT="Very difficult task!"/>
 </node>
 </node>
-<node CREATED="1528913920315" FOLDED="true" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
+<node CREATED="1528913920315" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
 <node CREATED="1528913960322" FOLDED="true" ID="ID_230822821" MODIFIED="1532274721630" TEXT="Recursive process">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -803,8 +804,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
@@ -4431,7 +4431,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1594885888976" FOLDED="true" ID="ID_1034488985" MODIFIED="1594885889888" TEXT="2.5 Systems with Generic Operations ">
+<node CREATED="1594885888976" ID="ID_1034488985" MODIFIED="1594885889888" TEXT="2.5 Systems with Generic Operations ">
 <node CREATED="1595406272792" FOLDED="true" ID="ID_886539139" MODIFIED="1595406275065" TEXT="Introduction">
 <node CREATED="1595406277716" ID="ID_785995761" MODIFIED="1595406283578" TEXT="Creating an arithmetic package"/>
 <node CREATED="1595406275343" FOLDED="true" ID="ID_431719080" MODIFIED="1595406380172" TEXT="Goal">
@@ -4928,21 +4928,20 @@
 </node>
 </node>
 </node>
-<node CREATED="1595410345272" FOLDED="true" ID="ID_992024466" MODIFIED="1595410347831" TEXT="Coercion">
+<node CREATED="1595410345272" ID="ID_992024466" MODIFIED="1595410347831" TEXT="Coercion">
 <icon BUILTIN="full-1"/>
-<node CREATED="1595410367588" ID="ID_269285120" MODIFIED="1595410372336" TEXT="General situation of">
-<node CREATED="1595410372787" ID="ID_1325790941" MODIFIED="1595410379654" TEXT="completely unrelated operations"/>
-<node CREATED="1595410380019" ID="ID_1789625284" MODIFIED="1595410388832" TEXT="... acting on completely unrelated types"/>
-<node CREATED="1595410389364" ID="ID_1169377064" MODIFIED="1595410396792" TEXT="... cross type operations is the only way"/>
-</node>
+<node CREATED="1595410367588" ID="ID_269285120" MODIFIED="1596185070372" TEXT="When completely unrelated operations"/>
+<node CREATED="1595410380019" ID="ID_1789625284" MODIFIED="1595410388832" TEXT="... acting on completely unrelated types">
+<node CREATED="1595410389364" ID="ID_1169377064" MODIFIED="1596185052544" TEXT="Must do cross type operations"/>
 <node CREATED="1595410404012" ID="ID_1253637625" MODIFIED="1595410408440" TEXT="... but can do better in geneal"/>
 <node CREATED="1595410413796" ID="ID_694844599" MODIFIED="1595410422640" TEXT="... by using latent additional structure of the system"/>
+</node>
 <node CREATED="1595410426209" ID="ID_1234292568" MODIFIED="1595410434807" TEXT="Often different data type not completely independent">
 <node CREATED="1595410441620" ID="ID_1211153717" MODIFIED="1595410446872" TEXT="One object of one type"/>
 <node CREATED="1595410447307" ID="ID_1550450623" MODIFIED="1595410457183" TEXT="...can be viewed as another type"/>
 </node>
 <node CREATED="1595410458355" ID="ID_52396776" MODIFIED="1595410462631" TEXT="... process called coercion">
-<node CREATED="1595410543531" ID="ID_1409827545" MODIFIED="1595410549191" TEXT="Coercion method transforming">
+<node CREATED="1595410543531" ID="ID_1409827545" MODIFIED="1596185120908" TEXT="Coercion methods transform">
 <node CREATED="1595410549386" ID="ID_1592576089" MODIFIED="1595410551935" TEXT="object of one type"/>
 <node CREATED="1595410552299" ID="ID_1623379821" MODIFIED="1595410561359" TEXT="... to equivalent object of another type"/>
 </node>
