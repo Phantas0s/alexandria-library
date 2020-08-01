@@ -119,7 +119,7 @@
 <node CREATED="1590765888513" ID="ID_1683344516" MODIFIED="1590765894069" TEXT="Can be less worrying to know"/>
 <node CREATED="1590765896710" ID="ID_140591746" MODIFIED="1590765903540" TEXT="... that at the end, it&apos;s not that important"/>
 </node>
-<node CREATED="1561809803050" ID="ID_620058982" MODIFIED="1561809805729" POSITION="left" TEXT="People and relationships are what&#x2019;s most important">
+<node CREATED="1561809803050" FOLDED="true" ID="ID_620058982" MODIFIED="1561809805729" POSITION="left" TEXT="People and relationships are what&#x2019;s most important">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1590765937846" ID="ID_749948899" MODIFIED="1590765940175" TEXT="They stick around"/>
@@ -139,7 +139,7 @@
 <node CREATED="1590766039429" ID="ID_1284123638" MODIFIED="1590766051538" TEXT="You never know where big opportunity coming from"/>
 <node CREATED="1590766054224" ID="ID_460291455" MODIFIED="1590766062351" TEXT="... and who it&apos;s going to come from"/>
 </node>
-<node CREATED="1561809821267" ID="ID_1212234279" MODIFIED="1561809824151" POSITION="left" TEXT="Stay sharp with side projects">
+<node CREATED="1561809821267" FOLDED="true" ID="ID_1212234279" MODIFIED="1561809824151" POSITION="left" TEXT="Stay sharp with side projects">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1590766081584" ID="ID_1737069080" MODIFIED="1590766086161" TEXT="Experiment and learn on the side"/>
@@ -149,7 +149,7 @@
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-4"/>
 </node>
-<node CREATED="1561809848321" ID="ID_1893471401" MODIFIED="1561809851768" POSITION="left" TEXT="Find a good lawyer and accountant">
+<node CREATED="1561809848321" FOLDED="true" ID="ID_1893471401" MODIFIED="1561809851768" POSITION="left" TEXT="Find a good lawyer and accountant">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-5"/>
 <node CREATED="1590766146825" ID="ID_1726754409" MODIFIED="1590766151485" TEXT="Before you actually need them"/>
@@ -161,7 +161,7 @@
 <node CREATED="1590766192208" ID="ID_1408389589" MODIFIED="1590766202045" TEXT="... with co-founder"/>
 <node CREATED="1590766205179" ID="ID_1013031347" MODIFIED="1590766211096" TEXT="Lawyers / accountants invaluable"/>
 </node>
-<node CREATED="1561809864537" ID="ID_1532272106" MODIFIED="1561809873199" POSITION="left" TEXT="Identify when you&#x2019;re being stubborn">
+<node CREATED="1561809864537" FOLDED="true" ID="ID_1532272106" MODIFIED="1561809873199" POSITION="left" TEXT="Identify when you&#x2019;re being stubborn">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-6"/>
 <node CREATED="1590766259462" ID="ID_324249998" MODIFIED="1590766265040" TEXT="Identify when you&apos;re blocking something"/>
@@ -171,7 +171,7 @@
 <node CREATED="1590766296637" ID="ID_1988768335" MODIFIED="1590766298520" TEXT="stubborn"/>
 </node>
 </node>
-<node CREATED="1561809893115" ID="ID_673873929" MODIFIED="1561809899207" POSITION="left" TEXT="Write, teach, and share what you&#x2019;re learning">
+<node CREATED="1561809893115" ID="ID_673873929" MODIFIED="1596300107496" POSITION="left" TEXT="Write, teach, and share what you&apos;re learning">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-7"/>
 <node CREATED="1590766308212" ID="ID_308478027" MODIFIED="1590766316940" TEXT="Owe my entire career to">
@@ -188,7 +188,7 @@
 </node>
 <node CREATED="1590766381211" ID="ID_1665041595" MODIFIED="1590766386078" TEXT="Everyone figuring things out as they go"/>
 </node>
-<node CREATED="1561809905754" ID="ID_38903314" MODIFIED="1561809908239" POSITION="left" TEXT="Don&#x2019;t take funding">
+<node CREATED="1561809905754" FOLDED="true" ID="ID_38903314" MODIFIED="1561809908239" POSITION="left" TEXT="Don&#x2019;t take funding">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-8"/>
 <node CREATED="1590766407222" ID="ID_272140001" MODIFIED="1590766414837" TEXT="Dribble fully-bootstrapped company"/>
@@ -198,7 +198,7 @@
 <node CREATED="1590766439761" ID="ID_947724501" MODIFIED="1590766444659" TEXT="... with different priorities"/>
 </node>
 </node>
-<node CREATED="1561809915706" ID="ID_221669196" MODIFIED="1561809919455" POSITION="left" TEXT="Take care of yourself first">
+<node CREATED="1561809915706" FOLDED="true" ID="ID_221669196" MODIFIED="1561809919455" POSITION="left" TEXT="Take care of yourself first">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-9"/>
 <node CREATED="1590766463564" ID="ID_253848907" MODIFIED="1590766465801" TEXT="Crucial one"/>
@@ -210,7 +210,7 @@
 <node CREATED="1590766549503" ID="ID_117410108" MODIFIED="1590766553826" TEXT="Take care of yourself"/>
 <node CREATED="1590766554166" ID="ID_566002343" MODIFIED="1590766558996" TEXT="... so you can be a good leader for your team"/>
 </node>
-<node CREATED="1561809959352" ID="ID_1116573793" MODIFIED="1561809962622" POSITION="left" TEXT="Knowing when to let go">
+<node CREATED="1561809959352" FOLDED="true" ID="ID_1116573793" MODIFIED="1561809962622" POSITION="left" TEXT="Knowing when to let go">
 <icon BUILTIN="full-2"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1590766595687" ID="ID_931994299" MODIFIED="1590766599552" TEXT="Retired from Dribble"/>
