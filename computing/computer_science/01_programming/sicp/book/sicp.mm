@@ -81,8 +81,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
@@ -684,7 +683,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528913874738" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
+<node CREATED="1528913874738" FOLDED="true" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
 <node CREATED="1589458544735" FOLDED="true" ID="ID_653912668" MODIFIED="1589458547948" TEXT="Introduction">
 <node CREATED="1589458548819" ID="ID_86441762" MODIFIED="1589458650910" TEXT="Visualise consequences of actions"/>
 <node CREATED="1589458555794" ID="ID_910828291" MODIFIED="1589458641944" TEXT="... crucial for an expert programmer"/>
@@ -773,7 +772,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1596098695858" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1596360309110" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -804,7 +803,8 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
@@ -4860,7 +4860,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1595407023009" ID="ID_1539672367" MODIFIED="1595407030028" TEXT="Representation">
+<node CREATED="1595407023009" FOLDED="true" ID="ID_1539672367" MODIFIED="1595407030028" TEXT="Representation">
 <icon BUILTIN="licq"/>
 <node CREATED="1595407030554" ID="ID_190876046" MODIFIED="1595407034568">
 <richcontent TYPE="NODE"><html>
@@ -4928,7 +4928,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595410345272" ID="ID_992024466" MODIFIED="1595410347831" TEXT="Coercion">
+<node CREATED="1595410345272" FOLDED="true" ID="ID_992024466" MODIFIED="1595410347831" TEXT="Coercion">
 <icon BUILTIN="full-1"/>
 <node CREATED="1595410367588" ID="ID_269285120" MODIFIED="1596185070372" TEXT="When completely unrelated operations"/>
 <node CREATED="1595410380019" ID="ID_1789625284" MODIFIED="1595410388832" TEXT="... acting on completely unrelated types">
@@ -5058,12 +5058,12 @@
 <node CREATED="1595410873120" ID="ID_317946514" MODIFIED="1595410877437" TEXT="... to be converted to a third type"/>
 </node>
 </node>
-<node CREATED="1595410939504" FOLDED="true" ID="ID_1358979939" MODIFIED="1595410949670" TEXT="Hierarchies of types">
+<node CREATED="1595410939504" ID="ID_1358979939" MODIFIED="1595410949670" TEXT="Hierarchies of types">
 <icon BUILTIN="full-2"/>
 <node CREATED="1595411001064" ID="ID_1813468142" MODIFIED="1595411013179" TEXT="Above coercion scheme rely on natural relation between types"/>
 <node CREATED="1595411016984" ID="ID_954149815" MODIFIED="1595411024636" TEXT="Often there is more &quot;global&quot; structure"/>
 <node CREATED="1595411025611" ID="ID_95900278" MODIFIED="1595411029732" TEXT="... how types are related to each others"/>
-<node CREATED="1595411108934" FOLDED="true" ID="ID_1391077884" MODIFIED="1595411168474" TEXT="Integer subtype of rational subtype of real...">
+<node CREATED="1595411108934" FOLDED="true" ID="ID_1391077884" MODIFIED="1596360483236" TEXT="Tower of types">
 <icon BUILTIN="licq"/>
 <node CREATED="1595411118943" ID="ID_1658588239" MODIFIED="1595411164570">
 <richcontent TYPE="NODE"><html>
@@ -5078,9 +5078,7 @@
 </node>
 <node CREATED="1595411251958" ID="ID_1523793434" MODIFIED="1595411262151" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1595411197366" ID="ID_439764635" MODIFIED="1595411202768" TEXT="if we need integer-&gt;complex">
-<node CREATED="1595411250302" ID="ID_1559701355" MODIFIED="1595411250302" TEXT=""/>
-</node>
+<node CREATED="1595411197366" ID="ID_439764635" MODIFIED="1595411202768" TEXT="if we need integer-&gt;complex"/>
 <node CREATED="1595411203157" ID="ID_1085143904" MODIFIED="1595411231882" TEXT="Define how integer is transformed to rational"/>
 <node CREATED="1595411211086" ID="ID_1873345366" MODIFIED="1595411221290" TEXT="... how rational transformed into real"/>
 <node CREATED="1595411222246" ID="ID_1794258758" MODIFIED="1595411226714" TEXT="... how real transformed to complex"/>
@@ -5118,11 +5116,10 @@
 <node CREATED="1595411688307" ID="ID_478567739" MODIFIED="1595411692671" TEXT="... to its simpler representation"/>
 </node>
 </node>
-<node CREATED="1595411711371" FOLDED="true" ID="ID_288343045" MODIFIED="1595411713217" TEXT="Inadequacies of hierarchies ">
+<node CREATED="1595411711371" ID="ID_288343045" MODIFIED="1595411713217" TEXT="Inadequacies of hierarchies ">
 <icon BUILTIN="full-3"/>
-<node CREATED="1595411738442" ID="ID_1074327238" MODIFIED="1595411752151" TEXT="If data type can be naturally a tower"/>
-<node CREATED="1595411752587" ID="ID_1000099137" MODIFIED="1595411757423" TEXT="... it simplify everything"/>
-<node CREATED="1595411757779" ID="ID_430887011" MODIFIED="1595411762183" TEXT="Usually, it&apos;s not the case"/>
+<node CREATED="1595411738442" ID="ID_1074327238" MODIFIED="1596360504299" TEXT="Simple if data type can be naturally a tower"/>
+<node CREATED="1595411757779" ID="ID_430887011" MODIFIED="1596360507915" TEXT="... usually, it&apos;s not the case"/>
 <node CREATED="1595411769787" FOLDED="true" ID="ID_1212601741" MODIFIED="1595411836001" TEXT="More complex arrangement of mixed types">
 <icon BUILTIN="licq"/>
 <node CREATED="1595411800754" ID="ID_94623432" MODIFIED="1595411830469">
