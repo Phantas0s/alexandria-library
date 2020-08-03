@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1547665181017" ID="ID_1702018960" MODIFIED="1547666219420" TEXT="The Efficiencer">
-<node CREATED="1547666310537" ID="ID_1026707244" MODIFIED="1551333496460" POSITION="right" TEXT="What is an Efficiencer, Anyway?">
+<node CREATED="1547665181017" ID="ID_1702018960" LINK="https://daedtech.com/if-we-solve-the-software-generalist-anti-pattern-who-writes-the-code/" MODIFIED="1596369268598" TEXT="The Efficiencer">
+<node CREATED="1547666310537" ID="ID_1026707244" MODIFIED="1596369204159" POSITION="right" TEXT="What is an Efficiencer, Anyway?">
 <icon BUILTIN="full-1"/>
 <node CREATED="1547666328805" ID="ID_1119817630" MODIFIED="1551333495758" TEXT="Understand and offer">
 <node CREATED="1547666334065" ID="ID_1291063303" MODIFIED="1547666338207" TEXT="improved efficiency"/>
