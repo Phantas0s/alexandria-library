@@ -31,7 +31,7 @@ Quickly, I began to write mindmaps of everything interesting I was reading or wa
 
 > Invest regularly in your knowledge portfolio. -- **The Pragmatic Programmer**
 
-I believe that creating a system to capture and retain knowledge is something utterly personal. It should be the result of personal experimentations. Everybody's different, therefore everybody should find and apply the best methods he sees fit to expend his knowledge and to transfer it in other activities.
+I believe that creating a system to capture and retain knowledge is something utterly personal. It should be the result of personal experimentations. Everybody should find and apply the best methods to expend their knowledge and to transfer it in other activities.
 
 Mindmaps allow me to:
 
