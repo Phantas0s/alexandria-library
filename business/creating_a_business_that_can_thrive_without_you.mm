@@ -8,7 +8,7 @@
 </node>
 <node CREATED="1550209130549" ID="ID_522428224" MODIFIED="1590740202584" POSITION="right" TEXT="Creating value">
 <icon BUILTIN="full-1"/>
-<node CREATED="1550209352339" ID="ID_1353226850" MODIFIED="1550209359161" TEXT="Whatever if you want to sell">
+<node CREATED="1550209352339" ID="ID_1353226850" MODIFIED="1596892429241" TEXT="Whatever value if you want to sell">
 <node CREATED="1550209360226" ID="ID_1266106429" MODIFIED="1550209362561" TEXT="More attractive"/>
 </node>
 <node CREATED="1550209204085" ID="ID_519909257" MODIFIED="1550209244720" TEXT="Lot of self-employed people">
@@ -102,6 +102,14 @@
 <node CREATED="1550211177635" ID="ID_1266822993" MODIFIED="1550211182192" TEXT="Needs confidence">
 <node CREATED="1550211184235" ID="ID_440102726" MODIFIED="1550211187098" TEXT="Difficult!"/>
 </node>
+</node>
+</node>
+<node COLOR="#338800" CREATED="1596892450262" ID="ID_1902576572" MODIFIED="1596892465853" POSITION="left" TEXT="It&apos;s very inspired from the E-myth revisited I guess">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+<node COLOR="#338800" CREATED="1596892475965" ID="ID_474993049" MODIFIED="1596892486161" TEXT="This book has its mindmap too">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
 </node>
 </node>
 </node>

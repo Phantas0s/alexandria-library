@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572536781653" ID="ID_1565021624" LINK="https://www.nytimes.com/2019/03/28/smarter-living/productivity-isnt-about-time-management-its-about-attention-management.html" MODIFIED="1590324537978" TEXT="Productivity Isn&#x2019;t About Time Management. It&#x2019;s About Attention Management.">
+<node CREATED="1572536781653" ID="ID_1565021624" LINK="https://www.nytimes.com/2019/03/28/smarter-living/productivity-isnt-about-time-management-its-about-attention-management.html" MODIFIED="1596892973215" TEXT="Productivity Isn&#x2019;t About Time Management. It&#x2019;s About Attention Management.">
 <richcontent TYPE="NOTE"><html>
   <head>
     
