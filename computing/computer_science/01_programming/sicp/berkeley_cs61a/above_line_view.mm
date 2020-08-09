@@ -291,8 +291,7 @@
       (ask self 'withdraw (+ amount 0.10)) ))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 <node CREATED="1596779649197" ID="ID_886441943" MODIFIED="1596779658583" TEXT="parent class">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -390,8 +389,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'whistle-while-you-work ))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1596785053306" ID="ID_108731564" MODIFIED="1596785060463" TEXT="Variable shared between every class isntances"/>
 </node>
@@ -432,14 +430,228 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'whistle-while-you-work ))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1596785172386" ID="ID_1822155566" MODIFIED="1596785184701" TEXT="Initialization executed when instantiation happens"/>
 <node CREATED="1596785185073" ID="ID_65840270" MODIFIED="1596785193029" TEXT="First parent init called, then children"/>
 </node>
 <node CREATED="1596785208153" ID="ID_1563750352" MODIFIED="1596785219691" POSITION="right" TEXT="Classes That Recognize Any Message ">
 <icon BUILTIN="full-6"/>
+<node CREATED="1596948975621" ID="ID_221974217" MODIFIED="1596949046946" TEXT="Object accepting any message">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define-class (echo-previous)
+    </p>
+    <p>
+      &#160;&#160;(instance-vars (previous-message 'first-time))
+    </p>
+    <p>
+      &#160;&#160;(default-method
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(let ((result previous-message))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(set! previous-message message)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;result)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1596949050814" ID="ID_1069879655" MODIFIED="1596949057058" TEXT="If message not found"/>
+<node CREATED="1596949057422" ID="ID_348920896" MODIFIED="1596949067315" TEXT="... default-method executed"/>
+</node>
+<node CREATED="1596949047438" ID="ID_232512567" MODIFIED="1596949070946" POSITION="right" TEXT="Using a Parent&apos;s Method Explicitly ">
+<icon BUILTIN="full-7"/>
+<node CREATED="1596949232093" ID="ID_1522614593" MODIFIED="1596949243817" TEXT="Defining method same name of parent&apos;"/>
+<node CREATED="1596949244581" ID="ID_740814488" MODIFIED="1596949264127" TEXT="... and using parent method in child method"/>
+<node CREATED="1596949264500" ID="ID_1491353476" MODIFIED="1596949288763" TEXT="Wrong solution">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define-class (TA)
+    </p>
+    <p>
+      &#160;&#160;(parent (worker))
+    </p>
+    <p>
+      &#160;&#160;(method (work)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(ask self 'work) ;; WRONG!
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'(Let me help you with that box and pointer diagram))
+    </p>
+    <p>
+      &#160;&#160;(method (grade-exam) 'A+) )
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1596949304403" ID="ID_612506079" MODIFIED="1596949307784" TEXT="Infinite recursion"/>
+</node>
+<node CREATED="1596949321052" ID="ID_1891551521" MODIFIED="1596949336409" TEXT="Good solution with usual">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define-class (TA)
+    </p>
+    <p>
+      &#160;&#160;(parent (worker))
+    </p>
+    <p>
+      &#160;&#160;(method (work)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(usual 'work)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'(Let me help you with that box and pointer diagram))
+    </p>
+    <p>
+      &#160;&#160;(method (grade-exam) 'A+) )
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1596949337363" ID="ID_1889528896" MODIFIED="1596949360417" TEXT="usual">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1596949339644" ID="ID_134450239" MODIFIED="1596949341632" TEXT="First argument">
+<node CREATED="1596949341846" ID="ID_59868182" MODIFIED="1596949343010" TEXT="Message"/>
+</node>
+<node CREATED="1596949348563" ID="ID_1961884776" MODIFIED="1596949350736" TEXT="Other arguments">
+<node CREATED="1596949350899" ID="ID_827582924" MODIFIED="1596949354927" TEXT="Message arguments"/>
+</node>
+<node CREATED="1596949371715" ID="ID_984809211" MODIFIED="1596949377014" TEXT="Only point to parent method"/>
+<node CREATED="1596949406731" ID="ID_924227335" MODIFIED="1596949412919" TEXT="Child do something the &quot;usual&quot; way"/>
+<node CREATED="1596949413868" ID="ID_1519678902" MODIFIED="1596949417903" TEXT="... not the specialized way"/>
+</node>
+</node>
+</node>
+<node CREATED="1596949424059" ID="ID_1950191809" MODIFIED="1596949427772" POSITION="right" TEXT="Multiple Superclasses ">
+<icon BUILTIN="full-8"/>
+<node CREATED="1596949446755" ID="ID_479462919" MODIFIED="1596949457503" TEXT="Can have type inheriting from more than one type"/>
+<node CREATED="1596949518170" ID="ID_192956976" MODIFIED="1596949590851" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define-class (TA)
+    </p>
+    <p>
+      &#160;&#160;(parent (worker))
+    </p>
+    <p>
+      &#160;&#160;(method (work)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(usual 'work)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'(Let me help you with that box and pointer diagram))
+    </p>
+    <p>
+      &#160;&#160;(method (grade-exam) 'A+) )
+    </p>
+    <p>
+      <br />
+      (define-class (singer)
+    </p>
+    <p>
+      &#160;&#160;(parent (worker))
+    </p>
+    <p>
+      &#160;&#160;(method (sing) '(tra-la-la)) )
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define-class (singer-TA)
+    </p>
+    <p>
+      &#160;&#160;(parent (singer) (TA)) )
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define-class (TA-singer)
+    </p>
+    <p>
+      &#160;&#160;(parent (TA) (singer)) )
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &gt; (define Matt (instantiate singer-TA))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &gt; (define Chris (instantiate TA-singer))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &gt; (ask Matt 'grade-exam)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &gt; (ask Matt 'sing)
+    </p>
+    <p>
+      (TRA-LA-LA)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &gt; (ask Matt 'work)
+    </p>
+    <p>
+      WHISTLE-WHILE-YOU-WORK
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &gt; (ask Chris 'work)
+    </p>
+    <p>
+      (LET ME HELP YOU WITH THAT BOX AND POINTER DIAGRAM)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1596949541106" ID="ID_173350097" MODIFIED="1596949552654" TEXT="singer-TA is first a singer">
+<node CREATED="1596949553081" ID="ID_943940688" MODIFIED="1596949594870" TEXT="Use singer methods in priority"/>
+</node>
+<node CREATED="1596949560154" ID="ID_1616616687" MODIFIED="1596949565645" TEXT="TA-singer is first a TA">
+<node CREATED="1596949565897" ID="ID_1444379514" MODIFIED="1596949600110" TEXT="Use TA methods in priority"/>
+</node>
+</node>
 </node>
 </node>
 </map>
