@@ -327,7 +327,7 @@
 <node CREATED="1596784687797" ID="ID_1158108931" MODIFIED="1596784692862" TEXT="instance-vars">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1596784693573" ID="ID_564136557" MODIFIED="1596784714217" TEXT="Each local instance having a local state variable"/>
-<node CREATED="1596784717772" ID="ID_625649960" MODIFIED="1596784752441" TEXT="Example">
+<node CREATED="1596784717772" ID="ID_625649960" MODIFIED="1597226537118" TEXT="Example">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -355,7 +355,8 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set! check-fee fee)) )
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <icon BUILTIN="wizard"/>
 <node CREATED="1596784797363" ID="ID_1855846647" MODIFIED="1596784803488" TEXT="Give value in class definition"/>
 <node CREATED="1596784803875" ID="ID_1314198222" MODIFIED="1596784817888" TEXT="... no need to give it when instantiating"/>
@@ -462,8 +463,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;result)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1596949050814" ID="ID_1069879655" MODIFIED="1596949057058" TEXT="If message not found"/>
 <node CREATED="1596949057422" ID="ID_348920896" MODIFIED="1596949067315" TEXT="... default-method executed"/>
@@ -497,8 +497,7 @@
       &#160;&#160;(method (grade-exam) 'A+) )
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1596949304403" ID="ID_612506079" MODIFIED="1596949307784" TEXT="Infinite recursion"/>
 </node>
 <node CREATED="1596949321052" ID="ID_1891551521" MODIFIED="1596949336409" TEXT="Good solution with usual">
@@ -526,8 +525,7 @@
       &#160;&#160;(method (grade-exam) 'A+) )
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1596949337363" ID="ID_1889528896" MODIFIED="1596949360417" TEXT="usual">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1596949339644" ID="ID_134450239" MODIFIED="1596949341632" TEXT="First argument">
@@ -643,8 +641,7 @@
       (LET ME HELP YOU WITH THAT BOX AND POINTER DIAGRAM)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1596949541106" ID="ID_173350097" MODIFIED="1596949552654" TEXT="singer-TA is first a singer">
 <node CREATED="1596949553081" ID="ID_943940688" MODIFIED="1596949594870" TEXT="Use singer methods in priority"/>
 </node>
