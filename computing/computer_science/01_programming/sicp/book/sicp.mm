@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1596185109073" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1597468920799" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -81,7 +81,8 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
@@ -112,7 +113,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528634386806" FOLDED="true" ID="ID_320155226" MODIFIED="1587143602757" TEXT="1.1 The element of programming">
+<node CREATED="1528634386806" ID="ID_320155226" MODIFIED="1587143602757" TEXT="1.1 The element of programming">
 <node CREATED="1588765629478" ID="ID_1839200071" MODIFIED="1588765631753" TEXT="Introduction">
 <node CREATED="1528634591277" FOLDED="true" ID="ID_541171097" MODIFIED="1528634596209" TEXT="Mechanism of languages">
 <node CREATED="1528634492263" ID="ID_202357326" MODIFIED="1528634497678" TEXT="Primitive expressions">
@@ -346,8 +347,8 @@
 <node CREATED="1588767231463" ID="ID_1821670511" MODIFIED="1588767239764" TEXT="Compbound procedures looks exactly the same"/>
 <node CREATED="1588767240193" ID="ID_275411917" MODIFIED="1588767244989" TEXT="... as primitive procedures"/>
 </node>
-<node CREATED="1528638318714" ID="ID_105103101" MODIFIED="1588767260120" TEXT="1.1.5 The Substitution Model for Procedure Application">
-<node CREATED="1588767542529" FOLDED="true" ID="ID_23926507" MODIFIED="1588767546443" TEXT="Substitution model">
+<node CREATED="1528638318714" ID="ID_105103101" MODIFIED="1597482912763" TEXT="1.1.5 The Substitution Model for Procedure Application">
+<node CREATED="1588767542529" ID="ID_23926507" MODIFIED="1588767546443" TEXT="Substitution model">
 <node CREATED="1588767346239" ID="ID_66887807" MODIFIED="1588767347566" TEXT="Example">
 <node CREATED="1588767351034" ID="ID_1668198925" MODIFIED="1588767445661" TEXT="">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -683,7 +684,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528913874738" FOLDED="true" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
+<node CREATED="1528913874738" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
 <node CREATED="1589458544735" FOLDED="true" ID="ID_653912668" MODIFIED="1589458547948" TEXT="Introduction">
 <node CREATED="1589458548819" ID="ID_86441762" MODIFIED="1589458650910" TEXT="Visualise consequences of actions"/>
 <node CREATED="1589458555794" ID="ID_910828291" MODIFIED="1589458641944" TEXT="... crucial for an expert programmer"/>
@@ -772,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1596360309110" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1597468920834" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4431,7 +4432,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1594885888976" ID="ID_1034488985" MODIFIED="1594885889888" TEXT="2.5 Systems with Generic Operations ">
+<node CREATED="1594885888976" FOLDED="true" ID="ID_1034488985" MODIFIED="1594885889888" TEXT="2.5 Systems with Generic Operations ">
 <node CREATED="1595406272792" FOLDED="true" ID="ID_886539139" MODIFIED="1595406275065" TEXT="Introduction">
 <node CREATED="1595406277716" ID="ID_785995761" MODIFIED="1595406283578" TEXT="Creating an arithmetic package"/>
 <node CREATED="1595406275343" FOLDED="true" ID="ID_431719080" MODIFIED="1595406380172" TEXT="Goal">
@@ -5145,6 +5146,867 @@
 </node>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1597468953192" ID="ID_815335816" MODIFIED="1597468957996" POSITION="right" TEXT="Modularity, Objects, and State ">
+<icon BUILTIN="full-3"/>
+<node CREATED="1597469018363" ID="ID_1889598563" MODIFIED="1597469020650" TEXT="Introduction">
+<node CREATED="1597469039252" ID="ID_43297729" MODIFIED="1597469041968" TEXT="We saw">
+<node CREATED="1597469042542" ID="ID_1928465302" MODIFIED="1597469045577" TEXT="Primitive data"/>
+<node CREATED="1597469046223" ID="ID_593584581" MODIFIED="1597469054105" TEXT="Primitive procedure"/>
+<node CREATED="1597469054486" ID="ID_161880063" MODIFIED="1597469065216" TEXT="... combined in compound entities"/>
+<node CREATED="1597469070148" ID="ID_986226390" MODIFIED="1597469085883" TEXT="Abstraction vital to cope "/>
+<node CREATED="1597469086164" ID="ID_592440290" MODIFIED="1597469087912" TEXT="... with complexity of large system"/>
+</node>
+<node CREATED="1597469091925" ID="ID_1067427152" MODIFIED="1597469097992" TEXT="Not sufficient to design programs"/>
+<node CREATED="1597469101659" ID="ID_127220182" MODIFIED="1597469105968" TEXT="Needs organizational principles">
+<node CREATED="1597469109059" ID="ID_632990436" MODIFIED="1597469121408" TEXT="Formulate design of program"/>
+</node>
+<node CREATED="1597469127484" ID="ID_1589757866" MODIFIED="1597469137456" TEXT="Needs strategies for large system to be">
+<node CREATED="1597469137620" ID="ID_722434850" MODIFIED="1597469139249" TEXT="modular">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1597469141987" ID="ID_221587309" MODIFIED="1597469147976" TEXT="Can be divided &quot;naturally&quot;"/>
+<node CREATED="1597469151939" ID="ID_1699010025" MODIFIED="1597469155295" TEXT="... into coherent part"/>
+<node CREATED="1597469157555" ID="ID_387613327" MODIFIED="1597469169975" TEXT="... that can be">
+<node CREATED="1597469162195" ID="ID_644060164" MODIFIED="1597469175383" TEXT="developed separately"/>
+<node CREATED="1597469176026" ID="ID_129673194" MODIFIED="1597469179479" TEXT="maintained"/>
+</node>
+</node>
+<node CREATED="1597469233819" ID="ID_642098541" MODIFIED="1597469241030" TEXT="Good strategy for modeling physical system">
+<node CREATED="1597469242363" ID="ID_181286175" MODIFIED="1597469247117" TEXT="Base structure of our programs"/>
+<node CREATED="1597469247506" ID="ID_198247380" MODIFIED="1597469252711" TEXT="... on structure of the system modeled"/>
+<node CREATED="1597469260097" ID="ID_1629231351" MODIFIED="1597469263335" TEXT="For each object of system"/>
+<node CREATED="1597469263667" ID="ID_1691653910" MODIFIED="1597469268094" TEXT="... construct computational object"/>
+<node CREATED="1597469280482" ID="ID_1318241685" MODIFIED="1597469316934" TEXT="Extending model">
+<node CREATED="1597469297651" ID="ID_1806990306" MODIFIED="1597469303414" TEXT="No strategic change in the program"/>
+<node CREATED="1597469306530" ID="ID_1371666307" MODIFIED="1597469310831" TEXT="... only addition of">
+<node CREATED="1597469310994" ID="ID_1416323183" MODIFIED="1597469312014" TEXT="objects"/>
+<node CREATED="1597469312345" ID="ID_1349616012" MODIFIED="1597469313182" TEXT="actions"/>
+</node>
+</node>
+</node>
+<node CREATED="1597469345058" ID="ID_926853060" MODIFIED="1597469352206" TEXT="Way we organized our program"/>
+<node CREATED="1597469353307" ID="ID_494919104" MODIFIED="1597469361358" TEXT="... dictated by our perception of system being modeled"/>
+<node CREATED="1597469427449" ID="ID_1878516165" MODIFIED="1597469434813" TEXT="See two approaches">
+<node CREATED="1597469435033" ID="ID_1016291535" MODIFIED="1597469447805" TEXT="Objects">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1597469463705" ID="ID_364208971" MODIFIED="1597469466670" TEXT="Distinct"/>
+<node CREATED="1597469467033" ID="ID_1580643755" MODIFIED="1597469470405" TEXT="Behavior change over time"/>
+</node>
+<node CREATED="1597469442438" ID="ID_1695370422" MODIFIED="1597469447325" TEXT="Streams">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1597469453233" ID="ID_481828680" MODIFIED="1597469455331" TEXT="Flow in the system"/>
+</node>
+</node>
+</node>
+<node CREATED="1597469556288" ID="ID_847365467" MODIFIED="1597469558685" TEXT="3.1 Assignment and Local State">
+<node CREATED="1597469971961" ID="ID_1651660501" MODIFIED="1597469974793" TEXT="Introduction">
+<node CREATED="1597469589065" FOLDED="true" ID="ID_947795939" MODIFIED="1597469596133" TEXT="See the world as objects">
+<node CREATED="1597469596334" ID="ID_660053030" MODIFIED="1597469609186" TEXT="Independent">
+<node CREATED="1597469729431" ID="ID_288779362" MODIFIED="1597469732756" TEXT="Rarely completely"/>
+<node CREATED="1597469733395" ID="ID_1326850830" MODIFIED="1597469736875" TEXT="Object can influence another"/>
+</node>
+<node CREATED="1597469598312" ID="ID_819697140" MODIFIED="1597469602748" TEXT="Has a state">
+<node CREATED="1597469627144" ID="ID_1692957560" MODIFIED="1597469638053" TEXT="If behavior influenced by history"/>
+<node CREATED="1597469638440" ID="ID_1427151848" MODIFIED="1597469645247" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1597469660116" ID="ID_237808344" MODIFIED="1597469662260" TEXT="Bank account"/>
+<node CREATED="1597469646695" ID="ID_170667148" MODIFIED="1597469659396" TEXT="&quot;Can I withdraw 100$&quot;?"/>
+<node CREATED="1597469665424" ID="ID_936791480" MODIFIED="1597469672076" TEXT="Depends on history of">
+<node CREATED="1597469672271" ID="ID_1377307607" MODIFIED="1597469685108" TEXT="deposits"/>
+<node CREATED="1597469673832" ID="ID_797970942" MODIFIED="1597469683300" TEXT="withdraws"/>
+</node>
+</node>
+<node CREATED="1597469691847" ID="ID_522662176" MODIFIED="1597469711468" TEXT="Can be represented as">
+<node CREATED="1597469711712" ID="ID_1676311647" MODIFIED="1597469715446" TEXT="state variable">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1597469603167" ID="ID_1193463107" MODIFIED="1597469606940" TEXT="State change over time"/>
+</node>
+<node CREATED="1597469768471" FOLDED="true" ID="ID_809253669" MODIFIED="1597469776635" TEXT="System composed of separate objects">
+<node CREATED="1597469776944" ID="ID_1693780147" MODIFIED="1597469796547" TEXT="Most useful when state variable of system"/>
+<node CREATED="1597469796886" ID="ID_1165842780" MODIFIED="1597469806065" TEXT="... can be grouped into closely coupled subsystems"/>
+<node CREATED="1597469807871" ID="ID_1114099307" MODIFIED="1597469814211" TEXT="... that are only losely coupled"/>
+<node CREATED="1597469814598" ID="ID_1047405051" MODIFIED="1597469819921" TEXT="... to other subsystems"/>
+</node>
+<node CREATED="1597469866245" FOLDED="true" ID="ID_692605287" MODIFIED="1597469874322" TEXT="... for system to be modular">
+<node CREATED="1597469875582" ID="ID_888104504" MODIFIED="1597469886666" TEXT="Decomposed in object that model the actual objects of system"/>
+<node CREATED="1597469901596" ID="ID_1444885202" MODIFIED="1597469909210" TEXT="Each object needs its own local state variables">
+<node CREATED="1597469909814" ID="ID_1652856037" MODIFIED="1597469914826" TEXT="Describe object state"/>
+</node>
+<node CREATED="1597469927910" ID="ID_337637466" MODIFIED="1597469936841" TEXT="State variables need to change over time"/>
+</node>
+</node>
+<node CREATED="1597469977749" ID="ID_941920111" MODIFIED="1597469978413" TEXT="3.1.1 Local State Variables ">
+<node COLOR="#338800" CREATED="1597483019720" ID="ID_69549545" MODIFIED="1597483038305" TEXT="For a clear example of OOP model, see Above Line of View mindmap">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+<node CREATED="1597470000173" FOLDED="true" ID="ID_208340891" MODIFIED="1597482127482" TEXT="To modify state">
+<node CREATED="1597482130622" ID="ID_1318640059" MODIFIED="1597482132272" TEXT="(set!  &#x27e8;name&#x27e9; &#x27e8;new-value&#x27e9;) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1597482201230" ID="ID_1488817470" MODIFIED="1597482212850" TEXT="Procedure finishing with &quot;!&quot;">
+<node CREATED="1597482214910" ID="ID_137981389" MODIFIED="1597482216625" TEXT="Convention"/>
+<node CREATED="1597482216949" ID="ID_1414802815" MODIFIED="1597482235841" TEXT="Procedure changing values of variables"/>
+</node>
+</node>
+<node CREATED="1597482667482" ID="ID_1612271247" MODIFIED="1597482671334" TEXT="Local variables in procedure"/>
+<node CREATED="1597482671721" FOLDED="true" ID="ID_481725551" MODIFIED="1597482677767" TEXT="... not accessible by other procedures">
+<node CREATED="1597482677954" ID="ID_890236307" MODIFIED="1597482686452" TEXT="Encapsulation">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1597482681466" ID="ID_1256183761" MODIFIED="1597482687173" TEXT="Information hiding">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1597482689218" ID="ID_864181799" MODIFIED="1597482700309" TEXT="Providing information only"/>
+<node CREATED="1597482701266" ID="ID_56508429" MODIFIED="1597482706318" TEXT="... to part of system"/>
+<node CREATED="1597482706857" ID="ID_1003554855" MODIFIED="1597482709566" TEXT="... which needs to know"/>
+<node CREATED="1597482709905" ID="ID_1536491914" MODIFIED="1597482715708" TEXT="System more">
+<node CREATED="1597482715889" ID="ID_455027693" MODIFIED="1597482716886" TEXT="modular"/>
+<node CREATED="1597482717214" ID="ID_1880401980" MODIFIED="1597482718934" TEXT="robust"/>
+</node>
+</node>
+<node CREATED="1597482802889" FOLDED="true" ID="ID_1172515664" MODIFIED="1597482815086" TEXT="Combining set! with local variable">
+<node CREATED="1597482815312" ID="ID_795900080" LINK="#ID_105103101" MODIFIED="1597482921665" TEXT="Serious problem with substitution"/>
+<node CREATED="1597482839369" ID="ID_861111094" LINK="#ID_233356948" MODIFIED="1597484506618" TEXT="... no longer adequate model"/>
+<node CREATED="1597482956496" ID="ID_718257774" MODIFIED="1597482983386" TEXT="Can&apos;t understand this">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define new-withdraw
+    </p>
+    <p>
+      &#160;&#160;(let ((balance 100))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda (amount)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(if (&gt;= balance amount)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(begin (set! balance (- balance amount))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;balance)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Insufficient funds&quot;))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1597483154335" FOLDED="true" ID="ID_466880677" MODIFIED="1597483159290" TEXT="Bank account example">
+<node CREATED="1597483161583" ID="ID_1552277221" MODIFIED="1597483183559" TEXT="new-withdraw">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define new-withdraw
+    </p>
+    <p>
+      &#160;&#160;(let ((balance 100))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda (amount)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(if (&gt;= balance amount)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(begin (set! balance (- balance amount))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;balance)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Insufficient funds&quot;))))
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1597483213159" ID="ID_601132435" MODIFIED="1597483217675" TEXT="Use let for local variables"/>
+</node>
+<node CREATED="1597483183903" ID="ID_1392317304" MODIFIED="1597483190403" TEXT="make-withdraw">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-withdraw balance)
+    </p>
+    <p>
+      &#160;&#160;(lambda (amount)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if (&gt;= balance amount)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(begin (set! balance (- balance amount))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;balance)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&quot;Insufficient funds&quot;)))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1597483203015" ID="ID_591802966" MODIFIED="1597483206610" TEXT="Use parameters"/>
+<node CREATED="1597483206982" ID="ID_347901054" MODIFIED="1597483209435" TEXT="... for local variables"/>
+</node>
+<node CREATED="1597483245142" ID="ID_1052527612" MODIFIED="1597483249955" TEXT="make-account">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-account balance)
+    </p>
+    <p>
+      &#160;&#160;(define (withdraw amount)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if (&gt;= balance amount)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(begin (set! balance (- balance amount))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;balance)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&quot;Insufficient funds&quot;))
+    </p>
+    <p>
+      &#160;&#160;(define (deposit amount)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(set! balance (+ balance amount))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;balance)
+    </p>
+    <p>
+      &#160;&#160;(define (dispatch m)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cond ((eq? m 'withdraw) withdraw)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? m 'deposit) deposit)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown request: MAKE-ACCOUNT&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;m))))
+    </p>
+    <p>
+      &#160;&#160;dispatch)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1597483274318" ID="ID_1381709325" MODIFIED="1597483278362" TEXT="Procedure dispatch"/>
+<node CREATED="1597483278686" ID="ID_886339793" MODIFIED="1597483286402" TEXT="Take &quot;message&quot; as input"/>
+<node CREATED="1597483290206" ID="ID_271783160" MODIFIED="1597483296618" TEXT="Return one of two local procedures"/>
+<node CREATED="1597483432525" ID="ID_518129442" MODIFIED="1597483441909" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define acc (make-account 100))
+    </p>
+    <p>
+      ((acc 'withdraw) 50)
+    </p>
+    <p>
+      50
+    </p>
+    <p>
+      ((acc 'withdraw) 60)
+    </p>
+    <p>
+      &quot;Insufficient funds&quot;
+    </p>
+    <p>
+      ((acc 'deposit) 40)
+    </p>
+    <p>
+      90
+    </p>
+    <p>
+      ((acc 'withdraw) 60)
+    </p>
+    <p>
+      30
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="wizard"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1597483463907" ID="ID_1329328227" MODIFIED="1597483563745" TEXT="3.1.2 The Benefits of Introducing Assignment">
+<node CREATED="1597484000561" FOLDED="true" ID="ID_1460921658" MODIFIED="1597484010790" TEXT="Monte Carlo implementation">
+<node CREATED="1597484011353" ID="ID_122029682" MODIFIED="1597484037264" TEXT="rand">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define rand (let ((x random-init))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda ()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set! x (rand-update x))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1597484042665" FOLDED="true" ID="ID_1011813716" MODIFIED="1597484090502" TEXT="First implementation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (estimate-pi trials)
+    </p>
+    <p>
+      &#160;&#160;(sqrt (/ 6 (monte-carlo trials cesaro-test))))
+    </p>
+    <p>
+      (define (cesaro-test)
+    </p>
+    <p>
+      &#160;&#160;(= (gcd (rand) (rand)) 1))
+    </p>
+    <p>
+      (define (monte-carlo trials experiment)
+    </p>
+    <p>
+      &#160;&#160;(define (iter trials-remaining trials-passed)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cond ((= trials-remaining 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(/ trials-passed trials))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((experiment)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(iter (- trials-remaining 1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(+ trials-passed 1)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(iter (- trials-remaining 1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;trials-passed))))
+    </p>
+    <p>
+      &#160;&#160;(iter trials 0))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1597484136809" ID="ID_233915944" MODIFIED="1597484141213" TEXT="General monte-carlo procedure"/>
+<node CREATED="1597484141944" ID="ID_1131511142" MODIFIED="1597484155996" TEXT="Take arbitrary experiment procedure"/>
+</node>
+<node CREATED="1597484090665" FOLDED="true" ID="ID_1929096063" MODIFIED="1597484105197" TEXT="Using rand-update directly">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (estimate-pi trials)
+    </p>
+    <p>
+      &#160;&#160;(sqrt (/ 6 (random-gcd-test trials random-init))))
+    </p>
+    <p>
+      (define (random-gcd-test trials initial-x)
+    </p>
+    <p>
+      &#160;&#160;(define (iter trials-remaining trials-passed x)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(let ((x1 (rand-update x)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(let ((x2 (rand-update x1)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cond ((= trials-remaining 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(/ trials-passed trials))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((= (gcd x1 x2) 1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(iter (- trials-remaining 1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(+ trials-passed 1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x2))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(iter (- trials-remaining 1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;trials-passed
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x2))))))
+    </p>
+    <p>
+      &#160;&#160;(iter trials 0 initial-x))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1597484123073" ID="ID_454986887" MODIFIED="1597484129716" TEXT="Modularity problems"/>
+<node CREATED="1597484164664" ID="ID_513410825" MODIFIED="1597484169316" TEXT="No local state for random generator"/>
+<node CREATED="1597484170208" ID="ID_1086790010" MODIFIED="1597484180308" TEXT="Must manipulate x1 and x2">
+<node CREATED="1597484183448" ID="ID_1578281601" MODIFIED="1597484199628" TEXT="Intertwines structure of accumulating test results"/>
+<node CREATED="1597484204616" ID="ID_844542814" MODIFIED="1597484212468" TEXT="... with our experiment using 2 random numbers"/>
+<node CREATED="1597484218641" ID="ID_1984605431" MODIFIED="1597484231092" TEXT="Monte carlo experiment can use normally n random number!"/>
+</node>
+<node CREATED="1597484239176" ID="ID_1175472856" MODIFIED="1597484254220" TEXT="Random generator leaking out"/>
+<node CREATED="1597484254975" ID="ID_370364717" MODIFIED="1597484263700" TEXT="... make it difficult to isolate Monte Carlo idea"/>
+</node>
+<node CREATED="1597484316239" ID="ID_1524003922" MODIFIED="1597484327539" TEXT="Does assignment / hiding state in local variable"/>
+<node CREATED="1597484327927" FOLDED="true" ID="ID_563809284" MODIFIED="1597484340483" TEXT="... make design more modular?">
+<node CREATED="1597484340767" ID="ID_1037726906" MODIFIED="1597484344588" TEXT="More complicated than that"/>
+</node>
+</node>
+<node CREATED="1597484351998" ID="ID_927644915" MODIFIED="1597484353170" TEXT="3.1.3 The Costs of Introducing Assignment ">
+<node CREATED="1597484894764" ID="ID_452440531" MODIFIED="1597484907692" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1597484384839" FOLDED="true" ID="ID_743222803" MODIFIED="1597484387593" TEXT="Functional programming">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1597484387887" ID="ID_1334787386" MODIFIED="1597484403971" TEXT="Programming without assignments"/>
+<node CREATED="1597484410998" ID="ID_1262930246" MODIFIED="1597484417187" TEXT="... as we did in two first chapters"/>
+</node>
+<node CREATED="1597484471598" ID="ID_233356948" LINK="#ID_105103101" MODIFIED="1597484598414" TEXT="Substitution model doesn&apos;t work anymore">
+<node CREATED="1597484528213" ID="ID_1210654247" MODIFIED="1597486374585" TEXT="make-simplified-withdraw">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-simplified-withdraw balance)
+    </p>
+    <p>
+      &#160;&#160;(lambda (amount)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(set! balance (- balance amount))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;balance))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1597484560542" ID="ID_1867941220" MODIFIED="1597484563810" TEXT="Substitution">
+<node CREATED="1597484567150" ID="ID_607892047" MODIFIED="1597484577303" TEXT="(define W (make-simplified-withdraw 25)) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1597484583894" ID="ID_101112919" MODIFIED="1597484585990" TEXT="((make-simplified-withdraw 25) 20) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1597484615581" ID="ID_999899794" MODIFIED="1597484618293" TEXT="((lambda (amount) (set! balance (- 25 amount)) 25) 20) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1597484634996" ID="ID_110281638" MODIFIED="1597484640710" TEXT="(set! balance (- 25 20)) 25 ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-4"/>
+<node CREATED="1597484732277" ID="ID_268978901" MODIFIED="1597484736673" TEXT="Set balance to 5"/>
+<node CREATED="1597484737041" ID="ID_1465100975" MODIFIED="1597484741320" TEXT="... then return 25"/>
+<node CREATED="1597484742148" ID="ID_1375368767" MODIFIED="1597484745008" TEXT="... doesn&apos;t work!"/>
+</node>
+</node>
+<node CREATED="1597484756869" ID="ID_899096450" MODIFIED="1597484759288" TEXT="To make it work">
+<node CREATED="1597484759477" ID="ID_177355383" MODIFIED="1597484821159" TEXT="Somehow distinguish first occupance of balance">
+<node CREATED="1597484777390" ID="ID_396247190" MODIFIED="1597484783208" TEXT="... before effect of set!"/>
+</node>
+<node CREATED="1597484783628" FOLDED="true" ID="ID_1718492586" MODIFIED="1597484800444" TEXT="... from second occurrence of balance">
+<node CREATED="1597484791012" ID="ID_1345807281" MODIFIED="1597484794296" TEXT="... after effect of set!"/>
+</node>
+</node>
+<node CREATED="1597484827074" ID="ID_214730390" MODIFIED="1597484832240" TEXT="... substitution model can&apos;t do that"/>
+</node>
+<node CREATED="1597484846268" ID="ID_334755818" MODIFIED="1597484851640" TEXT="Variable is not only a name anymore">
+<node CREATED="1597484851860" ID="ID_1121182253" MODIFIED="1597484854023" TEXT="... but a place"/>
+<node CREATED="1597484854412" ID="ID_617409249" MODIFIED="1597486395414" TEXT="... where values can be stored"/>
+<node CREATED="1597484869483" ID="ID_321060872" MODIFIED="1597486420221" TEXT="... and can change at each place"/>
+</node>
+</node>
+<node CREATED="1597484887788" FOLDED="true" ID="ID_1373286205" MODIFIED="1597484905437" TEXT="Sameness and change ">
+<icon BUILTIN="full-1"/>
+<node CREATED="1597484920403" ID="ID_762082119" MODIFIED="1597484939391" TEXT="Issues surfacing here are more profound"/>
+<node CREATED="1597484940246" ID="ID_1065429245" MODIFIED="1597484945639" TEXT="When we introduce changes">
+<node CREATED="1597484946706" ID="ID_1371393707" MODIFIED="1597484952679" TEXT="Many straightforward notions"/>
+<node CREATED="1597484953011" ID="ID_78730105" MODIFIED="1597484956031" TEXT="... are problematical"/>
+</node>
+<node CREATED="1597484968771" ID="ID_1256858395" MODIFIED="1597484972423" TEXT="What&apos;s the same?">
+<node CREATED="1597485046547" ID="ID_682611877" MODIFIED="1597485065448" TEXT="make-decrementer">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-decrementer balance)
+    </p>
+    <p>
+      &#160;&#160;(lambda (amount)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(- balance amount)))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1597484981090" ID="ID_44762980" MODIFIED="1597485076135" TEXT="D1 and D2 the same?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="SansSerif">(define D1 (make-decrementer 25)) </font>
+    </p>
+    <p>
+      <font face="SansSerif">(define D2 (make-decrementer 25)) </font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1597484988322" ID="ID_459775282" MODIFIED="1597484989519" TEXT="Yes">
+<node CREATED="1597484989738" ID="ID_1952026605" MODIFIED="1597484996279" TEXT="D1 / D2 have same behavior"/>
+<node CREATED="1597485017722" ID="ID_229916359" MODIFIED="1597485027214" TEXT="D1 could be substituted from D2"/>
+<node CREATED="1597485027602" ID="ID_601531401" MODIFIED="1597485030103" TEXT="... without any change"/>
+</node>
+</node>
+<node CREATED="1597485089482" ID="ID_1057275370" LINK="#ID_1210654247" MODIFIED="1597485140787" TEXT="W1 and W2 the same?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define W1 (make-simplified-withdraw 25))
+    </p>
+    <p>
+      (define W2 (make-simplified-withdraw 25))
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1597485118362" ID="ID_485440456" MODIFIED="1597485119574" TEXT="No">
+<node CREATED="1597485119914" ID="ID_1873515248" MODIFIED="1597485132261" TEXT="Distinct call to W1 / W2 has different effects"/>
+<node CREATED="1597485182673" ID="ID_1190422573" MODIFIED="1597485190078" TEXT="W1 can&apos;t substitute W2"/>
+</node>
+</node>
+</node>
+<node CREATED="1597485200954" ID="ID_124011479" MODIFIED="1597485209611" TEXT="Referential transparency">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1597485222649" ID="ID_225026128" MODIFIED="1597485256216" TEXT=" &#x201c;equals can be substituted for equals&#x201d;"/>
+<node CREATED="1597485257009" ID="ID_1477861169" MODIFIED="1597485262893" TEXT="...  in an expression without changing the value of the expression"/>
+<node CREATED="1597485274057" ID="ID_1717087991" MODIFIED="1597485278669" TEXT="By introducing set!">
+<node CREATED="1597485279041" ID="ID_879195632" MODIFIED="1597485285893" TEXT="Referential transparency violated"/>
+</node>
+</node>
+<node CREATED="1597485296233" ID="ID_1562822501" MODIFIED="1597485311253" TEXT="Difficult to know if you can substitute expressions"/>
+<node CREATED="1597485312713" ID="ID_1654829739" MODIFIED="1597485320677" TEXT="Reasoning about program is more difficult"/>
+<node CREATED="1597485391624" ID="ID_1786592847" MODIFIED="1597485412212" TEXT="Sharing state">
+<node CREATED="1597485414895" ID="ID_584113567" MODIFIED="1597485433799" TEXT="Bank account not shared">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define peter-acc (make-account 100))
+    </p>
+    <p>
+      (define paul-acc (make-account 100))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1597485417976" ID="ID_1132660933" MODIFIED="1597485438484" TEXT="Bank account shared">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define peter-acc (make-account 100))
+    </p>
+    <p>
+      (define paul-acc peter-acc)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1597485450992" ID="ID_242695929" MODIFIED="1597485455476" TEXT="When we change paul-acc"/>
+<node CREATED="1597485457736" ID="ID_1490105452" MODIFIED="1597485467892" TEXT="... we need to look everywhere peter-acc appears too!"/>
+</node>
+<node CREATED="1597485480455" ID="ID_970686272" MODIFIED="1597485482728" TEXT="aliasing">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1597485483343" ID="ID_1731351402" MODIFIED="1597485483651" TEXT=" single computational object being accessed by more than one name"/>
+<node CREATED="1597485508807" ID="ID_1659012895" MODIFIED="1597485512005" TEXT="Create side effects bug"/>
+<node CREATED="1597485523311" ID="ID_1680342234" MODIFIED="1597485529803" TEXT="Very difficult to">
+<node CREATED="1597485530015" ID="ID_933590134" MODIFIED="1597485531739" TEXT="locate"/>
+<node CREATED="1597485532055" ID="ID_1216107322" MODIFIED="1597485533435" TEXT="analyze"/>
+</node>
+</node>
+<node CREATED="1597485575791" ID="ID_1184186626" MODIFIED="1597485592963" TEXT="Complication consequence">
+<node CREATED="1597485593158" ID="ID_524425920" MODIFIED="1597485600780" TEXT="... of our view of bank account object"/>
+<node CREATED="1597485601103" ID="ID_1066891143" MODIFIED="1597485604499" TEXT="... not from programming language"/>
+<node CREATED="1597485843749" ID="ID_1589456128" MODIFIED="1597485877354" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1597485846253" ID="ID_500048919" MODIFIED="1597485859673" TEXT="We don&apos;t see often a number as an object with identity"/>
+<node CREATED="1597485860077" ID="ID_1586803392" MODIFIED="1597485869825" TEXT="... and if we change it it&apos;s not the same object with different value"/>
+<node CREATED="1597485870205" ID="ID_614080519" MODIFIED="1597485875113" TEXT="... but two different objects"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1597485889141" ID="ID_1106574062" MODIFIED="1597485891143" TEXT="Pitfalls of imperative programming ">
+<icon BUILTIN="full-2"/>
+<node CREATED="1597485896253" ID="ID_1129438795" MODIFIED="1597485899761" TEXT="Imperative programming">
+<node CREATED="1597485899973" ID="ID_1267484513" MODIFIED="1597485910721" TEXT="Programming making extensive use of assignments"/>
+</node>
+<node CREATED="1597485926652" ID="ID_1974783501" MODIFIED="1597486108348" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1597485985493" ID="ID_986091368" MODIFIED="1597486000433" TEXT="Fibonacci functional style">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (factorial n)
+    </p>
+    <p>
+      &#160;&#160;(define (iter product counter)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if (&gt; counter n)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;product
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(iter (* counter product) (+ counter 1))))
+    </p>
+    <p>
+      &#160;&#160;(iter 1 1))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1597485928389" ID="ID_937448104" MODIFIED="1597485959392" TEXT="Fibonacci imperative style">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (factorial n)
+    </p>
+    <p>
+      &#160;&#160;(let ((product 1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(counter 1))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(define (iter)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(if (&gt; counter n)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;product
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(begin (set! product (* counter product))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set! counter (+ counter 1))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(iter))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(iter)))
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1597486016109" ID="ID_1085427148" MODIFIED="1597486020776" TEXT="Inverse the assignment"/>
+<node CREATED="1597486021092" ID="ID_1696930155" MODIFIED="1597486025735" TEXT="... and you have an incorrect result"/>
+<node CREATED="1597486032772" ID="ID_82938248" MODIFIED="1597486036999" TEXT="In general, need to consider"/>
+<node CREATED="1597486037378" ID="ID_1047025808" MODIFIED="1597486040519" TEXT="... order of assignments"/>
+</node>
+</node>
+<node CREATED="1597486167819" ID="ID_1616188448" MODIFIED="1597486186993" TEXT="Complexity rise even more with concurrent programming"/>
+</node>
+</node>
+</node>
+<node CREATED="1597486267458" ID="ID_768131575" MODIFIED="1597486268131" TEXT="3.2 The Environment Model of Evaluation ">
+<node CREATED="1597487442690" ID="ID_157243215" MODIFIED="1597487445534" TEXT="Introduction">
+<node CREATED="1597486284362" ID="ID_1877848972" LINK="#ID_233356948" MODIFIED="1597486312674" TEXT="Substitution model is no longer adequate">
+<node CREATED="1597486547288" ID="ID_1101013477" MODIFIED="1597486553989" TEXT="Needs a &quot;place&quot; where values are stored"/>
+<node CREATED="1597486554353" ID="ID_1369535346" MODIFIED="1597486580555" TEXT="Places will be maintained in structure">
+<node CREATED="1597486581560" ID="ID_191697672" MODIFIED="1597486585668" TEXT="environments">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1597486592760" ID="ID_1479173853" MODIFIED="1597486595740" TEXT="Environment">
+<node CREATED="1597486595936" ID="ID_1446369355" MODIFIED="1597486599628" TEXT="Sequence of">
+<node CREATED="1597486599848" ID="ID_626747236" MODIFIED="1597486601201" TEXT="frames">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1597486607111" ID="ID_1133759485" MODIFIED="1597486614844" TEXT="Each frame is a table of">
+<node CREATED="1597486615008" ID="ID_1559227900" MODIFIED="1597486616874" TEXT="bindings">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1597486631392" ID="ID_602718199" MODIFIED="1597486636524" TEXT="... associate variable name"/>
+<node CREATED="1597486636872" ID="ID_282342027" MODIFIED="1597486639756" TEXT="... with correct values"/>
+</node>
+<node CREATED="1597486622016" ID="ID_718947680" MODIFIED="1597486625980" TEXT="A frame can be empty"/>
+<node CREATED="1597486663280" ID="ID_139641596" MODIFIED="1597486668996" TEXT="Each frame has a pointer to its">
+<node CREATED="1597486669200" ID="ID_557772146" MODIFIED="1597486673377" TEXT="enclosing environment">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1597486681104" ID="ID_1620921014" MODIFIED="1597486687643" TEXT="... unless the frame is global"/>
+</node>
+<node CREATED="1597486691887" ID="ID_1344024158" MODIFIED="1597486836594" TEXT="Value of a variable is given by the first frame"/>
+<node CREATED="1597486715405" ID="ID_1411086401" MODIFIED="1597486846619" TEXT="... having binding for that variable"/>
+<node CREATED="1597486867879" ID="ID_251605820" MODIFIED="1597486881036" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1597486869623" ID="ID_1932040547" MODIFIED="1597486878234" TEXT="Simple environment structure"/>
+<node CREATED="1597486978374" ID="ID_1224331193" MODIFIED="1597487046900" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1597487035350" ID="ID_1441848708" MODIFIED="1597487042536">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="simple_environment.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1597486922854" ID="ID_251476390" MODIFIED="1597486924810" TEXT="Three frames">
+<node CREATED="1597486924998" ID="ID_1520316047" MODIFIED="1597486925891" TEXT="I">
+<node CREATED="1597487120549" ID="ID_1181010772" MODIFIED="1597487123969" TEXT="y,x bound"/>
+</node>
+<node CREATED="1597486926285" ID="ID_1945559070" MODIFIED="1597486926978" TEXT="II">
+<node CREATED="1597487107668" ID="ID_304099911" MODIFIED="1597487114705" TEXT="x,z bound"/>
+</node>
+<node CREATED="1597486927526" ID="ID_856285035" MODIFIED="1597486928170" TEXT="III"/>
+</node>
+<node CREATED="1597486940213" ID="ID_1959041394" MODIFIED="1597486977370" TEXT="A,B.C.D">
+<node CREATED="1597486942005" ID="ID_158213411" MODIFIED="1597486948042" TEXT="Points to environments"/>
+<node CREATED="1597486966718" ID="ID_1049451972" MODIFIED="1597486972410" TEXT="C,D points to same environment"/>
+</node>
+<node CREATED="1597487133669" ID="ID_7435594" MODIFIED="1597487143841" TEXT="Value x in environment D">
+<node CREATED="1597487144068" ID="ID_596476449" MODIFIED="1597487144633" TEXT="3"/>
+</node>
+<node CREATED="1597487149868" ID="ID_688264443" MODIFIED="1597487156129" TEXT="Value x in environment B">
+<node CREATED="1597487156709" ID="ID_1963723877" MODIFIED="1597487158144" TEXT="3"/>
+<node CREATED="1597487178397" ID="ID_908131939" MODIFIED="1597487184000" TEXT="Not found in frame III"/>
+<node CREATED="1597487184340" ID="ID_1027287727" MODIFIED="1597487188872" TEXT="... so look in frame I"/>
+</node>
+<node CREATED="1597487210172" ID="ID_439430011" MODIFIED="1597487217216" TEXT="Value x in environment A">
+<node CREATED="1597487217428" ID="ID_1121868055" MODIFIED="1597487243784" TEXT="7 (from frame II)"/>
+<node CREATED="1597487226883" ID="ID_1671397323" MODIFIED="1597487247832" TEXT="... shadow binding of x in frame I"/>
+</node>
+</node>
+<node CREATED="1597487258820" ID="ID_128802435" MODIFIED="1597487263024" TEXT="Environment crucial">
+<node CREATED="1597487263347" ID="ID_1987979671" MODIFIED="1597487276552" TEXT="Determine context in which expression should be evaluated"/>
+<node CREATED="1597487291468" ID="ID_940804130" MODIFIED="1597487294872" TEXT="Expression has no meaning">
+<node CREATED="1597487295132" ID="ID_1997546909" MODIFIED="1597487297424" TEXT="It has a meaning"/>
+<node CREATED="1597487298813" ID="ID_1826607236" MODIFIED="1597487305744" TEXT="... only depending on its enviroment"/>
+</node>
+<node CREATED="1597487318235" ID="ID_1993977721" MODIFIED="1597487319927" TEXT="Example">
+<node CREATED="1597487320339" ID="ID_1453967068" MODIFIED="1597487324422" TEXT="(+ 1 1)"/>
+<node CREATED="1597487325116" ID="ID_1141381542" MODIFIED="1597487335031" TEXT="Only meaning in a context where &quot;+&quot; is addition"/>
+</node>
+</node>
+<node CREATED="1597487345099" ID="ID_732978" MODIFIED="1597487353823" TEXT="In our model of evaluation">
+<node CREATED="1597487353963" ID="ID_690989523" MODIFIED="1597487363839" TEXT="Always speak of evaluating an expression"/>
+<node CREATED="1597487364187" ID="ID_1006789951" MODIFIED="1597487369039" TEXT="... in respect of its environment"/>
+</node>
+<node CREATED="1597487390363" ID="ID_443293890" MODIFIED="1597487401503" TEXT="We suppose of global environment">
+<node CREATED="1597487425587" ID="ID_925943581" MODIFIED="1597487432537" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1597487403051" ID="ID_131584518" MODIFIED="1597487418431" TEXT="+ bound in global environment"/>
+<node CREATED="1597487419204" ID="ID_572338327" MODIFIED="1597487425215" TEXT="... to primitive addition procedure"/>
+</node>
+</node>
+</node>
+<node CREATED="1597487439499" ID="ID_1759000869" MODIFIED="1597487440163" TEXT="3.2.1 The Rules for Evaluation "/>
 </node>
 </node>
 </node>
