@@ -97,7 +97,7 @@
 </node>
 <node CREATED="1591813271530" ID="ID_1441996413" MODIFIED="1591813279454" TEXT="... it&apos;s where valuable problems are"/>
 </node>
-<node CREATED="1591813280389" FOLDED="true" ID="ID_45323668" MODIFIED="1591813288750" POSITION="left" TEXT="Avoid Fatal Mistakes">
+<node CREATED="1591813280389" ID="ID_45323668" MODIFIED="1591813288750" POSITION="left" TEXT="Avoid Fatal Mistakes">
 <icon BUILTIN="full-5"/>
 <node CREATED="1591813522488" ID="ID_50093685" MODIFIED="1591813529622" TEXT="Starting with a solution in mind. ">
 <icon BUILTIN="full-1"/>
@@ -132,7 +132,7 @@
 <icon BUILTIN="wizard"/>
 <node CREATED="1591813708903" ID="ID_1520294389" MODIFIED="1591813728883" TEXT="iOS users"/>
 <node CREATED="1591813716783" ID="ID_1329691927" MODIFIED="1591813723970" TEXT="... who need to get tasks done"/>
-<node CREATED="1591813724550" ID="ID_1542532784" MODIFIED="1591813725932" TEXT=" but prefer modern, clean UIs"/>
+<node CREATED="1591813724550" ID="ID_1542532784" MODIFIED="1597585530716" TEXT="...  but prefer modern, clean UIs"/>
 </node>
 </node>
 <node CREATED="1591813754870" ID="ID_1104768535" MODIFIED="1591813763401" TEXT="... you just try to push your own desires in your product"/>

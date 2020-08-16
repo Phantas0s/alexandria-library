@@ -9,7 +9,12 @@
 <node CREATED="1591425202527" ID="ID_668861581" MODIFIED="1591425205369" POSITION="right" TEXT="Make some friends, fans, or fans into friends">
 <icon BUILTIN="full-1"/>
 <node CREATED="1591425303189" ID="ID_868985784" MODIFIED="1591425337968" TEXT="Needs fans">
-<node CREATED="1591425322896" ID="ID_85158819" LINK="https://kk.org/thetechnium/1000-true-fans/" MODIFIED="1591425340924" TEXT="Just need 1000 people"/>
+<node CREATED="1591425322896" ID="ID_85158819" LINK="https://kk.org/thetechnium/1000-true-fans/" MODIFIED="1591425340924" TEXT="Just need 1000 people">
+<node COLOR="#338800" CREATED="1597586694160" ID="ID_1557577135" MODIFIED="1597586704049" TEXT="See mindmap of this article">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
 <node CREATED="1591425327941" ID="ID_174633036" MODIFIED="1591425331580" TEXT="... buying what you sell"/>
 <node CREATED="1591425331984" ID="ID_1561631869" MODIFIED="1591425334148" TEXT="... to make a living"/>
 </node>

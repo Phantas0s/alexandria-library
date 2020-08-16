@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1589636950634" ID="ID_1773318951" LINK="https://www.kalzumeus.com/2010/01/24/startup-seo/" MODIFIED="1589637163713" TEXT="Strategic SEO for Startups">
-<node CREATED="1589636977674" ID="ID_1172764428" MODIFIED="1589637470171" POSITION="right" TEXT="Introduction">
+<node CREATED="1589636977674" FOLDED="true" ID="ID_1172764428" MODIFIED="1589637470171" POSITION="right" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1589636980191" ID="ID_724087186" MODIFIED="1589636987284" TEXT="Strategy instead of tactics">
 <node CREATED="1589636997631" ID="ID_495864622" MODIFIED="1589637003705" TEXT="Tactics">
@@ -18,8 +18,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589637005275" ID="ID_1033292403" MODIFIED="1589637006269" POSITION="left" TEXT=" "/>
-<node CREATED="1589637153710" ID="ID_1473118766" MODIFIED="1589637472446" POSITION="right" TEXT="Why Startup SEO is Different">
+<node CREATED="1589637153710" FOLDED="true" ID="ID_1473118766" MODIFIED="1589637472446" POSITION="right" TEXT="Why Startup SEO is Different">
 <icon BUILTIN="full-1"/>
 <node CREATED="1589637174549" ID="ID_1870643242" MODIFIED="1589637181660" TEXT="Google is primary tool navigation on Internet"/>
 <node CREATED="1589637197712" ID="ID_409827218" MODIFIED="1589637203497" TEXT="Difference with big companies?">
@@ -35,7 +34,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589637459828" ID="ID_1167642277" MODIFIED="1589637475457" POSITION="right" TEXT="Why Startup SEO is Better">
+<node CREATED="1589637459828" FOLDED="true" ID="ID_1167642277" MODIFIED="1589637475457" POSITION="right" TEXT="Why Startup SEO is Better">
 <icon BUILTIN="full-2"/>
 <node CREATED="1589637480184" ID="ID_279172253" MODIFIED="1589637485821" TEXT="Strong technical skills">
 <node CREATED="1589637555004" ID="ID_1952980713" MODIFIED="1589637577052" TEXT="You have programers who knows technical">
@@ -58,7 +57,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589637811126" ID="ID_1940198299" MODIFIED="1589637815273" POSITION="right" TEXT="Strategic SEO Objectives">
+<node CREATED="1589637811126" FOLDED="true" ID="ID_1940198299" MODIFIED="1589637815273" POSITION="right" TEXT="Strategic SEO Objectives">
 <icon BUILTIN="full-3"/>
 <node CREATED="1589637827907" ID="ID_1278097974" MODIFIED="1589637833474" TEXT="Ask yourself what to get from SEO">
 <node CREATED="1589637834244" ID="ID_255275160" MODIFIED="1589637845002" TEXT="&quot;Rankings&quot; not acceptable"/>
@@ -97,7 +96,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589638510432" ID="ID_112721852" MODIFIED="1589638523425" POSITION="right" TEXT="SEO Is A Feedback Loop">
+<node CREATED="1589638510432" FOLDED="true" ID="ID_112721852" MODIFIED="1589638523425" POSITION="right" TEXT="SEO Is A Feedback Loop">
 <icon BUILTIN="full-4"/>
 <node CREATED="1589638568177" ID="ID_14547212" MODIFIED="1589638645497" TEXT="Site build self-reinforcing authority"/>
 <node CREATED="1589638588274" ID="ID_57727751" MODIFIED="1589638593167" TEXT="Winners win"/>
@@ -154,7 +153,7 @@
 <node CREATED="1589639156966" ID="ID_67070019" MODIFIED="1589639161710" TEXT="... matters for your paying customers"/>
 </node>
 </node>
-<node CREATED="1589639189871" ID="ID_288332646" MODIFIED="1589639201251" POSITION="right" TEXT="Making SEO Scale">
+<node CREATED="1589639189871" FOLDED="true" ID="ID_288332646" MODIFIED="1589639201251" POSITION="left" TEXT="Making SEO Scale">
 <icon BUILTIN="full-5"/>
 <node CREATED="1589639212140" ID="ID_26472266" MODIFIED="1589639220422" TEXT="Too much to do / not enough people">
 <node CREATED="1589639220571" ID="ID_156881400" MODIFIED="1589639228757" TEXT="Everything you do"/>
@@ -222,7 +221,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589639777743" ID="ID_324564903" MODIFIED="1589640478689" POSITION="right" TEXT="Scalable Content Creation That Works">
+<node CREATED="1589639777743" FOLDED="true" ID="ID_324564903" MODIFIED="1589640478689" POSITION="left" TEXT="Scalable Content Creation That Works">
 <icon BUILTIN="full-6"/>
 <node CREATED="1589639867029" ID="ID_1255971803" MODIFIED="1589640530139" TEXT="Data you can&apos;t get anywhere else">
 <node CREATED="1589639887524" ID="ID_1087417929" MODIFIED="1589639892454" TEXT="If you have access to data"/>
@@ -288,7 +287,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589640471918" ID="ID_180865902" MODIFIED="1589640481412" POSITION="right" TEXT="Pillar Content vs. Bill &#x2018;er Content">
+<node CREATED="1589640471918" FOLDED="true" ID="ID_180865902" MODIFIED="1589640481412" POSITION="left" TEXT="Pillar Content vs. Bill &#x2018;er Content">
 <icon BUILTIN="full-7"/>
 <node CREATED="1589640494604" ID="ID_1162751520" MODIFIED="1589640507642" TEXT="Majority of non-commercial content "/>
 <node CREATED="1589640508708" ID="ID_21712911" MODIFIED="1589640514530" TEXT="... will form majority of your links"/>
@@ -316,7 +315,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589640804741" ID="ID_317991413" MODIFIED="1589640812269" POSITION="right" TEXT="Good SEO Can Make Your Startup">
+<node CREATED="1589640804741" FOLDED="true" ID="ID_317991413" MODIFIED="1589640812269" POSITION="left" TEXT="Good SEO Can Make Your Startup">
 <icon BUILTIN="full-8"/>
 <node CREATED="1589640833785" ID="ID_514897462" MODIFIED="1589640839149" TEXT="Organic SEO"/>
 <node CREATED="1589640842068" ID="ID_1254711159" MODIFIED="1589640848109" TEXT="... most efficient distribution method created"/>
