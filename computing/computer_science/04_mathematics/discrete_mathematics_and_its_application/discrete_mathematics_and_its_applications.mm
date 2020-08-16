@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1593183457864" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1597495795360" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2061,7 +2061,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" FOLDED="true" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
@@ -4740,7 +4740,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585568795246" FOLDED="true" ID="ID_1838004265" MODIFIED="1586941276405" TEXT="3.2 The growth of functions">
+<node CREATED="1585568795246" ID="ID_1838004265" MODIFIED="1586941276405" TEXT="3.2 The growth of functions">
 <node CREATED="1585568911524" FOLDED="true" ID="ID_826016681" MODIFIED="1586862377278" TEXT="Introduction">
 <node CREATED="1585568880579" ID="ID_127667806" MODIFIED="1585568910159" TEXT="Times to solve a problem depends on">
 <node CREATED="1585568886420" ID="ID_1650702354" MODIFIED="1585568888177" TEXT="software"/>
@@ -5087,7 +5087,7 @@
 </node>
 <node CREATED="1586866529402" ID="ID_1400065092" MODIFIED="1586869628485" TEXT="Be careful: many writers use Big-O notation for higher and lower bound!"/>
 </node>
-<node CREATED="1586939677946" FOLDED="true" ID="ID_1182577722" MODIFIED="1587388482415" TEXT="3.3 Complexity of Algorithms">
+<node CREATED="1586939677946" ID="ID_1182577722" MODIFIED="1587388482415" TEXT="3.3 Complexity of Algorithms">
 <node CREATED="1586939766670" ID="ID_1562277733" MODIFIED="1586939769686" TEXT="Introduction">
 <node CREATED="1586939693348" ID="ID_1629809612" MODIFIED="1586939709771" TEXT="When algorithm provides satisfactory solution to problem?">
 <node CREATED="1586939709990" ID="ID_724847554" MODIFIED="1586939717063" TEXT="Always produce correct answer">
@@ -5231,7 +5231,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586942122262" FOLDED="true" ID="ID_1500562388" MODIFIED="1587388479536" TEXT="Understanding the Complexity of Algorithms ">
+<node CREATED="1586942122262" ID="ID_1500562388" MODIFIED="1587388479536" TEXT="Understanding the Complexity of Algorithms ">
 <node CREATED="1586942292919" ID="ID_1597142849" MODIFIED="1587386250457" TEXT="Commonly used terminology">
 <icon BUILTIN="licq"/>
 <node CREATED="1586942372592" ID="ID_1199870579" MODIFIED="1586942395787">
