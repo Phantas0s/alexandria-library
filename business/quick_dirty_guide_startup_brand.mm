@@ -1,0 +1,215 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1597562251061" ID="ID_618457000" LINK="https://medium.com/startup-grind/the-quick-and-dirty-guide-to-building-your-startup-brand-21834f46740b" MODIFIED="1597562726106" TEXT="The Quick and Dirty Guide to Building Your Startup Brand">
+<node CREATED="1597562304779" ID="ID_1464755962" MODIFIED="1597562366951" POSITION="right" TEXT="What&apos;s a brand">
+<node CREATED="1597562308979" ID="ID_1902459677" MODIFIED="1597562321900" TEXT="Your brand is what people say about you after you leave the room">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jeff Bezos
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1597562332899" ID="ID_1724734509" MODIFIED="1597562335615" TEXT="Has its own">
+<node CREATED="1597562335755" ID="ID_1612754702" MODIFIED="1597562338407" TEXT="Identity"/>
+<node CREATED="1597562338723" ID="ID_434846155" MODIFIED="1597562339463" TEXT="Voice"/>
+<node CREATED="1597562340112" ID="ID_769308279" MODIFIED="1597562344743" TEXT="Values personality"/>
+<node CREATED="1597562345317" ID="ID_1804842356" MODIFIED="1597562346407" TEXT="Beliefs"/>
+<node CREATED="1597562346809" ID="ID_1556772888" MODIFIED="1597562348151" TEXT="Story"/>
+<node CREATED="1597562348499" ID="ID_1232518027" MODIFIED="1597562351727" TEXT="Characters"/>
+<node CREATED="1597562353091" ID="ID_779914027" MODIFIED="1597562354839" TEXT="Attitude"/>
+<node CREATED="1597562355203" ID="ID_1945424922" MODIFIED="1597562356069" TEXT="Soul"/>
+</node>
+</node>
+<node CREATED="1597562367739" FOLDED="true" ID="ID_1095473409" MODIFIED="1597562633528" POSITION="right" TEXT="Step 1: Tell your life&apos;s story">
+<icon BUILTIN="full-1"/>
+<node CREATED="1597562385514" ID="ID_461577052" MODIFIED="1597562394127" TEXT="Startup early stage">
+<node CREATED="1597562394739" ID="ID_297430906" MODIFIED="1597562401715" TEXT="Reflection of founder&apos;s">
+<node CREATED="1597562401717" ID="ID_1888973418" MODIFIED="1597562403127" TEXT="ethos"/>
+<node CREATED="1597562403419" ID="ID_1705445958" MODIFIED="1597562404687" TEXT="values"/>
+<node CREATED="1597562405028" ID="ID_1538249578" MODIFIED="1597562406279" TEXT="beliefs"/>
+</node>
+<node CREATED="1597562410443" ID="ID_1421124851" MODIFIED="1597562416429" TEXT="Important to understand">
+<node CREATED="1597562416595" ID="ID_547322505" MODIFIED="1597562428678" TEXT="Personal identity"/>
+<node CREATED="1597562420257" ID="ID_710784792" MODIFIED="1597562426022" TEXT="Events which shaped your identity"/>
+</node>
+</node>
+<node CREATED="1597562435218" ID="ID_1096895031" MODIFIED="1597562439063" TEXT="Script you can use">
+<node CREATED="1597562439298" ID="ID_1335080162" MODIFIED="1597562442734" TEXT="Early childhood">
+<node CREATED="1597562442995" ID="ID_1052605522" MODIFIED="1597562446966" TEXT="Where were you born?"/>
+<node CREATED="1597562447594" ID="ID_1600593148" MODIFIED="1597562451639" TEXT="Tell me about your parents">
+<node CREATED="1597562451938" ID="ID_1514924261" MODIFIED="1597562458046" TEXT="What were they like?"/>
+<node CREATED="1597562458722" ID="ID_815921961" MODIFIED="1597562462238" TEXT="How did they influence you?"/>
+</node>
+<node CREATED="1597562467169" ID="ID_1480713881" MODIFIED="1597562467825" TEXT="Tell me about your childhood">
+<node CREATED="1597562470730" ID="ID_79643812" MODIFIED="1597562471239" TEXT="What did you like?"/>
+<node CREATED="1597562473972" ID="ID_1514419193" MODIFIED="1597562474410" TEXT="What didn&#x2019;t you like? "/>
+<node CREATED="1597562476451" ID="ID_658540038" MODIFIED="1597562476869" TEXT="Why?"/>
+</node>
+<node CREATED="1597562482738" ID="ID_330254358" MODIFIED="1597562485903" TEXT="Tell me about a time when you&#x2019;ve experienced failure for the first time"/>
+</node>
+<node CREATED="1597562489273" ID="ID_1774311255" MODIFIED="1597562489788" TEXT="Adolescence">
+<node CREATED="1597562493265" ID="ID_1424082997" MODIFIED="1597562494174" TEXT="Tell me about your first love.">
+<node CREATED="1597562496273" ID="ID_611748486" MODIFIED="1597562496664" TEXT="What was that like? "/>
+</node>
+<node CREATED="1597562499417" ID="ID_495176252" MODIFIED="1597562499849" TEXT="Tell me about your first heart break."/>
+<node CREATED="1597562503530" ID="ID_1220597932" MODIFIED="1597562504051" TEXT="Tell me about the friends you hung out with in high school. ">
+<node CREATED="1597562507933" ID="ID_1060144724" MODIFIED="1597562508475" TEXT="What were they like?"/>
+</node>
+<node CREATED="1597562512729" ID="ID_58564125" MODIFIED="1597562513280" TEXT="Did you play any sports or instruments?"/>
+<node CREATED="1597562516618" ID="ID_893307440" MODIFIED="1597562517095" TEXT="What were your hobbies?"/>
+<node CREATED="1597562523241" ID="ID_1035910895" MODIFIED="1597562523791" TEXT="Who is the biggest influencer of your life at this time?"/>
+<node CREATED="1597562528356" ID="ID_1452227622" MODIFIED="1597562528852" TEXT="Tell me a time where you felt embarrassed or ashamed of your actions. ">
+<node CREATED="1597562531617" ID="ID_1459689039" MODIFIED="1597562533136" TEXT="What happened?"/>
+</node>
+</node>
+<node CREATED="1597562535993" ID="ID_1144810679" MODIFIED="1597562536486" TEXT="Adulthood">
+<node CREATED="1597562541889" ID="ID_1970437741" MODIFIED="1597562542366" TEXT="Did you attend any post secondary education?">
+<node CREATED="1597562544972" ID="ID_423033528" MODIFIED="1597562545418" TEXT="What did you study?"/>
+</node>
+<node CREATED="1597562547978" ID="ID_1178179318" MODIFIED="1597562548380" TEXT="What did you do during your spare time?"/>
+<node CREATED="1597562551411" ID="ID_724113266" MODIFIED="1597562552544" TEXT="What are your career aspirations?"/>
+<node CREATED="1597562554953" ID="ID_1402632016" MODIFIED="1597562555522" TEXT="What do you want to accomplish?"/>
+<node CREATED="1597562558051" ID="ID_977061925" MODIFIED="1597562558625" TEXT="How did you come up with this idea?"/>
+<node CREATED="1597562560896" ID="ID_696011484" MODIFIED="1597562561361" TEXT="Why did you decide to solve this problem?"/>
+</node>
+</node>
+<node CREATED="1597562578865" ID="ID_1219954458" MODIFIED="1597562584669" TEXT="Need to learn truth about your life story"/>
+<node CREATED="1597562585494" ID="ID_828259996" MODIFIED="1597562592773" TEXT="... to learn truth behind your motivations"/>
+</node>
+<node CREATED="1597562628617" ID="ID_1625714444" MODIFIED="1597562634977" POSITION="right" TEXT="Step 2: Create a word cloud">
+<icon BUILTIN="full-2"/>
+<node CREATED="1597562643385" ID="ID_1539527254" MODIFIED="1597562665085" TEXT="Pick out the words from your life story "/>
+<node CREATED="1597562665473" ID="ID_1685999598" MODIFIED="1597562666597" TEXT="... which reasonate the most"/>
+<node CREATED="1597562658113" ID="ID_1725849565" MODIFIED="1597562661317" TEXT="These words are your value">
+<node CREATED="1597562671921" ID="ID_43183229" MODIFIED="1597562684636" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1597562673609" ID="ID_406311568" MODIFIED="1597562677373" TEXT="Honesty"/>
+<node CREATED="1597562677904" ID="ID_1535475806" MODIFIED="1597562679389" TEXT="Integrity"/>
+<node CREATED="1597562680025" ID="ID_1139059565" MODIFIED="1597562682741" TEXT="Loyalty"/>
+</node>
+</node>
+<node CREATED="1597562696673" ID="ID_1064944975" MODIFIED="1597562704588" TEXT="Unload all the words associated with your brand">
+<node CREATED="1597562704833" ID="ID_159436867" MODIFIED="1597562707309" TEXT="Don&apos;t think too much"/>
+</node>
+<node CREATED="1597562710384" ID="ID_1193821413" MODIFIED="1597562716885" TEXT="... lego blocks you&apos;ll use later for your narrative"/>
+</node>
+<node CREATED="1597562735728" ID="ID_1109024753" MODIFIED="1597562739293" POSITION="right" TEXT="Step 3: Research quotes that are related to your values">
+<icon BUILTIN="full-3"/>
+<node CREATED="1597562750361" ID="ID_1002888100" MODIFIED="1597562756380" TEXT="Brands inspires us to pursue things"/>
+<node CREATED="1597562756760" ID="ID_675447421" MODIFIED="1597562760548" TEXT="... that are greater than ourselves"/>
+<node CREATED="1597562767088" ID="ID_912620196" MODIFIED="1597562802123" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1597562768640" ID="ID_1879530484" MODIFIED="1597562769324" TEXT="Nike">
+<node CREATED="1597562773200" ID="ID_601885721" MODIFIED="1597562773778" TEXT=" find our greatness."/>
+</node>
+<node CREATED="1597562777736" ID="ID_1133729971" MODIFIED="1597562780540" TEXT="The North Face">
+<node CREATED="1597562780936" ID="ID_877166530" MODIFIED="1597562781660" TEXT="never stop exploring."/>
+</node>
+<node CREATED="1597562789135" ID="ID_558665181" MODIFIED="1597562795011" TEXT="AirBnb">
+<node CREATED="1597562795440" ID="ID_412628448" MODIFIED="1597562799187" TEXT="We can belong anywhere"/>
+</node>
+</node>
+<node CREATED="1597562844151" ID="ID_1878378954" MODIFIED="1597562853156" TEXT="Great quotes have a philosophical basis">
+<node CREATED="1597562853320" ID="ID_26248794" MODIFIED="1597562880203" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1597562861303" ID="ID_1225550460" MODIFIED="1597562861776" TEXT="The whole is greater than the sum of its parts"/>
+<node CREATED="1597562864701" ID="ID_249479762" MODIFIED="1597562865123" TEXT="It feels good to be lost in the right direction"/>
+<node CREATED="1597562868898" ID="ID_1654574613" MODIFIED="1597562869597" TEXT="We don&#x2019;t remember days, we remember moments"/>
+<node CREATED="1597562872487" ID="ID_1706073830" MODIFIED="1597562872991" TEXT="Beauty begins the moment when you decide to be yourself"/>
+<node CREATED="1597562876616" ID="ID_1761746711" MODIFIED="1597562877107" TEXT="Memories are timeless treasures of the heart"/>
+</node>
+</node>
+</node>
+<node CREATED="1597562885527" ID="ID_1612678098" MODIFIED="1597562889407" POSITION="right" TEXT="Collect images that are related to your values and product Image for post">
+<icon BUILTIN="full-4"/>
+<node CREATED="1597562896207" ID="ID_1653973368" MODIFIED="1597562904675" TEXT="Want to visualize what your brand look like"/>
+<node CREATED="1597562905087" ID="ID_1391516035" MODIFIED="1597562912523" TEXT="... by collecting images invoking emotions"/>
+<node CREATED="1597562912839" ID="ID_1944381246" MODIFIED="1597562918875" TEXT="... you want your audience to feel"/>
+</node>
+<node CREATED="1597562931071" ID="ID_285397259" MODIFIED="1597562934318" POSITION="right" TEXT="Step 5: Conduct a competitive analysis">
+<icon BUILTIN="full-5"/>
+<node CREATED="1597562940359" ID="ID_227816960" MODIFIED="1597562954435" TEXT="Need to understand how to uniquely position your brand against your competitors"/>
+<node CREATED="1597562981630" ID="ID_1389327051" MODIFIED="1597563070898" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1597562983495" ID="ID_1609241733" MODIFIED="1597562984530" TEXT="Slack">
+<node CREATED="1597562984695" ID="ID_366061104" MODIFIED="1597562993123" TEXT="What we selling is not the software"/>
+<node CREATED="1597562995247" ID="ID_1810067410" MODIFIED="1597562998730" TEXT="... but ">
+<node CREATED="1597563002199" ID="ID_1373940086" MODIFIED="1597563002634" TEXT="a reduction in the cost of communication"/>
+<node CREATED="1597563006558" ID="ID_1680073031" MODIFIED="1597563007040" TEXT="zero effort knowledge management"/>
+<node CREATED="1597563010758" ID="ID_1728394396" MODIFIED="1597563011273" TEXT="making better decisions, faster"/>
+<node CREATED="1597563016050" ID="ID_200804897" MODIFIED="1597563016553" TEXT="all your team communication, instantly searchable, available wherever you go"/>
+<node CREATED="1597563020158" ID="ID_1037851992" MODIFIED="1597563020641" TEXT="75% less email"/>
+</node>
+<node CREATED="1597563030287" ID="ID_461318308" MODIFIED="1597563036058" TEXT="Sell organisation transformation"/>
+</node>
+<node CREATED="1597563071702" ID="ID_511994557" MODIFIED="1597563073450" TEXT="RunGo">
+<node CREATED="1597563074182" ID="ID_1641967380" MODIFIED="1597563083329" TEXT="Explore new routes with turn-by-turn navigation"/>
+<node CREATED="1597563083702" ID="ID_1206357551" MODIFIED="1597563088394" TEXT="Well positioned toward concurents">
+<node CREATED="1597563091621" ID="ID_984196226" MODIFIED="1597563092046" TEXT="Strava">
+<node CREATED="1597563094541" ID="ID_1828314417" MODIFIED="1597563094936" TEXT="Connecting the world&#x2019;s athletes"/>
+</node>
+<node CREATED="1597563096666" ID="ID_704331266" MODIFIED="1597563097085" TEXT="Runtastic">
+<node CREATED="1597563099992" ID="ID_1989468766" MODIFIED="1597563100794" TEXT="Your health and fitness community"/>
+</node>
+<node CREATED="1597563105637" ID="ID_897997016" MODIFIED="1597563106077" TEXT="Charity Miles">
+<node CREATED="1597563109021" ID="ID_1152343019" MODIFIED="1597563109459" TEXT="Move with purpose. Earn money for charity"/>
+</node>
+<node CREATED="1597563112181" ID="ID_532711130" MODIFIED="1597563112559" TEXT="Zombies, Run">
+<node CREATED="1597563115517" ID="ID_1274980062" MODIFIED="1597563115968" TEXT="Run in the real world. Become a hero in another"/>
+</node>
+<node CREATED="1597563117843" ID="ID_1858612263" MODIFIED="1597563117843" TEXT="Moves">
+<node CREATED="1597563122574" ID="ID_1543893956" MODIFIED="1597563122942" TEXT="Activity Diary of Your Life"/>
+</node>
+<node CREATED="1597563126133" ID="ID_1375394874" MODIFIED="1597563126537" TEXT="Endomondo">
+<node CREATED="1597563129389" ID="ID_1081314912" MODIFIED="1597563129846" TEXT="The personal trainer in your pocket"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1597563141949" ID="ID_1332305121" MODIFIED="1597563150726" POSITION="right" TEXT="Step 6: Create your brand narrative">
+<icon BUILTIN="full-6"/>
+<node CREATED="1597563151238" ID="ID_735746482" MODIFIED="1597563154546" TEXT="Creative process is messy"/>
+<node CREATED="1597563166093" ID="ID_1199378596" MODIFIED="1597563172937" TEXT="Do you feel you&apos;re going nowhere at that point?">
+<node CREATED="1597563173141" ID="ID_423436962" MODIFIED="1597563174961" TEXT="That&apos;s normal"/>
+</node>
+<node CREATED="1597563178125" ID="ID_1770552920" MODIFIED="1597563183978" TEXT="Ideas will come to you if you did the work"/>
+<node CREATED="1597563256133" ID="ID_1712990940" MODIFIED="1597563262481" TEXT="Like any great story, brand narrative has">
+<node CREATED="1597563262669" ID="ID_1692640295" MODIFIED="1597563264241" TEXT="Beginning"/>
+<node CREATED="1597563265043" ID="ID_1852319693" MODIFIED="1597563268673" TEXT="Middle"/>
+<node CREATED="1597563269007" ID="ID_734544507" MODIFIED="1597563269529" TEXT="End"/>
+</node>
+<node CREATED="1597563276348" ID="ID_1274592547" MODIFIED="1597563285391" TEXT="... pattern we&apos;re highly familiar with"/>
+<node CREATED="1597563295876" ID="ID_1996552788" MODIFIED="1597563325312" TEXT="The human mind is a story processor, not a logic processor.">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Jonathan Haidt, Psychologist and Professor
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1597563326117" ID="ID_1514319625" MODIFIED="1597563338265" TEXT="Brand narrative add meaning to our marketing"/>
+<node CREATED="1597563352022" ID="ID_1307896266" MODIFIED="1597563355944" TEXT="Ask yourself">
+<node CREATED="1597563356350" MODIFIED="1597563356350" TEXT="What is your brand belief?"/>
+<node CREATED="1597563356350" MODIFIED="1597563356350" TEXT="Why do you care about it so much?"/>
+<node CREATED="1597563356351" ID="ID_638550522" MODIFIED="1597563356351" TEXT="How will your brand deliver on its promise?"/>
+</node>
+</node>
+<node CREATED="1597563372076" ID="ID_364819030" MODIFIED="1597563379695" POSITION="right" TEXT="Last Words of Wisdom">
+<icon BUILTIN="full-7"/>
+<node CREATED="1597563379956" ID="ID_485506484" MODIFIED="1597563390568" TEXT="Brand narrative should be used internally / externally"/>
+<node CREATED="1597563394403" ID="ID_299385518" MODIFIED="1597563406246" TEXT="Encompass value / believes your brand care about">
+<node CREATED="1597563408396" ID="ID_1675351390" MODIFIED="1597563410304" TEXT="North star"/>
+</node>
+</node>
+</node>
+</map>
