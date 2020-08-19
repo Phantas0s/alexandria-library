@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1597468920799" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1597856189717" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -773,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1597468920834" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1597853576474" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5301,8 +5301,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Insufficient funds&quot;))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1597483154335" FOLDED="true" ID="ID_466880677" MODIFIED="1597483159290" TEXT="Bank account example">
@@ -5337,8 +5336,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597483213159" ID="ID_601132435" MODIFIED="1597483217675" TEXT="Use let for local variables"/>
 </node>
 <node CREATED="1597483183903" ID="ID_1392317304" MODIFIED="1597483190403" TEXT="make-withdraw">
@@ -5366,8 +5364,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&quot;Insufficient funds&quot;)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597483203015" ID="ID_591802966" MODIFIED="1597483206610" TEXT="Use parameters"/>
 <node CREATED="1597483206982" ID="ID_347901054" MODIFIED="1597483209435" TEXT="... for local variables"/>
 </node>
@@ -5423,8 +5420,7 @@
       &#160;&#160;dispatch)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597483274318" ID="ID_1381709325" MODIFIED="1597483278362" TEXT="Procedure dispatch"/>
 <node CREATED="1597483278686" ID="ID_886339793" MODIFIED="1597483286402" TEXT="Take &quot;message&quot; as input"/>
 <node CREATED="1597483290206" ID="ID_271783160" MODIFIED="1597483296618" TEXT="Return one of two local procedures"/>
@@ -5462,8 +5458,7 @@
       30
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 </node>
@@ -5490,8 +5485,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1597484042665" FOLDED="true" ID="ID_1011813716" MODIFIED="1597484090502" TEXT="First implementation">
@@ -5546,8 +5540,7 @@
       &#160;&#160;(iter trials 0))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597484136809" ID="ID_233915944" MODIFIED="1597484141213" TEXT="General monte-carlo procedure"/>
 <node CREATED="1597484141944" ID="ID_1131511142" MODIFIED="1597484155996" TEXT="Take arbitrary experiment procedure"/>
 </node>
@@ -5609,8 +5602,7 @@
       &#160;&#160;(iter trials 0 initial-x))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597484123073" ID="ID_454986887" MODIFIED="1597484129716" TEXT="Modularity problems"/>
 <node CREATED="1597484164664" ID="ID_513410825" MODIFIED="1597484169316" TEXT="No local state for random generator"/>
 <node CREATED="1597484170208" ID="ID_1086790010" MODIFIED="1597484180308" TEXT="Must manipulate x1 and x2">
@@ -6006,7 +5998,165 @@
 </node>
 </node>
 </node>
-<node CREATED="1597487439499" ID="ID_1759000869" MODIFIED="1597487440163" TEXT="3.2.1 The Rules for Evaluation "/>
+<node CREATED="1597487439499" ID="ID_1759000869" MODIFIED="1597487440163" TEXT="3.2.1 The Rules for Evaluation ">
+<node CREATED="1597853798892" ID="ID_1298621788" MODIFIED="1597853804130" TEXT="In environment model of evaluation"/>
+<node CREATED="1597853807149" ID="ID_1183355622" MODIFIED="1597853819778" TEXT="... procedure always pair with">
+<node CREATED="1597853819939" ID="ID_1925634903" MODIFIED="1597853821867" TEXT="some code"/>
+<node CREATED="1597853822573" ID="ID_541902655" MODIFIED="1597853826154" TEXT="a pointer to an environment"/>
+</node>
+<node CREATED="1597853838309" ID="ID_825106812" MODIFIED="1597853848914" TEXT="Procedure created only evaluating &#x3bb;-expression"/>
+<node CREATED="1597853975021" ID="ID_1948451983" MODIFIED="1597855162404" TEXT="How procedures created">
+<node CREATED="1597855163126" ID="ID_1220081573" MODIFIED="1597855166588" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (square x)
+    </p>
+    <p>
+      &#160;&#160;(* x x))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1597854105538" ID="ID_1498405044" MODIFIED="1597854111095" TEXT="Evaluated in global environment"/>
+<node CREATED="1597854113682" ID="ID_530325336" MODIFIED="1597854132639" TEXT="Only syntactic sugar for lambda expression"/>
+<node CREATED="1597854148620" ID="ID_196250317" MODIFIED="1597854154025" TEXT="Equivalent">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define square
+    </p>
+    <p>
+      &#160;&#160;(lambda (x) (* x x)))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1597854223699" ID="ID_1937013319" MODIFIED="1597854330086" TEXT="Environment">
+<node CREATED="1597854330377" ID="ID_1911098987" MODIFIED="1597854335978">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="global_env_lamda_define.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1597854469265" ID="ID_1158485218" MODIFIED="1597854475117" TEXT="Procedure object a pair">
+<node CREATED="1597854481297" ID="ID_1705558853" MODIFIED="1597854485412" TEXT="One formal parameter"/>
+<node CREATED="1597854485768" ID="ID_1285267772" MODIFIED="1597854490572" TEXT="Pointer to global environment"/>
+</node>
+<node CREATED="1597854511863" ID="ID_1543558676" MODIFIED="1597854528388" TEXT="Binding associate">
+<node CREATED="1597854528591" ID="ID_1621245794" MODIFIED="1597854531468" TEXT="procedure object"/>
+<node CREATED="1597854531820" ID="ID_1704607123" MODIFIED="1597854535116" TEXT="symbol square"/>
+</node>
+<node CREATED="1597854557888" ID="ID_1504945385" MODIFIED="1597854561899" TEXT="... added to global frame"/>
+</node>
+</node>
+<node CREATED="1597855109083" ID="ID_460767548" MODIFIED="1597855112800" TEXT="How procedures applied">
+<node CREATED="1597855163126" ID="ID_1046208093" MODIFIED="1597855166588" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (square x)
+    </p>
+    <p>
+      &#160;&#160;(* x x))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1597855793111" ID="ID_1805214565" MODIFIED="1597855796987" TEXT="To apply procedure to argument">
+<node CREATED="1597855797158" ID="ID_1083551649" MODIFIED="1597855800515" TEXT="Create new environment"/>
+<node CREATED="1597855801175" ID="ID_427171335" MODIFIED="1597855808979" TEXT="... containing a frame binding parameters"/>
+<node CREATED="1597855809560" ID="ID_1226628990" MODIFIED="1597855812635" TEXT="... to values of arguments"/>
+<node CREATED="1597855826069" ID="ID_1972588949" MODIFIED="1597855829780" TEXT="In new environment"/>
+<node CREATED="1597855830133" ID="ID_1127163965" MODIFIED="1597855835185" TEXT="... evaluate procedure body"/>
+</node>
+<node CREATED="1597855202572" ID="ID_1440326701" MODIFIED="1597855226038" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1597855847151" ID="ID_7221232" MODIFIED="1597855851012">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="global_env_lambda_applied.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1597855860743" ID="ID_1365266762" MODIFIED="1597855864267" TEXT="x bound to 5"/>
+<node CREATED="1597855873511" ID="ID_117710805" MODIFIED="1597855878105" TEXT="Frame enclosing environment"/>
+<node CREATED="1597855878438" ID="ID_1468068184" MODIFIED="1597855884544" TEXT="... is the global environment">
+<node CREATED="1597855884742" ID="ID_1264586053" MODIFIED="1597855888914" TEXT="as the pointer show"/>
+<node CREATED="1597855941348" ID="ID_1021244706" MODIFIED="1597855950058" TEXT="Chosen because indicated"/>
+<node CREATED="1597855950453" ID="ID_1961642928" MODIFIED="1597855958481" TEXT="... as part of square procedure object"/>
+</node>
+</node>
+<node CREATED="1597856138531" ID="ID_1902320751" MODIFIED="1597856165384" TEXT="set!">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1597856140829" ID="ID_1233027431" MODIFIED="1597856148401" TEXT="Change binding of variable"/>
+<node CREATED="1597856148763" ID="ID_1646450869" MODIFIED="1597856152479" TEXT="... inside of the frame"/>
+<node CREATED="1597856152788" ID="ID_903712803" MODIFIED="1597856160040" TEXT="If variable unbound"/>
+<node CREATED="1597856160379" ID="ID_381932142" MODIFIED="1597856162480" TEXT="... return error"/>
+</node>
+</node>
+</node>
+<node CREATED="1597856194259" ID="ID_1173227082" MODIFIED="1597856197167" TEXT="3.2.2 Applying Simple Procedures">
+<node CREATED="1597856423595" ID="ID_1953074621" MODIFIED="1597856437045" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (square x)
+    </p>
+    <p>
+      &#160;&#160;(* x x))
+    </p>
+    <p>
+      (define (sum-of-squares x y)
+    </p>
+    <p>
+      &#160;&#160;(+ (square x) (square y)))
+    </p>
+    <p>
+      (define (f a)
+    </p>
+    <p>
+      &#160;&#160;(sum-of-squares (+ a 1) (* a 2)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1597856441587" ID="ID_828328002" MODIFIED="1597856524766" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1597856517201" ID="ID_1312851684" MODIFIED="1597856520894">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="global_env_sum_square.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
