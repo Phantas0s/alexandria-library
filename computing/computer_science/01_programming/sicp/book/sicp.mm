@@ -81,8 +81,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
@@ -804,8 +803,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
@@ -5901,7 +5899,7 @@
 </node>
 </node>
 <node CREATED="1597486267458" ID="ID_768131575" MODIFIED="1597486268131" TEXT="3.2 The Environment Model of Evaluation ">
-<node CREATED="1597487442690" ID="ID_157243215" MODIFIED="1597487445534" TEXT="Introduction">
+<node CREATED="1597487442690" FOLDED="true" ID="ID_157243215" MODIFIED="1597487445534" TEXT="Introduction">
 <node CREATED="1597486284362" ID="ID_1877848972" LINK="#ID_233356948" MODIFIED="1597486312674" TEXT="Substitution model is no longer adequate">
 <node CREATED="1597486547288" ID="ID_1101013477" MODIFIED="1597486553989" TEXT="Needs a &quot;place&quot; where values are stored"/>
 <node CREATED="1597486554353" ID="ID_1369535346" MODIFIED="1597486580555" TEXT="Places will be maintained in structure">
@@ -5998,7 +5996,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597487439499" ID="ID_1759000869" MODIFIED="1597487440163" TEXT="3.2.1 The Rules for Evaluation ">
+<node CREATED="1597487439499" FOLDED="true" ID="ID_1759000869" MODIFIED="1597487440163" TEXT="3.2.1 The Rules for Evaluation ">
 <node CREATED="1597853798892" ID="ID_1298621788" MODIFIED="1597853804130" TEXT="In environment model of evaluation"/>
 <node CREATED="1597853807149" ID="ID_1183355622" MODIFIED="1597853819778" TEXT="... procedure always pair with">
 <node CREATED="1597853819939" ID="ID_1925634903" MODIFIED="1597853821867" TEXT="some code"/>
@@ -6093,8 +6091,7 @@
   <body>
     <img src="global_env_lambda_applied.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597855860743" ID="ID_1365266762" MODIFIED="1597855864267" TEXT="x bound to 5"/>
 <node CREATED="1597855873511" ID="ID_117710805" MODIFIED="1597855878105" TEXT="Frame enclosing environment"/>
@@ -6139,8 +6136,7 @@
       &#160;&#160;(sum-of-squares (+ a 1) (* a 2)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597856441587" ID="ID_828328002" MODIFIED="1597856524766" TEXT="Illustration">
 <icon BUILTIN="licq"/>
@@ -6152,9 +6148,137 @@
   <body>
     <img src="global_env_sum_square.png" />
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1597911419161" ID="ID_460621938" MODIFIED="1597911426015" TEXT="Apply sum-of-square">
+<node CREATED="1597911426362" ID="ID_1565304192" MODIFIED="1597911532794" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1597911522115" ID="ID_990967594" MODIFIED="1597911527963">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="env_sum_square.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1597911546712" ID="ID_1472498530" MODIFIED="1597911548557" TEXT="Argument">
+<node CREATED="1597911548738" ID="ID_1073087110" MODIFIED="1597911549822" TEXT="6"/>
+<node CREATED="1597911550152" ID="ID_1544538500" MODIFIED="1597911551158" TEXT="10"/>
+</node>
+<node CREATED="1597911585291" ID="ID_1957660630" MODIFIED="1597911598613" TEXT="New env E2">
+<node CREATED="1597911598802" ID="ID_1200602419" MODIFIED="1597911612934" TEXT="Formal parameters x and y bound to args"/>
+<node CREATED="1597911622122" ID="ID_168095998" MODIFIED="1597911635614" TEXT="Evaluate combination (+ (square x) (square y))"/>
+<node CREATED="1597911681656" ID="ID_1850017488" MODIFIED="1597911750118" TEXT="Must evaluate (square x)">
+<node CREATED="1597911690074" ID="ID_865288470" MODIFIED="1597911693747" TEXT="... create new env"/>
+</node>
+</node>
+<node CREATED="1597911694536" ID="ID_1876329813" MODIFIED="1597911697020" TEXT="New env E3">
+<node CREATED="1597911752041" ID="ID_1319753689" MODIFIED="1597911758979" TEXT="Evaluate (square x)"/>
+<node CREATED="1597911701992" ID="ID_589443841" MODIFIED="1597911714229" TEXT="x bound to 6 in (square x)"/>
+<node CREATED="1597911720993" ID="ID_1418235523" MODIFIED="1597911729557" TEXT="Evaluate body of square (* x x)"/>
+</node>
+<node CREATED="1597911736337" ID="ID_1222474381" MODIFIED="1597911739868" TEXT="New env E4">
+<node CREATED="1597911740073" ID="ID_580563349" MODIFIED="1597911765661" TEXT="evaluate (square y)"/>
+<node CREATED="1597911766904" ID="ID_1536003098" MODIFIED="1597911769125" TEXT="x bound to 10"/>
+</node>
+<node CREATED="1597911820903" ID="ID_1513995078" MODIFIED="1597911825316" TEXT="Each frame point to global env">
+<node CREATED="1597911825528" ID="ID_1940548321" MODIFIED="1597911834684" TEXT="because each procedure were declared"/>
+<node CREATED="1597911835000" ID="ID_385075082" MODIFIED="1597911837708" TEXT="... in global env"/>
+</node>
+</node>
+<node CREATED="1597911795608" ID="ID_1808405978" MODIFIED="1597911802612" TEXT="... each call to square create new env"/>
+</node>
+<node CREATED="1597911867015" ID="ID_904826188" MODIFIED="1597911867657" TEXT="3.2.3 Frames as the Repository of Local State ">
+<node CREATED="1597912139357" ID="ID_799405325" MODIFIED="1597912333098" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-withdraw balance)
+    </p>
+    <p>
+      &#160;&#160;(lambda (amount)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if (&gt;= balance amount)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(begin (set! balance (- balance amount))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;balance)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&quot;Insufficient funds&quot;)))
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
+<node CREATED="1597912335124" ID="ID_873787016" MODIFIED="1597912446923" TEXT="Illustrations">
+<icon BUILTIN="licq"/>
+<node CREATED="1597912426652" ID="ID_242613173" MODIFIED="1597912437065">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="env_make_withdraw_def.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1597912457684" ID="ID_1466582388" MODIFIED="1597912487327" TEXT="(define W1 (make-withdraw 100))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1597912438227" ID="ID_1131187016" MODIFIED="1597912440737">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="env_make_withdraw_instance.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1597912559667" ID="ID_194302168" MODIFIED="1597912638673" TEXT="(W1 50)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1597912595194" ID="ID_102534999" MODIFIED="1597912633722">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="env_apply_arg_to_instance.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1597912730065" ID="ID_437963714" MODIFIED="1597912815141" TEXT="Frame of lambda (body of W1) has its enclosing environment E1"/>
+</node>
+<node CREATED="1597912723658" ID="ID_608887067" MODIFIED="1597912728350" TEXT="When set! executed">
+<node CREATED="1597912877616" ID="ID_35781115" MODIFIED="1597912881297">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="env_using_set_bang.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1597912922616" ID="ID_1436316697" MODIFIED="1597912932948" TEXT="Frame of lambda body not relevant anymore"/>
+<node CREATED="1597912933287" ID="ID_1914110572" MODIFIED="1597912936660" TEXT="... because it terminated"/>
 </node>
 </node>
 </node>
