@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572884228477" ID="ID_1588834697" LINK="https://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People" MODIFIED="1572884520861" TEXT="How to win friend and influence people">
+<node CREATED="1572884228477" ID="ID_1588834697" LINK="https://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People" MODIFIED="1598105720318" TEXT="How to win friend and influence people">
 <node CREATED="1572884548977" ID="ID_1759892638" MODIFIED="1572885296652" POSITION="right" TEXT="How this book was written and why">
 <icon BUILTIN="full-0"/>
 <icon BUILTIN="full-0"/>
@@ -46,7 +46,7 @@
 <node CREATED="1572885276017" ID="ID_74210872" MODIFIED="1572885278173" TEXT="be specific"/>
 </node>
 </node>
-<node CREATED="1572885288864" ID="ID_723329863" MODIFIED="1573670695123" POSITION="right" TEXT="Fundamental Techniques in Handling People">
+<node CREATED="1572885288864" FOLDED="true" ID="ID_723329863" MODIFIED="1573670695123" POSITION="right" TEXT="Fundamental Techniques in Handling People">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -66,10 +66,7 @@
 <icon BUILTIN="full-1"/>
 <node CREATED="1572885343680" FOLDED="true" ID="ID_1028431961" MODIFIED="1573670701394" TEXT="If you want to gather honey, don&apos;t kick over the beehive">
 <icon BUILTIN="full-1"/>
-<node CREATED="1572885373839" ID="ID_147919966" MODIFIED="1572885381939" TEXT="People don&apos;t criticize themselves for anything">
-<node CREATED="1572885382350" ID="ID_1976786979" MODIFIED="1572885386564" TEXT="It&apos;s wrong!"/>
-<node CREATED="1572885386935" ID="ID_174100018" MODIFIED="1572885391628" TEXT="Vast majority"/>
-</node>
+<node CREATED="1572885373839" ID="ID_147919966" MODIFIED="1572885381939" TEXT="People don&apos;t criticize themselves for anything"/>
 <node CREATED="1572885396768" ID="ID_1779351721" MODIFIED="1572885399819" TEXT="Criticism futile">
 <node CREATED="1572885399999" ID="ID_909076922" MODIFIED="1572885403579" TEXT="Wound pride"/>
 <node CREATED="1572885403902" ID="ID_1319537091" MODIFIED="1572885410332" TEXT="Hurt sense of importance"/>
@@ -80,7 +77,7 @@
 <node CREATED="1572885476270" ID="ID_67738632" MODIFIED="1572885478802" TEXT="understand them"/>
 <node CREATED="1572885457951" ID="ID_1469800571" MODIFIED="1572885462882" TEXT="change yourself"/>
 </node>
-<node COLOR="#338800" CREATED="1572885484854" ID="ID_473951883" MODIFIED="1572885499429" TEXT="Principle 1: Don&apos;t criticize, condemn or complain">
+<node COLOR="#338800" CREATED="1572885484854" ID="ID_473951883" MODIFIED="1598105632871" TEXT="Principle 1: Don&apos;t criticize, condemn or complain">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -159,7 +156,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572886212616" FOLDED="true" ID="ID_678112802" MODIFIED="1573671076975" POSITION="right" TEXT="Ways to Make People Like You">
+<node CREATED="1572886212616" FOLDED="true" ID="ID_678112802" MODIFIED="1598105683242" POSITION="right" TEXT="Ways to Make People Like You">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -184,9 +181,10 @@
       <font color="#338800" face="SansSerif, sans-serif"><b>Principle 6: Make the other person feel important, and do it sincerely</b></font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <icon BUILTIN="full-2"/>
-<node CREATED="1572886222512" ID="ID_379471723" MODIFIED="1572951799804" TEXT="Do this and you&apos;ll be welcome anywhere">
+<node CREATED="1572886222512" FOLDED="true" ID="ID_379471723" MODIFIED="1572951799804" TEXT="Do this and you&apos;ll be welcome anywhere">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572941673278" ID="ID_1751375919" MODIFIED="1572941678731" TEXT="Be interested in other people">
 <node CREATED="1572941678909" ID="ID_105225222" MODIFIED="1572941791369" TEXT="Instead of getting people interested in you"/>
@@ -198,7 +196,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1572941900529" ID="ID_1829387183" MODIFIED="1572951799804" TEXT="A simple way to make a good first impression">
+<node CREATED="1572941900529" FOLDED="true" ID="ID_1829387183" MODIFIED="1572951799804" TEXT="A simple way to make a good first impression">
 <icon BUILTIN="full-2"/>
 <node CREATED="1572941920283" ID="ID_916298388" MODIFIED="1572941931696" TEXT="Smile genuinely, honestly to others"/>
 <node CREATED="1572941940196" ID="ID_1651142763" MODIFIED="1572941945272" TEXT="Smile powerful even when unseen"/>
@@ -223,7 +221,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1572942213649" ID="ID_1051279817" MODIFIED="1572951799804" TEXT="If you don&apos;t do this, you are headed for trouble">
+<node CREATED="1572942213649" FOLDED="true" ID="ID_1051279817" MODIFIED="1572951799804" TEXT="If you don&apos;t do this, you are headed for trouble">
 <icon BUILTIN="full-3"/>
 <node CREATED="1572942260143" ID="ID_353235194" MODIFIED="1572942267581" TEXT="Remember the name of people you meet">
 <node CREATED="1572942268913" ID="ID_147619900" MODIFIED="1572942271837" TEXT="Don&apos;t forget them"/>
@@ -243,11 +241,9 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1572942420255" ID="ID_1116050542" MODIFIED="1572951799804" TEXT="An easy way to become a good conversationalist">
+<node CREATED="1572942420255" FOLDED="true" ID="ID_1116050542" MODIFIED="1572951799804" TEXT="An easy way to become a good conversationalist">
 <icon BUILTIN="full-4"/>
-<node CREATED="1572942437831" ID="ID_1118039454" MODIFIED="1572942446746" TEXT="Listen intently to others">
-<node CREATED="1572942446983" ID="ID_991989193" MODIFIED="1572942451676" TEXT="and be genuinely interested"/>
-</node>
+<node CREATED="1572942437831" ID="ID_1118039454" MODIFIED="1598105758217" TEXT="Listen intently to others and be genuinely interested"/>
 <node CREATED="1572942456231" ID="ID_162631070" MODIFIED="1572942459147" TEXT="Actively listen">
 <node CREATED="1572942459336" ID="ID_1116335345" MODIFIED="1572942470283" TEXT="Your body should show interest in others speaking"/>
 </node>
@@ -263,7 +259,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1572942556334" ID="ID_650656591" MODIFIED="1572951799804" TEXT="How to interest people">
+<node CREATED="1572942556334" FOLDED="true" ID="ID_650656591" MODIFIED="1572951799804" TEXT="How to interest people">
 <icon BUILTIN="full-5"/>
 <node COLOR="#338800" CREATED="1572942579919" ID="ID_846927875" MODIFIED="1572942592917" TEXT="Principle 5: Talk in terms of other person&apos;s interests">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -287,7 +283,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572942813565" ID="ID_1946947117" MODIFIED="1573671599703" POSITION="left" TEXT="How to Win People to Your Way of Thinking">
+<node CREATED="1572942813565" FOLDED="true" ID="ID_1946947117" MODIFIED="1573671599703" POSITION="left" TEXT="How to Win People to Your Way of Thinking">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -330,8 +326,7 @@
       <font color="#338800" face="SansSerif, sans-serif"><b>Principle 12: Throw down a challenge</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-3"/>
 <node CREATED="1572942840636" FOLDED="true" ID="ID_285963871" MODIFIED="1572943386672" TEXT="You can&apos;t win an argument">
 <icon BUILTIN="full-1"/>
@@ -344,39 +339,39 @@
 <node CREATED="1572942898634" ID="ID_1361239523" MODIFIED="1572942902271" TEXT="Theatral victory"/>
 <node CREATED="1572942902611" ID="ID_1522476329" MODIFIED="1572942903928" TEXT="Good will"/>
 </node>
-<node CREATED="1572942915428" ID="ID_1618214746" MODIFIED="1572942922568" TEXT="How to keep disagreement to be an argument">
-<node CREATED="1572942922713" ID="ID_13988803" MODIFIED="1572942942857" TEXT="Welcome the disagreement">
+<node CREATED="1572942915428" FOLDED="true" ID="ID_1618214746" MODIFIED="1572942922568" TEXT="How to keep disagreement to be an argument">
+<node CREATED="1572942922713" FOLDED="true" ID="ID_13988803" MODIFIED="1572942942857" TEXT="Welcome the disagreement">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572942931251" ID="ID_43611478" MODIFIED="1572942939303" TEXT="could be the opportunity to be corrected"/>
 </node>
-<node CREATED="1572942940068" ID="ID_237708667" MODIFIED="1572942980848" TEXT="Distrust your first instinctive impressions">
+<node CREATED="1572942940068" FOLDED="true" ID="ID_237708667" MODIFIED="1572942980848" TEXT="Distrust your first instinctive impressions">
 <icon BUILTIN="full-2"/>
 <node CREATED="1572942962218" ID="ID_602183436" MODIFIED="1572942985473" TEXT="Don&apos;t be defensive"/>
 <node CREATED="1572942965148" ID="ID_975699931" MODIFIED="1572942988008" TEXT="Keep calm"/>
 <node CREATED="1572942972683" ID="ID_1838642952" MODIFIED="1572942990613" TEXT="Watch out your first reaction"/>
 </node>
-<node CREATED="1572942991681" ID="ID_677422785" MODIFIED="1572942999737" TEXT="Control your temper">
+<node CREATED="1572942991681" FOLDED="true" ID="ID_677422785" MODIFIED="1572942999737" TEXT="Control your temper">
 <icon BUILTIN="full-3"/>
 <node CREATED="1572943006249" ID="ID_1950674351" MODIFIED="1572943011029" TEXT="You can measure the size of a person"/>
 <node CREATED="1572943011362" ID="ID_226105795" MODIFIED="1572943034759" TEXT="... by what makes him angry"/>
 </node>
-<node CREATED="1572943035882" ID="ID_463182165" MODIFIED="1572943102928" TEXT="Listen first">
+<node CREATED="1572943035882" FOLDED="true" ID="ID_463182165" MODIFIED="1572943102928" TEXT="Listen first">
 <icon BUILTIN="full-4"/>
 <node CREATED="1572943046186" ID="ID_1285440936" MODIFIED="1572943048853" TEXT="Let them finish"/>
 <node CREATED="1572943049208" ID="ID_1258948213" MODIFIED="1572943051230" TEXT="Do not resit"/>
 </node>
-<node CREATED="1572943051808" ID="ID_1922338617" MODIFIED="1572943105055" TEXT="Look for areas of agreement">
+<node CREATED="1572943051808" FOLDED="true" ID="ID_1922338617" MODIFIED="1572943105055" TEXT="Look for areas of agreement">
 <icon BUILTIN="full-5"/>
 <node CREATED="1572943063306" ID="ID_1201189717" MODIFIED="1572943068477" TEXT="after hearing opponent out"/>
 </node>
-<node CREATED="1572943069057" ID="ID_97735507" MODIFIED="1572943107280" TEXT="Be honest">
+<node CREATED="1572943069057" FOLDED="true" ID="ID_97735507" MODIFIED="1572943107280" TEXT="Be honest">
 <icon BUILTIN="full-6"/>
 <node CREATED="1572943075840" ID="ID_872418247" MODIFIED="1572943080637" TEXT="Look for your errors"/>
 <node CREATED="1572943080993" ID="ID_918306704" MODIFIED="1572943088679" TEXT="Apologize for your mistakes">
 <node CREATED="1572943092627" ID="ID_1334922458" MODIFIED="1572943098159" TEXT="reduce defensiveness"/>
 </node>
 </node>
-<node CREATED="1572943113049" ID="ID_1693554968" MODIFIED="1572943135200" TEXT="Promise to think over your opponents&apos; ideas">
+<node CREATED="1572943113049" FOLDED="true" ID="ID_1693554968" MODIFIED="1572943135200" TEXT="Promise to think over your opponents&apos; ideas">
 <icon BUILTIN="full-7"/>
 <node CREATED="1572943127929" ID="ID_782710620" MODIFIED="1572943146196" TEXT="... and study them carefully"/>
 <node CREATED="1572943146792" ID="ID_526753365" MODIFIED="1572943147790" TEXT="Mean it"/>
@@ -385,13 +380,13 @@
 <node CREATED="1572943161576" ID="ID_1850346173" MODIFIED="1572943175108" TEXT="&quot;We tried to tell you but you would not listen&quot;"/>
 </node>
 </node>
-<node CREATED="1572943179082" ID="ID_271516777" MODIFIED="1572943250414" TEXT="Thank your opponent for their interest">
+<node CREATED="1572943179082" FOLDED="true" ID="ID_271516777" MODIFIED="1572943250414" TEXT="Thank your opponent for their interest">
 <icon BUILTIN="full-8"/>
 <node CREATED="1572943193304" ID="ID_1985747973" MODIFIED="1572943197558" TEXT="Think of them as friends"/>
 <node CREATED="1572943206106" ID="ID_1293240362" MODIFIED="1572943211094" TEXT="Interested in same things as you"/>
 <node CREATED="1572943224544" ID="ID_614037094" MODIFIED="1572943232141" TEXT="... think they take time to disagree"/>
 </node>
-<node CREATED="1572943235577" ID="ID_456345805" MODIFIED="1572943274013" TEXT="Postpone action to give both sides time">
+<node CREATED="1572943235577" FOLDED="true" ID="ID_456345805" MODIFIED="1572943274013" TEXT="Postpone action to give both sides time">
 <icon BUILTIN="full-9"/>
 <node CREATED="1572943274449" ID="ID_156966711" MODIFIED="1572943275637" TEXT="...  to think through the problem"/>
 <node CREATED="1572943287720" ID="ID_1246950109" MODIFIED="1572943296109" TEXT="... to prepare / ask yourself">
@@ -411,26 +406,26 @@
 </node>
 <node CREATED="1572943401950" FOLDED="true" ID="ID_27676293" MODIFIED="1572943749242" TEXT="A sure way of making enemies - and how to avoid it">
 <icon BUILTIN="full-2"/>
-<node CREATED="1572943434566" ID="ID_776247775" MODIFIED="1572943442626" TEXT="You can say to people they are wrong with">
+<node CREATED="1572943434566" FOLDED="true" ID="ID_776247775" MODIFIED="1572943442626" TEXT="You can say to people they are wrong with">
 <node CREATED="1572943442774" ID="ID_64274602" MODIFIED="1572943446291" TEXT="intonation"/>
 <node CREATED="1572943446701" ID="ID_303255154" MODIFIED="1572943448331" TEXT="gesture"/>
 <node CREATED="1572943448709" ID="ID_980631611" MODIFIED="1572943451203" TEXT="speaking"/>
 </node>
-<node CREATED="1572943454967" ID="ID_74252828" MODIFIED="1572943459756" TEXT="If you say to people they&apos;re wrong">
+<node CREATED="1572943454967" FOLDED="true" ID="ID_74252828" MODIFIED="1572943459756" TEXT="If you say to people they&apos;re wrong">
 <node CREATED="1572943461350" ID="ID_357022985" MODIFIED="1572943467651" TEXT="won&apos;t alter their opinions"/>
 <node CREATED="1572943466142" ID="ID_1950401317" MODIFIED="1572943472124" TEXT="hurt feeling"/>
 </node>
-<node CREATED="1572943476670" ID="ID_1109977071" MODIFIED="1572943489484" TEXT="If you want to prove anything, do it">
+<node CREATED="1572943476670" FOLDED="true" ID="ID_1109977071" MODIFIED="1572943489484" TEXT="If you want to prove anything, do it">
 <node CREATED="1572943489743" ID="ID_1614175184" MODIFIED="1572943492499" TEXT="subtly"/>
 <node CREATED="1572943492877" ID="ID_1588932516" MODIFIED="1572943496747" TEXT="adroitly"/>
 </node>
-<node CREATED="1572943607223" ID="ID_637322543" MODIFIED="1572943662980" TEXT="Example">
+<node CREATED="1572943607223" FOLDED="true" ID="ID_637322543" MODIFIED="1572943662980" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1572943610271" ID="ID_528247057" MODIFIED="1572943635618" TEXT="&quot;I may be wrong.  I frequently am. Let&apos;s examine the facts&quot;"/>
 <node CREATED="1572943636045" ID="ID_692844260" MODIFIED="1572943641976" TEXT="Nobody can&apos;t go against that"/>
 <node CREATED="1572943647892" ID="ID_251323151" MODIFIED="1572943655514" TEXT="Opponent more likely to admit he&apos;s wrong"/>
 </node>
-<node CREATED="1572943656165" ID="ID_1456920792" MODIFIED="1572943678121" TEXT="Don&apos;t say to people they are wrong">
+<node CREATED="1572943656165" FOLDED="true" ID="ID_1456920792" MODIFIED="1572943678121" TEXT="Don&apos;t say to people they are wrong">
 <node CREATED="1572943683157" ID="ID_241473281" MODIFIED="1572943687200" TEXT="bring them to the fact gently">
 <node CREATED="1572943687868" ID="ID_747669277" MODIFIED="1572943689642" TEXT="without saying it"/>
 </node>
@@ -544,7 +539,8 @@
 <node CREATED="1572944716029" FOLDED="true" ID="ID_392483111" MODIFIED="1572951784930" TEXT="What everybody wants">
 <icon BUILTIN="full-9"/>
 <node CREATED="1572944725061" ID="ID_954679677" MODIFIED="1572944729377" TEXT="Magic sentence which stop arguments">
-<node CREATED="1572944742557" ID="ID_750649156" MODIFIED="1572944775777" TEXT="&quot;I don&apos;t blame you one iota for feeling as you do. If I were you, I would undoubtedly feel just as you do&quot;"/>
+<node CREATED="1572944742557" ID="ID_750649156" MODIFIED="1598105962373" TEXT="&quot;I don&apos;t blame you one iota for feeling as you do"/>
+<node CREATED="1598105963355" ID="ID_1417762578" MODIFIED="1598105970374" TEXT=",.. If I were you, I would undoubtedly feel just as you do&quot;"/>
 </node>
 <node COLOR="#338800" CREATED="1572944777420" ID="ID_1014455559" MODIFIED="1572944804140" TEXT="Principle 9: Be sympathetic with the other person&apos;s ideas and desires">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -597,7 +593,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572950907299" FOLDED="true" ID="ID_1879107379" MODIFIED="1573671677902" POSITION="left" TEXT="Be a Leader: How to Change People Without Giving Offense or Arousing Resentment">
+<node CREATED="1572950907299" FOLDED="true" ID="ID_1879107379" MODIFIED="1598106112142" POSITION="left" TEXT="Be a Leader: How to Change People Without Giving Offense or Arousing Resentment">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -766,10 +762,6 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-</node>
-<node CREATED="1573671183218" ID="ID_1500686594" MODIFIED="1573671503995" POSITION="left" TEXT="Comments">
-<icon BUILTIN="help"/>
-<icon BUILTIN="yes"/>
 </node>
 </node>
 </map>

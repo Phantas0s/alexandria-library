@@ -1,12 +1,23 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1507318196563" ID="ID_760103375" MODIFIED="1507376935767" TEXT="Psychology of focus">
-<node CREATED="1507318414800" ID="ID_1310545894" MODIFIED="1535221949365" POSITION="right" TEXT="Focus">
+<node CREATED="1507318196563" ID="ID_760103375" MODIFIED="1598106456896" TEXT="Psychology of focus">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The source of this has been totally lost. I think it was an Udemy courses or something (which means it's already a summary of one / multiple books).
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1507318414800" FOLDED="true" ID="ID_1310545894" MODIFIED="1535221949365" POSITION="right" TEXT="Focus">
 <icon BUILTIN="full-1"/>
 <node CREATED="1507318713573" ID="ID_1901004311" MODIFIED="1507318726172" TEXT="Prioritising important thing"/>
 <node CREATED="1507318727139" ID="ID_564413187" MODIFIED="1507318733146" TEXT="Learn to say no"/>
 </node>
-<node CREATED="1507318759089" ID="ID_1972033171" MODIFIED="1535221990815" POSITION="left" TEXT="Brain">
+<node CREATED="1507318759089" FOLDED="true" ID="ID_1972033171" MODIFIED="1535221990815" POSITION="right" TEXT="Brain">
 <icon BUILTIN="full-2"/>
 <node CREATED="1507318761609" ID="ID_1904437843" MODIFIED="1507318772297" TEXT="Very sensible to any distraction"/>
 <node CREATED="1507318864614" ID="ID_326586896" MODIFIED="1507318869945" TEXT="Switching is tiring"/>
@@ -32,9 +43,24 @@
 </node>
 </node>
 </node>
-<node CREATED="1507319640845" ID="ID_1577705042" MODIFIED="1535221995385" POSITION="right" TEXT="Energy">
+<node CREATED="1507319640845" FOLDED="true" ID="ID_1577705042" MODIFIED="1535221995385" POSITION="right" TEXT="Energy">
 <icon BUILTIN="full-3"/>
 <node CREATED="1507319660047" ID="ID_922982519" MODIFIED="1507319668800" TEXT="The power Of full engagement"/>
+<node COLOR="#338800" CREATED="1598106323580" ID="ID_1232099094" MODIFIED="1598106401017" TEXT="Categorization looks arbitrary to me">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Don't look very scientific (but wannabe), but still bring some interesting insights (I guess?).
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
 <node CREATED="1507319670463" ID="ID_851879964" MODIFIED="1507319674715" TEXT="Spiritual">
 <node CREATED="1507319698071" ID="ID_1434791238" MODIFIED="1507319704595" TEXT="Finite amount"/>
 <node CREATED="1507319705585" ID="ID_1037366299" MODIFIED="1507319711144" TEXT="Strength">
@@ -135,7 +161,7 @@
 <node CREATED="1507379039766" ID="ID_1306674609" MODIFIED="1507379042780" TEXT="Working place"/>
 </node>
 </node>
-<node CREATED="1507458730076" ID="ID_917081064" MODIFIED="1535222003482" POSITION="right" TEXT="Productivity system">
+<node CREATED="1507458730076" ID="ID_917081064" MODIFIED="1535222003482" POSITION="left" TEXT="Productivity system">
 <icon BUILTIN="full-5"/>
 <node CREATED="1507459189509" ID="ID_1048432794" MODIFIED="1507459191805" TEXT="Values">
 <node CREATED="1507458737583" ID="ID_1460550688" MODIFIED="1507458745770" TEXT="Better understanding of values"/>
