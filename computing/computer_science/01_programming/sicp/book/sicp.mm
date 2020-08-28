@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1597856189717" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1598593489816" TEXT="CISP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -81,7 +81,8 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
@@ -311,7 +312,7 @@
 <node CREATED="1588858197908" ID="ID_235788947" MODIFIED="1588858207138" TEXT="... that can be written in more uniform ways"/>
 </node>
 </node>
-<node CREATED="1528636673800" FOLDED="true" ID="ID_954289629" MODIFIED="1549911713716" TEXT="1.1.4 Compound procedures">
+<node CREATED="1528636673800" ID="ID_954289629" MODIFIED="1549911713716" TEXT="1.1.4 Compound procedures">
 <node CREATED="1528636685290" ID="ID_1138337227" MODIFIED="1528636693700" TEXT="Procedure definitions">
 <node CREATED="1528636693956" ID="ID_1037545618" MODIFIED="1528636700713" TEXT="More powerful way of abstraction"/>
 <node CREATED="1588766959756" ID="ID_1057176309" MODIFIED="1588766967628" TEXT="Example">
@@ -772,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1597853576474" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1598593489853" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -803,7 +804,8 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
@@ -6218,8 +6220,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&quot;Insufficient funds&quot;)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597912335124" ID="ID_873787016" MODIFIED="1597912446923" TEXT="Illustrations">
 <icon BUILTIN="licq"/>
@@ -6231,8 +6232,7 @@
   <body>
     <img src="env_make_withdraw_def.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1597912457684" ID="ID_1466582388" MODIFIED="1597912487327" TEXT="(define W1 (make-withdraw 100))">
@@ -6260,8 +6260,7 @@
   <body>
     <img src="env_apply_arg_to_instance.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597912730065" ID="ID_437963714" MODIFIED="1597912815141" TEXT="Frame of lambda (body of W1) has its enclosing environment E1"/>
 </node>
@@ -6274,11 +6273,91 @@
   <body>
     <img src="env_using_set_bang.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597912922616" ID="ID_1436316697" MODIFIED="1597912932948" TEXT="Frame of lambda body not relevant anymore"/>
 <node CREATED="1597912933287" ID="ID_1914110572" MODIFIED="1597912936660" TEXT="... because it terminated"/>
+</node>
+</node>
+</node>
+<node CREATED="1598593547835" ID="ID_1694290100" MODIFIED="1598593549016" TEXT="3.2.4 Internal Definitions ">
+<node CREATED="1598593820532" ID="ID_157089910" LINK="#ID_806499112" MODIFIED="1598594058586" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (sqrt x)
+    </p>
+    <p>
+      &#160;&#160;(define (good-enough? guess)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(&lt; (abs (- (square guess) x)) 0.001))
+    </p>
+    <p>
+      &#160;&#160;(define (improve guess)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(average guess (/ x guess)))
+    </p>
+    <p>
+      &#160;&#160;(define (sqrt-iter guess)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if (good-enough? guess)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;guess
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(sqrt-iter (improve guess))))
+    </p>
+    <p>
+      &#160;&#160;(sqrt-iter 1.0))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598594113914" ID="ID_988372406" MODIFIED="1598594117078" TEXT="Evaluate (sqrt 2)">
+<node CREATED="1598594119977" ID="ID_1273553398" MODIFIED="1598594125438" TEXT="New env (E1) formed">
+<node CREATED="1598594126353" ID="ID_1155098845" MODIFIED="1598594131486" TEXT="parameter x"/>
+<node CREATED="1598594131891" ID="ID_1218239356" MODIFIED="1598594133813" TEXT="... is bound to 2"/>
+</node>
+<node CREATED="1598597090767" ID="ID_39085435" MODIFIED="1598597122411" TEXT="Symbols defined in E1">
+<node CREATED="1598597097638" ID="ID_934716769" MODIFIED="1598597100066" TEXT="good-enough"/>
+<node CREATED="1598597100871" ID="ID_1825670024" MODIFIED="1598597101850" TEXT="improve"/>
+<node CREATED="1598597102590" ID="ID_671301696" MODIFIED="1598597108583" TEXT="sqrt-iter"/>
+</node>
+<node CREATED="1598596838038" ID="ID_376967538" MODIFIED="1598597117822" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1598596936123" ID="ID_1102681333" MODIFIED="1598596984884">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="env_internal_definition.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1598597208852" ID="ID_1895586606" MODIFIED="1598597217297" TEXT="symbol x appearing in good enough"/>
+<node CREATED="1598597218477" ID="ID_174157225" MODIFIED="1598597229954" TEXT="... reference binding of x in E1"/>
+</node>
+<node CREATED="1598597246557" ID="ID_1798481766" MODIFIED="1598597257329" TEXT="Two key properties for local defintions">
+<node CREATED="1598597288693" ID="ID_909435711" MODIFIED="1598597291033" TEXT="Collision">
+<node CREATED="1598597257821" ID="ID_1925133176" MODIFIED="1598597265040" TEXT="Names of local procedures don&apos;t interfere"/>
+<node CREATED="1598597265413" ID="ID_1187851399" MODIFIED="1598597271216" TEXT="... with names of the enclosing procedure"/>
+<node CREATED="1598597274267" ID="ID_1934749673" MODIFIED="1598597278721" TEXT="... because in different frames"/>
+</node>
+<node CREATED="1598597295060" ID="ID_142007628" MODIFIED="1598597302056" TEXT="Parent frame">
+<node CREATED="1598597302276" ID="ID_1627746967" MODIFIED="1598597308337" TEXT="Local procedure can access arg"/>
+<node CREATED="1598597308692" ID="ID_977015426" MODIFIED="1598597314777" TEXT="... of enclosing procedure"/>
+<node CREATED="1598597333069" ID="ID_1217682694" MODIFIED="1598597339880" TEXT="... because of subordinate environments"/>
 </node>
 </node>
 </node>
