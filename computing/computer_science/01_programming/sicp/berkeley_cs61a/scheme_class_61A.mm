@@ -1031,7 +1031,8 @@
 </node>
 <node CREATED="1596776271617" ID="ID_5472733" MODIFIED="1596776331594" POSITION="right" TEXT="Hierarchical data / Scheme Interpreter">
 <icon BUILTIN="full-7"/>
-<node CREATED="1596949736131" ID="ID_568767149" MODIFIED="1596949743293" TEXT="A Calculator Program">
+<node CREATED="1596949736131" ID="ID_568767149" MODIFIED="1598604382652" TEXT="A Calculator Program">
+<icon BUILTIN="full-1"/>
 <node CREATED="1596949818031" ID="ID_246351926" MODIFIED="1596949819732" TEXT="(print (calc-eval (read)))">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1596949819944" ID="ID_459432575" MODIFIED="1596949829172" TEXT="Read is a primitive"/>
@@ -1090,7 +1091,10 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1596950321348" ID="ID_50053289" MODIFIED="1596950326001" TEXT="Trees">
+<node CREATED="1596950321348" ID="ID_50053289" MODIFIED="1598604770987" TEXT="Trees">
+<icon BUILTIN="full-2"/>
+<node CREATED="1598604386614" ID="ID_1557164026" MODIFIED="1598604394914" TEXT="Definitions">
+<icon BUILTIN="full-0"/>
 <node CREATED="1596950327381" ID="ID_296127130" MODIFIED="1596950330921" TEXT="What trees good for">
 <node CREATED="1596950331172" ID="ID_598804970" MODIFIED="1596950346247" TEXT="Hierarchy">
 <node CREATED="1596950357445" ID="ID_1303609778" MODIFIED="1596950367737" TEXT="Example">
@@ -1113,6 +1117,767 @@
 <node CREATED="1596950376244" ID="ID_195355894" MODIFIED="1596950384007" TEXT="Arithmetic operations at branches"/>
 <node CREATED="1596950384412" ID="ID_1993119219" MODIFIED="1596950387440" TEXT="Number at leaves"/>
 </node>
+</node>
+</node>
+<node CREATED="1598603716602" ID="ID_967893702" MODIFIED="1598603717774" TEXT="Node">
+<node CREATED="1598603725650" ID="ID_232055568" MODIFIED="1598603730398" TEXT="Point in the tree"/>
+<node CREATED="1598603750178" ID="ID_373844892" MODIFIED="1598603807829" TEXT="Include">
+<node CREATED="1598603808441" ID="ID_1945983988" MODIFIED="1598603808876" TEXT="a datum">
+<node CREATED="1598603768985" ID="ID_445214023" MODIFIED="1598603772101" TEXT="Value of the node"/>
+</node>
+<node CREATED="1598603828217" ID="ID_623673640" MODIFIED="1598603868812" TEXT="The entire structure connected to it"/>
+</node>
+<node CREATED="1598603871784" ID="ID_1706862329" MODIFIED="1598603882779" TEXT="... so each node itself is a tree">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1598603912225" ID="ID_282175709" MODIFIED="1598603918684" TEXT="Another synonym for node">
+<node CREATED="1598603918830" ID="ID_646948986" MODIFIED="1598603920348" TEXT="subtree"/>
+<node CREATED="1598603920760" ID="ID_1574453787" MODIFIED="1598603926700" TEXT="tree is commonly the entire structure"/>
+<node CREATED="1598603927414" ID="ID_201174592" MODIFIED="1598603936540" TEXT=".. we manipulate"/>
+</node>
+</node>
+<node CREATED="1598603942929" ID="ID_1409008959" MODIFIED="1598603944444" TEXT="Root node">
+<node CREATED="1598603944864" ID="ID_527223332" MODIFIED="1598603949148" TEXT="... or just root"/>
+<node CREATED="1598603966577" ID="ID_1352242594" MODIFIED="1598603970828" TEXT="Every tree has only one root"/>
+</node>
+<node CREATED="1598603986008" ID="ID_1920162793" MODIFIED="1598603988348" TEXT="Children of a node">
+<node CREATED="1598603988576" ID="ID_693901222" MODIFIED="1598603994900" TEXT="nodes directly beneath it"/>
+</node>
+<node CREATED="1598603997783" ID="ID_780083868" MODIFIED="1598603998980" TEXT="Leaf node">
+<node CREATED="1598603999184" ID="ID_1821094812" MODIFIED="1598604002052" TEXT="Node which has no children"/>
+</node>
+</node>
+<node CREATED="1598604009384" ID="ID_420198897" MODIFIED="1598604399802" TEXT="The Tree abstract data type">
+<icon BUILTIN="full-1"/>
+<node CREATED="1598604033360" ID="ID_544015331" MODIFIED="1598604036931" TEXT="Commonly used tree">
+<node CREATED="1598604037127" ID="ID_137948402" MODIFIED="1598604046712" TEXT="code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (make-tree datum children)
+    </p>
+    <p>
+      (datum node)
+    </p>
+    <p>
+      (children node)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598604053592" ID="ID_1341855739" MODIFIED="1598604059931" TEXT="Selector children should return a lilst of tree"/>
+<node CREATED="1598604064927" ID="ID_1003968251" MODIFIED="1598604069644" TEXT="List of tree is a forest">
+<node CREATED="1598604078871" ID="ID_1884788388" MODIFIED="1598604081123" TEXT="Tree and forest"/>
+<node CREATED="1598604081486" ID="ID_1801531317" MODIFIED="1598604086091" TEXT="... are two different datatypes"/>
+</node>
+</node>
+<node CREATED="1598604265198" ID="ID_539257853" MODIFIED="1598604289012" TEXT="Leaf node implementation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (leaf? node)
+    </p>
+    <p>
+      (null? (children node)) )
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1598604289190" ID="ID_589926197" MODIFIED="1598604405410" TEXT="Mapping over trees">
+<icon BUILTIN="full-2"/>
+<node CREATED="1598604303414" ID="ID_1922884790" MODIFIED="1598604324788" TEXT="Code simple and elegant">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (treemap fn tree)
+    </p>
+    <p>
+      &#160;&#160;(make-tree (fn (datum tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(map (lambda (t) (treemap fn t))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(children tree) )))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598604332998" ID="ID_45737886" MODIFIED="1598604339921" TEXT="The most beautiful thing sees in the course!">
+<node COLOR="#338800" CREATED="1598604340422" ID="ID_1971545728" MODIFIED="1598604366695" TEXT="Brian Harvey is so cute when he&apos;s speaking about that :D">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+</node>
+<node CREATED="1598604375764" ID="ID_681490722" MODIFIED="1598604406302" TEXT="Mutual recursion ">
+<icon BUILTIN="full-3"/>
+<node CREATED="1598604426061" ID="ID_383065085" MODIFIED="1598604430544" TEXT="Treemap doesn&apos;t call itself!"/>
+<node CREATED="1598604436237" ID="ID_1382050625" MODIFIED="1598604443914" TEXT="Treemap call map which calls treemap"/>
+<node CREATED="1598604703843" ID="ID_1573583089" MODIFIED="1598604727655" TEXT="Mutual recursion">
+<node CREATED="1598604706267" ID="ID_685980059" MODIFIED="1598604729039" TEXT="Procedure A invokes procedure B">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1598604715060" ID="ID_402321939" MODIFIED="1598604729648" TEXT="Procedure B invokes procedure A">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1598604738618" ID="ID_1832903602" MODIFIED="1598604760927" TEXT="Treemap without map">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (treemap fn tree)
+    </p>
+    <p>
+      &#160;&#160;(make-tree (fn (datum tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(forest-map fn (children tree))))
+    </p>
+    <p>
+      (define (forest-map fn forest)
+    </p>
+    <p>
+      &#160;&#160;(if (null? forest)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#8217;()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cons (treemap fn (car forest))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(forest-map fn (cdr forest)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598604779123" ID="ID_746078503" MODIFIED="1598604787454" TEXT="Allows to explore two dimensional data structures"/>
+<node CREATED="1598604815730" ID="ID_1538043095" MODIFIED="1598604819294" TEXT="For forest use">
+<node CREATED="1598604819458" ID="ID_1686955619" MODIFIED="1598604820782" TEXT="cons"/>
+<node CREATED="1598604821408" ID="ID_1436421890" MODIFIED="1598604822062" TEXT="car"/>
+<node CREATED="1598604822394" ID="ID_1290819086" MODIFIED="1598604823246" TEXT="cdr"/>
+<node CREATED="1598604823594" ID="ID_1569860012" MODIFIED="1598604825839" TEXT="... forest is a list"/>
+</node>
+<node CREATED="1598604826547" ID="ID_1062414603" MODIFIED="1598604828975" TEXT="For trees use">
+<node CREATED="1598604829218" ID="ID_863234596" MODIFIED="1598604831606" TEXT="make-tree"/>
+<node CREATED="1598604831994" ID="ID_534107467" MODIFIED="1598604833238" TEXT="datum"/>
+<node CREATED="1598604833626" ID="ID_1621600255" MODIFIED="1598604834830" TEXT="children"/>
+<node CREATED="1598604835186" ID="ID_480552126" MODIFIED="1598604839567" TEXT="... tree is another data structure"/>
+<node CREATED="1598604839946" ID="ID_1725026689" MODIFIED="1598604841839" TEXT="... not a list!"/>
+</node>
+</node>
+</node>
+<node CREATED="1598604852706" ID="ID_423345187" MODIFIED="1598604857166" TEXT="Deep lists">
+<icon BUILTIN="full-3"/>
+<node CREATED="1598604929578" ID="ID_683530749" MODIFIED="1598604932414" TEXT="List that contains lists"/>
+<node CREATED="1598604939098" ID="ID_833072765" MODIFIED="1598604953467" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1598604941337" ID="ID_1875078950" MODIFIED="1598604956427" TEXT="[[john lennon] [paul mccartney] [george harrison] [ringo starr]] ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1598605013794" FOLDED="true" ID="ID_919256773" MODIFIED="1598605018400" TEXT="illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1598605018817" ID="ID_166515362" MODIFIED="1598605021377">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="deep-list.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1598605024744" ID="ID_583775988" MODIFIED="1598605029973" TEXT="Not a tree data structure">
+<node CREATED="1598605030137" ID="ID_409934364" MODIFIED="1598605037853" TEXT="Only datum on leaf nodes"/>
+</node>
+<node CREATED="1598605047521" ID="ID_442010160" MODIFIED="1598605082741" TEXT="... can nevertheless use idea of tree manipulation">
+<node CREATED="1598605083345" ID="ID_1145877639" MODIFIED="1598605093199" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1598605085344" ID="ID_904681666" MODIFIED="1598605089614" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (deep-map fn lol)
+    </p>
+    <p>
+      &#160;&#160;(if (list? lol)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(map (lambda (element) (deep-map fn element))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;lol)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(fn lol)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598605098497" ID="ID_713552223" MODIFIED="1598605101044" TEXT="lol = list of list"/>
+</node>
+</node>
+</node>
+<node CREATED="1598605181504" ID="ID_1298550837" MODIFIED="1598605475838" TEXT="Car / cdr recursion">
+<icon BUILTIN="full-4"/>
+<node CREATED="1598605188880" ID="ID_419384578" MODIFIED="1598605204347" TEXT="Consider deep list ((a b) (c d))"/>
+<node CREATED="1598605206381" ID="ID_449515834" MODIFIED="1598605254321" TEXT="Box and pointer diagram">
+<icon BUILTIN="licq"/>
+<node CREATED="1598605247024" ID="ID_37684690" MODIFIED="1598605249345">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="box_pointer_diagram_deeplist_1.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1598605261546" ID="ID_831571508" MODIFIED="1598605268498" TEXT="Can be represented as well as">
+<icon BUILTIN="licq"/>
+<node CREATED="1598605269200" ID="ID_1340812294" MODIFIED="1598605289268">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="box_pointer_diagram_deeplist_tree.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1598605300535" ID="ID_1905314178" MODIFIED="1598605305299" TEXT="... looks more like a binary tree">
+<node CREATED="1598605314903" ID="ID_1044559213" MODIFIED="1598605317899" TEXT="Left branch is car"/>
+<node CREATED="1598605318223" ID="ID_1331356717" MODIFIED="1598605321379" TEXT="Right branch is cdr"/>
+</node>
+<node CREATED="1598605329337" ID="ID_145106768" MODIFIED="1598605346287" TEXT="Can rewrite deep-map as binary tree">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (deep-map fn xmas)
+    </p>
+    <p>
+      &#160;&#160;(cond ((null? xmas) &#8217;())
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((pair? xmas)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons (deep-map fn (car xmas))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(deep-map fn (cdr xmas))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (fn xmas))))
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1598605356183" ID="ID_1448764747" MODIFIED="1598605363690" TEXT="... christmas tree style"/>
+<node COLOR="#338800" CREATED="1598605364111" ID="ID_530705477" MODIFIED="1598605380170" TEXT="... ahhh Brian Harvey &lt;3">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node CREATED="1598605410199" ID="ID_327333402" MODIFIED="1598605415788" TEXT="... but violate data abstraction!">
+<node CREATED="1598605416094" ID="ID_1981752666" MODIFIED="1598605419442" TEXT="We use car / cdr"/>
+<node CREATED="1598605419886" ID="ID_1214549461" MODIFIED="1598605429546" TEXT="... instead of list element / sublist"/>
+<node CREATED="1598605433799" ID="ID_1967859430" MODIFIED="1598605440809" TEXT="Advantage of this approach">
+<node CREATED="1598605441510" ID="ID_132656327" MODIFIED="1598605457680" TEXT="Improper lists work">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &gt; (deep-map square &#8217;((3 . 4) (5 6))
+    </p>
+    <p>
+      ((9 . 16) (25 36))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1598605477134" ID="ID_1344402971" MODIFIED="1598605486651" TEXT="Tree recursion">
+<icon BUILTIN="full-5"/>
+<node CREATED="1598605503870" ID="ID_736792077" MODIFIED="1598605516863" TEXT="Implementation of map">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (map fn seq)
+    </p>
+    <p>
+      &#160;&#160;(if (null? seq)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#8217;()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cons (fn (car seq))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(map fn (cdr seq)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1598605523278" ID="ID_239657786" MODIFIED="1598605529674" TEXT="Each non base case invocation of map"/>
+<node CREATED="1598605530150" ID="ID_414523042" MODIFIED="1598605534402" TEXT="... gives rise to one recursive call"/>
+<node CREATED="1598605535126" ID="ID_1004711748" MODIFIED="1598605541009" TEXT="... to handle the cdr of sequence"/>
+<node CREATED="1598605574005" ID="ID_1716092462" MODIFIED="1598605580193" TEXT="One dimensional, sequential process"/>
+</node>
+<node CREATED="1598605544878" ID="ID_810057018" MODIFIED="1598605546177" TEXT="Deep map">
+<node CREATED="1598605546358" ID="ID_2509589" MODIFIED="1598605549146" TEXT="Two recursive calls">
+<node CREATED="1598605552877" ID="ID_762300523" MODIFIED="1598605557066" TEXT="one for car"/>
+<node CREATED="1598605557382" ID="ID_984838765" MODIFIED="1598605559513" TEXT="one for cdr"/>
+</node>
+<node CREATED="1598605567685" ID="ID_1781095261" MODIFIED="1598605571434" TEXT="Two dimensional process"/>
+</node>
+<node CREATED="1598605592591" ID="ID_776422087" MODIFIED="1598605600169" TEXT="Procedure with more than one recursive call">
+<node CREATED="1598605600333" ID="ID_1266938809" MODIFIED="1598605602937" TEXT="Tree recursion">
+<node CREATED="1598605608245" ID="ID_1205332768" MODIFIED="1598605612897" TEXT="Relationship between this pattern"/>
+<node CREATED="1598605613301" ID="ID_523887040" MODIFIED="1598605616257" TEXT="... and tree structures"/>
+</node>
+</node>
+<node CREATED="1598605653645" ID="ID_95888862" MODIFIED="1598605668249" TEXT="Example of NON tree recursion">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (filter pred seq)
+    </p>
+    <p>
+      &#160;&#160;(cond ((null? seq) &#8217;())
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((pred (car seq)) (cons (car seq) (filter pred (cdr seq))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (filter pred (cdr seq)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598605683886" ID="ID_30603831" MODIFIED="1598605694560" TEXT="Example of tree recursion">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (fib n)
+    </p>
+    <p>
+      &#160;&#160;(if (&lt; n 2)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(+ (fib (- n 1)) (fib (- n 2)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1598605695565" ID="ID_248198004" MODIFIED="1598605701049" TEXT="... even if it doesn&apos;t deal with trees"/>
+</node>
+</node>
+<node CREATED="1598605703756" ID="ID_1426366892" MODIFIED="1598605808796" TEXT="Tree traversal">
+<icon BUILTIN="full-6"/>
+<node CREATED="1598605709948" ID="ID_1314194099" MODIFIED="1598605717296" TEXT="Many problems want to visit each node of a tree"/>
+<node CREATED="1598605722381" ID="ID_1001999145" MODIFIED="1598605732456" TEXT="Obvious order to traverse tree">
+<node CREATED="1598605732628" ID="ID_1855269207" MODIFIED="1598605734232" TEXT="left to right"/>
+</node>
+<node CREATED="1598605737460" ID="ID_1453834352" MODIFIED="1598605740392" TEXT="... but more ways"/>
+<node CREATED="1598605744444" ID="ID_1889821820" MODIFIED="1598605748804" TEXT="Depth first traversal">
+<icon BUILTIN="full-1"/>
+<node CREATED="1598605757556" ID="ID_400291317" MODIFIED="1598605765861" TEXT="code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (depth-first-search tree)
+    </p>
+    <p>
+      &#160;&#160;(print (datum tree))
+    </p>
+    <p>
+      &#160;&#160;(for-each depth-first-search (children tree)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598605775741" ID="ID_1193778740" MODIFIED="1598605780336" TEXT="Program structure follow data structure"/>
+<node CREATED="1598606147825" ID="ID_105080051" MODIFIED="1598606150325" TEXT="Binary trees">
+<node CREATED="1598606200497" ID="ID_127355997" MODIFIED="1598606202405" TEXT="Preorder">
+<node CREATED="1598606152625" ID="ID_1228423323" MODIFIED="1598606158070" TEXT="Look at node before children"/>
+<node CREATED="1598606206296" ID="ID_932548686" MODIFIED="1598606212088" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (pre-order tree)
+    </p>
+    <p>
+      &#160;&#160;(cond ((null? tree) &#8217;())
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (print (entry tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(pre-order (left-branch tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(pre-order (right-branch tree)) )))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598606326411" ID="ID_454953990" MODIFIED="1598606334494" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1598606327824" ID="ID_1467928833" MODIFIED="1598606328972" TEXT="LISP"/>
+</node>
+</node>
+<node CREATED="1598606214250" ID="ID_1959500277" MODIFIED="1598606217020" TEXT="Inorder">
+<node CREATED="1598606217201" ID="ID_1141921103" MODIFIED="1598606220757" TEXT="Look at left child"/>
+<node CREATED="1598606221105" ID="ID_1236266284" MODIFIED="1598606222340" TEXT="... then node"/>
+<node CREATED="1598606222697" ID="ID_936962448" MODIFIED="1598606225181" TEXT="... then right child"/>
+<node CREATED="1598606232665" ID="ID_35466840" MODIFIED="1598606237832" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (in-order tree)
+    </p>
+    <p>
+      &#160;&#160;(cond ((null? tree) &#8217;())
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (in-order (left-branch tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(print (entry tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(in-order (right-branch tree)) )))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598606316721" ID="ID_1702059884" MODIFIED="1598606338581" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1598606319321" ID="ID_197918145" MODIFIED="1598606324300" TEXT="Conventional arithmetic notation"/>
+</node>
+</node>
+<node CREATED="1598606244657" ID="ID_840945943" MODIFIED="1598606246604" TEXT="Postorder">
+<node CREATED="1598606246825" ID="ID_528340731" MODIFIED="1598606251836" TEXT="Look at the children before the node"/>
+<node CREATED="1598606252385" ID="ID_1406300742" MODIFIED="1598606268285" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (post-order tree)
+    </p>
+    <p>
+      &#160;&#160;(cond ((null? tree) &#8217;())
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (post-order (left-branch tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(post-order (right-branch tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(print (entry tree)) )))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598606339745" ID="ID_1530859364" MODIFIED="1598606348021" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1598606341199" ID="ID_1298767170" MODIFIED="1598606345747" TEXT="Reverse Polish notation"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1598605792164" ID="ID_1631447297" MODIFIED="1598605824023" TEXT="Breadth-first traversal">
+<icon BUILTIN="full-2"/>
+<node CREATED="1598605796476" ID="ID_1614821096" MODIFIED="1598605802295" TEXT="Look at siblings before children"/>
+<node CREATED="1598605842716" ID="ID_1170630112" MODIFIED="1598605847360" TEXT="Order we visit the nodes"/>
+<node CREATED="1598605847884" ID="ID_535995315" MODIFIED="1598605854144" TEXT="... are not the order they are connected"/>
+<node CREATED="1598605856469" ID="ID_1772830739" MODIFIED="1598605861992" TEXT="... need to use a queue">
+<node CREATED="1598605873196" ID="ID_225616120" MODIFIED="1598605879772" TEXT="code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="SansSerif">(define (breadth-first-search tree) </font>
+    </p>
+    <p>
+      <font face="SansSerif">&#160;&#160;(bfs-iter (list tree))) </font>
+    </p>
+    <p>
+      <font face="SansSerif">(define (bfs-iter queue) </font>
+    </p>
+    <p>
+      <font face="SansSerif">&#160;&#160;(if (null? queue) </font>
+    </p>
+    <p>
+      <font face="SansSerif">&#160;&#160;&#160;&#160;&#8217;done </font>
+    </p>
+    <p>
+      <font face="SansSerif">&#160;&#160;&#160;&#160;(let ((task (car queue))) </font>
+    </p>
+    <p>
+      <font face="SansSerif">&#160;&#160;&#160;&#160;&#160;&#160;(print (datum task)) </font>
+    </p>
+    <p>
+      <font face="SansSerif">&#160;&#160;&#160;&#160;&#160;&#160;(bfs-iter (append (cdr queue) (children task)))))) </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1598606012058" ID="ID_523364686" MODIFIED="1598606019791" TEXT="Why using this more complicated technique?">
+<node CREATED="1598606027243" ID="ID_494604735" MODIFIED="1598606032189" TEXT="Finding shortest part for a datum"/>
+<node CREATED="1598606038747" ID="ID_873682767" MODIFIED="1598606048782" TEXT="When generating tree of move">
+<node CREATED="1598606051234" ID="ID_61006227" MODIFIED="1598606064438" TEXT="Root node is initial board position"/>
+<node CREATED="1598606067962" ID="ID_777564227" MODIFIED="1598606072525" TEXT="Each child is result of legal move"/>
+</node>
+<node CREATED="1598606087298" ID="ID_1375744204" MODIFIED="1598606095206" TEXT="... for complicated game like chess">
+<node CREATED="1598606098410" ID="ID_849131489" MODIFIED="1598606104430" TEXT="Can&apos;t generate the whole tree!"/>
+<node CREATED="1598606109395" ID="ID_1571005864" MODIFIED="1598606117518" TEXT="We can choose to generate it only on certain depth"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1598606359240" ID="ID_1099253170" MODIFIED="1598606362555" TEXT="Path Finding">
+<icon BUILTIN="full-7"/>
+<node CREATED="1598606392496" ID="ID_651468356" MODIFIED="1598606398100" TEXT="When we find a node we&apos;re looking for"/>
+<node CREATED="1598606398726" ID="ID_194979129" MODIFIED="1598606414204" TEXT="... we don&apos;t visit any other subtree"/>
+<node CREATED="1598606421840" ID="ID_1465963571" MODIFIED="1598606435006" TEXT="... so we don&apos;t use map or anything equivalent">
+<node CREATED="1598606439448" ID="ID_1974118766" MODIFIED="1598606457756" TEXT="Want to check first child">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1598606452072" ID="ID_1254981154" MODIFIED="1598606458704" TEXT="See if we found a path">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1598606459280" ID="ID_1745353425" MODIFIED="1598606471245" TEXT="If not, go on second child if any">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1598606480559" ID="ID_654763945" MODIFIED="1598606491104" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (find-place place tree)
+    </p>
+    <p>
+      &#160;&#160;(if (eq? place (datum tree))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cons (datum tree) &#8217;())
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(let ((try (find-forest place (children tree))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(if (not (null? try))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons (datum tree) try)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8217;()))))
+    </p>
+    <p>
+      (define (find-forest place forest)
+    </p>
+    <p>
+      &#160;&#160;(if (null? forest)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#8217;()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(let ((try (find-place place (car forest))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(if (not (null? try))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(find-forest place (cdr forest))))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1598606498351" ID="ID_503228400" MODIFIED="1598606500566" TEXT="The Scheme-1 interpreter ">
+<icon BUILTIN="full-8"/>
+<node CREATED="1598606527406" ID="ID_792448254" MODIFIED="1598606532195" TEXT="A Scheme program is a list"/>
+<node CREATED="1598606535697" ID="ID_1033021334" MODIFIED="1598606549723" TEXT="Scheme language can look at Scheme program as data"/>
+<node CREATED="1598606563575" ID="ID_1167094536" MODIFIED="1598606568059" TEXT="Implement substitution model"/>
+<node CREATED="1598606637086" ID="ID_1671600530" MODIFIED="1598606647614" TEXT="Simplified code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (scheme)
+    </p>
+    <p>
+      &#160;&#160;(display &quot;&gt; &quot;)
+    </p>
+    <p>
+      &#160;&#160;(print (eval (read)))
+    </p>
+    <p>
+      &#160;&#160;(scheme) )
+    </p>
+    <p>
+      (define (eval exp)
+    </p>
+    <p>
+      &#160;&#160;(cond ((self-evaluating? exp) exp)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((symbol? exp) (look-up-global-value exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((special-form? exp) (do-special-form exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (apply (eval (car exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(map eval (cdr exp)) ))))
+    </p>
+    <p>
+      (define (apply proc args)
+    </p>
+    <p>
+      &#160;&#160;(if (primitive? proc)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(do-magic proc args)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(eval (substitute (body proc) (formals proc) args))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1598606658838" ID="ID_810009539" MODIFIED="1598606678679" TEXT="eval">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1598606661478" ID="ID_1702701113" MODIFIED="1598606664682" TEXT="Evaluate an expression"/>
+</node>
+<node CREATED="1598606666846" ID="ID_449347761" MODIFIED="1598606682191" TEXT="apply">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1598606669118" ID="ID_1527088171" MODIFIED="1598606674129" TEXT="Apply function to arguments"/>
+</node>
+<node CREATED="1598606694854" ID="ID_543110339" MODIFIED="1598606697735" TEXT="substitute">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1598606709830" ID="ID_1174906838" MODIFIED="1598606711096" TEXT="Left out">
+<node CREATED="1598606711438" ID="ID_979834986" MODIFIED="1598606713265" TEXT="Primitives"/>
+<node CREATED="1598606713922" ID="ID_771897066" MODIFIED="1598606715738" TEXT="Special forms">
+<node CREATED="1598606742462" ID="ID_524763960" MODIFIED="1598606745495" TEXT="define">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1598606716353" ID="ID_56056006" MODIFIED="1598606718322" TEXT="Lot of details"/>
+</node>
+<node CREATED="1598606760021" ID="ID_1238719962" MODIFIED="1598606777247" TEXT="Need to use Y-Combinator for recursive procedure">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ((lambda (n)
+    </p>
+    <p>
+      &#160;&#160;&#160;((lambda (f) (f f n))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;; the &quot;Y combinator&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda (fact n)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(if (= n 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* n (fact fact (- n 1))) )) ))
+    </p>
+    <p>
+      &#160;5)
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
