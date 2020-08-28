@@ -566,7 +566,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1591122592963" ID="ID_1676986065" MODIFIED="1591122601216" POSITION="right" TEXT="Data Abstraction">
+<node CREATED="1591122592963" FOLDED="true" ID="ID_1676986065" MODIFIED="1591122601216" POSITION="right" TEXT="Data Abstraction">
 <icon BUILTIN="full-6"/>
 <node CREATED="1591122616370" FOLDED="true" ID="ID_1194538243" MODIFIED="1591122619254" TEXT="Big ideas">
 <node CREATED="1591122619531" ID="ID_1870581691" MODIFIED="1591122623773" TEXT="Data abstraction"/>
@@ -1029,7 +1029,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1596776271617" ID="ID_5472733" MODIFIED="1596776331594" POSITION="right" TEXT="Hierarchical data / Scheme Interpreter">
+<node CREATED="1596776271617" FOLDED="true" ID="ID_5472733" MODIFIED="1596776331594" POSITION="right" TEXT="Hierarchical data / Scheme Interpreter">
 <icon BUILTIN="full-7"/>
 <node CREATED="1596949736131" ID="ID_568767149" MODIFIED="1598604382652" TEXT="A Calculator Program">
 <icon BUILTIN="full-1"/>
@@ -1884,8 +1884,580 @@
 </node>
 <node CREATED="1596776348909" ID="ID_363490088" MODIFIED="1596776353430" POSITION="right" TEXT="Generic Operators">
 <icon BUILTIN="full-8"/>
+<node CREATED="1598613412770" ID="ID_1089593122" MODIFIED="1598613424457" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1598613174292" ID="ID_1970175389" MODIFIED="1598613181664" TEXT="Handling complexity of large system">
+<node CREATED="1598613181924" ID="ID_423360699" MODIFIED="1598613186318" TEXT="with many small procedures"/>
+<node CREATED="1598613186929" ID="ID_1530705370" MODIFIED="1598613193800" TEXT="... that handle several type of data"/>
 </node>
-<node CREATED="1596776363255" ID="ID_138511818" MODIFIED="1596776372766" POSITION="right" TEXT="Object Oriented Programming">
+<node CREATED="1598613201564" ID="ID_28954332" MODIFIED="1598613203792" TEXT="Big ideas">
+<node CREATED="1598613204060" ID="ID_619309436" MODIFIED="1598613206680" TEXT="Tagged data"/>
+<node CREATED="1598613207035" ID="ID_1637682016" MODIFIED="1598613213023" TEXT="data-directed programming"/>
+<node CREATED="1598613213638" ID="ID_1302201440" MODIFIED="1598613216207" TEXT="message passing"/>
+</node>
+<node CREATED="1598613220899" ID="ID_1975303818" MODIFIED="1598613227238" TEXT="How to keep track of data?">
+<node CREATED="1598613235122" ID="ID_616673413" MODIFIED="1598613238119" TEXT="Tagged data"/>
+<node CREATED="1598613238571" ID="ID_1945718796" MODIFIED="1598613245639" TEXT="Each datum caries its own type"/>
+</node>
+<node CREATED="1598613287651" ID="ID_978909955" MODIFIED="1598613323215" TEXT="Use geometric shape here">
+<node CREATED="1598613297515" ID="ID_392628378" MODIFIED="1598613299030" TEXT="Data types">
+<node CREATED="1598613299235" ID="ID_266205277" MODIFIED="1598613301095" TEXT="square"/>
+<node CREATED="1598613301444" ID="ID_1441863094" MODIFIED="1598613302351" TEXT="circle"/>
+</node>
+<node CREATED="1598613308083" ID="ID_457083680" MODIFIED="1598613309447" TEXT="Operations">
+<node CREATED="1598613309691" ID="ID_47430598" MODIFIED="1598613311511" TEXT="area"/>
+<node CREATED="1598613312051" ID="ID_359232178" MODIFIED="1598613313407" TEXT="perimeter"/>
+</node>
+</node>
+<node CREATED="1598613350075" ID="ID_422351930" MODIFIED="1598613353510" TEXT="Want to be able to say">
+<node CREATED="1598613353669" ID="ID_1814547074" MODIFIED="1598613373894" TEXT="(area circle3)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1598613360266" ID="ID_663284564" MODIFIED="1598613370223" TEXT="... to get area or previously defined circle"/>
+<node CREATED="1598613380050" ID="ID_323007954" MODIFIED="1598613387510" TEXT="Type tag for each type"/>
+</node>
+</node>
+<node CREATED="1598613411002" ID="ID_934539633" MODIFIED="1598613528365" TEXT="Orthogonality of types and operators">
+<icon BUILTIN="full-1"/>
+<node CREATED="1598613387659" ID="ID_1800764232" MODIFIED="1598613514490" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define pi 3.141592654)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (make-square side)
+    </p>
+    <p>
+      &#160;&#160;(attach-tag &#8217;square side))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (make-circle radius)
+    </p>
+    <p>
+      &#160;&#160;(attach-tag &#8217;circle radius))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (area shape)
+    </p>
+    <p>
+      &#160;&#160;(cond ((eq? (type-tag shape) &#8217;square)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (contents shape) (contents shape)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? (type-tag shape) &#8217;circle)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* pi (contents shape) (contents shape)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown shape -- AREA&quot;))))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (perimeter shape)
+    </p>
+    <p>
+      &#160;&#160;(cond ((eq? (type-tag shape) &#8217;square)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* 4 (contents shape)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? (type-tag shape) &#8217;circle)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* 2 pi (contents shape)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown shape -- PERIMETER&quot;))))
+    </p>
+    <p>
+      ;; some sample data
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define square5 (make-square 5))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define circle3 (make-circle 3))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598613528690" ID="ID_626558014" MODIFIED="1598613534893" TEXT="Next problem is proliferation of function">
+<node CREATED="1598613549473" ID="ID_1606402161" MODIFIED="1598613552829" TEXT="Being able to apply"/>
+<node CREATED="1598613553454" ID="ID_482034850" MODIFIED="1598613556165" TEXT="... every operation"/>
+<node CREATED="1598613556553" ID="ID_1949115873" MODIFIED="1598613558700" TEXT="... on every type"/>
+<node CREATED="1598613573289" ID="ID_952140011" MODIFIED="1598613576477" TEXT="In our example">
+<node CREATED="1598613576640" ID="ID_809427703" MODIFIED="1598613582629" TEXT="Two types / two operations"/>
+<node CREATED="1598613582937" ID="ID_178824509" MODIFIED="1598613587645" TEXT="Four algorithms"/>
+</node>
+</node>
+<node CREATED="1598613601849" ID="ID_1051343926" MODIFIED="1598613607053" TEXT="If we invent a new type">
+<node CREATED="1598613607233" ID="ID_1970137803" MODIFIED="1598613625829" TEXT="Need to add new functions"/>
+<node CREATED="1598613628979" ID="ID_1645428439" MODIFIED="1598613679773" TEXT="Change all operator functions"/>
+</node>
+</node>
+<node CREATED="1598613692593" ID="ID_3323200" MODIFIED="1598614624786" TEXT="Data directed programming">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+<node CREATED="1598613701841" ID="ID_343220382" MODIFIED="1598613719348" TEXT="Instead of keeping information with type / operators in functions"/>
+<node CREATED="1598613721464" ID="ID_636508596" MODIFIED="1598613730284" TEXT="... we record information in a data structure"/>
+<node CREATED="1598613742176" ID="ID_613807538" MODIFIED="1598613756477" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &gt; (get &#8217;foo &#8217;baz)
+    </p>
+    <p>
+      #f
+    </p>
+    <p>
+      &gt; (put &#8217;foo &#8217;baz &#8217;hello)
+    </p>
+    <p>
+      &gt; (get &#8217;foo &#8217;baz)
+    </p>
+    <p>
+      hello
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="wizard"/>
+<node CREATED="1598613783495" ID="ID_686595283" MODIFIED="1598613788708" TEXT="For now, take get / put as primitive"/>
+</node>
+<node CREATED="1598613817703" ID="ID_1376528097" MODIFIED="1598613825075" TEXT="From before, are unchanged">
+<node CREATED="1598613825471" ID="ID_460247804" MODIFIED="1598613831443" TEXT="tagged data ADT"/>
+<node CREATED="1598613831896" ID="ID_888573964" MODIFIED="1598613838667" TEXT="Two shape ADTs"/>
+</node>
+<node CREATED="1598613842319" ID="ID_647065863" MODIFIED="1598613850251" TEXT="Difference when representing four algorithm">
+<node CREATED="1598613852991" ID="ID_328780125" MODIFIED="1598613869754" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (put
+    </p>
+    <p>
+      &#160;&#160;&#8217;square
+    </p>
+    <p>
+      &#160;&#160;&#8217;area (lambda (s) (* s s)))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (put
+    </p>
+    <p>
+      &#160;&#160;&#8217;circle
+    </p>
+    <p>
+      &#160;&#160;&#8217;area (lambda (r) (* pi r r)))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (put
+    </p>
+    <p>
+      &#160;&#160;&#8217;square
+    </p>
+    <p>
+      &#160;&#160;&#8217;perimeter (lambda (s) (* 4 s)))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (put
+    </p>
+    <p>
+      &#160;&#160;&#8217;circle
+    </p>
+    <p>
+      &#160;&#160;&#8217;perimeter (lambda (r) (* 2 pi r)))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598613874766" ID="ID_997216424" MODIFIED="1598613889707" TEXT="Entry in each cell">
+<node CREATED="1598613889855" ID="ID_676135862" MODIFIED="1598613890867" TEXT="function"/>
+<node CREATED="1598613891191" ID="ID_624091544" MODIFIED="1598613894515" TEXT="... not symbol"/>
+</node>
+</node>
+<node CREATED="1598613898471" ID="ID_1648773695" MODIFIED="1598613908625" TEXT="... can now redefine the six generic operators">
+<node CREATED="1598613908982" ID="ID_1848048755" MODIFIED="1598613913091" TEXT="Generic because work for any types"/>
+<node CREATED="1598613923455" ID="ID_1567893106" MODIFIED="1598613933607" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (area shape)
+    </p>
+    <p>
+      &#160;&#160;(operate &#8217;area shape))<br />
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (perimeter shape)
+    </p>
+    <p>
+      &#160;&#160;(operate &#8217;perimeter shape))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (operate op obj)
+    </p>
+    <p>
+      &#160;&#160;;; like APPLY-GENERIC but for one operand
+    </p>
+    <p>
+      &#160;&#160;(let ((proc (get (type-tag obj) op)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if proc
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(proc (contents obj))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(error &quot;Unknown operator for type&quot;))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1598613943279" ID="ID_410028532" MODIFIED="1598613948282" TEXT="If we want to invent new type">
+<node CREATED="1598613948535" ID="ID_1940760522" MODIFIED="1598613959938" TEXT="Put few instructions"/>
+<node CREATED="1598613960695" ID="ID_22938728" MODIFIED="1598613970370" TEXT="... generic operators automatically work for new type"/>
+</node>
+<node CREATED="1598613977830" ID="ID_309540354" MODIFIED="1598613983258" TEXT="DDP is very general idea">
+<node CREATED="1598613985637" ID="ID_871909557" MODIFIED="1598613990730" TEXT="Putting details of system into data"/>
+<node CREATED="1598613996110" ID="ID_566520921" MODIFIED="1598613999018" TEXT="... rather than in program">
+<node CREATED="1598614002733" ID="ID_1989572991" MODIFIED="1598614009170" TEXT="You can then write general programs"/>
+<node CREATED="1598614011134" ID="ID_338101715" MODIFIED="1598614015530" TEXT="... instead very specific  ones"/>
+</node>
+<node CREATED="1598614027310" ID="ID_543622167" MODIFIED="1598614042245" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1598614028733" ID="ID_213856049" MODIFIED="1598614038682" TEXT="Config file changing behavior of program"/>
+<node CREATED="1598614051735" ID="ID_909855728" MODIFIED="1598614064770" TEXT="Compiler compiler">
+<node CREATED="1598614071542" ID="ID_303233734" MODIFIED="1598614080186" TEXT="Formal notation to exprim syntax of any language"/>
+<node CREATED="1598614080726" ID="ID_1705106369" MODIFIED="1598614090865" TEXT="... then you can use syntax to compile your language"/>
+<node CREATED="1598614175270" ID="ID_1396763797" MODIFIED="1598614189465" TEXT="Scheme bnf">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Formal Syntax of Scheme (R4RS section 7.1, p. 32)
+    </p>
+    <p>
+      &#160;&#160;(61A course reader second part, page 84)
+    </p>
+    <p>
+      &#160;&#160;(excerpts)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;expression&gt;&#160;&#160;==&gt;&#160;&#160;&lt;variable&gt; | &lt;literal&gt; | &lt;procedure call&gt;
+    </p>
+    <p>
+      | &lt;lambda expression&gt; | &lt;conditional&gt;
+    </p>
+    <p>
+      | &lt;assignment&gt; | &lt;derived expression&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;lambda expression&gt;&#160;&#160;==&gt;&#160;&#160;( lambda &lt;formals&gt; &lt;body&gt; )
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;formals&gt;&#160;&#160;==&gt;&#160;&#160;( &lt;variable&gt;* ) | &lt;variable&gt; | ( &lt;variable&gt;+ . &lt;variable&gt; )
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;body&gt;&#160;&#160;==&gt;&#160;&#160;&lt;definition&gt;* &lt;sequence&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;definition&gt;&#160;&#160;==&gt;&#160;&#160;( define &lt;variable&gt; &lt;expression&gt; )
+    </p>
+    <p>
+      | ( define ( &lt;variable&gt; &lt;def formals&gt; ) &lt;body&gt; )
+    </p>
+    <p>
+      | ( begin &lt;definition&gt;* )
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;def formals&gt;&#160;&#160;==&gt;&#160;&#160;&lt;variable&gt;* | &lt;variable&gt;+ . &lt;variable&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;sequence&gt;&#160;&#160;==&gt;&#160;&#160;&lt;command&gt;* &lt;expression&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;command&gt;&#160;&#160;==&gt;&#160;&#160;&lt;expression&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;conditional&gt;&#160;&#160;==&gt;&#160;&#160;( if &lt;test&gt; &lt;consequent&gt; &lt;alternate&gt; )
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;test&gt;&#160;&#160;==&gt;&#160;&#160;&lt;expression&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;consequent&gt;&#160;&#160;==&gt;&#160;&#160;&lt;expression&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;alternate&gt;&#160;&#160;==&gt;&#160;&#160;&lt;expression&gt; | &lt;empty&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1598614198509" ID="ID_899525233" MODIFIED="1598614629603" TEXT="Message passing">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-3"/>
+<node CREATED="1598614209188" ID="ID_1875829490" MODIFIED="1598614211137" TEXT="Type is data"/>
+<node CREATED="1598614211541" ID="ID_826330935" MODIFIED="1598614223744" TEXT="Operators are functions"/>
+<node CREATED="1598614230996" ID="ID_327399010" MODIFIED="1598614238807" TEXT="One universal operate function that does the work"/>
+<node CREATED="1598614259124" ID="ID_471294541" MODIFIED="1598614263320" TEXT="We can inverse things too">
+<node CREATED="1598614264508" ID="ID_524186390" MODIFIED="1598614281856" TEXT="Types as functions"/>
+<node CREATED="1598614272340" ID="ID_325240533" MODIFIED="1598614277535" TEXT="Operations as data"/>
+</node>
+<node CREATED="1598614332748" ID="ID_1824648984" MODIFIED="1598614370824" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-square side)
+    </p>
+    <p>
+      &#160;&#160;(lambda (message)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cond ((eq? message &#8217;area)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* side side))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? message &#8217;perimeter)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* 4 side))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown message&quot;)))))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (make-circle radius)
+    </p>
+    <p>
+      &#160;&#160;(lambda (message)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cond ((eq? message &#8217;area)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* pi radius radius))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? message &#8217;perimeter)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* 2 pi radius))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown message&quot;)))))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define square5 (make-square 5))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define circle3 (make-circle 3))
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1598614376860" ID="ID_18611880" MODIFIED="1598614380584" TEXT="Each shape is a function">
+<node CREATED="1598614381116" ID="ID_1068235224" MODIFIED="1598614384568" TEXT="not a list structure"/>
+<node CREATED="1598614388085" ID="ID_1876159369" MODIFIED="1598614395520" TEXT="(circle3 &apos;area)">
+<node CREATED="1598614395763" ID="ID_1934449121" MODIFIED="1598614405391" TEXT="Get area of circle 3"/>
+</node>
+<node CREATED="1598614406492" ID="ID_1343281627" MODIFIED="1598614415015" TEXT="Add syntactic sugar">
+<node CREATED="1598614415228" ID="ID_790848407" MODIFIED="1598614419935" TEXT="(area circle3)"/>
+<node CREATED="1598614421402" ID="ID_1742587164" MODIFIED="1598614461108" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (operate op obj)
+    </p>
+    <p>
+      &#160;&#160;(obj op))
+    </p>
+    <p>
+      <br />
+      (define (area shape)
+    </p>
+    <p>
+      &#160;&#160;(operate &#8217;area shape))
+    </p>
+    <p>
+      <br />
+      (define (perimeter shape)
+    </p>
+    <p>
+      &#160;&#160;(operate &#8217;perimeter shape))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1598614479114" ID="ID_497328912" LINK="#ID_138511818" MODIFIED="1598614507923" TEXT="Base of OOP">
+<node CREATED="1598614481667" ID="ID_1228316512" LINK="#ID_1618812532" MODIFIED="1598614513411" TEXT="Even more powerful with local state"/>
+</node>
+<node CREATED="1598614555953" ID="ID_1895635407" MODIFIED="1598614578022" TEXT="But hard to tell what function represent type of shape">
+<node CREATED="1598614578354" ID="ID_966510270" MODIFIED="1598614583637" TEXT="Can use tagged data again"/>
+<node CREATED="1598614584593" ID="ID_1485765038" MODIFIED="1598614606662" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-square side)
+    </p>
+    <p>
+      &#160;&#160;(lambda (message)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cond ((eq? message &#8217;area)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* side side))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? message &#8217;perimeter)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* 4 side))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((EQ? MESSAGE &#8217;TYPE) &#8217;SQUARE)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown message&quot;)))))
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1598614621834" ID="ID_1932648185" MODIFIED="1598614631075" TEXT="Dyadic operations. ">
+<icon BUILTIN="full-4"/>
+<node CREATED="1598614883856" ID="ID_304772635" MODIFIED="1598614893220" TEXT="Problems arise with two operands"/>
+<node CREATED="1598614911650" ID="ID_1944416390" MODIFIED="1598614919876" TEXT="What to do if operands are not the same type?">
+<node CREATED="1598614920120" ID="ID_292959780" MODIFIED="1598614929425" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1598614921304" ID="ID_1482914462" MODIFIED="1598614921981" TEXT="+"/>
+<node CREATED="1598614922837" ID="ID_1268256555" MODIFIED="1598614925468" TEXT="Two operands"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1596776363255" ID="ID_138511818" MODIFIED="1598614498781" POSITION="right" TEXT="Object Oriented Programming">
 <icon BUILTIN="full-9"/>
 </node>
 <node CREATED="1596776394028" ID="ID_1618812532" MODIFIED="1596776405795" POSITION="right" TEXT="Local State Variables / Environments">
