@@ -1,6 +1,52 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1557221747459" ID="ID_797804880" LINK="https://fs.blog/mental-models/" MODIFIED="1566225153832" TEXT="Farnam Street">
+<node CREATED="1557221747459" ID="ID_797804880" LINK="https://fs.blog/mental-models/" MODIFIED="1598781178952" TEXT="Farnam Street">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Answer these questions before reading the mindmap, to avoid the mindmap influencing you. </b><br /><b>Assess what you know and your believes before (maybe) contradicting them. </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>General Thinking Concepts</b>
+    </p>
+    <ol>
+      <li>
+        Can you explain &quot;the map is not the territory?&quot;
+      </li>
+      <li>
+        What is the circle of competence to you?
+      </li>
+      <li>
+        What is the first principle thinking? What is Socratic questioning?
+      </li>
+      <li>
+        What is a thought experiment? What are the benefits?
+      </li>
+      <li>
+        What is &quot;second order thinking&quot;?
+      </li>
+      <li>
+        What is probabilistic thinking?
+      </li>
+      <li>
+        What is inversion?
+      </li>
+      <li>
+        What is Occam's Razor?
+      </li>
+      <li>
+        What is Hanlon's Razor?
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1557221863446" ID="ID_1936752827" MODIFIED="1557222293325" POSITION="right" TEXT="General Thinking Concepts">
 <icon BUILTIN="full-1"/>
 <node CREATED="1557222070505" FOLDED="true" ID="ID_585145849" LINK="https://fs.blog/2015/11/map-and-territory/" MODIFIED="1572355394131" TEXT="The map is not the territory">
@@ -41,43 +87,53 @@
 <node CREATED="1557222742328" ID="ID_1690222918" MODIFIED="1557222762395" TEXT="... to interpret"/>
 <node CREATED="1557222763305" ID="ID_1780538855" MODIFIED="1557222764979" TEXT="...  a certain set of information"/>
 </node>
-<node CREATED="1557222111649" FOLDED="true" ID="ID_366090663" LINK="https://fs.blog/2013/12/mental-model-circle-of-competence/" MODIFIED="1572355408590" TEXT="Circle of Competence">
+<node CREATED="1557222111649" ID="ID_366090663" LINK="https://fs.blog/2013/12/mental-model-circle-of-competence/" MODIFIED="1572355408590" TEXT="Circle of Competence">
 <icon BUILTIN="full-2"/>
-<node CREATED="1557223428144" ID="ID_613258864" MODIFIED="1560066631908" TEXT="Circle of knowledge">
+<node CREATED="1557223428144" FOLDED="true" ID="ID_613258864" MODIFIED="1560066631908" TEXT="Circle of knowledge">
 <node CREATED="1557223446912" ID="ID_265683373" MODIFIED="1557223452772" TEXT="of certain area of the world"/>
 <node CREATED="1557223432415" ID="ID_834642526" MODIFIED="1557496528413" TEXT="through">
 <node CREATED="1557223436951" ID="ID_60168499" MODIFIED="1557223438715" TEXT="experience"/>
 <node CREATED="1557223439247" ID="ID_356895353" MODIFIED="1557223440931" TEXT="study"/>
 </node>
 </node>
-<node CREATED="1557223661024" ID="ID_1051908059" MODIFIED="1560066744122" TEXT="Narrow circle of knowledge">
+<node CREATED="1557223661024" FOLDED="true" ID="ID_1051908059" MODIFIED="1560066744122" TEXT="Narrow circle of knowledge">
 <node CREATED="1557223667272" ID="ID_1006994021" MODIFIED="1557223673876" TEXT="can allow you to focus more"/>
 </node>
-<node CREATED="1557222843559" ID="ID_1184017244" MODIFIED="1560066745690" TEXT="Being honest where knowledge is lacking">
+<node CREATED="1557222843559" FOLDED="true" ID="ID_1184017244" MODIFIED="1560066745690" TEXT="Being honest where knowledge is lacking">
 <node CREATED="1557222892960" ID="ID_905780649" MODIFIED="1557496546563" TEXT="know where">
 <node CREATED="1557222896623" ID="ID_1023943614" MODIFIED="1557222901956" TEXT="you are vulnerable"/>
 <node CREATED="1557222906536" ID="ID_739220548" MODIFIED="1557222909268" TEXT="you can improve"/>
 </node>
 </node>
-<node CREATED="1557222957423" ID="ID_651169967" MODIFIED="1560066773258" TEXT="Understanding cicle of competence improves">
+<node CREATED="1557222957423" FOLDED="true" ID="ID_651169967" MODIFIED="1560066773258" TEXT="Understanding cicle of competence improves">
 <node CREATED="1557222970592" ID="ID_506140733" MODIFIED="1557222973412" TEXT="Decisions making"/>
 <node CREATED="1557222973953" ID="ID_391055286" MODIFIED="1557222975356" TEXT="Outcomes"/>
 </node>
-<node CREATED="1557224085904" ID="ID_1655503168" MODIFIED="1560066774913" TEXT="You need to understand where your aptitudes are">
+<node CREATED="1557224085904" FOLDED="true" ID="ID_1655503168" MODIFIED="1560066774913" TEXT="You need to understand where your aptitudes are">
 <node CREATED="1557224095944" ID="ID_657490634" MODIFIED="1557496561372" TEXT="develope them"/>
 <node CREATED="1557224099537" ID="ID_1935367488" MODIFIED="1557224103420" TEXT="... or you&apos;re going to lose"/>
 </node>
+<node COLOR="#338800" CREATED="1598780967330" ID="ID_537462757" MODIFIED="1598781009751" TEXT="Focus is good but can be too narrow for creative process">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
 </node>
-<node CREATED="1557222128672" FOLDED="true" ID="ID_678832144" LINK="https://fs.blog/2018/04/first-principles/" MODIFIED="1572356013978" TEXT="First Principle Thinking">
+<node COLOR="#338800" CREATED="1598780979302" FOLDED="true" ID="ID_163945696" MODIFIED="1598781009752" TEXT="Lack of focus is good for creativity">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+<node CREATED="1598780996686" ID="ID_744531217" MODIFIED="1598780998402" TEXT="Day dreaming"/>
+<node CREATED="1598781021055" ID="ID_1996035983" MODIFIED="1598781029299" TEXT="Make connection with vastly different subjects"/>
+</node>
+</node>
+<node CREATED="1557222128672" ID="ID_678832144" LINK="https://fs.blog/2018/04/first-principles/" MODIFIED="1572356013978" TEXT="First Principle Thinking">
 <icon BUILTIN="full-3"/>
-<node CREATED="1557237382862" FOLDED="true" ID="ID_1949433387" MODIFIED="1572355580990" TEXT="The Basics">
+<node CREATED="1557237382862" ID="ID_1949433387" MODIFIED="1572355580990" TEXT="The Basics">
 <node CREATED="1557224128632" ID="ID_152548975" MODIFIED="1557224135299" TEXT="Break down complicated problems">
 <node CREATED="1557224151232" ID="ID_1505653243" MODIFIED="1557224157612" TEXT="into basic elements"/>
 <node CREATED="1557224158103" ID="ID_1191296332" MODIFIED="1557224162027" TEXT="... and then reassemble them"/>
 </node>
 <node CREATED="1557237352487" ID="ID_1732160091" MODIFIED="1557237355240" TEXT="Remove impurity">
 <node CREATED="1557237355433" ID="ID_1975184773" MODIFIED="1560067216118" TEXT="Assumptions"/>
-<node CREATED="1557237365665" ID="ID_1165459802" MODIFIED="1557237368778" TEXT="Convetions"/>
+<node CREATED="1557237365665" ID="ID_1165459802" MODIFIED="1598781047035" TEXT="Conventions"/>
 </node>
 <node CREATED="1557237389062" ID="ID_1656075707" MODIFIED="1557237394250" TEXT="... only stay the essential"/>
 </node>
@@ -86,10 +142,10 @@
 <node CREATED="1557396176236" ID="ID_1214882691" MODIFIED="1557396185279" TEXT="First principle"/>
 <node CREATED="1557396185773" ID="ID_1163774054" MODIFIED="1557396188599" TEXT="Analogy"/>
 </node>
-<node CREATED="1557396190893" ID="ID_1137863523" MODIFIED="1557396199017" TEXT="... is like difference">
+<node CREATED="1557396190893" ID="ID_1137863523" MODIFIED="1598781118098" TEXT="... is like difference between">
 <node CREATED="1557396199252" ID="ID_1661562768" MODIFIED="1557396205937" TEXT="Cook">
 <node CREATED="1557396206172" ID="ID_117436280" MODIFIED="1557396639368" TEXT="If he lost recipe">
-<node CREATED="1557396211131" ID="ID_942398087" MODIFIED="1557396642592" TEXT="fuked up"/>
+<node CREATED="1557396211131" ID="ID_942398087" MODIFIED="1598781103603" TEXT="fucked up"/>
 <node CREATED="1557396748587" ID="ID_1362802035" MODIFIED="1557396757289" TEXT="&quot;know how&quot;"/>
 </node>
 </node>
@@ -106,7 +162,8 @@
 <node CREATED="1557396792900" FOLDED="true" ID="ID_1417093938" MODIFIED="1572355579140" TEXT="If you reject dogma">
 <node CREATED="1557396802436" ID="ID_1278278643" MODIFIED="1557396815704" TEXT="The &quot;Because I said so&quot;"/>
 <node CREATED="1557396809909" ID="ID_5766291" MODIFIED="1557396819689" TEXT="... you are a problem">
-<node CREATED="1557396820524" ID="ID_1284645320" MODIFIED="1557396821919" TEXT="Example">
+<node CREATED="1557396820524" ID="ID_1284645320" MODIFIED="1598781128684" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1557396837059" ID="ID_687834317" MODIFIED="1557396843726" TEXT="Student pestering teacher"/>
 <node CREATED="1557396857355" ID="ID_1835999464" MODIFIED="1557396861696" TEXT="Employee slowing things down">
 <node CREATED="1557396861924" ID="ID_224527914" MODIFIED="1557396864328" TEXT="always asking why"/>
@@ -124,8 +181,9 @@
 <node CREATED="1557396976244" ID="ID_1125426309" MODIFIED="1557396981232" TEXT="See world as it is"/>
 <node CREATED="1557396987707" ID="ID_812350479" MODIFIED="1557396993391" TEXT="See what&apos;s really possible"/>
 </node>
-<node CREATED="1557397005540" FOLDED="true" ID="ID_1484834517" MODIFIED="1572355576869" TEXT="Techniques for Establishing First Principles ">
-<node CREATED="1557397006684" FOLDED="true" ID="ID_1277925266" MODIFIED="1572355575972" TEXT="Socratic questioning">
+</node>
+<node CREATED="1557397005540" ID="ID_1484834517" MODIFIED="1572355576869" TEXT="Techniques for Establishing First Principles ">
+<node CREATED="1557397006684" ID="ID_1277925266" MODIFIED="1572355575972" TEXT="Socratic questioning">
 <node CREATED="1557397022116" ID="ID_194734123" MODIFIED="1557397214655" TEXT="Clarifying your thinking  / explaining the origins of your ideas">
 <icon BUILTIN="full-1"/>
 <node CREATED="1557397027211" ID="ID_959572875" MODIFIED="1557397040491" TEXT="Why do I think this? "/>
@@ -165,7 +223,6 @@
 <node CREATED="1557397634171" ID="ID_46083331" MODIFIED="1557397640279" TEXT="Confront people to their ignorance"/>
 </node>
 <node CREATED="1557397717166" ID="ID_1601755622" MODIFIED="1557397732735" TEXT="... end up with &quot;because I said so&quot;"/>
-</node>
 </node>
 </node>
 </node>
@@ -788,11 +845,11 @@
 <node CREATED="1566224624006" ID="ID_353788583" MODIFIED="1566224625986" TEXT="Compounding">
 <icon BUILTIN="full-5"/>
 </node>
-<node CREATED="1566224634029" ID="ID_1770697006" MODIFIED="1566224640099" TEXT="Multiplying by Zero">
+<node CREATED="1566224634029" FOLDED="true" ID="ID_1770697006" MODIFIED="1566224640099" TEXT="Multiplying by Zero">
 <icon BUILTIN="full-6"/>
 <node CREATED="1572357317250" ID="ID_1434569347" MODIFIED="1572357325464" TEXT="1282392*318032*0 = 0"/>
 <node CREATED="1572357326355" ID="ID_1750645468" MODIFIED="1572357481257" TEXT="a system is no stronger than its weakest component"/>
-<node CREATED="1572357333747" ID="ID_1297772756" MODIFIED="1572357341600" TEXT="Multiplicative system can be negated with a 0">
+<node CREATED="1572357333747" FOLDED="true" ID="ID_1297772756" MODIFIED="1572357341600" TEXT="Multiplicative system can be negated with a 0">
 <node CREATED="1572357342716" ID="ID_1068171360" LINK="https://en.wikipedia.org/wiki/Len_Bias" MODIFIED="1572357448222" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1572357354290" ID="ID_439975603" MODIFIED="1572357368277" TEXT="Best basketball in the world">
@@ -823,10 +880,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1572357553039" ID="ID_1031620078" MODIFIED="1572357557453" TEXT="Additive system">
+<node CREATED="1572357553039" FOLDED="true" ID="ID_1031620078" MODIFIED="1572357557453" TEXT="Additive system">
 <node CREATED="1572357557729" ID="ID_656495223" MODIFIED="1572357562901" TEXT="Doesn&apos;t matter if a 0 is added"/>
 </node>
-<node CREATED="1572357569057" ID="ID_1887566795" MODIFIED="1572357578541" TEXT="Multiplicative systems">
+<node CREATED="1572357569057" FOLDED="true" ID="ID_1887566795" MODIFIED="1572357578541" TEXT="Multiplicative systems">
 <node CREATED="1572357578687" ID="ID_1809796052" MODIFIED="1572357582381" TEXT="Companies">
 <node CREATED="1572357590537" ID="ID_1362775385" MODIFIED="1572357597668" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -841,7 +898,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572357672632" ID="ID_1230321617" MODIFIED="1572357676612" TEXT="Know when the system is">
+<node CREATED="1572357672632" FOLDED="true" ID="ID_1230321617" MODIFIED="1572357676612" TEXT="Know when the system is">
 <node CREATED="1572357676944" ID="ID_1226257882" MODIFIED="1572357680716" TEXT="additive"/>
 <node CREATED="1572357681112" ID="ID_468209053" MODIFIED="1572357684436" TEXT="multiplicative">
 <node CREATED="1572357695943" ID="ID_1454806965" MODIFIED="1572357704555" TEXT="which component needs absolute reliability"/>
@@ -857,7 +914,7 @@
 <node CREATED="1566224665886" ID="ID_1943618525" MODIFIED="1566224668578" TEXT="Bell Curve/Normal Distribution">
 <icon BUILTIN="full-9"/>
 </node>
-<node CREATED="1566224673959" ID="ID_1943133168" MODIFIED="1566224678162" TEXT="Power Laws">
+<node CREATED="1566224673959" FOLDED="true" ID="ID_1943133168" MODIFIED="1566224678162" TEXT="Power Laws">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1572357841581" ID="ID_1191924561" MODIFIED="1572359067466" TEXT="Defining A Power Law">
@@ -974,7 +1031,7 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node CREATED="1566224704199" FOLDED="true" ID="ID_229029526" MODIFIED="1566225125026" POSITION="right" TEXT="Systems">
+<node CREATED="1566224704199" ID="ID_229029526" MODIFIED="1566225125026" POSITION="right" TEXT="Systems">
 <icon BUILTIN="full-3"/>
 <node CREATED="1566224707455" ID="ID_1136379606" MODIFIED="1566224723618" TEXT="Scale">
 <icon BUILTIN="full-1"/>

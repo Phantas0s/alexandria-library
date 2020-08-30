@@ -1,14 +1,17 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572536781653" ID="ID_1565021624" LINK="https://www.nytimes.com/2019/03/28/smarter-living/productivity-isnt-about-time-management-its-about-attention-management.html" MODIFIED="1596892973215" TEXT="Productivity Isn&#x2019;t About Time Management. It&#x2019;s About Attention Management.">
+<node CREATED="1572536781653" ID="ID_1565021624" LINK="https://www.nytimes.com/2019/03/28/smarter-living/productivity-isnt-about-time-management-its-about-attention-management.html" MODIFIED="1598780518705" TEXT="Productivity Isn&#x2019;t About Time Management. It&#x2019;s About Attention Management.">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
+    <p>
+      <b>Ask yourself these questions before, and compare with the mindmap. It sets up your believe before (maybe) contradicting them.</b>
+    </p>
     <ol>
       <li>
-        What does attention management prioritize, for what reasons?
+        What could mean attention management?
       </li>
       <li>
         What is the most common cause of productivity struggle?
@@ -17,7 +20,7 @@
         What is the most exciting about a project?
       </li>
       <li>
-        Time management is about the when. What attention management is about?
+        Time management is about the when. What attention management could be about?
       </li>
       <li>
         What other goal you can have instead of being productive?
@@ -32,7 +35,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1572536899931" ID="ID_1473643009" MODIFIED="1572537072316" POSITION="right" TEXT="Introduction">
+<node CREATED="1572536899931" FOLDED="true" ID="ID_1473643009" MODIFIED="1572537072316" POSITION="right" TEXT="Introduction">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572536902843" ID="ID_945544007" MODIFIED="1572536913617" TEXT="Culture obsessed by personal productivity">
 <node CREATED="1572536925859" ID="ID_72039786" MODIFIED="1572536929383" TEXT="Key: time management"/>
@@ -53,7 +56,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572537068403" ID="ID_572594277" MODIFIED="1572537075515" POSITION="right" TEXT="O.K., sure, but why shift our focus?">
+<node CREATED="1572537068403" FOLDED="true" ID="ID_572594277" MODIFIED="1572537075515" POSITION="right" TEXT="O.K., sure, but why shift our focus?">
 <icon BUILTIN="full-2"/>
 <node CREATED="1572537085986" ID="ID_18915023" MODIFIED="1572537088407" TEXT="Time management">
 <node CREATED="1572537088570" ID="ID_1567277171" MODIFIED="1572537093359" TEXT="Set goals when to finish the task"/>
@@ -77,9 +80,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1572537363032" ID="ID_147022216" MODIFIED="1572537366586" POSITION="left" TEXT="But how do I stay on task if I&#x2019;m not worried about time?">
+<node CREATED="1572537363032" FOLDED="true" ID="ID_147022216" MODIFIED="1572537366586" POSITION="left" TEXT="But how do I stay on task if I&#x2019;m not worried about time?">
 <icon BUILTIN="full-3"/>
-<node CREATED="1572537390240" ID="ID_99760485" MODIFIED="1572537393717" TEXT="Attention management">
+<node CREATED="1572537390240" FOLDED="true" ID="ID_99760485" MODIFIED="1572537393717" TEXT="Attention management">
 <node CREATED="1572537393887" ID="ID_1560012254" MODIFIED="1572537596843" TEXT="Include the where">
 <node CREATED="1572537449807" ID="ID_1809476190" MODIFIED="1572537479863" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -93,7 +96,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572537705630" ID="ID_499541137" MODIFIED="1572537948597" POSITION="left" TEXT="Of makers and managers">
+<node CREATED="1572537705630" FOLDED="true" ID="ID_499541137" MODIFIED="1572537948597" POSITION="left" TEXT="Of makers and managers">
 <icon BUILTIN="full-4"/>
 <node CREATED="1572537720293" ID="ID_658906767" MODIFIED="1572537761218" TEXT="Goal is not only being productive">
 <node CREATED="1572537725117" ID="ID_174714254" MODIFIED="1572537763354" TEXT="but creativity too"/>
