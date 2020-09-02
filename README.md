@@ -58,10 +58,11 @@ The first two points aim to capture the knowledge. The third point helps me to p
 ## Icons and Meaning
 
 I use icons on some nodes to carry some meaning:
-    * Numbers: show the order of reading, which follows the flow of the source material.
-    * Green flower: This node expands to an image.
-    * Magical wand: example to illustrate the idea, from the source.
-    * Key: Personal comment, not from the source.
+
+* Numbers: show the order of reading, which follows the flow of the source material.
+* Green flower: This node expands to an image.
+* Magical wand: example to illustrate the idea, from the source.
+* Key: Personal comment.
 
 ## Disclaimer
 
