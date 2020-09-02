@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1598593489816" TEXT="CISP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1599055689269" TEXT="SICP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -804,8 +804,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
@@ -5151,7 +5150,7 @@
 <node CREATED="1597468953192" ID="ID_815335816" MODIFIED="1597468957996" POSITION="right" TEXT="Modularity, Objects, and State ">
 <icon BUILTIN="full-3"/>
 <node CREATED="1597469018363" ID="ID_1889598563" MODIFIED="1597469020650" TEXT="Introduction">
-<node CREATED="1597469039252" ID="ID_43297729" MODIFIED="1597469041968" TEXT="We saw">
+<node CREATED="1597469039252" FOLDED="true" ID="ID_43297729" MODIFIED="1597469041968" TEXT="We saw">
 <node CREATED="1597469042542" ID="ID_1928465302" MODIFIED="1597469045577" TEXT="Primitive data"/>
 <node CREATED="1597469046223" ID="ID_593584581" MODIFIED="1597469054105" TEXT="Primitive procedure"/>
 <node CREATED="1597469054486" ID="ID_161880063" MODIFIED="1597469065216" TEXT="... combined in compound entities"/>
@@ -5159,10 +5158,10 @@
 <node CREATED="1597469086164" ID="ID_592440290" MODIFIED="1597469087912" TEXT="... with complexity of large system"/>
 </node>
 <node CREATED="1597469091925" ID="ID_1067427152" MODIFIED="1597469097992" TEXT="Not sufficient to design programs"/>
-<node CREATED="1597469101659" ID="ID_127220182" MODIFIED="1597469105968" TEXT="Needs organizational principles">
+<node CREATED="1597469101659" FOLDED="true" ID="ID_127220182" MODIFIED="1597469105968" TEXT="Needs organizational principles">
 <node CREATED="1597469109059" ID="ID_632990436" MODIFIED="1597469121408" TEXT="Formulate design of program"/>
 </node>
-<node CREATED="1597469127484" ID="ID_1589757866" MODIFIED="1597469137456" TEXT="Needs strategies for large system to be">
+<node CREATED="1597469127484" FOLDED="true" ID="ID_1589757866" MODIFIED="1597469137456" TEXT="Needs strategies for large system to be">
 <node CREATED="1597469137620" ID="ID_722434850" MODIFIED="1597469139249" TEXT="modular">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -5173,7 +5172,7 @@
 <node CREATED="1597469176026" ID="ID_129673194" MODIFIED="1597469179479" TEXT="maintained"/>
 </node>
 </node>
-<node CREATED="1597469233819" ID="ID_642098541" MODIFIED="1597469241030" TEXT="Good strategy for modeling physical system">
+<node CREATED="1597469233819" FOLDED="true" ID="ID_642098541" MODIFIED="1597469241030" TEXT="Good strategy for modeling physical system">
 <node CREATED="1597469242363" ID="ID_181286175" MODIFIED="1597469247117" TEXT="Base structure of our programs"/>
 <node CREATED="1597469247506" ID="ID_198247380" MODIFIED="1597469252711" TEXT="... on structure of the system modeled"/>
 <node CREATED="1597469260097" ID="ID_1629231351" MODIFIED="1597469263335" TEXT="For each object of system"/>
@@ -5188,7 +5187,7 @@
 </node>
 <node CREATED="1597469345058" ID="ID_926853060" MODIFIED="1597469352206" TEXT="Way we organized our program"/>
 <node CREATED="1597469353307" ID="ID_494919104" MODIFIED="1597469361358" TEXT="... dictated by our perception of system being modeled"/>
-<node CREATED="1597469427449" ID="ID_1878516165" MODIFIED="1597469434813" TEXT="See two approaches">
+<node CREATED="1597469427449" FOLDED="true" ID="ID_1878516165" MODIFIED="1597469434813" TEXT="See two approaches">
 <node CREATED="1597469435033" ID="ID_1016291535" MODIFIED="1597469447805" TEXT="Objects">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1597469463705" ID="ID_364208971" MODIFIED="1597469466670" TEXT="Distinct"/>
@@ -5201,7 +5200,7 @@
 </node>
 </node>
 <node CREATED="1597469556288" ID="ID_847365467" MODIFIED="1597469558685" TEXT="3.1 Assignment and Local State">
-<node CREATED="1597469971961" ID="ID_1651660501" MODIFIED="1597469974793" TEXT="Introduction">
+<node CREATED="1597469971961" FOLDED="true" ID="ID_1651660501" MODIFIED="1597469974793" TEXT="Introduction">
 <node CREATED="1597469589065" FOLDED="true" ID="ID_947795939" MODIFIED="1597469596133" TEXT="See the world as objects">
 <node CREATED="1597469596334" ID="ID_660053030" MODIFIED="1597469609186" TEXT="Independent">
 <node CREATED="1597469729431" ID="ID_288779362" MODIFIED="1597469732756" TEXT="Rarely completely"/>
@@ -5240,7 +5239,7 @@
 <node CREATED="1597469927910" ID="ID_337637466" MODIFIED="1597469936841" TEXT="State variables need to change over time"/>
 </node>
 </node>
-<node CREATED="1597469977749" ID="ID_941920111" MODIFIED="1597469978413" TEXT="3.1.1 Local State Variables ">
+<node CREATED="1597469977749" FOLDED="true" ID="ID_941920111" MODIFIED="1597469978413" TEXT="3.1.1 Local State Variables ">
 <node COLOR="#338800" CREATED="1597483019720" ID="ID_69549545" MODIFIED="1597483038305" TEXT="For a clear example of OOP model, see Above Line of View mindmap">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
@@ -5464,7 +5463,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597483463907" ID="ID_1329328227" MODIFIED="1597483563745" TEXT="3.1.2 The Benefits of Introducing Assignment">
+<node CREATED="1597483463907" FOLDED="true" ID="ID_1329328227" MODIFIED="1597483563745" TEXT="3.1.2 The Benefits of Introducing Assignment">
 <node CREATED="1597484000561" FOLDED="true" ID="ID_1460921658" MODIFIED="1597484010790" TEXT="Monte Carlo implementation">
 <node CREATED="1597484011353" ID="ID_122029682" MODIFIED="1597484037264" TEXT="rand">
 <richcontent TYPE="NOTE"><html>
@@ -5618,7 +5617,7 @@
 <node CREATED="1597484340767" ID="ID_1037726906" MODIFIED="1597484344588" TEXT="More complicated than that"/>
 </node>
 </node>
-<node CREATED="1597484351998" ID="ID_927644915" MODIFIED="1597484353170" TEXT="3.1.3 The Costs of Introducing Assignment ">
+<node CREATED="1597484351998" FOLDED="true" ID="ID_927644915" MODIFIED="1597484353170" TEXT="3.1.3 The Costs of Introducing Assignment ">
 <node CREATED="1597484894764" ID="ID_452440531" MODIFIED="1597484907692" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1597484384839" FOLDED="true" ID="ID_743222803" MODIFIED="1597484387593" TEXT="Functional programming">
@@ -6112,7 +6111,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597856194259" ID="ID_1173227082" MODIFIED="1597856197167" TEXT="3.2.2 Applying Simple Procedures">
+<node CREATED="1597856194259" FOLDED="true" ID="ID_1173227082" MODIFIED="1597856197167" TEXT="3.2.2 Applying Simple Procedures">
 <node CREATED="1597856423595" ID="ID_1953074621" MODIFIED="1597856437045" TEXT="Code">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6194,7 +6193,7 @@
 </node>
 <node CREATED="1597911795608" ID="ID_1808405978" MODIFIED="1597911802612" TEXT="... each call to square create new env"/>
 </node>
-<node CREATED="1597911867015" ID="ID_904826188" MODIFIED="1597911867657" TEXT="3.2.3 Frames as the Repository of Local State ">
+<node CREATED="1597911867015" FOLDED="true" ID="ID_904826188" MODIFIED="1597911867657" TEXT="3.2.3 Frames as the Repository of Local State ">
 <node CREATED="1597912139357" ID="ID_799405325" MODIFIED="1597912333098" TEXT="Code">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6279,8 +6278,7 @@
 <node CREATED="1597912933287" ID="ID_1914110572" MODIFIED="1597912936660" TEXT="... because it terminated"/>
 </node>
 </node>
-</node>
-<node CREATED="1598593547835" ID="ID_1694290100" MODIFIED="1598593549016" TEXT="3.2.4 Internal Definitions ">
+<node CREATED="1598593547835" FOLDED="true" ID="ID_1694290100" MODIFIED="1598593549016" TEXT="3.2.4 Internal Definitions ">
 <node CREATED="1598593820532" ID="ID_157089910" LINK="#ID_806499112" MODIFIED="1598594058586" TEXT="Code">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6318,8 +6316,7 @@
       &#160;&#160;(sqrt-iter 1.0))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598594113914" ID="ID_988372406" MODIFIED="1598594117078" TEXT="Evaluate (sqrt 2)">
 <node CREATED="1598594119977" ID="ID_1273553398" MODIFIED="1598594125438" TEXT="New env (E1) formed">
@@ -6341,8 +6338,7 @@
   <body>
     <img src="env_internal_definition.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1598597208852" ID="ID_1895586606" MODIFIED="1598597217297" TEXT="symbol x appearing in good enough"/>
@@ -6360,6 +6356,326 @@
 <node CREATED="1598597333069" ID="ID_1217682694" MODIFIED="1598597339880" TEXT="... because of subordinate environments"/>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1599054442102" ID="ID_503410192" MODIFIED="1599054444278" TEXT="3.3 Modeling with Mutable Data">
+<node CREATED="1599054542146" ID="ID_510025192" MODIFIED="1599054544150" TEXT="Introduction">
+<node CREATED="1599054472115" ID="ID_1957959098" MODIFIED="1599054492238" TEXT="For now, we have these data abstractions">
+<node CREATED="1599054499463" ID="ID_446055794" MODIFIED="1599054501807" TEXT="selectors"/>
+<node CREATED="1599054502412" ID="ID_1727290629" MODIFIED="1599054504535" TEXT="constructors"/>
+</node>
+<node CREATED="1599054505467" ID="ID_767717141" MODIFIED="1599054514309" TEXT="Let&apos;s introduce the mutators">
+<node CREATED="1599054516033" ID="ID_797674621" MODIFIED="1599054518325" TEXT="Modify data objects"/>
+</node>
+</node>
+<node CREATED="1599054550705" ID="ID_180056677" MODIFIED="1599054552275" TEXT="3.3.1 Mutable List Structure ">
+<node CREATED="1599054597993" FOLDED="true" ID="ID_1048203881" MODIFIED="1599054604639" TEXT="Primitive mutators for pairs">
+<node CREATED="1599054604906" ID="ID_1038288966" MODIFIED="1599054608629" TEXT="set-car!">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599054620259" ID="ID_973351288" MODIFIED="1599054622374" TEXT="Two arguments"/>
+<node CREATED="1599054623081" ID="ID_43152677" MODIFIED="1599054625580" TEXT="First must be a pair"/>
+<node CREATED="1599054630768" ID="ID_1615038899" MODIFIED="1599054643422" TEXT="Replace car pointer with pointer of 2nd arg"/>
+</node>
+<node CREATED="1599054610264" ID="ID_1473809044" MODIFIED="1599054614603" TEXT="set-cdr!">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599055164022" ID="ID_1413407490" MODIFIED="1599055167674" TEXT="Similar to set-car!"/>
+<node CREATED="1599055168102" ID="ID_874321272" MODIFIED="1599055175506" TEXT="Replace cdr pointer instead of car pointer">
+<node CREATED="1599055238452" ID="ID_1463571534" MODIFIED="1599055238452" TEXT=""/>
+</node>
+</node>
+<node CREATED="1599054976574" ID="ID_410167632" MODIFIED="1599054990945" TEXT="Should only be used for their effects">
+<node CREATED="1599054991239" ID="ID_891948803" MODIFIED="1599054993802" TEXT="Like set!"/>
+</node>
+</node>
+<node CREATED="1599054680993" FOLDED="true" ID="ID_1501915472" MODIFIED="1599055552847" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1599054703292" ID="ID_1430918434" MODIFIED="1599054713135" TEXT="x bound to">
+<node CREATED="1599054716688" ID="ID_204332994" MODIFIED="1599054718124" TEXT="((a b) c d)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1599054719336" ID="ID_137502448" MODIFIED="1599054722213" TEXT="y bound to">
+<node CREATED="1599054722399" ID="ID_1836093007" MODIFIED="1599054726170" TEXT="(e f)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1599054736265" ID="ID_463684425" MODIFIED="1599054744305" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1599054896078" ID="ID_815861530" MODIFIED="1599054911285">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="example_list_bound.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1599054769553" ID="ID_383355380" MODIFIED="1599055073126" TEXT="(set-car! x y)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599054775760" ID="ID_246962729" MODIFIED="1599055142777" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1599054845495" ID="ID_778735373" MODIFIED="1599054947093">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="example_list_bound_after_set_car.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1599055011022" ID="ID_1571679214" MODIFIED="1599055036443" TEXT="Garbage created">
+<node CREATED="1599055036646" ID="ID_900058528" MODIFIED="1599055049113" TEXT="List (a b) not accessible by anything"/>
+<node CREATED="1599055062701" ID="ID_1646712374" MODIFIED="1599055069882" TEXT="LISP has a garbage collector"/>
+</node>
+</node>
+<node CREATED="1599055099126" ID="ID_545011214" MODIFIED="1599055101150" TEXT="(define z (cons y (cdr x)))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599055109462" ID="ID_1798376444" LINK="#ID_463684425" MODIFIED="1599055126894" TEXT="Bound to original list">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1599055239620" ID="ID_233318524" MODIFIED="1599055245930">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="example_list_bound_after_cons.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1599055556994" ID="ID_1747989096" MODIFIED="1599055558783" TEXT="Sharing and identity ">
+<icon BUILTIN="full-1"/>
+<node CREATED="1599055626849" ID="ID_1491804989" MODIFIED="1599055709375" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define x (list 'a 'b))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define z1 (cons x x))<br />(define z2 (cons (list 'a 'b) (list 'a 'b)))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1599055637682" ID="ID_1135301403" MODIFIED="1599055643949" TEXT="z1 and z2 represent same list">
+<node CREATED="1599055647706" ID="ID_1481402484" MODIFIED="1599055648213" TEXT="((a b) a b)"/>
+</node>
+<node CREATED="1599055730600" ID="ID_569115867" MODIFIED="1599055741285" TEXT="... but symbols are shared">
+<node CREATED="1599055760347" ID="ID_1122339641" MODIFIED="1599055768869" TEXT="eq? only check equality of pointer"/>
+</node>
+<node CREATED="1599055657426" ID="ID_664111609" MODIFIED="1599055788819" TEXT="Sharing becomes important when using mutators"/>
+<node CREATED="1599055801513" ID="ID_1532835037" MODIFIED="1599055874602" TEXT="Illustrations">
+<icon BUILTIN="licq"/>
+<node CREATED="1599055854891" ID="ID_407281313" MODIFIED="1599055860348">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="sharing_list_z1.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1599055861864" ID="ID_1623858416" MODIFIED="1599055866039">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="sharing_list_z2.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1599055678296" ID="ID_1786620136" MODIFIED="1599055700705" TEXT="(define (set-to-wow! x) (set-car! (car x) &apos;wow) x) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599055974935" ID="ID_747712423" MODIFIED="1599056038544" TEXT="z1">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ((a b) a b)
+    </p>
+    <p>
+      (set-to-wow! z1)
+    </p>
+    <p>
+      ((wow b) wow b)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1599055976750" ID="ID_9485199" MODIFIED="1599055980460" TEXT="Altering car change cdr"/>
+<node CREATED="1599056008952" ID="ID_70900543" MODIFIED="1599056011788" TEXT="... because same pair"/>
+</node>
+<node CREATED="1599056017959" ID="ID_1917673606" MODIFIED="1599056062522" TEXT="z2">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ((a b) a b)
+    </p>
+    <p>
+      (set-to-wow! z2)
+    </p>
+    <p>
+      ((wow b) a b)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1599056020583" ID="ID_1935454370" MODIFIED="1599056025652" TEXT="Only car modified"/>
+</node>
+</node>
+<node CREATED="1599056101431" ID="ID_742163582" MODIFIED="1599056107403" TEXT="eq?">
+<node CREATED="1599056107615" ID="ID_185716273" MODIFIED="1599056116851" TEXT="Test if both objects are same">
+<node CREATED="1599056119886" ID="ID_494490852" MODIFIED="1599056123147" TEXT="If the are equals"/>
+<node CREATED="1599056123527" ID="ID_61767124" MODIFIED="1599056125475" TEXT="... as pointers"/>
+</node>
+<node CREATED="1599056136526" ID="ID_570077860" MODIFIED="1599056151592" TEXT="(eq? (car z1) (cdr z1))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599056138831" ID="ID_1153064618" MODIFIED="1599056139618" TEXT="true"/>
+</node>
+<node CREATED="1599056147902" ID="ID_841544413" MODIFIED="1599056150833" TEXT="(eq? (car z2) (cdr z2))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599056149150" ID="ID_1101324212" MODIFIED="1599056149899" TEXT="false"/>
+</node>
+</node>
+<node CREATED="1599056178998" ID="ID_497468335" MODIFIED="1599056183594" TEXT="Sharing">
+<node CREATED="1599056183758" ID="ID_192758070" MODIFIED="1599056189489" TEXT="Allow to create new data structures"/>
+<node CREATED="1599056189838" ID="ID_1313681566" MODIFIED="1599056196890" TEXT="Is dangerous">
+<node CREATED="1599056197141" ID="ID_1858808160" MODIFIED="1599056204034" TEXT="Dot it with care"/>
+</node>
+</node>
+</node>
+<node CREATED="1599056224837" ID="ID_804124469" MODIFIED="1599056226659" TEXT="Mutation is just assignment ">
+<icon BUILTIN="full-2"/>
+<node CREATED="1599056349972" ID="ID_1063125675" MODIFIED="1599056375032" TEXT="Define car and cdr">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (cons x y)
+    </p>
+    <p>
+      &#160;&#160;(define (dispatch m)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cond ((eq? m 'car) x)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? m 'cdr) y)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Undefined operation: CONS&quot; m))))
+    </p>
+    <p>
+      &#160;&#160;dispatch)
+    </p>
+    <p>
+      (define (car z) (z 'car))
+    </p>
+    <p>
+      (define (cdr z) (z 'cdr))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1599056375557" ID="ID_1871554336" MODIFIED="1599056383639" TEXT="Define set-car! and set-cdr!">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (cons x y)
+    </p>
+    <p>
+      &#160;&#160;(define (set-x! v) (set! x v))
+    </p>
+    <p>
+      &#160;&#160;(define (set-y! v) (set! y v))
+    </p>
+    <p>
+      &#160;&#160;(define (dispatch m)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cond ((eq? m 'car) x)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? m 'cdr) y)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? m 'set-car!) set-x!)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? m 'set-cdr!) set-y!)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(error &quot;Undefined operation: CONS&quot; m))))
+    </p>
+    <p>
+      &#160;&#160;dispatch)
+    </p>
+    <p>
+      (define (car z) (z 'car))
+    </p>
+    <p>
+      (define (cdr z) (z 'cdr))
+    </p>
+    <p>
+      (define (set-car! z new-value)
+    </p>
+    <p>
+      &#160;&#160;((z 'set-car!) new-value) z)
+    </p>
+    <p>
+      (define (set-cdr! z new-value)
+    </p>
+    <p>
+      &#160;&#160;((z 'set-cdr!) new-value) z)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1599056390901" ID="ID_1526472211" MODIFIED="1599056398713" TEXT="3.3.2 Representing Queues "/>
 </node>
 </node>
 </node>
