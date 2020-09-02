@@ -1263,8 +1263,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(forest-map fn (cdr forest)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598604779123" ID="ID_746078503" MODIFIED="1598604787454" TEXT="Allows to explore two dimensional data structures"/>
 <node CREATED="1598604815730" ID="ID_1538043095" MODIFIED="1598604819294" TEXT="For forest use">
@@ -1300,8 +1299,7 @@
   <body>
     <img src="deep-list.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1333,8 +1331,7 @@
       &#160;&#160;&#160;&#160;(fn lol)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598605098497" ID="ID_713552223" MODIFIED="1598605101044" TEXT="lol = list of list"/>
 </node>
@@ -1451,8 +1448,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(map fn (cdr seq)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1598605523278" ID="ID_239657786" MODIFIED="1598605529674" TEXT="Each non base case invocation of map"/>
 <node CREATED="1598605530150" ID="ID_414523042" MODIFIED="1598605534402" TEXT="... gives rise to one recursive call"/>
 <node CREATED="1598605535126" ID="ID_1004711748" MODIFIED="1598605541009" TEXT="... to handle the cdr of sequence"/>
@@ -1490,8 +1486,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (filter pred (cdr seq)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598605683886" ID="ID_30603831" MODIFIED="1598605694560" TEXT="Example of tree recursion">
 <richcontent TYPE="NOTE"><html>
@@ -1512,8 +1507,7 @@
       &#160;&#160;&#160;&#160;(+ (fib (- n 1)) (fib (- n 2)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1598605695565" ID="ID_248198004" MODIFIED="1598605701049" TEXT="... even if it doesn&apos;t deal with trees"/>
 </node>
 </node>
@@ -1542,8 +1536,7 @@
       &#160;&#160;(for-each depth-first-search (children tree)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598605775741" ID="ID_1193778740" MODIFIED="1598605780336" TEXT="Program structure follow data structure"/>
 <node CREATED="1598606147825" ID="ID_105080051" MODIFIED="1598606150325" TEXT="Binary trees">
@@ -1571,8 +1564,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(pre-order (right-branch tree)) )))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598606326411" ID="ID_454953990" MODIFIED="1598606334494" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -1605,8 +1597,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(in-order (right-branch tree)) )))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598606316721" ID="ID_1702059884" MODIFIED="1598606338581" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -1637,8 +1628,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(print (entry tree)) )))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598606339745" ID="ID_1530859364" MODIFIED="1598606348021" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -1684,8 +1674,7 @@
       <font face="SansSerif">&#160;&#160;&#160;&#160;&#160;&#160;(bfs-iter (append (cdr queue) (children task)))))) </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1598606012058" ID="ID_523364686" MODIFIED="1598606019791" TEXT="Why using this more complicated technique?">
@@ -1764,8 +1753,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(find-forest place (cdr forest))))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1823,8 +1811,7 @@
       &#160;&#160;&#160;&#160;(eval (substitute (body proc) (formals proc) args))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1598606658838" ID="ID_810009539" MODIFIED="1598606678679" TEXT="eval">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1598606661478" ID="ID_1702701113" MODIFIED="1598606664682" TEXT="Evaluate an expression"/>
@@ -1876,8 +1863,7 @@
       &#160;5)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2445,7 +2431,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1598614621834" ID="ID_1932648185" MODIFIED="1598614631075" TEXT="Dyadic operations. ">
+<node CREATED="1598614621834" ID="ID_1932648185" MODIFIED="1599052062885" TEXT="Dyadic operations">
 <icon BUILTIN="full-4"/>
 <node CREATED="1598614883856" ID="ID_304772635" MODIFIED="1598614893220" TEXT="Problems arise with two operands"/>
 <node CREATED="1598614911650" ID="ID_1944416390" MODIFIED="1598614919876" TEXT="What to do if operands are not the same type?">
@@ -2453,6 +2439,22 @@
 <icon BUILTIN="wizard"/>
 <node CREATED="1598614921304" ID="ID_1482914462" MODIFIED="1598614921981" TEXT="+"/>
 <node CREATED="1598614922837" ID="ID_1268256555" MODIFIED="1598614925468" TEXT="Two operands"/>
+</node>
+</node>
+<node CREATED="1599052085350" ID="ID_215380789" MODIFIED="1599052089135" TEXT="No perfect solution to problem">
+<node CREATED="1599052117036" ID="ID_481461196" MODIFIED="1599052125353" TEXT="When types are subset of another"/>
+<node CREATED="1599052125745" ID="ID_1025590775" MODIFIED="1599052130864" TEXT="... can &quot;raise&quot; that type to another"/>
+<node CREATED="1599052131317" ID="ID_1870943724" MODIFIED="1599052137248" TEXT="However, not everything is that simple!"/>
+</node>
+<node CREATED="1599052206300" ID="ID_1124198949" MODIFIED="1599052211847" TEXT="In case of raising type for numbers">
+<node CREATED="1599052212075" ID="ID_277582774" MODIFIED="1599052217864" TEXT="Can lead to approximation"/>
+<node CREATED="1599052218530" ID="ID_798905737" MODIFIED="1599052225231" TEXT="If you deal with something else than integer"/>
+<node CREATED="1599052225690" ID="ID_1523539686" MODIFIED="1599052233551" TEXT="... you&apos;ll go into a world of traps"/>
+<node CREATED="1599052234097" ID="ID_1340884128" MODIFIED="1599052241742" TEXT="&quot;You will live longer if you only write programs about integers. &quot;">
+<node COLOR="#338800" CREATED="1599052243018" ID="ID_1674888824" MODIFIED="1599052259410" TEXT="You&apos;re so right Brian">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
 </node>
 </node>
 </node>
@@ -2463,6 +2465,327 @@
 <node CREATED="1596776394028" ID="ID_1618812532" MODIFIED="1596776405795" POSITION="right" TEXT="Local State Variables / Environments">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
+<node CREATED="1599052274441" ID="ID_1246556042" MODIFIED="1599052280983" TEXT="Three big ideas of OOP interface">
+<node CREATED="1599052281202" ID="ID_1262706676" MODIFIED="1599052283014" TEXT="message passing"/>
+<node CREATED="1599052283416" ID="ID_1615350839" MODIFIED="1599052285038" TEXT="local state"/>
+<node CREATED="1599052285490" ID="ID_622793252" MODIFIED="1599052286959" TEXT="inheritance"/>
+</node>
+<node CREATED="1599052298930" ID="ID_1655807416" MODIFIED="1599052303060" TEXT="How local state works?"/>
+<node CREATED="1599052308066" ID="ID_1129772700" MODIFIED="1599052425242" TEXT="Local variable">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599052311619" ID="ID_102945140" MODIFIED="1599052317822" TEXT="Only available in specific part of program"/>
+<node CREATED="1599052323129" ID="ID_137719470" MODIFIED="1599052324782" TEXT="In Scheme">
+<node CREATED="1599052324954" ID="ID_707813456" MODIFIED="1599052332245" TEXT="In a specific procedure"/>
+</node>
+</node>
+<node CREATED="1599052339890" ID="ID_1085542060" MODIFIED="1599052426201" TEXT="State variable">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599052342928" ID="ID_1346293422" MODIFIED="1599052369486" TEXT="Remembers its value"/>
+<node CREATED="1599052370224" ID="ID_1257076354" MODIFIED="1599052373619" TEXT="... from one invocation"/>
+<node CREATED="1599052373993" ID="ID_314329192" MODIFIED="1599052377204" TEXT="... to the next"/>
+</node>
+<node CREATED="1599052409561" ID="ID_132877364" MODIFIED="1599052411813" TEXT="set!">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599052412145" ID="ID_1831769126" MODIFIED="1599052419661" TEXT="Make permanent change for value of variable"/>
+<node CREATED="1599052437048" ID="ID_1117775561" MODIFIED="1599052443509" TEXT="With it, substitution model doesn&apos;t work"/>
+<node CREATED="1599052444532" ID="ID_1029134464" MODIFIED="1599052493606" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1599052470961" ID="ID_295810020" MODIFIED="1599052489748" TEXT="code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define counter 0)
+    </p>
+    <p>
+      (define (count)
+    </p>
+    <p>
+      &#160;&#160;(set! counter (+ counter 1))
+    </p>
+    <p>
+      &#160;&#160;counter)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1599052500479" ID="ID_1939265368" MODIFIED="1599052515469" TEXT="If we substitue counter in there"/>
+<node CREATED="1599052515857" ID="ID_1856865138" MODIFIED="1599052545653" TEXT="... we end up with that">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (set! 0 (+ 0 1))
+    </p>
+    <p>
+      0
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1599052549854" ID="ID_1361929464" MODIFIED="1599052554740" TEXT="... which doesn&apos;t make any sense"/>
+</node>
+</node>
+<node CREATED="1599052565951" ID="ID_934076784" MODIFIED="1599052587676" TEXT="Variable is more a shoebox ">
+<node CREATED="1599052588143" ID="ID_146273709" MODIFIED="1599052594773" TEXT="... where you can store value"/>
+<node CREATED="1599052573231" ID="ID_803427000" MODIFIED="1599052574884" TEXT="A place"/>
+<node CREATED="1599052595191" ID="ID_1209847090" MODIFIED="1599052599154" TEXT="Can have many shoeboxes">
+<node CREATED="1599052599367" ID="ID_951944560" MODIFIED="1599052604131" TEXT="... with same name"/>
+<node CREATED="1599052608207" ID="ID_1755230333" MODIFIED="1599052611739" TEXT="How to keep track of that?"/>
+</node>
+</node>
+<node CREATED="1599052646367" ID="ID_1675067917" MODIFIED="1599052650187" TEXT="Introducing effect">
+<node CREATED="1599052650390" ID="ID_305060257" MODIFIED="1599052714555" TEXT="A procedure can have more than one expression"/>
+<node CREATED="1599052659479" ID="ID_645195813" MODIFIED="1599052668682" TEXT="It&apos;s not functional anymore where you compute and return"/>
+<node CREATED="1599052669070" ID="ID_419096693" MODIFIED="1599052672779" TEXT="Now we can">
+<node CREATED="1599052672957" ID="ID_774275711" MODIFIED="1599052754736" TEXT="compute">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1599052674373" ID="ID_1178887372" MODIFIED="1599052683296" TEXT="create a side effect">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1599052704830" ID="ID_1337997196" MODIFIED="1599052711387" TEXT="Procedure return value of last expression"/>
+</node>
+<node CREATED="1599052771478" ID="ID_587276776" MODIFIED="1599052774091" TEXT="Local state variable">
+<node CREATED="1599052774357" ID="ID_1005538251" MODIFIED="1599052783746" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (count)
+    </p>
+    <p>
+      &#160;&#160;(let ((counter 0))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(set! counter (+ counter 1))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;counter))
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1599052799102" ID="ID_1390143934" MODIFIED="1599052806178" TEXT="... but let create a new variable"/>
+<node CREATED="1599052806526" ID="ID_1649638238" MODIFIED="1599052810705" TEXT="... each time procedure invoked"/>
+<node CREATED="1599052820157" ID="ID_1635815218" MODIFIED="1599052826026" TEXT="Need to call let only once">
+<node CREATED="1599052826230" ID="ID_564340064" MODIFIED="1599052833104" TEXT="code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define count
+    </p>
+    <p>
+      &#160;&#160;(let ((result 0))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda ()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(set! result (+ result 1))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;result)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1599053080379" ID="ID_544000608" MODIFIED="1599053083000" TEXT="Environment model">
+<node CREATED="1599053083220" ID="ID_1867498720" MODIFIED="1599053091045" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (square x) (* x x))
+    </p>
+    <p>
+      (square 7)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1599054016597" ID="ID_1046298502" MODIFIED="1599054018968" TEXT="Rules">
+<node CREATED="1599053148291" ID="ID_1347606797" MODIFIED="1599053318734" TEXT="Create a frame ">
+<icon BUILTIN="full-1"/>
+<node CREATED="1599053164836" ID="ID_1711785973" MODIFIED="1599053173983" TEXT="... with formal parameters bound"/>
+<node CREATED="1599053169866" ID="ID_1658614064" MODIFIED="1599053172017" TEXT="... to argument value"/>
+<node CREATED="1599053215178" ID="ID_1794715643" MODIFIED="1599053226407" TEXT="Collection of name-value associations or bindings"/>
+</node>
+<node CREATED="1599053180243" ID="ID_1999138432" MODIFIED="1599053319403" TEXT="Use this frame to extend lexical environment">
+<icon BUILTIN="full-2"/>
+<node CREATED="1599053385145" ID="ID_1524526395" MODIFIED="1599054038519" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (f x)
+    </p>
+    <p>
+      &#160;&#160;(define (g y)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(+ x y))
+    </p>
+    <p>
+      &#160;&#160;(g 3))
+    </p>
+    <p>
+      (f 5)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1599053529463" ID="ID_74654640" MODIFIED="1599053540445" TEXT="Does environnment of g extend">
+<node CREATED="1599053540768" ID="ID_23418522" MODIFIED="1599053553211" TEXT="Environment of f?"/>
+<node CREATED="1599053553784" ID="ID_771455195" MODIFIED="1599053556260" TEXT="Global env?"/>
+</node>
+<node CREATED="1599053557456" ID="ID_1542703666" MODIFIED="1599053561075" TEXT="Environment of f!">
+<node CREATED="1599053561865" ID="ID_732500491" MODIFIED="1599053567662" TEXT="Need to be able to look up">
+<node CREATED="1599053567848" ID="ID_1978769705" MODIFIED="1599053568563" TEXT="x"/>
+<node CREATED="1599053568985" ID="ID_3461546" MODIFIED="1599053569580" TEXT="y"/>
+</node>
+</node>
+<node CREATED="1599053753903" ID="ID_1552156105" MODIFIED="1599053767099" TEXT="We always extend the environment where function was created"/>
+<node CREATED="1599053767502" ID="ID_1968799196" MODIFIED="1599053770779" TEXT="... and not invoked">
+<node CREATED="1599053789206" ID="ID_1471646892" MODIFIED="1599053791843" TEXT="Lexical scope"/>
+</node>
+</node>
+<node CREATED="1599053188795" ID="ID_678606433" MODIFIED="1599053320030" TEXT="Evaluate the body in resulting environment">
+<icon BUILTIN="full-3"/>
+<node CREATED="1599053196787" ID="ID_754504861" MODIFIED="1599053200783" TEXT="Without substitution!"/>
+<node CREATED="1599053289177" ID="ID_575027361" MODIFIED="1599053306758" TEXT="Place where procedure can look up name"/>
+</node>
+</node>
+<node CREATED="1599053800617" ID="ID_1312827454" MODIFIED="1599053804443" TEXT="Dynamic scope">
+<node CREATED="1599053804631" ID="ID_211975526" MODIFIED="1599053818529" TEXT="Environment where function is invoked is extended"/>
+<node CREATED="1599053822446" ID="ID_1200637000" MODIFIED="1599053825803" TEXT="It&apos;s possible but rare"/>
+</node>
+<node CREATED="1599053870446" ID="ID_432569856" MODIFIED="1599053875184" TEXT="Rules of environment model">
+<node COLOR="#338800" CREATED="1599053942094" ID="ID_908852425" MODIFIED="1599053949808" TEXT="See p.320">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+<node CREATED="1599054098923" ID="ID_1452310320" MODIFIED="1599054100026" TEXT="*** ONLY COMPOUND PROCEDURE INVOCATION CREATES A FRAME *** ">
+<node CREATED="1599054101860" ID="ID_1316110873" MODIFIED="1599054119464" TEXT="Compound procedure = user defined"/>
+</node>
+<node CREATED="1599054136371" ID="ID_701264262" MODIFIED="1599054137103" TEXT="*** ONLY LAMBDA CREATES A PROCEDURE *** "/>
+</node>
+</node>
+<node CREATED="1599054150946" ID="ID_1333297728" MODIFIED="1599054153728" TEXT="Environments and OOP">
+<node CREATED="1599054216787" ID="ID_15123483" MODIFIED="1599054237113" TEXT="OOP notation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define-class (count)
+    </p>
+    <p>
+      &#160;&#160;(class-vars (glob 0))
+    </p>
+    <p>
+      &#160;&#160;(instance-vars (loc 0))
+    </p>
+    <p>
+      &#160;&#160;(method (local)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set! loc (+ loc 1))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;loc)
+    </p>
+    <p>
+      &#160;&#160;(method (global)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set! glob (+ glob 1))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;glob))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1599054219132" ID="ID_329559875" MODIFIED="1599054235725" TEXT="Underlying code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define make-count
+    </p>
+    <p>
+      &#160;&#160;(let ((glob 0))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda ()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(let ((loc 0))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (msg)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cond ((eq? msg &#8217;local)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda ()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set! loc (+ loc 1))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;loc))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? msg &#8217;global)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda ()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set! glob (+ glob 1))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;glob))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;No such method&quot; msg)) ))))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1596776413955" ID="ID_1146194539" MODIFIED="1596776428067" POSITION="right" TEXT="Mutable data / Queues / Tables">
 <icon BUILTIN="full-1"/>
