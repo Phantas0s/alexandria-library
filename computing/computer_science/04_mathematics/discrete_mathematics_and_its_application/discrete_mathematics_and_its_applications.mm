@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1597495795360" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1599285879984" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -373,7 +373,28 @@
       
     </p>
     <p>
-      <font size="3"><b><u>3. Logic and proof </u></b></font>
+      <font size="3"><b><u>3. Algorithms </u></b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><u>3.1 Algorithms</u></i><br /><br />1. How do you do a linear search? Give an example.
+    </p>
+    <p>
+      2. How do you do a binary search? Give an example.
+    </p>
+    <p>
+      3. What's bubble sort? Give an example.
+    </p>
+    <p>
+      4. What is insertion sort? Give an example.
+    </p>
+    <p>
+      5. What's a greedy algorithm? Give an example.
+    </p>
+    <p>
+      6. What's the halting problem?
     </p>
     <p>
       
@@ -387,6 +408,7 @@
       </li>
     </ol>
     <p>
+      <br />
       
     </p>
     <p>
@@ -407,7 +429,8 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1530447285087" FOLDED="true" ID="ID_1982099078" MODIFIED="1587472961477" POSITION="right" TEXT="PLAN of the book">
 <font NAME="SansSerif" SIZE="12"/>
@@ -442,10 +465,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1530447452934" FOLDED="true" ID="ID_769479249" MODIFIED="1587200120125" POSITION="right" TEXT="The foundation: logic and proof">
+<node CREATED="1530447452934" ID="ID_769479249" MODIFIED="1587200120125" POSITION="right" TEXT="The foundation: logic and proof">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
-<node CREATED="1530447523116" FOLDED="true" ID="ID_954479220" MODIFIED="1565526995995" TEXT="1.1 Propositional Logic">
+<node CREATED="1530447523116" ID="ID_954479220" MODIFIED="1565526995995" TEXT="1.1 Propositional Logic">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1530450590360" ID="ID_422541407" MODIFIED="1558265182717" TEXT="Propositions">
 <font NAME="SansSerif" SIZE="12"/>
@@ -496,8 +519,7 @@
       OR (Disjunction)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1530447740716" ID="ID_665519416" MODIFIED="1557737481169" TEXT="Inclusive">
 <node CREATED="1530448325526" ID="ID_245524649" MODIFIED="1557066941050" TEXT="p &#x2228; q">
@@ -528,7 +550,7 @@
 <node CREATED="1530447743373" ID="ID_919785786" MODIFIED="1557066941050" TEXT="True True is False"/>
 </node>
 </node>
-<node CREATED="1530447787539" FOLDED="true" ID="ID_64784273" MODIFIED="1564563957207" TEXT="Conditional statement">
+<node CREATED="1530447787539" ID="ID_64784273" MODIFIED="1564563957207" TEXT="Conditional statement">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -582,7 +604,7 @@
   </body>
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1530447964011" FOLDED="true" ID="ID_1296647110" MODIFIED="1559671643669" TEXT="Truth table">
+<node CREATED="1530447964011" ID="ID_1296647110" MODIFIED="1559671643669" TEXT="Truth table">
 <icon BUILTIN="licq"/>
 <node CREATED="1530449944012" ID="ID_581962070" MODIFIED="1557066950035">
 <richcontent TYPE="NODE"><html>
@@ -1453,8 +1475,7 @@
       Proofs in mathematics are <b>valid</b>&#160;<b>arguments</b>&#160;that establish the truth of mathematical statements
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1534606355777" FOLDED="true" ID="ID_796026616" MODIFIED="1598778451820" TEXT="Argument">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1865,7 +1886,7 @@
 </node>
 <node CREATED="1537205135100" ID="ID_1952059657" MODIFIED="1558265201867" TEXT="1.8 Proof method and strategy">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1537615206033" FOLDED="true" ID="ID_1047134535" MODIFIED="1558265201008" TEXT="Proof by cases">
+<node CREATED="1537615206033" FOLDED="true" ID="ID_1047134535" MODIFIED="1599286842021" TEXT="Proof by cases">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1884,7 +1905,8 @@
       <font size="3">output.</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1537615211625" FOLDED="true" ID="ID_1512888094" MODIFIED="1557737481226" TEXT="To prove">
 <node CREATED="1537615221321" ID="ID_1115905004" MODIFIED="1557066941020" TEXT="(p 1 &#x2228; p 2 &#x2228; &#xb7;&#xb7;&#xb7; &#x2228; p n ) &#x2192; q"/>
@@ -1896,33 +1918,31 @@
 <node CREATED="1537616697192" FOLDED="true" ID="ID_1282962695" MODIFIED="1557737481226" TEXT="Need to cover all possible cases">
 <node CREATED="1537616715585" ID="ID_867666084" MODIFIED="1557066941020" TEXT="That arise in a theorem"/>
 </node>
-<node CREATED="1537615301400" FOLDED="true" ID="ID_1284193306" MODIFIED="1557737481226" TEXT="Exhaustive proof">
+<node CREATED="1537615301400" ID="ID_1284193306" MODIFIED="1599286782444" TEXT="Exhaustive proof">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="3">or proofs by exhaustion</font>
+      ...
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+<node CREATED="1599286783587" ID="ID_263006608" MODIFIED="1599286785499" TEXT="... or proofs by exhaustion"/>
 <node CREATED="1537615366624" ID="ID_828624708" MODIFIED="1557066941020" TEXT="Special type of proof by case"/>
-<node CREATED="1537615308973" FOLDED="true" ID="ID_481486446" MODIFIED="1557737481188" TEXT="Look small number of examples as proof">
+<node CREATED="1537615308973" ID="ID_481486446" MODIFIED="1557737481188" TEXT="Look small number of examples as proof">
 <node CREATED="1537615344112" ID="ID_583084861" MODIFIED="1557066941020" TEXT="Exhaust all possibilities"/>
 </node>
 </node>
 <node CREATED="1537617918631" FOLDED="true" ID="ID_1432912573" MODIFIED="1557737481226" TEXT="Useful when">
-<node CREATED="1537617922397" FOLDED="true" ID="ID_969887011" MODIFIED="1557737481189" TEXT="Not possible to consider all cases of a proof">
-<node CREATED="1537617937632" ID="ID_684034343" MODIFIED="1557066941020" TEXT="At the same time"/>
+<node CREATED="1537617922397" ID="ID_969887011" MODIFIED="1557737481189" TEXT="Not possible to consider all cases of a proof"/>
+<node CREATED="1537617947967" ID="ID_558504729" MODIFIED="1557737481189" TEXT="No obvious way to begin a proof"/>
+<node CREATED="1537617962155" ID="ID_147455599" MODIFIED="1599286813764" TEXT="... but when extra information in each case"/>
+<node CREATED="1537617969011" ID="ID_1004627412" MODIFIED="1599286817883" TEXT="... helps move the proof forward"/>
 </node>
-<node CREATED="1537617947967" FOLDED="true" ID="ID_558504729" MODIFIED="1557737481189" TEXT="No obvious way to begin a proof">
-<node CREATED="1537617962155" FOLDED="true" ID="ID_147455599" MODIFIED="1557737480598" TEXT="But when extra information in each case">
-<node CREATED="1537617969011" ID="ID_1004627412" MODIFIED="1557066941020" TEXT="Helps move the proof forward"/>
-</node>
-</node>
-</node>
-<node CREATED="1537703747983" FOLDED="true" ID="ID_176589828" MODIFIED="1557737481227" TEXT="Without loss of generality">
+<node CREATED="1537703747983" ID="ID_176589828" MODIFIED="1557737481227" TEXT="Without loss of generality">
 <node CREATED="1537703753753" FOLDED="true" ID="ID_944195592" MODIFIED="1557737481189" TEXT="Abbreviation">
 <node CREATED="1537703769632" ID="ID_674410599" MODIFIED="1557066941020" TEXT="WLOG"/>
 </node>
@@ -1930,10 +1950,9 @@
 <node CREATED="1537703824507" ID="ID_1058535441" MODIFIED="1557066941020" TEXT="Need to precise WLOG"/>
 </node>
 </node>
-<node CREATED="1537705396962" FOLDED="true" ID="ID_17019048" MODIFIED="1557737481227" TEXT="Common errors">
-<node CREATED="1537705412422" FOLDED="true" ID="ID_817055517" MODIFIED="1557737481189" TEXT="Draw incorrect conclusions from examples">
-<node CREATED="1537705431606" ID="ID_1808243202" MODIFIED="1557066941020" TEXT="Every possible cases MUST be covered!"/>
-</node>
+<node CREATED="1537705396962" ID="ID_17019048" MODIFIED="1557737481227" TEXT="Common errors">
+<node CREATED="1537705412422" ID="ID_817055517" MODIFIED="1557737481189" TEXT="Draw incorrect conclusions from examples"/>
+<node CREATED="1537705431606" ID="ID_1808243202" MODIFIED="1599286839915" TEXT="... every possible cases MUST be covered!"/>
 </node>
 </node>
 <node CREATED="1537708821292" FOLDED="true" ID="ID_1103297875" MODIFIED="1558265201008" TEXT="Existance proof">
@@ -2061,10 +2080,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" FOLDED="true" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1540654915290" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
+<node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1587200788075" ID="ID_1978714486" MODIFIED="1587200794703" TEXT="Symbol |">
 <node CREATED="1587200794903" ID="ID_1054493729" MODIFIED="1587200799025" TEXT="Alone: such as"/>
@@ -2228,7 +2247,7 @@
 <node CREATED="1540741557531" ID="ID_1999900305" MODIFIED="1557066941018" TEXT="set {0,1}"/>
 </node>
 </node>
-<node CREATED="1540741599147" ID="ID_32240500" MODIFIED="1587390760878" TEXT="Set equality">
+<node CREATED="1540741599147" FOLDED="true" ID="ID_32240500" MODIFIED="1587390760878" TEXT="Set equality">
 <node CREATED="1540741604730" ID="ID_426678258" MODIFIED="1557066941018" TEXT="If and only if they have the same elements"/>
 <node CREATED="1540741642106" ID="ID_589233119" MODIFIED="1598779244152" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -2254,35 +2273,31 @@
 <node CREATED="1540741850465" ID="ID_1770983003" MODIFIED="1557066941018" TEXT=" &#x2205;"/>
 <node CREATED="1540741858226" ID="ID_1022630801" MODIFIED="1557066941018" TEXT=" { }"/>
 </node>
-<node CREATED="1540741876768" FOLDED="true" ID="ID_546952160" MODIFIED="1575539955157" TEXT="Example">
+<node CREATED="1540741876768" ID="ID_546952160" MODIFIED="1575539955157" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1540741879068" ID="ID_24350007" MODIFIED="1575539936342" TEXT="set of all positive integers">
-<node CREATED="1540741895574" ID="ID_1637410084" MODIFIED="1557066941018" TEXT="that are greater than their squares"/>
-</node>
+<node CREATED="1540741879068" ID="ID_24350007" MODIFIED="1575539936342" TEXT="set of all positive integers"/>
+<node CREATED="1540741895574" ID="ID_1637410084" MODIFIED="1599283025829" TEXT="... that are greater than their squares"/>
 </node>
 </node>
 <node CREATED="1540741907145" FOLDED="true" ID="ID_1696597528" MODIFIED="1585570663115" TEXT="Singleton set">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1540741910385" ID="ID_263367889" MODIFIED="1575539947246" TEXT="Set with one element">
+<node CREATED="1540741910385" ID="ID_263367889" MODIFIED="1575539947246" TEXT="Set with one element"/>
 <node CREATED="1540741918952" ID="ID_721281219" MODIFIED="1575539951798" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1540741921388" FOLDED="true" ID="ID_1997276604" MODIFIED="1557737480670" TEXT="{&#x2205;}">
-<node CREATED="1540741940112" FOLDED="true" ID="ID_38489657" MODIFIED="1557737480670" TEXT="Single element is an empty set">
-<node CREATED="1540741952010" ID="ID_1495850464" MODIFIED="1557066941018" TEXT="Like a folder on a computer"/>
+<node CREATED="1540741940112" ID="ID_38489657" MODIFIED="1557737480670" TEXT="Single element is an empty set"/>
+<node CREATED="1540741952010" ID="ID_1495850464" MODIFIED="1599283049701" TEXT="... like a folder on a computer"/>
 <node CREATED="1540741979320" ID="ID_28897976" MODIFIED="1557066941018" TEXT="... with an empty folder in it"/>
-</node>
 </node>
 <node CREATED="1540741958832" ID="ID_950740892" MODIFIED="1557066941018" TEXT="{1}"/>
 </node>
 </node>
-</node>
 <node CREATED="1540741994415" FOLDED="true" ID="ID_910392525" MODIFIED="1585570663115" TEXT="Naive set theory">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1540742002607" ID="ID_256000741" MODIFIED="1575539959344" TEXT="What&apos;s an object in a set?">
+<node CREATED="1540742002607" ID="ID_256000741" MODIFIED="1575539959344" TEXT="What&apos;s an object in a set?"/>
 <node CREATED="1540742064015" ID="ID_716991836" MODIFIED="1557066941018" TEXT="Original definition of set"/>
 <node CREATED="1540742071928" ID="ID_474497297" MODIFIED="1575539961935" TEXT="... can be paradoxal">
 <node CREATED="1540742079456" ID="ID_765958778" MODIFIED="1557066941018" TEXT="But still, we can use it"/>
-</node>
 </node>
 </node>
 <node CREATED="1540742097496" FOLDED="true" ID="ID_637941181" MODIFIED="1585570663115" TEXT="Venn Diagrams">
@@ -2322,7 +2337,7 @@
 <node CREATED="1540742391335" ID="ID_356398285" MODIFIED="1557066941018" TEXT="Elements of V represented with points"/>
 </node>
 </node>
-<node CREATED="1545143712276" FOLDED="true" ID="ID_541934488" MODIFIED="1587390765663" TEXT="Subset">
+<node CREATED="1545143712276" FOLDED="true" ID="ID_541934488" MODIFIED="1599283334970" TEXT="Subset">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2335,7 +2350,8 @@
       We use the notation A &#8838; B to indicate that A is a subset of the set B.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1545143780510" ID="ID_664709351" MODIFIED="1569300464234" TEXT=" A &#x2286; B">
 <node CREATED="1545143781949" ID="ID_617100868" MODIFIED="1569300465354" TEXT="iff">
 <node CREATED="1545143784364" ID="ID_1575038313" MODIFIED="1557066941018" TEXT="&#x2200;x(x &#x2208; A &#x2192; x &#x2208; B)"/>
@@ -2358,8 +2374,8 @@
 <node CREATED="1545144779082" ID="ID_796748431" MODIFIED="1575540006444" TEXT="Proper subset">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1545144798758" ID="ID_1223787540" MODIFIED="1557066941018" TEXT="A &#x2282; B"/>
-<node CREATED="1545144806525" FOLDED="true" ID="ID_299547567" MODIFIED="1557737480730" TEXT=" A is a subset of a set B but that A != B">
-<node CREATED="1545144828301" FOLDED="true" ID="ID_1312261470" MODIFIED="1557737480730" TEXT="iff">
+<node CREATED="1545144806525" ID="ID_299547567" MODIFIED="1557737480730" TEXT=" A is a subset of a set B but that A != B">
+<node CREATED="1545144828301" ID="ID_1312261470" MODIFIED="1557737480730" TEXT="iff">
 <node CREATED="1545144830661" ID="ID_1573478540" MODIFIED="1557066941018" TEXT="&#x2200;x(x &#x2208; A &#x2192; x &#x2208; B) &#x2227; &#x2203;x(x &#x2208; B &#x2227; x !&#x2208; A)"/>
 <node CREATED="1556375692149" ID="ID_1579050140" MODIFIED="1557066941018" TEXT=" **Wa"/>
 </node>
@@ -2369,7 +2385,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1545144949397" FOLDED="true" ID="ID_1055737288" MODIFIED="1575540056154" TEXT="Size of sets">
+<node CREATED="1545144949397" ID="ID_1055737288" MODIFIED="1575540056154" TEXT="Size of sets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2449,7 +2465,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1545145531752" FOLDED="true" ID="ID_730817358" MODIFIED="1585570663116" TEXT="Set of ordered elements">
+<node CREATED="1545145531752" ID="ID_730817358" MODIFIED="1585570663116" TEXT="Set of ordered elements">
 <node CREATED="1545145539935" FOLDED="true" ID="ID_1396327354" MODIFIED="1557737481199" TEXT="ordered n-tuples">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1553350425613" ID="ID_371442090" MODIFIED="1557066941018" TEXT="(a 1 ,a 2 ,...,a n )"/>
@@ -2478,7 +2494,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1545145356296" ID="ID_1400445968" MODIFIED="1566041486997" TEXT="Cartesian Products">
+<node CREATED="1545145356296" FOLDED="true" ID="ID_1400445968" MODIFIED="1566041486997" TEXT="Cartesian Products">
 <node CREATED="1553351166154" ID="ID_176722714" MODIFIED="1557066941018" TEXT="Cartesian product of a set">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2528,7 +2544,7 @@
 <node CREATED="1553351875115" FOLDED="true" ID="ID_1126233548" MODIFIED="1563386640240" TEXT="Using set notation with quantifiers">
 <node CREATED="1553352085099" ID="ID_724324502" MODIFIED="1557066941018" TEXT="Restrict domain of a quantified statement"/>
 <node CREATED="1553352100856" FOLDED="true" ID="ID_841734404" MODIFIED="1557738388255" TEXT="Use a particular notation ">
-<node CREATED="1553352121634" FOLDED="true" ID="ID_1041861320" MODIFIED="1557737480738" TEXT="&#x2200;x&#x2208;S(P(x))">
+<node CREATED="1553352121634" ID="ID_1041861320" MODIFIED="1557737480738" TEXT="&#x2200;x&#x2208;S(P(x))">
 <node CREATED="1553352196656" ID="ID_251148678" MODIFIED="1557066941018" TEXT="shorthand for &#x2200;x(x &#x2208; S &#x2192; P(x))"/>
 </node>
 <node CREATED="1553352211797" FOLDED="true" ID="ID_601892168" MODIFIED="1557737480738" TEXT="&#x2203;x&#x2208;S(P(x))">
@@ -2536,7 +2552,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1553352504401" FOLDED="true" ID="ID_709196212" MODIFIED="1557738419799" TEXT="Truth sets and quantifiers">
+<node CREATED="1553352504401" ID="ID_709196212" MODIFIED="1557738419799" TEXT="Truth sets and quantifiers">
 <node CREATED="1553352550594" ID="ID_669595189" MODIFIED="1557738390504" TEXT="Tie together concepts of">
 <node CREATED="1553352554704" ID="ID_1847506429" MODIFIED="1557066941018" TEXT="Predicate logic"/>
 <node CREATED="1553352560188" ID="ID_836818298" MODIFIED="1557066941018" TEXT="Set theory"/>
@@ -2557,10 +2573,10 @@
 </node>
 </node>
 <node CREATED="1553352992560" FOLDED="true" ID="ID_1329333138" MODIFIED="1557738418167" TEXT="Note">
-<node CREATED="1553352994409" FOLDED="true" ID="ID_364906138" MODIFIED="1557738417103" TEXT=" &#x2200;xP(x) is true over domain U">
+<node CREATED="1553352994409" ID="ID_364906138" MODIFIED="1557738417103" TEXT=" &#x2200;xP(x) is true over domain U">
 <node CREATED="1553353000954" ID="ID_324317174" MODIFIED="1557066941018" TEXT="iff set of P is set of U"/>
 </node>
-<node CREATED="1553353017000" FOLDED="true" ID="ID_1033674353" MODIFIED="1557738416431" TEXT="&#x2203;xP(x) is true over the domain U ">
+<node CREATED="1553353017000" ID="ID_1033674353" MODIFIED="1557738416431" TEXT="&#x2203;xP(x) is true over the domain U ">
 <node CREATED="1553353021407" ID="ID_1067795962" MODIFIED="1557066941018" TEXT="iff truth set of P is non empty"/>
 </node>
 </node>
@@ -2624,7 +2640,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1555258167891" FOLDED="true" ID="ID_263456117" MODIFIED="1585334443130" TEXT="Disjoint sets">
+<node CREATED="1555258167891" ID="ID_263456117" MODIFIED="1585334443130" TEXT="Disjoint sets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2652,7 +2668,7 @@
 <node CREATED="1555258639888" ID="ID_1860600425" MODIFIED="1557066941018" TEXT="|A &#x222a; B| = |A| + |B| &#x2212; |A &#x2229; B|"/>
 </node>
 </node>
-<node CREATED="1555258674756" FOLDED="true" ID="ID_283481542" MODIFIED="1585334433434" TEXT="Difference of sets">
+<node CREATED="1555258674756" ID="ID_283481542" MODIFIED="1585334433434" TEXT="Difference of sets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2679,7 +2695,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1555258848414" FOLDED="true" ID="ID_450798446" MODIFIED="1585334441860" TEXT="Complement of a set">
+<node CREATED="1555258848414" ID="ID_450798446" MODIFIED="1585334441860" TEXT="Complement of a set">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2711,7 +2727,7 @@
 </html></richcontent>
 <node CREATED="1555259028373" ID="ID_1276225044" MODIFIED="1557737100686" TEXT="{x &#x2208; U | x !&#x2208; A}."/>
 </node>
-<node CREATED="1555259043996" FOLDED="true" ID="ID_1037720117" MODIFIED="1585334440838" TEXT="Venn diagram">
+<node CREATED="1555259043996" ID="ID_1037720117" MODIFIED="1585334440838" TEXT="Venn diagram">
 <icon BUILTIN="licq"/>
 <node CREATED="1555259075197" ID="ID_426303894" MODIFIED="1557066941015">
 <richcontent TYPE="NODE"><html>
@@ -2841,12 +2857,12 @@
 <node CREATED="1559224992003" ID="ID_1770700998" MODIFIED="1559225011030" TEXT="Time consuming to compute set operations"/>
 <node CREATED="1559225013080" ID="ID_627418273" MODIFIED="1559225191382" TEXT="... need to search the elements"/>
 </node>
-<node CREATED="1559225220512" ID="ID_1692308810" MODIFIED="1585335040687" TEXT="Solution">
+<node CREATED="1559225220512" FOLDED="true" ID="ID_1692308810" MODIFIED="1585335040687" TEXT="Solution">
 <node CREATED="1559225166471" FOLDED="true" ID="ID_669736051" MODIFIED="1585335044104" TEXT="Arbitrary ordering of U">
 <icon BUILTIN="full-1"/>
 <node CREATED="1559225249873" ID="ID_1594014516" MODIFIED="1559225258630" TEXT="a1 ,a2 ,...,an"/>
 </node>
-<node CREATED="1559225265648" ID="ID_1215656712" MODIFIED="1559225364336" TEXT="Subset A of U with bit string length n">
+<node CREATED="1559225265648" FOLDED="true" ID="ID_1215656712" MODIFIED="1559225364336" TEXT="Subset A of U with bit string length n">
 <icon BUILTIN="full-2"/>
 <node CREATED="1559225296790" ID="ID_1554257778" MODIFIED="1585335047355" TEXT="where the i th bit in this string is">
 <node CREATED="1559225308975" ID="ID_771558777" MODIFIED="1559225354734" TEXT="if ai belongs to A ">
@@ -2858,7 +2874,7 @@
 </node>
 <node CREATED="1559225795866" ID="ID_1633193456" MODIFIED="1585335052914" TEXT="Examples">
 <icon BUILTIN="wizard"/>
-<node CREATED="1559225818522" ID="ID_1476521377" MODIFIED="1585335054647" TEXT=" U = {1,2,3,4,5,6,7,8,9,10}">
+<node CREATED="1559225818522" FOLDED="true" ID="ID_1476521377" MODIFIED="1585335054647" TEXT=" U = {1,2,3,4,5,6,7,8,9,10}">
 <node CREATED="1559225827850" ID="ID_408001263" MODIFIED="1559225837312" TEXT="A = {1,3,5,7,9}">
 <node CREATED="1559225845379" ID="ID_355947911" MODIFIED="1559225849454" TEXT="10 1010 1010"/>
 </node>
@@ -2898,8 +2914,8 @@
 </node>
 </node>
 <node CREATED="1559226217694" FOLDED="true" ID="ID_1832647831" MODIFIED="1586506986340" TEXT="2.3 Functions">
-<node CREATED="1562406780467" FOLDED="true" ID="ID_1713732385" MODIFIED="1585668917503" TEXT="Introduction">
-<node CREATED="1559226273678" ID="ID_453490020" MODIFIED="1559226275627" TEXT="Can be called">
+<node CREATED="1562406780467" ID="ID_1713732385" MODIFIED="1585668917503" TEXT="Introduction">
+<node CREATED="1559226273678" FOLDED="true" ID="ID_453490020" MODIFIED="1559226275627" TEXT="Can be called">
 <node CREATED="1559226275823" ID="ID_377513065" MODIFIED="1559226280639" TEXT="transformation">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -2925,7 +2941,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1559491810554" ID="ID_899120780" MODIFIED="1585570568709" TEXT="function f from A to B">
+<node CREATED="1559491810554" FOLDED="true" ID="ID_899120780" MODIFIED="1585570568709" TEXT="function f from A to B">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2964,7 +2980,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1559492147993" ID="ID_1673269546" MODIFIED="1585570578056" TEXT="schema">
+<node CREATED="1559492147993" FOLDED="true" ID="ID_1673269546" MODIFIED="1585570578056" TEXT="schema">
 <icon BUILTIN="licq"/>
 <node CREATED="1559492157152" ID="ID_1934351638" MODIFIED="1559492169301">
 <richcontent TYPE="NODE"><html>
@@ -2977,8 +2993,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1562405595479" ID="ID_897775200" MODIFIED="1562405673974" TEXT="Example">
-<node CREATED="1562405605725" FOLDED="true" ID="ID_565885810" MODIFIED="1563386264066" TEXT="img">
+<node CREATED="1562405595479" ID="ID_897775200" MODIFIED="1599284113999" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1562405605725" ID="ID_565885810" MODIFIED="1563386264066" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1562405598605" ID="ID_526678823" MODIFIED="1562405604009">
 <richcontent TYPE="NODE"><html>
@@ -3004,7 +3021,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1562406047386" FOLDED="true" ID="ID_1144651523" MODIFIED="1563386598954" TEXT="Function called">
+<node CREATED="1562406047386" ID="ID_1144651523" MODIFIED="1563386598954" TEXT="Function called">
 <node CREATED="1562406050674" ID="ID_486180589" MODIFIED="1562406055625" TEXT="real-valued">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1562406057385" ID="ID_666619716" MODIFIED="1562406065367" TEXT="codomain set of real numbers"/>
@@ -3014,7 +3031,7 @@
 <node CREATED="1562406076113" ID="ID_1169577437" MODIFIED="1562406082390" TEXT="codomain set of integers"/>
 </node>
 </node>
-<node CREATED="1562406096424" FOLDED="true" ID="ID_1657847038" MODIFIED="1563386600034" TEXT="Two real valued / integer valued function can be">
+<node CREATED="1562406096424" FOLDED="true" ID="ID_1657847038" MODIFIED="1599284292804" TEXT="Two real valued / integer valued function can be">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3030,10 +3047,12 @@
       (f 1 f 2 )(x) = f 1 (x)f 2 (x)
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1562406108249" ID="ID_276346906" MODIFIED="1562406111269" TEXT="multiplied"/>
 <node CREATED="1562406111760" ID="ID_963433044" MODIFIED="1562406113607" TEXT="added"/>
-<node CREATED="1562406320560" ID="ID_1957770004" MODIFIED="1562406322419" TEXT="Example">
+<node CREATED="1562406320560" ID="ID_1957770004" MODIFIED="1599284279853" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1562406322762" ID="ID_322601619" MODIFIED="1562406374164" TEXT="f1(x) = x^2 and f2(x) = x &#x2212; x^2"/>
 <node CREATED="1562406329575" ID="ID_1551224618" MODIFIED="1562406380793" TEXT="f1 + f2">
 <node CREATED="1562406332167" ID="ID_52519887" MODIFIED="1562406397124" TEXT="(x^2)+(x - x^2)">
@@ -3096,7 +3115,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1562406845346" FOLDED="true" ID="ID_1708510164" MODIFIED="1574835042463" TEXT="One-to-One and Onto Functions">
+<node CREATED="1562406845346" ID="ID_1708510164" MODIFIED="1574835042463" TEXT="One-to-One and Onto Functions">
 <node CREATED="1562406865450" ID="ID_1572085634" MODIFIED="1565518952071" TEXT="one-to-one (injective)">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -3209,8 +3228,9 @@
 <node CREATED="1563113171535" ID="ID_256792983" MODIFIED="1563113178151" TEXT="Or one to one correspondence"/>
 <node CREATED="1565519452253" ID="ID_1943712046" MODIFIED="1565519455514" TEXT="cardinality     f(x) -&gt; y         |x| = |y| "/>
 </node>
-<node CREATED="1562870068826" FOLDED="true" ID="ID_1040610920" MODIFIED="1573795238145" TEXT="Examples">
+<node CREATED="1562870068826" FOLDED="true" ID="ID_1040610920" MODIFIED="1599284592922" TEXT="Examples">
 <icon BUILTIN="licq"/>
+<icon BUILTIN="wizard"/>
 <node CREATED="1562870101578" ID="ID_702059284" MODIFIED="1562870107132">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3237,7 +3257,7 @@
 </node>
 </node>
 <node CREATED="1562870868530" FOLDED="true" ID="ID_1217934675" MODIFIED="1573712316670" TEXT="Inverse functions and composition of functions">
-<node CREATED="1562870962769" FOLDED="true" ID="ID_1037303412" MODIFIED="1563386917238" TEXT="Inverse">
+<node CREATED="1562870962769" ID="ID_1037303412" MODIFIED="1563386917238" TEXT="Inverse">
 <node CREATED="1562870965085" ID="ID_670643202" MODIFIED="1562870976007" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -3337,7 +3357,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1563387086812" FOLDED="true" ID="ID_1901200242" MODIFIED="1573712320270" TEXT="The graph of functions">
+<node CREATED="1563387086812" ID="ID_1901200242" MODIFIED="1573712320270" TEXT="The graph of functions">
 <node CREATED="1563387100873" ID="ID_838323806" MODIFIED="1563708721921" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -3351,7 +3371,8 @@
 </html></richcontent>
 <node CREATED="1563708852696" ID="ID_1507061610" MODIFIED="1563708853804" TEXT="associate a set of pairs in A &#xd7; B to each function from A to B"/>
 </node>
-<node CREATED="1563709326916" ID="ID_1812941121" MODIFIED="1563709369874" TEXT="Examples">
+<node CREATED="1563709326916" ID="ID_1812941121" MODIFIED="1599284600764" TEXT="Examples">
+<icon BUILTIN="wizard"/>
 <node CREATED="1563709329999" FOLDED="true" ID="ID_1386736733" MODIFIED="1564563980375" TEXT="f(n) = 2n + 1 from Z to Z">
 <icon BUILTIN="licq"/>
 <node CREATED="1563709336885" ID="ID_162705039" MODIFIED="1563709343321">
@@ -3383,20 +3404,18 @@
 <node CREATED="1563709403053" FOLDED="true" ID="ID_851258611" MODIFIED="1573712326494" TEXT="Some important functions">
 <node CREATED="1564561935983" ID="ID_228245899" MODIFIED="1564561942881" TEXT="Floor / Ceiling">
 <node CREATED="1563709483347" ID="ID_1432730194" MODIFIED="1564227959956" TEXT="Floor function">
-<node CREATED="1563709487627" ID="ID_1927714730" MODIFIED="1563709797793" TEXT="Definition">
+<node CREATED="1563709487627" ID="ID_1927714730" MODIFIED="1599284623603" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      The floor function assigns to the real number x the largest integer that is less than or equal to
-    </p>
-    <p>
-      x.
+      The floor function assigns to the real number x the largest integer that is less than or equal to x.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1563709526208" ID="ID_1817751796" MODIFIED="1563709856419" TEXT="Denoted by">
 <node CREATED="1563709529663" ID="ID_210336282" MODIFIED="1563709563510">
@@ -3415,7 +3434,7 @@
 <node CREATED="1563709589413" ID="ID_1364425456" MODIFIED="1563709593175" TEXT="denoted by [x]"/>
 </node>
 </node>
-<node CREATED="1563709798610" FOLDED="true" ID="ID_572679514" MODIFIED="1563709926160" TEXT="Ceiling function">
+<node CREATED="1563709798610" ID="ID_572679514" MODIFIED="1563709926160" TEXT="Ceiling function">
 <node CREATED="1563709805373" ID="ID_1973929674" MODIFIED="1563709810242" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -3482,7 +3501,7 @@
 </node>
 </node>
 <node CREATED="1564561950154" ID="ID_933344785" MODIFIED="1564563428128" TEXT="Factorial functions">
-<node CREATED="1564561975349" FOLDED="true" ID="ID_1722074158" MODIFIED="1564563226734" TEXT="Definition">
+<node CREATED="1564561975349" ID="ID_1722074158" MODIFIED="1564563226734" TEXT="Definition">
 <node CREATED="1564561958529" ID="ID_1154591133" MODIFIED="1564561962989" TEXT="f : N &#x2192; Z+"/>
 <node CREATED="1564561980985" ID="ID_1975432574" MODIFIED="1564561981807" TEXT=" The value of f(n) = n! is the product of the first n positive integers"/>
 <node CREATED="1564561995345" ID="ID_1219419581" MODIFIED="1564562525352" TEXT="f(n) = 1 * 2 * &#xb7;&#xb7;&#xb7; * (n &#x2212; 1) * n [and f(0) = 0! = 1]"/>
@@ -3540,7 +3559,7 @@
 <node CREATED="1564563457438" ID="ID_7251189" MODIFIED="1564563461558" TEXT="which is undefined for a couple having no children"/>
 </node>
 <node CREATED="1564563466998" ID="ID_568170086" MODIFIED="1564563469901" TEXT=" &#x201c;time of sunrise&#x201d;">
-<node CREATED="1564563475950" ID="ID_1629179704" MODIFIED="1564563477205" TEXT="undefined for some days above theArctic Circle"/>
+<node CREATED="1564563475950" ID="ID_1629179704" MODIFIED="1599284778992" TEXT="undefined for some days above the Arctic Circle"/>
 </node>
 </node>
 </node>
@@ -3564,9 +3583,10 @@
 <node CREATED="1564563609309" ID="ID_1363217293" MODIFIED="1564563610426" TEXT="f : A &#x2192; B"/>
 <node CREATED="1564563615445" ID="ID_867141226" MODIFIED="1564563621962" TEXT="The same as functions!"/>
 <node CREATED="1564563622677" ID="ID_1746869600" MODIFIED="1564563630505" TEXT="The context in which the notation is used"/>
-<node CREATED="1564563631243" ID="ID_726613832" MODIFIED="1564563644880" TEXT="... determine whether f is partial or totla"/>
+<node CREATED="1564563631243" ID="ID_726613832" MODIFIED="1599284810560" TEXT="... determine whether f is partial or total"/>
 </node>
-<node CREATED="1564563671765" ID="ID_1039745902" MODIFIED="1564563673504" TEXT="Example">
+<node CREATED="1564563671765" ID="ID_1039745902" MODIFIED="1599284817193" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1564563673767" ID="ID_630957254" MODIFIED="1564563690289" TEXT="f : Z &#x2192; R where f(n) = &#x221a; n"/>
 <node CREATED="1564563700835" ID="ID_1069196884" MODIFIED="1564563705753" TEXT="Partial function">
 <node CREATED="1564563706051" ID="ID_1808875790" MODIFIED="1564563714290" TEXT="f is undefined for negative integer"/>
@@ -3575,7 +3595,7 @@
 </node>
 </node>
 <node CREATED="1564564022865" FOLDED="true" ID="ID_928246757" MODIFIED="1587469900318" TEXT="2.4 Sequences and Summations">
-<node CREATED="1564564066520" FOLDED="true" ID="ID_1207413132" MODIFIED="1587392535026" TEXT="Introduction">
+<node CREATED="1564564066520" ID="ID_1207413132" MODIFIED="1587392535026" TEXT="Introduction">
 <node CREATED="1564564044010" ID="ID_776012966" MODIFIED="1564564047837" TEXT="Ordered list of elements"/>
 <node CREATED="1564564077593" ID="ID_553141591" MODIFIED="1564564082788" TEXT="Can be used for counting problems"/>
 </node>
@@ -3834,7 +3854,7 @@
 </node>
 </node>
 <node CREATED="1570682089354" ID="ID_1513410904" MODIFIED="1570682093166" TEXT="Shift summation index">
-<node CREATED="1570682107210" FOLDED="true" ID="ID_1699419443" MODIFIED="1587392828199" TEXT="We have">
+<node CREATED="1570682107210" ID="ID_1699419443" MODIFIED="1587392828199" TEXT="We have">
 <icon BUILTIN="licq"/>
 <node CREATED="1570682093754" ID="ID_1705016475" MODIFIED="1570682105014">
 <richcontent TYPE="NODE"><html>
@@ -3877,7 +3897,7 @@
 <node CREATED="1570682389566" ID="ID_350546539" MODIFIED="1570682396567" TEXT="Geometric series">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1570682398583" ID="ID_209851684" MODIFIED="1570682408739" TEXT="Sums of terms of geometric progressions"/>
-<node CREATED="1570682414023" FOLDED="true" ID="ID_1328567512" MODIFIED="1587392834415" TEXT="Theorem">
+<node CREATED="1570682414023" ID="ID_1328567512" MODIFIED="1587392834415" TEXT="Theorem">
 <icon BUILTIN="licq"/>
 <node CREATED="1570682498807" ID="ID_531064552" MODIFIED="1570682506579">
 <richcontent TYPE="NODE"><html>
@@ -3896,7 +3916,7 @@
 <node CREATED="1571286724959" ID="ID_1609609064" MODIFIED="1571286731924" TEXT="Expand the second summation"/>
 <node CREATED="1571286539985" ID="ID_233607992" MODIFIED="1587392836184" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1571286542337" FOLDED="true" ID="ID_912535422" MODIFIED="1587392844684" TEXT="img">
+<node CREATED="1571286542337" ID="ID_912535422" MODIFIED="1587392844684" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1571286549714" ID="ID_1272054261" MODIFIED="1571286586605">
 <richcontent TYPE="NODE"><html>
@@ -3923,7 +3943,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571286773030" FOLDED="true" ID="ID_1492421243" MODIFIED="1587392847425" TEXT="Useful Summation Formulae">
+<node CREATED="1571286773030" ID="ID_1492421243" MODIFIED="1587392847425" TEXT="Useful Summation Formulae">
 <icon BUILTIN="licq"/>
 <node CREATED="1571286813677" ID="ID_1850745677" MODIFIED="1571286821257">
 <richcontent TYPE="NODE"><html>
@@ -3945,7 +3965,7 @@
 <node CREATED="1571373533990" ID="ID_458765680" MODIFIED="1571373539619" TEXT="set with same cardinality"/>
 <node CREATED="1571373540438" ID="ID_323367760" MODIFIED="1571373546523" TEXT="... as set of positive integers"/>
 </node>
-<node CREATED="1571373569631" ID="ID_1161106695" MODIFIED="1571373575347" TEXT="In computer science">
+<node CREATED="1571373569631" FOLDED="true" ID="ID_1161106695" MODIFIED="1571373575347" TEXT="In computer science">
 <node CREATED="1571373575534" ID="ID_423419750" MODIFIED="1571373582042" TEXT="functions is uncomputable"/>
 <node CREATED="1571373586887" ID="ID_624703111" MODIFIED="1571373592450" TEXT="... if no computer program can be written"/>
 <node CREATED="1571373592893" ID="ID_486395540" MODIFIED="1571373595867" TEXT="... to find all its values"/>
@@ -3954,7 +3974,7 @@
 <node CREATED="1571373607334" ID="ID_545230487" MODIFIED="1571373608482" TEXT="memory"/>
 </node>
 </node>
-<node CREATED="1571373651998" ID="ID_669457668" MODIFIED="1571373657874" TEXT="Definitions">
+<node CREATED="1571373651998" FOLDED="true" ID="ID_669457668" MODIFIED="1571373657874" TEXT="Definitions">
 <node CREATED="1571373658070" ID="ID_206554569" MODIFIED="1571373696186" TEXT="Sets having same cardinality">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -4090,14 +4110,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1573796057009" FOLDED="true" ID="ID_1073154683" MODIFIED="1574835054423" TEXT="Stop here">
+<node COLOR="#338800" CREATED="1573796057009" FOLDED="true" ID="ID_1073154683" MODIFIED="1599285526866" TEXT="Stop here">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
 <node CREATED="1573796060646" ID="ID_584153475" MODIFIED="1573796063004" TEXT="Optional Math"/>
 </node>
 </node>
 <node CREATED="1573796067055" FOLDED="true" ID="ID_1506612416" MODIFIED="1575538332994" TEXT="2.6 Matrices">
 <node CREATED="1573796477947" ID="ID_507364896" MODIFIED="1575538019138" TEXT="Introduction">
 <node CREATED="1573796088140" ID="ID_672926798" MODIFIED="1573796096108" TEXT="Express relationships between elements in sets"/>
-<node CREATED="1573796108893" FOLDED="true" ID="ID_1087847243" MODIFIED="1573796127763" TEXT="Examples">
+<node CREATED="1573796108893" ID="ID_1087847243" MODIFIED="1573796127763" TEXT="Examples">
 <icon BUILTIN="wizard"/>
 <node CREATED="1573796115446" ID="ID_767174335" MODIFIED="1573796117819" TEXT="Used in">
 <node CREATED="1573796118023" ID="ID_437915658" MODIFIED="1573796121691" TEXT="communication networks"/>
@@ -4427,40 +4449,47 @@
 </node>
 </node>
 </node>
-<node CREATED="1574834995735" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
+<node CREATED="1574834995735" FOLDED="true" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
 <icon BUILTIN="full-3"/>
-<node CREATED="1574835164172" ID="ID_1120871976" MODIFIED="1587200115860" TEXT="3.1 Algorithms">
-<node CREATED="1574835186764" FOLDED="true" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
+<node CREATED="1574835164172" FOLDED="true" ID="ID_1120871976" MODIFIED="1587200115860" TEXT="3.1 Algorithms">
+<node CREATED="1574835186764" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
 <node CREATED="1574835189653" ID="ID_1097192422" MODIFIED="1574835201089" TEXT="An algorithm is a finite sequence of precise instructions"/>
 <node CREATED="1574835202067" ID="ID_476920489" MODIFIED="1574835210882" TEXT="... for performing a computation or for solving a problem"/>
 </node>
-<node CREATED="1574835646519" FOLDED="true" ID="ID_1714950159" MODIFIED="1586506988692" TEXT="Properties of algorithm">
-<node CREATED="1574835654984" ID="ID_164771671" MODIFIED="1574835656789" TEXT="Input">
+<node CREATED="1574835646519" ID="ID_1714950159" MODIFIED="1586506988692" TEXT="Properties of algorithm">
+<node CREATED="1574835654984" ID="ID_164771671" MODIFIED="1599285591857" TEXT="Input">
+<icon BUILTIN="forward"/>
 <node CREATED="1574835685513" ID="ID_422767542" MODIFIED="1574835686052" TEXT="An algorithm has input values from a specified set"/>
 </node>
-<node CREATED="1574835657399" ID="ID_752084902" MODIFIED="1574835658447" TEXT="Output">
+<node CREATED="1574835657399" ID="ID_752084902" MODIFIED="1599285596716" TEXT="Output">
+<icon BUILTIN="forward"/>
 <node CREATED="1574835693210" ID="ID_196901446" MODIFIED="1574835706997" TEXT="From each set of input values an algorithm produces output values from a specified set"/>
 <node CREATED="1574835700513" ID="ID_1219285549" MODIFIED="1574835712069" TEXT=" The output values are the solution to the problem"/>
 </node>
-<node CREATED="1574835659545" ID="ID_1706986504" MODIFIED="1585130161025" TEXT="Definiteness">
+<node CREATED="1574835659545" ID="ID_1706986504" MODIFIED="1599285598774" TEXT="Definiteness">
+<icon BUILTIN="forward"/>
 <node CREATED="1574835715056" ID="ID_1038101445" MODIFIED="1574835715595" TEXT=" The steps of an algorithm must be defined precisely"/>
 </node>
-<node CREATED="1574835666433" ID="ID_1372871598" MODIFIED="1574835668998" TEXT="Correctness">
+<node CREATED="1574835666433" ID="ID_1372871598" MODIFIED="1599285601810" TEXT="Correctness">
+<icon BUILTIN="forward"/>
 <node CREATED="1574835722769" ID="ID_1200714414" MODIFIED="1574835723372" TEXT="An algorithm should produce the correct output values for each set of input values"/>
 </node>
-<node CREATED="1574835669521" ID="ID_18177657" MODIFIED="1574835671838" TEXT="Finiteness">
+<node CREATED="1574835669521" ID="ID_18177657" MODIFIED="1599285604285" TEXT="Finiteness">
+<icon BUILTIN="forward"/>
 <node CREATED="1574835728833" ID="ID_823358569" MODIFIED="1574835729373" TEXT="An algorithm should produce the desired output after a finite (but perhaps large) number of steps for any input in the set"/>
 </node>
-<node CREATED="1574835672273" ID="ID_1080187637" MODIFIED="1574835676429" TEXT="Effectiveness">
+<node CREATED="1574835672273" ID="ID_1080187637" MODIFIED="1599285606584" TEXT="Effectiveness">
+<icon BUILTIN="forward"/>
 <node CREATED="1574835733824" ID="ID_566003849" MODIFIED="1574835734636" TEXT=" It must be possible to perform each step of an algorithm exactly and in a finite amount of time"/>
 </node>
-<node CREATED="1574835676849" ID="ID_1642005391" MODIFIED="1574835679820" TEXT="Generality">
+<node CREATED="1574835676849" ID="ID_1642005391" MODIFIED="1599285608907" TEXT="Generality">
+<icon BUILTIN="forward"/>
 <node CREATED="1574835747096" ID="ID_1912885181" MODIFIED="1574835757020" TEXT=" The procedure should be applicable for all problems of the desired form"/>
 <node CREATED="1574835758057" ID="ID_536950443" MODIFIED="1574835763559" TEXT="... not just for a particular set of input values"/>
 </node>
 </node>
-<node CREATED="1575540305063" FOLDED="true" ID="ID_438269992" MODIFIED="1586869600886" TEXT="Searching Algorithms">
-<node CREATED="1575540339309" FOLDED="true" ID="ID_1967953012" MODIFIED="1586869556000" TEXT="Linear Search">
+<node CREATED="1575540305063" ID="ID_438269992" MODIFIED="1586869600886" TEXT="Searching Algorithms">
+<node CREATED="1575540339309" ID="ID_1967953012" MODIFIED="1586869556000" TEXT="Linear Search">
 <node CREATED="1575540406581" ID="ID_695630487" MODIFIED="1575540413353" TEXT="Sequential search"/>
 <node CREATED="1575540416789" ID="ID_234428582" MODIFIED="1575540424328" TEXT="Compare each member of set with x"/>
 <node CREATED="1575540424844" ID="ID_79657101" MODIFIED="1575540441160" TEXT="If member = input x">
@@ -4481,7 +4510,7 @@
 </node>
 <node CREATED="1575540591497" ID="ID_135888900" MODIFIED="1575872523539" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1575540626963" FOLDED="true" ID="ID_1037596508" MODIFIED="1575540774005" TEXT="Search 19 in a list">
+<node CREATED="1575540626963" ID="ID_1037596508" MODIFIED="1575540774005" TEXT="Search 19 in a list">
 <node CREATED="1575540593187" ID="ID_1289569244" MODIFIED="1592556954046" TEXT="1 2 3 5 6 7 8 10 12 13 15 16 18 19 20 22">
 <icon BUILTIN="full-1"/>
 </node>
@@ -4531,7 +4560,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1575872596376" ID="ID_1180270366" MODIFIED="1586869558865" TEXT="Sorting">
+<node CREATED="1575872596376" FOLDED="true" ID="ID_1180270366" MODIFIED="1586869558865" TEXT="Sorting">
 <node CREATED="1575872606038" FOLDED="true" ID="ID_1223232424" MODIFIED="1586869602590" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1575872607678" ID="ID_1717268687" MODIFIED="1575872611027" TEXT="Telephone directory"/>
@@ -4541,7 +4570,7 @@
 <node CREATED="1575872690167" ID="ID_1982848097" MODIFIED="1575872698674" TEXT="amazing large percentage of computer resource"/>
 <node CREATED="1575872699080" ID="ID_1648166681" MODIFIED="1575872701402" TEXT="... only for that"/>
 </node>
-<node CREATED="1575872779388" FOLDED="true" ID="ID_405272741" MODIFIED="1586869602591" TEXT="Bubble sort">
+<node CREATED="1575872779388" ID="ID_405272741" MODIFIED="1586869602591" TEXT="Bubble sort">
 <node CREATED="1575872784846" ID="ID_742616723" MODIFIED="1575872793354" TEXT="One of the simplest sorting algorithm">
 <node CREATED="1575872801435" ID="ID_867640604" MODIFIED="1575872805264" TEXT="but not most efficient"/>
 </node>
@@ -4839,8 +4868,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1585667986987" FOLDED="true" ID="ID_648579120" MODIFIED="1586862474343" TEXT="Big-O estimates for some important functions">
-<node CREATED="1586175613465" ID="ID_1484559656" MODIFIED="1586175623444" TEXT="Polynomials">
+<node CREATED="1585667986987" ID="ID_648579120" MODIFIED="1586862474343" TEXT="Big-O estimates for some important functions">
+<node CREATED="1586175613465" FOLDED="true" ID="ID_1484559656" MODIFIED="1586175623444" TEXT="Polynomials">
 <node CREATED="1586175229492" ID="ID_824021062" MODIFIED="1586175632592" TEXT="Definition">
 <node CREATED="1586175233688" ID="ID_1254266374" LINK="https://www.mathsisfun.com/algebra/polynomials.html" MODIFIED="1586175273052" TEXT="A polynomial can have">
 <node CREATED="1586175241446" ID="ID_1952985974" MODIFIED="1586175242490" TEXT="constants"/>
@@ -4849,7 +4878,8 @@
 <node CREATED="1586175303047" ID="ID_231432601" MODIFIED="1586175305801" TEXT="&gt; 0"/>
 </node>
 <node CREATED="1586175260803" ID="ID_1509610785" MODIFIED="1586175263316" TEXT="... but never division by a variable."/>
-<node CREATED="1586175308120" ID="ID_1075354447" MODIFIED="1586175309636" TEXT="Examples">
+<node CREATED="1586175308120" ID="ID_1075354447" MODIFIED="1599285902437" TEXT="Examples">
+<icon BUILTIN="wizard"/>
 <node CREATED="1586175309978" ID="ID_1505773513" MODIFIED="1586175312873" TEXT="Is polynomial">
 <node CREATED="1586175325109" ID="ID_120563663" MODIFIED="1586175325967" TEXT="3x"/>
 <node CREATED="1586175330565" ID="ID_1798166291" MODIFIED="1586175330565" TEXT="x &#x2212; 2"/>
@@ -4879,8 +4909,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1586252802377" ID="ID_1120009156" MODIFIED="1586254840473" TEXT="Important functions">
-<icon BUILTIN="wizard"/>
+<node CREATED="1586252802377" ID="ID_1120009156" MODIFIED="1599285911970" TEXT="Important functions">
+<icon BUILTIN="bookmark"/>
 <node CREATED="1586252807848" ID="ID_1437383170" MODIFIED="1586252812624" TEXT="First n positive integer">
 <node CREATED="1586252812875" ID="ID_263252744" MODIFIED="1586252835799" TEXT="1 + 2 ... + n &lt;= n + n ... + n = n^2"/>
 <node CREATED="1586252847653" ID="ID_52882160" MODIFIED="1586252859937" TEXT="1 + 2 ... + n is O(n^2)"/>
@@ -5089,7 +5119,7 @@
 </node>
 <node CREATED="1586866529402" ID="ID_1400065092" MODIFIED="1586869628485" TEXT="Be careful: many writers use Big-O notation for higher and lower bound!"/>
 </node>
-<node CREATED="1586939677946" ID="ID_1182577722" MODIFIED="1587388482415" TEXT="3.3 Complexity of Algorithms">
+<node CREATED="1586939677946" FOLDED="true" ID="ID_1182577722" MODIFIED="1587388482415" TEXT="3.3 Complexity of Algorithms">
 <node CREATED="1586939766670" FOLDED="true" ID="ID_1562277733" MODIFIED="1586939769686" TEXT="Introduction">
 <node CREATED="1586939693348" ID="ID_1629809612" MODIFIED="1586939709771" TEXT="When algorithm provides satisfactory solution to problem?">
 <node CREATED="1586939709990" ID="ID_724847554" MODIFIED="1586939717063" TEXT="Always produce correct answer">
@@ -5315,7 +5345,7 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1587388497496" FOLDED="true" ID="ID_136007063" MODIFIED="1587388567445" POSITION="right" TEXT="Induction and Recursion">
+<node CREATED="1587388497496" ID="ID_136007063" MODIFIED="1587388567445" POSITION="right" TEXT="Induction and Recursion">
 <icon BUILTIN="full-5"/>
 <node CREATED="1587469753575" FOLDED="true" ID="ID_996166179" MODIFIED="1587472939052" TEXT="Introduction">
 <node CREATED="1587469493576" ID="ID_286076869" MODIFIED="1587469630750" TEXT="Proof using mathematic induction ">
@@ -5368,7 +5398,7 @@
 <node CREATED="1587470094129" ID="ID_347838859" MODIFIED="1587470099359" TEXT="... that it always yield correct result"/>
 </node>
 </node>
-<node CREATED="1587470118046" ID="ID_1836173742" MODIFIED="1587654030237" TEXT="5.1 Mathematical Induction">
+<node CREATED="1587470118046" FOLDED="true" ID="ID_1836173742" MODIFIED="1587654030237" TEXT="5.1 Mathematical Induction">
 <node CREATED="1587470182670" FOLDED="true" ID="ID_762224774" MODIFIED="1587471630196" TEXT="Introduction">
 <node CREATED="1587470189118" ID="ID_717511020" MODIFIED="1587470196808" TEXT="We have an infinite ladder"/>
 <node CREATED="1587470197429" ID="ID_1952958436" MODIFIED="1587470213529" TEXT="... and we want to know if we can reach each step"/>
@@ -5575,13 +5605,13 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1588146971533" ID="ID_51124200" MODIFIED="1588146980369" TEXT="5,2 Strong induction and Well-Ordering">
+<node CREATED="1588146971533" FOLDED="true" ID="ID_51124200" MODIFIED="1588146980369" TEXT="5,2 Strong induction and Well-Ordering">
 <node COLOR="#338800" CREATED="1588146802807" ID="ID_1184913222" MODIFIED="1588146814645" TEXT="Skipped">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1588146983743" ID="ID_848524163" MODIFIED="1588146999077" TEXT="5.3 Recursive Definitions And Structural Induction">
+<node CREATED="1588146983743" FOLDED="true" ID="ID_848524163" MODIFIED="1588146999077" TEXT="5.3 Recursive Definitions And Structural Induction">
 <node CREATED="1588147020788" ID="ID_469897079" MODIFIED="1588147023750" TEXT="Introduction">
 <node CREATED="1588147029500" ID="ID_1434206312" MODIFIED="1588147041001" TEXT="Sometimes difficult to define object explicitely"/>
 <node CREATED="1588147041665" ID="ID_816010592" MODIFIED="1588147056803" TEXT="Might be easier to define object in terms of itself"/>
@@ -5816,7 +5846,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588319053502" ID="ID_428739369" MODIFIED="1588319063907" TEXT="5.4 Recursive Algorithms">
+<node CREATED="1588319053502" FOLDED="true" ID="ID_428739369" MODIFIED="1588319063907" TEXT="5.4 Recursive Algorithms">
 <node CREATED="1588319076391" FOLDED="true" ID="ID_705123969" MODIFIED="1588319078146" TEXT="Introduction">
 <node CREATED="1588319104487" ID="ID_1265351216" MODIFIED="1588319144384" TEXT="Sometimes we can reduce problem solution">
 <node CREATED="1588319111245" ID="ID_1850283916" MODIFIED="1588319119534" TEXT="with particular set of input values"/>
@@ -6001,7 +6031,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588321081082" ID="ID_869194311" MODIFIED="1588321088616" TEXT="5.5 Program Correctness">
+<node CREATED="1588321081082" FOLDED="true" ID="ID_869194311" MODIFIED="1588321088616" TEXT="5.5 Program Correctness">
 <node COLOR="#338800" CREATED="1588146802807" ID="ID_945097098" MODIFIED="1588146814645" TEXT="Skipped">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>

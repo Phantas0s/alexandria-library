@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530724518341" ID="ID_804415076" MODIFIED="1586508918869" TEXT="MIT - Mathematics for computer science">
+<node CREATED="1530724518341" ID="ID_804415076" MODIFIED="1599240318417" TEXT="MIT - Mathematics for computer science">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -235,7 +235,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1534617638578" FOLDED="true" ID="ID_1258688662" MODIFIED="1586508937625" POSITION="right" TEXT="Graph Theory">
+<node CREATED="1534617638578" ID="ID_1258688662" MODIFIED="1586508937625" POSITION="right" TEXT="Graph Theory">
 <icon BUILTIN="full-6"/>
 <node CREATED="1534617707198" ID="ID_1323414557" MODIFIED="1534617941785" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
@@ -259,14 +259,12 @@
 <node CREATED="1534617947927" ID="ID_1946400599" MODIFIED="1534617956189" TEXT="Graph can have only nodes"/>
 <node CREATED="1534617976390" ID="ID_590784010" MODIFIED="1534617986501" TEXT="adjacents">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1534617972110" ID="ID_688951995" MODIFIED="1534618054238" TEXT="Two nodes are">
-<node CREATED="1534617979971" ID="ID_1577383889" MODIFIED="1534617985352" TEXT="when they are connected to a node"/>
-</node>
 </node>
 <node CREATED="1534618069067" ID="ID_468074817" MODIFIED="1534618074148" TEXT="Degree">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1534618094806" ID="ID_1944617058" MODIFIED="1534618102488" TEXT="Edges incident to dots"/>
-<node CREATED="1534618103226" ID="ID_198763843" MODIFIED="1534618110398" TEXT="example">
+<node CREATED="1534618103226" ID="ID_198763843" MODIFIED="1599240354789" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1534618111666" ID="ID_948275138" MODIFIED="1534618120048" TEXT="One node intersect three edges">
 <node CREATED="1534618120267" ID="ID_1073929169" MODIFIED="1534618122878" TEXT="Degree 3"/>
 </node>
