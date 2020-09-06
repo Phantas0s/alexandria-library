@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1516460639988" ID="ID_1887747761" MODIFIED="1518871468099" TEXT="Freelancer in Berlin">
+<node CREATED="1516460639988" ID="ID_1887747761" MODIFIED="1599390304427" TEXT="Freelancer in Berlin">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,13 +12,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1516460647513" ID="ID_393781515" MODIFIED="1516461526150" POSITION="right" TEXT="Paperwork is horrible">
-<icon BUILTIN="full-3"/>
-<node CREATED="1516461347431" ID="ID_1863573013" MODIFIED="1516461353595" TEXT="Do everything as they said">
-<node CREATED="1516461353804" ID="ID_1113781085" MODIFIED="1516461362292" TEXT="Even if it&apos;s ridiculous..."/>
-</node>
-</node>
-<node CREATED="1516460722010" ID="ID_705347624" MODIFIED="1518871476139" POSITION="left" TEXT="Health insurance">
+<node CREATED="1516460722010" ID="ID_705347624" MODIFIED="1599390313136" POSITION="left" TEXT="Health insurance">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -60,12 +54,6 @@
 </node>
 <node CREATED="1516460910405" ID="ID_712235365" MODIFIED="1516460914298" TEXT="Tax deductible"/>
 <node CREATED="1516461320669" ID="ID_1806425525" MODIFIED="1516461333557" TEXT="Cheapest the best (recognised by gouvernment)"/>
-</node>
-<node CREATED="1516460888506" ID="ID_1379366020" MODIFIED="1516461521424" POSITION="right" TEXT="Bank">
-<icon BUILTIN="full-2"/>
-<node CREATED="1516460890776" ID="ID_1990201200" MODIFIED="1516460894880" TEXT="Just go online">
-<node CREATED="1516460973042" ID="ID_733829965" MODIFIED="1516460974948" TEXT="N26"/>
-</node>
 </node>
 <node CREATED="1516461493418" ID="ID_1699897610" MODIFIED="1516461518865" POSITION="right" TEXT="Freelancer and self employed">
 <icon BUILTIN="full-1"/>
@@ -318,8 +306,8 @@
 <node CREATED="1517056396345" ID="ID_1849010493" MODIFIED="1517146014153" TEXT="33% for taxes"/>
 </node>
 </node>
-<node CREATED="1516464779695" ID="ID_1675160008" MODIFIED="1517145281410" POSITION="left" TEXT="Keeping book cleans">
-<icon BUILTIN="full-7"/>
+<node CREATED="1516464779695" ID="ID_1675160008" MODIFIED="1599390328485" POSITION="left" TEXT="Keeping book cleans">
+<icon BUILTIN="full-6"/>
 <node CREATED="1516464814015" ID="ID_742548187" MODIFIED="1516464819277" TEXT="Ingoing and outgoing"/>
 <node CREATED="1516464825485" ID="ID_1749881476" MODIFIED="1516464830347" TEXT="Advantages">
 <node CREATED="1516464830595" ID="ID_1354000164" MODIFIED="1516464840833" TEXT="Audit by finanzamt">
@@ -341,6 +329,18 @@
 </node>
 <node CREATED="1516464926647" ID="ID_1621915507" MODIFIED="1516464932713" TEXT="Bookkeeping softwares">
 <node CREATED="1516464940163" ID="ID_441725943" MODIFIED="1516464964282" TEXT="Go into expenses -&gt; put it in taxes return"/>
+</node>
+</node>
+<node CREATED="1516460888506" ID="ID_1379366020" MODIFIED="1516461521424" POSITION="right" TEXT="Bank">
+<icon BUILTIN="full-2"/>
+<node CREATED="1516460890776" ID="ID_1990201200" MODIFIED="1516460894880" TEXT="Just go online">
+<node CREATED="1516460973042" ID="ID_733829965" MODIFIED="1516460974948" TEXT="N26"/>
+</node>
+</node>
+<node CREATED="1516460647513" ID="ID_393781515" MODIFIED="1516461526150" POSITION="right" TEXT="Paperwork is horrible">
+<icon BUILTIN="full-3"/>
+<node CREATED="1516461347431" ID="ID_1863573013" MODIFIED="1516461353595" TEXT="Do everything as they said">
+<node CREATED="1516461353804" ID="ID_1113781085" MODIFIED="1516461362292" TEXT="Even if it&apos;s ridiculous..."/>
 </node>
 </node>
 </node>

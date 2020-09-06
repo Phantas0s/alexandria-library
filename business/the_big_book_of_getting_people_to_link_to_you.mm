@@ -29,7 +29,7 @@
 <icon BUILTIN="full-2"/>
 <node CREATED="1591425529670" ID="ID_1698255113" MODIFIED="1591425534979" TEXT="Speak directly to your clients"/>
 </node>
-<node CREATED="1591425565733" ID="ID_152265602" MODIFIED="1591425574990" POSITION="right" TEXT="Create resources your customers/people like them can use">
+<node CREATED="1591425565733" ID="ID_152265602" MODIFIED="1599389928174" POSITION="right" TEXT="Create resources your customers/people they can use">
 <icon BUILTIN="full-3"/>
 <node CREATED="1591425647093" ID="ID_1402183400" MODIFIED="1591425651705" TEXT="Create a page useful for many"/>
 <node CREATED="1591425652500" ID="ID_1878225429" MODIFIED="1591425655905" TEXT="... if it&apos;s original"/>
