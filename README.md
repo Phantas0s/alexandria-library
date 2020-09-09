@@ -1,6 +1,6 @@
 # Phantas0s's Alexandria Library
 
-![count mindmap](https://img.shields.io/badge/total_mindmap-68-blue)
+![count mindmap](https://img.shields.io/badge/total_mindmap-166-blue)
 [![Github repo-size](https://img.shields.io/github/repo-size/Phantas0s/alexandria-library.svg?color=success&label=Library%20size)]()
 [![Commit activity](https://img.shields.io/github/commit-activity/m/Phantas0s/alexandria-library?label=Writing%20sessions&color=blue)]()
 [![Alexandria Library illustration](./library-of-alexandria.jpg)]()

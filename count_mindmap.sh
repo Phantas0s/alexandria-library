@@ -1,3 +1,5 @@
+#!/bin/bash
+
 count=$(ls **/*.mm | wc -l)
 replace="\(https\:\/\/img\.shields\.io\/badge\/total_mindmap.*\)"
 c="https\:\/\/img\.shields\.io\/badge\/total_mindmap\-$count\-blue\)"
