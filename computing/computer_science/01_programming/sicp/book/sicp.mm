@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1599055689269" TEXT="SICP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1599750028810" TEXT="SICP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -83,7 +83,7 @@
   </body>
 </html>
 </richcontent>
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
 <node CREATED="1528634606285" FOLDED="true" ID="ID_1929326975" MODIFIED="1587143670696" TEXT="Introduction">
@@ -113,7 +113,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528634386806" ID="ID_320155226" MODIFIED="1587143602757" TEXT="1.1 The element of programming">
+<node CREATED="1528634386806" FOLDED="true" ID="ID_320155226" MODIFIED="1587143602757" TEXT="1.1 The element of programming">
 <node CREATED="1588765629478" ID="ID_1839200071" MODIFIED="1588765631753" TEXT="Introduction">
 <node CREATED="1528634591277" FOLDED="true" ID="ID_541171097" MODIFIED="1528634596209" TEXT="Mechanism of languages">
 <node CREATED="1528634492263" ID="ID_202357326" MODIFIED="1528634497678" TEXT="Primitive expressions">
@@ -684,7 +684,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528913874738" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
+<node CREATED="1528913874738" FOLDED="true" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
 <node CREATED="1589458544735" FOLDED="true" ID="ID_653912668" MODIFIED="1589458547948" TEXT="Introduction">
 <node CREATED="1589458548819" ID="ID_86441762" MODIFIED="1589458650910" TEXT="Visualise consequences of actions"/>
 <node CREATED="1589458555794" ID="ID_910828291" MODIFIED="1589458641944" TEXT="... crucial for an expert programmer"/>
@@ -773,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1598593489853" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1599746655150" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -804,7 +804,8 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
@@ -1386,7 +1387,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590762716523" FOLDED="true" ID="ID_531962734" MODIFIED="1596099194928" TEXT="2.1 Introduction do Data Abstraction">
+<node CREATED="1590762716523" ID="ID_531962734" MODIFIED="1596099194928" TEXT="2.1 Introduction do Data Abstraction">
 <node CREATED="1590763193716" FOLDED="true" ID="ID_474787162" MODIFIED="1590763196174" TEXT="Introduction">
 <node CREATED="1590762778933" FOLDED="true" ID="ID_460518805" MODIFIED="1590762784986" TEXT="More complex procedure">
 <node CREATED="1590762785216" ID="ID_615491137" MODIFIED="1590762791978" TEXT="Collection of particular operations"/>
@@ -1453,10 +1454,10 @@
 <node CREATED="1590763409645" ID="ID_731633289" MODIFIED="1590763414170" TEXT="return denominator of x"/>
 </node>
 </node>
-<node CREATED="1590763486350" FOLDED="true" ID="ID_1598401828" MODIFIED="1590763489558" TEXT="Wishful thinking">
+<node CREATED="1590763486350" ID="ID_1598401828" MODIFIED="1590763489558" TEXT="Wishful thinking">
 <node CREATED="1590763498312" ID="ID_1769013779" MODIFIED="1590763501949" TEXT="Strategy of synthesis"/>
 <node CREATED="1590763489713" ID="ID_1900155848" MODIFIED="1590763496179" TEXT="We don&apos;t know how all of that is implemented"/>
-<node CREATED="1590763533909" ID="ID_1310806869" MODIFIED="1590763591757" TEXT="We can even implement operations">
+<node CREATED="1590763533909" ID="ID_1310806869" MODIFIED="1599749218632" TEXT="We can even implement operations">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1475,6 +1476,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (denom y))))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (sub-rat x y)
     </p>
     <p>
@@ -1487,6 +1491,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (denom y))))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (mul-rat x y)
     </p>
     <p>
@@ -1494,6 +1501,9 @@
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (denom y))))
+    </p>
+    <p>
+      
     </p>
     <p>
       (define (div-rat x y)
@@ -1505,6 +1515,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* (denom x) (numer y))))
     </p>
     <p>
+      
+    </p>
+    <p>
       (define (equal-rat? x y)
     </p>
     <p>
@@ -1514,7 +1527,8 @@
       &#160;&#160;&#160;&#160;&#160;(* (numer y) (denom x))))
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1590827555730" FOLDED="true" ID="ID_344787197" MODIFIED="1590827564492" TEXT="Needs to glue together">
@@ -1655,7 +1669,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590828400846" ID="ID_432143703" MODIFIED="1590828402063" TEXT="2.1.2 Abstraction Barriers ">
+<node CREATED="1590828400846" FOLDED="true" ID="ID_432143703" MODIFIED="1590828402063" TEXT="2.1.2 Abstraction Barriers ">
 <node CREATED="1590828421731" ID="ID_949377487" MODIFIED="1590828428326" TEXT="Underlying idea of data abstraction"/>
 <node CREATED="1590828431842" ID="ID_1078044444" MODIFIED="1590828441912" TEXT="Identify for each type of data object"/>
 <node CREATED="1590828442666" ID="ID_41342702" MODIFIED="1590828449104" TEXT="... a basic set of operations"/>
@@ -1733,7 +1747,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590829488840" FOLDED="true" ID="ID_1693763654" MODIFIED="1590829489554" TEXT="2.1.3 What Is Meant by Data? ">
+<node CREATED="1590829488840" ID="ID_1693763654" MODIFIED="1590829489554" TEXT="2.1.3 What Is Meant by Data? ">
 <node CREATED="1590829552179" FOLDED="true" ID="ID_580072416" MODIFIED="1590829559622" TEXT="In general, collection">
 <node CREATED="1590829559804" ID="ID_664340793" MODIFIED="1590829562412" TEXT="selectors"/>
 <node CREATED="1590829562745" ID="ID_138237895" MODIFIED="1590829564605" TEXT="constructors"/>
@@ -1800,7 +1814,7 @@
 </node>
 <node CREATED="1590830355637" ID="ID_1473538386" MODIFIED="1590830356319" TEXT="2.1.4 Extended Exercise: Interval Arithmetic "/>
 </node>
-<node CREATED="1590830397204" FOLDED="true" ID="ID_1410375303" MODIFIED="1590830397900" TEXT="2.2 Hierarchical Data and the Closure Property ">
+<node CREATED="1590830397204" ID="ID_1410375303" MODIFIED="1590830397900" TEXT="2.2 Hierarchical Data and the Closure Property ">
 <node CREATED="1590830572641" FOLDED="true" ID="ID_28105509" MODIFIED="1590830584323" TEXT="Introduction">
 <node CREATED="1590830584536" FOLDED="true" ID="ID_431387783" MODIFIED="1590830592046" TEXT="Visualising a pair">
 <node CREATED="1590830510078" ID="ID_1769313214" MODIFIED="1590830519212" TEXT="box-and-pointer notation">
@@ -3451,7 +3465,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1594800738693" FOLDED="true" ID="ID_69520908" MODIFIED="1594800757382" TEXT="2.4 Multiple Representation for Abstract Data">
+<node CREATED="1594800738693" ID="ID_69520908" MODIFIED="1594800757382" TEXT="2.4 Multiple Representation for Abstract Data">
 <node CREATED="1594802347631" FOLDED="true" ID="ID_97354207" MODIFIED="1594802349740" TEXT="Introduction">
 <node CREATED="1594801038076" ID="ID_1412838296" MODIFIED="1594801042637" TEXT="Abstraction barrier">
 <node CREATED="1594801042638" ID="ID_1627723167" MODIFIED="1594801045922" TEXT="Constructor"/>
@@ -3499,7 +3513,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1594802342022" ID="ID_1031658094" MODIFIED="1594802342901" TEXT="2.4.1 Representations for Complex Numbers ">
+<node CREATED="1594802342022" FOLDED="true" ID="ID_1031658094" MODIFIED="1594802342901" TEXT="2.4.1 Representations for Complex Numbers ">
 <node CREATED="1594802611915" ID="ID_1509823857" MODIFIED="1594802618383" TEXT="Representing complex numbers"/>
 <node CREATED="1594802778434" ID="ID_467266183" MODIFIED="1594802796701" TEXT="Complex number implementation">
 <node CREATED="1594802816576" ID="ID_1552616569" MODIFIED="1594802820188" TEXT="Rectangular form"/>
@@ -3691,7 +3705,7 @@
 </node>
 <node CREATED="1594803001324" ID="ID_199657808" MODIFIED="1594803012001" TEXT="... works for polar / rectangular representation"/>
 </node>
-<node CREATED="1594803032836" ID="ID_888778174" MODIFIED="1594803033469" TEXT="2.4.2 Tagged data ">
+<node CREATED="1594803032836" FOLDED="true" ID="ID_888778174" MODIFIED="1594803033469" TEXT="2.4.2 Tagged data ">
 <node CREATED="1594803052106" ID="ID_638390072" MODIFIED="1594803063528" TEXT="Can view data abstraction of application"/>
 <node CREATED="1594803069035" ID="ID_1133074887" MODIFIED="1594803074991" TEXT="... of the &quot;principle of least commitment&quot;">
 <node CREATED="1594803340166" ID="ID_1390111865" MODIFIED="1594803367979" TEXT="Can defer to choose selector representation"/>
@@ -3983,7 +3997,7 @@
 <node CREATED="1594883876528" ID="ID_541164946" MODIFIED="1594883881005" TEXT="... from level to level"/>
 </node>
 </node>
-<node CREATED="1594883901438" ID="ID_1843437990" MODIFIED="1594883902208" TEXT="2.4.3 Data-Directed Programming and Additivity ">
+<node CREATED="1594883901438" FOLDED="true" ID="ID_1843437990" MODIFIED="1594883902208" TEXT="2.4.3 Data-Directed Programming and Additivity ">
 <node COLOR="#338800" CREATED="1594897318201" ID="ID_760031323" LINK="https://www.youtube.com/watch?v=zgbBNEuHs2w&amp;list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9&amp;index=17&amp;t=2s" MODIFIED="1594897352122" TEXT="Generic Operators From Brian Harvey cs61a is way clearer">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
@@ -5149,7 +5163,7 @@
 </node>
 <node CREATED="1597468953192" ID="ID_815335816" MODIFIED="1597468957996" POSITION="right" TEXT="Modularity, Objects, and State ">
 <icon BUILTIN="full-3"/>
-<node CREATED="1597469018363" ID="ID_1889598563" MODIFIED="1597469020650" TEXT="Introduction">
+<node CREATED="1597469018363" FOLDED="true" ID="ID_1889598563" MODIFIED="1597469020650" TEXT="Introduction">
 <node CREATED="1597469039252" FOLDED="true" ID="ID_43297729" MODIFIED="1597469041968" TEXT="We saw">
 <node CREATED="1597469042542" ID="ID_1928465302" MODIFIED="1597469045577" TEXT="Primitive data"/>
 <node CREATED="1597469046223" ID="ID_593584581" MODIFIED="1597469054105" TEXT="Primitive procedure"/>
@@ -5199,7 +5213,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597469556288" ID="ID_847365467" MODIFIED="1597469558685" TEXT="3.1 Assignment and Local State">
+<node CREATED="1597469556288" FOLDED="true" ID="ID_847365467" MODIFIED="1597469558685" TEXT="3.1 Assignment and Local State">
 <node CREATED="1597469971961" FOLDED="true" ID="ID_1651660501" MODIFIED="1597469974793" TEXT="Introduction">
 <node CREATED="1597469589065" FOLDED="true" ID="ID_947795939" MODIFIED="1597469596133" TEXT="See the world as objects">
 <node CREATED="1597469596334" ID="ID_660053030" MODIFIED="1597469609186" TEXT="Independent">
@@ -5899,7 +5913,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597486267458" ID="ID_768131575" MODIFIED="1597486268131" TEXT="3.2 The Environment Model of Evaluation ">
+<node CREATED="1597486267458" FOLDED="true" ID="ID_768131575" MODIFIED="1597486268131" TEXT="3.2 The Environment Model of Evaluation ">
 <node CREATED="1597487442690" FOLDED="true" ID="ID_157243215" MODIFIED="1597487445534" TEXT="Introduction">
 <node CREATED="1597486284362" ID="ID_1877848972" LINK="#ID_233356948" MODIFIED="1597486312674" TEXT="Substitution model is no longer adequate">
 <node CREATED="1597486547288" ID="ID_1101013477" MODIFIED="1597486553989" TEXT="Needs a &quot;place&quot; where values are stored"/>
@@ -6359,7 +6373,7 @@
 </node>
 </node>
 <node CREATED="1599054442102" ID="ID_503410192" MODIFIED="1599054444278" TEXT="3.3 Modeling with Mutable Data">
-<node CREATED="1599054542146" ID="ID_510025192" MODIFIED="1599054544150" TEXT="Introduction">
+<node CREATED="1599054542146" FOLDED="true" ID="ID_510025192" MODIFIED="1599054544150" TEXT="Introduction">
 <node CREATED="1599054472115" ID="ID_1957959098" MODIFIED="1599054492238" TEXT="For now, we have these data abstractions">
 <node CREATED="1599054499463" ID="ID_446055794" MODIFIED="1599054501807" TEXT="selectors"/>
 <node CREATED="1599054502412" ID="ID_1727290629" MODIFIED="1599054504535" TEXT="constructors"/>
@@ -6368,7 +6382,7 @@
 <node CREATED="1599054516033" ID="ID_797674621" MODIFIED="1599054518325" TEXT="Modify data objects"/>
 </node>
 </node>
-<node CREATED="1599054550705" ID="ID_180056677" MODIFIED="1599054552275" TEXT="3.3.1 Mutable List Structure ">
+<node CREATED="1599054550705" FOLDED="true" ID="ID_180056677" MODIFIED="1599054552275" TEXT="3.3.1 Mutable List Structure ">
 <node CREATED="1599054597993" FOLDED="true" ID="ID_1048203881" MODIFIED="1599054604639" TEXT="Primitive mutators for pairs">
 <node CREATED="1599054604906" ID="ID_1038288966" MODIFIED="1599054608629" TEXT="set-car!">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -6387,7 +6401,7 @@
 <node CREATED="1599054991239" ID="ID_891948803" MODIFIED="1599054993802" TEXT="Like set!"/>
 </node>
 </node>
-<node CREATED="1599054680993" FOLDED="true" ID="ID_1501915472" MODIFIED="1599055552847" TEXT="Examples">
+<node CREATED="1599054680993" ID="ID_1501915472" MODIFIED="1599055552847" TEXT="Examples">
 <icon BUILTIN="wizard"/>
 <node CREATED="1599054703292" ID="ID_1430918434" MODIFIED="1599054713135" TEXT="x bound to">
 <node CREATED="1599054716688" ID="ID_204332994" MODIFIED="1599054718124" TEXT="((a b) c d)">
@@ -6409,8 +6423,7 @@
   <body>
     <img src="example_list_bound.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1599054769553" ID="ID_383355380" MODIFIED="1599055073126" TEXT="(set-car! x y)">
@@ -6426,8 +6439,7 @@
   <body>
     <img src="example_list_bound_after_set_car.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1599055011022" ID="ID_1571679214" MODIFIED="1599055036443" TEXT="Garbage created">
@@ -6448,13 +6460,12 @@
   <body>
     <img src="example_list_bound_after_cons.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1599055556994" ID="ID_1747989096" MODIFIED="1599055558783" TEXT="Sharing and identity ">
+<node CREATED="1599055556994" FOLDED="true" ID="ID_1747989096" MODIFIED="1599055558783" TEXT="Sharing and identity ">
 <icon BUILTIN="full-1"/>
 <node CREATED="1599055626849" ID="ID_1491804989" MODIFIED="1599055709375" TEXT="Code">
 <richcontent TYPE="NOTE"><html>
@@ -6478,8 +6489,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599055637682" ID="ID_1135301403" MODIFIED="1599055643949" TEXT="z1 and z2 represent same list">
 <node CREATED="1599055647706" ID="ID_1481402484" MODIFIED="1599055648213" TEXT="((a b) a b)"/>
@@ -6529,8 +6539,7 @@
       ((wow b) wow b)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1599055976750" ID="ID_9485199" MODIFIED="1599055980460" TEXT="Altering car change cdr"/>
 <node CREATED="1599056008952" ID="ID_70900543" MODIFIED="1599056011788" TEXT="... because same pair"/>
 </node>
@@ -6550,8 +6559,7 @@
       ((wow b) a b)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1599056020583" ID="ID_1935454370" MODIFIED="1599056025652" TEXT="Only car modified"/>
 </node>
 </node>
@@ -6576,7 +6584,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1599056224837" ID="ID_804124469" MODIFIED="1599056226659" TEXT="Mutation is just assignment ">
+<node CREATED="1599056224837" FOLDED="true" ID="ID_804124469" MODIFIED="1599056226659" TEXT="Mutation is just assignment ">
 <icon BUILTIN="full-2"/>
 <node CREATED="1599056349972" ID="ID_1063125675" MODIFIED="1599056375032" TEXT="Define car and cdr">
 <richcontent TYPE="NOTE"><html>
@@ -6609,8 +6617,7 @@
       (define (cdr z) (z 'cdr))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599056375557" ID="ID_1871554336" MODIFIED="1599056383639" TEXT="Define set-car! and set-cdr!">
 <richcontent TYPE="NOTE"><html>
@@ -6670,12 +6677,664 @@
       &#160;&#160;((z 'set-cdr!) new-value) z)
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1599056390901" FOLDED="true" ID="ID_1526472211" MODIFIED="1599056398713" TEXT="3.3.2 Representing Queues ">
+<node CREATED="1599746978887" ID="ID_133112468" MODIFIED="1599746982564" TEXT="Sequence"/>
+<node CREATED="1599746983496" ID="ID_363575038" MODIFIED="1599746990723" TEXT="Items inserted at one end">
+<node CREATED="1599746990960" ID="ID_810947774" MODIFIED="1599746997659" TEXT="rear of the queue">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1599747001279" ID="ID_1278127384" MODIFIED="1599747006195" TEXT="... deleted from another">
+<node CREATED="1599747007191" ID="ID_187182287" MODIFIED="1599747010225" TEXT="the front">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1599747116207" ID="ID_1397603135" MODIFIED="1599747257244" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1599747120246" ID="ID_283324616" MODIFIED="1599747254330" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1599747241727" ID="ID_718122929" MODIFIED="1599747248109">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="queue_example.png" />
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1599056390901" ID="ID_1526472211" MODIFIED="1599056398713" TEXT="3.3.2 Representing Queues "/>
+<node CREATED="1599747299125" ID="ID_1865354652" MODIFIED="1599747306202" TEXT="Items always removed in order of insertion">
+<node CREATED="1599747306333" ID="ID_1469957782" MODIFIED="1599747308022" TEXT="FIFO">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1599747319821" ID="ID_943943903" MODIFIED="1599747322489" TEXT="First in First out"/>
+</node>
+<node CREATED="1599747525580" ID="ID_195272216" MODIFIED="1599747532487" TEXT="Data abstraction">
+<node CREATED="1599747550909" ID="ID_486160514" MODIFIED="1599747553583" TEXT="Constructor">
+<node CREATED="1599747532739" ID="ID_1536949322" MODIFIED="1599747544429" TEXT="make-queue">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1599747554058" ID="ID_1506758370" MODIFIED="1599747556352" TEXT="Selectors">
+<node CREATED="1599747546379" ID="ID_646841127" MODIFIED="1599747549149" TEXT="empty-queue?">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1599747561483" ID="ID_462176047" MODIFIED="1599747566861" TEXT="front-queue">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1599747583884" ID="ID_1878736223" MODIFIED="1599747585239" TEXT="Mutators">
+<node CREATED="1599747585603" ID="ID_672248135" MODIFIED="1599747590067" TEXT="insert-queue!">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599747594475" ID="ID_615175462" MODIFIED="1599747601287" TEXT="Insert the item at the rear"/>
+</node>
+<node CREATED="1599747650290" ID="ID_1971816148" MODIFIED="1599747653597" TEXT="delete-queue!">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599747654458" ID="ID_1379066621" MODIFIED="1599747659398" TEXT="Removes item at the front"/>
+</node>
+</node>
+</node>
+<node CREATED="1599747660818" ID="ID_995242558" MODIFIED="1599747668430" TEXT="Sequence of item, so why not a list?">
+<node CREATED="1599747669658" ID="ID_373484177" MODIFIED="1599747704142" TEXT="We only have one pointer at the beginning of the list"/>
+<node CREATED="1599747704840" ID="ID_451301211" MODIFIED="1599747711948" TEXT="Need to parse the whole list to go to the end">
+<node CREATED="1599747712146" ID="ID_1626764597" MODIFIED="1599747716253" TEXT="Problem to insert element"/>
+<node CREATED="1599747716650" ID="ID_267703729" MODIFIED="1599747728022" TEXT="&#x398;(n) steps"/>
+</node>
+<node CREATED="1599747754626" ID="ID_1487738262" MODIFIED="1599747763182" TEXT="Adding a pointer to the end of the list">
+<node CREATED="1599747763690" ID="ID_1685938248" MODIFIED="1599747773404" TEXT="&#x398;(1) steps"/>
+<node CREATED="1599747774382" ID="ID_833011744" MODIFIED="1599747780189" TEXT="Constant time not growing with size of list"/>
+</node>
+<node CREATED="1599747786474" ID="ID_1964729797" MODIFIED="1599747792190" TEXT="List represented as a pair of pointers">
+<node CREATED="1599747792449" ID="ID_1643744181" MODIFIED="1599747796819" TEXT="front-ptr">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599747803537" ID="ID_823344769" MODIFIED="1599747805750" TEXT="First pair"/>
+</node>
+<node CREATED="1599747797234" ID="ID_856252151" MODIFIED="1599747800292" TEXT="rear-ptr">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599747806641" ID="ID_746785206" MODIFIED="1599747808190" TEXT="Last pair"/>
+</node>
+</node>
+<node CREATED="1599747844633" FOLDED="true" ID="ID_171278996" MODIFIED="1599747847798" TEXT="Representation of queue">
+<node CREATED="1599747827572" ID="ID_406456547" MODIFIED="1599747856573" TEXT="Con of two pointers"/>
+<node CREATED="1599747886826" ID="ID_1947687962" MODIFIED="1599747909343" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1599747889656" ID="ID_836541575" MODIFIED="1599747903642">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="queue_representation.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1599747974808" ID="ID_396602810" MODIFIED="1599749422051" TEXT="Implementation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (front-ptr queue) (car queue))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (rear-ptr queue) (cdr queue))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (set-front-ptr! queue item)
+    </p>
+    <p>
+      &#160;&#160;(set-car! queue item))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (set-rear-ptr! queue item)
+    </p>
+    <p>
+      &#160;&#160;(set-cdr! queue item))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (empty-queue? queue)
+    </p>
+    <p>
+      &#160;&#160;(null? (front-ptr queue)))
+    </p>
+    <p>
+      <br />
+      (define (make-queue) (cons '() '()))<br /><br />(define (front-queue queue)
+    </p>
+    <p>
+      &#160;&#160;(if (empty-queue? queue)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(error &quot;FRONT called with an empty queue&quot; queue)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(car (front-ptr queue))))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (insert-queue! queue item)
+    </p>
+    <p>
+      &#160;&#160;(let ((new-pair (cons item '())))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cond ((empty-queue? queue)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set-front-ptr! queue new-pair)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set-rear-ptr! queue new-pair)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;queue)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set-cdr! (rear-ptr queue) new-pair)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set-rear-ptr! queue new-pair)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;queue))))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (delete-queue! queue)
+    </p>
+    <p>
+      &#160;&#160;(cond ((empty-queue? queue)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(error &quot;DELETE! called with an empty queue&quot; queue))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (set-front-ptr! queue (cdr (front-ptr queue)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;queue)))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1599749633029" ID="ID_1469487067" MODIFIED="1599749650989" TEXT="insert-queue!">
+<icon BUILTIN="licq"/>
+<node CREATED="1599749652348" ID="ID_70860372" MODIFIED="1599749662532">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="queue_insert.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1599749432614" ID="ID_1169292666" MODIFIED="1599749648264" TEXT="delete-queue!">
+<icon BUILTIN="licq"/>
+<node CREATED="1599749543644" ID="ID_1115923622" MODIFIED="1599749597860">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="queue_delete.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1599749708213" ID="ID_1882153224" LINK="#ID_1843437990" MODIFIED="1599749740989" TEXT="3.3.3 Representing Tables">
+<node CREATED="1599749854443" ID="ID_1665167314" MODIFIED="1599749858175" TEXT="Two dimensional table"/>
+<node CREATED="1599749939403" ID="ID_534396028" MODIFIED="1599750495218" TEXT="One dimensional table">
+<icon BUILTIN="full-1"/>
+<node CREATED="1599749913979" ID="ID_183943142" MODIFIED="1599749917476" TEXT="backbone">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1599749917803" ID="ID_609869936" MODIFIED="1599749930679" TEXT="pairs glued together"/>
+<node CREATED="1599749931163" ID="ID_638429699" MODIFIED="1599749937943" TEXT="... whose car points to successive record"/>
+</node>
+<node CREATED="1599749955523" ID="ID_1142425134" MODIFIED="1599749958879" TEXT="Build the table as a">
+<node CREATED="1599749959034" ID="ID_1149439560" MODIFIED="1599749961475" TEXT="headed list">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1599749972547" ID="ID_702601570" MODIFIED="1599749979607" TEXT="Has a particular backbone">
+<node CREATED="1599749988163" ID="ID_274442334" MODIFIED="1599749996175" TEXT="Pair at the beginning old &quot;dummy&quot; record"/>
+</node>
+</node>
+<node CREATED="1599750016090" ID="ID_1894612618" MODIFIED="1599750050267" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1599750017995" ID="ID_1615612358" MODIFIED="1599750071210" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1599750071586" ID="ID_73520500" MODIFIED="1599750104172">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="headed_list.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1599750021532" ID="ID_365762416" MODIFIED="1599750025351" TEXT="&quot;dummy&quot; record">
+<node CREATED="1599750025547" ID="ID_1608343221" MODIFIED="1599750030899" TEXT="*table*">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1599750033658" ID="ID_726325671" MODIFIED="1599750035030" TEXT="Table">
+<node CREATED="1599750035299" ID="ID_1485333457" MODIFIED="1599750036607" TEXT="a: 1"/>
+<node CREATED="1599750037002" ID="ID_406153200" MODIFIED="1599750038742" TEXT="b: 2"/>
+<node CREATED="1599750044978" ID="ID_48523712" MODIFIED="1599750046030" TEXT="c: 3"/>
+</node>
+</node>
+<node CREATED="1599750121450" ID="ID_1575362318" MODIFIED="1599750126654" TEXT="To look at an element">
+<node CREATED="1599750126858" ID="ID_1299961939" MODIFIED="1599750445564" TEXT="lookup procedure">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (lookup key table)
+    </p>
+    <p>
+      &#160;&#160;(let ((record (assoc key (cdr table))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if record
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(cdr record)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;false)))\
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define (assoc key records)
+    </p>
+    <p>
+      &#160;&#160;(cond ((null? records) false)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((equal? key (caar records)) (car records))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (assoc key (cdr records)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1599750173698" ID="ID_1453672159" MODIFIED="1599750179386" TEXT="assoc">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1599750179681" ID="ID_1016350586" MODIFIED="1599750264885" TEXT="... never sees the dummy record"/>
+</node>
+<node CREATED="1599750237209" ID="ID_396139244" MODIFIED="1599750251990" TEXT="insert!">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (insert! key value table)
+    </p>
+    <p>
+      &#160;&#160;(let ((record (assoc key (cdr table))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if record
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(set-cdr! record value)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(set-cdr! table
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons (cons key value)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cdr table)))))
+    </p>
+    <p>
+      &#160;&#160;'ok)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1599750483031" ID="ID_1392491911" MODIFIED="1599750487204" TEXT="make-table">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-table)
+    </p>
+    <p>
+      (list '*table*))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1599750493359" ID="ID_1478801539" MODIFIED="1599750496043" TEXT="Two-dimensional tables ">
+<icon BUILTIN="full-2"/>
+<node CREATED="1599750514103" ID="ID_217911691" MODIFIED="1599750518779" TEXT="Each value indexed by two keys"/>
+<node CREATED="1599750524135" ID="ID_271124273" MODIFIED="1599750529650" TEXT="One dimension table"/>
+<node CREATED="1599750530378" ID="ID_1638725040" MODIFIED="1599750534419" TEXT="... with each key as subtable"/>
+<node CREATED="1599750633062" ID="ID_659336183" MODIFIED="1599750678817" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1599750639816" ID="ID_1776783975" MODIFIED="1599750642083" TEXT="Table">
+<node CREATED="1599750642544" ID="ID_803080570" MODIFIED="1599750644514" TEXT="math:">
+<node CREATED="1599750645086" ID="ID_1635897952" MODIFIED="1599750651515" TEXT="+: 43"/>
+<node CREATED="1599750662382" ID="ID_1022814499" MODIFIED="1599750666602" TEXT="-: 45"/>
+<node CREATED="1599750667639" ID="ID_1303238707" MODIFIED="1599750671762" TEXT="*: 42"/>
+</node>
+<node CREATED="1599750652575" ID="ID_1107240669" MODIFIED="1599750654650" TEXT="letters:">
+<node CREATED="1599750654935" ID="ID_6891909" MODIFIED="1599750657971" TEXT="a: 97"/>
+<node CREATED="1599750658667" ID="ID_916137382" MODIFIED="1599750660880" TEXT="b: 98"/>
+</node>
+</node>
+<node CREATED="1599750537447" FOLDED="true" ID="ID_1715387360" MODIFIED="1599750543310" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1599750545687" ID="ID_237108359" MODIFIED="1599750590244">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="two_dimensional_table.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1599750692054" ID="ID_192736267" MODIFIED="1599750698770" TEXT="Subtable don&apos;t need special header symbol">
+<node CREATED="1599750698934" ID="ID_1182719174" MODIFIED="1599750711394" TEXT="Keys serve this purpose"/>
+</node>
+<node CREATED="1599750730572" ID="ID_456263839" LINK="#ID_1299961939" MODIFIED="1599750772159" TEXT="lookup">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (lookup key-1 key-2 table)
+    </p>
+    <p>
+      &#160;&#160;(let ((subtable
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(assoc key-1 (cdr table))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if subtable
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(let ((record
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(assoc key-2 (cdr subtable))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if record
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cdr record)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;false))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;false)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1599750841517" ID="ID_1041684725" LINK="#ID_396139244" MODIFIED="1599750976940" TEXT="insert!">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (insert! key-1 key-2 value table)
+    </p>
+    <p>
+      &#160;&#160;(let ((subtable (assoc key-1 (cdr table))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if subtable
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(let ((record (assoc key-2 (cdr subtable))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if record
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set-cdr! record value)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set-cdr! subtable
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons (cons key-2 value)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cdr subtable)))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(set-cdr! table
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons (list key-1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons key-2 value))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cdr table)))))
+    </p>
+    <p>
+      &#160;&#160;'ok)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1599750866907" ID="ID_1011738489" MODIFIED="1599750870169" TEXT="Creating local tables">
+<icon BUILTIN="full-3"/>
+<node CREATED="1599750894629" ID="ID_667586238" MODIFIED="1599750898513" TEXT="To use multiple tables">
+<node CREATED="1599750898709" ID="ID_662981033" LINK="#ID_659336183" MODIFIED="1599750965756" TEXT="Selectors or mutators can take table as argument"/>
+<node CREATED="1599750920309" ID="ID_1071066558" MODIFIED="1599750925529" TEXT="We create an object with a local table">
+<node CREATED="1599750958268" ID="ID_1150936588" MODIFIED="1599750962558" TEXT="Implementation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-table)
+    </p>
+    <p>
+      &#160;&#160;(let ((local-table (list '*table*)))
+    </p>
+    <p>
+      &#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(define (lookup key-1 key-2)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(let ((subtable
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(assoc key-1 (cdr local-table))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if subtable
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(let ((record
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(assoc key-2 (cdr subtable))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if record (cdr record) false))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;false)))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(define (insert! key-1 key-2 value)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(let ((subtable
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(assoc key-1 (cdr local-table))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if subtable
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(let ((record
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(assoc key-2 (cdr subtable))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if record
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set-cdr! record value)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set-cdr! subtable
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons (cons key-2 value)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cdr subtable)))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set-cdr! local-table
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cons (list key-1 (cons key-2 value))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cdr local-table)))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;'ok)
+    </p>
+    <p>
+      &#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(define (dispatch m)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(cond ((eq? m 'lookup-proc) lookup)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? m 'insert-proc!) insert!)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown operation: TABLE&quot; m))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dispatch))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1599750995628" ID="ID_1896433700" LINK="#ID_1843437990" MODIFIED="1599751013340" TEXT="get and put operations">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define operation-table (make-table))
+    </p>
+    <p>
+      (define get (operation-table 'lookup-proc))
+    </p>
+    <p>
+      (define put (operation-table 'insert-proc!))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
