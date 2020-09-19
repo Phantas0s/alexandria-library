@@ -74,7 +74,7 @@ The mindmaps and other resources from this library are tailored to my knowledge 
 
 Most of the time, I'm trying to avoid these traps:
 
-* Personal judgements.
+* Personal judgments.
 * Understanding mistakes.
 * Biases (especially confirmation bias).
 
