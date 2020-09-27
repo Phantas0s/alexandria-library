@@ -1,7 +1,9 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1553800656920" ID="ID_635551259" MODIFIED="1553802065498" TEXT="Consultancy for developer - Building trust">
-<node CREATED="1553800726471" FOLDED="true" ID="ID_1706523478" MODIFIED="1553800829978" POSITION="left" TEXT="Why consult others?">
+<node CREATED="1553800656920" ID="ID_635551259" MODIFIED="1601225723037" TEXT="Consultancy for developer">
+<node CREATED="1601225751800" FOLDED="true" ID="ID_1721798515" LINK="https://hackernoon.com/consulting-for-software-developers-1-building-trust-547f8957cf6a" MODIFIED="1601225770117" POSITION="right" TEXT="Building Trust">
+<icon BUILTIN="full-1"/>
+<node CREATED="1553800726471" ID="ID_1706523478" MODIFIED="1601225766394" TEXT="Why consult others?">
 <icon BUILTIN="full-1"/>
 <node CREATED="1553800739061" ID="ID_1784278931" MODIFIED="1553800746872" TEXT="Project you&apos;re working on could be better">
 <node CREATED="1553800747068" ID="ID_1870083258" MODIFIED="1553800753952" TEXT="but no space to discuss it"/>
@@ -13,7 +15,7 @@
 <node CREATED="1553800780603" ID="ID_1803606314" MODIFIED="1553800785985" TEXT="You want your client to be successful"/>
 <node CREATED="1553800791444" ID="ID_313767569" MODIFIED="1553800799345" TEXT="You want to be the go-to person for client"/>
 </node>
-<node CREATED="1553800819779" ID="ID_597447869" LINK="https://hackernoon.com/consulting-for-software-developers-1-building-trust-547f8957cf6a" MODIFIED="1553802068158" POSITION="left" TEXT="How do I earn my client trust?">
+<node CREATED="1553800819779" ID="ID_597447869" MODIFIED="1601225778576" TEXT="How do I earn my client trust?">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -26,8 +28,7 @@
       <em class="markup--em markup--pullquote-em">&#8212; Robert M. Galford, &#8220;The Trusted&#160;Advisor&#8221;</em>
     </blockquote>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-2"/>
 <node CREATED="1553800862460" ID="ID_1847328010" MODIFIED="1553800869192" TEXT="No magic formula to build trust"/>
 <node CREATED="1553800892491" ID="ID_153033620" MODIFIED="1553800902288" TEXT="You need to constantly reinforce the message">
@@ -87,8 +88,7 @@
       <em class="markup--em markup--pullquote-em">&#8211; Doug Sandler, &#8220;Nice guys finish&#160;first&#8221;</em>
     </blockquote>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1553801206577" FOLDED="true" ID="ID_1455267545" MODIFIED="1553802363500" TEXT="Explain the process, make the risk known">
@@ -122,8 +122,7 @@
       <em class="markup--em markup--pullquote-em">&#8212; multiple people, including Father Strickland, Harry Truman, Charles Edward Montague, and&#160;others</em>
     </blockquote>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-6"/>
 </node>
 <node CREATED="1553801454197" FOLDED="true" ID="ID_1228144253" MODIFIED="1553802369995" TEXT="Always tell the truth">
@@ -148,15 +147,15 @@
       <em class="markup--em markup--pullquote-em">&#8212; Robert M. Galford, &#8220;The Trusted&#160;Advisor&#8221;</em>
     </blockquote>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-7"/>
 <node CREATED="1553801492390" ID="ID_748693725" MODIFIED="1553801494474" TEXT="Be upfront"/>
 <node CREATED="1553801494957" ID="ID_817795743" MODIFIED="1553801498660" TEXT="Admit your mistakes"/>
 </node>
 </node>
-<node CREATED="1553801691733" ID="ID_1714681360" LINK="https://hackernoon.com/consulting-for-software-developers-2-giving-advice-d4022886f02a" MODIFIED="1553802061182" POSITION="right" TEXT="Giving advises">
-<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1553801691733" FOLDED="true" ID="ID_1714681360" LINK="https://hackernoon.com/consulting-for-software-developers-2-giving-advice-d4022886f02a" MODIFIED="1601225804823" POSITION="right" TEXT="Giving advises">
+<icon BUILTIN="full-2"/>
 <node CREATED="1553801711277" ID="ID_1991943679" MODIFIED="1553802375884" TEXT="Software developer">
 <icon BUILTIN="full-1"/>
 <node CREATED="1553801718667" ID="ID_318264729" MODIFIED="1553801726184" TEXT="Guy in front of a computer punching keyboard"/>
@@ -188,8 +187,7 @@
       <em class="markup--em markup--pullquote-em">&#8212; Robert&#160;Half</em>
     </blockquote>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1553801925995" ID="ID_314090803" MODIFIED="1553801929160" TEXT="Listen patiently"/>
 </node>
@@ -285,8 +283,7 @@
       &#8212; Tiffany Barnett White, &#8220;Consumer Trust and Advice Acceptance: The Moderating Roles of Benevolence, Expertise, and Negative Emotions&#8221;
     </blockquote>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1553804372799" ID="ID_1643301034" MODIFIED="1553804377651" TEXT="Support your advice">
 <node CREATED="1553804414208" ID="ID_1724908283" MODIFIED="1553804422172" TEXT="Which background / context is important?"/>
