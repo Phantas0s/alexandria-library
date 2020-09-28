@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1601220663806" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1601287796056" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2122,7 +2122,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" FOLDED="true" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
@@ -2954,7 +2954,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1559226217694" FOLDED="true" ID="ID_1832647831" MODIFIED="1586506986340" TEXT="2.3 Functions">
+<node CREATED="1559226217694" ID="ID_1832647831" MODIFIED="1586506986340" TEXT="2.3 Functions">
 <node CREATED="1562406780467" FOLDED="true" ID="ID_1713732385" MODIFIED="1585668917503" TEXT="Introduction">
 <node CREATED="1559226273678" ID="ID_453490020" MODIFIED="1559226275627" TEXT="Can be called">
 <node CREATED="1559226275823" ID="ID_377513065" MODIFIED="1559226280639" TEXT="transformation">
@@ -3296,7 +3296,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1562870868530" FOLDED="true" ID="ID_1217934675" MODIFIED="1573712316670" TEXT="Inverse functions and composition of functions">
+<node CREATED="1562870868530" ID="ID_1217934675" MODIFIED="1573712316670" TEXT="Inverse functions and composition of functions">
 <node CREATED="1562870962769" FOLDED="true" ID="ID_1037303412" MODIFIED="1563386917238" TEXT="Inverse">
 <node CREATED="1562870965085" ID="ID_670643202" MODIFIED="1562870976007" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
@@ -3338,7 +3338,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1563385799703" FOLDED="true" ID="ID_527167910" MODIFIED="1563386916468" TEXT="Composition">
+<node CREATED="1563385799703" ID="ID_527167910" MODIFIED="1563386916468" TEXT="Composition">
 <node CREATED="1563385802391" ID="ID_1117496094" MODIFIED="1563385908689" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -3441,7 +3441,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1563709403053" FOLDED="true" ID="ID_851258611" MODIFIED="1573712326494" TEXT="Some important functions">
+<node CREATED="1563709403053" ID="ID_851258611" MODIFIED="1573712326494" TEXT="Some important functions">
 <node CREATED="1564561935983" FOLDED="true" ID="ID_228245899" MODIFIED="1564561942881" TEXT="Floor / Ceiling">
 <node CREATED="1563709483347" ID="ID_1432730194" MODIFIED="1564227959956" TEXT="Floor function">
 <node CREATED="1563709487627" ID="ID_1927714730" MODIFIED="1599284623603" TEXT="Definition">
@@ -3633,7 +3633,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1564564022865" ID="ID_928246757" MODIFIED="1587469900318" TEXT="2.4 Sequences and Summations">
+<node CREATED="1564564022865" FOLDED="true" ID="ID_928246757" MODIFIED="1587469900318" TEXT="2.4 Sequences and Summations">
 <node CREATED="1564564066520" FOLDED="true" ID="ID_1207413132" MODIFIED="1587392535026" TEXT="Introduction">
 <node CREATED="1564564044010" ID="ID_776012966" MODIFIED="1564564047837" TEXT="Ordered list of elements"/>
 <node CREATED="1564564077593" ID="ID_553141591" MODIFIED="1564564082788" TEXT="Can be used for counting problems"/>
@@ -4001,7 +4001,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571373459657" ID="ID_67563364" MODIFIED="1575879383620" TEXT="2.5 Cardinality of Sets">
+<node CREATED="1571373459657" FOLDED="true" ID="ID_67563364" MODIFIED="1575879383620" TEXT="2.5 Cardinality of Sets">
 <node CREATED="1571373863759" FOLDED="true" ID="ID_1015589096" MODIFIED="1574835054423" TEXT="Introduction">
 <node CREATED="1571373492847" ID="ID_995878882" MODIFIED="1571373499003" TEXT="About cardinality of infinite sets"/>
 <node CREATED="1571373525417" ID="ID_1589273350" MODIFIED="1571373528514" TEXT="Interested in countably infinite sets">
