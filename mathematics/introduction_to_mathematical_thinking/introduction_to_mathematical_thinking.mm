@@ -3,7 +3,7 @@
 <node CREATED="1601317769635" ID="ID_1177268645" LINK="https://www.coursera.org/learn/mathematical-thinking/" MODIFIED="1601317787180" TEXT="Introduction to Mathematical Thinking">
 <node CREATED="1601318268826" ID="ID_886619542" MODIFIED="1601318369779" POSITION="right" TEXT="What is Mathematic?">
 <icon BUILTIN="full-0"/>
-<node CREATED="1601318336617" ID="ID_503696945" MODIFIED="1601318338801" TEXT="More than arithmetic">
+<node CREATED="1601318336617" FOLDED="true" ID="ID_503696945" MODIFIED="1601318338801" TEXT="More than arithmetic">
 <icon BUILTIN="full-1"/>
 <node CREATED="1601318440137" ID="ID_144942492" MODIFIED="1601318456531" TEXT="Arithmetic seems to be created with the money"/>
 <node CREATED="1601318462233" ID="ID_975516197" MODIFIED="1601318502133" TEXT="... then Egyptians / Babylonians expand subject">
@@ -67,7 +67,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1601319017691" ID="ID_1639309014" MODIFIED="1601319022059" TEXT="Mathematical notation">
+<node CREATED="1601319017691" FOLDED="true" ID="ID_1639309014" MODIFIED="1601319022059" TEXT="Mathematical notation">
 <icon BUILTIN="full-2"/>
 <node COLOR="#338800" CREATED="1601319368409" ID="ID_1787276245" LINK="https://thevaluable.dev/abstraction-type-software-example/" MODIFIED="1601319411095" TEXT="Directly linked to abstraction of patterns">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -86,7 +86,7 @@
 </node>
 <node CREATED="1601319266528" ID="ID_1921265811" MODIFIED="1601319277354" TEXT="Symbols are just a representation of Mathematics"/>
 </node>
-<node CREATED="1601319359033" ID="ID_1381050741" MODIFIED="1601319364245" TEXT="Modern college-level mathematics">
+<node CREATED="1601319359033" FOLDED="true" ID="ID_1381050741" MODIFIED="1601319364245" TEXT="Modern college-level mathematics">
 <icon BUILTIN="full-3"/>
 <node CREATED="1601322847395" ID="ID_931678227" MODIFIED="1601322852046" TEXT="In 19th century"/>
 <node CREATED="1601322852635" ID="ID_1615341398" MODIFIED="1601322873367" TEXT="... mathematicians discovered"/>
@@ -102,7 +102,7 @@
 <node CREATED="1601323190934" ID="ID_232379017" MODIFIED="1601323196374" TEXT="Logical deduction from concepts"/>
 </node>
 </node>
-<node CREATED="1601323566556" ID="ID_447868466" MODIFIED="1601323572811" TEXT="Why are you having to learn this stuff ? ">
+<node CREATED="1601323566556" FOLDED="true" ID="ID_447868466" MODIFIED="1601323572811" TEXT="Why are you having to learn this stuff ? ">
 <icon BUILTIN="full-4"/>
 <node CREATED="1601323883100" ID="ID_1470811819" MODIFIED="1601323886973" TEXT="Change in mathematics is more"/>
 <node CREATED="1601323887387" ID="ID_1174869768" MODIFIED="1601323890159" TEXT="... an expansion"/>
@@ -142,6 +142,56 @@
 <node CREATED="1601318064249" ID="ID_775464440" MODIFIED="1601318065510" TEXT="Goal">
 <node CREATED="1601318065698" ID="ID_1895989719" MODIFIED="1601318067510" TEXT="Understanding"/>
 <node CREATED="1601318067885" ID="ID_1221188506" MODIFIED="1601318069983" TEXT="... not doing"/>
+</node>
+</node>
+<node CREATED="1601407584103" ID="ID_715642851" MODIFIED="1601407607434" POSITION="right" TEXT="Introductory material">
+<icon BUILTIN="full-2"/>
+<node CREATED="1601407607847" ID="ID_1658775458" MODIFIED="1601407620795" TEXT="What is Mathematic?">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1601407621487" ID="ID_1258064325" MODIFIED="1601407632656" TEXT="Getting precise about language">
+<icon BUILTIN="full-2"/>
+<node CREATED="1601407747052" ID="ID_154601648" MODIFIED="1601407754137" TEXT="Needs for precision in Mathematics"/>
+<node CREATED="1601407755216" ID="ID_300381929" MODIFIED="1601407774120" TEXT="Rely on the literal meaning of used language"/>
+<node CREATED="1601407785989" ID="ID_1722430747" MODIFIED="1601407791562" TEXT="Very constraints">
+<node CREATED="1601407794836" ID="ID_237251737" MODIFIED="1601407803332" TEXT="Concerned with Mathematical objects"/>
+<node CREATED="1601407838084" ID="ID_1835826722" MODIFIED="1601407840608" TEXT="Statements"/>
+</node>
+<node CREATED="1601407849436" ID="ID_1492280988" MODIFIED="1601407858456" TEXT="Statement needs to be proved">
+<node CREATED="1601407998283" ID="ID_287866063" MODIFIED="1601408101832" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1601408002323" ID="ID_948676181" MODIFIED="1601408138974" TEXT="Infinity of primes in Euclid&apos;s book Elements"/>
+</node>
+</node>
+<node CREATED="1601408299640" ID="ID_697605065" MODIFIED="1601408307189" TEXT="Exactness of language required"/>
+<node CREATED="1601408310077" ID="ID_1154139059" MODIFIED="1601408316072" TEXT="... but words can be ambiguous">
+<node CREATED="1601408343209" ID="ID_1132539332" MODIFIED="1601408431935" TEXT="We use context / background knowledge to fill in information"/>
+<node CREATED="1601408353024" ID="ID_1444341976" MODIFIED="1601408400918" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1601408354433" ID="ID_797914981" MODIFIED="1601408358389" TEXT="July is a summer month">
+<node CREATED="1601408358705" ID="ID_654212525" MODIFIED="1601408362156" TEXT="True for the USA"/>
+<node CREATED="1601408362498" ID="ID_1006535829" MODIFIED="1601408380317" TEXT="False for Australia"/>
+</node>
+<node CREATED="1601408366496" ID="ID_1148519764" MODIFIED="1601408371917" TEXT="The man saw the woman with a telescope">
+<node CREATED="1601408372089" ID="ID_653775279" MODIFIED="1601408376092" TEXT="Who&apos;s has the telescope?"/>
+</node>
+</node>
+<node CREATED="1601408434544" ID="ID_235669816" MODIFIED="1601408440020" TEXT="... can&apos;t rely on that with Maths"/>
+</node>
+<node CREATED="1601408457729" ID="ID_481857785" MODIFIED="1601408465542" TEXT="Preciseness made possible"/>
+<node CREATED="1601408465936" ID="ID_1738402418" MODIFIED="1601408476789" TEXT="... by highly restrictive Math statements">
+<node COLOR="#338800" CREATED="1601408529648" ID="ID_649658659" LINK="../../computing/computer_science/04_mathematics/discrete_mathematics_and_its_application/discrete_mathematics_and_its_applications.mm" MODIFIED="1601408652083" TEXT="See propositional statement">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1601408545065" ID="ID_1378197549" MODIFIED="1601408564061" TEXT="Use of combinators">
+<node CREATED="1601408553521" ID="ID_1957949574" MODIFIED="1601408754242" TEXT="and"/>
+<node CREATED="1601408555593" ID="ID_1241709022" MODIFIED="1601408752050" TEXT="or"/>
+<node CREATED="1601408556512" ID="ID_1708707135" MODIFIED="1601408749938" TEXT="not"/>
+<node CREATED="1601408732822" ID="ID_35000513" MODIFIED="1601408747074" TEXT="implies"/>
+<node CREATED="1601408738982" ID="ID_1657259715" MODIFIED="1601408742058" TEXT="for all"/>
+<node CREATED="1601408742908" ID="ID_1312217233" MODIFIED="1601408744546" TEXT="there exists"/>
+</node>
+</node>
 </node>
 </node>
 </node>
