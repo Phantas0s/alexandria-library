@@ -2509,8 +2509,7 @@
       &#160;&#160;counter)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599052500479" ID="ID_1939265368" MODIFIED="1599052515469" TEXT="If we substitue counter in there"/>
 <node CREATED="1599052515857" ID="ID_1856865138" MODIFIED="1599052545653" TEXT="... we end up with that">
@@ -2526,8 +2525,7 @@
       0
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599052549854" ID="ID_1361929464" MODIFIED="1599052554740" TEXT="... which doesn&apos;t make any sense"/>
 </node>
@@ -2576,8 +2574,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599052799102" ID="ID_1390143934" MODIFIED="1599052806178" TEXT="... but let create a new variable"/>
 <node CREATED="1599052806526" ID="ID_1649638238" MODIFIED="1599052810705" TEXT="... each time procedure invoked"/>
@@ -2604,8 +2601,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;result)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2623,8 +2619,7 @@
       (square 7)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599054016597" ID="ID_1046298502" MODIFIED="1599054018968" TEXT="Rules">
 <node CREATED="1599053148291" ID="ID_1347606797" MODIFIED="1599053318734" TEXT="Create a frame ">
@@ -2730,8 +2725,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;glob))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599054219132" ID="ID_329559875" MODIFIED="1599054235725" TEXT="Underlying code">
 <richcontent TYPE="NOTE"><html>
@@ -2782,14 +2776,157 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;No such method&quot; msg)) ))))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1596776413955" ID="ID_1146194539" MODIFIED="1596776428067" POSITION="right" TEXT="Mutable data / Queues / Tables">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>
+<node CREATED="1601393916955" ID="ID_1832455671" MODIFIED="1601393920324" TEXT="Animal game">
+<node CREATED="1601393920635" ID="ID_232585031" MODIFIED="1601393929285" TEXT="Learn about a new animal"/>
+<node CREATED="1601393929939" ID="ID_758415240" MODIFIED="1601394036301" TEXT="Learning program needs modify database at runtime"/>
+</node>
+<node CREATED="1601394046689" ID="ID_838739854" MODIFIED="1601394056749" TEXT="Mutation">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1601394047971" ID="ID_745568157" MODIFIED="1601394053372" TEXT="Changing what&apos;s in a data structure"/>
+<node CREATED="1601394132160" ID="ID_1729059543" MODIFIED="1601394140308" TEXT="set-car!">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1601394137408" ID="ID_744526609" MODIFIED="1601394140834" TEXT="set-cdr!">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1601394183169" ID="ID_398918300" MODIFIED="1601394188732" TEXT="Only purpose of mutation">
+<node CREATED="1601394188888" ID="ID_1563255715" MODIFIED="1601394191333" TEXT="Efficiency"/>
+<node CREATED="1601394201095" ID="ID_1409447857" MODIFIED="1601394206325" TEXT="Saving can be quite substancial">
+<node CREATED="1601394207176" ID="ID_145575754" MODIFIED="1601394211964" TEXT="Space complexity rising"/>
+</node>
+</node>
+<node CREATED="1601394221784" ID="ID_1812804152" MODIFIED="1601398581446" TEXT="Identity">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1601394224584" ID="ID_1920584854" MODIFIED="1601394239508" TEXT="Needs more subtle view of identity"/>
+<node CREATED="1601394245929" ID="ID_585822963" MODIFIED="1601394266732" TEXT="Before, two things equal if look the same"/>
+<node CREATED="1601394275903" ID="ID_497927427" MODIFIED="1601394279731" TEXT="Now, needs to kind of identity">
+<node CREATED="1601394279888" ID="ID_1161679876" MODIFIED="1601394281491" TEXT="Old kind"/>
+<node CREATED="1601394281831" ID="ID_129328328" MODIFIED="1601394285108" TEXT="New one">
+<node CREATED="1601394285431" ID="ID_1998642221" MODIFIED="1601394290443" TEXT="Two things are identical"/>
+<node CREATED="1601394301407" ID="ID_1785639049" MODIFIED="1601394317819" TEXT="... if they are the VERY same thing"/>
+<node CREATED="1601394318151" ID="ID_517147326" MODIFIED="1601394323106" TEXT="... so mutating one mutate the other"/>
+</node>
+</node>
+<node CREATED="1601394326479" ID="ID_308880545" MODIFIED="1601394851691" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1601394329207" ID="ID_1260333725" MODIFIED="1601394870204" TEXT="(define a (list &#x2019;x &#x2019;y &#x2019;z)) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1601394346519" ID="ID_1375054308" MODIFIED="1601394871080" TEXT="(define b (list &#x2019;x &#x2019;y &#x2019;z))  ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1601394877532" ID="ID_1458701828" MODIFIED="1601394883448" TEXT="(define c a)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1601394890068" ID="ID_895428289" MODIFIED="1601394917308" TEXT="(equal? b a) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1601394992635" ID="ID_644558651" MODIFIED="1601394994279" TEXT="#T"/>
+</node>
+<node CREATED="1601394895011" ID="ID_496425911" MODIFIED="1601394917964" TEXT="(eq? b a)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1601394995020" ID="ID_175544490" MODIFIED="1601394997447" TEXT="#F"/>
+</node>
+<node CREATED="1601394905723" ID="ID_1881171439" MODIFIED="1601394918420" TEXT="(equal? c a)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1601394997963" ID="ID_653943732" MODIFIED="1601395000134" TEXT="#T"/>
+</node>
+<node CREATED="1601394913939" ID="ID_1555389446" MODIFIED="1601394918958" TEXT="(eq? c a)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1601395000875" ID="ID_465957910" MODIFIED="1601395002951" TEXT="#T"/>
+</node>
+<node CREATED="1601395022459" ID="ID_148734270" MODIFIED="1601395052126" TEXT="... mutating c will mutate a"/>
+<node CREATED="1601395039106" ID="ID_1717773944" MODIFIED="1601395047374" TEXT="... mutating a will mutate c"/>
+</node>
+<node CREATED="1601397752770" ID="ID_346518264" MODIFIED="1601397757893" TEXT="Don&apos;t mutate quoted list">
+<node CREATED="1601397758146" ID="ID_74825595" MODIFIED="1601397804255" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1601397759482" ID="ID_1072810221" MODIFIED="1601397762310" TEXT="&apos;(1 2 3)"/>
+<node CREATED="1601397762682" ID="ID_1158766138" MODIFIED="1601397791957" TEXT="Scheme randomly use same quoted list"/>
+<node CREATED="1601397768162" ID="ID_1692380281" MODIFIED="1601397771421" TEXT="... to do operations"/>
+</node>
+</node>
+</node>
+<node CREATED="1601397831410" ID="ID_810131598" MODIFIED="1601398582061" TEXT="Tables">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1601397887097" ID="ID_1295303535" MODIFIED="1601398582509" TEXT="Memoization">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-3"/>
+<node CREATED="1601397966432" ID="ID_1245692501" MODIFIED="1601397972060" TEXT="Saving in memory computation"/>
+<node CREATED="1601397972560" ID="ID_526220916" MODIFIED="1601397976237" TEXT="... not to do it twice"/>
+<node CREATED="1601397976618" ID="ID_1708038711" MODIFIED="1601398009022" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1601397977856" ID="ID_86981920" MODIFIED="1601397980788" TEXT="Fibonnaci"/>
+<node CREATED="1601397981630" ID="ID_1917058460" MODIFIED="1601397989701" TEXT="Big theta 2^n without memoization"/>
+</node>
+<node CREATED="1601397991656" ID="ID_1433396184" MODIFIED="1601397996036" TEXT="Can be saved in a table">
+<node CREATED="1601397996264" ID="ID_1086440342" MODIFIED="1601397999308" TEXT="Input as key"/>
+<node CREATED="1601397999811" ID="ID_1917587283" MODIFIED="1601398003852" TEXT="Output as value"/>
+</node>
+</node>
+<node CREATED="1601397961496" ID="ID_1581825522" MODIFIED="1601398580183" TEXT="Vectors">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-4"/>
+<node CREATED="1601398027992" ID="ID_416002170" MODIFIED="1601398035124" TEXT="Problem of list">
+<node CREATED="1601398035275" ID="ID_243778598" MODIFIED="1601398039092" TEXT="Finding the nth element"/>
+<node CREATED="1601398039433" ID="ID_1130458918" MODIFIED="1601398046148" TEXT="Needs to cdr n-1 times">
+<node CREATED="1601398051616" ID="ID_1862076954" MODIFIED="1601398061070" TEXT="Pairs can be anywhere in memory"/>
+<node CREATED="1601398061392" ID="ID_554705057" MODIFIED="1601398065252" TEXT="... so need to follow the pointers"/>
+</node>
+<node CREATED="1601398435822" ID="ID_1579787894" MODIFIED="1601398441297" TEXT="&#x398;(n)"/>
+</node>
+<node CREATED="1601398417254" ID="ID_196153018" MODIFIED="1601398420138" TEXT="Introducing vector">
+<node CREATED="1601398420333" ID="ID_505469768" MODIFIED="1601398423377" TEXT="Same as array"/>
+<node CREATED="1601398424110" ID="ID_204499628" MODIFIED="1601398427962" TEXT="Finding nth element">
+<node CREATED="1601398428510" ID="ID_1297734201" MODIFIED="1601398433184" TEXT="&#x398;(1) "/>
+</node>
+</node>
+<node CREATED="1601398481157" ID="ID_1853133623" MODIFIED="1601398484795" TEXT="Can&apos;t be extended">
+<node CREATED="1601398484990" ID="ID_902172872" MODIFIED="1601398489801" TEXT="Needs to know the length in advance"/>
+</node>
+</node>
+<node CREATED="1601398574873" ID="ID_800721054" MODIFIED="1601398583397" TEXT="Vector programming style ">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1601398616840" ID="ID_1284018544" MODIFIED="1601398732695" TEXT="Strengths and weaknesses">
+<icon BUILTIN="full-6"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1601398723892" ID="ID_443937408" MODIFIED="1601398728688">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="vector_weaknesses.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1601398741619" ID="ID_441336869" MODIFIED="1601398743722" TEXT="Example: Shuffling ">
+<icon BUILTIN="full-7"/>
+</node>
+<node CREATED="1601398876260" ID="ID_1691120751" MODIFIED="1601398881631" TEXT="How it works">
+<icon BUILTIN="full-8"/>
+<node CREATED="1601398890947" ID="ID_561277008" MODIFIED="1601398900584" TEXT="A vector is one contiguous block of memory"/>
+<node CREATED="1601398902695" ID="ID_1207596525" MODIFIED="1601398912590" TEXT="If you know the address of the beginning of the block"/>
+<node CREATED="1601398913279" ID="ID_1636747194" MODIFIED="1601398924071" TEXT="... you can add k to find address of kth element"/>
+<node CREATED="1601398929911" ID="ID_620747595" MODIFIED="1601398934126" TEXT="Downside">
+<node CREATED="1601398934314" ID="ID_395180875" MODIFIED="1601398942830" TEXT="You need to allocated the block all at once"/>
+<node CREATED="1601398948426" ID="ID_455051013" MODIFIED="1601398962630" TEXT="... might create some fragmentation in memory"/>
+</node>
+</node>
 </node>
 <node CREATED="1596776442507" ID="ID_1259181794" MODIFIED="1596776447034" POSITION="right" TEXT="Client/server paradigm, Concurrency">
 <icon BUILTIN="full-1"/>
