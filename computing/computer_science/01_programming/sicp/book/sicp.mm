@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1599750028810" TEXT="SICP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1601399430259" TEXT="SICP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -684,7 +684,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528913874738" FOLDED="true" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
+<node CREATED="1528913874738" ID="ID_674789017" MODIFIED="1587143670699" TEXT="1.2 Procedures and the process they generate">
 <node CREATED="1589458544735" FOLDED="true" ID="ID_653912668" MODIFIED="1589458547948" TEXT="Introduction">
 <node CREATED="1589458548819" ID="ID_86441762" MODIFIED="1589458650910" TEXT="Visualise consequences of actions"/>
 <node CREATED="1589458555794" ID="ID_910828291" MODIFIED="1589458641944" TEXT="... crucial for an expert programmer"/>
@@ -718,7 +718,7 @@
 <node CREATED="1589459086672" ID="ID_1318417739" MODIFIED="1590655506445" TEXT="Very difficult task!"/>
 </node>
 </node>
-<node CREATED="1528913920315" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
+<node CREATED="1528913920315" FOLDED="true" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
 <node CREATED="1528913960322" FOLDED="true" ID="ID_230822821" MODIFIED="1532274721630" TEXT="Recursive process">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -773,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1599746655150" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1601399430284" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1527,8 +1527,7 @@
       &#160;&#160;&#160;&#160;&#160;(* (numer y) (denom x))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590827555730" FOLDED="true" ID="ID_344787197" MODIFIED="1590827564492" TEXT="Needs to glue together">
@@ -6705,8 +6704,7 @@
   <body>
     <img src="queue_example.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -6773,8 +6771,7 @@
   <body>
     <img src="queue_representation.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1599747974808" ID="ID_396602810" MODIFIED="1599749422051" TEXT="Implementation">
@@ -6896,8 +6893,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599749633029" ID="ID_1469487067" MODIFIED="1599749650989" TEXT="insert-queue!">
 <icon BUILTIN="licq"/>
@@ -6909,8 +6905,7 @@
   <body>
     <img src="queue_insert.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1599749432614" ID="ID_1169292666" MODIFIED="1599749648264" TEXT="delete-queue!">
@@ -6923,8 +6918,7 @@
   <body>
     <img src="queue_delete.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -6959,8 +6953,7 @@
   <body>
     <img src="headed_list.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1599750021532" ID="ID_365762416" MODIFIED="1599750025351" TEXT="&quot;dummy&quot; record">
@@ -7012,8 +7005,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (assoc key (cdr records)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1599750173698" ID="ID_1453672159" MODIFIED="1599750179386" TEXT="assoc">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -7050,8 +7042,7 @@
       &#160;&#160;'ok)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599750483031" ID="ID_1392491911" MODIFIED="1599750487204" TEXT="make-table">
 <richcontent TYPE="NOTE"><html>
@@ -7066,8 +7057,7 @@
       (list '*table*))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -7142,8 +7132,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;false)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599750841517" ID="ID_1041684725" LINK="#ID_396139244" MODIFIED="1599750976940" TEXT="insert!">
 <richcontent TYPE="NOTE"><html>
@@ -7194,8 +7183,7 @@
       &#160;&#160;'ok)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -7310,8 +7298,7 @@
       &#160;&#160;&#160;&#160;dispatch))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599750995628" ID="ID_1896433700" LINK="#ID_1843437990" MODIFIED="1599751013340" TEXT="get and put operations">
 <richcontent TYPE="NOTE"><html>
@@ -7332,6 +7319,239 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1601399476911" ID="ID_270472600" MODIFIED="1601399485467" TEXT="3.4 Concurrency: Time Is of the Essence">
+<node CREATED="1601400019604" ID="ID_1913571758" MODIFIED="1601400021576" TEXT="Introduction">
+<node CREATED="1601399521383" ID="ID_675121126" MODIFIED="1601399532757" TEXT="Computation objects with local state are powerful"/>
+<node CREATED="1601399533135" ID="ID_586795052" MODIFIED="1601399535245" TEXT="... but have a price">
+<node CREATED="1601399536511" ID="ID_1510244453" MODIFIED="1601399542563" TEXT="Loss of referential transparency">
+<node CREATED="1601399543895" ID="ID_1666560775" MODIFIED="1601399547818" TEXT="Rising many questions"/>
+<node CREATED="1601399548254" ID="ID_1196730479" MODIFIED="1601399552147" TEXT="... about sameness and changes"/>
+<node CREATED="1601399557855" ID="ID_841003256" MODIFIED="1601399567754" TEXT="... need to abandon substitution model of evaluation"/>
+<node CREATED="1601399568198" ID="ID_1074071407" MODIFIED="1601399576450" TEXT="... for more complex environment model"/>
+</node>
+<node CREATED="1601399589078" ID="ID_1838480738" MODIFIED="1601399650734" TEXT="With change, forced to introduce time"/>
+<node CREATED="1601399646791" ID="ID_1187508035" MODIFIED="1601399648202" TEXT="... in computational models">
+<node CREATED="1601399720895" ID="ID_1803487245" MODIFIED="1601399752209" TEXT="Assignment of statements delineates"/>
+<node CREATED="1601399724688" ID="ID_1175684873" MODIFIED="1601399755897" TEXT="... moments in time"/>
+<node CREATED="1601399762733" ID="ID_448101870" MODIFIED="1601399771825" TEXT="Result of evaluation depends on"/>
+<node CREATED="1601399772462" ID="ID_1768197372" MODIFIED="1601399777442" TEXT="... before or after another evaluation"/>
+</node>
+</node>
+<node CREATED="1601399800477" ID="ID_1944753972" MODIFIED="1601399816481" TEXT="Object in the world change concurrently">
+<node CREATED="1601399817837" ID="ID_832092987" MODIFIED="1601399820113" TEXT="All at once"/>
+</node>
+<node CREATED="1601399828117" ID="ID_1744807185" MODIFIED="1601399833457" TEXT="... natural to model system concurrently too">
+<node CREATED="1601399850978" ID="ID_935832265" MODIFIED="1601399930416" TEXT="Force programmer to avoid"/>
+<node CREATED="1601399925541" ID="ID_232528089" MODIFIED="1601399973241" TEXT="... inessential timing constraints"/>
+<node CREATED="1601399869949" ID="ID_1341268180" MODIFIED="1601399909273" TEXT="... thus makes programs more modular"/>
+<node CREATED="1601399945045" ID="ID_469494285" MODIFIED="1601399949752" TEXT="Can provide speed advantage too"/>
+</node>
+<node CREATED="1601399999820" ID="ID_1130118149" MODIFIED="1601400007146" TEXT="Complexity of assignment rise with concurrency"/>
+</node>
+<node CREATED="1601400018219" ID="ID_976747136" MODIFIED="1601400018912" TEXT="3.4.1 The Nature of Time in Concurrent Systems ">
+<node CREATED="1601400126507" ID="ID_1516627178" MODIFIED="1601400132959" TEXT="On surface, time straightforward">
+<node CREATED="1601400190242" ID="ID_784589939" MODIFIED="1601400194543" TEXT="For two events A and B"/>
+<node CREATED="1601400135091" ID="ID_1719013237" MODIFIED="1601400140272" TEXT="A occurs before B"/>
+<node CREATED="1601400173515" ID="ID_1844084394" MODIFIED="1601400183247" TEXT="A and B are simultaneous"/>
+<node CREATED="1601400183829" ID="ID_416416070" MODIFIED="1601400189687" TEXT="A occurs after B"/>
+</node>
+<node CREATED="1601400221955" ID="ID_327985012" MODIFIED="1601400232174" TEXT="... problems in complex situation">
+<node CREATED="1601400232370" ID="ID_1112642645" MODIFIED="1601400237983" TEXT="Network of bank"/>
+<node CREATED="1601400238371" ID="ID_930783830" MODIFIED="1601400244054" TEXT="... needs to deal with details"/>
+<node CREATED="1601400244395" ID="ID_634668199" MODIFIED="1601400249999" TEXT="... who did what before whom"/>
+<node CREATED="1601400296154" ID="ID_1651530951" MODIFIED="1601400379395" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1601400366826" ID="ID_365746031" MODIFIED="1601400369506">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="concurrency_and_bank.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1601400420571" ID="ID_736668916" MODIFIED="1601400430413" TEXT="Several process share same state variable"/>
+</node>
+<node CREATED="1601400456377" ID="ID_1577606845" MODIFIED="1601400458079" TEXT="Correct behavior of concurrent programs ">
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node CREATED="1601400706504" ID="ID_43160677" MODIFIED="1601400707480" TEXT="3.4.2 Mechanisms for Controlling Concurrency ">
+<node CREATED="1601400715431" ID="ID_1597018654" MODIFIED="1601400721084" TEXT="Difficulty of concurrent processes">
+<node CREATED="1601400721336" ID="ID_707923679" MODIFIED="1601400727051" TEXT="Need to consider the interleaving"/>
+<node CREATED="1601400727896" ID="ID_1377925400" MODIFIED="1601400731555" TEXT="... of order of events"/>
+<node CREATED="1601400731951" ID="ID_1927999520" MODIFIED="1601400735420" TEXT="... in different processes"/>
+<node CREATED="1601400744663" ID="ID_903893204" MODIFIED="1601400790359" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1601400747703" ID="ID_1960846479" MODIFIED="1601400760483" TEXT="Two processes">
+<node CREATED="1601400760647" ID="ID_202802518" MODIFIED="1601400767515" TEXT="First with three ordered events">
+<node CREATED="1601400767736" ID="ID_1148315134" MODIFIED="1601400771139" TEXT="(a, b, c)"/>
+</node>
+<node CREATED="1601400771831" ID="ID_1068237485" MODIFIED="1601400778773" TEXT="Second with three ordered events">
+<node CREATED="1601400779039" ID="ID_1386693114" MODIFIED="1601400785347" TEXT="(x, y, z)"/>
+</node>
+</node>
+<node CREATED="1601400797143" ID="ID_341604796" MODIFIED="1601400808723" TEXT="If two processes run concurrently "/>
+<node CREATED="1601400809857" ID="ID_1870342046" MODIFIED="1601400822580" TEXT="... with no constraints on interleaved execution"/>
+<node CREATED="1601400825718" FOLDED="true" ID="ID_49164343" MODIFIED="1601400839028" TEXT="... 20 different possible ordering">
+<icon BUILTIN="licq"/>
+<node CREATED="1601400845059" ID="ID_299105129" MODIFIED="1601400845059" TEXT="(a,x,b,y,c,z)"/>
+<node CREATED="1601400845059" ID="ID_870969722" MODIFIED="1601400845059" TEXT="(x,a,b,c,y,z)"/>
+<node CREATED="1601400845059" ID="ID_1207744513" MODIFIED="1601400845059" TEXT="(x,a,y,z,b,c)"/>
+<node CREATED="1601400845057" ID="ID_722845271" MODIFIED="1601400845057" TEXT="(a,b,c,x,y,z)"/>
+<node CREATED="1601400845060" ID="ID_1011592786" MODIFIED="1601400845060" TEXT="(a,x,b,y,z,c)"/>
+<node CREATED="1601400845060" ID="ID_11033903" MODIFIED="1601400845060" TEXT="(x,a,b,y,c,z)"/>
+<node CREATED="1601400845060" ID="ID_74171761" MODIFIED="1601400845060" TEXT="(x,y,a,b,c,z)"/>
+<node CREATED="1601400845060" ID="ID_1793164168" MODIFIED="1601400845060" TEXT="(a,b,x,c,y,z)"/>
+<node CREATED="1601400845061" ID="ID_1895987291" MODIFIED="1601400845061" TEXT="(a,x,y,b,c,z)"/>
+<node CREATED="1601400845061" ID="ID_329356666" MODIFIED="1601400845061" TEXT="(x,a,b,y,z,c)"/>
+<node CREATED="1601400845061" ID="ID_339822654" MODIFIED="1601400845061" TEXT="(x,y,a,b,z,c)"/>
+<node CREATED="1601400845060" ID="ID_1711193419" MODIFIED="1601400845060" TEXT="(a,b,x,y,c,z)"/>
+<node CREATED="1601400845062" ID="ID_217451885" MODIFIED="1601400845062" TEXT="(a,x,y,b,z,c)"/>
+<node CREATED="1601400845063" ID="ID_604439956" MODIFIED="1601400845063" TEXT="(x,a,y,b,c,z)"/>
+<node CREATED="1601400845063" ID="ID_987653578" MODIFIED="1601400845063" TEXT="(x,y,a,z,b,c)"/>
+<node CREATED="1601400845062" ID="ID_1784904950" MODIFIED="1601400845062" TEXT="(a,b,x,y,z,c)"/>
+<node CREATED="1601400845064" ID="ID_1163212082" MODIFIED="1601400845064" TEXT="(a,x,y,z,b,c)"/>
+<node CREATED="1601400845064" ID="ID_1599398137" MODIFIED="1601400845064" TEXT="(x,a,y,b,z,c)"/>
+<node CREATED="1601400845064" ID="ID_982953697" MODIFIED="1601400845064" TEXT="(x,y,z,a,b,c)"/>
+<node CREATED="1601400845063" ID="ID_593524526" MODIFIED="1601400845063" TEXT="(a,x,b,c,y,z)"/>
+</node>
+</node>
+</node>
+<node CREATED="1601400888558" ID="ID_51118921" MODIFIED="1601400904746" TEXT="Need to devise general mechanisms "/>
+<node CREATED="1601400905481" ID="ID_1195271105" MODIFIED="1601400906203" TEXT="... to constraint interleaving"/>
+<node CREATED="1601400906639" ID="ID_378938247" MODIFIED="1601400911987" TEXT="... to ensure correctness of program"/>
+<node CREATED="1601400919798" ID="ID_1849360862" MODIFIED="1601400921470" TEXT="Serializing access to shared state ">
+<icon BUILTIN="full-1"/>
+<node CREATED="1601400951116" ID="ID_1472383918" MODIFIED="1601400954010" TEXT="Definition">
+<node CREATED="1601400977790" ID="ID_184140513" MODIFIED="1601400991290" TEXT="Sets of serialized procedure"/>
+<node CREATED="1601400991686" ID="ID_701435090" MODIFIED="1601401040275" TEXT="... where every procedure in a set"/>
+<node CREATED="1601401009942" ID="ID_847177012" MODIFIED="1601401038593" TEXT="... can only be run sequentially"/>
+<node CREATED="1601401042125" ID="ID_1162150613" MODIFIED="1601401059571" TEXT="Not two procedures running concurrently in a set"/>
+</node>
+<node CREATED="1601403469896" ID="ID_1768724394" MODIFIED="1601403477485" TEXT="Can be used to control access to shared variables"/>
+</node>
+<node CREATED="1601403840653" ID="ID_1197496910" MODIFIED="1601403842410" TEXT="Serializers in Scheme ">
+<icon BUILTIN="full-2"/>
+<node CREATED="1601403866428" ID="ID_1083274629" MODIFIED="1601403892397" TEXT="(parallel-execute  &#x27e8;p1 &#x27e9; &#x27e8;p2 &#x27e9; . . . &#x27e8;pk &#x27e9;) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1601403893137" ID="ID_619571956" MODIFIED="1601403940360" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define x 10)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (parallel-execute
+    </p>
+    <p>
+      &#160;&#160;(lambda () (set! x (* x x)))
+    </p>
+    <p>
+      &#160;&#160;(lambda () (set! x (+ x 1))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="wizard"/>
+<node CREATED="1601403947420" ID="ID_486667589" MODIFIED="1601403958152" TEXT="Two concurrent processes P1 and P2"/>
+<node CREATED="1601403973268" ID="ID_1843402991" MODIFIED="1601403977936" TEXT="Adter execution complete"/>
+<node CREATED="1601403978379" ID="ID_1829536425" MODIFIED="1601403989752" TEXT="... x can have five possible values">
+<node CREATED="1601404149403" ID="ID_1385013802" MODIFIED="1601404152767" TEXT="101">
+<node CREATED="1601404175467" ID="ID_1653644790" MODIFIED="1601404211575" TEXT="P1 sets x to 100 and then P2 increments x to 101"/>
+</node>
+<node CREATED="1601404155990" ID="ID_605833885" MODIFIED="1601404167068" TEXT="121">
+<node CREATED="1601404155990" ID="ID_1205599505" MODIFIED="1601404208063" TEXT="P2 increments x to 11 and then P 1 sets x to x * x"/>
+</node>
+<node CREATED="1601404155990" ID="ID_288790536" MODIFIED="1601404165927" TEXT="110">
+<node CREATED="1601404163202" ID="ID_1542704664" MODIFIED="1601404205566" TEXT="P2 changes x from 10 to 11 between the two times that"/>
+<node CREATED="1601404192882" ID="ID_1128851065" MODIFIED="1601404202998" TEXT="P1 accesses the value of x during the evaluation of (* x x)."/>
+</node>
+<node CREATED="1601404155991" ID="ID_548827088" MODIFIED="1601404220598" TEXT="11">
+<node CREATED="1601404220938" ID="ID_165283986" MODIFIED="1601404237103" TEXT="P2 accesses x, then P 1 sets x to 100, then P 2 sets x."/>
+</node>
+<node CREATED="1601404155991" ID="ID_1411499635" MODIFIED="1601404229656" TEXT="100">
+<node CREATED="1601404230067" ID="ID_23531923" MODIFIED="1601404234582" TEXT="P1 accesses x (twice), then P2 sets x to 11, then P1 sets x."/>
+</node>
+</node>
+<node CREATED="1601404001133" ID="ID_3287133" MODIFIED="1601404027228" TEXT="With serializer">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define x 10)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (define s (make-serializer))
+    </p>
+    <p>
+      (parallel-execute
+    </p>
+    <p>
+      &#160;&#160;(s (lambda () (set! x (* x x))))
+    </p>
+    <p>
+      &#160;&#160;(s (lambda () (set! x (+ x 1)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1601404052836" ID="ID_1078429002" MODIFIED="1601404058288" TEXT="Produce only two possible values"/>
+<node CREATED="1601404058643" ID="ID_956295005" MODIFIED="1601404060135" TEXT="... for x">
+<node CREATED="1601404060323" ID="ID_842006787" MODIFIED="1601404064656" TEXT="101 and 121"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1601404507937" ID="ID_1842882032" MODIFIED="1601404509637" TEXT="Complexity of using multiple shared resources ">
+<icon BUILTIN="full-3"/>
+<node CREATED="1601404636745" ID="ID_1845265046" MODIFIED="1601404649851" TEXT="Concurrent programming is very difficult"/>
+<node CREATED="1601404650207" ID="ID_1831365313" MODIFIED="1601404660404" TEXT="... with multiple shared resources"/>
+</node>
+<node CREATED="1601404844278" ID="ID_182349143" MODIFIED="1601404846876" TEXT="Implementing serializers ">
+<icon BUILTIN="full-4"/>
+<node CREATED="1601404850358" ID="ID_312705828" MODIFIED="1601404854802" TEXT="Implement serializer"/>
+<node CREATED="1601404855175" ID="ID_273405463" MODIFIED="1601404863650" TEXT="... with more primitive synchronisation mechanism"/>
+<node CREATED="1601404864014" ID="ID_94716487" MODIFIED="1601404866354" TEXT="... called a mutex">
+<node CREATED="1601404971134" ID="ID_479041384" MODIFIED="1601404978725" TEXT="Mutual exclusion">
+<node CREATED="1601404997462" ID="ID_1195161479" MODIFIED="1601405005593" TEXT="Problem of arranging mechanism"/>
+<node CREATED="1601405006345" ID="ID_473065372" MODIFIED="1601405013906" TEXT="... permitting concurrent process"/>
+<node CREATED="1601405014846" ID="ID_700405058" MODIFIED="1601405018610" TEXT="... to share resource safely"/>
+<node CREATED="1601405018965" ID="ID_193528882" MODIFIED="1601405023945" TEXT="... called mutual exclusion problem"/>
+</node>
+<node CREATED="1601404873350" ID="ID_87468431" MODIFIED="1601404876858" TEXT="Support two operations">
+<node CREATED="1601404891319" ID="ID_1652238511" MODIFIED="1601404909442" TEXT="Mutex acquired">
+<node CREATED="1601404916582" ID="ID_97775136" MODIFIED="1601404923187" TEXT="No other operations"/>
+<node CREATED="1601404923534" ID="ID_384778579" MODIFIED="1601404925978" TEXT="... on the mutex"/>
+<node CREATED="1601404927495" ID="ID_1457645740" MODIFIED="1601404938625" TEXT="... can be proceed"/>
+</node>
+<node CREATED="1601404895680" ID="ID_1255841669" MODIFIED="1601404914905" TEXT="Mutex released">
+<node CREATED="1601404950150" ID="ID_1738798812" MODIFIED="1601404954425" TEXT="Operations on mutex"/>
+<node CREATED="1601404956560" ID="ID_1058545565" MODIFIED="1601404963945" TEXT="... can be proceed again"/>
+</node>
+</node>
+<node CREATED="1601405030869" ID="ID_1319562186" MODIFIED="1601405036593" TEXT="Variant of semaphore"/>
 </node>
 </node>
 </node>

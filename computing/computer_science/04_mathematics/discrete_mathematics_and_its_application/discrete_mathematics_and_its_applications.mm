@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1601287796056" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1601408635033" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2122,7 +2122,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" FOLDED="true" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
@@ -4509,7 +4509,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1574834995735" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
+<node CREATED="1574834995735" FOLDED="true" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
 <icon BUILTIN="full-3"/>
 <node CREATED="1574835164172" ID="ID_1120871976" MODIFIED="1587200115860" TEXT="3.1 Algorithms">
 <node CREATED="1574835186764" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
@@ -5412,7 +5412,7 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1587388497496" ID="ID_136007063" MODIFIED="1587388567445" POSITION="right" TEXT="Induction and Recursion">
+<node CREATED="1587388497496" FOLDED="true" ID="ID_136007063" MODIFIED="1587388567445" POSITION="right" TEXT="Induction and Recursion">
 <icon BUILTIN="full-5"/>
 <node CREATED="1587469753575" FOLDED="true" ID="ID_996166179" MODIFIED="1587472939052" TEXT="Introduction">
 <node CREATED="1587469493576" ID="ID_286076869" MODIFIED="1587469630750" TEXT="Proof using mathematic induction ">
