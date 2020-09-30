@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1601399430259" TEXT="SICP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1601482366755" TEXT="SICP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -718,7 +718,7 @@
 <node CREATED="1589459086672" ID="ID_1318417739" MODIFIED="1590655506445" TEXT="Very difficult task!"/>
 </node>
 </node>
-<node CREATED="1528913920315" FOLDED="true" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
+<node CREATED="1528913920315" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
 <node CREATED="1528913960322" FOLDED="true" ID="ID_230822821" MODIFIED="1532274721630" TEXT="Recursive process">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -773,7 +773,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1601399430284" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1601482366781" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -7374,8 +7374,7 @@
   <body>
     <img src="concurrency_and_bank.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1601400420571" ID="ID_736668916" MODIFIED="1601400430413" TEXT="Several process share same state variable"/>
@@ -7466,8 +7465,7 @@
       &#160;&#160;(lambda () (set! x (+ x 1))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="wizard"/>
 <node CREATED="1601403947420" ID="ID_486667589" MODIFIED="1601403958152" TEXT="Two concurrent processes P1 and P2"/>
@@ -7515,8 +7513,7 @@
       &#160;&#160;(s (lambda () (set! x (+ x 1)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1601404052836" ID="ID_1078429002" MODIFIED="1601404058288" TEXT="Produce only two possible values"/>
 <node CREATED="1601404058643" ID="ID_956295005" MODIFIED="1601404060135" TEXT="... for x">
 <node CREATED="1601404060323" ID="ID_842006787" MODIFIED="1601404064656" TEXT="101 and 121"/>
@@ -7553,6 +7550,212 @@
 </node>
 <node CREATED="1601405030869" ID="ID_1319562186" MODIFIED="1601405036593" TEXT="Variant of semaphore"/>
 </node>
+<node CREATED="1601482470584" ID="ID_248154206" MODIFIED="1601482481851" TEXT="Each serializer has associated mutex">
+<node CREATED="1601482526174" ID="ID_67702664" MODIFIED="1601482535914" TEXT="Serializer returns proceudre"/>
+<node CREATED="1601482536566" ID="ID_1530802435" MODIFIED="1601482540196" TEXT="... when run acquire the mutex"/>
+<node CREATED="1601482540545" ID="ID_1965398028" MODIFIED="1601482546410" TEXT="... when finish release the mutex"/>
+<node CREATED="1601482568718" ID="ID_158236962" MODIFIED="1601482825941" TEXT="Source">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-serializer)
+    </p>
+    <p>
+      &#160;&#160;(let ((mutex (make-mutex)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda (p)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(define (serialized-p . args)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(mutex 'acquire)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(let ((val (apply p args)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(mutex 'release)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;val))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;serialized-p)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1601482826365" ID="ID_1481338095" MODIFIED="1601482829242" TEXT="Mutex">
+<node CREATED="1601482829468" ID="ID_842269872" MODIFIED="1601482831497" TEXT="Mutable object"/>
+<node CREATED="1601482835397" ID="ID_1146156173" MODIFIED="1601482838914" TEXT="Can hold true or false"/>
+<node CREATED="1601482842317" ID="ID_177641637" MODIFIED="1601482845321" TEXT="Value false">
+<node CREATED="1601482845486" ID="ID_1417139841" MODIFIED="1601482851978" TEXT="Mutex can be acquired"/>
+</node>
+<node CREATED="1601482852626" ID="ID_573054741" MODIFIED="1601482854867" TEXT="Value true">
+<node CREATED="1601482855024" ID="ID_1099466847" MODIFIED="1601482858290" TEXT="Mutex acquired"/>
+</node>
+<node CREATED="1601482909070" ID="ID_1741457026" MODIFIED="1601483148843" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-mutex)
+    </p>
+    <p>
+      &#160;&#160;(let ((cell (list false)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(define (the-mutex m)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(cond ((eq? m 'acquire)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if (test-and-set! cell)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(the-mutex 'acquire)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;; retry
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((eq? m 'release) (clear! cell))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;the-mutex))
+    </p>
+    <p>
+      (define (clear! cell) (set-car! cell false))
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1601483149107" ID="ID_798959" MODIFIED="1601483159152" TEXT="test-and-set!">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (test-and-set! cell)
+    </p>
+    <p>
+      &#160;&#160;(if (car cell) true (begin (set-car! cell true) false)))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1601483163058" ID="ID_1975884537" MODIFIED="1601483169478" TEXT="Does not suffice as it is"/>
+<node CREATED="1601483209890" ID="ID_1568135460" MODIFIED="1601483215949" TEXT="Must be performed atomically">
+<node CREATED="1601483219457" ID="ID_1496134856" MODIFIED="1601483241229" TEXT="When cell found false"/>
+<node CREATED="1601483241827" ID="ID_299220691" MODIFIED="1601483278101" TEXT="... must being set to true"/>
+<node CREATED="1601483251644" ID="ID_569290164" MODIFIED="1601483261806" TEXT="... before any process can test the cell"/>
+<node CREATED="1601483306964" ID="ID_311371105" MODIFIED="1601483312333" TEXT="Implementation depends on details"/>
+<node CREATED="1601483312705" ID="ID_664934908" MODIFIED="1601483318500" TEXT="... how system run concurrent process">
+<node CREATED="1601483321265" ID="ID_676076033" MODIFIED="1601483328183" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1601483367248" ID="ID_1647380661" MODIFIED="1601483371662" TEXT="Sequential processor"/>
+<node CREATED="1601483372041" ID="ID_1120240483" MODIFIED="1601483401252" TEXT="... using time slicing mechanisms"/>
+<node CREATED="1601483378874" ID="ID_1193449379" MODIFIED="1601483384244" TEXT="... cycle through process"/>
+<node CREATED="1601483408256" ID="ID_1871507904" MODIFIED="1601483415180" TEXT="... authorizing each process running short time"/>
+<node CREATED="1601483415561" ID="ID_199978869" MODIFIED="1601483420156" TEXT="... before going to another process"/>
+<node CREATED="1601483429684" ID="ID_979475572" MODIFIED="1601483444852" TEXT="In that case, test-and-set! should disable time slicing"/>
+<node CREATED="1601483445241" ID="ID_1802334122" MODIFIED="1601483447108" TEXT="... during test"/>
+<node CREATED="1601483492160" ID="ID_1669625661" MODIFIED="1601483500932" TEXT="Code in MIT scheme">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (test-and-set! cell)
+    </p>
+    <p>
+      &#160;&#160;(without-interrupts
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda ()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(if (car cell)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;true
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(begin (set-car! cell true)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;false)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1601483520920" ID="ID_643194670" MODIFIED="1601483527555" TEXT="Many variants of test-and-set!">
+<node CREATED="1601483534447" ID="ID_1742017518" MODIFIED="1601483536771" TEXT="test-and-set"/>
+<node CREATED="1601483537703" ID="ID_1675049457" MODIFIED="1601483539964" TEXT="test-and-clear"/>
+<node CREATED="1601483543047" ID="ID_1522741140" MODIFIED="1601483544075" TEXT="swap"/>
+<node CREATED="1601483547695" ID="ID_113188413" MODIFIED="1601483548209" TEXT="compare-and-exchange"/>
+<node CREATED="1601483551936" ID="ID_572217262" MODIFIED="1601483552457" TEXT="load-reserve"/>
+<node CREATED="1601483558687" ID="ID_967074774" MODIFIED="1601483559474" TEXT="store-conditional"/>
+</node>
+<node CREATED="1601483575488" ID="ID_927512510" MODIFIED="1601483577858" TEXT="arbiter">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1601483578095" ID="ID_929577844" MODIFIED="1601483583267" TEXT="Decide which process acquire mutex"/>
+<node CREATED="1601483583615" ID="ID_372584131" MODIFIED="1601483587747" TEXT="... if they try at the same time"/>
+<node CREATED="1601483593505" ID="ID_149027020" MODIFIED="1601483598084" TEXT="Often some sort of hardware device"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1601489545937" ID="ID_1279629128" MODIFIED="1601490274952" TEXT="Deadlock">
+<icon BUILTIN="full-5"/>
+<node CREATED="1601489802728" ID="ID_1122447792" MODIFIED="1601489822418" TEXT="Two procedures a1 and a2"/>
+<node CREATED="1601489823088" ID="ID_496396200" MODIFIED="1601489842578" TEXT="a1 is acquired and want to run a2"/>
+<node CREATED="1601489843527" ID="ID_1635193272" MODIFIED="1601489851828" TEXT="a2 is acquired and want to run a1"/>
+<node CREATED="1601489852160" ID="ID_1499578361" MODIFIED="1601489854476" TEXT="... deadlock!"/>
+<node CREATED="1601489891038" ID="ID_1209033895" MODIFIED="1601489900539" TEXT="Solution">
+<node CREATED="1601489900687" ID="ID_586254151" MODIFIED="1601489908107" TEXT="Can remember shared resources"/>
+<node CREATED="1601489908815" ID="ID_830540860" MODIFIED="1601489913491" TEXT="... and acquiring them in order"/>
+<node CREATED="1601490156958" ID="ID_702256683" MODIFIED="1601490164971" TEXT="Sometimes don&apos;t solve problem"/>
+<node CREATED="1601490165342" ID="ID_503855888" MODIFIED="1601490172762" TEXT="... other times deadlock can&apos;t be avoided!">
+<node CREATED="1601490189669" ID="ID_280994601" MODIFIED="1601490196641" TEXT="Data recovery mechanisms"/>
+<node CREATED="1601490197014" ID="ID_657372090" MODIFIED="1601490202858" TEXT="Come back to the state before deadlock"/>
+<node CREATED="1601490203180" ID="ID_326383620" MODIFIED="1601490206068" TEXT="... and try again">
+<node CREATED="1601490206271" ID="ID_489541869" MODIFIED="1601490213233" TEXT="Heavily used in databases"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1601490307459" ID="ID_1089558308" MODIFIED="1601490310058" TEXT="Concurrency, time, and communication ">
+<icon BUILTIN="full-6"/>
+<node CREATED="1601490325491" ID="ID_49810324" MODIFIED="1601490331128" TEXT="From fundamental point of view"/>
+<node CREATED="1601490331453" ID="ID_1579468620" MODIFIED="1601490337135" TEXT="... &quot;shared state&quot; is not clear">
+<node CREATED="1601490399388" ID="ID_1026770495" MODIFIED="1601490408150" TEXT="Memory is not at every point in time"/>
+<node CREATED="1601490408500" ID="ID_881937483" MODIFIED="1601490410944" TEXT="... always consistent"/>
+</node>
+<node CREATED="1601490382772" ID="ID_1278448121" MODIFIED="1601490393160" TEXT="Synchronization problems in large distributed systems"/>
+<node CREATED="1601490436701" ID="ID_356922837" MODIFIED="1601490446296" TEXT="Notion of time in concurrency"/>
+<node CREATED="1601490446603" ID="ID_26749037" MODIFIED="1601490456559" TEXT="... deeply tied to communication"/>
 </node>
 </node>
 </node>
