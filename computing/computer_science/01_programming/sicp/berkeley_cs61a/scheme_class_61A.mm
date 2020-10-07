@@ -1868,9 +1868,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1596776348909" ID="ID_363490088" MODIFIED="1596776353430" POSITION="right" TEXT="Generic Operators">
+<node CREATED="1596776348909" FOLDED="true" ID="ID_363490088" MODIFIED="1596776353430" POSITION="right" TEXT="Generic Operators">
 <icon BUILTIN="full-8"/>
-<node CREATED="1598613412770" ID="ID_1089593122" MODIFIED="1598613424457" TEXT="Introduction">
+<node CREATED="1598613412770" FOLDED="true" ID="ID_1089593122" MODIFIED="1598613424457" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1598613174292" ID="ID_1970175389" MODIFIED="1598613181664" TEXT="Handling complexity of large system">
 <node CREATED="1598613181924" ID="ID_423360699" MODIFIED="1598613186318" TEXT="with many small procedures"/>
@@ -1903,7 +1903,7 @@
 <node CREATED="1598613380050" ID="ID_323007954" MODIFIED="1598613387510" TEXT="Type tag for each type"/>
 </node>
 </node>
-<node CREATED="1598613411002" ID="ID_934539633" MODIFIED="1598613528365" TEXT="Orthogonality of types and operators">
+<node CREATED="1598613411002" FOLDED="true" ID="ID_934539633" MODIFIED="1598613528365" TEXT="Orthogonality of types and operators">
 <icon BUILTIN="full-1"/>
 <node CREATED="1598613387659" ID="ID_1800764232" MODIFIED="1598613514490" TEXT="Code">
 <richcontent TYPE="NOTE"><html>
@@ -2006,7 +2006,7 @@
 <node CREATED="1598613628979" ID="ID_1645428439" MODIFIED="1598613679773" TEXT="Change all operator functions"/>
 </node>
 </node>
-<node CREATED="1598613692593" ID="ID_3323200" MODIFIED="1598614624786" TEXT="Data directed programming">
+<node CREATED="1598613692593" FOLDED="true" ID="ID_3323200" MODIFIED="1598614624786" TEXT="Data directed programming">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1598613701841" ID="ID_343220382" MODIFIED="1598613719348" TEXT="Instead of keeping information with type / operators in functions"/>
@@ -2274,7 +2274,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1598614198509" ID="ID_899525233" MODIFIED="1598614629603" TEXT="Message passing">
+<node CREATED="1598614198509" FOLDED="true" ID="ID_899525233" MODIFIED="1598614629603" TEXT="Message passing">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1598614209188" ID="ID_1875829490" MODIFIED="1598614211137" TEXT="Type is data"/>
@@ -2431,7 +2431,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1598614621834" ID="ID_1932648185" MODIFIED="1599052062885" TEXT="Dyadic operations">
+<node CREATED="1598614621834" FOLDED="true" ID="ID_1932648185" MODIFIED="1599052062885" TEXT="Dyadic operations">
 <icon BUILTIN="full-4"/>
 <node CREATED="1598614883856" ID="ID_304772635" MODIFIED="1598614893220" TEXT="Problems arise with two operands"/>
 <node CREATED="1598614911650" ID="ID_1944416390" MODIFIED="1598614919876" TEXT="What to do if operands are not the same type?">
@@ -2462,7 +2462,7 @@
 <node CREATED="1596776363255" ID="ID_138511818" MODIFIED="1598614498781" POSITION="right" TEXT="Object Oriented Programming">
 <icon BUILTIN="full-9"/>
 </node>
-<node CREATED="1596776394028" ID="ID_1618812532" MODIFIED="1596776405795" POSITION="right" TEXT="Local State Variables / Environments">
+<node CREATED="1596776394028" FOLDED="true" ID="ID_1618812532" MODIFIED="1596776405795" POSITION="right" TEXT="Local State Variables / Environments">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1599052274441" ID="ID_1246556042" MODIFIED="1599052280983" TEXT="Three big ideas of OOP interface">
@@ -2780,7 +2780,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1596776413955" ID="ID_1146194539" MODIFIED="1596776428067" POSITION="right" TEXT="Mutable data / Queues / Tables">
+<node CREATED="1596776413955" FOLDED="true" ID="ID_1146194539" MODIFIED="1596776428067" POSITION="right" TEXT="Mutable data / Queues / Tables">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1601393916955" ID="ID_1832455671" MODIFIED="1601393920324" TEXT="Animal game">
@@ -2910,8 +2910,7 @@
   <body>
     <img src="vector_weaknesses.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1601398741619" ID="ID_441336869" MODIFIED="1601398743722" TEXT="Example: Shuffling ">
@@ -2931,6 +2930,166 @@
 <node CREATED="1596776442507" ID="ID_1259181794" MODIFIED="1596776447034" POSITION="right" TEXT="Client/server paradigm, Concurrency">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
+<node CREATED="1601651104791" FOLDED="true" ID="ID_1539113622" MODIFIED="1601651113773" TEXT="Computers often cooperate together">
+<node CREATED="1601651116198" ID="ID_83713630" MODIFIED="1601651126166" TEXT="For cooperation possible, needs two programs">
+<node CREATED="1601651127095" ID="ID_1772604768" MODIFIED="1601651128518" TEXT="client">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1601651137263" ID="ID_702516747" MODIFIED="1601651140603" TEXT="On your personal computerj"/>
+</node>
+<node CREATED="1601651128863" ID="ID_175424264" MODIFIED="1601651130939" TEXT="server">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1601651141104" ID="ID_919489581" MODIFIED="1601651146332" TEXT="On the remote computer"/>
+</node>
+</node>
+<node CREATED="1601651352676" ID="ID_1994955983" MODIFIED="1601651363210" TEXT="Need a standard document for any client to work for any server"/>
+<node CREATED="1601651363692" ID="ID_1205629933" MODIFIED="1601651387053" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1601651365380" ID="ID_1694821231" MODIFIED="1601651366896" TEXT="Client">
+<node CREATED="1601651367045" ID="ID_1292864903" MODIFIED="1601651368736" TEXT="Browser"/>
+</node>
+<node CREATED="1601651370788" ID="ID_1684290030" MODIFIED="1601651372128" TEXT="Server">
+<node CREATED="1601651372324" ID="ID_1393621827" MODIFIED="1601651382672" TEXT="Web pages"/>
+</node>
+</node>
+</node>
+<node CREATED="1601651508293" FOLDED="true" ID="ID_742294318" MODIFIED="1601651524375" TEXT="Clients / server protocols often opposed to peer to peer">
+<node CREATED="1601651528035" ID="ID_109975939" MODIFIED="1601651532503" TEXT="Client / server protocol">
+<node CREATED="1601651532691" ID="ID_149753592" MODIFIED="1601651535775" TEXT="One server, many client"/>
+</node>
+<node CREATED="1601651536347" ID="ID_791890485" MODIFIED="1601651541776" TEXT="Peer to peer networking">
+<node CREATED="1601651541939" ID="ID_1768750684" MODIFIED="1601651545911" TEXT="Everybody can be server"/>
+<node CREATED="1601651546243" ID="ID_1707107792" MODIFIED="1601651547559" TEXT="... or client"/>
+</node>
+</node>
+<node CREATED="1601651560491" FOLDED="true" ID="ID_1417631512" MODIFIED="1601651562204" TEXT="Internet primitives in STk ">
+<icon BUILTIN="full-1"/>
+<node CREATED="1601651566467" ID="ID_253706479" MODIFIED="1601651573823" TEXT="Scokets">
+<node CREATED="1601651574155" ID="ID_1241203215" MODIFIED="1601651586968" TEXT="Establish link between running application listening on port"/>
+<node CREATED="1601651587851" ID="ID_1661978652" MODIFIED="1601651592094" TEXT="Two way communication"/>
+</node>
+</node>
+<node CREATED="1601651923152" ID="ID_1270025862" MODIFIED="1601651948952" TEXT="Concurrency">
+<icon BUILTIN="full-2"/>
+<node CREATED="1601651941720" ID="ID_1540062805" MODIFIED="1601651951559" TEXT="Parallelism">
+<icon BUILTIN="full-1"/>
+<node CREATED="1601652755409" ID="ID_981178246" MODIFIED="1601652764448" TEXT="Many things become problematic with parallelism"/>
+<node CREATED="1601652765307" ID="ID_939518923" MODIFIED="1601652795729" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1601652767500" ID="ID_1703777059" MODIFIED="1601652774488" TEXT="Multiple processor (hardware) sharing data"/>
+<node CREATED="1601652774961" ID="ID_173730649" MODIFIED="1601652784049" TEXT="Software multithreading (simulated parallelism)"/>
+<node CREATED="1601652784758" ID="ID_1675998524" MODIFIED="1601652792223" TEXT="Operating systems I/O device handlers"/>
+</node>
+<node CREATED="1601652808084" ID="ID_922264739" MODIFIED="1601652811447" TEXT="Scheme expression">
+<node CREATED="1601652811795" ID="ID_802972634" MODIFIED="1601652818379" TEXT="(set! x (+ x 1))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1601652821087" ID="ID_1592300816" MODIFIED="1601660487538" TEXT="Translate into">
+<icon BUILTIN="licq"/>
+<node CREATED="1601660479789" ID="ID_1575314495" MODIFIED="1601660483613">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="sequence_instruction.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1601660505220" ID="ID_488618608" MODIFIED="1601660649634" TEXT="But with concurrency could have this">
+<icon BUILTIN="licq"/>
+<node CREATED="1601660642971" ID="ID_885989349" MODIFIED="1601660645799">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="sequence_concurrent_instruction.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1601660657571" ID="ID_501920928" MODIFIED="1601660663872" TEXT="Critical section">
+<node CREATED="1601660664076" ID="ID_6935532" MODIFIED="1601660677695" TEXT="Section which must not be interrupted"/>
+<node CREATED="1601660678388" ID="ID_202130171" MODIFIED="1601660683175" TEXT="... by a critical process"/>
+<node CREATED="1601660796090" ID="ID_1382345488" MODIFIED="1601660803926" TEXT="... or at least not using the variables from the section"/>
+</node>
+</node>
+<node CREATED="1601660824226" ID="ID_1764877870" MODIFIED="1601660837546" TEXT="Level of Abstraction">
+<icon BUILTIN="full-2"/>
+<node CREATED="1601661122969" ID="ID_1636419673" MODIFIED="1601661182111" TEXT="Concurrency control mechanisms">
+<icon BUILTIN="wizard"/>
+<node CREATED="1601661166336" ID="ID_40815024" MODIFIED="1601661169341">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="abstraction_concurrency.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1601661665157" ID="ID_1450579667" MODIFIED="1601661674560" TEXT="Serializers">
+<icon BUILTIN="full-3"/>
+<node CREATED="1601997487540" ID="ID_647909190" MODIFIED="1601997489494" TEXT="Take a procedure"/>
+<node CREATED="1601997489849" ID="ID_1592160784" MODIFIED="1601997495489" TEXT="Return a new procedure"/>
+<node CREATED="1601997499155" ID="ID_1245401273" MODIFIED="1601997515748" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1601997500378" ID="ID_115961977" MODIFIED="1601997501774" TEXT="proc">
+<node CREATED="1601997501970" ID="ID_1492189973" MODIFIED="1601997506166" TEXT="-&gt; serializer -&gt;">
+<node CREATED="1601997506691" ID="ID_1636938232" MODIFIED="1601997512519" TEXT="protected-proc"/>
+</node>
+</node>
+<node CREATED="1601997831208" ID="ID_1014878211" MODIFIED="1601997850317" TEXT="Another function from same serializer"/>
+<node CREATED="1601997951385" ID="ID_639869492" MODIFIED="1601997962372" TEXT="... can&apos;t run in parallel with the first one"/>
+</node>
+</node>
+<node CREATED="1601997810832" ID="ID_45713325" MODIFIED="1601997812973" TEXT="Programming Considerations ">
+<icon BUILTIN="full-4"/>
+<node CREATED="1602001661709" ID="ID_1564844897" MODIFIED="1602001798995" TEXT="Many things can go wrong"/>
+<node CREATED="1602001676760" ID="ID_223322362" MODIFIED="1602001793583" TEXT="Incorrect results">
+<icon BUILTIN="full-1"/>
+<node CREATED="1602001690495" ID="ID_1009916272" MODIFIED="1602001695708" TEXT="Sequence of writing and reading"/>
+<node CREATED="1602001696120" ID="ID_1487537080" MODIFIED="1602001701050" TEXT="... must be protected"/>
+</node>
+<node CREATED="1602001789847" ID="ID_1726047367" MODIFIED="1602001849099" TEXT="Inefficiency">
+<icon BUILTIN="full-2"/>
+<node CREATED="1602001893365" ID="ID_888905805" MODIFIED="1602001895731" TEXT="More you lock"/>
+<node CREATED="1602001896110" ID="ID_5134633" MODIFIED="1602001922146" TEXT="... less you can do things"/>
+<node CREATED="1602001922941" ID="ID_1454591835" MODIFIED="1602001927194" TEXT="... at the same time"/>
+<node CREATED="1602001935686" ID="ID_923238337" MODIFIED="1602001943147" TEXT="There are two times here">
+<node CREATED="1602001943373" ID="ID_672983692" MODIFIED="1602001945218" TEXT="Parallel">
+<node CREATED="1602001945406" ID="ID_422561716" MODIFIED="1602001950849" TEXT="At the same time"/>
+</node>
+<node CREATED="1602001952014" ID="ID_1768649298" MODIFIED="1602001953946" TEXT="Concurrency">
+<node CREATED="1602001954213" ID="ID_1806994523" MODIFIED="1602001958474" TEXT="Not at the same time"/>
+<node CREATED="1602001958820" ID="ID_823796317" MODIFIED="1602001960833" TEXT="... but close enough"/>
+</node>
+</node>
+</node>
+<node CREATED="1602001965222" ID="ID_774206491" MODIFIED="1602001967535" TEXT="Deadlock">
+<icon BUILTIN="full-3"/>
+<node CREATED="1602002046684" ID="ID_373608879" MODIFIED="1602002057207" TEXT="If A needs B and B needs A"/>
+<node CREATED="1602002058244" ID="ID_1852620783" MODIFIED="1602002065216" TEXT="... A can lock the mutex"/>
+<node CREATED="1602002065894" ID="ID_1651113105" MODIFIED="1602002069440" TEXT="... B can lock the mutex"/>
+<node CREATED="1602002069811" ID="ID_1782166884" MODIFIED="1602002079319" TEXT="... and everything&apos;s blocked"/>
+</node>
+<node CREATED="1602002089091" ID="ID_780229456" MODIFIED="1602002092690" TEXT="Unfairness">
+<icon BUILTIN="full-4"/>
+<node CREATED="1602002143827" ID="ID_679479720" MODIFIED="1602002149256" TEXT="Priority on some threads"/>
+<node CREATED="1602002149699" ID="ID_279009666" MODIFIED="1602002152768" TEXT="... more than others"/>
+</node>
+</node>
+<node CREATED="1602002170218" ID="ID_1804542685" MODIFIED="1602002187753" TEXT="Implementing Serializers ">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1602002254258" ID="ID_271799205" MODIFIED="1602002256145" TEXT="The Mutex ">
+<icon BUILTIN="full-6"/>
+</node>
+</node>
 </node>
 <node CREATED="1596776462931" ID="ID_411695610" MODIFIED="1596776465943" POSITION="right" TEXT="Streams ">
 <icon BUILTIN="full-1"/>

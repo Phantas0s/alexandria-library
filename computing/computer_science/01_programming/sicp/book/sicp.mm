@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1601482366755" TEXT="SICP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1602075722471" TEXT="SICP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -113,8 +113,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1528634386806" FOLDED="true" ID="ID_320155226" MODIFIED="1587143602757" TEXT="1.1 The element of programming">
-<node CREATED="1588765629478" ID="ID_1839200071" MODIFIED="1588765631753" TEXT="Introduction">
+<node CREATED="1528634386806" ID="ID_320155226" MODIFIED="1587143602757" TEXT="1.1 The element of programming">
+<node CREATED="1588765629478" FOLDED="true" ID="ID_1839200071" MODIFIED="1588765631753" TEXT="Introduction">
 <node CREATED="1528634591277" FOLDED="true" ID="ID_541171097" MODIFIED="1528634596209" TEXT="Mechanism of languages">
 <node CREATED="1528634492263" ID="ID_202357326" MODIFIED="1528634497678" TEXT="Primitive expressions">
 <node CREATED="1528634498807" ID="ID_1864067348" MODIFIED="1528634508481" TEXT="Simplest entity the language concerned with"/>
@@ -245,7 +245,7 @@
 <node CREATED="1588766191859" ID="ID_1055703381" MODIFIED="1588766200253" TEXT="Computation can involve many different environements"/>
 </node>
 </node>
-<node CREATED="1528636223778" ID="ID_1555654302" MODIFIED="1549911657625" TEXT="1.1.3 Evaluating combinations">
+<node CREATED="1528636223778" FOLDED="true" ID="ID_1555654302" MODIFIED="1549911657625" TEXT="1.1.3 Evaluating combinations">
 <node CREATED="1528636422631" ID="ID_343358033" MODIFIED="1528636428919" TEXT="Evaluate a combination">
 <node CREATED="1528636432794" ID="ID_1392634115" MODIFIED="1528636451656" TEXT="Evaluate subexpressions of the combination">
 <icon BUILTIN="full-1"/>
@@ -312,7 +312,7 @@
 <node CREATED="1588858197908" ID="ID_235788947" MODIFIED="1588858207138" TEXT="... that can be written in more uniform ways"/>
 </node>
 </node>
-<node CREATED="1528636673800" ID="ID_954289629" MODIFIED="1549911713716" TEXT="1.1.4 Compound procedures">
+<node CREATED="1528636673800" FOLDED="true" ID="ID_954289629" MODIFIED="1549911713716" TEXT="1.1.4 Compound procedures">
 <node CREATED="1528636685290" ID="ID_1138337227" MODIFIED="1528636693700" TEXT="Procedure definitions">
 <node CREATED="1528636693956" ID="ID_1037545618" MODIFIED="1528636700713" TEXT="More powerful way of abstraction"/>
 <node CREATED="1588766959756" ID="ID_1057176309" MODIFIED="1588766967628" TEXT="Example">
@@ -348,8 +348,9 @@
 <node CREATED="1588767240193" ID="ID_275411917" MODIFIED="1588767244989" TEXT="... as primitive procedures"/>
 </node>
 <node CREATED="1528638318714" ID="ID_105103101" MODIFIED="1597482912763" TEXT="1.1.5 The Substitution Model for Procedure Application">
-<node CREATED="1588767542529" ID="ID_23926507" MODIFIED="1588767546443" TEXT="Substitution model">
-<node CREATED="1588767346239" ID="ID_66887807" MODIFIED="1588767347566" TEXT="Example">
+<node CREATED="1588767542529" FOLDED="true" ID="ID_23926507" MODIFIED="1588767546443" TEXT="Substitution model">
+<node CREATED="1588767346239" ID="ID_66887807" MODIFIED="1602075773253" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1588767351034" ID="ID_1668198925" MODIFIED="1588767445661" TEXT="">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
@@ -595,7 +596,7 @@
 </node>
 <node CREATED="1528639224867" ID="ID_826805874" MODIFIED="1528639235679" TEXT="Return when first clause true"/>
 </node>
-<node CREATED="1528737009779" ID="ID_419824407" MODIFIED="1588842318047" TEXT="1.1.7 Example: Square Roots by Newton&#x2019;s Method">
+<node CREATED="1528737009779" FOLDED="true" ID="ID_419824407" MODIFIED="1588842318047" TEXT="1.1.7 Example: Square Roots by Newton&#x2019;s Method">
 <node CREATED="1588842293293" ID="ID_256484034" MODIFIED="1588842298109" TEXT="Main difference between">
 <node CREATED="1588842298110" ID="ID_1074693733" MODIFIED="1588842304614" TEXT="Math functions"/>
 <node CREATED="1588842301185" ID="ID_628209055" MODIFIED="1588842303669" TEXT="Procedures"/>
@@ -616,7 +617,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528831370712" ID="ID_806499112" MODIFIED="1549911846105" TEXT="1.1.8 Procedures as Black-Box Abstractions">
+<node CREATED="1528831370712" FOLDED="true" ID="ID_806499112" MODIFIED="1549911846105" TEXT="1.1.8 Procedures as Black-Box Abstractions">
 <node CREATED="1588843355501" ID="ID_1980503035" MODIFIED="1588843360692" TEXT="Decomposition strategy">
 <node CREATED="1588843360874" ID="ID_1078014645" MODIFIED="1588843369852" TEXT="Not simply dividing program into parts"/>
 <node CREATED="1588843370608" ID="ID_458014008" MODIFIED="1588843392314" TEXT="Each procedures accomplishes identifiable task"/>
@@ -718,7 +719,7 @@
 <node CREATED="1589459086672" ID="ID_1318417739" MODIFIED="1590655506445" TEXT="Very difficult task!"/>
 </node>
 </node>
-<node CREATED="1528913920315" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
+<node CREATED="1528913920315" FOLDED="true" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
 <node CREATED="1528913960322" FOLDED="true" ID="ID_230822821" MODIFIED="1532274721630" TEXT="Recursive process">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -773,7 +774,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1601482366781" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1602075722496" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -830,7 +831,7 @@
 <node CREATED="1528914092761" ID="ID_574997486" MODIFIED="1528914480355" TEXT="linear iterative process "/>
 </node>
 </node>
-<node CREATED="1528914561918" ID="ID_1493851613" MODIFIED="1589460224381" TEXT="Recursive process / recursive procedure">
+<node CREATED="1528914561918" FOLDED="true" ID="ID_1493851613" MODIFIED="1589460224381" TEXT="Recursive process / recursive procedure">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1589460224875" ID="ID_1054182760" MODIFIED="1589460228257" TEXT="Different things!"/>
@@ -842,7 +843,7 @@
 <node CREATED="1589460251142" ID="ID_1937023310" MODIFIED="1589460254192" TEXT="... during execution"/>
 </node>
 </node>
-<node CREATED="1589460294414" ID="ID_892779598" MODIFIED="1590655717880" TEXT="Recursive process in common language">
+<node CREATED="1589460294414" FOLDED="true" ID="ID_892779598" MODIFIED="1590655717880" TEXT="Recursive process in common language">
 <node CREATED="1589460302295" ID="ID_1554905942" MODIFIED="1589460329930" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1589460303938" ID="ID_371485101" MODIFIED="1589460308885" TEXT="Ada / Pascal / C">
@@ -864,7 +865,7 @@
 <node CREATED="1589460398303" ID="ID_243361247" MODIFIED="1589460399008" TEXT="..."/>
 </node>
 </node>
-<node CREATED="1589460419485" ID="ID_795347925" MODIFIED="1590655733785" TEXT="tail-recursive">
+<node CREATED="1589460419485" FOLDED="true" ID="ID_795347925" MODIFIED="1590655733785" TEXT="tail-recursive">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1589460423696" ID="ID_728036822" MODIFIED="1589460426608" TEXT="LISP"/>
 <node CREATED="1589460427075" ID="ID_1790865231" MODIFIED="1589460437635" TEXT="Implementation of recursive procedure"/>
@@ -6926,7 +6927,7 @@
 </node>
 <node CREATED="1599749708213" ID="ID_1882153224" LINK="#ID_1843437990" MODIFIED="1599749740989" TEXT="3.3.3 Representing Tables">
 <node CREATED="1599749854443" ID="ID_1665167314" MODIFIED="1599749858175" TEXT="Two dimensional table"/>
-<node CREATED="1599749939403" ID="ID_534396028" MODIFIED="1599750495218" TEXT="One dimensional table">
+<node CREATED="1599749939403" FOLDED="true" ID="ID_534396028" MODIFIED="1599750495218" TEXT="One dimensional table">
 <icon BUILTIN="full-1"/>
 <node CREATED="1599749913979" ID="ID_183943142" MODIFIED="1599749917476" TEXT="backbone">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -7061,7 +7062,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1599750493359" ID="ID_1478801539" MODIFIED="1599750496043" TEXT="Two-dimensional tables ">
+<node CREATED="1599750493359" FOLDED="true" ID="ID_1478801539" MODIFIED="1599750496043" TEXT="Two-dimensional tables ">
 <icon BUILTIN="full-2"/>
 <node CREATED="1599750514103" ID="ID_217911691" MODIFIED="1599750518779" TEXT="Each value indexed by two keys"/>
 <node CREATED="1599750524135" ID="ID_271124273" MODIFIED="1599750529650" TEXT="One dimension table"/>
@@ -7187,7 +7188,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1599750866907" ID="ID_1011738489" MODIFIED="1599750870169" TEXT="Creating local tables">
+<node CREATED="1599750866907" FOLDED="true" ID="ID_1011738489" MODIFIED="1599750870169" TEXT="Creating local tables">
 <icon BUILTIN="full-3"/>
 <node CREATED="1599750894629" ID="ID_667586238" MODIFIED="1599750898513" TEXT="To use multiple tables">
 <node CREATED="1599750898709" ID="ID_662981033" LINK="#ID_659336183" MODIFIED="1599750965756" TEXT="Selectors or mutators can take table as argument"/>
@@ -7324,7 +7325,7 @@
 </node>
 </node>
 <node CREATED="1601399476911" ID="ID_270472600" MODIFIED="1601399485467" TEXT="3.4 Concurrency: Time Is of the Essence">
-<node CREATED="1601400019604" ID="ID_1913571758" MODIFIED="1601400021576" TEXT="Introduction">
+<node CREATED="1601400019604" FOLDED="true" ID="ID_1913571758" MODIFIED="1601400021576" TEXT="Introduction">
 <node CREATED="1601399521383" ID="ID_675121126" MODIFIED="1601399532757" TEXT="Computation objects with local state are powerful"/>
 <node CREATED="1601399533135" ID="ID_586795052" MODIFIED="1601399535245" TEXT="... but have a price">
 <node CREATED="1601399536511" ID="ID_1510244453" MODIFIED="1601399542563" TEXT="Loss of referential transparency">
@@ -7352,7 +7353,7 @@
 </node>
 <node CREATED="1601399999820" ID="ID_1130118149" MODIFIED="1601400007146" TEXT="Complexity of assignment rise with concurrency"/>
 </node>
-<node CREATED="1601400018219" ID="ID_976747136" MODIFIED="1601400018912" TEXT="3.4.1 The Nature of Time in Concurrent Systems ">
+<node CREATED="1601400018219" FOLDED="true" ID="ID_976747136" MODIFIED="1601400018912" TEXT="3.4.1 The Nature of Time in Concurrent Systems ">
 <node CREATED="1601400126507" ID="ID_1516627178" MODIFIED="1601400132959" TEXT="On surface, time straightforward">
 <node CREATED="1601400190242" ID="ID_784589939" MODIFIED="1601400194543" TEXT="For two events A and B"/>
 <node CREATED="1601400135091" ID="ID_1719013237" MODIFIED="1601400140272" TEXT="A occurs before B"/>
@@ -7383,7 +7384,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node CREATED="1601400706504" ID="ID_43160677" MODIFIED="1601400707480" TEXT="3.4.2 Mechanisms for Controlling Concurrency ">
+<node CREATED="1601400706504" FOLDED="true" ID="ID_43160677" MODIFIED="1601400707480" TEXT="3.4.2 Mechanisms for Controlling Concurrency ">
 <node CREATED="1601400715431" ID="ID_1597018654" MODIFIED="1601400721084" TEXT="Difficulty of concurrent processes">
 <node CREATED="1601400721336" ID="ID_707923679" MODIFIED="1601400727051" TEXT="Need to consider the interleaving"/>
 <node CREATED="1601400727896" ID="ID_1377925400" MODIFIED="1601400731555" TEXT="... of order of events"/>
@@ -7588,8 +7589,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;serialized-p)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1601482826365" ID="ID_1481338095" MODIFIED="1601482829242" TEXT="Mutex">
@@ -7641,8 +7641,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1601483149107" ID="ID_798959" MODIFIED="1601483159152" TEXT="test-and-set!">
 <richcontent TYPE="NOTE"><html>
@@ -7657,8 +7656,7 @@
       &#160;&#160;(if (car cell) true (begin (set-car! cell true) false)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1601483163058" ID="ID_1975884537" MODIFIED="1601483169478" TEXT="Does not suffice as it is"/>
 <node CREATED="1601483209890" ID="ID_1568135460" MODIFIED="1601483215949" TEXT="Must be performed atomically">
@@ -7704,8 +7702,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;false)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -7756,6 +7753,194 @@
 <node CREATED="1601490382772" ID="ID_1278448121" MODIFIED="1601490393160" TEXT="Synchronization problems in large distributed systems"/>
 <node CREATED="1601490436701" ID="ID_356922837" MODIFIED="1601490446296" TEXT="Notion of time in concurrency"/>
 <node CREATED="1601490446603" ID="ID_26749037" MODIFIED="1601490456559" TEXT="... deeply tied to communication"/>
+</node>
+</node>
+</node>
+<node CREATED="1602003772473" ID="ID_1361540176" MODIFIED="1602003775862" TEXT="3.5 Streams">
+<node CREATED="1602004612517" ID="ID_1855850252" MODIFIED="1602004614692" TEXT="Introduction">
+<node CREATED="1602003792944" ID="ID_1689870686" MODIFIED="1602003801436" TEXT="Alternative approach to model state"/>
+<node CREATED="1602003816776" ID="ID_1953235468" MODIFIED="1602003822965" TEXT="Based on data structure">
+<node CREATED="1602003823128" ID="ID_681402183" MODIFIED="1602003824457" TEXT="streams">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1602003876376" ID="ID_556069943" MODIFIED="1602003882163" TEXT="Where complexity comes from?">
+<node CREATED="1602003886985" ID="ID_229584689" MODIFIED="1602003895613" TEXT="Model real-world phenomena">
+<node CREATED="1602003914271" ID="ID_1118628412" MODIFIED="1602003928323" TEXT="Real object with local state">
+<node CREATED="1602003929487" ID="ID_1256816890" MODIFIED="1602004071738" TEXT="... with computational objects "/>
+<node CREATED="1602004072734" ID="ID_1216414877" MODIFIED="1602004080098" TEXT="... and with local variables"/>
+</node>
+<node CREATED="1602004177175" ID="ID_475041032" MODIFIED="1602004183107" TEXT="Real time">
+<node CREATED="1602004183303" ID="ID_1888341258" MODIFIED="1602004185451" TEXT="with computer time"/>
+<node CREATED="1602004205844" ID="ID_1431891068" MODIFIED="1602004211995" TEXT="... can we get read of that?"/>
+</node>
+</node>
+<node CREATED="1602004254654" ID="ID_1045124424" MODIFIED="1602004263298" TEXT="Time measured in discrete steps">
+<node CREATED="1602004439252" ID="ID_1873814381" MODIFIED="1602004445473" TEXT="When function applies to something overtime"/>
+<node CREATED="1602004445861" ID="ID_583601386" MODIFIED="1602004453145" TEXT="... we don&apos;t care of the instant"/>
+<node CREATED="1602004453485" ID="ID_629020877" MODIFIED="1602004455433" TEXT="... but the whole">
+<node CREATED="1602004463501" ID="ID_1266890529" MODIFIED="1602004466497" TEXT="Function doesn&apos;t change!"/>
+</node>
+<node CREATED="1602004455829" ID="ID_361635227" MODIFIED="1602004481281" TEXT="Model time function as (possibly) infinite sequence">
+<node CREATED="1602004488028" ID="ID_187187169" MODIFIED="1602004489801" TEXT="Time history"/>
+<node CREATED="1602004490173" ID="ID_282585489" MODIFIED="1602004493377" TEXT="... of the system modeled"/>
+</node>
+</node>
+<node CREATED="1602004498325" ID="ID_1736637674" MODIFIED="1602004500088" TEXT="Stream">
+<node CREATED="1602004500404" ID="ID_710472316" MODIFIED="1602004506169" TEXT="Simply a sequence"/>
+<node CREATED="1602004522972" ID="ID_217197588" MODIFIED="1602004526617" TEXT="... potentially infinite"/>
+<node CREATED="1602004570340" ID="ID_1321317923" MODIFIED="1602004575616" TEXT="Can model systems with state"/>
+<node CREATED="1602004577492" ID="ID_1204250559" MODIFIED="1602004581488" TEXT="... and without mutable data"/>
+</node>
+</node>
+</node>
+<node CREATED="1602004609715" ID="ID_315957679" MODIFIED="1602004610512" TEXT="3.5.1 Streams Are Delayed Lists ">
+<node CREATED="1602075795625" ID="ID_604185131" MODIFIED="1602075941498" TEXT="Interface sequence for program modules"/>
+<node CREATED="1602075949912" ID="ID_1838342836" MODIFIED="1602076011289" TEXT="Powerful abstractions on sequences">
+<node CREATED="1602075996238" ID="ID_1950035801" MODIFIED="1602076012989" TEXT="filter">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1602075998076" ID="ID_703090556" MODIFIED="1602076013408" TEXT="map">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1602076000710" ID="ID_1041158546" MODIFIED="1602076013848" TEXT="accumulate">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1602076015074" ID="ID_1521068827" MODIFIED="1602076347593" TEXT="Streams">
+<node CREATED="1602076347779" ID="ID_1918743829" MODIFIED="1602076360559" TEXT="Efficiency of incremental computation"/>
+<node CREATED="1602076361462" ID="ID_697906087" MODIFIED="1602076382945" TEXT="... which can manipulate sequences as easily"/>
+</node>
+<node CREATED="1602076390900" ID="ID_1727731133" MODIFIED="1602076428776" TEXT="Stream construct just enough for what the consumer wants"/>
+<node CREATED="1602076580859" ID="ID_1187203080" MODIFIED="1602076597823" TEXT="Interleave construction of a stream with its use">
+<node COLOR="#338800" CREATED="1602076601226" ID="ID_609860941" MODIFIED="1602076617261" TEXT="Condition in a loop?">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node CREATED="1602076647249" ID="ID_1952051597" MODIFIED="1602076651919" TEXT="Interface">
+<node CREATED="1602077082367" ID="ID_1476143896" MODIFIED="1602077197732" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (stream-ref s n)
+    </p>
+    <p>
+      &#160;&#160;(if (= n 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(stream-car s)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(stream-ref (stream-cdr s) (- n 1))))
+    </p>
+    <p>
+      <br />
+      (define (stream-map proc s)
+    </p>
+    <p>
+      &#160;&#160;(if (stream-null? s)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;the-empty-stream
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cons-stream (proc (stream-car s))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(stream-map proc (stream-cdr s)))))
+    </p>
+    <p>
+      <br />
+      (define (stream-for-each proc s)
+    </p>
+    <p>
+      &#160;&#160;(if (stream-null? s)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;'done
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(begin (proc (stream-car s))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(stream-for-each proc (stream-cdr s)))))<br /><br />(define (display-stream s)
+    </p>
+    <p>
+      &#160;&#160;(stream-for-each display-line s))
+    </p>
+    <p>
+      (define (display-line x) (newline) (display x))
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1602076652772" ID="ID_421541865" MODIFIED="1602076669637" TEXT="cons-stream">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1602076657466" ID="ID_1288324437" MODIFIED="1602076670219" TEXT="stream-car">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1602076661356" ID="ID_1161901237" MODIFIED="1602076670771" TEXT="stream-cdr">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1602076683817" ID="ID_1303877369" MODIFIED="1602076685420" TEXT="stream-null?">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1602077226694" ID="ID_809153147" MODIFIED="1602077230753" TEXT="As data abstraction">
+<node CREATED="1602077230877" ID="ID_145898151" MODIFIED="1602077238667" TEXT="Stream is like list"/>
+</node>
+<node CREATED="1602077240846" ID="ID_1859958143" MODIFIED="1602077256250" TEXT="Difference is moment of evaluation">
+<node CREATED="1602077265054" ID="ID_1726178108" MODIFIED="1602077282865" TEXT="cdr constructed at a selection time"/>
+<node CREATED="1602077284110" ID="ID_1869489007" MODIFIED="1602077290225" TEXT="... not at construct time like lists"/>
+</node>
+<node CREATED="1602077297510" ID="ID_444171626" MODIFIED="1602077304498" TEXT="Implementation of stream">
+<node CREATED="1602077304717" ID="ID_432776399" MODIFIED="1602077314920" TEXT="delay &lt;exp&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1602077315477" ID="ID_471609230" MODIFIED="1602077319154" TEXT="Return a delayed object"/>
+</node>
+<node CREATED="1602077326228" ID="ID_1234025395" MODIFIED="1602077329608" TEXT="force &lt;exp&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1602077330166" ID="ID_1302582139" MODIFIED="1602077332873" TEXT="Force the evaluation"/>
+</node>
+</node>
+<node CREATED="1602077342453" ID="ID_758958014" MODIFIED="1602077361408" TEXT="cons-stream equivalence">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1602077348805" ID="ID_466726643" MODIFIED="1602077383854" TEXT="(cons-stream  &#x27e8;a&#x27e9; &#x27e8;b&#x27e9;) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1602077353996" ID="ID_148117759" MODIFIED="1602077384365" TEXT="(cons  &#x27e8;a&#x27e9; (delay &#x27e8;b&#x27e9;)) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1602077384940" ID="ID_1217446844" MODIFIED="1602077394409" TEXT="Promise stored in the cdr">
+<node CREATED="1602077406405" ID="ID_1263927183" MODIFIED="1602077410551" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (stream-car stream) (car stream))
+    </p>
+    <p>
+      (define (stream-cdr stream) (force (cdr stream)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1602077426676" ID="ID_579227534" MODIFIED="1602077434788" TEXT="The stream implementation in action">
+<icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
