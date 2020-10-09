@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1602075722471" TEXT="SICP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1602229562637" TEXT="SICP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -719,7 +719,7 @@
 <node CREATED="1589459086672" ID="ID_1318417739" MODIFIED="1590655506445" TEXT="Very difficult task!"/>
 </node>
 </node>
-<node CREATED="1528913920315" FOLDED="true" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
+<node CREATED="1528913920315" ID="ID_155058315" MODIFIED="1586707142876" TEXT="1.2.1 Linear recursion and Iteration">
 <node CREATED="1528913960322" FOLDED="true" ID="ID_230822821" MODIFIED="1532274721630" TEXT="Recursive process">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -774,7 +774,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1602075722496" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1602229562664" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5213,7 +5213,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597469556288" FOLDED="true" ID="ID_847365467" MODIFIED="1597469558685" TEXT="3.1 Assignment and Local State">
+<node CREATED="1597469556288" ID="ID_847365467" MODIFIED="1597469558685" TEXT="3.1 Assignment and Local State">
 <node CREATED="1597469971961" FOLDED="true" ID="ID_1651660501" MODIFIED="1597469974793" TEXT="Introduction">
 <node CREATED="1597469589065" FOLDED="true" ID="ID_947795939" MODIFIED="1597469596133" TEXT="See the world as objects">
 <node CREATED="1597469596334" ID="ID_660053030" MODIFIED="1597469609186" TEXT="Independent">
@@ -5477,7 +5477,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597483463907" FOLDED="true" ID="ID_1329328227" MODIFIED="1597483563745" TEXT="3.1.2 The Benefits of Introducing Assignment">
+<node CREATED="1597483463907" ID="ID_1329328227" MODIFIED="1597483563745" TEXT="3.1.2 The Benefits of Introducing Assignment">
 <node CREATED="1597484000561" FOLDED="true" ID="ID_1460921658" MODIFIED="1597484010790" TEXT="Monte Carlo implementation">
 <node CREATED="1597484011353" ID="ID_122029682" MODIFIED="1597484037264" TEXT="rand">
 <richcontent TYPE="NOTE"><html>
@@ -7879,8 +7879,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1602076652772" ID="ID_421541865" MODIFIED="1602076669637" TEXT="cons-stream">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -7935,8 +7934,7 @@
       (define (stream-cdr stream) (force (cdr stream)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1602077426676" ID="ID_579227534" MODIFIED="1602077434788" TEXT="The stream implementation in action">
@@ -7998,8 +7996,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;result))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1602096314311" ID="ID_1379893266" MODIFIED="1602096318732" TEXT="Delay implementation">
 <node CREATED="1602096318880" ID="ID_356115301" MODIFIED="1602096319648" TEXT="(memo-proc (lambda ()  &#x27e8;exp&#x27e9;)) ">
@@ -8043,8 +8040,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1602096753350" ID="ID_609709560" MODIFIED="1602096768695" TEXT="Sieve of Eratosthenes">
@@ -8078,8 +8074,7 @@
       (define primes (sieve (integers-starting-from 2)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1602096847611" ID="ID_904827654" MODIFIED="1602096850027" TEXT="Defining streams implicitly ">
@@ -8089,6 +8084,108 @@
 <node CREATED="1602097065866" ID="ID_496327531" MODIFIED="1602097067023" TEXT="3.5.3 Exploiting the Stream Paradigm ">
 <node CREATED="1602097147258" ID="ID_1058729885" MODIFIED="1602097180481" TEXT="Make the system with different module boundaries"/>
 <node CREATED="1602097167867" ID="ID_415252726" MODIFIED="1602097175045" TEXT="... instead of assignments and state variables"/>
+<node CREATED="1602229715132" ID="ID_1118245213" MODIFIED="1602229716925" TEXT="Formulating iterations as stream processes ">
+<icon BUILTIN="full-1"/>
+<node CREATED="1602229721319" ID="ID_1409082523" LINK="#ID_155058315" MODIFIED="1602229738949" TEXT="Iterative process updating state variables"/>
+</node>
+<node CREATED="1602229938003" ID="ID_1552393966" MODIFIED="1602229939873" TEXT="Infinite streams of pairs ">
+<icon BUILTIN="full-2"/>
+<node CREATED="1602230174409" ID="ID_1960445380" MODIFIED="1602230267204" TEXT="Combining infinite stream in pairs"/>
+<node CREATED="1602230179420" ID="ID_892547727" MODIFIED="1602230205275" TEXT="Can&apos;t go through all first stream to add to second"/>
+<node CREATED="1602230207226" ID="ID_1714124963" MODIFIED="1602230224206" TEXT="Need assurance that every element reacherd"/>
+<node CREATED="1602230224617" ID="ID_1591570027" MODIFIED="1602230231510" TEXT="... if we let program run long enough"/>
+<node CREATED="1602230232001" ID="ID_719531246" MODIFIED="1602230241882" TEXT="interleave">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1602230274473" ID="ID_1505046879" MODIFIED="1602230408009" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (interleave s1 s2)
+    </p>
+    <p>
+      &#160;&#160;(if (stream-null? s1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;s2
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cons-stream (stream-car s1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(interleave s2 (stream-cdr s1)))))<br /><br />(define (pairs s t)
+    </p>
+    <p>
+      &#160;&#160;(cons-stream
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(list (stream-car s) (stream-car t))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(interleave
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(stream-map (lambda (x) (list (stream-car s) x))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(stream-cdr t))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(pairs (stream-cdr s) (stream-cdr t)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1602230328970" ID="ID_1419651295" MODIFIED="1602230337829" TEXT="Take element alternatively"/>
+<node CREATED="1602230338674" ID="ID_754168672" MODIFIED="1602230341212" TEXT="... from two streams"/>
+</node>
+<node CREATED="1602230356368" ID="ID_1942227750" MODIFIED="1602230365780" TEXT="Even if first stream infinite"/>
+<node CREATED="1602230366131" ID="ID_1669446835" MODIFIED="1602230371804" TEXT="... the second stream will eventually finish"/>
+</node>
+<node CREATED="1602230408414" ID="ID_938100117" MODIFIED="1602230411395" TEXT="Streams as signals">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1602230551286" ID="ID_1499589118" MODIFIED="1602230552242" TEXT="3.5.4 Streams and Delayed Evaluation "/>
+<node CREATED="1602230527990" ID="ID_1323909340" MODIFIED="1602230533875" TEXT="3.5.5 Modularity of Functional Programs and Modularity of Objects">
+<node CREATED="1602230570887" ID="ID_4268561" LINK="#ID_1329328227" MODIFIED="1602230627505" TEXT="Major benefit of assignment">
+<node CREATED="1602230578351" ID="ID_1034915684" MODIFIED="1602230589410" TEXT="increase modularity of our systems"/>
+<node CREATED="1602230589790" ID="ID_1857606868" MODIFIED="1602230595353" TEXT="... by encapsulating or &quot;hiding&quot;"/>
+<node CREATED="1602230595984" ID="ID_782882863" MODIFIED="1602230599672" TEXT="... parts of the state"/>
+<node CREATED="1602230600321" ID="ID_90742275" MODIFIED="1602230610142" TEXT="... of a large system within local variable"/>
+</node>
+<node CREATED="1602230866350" ID="ID_1567293568" MODIFIED="1602230867904" TEXT="A functional-programming view of time ">
+<icon BUILTIN="full-1"/>
+<node CREATED="1602230898301" ID="ID_1438480691" MODIFIED="1602230912889" TEXT="Represent time explicitly with streams"/>
+<node CREATED="1602231084123" ID="ID_198260382" MODIFIED="1602231090438" TEXT="Time is functional">
+<node CREATED="1602231090870" ID="ID_54542822" MODIFIED="1602231104367" TEXT="When calling stream function"/>
+<node CREATED="1602231104740" ID="ID_1084563378" MODIFIED="1602231108047" TEXT="... result always the same"/>
+<node CREATED="1602231110556" ID="ID_685221817" MODIFIED="1602231112499" TEXT="... but for user"/>
+<node CREATED="1602231112828" ID="ID_1632884789" MODIFIED="1602231116504" TEXT="... states change!"/>
+</node>
+<node CREATED="1602231226737" ID="ID_491072594" MODIFIED="1602231234061" TEXT="User&apos;s temporal existence"/>
+<node CREATED="1602231234426" ID="ID_288047477" MODIFIED="1602231242017" TEXT="... which imposes states on the system"/>
+<node CREATED="1602231245666" ID="ID_782930288" MODIFIED="1602231269669" TEXT="If user would think about stream instead of individual operations"/>
+<node CREATED="1602231254930" ID="ID_515574990" MODIFIED="1602231260995" TEXT="... the system would appear stateless"/>
+<node CREATED="1602231360697" ID="ID_1406574113" MODIFIED="1602231374589" TEXT="Time related models creeping in functional programming too">
+<node CREATED="1602231423032" ID="ID_1776318785" MODIFIED="1602231433468" TEXT="Interactive systems"/>
+<node CREATED="1602231434585" ID="ID_908862406" MODIFIED="1602231444805" TEXT="... modelling interactions between independent entities"/>
+<node CREATED="1602231445136" ID="ID_41757004" MODIFIED="1602231507261" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1602231447328" ID="ID_1731925534" MODIFIED="1602231450603" TEXT="Banking system"/>
+<node CREATED="1602231450944" ID="ID_58531046" MODIFIED="1602231456908" TEXT="... permitting joint bank account"/>
+<node CREATED="1602231462338" ID="ID_1318192460" MODIFIED="1602231467532" TEXT="For streams, there are no objects"/>
+<node CREATED="1602231510879" ID="ID_476856004" MODIFIED="1602231516337" TEXT="... no need interleaving">
+<node CREATED="1602231516519" ID="ID_393428300" MODIFIED="1602231524603" TEXT="But what if first bank account never accessed?"/>
+<node CREATED="1602231527391" ID="ID_1642060814" MODIFIED="1602231533222" TEXT="How to interleave correctly?"/>
+<node CREATED="1602231567727" ID="ID_1439654922" MODIFIED="1602231580555" TEXT="... with perceived real time from users?"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
