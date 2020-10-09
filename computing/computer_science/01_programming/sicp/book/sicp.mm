@@ -7941,7 +7941,154 @@
 </node>
 <node CREATED="1602077426676" ID="ID_579227534" MODIFIED="1602077434788" TEXT="The stream implementation in action">
 <icon BUILTIN="full-1"/>
+<node CREATED="1602095890034" ID="ID_1142215118" MODIFIED="1602095900766" TEXT="Can think as delayed evaluation"/>
+<node CREATED="1602095901468" ID="ID_1052129605" MODIFIED="1602095909598" TEXT="... as &quot;demand-driven&quot;"/>
+<node CREATED="1602095961282" ID="ID_337042948" MODIFIED="1602095966774" TEXT="Only process enough for next stage"/>
+<node CREATED="1602095971882" ID="ID_61765855" MODIFIED="1602095977918" TEXT="Computation happens incrementally"/>
+<node CREATED="1602095978290" ID="ID_1245788107" MODIFIED="1602095989493" TEXT="... even with impression that data exists &quot;all-at-once&quot;"/>
 </node>
+<node CREATED="1602096096497" ID="ID_1210197407" MODIFIED="1602096097967" TEXT="Implementing delay and force ">
+<icon BUILTIN="full-2"/>
+<node CREATED="1602096116401" ID="ID_809542325" MODIFIED="1602096129597" TEXT="Delay return a lambda from an expression">
+<node CREATED="1602096132457" ID="ID_1622044318" MODIFIED="1602096133673" TEXT="(delay  &#x27e8;exp&#x27e9;) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1602096135613" ID="ID_1412713511" MODIFIED="1602096143453" TEXT="... syntactic sugar for">
+<node CREATED="1602096147937" ID="ID_101050518" MODIFIED="1602096149193" TEXT="(lambda ()  &#x27e8;exp&#x27e9;) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1602096169200" ID="ID_1828783254" MODIFIED="1602096173668" TEXT="force only run the lambda">
+<node CREATED="1602096178658" ID="ID_38846723" MODIFIED="1602096180201" TEXT="(define (force delayed-object) (delayed-object))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1602096240744" ID="ID_379172638" MODIFIED="1602096245894" TEXT="Implement memoization for delay">
+<node CREATED="1602096246065" ID="ID_1357037589" MODIFIED="1602096252564" TEXT="Each time procedure run again"/>
+<node CREATED="1602096252944" ID="ID_1113553314" MODIFIED="1602096264324" TEXT="... we get result from memory"/>
+<node CREATED="1602096275816" ID="ID_394967884" MODIFIED="1602096279907" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (memo-proc proc)
+    </p>
+    <p>
+      &#160;&#160;(let ((already-run? false) (result false))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda ()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(if (not already-run?)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(begin (set! result (proc))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(set! already-run? true)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;result)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;result))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1602096314311" ID="ID_1379893266" MODIFIED="1602096318732" TEXT="Delay implementation">
+<node CREATED="1602096318880" ID="ID_356115301" MODIFIED="1602096319648" TEXT="(memo-proc (lambda ()  &#x27e8;exp&#x27e9;)) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1602096377823" ID="ID_294301331" MODIFIED="1602096378407" TEXT="3.5.2 Infinite Streams ">
+<node CREATED="1602096548486" ID="ID_1604845104" MODIFIED="1602096554282" TEXT="Since we compute data on demand"/>
+<node CREATED="1602096554894" ID="ID_687498933" MODIFIED="1602096560482" TEXT="... we can represent infinite streams"/>
+<node CREATED="1602096570222" ID="ID_1760321740" MODIFIED="1602096659515" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1602096571358" ID="ID_951756000" MODIFIED="1602096576243" TEXT="Stream of positive integers">
+<node CREATED="1602096582751" ID="ID_61536663" MODIFIED="1602096963351" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (integers-starting-from n)
+    </p>
+    <p>
+      &#160;&#160;(cons-stream n (integers-starting-from (+ n 1))))
+    </p>
+    <p>
+      (define integers (integers-starting-from 1))<br /><br />(define ones (cons-stream 1 ones))
+    </p>
+    <p>
+      (define (add-streams s1 s2) (stream-map + s1 s2))
+    </p>
+    <p>
+      (define integers
+    </p>
+    <p>
+      &#160;&#160;(cons-stream 1 (add-streams ones integers)))
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1602096753350" ID="ID_609709560" MODIFIED="1602096768695" TEXT="Sieve of Eratosthenes">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (sieve stream)
+    </p>
+    <p>
+      &#160;&#160;(cons-stream
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(stream-car stream)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(sieve (stream-filter
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda (x)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(not (divisible? x (stream-car stream))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(stream-cdr stream)))))
+    </p>
+    <p>
+      (define primes (sieve (integers-starting-from 2)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1602096847611" ID="ID_904827654" MODIFIED="1602096850027" TEXT="Defining streams implicitly ">
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node CREATED="1602097065866" ID="ID_496327531" MODIFIED="1602097067023" TEXT="3.5.3 Exploiting the Stream Paradigm ">
+<node CREATED="1602097147258" ID="ID_1058729885" MODIFIED="1602097180481" TEXT="Make the system with different module boundaries"/>
+<node CREATED="1602097167867" ID="ID_415252726" MODIFIED="1602097175045" TEXT="... instead of assignments and state variables"/>
 </node>
 </node>
 </node>
