@@ -1,24 +1,25 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1597935041449" ID="ID_1080168551" LINK="https://www.youtube.com/watch?v=Pg3UeB-5FdA" MODIFIED="1597935077401" TEXT="Programming Across Paradigms">
-<node CREATED="1597937020182" ID="ID_1947702374" MODIFIED="1597937095997" POSITION="right" TEXT="Resources">
+<node CREATED="1597937020182" FOLDED="true" ID="ID_1947702374" MODIFIED="1597937095997" POSITION="right" TEXT="Resources">
 <icon BUILTIN="full-0"/>
 <node CREATED="1597937034624" ID="ID_470019590" LINK="paradigms_diagrams.pdf" MODIFIED="1597937053308" TEXT="Paradigm diagram"/>
 <node CREATED="1597937063854" ID="ID_1232608352" LINK="programming_across_paradigms.pdf" MODIFIED="1597937067880" TEXT="Slides"/>
 </node>
-<node CREATED="1597935276707" FOLDED="true" ID="ID_789680161" MODIFIED="1597937087218" POSITION="right" TEXT="1978 Robert Floyd paper">
+<node CREATED="1597935276707" ID="ID_789680161" MODIFIED="1597937087218" POSITION="right" TEXT="1978 Robert Floyd paper">
 <icon BUILTIN="full-1"/>
 <node CREATED="1597935288906" ID="ID_414388364" MODIFIED="1597935296182" TEXT="Robert Floyd Turing Award"/>
 <node CREATED="1597935296587" ID="ID_1323060932" MODIFIED="1597935321359" TEXT="Paper which brought paradigm in programming">
 <node CREATED="1597935336507" ID="ID_1838006370" MODIFIED="1597935337622" TEXT="Pattern"/>
 </node>
 </node>
-<node CREATED="1597935354507" FOLDED="true" ID="ID_1079161645" MODIFIED="1597937093644" POSITION="right" TEXT="What is a paradigm?">
+<node CREATED="1597935354507" ID="ID_1079161645" MODIFIED="1597937093644" POSITION="right" TEXT="What is a paradigm?">
 <icon BUILTIN="full-2"/>
 <node CREATED="1597935384971" ID="ID_1292432273" MODIFIED="1597935394550" TEXT="The structure of scientific revolutions">
 <node CREATED="1597935394938" ID="ID_1474264756" MODIFIED="1597935397782" TEXT="Thomas Kuhn"/>
 <node CREATED="1597935398446" ID="ID_1914858889" MODIFIED="1597935404405" TEXT="How science made progress?"/>
 <node CREATED="1597935429377" ID="ID_1480842684" MODIFIED="1597935433813" TEXT="Centered around paradigm"/>
+</node>
 <node CREATED="1597935412385" ID="ID_968264688" MODIFIED="1597935419182" TEXT="Paradigm is a worldview">
 <node CREATED="1597935437994" ID="ID_925815384" MODIFIED="1597935474015" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -41,9 +42,8 @@
 <node CREATED="1597935536497" ID="ID_1921078680" MODIFIED="1597935538933" TEXT="... together mixed"/>
 </node>
 <node CREATED="1597935633644" ID="ID_1072081690" MODIFIED="1597935884242" TEXT="Paradigm is a model">
-<node CREATED="1597935635472" ID="ID_1859529957" MODIFIED="1597935648181" TEXT="&quot;All models are wrong&quot;">
 <node CREATED="1597935638688" ID="ID_120174360" MODIFIED="1597935642483" TEXT="George E. P. Box"/>
-</node>
+<node CREATED="1597935635472" ID="ID_1859529957" MODIFIED="1597935648181" TEXT="&quot;All models are wrong&quot;"/>
 </node>
 <node CREATED="1597935655008" ID="ID_16370281" MODIFIED="1597935658804" TEXT="Paradigm shift">
 <node CREATED="1597935659304" FOLDED="true" ID="ID_468394054" MODIFIED="1597935809210" TEXT="Paradigm shift">
@@ -84,7 +84,6 @@
 </node>
 </node>
 <node CREATED="1597935945453" ID="ID_1732539280" MODIFIED="1597935991737" TEXT="... come back to 1"/>
-</node>
 </node>
 </node>
 <node CREATED="1597936017566" FOLDED="true" ID="ID_557768300" MODIFIED="1597937110647" POSITION="right" TEXT="What are some major paradigms?">
@@ -186,7 +185,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597937144317" ID="ID_593857813" MODIFIED="1597937152866" POSITION="right" TEXT="What do they have in common?">
+<node CREATED="1597937144317" FOLDED="true" ID="ID_593857813" MODIFIED="1597937152866" POSITION="left" TEXT="What do they have in common?">
 <icon BUILTIN="full-4"/>
 <node CREATED="1597937196808" ID="ID_1121693894" MODIFIED="1597937199737" TEXT="OOP / FP">
 <node CREATED="1597937199893" ID="ID_1515731564" MODIFIED="1597937205275" TEXT="Reject shared mutable shared"/>
@@ -207,8 +206,7 @@
   <body>
     <img src="oop.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -217,7 +215,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597937595410" ID="ID_1896649351" MODIFIED="1597938112803" POSITION="right" TEXT="Which paradigm is the best">
+<node CREATED="1597937595410" FOLDED="true" ID="ID_1896649351" MODIFIED="1597938112803" POSITION="left" TEXT="Which paradigm is the best">
 <icon BUILTIN="full-5"/>
 <node CREATED="1597937612226" ID="ID_588787543" MODIFIED="1597937617837" TEXT="&quot;All models are wrong..."/>
 <node CREATED="1597937619019" ID="ID_1941146367" MODIFIED="1597937625070" TEXT="... but some are useful&quot;">
@@ -233,7 +231,7 @@
 <node CREATED="1597937873392" ID="ID_1560923558" MODIFIED="1597937876323" TEXT="George Box"/>
 </node>
 </node>
-<node CREATED="1597938097404" ID="ID_981973627" MODIFIED="1597938114295" POSITION="right" TEXT="What can a paradigm teach us">
+<node CREATED="1597938097404" FOLDED="true" ID="ID_981973627" MODIFIED="1597938114295" POSITION="left" TEXT="What can a paradigm teach us">
 <icon BUILTIN="full-6"/>
 <node CREATED="1597938114686" ID="ID_1466534595" MODIFIED="1597938122450" TEXT="Imperative programming">
 <node CREATED="1597938122622" ID="ID_1176530980" MODIFIED="1597938124322" TEXT="Be explicit"/>
@@ -266,13 +264,12 @@
   <body>
     <img src="oop_vs_fp.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1597938735651" ID="ID_1398243023" MODIFIED="1597938750512" POSITION="right" TEXT="Each paradigm is the best for a certain case">
+<node CREATED="1597938735651" FOLDED="true" ID="ID_1398243023" MODIFIED="1597938750512" POSITION="left" TEXT="Each paradigm is the best for a certain case">
 <icon BUILTIN="full-7"/>
 <node CREATED="1597938804202" ID="ID_827991844" MODIFIED="1597938819057" TEXT="We should advance our worldview"/>
 <node CREATED="1597938819642" ID="ID_722950559" MODIFIED="1597938821470" TEXT="...  by creating new paradigms"/>
@@ -281,7 +278,7 @@
 <node CREATED="1597938852449" ID="ID_524817975" MODIFIED="1597938855869" TEXT="Learn new paradigm"/>
 <node CREATED="1597938856498" ID="ID_1223036205" MODIFIED="1597938862549" TEXT="Try multi-paradigm languages"/>
 </node>
-<node CREATED="1597938913240" ID="ID_1723326666" MODIFIED="1597938921576" POSITION="right" TEXT="What&apos;s the point?">
+<node CREATED="1597938913240" FOLDED="true" ID="ID_1723326666" MODIFIED="1597938921576" POSITION="left" TEXT="What&apos;s the point?">
 <icon BUILTIN="full-8"/>
 <node CREATED="1597938921944" ID="ID_487060443" MODIFIED="1597938925885" TEXT="Paradigms enable programming"/>
 <node CREATED="1597938957560" ID="ID_897019647" MODIFIED="1597938965317" TEXT="What type of problem solve each paradigm?"/>
