@@ -603,7 +603,126 @@
 <node CREATED="1603298398006" ID="ID_413283957" MODIFIED="1603372812431" TEXT="Representation of S-Functions by S-Expressions">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-5"/>
+<node CREATED="1603609259908" ID="ID_252502268" MODIFIED="1603609266008" TEXT="Transformation from M-expression"/>
+<node CREATED="1603609266700" ID="ID_526087272" MODIFIED="1603609269484" TEXT="... to S-expression"/>
+<node CREATED="1603609270271" ID="ID_1214501776" MODIFIED="1603609271398" TEXT="Example">
+<node CREATED="1603609278608" ID="ID_1880316948" MODIFIED="1603609286068" TEXT="label [subst; &#x3bb; [[x; y; z]; [atom [z] &#x2192; [eq [y; z] &#x2192; x; T &#x2192; z]; T &#x2192; cons [subst [x; y; car [z]]; subst [x; y; cdr [z]]]]]">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1603609282950" ID="ID_762154408" MODIFIED="1603609284614" TEXT="(LABEL, SUBST, (LAMBDA, (X, Y, Z), (COND ((ATOM, Z), (COND, (EQ, Y, Z), X), ((QUOTE, T), Z))), ((QUOTE, T), (CONS, (SUBST, X, Y, (CAR Z)), (SUBST, X, Y, (CDR, Z))))))) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#338800" CREATED="1603609287721" ID="ID_761053571" MODIFIED="1603609313307" TEXT="... label is define in Lisp implementation">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+</node>
+<node CREATED="1603609719012" ID="ID_1967346251" MODIFIED="1603609722724" TEXT="The Universal S-Function apply.">
+<icon BUILTIN="full-6"/>
+<node CREATED="1603609543397" ID="ID_297102436" MODIFIED="1603609600966" TEXT="Apply">
+<icon BUILTIN="full-1"/>
+<node CREATED="1603609552902" ID="ID_1035471755" MODIFIED="1603609559250" TEXT="Expression representing value of function"/>
+<node CREATED="1603609560145" ID="ID_1828998432" MODIFIED="1603609563434" TEXT="... applied to the arguments"/>
+<node CREATED="1603609565927" ID="ID_928073978" MODIFIED="1603609575698" TEXT="... then evaluate expression onto function eval"/>
+</node>
+<node CREATED="1603609584293" ID="ID_1565027639" MODIFIED="1603609601834" TEXT="Eval">
+<icon BUILTIN="full-2"/>
+<node CREATED="1603609785571" ID="ID_373781985" MODIFIED="1603609788160" TEXT="Two arguments">
+<node CREATED="1603609788572" ID="ID_1920687106" MODIFIED="1603609794440" TEXT="Expression to be evaluated"/>
+<node CREATED="1603609790884" ID="ID_1263563274" MODIFIED="1603609798960" TEXT="List of pairs"/>
+<node CREATED="1603609801595" ID="ID_1940898340" MODIFIED="1603609819032" TEXT="Item of each pair">
+<node CREATED="1603609819452" ID="ID_387406006" MODIFIED="1603609820368" TEXT="First">
+<node CREATED="1603609806676" ID="ID_1753836087" MODIFIED="1603609809584" TEXT="atomic symbol"/>
+</node>
+<node CREATED="1603609829251" ID="ID_203494550" MODIFIED="1603609830775" TEXT="Second">
+<node CREATED="1603609830972" ID="ID_21097385" MODIFIED="1603609838007" TEXT="expression for which the symbol stands"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1603609695788" ID="ID_72276958" MODIFIED="1603609726917" TEXT="Functions with Functions as Arguments">
+<icon BUILTIN="full-7"/>
+<node CREATED="1603609916650" ID="ID_1680914367" MODIFIED="1603609926900" TEXT="Quote">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      There are a number of useful functions some of whose arguments are functions. They are especially useful in defining other functions.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1603609930841" ID="ID_522834392" MODIFIED="1603610097974" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1603610091040" ID="ID_141932187" MODIFIED="1603610091647" TEXT="maplist[x; f ] = [null[x] &#x2192; NIL; T &#x2192; cons[f [x]; maplist[cdr[x]; f ]]] "/>
+</node>
+</node>
+</node>
+<node CREATED="1603610135048" ID="ID_297622817" MODIFIED="1603610204543" POSITION="right" TEXT="The LISP Programming System">
+<icon BUILTIN="full-4"/>
+<node CREATED="1603610212808" ID="ID_858042389" MODIFIED="1603610213828" TEXT="Goal">
+<node CREATED="1603610214240" ID="ID_1168121656" MODIFIED="1603610217533" TEXT="Writing a compiler to compile LISP programs into machine language. ">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1603610221840" ID="ID_1890918231" MODIFIED="1603610225044" TEXT="Writing a program to check proofs in a class of formal logical systems">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1603610230687" ID="ID_157578227" MODIFIED="1603610232760" TEXT="Writing programs for formal differentiation and integration">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1603610239488" ID="ID_796404617" MODIFIED="1603610241431" TEXT="Writing programs to realize various algorithms for generating proofs in predicate calculus">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1603610247456" ID="ID_882848179" MODIFIED="1603610249151" TEXT="Making certain engineering calculations whose results are formulas rather than numbers">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1603610254734" ID="ID_1822488591" MODIFIED="1603610257811" TEXT="Programming the Advice Taker system">
+<icon BUILTIN="full-6"/>
+</node>
+</node>
+<node CREATED="1603610278964" ID="ID_1520686018" MODIFIED="1603610282691" TEXT="Representation of S-Expressions by List Structure">
+<icon BUILTIN="full-1"/>
+<node CREATED="1603610288587" ID="ID_433083831" MODIFIED="1603610290883" TEXT="List structure">
+<node CREATED="1603610291120" ID="ID_971643428" MODIFIED="1603610294339" TEXT="Collection of computer words"/>
+</node>
+<node CREATED="1603610359670" ID="ID_598012872" MODIFIED="1603610363851" TEXT="Box and pointer diagrams"/>
+<node CREATED="1603610382824" ID="ID_1443614316" MODIFIED="1603610385531" TEXT="&quot;... while the last word has NIL in its decrement&quot;"/>
+<node CREATED="1603610456358" ID="ID_1589633467" MODIFIED="1603610460362" TEXT="Advantage of list structures">
+<node CREATED="1603610462501" ID="ID_378830143" MODIFIED="1603610479544" TEXT="Size and number of expressions can&apos;t be predicted">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1603610484166" ID="ID_205241553" MODIFIED="1603610493286" TEXT="Registers can be put back in free storage when not needed anymore">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1603610506238" ID="ID_161158815" MODIFIED="1603610524437" TEXT="Expression occurin as a subexpression must be represented in storage once">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+</node>
+<node CREATED="1603610534565" ID="ID_793938308" MODIFIED="1603610537506" TEXT="Association Lists">
+<icon BUILTIN="full-2"/>
+<node CREATED="1603610537901" ID="ID_168015670" MODIFIED="1603610542041" TEXT="Called later property lists"/>
+</node>
+<node CREATED="1603610572084" ID="ID_1800181979" MODIFIED="1603610574612" TEXT="Free-Storage List">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1603610656829" ID="ID_1170089666" MODIFIED="1603610661531" TEXT="Elementary S-Functions in the Computer">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1603610730740" ID="ID_903869121" MODIFIED="1603610733410" TEXT="Representation of S-Functions by Programs">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1603610786011" ID="ID_1596838143" MODIFIED="1603610788042" TEXT="Status of the LISP Programming System (February 1960)">
+<icon BUILTIN="full-6"/>
+</node>
+</node>
+<node CREATED="1603610848234" ID="ID_72226586" MODIFIED="1603610859287" POSITION="right" TEXT="Another Formalism for Functions of Symbolic Expressions ">
+<icon BUILTIN="full-5"/>
 </node>
 </node>
 </map>
