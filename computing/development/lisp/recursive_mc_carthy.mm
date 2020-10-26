@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1603285194666" ID="ID_1463248747" MODIFIED="1603285208681" TEXT="Recursive Functions of Symbolic Expression">
-<node CREATED="1603285244893" FOLDED="true" ID="ID_1717021881" MODIFIED="1603285251003" POSITION="right" TEXT="Introduction">
+<node CREATED="1603285244893" ID="ID_1717021881" MODIFIED="1603285251003" POSITION="right" TEXT="Introduction">
 <icon BUILTIN="full-1"/>
 <node CREATED="1603285260749" ID="ID_1628880088" MODIFIED="1603285275146" TEXT="Programming system LISP"/>
 <node CREATED="1603285282421" ID="ID_766235890" MODIFIED="1603285302943" TEXT="... developed for IBM 704"/>
@@ -255,7 +255,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1603288695582" FOLDED="true" ID="ID_1023534601" MODIFIED="1603288934755" POSITION="right" TEXT="Functions and functions definitions">
+<node CREATED="1603288695582" ID="ID_1023534601" MODIFIED="1603288934755" POSITION="right" TEXT="Functions and functions definitions">
 <icon BUILTIN="full-2"/>
 <node CREATED="1603288702070" ID="ID_358820486" MODIFIED="1603288716474" TEXT="&quot;Notion of conditional expressions is believed to be new&quot;">
 <node CREATED="1603290098003" ID="ID_1916412156" MODIFIED="1603290106647" TEXT="Use of conditional expression"/>
@@ -320,6 +320,7 @@
 <node CREATED="1603292867593" ID="ID_122468621" MODIFIED="1603292880973" TEXT="Determine correspondence"/>
 <node CREATED="1603292881309" ID="ID_839675016" MODIFIED="1603292895541" TEXT="... between variables occurring in the form"/>
 <node CREATED="1603292961073" ID="ID_1868474152" MODIFIED="1603292971180" TEXT="... and the ordered list of arguments of desired function"/>
+<node CREATED="1603641944646" ID="ID_1341567443" MODIFIED="1603641944646" TEXT=""/>
 </node>
 <node CREATED="1603293033976" ID="ID_755449901" MODIFIED="1603293035868" TEXT="&quot;substituting the arguments&quot;">
 <node CREATED="1603293050808" ID="ID_1813131202" MODIFIED="1603293061830" TEXT="Examples">
@@ -352,8 +353,9 @@
 </node>
 <node CREATED="1603293406202" ID="ID_1535315188" MODIFIED="1603293414229" TEXT="Expression for Recursive Functions">
 <icon BUILTIN="full-6"/>
-<node COLOR="#338800" CREATED="1603291711824" ID="ID_329025800" MODIFIED="1603291761944" TEXT="Don&apos;t understand everything here">
+<node COLOR="#338800" CREATED="1603291711824" ID="ID_329025800" MODIFIED="1603640712670" TEXT="Don&apos;t understand everything here">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
 </node>
 </node>
 </node>
@@ -373,7 +375,7 @@
 </node>
 <node CREATED="1603293876490" ID="ID_228404867" MODIFIED="1603293882463" TEXT="... an extensive class of functions"/>
 </node>
-<node CREATED="1603293905793" FOLDED="true" ID="ID_1882635841" MODIFIED="1603293907379" TEXT="A Class of Symbolic Expressions">
+<node CREATED="1603293905793" ID="ID_1882635841" MODIFIED="1603293907379" TEXT="A Class of Symbolic Expressions">
 <icon BUILTIN="full-1"/>
 <node CREATED="1603293928177" ID="ID_707963619" MODIFIED="1603293933934" TEXT="Definition of the S-expression">
 <node CREATED="1603293935601" ID="ID_780283313" MODIFIED="1603293939981" TEXT="S for symbolic"/>
@@ -464,25 +466,20 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1603297162614" FOLDED="true" ID="ID_1092722408" MODIFIED="1603297164606" TEXT="The Elementary S-functions and Predicates.">
+<node CREATED="1603297162614" ID="ID_1092722408" MODIFIED="1603297164606" TEXT="The Elementary S-functions and Predicates.">
 <icon BUILTIN="full-3"/>
-<node CREATED="1603297486859" ID="ID_257111772" MODIFIED="1603297493796" TEXT="Composition of car and cdr">
+<node CREATED="1603297486859" ID="ID_257111772" MODIFIED="1603645300036" TEXT="Composition of car and cdr">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Composi-
-    </p>
-    <p>
-      tions of car and cdr give the subexpressions of a given expression in a given
-    </p>
-    <p>
-      position
+      Compositions of car and cdr give the subexpressions of a given expression in a given position
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1603297538395" ID="ID_359532308" MODIFIED="1603297544927" TEXT="Composition of cons">
 <richcontent TYPE="NOTE"><html>
@@ -497,7 +494,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1603297554211" FOLDED="true" ID="ID_1225132002" MODIFIED="1603297556363" TEXT="Recursive S-functions.">
+<node CREATED="1603297554211" ID="ID_1225132002" MODIFIED="1603297556363" TEXT="Recursive S-functions.">
 <icon BUILTIN="full-4"/>
 <node CREATED="1603297572822" ID="ID_812483943" MODIFIED="1603297580503" TEXT="All computable functions available"/>
 <node CREATED="1603297581377" ID="ID_1794157539" MODIFIED="1603297585672" TEXT="... only using">
@@ -582,7 +579,8 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1603298269790" ID="ID_463306242" MODIFIED="1603298270510" TEXT="assoc [x;y]">
+<node CREATED="1603298269790" ID="ID_463306242" MODIFIED="1603698572313" TEXT="assoc [x;y]">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1603298273734" ID="ID_1950771599" MODIFIED="1603298275718" TEXT="assoc[x; y] = eq[caar[y]; x] &#x2192; cadar[y]; T &#x2192; assoc[x; cdr[y]]] ">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -593,7 +591,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1603298353197" ID="ID_1576577367" MODIFIED="1603298353917" TEXT="sublis[x; y]"/>
+<node CREATED="1603298353197" ID="ID_1576577367" MODIFIED="1603698574615" TEXT="sublis[x; y]">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node COLOR="#338800" CREATED="1603298442045" ID="ID_1834121800" MODIFIED="1603298451941" TEXT="Why is it recursive?">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -605,7 +605,8 @@
 <icon BUILTIN="full-5"/>
 <node CREATED="1603609259908" ID="ID_252502268" MODIFIED="1603609266008" TEXT="Transformation from M-expression"/>
 <node CREATED="1603609266700" ID="ID_526087272" MODIFIED="1603609269484" TEXT="... to S-expression"/>
-<node CREATED="1603609270271" ID="ID_1214501776" MODIFIED="1603609271398" TEXT="Example">
+<node CREATED="1603609270271" ID="ID_1214501776" MODIFIED="1603640934196" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1603609278608" ID="ID_1880316948" MODIFIED="1603609286068" TEXT="label [subst; &#x3bb; [[x; y; z]; [atom [z] &#x2192; [eq [y; z] &#x2192; x; T &#x2192; z]; T &#x2192; cons [subst [x; y; car [z]]; subst [x; y; cdr [z]]]]]">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -710,6 +711,7 @@
 </node>
 <node CREATED="1603610572084" ID="ID_1800181979" MODIFIED="1603610574612" TEXT="Free-Storage List">
 <icon BUILTIN="full-3"/>
+<node CREATED="1603655530298" ID="ID_1866847579" MODIFIED="1603655533132" TEXT="Garbage collection"/>
 </node>
 <node CREATED="1603610656829" ID="ID_1170089666" MODIFIED="1603610661531" TEXT="Elementary S-Functions in the Computer">
 <icon BUILTIN="full-4"/>
