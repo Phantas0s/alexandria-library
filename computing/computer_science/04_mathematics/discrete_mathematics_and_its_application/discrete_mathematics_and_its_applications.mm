@@ -1,12 +1,22 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1601408635033" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1604951006074" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
-    <p>
+    <!--
+        body { font-family: SansSerif; font-size: 12pt }
+        p { margin-top: 0 }
+      -->
+    <!--
+        body { font-family: SansSerif; font-size: 12pt }
+        p { margin-top: 0 }
+      -->
+    
+
+    <p type="text/css">
       <font size="5"><u><b>General notes:</b></u></font><br /><br />The 7th edition have been used for this mindmap.<br /><br />Some elements from Lecture Notes, Yale University, Spring 1999 from L. Lova&#769;sz and K. Vesztergombi have been included here.<br /><br />
     </p>
     <p>
@@ -2122,7 +2132,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" FOLDED="true" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
@@ -2954,7 +2964,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1559226217694" ID="ID_1832647831" MODIFIED="1586506986340" TEXT="2.3 Functions">
+<node CREATED="1559226217694" FOLDED="true" ID="ID_1832647831" MODIFIED="1586506986340" TEXT="2.3 Functions">
 <node CREATED="1562406780467" FOLDED="true" ID="ID_1713732385" MODIFIED="1585668917503" TEXT="Introduction">
 <node CREATED="1559226273678" ID="ID_453490020" MODIFIED="1559226275627" TEXT="Can be called">
 <node CREATED="1559226275823" ID="ID_377513065" MODIFIED="1559226280639" TEXT="transformation">
@@ -4059,7 +4069,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571373855460" FOLDED="true" ID="ID_1329291382" MODIFIED="1575538268722" TEXT="Countable sets">
+<node CREATED="1571373855460" ID="ID_1329291382" MODIFIED="1575538268722" TEXT="Countable sets">
 <node CREATED="1573711894096" ID="ID_1012704662" MODIFIED="1573712023086" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -4099,13 +4109,19 @@
 <node CREATED="1573795269429" ID="ID_1283390722" MODIFIED="1573795275154" TEXT="... can be expressed in terms of a sequence"/>
 <node CREATED="1573795275677" ID="ID_521671603" MODIFIED="1573795294584" TEXT="a1 ,a2 ,...,an ,..., where a1 = f(1), a2 = f(2),...,an = f(n),...."/>
 </node>
-<node CREATED="1573795340707" FOLDED="true" ID="ID_1831163923" MODIFIED="1573795503162" TEXT="Hilbert&#x2019;s Grand Hotel Paradox">
+<node CREATED="1573795340707" FOLDED="true" ID="ID_1831163923" MODIFIED="1604951016582" TEXT="Hilbert&#x2019;s Grand Hotel Paradox">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
-    <p>
+    <!--
+        body { font-family: SansSerif; font-size: 12pt }
+        p { margin-top: 0 }
+      -->
+    
+
+    <p type="text/css">
       How can we accommodate a new guest arriving at the fully occupied Grand Hotel without
     </p>
     <p>
@@ -4131,7 +4147,8 @@
       guests still have rooms. We illustrate this situation in Figure 2
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <icon BUILTIN="licq"/>
 <node CREATED="1573795474532" ID="ID_1446213293" MODIFIED="1573795479948">
 <richcontent TYPE="NODE"><html>

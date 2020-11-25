@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1602229562637" TEXT="SICP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1605005939873" TEXT="SICP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -84,7 +84,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1528634320405" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
+<node CREATED="1528634320405" FOLDED="true" ID="ID_1250742120" MODIFIED="1590908577948" POSITION="right" TEXT="Building abstractions with procedures">
 <icon BUILTIN="full-1"/>
 <node CREATED="1528634606285" FOLDED="true" ID="ID_1929326975" MODIFIED="1587143670696" TEXT="Introduction">
 <node CREATED="1528633486362" ID="ID_1751522928" MODIFIED="1549911501085" TEXT="Act of the mind (Locke)">
@@ -774,7 +774,7 @@
 <node CREATED="1589460188837" ID="ID_1562673775" MODIFIED="1589460197014" TEXT="... by interpreter"/>
 </node>
 </node>
-<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1602229562664" TEXT="Iterative process">
+<node CREATED="1528914006707" FOLDED="true" ID="ID_1681489065" MODIFIED="1605005884962" TEXT="Iterative process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -805,8 +805,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;max-count)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1528914414966" ID="ID_1279620134" MODIFIED="1586707116851" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1528914399198" ID="ID_1897945622" MODIFIED="1528914408741">
@@ -1337,7 +1336,7 @@
 <node CREATED="1528632556211" ID="ID_1211379132" MODIFIED="1528632564762" TEXT="Part of program with precise mathematical function"/>
 </node>
 </node>
-<node CREATED="1590761022498" ID="ID_1126847699" MODIFIED="1590761034745" POSITION="right" TEXT="Building Abstractions with Data">
+<node CREATED="1590761022498" FOLDED="true" ID="ID_1126847699" MODIFIED="1590761034745" POSITION="right" TEXT="Building Abstractions with Data">
 <icon BUILTIN="full-2"/>
 <node CREATED="1590761036478" FOLDED="true" ID="ID_1382704424" MODIFIED="1590762715303" TEXT="Introduction">
 <node CREATED="1590761135338" ID="ID_527217914" MODIFIED="1590761150771" TEXT="Combining abstraction "/>
@@ -7757,7 +7756,7 @@
 </node>
 </node>
 <node CREATED="1602003772473" ID="ID_1361540176" MODIFIED="1602003775862" TEXT="3.5 Streams">
-<node CREATED="1602004612517" ID="ID_1855850252" MODIFIED="1602004614692" TEXT="Introduction">
+<node CREATED="1602004612517" FOLDED="true" ID="ID_1855850252" MODIFIED="1602004614692" TEXT="Introduction">
 <node CREATED="1602003792944" ID="ID_1689870686" MODIFIED="1602003801436" TEXT="Alternative approach to model state"/>
 <node CREATED="1602003816776" ID="ID_1953235468" MODIFIED="1602003822965" TEXT="Based on data structure">
 <node CREATED="1602003823128" ID="ID_681402183" MODIFIED="1602003824457" TEXT="streams">
@@ -7794,7 +7793,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1602004609715" ID="ID_315957679" MODIFIED="1602004610512" TEXT="3.5.1 Streams Are Delayed Lists ">
+<node CREATED="1602004609715" FOLDED="true" ID="ID_315957679" MODIFIED="1602004610512" TEXT="3.5.1 Streams Are Delayed Lists ">
 <node CREATED="1602075795625" ID="ID_604185131" MODIFIED="1602075941498" TEXT="Interface sequence for program modules"/>
 <node CREATED="1602075949912" ID="ID_1838342836" MODIFIED="1602076011289" TEXT="Powerful abstractions on sequences">
 <node CREATED="1602075996238" ID="ID_1950035801" MODIFIED="1602076012989" TEXT="filter">
@@ -8006,7 +8005,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1602096377823" ID="ID_294301331" MODIFIED="1602096378407" TEXT="3.5.2 Infinite Streams ">
+<node CREATED="1602096377823" FOLDED="true" ID="ID_294301331" MODIFIED="1602096378407" TEXT="3.5.2 Infinite Streams ">
 <node CREATED="1602096548486" ID="ID_1604845104" MODIFIED="1602096554282" TEXT="Since we compute data on demand"/>
 <node CREATED="1602096554894" ID="ID_687498933" MODIFIED="1602096560482" TEXT="... we can represent infinite streams"/>
 <node CREATED="1602096570222" ID="ID_1760321740" MODIFIED="1602096659515" TEXT="Example">
@@ -8081,7 +8080,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node CREATED="1602097065866" ID="ID_496327531" MODIFIED="1602097067023" TEXT="3.5.3 Exploiting the Stream Paradigm ">
+<node CREATED="1602097065866" FOLDED="true" ID="ID_496327531" MODIFIED="1602097067023" TEXT="3.5.3 Exploiting the Stream Paradigm ">
 <node CREATED="1602097147258" ID="ID_1058729885" MODIFIED="1602097180481" TEXT="Make the system with different module boundaries"/>
 <node CREATED="1602097167867" ID="ID_415252726" MODIFIED="1602097175045" TEXT="... instead of assignments and state variables"/>
 <node CREATED="1602229715132" ID="ID_1118245213" MODIFIED="1602229716925" TEXT="Formulating iterations as stream processes ">
@@ -8136,8 +8135,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;(pairs (stream-cdr s) (stream-cdr t)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1602230328970" ID="ID_1419651295" MODIFIED="1602230337829" TEXT="Take element alternatively"/>
 <node CREATED="1602230338674" ID="ID_754168672" MODIFIED="1602230341212" TEXT="... from two streams"/>
@@ -8150,7 +8148,7 @@
 </node>
 </node>
 <node CREATED="1602230551286" ID="ID_1499589118" MODIFIED="1602230552242" TEXT="3.5.4 Streams and Delayed Evaluation "/>
-<node CREATED="1602230527990" ID="ID_1323909340" MODIFIED="1602230533875" TEXT="3.5.5 Modularity of Functional Programs and Modularity of Objects">
+<node CREATED="1602230527990" FOLDED="true" ID="ID_1323909340" MODIFIED="1602230533875" TEXT="3.5.5 Modularity of Functional Programs and Modularity of Objects">
 <node CREATED="1602230570887" ID="ID_4268561" LINK="#ID_1329328227" MODIFIED="1602230627505" TEXT="Major benefit of assignment">
 <node CREATED="1602230578351" ID="ID_1034915684" MODIFIED="1602230589410" TEXT="increase modularity of our systems"/>
 <node CREATED="1602230589790" ID="ID_1857606868" MODIFIED="1602230595353" TEXT="... by encapsulating or &quot;hiding&quot;"/>
