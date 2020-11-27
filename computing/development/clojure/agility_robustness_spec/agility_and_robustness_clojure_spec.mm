@@ -3,6 +3,19 @@
 <node CREATED="1606322213498" ID="ID_623098678" LINK="https://www.youtube.com/watch?v=VNTQ-M_uSo8" MODIFIED="1606322290471" TEXT="Agility &amp; Robustness: Clojure spec">
 <node CREATED="1606322292733" ID="ID_1860468065" MODIFIED="1606323471180" POSITION="right" TEXT="Clojure power">
 <icon BUILTIN="full-1"/>
+<node CREATED="1606323367094" ID="ID_1238212454" MODIFIED="1606323374127" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1606323375085" ID="ID_1097265188" MODIFIED="1606323380961">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="clojure_power.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
 <node CREATED="1606322400532" ID="ID_1621627276" MODIFIED="1606322402239" TEXT="Generality">
 <node CREATED="1606322403548" ID="ID_1930871782" MODIFIED="1606322429464" TEXT="All domains use same general purpose data structure"/>
 <node CREATED="1606322433298" ID="ID_1351296228" MODIFIED="1606322434968" TEXT="Systemic">
@@ -26,20 +39,6 @@
 <node CREATED="1606322476593" ID="ID_633446771" MODIFIED="1606322477702" TEXT="Problem">
 <node CREATED="1606322477866" ID="ID_1811017276" MODIFIED="1606322485702" TEXT="Systemic generalities are great"/>
 <node CREATED="1606322486307" ID="ID_1329988683" MODIFIED="1606322490952" TEXT="... but we work with specificity"/>
-</node>
-<node CREATED="1606323367094" ID="ID_1238212454" MODIFIED="1606323374127" TEXT="Illustration">
-<icon BUILTIN="licq"/>
-<node CREATED="1606323375085" ID="ID_1097265188" MODIFIED="1606323380961">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="clojure_power.png" />
-  </body>
-</html>
-</richcontent>
-</node>
 </node>
 </node>
 <node CREATED="1606323409757" ID="ID_1355224095" MODIFIED="1606323472158" POSITION="right" TEXT="Spec power">
