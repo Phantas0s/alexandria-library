@@ -483,10 +483,9 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1530447285087" ID="ID_1982099078" MODIFIED="1587472961477" POSITION="right" TEXT="PLAN of the book">
+<node CREATED="1530447285087" FOLDED="true" ID="ID_1982099078" MODIFIED="1587472961477" POSITION="right" TEXT="PLAN of the book">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1587388729193" FOLDED="true" ID="ID_1384629814" MODIFIED="1587473041204" TEXT="Plan">
@@ -522,7 +521,7 @@
 <node CREATED="1530447452934" FOLDED="true" ID="ID_769479249" MODIFIED="1587200120125" POSITION="right" TEXT="The foundation: logic and proof">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
-<node CREATED="1530447523116" ID="ID_954479220" MODIFIED="1565526995995" TEXT="1.1 Propositional Logic">
+<node CREATED="1530447523116" FOLDED="true" ID="ID_954479220" MODIFIED="1565526995995" TEXT="1.1 Propositional Logic">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1530450590360" FOLDED="true" ID="ID_422541407" MODIFIED="1558265182717" TEXT="Propositions">
 <font NAME="SansSerif" SIZE="12"/>
@@ -806,13 +805,11 @@
 </node>
 <node CREATED="1531659202179" ID="ID_461502459" MODIFIED="1557066941033" TEXT="Solution: Propositional logic useful"/>
 </node>
-<node CREATED="1531659216659" FOLDED="true" ID="ID_1267132610" MODIFIED="1558265184449" TEXT="Boolean searches">
+<node CREATED="1531659216659" ID="ID_1267132610" MODIFIED="1558265184449" TEXT="Boolean searches">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1531659219771" ID="ID_722450843" MODIFIED="1557737481215" TEXT="Web page searches">
-<node CREATED="1531659224835" ID="ID_1389581546" MODIFIED="1557737481172" TEXT="&quot;University AND Colleges&quot;">
+<node CREATED="1531659219771" ID="ID_722450843" MODIFIED="1557737481215" TEXT="Web page searches"/>
+<node CREATED="1531659224835" ID="ID_1389581546" MODIFIED="1557737481172" TEXT="&quot;University AND Colleges&quot;"/>
 <node CREATED="1531659238059" ID="ID_420515062" MODIFIED="1557066941033" TEXT="Alternative:  + and - for AND and NOT"/>
-</node>
-</node>
 </node>
 <node CREATED="1531659253947" ID="ID_1525780223" MODIFIED="1557066941033" TEXT="Logic puzzles">
 <richcontent TYPE="NOTE"><html>
@@ -865,7 +862,7 @@
 </node>
 <node CREATED="1531659297426" ID="ID_184246752" MODIFIED="1558265184450" TEXT="Logic circuits">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1531659460714" ID="ID_873908412" MODIFIED="1557737481215" TEXT="Basic">
+<node CREATED="1531659460714" FOLDED="true" ID="ID_873908412" MODIFIED="1557737481215" TEXT="Basic">
 <icon BUILTIN="licq"/>
 <node CREATED="1531659476619" ID="ID_1341583544" MODIFIED="1557066941033">
 <richcontent TYPE="NODE"><html>
@@ -1022,7 +1019,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1532781408878" FOLDED="true" ID="ID_225377860" MODIFIED="1558265189605" TEXT="1.4 Predicates and Quantifiers">
+<node CREATED="1532781408878" ID="ID_225377860" MODIFIED="1558265189605" TEXT="1.4 Predicates and Quantifiers">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1532781432200" ID="ID_762578831" MODIFIED="1557066941033" TEXT="Propositional logic can&apos;t always map statements and natural language">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1173,7 +1170,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1532783575833" ID="ID_1279824461" MODIFIED="1557739180117" TEXT="Two types of quantification">
+<node CREATED="1532783575833" FOLDED="true" ID="ID_1279824461" MODIFIED="1557739180117" TEXT="Two types of quantification">
 <node CREATED="1533385629002" FOLDED="true" ID="ID_1370245131" MODIFIED="1557737481175" TEXT="image">
 <icon BUILTIN="licq"/>
 <node CREATED="1533385636684" ID="ID_424474760" MODIFIED="1557066941033">
@@ -1938,7 +1935,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1537205135100" ID="ID_1952059657" MODIFIED="1558265201867" TEXT="1.8 Proof method and strategy">
+<node CREATED="1537205135100" FOLDED="true" ID="ID_1952059657" MODIFIED="1558265201867" TEXT="1.8 Proof method and strategy">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1537615206033" FOLDED="true" ID="ID_1047134535" MODIFIED="1599286842021" TEXT="Proof by cases">
 <richcontent TYPE="NOTE"><html>
@@ -4147,8 +4144,7 @@
       guests still have rooms. We illustrate this situation in Figure 2
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="licq"/>
 <node CREATED="1573795474532" ID="ID_1446213293" MODIFIED="1573795479948">
 <richcontent TYPE="NODE"><html>
@@ -6134,7 +6130,7 @@
 <node CREATED="1588321366950" ID="ID_1780223038" MODIFIED="1588321377049" TEXT="6.5 Generalized Permutations and Combinations"/>
 <node CREATED="1588321377828" ID="ID_1159565021" MODIFIED="1588321390966" TEXT="6.6 Generating Permuations and Combinations"/>
 </node>
-<node CREATED="1588321397146" ID="ID_1529477378" MODIFIED="1588321579195" POSITION="left" TEXT="Discrete Probility">
+<node CREATED="1588321397146" ID="ID_1529477378" MODIFIED="1609683665574" POSITION="left" TEXT="Discrete Probability">
 <icon BUILTIN="full-7"/>
 </node>
 <node CREATED="1588321585733" ID="ID_1738065178" MODIFIED="1588321595091" POSITION="left" TEXT="Advanced Counting Techniques">
