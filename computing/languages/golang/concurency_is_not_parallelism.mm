@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1521995299022" ID="ID_1707349940" MODIFIED="1534868550402" TEXT="Concurency is not parallelism">
+<node CREATED="1521995299022" ID="ID_1707349940" MODIFIED="1610010298381" TEXT="Concurency is not parallelism">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -17,7 +17,8 @@
       1. Define concurrency in a word<br />
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1521995326746" ID="ID_805924804" MODIFIED="1521995355256" POSITION="right" TEXT="concurency">
 <node CREATED="1521995419605" ID="ID_516236424" MODIFIED="1532015300632" TEXT="it is a structure">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>

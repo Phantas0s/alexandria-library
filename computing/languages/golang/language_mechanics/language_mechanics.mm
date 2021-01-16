@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1586077556509" ID="ID_80997837" MODIFIED="1589630252919" TEXT="Language Mechanics">
+<node CREATED="1586077556509" ID="ID_80997837" MODIFIED="1610010532178" TEXT="Language Mechanics">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -96,7 +96,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1586077839958" FOLDED="true" ID="ID_559786914" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-stacks-and-pointers.html" MODIFIED="1586705643958" POSITION="right" TEXT="Language Mechanics On Stacks And Pointers">
+<node CREATED="1586077839958" ID="ID_559786914" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-stacks-and-pointers.html" MODIFIED="1586705643958" POSITION="right" TEXT="Language Mechanics On Stacks And Pointers">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1586078038615" ID="ID_1763978390" MODIFIED="1586078039194" TEXT="Introduction"/>
@@ -118,7 +118,7 @@
 <node CREATED="1586078215537" ID="ID_175491322" MODIFIED="1586078219499" TEXT="copied"/>
 </node>
 </node>
-<node CREATED="1586078268926" ID="ID_585871128" MODIFIED="1586079359945" TEXT="Small program">
+<node CREATED="1586078268926" FOLDED="true" ID="ID_585871128" MODIFIED="1586079359945" TEXT="Small program">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -160,7 +160,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586078726554" FOLDED="true" ID="ID_1418922167" MODIFIED="1586705563049" TEXT="main&apos;s function boundary on stack">
+<node CREATED="1586078726554" ID="ID_1418922167" MODIFIED="1586705563049" TEXT="main&apos;s function boundary on stack">
 <icon BUILTIN="licq"/>
 <node CREATED="1586078734054" ID="ID_1730059058" MODIFIED="1586078746458">
 <richcontent TYPE="NODE"><html>
@@ -175,7 +175,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586078856264" ID="ID_1785506554" MODIFIED="1586078858494" TEXT="Addresses">
+<node CREATED="1586078856264" FOLDED="true" ID="ID_1785506554" MODIFIED="1586078858494" TEXT="Addresses">
 <node CREATED="1586078876279" ID="ID_995255939" MODIFIED="1586078885385" TEXT="Each value has an address in memory"/>
 <node CREATED="1586078904156" ID="ID_1159437809" MODIFIED="1586078911212" TEXT="Use ampersand &amp; operator to get addess"/>
 </node>
@@ -183,7 +183,7 @@
 <node CREATED="1586078957504" ID="ID_1591819814" MODIFIED="1586078963716" TEXT="goroutine needs to frame"/>
 <node CREATED="1586078964400" ID="ID_558797654" MODIFIED="1586078968194" TEXT="... new section of memory"/>
 <node CREATED="1586078969092" ID="ID_97152307" MODIFIED="1586078973047" TEXT="... on the stack"/>
-<node CREATED="1586079000927" ID="ID_1242656903" MODIFIED="1586079004597" TEXT="Frame transition">
+<node CREATED="1586079000927" FOLDED="true" ID="ID_1242656903" MODIFIED="1586079004597" TEXT="Frame transition">
 <node CREATED="1586079004803" ID="ID_702270384" MODIFIED="1586079009901" TEXT="Every value copied to new frame"/>
 <node CREATED="1586079010385" FOLDED="true" ID="ID_973954403" LINK="#ID_585871128" MODIFIED="1586705563441" TEXT="State of memory">
 <icon BUILTIN="licq"/>
@@ -200,7 +200,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586079248301" ID="ID_90427287" MODIFIED="1586079250714" TEXT="Function return">
+<node CREATED="1586079248301" FOLDED="true" ID="ID_90427287" MODIFIED="1586079250714" TEXT="Function return">
 <node CREATED="1586079257467" ID="ID_1393232546" MODIFIED="1586079265448" TEXT="When function return"/>
 <node CREATED="1586079266220" ID="ID_844756406" MODIFIED="1586079272059" TEXT="... and control goes back to calling function"/>
 <node CREATED="1586079338450" ID="ID_189039196" LINK="#ID_585871128" MODIFIED="1586705588480" TEXT="State of memory">
@@ -230,7 +230,7 @@
 </node>
 </node>
 <node CREATED="1586079544734" ID="ID_1292289448" MODIFIED="1586079545647" TEXT="Sharing Values">
-<node CREATED="1586087463744" ID="ID_595884146" MODIFIED="1586087471162" TEXT="Puprose of pointer">
+<node CREATED="1586087463744" ID="ID_595884146" MODIFIED="1610010756876" TEXT="Purpose of pointer">
 <node CREATED="1586087471664" ID="ID_452378424" MODIFIED="1586087476017" TEXT="Share a value with a function"/>
 <node CREATED="1586087476598" ID="ID_1344777068" MODIFIED="1586087485064" TEXT="... even if value is not in function&apos;s frame"/>
 </node>
@@ -238,7 +238,7 @@
 <node CREATED="1586087503274" ID="ID_966398724" MODIFIED="1586087506000" TEXT="don&apos;t use a pointer"/>
 </node>
 </node>
-<node CREATED="1586087594056" ID="ID_821979980" LINK="https://golang.org/ref/spec#PointerType" MODIFIED="1586087768207" TEXT="Pointer Types">
+<node CREATED="1586087594056" FOLDED="true" ID="ID_821979980" LINK="https://golang.org/ref/spec#PointerType" MODIFIED="1586087768207" TEXT="Pointer Types">
 <node CREATED="1586087610630" ID="ID_409085627" MODIFIED="1586087612924" TEXT="For every type"/>
 <node CREATED="1586087613624" ID="ID_121668169" MODIFIED="1586087618241" TEXT="... exists a complement pointer type"/>
 <node CREATED="1586087618585" ID="ID_1574478282" MODIFIED="1586087628544" TEXT="Example">
@@ -267,7 +267,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586087774525" ID="ID_955259287" MODIFIED="1586087778347" TEXT="Indirect memory access">
+<node CREATED="1586087774525" FOLDED="true" ID="ID_955259287" MODIFIED="1586087778347" TEXT="Indirect memory access">
 <node CREATED="1586087794599" ID="ID_532746692" LINK="https://play.golang.org/p/ZEUgCU0zZbr" MODIFIED="1589631613652" TEXT="Small program">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -358,7 +358,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586088224333" ID="ID_220580637" MODIFIED="1586088225001" TEXT="Pointer Variables Are Not Special">
+<node CREATED="1586088224333" FOLDED="true" ID="ID_220580637" MODIFIED="1586088225001" TEXT="Pointer Variables Are Not Special">
 <node CREATED="1586088228848" ID="ID_726986634" MODIFIED="1586088233836" TEXT="Memory allocation"/>
 <node CREATED="1586088234496" ID="ID_725464489" MODIFIED="1586088236031" TEXT="Hold a value"/>
 </node>
@@ -626,8 +626,7 @@
 ./main.go:12: main &amp;u1 does not escape
 ./main.go:12: main &amp;u2 does not escape</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 </node>
@@ -812,8 +811,7 @@ ROUTINE ======================== .../memcpu.algOne in code/go/src/.../memcpu/str
         .          .     94:       output.Write(buf[:n])
 (pprof) _</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

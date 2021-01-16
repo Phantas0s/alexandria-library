@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1589291675288" ID="ID_1522010724" MODIFIED="1602167340132" TEXT="Go Scheduler">
+<node CREATED="1589291675288" ID="ID_1522010724" MODIFIED="1610010298796" TEXT="Go Scheduler">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -569,7 +569,7 @@ func example(slice []string, str string, i int) {
 <icon BUILTIN="full-0"/>
 </node>
 </node>
-<node CREATED="1589366122201" ID="ID_102800878" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html#practical-example" MODIFIED="1589373435400" POSITION="right" TEXT="Go Scheduler">
+<node CREATED="1589366122201" FOLDED="true" ID="ID_102800878" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html#practical-example" MODIFIED="1589373435400" POSITION="right" TEXT="Go Scheduler">
 <icon BUILTIN="full-2"/>
 <node CREATED="1589366819063" FOLDED="true" ID="ID_400564511" MODIFIED="1589366822879" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1004,7 +1004,7 @@ func example(slice []string, str string, i int) {
 </node>
 </node>
 </node>
-<node CREATED="1589372783061" ID="ID_1494724639" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html#practical-example" MODIFIED="1589372823949" TEXT="Practical Example">
+<node CREATED="1589372783061" FOLDED="true" ID="ID_1494724639" LINK="https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html#practical-example" MODIFIED="1589372823949" TEXT="Practical Example">
 <icon BUILTIN="full-8"/>
 <node COLOR="#338800" CREATED="1589373120497" ID="ID_1819602922" MODIFIED="1589373133310" TEXT="Skipped some example. I encourage you to read them">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -1047,9 +1047,9 @@ func example(slice []string, str string, i int) {
 <node CREATED="1589373392755" ID="ID_1443002097" MODIFIED="1589373395953" TEXT="... and not Go scheduler"/>
 </node>
 </node>
-<node CREATED="1589373418675" FOLDED="true" ID="ID_959374447" LINK="v" MODIFIED="1589373429440" POSITION="right" TEXT="Concurrency">
+<node CREATED="1589373418675" ID="ID_959374447" LINK="v" MODIFIED="1589373429440" POSITION="right" TEXT="Concurrency">
 <icon BUILTIN="full-3"/>
-<node CREATED="1589549410817" ID="ID_1081882050" MODIFIED="1589549642122" TEXT="Introduction">
+<node CREATED="1589549410817" FOLDED="true" ID="ID_1081882050" MODIFIED="1589549642122" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1589549413224" ID="ID_1615883714" MODIFIED="1589549420673" TEXT="When solving new problem">
 <node CREATED="1589549420878" ID="ID_780970962" MODIFIED="1589549439323" TEXT="Look for sequential solution">
@@ -1075,10 +1075,10 @@ func example(slice []string, str string, i int) {
 </node>
 <node CREATED="1589549555481" ID="ID_1901822684" MODIFIED="1589549564062" TEXT="... to provide deeper insight of concurrency"/>
 </node>
-<node CREATED="1589549624258" FOLDED="true" ID="ID_359138113" MODIFIED="1589549643342" TEXT="What is concurrency">
+<node CREATED="1589549624258" ID="ID_359138113" MODIFIED="1589549643342" TEXT="What is concurrency">
 <icon BUILTIN="full-1"/>
 <node CREATED="1589549630649" ID="ID_942555385" MODIFIED="1589549637725" TEXT="Means &quot;out of order&quot; execution"/>
-<node CREATED="1589549646754" ID="ID_1081298172" MODIFIED="1589549671730" TEXT="Take set of instructions">
+<node CREATED="1589549646754" FOLDED="true" ID="ID_1081298172" MODIFIED="1589549671730" TEXT="Take set of instructions">
 <node CREATED="1589549671928" ID="ID_46633670" MODIFIED="1589549676640" TEXT="Normally run sequentially"/>
 <node CREATED="1589549677932" ID="ID_943989918" MODIFIED="1589549686955" TEXT="Finding a way to execute them out of order"/>
 <node CREATED="1589549806698" ID="ID_456611779" MODIFIED="1589549813859" TEXT="... to produce same result"/>
@@ -1087,7 +1087,7 @@ func example(slice []string, str string, i int) {
 <node CREATED="1589549939380" ID="ID_398249593" MODIFIED="1589549943600" TEXT="... for complexity cost"/>
 </node>
 </node>
-<node CREATED="1589549952110" ID="ID_1443448751" MODIFIED="1589549960812" TEXT="Concurrency different than parallelism">
+<node CREATED="1589549952110" FOLDED="true" ID="ID_1443448751" MODIFIED="1589549960812" TEXT="Concurrency different than parallelism">
 <node CREATED="1589549968009" ID="ID_80178164" MODIFIED="1589549971456" TEXT="Parallelism">
 <node CREATED="1589549971606" ID="ID_438941961" MODIFIED="1589549984553" TEXT="Executing 2+ execution at same itme"/>
 <node CREATED="1589549990649" ID="ID_1095109269" MODIFIED="1589549993349" TEXT="Only possible when">
@@ -1319,7 +1319,8 @@ BenchmarkConcurrentAgain-8   &#x9;    2000&#x9;   3477253 ns/op : ~41% Faster</c
 <node CREATED="1589552392214" ID="ID_1001989193" MODIFIED="1589552394842" TEXT="break work up"/>
 <node CREATED="1589552395285" ID="ID_1258327907" MODIFIED="1589552400489" TEXT="combine results"/>
 </node>
-<node CREATED="1589552445454" ID="ID_1649037024" MODIFIED="1589552447930" TEXT="Example">
+<node CREATED="1589552445454" ID="ID_1649037024" MODIFIED="1610010400889" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1589552448096" ID="ID_981736324" LINK="https://play.golang.org/p/S0Us1wYBqG6" MODIFIED="1589552542577" TEXT="Bubble sort">
 <richcontent TYPE="NOTE"><html>
   <head>

@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1604951006074" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1610013012078" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -483,7 +483,8 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1530447285087" FOLDED="true" ID="ID_1982099078" MODIFIED="1587472961477" POSITION="right" TEXT="PLAN of the book">
 <font NAME="SansSerif" SIZE="12"/>
@@ -2129,7 +2130,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" FOLDED="true" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
@@ -4522,7 +4523,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1574834995735" FOLDED="true" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
+<node CREATED="1574834995735" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
 <icon BUILTIN="full-3"/>
 <node CREATED="1574835164172" ID="ID_1120871976" MODIFIED="1587200115860" TEXT="3.1 Algorithms">
 <node CREATED="1574835186764" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
@@ -4671,10 +4672,10 @@
 </node>
 </node>
 <node CREATED="1575873422072" FOLDED="true" ID="ID_520262510" MODIFIED="1586869602592" TEXT="Insertion sort">
-<node CREATED="1575873431647" FOLDED="true" ID="ID_123922108" MODIFIED="1575873434589" TEXT="Very simple">
+<node CREATED="1575873431647" ID="ID_123922108" MODIFIED="1575873434589" TEXT="Very simple">
 <node CREATED="1575873434814" ID="ID_314109239" MODIFIED="1575873438052" TEXT="but not most efficient"/>
 </node>
-<node CREATED="1575873656628" FOLDED="true" ID="ID_551410066" MODIFIED="1575873812369" TEXT="Example">
+<node CREATED="1575873656628" ID="ID_551410066" MODIFIED="1575873812369" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1575873659398" ID="ID_1812410451" MODIFIED="1575873667450" TEXT="3,2,4,1,5"/>
 <node CREATED="1575873668670" ID="ID_615427596" MODIFIED="1575873671849" TEXT="Steps">
@@ -4733,7 +4734,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1585125253999" FOLDED="true" ID="ID_626076480" MODIFIED="1586869602593" TEXT="The halting problems">
+</node>
+<node CREATED="1585125253999" ID="ID_626076480" MODIFIED="1586869602593" TEXT="The halting problems">
 <node CREATED="1585125278238" ID="ID_229339619" MODIFIED="1585125283061" TEXT="Problem which can&apos;t be proved"/>
 <node CREATED="1585125549958" ID="ID_257824009" MODIFIED="1585125575185" TEXT="Program (p1) which takes a program (p2) and an input">
 <node CREATED="1585125575381" ID="ID_1777748584" MODIFIED="1585125589706" TEXT="Input is for p2"/>
@@ -4839,7 +4841,6 @@
     <img src="halting-problem.png" />
   </body>
 </html></richcontent>
-</node>
 </node>
 </node>
 </node>
@@ -5199,7 +5200,7 @@
 <node CREATED="1601218786563" ID="ID_150397753" MODIFIED="1601218788663" TEXT="... and lower bound"/>
 </node>
 </node>
-<node CREATED="1586939677946" ID="ID_1182577722" MODIFIED="1587388482415" TEXT="3.3 Complexity of Algorithms">
+<node CREATED="1586939677946" FOLDED="true" ID="ID_1182577722" MODIFIED="1587388482415" TEXT="3.3 Complexity of Algorithms">
 <node CREATED="1586939766670" FOLDED="true" ID="ID_1562277733" MODIFIED="1586939769686" TEXT="Introduction">
 <node CREATED="1586939693348" ID="ID_1629809612" MODIFIED="1586939709771" TEXT="When algorithm provides satisfactory solution to problem?">
 <node CREATED="1586939709990" ID="ID_724847554" MODIFIED="1586939717063" TEXT="Always produce correct answer">

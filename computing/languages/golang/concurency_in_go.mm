@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1525166043047" ID="ID_471528574" LINK="https://www.youtube.com/watch?v=rDRa23k70CU" MODIFIED="1589702781379" TEXT="Concurrency patterns in Go">
+<node CREATED="1525166043047" ID="ID_471528574" LINK="https://www.youtube.com/watch?v=rDRa23k70CU" MODIFIED="1610010298199" TEXT="Concurrency patterns in Go">
 <richcontent TYPE="NOTE"><html>
   <head>
     
