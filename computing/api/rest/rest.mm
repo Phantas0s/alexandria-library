@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1608535295262" ID="ID_1625017875" MODIFIED="1608535324459" TEXT="Architectural Styles and the Design of Network-based Software Architectures ">
-<node CREATED="1608535328471" ID="ID_838482485" MODIFIED="1608535331422" POSITION="right" TEXT="Abstract">
+<node CREATED="1608535295262" ID="ID_1625017875" LINK="https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf" MODIFIED="1610895434161" TEXT="Architectural Styles and the Design of Network-based Software Architectures ">
+<node CREATED="1608535328471" FOLDED="true" ID="ID_838482485" MODIFIED="1608535331422" POSITION="right" TEXT="Abstract">
 <icon BUILTIN="full-0"/>
 <node CREATED="1608535347976" ID="ID_242226972" MODIFIED="1608535354503" TEXT="Model of WWW needed for guiding">
 <node CREATED="1608535354707" ID="ID_212860719" MODIFIED="1608535356502" TEXT="design"/>
@@ -50,7 +50,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1608541136692" ID="ID_11307723" MODIFIED="1608541149786" POSITION="right" TEXT="Introduction">
+<node CREATED="1608541136692" FOLDED="true" ID="ID_11307723" MODIFIED="1608541149786" POSITION="right" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1608541176460" ID="ID_605563949" MODIFIED="1608541194232" TEXT="Complexity of software architecture">
 <node CREATED="1608541194459" ID="ID_755719554" MODIFIED="1608541196480" TEXT="Emphasis on">
@@ -90,10 +90,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1609862895617" ID="ID_1818143906" MODIFIED="1609862908235" POSITION="right" TEXT="Chapter 1 - Software Architecture">
+<node CREATED="1609862895617" FOLDED="true" ID="ID_1818143906" MODIFIED="1609862908235" POSITION="right" TEXT="Chapter 1 - Software Architecture">
 <icon BUILTIN="full-1"/>
 <node CREATED="1609862917170" ID="ID_1519433449" MODIFIED="1609862924150" TEXT="No agreement to define architecture"/>
-<node CREATED="1609862939041" ID="ID_320169314" MODIFIED="1609862945150" TEXT="Run Time Abstraction">
+<node CREATED="1609862939041" FOLDED="true" ID="ID_320169314" MODIFIED="1609862945150" TEXT="Run Time Abstraction">
 <icon BUILTIN="full-1"/>
 <node CREATED="1609862958290" ID="ID_1855430209" MODIFIED="1609862962185" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
@@ -114,8 +114,7 @@
       each with its own software architecture.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1609862983050" ID="ID_1156470442" MODIFIED="1609862994277" TEXT="Each level of abstraction has its own architecture">
 <node CREATED="1609863018928" ID="ID_1056586116" MODIFIED="1609863147564" TEXT="Recursion of architecture"/>
@@ -172,7 +171,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1609863735748" ID="ID_1700586888" MODIFIED="1609863738859" TEXT="Elements">
+<node CREATED="1609863735748" FOLDED="true" ID="ID_1700586888" MODIFIED="1609863738859" TEXT="Elements">
 <icon BUILTIN="full-2"/>
 <node CREATED="1609864343265" ID="ID_1821839541" MODIFIED="1609864351865" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -226,8 +225,7 @@
       state that provides a transformation of data via its interface.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1609864386216" ID="ID_56198639" MODIFIED="1609864397444" TEXT="Most recognized aspects of software architecture"/>
 <node CREATED="1609864480416" ID="ID_1052422603" MODIFIED="1609864513127" TEXT="Examples">
@@ -245,20 +243,184 @@
 <node CREATED="1609864610519" ID="ID_1574460737" MODIFIED="1609864624003" TEXT="... rather than its implementation"/>
 </node>
 </node>
-<node CREATED="1609864649856" ID="ID_1065895998" MODIFIED="1609867762002" TEXT="Connectors">
+<node CREATED="1609864649856" ID="ID_1065895998" MODIFIED="1610890616254" TEXT="Connectors">
+<icon BUILTIN="full-2"/>
+<node CREATED="1610890616539" ID="ID_700697883" MODIFIED="1610890626393" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      1
+      A connector is an abstract mechanism that mediates communication,
+    </p>
+    <p>
+      coordination, or cooperation among components.
     </p>
   </body>
 </html>
 </richcontent>
-<icon BUILTIN="full-2"/>
 </node>
+<node CREATED="1610890649055" ID="ID_1502337554" MODIFIED="1610890683082" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1610890650791" ID="ID_344677953" MODIFIED="1610890662347" TEXT="Shared representations"/>
+<node CREATED="1610890663287" ID="ID_507603386" MODIFIED="1610890666539" TEXT="Remote procedure calls"/>
+<node CREATED="1610890667309" ID="ID_52169783" MODIFIED="1610890671147" TEXT="Message-passing protocols"/>
+<node CREATED="1610890671919" ID="ID_539357941" MODIFIED="1610890676291" TEXT="Data streams"/>
+</node>
+<node CREATED="1610890891885" ID="ID_627432062" MODIFIED="1610890902096" TEXT="Communication between components"/>
+<node CREATED="1610890902577" ID="ID_826844400" MODIFIED="1610890914402" TEXT="... transferring data from interface to another"/>
+<node CREATED="1610890915730" ID="ID_1111908740" MODIFIED="1610890925222" TEXT="... without changing it">
+<node CREATED="1610890963769" ID="ID_1969929088" MODIFIED="1610890969430" TEXT="In contrast to components"/>
+</node>
+</node>
+<node CREATED="1610890973938" ID="ID_276841052" MODIFIED="1610890976329" TEXT="Data">
+<icon BUILTIN="full-3"/>
+<node CREATED="1610891009746" ID="ID_1580344058" MODIFIED="1610891043047" TEXT="Definition">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A datum is an element of information that is transferred from a component, or received by a component, via a connector.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1610891065304" ID="ID_1911875558" MODIFIED="1610891068829" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1610891071608" ID="ID_1213382995" MODIFIED="1610891074962" TEXT="Bytes-sequences"/>
+<node CREATED="1610891075636" ID="ID_1994901509" MODIFIED="1610891077188" TEXT="Messages"/>
+<node CREATED="1610891077600" ID="ID_1895516623" MODIFIED="1610891083404" TEXT="Marshalled parameters"/>
+<node CREATED="1610891813515" ID="ID_365737761" MODIFIED="1610891815764" TEXT="Serialized objects"/>
+</node>
+<node CREATED="1610891829788" ID="ID_960054079" MODIFIED="1610891832353" TEXT="Do not include">
+<node CREATED="1610891832661" ID="ID_1905961262" MODIFIED="1610891856268" TEXT="Information permanently resident">
+<node COLOR="#338800" CREATED="1610891856645" ID="ID_802896613" MODIFIED="1610891864884" TEXT="Not sure what it means">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node CREATED="1610891867284" ID="ID_1429166354" MODIFIED="1610891878265" TEXT="Information hidden in components">
+<node COLOR="#338800" CREATED="1610891879451" ID="ID_1394742727" MODIFIED="1610891885620" TEXT="Really?">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+</node>
+<node CREATED="1610891933379" ID="ID_1690599178" MODIFIED="1610891950455" TEXT="Nature of data elements in network-based application"/>
+<node CREATED="1610891950858" ID="ID_1706360121" MODIFIED="1610891963823" TEXT="... determine often if architectural style appropriate"/>
+</node>
+</node>
+<node CREATED="1610893396116" FOLDED="true" ID="ID_1534967115" MODIFIED="1610893430705" TEXT="Configurations">
+<icon BUILTIN="full-3"/>
+<node CREATED="1610893400853" ID="ID_1663069549" MODIFIED="1610893407165" TEXT="Definition">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A configuration is the structure of architectural relationships among
+    </p>
+    <p>
+      components, connectors, and data during a period of system run-time.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1610893477060" ID="ID_1705670215" MODIFIED="1610893487112" TEXT="Configuration equivalent"/>
+<node CREATED="1610893487757" ID="ID_1248353547" MODIFIED="1610893493728" TEXT="... to set of specific constraints"/>
+<node CREATED="1610893494228" ID="ID_217445259" MODIFIED="1610893498977" TEXT="... on components interactions"/>
+</node>
+<node CREATED="1610893531546" FOLDED="true" ID="ID_1029283500" MODIFIED="1610893536129" TEXT="Properties">
+<icon BUILTIN="full-4"/>
+<node CREATED="1610893713215" ID="ID_1443841376" MODIFIED="1610893733468" TEXT="Definition">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Includes all properties that derive from the selection and arrangement of components, connectors, and data within the system.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1610893897246" ID="ID_1550221914" MODIFIED="1610893900661" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1610893901453" ID="ID_1819409508" MODIFIED="1610893910155" TEXT="Functional properties"/>
+<node CREATED="1610893910549" ID="ID_879487760" MODIFIED="1610893915432" TEXT="Non-functional properties">
+<node CREATED="1610893918612" ID="ID_892027108" MODIFIED="1610893923103" TEXT="Relative ease of evolution"/>
+<node CREATED="1610893923540" ID="ID_1744589456" MODIFIED="1610893927816" TEXT="Reusability of components"/>
+<node CREATED="1610893928597" ID="ID_1443762340" MODIFIED="1610893932169" TEXT="Efficiency"/>
+<node CREATED="1610893932933" ID="ID_961459892" MODIFIED="1610893937273" TEXT="Dynamic extensibility"/>
+</node>
+<node CREATED="1610893943797" ID="ID_33046402" MODIFIED="1610893993863" TEXT="... often referred as quality attributes"/>
+</node>
+<node CREATED="1610894222136" ID="ID_365582150" MODIFIED="1610894228947" TEXT="Induced by set of constraints in architecture"/>
+<node CREATED="1610894248951" ID="ID_1750270142" MODIFIED="1610894260804" TEXT="... motivated by application of software principles">
+<node CREATED="1610894262727" ID="ID_1729274333" MODIFIED="1610894271542" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1610894272575" ID="ID_307648216" LINK="https://flylib.com/books/en/2.121.1/the_pipe_and_filter_style.html" MODIFIED="1610894302496" TEXT="Uniform pipe-and-filter style"/>
+</node>
+</node>
+<node CREATED="1610894391629" ID="ID_465011338" MODIFIED="1610894396921" TEXT="Goal of architectural design">
+<node CREATED="1610894397108" ID="ID_552505362" MODIFIED="1610894402241" TEXT="Create architecture"/>
+<node CREATED="1610894402949" ID="ID_1060325339" MODIFIED="1610894407193" TEXT="... with a set of properties"/>
+<node CREATED="1610894407828" ID="ID_398931384" MODIFIED="1610894415298" TEXT="... forming a superset of system requirements"/>
+</node>
+</node>
+<node CREATED="1610894443668" FOLDED="true" ID="ID_1928025693" MODIFIED="1610894450778" TEXT="Styles">
+<icon BUILTIN="full-5"/>
+<node CREATED="1610894458980" ID="ID_1029881430" MODIFIED="1610894558155" TEXT="Definition">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      An architectural style is a coordinated set of architectural constraints
+    </p>
+    <p>
+      that restricts the roles/features of architectural elements and the allowed
+    </p>
+    <p>
+      relationships among those elements within any architecture that
+    </p>
+    <p>
+      conforms to that style.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1610894560722" ID="ID_1094160201" MODIFIED="1610894568382" TEXT="Architecture is functional and non functional"/>
+<node CREATED="1610894568778" ID="ID_1881738794" MODIFIED="1610894572743" TEXT="... so difficult to compare"/>
+<node CREATED="1610894573194" ID="ID_1190935815" MODIFIED="1610894857395" TEXT="Styles categorize architectures">
+<node CREATED="1610894858054" ID="ID_978082908" MODIFIED="1610894869835" TEXT="Provide abstraction for interaction of components"/>
+<node CREATED="1610894871526" ID="ID_1878578763" MODIFIED="1610894884273" TEXT="Essence of pattern of interaction"/>
+<node CREATED="1610894887262" ID="ID_221881828" MODIFIED="1610894903864" TEXT="Ignore incidental details of rest of architecture"/>
+<node CREATED="1610894994980" ID="ID_880570489" MODIFIED="1610895002360" TEXT="Can address different aspect of architecture">
+<node CREATED="1610895002556" ID="ID_504932361" MODIFIED="1610895005977" TEXT="An architecture"/>
+<node CREATED="1610895006347" ID="ID_1177299576" MODIFIED="1610895009442" TEXT="... can have multiple styles"/>
+</node>
+<node CREATED="1610895161675" ID="ID_617314821" MODIFIED="1610895173157" TEXT="NOT a personalization of the design process">
+<node CREATED="1610895175993" ID="ID_1755566458" MODIFIED="1610895184934" TEXT="Confusing with etymology of &quot;style&quot;"/>
+</node>
+<node CREATED="1610895239994" ID="ID_1467866222" MODIFIED="1610895246709" TEXT="Set of constraints applied to the design"/>
+</node>
+<node CREATED="1610895033869" ID="ID_1880160442" MODIFIED="1610895036873" TEXT="No silver bullet">
+<node CREATED="1610895037059" ID="ID_1758396937" MODIFIED="1610895040336" TEXT="Style should be chosen"/>
+<node CREATED="1610895040683" ID="ID_261764306" MODIFIED="1610895048688" TEXT="... depending of the problem at hand"/>
+</node>
+</node>
+<node CREATED="1610895334074" ID="ID_504101192" MODIFIED="1610895367464" TEXT="Patterns and pattern Language">
+<icon BUILTIN="full-6"/>
 </node>
 </node>
 </node>
