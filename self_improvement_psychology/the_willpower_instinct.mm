@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1507477509776" ID="ID_225856534" MODIFIED="1560067630211" TEXT="The willpower instinct">
+<node CREATED="1507477509776" ID="ID_225856534" MODIFIED="1611246561638" TEXT="The willpower instinct">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -39,9 +39,6 @@
     </p>
     <p>
       2. What the three step to avoid biting you up?
-    </p>
-    <p>
-      
     </p>
     <p>
       
