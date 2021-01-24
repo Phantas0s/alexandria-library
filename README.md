@@ -1,4 +1,4 @@
-# Phantas0s's Alexandria Library
+# The Alexandria Library
 
 [![Alexandria Library illustration](./library-of-alexandria.jpg)]()
 
