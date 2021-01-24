@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1610013012078" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1611489383589" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1020,7 +1020,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1532781408878" ID="ID_225377860" MODIFIED="1558265189605" TEXT="1.4 Predicates and Quantifiers">
+<node CREATED="1532781408878" FOLDED="true" ID="ID_225377860" MODIFIED="1558265189605" TEXT="1.4 Predicates and Quantifiers">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1532781432200" ID="ID_762578831" MODIFIED="1557066941033" TEXT="Propositional logic can&apos;t always map statements and natural language">
 <font NAME="SansSerif" SIZE="12"/>
@@ -2387,7 +2387,7 @@
 <node CREATED="1540742391335" ID="ID_356398285" MODIFIED="1557066941018" TEXT="Elements of V represented with points"/>
 </node>
 </node>
-<node CREATED="1545143712276" FOLDED="true" ID="ID_541934488" MODIFIED="1599283334970" TEXT="Subset">
+<node CREATED="1545143712276" ID="ID_541934488" MODIFIED="1599283334970" TEXT="Subset">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2543,7 +2543,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1545145356296" FOLDED="true" ID="ID_1400445968" MODIFIED="1566041486997" TEXT="Cartesian Products">
+<node CREATED="1545145356296" ID="ID_1400445968" MODIFIED="1566041486997" TEXT="Cartesian Products">
 <node CREATED="1553351166154" ID="ID_176722714" MODIFIED="1557066941018" TEXT="Cartesian product of a set">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2592,11 +2592,11 @@
 </node>
 <node CREATED="1553351875115" FOLDED="true" ID="ID_1126233548" MODIFIED="1563386640240" TEXT="Using set notation with quantifiers">
 <node CREATED="1553352085099" ID="ID_724324502" MODIFIED="1557066941018" TEXT="Restrict domain of a quantified statement"/>
-<node CREATED="1553352100856" FOLDED="true" ID="ID_841734404" MODIFIED="1557738388255" TEXT="Use a particular notation ">
+<node CREATED="1553352100856" ID="ID_841734404" MODIFIED="1557738388255" TEXT="Use a particular notation ">
 <node CREATED="1553352121634" ID="ID_1041861320" MODIFIED="1557737480738" TEXT="&#x2200;x&#x2208;S(P(x))">
 <node CREATED="1553352196656" ID="ID_251148678" MODIFIED="1557066941018" TEXT="shorthand for &#x2200;x(x &#x2208; S &#x2192; P(x))"/>
 </node>
-<node CREATED="1553352211797" FOLDED="true" ID="ID_601892168" MODIFIED="1557737480738" TEXT="&#x2203;x&#x2208;S(P(x))">
+<node CREATED="1553352211797" ID="ID_601892168" MODIFIED="1557737480738" TEXT="&#x2203;x&#x2208;S(P(x))">
 <node CREATED="1553352223255" ID="ID_544475943" MODIFIED="1557066941018" TEXT="shorthand for &#x2203;x(x &#x2208; S &#x2227; P(x))"/>
 </node>
 </node>
@@ -2633,8 +2633,8 @@
 </node>
 <node CREATED="1555257592025" FOLDED="true" ID="ID_1229810133" MODIFIED="1587392531507" TEXT="2.2 Set operations">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1557737152305" ID="ID_1490250316" MODIFIED="1585334351041" TEXT=" Introduction">
-<node CREATED="1555257650521" ID="ID_711411576" MODIFIED="1587200768236" TEXT="Union of the sets">
+<node CREATED="1557737152305" FOLDED="true" ID="ID_1490250316" MODIFIED="1585334351041" TEXT=" Introduction">
+<node CREATED="1555257650521" FOLDED="true" ID="ID_711411576" MODIFIED="1587200768236" TEXT="Union of the sets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2662,7 +2662,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1555257967772" ID="ID_1439060925" MODIFIED="1585334444803" TEXT="Intersection of the sets">
+<node CREATED="1555257967772" FOLDED="true" ID="ID_1439060925" MODIFIED="1585334444803" TEXT="Intersection of the sets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2675,7 +2675,7 @@
 </html></richcontent>
 <node CREATED="1555257998110" ID="ID_1779417186" MODIFIED="1557066941018" TEXT="Elements in both A and B"/>
 <node CREATED="1555257995710" ID="ID_461927374" MODIFIED="1557066941018" TEXT="A &#x2229; B = {x | x &#x2208; A &#x2227; x &#x2208; B}"/>
-<node CREATED="1555258012553" FOLDED="true" ID="ID_967215621" MODIFIED="1563708774571" TEXT="venn diagram">
+<node CREATED="1555258012553" ID="ID_967215621" MODIFIED="1563708774571" TEXT="venn diagram">
 <icon BUILTIN="licq"/>
 <node CREATED="1555258050244" ID="ID_1257616238" MODIFIED="1557066941018">
 <richcontent TYPE="NODE"><html>
@@ -2953,7 +2953,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1559672675570" ID="ID_1461397746" MODIFIED="1585335122123" TEXT="Symmetric difference">
+<node CREATED="1559672675570" FOLDED="true" ID="ID_1461397746" MODIFIED="1585335122123" TEXT="Symmetric difference">
 <node CREATED="1559672680966" ID="ID_1377489314" MODIFIED="1585335107198" TEXT="Notation">
 <node CREATED="1559672687141" ID="ID_1222111788" MODIFIED="1559672687823" TEXT="A &#x2295; B"/>
 </node>
@@ -2962,7 +2962,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1559226217694" FOLDED="true" ID="ID_1832647831" MODIFIED="1586506986340" TEXT="2.3 Functions">
+<node CREATED="1559226217694" ID="ID_1832647831" MODIFIED="1586506986340" TEXT="2.3 Functions">
 <node CREATED="1562406780467" FOLDED="true" ID="ID_1713732385" MODIFIED="1585668917503" TEXT="Introduction">
 <node CREATED="1559226273678" ID="ID_453490020" MODIFIED="1559226275627" TEXT="Can be called">
 <node CREATED="1559226275823" ID="ID_377513065" MODIFIED="1559226280639" TEXT="transformation">
@@ -3304,7 +3304,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1562870868530" ID="ID_1217934675" MODIFIED="1573712316670" TEXT="Inverse functions and composition of functions">
+<node CREATED="1562870868530" FOLDED="true" ID="ID_1217934675" MODIFIED="1573712316670" TEXT="Inverse functions and composition of functions">
 <node CREATED="1562870962769" FOLDED="true" ID="ID_1037303412" MODIFIED="1563386917238" TEXT="Inverse">
 <node CREATED="1562870965085" ID="ID_670643202" MODIFIED="1562870976007" TEXT="Definition">
 <richcontent TYPE="NOTE"><html>
@@ -3449,7 +3449,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1563709403053" ID="ID_851258611" MODIFIED="1573712326494" TEXT="Some important functions">
+<node CREATED="1563709403053" FOLDED="true" ID="ID_851258611" MODIFIED="1573712326494" TEXT="Some important functions">
 <node CREATED="1564561935983" FOLDED="true" ID="ID_228245899" MODIFIED="1564561942881" TEXT="Floor / Ceiling">
 <node CREATED="1563709483347" ID="ID_1432730194" MODIFIED="1564227959956" TEXT="Floor function">
 <node CREATED="1563709487627" ID="ID_1927714730" MODIFIED="1599284623603" TEXT="Definition">
@@ -4523,9 +4523,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1574834995735" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
+<node CREATED="1574834995735" FOLDED="true" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
 <icon BUILTIN="full-3"/>
-<node CREATED="1574835164172" ID="ID_1120871976" MODIFIED="1587200115860" TEXT="3.1 Algorithms">
+<node CREATED="1574835164172" FOLDED="true" ID="ID_1120871976" MODIFIED="1587200115860" TEXT="3.1 Algorithms">
 <node CREATED="1574835186764" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
 <node CREATED="1574835189653" ID="ID_1097192422" MODIFIED="1574835201089" TEXT="An algorithm is a finite sequence of precise instructions"/>
 <node CREATED="1574835202067" ID="ID_476920489" MODIFIED="1574835210882" TEXT="... for performing a computation or for solving a problem"/>
@@ -6118,7 +6118,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588321306545" ID="ID_1008536110" MODIFIED="1588321313508" POSITION="left" TEXT="Counting">
+<node CREATED="1588321306545" FOLDED="true" ID="ID_1008536110" MODIFIED="1588321313508" POSITION="left" TEXT="Counting">
 <icon BUILTIN="full-6"/>
 <node COLOR="#338800" CREATED="1588146802807" ID="ID_1179682484" MODIFIED="1588146814645" TEXT="Skipped">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -6143,7 +6143,7 @@
 <node CREATED="1587388646477" ID="ID_1922308220" MODIFIED="1587388688874" POSITION="left" TEXT="Graphs">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
-<node CREATED="1588694296780" FOLDED="true" ID="ID_445152677" MODIFIED="1588694301627" TEXT="Introduction">
+<node CREATED="1588694296780" ID="ID_445152677" MODIFIED="1588694301627" TEXT="Introduction">
 <node CREATED="1588694301854" ID="ID_326795882" MODIFIED="1588694308821" TEXT="Discrete structures with">
 <node CREATED="1588694308984" ID="ID_71288401" MODIFIED="1588694310224" TEXT="Vertices"/>
 <node CREATED="1588694310575" ID="ID_1580919635" MODIFIED="1588694314401" TEXT="Edges"/>
@@ -6152,7 +6152,7 @@
 <node CREATED="1588694404610" ID="ID_345960229" MODIFIED="1588694411373" TEXT="Problems in many disciplines"/>
 <node CREATED="1588694411796" ID="ID_316573316" MODIFIED="1588694417206" TEXT="... can be solved with graph models"/>
 </node>
-<node CREATED="1588694473232" FOLDED="true" ID="ID_651628915" MODIFIED="1588694480750" TEXT="10.1 Graphs and Graph Models">
+<node CREATED="1588694473232" ID="ID_651628915" MODIFIED="1588694480750" TEXT="10.1 Graphs and Graph Models">
 <node CREATED="1588694490473" FOLDED="true" ID="ID_1006252210" MODIFIED="1588694671297" TEXT="Definition">
 <node CREATED="1588694609042" ID="ID_378492061" MODIFIED="1588694609878" TEXT="A graph G = (V , E) consists of">
 <node CREATED="1588694502987" ID="ID_150382551" MODIFIED="1588694617549" TEXT="V a nonempty set of vertices (or nodes)"/>
@@ -6173,7 +6173,7 @@
 <node CREATED="1588694728611" ID="ID_195045386" MODIFIED="1588694734499" TEXT="Finite set of vertices"/>
 <node CREATED="1588694734880" ID="ID_1742491815" MODIFIED="1588694750817" TEXT="... and a finite set of edges"/>
 </node>
-<node CREATED="1588694765298" FOLDED="true" ID="ID_158663622" MODIFIED="1600603305320" TEXT="Examples">
+<node CREATED="1588694765298" ID="ID_158663622" MODIFIED="1600603305320" TEXT="Examples">
 <icon BUILTIN="wizard"/>
 <node CREATED="1588694767093" ID="ID_372965053" MODIFIED="1588694772342" TEXT="Network with">
 <node CREATED="1588694772899" ID="ID_193719954" MODIFIED="1588694775351" TEXT="Data centers"/>
@@ -6208,7 +6208,7 @@
 <node CREATED="1588694990894" ID="ID_1919366523" MODIFIED="1588695000639" TEXT="... as long as correct connections between vertices"/>
 </node>
 <node CREATED="1588695877680" ID="ID_1716215515" MODIFIED="1588695880975" TEXT="Graph types">
-<node CREATED="1588695040047" FOLDED="true" ID="ID_665377283" MODIFIED="1588695047342" TEXT="Simple graph">
+<node CREATED="1588695040047" ID="ID_665377283" MODIFIED="1588695047342" TEXT="Simple graph">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1588695064820" ID="ID_1120821900" MODIFIED="1588695113562" TEXT="Each edge connect two different vertices"/>
 <node CREATED="1588695070616" ID="ID_682687515" MODIFIED="1588695090743" TEXT="No two edges connect same pair of vertices"/>
@@ -6312,6 +6312,188 @@
     <img src="graph_type_summary.png" />
   </body>
 </html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1611492726928" ID="ID_946714633" MODIFIED="1611492735758" TEXT="10.2 Graph Terminology and Special Types of Graphs ">
+<node CREATED="1611492804408" ID="ID_1021949513" MODIFIED="1611492808803" TEXT="Basic Terminology">
+<node CREATED="1611494336065" ID="ID_822462888" MODIFIED="1611494339732" TEXT="Undirected graphs">
+<node CREATED="1611492855926" ID="ID_1815489640" MODIFIED="1611494611487" TEXT="Adjacent (neighbor)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Two vertices u and v in an undirected graph G are called adjacent (or neighbors) in G if u
+    </p>
+    <p>
+      and v are endpoints of an edge e of G. Such an edge e is called incident with the vertices u
+    </p>
+    <p>
+      and v and e is said to connect u and v.
+    </p>
+  </body>
+</html></richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1611492874343" FOLDED="true" ID="ID_1964820205" MODIFIED="1611494612830" TEXT="Neighborhood">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1611493112211" ID="ID_6113938" MODIFIED="1611493122732">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="graph_neighborhood_definition.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1611493150570" ID="ID_1313063661" MODIFIED="1611494610234" TEXT="Degree of a vertex">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The degree of a vertex in an undirected graph is the number of edges incident with it, except
+    </p>
+    <p>
+      that a loop at a vertex contributes twice to the degree of that vertex. The degree of the
+    </p>
+    <p>
+      vertex v is denoted by deg(v).
+    </p>
+  </body>
+</html></richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1611493323865" FOLDED="true" ID="ID_363982126" MODIFIED="1611493362650" TEXT="Isolated vertex">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1611493332272" ID="ID_1622537155" MODIFIED="1611493336348" TEXT="Vertex of degree zero"/>
+<node CREATED="1611493343384" ID="ID_1975359856" MODIFIED="1611493349900" TEXT="Not adjacent to any vertex"/>
+</node>
+<node CREATED="1611493356375" FOLDED="true" ID="ID_883738105" MODIFIED="1611493363081" TEXT="Pendant vertex">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1611493364728" ID="ID_1822874255" MODIFIED="1611493372116" TEXT="iff degree one"/>
+</node>
+<node CREATED="1611493976534" FOLDED="true" ID="ID_664027291" MODIFIED="1611494617936" TEXT="The Handshaking Theorem">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1611494102212" ID="ID_1679576956" MODIFIED="1611494106524" TEXT="Theorem">
+<icon BUILTIN="licq"/>
+<node CREATED="1611494017197" ID="ID_1900422521" MODIFIED="1611494070369">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="the_handshaking_theorem.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1611494112964" ID="ID_199377775" MODIFIED="1611494114800" TEXT="Example">
+<node CREATED="1611494115444" ID="ID_281651226" MODIFIED="1611494133247" TEXT="How many edges for graph with 10 vertices each of degree 6?"/>
+<node CREATED="1611494134203" ID="ID_584005236" MODIFIED="1611494146055" TEXT="6 * 10 = 60"/>
+<node CREATED="1611494148986" ID="ID_1417484240" MODIFIED="1611494151735" TEXT="2m = 60"/>
+<node CREATED="1611494152298" ID="ID_532379925" MODIFIED="1611494154671" TEXT="m = 30"/>
+</node>
+</node>
+<node CREATED="1611494210258" ID="ID_1689231733" MODIFIED="1611494215414" TEXT="Theorem">
+<node CREATED="1611494084244" ID="ID_1490496929" MODIFIED="1611494206945" TEXT="An undirected graph has an even number of vertices of odd degree. "/>
+</node>
+</node>
+<node CREATED="1611494345175" ID="ID_1463239031" MODIFIED="1611494347629" TEXT="Directed graphs">
+<node CREATED="1611494280465" ID="ID_148303809" MODIFIED="1611494608756" TEXT="Initial and terminal vertex">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      When (u, v) is an edge of the graph G with directed edges, u is said to be adjacent to v and v
+    </p>
+    <p>
+      is said to be adjacent from u. The vertex u is called the initial vertex of (u, v), and v is called
+    </p>
+    <p>
+      the terminal or end vertex of (u, v). The initial vertex and terminal vertex of a loop are the
+    </p>
+    <p>
+      same.
+    </p>
+  </body>
+</html></richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1611494358944" ID="ID_1333971786" MODIFIED="1611494608205" TEXT="in-degree and out-degree">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In a graph with directed edges the in-degree of a vertex v, denoted by deg&#8722; (v), is the number
+    </p>
+    <p>
+      of edges with v as their terminal vertex. The out-degree of v, denoted by deg+ (v), is the
+    </p>
+    <p>
+      number of edges with v as their initial vertex. (Note that a loop at a vertex contributes 1 to
+    </p>
+    <p>
+      both the in-degree and the out-degree of this vertex.)
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1611494508261" ID="ID_1626864570" MODIFIED="1611494546849" TEXT="Theorem">
+<icon BUILTIN="licq"/>
+<node CREATED="1611494535205" ID="ID_357291007" MODIFIED="1611494542429">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="theorem_directed_graph.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1611494576748" ID="ID_1215246638" MODIFIED="1611494606406" TEXT="underlying undirected graph">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1611494578188" ID="ID_849204518" MODIFIED="1611494584648" TEXT="Graph resulting from ignoring directions"/>
+<node CREATED="1611494585020" ID="ID_699072929" MODIFIED="1611494594943" TEXT="Sometimes practical because many properties"/>
+<node CREATED="1611494595380" ID="ID_855524935" MODIFIED="1611494601152" TEXT="... doesn&apos;t depend on direction"/>
+</node>
+</node>
+</node>
+<node CREATED="1611494624588" ID="ID_1416525285" MODIFIED="1611494628703" TEXT="Some Special Simple Graphs">
+<node CREATED="1611494650459" ID="ID_1098657946" MODIFIED="1611494654468" TEXT="Complete Graphs">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1611494654947" ID="ID_435138702" MODIFIED="1611494658719" TEXT="Simple graph"/>
+<node CREATED="1611494659090" ID="ID_617023583" MODIFIED="1611494667055" TEXT="Contains exactly one edge"/>
+<node CREATED="1611494667459" ID="ID_1858585491" MODIFIED="1611494675919" TEXT="... between each pair of distinct vertices"/>
+<node CREATED="1611494715586" ID="ID_967389283" MODIFIED="1611494720391" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1611494755129" ID="ID_1542426518" MODIFIED="1611494764293">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="complete_graphs.png" />
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
