@@ -7,7 +7,7 @@
 
 > The opportunity before all of us is living up to the dream of the Library of Alexandria and then taking it a step further - universal access to all knowledge. Interestingly, it is now technically doable. -- **[Brewster Kahle](https://en.wikipedia.org/wiki/Brewster_Kahle)** 
 
-Hello and welcome to my personal Alexandria Library!
+Welcome to The Alexandria Library!
 
 You'll find here the result of my insatiable thirst of knowledge, mainly in the form of [mindmaps](https://en.wikipedia.org/wiki/Mind_map) (but not only).
 
