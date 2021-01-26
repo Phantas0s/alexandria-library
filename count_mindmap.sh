@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 count=$(find -- **/*.mm | wc -l)
 pattern="\(https\:\/\/img\.shields\.io\/badge\/total_mindmaps.*\)"
