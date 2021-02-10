@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1549196320102" ID="ID_1530383272" LINK="https://devchat.tv/freelancers/fs-299-beyond-burnout-how-to-work-hard-and-enjoy-life-with-dr-sherry-walling/" MODIFIED="1572876021835" TEXT="Beyond Burnout &#x2013; How to Work Hard and Enjoy Life">
+<node CREATED="1549196320102" ID="ID_1530383272" LINK="https://devchat.tv/freelancers/fs-299-beyond-burnout-how-to-work-hard-and-enjoy-life-with-dr-sherry-walling/" MODIFIED="1612107400509" TEXT="Beyond Burnout &#x2013; How to Work Hard and Enjoy Life">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,7 +12,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1549196878489" FOLDED="true" ID="ID_1355307305" MODIFIED="1572848689117" POSITION="left" TEXT="Focusing only on business">
+<node CREATED="1549196878489" ID="ID_1355307305" MODIFIED="1572848689117" POSITION="right" TEXT="Focusing only on business">
 <icon BUILTIN="full-1"/>
 <node CREATED="1549196916958" ID="ID_1791781624" MODIFIED="1549196921507" TEXT="Not really enjoyable"/>
 <node CREATED="1549196903491" ID="ID_1577209582" MODIFIED="1549196938802" TEXT="Don&apos;t put everything on one thing"/>
@@ -45,7 +45,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1549197638657" FOLDED="true" ID="ID_165658645" MODIFIED="1572848858995" POSITION="left" TEXT="Assumptions">
+<node CREATED="1549197638657" ID="ID_165658645" MODIFIED="1572848858995" POSITION="right" TEXT="Assumptions">
 <icon BUILTIN="full-2"/>
 <node CREATED="1549197402305" ID="ID_1378013921" MODIFIED="1572848696180" TEXT="We have never enough">
 <node CREATED="1549197407825" ID="ID_386407241" MODIFIED="1549197408927" TEXT="Money"/>
@@ -59,17 +59,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1549197559440" FOLDED="true" ID="ID_1300950816" MODIFIED="1572848855617" TEXT="Making enough money to NOT budget">
+<node CREATED="1549197559440" ID="ID_1300950816" MODIFIED="1572848855617" TEXT="Making enough money to NOT budget">
 <node CREATED="1549197572700" ID="ID_1504477421" MODIFIED="1549197585992" TEXT="but... if you don&apos;t budget, you don&apos;t make enough money!"/>
-<node CREATED="1549197586510" ID="ID_1761469944" MODIFIED="1549197590932" TEXT="Lot of expensive shoes in the world">
+<node CREATED="1549197586510" ID="ID_1761469944" MODIFIED="1549197590932" TEXT="Lot of expensive shoes in the world"/>
 <node CREATED="1549197598244" ID="ID_531341917" MODIFIED="1549197602036" TEXT="... or watches"/>
-</node>
 </node>
 <node CREATED="1549197920983" ID="ID_544249633" MODIFIED="1572848856515" TEXT="It&apos;s our fault">
 <node CREATED="1549197926303" ID="ID_377606848" MODIFIED="1549197934035" TEXT="NOT everything is in our control"/>
 </node>
 </node>
-<node CREATED="1549197710525" FOLDED="true" ID="ID_1731054865" MODIFIED="1572848952627" POSITION="left" TEXT="Elon Musk model">
+<node CREATED="1549197710525" FOLDED="true" ID="ID_1731054865" MODIFIED="1572848952627" POSITION="right" TEXT="Elon Musk model">
 <icon BUILTIN="full-3"/>
 <node CREATED="1549197717115" FOLDED="true" ID="ID_1019297737" MODIFIED="1572848885074" TEXT="Working all the time">
 <node CREATED="1549197730108" ID="ID_1891070748" MODIFIED="1549197738020" TEXT="Toxic way of thinking?"/>
@@ -89,7 +88,7 @@
 <node CREATED="1549198227322" ID="ID_862406703" MODIFIED="1549198233574" TEXT="is due a lot by chance!"/>
 </node>
 </node>
-<node CREATED="1549197990396" FOLDED="true" ID="ID_1162583753" MODIFIED="1572849636788" POSITION="right" TEXT="Burnout">
+<node CREATED="1549197990396" FOLDED="true" ID="ID_1162583753" MODIFIED="1572849636788" POSITION="left" TEXT="Burnout">
 <icon BUILTIN="full-4"/>
 <node CREATED="1549198543482" ID="ID_1034359813" MODIFIED="1572848954962" TEXT="Studied for 30 years">
 <node CREATED="1549198547662" ID="ID_1656536205" MODIFIED="1549198551934" TEXT="Not only in tech!"/>
@@ -137,7 +136,7 @@
 <node CREATED="1549198596598" ID="ID_1144229390" MODIFIED="1549198600570" TEXT="But only one part of the problem"/>
 </node>
 </node>
-<node CREATED="1549198854390" FOLDED="true" ID="ID_697074602" MODIFIED="1572849635460" POSITION="right" TEXT="What success mean">
+<node CREATED="1549198854390" FOLDED="true" ID="ID_697074602" MODIFIED="1572849635460" POSITION="left" TEXT="What success mean">
 <icon BUILTIN="full-5"/>
 <node CREATED="1549198857820" ID="ID_191881649" MODIFIED="1549198913049" TEXT="Huge mistake made on that"/>
 <node CREATED="1549198861800" ID="ID_910639305" MODIFIED="1572849246255" TEXT="Choosing activity">

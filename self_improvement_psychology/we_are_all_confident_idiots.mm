@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572690200779" ID="ID_1248565166" LINK="https://psmag.com/social-justice/confident-idiots-92793" MODIFIED="1598106506090" TEXT="We Are All Confident Idiots">
+<node CREATED="1572690200779" ID="ID_1248565166" LINK="https://psmag.com/social-justice/confident-idiots-92793" MODIFIED="1612108637310" TEXT="We Are All Confident Idiots">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -152,8 +152,7 @@
       It could be link to the book &quot;The information diet&quot; which basically claims that corporations in our society try to comfort us in the confirmation bias by serving us information which are not in contradiction with our believes.<br />It's a powerful and scary idea.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
 </node>
@@ -288,7 +287,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572694617107" ID="ID_373363454" MODIFIED="1574748656810" POSITION="left" TEXT="Civics for enlighted dummies">
+<node CREATED="1572694617107" FOLDED="true" ID="ID_373363454" MODIFIED="1574748656810" POSITION="left" TEXT="Civics for enlighted dummies">
 <icon BUILTIN="full-6"/>
 <node CREATED="1572694769361" ID="ID_1814284528" MODIFIED="1572694786350" TEXT="People do study">
 <node CREATED="1572694786529" ID="ID_184315271" MODIFIED="1598107225365" TEXT="... and think that American cultural knowledge decay"/>

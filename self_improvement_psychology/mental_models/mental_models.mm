@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1557221747459" ID="ID_797804880" LINK="https://fs.blog/mental-models/" MODIFIED="1599317952529" TEXT="Farnam Street">
+<node CREATED="1557221747459" ID="ID_797804880" LINK="https://fs.blog/mental-models/" MODIFIED="1612107401440" TEXT="Farnam Street">
 <richcontent TYPE="NOTE"><html>
   <head>
     
