@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+./count_mindmap.sh
+git add README.md
