@@ -3094,6 +3094,263 @@
 <node CREATED="1596776462931" ID="ID_411695610" MODIFIED="1596776465943" POSITION="right" TEXT="Streams ">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
+<node CREATED="1613119577318" ID="ID_1274480104" MODIFIED="1613119581003" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1613114695849" ID="ID_1802503028" MODIFIED="1613114701602" TEXT="Abstract data type"/>
+<node CREATED="1613114709044" ID="ID_1792574134" MODIFIED="1613114712011" TEXT="Big ideas">
+<node CREATED="1613114712194" ID="ID_256874994" MODIFIED="1613114717183" TEXT="Efficiency">
+<node CREATED="1613118625796" ID="ID_1501440286" MODIFIED="1613118630465" TEXT="Decouple order of evaluation"/>
+<node CREATED="1613118631280" ID="ID_1690594505" MODIFIED="1613118635296" TEXT="... from the form of the program"/>
+</node>
+<node CREATED="1613118637714" ID="ID_1534324085" MODIFIED="1613118644264" TEXT="Infinite data sets"/>
+<node CREATED="1613118645556" ID="ID_1275509558" MODIFIED="1613118657248" TEXT="Functional representation of time-varying information"/>
+</node>
+<node CREATED="1613118821941" ID="ID_665447798" MODIFIED="1613118827749" TEXT="n prime for a mathematician">
+<node CREATED="1613118827969" ID="ID_1671419857" MODIFIED="1613118829014" TEXT="N is prime if it has no factors in the range 2 &#x2264; f &lt; n"/>
+</node>
+<node CREATED="1613118837971" ID="ID_1828229741" MODIFIED="1613119143523" TEXT="... computer implementation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ; as we wrote it<br /><b>(define (prime? n) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;(null? (filter (lambda (x) (= (remainder n x) 0)) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(range 2 (- n 1))))) </b>
+    </p>
+    <p>
+      <br />
+      ; as it is often implemented
+    </p>
+    <p>
+      <b>(define (prime? n) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;(define (iter factor) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;(cond ((= factor n) #t) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((= (remainder n factor) 0) #f) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (iter (+ factor 1))))) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;(iter 2)) </b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1613118843017" ID="ID_1734361199" MODIFIED="1613118861052" TEXT="Get all the numbers in the range [2, n &#x2212; 1]">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1613118845282" ID="ID_1181390352" MODIFIED="1613118878854" TEXT="See which of those are factors of n">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1613118859208" ID="ID_1932463169" MODIFIED="1613118880095" TEXT="See if the result is empty">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1613118968274" ID="ID_1079831873" MODIFIED="1613119053772" TEXT="Why don&apos;t we express the problem the way above?">
+<node CREATED="1613119053967" ID="ID_90963463" MODIFIED="1613119055693" TEXT="Efficieny"/>
+<node CREATED="1613119056673" ID="ID_590959556" MODIFIED="1613119068861" TEXT="Construct huge list if input is bug"/>
+<node CREATED="1613119069990" ID="ID_1599376527" MODIFIED="1613119074460" TEXT="... and then test every single element"/>
+</node>
+<node CREATED="1613119177111" ID="ID_1660692385" MODIFIED="1613119183554" TEXT="Idea of stream">
+<node CREATED="1613119183718" ID="ID_1602702918" MODIFIED="1613119206216" TEXT="Write a problem which looks like first implementation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (prime? n)
+    </p>
+    <p>
+      &#160;&#160;(stream-null? (stream-filter (lambda (x) (= (remainder n x) 0))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(stream-range 2 (- n 1)))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1613119191464" ID="ID_846789159" MODIFIED="1613119196484" TEXT="... but run as fast as second one"/>
+<node CREATED="1613119297959" ID="ID_1499758530" MODIFIED="1613119345443" TEXT="Implementation">
+<node CREATED="1613119307200" ID="ID_295847643" MODIFIED="1613119323643" TEXT="Pair"/>
+<node CREATED="1613119317943" ID="ID_487847627" MODIFIED="1613119338863" TEXT="car">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613119325471" ID="ID_898349992" MODIFIED="1613119327106" TEXT="first element"/>
+</node>
+<node CREATED="1613119327639" ID="ID_1056591171" MODIFIED="1613119339561" TEXT="cdr">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613119329591" ID="ID_1258451580" MODIFIED="1613119335699" TEXT="promise to compute the rest of the elements later"/>
+</node>
+</node>
+<node CREATED="1613119353927" ID="ID_1290872152" MODIFIED="1613119382315" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1613119355383" ID="ID_1700706989" MODIFIED="1613119361987" TEXT="Range of number [2,999]"/>
+<node CREATED="1613119362966" ID="ID_156782449" MODIFIED="1613119379963" TEXT="car">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613119365863" ID="ID_1111720344" MODIFIED="1613119366387" TEXT="2"/>
+</node>
+<node CREATED="1613119366902" ID="ID_1219984999" MODIFIED="1613119381001" TEXT="cdr">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613119368335" ID="ID_637314703" MODIFIED="1613119377819" TEXT="promise to compute range [3,999]"/>
+</node>
+</node>
+</node>
+<node CREATED="1613119455517" ID="ID_443121605" MODIFIED="1613119463123" TEXT="Decouple">
+<node CREATED="1613119463333" ID="ID_1387040686" MODIFIED="1613119469243" TEXT="Form of the program">
+<node CREATED="1613119469405" ID="ID_1124517599" MODIFIED="1613119476058" TEXT="Order in which computation is presented"/>
+</node>
+<node CREATED="1613119476902" ID="ID_1358202844" MODIFIED="1613119492833" TEXT="Actual order of evaluation"/>
+</node>
+<node CREATED="1613119511524" ID="ID_323318245" MODIFIED="1613119515723" TEXT="Whole course is about">
+<node CREATED="1613119516069" ID="ID_698476998" MODIFIED="1613119539250" TEXT="letting us write program reflecting the problem we solve"/>
+<node CREATED="1613119530323" ID="ID_1149114659" MODIFIED="1613119551002" TEXT="... instead of reflecting the way the computer work"/>
+<node CREATED="1613119552869" ID="ID_567765706" MODIFIED="1613119558208" TEXT="One step more in that direction!"/>
+</node>
+</node>
+<node CREATED="1613119599605" ID="ID_1207985940" MODIFIED="1613119603579" TEXT="Implementation">
+<icon BUILTIN="full-1"/>
+<node CREATED="1613119606636" ID="ID_177119839" MODIFIED="1613119609162" TEXT="Crucial point">
+<node CREATED="1613119615524" ID="ID_960065183" MODIFIED="1613119622375" TEXT="(cons-stream from (stream-range (+ from 1) to)) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1613119760052" ID="ID_493573211" MODIFIED="1613119793656" TEXT="cons-stream">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613119778724" ID="ID_892247458" MODIFIED="1613119780568" TEXT="Special form"/>
+<node CREATED="1613119780964" ID="ID_719315198" MODIFIED="1613119789896" TEXT="Can&apos;t evaluate the second argument"/>
+</node>
+<node CREATED="1613119807076" ID="ID_582329156" MODIFIED="1613119828085" TEXT="cons-stream a b">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613119813284" ID="ID_1991450872" MODIFIED="1613119816606" TEXT="Equivalent to"/>
+<node CREATED="1613119819452" ID="ID_247169602" MODIFIED="1613119828941" TEXT="... (cons a (delay b))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1613119833363" ID="ID_892937868" MODIFIED="1613119835579" TEXT="delay">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613119836035" ID="ID_335367567" MODIFIED="1613119837704" TEXT="Special form"/>
+<node CREATED="1613119841006" ID="ID_808854091" MODIFIED="1613119845047" TEXT="Constructs the promise"/>
+<node CREATED="1613119850924" ID="ID_1854502376" MODIFIED="1613119859853" TEXT="(delay b)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613119860082" ID="ID_1575188481" MODIFIED="1613119862936" TEXT="Equivalent to"/>
+<node CREATED="1613119863227" ID="ID_341743011" MODIFIED="1613119868532" TEXT="(lambda () b)">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613119905690" ID="ID_1068767139" MODIFIED="1613119915535" TEXT="Function with no argument called"/>
+<node CREATED="1613119915852" ID="ID_585202578" MODIFIED="1613119921188" TEXT="thunk">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1613119889652" ID="ID_72137478" MODIFIED="1613119934781" TEXT="force">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613119895363" ID="ID_1270942981" MODIFIED="1613119922651" TEXT="(define (force promise) (promise))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1613119963101" ID="ID_1320529666" MODIFIED="1613119966919" TEXT="selectors for streams">
+<node CREATED="1613119967105" ID="ID_1660926452" MODIFIED="1613119990420" TEXT="(define (stream-car stream) (car stream))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1613119978392" ID="ID_572883865" MODIFIED="1613119991108" TEXT="(define (stream-cdr stream) (force (cdr stream))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1613120024937" ID="ID_1456747550" MODIFIED="1613120038084" TEXT="Lazy evaluation">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613120033265" ID="ID_1116204499" MODIFIED="1613120037603" TEXT="call by need">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1613120048889" ID="ID_1011444877" MODIFIED="1613120130881" TEXT="Reordering and functional programming">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+<node CREATED="1613120173201" ID="ID_1294832398" MODIFIED="1613120179974" TEXT="Delaying evaluation can be a problem"/>
+<node CREATED="1613120180353" ID="ID_1054953368" MODIFIED="1613120187510" TEXT="... when you mutate your variables"/>
+</node>
+<node CREATED="1613120188721" ID="ID_568864006" MODIFIED="1613120197479" TEXT="Memoization of streams">
+<icon BUILTIN="full-3"/>
+<node CREATED="1613120205385" ID="ID_90396888" MODIFIED="1613120213069" TEXT="Delay returns procedure of no arguments"/>
+<node CREATED="1613120213513" ID="ID_411040766" MODIFIED="1613120219661" TEXT="... that memoize the promise">
+<node CREATED="1613120227320" ID="ID_651046122" MODIFIED="1613120240955" TEXT="Expression given as argument"/>
+<node CREATED="1613120241432" ID="ID_1296804857" MODIFIED="1613120257069" TEXT="... is only evaluated once when promise is forced"/>
+<node CREATED="1613120245433" ID="ID_640628444" MODIFIED="1613120262573" TEXT="... and the result is cached"/>
+</node>
+<node CREATED="1613120272304" ID="ID_56044449" MODIFIED="1613120278315" TEXT="... that&apos;s why functional-only technique">
+<node CREATED="1613120278833" ID="ID_405166768" MODIFIED="1613120284709" TEXT="Any mutation"/>
+<node CREATED="1613120285075" ID="ID_218962775" MODIFIED="1613120289364" TEXT="... would only happen once otherwise"/>
+</node>
+</node>
+<node CREATED="1613120292153" ID="ID_226586005" MODIFIED="1613120296231" TEXT="Infinite streams">
+<icon BUILTIN="full-4"/>
+<node CREATED="1613120340831" ID="ID_1230109552" MODIFIED="1613120346596" TEXT="Can create what looks like an infinite loop"/>
+<node CREATED="1613120347049" ID="ID_892224047" MODIFIED="1613120354316" TEXT="... because not every possible values are evaluated"/>
+<node CREATED="1613120354688" ID="ID_618773251" MODIFIED="1613120361613" TEXT="... which can lead us to represent infinite streams">
+<node CREATED="1613120384039" ID="ID_1326673112" MODIFIED="1613120392610" TEXT="Example">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (prime? n)
+    </p>
+    <p>
+      &#160;&#160;(stream-null? (stream-filter (lambda (x) (= (remainder n x) 0))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(stream-range 2 (- n 1)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="wizard"/>
+<node CREATED="1613120400296" ID="ID_1456785994" MODIFIED="1613120402989" TEXT="Range [2, &#x221e;] "/>
+</node>
+</node>
+</node>
+<node CREATED="1613120427295" ID="ID_1475386033" MODIFIED="1613120431700" TEXT="Time varying information">
+<icon BUILTIN="full-5"/>
+<node CREATED="1613120560167" ID="ID_1070402399" MODIFIED="1613120577153" TEXT="Functional programming works great "/>
+<node CREATED="1613120577598" ID="ID_1723479418" MODIFIED="1613120581851" TEXT="... for question with same answer"/>
+<node CREATED="1613120582311" ID="ID_1050972123" MODIFIED="1613120589771" TEXT="... whatever happens in the world">
+<node CREATED="1613120603390" ID="ID_680022377" MODIFIED="1613120608419" TEXT="That&apos;s why we invented OOP"/>
+</node>
+<node CREATED="1613120593935" ID="ID_706265220" MODIFIED="1613120602722" TEXT="With stream we can model state functionally">
+<node CREATED="1613120616191" ID="ID_999851549" MODIFIED="1613120638703" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1613120617591" ID="ID_967430780" MODIFIED="1613120621466" TEXT="Stream of everything"/>
+<node CREATED="1613120621799" ID="ID_75452892" MODIFIED="1613120637568" TEXT="... the user will type">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (user-stream)
+    </p>
+    <p>
+      &#160;&#160;(cons-stream (read) (user-stream)) )
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1596776488125" ID="ID_560808603" MODIFIED="1596776497356" POSITION="right" TEXT="Lazy evaluator / Nondeterministic evaluator ">
 <icon BUILTIN="full-1"/>

@@ -1,6 +1,6 @@
 # The Alexandria Library
 
-[![Alexandria Library illustration](./library-of-alexandria.jpg)]()
+![Alexandria Library illustration](./library-of-alexandria.jpg)
 
 ![count mindmaps](https://img.shields.io/badge/total_mindmaps-175-blue)
 [![Github repo-size](https://img.shields.io/github/repo-size/Phantas0s/alexandria-library.svg?color=success&label=Library%20size)]()
