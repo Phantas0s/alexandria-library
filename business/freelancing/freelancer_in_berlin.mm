@@ -1,17 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1516460639988" ID="ID_1887747761" MODIFIED="1599390304427" TEXT="Freelancer in Berlin">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      http://www.disconnectionist.com/blog/berlin-freelance.html<br />https://www.settle-in-berlin.com/how-to-become-a-freelancer-in-germany-self-employed/<br />
-    </p>
-  </body>
-</html>
-</richcontent>
+<node CREATED="1516460639988" ID="ID_1887747761" MODIFIED="1613220341400" TEXT="Freelancer in Berlin">
 <node CREATED="1516460722010" ID="ID_705347624" MODIFIED="1599390313136" POSITION="left" TEXT="Health insurance">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -22,8 +11,7 @@
       https://www.settle-in-berlin.com/health-insurance-germany/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-4"/>
 <node CREATED="1516460845152" ID="ID_1476431390" MODIFIED="1516460851737" TEXT="Two healthcare">
 <node CREATED="1516460851946" ID="ID_1853191769" MODIFIED="1516460854397" TEXT="Private">
@@ -55,6 +43,20 @@
 <node CREATED="1516460910405" ID="ID_712235365" MODIFIED="1516460914298" TEXT="Tax deductible"/>
 <node CREATED="1516461320669" ID="ID_1806425525" MODIFIED="1516461333557" TEXT="Cheapest the best (recognised by gouvernment)"/>
 </node>
+<node CREATED="1613220318067" ID="ID_566461387" MODIFIED="1613220326400" POSITION="right" TEXT="Sources">
+<icon BUILTIN="full-0"/>
+<node CREATED="1613220494496" ID="ID_132624607" MODIFIED="1613220496921" TEXT="Information">
+<node CREATED="1613220331118" ID="ID_1059690518" LINK="http://www.disconnectionist.com/blog/berlin-freelance.html" MODIFIED="1613220399618" TEXT="Becoming a freelancer in Berlin: the tricks and the traps"/>
+<node CREATED="1613220341614" ID="ID_971289099" LINK="https://www.settle-in-berlin.com/how-to-become-a-freelancer-in-germany-self-employed/ " MODIFIED="1613220413602" TEXT="How to get started and become a freelancer in Germany"/>
+<node CREATED="1613220447381" ID="ID_974963068" LINK="https://www.iamexpat.de/expat-info/taxation-germany/german-tax-system" MODIFIED="1613222467101" TEXT="German tax system &amp; Taxes in Germany (2021)"/>
+<node CREATED="1613222997134" ID="ID_545036618" LINK="https://lifeinduesseldorf.com/starting-business-germany-tax-guide-freelance-expats/" MODIFIED="1613223005071" TEXT="Life in Dusseldork"/>
+<node CREATED="1613223282419" ID="ID_1416751074" LINK="https://mag.n26.com/how-to-be-a-freelancer-in-germany-5d124cf0b1ba" MODIFIED="1613223290270" TEXT="N26: How to be a Freelancer in Germany"/>
+<node CREATED="1613223311635" ID="ID_1924941036" LINK="https://service.berlin.de/dienstleistung/305249/en/ " MODIFIED="1613223314717" TEXT="Residence permit"/>
+</node>
+<node CREATED="1613220498285" ID="ID_1211054258" MODIFIED="1613220502953" TEXT="Tax Consultant">
+<node CREATED="1613220503701" ID="ID_1229474141" LINK="https://www.ageras.de/p/accountant/berlin?utm_source=settle_in_berlin&amp;utm_campaign=settle_in_berlin_economy_de&amp;utm_medium=affiliate&amp;utm_content=link" MODIFIED="1613220506911" TEXT="ageras.de"/>
+</node>
+</node>
 <node CREATED="1516461493418" ID="ID_1699897610" MODIFIED="1516461518865" POSITION="right" TEXT="Freelancer and self employed">
 <icon BUILTIN="full-1"/>
 <node CREATED="1516461503240" ID="ID_1718180128" MODIFIED="1517146710171" TEXT="Freiberuflich (freelancer)">
@@ -62,21 +64,10 @@
 <node CREATED="1516461565114" ID="ID_918567937" MODIFIED="1516461567362" TEXT="Anmeldung"/>
 <node CREATED="1516461568117" ID="ID_52159406" MODIFIED="1516461571560" TEXT="Valid VISA"/>
 <node CREATED="1516461583957" ID="ID_1978051388" MODIFIED="1516461592084" TEXT="Registering">
-<node CREATED="1516461656611" ID="ID_1198040166" MODIFIED="1517146703431" TEXT="Fill the form">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      https://www.berlin.de/sen/finanzen/dokumentendownload/steuern/daten-und-fakten/betriebseroeffnung-betriebseinstellung/steuerliche_erfassung_selbst__ndige_t__tigkeit_beteiligung_an_einer_personenges.pdf<br /><br />Explanations:
-    </p>
-    <p>
-      https://medium.com/@tiahardyrobinson/how-to-do-the-fragebogen-zur-steuerlichen-erfassung-in-english-2017-edition-for-freelancers-ba15e554da70
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1516461656611" ID="ID_1198040166" MODIFIED="1613223272415" TEXT="Fill the form">
 <icon BUILTIN="full-1"/>
+<node CREATED="1613223260164" ID="ID_218737829" LINK="https://www.berlin.de/sen/finanzen/dokumentendownload/steuern/daten-und-fakten/betriebseroeffnung-betriebseinstellung/steuerliche_erfassung_selbst__ndige_t__tigkeit_beteiligung_an_einer_personenges.pdf" MODIFIED="1613223263622" TEXT="Form"/>
+<node CREATED="1613223252901" ID="ID_490382939" LINK="https://medium.com/@tiahardyrobinson/how-to-do-the-fragebogen-zur-steuerlichen-erfassung-in-english-2017-edition-for-freelancers-ba15e554da70" MODIFIED="1613223255926" TEXT="Explanations"/>
 </node>
 <node CREATED="1516461683541" ID="ID_1027439929" MODIFIED="1516461718559" TEXT="Bring the form to the local Finanzamt">
 <icon BUILTIN="full-2"/>
@@ -84,17 +75,7 @@
 <node CREATED="1516461700055" ID="ID_619465116" MODIFIED="1517146695148" TEXT="Get tax id (steuernummer)">
 <icon BUILTIN="full-3"/>
 </node>
-<node CREATED="1517145282868" ID="ID_884067872" MODIFIED="1517146796610" TEXT="Residence permit">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      https://service.berlin.de/dienstleistung/305249/en/<br />https://mag.n26.com/how-to-be-a-freelancer-in-germany-5d124cf0b1ba<br /><br /><br />
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1517145282868" ID="ID_884067872" MODIFIED="1613223311476" TEXT="Residence permit">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-4"/>
 <node CREATED="1517145848946" ID="ID_499344296" MODIFIED="1517145854564" TEXT="Valid passport"/>
@@ -116,40 +97,15 @@
 </node>
 <node CREATED="1516461895618" ID="ID_1312942138" MODIFIED="1516464788697" POSITION="left" TEXT="Taxes">
 <icon BUILTIN="full-5"/>
-<node CREATED="1516460987667" ID="ID_1081061270" MODIFIED="1516465011418" TEXT="Tax consultant (Steuerberater)">
+<node CREATED="1516460987667" ID="ID_1081061270" MODIFIED="1613222093416" TEXT="Tax consultant (Steuerberater)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
-    <p>
-      https://www.ageras.de/p/accountant/berlin?utm_source=settle_in_berlin&amp;utm_campaign=settle_in_berlin_economy_de&amp;utm_medium=affiliate&amp;utm_content=link<br /><br />Help for:
-    </p>
-    <p>
-      
-    </p>
-    <ul>
-      <li>
-        Bookkeeping &amp; Accounting
-      </li>
-      <li>
-        Professional law
-      </li>
-      <li>
-        Help with with V.A.T, Income &amp; Tade Tax (calculating and filing when it&#8217;s due.)
-      </li>
-      <li>
-        Help with the annual tax return (+ E&#220;R &amp; Gewerbe tax for Gewerbetreibende)
-      </li>
-      <li>
-        Representative duty (communicating with the Finanzamt in your stead.)
-      </li>
-      <li>
-        General legal counselling
-      </li>
-    </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1516460993494" ID="ID_182925568" MODIFIED="1516460995747" TEXT="Get a good one">
 <node CREATED="1516461050989" ID="ID_361520234" MODIFIED="1516461073799" TEXT="Good customer service"/>
 <node CREATED="1516461074350" ID="ID_1567163691" MODIFIED="1516461077098" TEXT="Ask questions"/>
@@ -159,68 +115,46 @@
 <node CREATED="1516465056147" ID="ID_1613022509" MODIFIED="1516465072079" TEXT="Less work for the steuerberater!"/>
 <node CREATED="1516465093927" ID="ID_1982485379" MODIFIED="1516465104868" TEXT="Export in a comprehensive format for steuerberater"/>
 </node>
+<node CREATED="1613222002197" ID="ID_1261400864" MODIFIED="1613222004271" TEXT="Help for">
+<node CREATED="1613222011652" ID="ID_1038182149" MODIFIED="1613222012706" TEXT="Bookkeeping &amp; Accountin"/>
+<node CREATED="1613222015915" ID="ID_900858282" MODIFIED="1613222035600" TEXT="Help with with V.A.T"/>
+<node CREATED="1613222026301" ID="ID_150352414" MODIFIED="1613222034000" TEXT="Income &amp; Tade Tax"/>
+<node CREATED="1613222067651" ID="ID_685498723" MODIFIED="1613222076479" TEXT="Annual tax return"/>
+<node CREATED="1613222084707" ID="ID_1335319033" MODIFIED="1613222085403" TEXT="Representative duty"/>
+<node CREATED="1613222087979" ID="ID_1389200517" MODIFIED="1613222088546" TEXT="General legal counselling"/>
+</node>
 </node>
 <node CREATED="1516461225695" ID="ID_387948243" MODIFIED="1516461230439" TEXT="Invoices">
-<node CREATED="1516464737884" ID="ID_1774139269" MODIFIED="1516464741564" TEXT="Examples">
-<node CREATED="1516461259056" ID="ID_1732770235" MODIFIED="1516464778757" TEXT="Example">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      http://www.disconnectionist.com/blog/FakeInvoice.pdf
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      https://www.zervant.com/de/blog/kostenlose-rechnungsvorlage-in-excel-mit-anleitung/
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Needs:
-    </p>
-    <p>
-      
-    </p>
-    <ol>
-      <li>
-        Your full name and address
-      </li>
-      <li>
-        Full name and adress of your customer
-      </li>
-      <li>
-        Location, date and unique ID of invoice
-      </li>
-      <li>
-        Your tax number (Steuernummer)
-      </li>
-      <li>
-        Description of goods/services, time of delivery &amp; when payment is due
-      </li>
-      <li>
-        Net price &amp; discounts if applicable
-      </li>
-      <li>
-        Added tax if applicable (If not; mention the Kleinunternehmer rule&#160;&#167; 19 UStG Paragraph 1)
-      </li>
-      <li>
-        Total price
-      </li>
-    </ol>
-    <p>
-      
-    </p>
-    <p>
-      <br />
-      <br />
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1613222096779" ID="ID_319291885" LINK="http://www.disconnectionist.com/blog/FakeInvoice.pdf " MODIFIED="1613222100148" TEXT="Fake Invoice"/>
+<node CREATED="1613222123955" ID="ID_1948586438" LINK="https://www.zervant.com/de/blog/kostenlose-rechnungsvorlage-in-excel-mit-anleitung/" MODIFIED="1613222127532" TEXT="Free invoice"/>
+<node CREATED="1613222143139" FOLDED="true" ID="ID_1479173912" MODIFIED="1613222145023" TEXT="Needs">
+<node CREATED="1613222145379" ID="ID_837734942" MODIFIED="1613222291463" TEXT="Your full name and address">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1613222151579" ID="ID_1586982813" MODIFIED="1613222292711" TEXT="Full name and adress of your customer">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1613222158699" ID="ID_1289380266" MODIFIED="1613222293808" TEXT="Location, date and unique ID of invoice">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1613222163795" ID="ID_61567016" MODIFIED="1613222295015" TEXT="Your tax number (Steuernummer)">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1613222261580" ID="ID_1063297608" MODIFIED="1613222296465" TEXT="Description of">
+<icon BUILTIN="full-5"/>
+<node CREATED="1613222262098" ID="ID_111818022" MODIFIED="1613222262235" TEXT="goods/services"/>
+<node CREATED="1613222262514" ID="ID_528241565" MODIFIED="1613222262687" TEXT="time of delivery "/>
+<node CREATED="1613222262978" ID="ID_1777923633" MODIFIED="1613222263130" TEXT="when payment is due"/>
+</node>
+<node CREATED="1613222263570" ID="ID_1152303519" MODIFIED="1613222298068" TEXT="Net price &amp; discounts if applicable">
+<icon BUILTIN="full-6"/>
+</node>
+<node CREATED="1613222264418" ID="ID_1919635756" MODIFIED="1613222299463" TEXT="Added tax if applicable ">
+<icon BUILTIN="full-7"/>
+<node CREATED="1613222264762" ID="ID_877310678" MODIFIED="1613222265114" TEXT="If not; mention the Kleinunternehmer rule&#xa0;&#xa7; 19 UStG Paragraph 1"/>
+</node>
+<node CREATED="1613222265466" ID="ID_1897631812" MODIFIED="1613222300981" TEXT="Total price">
+<icon BUILTIN="full-8"/>
 </node>
 </node>
 </node>
@@ -228,12 +162,12 @@
 <node CREATED="1516461125772" ID="ID_1359107085" MODIFIED="1516461128098" TEXT="Every month"/>
 <node CREATED="1516461169667" ID="ID_11239332" MODIFIED="1516461181743" TEXT="Ask tax consultant to help you at the beginning"/>
 <node CREATED="1516461197373" ID="ID_810217074" MODIFIED="1516461208030" TEXT="Declare VAT transaction between EU countries"/>
-<node CREATED="1516461128666" ID="ID_1957587432" MODIFIED="1516461151089" TEXT="81 - Page 4"/>
+<node CREATED="1516461128666" HGAP="9" ID="ID_1957587432" MODIFIED="1613222019160" TEXT="81 - Page 4"/>
 <node CREATED="1516461140601" ID="ID_300794187" MODIFIED="1516461155395" TEXT="66 - page 9"/>
 <node CREATED="1516461156586" ID="ID_931910304" MODIFIED="1516461167118" TEXT="45 - page 6"/>
 </node>
 <node CREATED="1516461919775" ID="ID_982667657" MODIFIED="1517056506877" TEXT="Umsatzsteuer / Mehrwertsteuer / Vorsteuer (V.A.T)">
-<node CREATED="1516461923667" ID="ID_825041121" MODIFIED="1517059506947" TEXT="Germany is 19%">
+<node CREATED="1516461923667" ID="ID_825041121" LINK="http://lifeinduesseldorf.com/starting-business-germany-tax-guide-freelance-expats/" MODIFIED="1613222962247" TEXT="Germany is 19%">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -282,11 +216,9 @@
     <p>
       
     </p>
-    <p>
-      http://lifeinduesseldorf.com/starting-business-germany-tax-guide-freelance-expats/
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1516461973633" ID="ID_1752993361" MODIFIED="1516461981252" TEXT="Possible to deduct VAT for everything bought"/>
@@ -305,6 +237,14 @@
 <node CREATED="1517056379787" ID="ID_1677400682" MODIFIED="1517056395717" TEXT="Apparently between 50 000 and 80 000 euro / year">
 <node CREATED="1517056396345" ID="ID_1849010493" MODIFIED="1517146014153" TEXT="33% for taxes"/>
 </node>
+<node CREATED="1613220311470" ID="ID_1323703927" MODIFIED="1613220313882" TEXT="Software">
+<node CREATED="1613220314073" ID="ID_930499936" LINK="https://en.getsorted.de/" MODIFIED="1613223423236" TEXT="GetSorted"/>
+</node>
+<node CREATED="1613222751647" ID="ID_1161899141" MODIFIED="1613222752605" TEXT="Lohnsteuerhilfeverein">
+<node CREATED="1613222757991" ID="ID_1202093533" MODIFIED="1613222758698" TEXT="a non-profit organization"/>
+<node CREATED="1613222763439" ID="ID_1897684599" MODIFIED="1613222764146" TEXT=" help with your taxes for a small membership fee"/>
+<node CREATED="1613222842974" ID="ID_1476429507" LINK="https://www.vlh.de/" MODIFIED="1613222848607" TEXT="Find local center online"/>
+</node>
 </node>
 <node CREATED="1516464779695" ID="ID_1675160008" MODIFIED="1599390328485" POSITION="left" TEXT="Keeping book cleans">
 <icon BUILTIN="full-6"/>
@@ -315,18 +255,7 @@
 </node>
 <node CREATED="1516464850441" ID="ID_1923550833" MODIFIED="1516464913445" TEXT="Yearly tax return (Steuererkl&#xe4;rung)"/>
 </node>
-<node CREATED="1516464896423" ID="ID_1425364624" MODIFIED="1516464905015" TEXT="Example">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      http://www.ms-buchhalter.de/Excel-Buchhaltung.html
-    </p>
-  </body>
-</html></richcontent>
-</node>
+<node CREATED="1516464896423" ID="ID_1425364624" LINK="http://www.ms-buchhalter.de/Excel-Buchhaltung.html" MODIFIED="1613221947652" TEXT="Example"/>
 <node CREATED="1516464926647" ID="ID_1621915507" MODIFIED="1516464932713" TEXT="Bookkeeping softwares">
 <node CREATED="1516464940163" ID="ID_441725943" MODIFIED="1516464964282" TEXT="Go into expenses -&gt; put it in taxes return"/>
 </node>
