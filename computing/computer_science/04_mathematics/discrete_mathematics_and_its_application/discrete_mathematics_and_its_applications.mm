@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1611489383589" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1613114279269" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6448,8 +6448,7 @@
       both the in-degree and the out-degree of this vertex.)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1611494508261" ID="ID_1626864570" MODIFIED="1611494546849" TEXT="Theorem">
@@ -6462,8 +6461,7 @@
   <body>
     <img src="theorem_directed_graph.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1611494576748" ID="ID_1215246638" MODIFIED="1611494606406" TEXT="underlying undirected graph">
@@ -6491,8 +6489,7 @@
   <body>
     <img src="complete_graphs.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
