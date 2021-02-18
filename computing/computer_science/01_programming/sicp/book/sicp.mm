@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1605005939873" TEXT="SICP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1613659552128" TEXT="SICP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1330,9 +1330,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1528632570789" FOLDED="true" ID="ID_1562376040" MODIFIED="1587143678086" POSITION="left" TEXT="Introduction">
+<node CREATED="1528632570789" ID="ID_1562376040" MODIFIED="1587143678086" POSITION="left" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
-<node CREATED="1528632546563" FOLDED="true" ID="ID_576413795" MODIFIED="1587143675336" TEXT="Algorithm">
+<node CREATED="1528632546563" ID="ID_576413795" MODIFIED="1587143675336" TEXT="Algorithm">
 <node CREATED="1528632556211" ID="ID_1211379132" MODIFIED="1528632564762" TEXT="Part of program with precise mathematical function"/>
 </node>
 </node>
@@ -5212,7 +5212,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597469556288" ID="ID_847365467" MODIFIED="1597469558685" TEXT="3.1 Assignment and Local State">
+<node CREATED="1597469556288" FOLDED="true" ID="ID_847365467" MODIFIED="1597469558685" TEXT="3.1 Assignment and Local State">
 <node CREATED="1597469971961" FOLDED="true" ID="ID_1651660501" MODIFIED="1597469974793" TEXT="Introduction">
 <node CREATED="1597469589065" FOLDED="true" ID="ID_947795939" MODIFIED="1597469596133" TEXT="See the world as objects">
 <node CREATED="1597469596334" ID="ID_660053030" MODIFIED="1597469609186" TEXT="Independent">
@@ -6371,7 +6371,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1599054442102" ID="ID_503410192" MODIFIED="1599054444278" TEXT="3.3 Modeling with Mutable Data">
+<node CREATED="1599054442102" FOLDED="true" ID="ID_503410192" MODIFIED="1599054444278" TEXT="3.3 Modeling with Mutable Data">
 <node CREATED="1599054542146" FOLDED="true" ID="ID_510025192" MODIFIED="1599054544150" TEXT="Introduction">
 <node CREATED="1599054472115" ID="ID_1957959098" MODIFIED="1599054492238" TEXT="For now, we have these data abstractions">
 <node CREATED="1599054499463" ID="ID_446055794" MODIFIED="1599054501807" TEXT="selectors"/>
@@ -6680,7 +6680,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1599056390901" FOLDED="true" ID="ID_1526472211" MODIFIED="1599056398713" TEXT="3.3.2 Representing Queues ">
+<node CREATED="1599056390901" ID="ID_1526472211" MODIFIED="1599056398713" TEXT="3.3.2 Representing Queues ">
 <node CREATED="1599746978887" ID="ID_133112468" MODIFIED="1599746982564" TEXT="Sequence"/>
 <node CREATED="1599746983496" ID="ID_363575038" MODIFIED="1599746990723" TEXT="Items inserted at one end">
 <node CREATED="1599746990960" ID="ID_810947774" MODIFIED="1599746997659" TEXT="rear of the queue">
@@ -7323,7 +7323,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1601399476911" ID="ID_270472600" MODIFIED="1601399485467" TEXT="3.4 Concurrency: Time Is of the Essence">
+<node CREATED="1601399476911" FOLDED="true" ID="ID_270472600" MODIFIED="1601399485467" TEXT="3.4 Concurrency: Time Is of the Essence">
 <node CREATED="1601400019604" FOLDED="true" ID="ID_1913571758" MODIFIED="1601400021576" TEXT="Introduction">
 <node CREATED="1601399521383" ID="ID_675121126" MODIFIED="1601399532757" TEXT="Computation objects with local state are powerful"/>
 <node CREATED="1601399533135" ID="ID_586795052" MODIFIED="1601399535245" TEXT="... but have a price">
@@ -7755,7 +7755,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1602003772473" ID="ID_1361540176" MODIFIED="1602003775862" TEXT="3.5 Streams">
+<node CREATED="1602003772473" FOLDED="true" ID="ID_1361540176" MODIFIED="1602003775862" TEXT="3.5 Streams">
 <node CREATED="1602004612517" FOLDED="true" ID="ID_1855850252" MODIFIED="1602004614692" TEXT="Introduction">
 <node CREATED="1602003792944" ID="ID_1689870686" MODIFIED="1602003801436" TEXT="Alternative approach to model state"/>
 <node CREATED="1602003816776" ID="ID_1953235468" MODIFIED="1602003822965" TEXT="Based on data structure">
@@ -8182,6 +8182,213 @@
 <node CREATED="1602231567727" ID="ID_1439654922" MODIFIED="1602231580555" TEXT="... with perceived real time from users?"/>
 </node>
 </node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1613659561454" ID="ID_1709087113" MODIFIED="1613659681300" POSITION="right" TEXT="Metalinguistic Abstraction">
+<icon BUILTIN="full-4"/>
+<node CREATED="1613659785405" ID="ID_1342797686" MODIFIED="1613659793497" TEXT="Introduction">
+<node CREATED="1613659793765" ID="ID_1065573012" MODIFIED="1613659809232" TEXT="Programmer control complexity of their design"/>
+<node CREATED="1613659809863" ID="ID_295536720" MODIFIED="1613659964095" TEXT="... as same general technique "/>
+<node CREATED="1613659965155" ID="ID_809151167" MODIFIED="1613659966247" TEXT="... used by designers of all complex systems">
+<node CREATED="1613659831124" ID="ID_1469195250" MODIFIED="1613659886679" TEXT="Combine primitive elements"/>
+<node CREATED="1613659888547" ID="ID_210608214" MODIFIED="1613659890536" TEXT="... to form compbound objects"/>
+<node CREATED="1613659843671" ID="ID_372478989" MODIFIED="1613659879034" TEXT="Abstract compound objects "/>
+<node CREATED="1613659880635" ID="ID_152588459" MODIFIED="1613659882648" TEXT="... forming higher level building blocks"/>
+<node CREATED="1613659918915" ID="ID_1882147746" MODIFIED="1613659922432" TEXT="Preserve modularity"/>
+<node CREATED="1613659924083" ID="ID_877317784" MODIFIED="1613659937935" TEXT="... by adopting large scale views of system structure"/>
+</node>
+<node CREATED="1613659981283" ID="ID_1401107930" MODIFIED="1613659999097" TEXT="Any fixed programming language insufficient">
+<node CREATED="1613660018659" ID="ID_15210726" MODIFIED="1613660025006" TEXT="To describe (hence think about)"/>
+<node CREATED="1613660025387" ID="ID_1348631918" MODIFIED="1613660029591" TEXT="... problem in different ways"/>
+</node>
+<node CREATED="1613660136461" ID="ID_1721005191" MODIFIED="1613660142226" TEXT="Metalinguistic abstraction">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613660143265" ID="ID_338260443" MODIFIED="1613660148423" TEXT="Establishing new languages"/>
+<node CREATED="1613660151414" ID="ID_1936057227" MODIFIED="1613660158894" TEXT="Important role in all branch of engineering design"/>
+<node CREATED="1613660170171" ID="ID_1128614408" MODIFIED="1613660178853" TEXT="In computer programming">
+<node CREATED="1613660179033" ID="ID_222168244" MODIFIED="1613660188054" TEXT="Can formulate new languages"/>
+<node CREATED="1613660194137" ID="ID_696900634" MODIFIED="1613660199461" TEXT="Implement these languages">
+<node CREATED="1613660199698" ID="ID_1063431538" MODIFIED="1613660601698" TEXT="interpreters / evaluators">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613660601905" ID="ID_1628186141" MODIFIED="1613660603699" TEXT="synonyms"/>
+</node>
+<node CREATED="1613660215841" ID="ID_1235522911" MODIFIED="1613660220447" TEXT="... procedure"/>
+<node CREATED="1613660220884" ID="ID_1151897498" MODIFIED="1613660226094" TEXT="... when applied to expression of the language"/>
+<node CREATED="1613660226776" ID="ID_1319552752" MODIFIED="1613660234086" TEXT="... perform action required"/>
+<node CREATED="1613660234489" ID="ID_1063236885" MODIFIED="1613660238629" TEXT="... to evaluate expression"/>
+</node>
+<node CREATED="1613660247625" ID="ID_1325374225" MODIFIED="1613660278949" TEXT="Most fundamental idea in programming">
+<node CREATED="1613660279257" ID="ID_694864920" MODIFIED="1613660284197" TEXT="Interpreter"/>
+<node CREATED="1613660284577" ID="ID_1303507597" MODIFIED="1613660288805" TEXT="... is just another program"/>
+</node>
+</node>
+<node CREATED="1613660321386" ID="ID_1528388817" MODIFIED="1613660335860" TEXT="Can see any program as an interpreter"/>
+</node>
+</node>
+<node CREATED="1613661562233" ID="ID_249082457" MODIFIED="1613661572837" TEXT="4.1 The Metacircular Evaluator">
+<node CREATED="1613662123405" ID="ID_1653087019" MODIFIED="1613662125194" TEXT="Introduction">
+<node CREATED="1613661601289" ID="ID_1441298500" MODIFIED="1613661603516" TEXT="Circular">
+<node CREATED="1613661604265" ID="ID_529055665" MODIFIED="1613661615893" TEXT="Evaluating Lisp program"/>
+<node CREATED="1613661616248" ID="ID_1005837942" MODIFIED="1613661619133" TEXT="... with an evaluator"/>
+<node CREATED="1613661619513" ID="ID_1633261810" MODIFIED="1613661626411" TEXT="... implemented in Lisp"/>
+</node>
+<node CREATED="1613661683064" ID="ID_30263431" MODIFIED="1613661696978" TEXT="metacircular">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1613661670096" ID="ID_463434715" MODIFIED="1613661682844" TEXT="Evaluator written in same language that the one evaluated"/>
+</node>
+<node CREATED="1613661871615" ID="ID_1939389499" MODIFIED="1613661884325" TEXT="eval-apply cycle">
+<icon BUILTIN="licq"/>
+<node CREATED="1613661974237" ID="ID_834377389" MODIFIED="1613661979576">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="eval_apply_cycle.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1613662110653" ID="ID_1041038023" MODIFIED="1613662121914" TEXT="4.1.1 The Core of the Evaluator">
+<node CREATED="1613662148374" ID="ID_1481235415" MODIFIED="1613662153529" TEXT="Interplay between">
+<node CREATED="1613662153701" ID="ID_1113109103" MODIFIED="1613662154742" TEXT="eval">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1613662155157" ID="ID_470976594" MODIFIED="1613662156742" TEXT="apply">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1613662158093" ID="ID_61159611" MODIFIED="1613662459000" TEXT="Eval">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (eval exp env)
+    </p>
+    <p>
+      &#160;&#160;(cond ((self-evaluating? exp) exp)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((variable? exp) (lookup-variable-value exp env))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((quoted? exp) (text-of-quotation exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((assignment? exp) (eval-assignment exp env))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((definition? exp) (eval-definition exp env))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((if? exp) (eval-if exp env))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((lambda? exp) (make-procedure (lambda-parameters exp)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(lambda-body exp)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;env))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((begin? exp)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(eval-sequence (begin-actions exp) env))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((cond? exp) (eval (cond-&gt;if exp) env))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((application? exp)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(apply (eval (operator exp) env)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(list-of-values (operands exp) env)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(error &quot;Unknown expression type: EVAL&quot; exp))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-1"/>
+<node CREATED="1613662165278" ID="ID_801405574" MODIFIED="1613662171265" TEXT="Arguments">
+<node CREATED="1613662171493" ID="ID_913400434" MODIFIED="1613662173656" TEXT="expression"/>
+<node CREATED="1613662174068" ID="ID_537281929" MODIFIED="1613662176609" TEXT="environment"/>
+</node>
+<node CREATED="1613662182493" ID="ID_13015693" MODIFIED="1613662185489" TEXT="Classify expression"/>
+<node CREATED="1613662185829" ID="ID_449445978" MODIFIED="1613662189386" TEXT="Direct evaluation"/>
+</node>
+<node CREATED="1613662536347" ID="ID_1987971934" MODIFIED="1613662812804" TEXT="Apply">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (apply procedure arguments)
+    </p>
+    <p>
+      &#160;&#160;(cond ((primitive-procedure? procedure)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(apply-primitive-procedure procedure arguments))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((compound-procedure? procedure)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(eval-sequence
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(procedure-body procedure)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(extend-environment
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(procedure-parameters procedure)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;arguments
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(procedure-environment procedure))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(error
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Unknown procedure type: APPLY&quot; procedure))))
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-2"/>
+<node CREATED="1613662539227" ID="ID_993751057" MODIFIED="1613662811599" TEXT="Arguments">
+<node CREATED="1613662541650" ID="ID_1549577318" MODIFIED="1613662543586" TEXT="Procedure"/>
+<node CREATED="1613662544051" ID="ID_526748945" MODIFIED="1613662556184" TEXT="List of arguments"/>
+<node CREATED="1613662556602" ID="ID_1798260765" MODIFIED="1613662566511" TEXT="... to which procedure should be applied"/>
 </node>
 </node>
 </node>
