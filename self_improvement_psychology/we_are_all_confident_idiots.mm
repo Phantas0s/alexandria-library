@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572690200779" ID="ID_1248565166" LINK="https://psmag.com/social-justice/confident-idiots-92793" MODIFIED="1612108637310" TEXT="We Are All Confident Idiots">
+<node CREATED="1572690200779" ID="ID_1248565166" LINK="https://psmag.com/social-justice/confident-idiots-92793" MODIFIED="1613923999768" TEXT="We Are All Confident Idiots">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -10,14 +10,14 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1572690386840" FOLDED="true" ID="ID_527155654" MODIFIED="1574748187615" POSITION="right" TEXT="How people answer to incompetence">
+<node CREATED="1572690386840" ID="ID_527155654" MODIFIED="1574748187615" POSITION="right" TEXT="How people answer to incompetence">
 <icon BUILTIN="full-1"/>
-<node CREATED="1572690412588" ID="ID_1478104315" MODIFIED="1572691430046" TEXT="People not">
+<node CREATED="1572690412588" FOLDED="true" ID="ID_1478104315" MODIFIED="1572691430046" TEXT="People not">
 <node CREATED="1572690422725" ID="ID_812401991" MODIFIED="1572690424737" TEXT="disoriented"/>
 <node CREATED="1572690425517" ID="ID_41642960" MODIFIED="1572690427521" TEXT="perplex"/>
 <node CREATED="1572690428133" ID="ID_80787885" MODIFIED="1572690429882" TEXT="cautious"/>
 </node>
-<node CREATED="1572690437125" ID="ID_1715497716" MODIFIED="1572691468687" TEXT="... but instead">
+<node CREATED="1572690437125" FOLDED="true" ID="ID_1715497716" MODIFIED="1572691468687" TEXT="... but instead">
 <node CREATED="1572690439485" ID="ID_854694632" MODIFIED="1572690449906" TEXT="inappropriate confidence"/>
 <node CREATED="1572690456546" ID="ID_1143531604" MODIFIED="1572690466745" TEXT="something feels like knowledge"/>
 <node CREATED="1572691449748" ID="ID_399716307" MODIFIED="1572691471459" TEXT="Example">
@@ -30,18 +30,18 @@
 <node CREATED="1572690612075" ID="ID_570189354" MODIFIED="1598106619188" TEXT="... more he knows about something made up in the topic"/>
 </node>
 </node>
-<node CREATED="1572690630802" ID="ID_1492055076" MODIFIED="1574748022441" TEXT="We fail to recognize ignorance">
+<node CREATED="1572690630802" FOLDED="true" ID="ID_1492055076" MODIFIED="1574748022441" TEXT="We fail to recognize ignorance">
 <node CREATED="1572690636690" ID="ID_1860791114" MODIFIED="1572690637877" TEXT="degree"/>
 <node CREATED="1572690638323" ID="ID_736294273" MODIFIED="1572690647359" TEXT="frequency"/>
 </node>
-<node CREATED="1572690713353" ID="ID_1303690563" MODIFIED="1574748058137" TEXT="Dunning-Krueger effect">
+<node CREATED="1572690713353" FOLDED="true" ID="ID_1303690563" MODIFIED="1574748058137" TEXT="Dunning-Krueger effect">
 <node CREATED="1572690720096" ID="ID_734547319" MODIFIED="1572690727078" TEXT="People can&apos;t see how incompetent they are"/>
 <node CREATED="1572690753794" ID="ID_1637911045" MODIFIED="1574748086578" TEXT="Poor performers needs to be expert"/>
 <node CREATED="1572690760874" ID="ID_518076489" MODIFIED="1598106637604" TEXT="... to understand the knowledge they lack"/>
 <node CREATED="1572690836928" ID="ID_1445309437" MODIFIED="1572690861990" TEXT="Well documented and tested bias"/>
 <node CREATED="1572691017223" ID="ID_1472130257" MODIFIED="1572691025021" TEXT="People don&apos;t want to say &quot;I don&apos;t know&quot;"/>
 </node>
-<node CREATED="1572691048247" ID="ID_1419628371" MODIFIED="1574748185118" TEXT="We are not uninformed">
+<node CREATED="1572691048247" FOLDED="true" ID="ID_1419628371" MODIFIED="1574748185118" TEXT="We are not uninformed">
 <node CREATED="1572691054519" ID="ID_943053427" MODIFIED="1572691465133" TEXT="We are misinformed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -62,9 +62,7 @@
 <node CREATED="1572691225278" ID="ID_470441837" MODIFIED="1572691234891" TEXT="profligate theorizers"/>
 <node CREATED="1572691254334" ID="ID_308072517" MODIFIED="1572691266106" TEXT="great for creative story telling"/>
 </node>
-<node CREATED="1572691282309" ID="ID_1565932621" MODIFIED="1572691290946" TEXT="... but can bring us to unfortunate events">
-<node CREATED="1572691291294" ID="ID_1286136119" MODIFIED="1572691295178" TEXT="or even dangerous"/>
-</node>
+<node CREATED="1572691282309" ID="ID_1565932621" MODIFIED="1613924048142" TEXT="... but can bring us to unfortunate / dangerous events"/>
 <node CREATED="1572691297893" ID="ID_1937494808" MODIFIED="1572691309843" TEXT="... in our society">
 <node CREATED="1572691310029" ID="ID_1830126236" MODIFIED="1572691311274" TEXT="complex"/>
 <node CREATED="1572691311646" ID="ID_469730899" MODIFIED="1572691313490" TEXT="technologic"/>
@@ -79,7 +77,7 @@
 </node>
 <node CREATED="1572691414668" FOLDED="true" ID="ID_323814727" MODIFIED="1572691476755" POSITION="right" TEXT="Born wrong">
 <icon BUILTIN="full-2"/>
-<node CREATED="1572691506508" ID="ID_1440940646" MODIFIED="1574748293485" TEXT="You baby have some">
+<node CREATED="1572691506508" ID="ID_1440940646" MODIFIED="1613924070645" TEXT="You as a baby have some">
 <node CREATED="1572691527619" ID="ID_1486415865" MODIFIED="1572691529528" TEXT="truth">
 <node CREATED="1572691510739" ID="ID_1302375666" MODIFIED="1598106768082" TEXT="Two object can&apos;t be in same space"/>
 <node CREATED="1572691516524" ID="ID_1457830071" MODIFIED="1598106770186" TEXT="A computer can&apos;t walk like human"/>
@@ -92,8 +90,8 @@
 <node CREATED="1572691584155" ID="ID_1483204401" MODIFIED="1572691588264" TEXT="an animal exists to be in a zoo"/>
 </node>
 </node>
-<node CREATED="1572691662237" ID="ID_1289391125" MODIFIED="1572691670823" TEXT="... never quit us">
-<node CREATED="1572691671043" ID="ID_1735755443" MODIFIED="1572691674463" TEXT="even if we are educated"/>
+<node CREATED="1572691662237" ID="ID_1289391125" MODIFIED="1613924096996" TEXT="They never quit us">
+<node CREATED="1572691671043" ID="ID_1735755443" MODIFIED="1613924102494" TEXT="... even if we are educated"/>
 <node CREATED="1572691892792" ID="ID_757500087" MODIFIED="1572691907496" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1572691895840" ID="ID_1163160892" LINK="http://www.bu.edu/cdl/files/2013/08/2004_Kelemen_IntuitiveTheist.pdf" MODIFIED="1598106748351" TEXT="Deborah Kelemen and study with 80 scientists"/>
@@ -116,11 +114,11 @@
 <node CREATED="1572692364323" ID="ID_914511047" MODIFIED="1572692375281" TEXT="... but they are totally dehydrated!"/>
 </node>
 </node>
-<node CREATED="1572692383277" FOLDED="true" ID="ID_636236048" MODIFIED="1574748566978" POSITION="left" TEXT="Motivated reasoning">
+<node CREATED="1572692383277" ID="ID_636236048" MODIFIED="1574748566978" POSITION="left" TEXT="Motivated reasoning">
 <icon BUILTIN="full-4"/>
-<node CREATED="1572692407100" FOLDED="true" ID="ID_489955247" MODIFIED="1574748325675" TEXT="Most stubborn misbelieves">
+<node CREATED="1572692407100" ID="ID_489955247" MODIFIED="1574748325675" TEXT="Most stubborn misbelieves">
 <node CREATED="1572692412493" ID="ID_292843361" MODIFIED="1598106809690" TEXT="... not from our childhood"/>
-<node CREATED="1572692418332" ID="ID_1111790263" MODIFIED="1598106812153" TEXT="... but from what define who we are">
+<node CREATED="1572692418332" FOLDED="true" ID="ID_1111790263" MODIFIED="1598106812153" TEXT="... but from what define who we are">
 <node CREATED="1572692432229" ID="ID_1494649490" MODIFIED="1572692435161" TEXT="believes">
 <node CREATED="1572692447733" ID="ID_859064746" MODIFIED="1572692827510" TEXT="Narratives about the self">
 <node CREATED="1572692758905" ID="ID_834668263" MODIFIED="1598106817329" TEXT="Example">
@@ -210,7 +208,7 @@
 <node CREATED="1572693706386" ID="ID_1239548521" MODIFIED="1572693710175" TEXT="if it&apos;s good or bad"/>
 </node>
 </node>
-<node CREATED="1572693754616" FOLDED="true" ID="ID_509321047" MODIFIED="1598107078085" TEXT="More information is likely to reinforce biased view">
+<node CREATED="1572693754616" ID="ID_509321047" MODIFIED="1598107078085" TEXT="More information is likely to reinforce biased view">
 <node COLOR="#338800" CREATED="1598107080551" ID="ID_1837468544" MODIFIED="1598107100375" TEXT="Does it? Even info contradicting our believes?">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
@@ -219,7 +217,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572693781656" FOLDED="true" ID="ID_1690500370" MODIFIED="1574748656097" POSITION="left" TEXT="Seeing through the clutter">
+<node CREATED="1572693781656" ID="ID_1690500370" MODIFIED="1574748656097" POSITION="left" TEXT="Seeing through the clutter">
 <icon BUILTIN="full-5"/>
 <node CREATED="1572693825312" ID="ID_1114679255" MODIFIED="1572693835397" TEXT="Policies / decisions founded on ignorance"/>
 <node CREATED="1572693835593" ID="ID_1881059302" MODIFIED="1598107117277" TEXT="... have often bad repercussions"/>
@@ -228,15 +226,14 @@
 <node CREATED="1572692543571" ID="ID_68121409" MODIFIED="1572692551335" TEXT="ignorance = absence of knowledge"/>
 <node CREATED="1572692552228" ID="ID_1325933434" MODIFIED="1572692559753" TEXT="Education = knowledge"/>
 </node>
-<node CREATED="1572692625475" ID="ID_1142012640" MODIFIED="1572692637039" TEXT=".. but in fact education can bring illusory confidence"/>
+<node CREATED="1572692625475" ID="ID_1142012640" MODIFIED="1613924524018" TEXT="Education can bring illusory confidence"/>
 <node CREATED="1572693911792" ID="ID_182645972" MODIFIED="1572693974384" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1572693913345" ID="ID_881539801" MODIFIED="1572693988997" TEXT="Drivers courses in emergency situations">
 <node CREATED="1572693923273" ID="ID_1031785967" MODIFIED="1572693928540" TEXT="increase accident rates"/>
 </node>
-<node CREATED="1572693929202" ID="ID_1810644969" MODIFIED="1572693935988" TEXT="Drivers have the impress to be expert">
-<node CREATED="1572693936151" ID="ID_1102450088" MODIFIED="1572693962685" TEXT="even if the knowledge erode rapidly"/>
-</node>
+<node CREATED="1572693929202" ID="ID_1810644969" MODIFIED="1572693935988" TEXT="Drivers have the impress to be expert"/>
+<node CREATED="1572693936151" ID="ID_1102450088" MODIFIED="1613924543634" TEXT="... even if the knowledge erode rapidly"/>
 <node CREATED="1572694015264" ID="ID_1970222116" MODIFIED="1572694017669" TEXT="Solution">
 <node CREATED="1572694017832" ID="ID_513776958" MODIFIED="1572694023140" TEXT="Speaking about it, but not teaching"/>
 <node CREATED="1572694025486" ID="ID_1892707213" MODIFIED="1598107155204" TEXT="Scaring people not driving on ice"/>
@@ -255,10 +252,8 @@
 <node CREATED="1572694218589" ID="ID_712127382" MODIFIED="1598107173827" TEXT="... need some factual proof"/>
 </node>
 </node>
-<node CREATED="1572694296924" ID="ID_330988125" MODIFIED="1572694347608" TEXT="Core / sacrosanct  belief">
-<node CREATED="1572694299509" ID="ID_1894114978" MODIFIED="1572694305048" TEXT="Extremely difficult to change one&apos;s mind">
-<node CREATED="1572694305221" ID="ID_930153454" MODIFIED="1572694308161" TEXT="or even impossible"/>
-</node>
+<node CREATED="1572694296924" ID="ID_330988125" MODIFIED="1613924572665" TEXT="Core / sacrosanct belief">
+<node CREATED="1572694299509" ID="ID_1894114978" MODIFIED="1613924581002" TEXT="Extremely difficult (impossible?) to change one&apos;s mind"/>
 <node CREATED="1572694308891" ID="ID_314938384" MODIFIED="1572694318714" TEXT="Asking people to show their personality elsewhere">
 <node CREATED="1572694318902" ID="ID_1764559412" MODIFIED="1572694326301" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -287,11 +282,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1572694617107" FOLDED="true" ID="ID_373363454" MODIFIED="1574748656810" POSITION="left" TEXT="Civics for enlighted dummies">
+<node CREATED="1572694617107" ID="ID_373363454" MODIFIED="1574748656810" POSITION="left" TEXT="Civics for enlighted dummies">
 <icon BUILTIN="full-6"/>
-<node CREATED="1572694769361" ID="ID_1814284528" MODIFIED="1572694786350" TEXT="People do study">
+<node CREATED="1572694769361" ID="ID_1814284528" MODIFIED="1572694786350" TEXT="People do study"/>
 <node CREATED="1572694786529" ID="ID_184315271" MODIFIED="1598107225365" TEXT="... and think that American cultural knowledge decay"/>
-</node>
 <node CREATED="1572694797377" ID="ID_1086410740" MODIFIED="1572694804126" TEXT="... but at the end it has always been like that"/>
 </node>
 </node>

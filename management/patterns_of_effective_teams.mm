@@ -1,7 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1573560508584" ID="ID_669485033" LINK="https://www.youtube.com/watch?v=lvs7VEsQzKY&amp;t=173s" MODIFIED="1573561813260" TEXT="Patterns of effective teams">
-<node CREATED="1573561085850" ID="ID_684199690" MODIFIED="1573561090567" POSITION="right" TEXT="Inverse truck factor">
+<node CREATED="1573561085850" ID="ID_684199690" MODIFIED="1613923713593" POSITION="right" TEXT="Inverse truck factor">
+<icon BUILTIN="full-1"/>
 <node CREATED="1573561090738" ID="ID_675746550" MODIFIED="1587136753925" TEXT="How many people needs to be run off"/>
 <node CREATED="1573561096986" ID="ID_1470569050" MODIFIED="1573561100838" TEXT="... for the team to go somewhere"/>
 </node>

@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1613114279269" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1613891879383" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6140,7 +6140,7 @@
 <node CREATED="1588321600757" ID="ID_1426583357" MODIFIED="1588321605202" POSITION="left" TEXT="Relations">
 <icon BUILTIN="full-9"/>
 </node>
-<node CREATED="1587388646477" ID="ID_1922308220" MODIFIED="1587388688874" POSITION="left" TEXT="Graphs">
+<node CREATED="1587388646477" FOLDED="true" ID="ID_1922308220" MODIFIED="1587388688874" POSITION="left" TEXT="Graphs">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1588694296780" ID="ID_445152677" MODIFIED="1588694301627" TEXT="Introduction">
