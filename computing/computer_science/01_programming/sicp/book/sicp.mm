@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1613659552128" TEXT="SICP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1614173272216" TEXT="SICP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8323,8 +8323,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(error &quot;Unknown expression type: EVAL&quot; exp))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-1"/>
 <node CREATED="1613662165278" ID="ID_801405574" MODIFIED="1613662171265" TEXT="Arguments">
 <node CREATED="1613662171493" ID="ID_913400434" MODIFIED="1613662173656" TEXT="expression"/>
@@ -8333,7 +8332,7 @@
 <node CREATED="1613662182493" ID="ID_13015693" MODIFIED="1613662185489" TEXT="Classify expression"/>
 <node CREATED="1613662185829" ID="ID_449445978" MODIFIED="1613662189386" TEXT="Direct evaluation"/>
 </node>
-<node CREATED="1613662536347" ID="ID_1987971934" MODIFIED="1613662812804" TEXT="Apply">
+<node CREATED="1613662536347" ID="ID_1987971934" MODIFIED="1614173272248" TEXT="Apply">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8378,9 +8377,6 @@
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Unknown procedure type: APPLY&quot; procedure))))
     </p>
-    <p>
-      
-    </p>
   </body>
 </html>
 </richcontent>
@@ -8389,6 +8385,628 @@
 <node CREATED="1613662541650" ID="ID_1549577318" MODIFIED="1613662543586" TEXT="Procedure"/>
 <node CREATED="1613662544051" ID="ID_526748945" MODIFIED="1613662556184" TEXT="List of arguments"/>
 <node CREATED="1613662556602" ID="ID_1798260765" MODIFIED="1613662566511" TEXT="... to which procedure should be applied"/>
+</node>
+</node>
+<node CREATED="1614173399921" ID="ID_1205442932" MODIFIED="1614173443151" TEXT="Procedure arguments">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (list-of-values exps env)
+    </p>
+    <p>
+      &#160;&#160;(if (no-operands? exps)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;'()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cons (eval (first-operand exps) env)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(list-of-values (rest-operands exps) env))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-3"/>
+<node CREATED="1614173466831" ID="ID_762106525" MODIFIED="1614173469706" TEXT="Could have used map"/>
+<node CREATED="1614173470102" ID="ID_1028999826" MODIFIED="1614173475354" TEXT="... but just to prove it can be implemented"/>
+<node CREATED="1614173475679" ID="ID_360632963" MODIFIED="1614173500714" TEXT="... without higher order level procedures"/>
+</node>
+<node CREATED="1614173462166" ID="ID_1406352562" MODIFIED="1614173682684" TEXT="Conditionals">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (eval-if exp env)
+    </p>
+    <p>
+      &#160;&#160;(if (true? (eval (if-predicate exp) env))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(eval (if-consequent exp) env)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(eval (if-alternative exp) env)))
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-4"/>
+<node CREATED="1614173525942" ID="ID_1817728435" MODIFIED="1614173873144" TEXT="true value can be different">
+<node CREATED="1614173873333" ID="ID_237671277" MODIFIED="1614173881839" TEXT="... in implemented language"/>
+<node CREATED="1614173882203" ID="ID_1884944137" MODIFIED="1614173885912" TEXT="... than in implementation language"/>
+</node>
+<node CREATED="1614173886395" ID="ID_1532564721" MODIFIED="1614173893560" TEXT="true? predicate">
+<node CREATED="1614173893747" ID="ID_864179735" MODIFIED="1614173896720" TEXT="Can be implemented"/>
+<node CREATED="1614173897316" ID="ID_336308053" MODIFIED="1614173902224" TEXT="... in implemented language"/>
+</node>
+</node>
+<node CREATED="1614173907907" ID="ID_358017102" MODIFIED="1614173939639" TEXT="Sequences">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (eval-sequence exps env)
+    </p>
+    <p>
+      &#160;&#160;(cond ((last-exp? exps)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(eval (first-exp exps) env))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(eval (first-exp exps) env)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(eval-sequence (rest-exps exps) env))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-5"/>
+<node CREATED="1614173957083" ID="ID_1942799221" MODIFIED="1614173975470" TEXT="Evaluate sequence expression"/>
+<node CREATED="1614173961299" ID="ID_401514466" MODIFIED="1614173964351" TEXT="... with an environment"/>
+<node CREATED="1614173976243" ID="ID_1500049256" MODIFIED="1614173978303" TEXT="... in body"/>
+<node CREATED="1614173978667" ID="ID_715596969" MODIFIED="1614173979960" TEXT="... in order"/>
+</node>
+<node CREATED="1614174194089" ID="ID_915089197" MODIFIED="1614174282763" TEXT="Assignments and Definitions">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (eval-assignment exp env)
+    </p>
+    <p>
+      &#160;&#160;(set-variable-value! (assignment-variable exp)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(eval (assignment-value exp) env)<br /><br />(define (eval-definition exp env)
+    </p>
+    <p>
+      &#160;&#160;(define-variable! (definition-variable exp)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(eval (definition-value exp) env)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;env)
+    </p>
+    <p>
+      &#160;&#160;'ok)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <br />
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-6"/>
+<node CREATED="1614174223001" ID="ID_677767830" MODIFIED="1614174281718" TEXT="Assignment to variables"/>
+<node CREATED="1614174289904" ID="ID_1588529638" MODIFIED="1614174297957" TEXT="... depending on an environment"/>
+</node>
+</node>
+<node CREATED="1614174299954" ID="ID_1058334216" MODIFIED="1614174308124" TEXT="4.1.2 Representing Expressions">
+<node CREATED="1614174380640" ID="ID_613227947" MODIFIED="1614174392459" TEXT="The language being evaluated"/>
+<node CREATED="1614174392841" ID="ID_1162520980" MODIFIED="1614174398476" TEXT="... is only determined"/>
+<node CREATED="1614174398839" ID="ID_1087575472" MODIFIED="1614174437460" TEXT="... by the procedures extracting / classifying information"/>
+<node CREATED="1614174471591" ID="ID_1260045099" MODIFIED="1614174536849" TEXT="self-evaluating?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (self-evaluating? exp)
+    </p>
+    <p>
+      &#160;&#160;(cond ((number? exp) true)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((string? exp) true)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else false)))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1614174525071" ID="ID_1942542944" MODIFIED="1614174529290" TEXT="Only numbers / strings"/>
+</node>
+<node CREATED="1614174531527" ID="ID_753199818" MODIFIED="1614174548141" TEXT="variables?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (variable? exp) (symbol? exp))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1614174556478" ID="ID_1882613107" MODIFIED="1614174565103" TEXT="quotes?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (quoted? exp) (tagged-list? exp 'quote))
+    </p>
+    <p>
+      (define (text-of-quotation exp) (cadr exp))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1614174571270" ID="ID_206113612" MODIFIED="1614174627648" TEXT="tagged-list?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (tagged-list? exp tag)
+    </p>
+    <p>
+      &#160;&#160;(if (pair? exp)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(eq? (car exp) tag)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;false))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1614174637046" ID="ID_558013183" MODIFIED="1614174843621" TEXT="assignment?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (assignment? exp) (tagged-list? exp 'set!))
+    </p>
+    <p>
+      (define (assignment-variable exp) (cadr exp))
+    </p>
+    <p>
+      (define (assignment-value exp) (caddr exp))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1614174667166" ID="ID_1548604555" MODIFIED="1614174843622" TEXT="definition?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (definition? exp) (tagged-list? exp 'define))
+    </p>
+    <p>
+      (define (definition-variable exp)
+    </p>
+    <p>
+      &#160;&#160;(if (symbol? (cadr exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cadr exp)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(caadr exp)))
+    </p>
+    <p>
+      (define (definition-value exp)
+    </p>
+    <p>
+      &#160;&#160;(if (symbol? (cadr exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(caddr exp)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(make-lambda (cdadr exp) ; formal parameters
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cddr exp)))) ; body
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1614174717486" ID="ID_1689285400" MODIFIED="1614174843622" TEXT="lambda?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (lambda? exp) (tagged-list? exp 'lambda))
+    </p>
+    <p>
+      (define (lambda-parameters exp) (cadr exp))
+    </p>
+    <p>
+      (define (lambda-body exp) (cddr exp))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1614174732942" ID="ID_198185319" MODIFIED="1614174843622" TEXT="make-lambda">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-lambda parameters body)
+    </p>
+    <p>
+      &#160;&#160;(cons 'lambda (cons parameters body)))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1614174769574" ID="ID_220284045" MODIFIED="1614174843622" TEXT="if?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (if? exp) (tagged-list? exp 'if))
+    </p>
+    <p>
+      (define (if-predicate exp) (cadr exp))
+    </p>
+    <p>
+      (define (if-consequent exp) (caddr exp))
+    </p>
+    <p>
+      (define (if-alternative exp)
+    </p>
+    <p>
+      &#160;&#160;(if (not (null? (cdddr exp)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(cadddr exp)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;'false))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1614174787342" ID="ID_241434799" MODIFIED="1614174798899" TEXT="make-if">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-if predicate consequent alternative)
+    </p>
+    <p>
+      &#160;&#160;(list 'if predicate consequent alternative))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1614174801021" ID="ID_643215847" MODIFIED="1614174803785" TEXT="Transform cond"/>
+<node CREATED="1614174804389" ID="ID_1164761880" MODIFIED="1614174808200" TEXT="... into if expressions"/>
+</node>
+<node CREATED="1614174827036" ID="ID_971162247" MODIFIED="1614174857368" TEXT="begin?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (begin? exp) (tagged-list? exp 'begin))
+    </p>
+    <p>
+      (define (begin-actions exp) (cdr exp))<br />(define (last-exp? seq) (null? (cdr seq)))
+    </p>
+    <p>
+      (define (first-exp seq) (car seq))
+    </p>
+    <p>
+      (define (rest-exps seq) (cdr seq))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1614174880996" ID="ID_1807165638" MODIFIED="1614175240322" TEXT="sequence-&gt;exp">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (sequence-&gt;exp seq)
+    </p>
+    <p>
+      &#160;&#160;(cond ((null? seq) seq)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((last-exp? seq) (first-exp seq))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (make-begin seq))))
+    </p>
+    <p>
+      (define (make-begin seq) (cons 'begin seq))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1614174897964" ID="ID_1443046780" MODIFIED="1614175280742" TEXT="Used by cond-&gt;if"/>
+<node CREATED="1614174908228" ID="ID_31072852" MODIFIED="1614174911169" TEXT="Transform sequence"/>
+<node CREATED="1614174911533" ID="ID_174183294" MODIFIED="1614174914345" TEXT="... into single expression"/>
+</node>
+<node CREATED="1614175341857" ID="ID_384878067" MODIFIED="1614175367577" TEXT="application?">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (application? exp) (pair? exp))
+    </p>
+    <p>
+      (define (operator exp) (car exp))
+    </p>
+    <p>
+      (define (operands exp) (cdr exp))
+    </p>
+    <p>
+      (define (no-operands? ops) (null? ops))
+    </p>
+    <p>
+      (define (first-operand ops) (car ops))
+    </p>
+    <p>
+      (define (rest-operands ops) (cdr ops))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1614175430264" ID="ID_562347930" MODIFIED="1614175435492" TEXT="Derived expressions">
+<node CREATED="1614175471472" ID="ID_1306750907" MODIFIED="1614175476420" TEXT="Some special forms can be implemented"/>
+<node CREATED="1614175476713" ID="ID_1574395467" MODIFIED="1614175481868" TEXT="... from other special forms"/>
+<node CREATED="1614175490824" ID="ID_772527523" MODIFIED="1614175491732" TEXT="Cond">
+<node CREATED="1614175492008" ID="ID_1383149757" MODIFIED="1614175499388" TEXT="Implemented in terms of if"/>
+<node CREATED="1614175518217" ID="ID_420808984" MODIFIED="1614175564933" TEXT="cond? / cond-&gt;if">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (cond? exp) (tagged-list? exp 'cond))
+    </p>
+    <p>
+      (define (cond-clauses exp) (cdr exp))
+    </p>
+    <p>
+      (define (cond-else-clause? clause)
+    </p>
+    <p>
+      &#160;&#160;(eq? (cond-predicate clause) 'else))
+    </p>
+    <p>
+      (define (cond-predicate clause) (car clause))
+    </p>
+    <p>
+      (define (cond-actions clause) (cdr clause))
+    </p>
+    <p>
+      (define (cond-&gt;if exp) (expand-clauses (cond-clauses exp)))
+    </p>
+    <p>
+      (define (expand-clauses clauses)
+    </p>
+    <p>
+      &#160;&#160;(if (null? clauses)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;'false ; no else clause
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(let ((first (car clauses))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(rest (cdr clauses)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(if (cond-else-clause? first)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if (null? rest)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(sequence-&gt;exp (cond-actions first))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(error &quot;ELSE clause isn't last: COND-&gt;IF&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;clauses))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(make-if (cond-predicate first)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(sequence-&gt;exp (cond-actions first))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(expand-clauses rest))))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1614175591087" ID="ID_1944424609" MODIFIED="1614175599427" TEXT="4.1.3 Evaluator Data Structure">
+<node CREATED="1614176206067" ID="ID_1152810891" MODIFIED="1614176208823" TEXT="Introduction">
+<node CREATED="1614176147708" ID="ID_805001128" MODIFIED="1614176157807" TEXT="In addition to define external syntax"/>
+<node CREATED="1614176158275" ID="ID_752981539" MODIFIED="1614176164695" TEXT="... evaluator must define">
+<node CREATED="1614176164867" ID="ID_231566260" MODIFIED="1614176169927" TEXT="internal data structure"/>
+<node CREATED="1614176176115" ID="ID_124673655" MODIFIED="1614176190191" TEXT="Representation of">
+<node CREATED="1614176190403" ID="ID_230015324" MODIFIED="1614176193175" TEXT="procedures"/>
+<node CREATED="1614176193555" ID="ID_1090006345" MODIFIED="1614176195071" TEXT="environments"/>
+<node CREATED="1614176195372" ID="ID_986645320" MODIFIED="1614176197079" TEXT="true and false"/>
+</node>
+</node>
+</node>
+<node CREATED="1614176212668" ID="ID_630543290" MODIFIED="1614176216743" TEXT="Testing of predicates">
+<node CREATED="1614176294946" ID="ID_45228219" MODIFIED="1614176297286" TEXT="Everything not false"/>
+<node CREATED="1614176258187" ID="ID_1084658779" MODIFIED="1614176277717" TEXT="true false">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (true? x) (not (eq? x false)))
+    </p>
+    <p>
+      (define (false? x) (eq? x false))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1614176281634" ID="ID_1961817390" MODIFIED="1614176289654" TEXT="Representing procedures">
+<node CREATED="1614176306458" ID="ID_126533813" MODIFIED="1614176313294" TEXT="Assume having">
+<node CREATED="1614176313490" ID="ID_342110137" MODIFIED="1614176319690" TEXT="apply-primitive-procedure">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1614176330698" ID="ID_1386106362" MODIFIED="1614176336855" TEXT="primitive-procedure?">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1614176350314" ID="ID_826058331" MODIFIED="1614176369300" TEXT="make-procedure">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (make-procedure parameters body env)
+    </p>
+    <p>
+      &#160;&#160;(list 'procedure parameters body env))
+    </p>
+    <p>
+      (define (compound-procedure? p)
+    </p>
+    <p>
+      &#160;&#160;(tagged-list? p 'procedure))
+    </p>
+    <p>
+      (define (procedure-parameters p) (cadr p))
+    </p>
+    <p>
+      (define (procedure-body p) (caddr p))
+    </p>
+    <p>
+      (define (procedure-environment p) (cadddr p))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1614176372761" ID="ID_168597474" MODIFIED="1614176379126" TEXT="Operations on Environments">
+<node CREATED="1614176424634" ID="ID_1687562775" MODIFIED="1614176812330" STYLE="fork" TEXT="Use following operations to manipulate environments">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1614176518481" ID="ID_1832220160" MODIFIED="1614176811569" TEXT="lookup-variable-value &lt;var&gt; &lt;env&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1614176672456" ID="ID_1518762324" MODIFIED="1614176811569" TEXT="Return value bound to &lt;var&gt;"/>
+<node CREATED="1614176683064" ID="ID_499275461" MODIFIED="1614176811569" TEXT="... in &lt;env&gt;"/>
+</node>
+<node CREATED="1614176525632" ID="ID_195130270" MODIFIED="1614176811569" TEXT="extend-environment &lt;variables&gt; &lt;values&gt; &lt;base-env&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1614176557881" ID="ID_95772132" MODIFIED="1614176811569" TEXT="Returns a new environment"/>
+<node CREATED="1614176565593" ID="ID_1842858413" MODIFIED="1614176811569" TEXT="... with new frame"/>
+<node CREATED="1614176575056" ID="ID_283504935" MODIFIED="1614176811569" TEXT="... and mapping &lt;variables&gt; to corresponding element of &lt;values&gt;"/>
+<node CREATED="1614176659879" ID="ID_1496520610" MODIFIED="1614176811569" TEXT="Enclosing env &lt;base-env&gt;"/>
+</node>
+<node CREATED="1614176532424" ID="ID_1893205759" MODIFIED="1614176811569" TEXT="define-variable! &lt;var&gt; &lt;value&gt; &lt;env&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1614176540361" ID="ID_876878679" MODIFIED="1614176811569" TEXT="New binding in environment"/>
+<node CREATED="1614176544824" ID="ID_244193241" MODIFIED="1614176811569" TEXT="... associate variable &quot;var&quot; with value &quot;value&quot;"/>
+</node>
 </node>
 </node>
 </node>
