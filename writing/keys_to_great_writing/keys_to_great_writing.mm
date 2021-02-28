@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1595155669849" ID="ID_980361101" MODIFIED="1613889936610" TEXT="Keys to Great Writing">
+<node CREATED="1595155669849" ID="ID_980361101" MODIFIED="1614450109250" TEXT="Keys to Great Writing">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -498,7 +498,7 @@
 </node>
 <node CREATED="1595155841582" ID="ID_1549820793" MODIFIED="1595155884385" TEXT="Chapter Two: Precision">
 <icon BUILTIN="full-2"/>
-<node CREATED="1595675644148" FOLDED="true" ID="ID_569392494" MODIFIED="1595675747763" TEXT="Use the right word">
+<node CREATED="1595675644148" ID="ID_569392494" MODIFIED="1595675747763" TEXT="Use the right word">
 <icon BUILTIN="full-1"/>
 <node CREATED="1595675674027" FOLDED="true" ID="ID_979495071" MODIFIED="1595675689407" TEXT="Other components matter">
 <node CREATED="1595675680732" ID="ID_803715289" MODIFIED="1595675695855" TEXT="Rhythm"/>
@@ -570,7 +570,7 @@
 <node CREATED="1595676015801" ID="ID_1574195149" MODIFIED="1595676021918" TEXT="... to weak abstract nouns"/>
 </node>
 </node>
-<node CREATED="1595676165320" ID="ID_1795627434" MODIFIED="1595676525791" TEXT="Avoid Common Errors in Word Choice">
+<node CREATED="1595676165320" FOLDED="true" ID="ID_1795627434" MODIFIED="1595676525791" TEXT="Avoid Common Errors in Word Choice">
 <icon BUILTIN="full-3"/>
 <node CREATED="1595676081049" ID="ID_1479306288" MODIFIED="1595676207606" TEXT="Don&apos;t trust your modifiers">
 <icon BUILTIN="full-1"/>
@@ -711,7 +711,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595677174217" FOLDED="true" ID="ID_1343888306" MODIFIED="1595677186208" TEXT="Know How to Work with the Active and Passive Voices">
+<node CREATED="1595677174217" ID="ID_1343888306" MODIFIED="1595677186208" TEXT="Know How to Work with the Active and Passive Voices">
 <icon BUILTIN="full-2"/>
 <node CREATED="1595677231121" ID="ID_1626747844" MODIFIED="1595677234485" TEXT="Definitions">
 <node CREATED="1595677222905" ID="ID_851930986" MODIFIED="1595677224749" TEXT="Active voice">
@@ -802,7 +802,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595677560534" FOLDED="true" ID="ID_811743286" MODIFIED="1595677578375" TEXT="Know how to work with verbs and nouns">
+<node CREATED="1595677560534" ID="ID_811743286" MODIFIED="1595677578375" TEXT="Know how to work with verbs and nouns">
 <icon BUILTIN="full-3"/>
 <node CREATED="1595677608039" ID="ID_1051844984" MODIFIED="1595677628060" TEXT="Prefer strong action verbs">
 <icon BUILTIN="full-1"/>
@@ -859,7 +859,7 @@
 <node CREATED="1595678071723" ID="ID_1653578805" MODIFIED="1595678084530" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1595678075147" ID="ID_777336718" MODIFIED="1595678077679" TEXT="&quot;Verbing weirds language&quot;">
-<node CREATED="1595678077883" ID="ID_1822446672" MODIFIED="1595678081736" TEXT="Calvin &amp; Hobbes"/>
+<node CREATED="1595678077883" ID="ID_1822446672" LINK="https://www.gocomics.com/calvinandhobbes/1993/01/25" MODIFIED="1614451159473" TEXT="Calvin &amp; Hobbes"/>
 </node>
 </node>
 <node CREATED="1595678087595" ID="ID_307928331" MODIFIED="1595678093280" TEXT="Sometimes useful">
