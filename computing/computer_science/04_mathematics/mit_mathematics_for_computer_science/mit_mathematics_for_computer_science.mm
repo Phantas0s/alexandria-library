@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530724518341" ID="ID_804415076" MODIFIED="1599240318417" TEXT="MIT - Mathematics for computer science">
+<node CREATED="1530724518341" ID="ID_804415076" MODIFIED="1614526008178" TEXT="MIT - Mathematics for computer science">
 <richcontent TYPE="NOTE"><html>
   <head>
     

@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1613891879383" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1614525646888" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -389,6 +389,38 @@
       
     </p>
     <p>
+      <u><i>2.4 Sequences and summations </i></u>
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        How do you use summation notation for j=m to j=n of aj? How to represent that differently using mathematical notations?
+      </li>
+      <li>
+        How is called j from summation of question 1.?
+      </li>
+      <li>
+        How m is called (from summation in question 1.)?<br />
+      </li>
+      <li>
+        How n is called (from summation in question 1.)?<br />
+      </li>
+      <li>
+        Consider summation in question 1. If you have m = 1, n = 5 of j^2, how do you represent it?
+      </li>
+      <li>
+        What if you want index summation between 0 and 4 of question 5? How this kind of operation's called?
+      </li>
+      <li>
+        
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+    <p>
       <u><i>2.6 Matrices</i></u><br />
     </p>
     <ol>
@@ -478,6 +510,12 @@
       
     </p>
     <ol>
+      <li>
+        Why using recursions?
+      </li>
+      <li>
+        How do you define it?
+      </li>
       <li>
         Give a recursive algorithm to compute n!, where n is Z+. What is the recursive definition of n!?
       </li>
@@ -2130,7 +2168,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" FOLDED="true" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
@@ -3641,7 +3679,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1564564022865" FOLDED="true" ID="ID_928246757" MODIFIED="1587469900318" TEXT="2.4 Sequences and Summations">
+<node CREATED="1564564022865" ID="ID_928246757" MODIFIED="1587469900318" TEXT="2.4 Sequences and Summations">
 <node CREATED="1564564066520" FOLDED="true" ID="ID_1207413132" MODIFIED="1587392535026" TEXT="Introduction">
 <node CREATED="1564564044010" ID="ID_776012966" MODIFIED="1564564047837" TEXT="Ordered list of elements"/>
 <node CREATED="1564564077593" ID="ID_553141591" MODIFIED="1564564082788" TEXT="Can be used for counting problems"/>
@@ -3875,8 +3913,8 @@
 <node CREATED="1570596769761" ID="ID_1501170651" MODIFIED="1570596775445" TEXT="One way to find sequence"/>
 <node CREATED="1570596775673" ID="ID_195075318" MODIFIED="1600597679294" TEXT="... is to compare them to useful and known sequences"/>
 </node>
-<node CREATED="1570597088253" FOLDED="true" ID="ID_656762503" MODIFIED="1587392848995" TEXT="Summations">
-<node CREATED="1570597160748" FOLDED="true" ID="ID_1649366651" MODIFIED="1571286865835" TEXT="Notation">
+<node CREATED="1570597088253" ID="ID_656762503" MODIFIED="1587392848995" TEXT="Summations">
+<node CREATED="1570597160748" ID="ID_1649366651" MODIFIED="1571286865835" TEXT="Notation">
 <node CREATED="1571286843374" ID="ID_934290142" MODIFIED="1571286863226" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1570597200141" ID="ID_1915947627" MODIFIED="1570597211218">
@@ -3904,7 +3942,7 @@
 <node CREATED="1570681357016" ID="ID_402349443" MODIFIED="1570681357677" TEXT="n"/>
 </node>
 </node>
-<node CREATED="1570682089354" FOLDED="true" ID="ID_1513410904" MODIFIED="1570682093166" TEXT="Shift summation index">
+<node CREATED="1570682089354" ID="ID_1513410904" MODIFIED="1570682093166" TEXT="Shift summation index">
 <node CREATED="1570682107210" ID="ID_1699419443" MODIFIED="1587392828199" TEXT="We have">
 <icon BUILTIN="licq"/>
 <node CREATED="1570682093754" ID="ID_1705016475" MODIFIED="1570682105014">
@@ -3945,7 +3983,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1570682389566" FOLDED="true" ID="ID_350546539" MODIFIED="1570682396567" TEXT="Geometric series">
+<node CREATED="1570682389566" ID="ID_350546539" MODIFIED="1570682396567" TEXT="Geometric series">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1570682398583" ID="ID_209851684" MODIFIED="1570682408739" TEXT="Sums of terms of geometric progressions"/>
 <node CREATED="1570682414023" ID="ID_1328567512" MODIFIED="1587392834415" TEXT="Theorem">
@@ -3962,7 +4000,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571286482005" FOLDED="true" ID="ID_1594218595" MODIFIED="1571286488506" TEXT="Double summation">
+<node CREATED="1571286482005" ID="ID_1594218595" MODIFIED="1571286488506" TEXT="Double summation">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1571286724959" ID="ID_1609609064" MODIFIED="1571286731924" TEXT="Expand the second summation"/>
 <node CREATED="1571286539985" ID="ID_233607992" MODIFIED="1587392836184" TEXT="Example">
@@ -3994,7 +4032,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571286773030" FOLDED="true" ID="ID_1492421243" MODIFIED="1587392847425" TEXT="Useful Summation Formulae">
+<node CREATED="1571286773030" ID="ID_1492421243" MODIFIED="1587392847425" TEXT="Useful Summation Formulae">
 <icon BUILTIN="licq"/>
 <node CREATED="1571286813677" ID="ID_1850745677" MODIFIED="1571286821257">
 <richcontent TYPE="NODE"><html>
@@ -4525,7 +4563,7 @@
 </node>
 <node CREATED="1574834995735" FOLDED="true" ID="ID_1289373584" MODIFIED="1587388707091" POSITION="right" TEXT="Algorithms">
 <icon BUILTIN="full-3"/>
-<node CREATED="1574835164172" FOLDED="true" ID="ID_1120871976" MODIFIED="1587200115860" TEXT="3.1 Algorithms">
+<node CREATED="1574835164172" ID="ID_1120871976" MODIFIED="1587200115860" TEXT="3.1 Algorithms">
 <node CREATED="1574835186764" ID="ID_478086889" MODIFIED="1575879374644" TEXT="Definition">
 <node CREATED="1574835189653" ID="ID_1097192422" MODIFIED="1574835201089" TEXT="An algorithm is a finite sequence of precise instructions"/>
 <node CREATED="1574835202067" ID="ID_476920489" MODIFIED="1574835210882" TEXT="... for performing a computation or for solving a problem"/>
@@ -4735,7 +4773,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585125253999" ID="ID_626076480" MODIFIED="1586869602593" TEXT="The halting problems">
+<node CREATED="1585125253999" FOLDED="true" ID="ID_626076480" MODIFIED="1586869602593" TEXT="The halting problems">
 <node CREATED="1585125278238" ID="ID_229339619" MODIFIED="1585125283061" TEXT="Problem which can&apos;t be proved"/>
 <node CREATED="1585125549958" ID="ID_257824009" MODIFIED="1585125575185" TEXT="Program (p1) which takes a program (p2) and an input">
 <node CREATED="1585125575381" ID="ID_1777748584" MODIFIED="1585125589706" TEXT="Input is for p2"/>
@@ -5426,9 +5464,9 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1587388497496" FOLDED="true" ID="ID_136007063" MODIFIED="1587388567445" POSITION="right" TEXT="Induction and Recursion">
+<node CREATED="1587388497496" ID="ID_136007063" MODIFIED="1587388567445" POSITION="right" TEXT="Induction and Recursion">
 <icon BUILTIN="full-5"/>
-<node CREATED="1587469753575" FOLDED="true" ID="ID_996166179" MODIFIED="1587472939052" TEXT="Introduction">
+<node CREATED="1587469753575" ID="ID_996166179" MODIFIED="1587472939052" TEXT="Introduction">
 <node CREATED="1587469493576" ID="ID_286076869" MODIFIED="1587469630750" TEXT="Proof using mathematic induction ">
 <node CREATED="1587469630996" ID="ID_1138949548" MODIFIED="1587469643893" TEXT="Show that">
 <node CREATED="1587469503855" ID="ID_779178234" MODIFIED="1587469600842" TEXT="Statement holds for positive integer 1">
@@ -5478,7 +5516,7 @@
 <node CREATED="1587470094129" ID="ID_347838859" MODIFIED="1587470099359" TEXT="... that it always yield correct result"/>
 </node>
 </node>
-<node CREATED="1587470118046" FOLDED="true" ID="ID_1836173742" MODIFIED="1587654030237" TEXT="5.1 Mathematical Induction">
+<node CREATED="1587470118046" ID="ID_1836173742" MODIFIED="1587654030237" TEXT="5.1 Mathematical Induction">
 <node CREATED="1587470182670" FOLDED="true" ID="ID_762224774" MODIFIED="1587471630196" TEXT="Introduction">
 <node CREATED="1587470189118" ID="ID_717511020" MODIFIED="1587470196808" TEXT="We have an infinite ladder"/>
 <node CREATED="1587470197429" ID="ID_1952958436" MODIFIED="1587470213529" TEXT="... and we want to know if we can reach each step"/>
@@ -5581,7 +5619,8 @@
 <node CREATED="1587471341234" ID="ID_447459880" MODIFIED="1587471356326" TEXT="Show that P(1) is true">
 <icon BUILTIN="full-1"/>
 </node>
-<node CREATED="1587471370274" ID="ID_695908941" MODIFIED="1587471379341" TEXT="Show that P (k) &#x2192; P (k + 1) is true">
+<node CREATED="1587471370274" ID="ID_695908941" MODIFIED="1614523106092" TEXT="Show that P(k) &#x2192; P(k + 1) is true">
+<icon BUILTIN="full-2"/>
 <node CREATED="1587471379523" ID="ID_1762478702" MODIFIED="1587471388193" TEXT="for every positive integer k"/>
 <node CREATED="1587471395949" ID="ID_1637432152" MODIFIED="1587471413673" TEXT="... show that P(k+1) can&apos;t be false"/>
 <node CREATED="1587471414317" ID="ID_56463489" MODIFIED="1587471419391" TEXT="... when P(k) is true"/>
@@ -5602,7 +5641,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587471622870" ID="ID_1173730066" MODIFIED="1587471623920" TEXT="Why Mathematical Induction is Valid ">
+<node CREATED="1587471622870" FOLDED="true" ID="ID_1173730066" MODIFIED="1587471623920" TEXT="Why Mathematical Induction is Valid ">
 <node CREATED="1587471650794" ID="ID_259255359" MODIFIED="1587471658446" TEXT="Axiom of well-ordered property">
 <node CREATED="1587471662535" ID="ID_422071529" MODIFIED="1587471668086" TEXT="Every nonempty subset"/>
 <node CREATED="1587471668744" ID="ID_1639160968" MODIFIED="1587471672424" TEXT="... of the set of positive integer"/>
@@ -5610,7 +5649,7 @@
 <node CREATED="1587472552417" ID="ID_1060453009" MODIFIED="1587472574195" TEXT="(smaller than every other element of set)"/>
 </node>
 </node>
-<node CREATED="1587471739040" FOLDED="true" ID="ID_1542222009" MODIFIED="1587472616861" TEXT="Example">
+<node CREATED="1587471739040" ID="ID_1542222009" MODIFIED="1587472616861" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1587471740659" ID="ID_1531976609" MODIFIED="1587472231229" TEXT="Suppose we know">
 <icon BUILTIN="full-0"/>
@@ -5622,7 +5661,7 @@
 <node CREATED="1587471755272" ID="ID_1335870840" MODIFIED="1587472150649" TEXT="To show that P(n) must be true">
 <icon BUILTIN="full-1"/>
 <node CREATED="1587471810627" ID="ID_1209996451" MODIFIED="1587471816519" TEXT="... for all positive integers k"/>
-<node CREATED="1587471821392" ID="ID_1590518975" MODIFIED="1587471876568" TEXT="... assume that there at least is one positive integer"/>
+<node CREATED="1587471821392" ID="ID_1590518975" MODIFIED="1614523245932" TEXT="... assume that there is at least one positive integer"/>
 <node CREATED="1587471877611" ID="ID_516737265" MODIFIED="1587471887766" TEXT="... for which P(n) is false"/>
 </node>
 <node CREATED="1587471892929" ID="ID_1493798881" MODIFIED="1587472212134" TEXT="So we have set S of positive integer">
@@ -5660,9 +5699,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1587472594280" ID="ID_1124223788" MODIFIED="1587472594830" TEXT="The Good and the Bad of Mathematical Induction ">
+<node CREATED="1587472594280" FOLDED="true" ID="ID_1124223788" MODIFIED="1587472594830" TEXT="The Good and the Bad of Mathematical Induction ">
 <node CREATED="1587472595790" ID="ID_1924343039" MODIFIED="1587472598406" TEXT="The Good">
-<node CREATED="1587472622684" ID="ID_323697118" MODIFIED="1587472638083" TEXT="Proove a conjecture which have been made (an true)"/>
+<node CREATED="1587472622684" ID="ID_323697118" MODIFIED="1614523382871" TEXT="Proove a conjecture which have been made (and true)"/>
 </node>
 <node CREATED="1587472643402" ID="ID_1030017039" MODIFIED="1587472645437" TEXT="The Bad">
 <node CREATED="1587472645811" ID="ID_1054497861" MODIFIED="1587472650072" TEXT="Can&apos;t be used to find new theorems"/>
@@ -5670,7 +5709,7 @@
 <node CREATED="1587472692244" ID="ID_1176190047" MODIFIED="1587472705405" TEXT="... other methods of proof can bring more insight"/>
 </node>
 </node>
-<node CREATED="1587472716918" ID="ID_1066368983" MODIFIED="1587472721458" TEXT="Examples of Proofs by Mathematical Induction">
+<node CREATED="1587472716918" FOLDED="true" ID="ID_1066368983" MODIFIED="1587472721458" TEXT="Examples of Proofs by Mathematical Induction">
 <node CREATED="1587654065797" ID="ID_1741056947" MODIFIED="1587654071124" TEXT="Mathematical induction used"/>
 <node CREATED="1587654071702" ID="ID_498775730" MODIFIED="1587654083100" TEXT="... to prove statements of form &#x2200;nP(n)">
 <node CREATED="1587654086651" ID="ID_230604732" MODIFIED="1587654091546" TEXT="with Z+ domain"/>
@@ -5691,17 +5730,17 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1588146983743" FOLDED="true" ID="ID_848524163" MODIFIED="1588146999077" TEXT="5.3 Recursive Definitions And Structural Induction">
-<node CREATED="1588147020788" ID="ID_469897079" LINK="#ID_29648874" MODIFIED="1601217984529" TEXT="Introduction">
+<node CREATED="1588146983743" ID="ID_848524163" MODIFIED="1588146999077" TEXT="5.3 Recursive Definitions And Structural Induction">
+<node CREATED="1588147020788" FOLDED="true" ID="ID_469897079" LINK="#ID_29648874" MODIFIED="1601217984529" TEXT="Introduction">
 <node CREATED="1588147029500" ID="ID_1434206312" MODIFIED="1588147041001" TEXT="Sometimes difficult to define object explicitely"/>
 <node CREATED="1588147041665" ID="ID_816010592" MODIFIED="1588147056803" TEXT="Might be easier to define object in terms of itself"/>
 <node CREATED="1588147058587" ID="ID_1411829085" MODIFIED="1588147064209" TEXT="... process called recursion"/>
-<node CREATED="1588147075563" FOLDED="true" ID="ID_915671351" MODIFIED="1588147079389" TEXT="Can use recursion to define">
+<node CREATED="1588147075563" ID="ID_915671351" MODIFIED="1588147079389" TEXT="Can use recursion to define">
 <node CREATED="1588147080323" ID="ID_1022711607" MODIFIED="1588147082211" TEXT="sequences"/>
 <node CREATED="1588147082639" ID="ID_1916214535" MODIFIED="1588147083787" TEXT="functions"/>
 <node CREATED="1588147084129" ID="ID_576202727" MODIFIED="1588147084909" TEXT="sets"/>
 </node>
-<node CREATED="1588147111935" FOLDED="true" ID="ID_1766058379" MODIFIED="1589354625952" TEXT="Example">
+<node CREATED="1588147111935" ID="ID_1766058379" MODIFIED="1589354625952" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1588147115202" ID="ID_1455074922" MODIFIED="1588147134944" TEXT="Explicit formula for sequence of powers of 2">
 <node CREATED="1588147127233" ID="ID_1065902331" MODIFIED="1588147142912" TEXT=" an = 2n for n = 0, 1, 2, . . . "/>
@@ -5719,7 +5758,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588147236303" FOLDED="true" ID="ID_1750096022" MODIFIED="1588147243033" TEXT="When define set recursively">
+<node CREATED="1588147236303" ID="ID_1750096022" MODIFIED="1588147243033" TEXT="When define set recursively">
 <node CREATED="1588147243895" ID="ID_1162605102" MODIFIED="1588147273439" TEXT="Specify some initial elements in a basis step">
 <icon BUILTIN="full-1"/>
 </node>
@@ -5727,7 +5766,7 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node CREATED="1588147294291" FOLDED="true" ID="ID_1770373529" MODIFIED="1588147297479" TEXT="To prove result">
+<node CREATED="1588147294291" ID="ID_1770373529" MODIFIED="1588147297479" TEXT="To prove result">
 <node CREATED="1588147297731" ID="ID_1940647076" MODIFIED="1588147302242" TEXT="Use structural induction"/>
 </node>
 </node>
@@ -5771,7 +5810,7 @@
 <node CREATED="1589701844428" ID="ID_1063840566" MODIFIED="1589701849576" TEXT="... no matter how we apply them"/>
 </node>
 </node>
-<node CREATED="1588147977532" FOLDED="true" ID="ID_1556185068" MODIFIED="1588147982563" TEXT="Example">
+<node CREATED="1588147977532" ID="ID_1556185068" MODIFIED="1588147982563" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1588147983624" ID="ID_1454842427" MODIFIED="1588147996745">
 <richcontent TYPE="NODE"><html>
@@ -5785,8 +5824,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1588148059957" ID="ID_1394431281" MODIFIED="1588148060893" TEXT="Recursively Defined Sets and Structures ">
-<node CREATED="1588148111031" FOLDED="true" ID="ID_954325867" MODIFIED="1588148114168" TEXT="Two parts">
+<node CREATED="1588148059957" FOLDED="true" ID="ID_1394431281" MODIFIED="1588148060893" TEXT="Recursively Defined Sets and Structures ">
+<node CREATED="1588148111031" ID="ID_954325867" MODIFIED="1588148114168" TEXT="Two parts">
 <node CREATED="1588148114430" ID="ID_1645902686" MODIFIED="1588148123555" TEXT="Basis step">
 <icon BUILTIN="full-1"/>
 </node>
@@ -5828,8 +5867,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1588149035752" FOLDED="true" ID="ID_295144437" MODIFIED="1588149808278" TEXT="Rooted tree">
-<node CREATED="1588149493647" ID="ID_1505782579" MODIFIED="1588149792464" TEXT="Definition">
+<node CREATED="1588149035752" ID="ID_295144437" MODIFIED="1588149808278" TEXT="Rooted tree">
+<node CREATED="1588149493647" FOLDED="true" ID="ID_1505782579" MODIFIED="1588149792464" TEXT="Definition">
 <icon BUILTIN="licq"/>
 <node CREATED="1589702088077" ID="ID_1669682144" MODIFIED="1589702116930">
 <richcontent TYPE="NODE"><html>
@@ -5842,7 +5881,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1588149742095" ID="ID_1685759301" MODIFIED="1588149765621" TEXT="Example">
+<node CREATED="1588149742095" FOLDED="true" ID="ID_1685759301" MODIFIED="1588149765621" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <icon BUILTIN="licq"/>
 <node CREATED="1588149743763" ID="ID_1990292643" MODIFIED="1588149755409">
@@ -5926,8 +5965,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1588319053502" FOLDED="true" ID="ID_428739369" MODIFIED="1588319063907" TEXT="5.4 Recursive Algorithms">
-<node CREATED="1588319076391" ID="ID_705123969" MODIFIED="1588319078146" TEXT="Introduction">
+<node CREATED="1588319053502" ID="ID_428739369" MODIFIED="1588319063907" TEXT="5.4 Recursive Algorithms">
+<node CREATED="1588319076391" FOLDED="true" ID="ID_705123969" MODIFIED="1588319078146" TEXT="Introduction">
 <node CREATED="1588319104487" ID="ID_1265351216" MODIFIED="1588319144384" TEXT="Sometimes we can reduce problem solution">
 <node CREATED="1588319111245" ID="ID_1850283916" MODIFIED="1588319119534" TEXT="with particular set of input values"/>
 <node CREATED="1588319119993" ID="ID_86256660" MODIFIED="1588319129347" TEXT="... to solution of same problem"/>
@@ -6015,13 +6054,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1588320419572" ID="ID_501865201" MODIFIED="1588320419572" TEXT="Proving Recursive Algorithms Correct">
+<node CREATED="1588320419572" FOLDED="true" ID="ID_501865201" MODIFIED="1588320419572" TEXT="Proving Recursive Algorithms Correct">
 <node COLOR="#338800" CREATED="1588146802807" ID="ID_1459301692" MODIFIED="1588146814645" TEXT="Skipped">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1588320436405" ID="ID_286101149" MODIFIED="1588320440328" TEXT="Recursion and Iteration">
+<node CREATED="1588320436405" FOLDED="true" ID="ID_286101149" MODIFIED="1588320440328" TEXT="Recursion and Iteration">
 <node CREATED="1588320495333" ID="ID_1639080957" MODIFIED="1588320499294" TEXT="Recursive definition">
 <node CREATED="1588320499484" ID="ID_1002264200" MODIFIED="1588320512102" TEXT="Value of a function at a positive integer"/>
 <node CREATED="1588320513345" ID="ID_1783983796" MODIFIED="1588320525812" TEXT="... in terms of values of the function at smaller integers"/>
@@ -6104,7 +6143,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588321053043" ID="ID_423756574" MODIFIED="1588321055701" TEXT="The Merge Sort">
+<node CREATED="1588321053043" FOLDED="true" ID="ID_423756574" MODIFIED="1588321055701" TEXT="The Merge Sort">
 <node COLOR="#338800" CREATED="1588146802807" ID="ID_918175055" MODIFIED="1588146814645" TEXT="Skipped">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
