@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1614525646888" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1614526006983" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -414,7 +414,7 @@
         What if you want index summation between 0 and 4 of question 5? How this kind of operation's called?
       </li>
       <li>
-        
+        Taking the summation of question 1, what if you want to do a double summation? First summation: m = 1, n = 4, second summation m = 1, n = 3 for ij?
       </li>
     </ol>
     <p>
