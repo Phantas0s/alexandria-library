@@ -1768,12 +1768,12 @@
 <node CREATED="1614960748904" FOLDED="true" ID="ID_1250650298" MODIFIED="1614960758558" TEXT="Take It All The Way To &quot;No&quot;">
 <icon BUILTIN="full-2"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1614960759936" ID="ID_479685832" MODIFIED="1614960786469" TEXT="Ask for too little">
+<node CREATED="1614960759936" FOLDED="true" ID="ID_479685832" MODIFIED="1614960786469" TEXT="Ask for too little">
 <node CREATED="1614960786712" ID="ID_1294099643" MODIFIED="1614960791717" TEXT="Biggest mistake you can make"/>
 </node>
 <node CREATED="1614960798675" ID="ID_749332513" MODIFIED="1614960804204" TEXT="If ask for too much you&apos;ll get &quot;no&quot;"/>
 <node CREATED="1614960810927" ID="ID_144149984" MODIFIED="1614960817156" TEXT="You&apos;re in range to get the most"/>
-<node CREATED="1614960823776" ID="ID_1608916737" MODIFIED="1614960832012" TEXT="&quot;No&quot; doesn&apos;t mean &quot;no&quot; in business often">
+<node CREATED="1614960823776" FOLDED="true" ID="ID_1608916737" MODIFIED="1614960832012" TEXT="&quot;No&quot; doesn&apos;t mean &quot;no&quot; in business often">
 <node CREATED="1614960834448" ID="ID_1660084357" MODIFIED="1614960840259" TEXT="Need to get from &quot;no&quot; to &quot;yes&quot;"/>
 <node CREATED="1614960841041" ID="ID_1858963741" MODIFIED="1614960869350" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -1799,7 +1799,117 @@
 <node CREATED="1614960995439" ID="ID_846487127" MODIFIED="1614961014923" TEXT="The Power Thank You and Power Apology">
 <icon BUILTIN="full-2"/>
 <icon BUILTIN="full-3"/>
+<node CREATED="1615048879153" ID="ID_1021153916" MODIFIED="1615049100506" TEXT="Thank You Versus The Power Thank You">
+<icon BUILTIN="full-1"/>
+<node CREATED="1615048970783" ID="ID_1969434785" MODIFIED="1615048972878" TEXT="Thank you">
+<node CREATED="1615048973023" ID="ID_1652170184" MODIFIED="1615048975252" TEXT="Polite gesture"/>
+<node CREATED="1615048975623" ID="ID_1990238563" MODIFIED="1615048981044" TEXT="Doesn&apos;t strength relationships"/>
 </node>
+<node CREATED="1615048982407" ID="ID_440234021" MODIFIED="1615048985027" TEXT="Power thank you">
+<node CREATED="1615048986176" ID="ID_872799328" MODIFIED="1615048991718" TEXT="Thank the person for something specific">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1615048992287" ID="ID_598534710" MODIFIED="1615049005156" TEXT="Acknowledge the effort it took for the person to help you">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1615049005895" ID="ID_434234164" MODIFIED="1615049019174" TEXT="Tell the person the difference that his or her act personally made to you">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1615049023575" ID="ID_734584302" MODIFIED="1615049029339" TEXT="When somebody say thanks"/>
+<node CREATED="1615049029907" ID="ID_92467504" MODIFIED="1615049035594" TEXT="... it&apos;s not as much as the other gave">
+<node CREATED="1615049042015" ID="ID_1828172274" MODIFIED="1615049054243" TEXT="Mirror neurone deficits"/>
+<node CREATED="1615049062841" ID="ID_29368858" MODIFIED="1615049067970" TEXT="It&apos;s often not enough!"/>
+</node>
+<node CREATED="1615049070230" ID="ID_230601477" MODIFIED="1615049075131" TEXT="To make it even more powerful">
+<node CREATED="1615049077679" ID="ID_221327030" MODIFIED="1615049082075" TEXT="... do it in group settings"/>
+<node CREATED="1615049083462" ID="ID_220870493" MODIFIED="1615049088451" TEXT="Larger it is, the better"/>
+</node>
+</node>
+<node CREATED="1615049094110" ID="ID_1825758947" MODIFIED="1615049101245" TEXT="The Power Apology">
+<icon BUILTIN="full-2"/>
+<node CREATED="1615049122110" ID="ID_851616150" MODIFIED="1615049127107" TEXT="Sorry patch over wound"/>
+<node CREATED="1615049127534" ID="ID_487683528" MODIFIED="1615049129787" TEXT="... but don&apos;t heal it"/>
+<node CREATED="1615049141302" ID="ID_346600730" MODIFIED="1615049144138" TEXT="Screwing up">
+<node CREATED="1615049144278" ID="ID_721016646" MODIFIED="1615049150787" TEXT="Suggestion the other doesn&apos;t matter"/>
+<node CREATED="1615049152054" ID="ID_1920712285" MODIFIED="1615049158890" TEXT="Huge neurone mirror deficit"/>
+</node>
+<node CREATED="1615049161678" ID="ID_143779394" MODIFIED="1615049164258" TEXT="Power apology">
+<node CREATED="1615049164613" ID="ID_1561350011" MODIFIED="1615049168107" TEXT="Remorse">
+<icon BUILTIN="full-1"/>
+<node CREATED="1615049169078" ID="ID_1789654632" MODIFIED="1615049175297" TEXT="Demonstrate you caused harm"/>
+<node CREATED="1615049175749" ID="ID_649064634" MODIFIED="1615049184778" TEXT="Demonstrate you&apos;re trully sorry"/>
+<node CREATED="1615049186502" ID="ID_443035093" MODIFIED="1615049197913" TEXT="Allow other person to vent">
+<node CREATED="1615049198645" ID="ID_1773892471" MODIFIED="1615049200577" TEXT="Don&apos;t stop it"/>
+<node CREATED="1615049203758" ID="ID_995894180" MODIFIED="1615049207857" TEXT="... even if over the top"/>
+<node CREATED="1615049211989" ID="ID_474630711" MODIFIED="1615049215977" TEXT="Evacuate what&apos;s in chest"/>
+<node CREATED="1615049219357" ID="ID_1354398215" MODIFIED="1615049222594" TEXT="Speed up healing process"/>
+</node>
+</node>
+<node CREATED="1615049229318" ID="ID_1903454649" MODIFIED="1615049264163" TEXT="Restitution">
+<icon BUILTIN="full-2"/>
+<node CREATED="1615049235110" ID="ID_1329335602" MODIFIED="1615049239618" TEXT="Find some way to make amend"/>
+<node CREATED="1615049241597" ID="ID_1444416742" MODIFIED="1615049244346" TEXT="... at least partially"/>
+<node CREATED="1615049249068" ID="ID_1200387559" MODIFIED="1615049258338" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1615049250822" ID="ID_210972045" MODIFIED="1615049252938" TEXT="Take full blame"/>
+</node>
+</node>
+<node CREATED="1615049264622" ID="ID_426254049" MODIFIED="1615049267778" TEXT="Rehabilitation">
+<icon BUILTIN="full-3"/>
+<node CREATED="1615049269949" ID="ID_541027846" MODIFIED="1615049277106" TEXT="Demonstrate through actions"/>
+<node CREATED="1615049279981" ID="ID_1926501060" MODIFIED="1615049284785" TEXT="... that you&apos;ve learned your lesson"/>
+</node>
+<node CREATED="1615049286493" ID="ID_1366051462" MODIFIED="1615049316314" TEXT="Requesting forgiveness">
+<icon BUILTIN="full-4"/>
+<node CREATED="1615049300973" ID="ID_1329352692" MODIFIED="1615049306176" TEXT="Sustain your corrective actions"/>
+<node CREATED="1615049309556" ID="ID_716192537" MODIFIED="1615049314088" TEXT="... till they become part of yourself"/>
+</node>
+<node CREATED="1615049321221" ID="ID_1995483111" MODIFIED="1615049363537" TEXT="Only at this point, ask: &quot;Can you forgive me?&quot;">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1615049371069" ID="ID_1313017912" MODIFIED="1615049375008" TEXT="People appreciate efforts"/>
+<node CREATED="1615049379509" ID="ID_374147383" MODIFIED="1615049384937" TEXT="Some people are unforgiving">
+<node CREATED="1615049385117" ID="ID_1301441391" MODIFIED="1615049387003" TEXT="Just let go"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1615049396268" ID="ID_476637467" MODIFIED="1615049443617" POSITION="right" TEXT="Section IV: Putting It All Together: Fast Fixes for Seven Challenging Situations">
+<icon BUILTIN="full-4"/>
+<node CREATED="1615049404781" ID="ID_1099322681" MODIFIED="1615049455127" TEXT="Techniques even more powerful when combined"/>
+<node CREATED="1615049461796" ID="ID_257612670" MODIFIED="1615049474964" TEXT="The team from Hell">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1615049482589" ID="ID_1614496888" MODIFIED="1615049488529" TEXT="Climbing The Ladder">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1615049492363" ID="ID_1312811693" MODIFIED="1615049499617" TEXT="The Narcissit At The Table">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-6"/>
+</node>
+<node CREATED="1615049505988" ID="ID_191334929" MODIFIED="1615049512425" TEXT="Stranger In Town">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-7"/>
+</node>
+<node CREATED="1615049517363" ID="ID_1632544465" MODIFIED="1615049522305" TEXT="The Human Explosion">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-8"/>
+</node>
+<node CREATED="1615049527947" ID="ID_317315343" MODIFIED="1615049536632" TEXT="Getting THrough to Yourself">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-9"/>
+</node>
+<node CREATED="1615049544443" ID="ID_1438326720" MODIFIED="1615049551617" TEXT="Six Degrees Of Separation">
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="full-0"/>
+</node>
+</node>
+<node CREATED="1615049559972" ID="ID_1378021758" MODIFIED="1615049564121" POSITION="right" TEXT="Afterword">
+<icon BUILTIN="full-5"/>
 </node>
 </node>
 </map>
