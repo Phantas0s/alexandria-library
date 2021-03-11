@@ -2462,7 +2462,7 @@
 <node CREATED="1596776363255" ID="ID_138511818" MODIFIED="1598614498781" POSITION="right" TEXT="Object Oriented Programming">
 <icon BUILTIN="full-9"/>
 </node>
-<node CREATED="1596776394028" FOLDED="true" ID="ID_1618812532" MODIFIED="1596776405795" POSITION="right" TEXT="Local State Variables / Environments">
+<node CREATED="1596776394028" ID="ID_1618812532" MODIFIED="1596776405795" POSITION="right" TEXT="Local State Variables / Environments">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1599052274441" ID="ID_1246556042" MODIFIED="1599052280983" TEXT="Three big ideas of OOP interface">
@@ -2658,7 +2658,7 @@
 <node CREATED="1599053540768" ID="ID_23418522" MODIFIED="1599053553211" TEXT="Environment of f?"/>
 <node CREATED="1599053553784" ID="ID_771455195" MODIFIED="1599053556260" TEXT="Global env?"/>
 </node>
-<node CREATED="1599053557456" ID="ID_1542703666" MODIFIED="1599053561075" TEXT="Environment of f!">
+<node CREATED="1599053557456" ID="ID_1542703666" MODIFIED="1615470795238" TEXT="... environment of f!">
 <node CREATED="1599053561865" ID="ID_732500491" MODIFIED="1599053567662" TEXT="Need to be able to look up">
 <node CREATED="1599053567848" ID="ID_1978769705" MODIFIED="1599053568563" TEXT="x"/>
 <node CREATED="1599053568985" ID="ID_3461546" MODIFIED="1599053569580" TEXT="y"/>
@@ -2927,7 +2927,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1596776442507" ID="ID_1259181794" MODIFIED="1596776447034" POSITION="right" TEXT="Client/server paradigm, Concurrency">
+<node CREATED="1596776442507" FOLDED="true" ID="ID_1259181794" MODIFIED="1596776447034" POSITION="right" TEXT="Client/server paradigm, Concurrency">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1601651104791" FOLDED="true" ID="ID_1539113622" MODIFIED="1601651113773" TEXT="Computers often cooperate together">
@@ -3091,7 +3091,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1596776462931" ID="ID_411695610" MODIFIED="1596776465943" POSITION="right" TEXT="Streams ">
+<node CREATED="1596776462931" FOLDED="true" ID="ID_411695610" MODIFIED="1596776465943" POSITION="right" TEXT="Streams ">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1613119577318" ID="ID_1274480104" MODIFIED="1613119581003" TEXT="Introduction">
@@ -3314,8 +3314,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(stream-range 2 (- n 1)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="wizard"/>
 <node CREATED="1613120400296" ID="ID_1456785994" MODIFIED="1613120402989" TEXT="Range [2, &#x221e;] "/>
 </node>
@@ -3345,8 +3344,7 @@
       &#160;&#160;(cons-stream (read) (user-stream)) )
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

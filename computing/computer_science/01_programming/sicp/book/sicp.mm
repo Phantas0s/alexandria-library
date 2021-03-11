@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1614431796443" TEXT="SICP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1615467757119" TEXT="SICP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8332,7 +8332,7 @@
 <node CREATED="1613662182493" ID="ID_13015693" MODIFIED="1613662185489" TEXT="Classify expression"/>
 <node CREATED="1613662185829" ID="ID_449445978" MODIFIED="1613662189386" TEXT="Direct evaluation"/>
 </node>
-<node CREATED="1613662536347" ID="ID_1987971934" MODIFIED="1614431796481" TEXT="Apply">
+<node CREATED="1613662536347" ID="ID_1987971934" MODIFIED="1615467757142" TEXT="Apply">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8984,8 +8984,7 @@
       (define the-empty-environment '())
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1614432377358" ID="ID_1835059372" MODIFIED="1614432410141" TEXT="frames">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -9014,8 +9013,7 @@
       &#160;&#160;(set-cdr! frame (cons val (cdr frame))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1614432393622" ID="ID_807577916" MODIFIED="1614432404383" TEXT="extend-environment">
@@ -9046,8 +9044,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1614432545613" ID="ID_1212660456" MODIFIED="1614432620972" TEXT="lookup-variable-value">
@@ -9096,8 +9093,7 @@
       &#160;&#160;(env-loop env))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1614432696994" ID="ID_252751718" MODIFIED="1614432822938" TEXT="set-variable-value!">
@@ -9146,8 +9142,7 @@
       &#160;&#160;(env-loop env))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1614432815138" ID="ID_1565639304" MODIFIED="1614432821812" TEXT="define-variable!">
@@ -9181,8 +9176,7 @@
       &#160;&#160;&#160;&#160;(scan (frame-variables frame) (frame-values frame))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -9231,8 +9225,7 @@
       (define the-global-environment (setup-environment))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1614433244824" ID="ID_919333048" MODIFIED="1614433261427" TEXT="primitive procedure?">
@@ -9254,8 +9247,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1614433271279" ID="ID_638471285" MODIFIED="1614433280888" TEXT="primitive-procedures">
@@ -9298,8 +9290,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;primitive-procedures))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1614433340144" ID="ID_1162254196" MODIFIED="1614433358884" TEXT="Name are the same "/>
 <node CREATED="1614433359744" ID="ID_700542059" MODIFIED="1614433360996" TEXT="... because Scheme evaluator"/>
@@ -9321,8 +9312,7 @@
       &#160;&#160;&#160;&#160;(primitive-implementation proc) args))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1614433825645" ID="ID_970121477" MODIFIED="1614433833950" TEXT="apply-in-underlying-scheme">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -9367,8 +9357,7 @@
       &#160;&#160;(driver-loop))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1614433902876" ID="ID_763474783" MODIFIED="1614433913985" TEXT="prompt-for-input">
 <richcontent TYPE="NOTE"><html>
@@ -9389,8 +9378,7 @@
       &#160;&#160;(newline) (display string) (newline))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1614433940987" ID="ID_1549608297" MODIFIED="1614433950391" TEXT="user-print">
 <richcontent TYPE="NOTE"><html>
@@ -9420,8 +9408,7 @@
       &#160;&#160;&#160;&#160;(display object)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1614433975074" ID="ID_1511393776" MODIFIED="1614434023702" TEXT="Initializing the global env and start driver loop">
@@ -9437,8 +9424,7 @@
       (driver-loop)<br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1614434023940" ID="ID_364054035" MODIFIED="1614434121585" TEXT="Example">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -9482,8 +9468,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -9504,8 +9489,7 @@
       &#160;&#160;(if (= n 1) 1 (* (factorial (- n 1)) n)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="wizard"/>
 <node CREATED="1614435612945" FOLDED="true" ID="ID_92905636" MODIFIED="1614435622222" TEXT="Description of machine with parts that">
@@ -9528,8 +9512,7 @@
   <body>
     <img src="factorial_machine.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -9565,15 +9548,373 @@
       &#160;&#160;(if (= n 1) 1 (* (factorial (- n 1)) n)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1614436980257" ID="ID_1859344638" MODIFIED="1614437007133" TEXT="Each time recursive call"/>
 <node CREATED="1614437007577" ID="ID_1228346086" MODIFIED="1614437013046" TEXT="... need to analyze that it&apos;s a if"/>
 <node CREATED="1614437013464" ID="ID_1815301545" MODIFIED="1614437019092" TEXT="... and the predicate"/>
 <node CREATED="1614437019424" ID="ID_1740897828" MODIFIED="1614437025012" TEXT="... to know what to execute"/>
 </node>
-<node CREATED="1614437025648" ID="ID_9178244" MODIFIED="1614437041044" TEXT="Can do syntactic analysis only once">
-<node CREATED="1614437043712" ID="ID_754679550" MODIFIED="1614437046541" TEXT="Splitting eval"/>
+<node CREATED="1614437025648" ID="ID_9178244" MODIFIED="1614437041044" TEXT="Can do syntactic analysis only once"/>
+<node CREATED="1614437043712" ID="ID_754679550" MODIFIED="1614437046541" TEXT="Splitting eval">
+<node CREATED="1615467801612" ID="ID_194802488" MODIFIED="1615467817337" TEXT="analyze">
+<node CREATED="1615467820089" ID="ID_1109416861" MODIFIED="1615467827423" TEXT="Takes only the expression"/>
+<node CREATED="1615467827777" ID="ID_1703288700" MODIFIED="1615467831127" TEXT="Do syntactic analysis"/>
+<node CREATED="1615467837442" ID="ID_1799618158" MODIFIED="1615467842593" TEXT="Return execution procedure"/>
+</node>
+<node CREATED="1615467863677" ID="ID_1935267198" MODIFIED="1615467868055" TEXT="execution procedure">
+<node CREATED="1615467868235" ID="ID_409775420" MODIFIED="1615467871544" TEXT="Take an env as argument"/>
+<node CREATED="1615467872249" ID="ID_423005017" MODIFIED="1615467875471" TEXT="Complete the evaluation"/>
+</node>
+</node>
+<node CREATED="1615467881307" ID="ID_1103208271" MODIFIED="1615467886463" TEXT="... save work">
+<node CREATED="1615467886658" ID="ID_457061984" MODIFIED="1615467895199" TEXT="analyze will be called only once on an expression"/>
+<node CREATED="1615467897017" ID="ID_947644034" MODIFIED="1615467904605" TEXT="... while execution procedure can be called many times"/>
+</node>
+<node CREATED="1615467914067" ID="ID_1868121537" MODIFIED="1615467916774" TEXT="Eval becomes">
+<node CREATED="1615467964842" ID="ID_1024026228" MODIFIED="1615467973003" TEXT="(define (eval exp env) ((analyze exp) env))">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1615468009040" ID="ID_276505956" MODIFIED="1615468057137" TEXT="Analyze now only perform analysis">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (analyze exp)
+    </p>
+    <p>
+      &#160;&#160;(cond ((self-evaluating? exp) (analyze-self-evaluating exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((quoted? exp) (analyze-quoted exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((variable? exp) (analyze-variable exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((assignment? exp) (analyze-assignment exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((definition? exp) (analyze-definition exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((if? exp) (analyze-if exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((lambda? exp) (analyze-lambda exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((begin? exp) (analyze-sequence (begin-actions exp)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((cond? exp) (analyze (cond-&gt;if exp)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((application? exp) (analyze-application exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown expression type: ANALYZE&quot; exp))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1615468137129" ID="ID_710228264" MODIFIED="1615468157184" TEXT="analyze-self-evaluating">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (analyze-self-evaluating exp)
+    </p>
+    <p>
+      &#160;&#160;(lambda (env) exp))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1615468160008" ID="ID_1252940725" MODIFIED="1615468285863" TEXT="analyze-quoted">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (analyze-quoted exp)
+    </p>
+    <p>
+      &#160;&#160;(let ((qval (text-of-quotation exp)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda (env) qval)))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1615468197383" ID="ID_1326241712" MODIFIED="1615468285417" TEXT="analyze-variable">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (analyze-variable exp)
+    </p>
+    <p>
+      &#160;&#160;(lambda (env) (lookup-variable-value exp env)))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1615468214168" ID="ID_519295888" MODIFIED="1615468253205" TEXT="analyze-assignment">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (analyze-assignment exp)
+    </p>
+    <p>
+      &#160;&#160;(let ((var (assignment-variable exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(vproc (analyze (assignment-value exp))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda (env)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(set-variable-value! var (vproc env) env)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;'ok)))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1615468253559" ID="ID_1200919400" MODIFIED="1615468283546" TEXT="analyze-definition">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (analyze-definition exp)
+    </p>
+    <p>
+      &#160;&#160;(let ((var (definition-variable exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(vproc (analyze (definition-value exp))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda (env)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(define-variable! var (vproc env) env)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;'ok)))
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1615468277440" ID="ID_880097410" MODIFIED="1615468282816" TEXT="analyze-if">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (analyze-if exp)
+    </p>
+    <p>
+      &#160;&#160;(let ((pproc (analyze (if-predicate exp)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cproc (analyze (if-consequent exp)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(aproc (analyze (if-alternative exp))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda (env) (if (true? (pproc env))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cproc env)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(aproc env)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1615468295104" ID="ID_766099193" MODIFIED="1615468305244" TEXT="analyze-lambda">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (analyze-lambda exp)
+    </p>
+    <p>
+      &#160;&#160;(let ((vars (lambda-parameters exp))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(bproc (analyze-sequence (lambda-body exp))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda (env) (make-procedure vars bproc env))))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1615468480541" ID="ID_1074579459" MODIFIED="1615468486471" TEXT="analyze-sequence">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (analyze-sequence exps)
+    </p>
+    <p>
+      &#160;&#160;(define (sequentially proc1 proc2)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda (env) (proc1 env) (proc2 env)))
+    </p>
+    <p>
+      &#160;&#160;(define (loop first-proc rest-procs)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if (null? rest-procs)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;first-proc
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(loop (sequentially first-proc (car rest-procs))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(cdr rest-procs))))
+    </p>
+    <p>
+      &#160;&#160;(let ((procs (map analyze exps)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(if (null? procs) (error &quot;Empty sequence: ANALYZE&quot;))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(loop (car procs) (cdr procs))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1615468545221" ID="ID_1963680222" MODIFIED="1615468565488" TEXT="analyze-application">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (analyze-application exp)
+    </p>
+    <p>
+      &#160;&#160;(let ((fproc (analyze (operator exp)))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(aprocs (map analyze (operands exp))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;(lambda (env)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(execute-application
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(fproc env)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(map (lambda (aproc) (aproc env))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;aprocs)))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1615468557552" ID="ID_1171608840" MODIFIED="1615468564400" TEXT="execute-application">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (define (execute-application proc args)
+    </p>
+    <p>
+      &#160;&#160;(cond ((primitive-procedure? proc)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(apply-primitive-procedure proc args))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((compound-procedure? proc)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((procedure-body proc)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(extend-environment
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(procedure-parameters proc)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;args
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(procedure-environment proc))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(error &quot;Unknown procedure type: EXECUTE-APPLICATION&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;proc))))
+    </p>
+  </body>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
