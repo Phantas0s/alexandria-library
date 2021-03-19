@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1615737682718" ID="ID_1706706792" MODIFIED="1615737690066" TEXT="Marketing mindset">
+<node CREATED="1615737682718" ID="ID_1706706792" LINK="https://www.thebusinessofauthority.com/episodes/marketing-mindset" MODIFIED="1615741344628" TEXT="Marketing mindset">
 <node CREATED="1615737979780" ID="ID_1918768331" MODIFIED="1615740281526" POSITION="right" TEXT="Stigma around marketing">
 <icon BUILTIN="full-1"/>
 <node CREATED="1615737690279" ID="ID_135028646" MODIFIED="1615737795697" TEXT="Marketing bad?">

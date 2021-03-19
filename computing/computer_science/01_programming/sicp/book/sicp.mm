@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1615467757119" TEXT="SICP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1616149739032" TEXT="SICP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5912,7 +5912,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597486267458" FOLDED="true" ID="ID_768131575" MODIFIED="1597486268131" TEXT="3.2 The Environment Model of Evaluation ">
+<node CREATED="1597486267458" ID="ID_768131575" MODIFIED="1597486268131" TEXT="3.2 The Environment Model of Evaluation ">
 <node CREATED="1597487442690" FOLDED="true" ID="ID_157243215" MODIFIED="1597487445534" TEXT="Introduction">
 <node CREATED="1597486284362" ID="ID_1877848972" LINK="#ID_233356948" MODIFIED="1597486312674" TEXT="Substitution model is no longer adequate">
 <node CREATED="1597486547288" ID="ID_1101013477" MODIFIED="1597486553989" TEXT="Needs a &quot;place&quot; where values are stored"/>
@@ -6010,7 +6010,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597487439499" FOLDED="true" ID="ID_1759000869" MODIFIED="1597487440163" TEXT="3.2.1 The Rules for Evaluation ">
+<node CREATED="1597487439499" ID="ID_1759000869" MODIFIED="1597487440163" TEXT="3.2.1 The Rules for Evaluation ">
 <node CREATED="1597853798892" ID="ID_1298621788" MODIFIED="1597853804130" TEXT="In environment model of evaluation"/>
 <node CREATED="1597853807149" ID="ID_1183355622" MODIFIED="1597853819778" TEXT="... procedure always pair with">
 <node CREATED="1597853819939" ID="ID_1925634903" MODIFIED="1597853821867" TEXT="some code"/>
@@ -6051,15 +6051,18 @@
 </html></richcontent>
 </node>
 <node CREATED="1597854223699" ID="ID_1937013319" MODIFIED="1597854330086" TEXT="Environment">
-<node CREATED="1597854330377" ID="ID_1911098987" MODIFIED="1597854335978">
+<node CREATED="1597854330377" ID="ID_1911098987" MODIFIED="1616150460076">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <img src="global_env_lamda_define.png" />
+    <p>
+      <img src="global_env_lambda_define.png" />
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1597854469265" ID="ID_1158485218" MODIFIED="1597854475117" TEXT="Procedure object a pair">
 <node CREATED="1597854481297" ID="ID_1705558853" MODIFIED="1597854485412" TEXT="One formal parameter"/>
@@ -8189,7 +8192,7 @@
 </node>
 <node CREATED="1613659561454" ID="ID_1709087113" MODIFIED="1613659681300" POSITION="right" TEXT="Metalinguistic Abstraction">
 <icon BUILTIN="full-4"/>
-<node CREATED="1613659785405" ID="ID_1342797686" MODIFIED="1613659793497" TEXT="Introduction">
+<node CREATED="1613659785405" FOLDED="true" ID="ID_1342797686" MODIFIED="1613659793497" TEXT="Introduction">
 <node CREATED="1613659793765" ID="ID_1065573012" MODIFIED="1613659809232" TEXT="Programmer control complexity of their design"/>
 <node CREATED="1613659809863" ID="ID_295536720" MODIFIED="1613659964095" TEXT="... as same general technique "/>
 <node CREATED="1613659965155" ID="ID_809151167" MODIFIED="1613659966247" TEXT="... used by designers of all complex systems">
@@ -8228,7 +8231,7 @@
 <node CREATED="1613660321386" ID="ID_1528388817" MODIFIED="1613660335860" TEXT="Can see any program as an interpreter"/>
 </node>
 </node>
-<node CREATED="1613661562233" ID="ID_249082457" MODIFIED="1613661572837" TEXT="4.1 The Metacircular Evaluator">
+<node CREATED="1613661562233" FOLDED="true" ID="ID_249082457" MODIFIED="1613661572837" TEXT="4.1 The Metacircular Evaluator">
 <node CREATED="1613662123405" ID="ID_1653087019" MODIFIED="1613662125194" TEXT="Introduction">
 <node CREATED="1613661601289" ID="ID_1441298500" MODIFIED="1613661603516" TEXT="Circular">
 <node CREATED="1613661604265" ID="ID_529055665" MODIFIED="1613661615893" TEXT="Evaluating Lisp program"/>
@@ -8332,7 +8335,7 @@
 <node CREATED="1613662182493" ID="ID_13015693" MODIFIED="1613662185489" TEXT="Classify expression"/>
 <node CREATED="1613662185829" ID="ID_449445978" MODIFIED="1613662189386" TEXT="Direct evaluation"/>
 </node>
-<node CREATED="1613662536347" ID="ID_1987971934" MODIFIED="1615467757142" TEXT="Apply">
+<node CREATED="1613662536347" ID="ID_1987971934" MODIFIED="1616149739064" TEXT="Apply">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -9618,8 +9621,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(else (error &quot;Unknown expression type: ANALYZE&quot; exp))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1615468137129" ID="ID_710228264" MODIFIED="1615468157184" TEXT="analyze-self-evaluating">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -9633,8 +9635,7 @@
       &#160;&#160;(lambda (env) exp))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1615468160008" ID="ID_1252940725" MODIFIED="1615468285863" TEXT="analyze-quoted">
@@ -9653,8 +9654,7 @@
       &#160;&#160;&#160;&#160;(lambda (env) qval)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1615468197383" ID="ID_1326241712" MODIFIED="1615468285417" TEXT="analyze-variable">
@@ -9670,8 +9670,7 @@
       &#160;&#160;(lambda (env) (lookup-variable-value exp env)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1615468214168" ID="ID_519295888" MODIFIED="1615468253205" TEXT="analyze-assignment">
@@ -9699,8 +9698,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;'ok)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1615468253559" ID="ID_1200919400" MODIFIED="1615468283546" TEXT="analyze-definition">
@@ -9731,8 +9729,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1615468277440" ID="ID_880097410" MODIFIED="1615468282816" TEXT="analyze-if">
@@ -9763,8 +9760,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(aproc env)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1615468295104" ID="ID_766099193" MODIFIED="1615468305244" TEXT="analyze-lambda">
@@ -9786,8 +9782,7 @@
       &#160;&#160;&#160;&#160;(lambda (env) (make-procedure vars bproc env))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1615468480541" ID="ID_1074579459" MODIFIED="1615468486471" TEXT="analyze-sequence">
 <richcontent TYPE="NOTE"><html>
@@ -9829,8 +9824,7 @@
       &#160;&#160;&#160;&#160;(loop (car procs) (cdr procs))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1615468545221" ID="ID_1963680222" MODIFIED="1615468565488" TEXT="analyze-application">
@@ -9864,8 +9858,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;aprocs)))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1615468557552" ID="ID_1171608840" MODIFIED="1615468564400" TEXT="execute-application">
@@ -9911,8 +9904,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;proc))))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
