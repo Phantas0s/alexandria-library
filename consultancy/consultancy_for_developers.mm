@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1553800656920" ID="ID_635551259" MODIFIED="1601225723037" TEXT="Consultancy for developer">
-<node CREATED="1601225751800" FOLDED="true" ID="ID_1721798515" LINK="https://hackernoon.com/consulting-for-software-developers-1-building-trust-547f8957cf6a" MODIFIED="1601225770117" POSITION="right" TEXT="Building Trust">
+<node CREATED="1601225751800" ID="ID_1721798515" LINK="https://hackernoon.com/consulting-for-software-developers-1-building-trust-547f8957cf6a" MODIFIED="1601225770117" POSITION="right" TEXT="Building Trust">
 <icon BUILTIN="full-1"/>
 <node CREATED="1553800726471" ID="ID_1706523478" MODIFIED="1601225766394" TEXT="Why consult others?">
 <icon BUILTIN="full-1"/>
@@ -15,7 +15,7 @@
 <node CREATED="1553800780603" ID="ID_1803606314" MODIFIED="1553800785985" TEXT="You want your client to be successful"/>
 <node CREATED="1553800791444" ID="ID_313767569" MODIFIED="1553800799345" TEXT="You want to be the go-to person for client"/>
 </node>
-<node CREATED="1553800819779" ID="ID_597447869" MODIFIED="1601225778576" TEXT="How do I earn my client trust?">
+<node CREATED="1553800819779" FOLDED="true" ID="ID_597447869" MODIFIED="1616253882370" TEXT="How do I earn my client trust?">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -28,7 +28,8 @@
       <em class="markup--em markup--pullquote-em">&#8212; Robert M. Galford, &#8220;The Trusted&#160;Advisor&#8221;</em>
     </blockquote>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <icon BUILTIN="full-2"/>
 <node CREATED="1553800862460" ID="ID_1847328010" MODIFIED="1553800869192" TEXT="No magic formula to build trust"/>
 <node CREATED="1553800892491" ID="ID_153033620" MODIFIED="1553800902288" TEXT="You need to constantly reinforce the message">
@@ -154,13 +155,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1553801691733" FOLDED="true" ID="ID_1714681360" LINK="https://hackernoon.com/consulting-for-software-developers-2-giving-advice-d4022886f02a" MODIFIED="1601225804823" POSITION="right" TEXT="Giving advises">
+<node CREATED="1553801691733" ID="ID_1714681360" LINK="https://hackernoon.com/consulting-for-software-developers-2-giving-advice-d4022886f02a" MODIFIED="1601225804823" POSITION="right" TEXT="Giving advises">
 <icon BUILTIN="full-2"/>
-<node CREATED="1553801711277" ID="ID_1991943679" MODIFIED="1553802375884" TEXT="Software developer">
+<node CREATED="1553801711277" FOLDED="true" ID="ID_1991943679" MODIFIED="1553802375884" TEXT="Software developer">
 <icon BUILTIN="full-1"/>
 <node CREATED="1553801718667" ID="ID_318264729" MODIFIED="1553801726184" TEXT="Guy in front of a computer punching keyboard"/>
 </node>
-<node CREATED="1553801765275" ID="ID_942381961" MODIFIED="1553802377372" TEXT="Prerequisites to give advises ">
+<node CREATED="1553801765275" FOLDED="true" ID="ID_942381961" MODIFIED="1553802377372" TEXT="Prerequisites to give advises ">
 <icon BUILTIN="full-2"/>
 <node CREATED="1553801790796" ID="ID_169000894" MODIFIED="1553801794273" TEXT="Expertise"/>
 <node CREATED="1553801794771" ID="ID_813568525" MODIFIED="1553801795953" TEXT="Trust"/>
@@ -170,7 +171,7 @@
 <node CREATED="1553801859219" ID="ID_462651603" MODIFIED="1553801863951" TEXT="Sharing your thoughts and ideas"/>
 </node>
 </node>
-<node CREATED="1553801867083" ID="ID_106539937" MODIFIED="1553802379789" TEXT="Ask questions and listen">
+<node CREATED="1553801867083" FOLDED="true" ID="ID_106539937" MODIFIED="1553802379789" TEXT="Ask questions and listen">
 <icon BUILTIN="full-3"/>
 <node CREATED="1553801876476" ID="ID_1097149197" MODIFIED="1553801884113" TEXT="To give good advice">
 <node CREATED="1553801884426" ID="ID_1233811575" MODIFIED="1553801895935" TEXT="Need to understand the problem thoroughly"/>
@@ -206,7 +207,7 @@
 <node CREATED="1553802019161" ID="ID_548300660" MODIFIED="1553802020723" TEXT="&#x201c;What is the best/worst thing that can happen?&#x201d;"/>
 </node>
 </node>
-<node CREATED="1553802050177" ID="ID_1099373673" MODIFIED="1553802386316" TEXT="Don&apos;t jump to conclusion">
+<node CREATED="1553802050177" FOLDED="true" ID="ID_1099373673" MODIFIED="1553802386316" TEXT="Don&apos;t jump to conclusion">
 <icon BUILTIN="full-4"/>
 <node CREATED="1553802085296" ID="ID_372375916" MODIFIED="1553802092469" TEXT="If problem look similar to another">
 <node CREATED="1553802092627" ID="ID_1517974885" MODIFIED="1553802095951" TEXT="Keep solution for you"/>
@@ -220,7 +221,7 @@
 <node CREATED="1553802143017" ID="ID_1051710417" MODIFIED="1553802147712" TEXT="If the team was not with you"/>
 </node>
 </node>
-<node CREATED="1553802212889" ID="ID_1474925465" MODIFIED="1553802388500" TEXT="Think deeply about the problem">
+<node CREATED="1553802212889" FOLDED="true" ID="ID_1474925465" MODIFIED="1553802388500" TEXT="Think deeply about the problem">
 <icon BUILTIN="full-5"/>
 <node CREATED="1553802238543" ID="ID_1669393297" MODIFIED="1553802245925" TEXT="Play a Devil&apos;s advocate">
 <node CREATED="1553802248944" ID="ID_1137591704" MODIFIED="1553802252636" TEXT="When you have a solution"/>
@@ -239,7 +240,7 @@
 <node CREATED="1553802327999" ID="ID_1756608551" MODIFIED="1553802334956" TEXT="Help you come up with a better version of the idea"/>
 </node>
 </node>
-<node CREATED="1553802346993" ID="ID_1852258558" MODIFIED="1553802391540" TEXT="Be objective, avoid thought mistakes">
+<node CREATED="1553802346993" FOLDED="true" ID="ID_1852258558" MODIFIED="1553802391540" TEXT="Be objective, avoid thought mistakes">
 <icon BUILTIN="full-6"/>
 <node CREATED="1553802400023" ID="ID_1767648022" MODIFIED="1553802409723" TEXT="Acknowledge that your judgment is not always perfect">
 <node CREATED="1553802422989" ID="ID_1141430233" MODIFIED="1553802424691" TEXT="Fallacies">
@@ -249,7 +250,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1553802485941" ID="ID_781297014" MODIFIED="1553802490418" TEXT="Keep the pragmatism-idealism balance">
+<node CREATED="1553802485941" FOLDED="true" ID="ID_781297014" MODIFIED="1553802490418" TEXT="Keep the pragmatism-idealism balance">
 <icon BUILTIN="full-7"/>
 <node CREATED="1553802514790" ID="ID_1266320146" MODIFIED="1553802527369" TEXT="Quick and dirty">
 <node CREATED="1553802527542" ID="ID_1985762004" MODIFIED="1553802528179" TEXT="vs">
@@ -268,7 +269,7 @@
 </node>
 <node CREATED="1553802652725" ID="ID_1867491489" MODIFIED="1553802659587" TEXT="Having team member advantageous here"/>
 </node>
-<node CREATED="1553804320183" ID="ID_1628400589" MODIFIED="1553804453669" TEXT="Give the advice">
+<node CREATED="1553804320183" FOLDED="true" ID="ID_1628400589" MODIFIED="1553804453669" TEXT="Give the advice">
 <icon BUILTIN="full-8"/>
 <node CREATED="1553804369804" ID="ID_1553583943" MODIFIED="1553804400782" TEXT="Be empathic">
 <richcontent TYPE="NOTE"><html>

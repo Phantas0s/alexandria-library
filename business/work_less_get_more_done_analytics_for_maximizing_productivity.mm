@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1535822012122" ID="ID_1779910453" LINK="https://www.kalzumeus.com/2009/10/04/work-smarter-not-harder/" MODIFIED="1596300161511" TEXT="Work Less, Get More Done: Analytics For Maximizing Productivity">
+<node CREATED="1535822012122" ID="ID_1779910453" LINK="https://www.kalzumeus.com/2009/10/04/work-smarter-not-harder/" MODIFIED="1616313552816" TEXT="Work Less, Get More Done: Analytics For Maximizing Productivity">
 <richcontent TYPE="NOTE"><html>
   <head>
     

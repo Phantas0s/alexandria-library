@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1616149739032" TEXT="SICP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1616242636604" TEXT="SICP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6061,8 +6061,7 @@
       <img src="global_env_lambda_define.png" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597854469265" ID="ID_1158485218" MODIFIED="1597854475117" TEXT="Procedure object a pair">
 <node CREATED="1597854481297" ID="ID_1705558853" MODIFIED="1597854485412" TEXT="One formal parameter"/>
@@ -8231,7 +8230,7 @@
 <node CREATED="1613660321386" ID="ID_1528388817" MODIFIED="1613660335860" TEXT="Can see any program as an interpreter"/>
 </node>
 </node>
-<node CREATED="1613661562233" FOLDED="true" ID="ID_249082457" MODIFIED="1613661572837" TEXT="4.1 The Metacircular Evaluator">
+<node CREATED="1613661562233" ID="ID_249082457" MODIFIED="1613661572837" TEXT="4.1 The Metacircular Evaluator">
 <node CREATED="1613662123405" ID="ID_1653087019" MODIFIED="1613662125194" TEXT="Introduction">
 <node CREATED="1613661601289" ID="ID_1441298500" MODIFIED="1613661603516" TEXT="Circular">
 <node CREATED="1613661604265" ID="ID_529055665" MODIFIED="1613661615893" TEXT="Evaluating Lisp program"/>
@@ -8335,7 +8334,7 @@
 <node CREATED="1613662182493" ID="ID_13015693" MODIFIED="1613662185489" TEXT="Classify expression"/>
 <node CREATED="1613662185829" ID="ID_449445978" MODIFIED="1613662189386" TEXT="Direct evaluation"/>
 </node>
-<node CREATED="1613662536347" ID="ID_1987971934" MODIFIED="1616149739064" TEXT="Apply">
+<node CREATED="1613662536347" ID="ID_1987971934" MODIFIED="1616242636645" TEXT="Apply">
 <richcontent TYPE="NOTE"><html>
   <head>
     
