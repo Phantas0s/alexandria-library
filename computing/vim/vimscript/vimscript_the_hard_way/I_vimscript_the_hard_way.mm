@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1588772755561" TEXT="Vimscript the Hard Way">
+<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1616409632136" TEXT="Vimscript the Hard Way">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2516,7 +2516,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588334815715" FOLDED="true" ID="ID_210363499" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/48.html" MODIFIED="1588334822140" POSITION="left" TEXT="Basic Folding">
+<node CREATED="1588334815715" ID="ID_210363499" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/48.html" MODIFIED="1588334822140" POSITION="left" TEXT="Basic Folding">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-8"/>
 <node CREATED="1588335266873" ID="ID_504613476" MODIFIED="1588335273240" TEXT="48.1 Types of Folding">
