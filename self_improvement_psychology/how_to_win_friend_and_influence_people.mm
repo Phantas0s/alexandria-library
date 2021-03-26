@@ -5,7 +5,7 @@
 <icon BUILTIN="full-0"/>
 <icon BUILTIN="full-0"/>
 </node>
-<node CREATED="1572885023276" FOLDED="true" ID="ID_888025591" MODIFIED="1572951790971" POSITION="right" TEXT="Nine Suggestions on How to Get the Most Out of This Book">
+<node CREATED="1572885023276" ID="ID_888025591" MODIFIED="1572951790971" POSITION="right" TEXT="Nine Suggestions on How to Get the Most Out of This Book">
 <icon BUILTIN="full-0"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1572885029123" FOLDED="true" ID="ID_1555336243" MODIFIED="1572951789893" TEXT="Deep / Driving desire to learn">
@@ -46,7 +46,7 @@
 <node CREATED="1572885276017" ID="ID_74210872" MODIFIED="1572885278173" TEXT="be specific"/>
 </node>
 </node>
-<node CREATED="1572885288864" FOLDED="true" ID="ID_723329863" MODIFIED="1573670695123" POSITION="right" TEXT="Fundamental Techniques in Handling People">
+<node CREATED="1572885288864" FOLDED="true" ID="ID_723329863" MODIFIED="1616656069694" POSITION="right" TEXT="Fundamental Techniques in Handling People">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -62,7 +62,8 @@
       <font color="#338800" face="SansSerif, sans-serif"><b>Principle 3:Arouse in the other person an eager want</b></font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <icon BUILTIN="full-1"/>
 <node CREATED="1572885343680" FOLDED="true" ID="ID_1028431961" MODIFIED="1573670701394" TEXT="If you want to gather honey, don&apos;t kick over the beehive">
 <icon BUILTIN="full-1"/>
@@ -181,8 +182,7 @@
       <font color="#338800" face="SansSerif, sans-serif"><b>Principle 6: Make the other person feel important, and do it sincerely</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-2"/>
 <node CREATED="1572886222512" FOLDED="true" ID="ID_379471723" MODIFIED="1572951799804" TEXT="Do this and you&apos;ll be welcome anywhere">
 <icon BUILTIN="full-1"/>
@@ -241,7 +241,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1572942420255" FOLDED="true" ID="ID_1116050542" MODIFIED="1572951799804" TEXT="An easy way to become a good conversationalist">
+<node CREATED="1572942420255" ID="ID_1116050542" MODIFIED="1572951799804" TEXT="An easy way to become a good conversationalist">
 <icon BUILTIN="full-4"/>
 <node CREATED="1572942437831" ID="ID_1118039454" MODIFIED="1598105758217" TEXT="Listen intently to others and be genuinely interested"/>
 <node CREATED="1572942456231" ID="ID_162631070" MODIFIED="1572942459147" TEXT="Actively listen">
@@ -283,7 +283,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572942813565" FOLDED="true" ID="ID_1946947117" MODIFIED="1573671599703" POSITION="left" TEXT="How to Win People to Your Way of Thinking">
+<node CREATED="1572942813565" ID="ID_1946947117" MODIFIED="1573671599703" POSITION="left" TEXT="How to Win People to Your Way of Thinking">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -627,8 +627,7 @@
       <font color="#338800" face="SansSerif, sans-serif"><b>Principle 9: Make the other person happy about doing the thing you suggest</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-4"/>
 <node CREATED="1572950936706" FOLDED="true" ID="ID_1583202413" MODIFIED="1572951800477" TEXT="If you must find fault, this is the way to begin">
 <icon BUILTIN="full-1"/>

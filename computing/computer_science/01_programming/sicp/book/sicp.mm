@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1616242636604" TEXT="SICP">
+<node CREATED="1528634399273" ID="ID_799486949" MODIFIED="1616677121808" TEXT="SICP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8334,7 +8334,7 @@
 <node CREATED="1613662182493" ID="ID_13015693" MODIFIED="1613662185489" TEXT="Classify expression"/>
 <node CREATED="1613662185829" ID="ID_449445978" MODIFIED="1613662189386" TEXT="Direct evaluation"/>
 </node>
-<node CREATED="1613662536347" ID="ID_1987971934" MODIFIED="1616242636645" TEXT="Apply">
+<node CREATED="1613662536347" ID="ID_1987971934" MODIFIED="1616677121829" TEXT="Apply">
 <richcontent TYPE="NOTE"><html>
   <head>
     

@@ -427,9 +427,9 @@
 <node CREATED="1611589416385" ID="ID_311841297" MODIFIED="1611589420812" TEXT="You always can get better at it"/>
 </node>
 </node>
-<node CREATED="1611589460687" FOLDED="true" ID="ID_701672994" MODIFIED="1611589469608" TEXT="Rewire Yourself to Listen">
+<node CREATED="1611589460687" ID="ID_701672994" MODIFIED="1611589469608" TEXT="Rewire Yourself to Listen">
 <icon BUILTIN="full-4"/>
-<node CREATED="1611589536391" FOLDED="true" ID="ID_1995433146" MODIFIED="1611589603525" TEXT="Introduction">
+<node CREATED="1611589536391" ID="ID_1995433146" MODIFIED="1611589603525" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1611589539528" ID="ID_521092684" MODIFIED="1611589543314" TEXT="Nobody listen">
 <node CREATED="1611589549536" ID="ID_1559755968" MODIFIED="1611589598953" TEXT="Gather data from early interaction">
@@ -450,12 +450,12 @@
 </node>
 </node>
 <node CREATED="1611589613207" ID="ID_1433378366" MODIFIED="1611589639650" TEXT="Filters through your head without listening"/>
-<node CREATED="1611589628105" ID="ID_1669333001" MODIFIED="1611589642571" TEXT="Get ird of these filters">
+<node CREATED="1611589628105" ID="ID_1669333001" MODIFIED="1616654503494" TEXT="Get rid of these filters">
 <node CREATED="1611589645703" ID="ID_1149004702" MODIFIED="1611589649315" TEXT="Only block you"/>
 <node CREATED="1611589649823" ID="ID_679018377" MODIFIED="1611589652515" TEXT="... on what you need to know"/>
 </node>
 </node>
-<node CREATED="1611589653455" FOLDED="true" ID="ID_963700306" MODIFIED="1611589665141" TEXT="&quot;But I Do Listen... Don&apos;t I?&quot;">
+<node CREATED="1611589653455" ID="ID_963700306" MODIFIED="1611589665141" TEXT="&quot;But I Do Listen... Don&apos;t I?&quot;">
 <icon BUILTIN="full-1"/>
 <node CREATED="1611589671078" ID="ID_680648965" MODIFIED="1611589675139" TEXT="You&apos;re hearing, not listening"/>
 <node CREATED="1611589683854" ID="ID_212057031" MODIFIED="1611589687266" TEXT="... your brain won&apos;t let you"/>
@@ -512,7 +512,7 @@
 <node CREATED="1611589993116" ID="ID_1333983823" MODIFIED="1611589996529" TEXT="Brain better for conclusions"/>
 <node CREATED="1611589996924" ID="ID_1311348045" MODIFIED="1611590001480" TEXT="... than stepping back for analysis"/>
 <node CREATED="1611590010715" ID="ID_1096448154" MODIFIED="1611590018160" TEXT="Solution: think about what you&apos;re thinking"/>
-<node CREATED="1611590022189" ID="ID_1218931154" MODIFIED="1611590033032" TEXT="When analyzing ideas you have a bout somebody">
+<node CREATED="1611590022189" ID="ID_1218931154" MODIFIED="1616656608080" TEXT="When analyzing ideas you have about somebody">
 <node CREATED="1611590039308" ID="ID_100400456" MODIFIED="1611590046664" TEXT="Can rewire and build more accurate perception"/>
 </node>
 </node>
@@ -1188,7 +1188,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612977505609" ID="ID_1067375777" MODIFIED="1613742962475" POSITION="right" TEXT="Section III: 12 Quick and Easy Ways to Achieve Buy-in and Get Through">
+<node CREATED="1612977505609" FOLDED="true" ID="ID_1067375777" MODIFIED="1613742962475" POSITION="right" TEXT="Section III: 12 Quick and Easy Ways to Achieve Buy-in and Get Through">
 <icon BUILTIN="full-3"/>
 <node CREATED="1612977575777" FOLDED="true" ID="ID_874670347" MODIFIED="1612977608415" TEXT="Introduction">
 <icon BUILTIN="full-0"/>

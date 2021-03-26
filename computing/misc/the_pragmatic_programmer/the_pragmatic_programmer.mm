@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1568986214867" ID="ID_1384012147" MODIFIED="1593159900056" TEXT="The Pragmatic Programmer">
+<node CREATED="1568986214867" ID="ID_1384012147" MODIFIED="1616738026510" TEXT="The Pragmatic Programmer">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -311,7 +311,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1568986399014" FOLDED="true" ID="ID_132078110" MODIFIED="1587283089569" TEXT="Software Entropy">
+<node CREATED="1568986399014" ID="ID_132078110" MODIFIED="1587283089569" TEXT="Software Entropy">
 <node CREATED="1568988305494" ID="ID_412150351" MODIFIED="1568988310019" TEXT="Entropy">
 <node CREATED="1568988310247" ID="ID_1908497428" MODIFIED="1568988315019" TEXT="Law of thermodynamic"/>
 <node CREATED="1568988315622" ID="ID_381949259" MODIFIED="1568988334251" TEXT="Guarantee that the entropy"/>
@@ -341,7 +341,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1568988555499" ID="ID_317467228" MODIFIED="1568988566496" TEXT="Fight the &quot;broken windows theory&quot;"/>
 <node CREATED="1568988567084" ID="ID_1725841358" MODIFIED="1568988569601" TEXT="... with yourself!"/>
-<node CREATED="1568988572706" ID="ID_924359477" MODIFIED="1568988576857" TEXT="Don&apos;t increase the rot."/>
+<node CREATED="1568988572706" ID="ID_924359477" MODIFIED="1616738057385" TEXT="Don&apos;t increase the rot"/>
 </node>
 </node>
 <node CREATED="1568986404126" FOLDED="true" ID="ID_244967617" MODIFIED="1587283115232" TEXT="Stone Soup and Boiled Frogs">
