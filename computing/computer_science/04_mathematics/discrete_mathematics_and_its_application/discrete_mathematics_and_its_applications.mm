@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1614526006983" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1616946799523" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3684,7 +3684,7 @@
 <node CREATED="1564564044010" ID="ID_776012966" MODIFIED="1564564047837" TEXT="Ordered list of elements"/>
 <node CREATED="1564564077593" ID="ID_553141591" MODIFIED="1564564082788" TEXT="Can be used for counting problems"/>
 </node>
-<node CREATED="1564564311680" ID="ID_25796947" MODIFIED="1587392536936" TEXT="Sequences">
+<node CREATED="1564564311680" FOLDED="true" ID="ID_25796947" MODIFIED="1587392536936" TEXT="Sequences">
 <node CREATED="1564564324095" ID="ID_1233095167" MODIFIED="1564564335122" TEXT="Definition">
 <node CREATED="1564564330998" ID="ID_1757262110" MODIFIED="1564564331850" TEXT=" discrete structure used to represent an ordered list"/>
 <node CREATED="1564564439582" FOLDED="true" ID="ID_1584617348" MODIFIED="1575538307434" TEXT="img">
@@ -3794,7 +3794,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1569299807839" ID="ID_29648874" MODIFIED="1600597461711" TEXT="Recurrence Relations">
+<node CREATED="1569299807839" FOLDED="true" ID="ID_29648874" MODIFIED="1600597461711" TEXT="Recurrence Relations">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3913,7 +3913,7 @@
 <node CREATED="1570596769761" ID="ID_1501170651" MODIFIED="1570596775445" TEXT="One way to find sequence"/>
 <node CREATED="1570596775673" ID="ID_195075318" MODIFIED="1600597679294" TEXT="... is to compare them to useful and known sequences"/>
 </node>
-<node CREATED="1570597088253" ID="ID_656762503" MODIFIED="1587392848995" TEXT="Summations">
+<node CREATED="1570597088253" FOLDED="true" ID="ID_656762503" MODIFIED="1587392848995" TEXT="Summations">
 <node CREATED="1570597160748" ID="ID_1649366651" MODIFIED="1571286865835" TEXT="Notation">
 <node CREATED="1571286843374" ID="ID_934290142" MODIFIED="1571286863226" TEXT="img">
 <icon BUILTIN="licq"/>

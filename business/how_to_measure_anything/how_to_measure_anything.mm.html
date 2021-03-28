@@ -1,0 +1,2082 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>How to measure anything</title>
+<style type="text/css">
+    li { list-style: none;  margin: 0; }
+    p { margin: 0; }
+    span.foldopened { color: white; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: visible;
+    cursor:pointer; }
+
+
+    span.foldclosed { color: #666666; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: hidden;
+    cursor:pointer; }
+
+    span.foldspecial { color: #666666; font-size: xx-small; border-style: none solid solid none;
+    border-color: #CCCCCC; border-width: 1; font-family: sans-serif; padding: 0em 0.1em 0em 0.1em; background: #e0e0e0;
+    cursor:pointer; }
+
+    span.l { color: red; font-weight: bold; }
+
+    a.mapnode:link {text-decoration: none; color: black; }
+    a.mapnode:visited {text-decoration: none; color: black; }
+    a.mapnode:active {text-decoration: none; color: black; }
+    a.mapnode:hover {text-decoration: none; color: black; background: #eeeee0; }
+
+</style>
+<!-- ^ Position is not set to relative / absolute here because of Mozilla -->
+</head>
+<body>
+
+<script type="text/javascript">
+   // Here we implement folding. It works fine with MSIE5.5, MSIE6.0 and
+   // Mozilla 0.9.6.
+
+   if (document.layers) {
+      //Netscape 4 specific code
+      pre = 'document.';
+      post = ''; }
+   if (document.getElementById) {
+      //Netscape 6 specific code
+      pre = 'document.getElementById("';
+      post = '").style'; }
+   if (document.all) {
+      //IE4+ specific code
+      pre = 'document.all.';
+      post = '.style'; }
+
+function layer_exists(layer) {
+   try {
+      eval(pre + layer + post);
+      return true; }
+   catch (error) {
+      return false; }}
+
+function show_layer(layer) {
+   eval(pre + layer + post).position = 'relative'; 
+   eval(pre + layer + post).visibility = 'visible'; }
+
+function hide_layer(layer) {
+   eval(pre + layer + post).visibility = 'hidden';
+   eval(pre + layer + post).position = 'absolute'; }
+
+function hide_folder(folder) {
+    hide_folding_layer(folder)
+    show_layer('show'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function show_folder(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_layer('show'+folder+'_'+i); }
+}
+function show_folder_completely(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+
+
+function hide_folding_layer(folder) {
+   var i;
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folding_layer(folder+'_'+i); }
+
+   hide_layer('hide'+folder);
+   hide_layer('show'+folder);
+   hide_layer('fold'+folder);
+
+   scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function fold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folder(folder+'_'+i); }
+}
+
+function unfold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+</script>
+<SPAN class="foldspecial" onclick="fold_document()">All +</SPAN>
+<SPAN class="foldspecial" onclick="unfold_document()">All -</SPAN>
+<p>How to measure anything
+<ul><li>Measurement: the Solution Exists
+<ul><li>Intangibles and the Challenge
+<ul><li><span id="show1_1" class="foldclosed" onClick="show_folder('1_1')" style="POSITION: absolute">+</span> <span id="hide1_1" class="foldopened" onClick="hide_folder('1_1')">-</span>
+Management care about measurements
+<ul id="fold1_1" style="POSITION: relative; VISIBILITY: visible;"><li>Inform uncertain decisions
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_2" class="foldclosed" onClick="show_folder('1_2')" style="POSITION: absolute">+</span> <span id="hide1_2" class="foldopened" onClick="hide_folder('1_2')">-</span>
+For any decision (or set of them)
+<ul id="fold1_2" style="POSITION: relative; VISIBILITY: visible;"><li>Large combination to measure
+
+</li>
+<li>Large ways to measure
+
+</li>
+<li>... therefore measurement perfection rarely realistic
+
+</li>
+
+</ul>
+</li>
+<li>Management needs methods to reduce uncertainty
+
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Measurement is about supporting decisions</span>
+
+</li>
+<li><span id="show1_3" class="foldclosed" onClick="show_folder('1_3')" style="POSITION: absolute">+</span> <span id="hide1_3" class="foldopened" onClick="hide_folder('1_3')">-</span>
+the book answer
+<ul id="fold1_3" style="POSITION: relative; VISIBILITY: visible;"><li>What is the real problem?
+
+</li>
+<li>What do we really need to measure it?
+
+</li>
+<li>How much precision do we need?
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>An Intuitive Measurement Habit: Eratosthenes, Enrico, and Emily
+<ul><li><span id="show1_4" class="foldclosed" onClick="show_folder('1_4')" style="POSITION: absolute">+</span> <span id="hide1_4" class="foldopened" onClick="hide_folder('1_4')">-</span>
+Erathostene example
+<ul id="fold1_4" style="POSITION: relative; VISIBILITY: visible;"><li>Calcule circumference of earth
+
+</li>
+<li>... with shadows and the Sun
+
+</li>
+<li>Clever calculation
+
+</li>
+<li>... on simple observations
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_5" class="foldclosed" onClick="show_folder('1_5')" style="POSITION: absolute">+</span> <span id="hide1_5" class="foldopened" onClick="hide_folder('1_5')">-</span>
+Ferni solution
+<ul id="fold1_5" style="POSITION: relative; VISIBILITY: visible;"><li>Do a wild guess
+
+</li>
+<li>See the uncertainty
+<ul><li>Assessments what you know
+
+</li>
+<li>... about the problem
+
+</li>
+
+</ul>
+</li>
+<li>List what you know
+<ul><li>About the assessments
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Simple methods have powerful results
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_6" class="foldclosed" onClick="show_folder('1_6')" style="POSITION: absolute">+</span> <span id="hide1_6" class="foldopened" onClick="hide_folder('1_6')">-</span>
+The illusion of intangible: why immensurable is not
+<ul id="fold1_6" style="POSITION: relative; VISIBILITY: visible;"><li>3 misconception of measurement
+<ul><li>Concept of measurement
+
+</li>
+<li>Object of measurement
+
+</li>
+<li>Methods of measurement
+<ul><li>Empirical observations not well known
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Objections of measurement
+<ul><li>Reasons given
+<ul><li>Ecomomic objections
+<ul><li>In a minority of time cost exceed benefits
+
+</li>
+<li>Need to calculate
+<ul><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Economic value of information</span>
+<ul><li>Most of the time, value is 0
+
+</li>
+<li>Only few info is important
+
+</li>
+
+</ul>
+</li>
+<li>Measurement high value
+<ul><li>Lot of uncertainty
+
+</li>
+<li>High cost of being wrong
+
+</li>
+<li>Other things are irrelevant
+
+</li>
+<li><span id="show1_6_1" class="foldclosed" onClick="show_folder('1_6_1')" style="POSITION: absolute">+</span> <span id="hide1_6_1" class="foldopened" onClick="hide_folder('1_6_1')">-</span>
+Any reduction of uncertainty
+<ul id="fold1_6_1" style="POSITION: relative; VISIBILITY: visible;"><li>Has a monetary value
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Manager often measure
+<ul><li>What they know to measure
+
+</li>
+<li>... not what is important to measure
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Meaningfulness of statistics
+<ul><li>"you can't prove anything with it"
+<ul><li>Absurd
+
+</li>
+<li>It really means
+<ul><li>"People can manipulate with number"
+
+</li>
+<li>... which is very true
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_6_2" class="foldclosed" onClick="show_folder('1_6_2')" style="POSITION: absolute">+</span> <span id="hide1_6_2" class="foldopened" onClick="hide_folder('1_6_2')">-</span>
+Ethical objections
+<ul id="fold1_6_2" style="POSITION: relative; VISIBILITY: visible;"><li>Immoral to measure it
+
+</li>
+<li>Is a life can be measured?
+<ul><li>Young again old
+<ul><li>Who to heal with limited resources?
+
+</li>
+<li>Need to be measured...
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Preference of ignorance
+
+</li>
+<li>... instead of marginal reduction of it
+<ul><li>It's never moral high ground
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_6_3" class="foldclosed" onClick="show_folder('1_6_3')" style="POSITION: absolute">+</span> <span id="hide1_6_3" class="foldopened" onClick="hide_folder('1_6_3')">-</span>
+Measurement concept
+<ul id="fold1_6_3" style="POSITION: relative; VISIBILITY: visible;"><li>Definition
+
+</li>
+<li>Nothing is measured certainly
+
+</li>
+<li>... but people think measurement = certainty
+
+</li>
+<li>Subject not necessarily about quantity
+
+</li>
+<li>... but uncertainty needs to be quantified
+
+</li>
+<li>Scales of measurement
+<ul><li><span style="font-family: SansSerif, sans-serif; ">Nominal measurement</span>
+<ul><li>No order or size
+
+</li>
+<li>All about state
+
+</li>
+<li>Example
+<ul><li>Foetus male or female
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; ">Ordinal measurement</span>
+<ul><li>One value
+<ul><li>compared to another
+
+</li>
+<li>... we don't know by how much
+
+</li>
+
+</ul>
+</li>
+<li>Example
+<ul><li>Rating movie 1 to 5 stars
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Theory of measurement
+<ul><li>Mapping between
+<ul><li>Things measured
+
+</li>
+<li>Numbers
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Object of measurement
+<ul><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">"A problem well stated is a problem half solved"</span>
+
+</li>
+<li>Need to be defined
+<ul><li>If you don't know what to measure
+
+</li>
+<li>... you can't measure it
+
+</li>
+
+</ul>
+</li>
+<li>Ask "what do you mean"
+<ul><li>Fine grain what exactly
+
+</li>
+<li>... and need to be measured
+
+</li>
+
+</ul>
+</li>
+<li>Clarification chain
+<ul><li>Short series of connections
+<ul><li>To go from
+<ul><li>Intangible
+
+</li>
+<li>to Tangible
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>If it matters
+<ul><li>It is detectable / observable
+
+</li>
+<li>... or people would not care
+
+</li>
+
+</ul>
+</li>
+<li>If it's detectable
+<ul><li>Can be detected
+<ul><li>as an amount
+
+</li>
+<li>as a range of possible amount
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Therefore it can be measured
+
+</li>
+
+</ul>
+</li>
+<li>Other solution
+<ul><li>Take two groups
+<ul><li>Give one what you want to measure
+
+</li>
+<li>Judge the difference
+<ul><li>= what you really want to measure
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Why we want to measure?
+<ul><li>Purpose underline the true measurement
+
+</li>
+<li>Might find more thing to measure for purpose
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Method of measurement
+<ul><li>There are a lot!
+<ul><li>Even if the thing we want to measure
+
+</li>
+<li>... look like it has never been measured
+
+</li>
+<li>... it has often been done!
+
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Rule of Five</span>
+
+</li>
+<li>Experiment
+<ul><li>Getting something by trying
+
+</li>
+<li>In measurement
+<ul><li>you have to try!
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_6_4" class="foldclosed" onClick="show_folder('1_6_4')" style="POSITION: absolute">+</span> <span id="hide1_6_4" class="foldopened" onClick="hide_folder('1_6_4')">-</span>
+Four useful measurement assumptions
+<ul id="fold1_6_4" style="POSITION: relative; VISIBILITY: visible;"><li>Your problem is not as unique as you think
+
+</li>
+<li>You have more data than you think
+
+</li>
+<li>You need less data than you think
+
+</li>
+<li><span style="font-family: SansSerif, sans-serif; ">An adequate amount of new data is more accessible than you think</span>
+<ul><li>Make more observations
+
+</li>
+<li>... and you know more
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Universal approach to measurement
+<ul><li>Applied Information Economic
+<ul><li>Decide a decision problem and its uncertainties
+<ul><li>What is your dilemma?
+<ul><li>Define all dilemma variables
+
+</li>
+
+</ul>
+</li>
+<li>NOT "How to measure X"?
+
+</li>
+
+</ul>
+</li>
+<li> Determine what you know now
+<ul><li>How to describe uncertainty
+<ul><li>With range
+
+</li>
+<li>With probabilities
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Compute value of additional info
+
+</li>
+<li>Applies the relevant measurement tools
+<ul><li>On the additional info
+<ul><li>To high value measurement
+
+</li>
+
+</ul>
+</li>
+<li>If not enough info
+<ul><li>Get more!
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Make a decision and act on it
+<ul><li>Risk versus decision
+<ul><li>Based on remaining uncertainty
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Before you measure
+<ul><li>Clarifying the measurement problem
+<ul><li>Before measurement we need to answer
+<ul><li>What the decision the measurement support?
+<ul><li>If no decision, no value
+
+</li>
+
+</ul>
+</li>
+<li>What is the definition of thing being measured
+<ul><li>in terms of observable consequences?
+
+</li>
+
+</ul>
+</li>
+<li>How this things matters
+<ul><li>to the decision being asked?
+
+</li>
+
+</ul>
+</li>
+<li>How much do you know about it?
+<ul><li>What is your level of uncertainty?
+
+</li>
+
+</ul>
+</li>
+<li>What is the value of additional info?
+
+</li>
+
+</ul>
+</li>
+<li>What uncertainty and risk mean
+<ul><li>Example
+<ul><li>IT security
+
+</li>
+<li>What do you mean by security?
+
+</li>
+<li>What decision depends on my measurement of security?
+
+</li>
+<li>What risk will decrease?
+<ul><li>What do we mean by risk?
+
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Need to measure the result</span>
+<ul><li>Not how many desktop has an anti virus
+
+</li>
+<li>... easy measurement but useless
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Definitions
+<ul><li>Uncertainty
+
+</li>
+<li>Measurement of Uncertainty
+<ul><li>xample
+<ul><li>There is 60% chance
+<ul><li>this market will more than double
+<ul><li>in 5 years
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>A 30% chance
+<ul><li>it will grow at slower rate
+
+</li>
+
+</ul>
+</li>
+<li>A 10% chance
+<ul><li>it will shrink during the same period
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Risk
+<ul><li>Example
+<ul><li>40% change the proposed oil
+
+</li>
+<li>... will be dry with a loss of 12 millions
+
+</li>
+<li>... in exploratory drilling costs
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_7" class="foldclosed" onClick="show_folder('1_7')" style="POSITION: absolute">+</span> <span id="hide1_7" class="foldopened" onClick="hide_folder('1_7')">-</span>
+Calibrated estimates
+<ul id="fold1_7" style="POSITION: relative; VISIBILITY: visible;"><li>How much do you know how?
+
+</li>
+<li>Expressing uncertainty
+<ul><li>Range of calibrated values which contains answer
+<ul><li>CI
+<ul><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Confidence Interval</span>
+
+</li>
+<li>Example
+<ul><li>90%CI three to seven prospects
+<ul><li>90% change of correct answer in range
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Can be used for uncertainty
+<ul><li>of future event
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_7_1" class="foldclosed" onClick="show_folder('1_7_1')" style="POSITION: absolute">+</span> <span id="hide1_7_1" class="foldopened" onClick="hide_folder('1_7_1')">-</span>
+Subjective probabilities
+<ul id="fold1_7_1" style="POSITION: relative; VISIBILITY: visible;"><li><span id="show1_7_1_1" class="foldclosed" onClick="show_folder('1_7_1_1')" style="POSITION: absolute">+</span> <span id="hide1_7_1_1" class="foldopened" onClick="hide_folder('1_7_1_1')">-</span>
+Comparing 
+<ul id="fold1_7_1_1" style="POSITION: relative; VISIBILITY: visible;"><li>Expected outcome
+
+</li>
+<li>Actual (past) outcome
+
+</li>
+
+</ul>
+</li>
+<li>However
+<ul><li><span id="show1_7_1_2" class="foldclosed" onClick="show_folder('1_7_1_2')" style="POSITION: absolute">+</span> <span id="hide1_7_1_2" class="foldopened" onClick="hide_folder('1_7_1_2')">-</span>
+We are not good estimators
+<ul id="fold1_7_1_2" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Overconfidence</span>
+<ul><li>Overstate knowledge
+
+</li>
+<li>Correct less often than expected
+
+</li>
+<li>Most people are
+
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Underconfidence</span>
+<ul><li>Understate knowledge
+
+</li>
+<li>Correct more often than expected
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Solution
+<ul><li>Remove personal estimating biases
+
+</li>
+<li><span id="show1_7_1_3" class="foldclosed" onClick="show_folder('1_7_1_3')" style="POSITION: absolute">+</span> <span id="hide1_7_1_3" class="foldopened" onClick="hide_folder('1_7_1_3')">-</span>
+General skill
+<ul id="fold1_7_1_3" style="POSITION: relative; VISIBILITY: visible;"><li>which can be taught
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_7_1_4" class="foldclosed" onClick="show_folder('1_7_1_4')" style="POSITION: absolute">+</span> <span id="hide1_7_1_4" class="foldopened" onClick="hide_folder('1_7_1_4')">-</span>
+Calibration exercise
+<ul id="fold1_7_1_4" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Equivalent bet</span>
+<ul><li>Telling yourself you bet money
+<ul><li>Make your answer more accurate
+
+</li>
+
+</ul>
+</li>
+<li>Do you prefer bet
+<ul><li>On your range with CI 90%?
+
+</li>
+<li>Or on a spin which has 90% change to be good?
+
+</li>
+<li>If it's range
+<ul><li>You're overconfident
+
+</li>
+
+</ul>
+</li>
+<li>If it's spin
+<ul><li>You're underconfident
+
+</li>
+
+</ul>
+</li>
+<li>If you don't care
+<ul><li>Your range is good
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Need to do it
+<ul><li>Feedback with solutions
+<ul><li>Do it again
+
+</li>
+
+</ul>
+</li>
+<li>Ask people establish
+<ul><li>pro
+<ul><li>reason why estimate reasonable
+
+</li>
+
+</ul>
+</li>
+<li>con
+<ul><li>reason why it might be overconfident
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Anchoring</span>
+<ul><li>Effect to estimate range
+<ul><li>from a number
+<ul><li>Then
+<ul><li>Add 
+
+</li>
+<li>Or substract
+
+</li>
+<li>An error to generate range
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Cause overconfidence
+
+</li>
+<li>Solution
+<ul><li>Only think of 
+<ul><li>Upper bound
+
+</li>
+<li>Or lower bound
+
+</li>
+
+</ul>
+</li>
+<li>Example
+<ul><li>What's the birth date of Newton with CI 90%?
+<ul><li>Think 95% sure that the true value
+<ul><li>less than
+<ul><li>the upper range
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>As tendency for people
+<ul><li>to grow the range
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>summary
+<ul><li>&#xa;    <img src="improve_probability_calibration.png" >&#xa;  
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Easy to think
+<ul><li>What you don't know
+
+</li>
+<li>Except of what you know
+
+</li>
+
+</ul>
+</li>
+<li>Absurd tests
+<ul><li>If you have "no idea" of the range
+<ul><li>Just widen it more
+<ul><li>But less than absurdity
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Lack of having not an exact number
+<ul><li>Different than not knowing anything
+
+</li>
+
+</ul>
+</li>
+<li>When the value stop to be absurd
+<ul><li>but unlikely plausible
+<ul><li>you have a bound!
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_8" class="foldclosed" onClick="show_folder('1_8')" style="POSITION: absolute">+</span> <span id="hide1_8" class="foldopened" onClick="hide_folder('1_8')">-</span>
+Measuring risks through modeling
+<ul id="fold1_8" style="POSITION: relative; VISIBILITY: visible;"><li>How not to measure risks
+<ul><li>Risk scoring method
+
+</li>
+<li>Example
+<ul><li>Scale from 1 to 5
+<ul><li>Useless
+
+</li>
+<li>No knowledge of the median
+
+</li>
+<li>Doesn't solve overconfidence
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Monte Carlo simulation
+<ul><li>Probability as input
+
+</li>
+<li>Scenario
+<ul><li>Compute large number of inputs
+<ul><li>Thousands
+
+</li>
+
+</ul>
+</li>
+<li>Random values for each
+<ul><li>Formula to output for each scenario
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_8_1" class="foldclosed" onClick="show_folder('1_8_1')" style="POSITION: absolute">+</span> <span id="hide1_8_1" class="foldopened" onClick="hide_folder('1_8_1')">-</span>
+Tools
+<ul id="fold1_8_1" style="POSITION: relative; VISIBILITY: visible;"><li>&#xa;    <img src="monte_carlo_tool.PNG" >&#xa;  
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Risks can be expressed
+<ul><li>As range of uncertainty
+<ul><li>On cost and benefits
+
+</li>
+<li>Probability on event affecting cost / benefits
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_8_2" class="foldclosed" onClick="show_folder('1_8_2')" style="POSITION: absolute">+</span> <span id="hide1_8_2" class="foldopened" onClick="hide_folder('1_8_2')">-</span>
+Exact risk (without range)
+<ul id="fold1_8_2" style="POSITION: relative; VISIBILITY: visible;"><li>It's not a risk anymore
+
+</li>
+<li>It's not what we know...
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_8_3" class="foldclosed" onClick="show_folder('1_8_3')" style="POSITION: absolute">+</span> <span id="hide1_8_3" class="foldopened" onClick="hide_folder('1_8_3')">-</span>
+Different level of risks
+<ul id="fold1_8_3" style="POSITION: relative; VISIBILITY: visible;"><li>Big lost
+
+</li>
+<li>Acceptable lost
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_8_4" class="foldclosed" onClick="show_folder('1_8_4')" style="POSITION: absolute">+</span> <span id="hide1_8_4" class="foldopened" onClick="hide_folder('1_8_4')">-</span>
+The risk paradox
+<ul id="fold1_8_4" style="POSITION: relative; VISIBILITY: visible;"><li>Organisation use risk analysis for
+<ul><li>routine decision
+
+</li>
+<li>operational decision
+
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">but not for </span>
+<ul><li>big risks
+
+</li>
+<li>things apparently not measurable
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Measuring the value of information
+<ul><li><span id="show1_9" class="foldclosed" onClick="show_folder('1_9')" style="POSITION: absolute">+</span> <span id="hide1_9" class="foldopened" onClick="hide_folder('1_9')">-</span>
+Info has value because it
+<ul id="fold1_9" style="POSITION: relative; VISIBILITY: visible;"><li>Reduces uncertainty
+<ul><li>about decisions with economic consequences
+
+</li>
+<li>-&gt; decision theory (game theory)
+
+</li>
+
+</ul>
+</li>
+<li>Affects the behavior of others
+<ul><li>which has an economic consequences
+
+</li>
+
+</ul>
+</li>
+<li>Has its own market value
+
+</li>
+<li>Simple example
+<ul><li>Ad campaign
+<ul><li>&#xa;    <img src="EOL.PNG" >&#xa;  
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Value of partial uncertainty reduction
+<ul><li>EVI (EVII)
+<ul><li>Imperfect measurement
+
+</li>
+<li>Can remove uncertainty of chance of loss
+<ul><li>Measurement over
+
+</li>
+<li>No need to do more
+
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Expected Value of Information (EVI) = Reduction in expected opportunity loss (EOL)</span>
+<ul><li><span style="color: #ff0033;font-family: SansSerif, sans-serif; font-weight: bold; ">EOL Before Info - EOLAfter Info</span>
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>EVPI
+<ul><li>Expected value of information
+
+</li>
+<li><span style="color: #ff0033;font-family: SansSerif, sans-serif; font-weight: bold; ">EOL Before Info - 0</span>
+<ul><li>0 since information is perfect
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>When lot of uncertainty
+<ul><li>No need lot of data to reduce it
+
+</li>
+
+</ul>
+</li>
+<li>EVPI for range
+
+</li>
+
+</ul>
+</li>
+<li>Study on 80 companies
+<ul><li>Measure information with value 0
+
+</li>
+<li>Omit totally the high cost of information
+
+</li>
+<li>-&gt; measurement inversion
+
+</li>
+
+</ul>
+</li>
+<li>Intuition what to measure
+<ul><li>Simply wrong
+
+</li>
+<li>People measure
+<ul><li>What they know
+
+</li>
+<li>What is easy
+
+</li>
+<li>What produce good news
+
+</li>
+
+</ul>
+</li>
+<li>"If every tool is a hammer, every problem looks like a nail"
+
+</li>
+
+</ul>
+</li>
+<li>3 prior measurements
+<ul><li>Measure uncertainty
+<ul><li>to measure risk
+
+</li>
+
+</ul>
+</li>
+<li>Measure risk
+<ul><li><span style="font-family: SansSerif, sans-serif; ">to compute value of information</span>
+
+</li>
+
+</ul>
+</li>
+<li>Measure value of info
+<ul><li>We know what we have to measure
+
+</li>
+<li>We know how much effort we put in each variable
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Summary: the first measurement
+<ul><li>Early part of measurement
+<ul><li>High value part
+
+</li>
+
+</ul>
+</li>
+<li>Measure a little bit to remove uncertainty
+<ul><li>Then evaluate what you learnt
+
+</li>
+<li>Useless to measure big things
+<ul><li>with big uncertainty
+
+</li>
+<li>since we don't know the value of info!
+
+</li>
+
+</ul>
+</li>
+<li>Be iterative
+<ul><li>Step by step
+
+</li>
+<li>Acknowledgment after each iteration
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Is further measurement is necessary?
+<ul><li>Think about value measurement
+<ul><li>In a context
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_10" class="foldclosed" onClick="show_folder('1_10')" style="POSITION: absolute">+</span> <span id="hide1_10" class="foldopened" onClick="hide_folder('1_10')">-</span>
+Measurement methods
+<ul id="fold1_10" style="POSITION: relative; VISIBILITY: visible;"><li>From what to measure to how 
+<ul><li>Empirical methods
+<ul><li>Formal
+
+</li>
+<li>Systematic
+
+</li>
+<li>Approaches to make observations
+<ul><li>Observation not limited to sight
+
+</li>
+<li>... not even direct sometimes
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_10_1" class="foldclosed" onClick="show_folder('1_10_1')" style="POSITION: absolute">+</span> <span id="hide1_10_1" class="foldopened" onClick="hide_folder('1_10_1')">-</span>
+Important enough to measure
+<ul id="fold1_10_1" style="POSITION: relative; VISIBILITY: visible;"><li>High info value relative to cost of measurement
+
+</li>
+
+</ul>
+</li>
+<li>Intro to instrument of measure
+<ul><li><span id="show1_10_2" class="foldclosed" onClick="show_folder('1_10_2')" style="POSITION: absolute">+</span> <span id="hide1_10_2" class="foldopened" onClick="hide_folder('1_10_2')">-</span>
+Advantages of instruments
+<ul id="fold1_10_2" style="POSITION: relative; VISIBILITY: visible;"><li>They detect what you can't detect
+
+</li>
+<li>They are more consistent than humans
+
+</li>
+<li>They can be calibrated to account for errors
+<ul><li>Calibration
+<ul><li>measuring something you know
+
+</li>
+<li>... to test the instrument
+
+</li>
+
+</ul>
+</li>
+<li>Control
+<ul><li>Method for offsetting a particular error
+
+</li>
+<li>Example
+<ul><li>Control group in experiments
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Instruments deliberately ignore some factors 
+<ul><li>that biais human observation
+
+</li>
+<li>Example
+<ul><li>Names on copy for a teacher
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Instrument records information
+
+</li>
+<li>Instruments take measurement
+<ul><li>Faster
+
+</li>
+<li>Cheaper
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Instrument examples
+<ul><li>Sampling procedure
+
+</li>
+<li>Microscope
+
+</li>
+<li>Experimental approaches
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Decomposition
+<ul><li>Decompose something uncertain
+<ul><li>with variable with more certainty
+
+</li>
+<li>Easier to measure
+
+</li>
+<li> Indirect approach
+<ul><li>broadly used
+
+</li>
+<li>can narrow a range
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Often enough to lower uncertainty
+<ul><li>to make a decision
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_10_3" class="foldclosed" onClick="show_folder('1_10_3')" style="POSITION: absolute">+</span> <span id="hide1_10_3" class="foldopened" onClick="hide_folder('1_10_3')">-</span>
+Secondary research
+<ul id="fold1_10_3" style="POSITION: relative; VISIBILITY: visible;"><li>A lot of things has been measured
+
+</li>
+<li>Search using term associated with
+<ul><li>Research
+
+</li>
+<li>Quantitative data
+
+</li>
+<li>Examples
+<ul><li>Table
+
+</li>
+<li>Survey
+
+</li>
+<li>Control group
+
+</li>
+<li>Correlation
+
+</li>
+<li>Standart deviation
+
+</li>
+<li>University
+
+</li>
+<li>PHD
+
+</li>
+<li>National study
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_10_4" class="foldclosed" onClick="show_folder('1_10_4')" style="POSITION: absolute">+</span> <span id="hide1_10_4" class="foldopened" onClick="hide_folder('1_10_4')">-</span>
+Basic methods of observation
+<ul id="fold1_10_4" style="POSITION: relative; VISIBILITY: visible;"><li>If one doesn't work
+<ul><li>try the next
+
+</li>
+
+</ul>
+</li>
+<li>Does it leave a trail?
+<ul><li>Does it has consequences leaving a trail?
+
+</li>
+<li>Lot of things let evidences when it occurs
+
+</li>
+
+</ul>
+</li>
+<li>Can you observe when it occurs directly?
+<ul><li>Can you observe a sample of it?
+
+</li>
+
+</ul>
+</li>
+<li>Can you devise a way to track it now?
+<ul><li>If no trail, tag it
+
+</li>
+<li>Example
+<ul><li>Present wrapping by amazon
+
+</li>
+<li>... to know who buy presents
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Can the phenomenon be forced to occurs?
+<ul><li>Experiments
+
+</li>
+<li>A \ B testing
+
+</li>
+
+</ul>
+</li>
+<li>Methods apply if this something
+<ul><li>Occurs now
+
+</li>
+<li>Forecast
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Measure just enough
+<ul><li>EVPI
+<ul><li>Value of Perfect Information
+<ul><li>Empirical thresholds have errors
+
+</li>
+<li>Only reduce uncertainty
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Underestimating initial measurement effort
+<ul><li>We never know how many iterations we need
+
+</li>
+<li>Might be surprising
+
+</li>
+
+</ul>
+</li>
+<li>Information value curve is steepest &nbsp;at beginning
+<ul><li>You learn more with 100 first measurements
+
+</li>
+<li>... than the ones after
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_10_5" class="foldclosed" onClick="show_folder('1_10_5')" style="POSITION: absolute">+</span> <span id="hide1_10_5" class="foldopened" onClick="hide_folder('1_10_5')">-</span>
+Consider the errors
+<ul id="fold1_10_5" style="POSITION: relative; VISIBILITY: visible;"><li>We need to accept there are errors
+
+</li>
+<li>Two types of measurement errors
+<ul><li>Systemic
+<ul><li>Consistent
+
+</li>
+<li>Harder to compute error range
+<ul><li>Can't use probability
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Random
+<ul><li>Can't be individually predicted
+
+</li>
+<li>Need to use probability
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_10_5_1" class="foldclosed" onClick="show_folder('1_10_5_1')" style="POSITION: absolute">+</span> <span id="hide1_10_5_1" class="foldopened" onClick="hide_folder('1_10_5_1')">-</span>
+Related to measurement concepts
+<ul id="fold1_10_5_1" style="POSITION: relative; VISIBILITY: visible;"><li>Precision
+<ul><li>Reproducibility \ conformity of measurement
+
+</li>
+<li>Low down random errors
+
+</li>
+
+</ul>
+</li>
+<li>Accuracy
+<ul><li>How close measurement is to its true value
+
+</li>
+<li>Low down systemic errors
+
+</li>
+
+</ul>
+</li>
+<li>Control
+<ul><li>Any methods to reduce either of these errors
+
+</li>
+<li>Example
+<ul><li>Random sampling
+<ul><li>if used properly...
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="color: #338800;">Summary</span>
+<ul><li>&#xa;    <img src="error_glossary.png" >&#xa;  
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Small random samples vs large non random samples
+<ul><li>Error counted by averaging systemic errors
+<ul><li>bias
+
+</li>
+<li>List of bias is HUGE
+
+</li>
+<li>Most important ones
+<ul><li>Expectancy bias
+<ul><li>Seeing what we want to see
+
+</li>
+
+</ul>
+</li>
+<li>Selection bias
+<ul><li>Non randomness in sample
+
+</li>
+
+</ul>
+</li>
+<li>Observer bias
+<ul><li>Observation change behavior of observee
+
+</li>
+<li>Observation should be secret
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Lot of uncertainty
+<ul><li>A few samples are enough to reduce it
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Choose and design the instrument
+<ul><li>Consider different approaches
+<ul><li>If one element of decomposition not feasible
+
+</li>
+<li>... try another approach
+
+</li>
+
+</ul>
+</li>
+<li>Begin by very basic questions
+
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Census</span>
+<ul><li>Measuring everything you want to test
+
+</li>
+<li>Example
+<ul><li>Monthly inventory
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Sample</span>
+<ul><li>Part of a census
+<ul><li>What we know from experience
+
+</li>
+<li>Extrapolation of a sample
+
+</li>
+
+</ul>
+</li>
+<li>Work if sample is representative of population we want to test
+
+</li>
+<li>First few samples
+<ul><li>Decrease the uncertainty the most
+<ul><li>Proportional to the uncertainty
+
+</li>
+<li>Higher the uncertainty, more true it is
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Statistical significance
+<ul><li>Something happen not by chance
+
+</li>
+<li>... but because it's a reality
+
+</li>
+<li>Lot of people misuse it
+<ul><li>With wrong samples
+
+</li>
+<li>With random sample sizes
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>The mathless 90% CI
+<ul><li><span id="show1_10_6" class="foldclosed" onClick="show_folder('1_10_6')" style="POSITION: absolute">+</span> <span id="hide1_10_6" class="foldopened" onClick="hide_folder('1_10_6')">-</span>
+img
+<ul id="fold1_10_6" style="POSITION: relative; VISIBILITY: visible;"><li>&#xa;    <img src="mathless_90_ci.png" >&#xa;  
+
+</li>
+
+</ul>
+</li>
+<li>Middle of the data doesn't matter
+
+</li>
+<li>Interval wider than t-statistics
+
+</li>
+<li><span style="font-family: SansSerif, sans-serif; ">With some range makes more sense</span>
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Problem parametric / non parametric methods
+<ul><li>Both ignore prior knowledge 
+
+</li>
+<li>... which has nothing to do with the sample
+
+</li>
+<li>Example
+<ul><li>Common sense of a calibrated estimator
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>A biased sample of sampling methods
+<ul><li>It's not because you don't see the whole group
+
+</li>
+<li>... that you can't measure it
+
+</li>
+<li>Use two different sampling methods
+
+</li>
+<li>... compare the overlap
+
+</li>
+<li>Population propension sampling
+
+</li>
+<li>Spot sampling
+<ul><li>Random snapshots of people / things
+
+</li>
+<li>... Instead of tracking all the time
+
+</li>
+
+</ul>
+</li>
+<li>Clustered sampling
+
+</li>
+<li>Stratified sample
+<ul><li>Random sample of group
+<ul><li>Different sample methods
+
+</li>
+<li>Different size of sample
+
+</li>
+
+</ul>
+</li>
+<li>Make sens when
+<ul><li>Population has a lot of different groups
+
+</li>
+<li>People inside groups are similar
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Serial sampling
+<ul><li>Not often used
+
+</li>
+<li>Can be very good
+<ul><li>for some problems
+
+</li>
+
+</ul>
+</li>
+<li>Example
+<ul><li>Use serial number sample
+<ul><li>to guess the whole production
+
+</li>
+
+</ul>
+</li>
+<li>Very cool to know what the concurrence does
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Measure to the threshold
+<ul><li>Measure support decision
+
+</li>
+<li>Decision has a threshold
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul><SCRIPT type="text/javascript">
+fold_document();
+</SCRIPT>
+</body>
+</html>
