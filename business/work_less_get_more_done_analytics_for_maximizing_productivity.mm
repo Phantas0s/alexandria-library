@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1535822012122" ID="ID_1779910453" LINK="https://www.kalzumeus.com/2009/10/04/work-smarter-not-harder/" MODIFIED="1616313552816" TEXT="Work Less, Get More Done: Analytics For Maximizing Productivity">
+<node CREATED="1535822012122" ID="ID_1779910453" LINK="https://www.kalzumeus.com/2009/10/04/work-smarter-not-harder/" MODIFIED="1617161069110" TEXT="Work Less, Get More Done">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -21,8 +21,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1535822388171" ID="ID_1415719327" MODIFIED="1570646962151" POSITION="right" TEXT="Working more">
 <icon BUILTIN="full-1"/>
 <node CREATED="1535822392191" ID="ID_1356562387" MODIFIED="1536168447336" TEXT="Overrated">
@@ -64,14 +63,14 @@
 </node>
 <node CREATED="1535824507694" ID="ID_836134248" MODIFIED="1570646963470" POSITION="right" TEXT="Measuring productivity">
 <icon BUILTIN="full-2"/>
-<node CREATED="1535824510094" ID="ID_304114998" MODIFIED="1535824525715" TEXT="Assign an arbitrary value to tasks">
+<node CREATED="1535824510094" FOLDED="true" ID="ID_304114998" MODIFIED="1535824525715" TEXT="Assign an arbitrary value to tasks">
 <icon BUILTIN="full-1"/>
 <node CREATED="1535824534654" ID="ID_145918224" MODIFIED="1535824539316" TEXT="Based how much value it adds"/>
 </node>
 <node CREATED="1535824527215" ID="ID_956380325" MODIFIED="1535824557556" TEXT="Track how long the task is">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1535824569494" ID="ID_1504053328" MODIFIED="1535824581596" TEXT="Figure out">
+<node CREATED="1535824569494" FOLDED="true" ID="ID_1504053328" MODIFIED="1535824581596" TEXT="Figure out">
 <icon BUILTIN="full-3"/>
 <node CREATED="1535824581774" ID="ID_1274795756" MODIFIED="1535824584976" TEXT="When you add value">
 <node CREATED="1535824585194" ID="ID_866947677" MODIFIED="1535824586856" TEXT="More sales"/>
@@ -87,7 +86,7 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
-<node CREATED="1535825282225" ID="ID_179796227" MODIFIED="1551518652345" POSITION="left" TEXT="Improve productivity">
+<node CREATED="1535825282225" ID="ID_179796227" MODIFIED="1551518652345" POSITION="right" TEXT="Improve productivity">
 <icon BUILTIN="full-3"/>
 <node CREATED="1535824792221" FOLDED="true" ID="ID_506580472" MODIFIED="1551518649740" TEXT="Outsource">
 <icon BUILTIN="full-1"/>

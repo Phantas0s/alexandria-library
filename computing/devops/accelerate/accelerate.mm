@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1545313890562" ID="ID_1172222827" MODIFIED="1599994806861" TEXT="Accelerate">
+<node CREATED="1545313890562" ID="ID_1172222827" MODIFIED="1617098101267" TEXT="Accelerate">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -83,8 +83,9 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
-<node CREATED="1545313952675" FOLDED="true" ID="ID_500420142" MODIFIED="1599995262614" POSITION="right" TEXT="What we found">
+</html>
+</richcontent>
+<node CREATED="1545313952675" ID="ID_500420142" MODIFIED="1599995262614" POSITION="right" TEXT="What we found">
 <icon BUILTIN="full-1"/>
 <node CREATED="1545382812392" FOLDED="true" ID="ID_1737580999" MODIFIED="1586454502095" TEXT="Accelerate">
 <icon BUILTIN="full-1"/>
@@ -172,17 +173,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1545382745504" FOLDED="true" ID="ID_43068715" MODIFIED="1586595118402" TEXT="Measuring performances">
+<node CREATED="1545382745504" ID="ID_43068715" MODIFIED="1586595118402" TEXT="Measuring performances">
 <icon BUILTIN="full-2"/>
-<node CREATED="1545314832357" ID="ID_883764101" MODIFIED="1558244059959" TEXT="It&apos;s invisible!">
+<node CREATED="1545314832357" FOLDED="true" ID="ID_883764101" MODIFIED="1558244059959" TEXT="It&apos;s invisible!">
 <node CREATED="1545314836669" ID="ID_260516667" MODIFIED="1545314841170" TEXT="Hard to measure"/>
 </node>
 <node CREATED="1545314850053" ID="ID_1228208509" MODIFIED="1558243533983" TEXT="The flawed ways">
 <node CREATED="1545314863989" ID="ID_262605193" MODIFIED="1545314869738" TEXT="Focus on productivity"/>
-<node CREATED="1545314870781" FOLDED="true" ID="ID_1401294934" MODIFIED="1586454520139" TEXT="Drawbacks">
-<node CREATED="1545314874557" ID="ID_1272001254" MODIFIED="1558243654882" TEXT="Focus on output">
-<node CREATED="1549651473969" ID="ID_1776937308" MODIFIED="1549651474620" TEXT=" instead of outcome"/>
-</node>
+<node CREATED="1545314870781" ID="ID_1401294934" MODIFIED="1586454520139" TEXT="Drawbacks">
+<node CREATED="1545314874557" ID="ID_1272001254" MODIFIED="1616993235097" TEXT="Focus on output instead of outcome"/>
 <node CREATED="1545314891261" ID="ID_1400365293" MODIFIED="1586454511201" TEXT="Focus on individual \ local measures"/>
 <node CREATED="1545314900973" ID="ID_1729657999" MODIFIED="1586454518017" TEXT="... rather than on">
 <node CREATED="1545314905605" ID="ID_1168160465" MODIFIED="1545314906489" TEXT="teams"/>
@@ -326,7 +325,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1545316488550" ID="ID_1944842587" MODIFIED="1558244394565" TEXT="Used for this research">
+<node CREATED="1545316488550" FOLDED="true" ID="ID_1944842587" MODIFIED="1558244394565" TEXT="Used for this research">
 <node CREATED="1545316490790" ID="ID_1845461958" MODIFIED="1558244396213" TEXT="Cluster analysis technique">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1545316497130" ID="ID_159949154" MODIFIED="1545316506292" TEXT="Foundational technique"/>
@@ -1575,9 +1574,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1547984321150" ID="ID_775970727" MODIFIED="1586603826857" POSITION="right" TEXT="The research">
+<node CREATED="1547984321150" FOLDED="true" ID="ID_775970727" MODIFIED="1586603826857" POSITION="right" TEXT="The research">
 <icon BUILTIN="full-2"/>
-<node CREATED="1547984364230" ID="ID_201276016" MODIFIED="1586455990398" TEXT="The science behind the book">
+<node CREATED="1547984364230" FOLDED="true" ID="ID_201276016" MODIFIED="1586455990398" TEXT="The science behind the book">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1547984391991" FOLDED="true" ID="ID_839288841" MODIFIED="1552237094496" TEXT="Primary and secondary research">
@@ -2140,7 +2139,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1549194192131" FOLDED="true" ID="ID_701718848" MODIFIED="1586603828425" POSITION="left" TEXT="Transformation">
+<node CREATED="1549194192131" FOLDED="true" ID="ID_701718848" MODIFIED="1586603828425" POSITION="right" TEXT="Transformation">
 <icon BUILTIN="full-3"/>
 <node CREATED="1549194208337" FOLDED="true" ID="ID_957182497" MODIFIED="1586595762500" TEXT="High performance leadership management">
 <icon BUILTIN="full-1"/>
