@@ -207,7 +207,7 @@
 <node CREATED="1591188366988" ID="ID_964249790" MODIFIED="1591188376992" TEXT="More a way to say that &quot;it&apos;s a cool company&quot;"/>
 </node>
 </node>
-<node CREATED="1591188394525" FOLDED="true" ID="ID_1444918858" MODIFIED="1591188402052" POSITION="left" TEXT="How do I become better at negotiation? ">
+<node CREATED="1591188394525" FOLDED="true" ID="ID_1444918858" MODIFIED="1591188402052" POSITION="right" TEXT="How do I become better at negotiation? ">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1591188403692" ID="ID_555721729" MODIFIED="1591188405584" TEXT="Short version"/>
@@ -236,12 +236,12 @@
 <node CREATED="1591188617850" ID="ID_212197141" MODIFIED="1591188620709" TEXT="Getting To Yes"/>
 </node>
 </node>
-<node CREATED="1591188635355" FOLDED="true" ID="ID_1027754183" MODIFIED="1591188643057" POSITION="left" TEXT="How to value an equity grant">
+<node CREATED="1591188635355" FOLDED="true" ID="ID_1027754183" MODIFIED="1591188643057" POSITION="right" TEXT="How to value an equity grant">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1591188728738" ID="ID_55047807" MODIFIED="1591188732526" TEXT="Totally random"/>
 </node>
-<node CREATED="1591188712690" FOLDED="true" ID="ID_1414735350" MODIFIED="1591188727236" POSITION="left" TEXT="Why are you so negative about equity grants?">
+<node CREATED="1591188712690" FOLDED="true" ID="ID_1414735350" MODIFIED="1591188727236" POSITION="right" TEXT="Why are you so negative about equity grants?">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1591188733274" ID="ID_1775297801" MODIFIED="1591188737670" TEXT="You&apos;re overestimate">
@@ -250,7 +250,7 @@
 <node CREATED="1591188756770" ID="ID_807337505" MODIFIED="1591188764301" TEXT="People knows this stuff better than you program"/>
 </node>
 </node>
-<node CREATED="1591188771346" FOLDED="true" ID="ID_122406455" MODIFIED="1591188777417" POSITION="left" TEXT="Are startups great for your career as a fresh graduate?">
+<node CREATED="1591188771346" FOLDED="true" ID="ID_122406455" MODIFIED="1591188777417" POSITION="right" TEXT="Are startups great for your career as a fresh graduate?">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-4"/>
 <node CREATED="1591188805409" ID="ID_1278913045" MODIFIED="1591188808589" TEXT="Startup">
@@ -259,12 +259,12 @@
 <node CREATED="1591188820641" ID="ID_1591783217" MODIFIED="1591188829581" TEXT="... contrary to Megacorp"/>
 </node>
 </node>
-<node CREATED="1591188842945" FOLDED="true" ID="ID_1296256429" MODIFIED="1591188851598" POSITION="left" TEXT="So would you recommend working at a startup?">
+<node CREATED="1591188842945" FOLDED="true" ID="ID_1296256429" MODIFIED="1591188851598" POSITION="right" TEXT="So would you recommend working at a startup?">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-5"/>
 <node CREATED="1591188852753" ID="ID_1735503649" MODIFIED="1591188855789" TEXT="Lifestyle choice"/>
 </node>
-<node CREATED="1591188917753" FOLDED="true" ID="ID_1011744941" MODIFIED="1591188925047" POSITION="left" TEXT="Your most important professional skill is communication">
+<node CREATED="1591188917753" FOLDED="true" ID="ID_1011744941" MODIFIED="1591188925047" POSITION="right" TEXT="Your most important professional skill is communication">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-6"/>
 <node CREATED="1591188931736" ID="ID_1238578127" MODIFIED="1591188938620" TEXT="Give people perception you&apos;ll create value"/>
@@ -286,7 +286,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1591189117623" FOLDED="true" ID="ID_1311244974" MODIFIED="1591189120295" POSITION="left" TEXT="You will often be called to do Enterprise Sales and other stuff you got into engineering to avoid">
+<node CREATED="1591189117623" FOLDED="true" ID="ID_1311244974" MODIFIED="1591189120295" POSITION="right" TEXT="You will often be called to do Enterprise Sales and other stuff you got into engineering to avoid">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-7"/>
 <node CREATED="1591189305613" ID="ID_1632936284" MODIFIED="1591189314457" TEXT="Every interview you&apos;ll have is Entreprise Sales"/>
@@ -301,7 +301,7 @@
 </node>
 <node CREATED="1591189373037" ID="ID_771062819" MODIFIED="1591189384986" TEXT="Understanding how to make a business case for technology"/>
 </node>
-<node CREATED="1591189396910" FOLDED="true" ID="ID_1348437071" MODIFIED="1591189401190" POSITION="left" TEXT="Modesty is not a career-enhancing character trait">
+<node CREATED="1591189396910" FOLDED="true" ID="ID_1348437071" MODIFIED="1591189401190" POSITION="right" TEXT="Modesty is not a career-enhancing character trait">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-8"/>
 <node CREATED="1591189408421" ID="ID_157726694" MODIFIED="1591189421089" TEXT="Many engineer have self-confidence issues"/>
@@ -316,7 +316,7 @@
 <node CREATED="1591190887843" ID="ID_1049037257" MODIFIED="1591190892791" TEXT="... for bringing better life to people"/>
 </node>
 </node>
-<node CREATED="1591190938658" FOLDED="true" ID="ID_1673356224" MODIFIED="1591190945183" POSITION="left" TEXT="All business decisions are ultimately made by one or a handful of multi-cellular organisms closely related to chimpanzees, not by rules or by algorithms">
+<node CREATED="1591190938658" FOLDED="true" ID="ID_1673356224" MODIFIED="1591190945183" POSITION="right" TEXT="All business decisions are ultimately made by one or a handful of multi-cellular organisms closely related to chimpanzees, not by rules or by algorithms">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-9"/>
 <node CREATED="1591190976283" ID="ID_980836521" MODIFIED="1591190980527" TEXT="Grooming is important"/>
@@ -330,7 +330,7 @@
 <node CREATED="1591191075354" ID="ID_967538361" MODIFIED="1591191078149" TEXT="Suit = CEO"/>
 </node>
 </node>
-<node CREATED="1591191115049" FOLDED="true" ID="ID_1102047996" MODIFIED="1591191124183" POSITION="left" TEXT="At the end of the day, your life happiness will not be dominated by your career">
+<node CREATED="1591191115049" FOLDED="true" ID="ID_1102047996" MODIFIED="1591191124183" POSITION="right" TEXT="At the end of the day, your life happiness will not be dominated by your career">
 <icon BUILTIN="full-2"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1591191151345" ID="ID_418606381" MODIFIED="1591191156981" TEXT="Optimize for happiness">

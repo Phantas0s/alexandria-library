@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1616946799523" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1617278959968" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -560,9 +560,9 @@
 <node CREATED="1530447452934" FOLDED="true" ID="ID_769479249" MODIFIED="1587200120125" POSITION="right" TEXT="The foundation: logic and proof">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
-<node CREATED="1530447523116" FOLDED="true" ID="ID_954479220" MODIFIED="1565526995995" TEXT="1.1 Propositional Logic">
+<node CREATED="1530447523116" ID="ID_954479220" MODIFIED="1565526995995" TEXT="1.1 Propositional Logic">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1530450590360" FOLDED="true" ID="ID_422541407" MODIFIED="1558265182717" TEXT="Propositions">
+<node CREATED="1530450590360" ID="ID_422541407" MODIFIED="1558265182717" TEXT="Propositions">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1530447651534" ID="ID_644203324" MODIFIED="1564563958097" TEXT="Negation">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -642,7 +642,7 @@
 <node CREATED="1530447743373" ID="ID_919785786" MODIFIED="1557066941050" TEXT="True True is False"/>
 </node>
 </node>
-<node CREATED="1530447787539" ID="ID_64784273" MODIFIED="1564563957207" TEXT="Conditional statement">
+<node CREATED="1530447787539" ID="ID_64784273" MODIFIED="1617278998934" TEXT="Conditional statement">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -694,7 +694,8 @@
       &#8220;q unless &#172;p&#8221;
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1530447964011" ID="ID_1296647110" MODIFIED="1559671643669" TEXT="Truth table">
 <icon BUILTIN="licq"/>
@@ -718,7 +719,7 @@
 <node CREATED="1530448056875" ID="ID_1404566198" MODIFIED="1557066941040" TEXT="No cause and effect relationship in math between p,q"/>
 </node>
 </node>
-<node CREATED="1530448401679" ID="ID_646913218" MODIFIED="1557740009179" TEXT="Converse p &#x2192; q">
+<node CREATED="1530448401679" FOLDED="true" ID="ID_646913218" MODIFIED="1557740009179" TEXT="Converse p &#x2192; q">
 <node CREATED="1530448423479" ID="ID_161301354" MODIFIED="1557066941040" TEXT="q &#x2192; p"/>
 </node>
 <node CREATED="1530448433183" FOLDED="true" ID="ID_1805539554" MODIFIED="1557737481171" TEXT="Contrapositive p &#x2192; q">
@@ -731,7 +732,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1530448433183" ID="ID_274664427" MODIFIED="1557740036697" TEXT="Inverse p &#x2192; q">
+<node CREATED="1530448433183" FOLDED="true" ID="ID_274664427" MODIFIED="1557740036697" TEXT="Inverse p &#x2192; q">
 <node CREATED="1530448440839" ID="ID_1041804053" MODIFIED="1557066941040" TEXT=" &#xac;p &#x2192; &#xac;q"/>
 </node>
 </node>
@@ -1063,7 +1064,7 @@
 <node CREATED="1532781432200" ID="ID_762578831" MODIFIED="1557066941033" TEXT="Propositional logic can&apos;t always map statements and natural language">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1532781418947" FOLDED="true" ID="ID_1590054937" MODIFIED="1557737481245" TEXT="Predicate logic">
+<node CREATED="1532781418947" ID="ID_1590054937" MODIFIED="1557737481245" TEXT="Predicate logic">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1532781629679" FOLDED="true" ID="ID_1859282508" MODIFIED="1557737481218" TEXT="x &gt; 3">
 <node CREATED="1532781688336" FOLDED="true" ID="ID_718384549" MODIFIED="1557737481174" TEXT="Neither true or false">
@@ -1186,7 +1187,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1532783460977" FOLDED="true" ID="ID_211724608" MODIFIED="1557739420280" TEXT="Quantifiers">
+<node CREATED="1532783460977" ID="ID_211724608" MODIFIED="1557739420280" TEXT="Quantifiers">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1532783479205" ID="ID_1159548575" MODIFIED="1557739174474" TEXT="Express predicate true">
 <node CREATED="1532783491637" ID="ID_370780357" MODIFIED="1557739175866" TEXT="over a range of elements">
@@ -1357,7 +1358,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1533388378296" FOLDED="true" ID="ID_856659484" MODIFIED="1558265189028" TEXT="Quantifiers with restricted domains">
+<node CREATED="1533388378296" ID="ID_856659484" MODIFIED="1558265189028" TEXT="Quantifiers with restricted domains">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1533388442804" ID="ID_1266364281" MODIFIED="1557739424529" TEXT="Abbreviated notation">
 <node CREATED="1533388450846" ID="ID_290958192" MODIFIED="1557066941033" TEXT="used to restrict quantifier domains"/>
@@ -1369,12 +1370,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1533390918343" FOLDED="true" ID="ID_1567468153" MODIFIED="1558265189028" TEXT="Precedence of quantifiers">
+<node CREATED="1533390918343" ID="ID_1567468153" MODIFIED="1558265189028" TEXT="Precedence of quantifiers">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1533390926443" ID="ID_1406783301" MODIFIED="1557739288074" TEXT="The quantifiers &#x2200; and &#x2203; have higher precedence"/>
 <node CREATED="1533390939853" ID="ID_415472316" MODIFIED="1557739514904" TEXT="... than from propositional calculus"/>
 </node>
-<node CREATED="1533390999320" FOLDED="true" ID="ID_722724573" MODIFIED="1558265189028" TEXT="Binding variable">
+<node CREATED="1533390999320" ID="ID_722724573" MODIFIED="1558265189028" TEXT="Binding variable">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1533391556751" ID="ID_1720492249" MODIFIED="1557739636312" TEXT="Variable is">
 <node CREATED="1533391471709" ID="ID_1691683277" MODIFIED="1557739638950" TEXT="bound">
@@ -1405,7 +1406,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1533391982666" FOLDED="true" ID="ID_957797801" MODIFIED="1557739990425" TEXT="Logical equivalence for quantifiers">
+<node CREATED="1533391982666" ID="ID_957797801" MODIFIED="1557739990425" TEXT="Logical equivalence for quantifiers">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1533392153718" ID="ID_34494164" MODIFIED="1557739442376" TEXT="Statement with">
 <node CREATED="1533392159867" ID="ID_1273842295" MODIFIED="1557066941020" TEXT="predicates"/>
@@ -1421,7 +1422,7 @@
 <node CREATED="1533392262445" ID="ID_988446819" MODIFIED="1557066941020" TEXT=" S &#x2261; T"/>
 </node>
 </node>
-<node CREATED="1533476410943" FOLDED="true" ID="ID_761839918" MODIFIED="1557739682949" TEXT="Negating Quantified Expressions">
+<node CREATED="1533476410943" ID="ID_761839918" MODIFIED="1557739682949" TEXT="Negating Quantified Expressions">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1533476768301" ID="ID_788195839" MODIFIED="1557739550929" TEXT="De Morgan&apos;s Laws for Quantifiers">
 <node CREATED="1533476878124" ID="ID_1949455904" MODIFIED="1557739552276" TEXT="Table">
@@ -1461,7 +1462,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1533478552796" FOLDED="true" ID="ID_1903875176" MODIFIED="1557737481246" TEXT="English translation to natural expression">
+<node CREATED="1533478552796" ID="ID_1903875176" MODIFIED="1557737481246" TEXT="English translation to natural expression">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1533478607627" ID="ID_721215008" MODIFIED="1557066941020" TEXT="Or any other natural language"/>
 <node CREATED="1533478578002" FOLDED="true" ID="ID_1993464006" MODIFIED="1557737481220" TEXT="Crucial in">
@@ -1477,7 +1478,7 @@
 <node CREATED="1533576015780" ID="ID_1831215337" MODIFIED="1557066941020" TEXT="for specifications!"/>
 </node>
 </node>
-<node CREATED="1533993346917" FOLDED="true" ID="ID_907907330" MODIFIED="1558265189028" TEXT="Logic programming">
+<node CREATED="1533993346917" ID="ID_907907330" MODIFIED="1558265189028" TEXT="Logic programming">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1533993379940" ID="ID_808509648" MODIFIED="1557739685662" TEXT="Some programming language"/>
 <node CREATED="1533993386285" ID="ID_1848559335" MODIFIED="1557739693958" TEXT="... designed to reason using"/>
@@ -2168,7 +2169,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" FOLDED="true" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
@@ -3000,7 +3001,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1559226217694" ID="ID_1832647831" MODIFIED="1586506986340" TEXT="2.3 Functions">
+<node CREATED="1559226217694" FOLDED="true" ID="ID_1832647831" MODIFIED="1586506986340" TEXT="2.3 Functions">
 <node CREATED="1562406780467" FOLDED="true" ID="ID_1713732385" MODIFIED="1585668917503" TEXT="Introduction">
 <node CREATED="1559226273678" ID="ID_453490020" MODIFIED="1559226275627" TEXT="Can be called">
 <node CREATED="1559226275823" ID="ID_377513065" MODIFIED="1559226280639" TEXT="transformation">
@@ -3679,7 +3680,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1564564022865" ID="ID_928246757" MODIFIED="1587469900318" TEXT="2.4 Sequences and Summations">
+<node CREATED="1564564022865" FOLDED="true" ID="ID_928246757" MODIFIED="1587469900318" TEXT="2.4 Sequences and Summations">
 <node CREATED="1564564066520" FOLDED="true" ID="ID_1207413132" MODIFIED="1587392535026" TEXT="Introduction">
 <node CREATED="1564564044010" ID="ID_776012966" MODIFIED="1564564047837" TEXT="Ordered list of elements"/>
 <node CREATED="1564564077593" ID="ID_553141591" MODIFIED="1564564082788" TEXT="Can be used for counting problems"/>
@@ -5464,7 +5465,7 @@
 <icon BUILTIN="password"/>
 </node>
 </node>
-<node CREATED="1587388497496" ID="ID_136007063" MODIFIED="1587388567445" POSITION="right" TEXT="Induction and Recursion">
+<node CREATED="1587388497496" FOLDED="true" ID="ID_136007063" MODIFIED="1587388567445" POSITION="right" TEXT="Induction and Recursion">
 <icon BUILTIN="full-5"/>
 <node CREATED="1587469753575" ID="ID_996166179" MODIFIED="1587472939052" TEXT="Introduction">
 <node CREATED="1587469493576" ID="ID_286076869" MODIFIED="1587469630750" TEXT="Proof using mathematic induction ">
