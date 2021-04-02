@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1572890685198" ID="ID_1029993071" LINK="https://www.youtube.com/watch?v=DOtCl5PU8F0" MODIFIED="1572890712937" TEXT="How To Evaluate Startup Ideas">
 <node CREATED="1572892672398" ID="ID_870715721" MODIFIED="1572892677361" POSITION="right" TEXT="Point of view of investor"/>
-<node CREATED="1572890847219" FOLDED="true" ID="ID_1141975464" MODIFIED="1574921059566" POSITION="right" TEXT="Startup">
+<node CREATED="1572890847219" ID="ID_1141975464" MODIFIED="1574921059566" POSITION="right" TEXT="Startup">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572890849604" ID="ID_559486436" MODIFIED="1572890855601" TEXT="Company designed to grow quickly">
 <node CREATED="1572890870251" ID="ID_369189005" MODIFIED="1572890875270" TEXT="investors interested in"/>
@@ -19,7 +19,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572891031315" FOLDED="true" ID="ID_1759320407" MODIFIED="1574920912857" POSITION="right" TEXT="Hypothesis">
+<node CREATED="1572891031315" ID="ID_1759320407" MODIFIED="1574920912857" POSITION="right" TEXT="Hypothesis">
 <icon BUILTIN="full-2"/>
 <node CREATED="1572891053715" ID="ID_1708624504" MODIFIED="1574920852291" TEXT="Problem">
 <icon BUILTIN="full-1"/>
@@ -72,9 +72,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1572891388854" FOLDED="true" ID="ID_375550754" MODIFIED="1572891390891" TEXT="SISP">
+<node CREATED="1572891388854" ID="ID_375550754" MODIFIED="1572891390891" TEXT="SISP">
 <node CREATED="1572891391094" ID="ID_406800007" MODIFIED="1572891397436" TEXT="Solution In Search of a Problem"/>
-<node CREATED="1572891398223" ID="ID_1252138711" MODIFIED="1572891403260" TEXT="Don&apos;t start here!"/>
+<node CREATED="1572891398223" ID="ID_1252138711" MODIFIED="1617353004195" TEXT="Don&apos;t start there!"/>
 <node CREATED="1572891450047" ID="ID_502884790" MODIFIED="1572891484692" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1572891421527" ID="ID_649082872" MODIFIED="1572891426611" TEXT="You&apos;re technical">
@@ -230,7 +230,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572892776212" FOLDED="true" ID="ID_23122996" LINK="https://www.youtube.com/watch?v=17XZGUX_9iM" MODIFIED="1574921313967" POSITION="left" TEXT="How do You package hypothesis to investor">
+<node CREATED="1572892776212" ID="ID_23122996" LINK="https://www.youtube.com/watch?v=17XZGUX_9iM" MODIFIED="1574921313967" POSITION="left" TEXT="How do You package hypothesis to investor">
 <icon BUILTIN="full-6"/>
 <node CREATED="1572892832993" FOLDED="true" ID="ID_1164619604" LINK="https://www.ycombinator.com/howtoapply/" MODIFIED="1574921161343" TEXT="YC Combinator essay">
 <node CREATED="1572892852525" ID="ID_1373645816" MODIFIED="1572892863320" TEXT="&quot;Of groups good enough to make it to interviews,"/>
@@ -366,17 +366,15 @@
 <node CREATED="1572894336065" ID="ID_340045639" MODIFIED="1572894348261" TEXT="Investors read lot of applications">
 <node CREATED="1572894349993" ID="ID_750366221" MODIFIED="1572894352333" TEXT="Really difficult"/>
 <node CREATED="1572894352681" ID="ID_424539540" MODIFIED="1572894363253" TEXT="Need help / empathy"/>
-<node CREATED="1572894369615" ID="ID_398553118" MODIFIED="1572894374188" TEXT="Make time spend on idea efficient">
+<node CREATED="1572894369615" ID="ID_398553118" MODIFIED="1572894374188" TEXT="Make time spend on idea efficient"/>
 <node CREATED="1572894417663" ID="ID_1230834595" MODIFIED="1572894419908" TEXT="be CONCISE">
-<node CREATED="1572894439400" ID="ID_1671244492" MODIFIED="1572896080456" TEXT="Know that you though deeply of idea"/>
-<node CREATED="1572894448934" ID="ID_1756451363" MODIFIED="1572896083199" TEXT="Get really good to get people excited">
+<node CREATED="1572894439400" ID="ID_1671244492" MODIFIED="1617353207825" TEXT="Know that you thought deeply of idea"/>
+<node CREATED="1572894448934" ID="ID_1756451363" MODIFIED="1572896083199" TEXT="Get really good to get people excited"/>
 <node CREATED="1572894460911" ID="ID_1691225761" MODIFIED="1572894465012" TEXT="... so you can sell your idea"/>
-</node>
 <node CREATED="1572894470583" ID="ID_206831303" MODIFIED="1572896086832" TEXT="Efficient with thoughts">
 <node CREATED="1572894477345" ID="ID_1043508884" MODIFIED="1572894479628" TEXT="so with your actions"/>
 </node>
 <node CREATED="1572894481816" ID="ID_816630906" MODIFIED="1572896090207" TEXT="You know how to figure the most important parts"/>
-</node>
 </node>
 </node>
 <node CREATED="1572894549031" ID="ID_105193257" MODIFIED="1572894668253" TEXT="Investors need to understand">
