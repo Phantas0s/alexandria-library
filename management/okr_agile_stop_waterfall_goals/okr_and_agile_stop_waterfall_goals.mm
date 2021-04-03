@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1572085290933" ID="ID_250100245" LINK="https://felipecastro.com/en/okr/okr_and-agile/" MODIFIED="1572085297680" TEXT="OKR and Agile: Stop Waterfall Goals">
-<node CREATED="1572085319301" FOLDED="true" ID="ID_1749344342" MODIFIED="1586018125946" POSITION="right" TEXT="The Feature Factory">
+<node CREATED="1572085319301" ID="ID_1749344342" MODIFIED="1586018125946" POSITION="right" TEXT="The Feature Factory">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572085329044" ID="ID_1812999925" MODIFIED="1572085334648" TEXT="Agile created to deliver software">
 <node CREATED="1572085372020" ID="ID_932711170" MODIFIED="1572085376168" TEXT="Alternative to waterfall"/>
@@ -9,7 +9,7 @@
 <node CREATED="1572085387147" ID="ID_1533397713" MODIFIED="1572085389384" TEXT="Stories"/>
 <node CREATED="1572085389740" ID="ID_1041396085" MODIFIED="1572085392512" TEXT="Features"/>
 </node>
-<node CREATED="1572085393123" ID="ID_1332928439" MODIFIED="1572085396752" TEXT="... but bot value">
+<node CREATED="1572085393123" ID="ID_1332928439" MODIFIED="1617429872689" TEXT="... but both value">
 <node CREATED="1572085397228" ID="ID_1206774589" MODIFIED="1586018051736" TEXT="Business outcomes">
 <font NAME="SansSerif" SIZE="12"/>
 </node>

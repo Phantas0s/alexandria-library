@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1553445319016" ID="ID_1210762025" LINK="https://blog.hubspot.com/marketing/beginner-inbound-lead-generation-guide-ht" MODIFIED="1553445341934" TEXT="What is lead generation">
-<node CREATED="1553446947539" FOLDED="true" ID="ID_1947740758" MODIFIED="1558807215621" POSITION="right" TEXT="Inbound lead generation">
+<node CREATED="1553446947539" ID="ID_1947740758" MODIFIED="1558807215621" POSITION="right" TEXT="Inbound lead generation">
 <icon BUILTIN="full-1"/>
 <node CREATED="1553445387640" ID="ID_1146942249" MODIFIED="1558807132805" TEXT="What is a lead?">
 <icon BUILTIN="full-1"/>
@@ -67,7 +67,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1553446088939" FOLDED="true" ID="ID_607366482" MODIFIED="1558807129365" TEXT="Lead Generation Marketing">
+<node CREATED="1553446088939" ID="ID_607366482" MODIFIED="1558807129365" TEXT="Lead Generation Marketing">
 <icon BUILTIN="full-4"/>
 <node CREATED="1553446125233" ID="ID_700712130" MODIFIED="1553446129045" TEXT="What channel to use">
 <node CREATED="1553446129226" ID="ID_824702250" MODIFIED="1553446132903" TEXT="to promote landing page?"/>
@@ -94,7 +94,8 @@
 </node>
 <node CREATED="1553446292705" ID="ID_370873246" MODIFIED="1553446295870" TEXT="Blog">
 <node CREATED="1553446328887" ID="ID_165160364" MODIFIED="1553446334990" TEXT="Tailor the entire piece to the end goal"/>
-<node CREATED="1553446335458" ID="ID_1790006973" MODIFIED="1553446336717" TEXT="Example">
+<node CREATED="1553446335458" ID="ID_1790006973" MODIFIED="1617431908449" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1553446336917" ID="ID_829363437" MODIFIED="1553446351572" TEXT="End goal: course Google Analytics"/>
 <node CREATED="1553446352583" ID="ID_273350255" MODIFIED="1553446355481" TEXT="Blog Post">
 <node CREATED="1553446355481" ID="ID_320058655" MODIFIED="1553446366413" TEXT="How to select your marketing metrics"/>
