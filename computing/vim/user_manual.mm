@@ -1,6 +1,17 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1615127197101" ID="ID_697258148" MODIFIED="1615127206996" TEXT="Vim User Manual">
+<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1617518885273" TEXT="Vim User Manual">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This is a mix of Neovim / Vim manual
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1615127224623" ID="ID_247720417" MODIFIED="1615127235755" POSITION="right" TEXT="Getting Started">
 <node CREATED="1615127236200" ID="ID_1366482076" MODIFIED="1615127325273" TEXT="About the manuals">
 <icon BUILTIN="full-1"/>
@@ -259,7 +270,7 @@
 <icon BUILTIN="full-0"/>
 </node>
 </node>
-<node CREATED="1615127244984" FOLDED="true" ID="ID_205292332" MODIFIED="1615127328350" TEXT="Making small changes">
+<node CREATED="1615127244984" ID="ID_205292332" MODIFIED="1615127328350" TEXT="Making small changes">
 <icon BUILTIN="full-4"/>
 <node CREATED="1615660487570" ID="ID_1138205791" MODIFIED="1615660566434" TEXT="Operators and motions">
 <icon BUILTIN="full-1"/>
@@ -340,6 +351,149 @@
 </node>
 <node CREATED="1615127247624" ID="ID_1210010335" MODIFIED="1615127329197" TEXT="Set your settings">
 <icon BUILTIN="full-5"/>
+<node CREATED="1617517167049" ID="ID_1169135579" MODIFIED="1617517244924" TEXT="The vimrc file">
+<icon BUILTIN="full-1"/>
+<node CREATED="1617517265502" ID="ID_752021257" MODIFIED="1617517271306" TEXT="Vim execute commands when start up"/>
+</node>
+<node CREATED="1617517184228" ID="ID_1909632713" MODIFIED="1617517245526" TEXT="The example vimrc file explained">
+<icon BUILTIN="full-2"/>
+<node CREATED="1617518180248" ID="ID_432135531" MODIFIED="1617518189612" TEXT="Speak about autocmd without explaining what it is?"/>
+</node>
+<node CREATED="1617517208015" ID="ID_275448951" MODIFIED="1617517246100" TEXT="The defaults.vim file explained">
+<icon BUILTIN="full-3"/>
+<node CREATED="1617518305527" ID="ID_1352339469" MODIFIED="1617518307355" TEXT="Nothing there"/>
+</node>
+<node CREATED="1617517215567" ID="ID_140764029" MODIFIED="1617517246754" TEXT="Simple mappings">
+<icon BUILTIN="full-4"/>
+<node CREATED="1617518410246" ID="ID_166760708" MODIFIED="1617518412580" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1617518413780" MODIFIED="1617518413780" TEXT=":map &lt;F5&gt; i{&lt;Esc&gt;ea}&lt;Esc&gt;"/>
+</node>
+</node>
+<node CREATED="1617517220324" ID="ID_501897275" MODIFIED="1617517247942" TEXT="Adding a package">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1617517224975" ID="ID_121842562" MODIFIED="1617517249011" TEXT="Adding a plugin">
+<icon BUILTIN="full-6"/>
+<node CREATED="1617518487966" ID="ID_102532065" MODIFIED="1617518498354" TEXT="vimscript file loaded automatically when Vim starts"/>
+<node CREATED="1617518510181" FOLDED="true" ID="ID_449083393" MODIFIED="1617518515428" TEXT="Global Plugins">
+<icon BUILTIN="full-1"/>
+<node CREATED="1617518536174" ID="ID_1760040511" MODIFIED="1617518554850" TEXT="Functionality not compiled in Vim"/>
+<node CREATED="1617518563869" ID="ID_1311074032" MODIFIED="1617518567848" TEXT="Adding a global plugin">
+<node CREATED="1617518568117" ID="ID_1460570713" MODIFIED="1617518577236" TEXT="Get a copy of the plugin">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1617518572548" ID="ID_1233902982" MODIFIED="1617518577901" TEXT="Drop it in the right directory">
+<icon BUILTIN="full-2"/>
+<node CREATED="1617518803964" ID="ID_380379232" MODIFIED="1617518805704" TEXT="Neovim">
+<node CREATED="1617518834090" ID="ID_750206265" MODIFIED="1617518834090" TEXT="system          plugin directory"/>
+<node CREATED="1617518834091" MODIFIED="1617518834091" TEXT="Unix            ~/.local/share/nvim/site/plugin"/>
+</node>
+<node CREATED="1617518809485" ID="ID_1677098528" MODIFIED="1617518810400" TEXT="Vim">
+<node CREATED="1617518815508" MODIFIED="1617518815508" TEXT="system          plugin directory ~"/>
+<node CREATED="1617518815509" MODIFIED="1617518815509" TEXT="Unix            ~/.vim/plugin/"/>
+<node CREATED="1617518815510" MODIFIED="1617518815510" TEXT="PC and OS/2     $HOME/vimfiles/plugin or $VIM/vimfiles/plugin"/>
+<node CREATED="1617518815511" MODIFIED="1617518815511" TEXT="Amiga           s:vimfiles/plugin"/>
+<node CREATED="1617518815511" MODIFIED="1617518815511" TEXT="Macintosh       $VIM:vimfiles:plugin"/>
+<node CREATED="1617518815512" MODIFIED="1617518815512" TEXT="RISC-OS         Choices:vimfiles.plugin"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1617518956668" FOLDED="true" ID="ID_1278200378" MODIFIED="1617519052968" TEXT="Filetype Plugins">
+<icon BUILTIN="full-2"/>
+<node CREATED="1617519034252" ID="ID_1096654195" MODIFIED="1617519049247" TEXT="Vim comes with set of plugins with different filetypes"/>
+<node CREATED="1617519026844" ID="ID_1990864331" MODIFIED="1617519033351" TEXT="Same place as global plugin"/>
+<node CREATED="1617519066563" ID="ID_1295176537" MODIFIED="1617519070535" TEXT=":help vimrc-filetype"/>
+</node>
+<node CREATED="1617519144995" FOLDED="true" ID="ID_257615498" MODIFIED="1617519149777" TEXT="Using a filetype plugin">
+<icon BUILTIN="full-3"/>
+<node CREATED="1617519165842" ID="ID_1902402439" MODIFIED="1617519170319" TEXT="Get a copy of the plugin"/>
+<node CREATED="1617519170691" ID="ID_47694618" MODIFIED="1617519175246" TEXT="Drop in in the right direcotry">
+<node CREATED="1617519176115" ID="ID_1022763990" MODIFIED="1617519177399" TEXT="Neovim">
+<node CREATED="1617519199451" ID="ID_35742490" MODIFIED="1617519204119" TEXT="For the stuff filetype"/>
+<node CREATED="1617519178507" ID="ID_1699001974" MODIFIED="1617519208827" TEXT="mkdir -p ~/.local/share/nvim/site/ftplugin">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1617519178508" ID="ID_277918820" MODIFIED="1617519208827" TEXT="mv thefile ~/.local/share/nvim/site/ftplugin/stuff.vim">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1617519226146" ID="ID_715203732" MODIFIED="1617519234607" TEXT="Can use an underscore as namespace">
+<node CREATED="1617519240002" ID="ID_700598400" MODIFIED="1617519242084" TEXT="mv thefile ~/.local/share/nvim/site/ftplugin/stuff_too.vim">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1617519260754" ID="ID_1988270078" MODIFIED="1617519262102" TEXT="Name">
+<node CREATED="1617519262739" ID="ID_1391233135" MODIFIED="1617519266099" TEXT="ftplugin/&lt;filetype&gt;.vim">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1617519262740" ID="ID_1879802823" MODIFIED="1617519265225" TEXT="ftplugin/&lt;filetype&gt;_&lt;name&gt;.vim">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1617519262741" ID="ID_1786421142" MODIFIED="1617519266716" TEXT="ftplugin/&lt;filetype&gt;/&lt;name&gt;.vim">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1617519295706" ID="ID_235767561" MODIFIED="1617519297757" TEXT="Help">
+<node CREATED="1617519298180" ID="ID_882668509" MODIFIED="1617519316636" TEXT="filetype-plugins">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1617519298182" ID="ID_510880103" MODIFIED="1617519317155" TEXT="load-plugins">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1617519298182" ID="ID_878121951" MODIFIED="1617519317602" TEXT="ftplugin-overrule">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1617519298183" ID="ID_389245398" MODIFIED="1617519318049" TEXT="write-plugin">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1617519298183" ID="ID_1730380534" MODIFIED="1617519318497" TEXT="plugin-details">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1617519298183" ID="ID_55200188" MODIFIED="1617519318883" TEXT="new-filetype">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1617517229558" ID="ID_293450197" MODIFIED="1617517250011" TEXT="Adding a help file">
+<icon BUILTIN="full-7"/>
+</node>
+<node CREATED="1617517234382" ID="ID_1641101753" MODIFIED="1617517252938" TEXT="The option window">
+<icon BUILTIN="full-8"/>
+<node CREATED="1617519678272" ID="ID_417491663" MODIFIED="1617519680203" TEXT=":option">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1617519680568" ID="ID_1740237376" MODIFIED="1617519684396" TEXT="Can change values on the fly"/>
+</node>
+<node CREATED="1617517238895" ID="ID_1257962955" MODIFIED="1617517254191" TEXT="Often used options">
+<icon BUILTIN="full-9"/>
+<node CREATED="1617519712592" ID="ID_1847304208" MODIFIED="1617519716684" TEXT="Not Wrapping Lines">
+<node CREATED="1617519717312" ID="ID_1789020293" MODIFIED="1617519720716" TEXT=":set nowrap"/>
+<node CREATED="1617519762408" ID="ID_1709977947" MODIFIED="1617519769012" TEXT=":set sidescroll=10"/>
+</node>
+<node CREATED="1617519770168" ID="ID_1045738899" MODIFIED="1617519774915" TEXT="Wrapping Movement Commands">
+<node CREATED="1617519800127" ID="ID_783282546" MODIFIED="1617519804180" TEXT=":set whichwrap"/>
+</node>
+<node CREATED="1617519831295" ID="ID_397991149" MODIFIED="1617519834777" TEXT="Viewing Tabs">
+<node CREATED="1617519856679" ID="ID_1062456319" MODIFIED="1617519859939" TEXT=":set list"/>
+<node CREATED="1617519860358" ID="ID_615514515" MODIFIED="1617519863994" TEXT=":set listchars"/>
+</node>
+<node CREATED="1617519865591" ID="ID_952066641" MODIFIED="1617519867178" TEXT="Keywords">
+<node CREATED="1617519871789" ID="ID_1234242799" MODIFIED="1617519875890" TEXT=":set iskeyword"/>
+<node CREATED="1617520236338" ID="ID_199027729" MODIFIED="1617520241294" TEXT="Adding a character">
+<node CREATED="1617520241674" ID="ID_163021475" MODIFIED="1617520250182" TEXT=":set iskeyword+=-"/>
+</node>
+<node CREATED="1617520260818" ID="ID_92395407" MODIFIED="1617520264070" TEXT="Removing a character">
+<node CREATED="1617520264586" ID="ID_486790074" MODIFIED="1617520272222" TEXT=":set iskeyword+=-"/>
+</node>
+</node>
+<node CREATED="1617520380521" ID="ID_638200644" MODIFIED="1617520384901" TEXT="Room for messages">
+<node CREATED="1617520385193" ID="ID_281874159" MODIFIED="1617520391101" TEXT=":set cmdheight"/>
+</node>
+</node>
 </node>
 <node CREATED="1615127251784" ID="ID_622066094" MODIFIED="1615127330638" TEXT="Using syntax highlighting">
 <icon BUILTIN="full-6"/>

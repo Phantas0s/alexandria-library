@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1617278959968" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1617531538828" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -694,8 +694,7 @@
       &#8220;q unless &#172;p&#8221;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1530447964011" ID="ID_1296647110" MODIFIED="1559671643669" TEXT="Truth table">
 <icon BUILTIN="licq"/>
@@ -2169,7 +2168,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" FOLDED="true" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
@@ -4341,7 +4340,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1600601966301" FOLDED="true" ID="ID_295812412" MODIFIED="1600601968145" TEXT="Solution">
+<node CREATED="1600601966301" ID="ID_295812412" MODIFIED="1600601968145" TEXT="Solution">
 <node CREATED="1574405086706" ID="ID_1786625840" MODIFIED="1574405093966">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4360,11 +4359,11 @@
 <node CREATED="1574405146195" ID="ID_1005057677" MODIFIED="1574405262368" TEXT="(1*4)+(0*1)+(4*0) = 4"/>
 </node>
 </node>
-<node CREATED="1574405355659" FOLDED="true" ID="ID_148134073" MODIFIED="1600601833451" TEXT="AB is not commutative">
+<node CREATED="1574405355659" ID="ID_148134073" MODIFIED="1600601833451" TEXT="AB is not commutative">
 <node CREATED="1574405366554" ID="ID_172208742" MODIFIED="1574405424790" TEXT="AB = BA doesn&apos;t mean BA = AB"/>
 </node>
 </node>
-<node CREATED="1574746660430" FOLDED="true" ID="ID_1846634461" MODIFIED="1574835063576" TEXT="Transposes and Powers of Matrices">
+<node CREATED="1574746660430" ID="ID_1846634461" MODIFIED="1574835063576" TEXT="Transposes and Powers of Matrices">
 <node CREATED="1574746706856" ID="ID_1678173019" MODIFIED="1574747065975" TEXT="Identity matrix of order">
 <node CREATED="1574747054439" ID="ID_353164400" MODIFIED="1574747064165" TEXT="Definition">
 <icon BUILTIN="licq"/>
