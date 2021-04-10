@@ -46,7 +46,7 @@
 <node CREATED="1572885276017" ID="ID_74210872" MODIFIED="1572885278173" TEXT="be specific"/>
 </node>
 </node>
-<node CREATED="1572885288864" FOLDED="true" ID="ID_723329863" MODIFIED="1616656069694" POSITION="right" TEXT="Fundamental Techniques in Handling People">
+<node CREATED="1572885288864" ID="ID_723329863" MODIFIED="1617957061421" POSITION="right" TEXT="Fundamental Techniques in Handling People">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -59,7 +59,7 @@
       <font color="#338800" face="SansSerif, sans-serif"><b>Principle 2: Give honest and sincere appreciation </b></font>
     </p>
     <p>
-      <font color="#338800" face="SansSerif, sans-serif"><b>Principle 3:Arouse in the other person an eager want</b></font>
+      <font color="#338800" face="SansSerif, sans-serif"><b>Principle 3: Arouse in the other person an eager want</b></font>
     </p>
   </body>
 </html>
@@ -157,7 +157,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572886212616" FOLDED="true" ID="ID_678112802" MODIFIED="1598105683242" POSITION="right" TEXT="Ways to Make People Like You">
+<node CREATED="1572886212616" ID="ID_678112802" MODIFIED="1617782505563" POSITION="right" TEXT="Ways to Make People Like You">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -241,7 +241,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1572942420255" ID="ID_1116050542" MODIFIED="1572951799804" TEXT="An easy way to become a good conversationalist">
+<node CREATED="1572942420255" FOLDED="true" ID="ID_1116050542" MODIFIED="1572951799804" TEXT="An easy way to become a good conversationalist">
 <icon BUILTIN="full-4"/>
 <node CREATED="1572942437831" ID="ID_1118039454" MODIFIED="1598105758217" TEXT="Listen intently to others and be genuinely interested"/>
 <node CREATED="1572942456231" ID="ID_162631070" MODIFIED="1572942459147" TEXT="Actively listen">
@@ -265,7 +265,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1572942645502" ID="ID_1601006501" MODIFIED="1572951799804" TEXT="How to make people like you instantly">
+<node CREATED="1572942645502" FOLDED="true" ID="ID_1601006501" MODIFIED="1572951799804" TEXT="How to make people like you instantly">
 <icon BUILTIN="full-6"/>
 <node CREATED="1572942664446" ID="ID_1816457299" MODIFIED="1572942673296" TEXT="Always make the other person feels important"/>
 <node CREATED="1572942730141" ID="ID_181895438" MODIFIED="1572942732433" TEXT="Golden rule">
@@ -283,7 +283,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572942813565" ID="ID_1946947117" MODIFIED="1573671599703" POSITION="left" TEXT="How to Win People to Your Way of Thinking">
+<node CREATED="1572942813565" ID="ID_1946947117" MODIFIED="1617782514354" POSITION="left" TEXT="How to Win People to Your Way of Thinking">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -593,7 +593,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572950907299" FOLDED="true" ID="ID_1879107379" MODIFIED="1598106112142" POSITION="left" TEXT="Be a Leader: How to Change People Without Giving Offense or Arousing Resentment">
+<node CREATED="1572950907299" ID="ID_1879107379" MODIFIED="1598106112142" POSITION="left" TEXT="Be a Leader: How to Change People Without Giving Offense or Arousing Resentment">
 <richcontent TYPE="NOTE"><html>
   <head>
     
