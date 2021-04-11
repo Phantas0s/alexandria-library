@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1618030112033" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1618034432047" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -524,7 +524,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1530447285087" FOLDED="true" ID="ID_1982099078" MODIFIED="1587472961477" POSITION="right" TEXT="PLAN of the book">
+<node CREATED="1530447285087" ID="ID_1982099078" MODIFIED="1587472961477" POSITION="right" TEXT="PLAN of the book">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1587388729193" FOLDED="true" ID="ID_1384629814" MODIFIED="1587473041204" TEXT="Plan">
@@ -557,7 +557,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1530447452934" FOLDED="true" ID="ID_769479249" MODIFIED="1587200120125" POSITION="right" TEXT="The foundation: logic and proof">
+<node CREATED="1530447452934" ID="ID_769479249" MODIFIED="1587200120125" POSITION="right" TEXT="The foundation: logic and proof">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1530447523116" ID="ID_954479220" MODIFIED="1565526995995" TEXT="1.1 Propositional Logic">
@@ -2168,7 +2168,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1540654873977" FOLDED="true" ID="ID_725635487" MODIFIED="1587473045065" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
+<node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1618034439459" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
@@ -2668,9 +2668,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1555257592025" FOLDED="true" ID="ID_1229810133" MODIFIED="1587392531507" TEXT="2.2 Set operations">
+<node CREATED="1555257592025" ID="ID_1229810133" MODIFIED="1587392531507" TEXT="2.2 Set operations">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1557737152305" FOLDED="true" ID="ID_1490250316" MODIFIED="1585334351041" TEXT=" Introduction">
+<node CREATED="1557737152305" ID="ID_1490250316" MODIFIED="1585334351041" TEXT=" Introduction">
 <node CREATED="1555257650521" FOLDED="true" ID="ID_711411576" MODIFIED="1587200768236" TEXT="Union of the sets">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6541,8 +6541,7 @@
   <body>
     <img src="cycle_graph.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="Dialog" SIZE="13"/>
 </node>
 </node>
@@ -6556,8 +6555,7 @@
   <body>
     <img src="wheels_graph.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
