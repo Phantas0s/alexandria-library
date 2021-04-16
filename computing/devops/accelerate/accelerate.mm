@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1545313890562" ID="ID_1172222827" MODIFIED="1617098101267" TEXT="Accelerate">
+<node CREATED="1545313890562" ID="ID_1172222827" MODIFIED="1618314438893" TEXT="Accelerate">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -83,7 +83,8 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1545313952675" ID="ID_500420142" MODIFIED="1599995262614" POSITION="right" TEXT="What we found">
 <icon BUILTIN="full-1"/>
 <node CREATED="1545382812392" FOLDED="true" ID="ID_1737580999" MODIFIED="1586454502095" TEXT="Accelerate">
@@ -415,7 +416,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1545381580571" ID="ID_1851301929" MODIFIED="1617595979227" TEXT="Different sort of cultures">
+<node CREATED="1545381580571" ID="ID_1851301929" MODIFIED="1618314438927" TEXT="Different sort of cultures">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -910,9 +911,9 @@
 <node CREATED="1586455449038" ID="ID_1527190515" MODIFIED="1586455449685" TEXT="I am rugged, not because it is easy, but because it is necessary and I am up for the challenge (Corman et al. 2012)."/>
 </node>
 </node>
-<node CREATED="1547909155221" FOLDED="true" ID="ID_790657332" MODIFIED="1586595268952" TEXT="Management practices for software">
+<node CREATED="1547909155221" ID="ID_790657332" MODIFIED="1586595268952" TEXT="Management practices for software">
 <icon BUILTIN="full-7"/>
-<node CREATED="1547909175017" ID="ID_1316382726" MODIFIED="1547909183072" TEXT="Management in software saw a lot of changes">
+<node CREATED="1547909175017" FOLDED="true" ID="ID_1316382726" MODIFIED="1547909183072" TEXT="Management in software saw a lot of changes">
 <node CREATED="1547909190413" ID="ID_1989166335" MODIFIED="1547909219136" TEXT="Project management institute">
 <icon BUILTIN="full-1"/>
 <node CREATED="1547909213624" ID="ID_1483771850" MODIFIED="1547909215956" TEXT="PRINCE2"/>
@@ -925,7 +926,7 @@
 <node CREATED="1547909241377" ID="ID_1394897122" MODIFIED="1547909244579" TEXT="applied to software"/>
 </node>
 </node>
-<node CREATED="1547909257452" ID="ID_1568830220" MODIFIED="1586455505419" TEXT="Team management practices">
+<node CREATED="1547909257452" FOLDED="true" ID="ID_1568830220" MODIFIED="1586455505419" TEXT="Team management practices">
 <node CREATED="1547909273084" ID="ID_1603398765" MODIFIED="1547909312139" TEXT="Limiting work in progress">
 <icon BUILTIN="full-1"/>
 <node CREATED="1547909286205" ID="ID_1527056224" MODIFIED="1547909294383" TEXT="Using limits to">
@@ -969,7 +970,7 @@
 <node CREATED="1547909551841" ID="ID_712989751" MODIFIED="1547909562883" TEXT="Positive effect on team culture"/>
 </node>
 </node>
-<node CREATED="1547909572984" ID="ID_802596776" MODIFIED="1547909583078" TEXT="Implement a lightweight change management process">
+<node CREATED="1547909572984" FOLDED="true" ID="ID_802596776" MODIFIED="1547909583078" TEXT="Implement a lightweight change management process">
 <node CREATED="1547909585607" ID="ID_1554424797" MODIFIED="1547909589101" TEXT="4 scenarios">
 <node CREATED="1547909596459" ID="ID_342968268" MODIFIED="1547909814212" TEXT="Prod changes needs approval from external">
 <icon BUILTIN="full-1"/>

@@ -176,7 +176,7 @@
 <node CREATED="1611246403762" ID="ID_1587926434" MODIFIED="1611246406782" TEXT="... to the upper brain"/>
 </node>
 </node>
-<node CREATED="1611246411562" FOLDED="true" ID="ID_1192699374" MODIFIED="1611246948143" TEXT="Amygdala Hijack and the Death of Rational Thoughts">
+<node CREATED="1611246411562" ID="ID_1192699374" MODIFIED="1611246948143" TEXT="Amygdala Hijack and the Death of Rational Thoughts">
 <icon BUILTIN="full-2"/>
 <node CREATED="1611246429650" ID="ID_1413245429" MODIFIED="1611246431900" TEXT="Amygdala">
 <node CREATED="1611246432064" ID="ID_314286659" MODIFIED="1611246437646" TEXT="Small area deep in your brain"/>
@@ -222,7 +222,7 @@
 <node CREATED="1611246936918" ID="ID_1257745862" MODIFIED="1611246940827" TEXT="... and words will go through"/>
 </node>
 </node>
-<node CREATED="1611246950087" FOLDED="true" ID="ID_606170028" MODIFIED="1611246953149" TEXT="Mirror Neurones">
+<node CREATED="1611246950087" ID="ID_606170028" MODIFIED="1611246953149" TEXT="Mirror Neurones">
 <icon BUILTIN="full-3"/>
 <node CREATED="1611246954615" ID="ID_1857993585" MODIFIED="1611246961787" TEXT="&quot;Monkey see, monkey do&quot; neurones"/>
 <node CREATED="1611246963967" ID="ID_1983506531" MODIFIED="1611246970931" TEXT="Same neurone fire when">
@@ -274,7 +274,7 @@
 <node CREATED="1611247313405" ID="ID_1009512045" MODIFIED="1611247333296" TEXT="Most people think the world don&apos;t give back"/>
 <node CREATED="1611247333748" ID="ID_1817738888" MODIFIED="1611247341969" TEXT="... what they&apos;re putting in"/>
 </node>
-<node CREATED="1611247344652" FOLDED="true" ID="ID_283501786" MODIFIED="1611247349348" TEXT="From Theory to Action">
+<node CREATED="1611247344652" ID="ID_283501786" MODIFIED="1611247349348" TEXT="From Theory to Action">
 <icon BUILTIN="full-4"/>
 <node CREATED="1611247357939" ID="ID_1127545847" MODIFIED="1611247363144" TEXT="Brain science don&apos;t apply to everyone">
 <node CREATED="1611247368195" ID="ID_709836197" MODIFIED="1611247380567" TEXT="Some people blocked at some lower level"/>
@@ -292,7 +292,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1611247454691" FOLDED="true" ID="ID_1330727638" MODIFIED="1611247480068" POSITION="right" TEXT="Section II: The Nine Core Rules For Getting Through Anyone">
+<node CREATED="1611247454691" ID="ID_1330727638" MODIFIED="1611247480068" POSITION="right" TEXT="Section II: The Nine Core Rules For Getting Through Anyone">
 <icon BUILTIN="full-2"/>
 <node CREATED="1611247531707" FOLDED="true" ID="ID_202483812" MODIFIED="1611247588592" TEXT="Move Yourself From &quot;OH F#@&amp; TO OK&quot;">
 <icon BUILTIN="full-3"/>
@@ -303,7 +303,7 @@
 <node CREATED="1611247630970" ID="ID_24125263" MODIFIED="1611247635302" TEXT="To handle stressful situations"/>
 <node CREATED="1611247639410" ID="ID_1315457245" MODIFIED="1611247643718" TEXT="... get yourself under control first"/>
 </node>
-<node CREATED="1611247721441" FOLDED="true" ID="ID_1509042336" MODIFIED="1611247725621" TEXT="Speed is everything">
+<node CREATED="1611247721441" ID="ID_1509042336" MODIFIED="1611247725621" TEXT="Speed is everything">
 <icon BUILTIN="full-2"/>
 <node CREATED="1611247731568" ID="ID_799730610" MODIFIED="1611247738342" TEXT="Need to get your emotions under control quickly"/>
 <node CREATED="1611247739129" ID="ID_544109967" MODIFIED="1611247752037" TEXT="Move instantly from">
@@ -311,7 +311,7 @@
 <node CREATED="1611247760713" ID="ID_739340205" MODIFIED="1611247767333" TEXT="Mammal brain -&gt; humain brain"/>
 </node>
 </node>
-<node CREATED="1611247774785" FOLDED="true" ID="ID_1674742869" MODIFIED="1611248222358" TEXT="The &quot;Oh F#@&amp; to OK&quot; Process">
+<node CREATED="1611247774785" ID="ID_1674742869" MODIFIED="1611248222358" TEXT="The &quot;Oh F#@&amp; to OK&quot; Process">
 <icon BUILTIN="full-3"/>
 <node CREATED="1611247795289" ID="ID_529369067" MODIFIED="1611247799260" TEXT="Even if crisis are different"/>
 <node CREATED="1611247799753" ID="ID_1162326785" MODIFIED="1611247946340" TEXT="... mind threats them same way">
@@ -427,7 +427,7 @@
 <node CREATED="1611589416385" ID="ID_311841297" MODIFIED="1611589420812" TEXT="You always can get better at it"/>
 </node>
 </node>
-<node CREATED="1611589460687" ID="ID_701672994" MODIFIED="1611589469608" TEXT="Rewire Yourself to Listen">
+<node CREATED="1611589460687" FOLDED="true" ID="ID_701672994" MODIFIED="1611589469608" TEXT="Rewire Yourself to Listen">
 <icon BUILTIN="full-4"/>
 <node CREATED="1611589536391" ID="ID_1995433146" MODIFIED="1611589603525" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -516,7 +516,7 @@
 <node CREATED="1611590039308" ID="ID_100400456" MODIFIED="1611590046664" TEXT="Can rewire and build more accurate perception"/>
 </node>
 </node>
-<node CREATED="1611590057860" FOLDED="true" ID="ID_1411966784" MODIFIED="1611590099329" TEXT="How Well Do You Know the People You Know?">
+<node CREATED="1611590057860" ID="ID_1411966784" MODIFIED="1611590099329" TEXT="How Well Do You Know the People You Know?">
 <icon BUILTIN="full-2"/>
 <node CREATED="1611590101756" ID="ID_1710013192" MODIFIED="1611590106760" TEXT="Don&apos;t assume you know somebody"/>
 <node CREATED="1611590107101" ID="ID_1509498197" MODIFIED="1611590111272" TEXT="... when you know him / her for years"/>
@@ -547,7 +547,7 @@
 </node>
 <node CREATED="1611590266394" FOLDED="true" ID="ID_910328887" MODIFIED="1611590276674" TEXT="Make The Other Person Feel Felt">
 <icon BUILTIN="full-5"/>
-<node CREATED="1611590301642" ID="ID_834632590" MODIFIED="1611590322264" TEXT="Why Does &quot;Feeling Felt&quot; Change People?">
+<node CREATED="1611590301642" FOLDED="true" ID="ID_834632590" MODIFIED="1611590322264" TEXT="Why Does &quot;Feeling Felt&quot; Change People?">
 <icon BUILTIN="full-1"/>
 <node CREATED="1611590409674" ID="ID_438190048" MODIFIED="1611590413742" TEXT="Put yourself in other person shoes"/>
 <node CREATED="1611590421233" ID="ID_1626103175" MODIFIED="1611590423998" TEXT="Mirror neurons">
@@ -1188,7 +1188,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612977505609" ID="ID_1067375777" MODIFIED="1613742962475" POSITION="right" TEXT="Section III: 12 Quick and Easy Ways to Achieve Buy-in and Get Through">
+<node CREATED="1612977505609" ID="ID_1067375777" MODIFIED="1613742962475" POSITION="left" TEXT="Section III: 12 Quick and Easy Ways to Achieve Buy-in and Get Through">
 <icon BUILTIN="full-3"/>
 <node CREATED="1612977575777" FOLDED="true" ID="ID_874670347" MODIFIED="1617023745424" TEXT="Introduction">
 <node CREATED="1612977582865" ID="ID_339125701" MODIFIED="1612977588029" TEXT="Easy and quick techniques"/>
@@ -1543,7 +1543,7 @@
 <node CREATED="1614959006013" ID="ID_886312825" MODIFIED="1614959012792" TEXT="Problems holding you back"/>
 <node CREATED="1614959013171" ID="ID_1468449224" MODIFIED="1614959040834" TEXT="... is often key to move forwardl"/>
 </node>
-<node CREATED="1614959053010" ID="ID_1632783105" MODIFIED="1614959062928" TEXT="From Transaction to Transformation">
+<node CREATED="1614959053010" FOLDED="true" ID="ID_1632783105" MODIFIED="1614959062928" TEXT="From Transaction to Transformation">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-9"/>
 <node CREATED="1614959131171" FOLDED="true" ID="ID_494859425" MODIFIED="1614959138444" TEXT="Introduction">
@@ -1874,7 +1874,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1615049396268" ID="ID_476637467" MODIFIED="1615049443617" POSITION="right" TEXT="Section IV: Putting It All Together: Fast Fixes for Seven Challenging Situations">
+<node CREATED="1615049396268" ID="ID_476637467" MODIFIED="1615049443617" POSITION="left" TEXT="Section IV: Putting It All Together: Fast Fixes for Seven Challenging Situations">
 <icon BUILTIN="full-4"/>
 <node CREATED="1615049404781" ID="ID_1099322681" MODIFIED="1615049455127" TEXT="Techniques even more powerful when combined"/>
 <node CREATED="1615049461796" ID="ID_257612670" MODIFIED="1615049474964" TEXT="The team from Hell">
@@ -1906,7 +1906,7 @@
 <icon BUILTIN="full-0"/>
 </node>
 </node>
-<node CREATED="1615049559972" ID="ID_1378021758" MODIFIED="1615049564121" POSITION="right" TEXT="Afterword">
+<node CREATED="1615049559972" ID="ID_1378021758" MODIFIED="1615049564121" POSITION="left" TEXT="Afterword">
 <icon BUILTIN="full-5"/>
 </node>
 </node>
