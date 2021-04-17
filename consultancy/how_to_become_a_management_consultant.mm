@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1547787570822" ID="ID_798206782" LINK="https://daedtech.com/how-to-become-a-management-consultant/" MODIFIED="1547789038557" TEXT="How to Become a Management Consultant">
-<node CREATED="1547787624660" FOLDED="true" ID="ID_1972703570" MODIFIED="1551298061942" POSITION="left" TEXT="What is management consulting">
+<node CREATED="1547787624660" ID="ID_1972703570" MODIFIED="1551298061942" POSITION="right" TEXT="What is management consulting">
 <icon BUILTIN="full-1"/>
 <node CREATED="1547787651283" ID="ID_1739248706" MODIFIED="1547787670246" TEXT="Synonym">
 <node CREATED="1547787670537" ID="ID_1631053853" MODIFIED="1547787678512" TEXT="Strategy consultant"/>
@@ -35,7 +35,7 @@
 <node CREATED="1547789821999" ID="ID_648347380" MODIFIED="1547789828778" TEXT="Word of mouth"/>
 </node>
 </node>
-<node CREATED="1547787831071" FOLDED="true" ID="ID_559759061" MODIFIED="1551298139717" POSITION="left" TEXT="Should you become management consultant?">
+<node CREATED="1547787831071" ID="ID_559759061" MODIFIED="1551298139717" POSITION="right" TEXT="Should you become management consultant?">
 <icon BUILTIN="full-2"/>
 <node CREATED="1547787915047" ID="ID_318097487" MODIFIED="1547787929004" TEXT="Yes">
 <node CREATED="1547787920192" ID="ID_817528827" MODIFIED="1547787927171" TEXT="Developers should be in charge"/>
@@ -47,19 +47,17 @@
 <node CREATED="1547787901238" ID="ID_1845760369" MODIFIED="1547787903555" TEXT="Authority"/>
 </node>
 <node CREATED="1547787943191" ID="ID_1433048814" MODIFIED="1547787944868" TEXT="Need">
-<node CREATED="1547787945656" ID="ID_147612959" MODIFIED="1547787952355" TEXT="To establish yourself as an expert">
-<node CREATED="1547787953871" ID="ID_1283434507" MODIFIED="1547787960613" TEXT="In some facet of leadership">
-<node CREATED="1547787960918" ID="ID_503299260" MODIFIED="1547787966275" TEXT="In the software world"/>
+<node CREATED="1547787945656" ID="ID_147612959" MODIFIED="1547787952355" TEXT="To establish yourself as an expert"/>
+<node CREATED="1547787953871" ID="ID_1283434507" MODIFIED="1618639178023" TEXT="... in some facet of leadership"/>
+<node CREATED="1547787960918" ID="ID_503299260" MODIFIED="1618639182018" TEXT="... in the software world"/>
 </node>
 </node>
-</node>
-</node>
-<node CREATED="1547788009631" FOLDED="true" ID="ID_1464658298" MODIFIED="1551298146997" POSITION="right" TEXT="What you don&apos;t need">
+<node CREATED="1547788009631" ID="ID_1464658298" MODIFIED="1551298146997" POSITION="left" TEXT="What you don&apos;t need">
 <icon BUILTIN="full-3"/>
 <node CREATED="1547788013495" ID="ID_809808261" MODIFIED="1547788016324" TEXT="College degree"/>
 <node CREATED="1547788032839" ID="ID_248909006" MODIFIED="1547788037563" TEXT="Consultant agency"/>
 </node>
-<node CREATED="1547788068935" FOLDED="true" ID="ID_402377497" MODIFIED="1551298483362" POSITION="right" TEXT="How to become a management consultant">
+<node CREATED="1547788068935" ID="ID_402377497" MODIFIED="1618640141620" POSITION="left" TEXT="How to become a management consultant">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -67,7 +65,8 @@
   <body>
     If you&#8217;re working a 9-5 job, you can practice all from point 1 to 4.
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <icon BUILTIN="full-4"/>
 <node CREATED="1547788076285" FOLDED="true" ID="ID_981417841" MODIFIED="1551298261123" TEXT="Learning about org structure">
 <icon BUILTIN="full-1"/>
@@ -86,10 +85,8 @@
 <node CREATED="1547788200180" ID="ID_783401475" MODIFIED="1547788221688" TEXT="Get successful examples of each"/>
 <node CREATED="1547788228445" ID="ID_880479929" MODIFIED="1547788236384" TEXT="Get failed examples of each"/>
 </node>
-<node CREATED="1547788246709" FOLDED="true" ID="ID_1814934377" MODIFIED="1551298258348" TEXT="Give practical understanding ">
-<node CREATED="1547788265811" ID="ID_1365676828" MODIFIED="1547788266538" TEXT="of organisation philosophy"/>
-</node>
-<node CREATED="1547788305277" FOLDED="true" ID="ID_895928350" MODIFIED="1551298259971" TEXT="Broad vision of org">
+<node CREATED="1547788246709" ID="ID_1814934377" MODIFIED="1618639278289" TEXT="Give practical understanding of organisation philosophy"/>
+<node CREATED="1547788305277" ID="ID_895928350" MODIFIED="1551298259971" TEXT="Broad vision of org">
 <node CREATED="1547788321667" ID="ID_1964642990" MODIFIED="1547788331247" TEXT="Will help management who only see theirs"/>
 </node>
 </node>
@@ -100,13 +97,12 @@
 </node>
 <node CREATED="1547788621714" FOLDED="true" ID="ID_872361467" MODIFIED="1551298285597" TEXT="Focus on data with everything you do">
 <icon BUILTIN="full-3"/>
-<node CREATED="1547788786225" ID="ID_313731119" MODIFIED="1547788794819" TEXT="Leadership is responsible">
-<node CREATED="1547788795095" ID="ID_565172775" MODIFIED="1547788802859" TEXT="of a lot of decision making">
+<node CREATED="1547788786225" ID="ID_313731119" MODIFIED="1547788794819" TEXT="Leadership is responsible"/>
+<node CREATED="1547788795095" ID="ID_565172775" MODIFIED="1618639301874" TEXT="... of a lot of decision making">
 <node CREATED="1547788803032" ID="ID_1599356936" MODIFIED="1547788811412" TEXT="With experience"/>
 <node CREATED="1547788811920" ID="ID_393181640" MODIFIED="1547788815732" TEXT="With gut feel"/>
 <node CREATED="1547788816303" ID="ID_210818397" MODIFIED="1547788825797" TEXT="Anecdotal evidence"/>
-<node CREATED="1547788830375" ID="ID_1878779745" MODIFIED="1547788836341" TEXT="... other imprecise approaches"/>
-</node>
+<node CREATED="1547788830375" ID="ID_1878779745" MODIFIED="1618639308947" TEXT="... and other imprecise approaches"/>
 </node>
 <node CREATED="1547788858720" ID="ID_1778725982" MODIFIED="1547788866507" TEXT="Come with better options"/>
 <node CREATED="1547788878631" ID="ID_702116272" MODIFIED="1547788881875" TEXT="Teach yourself">
@@ -117,17 +113,14 @@
 <node CREATED="1547788932054" FOLDED="true" ID="ID_1826391382" MODIFIED="1551298332524" TEXT="Get good at interviewing people">
 <icon BUILTIN="full-4"/>
 <node CREATED="1547788952247" ID="ID_231113005" MODIFIED="1547788957668" TEXT="Journalistic type interviews"/>
-<node CREATED="1547788967679" FOLDED="true" ID="ID_1937974338" MODIFIED="1551298330154" TEXT="Get good at talking with people">
-<node CREATED="1547788974423" ID="ID_996697270" MODIFIED="1547788981043" TEXT="In a specific way">
+<node CREATED="1547788967679" ID="ID_1937974338" MODIFIED="1551298330154" TEXT="Get good at talking with people">
 <node CREATED="1547788981311" ID="ID_636472697" MODIFIED="1547788986043" TEXT="Asking them questions"/>
 <node CREATED="1547788986621" ID="ID_207453686" MODIFIED="1547788990546" TEXT="Taking notes"/>
 <node CREATED="1547788991086" ID="ID_1121921386" MODIFIED="1547788997323" TEXT="Eliciting important information"/>
-<node CREATED="1547788999334" ID="ID_108458579" MODIFIED="1547789009564" TEXT="Assembling the result">
-<node CREATED="1547789009759" ID="ID_1465196683" MODIFIED="1547789013139" TEXT="To a coherent narrative"/>
+<node CREATED="1547788999334" ID="ID_108458579" MODIFIED="1547789009564" TEXT="Assembling the result"/>
+<node CREATED="1547789009759" ID="ID_1465196683" MODIFIED="1618639517804" TEXT="... to a coherent narrative"/>
 </node>
-</node>
-</node>
-<node CREATED="1547789133676" FOLDED="true" ID="ID_66214830" MODIFIED="1551298328964" TEXT="You know nothing about organisation">
+<node CREATED="1547789133676" ID="ID_66214830" MODIFIED="1551298328964" TEXT="You know nothing about organisation">
 <node CREATED="1547789138916" ID="ID_682301230" MODIFIED="1547789147458" TEXT="Need to know it fast"/>
 <node CREATED="1547789151644" ID="ID_955545979" MODIFIED="1547789155929" TEXT="Good demeanor"/>
 <node CREATED="1547789156739" ID="ID_857036132" MODIFIED="1547789164161" TEXT="Knowing which questions to ask"/>
@@ -143,7 +136,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1547789271243" FOLDED="true" ID="ID_1915934470" MODIFIED="1551298338932" TEXT="Develop a solution for problem leaders have">
+<node CREATED="1547789271243" FOLDED="true" ID="ID_1915934470" MODIFIED="1618639811872" TEXT="Develop a solution for leader problems">
 <icon BUILTIN="full-5"/>
 <node CREATED="1547789420179" ID="ID_854849810" MODIFIED="1547789424286" TEXT="Find a specific problem"/>
 <node CREATED="1547789424794" ID="ID_1957243409" MODIFIED="1547789431143" TEXT="Work on it to solve it very efficiently"/>
@@ -173,7 +166,7 @@
 <node CREATED="1547789700616" FOLDED="true" ID="ID_1667628063" MODIFIED="1551298425034" TEXT="Engage with leaders">
 <icon BUILTIN="full-7"/>
 <node CREATED="1547789708273" ID="ID_1679107582" MODIFIED="1547789713636" TEXT="And stay engaged with leaders!"/>
-<node CREATED="1547789727087" FOLDED="true" ID="ID_1687123915" MODIFIED="1551298393915" TEXT="Buyer is your partner">
+<node CREATED="1547789727087" ID="ID_1687123915" MODIFIED="1551298393915" TEXT="Buyer is your partner">
 <node CREATED="1547789732535" ID="ID_408966672" MODIFIED="1547789742424" TEXT="He is your only one customer">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1547789743095" ID="ID_965777360" MODIFIED="1551298391368" TEXT="for the engagement"/>
@@ -189,18 +182,17 @@
 <node CREATED="1547789890310" ID="ID_1607957591" MODIFIED="1547789893844" TEXT="Main point of contact"/>
 </node>
 </node>
-<node CREATED="1547789911942" FOLDED="true" ID="ID_533648120" MODIFIED="1551298423875" TEXT="Help with a specific problem">
+<node CREATED="1547789911942" ID="ID_533648120" MODIFIED="1551298423875" TEXT="Help with a specific problem">
 <node CREATED="1547789918117" ID="ID_1461676067" MODIFIED="1547789921980" TEXT="And then move on"/>
 <node CREATED="1547789922485" ID="ID_1324323716" MODIFIED="1547789928379" TEXT="You&apos;re not an employee!"/>
 <node CREATED="1547789947054" ID="ID_1828026201" MODIFIED="1547789950123" TEXT="Otherwise">
-<node CREATED="1547789950389" ID="ID_1454102744" MODIFIED="1547789958330" TEXT="Staying longer will make you subordinate">
+<node CREATED="1547789950389" ID="ID_1454102744" MODIFIED="1547789958330" TEXT="Staying longer will make you subordinate"/>
 <node CREATED="1547789958581" ID="ID_963674293" MODIFIED="1547789962730" TEXT="Not partner anymore!"/>
 </node>
 </node>
 </node>
 </node>
-</node>
-<node CREATED="1547790064813" ID="ID_1687325460" MODIFIED="1551297934159" POSITION="right" TEXT="Resources">
+<node CREATED="1547790064813" ID="ID_1687325460" MODIFIED="1618639147328" POSITION="left" TEXT="Resources">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -233,8 +225,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </map>

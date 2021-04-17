@@ -425,8 +425,7 @@
       $3 &gt; 60 { print $0, &quot;too many hours worked&quot; }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1602774284391" ID="ID_1574767415" MODIFIED="1602774288746" TEXT="No errors, no output"/>
 </node>
@@ -457,8 +456,7 @@
       { print }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1602774543109" ID="ID_358788434" MODIFIED="1602774546834" TEXT="Multiple statement on same line"/>
 <node CREATED="1602774547214" ID="ID_1214279889" MODIFIED="1602774557216" TEXT="... if separated by semi-colons"/>
@@ -494,8 +492,7 @@
       END { print emp, &quot;employees worked more than 15 hours&quot; }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1602774806572" ID="ID_400361847" MODIFIED="1602774810096" TEXT="Default value of variable">
 <node CREATED="1602774810248" ID="ID_1607211808" MODIFIED="1602774810640" TEXT="0"/>
@@ -528,8 +525,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1602775083874" ID="ID_930601436" MODIFIED="1602775091029" TEXT="printf could be employed here for simplicity"/>
 </node>
@@ -548,14 +544,28 @@
       END { print &quot;highest hourly rate:&quot;, maxrate, &quot;for&quot;, maxemp }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1602775123898" ID="ID_1646548734" MODIFIED="1602775132989" TEXT="Variables can handle string of characters"/>
 </node>
 <node CREATED="1602775152481" ID="ID_1482525072" MODIFIED="1602775154713" TEXT="String Concatenation">
 <icon BUILTIN="full-4"/>
-<node CREATED="1602775244721" ID="ID_587012157" MODIFIED="1602775246526" TEXT="Code"/>
+<node CREATED="1602775244721" ID="ID_587012157" MODIFIED="1618661668227" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      { names = names $1 &quot; &quot; }
+    </p>
+    <p>
+      END { print names }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1602775355232" ID="ID_1741299510" MODIFIED="1602775357145" TEXT="Printing the Last Input Line">
 <icon BUILTIN="full-5"/>
@@ -604,8 +614,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1602780760637" ID="ID_674803916" MODIFIED="1602780761315" TEXT="While Statement"/>

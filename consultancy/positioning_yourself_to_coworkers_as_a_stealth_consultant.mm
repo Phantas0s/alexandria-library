@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1548306839026" ID="ID_1589180532" LINK="https://daedtech.com/positioning-yourself-to-coworkers-as-a-stealth-consultant/" MODIFIED="1548308144855" TEXT="Positioning Yourself to Coworkers as a Stealth Consultant">
-<node CREATED="1548307093618" FOLDED="true" ID="ID_1252217681" MODIFIED="1551333039097" POSITION="left" TEXT="Internal company positioning">
+<node CREATED="1548307093618" FOLDED="true" ID="ID_1252217681" MODIFIED="1551333039097" POSITION="right" TEXT="Internal company positioning">
 <icon BUILTIN="full-1"/>
 <node CREATED="1548307060629" ID="ID_1672408600" MODIFIED="1548307079291" TEXT="As an engineer, how to &quot;signal&quot; your positioning">
 <node CREATED="1548307079292" ID="ID_1091169160" MODIFIED="1548307081727" TEXT="to management?"/>
@@ -15,7 +15,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1548307223162" FOLDED="true" ID="ID_1629614942" MODIFIED="1551333038114" POSITION="left" TEXT="Tell everyone it&apos;s your speciality">
+<node CREATED="1548307223162" FOLDED="true" ID="ID_1629614942" MODIFIED="1551333038114" POSITION="right" TEXT="Tell everyone it&apos;s your speciality">
 <icon BUILTIN="full-2"/>
 <node CREATED="1548307286370" ID="ID_1732398939" MODIFIED="1548307375583" TEXT="Say to your boss">
 <node CREATED="1548307298153" ID="ID_1059674110" MODIFIED="1548307300973" TEXT="I&apos;m good at it"/>
@@ -35,7 +35,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1548307464000" FOLDED="true" ID="ID_1058218825" MODIFIED="1551333064861" POSITION="left" TEXT="Look for opportunities">
+<node CREATED="1548307464000" FOLDED="true" ID="ID_1058218825" MODIFIED="1551333064861" POSITION="right" TEXT="Look for opportunities">
 <icon BUILTIN="full-3"/>
 <node CREATED="1548307471152" ID="ID_191619888" MODIFIED="1548307474637" TEXT="Then volunteer"/>
 <node CREATED="1548307485784" ID="ID_457906401" MODIFIED="1548307488621" TEXT="You want to show">
@@ -46,7 +46,7 @@
 </node>
 <node CREATED="1548307495992" ID="ID_731202834" MODIFIED="1548307501909" TEXT="... otherwise it&apos;s just words"/>
 </node>
-<node CREATED="1548307556711" FOLDED="true" ID="ID_1716589226" MODIFIED="1551333110624" POSITION="right" TEXT="Seek External and Social Validation">
+<node CREATED="1548307556711" FOLDED="true" ID="ID_1716589226" MODIFIED="1551333110624" POSITION="left" TEXT="Seek External and Social Validation">
 <icon BUILTIN="full-4"/>
 <node CREATED="1548307579878" ID="ID_1535968149" MODIFIED="1548307581787" TEXT="Expertise">
 <node CREATED="1548307582048" ID="ID_339896453" MODIFIED="1548307587605" TEXT="A lot of it only showing up">
@@ -65,7 +65,7 @@
 <node CREATED="1548307711262" ID="ID_1785220707" MODIFIED="1548307723219" TEXT="Not only to developers"/>
 </node>
 </node>
-<node CREATED="1548307743900" FOLDED="true" ID="ID_638488847" MODIFIED="1551333401375" POSITION="right" TEXT="Start a blog and show everyone">
+<node CREATED="1548307743900" FOLDED="true" ID="ID_638488847" MODIFIED="1551333401375" POSITION="left" TEXT="Start a blog and show everyone">
 <icon BUILTIN="full-5"/>
 <node CREATED="1548307812110" ID="ID_1163349254" MODIFIED="1548307815306" TEXT="Speak about your niche"/>
 </node>
