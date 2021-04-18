@@ -1,19 +1,9 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563040127689" ID="ID_1518589396" LINK="https://thebusinessofauthority.simplecast.com/episodes/0201ce21" MODIFIED="1563044270500" TEXT=" The Trusted Advisor ">
-<node CREATED="1563044357845" FOLDED="true" ID="ID_465780210" MODIFIED="1587139201931" POSITION="right" TEXT="What a trusted advisor is?">
+<node CREATED="1563044357845" ID="ID_465780210" MODIFIED="1587139201931" POSITION="right" TEXT="What a trusted advisor is?">
 <icon BUILTIN="full-1"/>
-<node CREATED="1563044404653" ID="ID_1191333673" MODIFIED="1587139175717" TEXT="Definition">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      A trusted advisor is&#160;&#160;
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1563044404653" ID="ID_1191333673" MODIFIED="1618730447735" TEXT="Definition">
 <node CREATED="1587139168654" ID="ID_1902919383" MODIFIED="1587139194619" TEXT="Someone you feel comfortable"/>
 <node CREATED="1587139175922" ID="ID_677139819" MODIFIED="1587139189848" TEXT="... telling your innermost "/>
 <node CREATED="1587139181685" ID="ID_1422745028" MODIFIED="1587139185254" TEXT="... as well as your outermost thoughts"/>
