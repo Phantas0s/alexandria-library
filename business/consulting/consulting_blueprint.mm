@@ -100,6 +100,8 @@
 </node>
 <node CREATED="1618835450161" ID="ID_177754810" MODIFIED="1618837709046" POSITION="right" TEXT="Productization: &quot;How to Bust the COnsultant Bottleneck&quot;">
 <icon BUILTIN="full-2"/>
+<node CREATED="1618926216863" ID="ID_1236229974" MODIFIED="1618926241716" TEXT="Intro">
+<icon BUILTIN="full-1"/>
 <node CREATED="1618835465401" ID="ID_34673628" MODIFIED="1618835466077" TEXT="To scale your business the easy way "/>
 <node CREATED="1618835508105" ID="ID_1319562885" MODIFIED="1618835521781" TEXT="Productization instead of custom services">
 <node CREATED="1618835527736" ID="ID_980389812" MODIFIED="1618835534949" TEXT="Based on paretto principle 80/20"/>
@@ -182,14 +184,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1618837713270" ID="ID_432030732" MODIFIED="1618837724250" POSITION="right" TEXT="How to Validate Your Concept (And How NOT To)">
-<icon BUILTIN="full-3"/>
+<node CREATED="1618837713270" FOLDED="true" ID="ID_432030732" MODIFIED="1618926242671" TEXT="How to Validate Your Concept (And How NOT To)">
+<icon BUILTIN="full-2"/>
 <node CREATED="1618837774823" ID="ID_812833549" MODIFIED="1618837778622" TEXT="Validate before you build">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1618837842597" ID="ID_566879663" MODIFIED="1618837854170" POSITION="right" TEXT="How to validate your productization concept?">
-<icon BUILTIN="full-4"/>
+<node CREATED="1618837842597" ID="ID_566879663" MODIFIED="1618926243707" TEXT="How to validate your productization concept?">
+<icon BUILTIN="full-3"/>
 <node CREATED="1618837959268" ID="ID_1505535331" MODIFIED="1618837965360" TEXT="Spend a lot of time with clients for that"/>
 <node CREATED="1618837969604" ID="ID_993762004" MODIFIED="1618837974849" TEXT="Ask">
 <icon BUILTIN="full-1"/>
@@ -213,11 +215,173 @@
 <icon BUILTIN="full-2"/>
 <node CREATED="1618838041219" ID="ID_1477593851" MODIFIED="1618838046744" TEXT="Notice the EXACT language they use"/>
 </node>
-<node CREATED="1618838054444" ID="ID_1004604637" MODIFIED="1618838069433" TEXT="Revise your offering on waht they tell you using their exact language">
+<node CREATED="1618838054444" ID="ID_1004604637" MODIFIED="1618926031405" TEXT="Revise your offering on what they tell you using their exact language">
 <icon BUILTIN="full-3"/>
 </node>
 <node CREATED="1618838070956" ID="ID_1199880542" MODIFIED="1618838073179" TEXT="Repeat">
 <icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1618926038961" ID="ID_1434733163" MODIFIED="1618926057701" TEXT="Sample email">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Hi NAME,<br />
+    </p>
+    <p>
+      <br />
+      I&#8217;m speaking with leaders in INDUSTRY about TOPIC and would like to
+    </p>
+    <p>
+      feature you as well.
+    </p>
+    <p>
+      <br />
+      You have a pretty amazing track-record in INDUSTRY.
+    </p>
+    <p>
+      <br />
+      Do you have 10 minutes tomorrow morning or afternoon that I can give
+    </p>
+    <p>
+      you a quick call?
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1618926063999" ID="ID_804158259" MODIFIED="1618926068948" TEXT="Search the win-win"/>
+<node CREATED="1618926093031" ID="ID_1494273463" MODIFIED="1618926096500" TEXT="When concept validated">
+<node CREATED="1618926098313" ID="ID_775919597" MODIFIED="1618926110510" TEXT="Ask some potential prospect">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#8220;I&#8217;m planning on selling this for $XXXX.<br />
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      If I offered it to your right now in &#8220;beta&#8221; at half price, would you write me
+    </p>
+    <p>
+      a check?&#8221;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1618926115729" ID="ID_624953550" MODIFIED="1618926126828" TEXT="If everybody says yes"/>
+<node CREATED="1618926127392" ID="ID_1850065677" MODIFIED="1618926130893" TEXT="... more validation works to do!"/>
+</node>
+<node CREATED="1618926139176" ID="ID_869008237" MODIFIED="1618926144229" TEXT="More productize the business is"/>
+<node CREATED="1618926144608" ID="ID_653370127" MODIFIED="1618926147829" TEXT="... easier it is to sell it">
+<node CREATED="1618926157031" ID="ID_1382490353" MODIFIED="1618926160124" TEXT="Nobody likes hard work"/>
+</node>
+</node>
+<node CREATED="1618926254825" ID="ID_1263881734" MODIFIED="1618926294507" TEXT="Next Step for productization">
+<icon BUILTIN="full-4"/>
+<node CREATED="1618926288583" ID="ID_597734858" MODIFIED="1618926292890" TEXT="Consulting programs of course"/>
+</node>
+</node>
+<node CREATED="1618926304526" ID="ID_309247423" MODIFIED="1618926308470" POSITION="right" TEXT="How to Price Your Consulting Services">
+<icon BUILTIN="full-3"/>
+<node CREATED="1618926751045" ID="ID_358547534" MODIFIED="1618933428063" TEXT="Roller coaster Can Kill Your Consulting Business">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1618932720045" ID="ID_460295948" MODIFIED="1618932751921" TEXT="One day you have you work like crazy for a lot"/>
+<node CREATED="1618932725887" ID="ID_768872496" MODIFIED="1618932761961" TEXT="The other day you&apos;ve to find clients">
+<node CREATED="1618932730807" ID="ID_1803469999" MODIFIED="1618932840113" TEXT="Cold call"/>
+<node CREATED="1618932734733" ID="ID_1979652249" MODIFIED="1618932735873" TEXT="Emailing"/>
+<node CREATED="1618932840676" ID="ID_1976807263" MODIFIED="1618932842081" TEXT="Network"/>
+</node>
+<node CREATED="1618932856086" ID="ID_156216739" MODIFIED="1618932860945" TEXT="How to get off the roller coaster">
+<node CREATED="1618932871893" ID="ID_1929573926" MODIFIED="1618932905847" TEXT="Raise your prices">
+<node CREATED="1618932886715" ID="ID_1944212668" MODIFIED="1618932890553" TEXT="Erase most business problems"/>
+</node>
+<node CREATED="1618932897204" ID="ID_1281948703" MODIFIED="1618932904513" TEXT="... but need client to pay higher price"/>
+<node CREATED="1618932923203" ID="ID_705553748" MODIFIED="1618932930664" TEXT="It doesn&apos;t mean raise you fees"/>
+<node CREATED="1618932941124" ID="ID_108533252" MODIFIED="1618933007704" TEXT="... even it could attract better client">
+<node CREATED="1618933007837" ID="ID_30008503" MODIFIED="1618933010312" TEXT="Low maintenance"/>
+<node CREATED="1618933010731" ID="ID_299605632" MODIFIED="1618933013504" TEXT="Higher value"/>
+<node CREATED="1618933013853" ID="ID_1038058762" MODIFIED="1618933016854" TEXT="Repel">
+<node CREATED="1618933017034" ID="ID_1551292083" MODIFIED="1618933024544" TEXT="lower value client"/>
+<node CREATED="1618933018868" ID="ID_1463346371" MODIFIED="1618933023016" TEXT="high-stress client"/>
+</node>
+</node>
+</node>
+<node CREATED="1618933031948" ID="ID_604246330" MODIFIED="1618933033848" TEXT="Raise price with">
+<node CREATED="1618933034092" ID="ID_155207735" MODIFIED="1618933036192" TEXT="Retainers"/>
+<node CREATED="1618933036579" ID="ID_1605852641" MODIFIED="1618933041744" TEXT="Pay for performance agreements"/>
+<node CREATED="1618933042156" ID="ID_1955004537" MODIFIED="1618933044536" TEXT="Equity deals"/>
+</node>
+<node CREATED="1618933109284" ID="ID_1154620743" MODIFIED="1618933112616" TEXT="Cost of rollercoaster">
+<node CREATED="1618933112796" ID="ID_1770445119" MODIFIED="1618933257888" TEXT="Anxiety Cost">
+<icon BUILTIN="full-1"/>
+<node CREATED="1618933117444" ID="ID_1489943523" MODIFIED="1618933129904" TEXT="No sustainable revenue"/>
+<node CREATED="1618933175475" ID="ID_1520518503" MODIFIED="1618933184592" TEXT="Retainers can add predictable revenue"/>
+</node>
+<node CREATED="1618933185364" ID="ID_459908889" MODIFIED="1618933250644" TEXT="Cost of Un-scale-ability">
+<icon BUILTIN="full-2"/>
+<node CREATED="1618933205956" ID="ID_1016427058" MODIFIED="1618933217528" TEXT="Need to bring consistent flow of new prospects while sleeping"/>
+<node CREATED="1618933217940" ID="ID_11981918" MODIFIED="1618933226030" TEXT="Building marketing systems"/>
+<node CREATED="1618933243287" ID="ID_485325944" MODIFIED="1618933246062" TEXT="Retainers can help"/>
+</node>
+<node CREATED="1618933247003" ID="ID_1705584021" MODIFIED="1618933251322" TEXT="Time Cost">
+<icon BUILTIN="full-3"/>
+<node CREATED="1618933291179" ID="ID_1499234829" MODIFIED="1618933299487" TEXT="Create another job for yourself"/>
+<node CREATED="1618933299795" ID="ID_294919548" MODIFIED="1618933314663" TEXT="Cost of not strategically implement pricing models"/>
+</node>
+</node>
+</node>
+<node CREATED="1618933424930" ID="ID_112304489" MODIFIED="1618933426911" TEXT="Let&#x2019;s explore the benefit of retainers as a pricing strategy... ">
+<icon BUILTIN="full-2"/>
+<node CREATED="1618933482402" ID="ID_300970147" MODIFIED="1618933495926" TEXT="Consistent income">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1618933488785" ID="ID_529674544" MODIFIED="1618933496612" TEXT="Clients who respect your time and expertise">
+<icon BUILTIN="full-2"/>
+<node CREATED="1618933503283" ID="ID_639513041" MODIFIED="1618933508263" TEXT="People respect / value what they pay for"/>
+</node>
+<node CREATED="1618933520123" ID="ID_854729555" MODIFIED="1618933524991" TEXT="Scalability">
+<icon BUILTIN="full-3"/>
+<node CREATED="1618933545154" ID="ID_1295674197" MODIFIED="1618933554887" TEXT="Work for your business instead of in your business"/>
+</node>
+<node CREATED="1618933570010" ID="ID_103336679" MODIFIED="1618933576205" TEXT="What&apos;s a retainer">
+<node CREATED="1618933576357" ID="ID_1239731622" MODIFIED="1618933799840" TEXT="Pay for work retainer">
+<icon BUILTIN="full-1"/>
+<node CREATED="1618933590177" ID="ID_729576865" MODIFIED="1618933595222" TEXT="What is it?">
+<node CREATED="1618933596273" ID="ID_1715039841" MODIFIED="1618933602566" TEXT="Client pay upfront monthly"/>
+<node CREATED="1618933603634" ID="ID_1527889268" MODIFIED="1618933613310" TEXT="Expectation that you&apos;ll accomplish specific goals"/>
+<node CREATED="1618933615673" ID="ID_1349467898" MODIFIED="1618933618454" TEXT="... agreed with them"/>
+</node>
+<node CREATED="1618933619850" ID="ID_1349774535" MODIFIED="1618933621822" TEXT="When to use it">
+<node CREATED="1618933624938" ID="ID_1867933572" MODIFIED="1618933631382" TEXT="When you want to work for client"/>
+<node CREATED="1618933631730" ID="ID_1313107177" MODIFIED="1618933635510" TEXT="... for a longer period of time"/>
+</node>
+<node CREATED="1618933637194" ID="ID_1752847875" MODIFIED="1618933639212" TEXT="How to sell it">
+<node CREATED="1618933681337" ID="ID_613225109" MODIFIED="1618933687702" TEXT="List out what you deliver each month"/>
+<node CREATED="1618933688258" ID="ID_1847748376" MODIFIED="1618933784118" TEXT="Put # value to the benefit you&apos;ll deliver to the client"/>
+<node CREATED="1618933696890" ID="ID_946813676" MODIFIED="1618933779884" TEXT="Show them your retainer is less than 20% of the benefit you&apos;ll deliver"/>
+<node CREATED="1618933710258" ID="ID_1950899603" MODIFIED="1618933772710" TEXT="Show them how an upfront retainer guarantees them your attention and focus on their project"/>
+<node CREATED="1618933728648" ID="ID_1628265711" MODIFIED="1618933758990" TEXT="Show them how an upfront retainer makes them a priority over non retainer client"/>
+</node>
+</node>
+<node CREATED="1618933794890" ID="ID_910391319" MODIFIED="1618933800697" TEXT="Pay for access retainer">
+<icon BUILTIN="full-2"/>
+<node CREATED="1618933808281" ID="ID_712847725" MODIFIED="1618933811044" TEXT="What is it">
+<node CREATED="1618933811265" ID="ID_1299773090" MODIFIED="1618933820837" TEXT="Client pay regularly for access to knowledge and expertise"/>
+<node CREATED="1618933828145" ID="ID_779166110" MODIFIED="1618933839532" TEXT="Pay for reaching you quickly when they have question or problem"/>
+</node>
+<node CREATED="1618933841699" ID="ID_952494104" MODIFIED="1618933843460" TEXT="When to use it">
+<node CREATED="1618933850673" ID="ID_1511860573" MODIFIED="1618933856732" TEXT="When worked for client for a while"/>
+<node CREATED="1618933857457" ID="ID_232594465" MODIFIED="1618933866053" TEXT="When they have achieved good result"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>

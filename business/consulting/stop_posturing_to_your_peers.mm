@@ -1,0 +1,119 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1619011537757" ID="ID_1002387906" LINK="https://daedtech.com/to-market-yourself-as-a-freelance-dev-stop-posturing-for-your-peers/" MODIFIED="1619011548746" TEXT="Stop posturing to your peers">
+<node CREATED="1619011564740" ID="ID_1050054998" MODIFIED="1619026909395" POSITION="right" TEXT="There Are Roles That Go Into Buying Your Services">
+<icon BUILTIN="full-1"/>
+<node CREATED="1619016009306" ID="ID_690197316" MODIFIED="1619016017797" TEXT="Buyer roles in general">
+<node CREATED="1619016019384" ID="ID_426596599" MODIFIED="1619026416854" TEXT="Economic Buyer">
+<icon BUILTIN="full-1"/>
+<node CREATED="1619016121304" ID="ID_78982661" MODIFIED="1619016129133" TEXT="Actual economic buyer"/>
+<node CREATED="1619016132352" ID="ID_1128493225" MODIFIED="1619016138957" TEXT="Ultimate control to make purchase or not"/>
+</node>
+<node CREATED="1619016147264" ID="ID_972653742" MODIFIED="1619026417460" TEXT="Decision Buyer">
+<icon BUILTIN="full-2"/>
+<node CREATED="1619016160264" ID="ID_103563964" MODIFIED="1619016170725" TEXT="Sometimes decision delegated"/>
+</node>
+<node CREATED="1619016173536" ID="ID_1027247235" MODIFIED="1619026418169" TEXT="Influencer">
+<icon BUILTIN="full-3"/>
+<node CREATED="1619016188712" ID="ID_1041645510" MODIFIED="1619016247716" TEXT="Undecided person"/>
+<node CREATED="1619016248353" ID="ID_1172978625" MODIFIED="1619016254133" TEXT="Ear and trust of decision maker"/>
+<node CREATED="1619016271777" ID="ID_1014942193" MODIFIED="1619016279937" TEXT="Stand next to decision buyer"/>
+<node CREATED="1619016256767" ID="ID_1079624238" MODIFIED="1619016271252" TEXT="Don&apos;t say anything "/>
+<node CREATED="1619018825813" ID="ID_9309963" MODIFIED="1619018827625" TEXT="Two types">
+<node CREATED="1619016283608" ID="ID_168413827" MODIFIED="1619016284867" TEXT="Champion">
+<node CREATED="1619016285912" ID="ID_1302525016" MODIFIED="1619016295973" TEXT="Influencer that really like you"/>
+<node CREATED="1619018807918" ID="ID_430045227" MODIFIED="1619018815122" TEXT="Standing next to decision-maker"/>
+</node>
+<node CREATED="1619018816821" ID="ID_935551560" MODIFIED="1619018818288" TEXT="Blocker">
+<node CREATED="1619018857621" ID="ID_1411226436" MODIFIED="1619018865202" TEXT="Influencer who doesn&apos;t like you"/>
+</node>
+</node>
+</node>
+<node CREATED="1619018869381" ID="ID_1507702234" MODIFIED="1619026418944" TEXT="End user">
+<icon BUILTIN="full-4"/>
+<node CREATED="1619018882245" ID="ID_1282865687" MODIFIED="1619018887537" TEXT="Decision maker is not the only one using"/>
+<node CREATED="1619018888589" ID="ID_1295443355" MODIFIED="1619018897905" TEXT="Marketing target"/>
+</node>
+<node CREATED="1619018899797" ID="ID_1863715970" MODIFIED="1619026419631" TEXT="Bureaucrat">
+<icon BUILTIN="full-5"/>
+<node CREATED="1619018943582" ID="ID_1645515605" MODIFIED="1619018953297" TEXT="Big generality"/>
+<node CREATED="1619018954549" ID="ID_550602194" MODIFIED="1619018990967" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1619018956629" ID="ID_1701193939" MODIFIED="1619018965465" TEXT="Legal"/>
+<node CREATED="1619018957989" ID="ID_1014366129" MODIFIED="1619018963546" TEXT="Regulatory compliance"/>
+</node>
+<node CREATED="1619018999189" ID="ID_16864845" MODIFIED="1619019006184" TEXT="Rules and regulations for buyer"/>
+</node>
+<node CREATED="1619019008301" ID="ID_432522953" MODIFIED="1619026424297" TEXT="Committee">
+<icon BUILTIN="full-6"/>
+<node CREATED="1619019052756" ID="ID_381475463" MODIFIED="1619019055891" TEXT="Composite role"/>
+<node CREATED="1619019023941" ID="ID_1245081381" MODIFIED="1619019035736" TEXT="Situation where a purchase require agreement"/>
+<node CREATED="1619019043597" ID="ID_1158626070" MODIFIED="1619019049008" TEXT="... from various parties"/>
+</node>
+<node CREATED="1619024420034" ID="ID_1971699576" MODIFIED="1619026425488" TEXT="Complexity increase with size of company">
+<icon BUILTIN="full-7"/>
+</node>
+</node>
+<node CREATED="1619026414446" ID="ID_1214602730" MODIFIED="1619026414446" TEXT="Buyer Roles for Freelance App Dev">
+<node CREATED="1619026536336" ID="ID_167264832" MODIFIED="1619026570718" TEXT="If you&apos;re selling yourself by the hour"/>
+<node CREATED="1619026544041" ID="ID_338930597" MODIFIED="1619026560829" TEXT="... it will look like a job interview"/>
+</node>
+</node>
+<node CREATED="1619026400794" ID="ID_628218772" MODIFIED="1619026910074" POSITION="right" TEXT="Impressing Your Peers as a Marketing Face Plant">
+<icon BUILTIN="full-2"/>
+<node CREATED="1619026583321" ID="ID_587425625" MODIFIED="1619026583911" TEXT="The &#x201c;Impress Your Peers&#x201d; Marketing Plan in Detail">
+<node CREATED="1619026618736" ID="ID_381557165" MODIFIED="1619026682711" TEXT="Writing a blog and hope you&apos;ll have subscribers">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1619026629857" ID="ID_1514343292" MODIFIED="1619026683582" TEXT="Hope conference accept you">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1619026644016" ID="ID_467618515" MODIFIED="1619026684828" TEXT="Hope that you don&apos;t have blockers">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1619026657481" ID="ID_1724662968" MODIFIED="1619026685598" TEXT="Interview at a company and you make champion look good">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1619026671153" ID="ID_86931980" MODIFIED="1619026686478" TEXT="Hope that decision maker listen to champion">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1619026695465" ID="ID_424999709" MODIFIED="1619026700528" TEXT="Done">
+<icon BUILTIN="full-6"/>
+</node>
+<node CREATED="1619026607497" ID="ID_1315985848" MODIFIED="1619026613797" TEXT="Throw a bunch of stuff at the wall"/>
+<node CREATED="1619026614143" ID="ID_127513728" MODIFIED="1619026617981" TEXT="... see if it sticks"/>
+</node>
+<node CREATED="1619026737921" ID="ID_64399386" MODIFIED="1619026738480" TEXT="The Non-Ludicrous Marketing Plan in Detail">
+<node CREATED="1619026745472" ID="ID_1507537913" MODIFIED="1619026763910" TEXT="Create content that decision-makers and buyers appreciate">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1619026764709" ID="ID_762329542" MODIFIED="1619026772157" TEXT="Non trivial to get attention of ">
+<node CREATED="1619026772569" ID="ID_1672372515" MODIFIED="1619026774053" TEXT="dev managers"/>
+<node CREATED="1619026774400" ID="ID_1412149879" MODIFIED="1619026775477" TEXT="CIO"/>
+</node>
+<node CREATED="1619026777545" ID="ID_1807053473" MODIFIED="1619026784700" TEXT="... and figure out what&apos;s interesting for them"/>
+</node>
+</node>
+<node CREATED="1619026805704" ID="ID_1583648149" MODIFIED="1619026910756" POSITION="right" TEXT="Developers Will Rarely Matter in Your Sales">
+<icon BUILTIN="full-3"/>
+<node CREATED="1619026851449" ID="ID_1082773996" MODIFIED="1619026855343" TEXT="Consultant process">
+<node CREATED="1619026855617" ID="ID_394956111" MODIFIED="1619026857605" TEXT="Buyers"/>
+<node CREATED="1619026857992" ID="ID_1228611299" MODIFIED="1619026860381" TEXT="decision-makers"/>
+<node CREATED="1619026860809" ID="ID_1284425461" MODIFIED="1619026865749" TEXT="bureaucrats"/>
+<node CREATED="1619026866320" ID="ID_591586084" MODIFIED="1619026870108" TEXT="... only blockers">
+<node CREATED="1619026870288" ID="ID_180854285" MODIFIED="1619026873068" TEXT="Developers"/>
+</node>
+</node>
+<node CREATED="1619026875512" ID="ID_1703993314" MODIFIED="1619026882732" TEXT="... but brought me in anyway"/>
+<node CREATED="1619026890048" ID="ID_1906270502" MODIFIED="1619026899348" TEXT="Developer stop functional as meaningful influencer"/>
+</node>
+<node CREATED="1619026901687" ID="ID_635487128" MODIFIED="1619026911902" POSITION="right" TEXT="Stop doing the easy thing">
+<icon BUILTIN="full-4"/>
+<node CREATED="1619026935872" ID="ID_1775704920" MODIFIED="1619026939092" TEXT="Speaking to peers is">
+<node CREATED="1619026939264" ID="ID_961771442" MODIFIED="1619026940012" TEXT="easy"/>
+<node CREATED="1619026940336" ID="ID_652180978" MODIFIED="1619026942060" TEXT="comfortable"/>
+<node CREATED="1619026942464" ID="ID_208167316" MODIFIED="1619026944388" TEXT="familiar"/>
+</node>
+</node>
+</node>
+</map>
