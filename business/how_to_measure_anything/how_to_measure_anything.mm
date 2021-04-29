@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1534771139116" ID="ID_305672683" MODIFIED="1618035136513" TEXT="How to measure anything">
+<node CREATED="1534771139116" ID="ID_305672683" MODIFIED="1619609981494" TEXT="How to measure anything">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -68,7 +68,8 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1535133689237" ID="ID_32060867" MODIFIED="1556365405327" POSITION="right" TEXT="Measurement: the Solution Exists">
 <icon BUILTIN="full-1"/>
 <node CREATED="1534771179999" ID="ID_1515877894" MODIFIED="1618034382221" TEXT="Intangibles and the Challenge">
@@ -419,8 +420,7 @@
       The lack of complete certainty, that is, the existence of <b>more than one possibility</b>.<br />The true outcome/state/result/value is unknown.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1535134816214" ID="ID_1019534258" MODIFIED="1535135060181" TEXT="Measurement of Uncertainty">
 <richcontent TYPE="NOTE"><html>
@@ -504,7 +504,7 @@
 <node CREATED="1535292923066" ID="ID_642839278" MODIFIED="1535292925313" TEXT="Solution">
 <node CREATED="1535292925507" ID="ID_454764426" MODIFIED="1535292934961" TEXT="Remove personal estimating biases"/>
 <node CREATED="1535292974804" ID="ID_1317303228" MODIFIED="1618035547193" TEXT="General skill which can be taught"/>
-<node CREATED="1535292996387" FOLDED="true" ID="ID_1846251963" MODIFIED="1618038230279" TEXT="Calibration exercise">
+<node CREATED="1535292996387" FOLDED="true" ID="ID_1846251963" MODIFIED="1619609981505" TEXT="Calibration exercise">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -532,8 +532,7 @@
   <body>
     <img src="spin_to_win.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1535296757707" ID="ID_564683729" MODIFIED="1618038174019" TEXT="If you choose">

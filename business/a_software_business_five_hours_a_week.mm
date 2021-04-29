@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1535716048358" ID="ID_938706386" LINK="https://www.kalzumeus.com/2010/03/20/running-a-software-business-on-5-hours-a-week/" MODIFIED="1616251272506" TEXT="A software business five hours a week">
+<node CREATED="1535716048358" ID="ID_938706386" LINK="https://www.kalzumeus.com/2010/03/20/running-a-software-business-on-5-hours-a-week/" MODIFIED="1619611739308" TEXT="A software business five hours a week">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -108,7 +108,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1535716596731" FOLDED="true" ID="ID_209280272" MODIFIED="1574145228385" POSITION="right" TEXT="Code">
+<node CREATED="1535716596731" ID="ID_209280272" MODIFIED="1574145228385" POSITION="right" TEXT="Code">
 <icon BUILTIN="full-2"/>
 <node CREATED="1535716599091" ID="ID_132252172" MODIFIED="1535716603511" TEXT="10% of a business"/>
 <node CREATED="1535716604275" FOLDED="true" ID="ID_738973726" MODIFIED="1566709555884" TEXT="The rest?">
@@ -163,12 +163,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1535785454919" FOLDED="true" ID="ID_28381897" MODIFIED="1566709622860" POSITION="right" TEXT="Pick your problem well">
+<node CREATED="1535785454919" ID="ID_28381897" MODIFIED="1566709622860" POSITION="right" TEXT="Pick your problem well">
 <icon BUILTIN="full-4"/>
-<node CREATED="1535785464659" FOLDED="true" ID="ID_886398768" MODIFIED="1566709594725" TEXT="You should know">
+<node CREATED="1535785464659" ID="ID_886398768" MODIFIED="1566709594725" TEXT="You should know">
 <node CREATED="1535785468118" ID="ID_1542568413" MODIFIED="1535785502742" TEXT="Your strength"/>
 <node CREATED="1535785475518" ID="ID_394122509" MODIFIED="1535785500332" TEXT="Your constraints"/>
-<node CREATED="1535785520336" ID="ID_1223360050" MODIFIED="1535785526317" TEXT="Example">
+<node CREATED="1535785520336" ID="ID_1223360050" MODIFIED="1619611758725" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1535785526705" ID="ID_1304402942" MODIFIED="1535785531085" TEXT="Working full time"/>
 <node CREATED="1535785531416" ID="ID_1865360309" MODIFIED="1559280919189" TEXT="... no possibility to call customer during day"/>
 <node CREATED="1535785540328" ID="ID_212251585" MODIFIED="1535785542846" TEXT="B2B sales"/>

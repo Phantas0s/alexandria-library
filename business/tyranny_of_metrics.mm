@@ -31,7 +31,9 @@
 <node CREATED="1596305192626" ID="ID_1920273064" MODIFIED="1596305198398" TEXT="... you see the progress / trend"/>
 <node CREATED="1596305198562" ID="ID_1182887176" MODIFIED="1596305204302" TEXT="Less hard"/>
 <node CREATED="1596305204682" ID="ID_1946029761" MODIFIED="1596305210261" TEXT="... because you see the progression"/>
-<node CREATED="1596305214490" ID="ID_422898093" MODIFIED="1596305224134" TEXT="Need to measure your progress"/>
+<node CREATED="1596305214490" ID="ID_422898093" MODIFIED="1619609793907" TEXT="Need to measure your progress">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node CREATED="1596305254457" ID="ID_377731831" MODIFIED="1596305875823" POSITION="left" TEXT="So easy to measure things">
 <icon BUILTIN="full-4"/>
