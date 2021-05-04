@@ -1,0 +1,1187 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Informational Interview</title>
+<style type="text/css">
+    li { list-style: none;  margin: 0; }
+    p { margin: 0; }
+    span.foldopened { color: white; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: visible;
+    cursor:pointer; }
+
+
+    span.foldclosed { color: #666666; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: hidden;
+    cursor:pointer; }
+
+    span.foldspecial { color: #666666; font-size: xx-small; border-style: none solid solid none;
+    border-color: #CCCCCC; border-width: 1; font-family: sans-serif; padding: 0em 0.1em 0em 0.1em; background: #e0e0e0;
+    cursor:pointer; }
+
+    span.l { color: red; font-weight: bold; }
+
+    a.mapnode:link {text-decoration: none; color: black; }
+    a.mapnode:visited {text-decoration: none; color: black; }
+    a.mapnode:active {text-decoration: none; color: black; }
+    a.mapnode:hover {text-decoration: none; color: black; background: #eeeee0; }
+
+</style>
+<!-- ^ Position is not set to relative / absolute here because of Mozilla -->
+</head>
+<body>
+
+<script type="text/javascript">
+   // Here we implement folding. It works fine with MSIE5.5, MSIE6.0 and
+   // Mozilla 0.9.6.
+
+   if (document.layers) {
+      //Netscape 4 specific code
+      pre = 'document.';
+      post = ''; }
+   if (document.getElementById) {
+      //Netscape 6 specific code
+      pre = 'document.getElementById("';
+      post = '").style'; }
+   if (document.all) {
+      //IE4+ specific code
+      pre = 'document.all.';
+      post = '.style'; }
+
+function layer_exists(layer) {
+   try {
+      eval(pre + layer + post);
+      return true; }
+   catch (error) {
+      return false; }}
+
+function show_layer(layer) {
+   eval(pre + layer + post).position = 'relative'; 
+   eval(pre + layer + post).visibility = 'visible'; }
+
+function hide_layer(layer) {
+   eval(pre + layer + post).visibility = 'hidden';
+   eval(pre + layer + post).position = 'absolute'; }
+
+function hide_folder(folder) {
+    hide_folding_layer(folder)
+    show_layer('show'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function show_folder(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_layer('show'+folder+'_'+i); }
+}
+function show_folder_completely(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+
+
+function hide_folding_layer(folder) {
+   var i;
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folding_layer(folder+'_'+i); }
+
+   hide_layer('hide'+folder);
+   hide_layer('show'+folder);
+   hide_layer('fold'+folder);
+
+   scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function fold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folder(folder+'_'+i); }
+}
+
+function unfold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+</script>
+<SPAN class="foldspecial" onclick="fold_document()">All +</SPAN>
+<SPAN class="foldspecial" onclick="unfold_document()">All -</SPAN>
+<p><a href="https://app.pluralsight.com/course-player?clipId=923fef0d-b68c-4984-8317-c995ed9cf43d" target="_blank"><span class=l>~</span>&nbsp;Informational Interview
+</a>
+<ul><li>Course Overview
+
+</li>
+<li>Before the informational Interview
+<ul><li><span id="show1_1" class="foldclosed" onClick="show_folder('1_1')" style="POSITION: absolute">+</span> <span id="hide1_1" class="foldopened" onClick="hide_folder('1_1')">-</span>
+Introduction to informational interviews
+<ul id="fold1_1" style="POSITION: relative; VISIBILITY: visible;"><li>Goal
+<ul><li>Grow business
+
+</li>
+<li>Find opportunities
+
+</li>
+<li>Create opportunities
+
+</li>
+<li>#1 job search tactic
+
+</li>
+<li>Want or need more
+
+</li>
+
+</ul>
+</li>
+<li>Most effective way to network
+
+</li>
+<li>More of a conversation
+
+</li>
+<li>... happens between
+<ul><li>peers
+
+</li>
+<li>colleagues
+
+</li>
+
+</ul>
+</li>
+<li>... to grow your network
+
+</li>
+<li>... nurture relationships
+
+</li>
+<li>... and share your brand
+
+</li>
+<li>Okay if different
+<ul><li>position
+
+</li>
+<li>job title
+
+</li>
+<li>experience
+
+</li>
+
+</ul>
+</li>
+<li>Four objectives
+<ul><li>Gather information
+
+</li>
+<li>Brand yourself
+
+</li>
+<li>Develop relationship
+
+</li>
+<li>Get referrals
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_2" class="foldclosed" onClick="show_folder('1_2')" style="POSITION: absolute">+</span> <span id="hide1_2" class="foldopened" onClick="hide_folder('1_2')">-</span>
+Determining who to meet with
+<ul id="fold1_2" style="POSITION: relative; VISIBILITY: visible;"><li>Your space
+<ul><li>Industry
+
+</li>
+<li>Profession
+
+</li>
+<li>Target geographies
+
+</li>
+<li>... more narrow it is
+
+</li>
+<li>... more relevant the contacts are
+
+</li>
+
+</ul>
+</li>
+<li>Who to strategically pursue
+<ul><li>Power connectors
+
+</li>
+<li>Industry experts
+<ul><li>Industry specific books
+
+</li>
+<li>Speaking of industry conferences
+
+</li>
+
+</ul>
+</li>
+<li>Potential employers
+
+</li>
+<li>Peers and colleagues
+
+</li>
+<li>Potential direct reports
+
+</li>
+
+</ul>
+</li>
+<li>Be strategic
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_3" class="foldclosed" onClick="show_folder('1_3')" style="POSITION: absolute">+</span> <span id="hide1_3" class="foldopened" onClick="hide_folder('1_3')">-</span>
+Finding people to have informational interview
+<ul id="fold1_3" style="POSITION: relative; VISIBILITY: visible;"><li>Your existing network
+<ul><li>Past colleagues
+
+</li>
+
+</ul>
+</li>
+<li>Expensive databases
+<ul><li>Ask around to get access
+
+</li>
+<li>Library / school
+
+</li>
+
+</ul>
+</li>
+<li>School network
+
+</li>
+<li>Linkedin network
+<ul><li>Research people
+
+</li>
+<li>... and their background
+
+</li>
+
+</ul>
+</li>
+<li>Target companies
+
+</li>
+<li>In-person networking
+<ul><li>User groups
+
+</li>
+<li>Meetup
+
+</li>
+<li>Association
+
+</li>
+<li>Professional meetings
+
+</li>
+
+</ul>
+</li>
+<li>Always be on the lookout for people you should talk with
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_4" class="foldclosed" onClick="show_folder('1_4')" style="POSITION: absolute">+</span> <span id="hide1_4" class="foldopened" onClick="hide_folder('1_4')">-</span>
+Asking for introductions
+<ul id="fold1_4" style="POSITION: relative; VISIBILITY: visible;"><li>Instead of cold contact
+
+</li>
+<li>Don't ask for contact information
+
+</li>
+<li>Ask for an email introduction
+
+</li>
+<li>Reassure that you'll follow up
+
+</li>
+<li>Ask to use their name
+
+</li>
+<li>"... he said I should talk to you"
+
+</li>
+<li>Way more chances that it will work this way!
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_5" class="foldclosed" onClick="show_folder('1_5')" style="POSITION: absolute">+</span> <span id="hide1_5" class="foldopened" onClick="hide_folder('1_5')">-</span>
+Inviting to the informational interview
+<ul id="fold1_5" style="POSITION: relative; VISIBILITY: visible;"><li>Three invitation rules
+<ul><li>Ask for a meeting
+<ul><li>Not an informational interview
+
+</li>
+<li>... has a weird tone
+
+</li>
+
+</ul>
+</li>
+<li>Ask as a peer
+<ul><li>Not as someone desperate
+
+</li>
+
+</ul>
+</li>
+<li>Be concise
+<ul><li>Avoid unnecessary information
+
+</li>
+<li>Write a script to stay on track
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Five elements of an invitation
+<ul><li>Strong subject
+
+</li>
+<li>Put relationship in context
+
+</li>
+<li>What you want: a meeting
+
+</li>
+<li>Call to action
+
+</li>
+<li>Strong branding
+
+</li>
+
+</ul>
+</li>
+<li>Goal: having an email with five goals
+
+</li>
+<li>... while being contact
+
+</li>
+<li>Example
+<ul><li>Strong subject
+<ul><li>"Meeting next week?"
+
+</li>
+
+</ul>
+</li>
+<li>Context
+<ul><li>"Hi, we met at the product meetup last night where susan was speaking"
+
+</li>
+<li>Just enough to put relationship in context
+
+</li>
+
+</ul>
+</li>
+<li>What you want
+<ul><li>"I have a specific question about current industry trends and would like your insight"
+
+</li>
+
+</ul>
+</li>
+<li>Call to action
+<ul><li>"Can we meet on Monday the third at 2pm?"
+
+</li>
+
+</ul>
+</li>
+<li>Strong branding
+<ul><li>"Pluralsight author specializing in soft skills"
+
+</li>
+
+</ul>
+</li>
+<li>Goal: meeting scheduled
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_6" class="foldclosed" onClick="show_folder('1_6')" style="POSITION: absolute">+</span> <span id="hide1_6" class="foldopened" onClick="hide_folder('1_6')">-</span>
+Handling declined invitations
+<ul id="fold1_6" style="POSITION: relative; VISIBILITY: visible;"><li>Wrong mentality
+<ul><li>Take it personally
+
+</li>
+<li>Do they feel too good for me?
+
+</li>
+<li>Am I too bad?
+
+</li>
+
+</ul>
+</li>
+<li>Give benefit of the doubt
+<ul><li>Move on
+
+</li>
+<li>Why: timing or logistics
+
+</li>
+
+</ul>
+</li>
+<li>"Is there a better time to met?"
+
+</li>
+<li>Wait a couple of months
+
+</li>
+<li>Ask for referrals
+
+</li>
+<li>Maintain a positive attitude
+
+</li>
+<li>"No for now" doesn't mean "no forever"
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_7" class="foldclosed" onClick="show_folder('1_7')" style="POSITION: absolute">+</span> <span id="hide1_7" class="foldopened" onClick="hide_folder('1_7')">-</span>
+Research before the meeting
+<ul id="fold1_7" style="POSITION: relative; VISIBILITY: visible;"><li>Prepare smart questions
+
+</li>
+<li>Don't need to know everything about
+<ul><li>person
+
+</li>
+<li>industry
+
+</li>
+
+</ul>
+</li>
+<li>Go to
+<ul><li>company website
+
+</li>
+<li>person linkedin profile
+
+</li>
+
+</ul>
+</li>
+<li>Porter's five forces
+<ul><li>Competitive threats
+
+</li>
+<li>Buyer power
+
+</li>
+<li>Supplier power
+
+</li>
+<li>Threat of substitution
+
+</li>
+<li>Threat of new entry
+
+</li>
+
+</ul>
+</li>
+<li>SWOT analysis
+<ul><li>Strengths
+
+</li>
+<li>Weaknesses
+
+</li>
+<li>Opportunities
+
+</li>
+<li>Threats
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_8" class="foldclosed" onClick="show_folder('1_8')" style="POSITION: absolute">+</span> <span id="hide1_8" class="foldopened" onClick="hide_folder('1_8')">-</span>
+Preparing questions
+<ul id="fold1_8" style="POSITION: relative; VISIBILITY: visible;"><li>Goal
+<ul><li>Show interest
+
+</li>
+<li>Show passion
+
+</li>
+<li>Show expertise
+
+</li>
+
+</ul>
+</li>
+<li>No canned questions
+<ul><li>The ones found on website
+
+</li>
+<li>... not design to meet your objective
+
+</li>
+
+</ul>
+</li>
+<li>Have a conversation
+<ul><li>Bounce on their answer
+
+</li>
+
+</ul>
+</li>
+<li>Avoid personal skill assessment
+
+</li>
+<li>No arguing
+
+</li>
+<li>No debate
+
+</li>
+<li>If you show you won't listen
+
+</li>
+<li>... they won't recommend you to your network
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_9" class="foldclosed" onClick="show_folder('1_9')" style="POSITION: absolute">+</span> <span id="hide1_9" class="foldopened" onClick="hide_folder('1_9')">-</span>
+Example questions
+<ul id="fold1_9" style="POSITION: relative; VISIBILITY: visible;"><li>Where do you see this industry or professions going in the next few year?
+
+</li>
+<li>What changes have you seen in the course of your career so far?
+
+</li>
+<li>What are the hard to find skills that this industry (or your company) is looking for?
+
+</li>
+<li>Would you choose this field if you had to do it over again?
+
+</li>
+<li>What are the biggest tech changes influencing the industry?
+
+</li>
+<li>What are the biggest challenges facing your company and industry?
+
+</li>
+<li>How do you keep up with developments in your field or industry?
+
+</li>
+<li>Who are the biggest thinkers in this space right now?
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_10" class="foldclosed" onClick="show_folder('1_10')" style="POSITION: absolute">+</span> <span id="hide1_10" class="foldopened" onClick="hide_folder('1_10')">-</span>
+Preparing the agenda
+<ul id="fold1_10" style="POSITION: relative; VISIBILITY: visible;"><li>You asked for it so you need to run it
+
+</li>
+<li><a href="#ID_519891587" target="_blank"><span class=l>~</span>&nbsp;Remember the four objectives
+</a>
+
+</li>
+<li>Even if the other speak all the time
+
+</li>
+<li>... it's still your meeting
+
+</li>
+<li>Steps
+<ul><li>Introduction
+<ul><li>Short
+
+</li>
+<li>20min is quick
+
+</li>
+<li>Don't go into subject which doesn't serve objectives
+
+</li>
+
+</ul>
+</li>
+<li>Questions
+<ul><li>Have conversation
+
+</li>
+<li>... around answers
+
+</li>
+
+</ul>
+</li>
+<li>Wrap
+<ul><li>Always ask for introduction
+
+</li>
+<li>... and let them think
+<ul><li>One of most important part
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Be flexible with agenda
+<ul><li>It can go totally differently
+
+</li>
+<li>Objectives are the most important
+
+</li>
+<li>... not the list of question
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_11" class="foldclosed" onClick="show_folder('1_11')" style="POSITION: absolute">+</span> <span id="hide1_11" class="foldopened" onClick="hide_folder('1_11')">-</span>
+Logistics for meeting success
+<ul id="fold1_11" style="POSITION: relative; VISIBILITY: visible;"><li>If in person
+<ul><li>Where will you meet?
+
+</li>
+<li>How will you get there?
+
+</li>
+<li>How will you park?
+
+</li>
+<li>15-20min early
+
+</li>
+
+</ul>
+</li>
+<li>Virtually
+<ul><li>Software
+
+</li>
+<li>Microphone
+
+</li>
+<li>Camera
+
+</li>
+
+</ul>
+</li>
+<li>Other logistics
+<ul><li>Communication
+<ul><li>Exchange mobile numbers
+
+</li>
+<li>... in case something goes wrong
+
+</li>
+
+</ul>
+</li>
+<li>Clothing
+<ul><li>Dress one level up
+
+</li>
+<li>... from the dress standard
+
+</li>
+<li>Don't show up in shirt!
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_12" class="foldclosed" onClick="show_folder('1_12')" style="POSITION: absolute">+</span> <span id="hide1_12" class="foldopened" onClick="hide_folder('1_12')">-</span>
+Book recommendations
+<ul id="fold1_12" style="POSITION: relative; VISIBILITY: visible;"><li>Never eat alone
+
+</li>
+<li>Dig your well before you're thirsty
+
+</li>
+<li>How to win friends and influence people
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>During the informational interview
+<ul><li><span id="show1_13" class="foldclosed" onClick="show_folder('1_13')" style="POSITION: absolute">+</span> <span id="hide1_13" class="foldopened" onClick="hide_folder('1_13')">-</span>
+Your introduction and first impression
+<ul id="fold1_13" style="POSITION: relative; VISIBILITY: visible;"><li>Okay to be nervous
+
+</li>
+<li>Preparation raises your confidence
+
+</li>
+<li>If you are nervous you perform better
+
+</li>
+<li>If you weren't you would be sloppy
+
+</li>
+<li>Meeting won't have horrible consequences
+
+</li>
+<li>... don't have anything to lose
+
+</li>
+<li>Advice
+
+</li>
+<li>Introduction
+<ul><li>Come with a smile
+<ul><li>Mind in the right place
+
+</li>
+<li>Better attitude
+
+</li>
+
+</ul>
+</li>
+<li>Great with a good handshake
+<ul><li>Mirror the strength of the other person
+
+</li>
+<li>Don't have a dead fish handshake
+
+</li>
+<li>Thank for meeting
+
+</li>
+<li>... than transition
+
+</li>
+
+</ul>
+</li>
+<li>Speak clearly
+
+</li>
+<li>Repeat your name
+<ul><li>Stand out
+
+</li>
+<li>Make yourself remember
+
+</li>
+
+</ul>
+</li>
+<li>Say their name often
+<ul><li>Power in other's names
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Don't give your resume!
+<ul><li>Professionals exchange business cards
+
+</li>
+<li>You're not needy
+
+</li>
+<li>Don't put yourself lower
+
+</li>
+<li>You can give it later
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_14" class="foldclosed" onClick="show_folder('1_14')" style="POSITION: absolute">+</span> <span id="hide1_14" class="foldopened" onClick="hide_folder('1_14')">-</span>
+Questions and the conversation
+<ul id="fold1_14" style="POSITION: relative; VISIBILITY: visible;"><li>Tips for better conversations
+<ul><li>Take notes during meeting
+<ul><li>Tell them
+
+</li>
+<li>Flattering
+
+</li>
+<li>Shouldn't be a distraction
+
+</li>
+
+</ul>
+</li>
+<li>Quality shows purpose
+<ul><li>Shouldn't be a google search
+
+</li>
+<li>... going on for 5 minutes
+
+</li>
+
+</ul>
+</li>
+<li>Be flexible with the agenda
+
+</li>
+<li>Use questions to guide agenda
+
+</li>
+<li>Look at the other person
+
+</li>
+<li>Comment on their responses
+<ul><li>"it's very interesting"
+
+</li>
+<li>"I didn't think about it that way"
+
+</li>
+<li>Create a dialog
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_15" class="foldclosed" onClick="show_folder('1_15')" style="POSITION: absolute">+</span> <span id="hide1_15" class="foldopened" onClick="hide_folder('1_15')">-</span>
+Enhancing your brand 
+<ul id="fold1_15" style="POSITION: relative; VISIBILITY: visible;"><li>Your have a personal brand
+<ul><li>How other perceive you
+
+</li>
+<li>You have one
+<ul><li>intentional
+
+</li>
+<li>not intentional
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Great opportunities to change perceptions
+
+</li>
+<li>Every communication impacts perception
+
+</li>
+<li>Dress up formal
+
+</li>
+<li>Questions
+<ul><li>Good
+
+</li>
+<li>Strong
+
+</li>
+<li>Smart questions
+
+</li>
+
+</ul>
+</li>
+<li>Have a decent conversation
+
+</li>
+<li>Watch your body language
+<ul><li>Be purposeful
+
+</li>
+<li>Assure you're fully present
+
+</li>
+
+</ul>
+</li>
+<li>Be aware and intentional about your brand
+
+</li>
+<li>Don't accept your inherited brand due to
+<ul><li>title
+
+</li>
+<li>position
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_16" class="foldclosed" onClick="show_folder('1_16')" style="POSITION: absolute">+</span> <span id="hide1_16" class="foldopened" onClick="hide_folder('1_16')">-</span>
+When things go wrong
+<ul id="fold1_16" style="POSITION: relative; VISIBILITY: visible;"><li>Introduction get out of hand
+
+</li>
+<li>... or everything goes wrong
+
+</li>
+<li>Adjusting
+<ul><li>Be amiable
+
+</li>
+<li>Schedule another meeting
+
+</li>
+<li>End the meeting on time
+
+</li>
+<li>Get back into the conversation
+
+</li>
+<li>Ask for another meeting
+
+</li>
+
+</ul>
+</li>
+<li>Missed meetings
+<ul><li>Communicate as soon as you can
+
+</li>
+<li>Apologize
+
+</li>
+<li>Ask for specifics day / time
+
+</li>
+<li>If somebody miss
+<ul><li>be gracious
+
+</li>
+<li>be forgiving
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Don't lose your cool
+
+</li>
+<li>Be forgiving to
+<ul><li>yourself
+
+</li>
+<li>the others
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_17" class="foldclosed" onClick="show_folder('1_17')" style="POSITION: absolute">+</span> <span id="hide1_17" class="foldopened" onClick="hide_folder('1_17')">-</span>
+Wrapping up the informational interview
+<ul id="fold1_17" style="POSITION: relative; VISIBILITY: visible;"><li>Question
+<ul><li>"I want to respect your time
+
+</li>
+<li>... and see we're coming up to the 20 minutes I asked for"
+
+</li>
+<li>"In the last few minutes, we have together,
+
+</li>
+<li>.., I wonder if you can think of anyone
+
+</li>
+<li>... I should talk to about these things?"
+
+</li>
+
+</ul>
+</li>
+<li>Give them time to think about it
+<ul><li>Wait for the answer
+
+</li>
+<li>Then ask:
+<ul><li>Would you feel comfortable
+
+</li>
+<li>... making an email introduction
+
+</li>
+<li>... to that person for me?"
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Deliver Resume Later
+<ul><li>Leave meeting as peer of colleague
+
+</li>
+<li>Don't give resume know
+
+</li>
+<li>If they ask for
+<ul><li>"I don't have it
+
+</li>
+<li>... but I'd be happy to send one"
+
+</li>
+<li>Show you were there for the conversation
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>The value bring
+<ul><li>Your connections
+
+</li>
+<li>"There's someone I think you should meet"
+
+</li>
+<li>"They can be a valuable connection"
+
+</li>
+<li>"I'll introduce them to you"
+
+</li>
+
+</ul>
+</li>
+<li>Express
+<ul><li>Gratitude
+
+</li>
+<li>Time spent
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Have fun!
+
+</li>
+
+</ul>
+</li>
+<li>After the informational interview
+<ul><li>Your introduction and first impression
+
+</li>
+
+</ul>
+</li>
+
+</ul><SCRIPT type="text/javascript">
+fold_document();
+</SCRIPT>
+</body>
+</html>
