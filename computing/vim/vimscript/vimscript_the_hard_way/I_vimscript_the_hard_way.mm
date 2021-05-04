@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1616409632136" TEXT="Vimscript the Hard Way">
+<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1620118370208" TEXT="Vimscript the Hard Way">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -107,7 +107,7 @@
 </node>
 <node CREATED="1587648574089" ID="ID_1508338107" MODIFIED="1587648578393" TEXT="2.6 Exercises"/>
 </node>
-<node CREATED="1587648241143" FOLDED="true" ID="ID_1421593120" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/03.html" MODIFIED="1587999447121" POSITION="right" TEXT="Basic Mapping">
+<node CREATED="1587648241143" ID="ID_1421593120" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/03.html" MODIFIED="1587999447121" POSITION="right" TEXT="Basic Mapping">
 <icon BUILTIN="full-3"/>
 <node CREATED="1587648349003" FOLDED="true" ID="ID_1364634343" MODIFIED="1587995220336" TEXT="Introduction">
 <node CREATED="1587648316618" ID="ID_148735514" MODIFIED="1587648875592" STYLE="fork" TEXT=":map">
@@ -123,7 +123,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1587648356199" FOLDED="true" ID="ID_1188425878" MODIFIED="1587995220337" TEXT="3.1 Special Characters">
+<node CREATED="1587648356199" ID="ID_1188425878" MODIFIED="1587995220337" TEXT="3.1 Special Characters">
 <node CREATED="1587648370677" ID="ID_365043023" MODIFIED="1587648377726" TEXT="Use &lt;keyname&gt; for special key"/>
 <node CREATED="1587648378386" ID="ID_942884748" MODIFIED="1587648390665" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -135,7 +135,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587648437785" FOLDED="true" ID="ID_418428501" MODIFIED="1587995220338" TEXT="3.2 Commenting">
+<node CREATED="1587648437785" ID="ID_418428501" MODIFIED="1587995220338" TEXT="3.2 Commenting">
 <node CREATED="1587648456718" ID="ID_1627401616" MODIFIED="1587648463779" TEXT="Comment &quot; don&apos;t work while mapping"/>
 <node CREATED="1587648464719" ID="ID_173953107" MODIFIED="1587648483789" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -221,7 +221,7 @@
 <node CREATED="1587719711983" ID="ID_1217794986" MODIFIED="1587719717357" TEXT="... it will execute &quot;dd&quot;"/>
 </node>
 </node>
-<node CREATED="1587719754584" FOLDED="true" ID="ID_334680407" MODIFIED="1587995216536" TEXT="5.1 Recursion">
+<node CREATED="1587719754584" ID="ID_334680407" MODIFIED="1587995216536" TEXT="5.1 Recursion">
 <node CREATED="1587719806870" ID="ID_830161463" MODIFIED="1587719865582" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1587719814038" ID="ID_785835482" MODIFIED="1587719818188" TEXT=":nmap dd O&lt;esc&gt;jddk ">
@@ -230,11 +230,11 @@
 </node>
 <node CREATED="1587719855721" ID="ID_47622770" MODIFIED="1587719860182" TEXT="... create infinite recursion!"/>
 </node>
-<node CREATED="1587719872458" FOLDED="true" ID="ID_155610730" MODIFIED="1587995216536" TEXT="5.2 Side Effects">
+<node CREATED="1587719872458" ID="ID_155610730" MODIFIED="1587995216536" TEXT="5.2 Side Effects">
 <node CREATED="1587719910096" ID="ID_1440186054" MODIFIED="1587719914785" TEXT="Behavior or maps can change"/>
 <node CREATED="1587719915277" ID="ID_992104177" MODIFIED="1587719944944" TEXT="... when installing plugin which use same keystrokes"/>
 </node>
-<node CREATED="1587719950055" FOLDED="true" ID="ID_860770353" MODIFIED="1587995216536" TEXT="5.3 Nonrecursive Mapping">
+<node CREATED="1587719950055" ID="ID_860770353" MODIFIED="1587995216536" TEXT="5.3 Nonrecursive Mapping">
 <node CREATED="1587719976712" ID="ID_95670810" MODIFIED="1587719990923" TEXT=":&lt;mode&gt;noremap">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -257,7 +257,7 @@
 </node>
 <node CREATED="1587720333149" FOLDED="true" ID="ID_1834247278" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/06.html" MODIFIED="1587999447121" POSITION="right" TEXT="Leaders">
 <icon BUILTIN="full-6"/>
-<node CREATED="1587720415700" FOLDED="true" ID="ID_1683620655" MODIFIED="1587995214677" TEXT="Introduction">
+<node CREATED="1587720415700" ID="ID_1683620655" MODIFIED="1587995214677" TEXT="Introduction">
 <node CREATED="1587720418646" ID="ID_1410508679" MODIFIED="1587720422124" TEXT="Create prefix keys"/>
 <node CREATED="1587720422735" ID="ID_1292061273" MODIFIED="1587720433222" TEXT="... with keys you don&apos;t care about alone"/>
 <node CREATED="1587720428274" ID="ID_873793906" MODIFIED="1587720447059" TEXT="Example">
@@ -270,14 +270,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1587720545453" FOLDED="true" ID="ID_967869805" MODIFIED="1587995214677" TEXT="6.2 Leader">
+<node CREATED="1587720545453" ID="ID_967869805" MODIFIED="1587995214677" TEXT="6.2 Leader">
 <node CREATED="1587720563180" ID="ID_1784817391" MODIFIED="1587720572245" TEXT="Vim call &quot;prefix&quot; key the &quot;leader&quot;">
 <node CREATED="1587720740433" ID="ID_403122920" MODIFIED="1587720743389" TEXT="&lt;leader&gt;">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node CREATED="1587720818447" FOLDED="true" ID="ID_1335510435" MODIFIED="1587995214678" TEXT="6.3 Local Leader">
+<node CREATED="1587720818447" ID="ID_1335510435" MODIFIED="1587995214678" TEXT="6.3 Local Leader">
 <node CREATED="1587720833795" ID="ID_1226957710" MODIFIED="1587720843688" TEXT="Prefix key only for precise type of file">
 <node CREATED="1587720843902" ID="ID_343310217" MODIFIED="1587720868084" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -412,10 +412,10 @@
 </node>
 <node CREATED="1587728534144" ID="ID_153653002" MODIFIED="1587728537736" TEXT="10.2 Exercises"/>
 </node>
-<node CREATED="1587728538695" FOLDED="true" ID="ID_139679684" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/11.html" MODIFIED="1587999447122" POSITION="right" TEXT="Buffer-Local Options and Mappings">
+<node CREATED="1587728538695" ID="ID_139679684" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/11.html" MODIFIED="1587999447122" POSITION="right" TEXT="Buffer-Local Options and Mappings">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>
-<node CREATED="1587728694797" FOLDED="true" ID="ID_1066036249" MODIFIED="1587995202647" TEXT="11.1 Mappings">
+<node CREATED="1587728694797" ID="ID_1066036249" MODIFIED="1587995202647" TEXT="11.1 Mappings">
 <node CREATED="1587728638764" ID="ID_1886415240" MODIFIED="1587728946703" TEXT="Only map in local buffer">
 <node CREATED="1587728632852" ID="ID_468083393" MODIFIED="1587728637971" TEXT="&lt;buffer&gt;">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -2516,7 +2516,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588334815715" ID="ID_210363499" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/48.html" MODIFIED="1588334822140" POSITION="left" TEXT="Basic Folding">
+<node CREATED="1588334815715" FOLDED="true" ID="ID_210363499" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/48.html" MODIFIED="1588334822140" POSITION="left" TEXT="Basic Folding">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-8"/>
 <node CREATED="1588335266873" ID="ID_504613476" MODIFIED="1588335273240" TEXT="48.1 Types of Folding">
