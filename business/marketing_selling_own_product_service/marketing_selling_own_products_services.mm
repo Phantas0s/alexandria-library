@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1619697450682" ID="ID_1291623452" LINK="https://app.pluralsight.com/course-player?clipId=66532c10-3d72-486c-bc37-5086cf2076fb" MODIFIED="1619709919062" TEXT="Marketing and selling your own product and service">
+<node CREATED="1619697450682" ID="ID_1291623452" LINK="https://app.pluralsight.com/course-player?clipId=66532c10-3d72-486c-bc37-5086cf2076fb" MODIFIED="1620216437887" TEXT="Marketing and selling your own product and service">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -30,7 +30,7 @@
 </node>
 <node CREATED="1619697499684" ID="ID_951670086" MODIFIED="1619697861258" POSITION="right" TEXT="Marketing concepts">
 <icon BUILTIN="full-1"/>
-<node CREATED="1619698140968" FOLDED="true" ID="ID_243291652" MODIFIED="1619700696820" TEXT="Organizational function">
+<node CREATED="1619698140968" ID="ID_243291652" MODIFIED="1619700696820" TEXT="Organizational function">
 <icon BUILTIN="full-1"/>
 <node CREATED="1619698145879" ID="ID_831193509" MODIFIED="1619698148691" TEXT="Marketing">
 <node CREATED="1619698165640" ID="ID_1950805225" MODIFIED="1619698168300" TEXT="How bis is our market?"/>
@@ -150,8 +150,7 @@
   <body>
     <img src="swot_analysis.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
