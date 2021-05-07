@@ -1,0 +1,558 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1620404261209" ID="ID_1749212691" MODIFIED="1620404291811" TEXT="Crossing the river by feeling the stones">
+<node CREATED="1620404977382" ID="ID_53246077" MODIFIED="1620414711749" POSITION="right" TEXT="Strategy">
+<icon BUILTIN="full-1"/>
+<node CREATED="1620404320520" ID="ID_295865021" MODIFIED="1620404322716" TEXT="Blahs">
+<node CREATED="1620404322897" ID="ID_1108871768" MODIFIED="1620404329700" TEXT="Recorded CEO speaking"/>
+<node CREATED="1620404330152" ID="ID_841888281" MODIFIED="1620404392299" TEXT="Common blahs">
+<node CREATED="1620404334295" ID="ID_1270909965" MODIFIED="1620404337276" TEXT="Difital business"/>
+<node CREATED="1620404337624" ID="ID_1595519532" MODIFIED="1620404339268" TEXT="Big data"/>
+<node CREATED="1620404339583" ID="ID_1179383929" MODIFIED="1620404341979" TEXT="Disruptive"/>
+<node CREATED="1620404342303" ID="ID_1523952136" MODIFIED="1620404344267" TEXT="Innovative"/>
+<node CREATED="1620404344679" ID="ID_278933825" MODIFIED="1620404347925" TEXT="Collaborative"/>
+<node CREATED="1620404348256" ID="ID_376576864" MODIFIED="1620404350484" TEXT="Competitive"/>
+<node CREATED="1620404350839" ID="ID_1680593691" MODIFIED="1620404353836" TEXT="Advantage"/>
+<node CREATED="1620404360592" ID="ID_1076191303" MODIFIED="1620404362549" TEXT="ecosystem"/>
+<node CREATED="1620404362863" ID="ID_873367305" MODIFIED="1620404365604" TEXT="serverless"/>
+<node CREATED="1620404365887" ID="ID_1441701537" MODIFIED="1620404367684" TEXT="Machine learning"/>
+<node CREATED="1620404367943" ID="ID_1894043917" MODIFIED="1620404368644" TEXT="AI"/>
+<node CREATED="1620404369056" ID="ID_1696040020" MODIFIED="1620404369563" TEXT="..."/>
+</node>
+<node CREATED="1620404371240" ID="ID_58248147" MODIFIED="1620404375203" TEXT="Blah template">
+<node CREATED="1620404375432" ID="ID_206724974" MODIFIED="1620404379739" TEXT="Our strategy is blah"/>
+<node CREATED="1620404818438" ID="ID_1795798644" MODIFIED="1620404823161" TEXT="We will lead a blah effort"/>
+<node CREATED="1620404823726" ID="ID_1363245716" MODIFIED="1620404829058" TEXT="of the market through"/>
+<node CREATED="1620404830101" ID="ID_1150597141" MODIFIED="1620404837844" TEXT="our use of blah"/>
+<node CREATED="1620404838232" ID="ID_1577472042" MODIFIED="1620404842386" TEXT="to build a blah"/>
+</node>
+</node>
+<node CREATED="1620405107340" ID="ID_812947077" MODIFIED="1620405110393" TEXT="The strategy circle">
+<node CREATED="1620404921157" ID="ID_354905292" MODIFIED="1620404924434" TEXT="The art of war">
+<node CREATED="1620404928606" ID="ID_1226517964" MODIFIED="1620404929938" TEXT="Purpose"/>
+<node CREATED="1620404930268" ID="ID_805476301" MODIFIED="1620404932152" TEXT="Landscape"/>
+<node CREATED="1620404932598" ID="ID_910691795" MODIFIED="1620404934617" TEXT="Climate"/>
+<node CREATED="1620404935054" ID="ID_855695485" MODIFIED="1620404936938" TEXT="Doctrine">
+<node CREATED="1620404939240" ID="ID_1195586227" MODIFIED="1620404942569" TEXT="Universal principle"/>
+</node>
+<node CREATED="1620404943077" ID="ID_1110144492" MODIFIED="1620404945113" TEXT="Leadership"/>
+</node>
+<node CREATED="1620404957549" ID="ID_909112441" MODIFIED="1620404997569" TEXT="John boyd&apos;s hooda loop">
+<node CREATED="1620405004285" ID="ID_1728203048" MODIFIED="1620405010769" TEXT="The &quot;game&quot;">
+<node CREATED="1620405022692" ID="ID_439002817" MODIFIED="1620405023921" TEXT="Purpose"/>
+</node>
+<node CREATED="1620405008685" ID="ID_907226620" MODIFIED="1620405013129" TEXT="Observe">
+<node CREATED="1620405024317" ID="ID_1344289109" MODIFIED="1620405027233" TEXT="Landscape"/>
+<node CREATED="1620405027565" ID="ID_1030168640" MODIFIED="1620405028665" TEXT="Climate"/>
+</node>
+<node CREATED="1620405014653" ID="ID_1377643216" MODIFIED="1620405015969" TEXT="Orient">
+<node CREATED="1620405030964" ID="ID_788043140" MODIFIED="1620405035401" TEXT="Doctrine"/>
+</node>
+<node CREATED="1620405016405" ID="ID_774162481" MODIFIED="1620405017769" TEXT="Decide">
+<node CREATED="1620405036013" ID="ID_128757787" MODIFIED="1620405038336" TEXT="Leadership"/>
+</node>
+<node CREATED="1620405048272" ID="ID_806410241" MODIFIED="1620405049521" TEXT="Act">
+<node CREATED="1620405036013" ID="ID_1204570784" MODIFIED="1620405038336" TEXT="Leadership"/>
+</node>
+</node>
+</node>
+<node CREATED="1620405052383" ID="ID_557804898" MODIFIED="1620405054953" TEXT="Importance of why?">
+<node CREATED="1620405057077" ID="ID_978459789" MODIFIED="1620405059129" TEXT="Two why">
+<node CREATED="1620405059280" ID="ID_1087806131" MODIFIED="1620405062648" TEXT="Why or purpose">
+<node CREATED="1620405080596" ID="ID_205709559" MODIFIED="1620405083319" TEXT="Purpose"/>
+</node>
+<node CREATED="1620405065132" ID="ID_1746996965" MODIFIED="1620405068112" TEXT="Why of movement"/>
+</node>
+</node>
+</node>
+<node CREATED="1620405098197" ID="ID_1729399010" MODIFIED="1620414712550" POSITION="right" TEXT="How to observe the landscape?">
+<icon BUILTIN="full-2"/>
+<node CREATED="1620405102925" ID="ID_321945798" MODIFIED="1620405103696" TEXT="Maps"/>
+<node CREATED="1620405132012" ID="ID_568924803" MODIFIED="1620405136385" TEXT="What would use to navigate?">
+<node CREATED="1620405136595" ID="ID_1438783751" MODIFIED="1620405138416" TEXT="Visual map?"/>
+<node CREATED="1620405139025" ID="ID_342367690" MODIFIED="1620405141464" TEXT="Verbal story?"/>
+<node CREATED="1620405169661" ID="ID_391458062" MODIFIED="1620405170505" TEXT="Maps"/>
+</node>
+<node CREATED="1620405166339" ID="ID_1548332489" MODIFIED="1620405177150" TEXT="What would use for war?">
+<node CREATED="1620405189068" ID="ID_208040625" MODIFIED="1620405189976" TEXT="300">
+<node CREATED="1620405235676" ID="ID_202019779" MODIFIED="1620405243151" TEXT="Imagine we don&apos;t know the landscape"/>
+<node CREATED="1620405243643" ID="ID_112411139" MODIFIED="1620405248775" TEXT="... but we have a WOT diagram"/>
+<node CREATED="1620405325884" FOLDED="true" ID="ID_184093940" MODIFIED="1620405348724" TEXT="Img">
+<icon BUILTIN="licq"/>
+<node CREATED="1620405327588" ID="ID_1719108893" MODIFIED="1620405339782">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./swot_as_map.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1620405381708" ID="ID_64409996" MODIFIED="1620405388422" TEXT="Position and movement">
+<node CREATED="1620405388595" ID="ID_1476238299" MODIFIED="1620405391815" TEXT="a map"/>
+</node>
+<node CREATED="1620405392347" ID="ID_1128854332" MODIFIED="1620405395504" TEXT="Magic framework">
+<node CREATED="1620405395763" ID="ID_902449457" MODIFIED="1620405398055" TEXT="SWOT diagram"/>
+</node>
+<node CREATED="1620405487043" ID="ID_1347553541" MODIFIED="1620405489054" TEXT="... what to use?"/>
+</node>
+<node CREATED="1620405156252" ID="ID_1590128259" MODIFIED="1620405160248" TEXT="What do we use in business?">
+<node CREATED="1620405160468" ID="ID_35532223" MODIFIED="1620405161473" TEXT="Stories"/>
+</node>
+<node CREATED="1620405408858" ID="ID_1796517767" MODIFIED="1620405410230" TEXT="Chess">
+<node CREATED="1620405414203" ID="ID_1200887253" MODIFIED="1620405415736" TEXT="Navigation">
+<node CREATED="1620405410547" ID="ID_614179180" MODIFIED="1620405414047" TEXT="Visual"/>
+</node>
+<node CREATED="1620405419539" ID="ID_548989870" MODIFIED="1620405420475" TEXT="Learning">
+<node CREATED="1620405416371" ID="ID_468536704" MODIFIED="1620405419319" TEXT="Context specific"/>
+</node>
+<node CREATED="1620405424315" ID="ID_1636093504" MODIFIED="1620405427143" TEXT="Strategy">
+<node CREATED="1620405421043" ID="ID_1039090253" MODIFIED="1620405424080" TEXT="Position and movement"/>
+</node>
+<node CREATED="1620405430539" ID="ID_472643667" MODIFIED="1620405438503" TEXT="Situational awareness">
+<node CREATED="1620405428043" ID="ID_988118868" MODIFIED="1620405430304" TEXT="High"/>
+</node>
+<node CREATED="1620405470875" ID="ID_458653198" MODIFIED="1620405474438" TEXT="... a bit like military"/>
+</node>
+<node CREATED="1620405502235" ID="ID_601233819" MODIFIED="1620405505311" TEXT="Alchemy">
+<node CREATED="1620405534739" ID="ID_411765793" MODIFIED="1620405536734" TEXT="Navigation">
+<node CREATED="1620405536939" ID="ID_746505683" MODIFIED="1620405539071" TEXT="Story telling"/>
+</node>
+<node CREATED="1620405556683" ID="ID_365903773" MODIFIED="1620405557767" TEXT="Learning">
+<node CREATED="1620405557971" ID="ID_466679282" MODIFIED="1620405562095" TEXT="Secret of success"/>
+</node>
+<node CREATED="1620405562819" ID="ID_1379507324" MODIFIED="1620405566471" TEXT="Strategy">
+<node CREATED="1620405566939" ID="ID_320610565" MODIFIED="1620405569630" TEXT="Magic frameworks"/>
+</node>
+<node CREATED="1620405570587" ID="ID_568204967" MODIFIED="1620405585295" TEXT="Situational awareness">
+<node CREATED="1620405576387" ID="ID_396466657" MODIFIED="1620405577119" TEXT="low"/>
+</node>
+</node>
+</node>
+<node CREATED="1620405910858" ID="ID_1264444571" MODIFIED="1620414713422" POSITION="right" TEXT="What is a map">
+<icon BUILTIN="full-3"/>
+<node CREATED="1620406107657" ID="ID_142063176" MODIFIED="1620406110532" TEXT="What is a map?">
+<node CREATED="1620405939601" ID="ID_292603391" MODIFIED="1620405941582" TEXT="Component">
+<node CREATED="1620405941761" ID="ID_1435514635" MODIFIED="1620405944109" TEXT="Anchor">
+<node CREATED="1620405975521" ID="ID_425476687" MODIFIED="1620405976676" TEXT="Compass"/>
+</node>
+<node CREATED="1620405946641" ID="ID_1450278121" MODIFIED="1620405950669" TEXT="Position">
+<node CREATED="1620405950849" ID="ID_1999020024" MODIFIED="1620405953349" TEXT="North / east"/>
+<node CREATED="1620405954818" ID="ID_190033338" MODIFIED="1620405955964" TEXT="Thebes"/>
+</node>
+<node CREATED="1620405956602" ID="ID_457876259" MODIFIED="1620405957902" TEXT="Movement">
+<node CREATED="1620405960017" ID="ID_936308522" MODIFIED="1620405967997" TEXT="From thebes to thermopolys"/>
+<node CREATED="1620405968361" ID="ID_646993436" MODIFIED="1620405972438" TEXT="... north east"/>
+</node>
+</node>
+<node CREATED="1620405980856" ID="ID_549377540" MODIFIED="1620405983269" TEXT="Space has meaning"/>
+</node>
+<node CREATED="1620406117684" ID="ID_1579412762" MODIFIED="1620406132255" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1620406014633" ID="ID_499931975" MODIFIED="1620406046414" TEXT="Systems map">
+<node CREATED="1620406017816" ID="ID_1341087384" MODIFIED="1620406022380" TEXT="If you change the position of something"/>
+<node CREATED="1620406022673" ID="ID_668375479" MODIFIED="1620406026101" TEXT="... nothing change"/>
+<node CREATED="1620406026529" ID="ID_1343679317" MODIFIED="1620406032662" TEXT="Space has no meaning"/>
+<node CREATED="1620406033025" ID="ID_132417015" MODIFIED="1620406039373" TEXT="It&apos;s not a map"/>
+<node CREATED="1620406050281" ID="ID_1649190439" MODIFIED="1620406052645" TEXT="... but a diagram"/>
+</node>
+<node CREATED="1620406121449" ID="ID_1795632876" MODIFIED="1620406123012" TEXT="Mindmap">
+<node CREATED="1620406123216" ID="ID_1491295563" MODIFIED="1620406127309" TEXT="Position has no meaning"/>
+<node CREATED="1620406127617" ID="ID_816311865" MODIFIED="1620406129645" TEXT="... so a diagram"/>
+</node>
+<node CREATED="1620406136328" FOLDED="true" ID="ID_1739602543" MODIFIED="1620409080062" TEXT="Add anchor">
+<icon BUILTIN="licq"/>
+<node CREATED="1620406367168" ID="ID_320035369" MODIFIED="1620406376570">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./map_with_anchor.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620409071650" FOLDED="true" ID="ID_452857395" MODIFIED="1620409196245" TEXT="Add movement">
+<icon BUILTIN="licq"/>
+<node CREATED="1620409181873" ID="ID_1016030498" MODIFIED="1620409186634">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./map_with_movement.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1620409220121" ID="ID_699369427" MODIFIED="1620414714341" POSITION="right" TEXT="Why map">
+<icon BUILTIN="full-4"/>
+<node CREATED="1620409226505" ID="ID_176422592" MODIFIED="1620409229357" TEXT="Good for communication">
+<node CREATED="1620409309528" ID="ID_74802168" MODIFIED="1620409314957" TEXT="Many from many disciplines"/>
+<node CREATED="1620409315320" ID="ID_655837197" MODIFIED="1620409318805" TEXT="... can speak about the subject"/>
+<node CREATED="1620409319369" ID="ID_680324874" MODIFIED="1620409322813" TEXT="... on the same map">
+<node CREATED="1620409323185" ID="ID_729213153" MODIFIED="1620409327980" TEXT="Everybody understand map"/>
+</node>
+<node CREATED="1620410376996" FOLDED="true" ID="ID_1807507335" MODIFIED="1620410381924" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620410382604" ID="ID_1679301943" MODIFIED="1620410387908">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./cup_of_tea.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1620410555075" ID="ID_1139997477" MODIFIED="1620410558335" TEXT="Good for wider context">
+<node CREATED="1620410558507" ID="ID_336079272" MODIFIED="1620410565159" TEXT="Can&apos;t bring solution if you&apos;re in your bubble"/>
+<node CREATED="1620410582578" ID="ID_1395418277" MODIFIED="1620410588487" TEXT="Simplifying processes in a system"/>
+</node>
+</node>
+<node CREATED="1620410592170" ID="ID_1650834508" MODIFIED="1620414715663" POSITION="right" TEXT="Climate">
+<icon BUILTIN="full-5"/>
+<node CREATED="1620410593858" ID="ID_442342625" MODIFIED="1620410598261" TEXT="Rules that influence the game"/>
+<node CREATED="1620410605010" ID="ID_975371160" MODIFIED="1620410611990" TEXT="Everything is evolving"/>
+<node CREATED="1620410619915" ID="ID_1374757252" MODIFIED="1620410624743" TEXT="... and create inertia"/>
+<node CREATED="1620410635487" FOLDED="true" ID="ID_1520491413" MODIFIED="1620412499389" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1620410637074" ID="ID_418075010" MODIFIED="1620410639470" TEXT="Blockbuster">
+<node CREATED="1620410666186" ID="ID_86848075" MODIFIED="1620410669542" TEXT="First with website"/>
+<node CREATED="1620410639746" ID="ID_583251616" MODIFIED="1620410677870" TEXT="First with video ordering online"/>
+<node CREATED="1620410643803" ID="ID_1564948353" MODIFIED="1620410682782" TEXT="First with experimenting streaming"/>
+<node CREATED="1620410683842" ID="ID_621730495" MODIFIED="1620410689710" TEXT="First to go brankrupt"/>
+<node CREATED="1620410690073" ID="ID_1601585193" MODIFIED="1620410699894" TEXT="... because of inertia created by previous business model"/>
+</node>
+<node CREATED="1620410662194" ID="ID_96232474" MODIFIED="1620410663758" TEXT="Netflix"/>
+</node>
+<node CREATED="1620412503219" FOLDED="true" ID="ID_29655799" MODIFIED="1620412755464" TEXT="Map example">
+<icon BUILTIN="licq"/>
+<icon BUILTIN="wizard"/>
+<node CREATED="1620412524586" ID="ID_1289649821" MODIFIED="1620412531190">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./climate_map.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620412573313" FOLDED="true" ID="ID_1742919324" MODIFIED="1620412610371" TEXT="Not one methodology fits them all">
+<icon BUILTIN="licq"/>
+<node CREATED="1620412604098" ID="ID_1349962369" MODIFIED="1620412607000">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./no_methodology_fits_them_all.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620412689905" FOLDED="true" ID="ID_104247362" MODIFIED="1620412699084" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620412723586" ID="ID_292470793" MODIFIED="1620412726441">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./climate_map_example.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1620412882257" ID="ID_1250732334" MODIFIED="1620412888252" TEXT="Custom built can&apos;t be contracted"/>
+<node CREATED="1620412888616" ID="ID_1937915717" MODIFIED="1620412892141" TEXT="... because it changes all the time"/>
+</node>
+</node>
+<node CREATED="1620412849448" ID="ID_1160152665" MODIFIED="1620414717094" POSITION="right" TEXT="Learning">
+<icon BUILTIN="full-8"/>
+<node CREATED="1620412975016" ID="ID_92052807" MODIFIED="1620412981029" TEXT="Find patterns in maps"/>
+<node CREATED="1620412982000" ID="ID_146783469" MODIFIED="1620413016276" TEXT="Can use for basic anticipation"/>
+</node>
+<node CREATED="1620413044992" ID="ID_90116250" MODIFIED="1620414718560" POSITION="right" TEXT="Doctrine">
+<icon BUILTIN="full-9"/>
+<node CREATED="1620413051319" ID="ID_1211332574" MODIFIED="1620413061276" TEXT="Universally applicable principle regardless of context"/>
+<node CREATED="1620413084288" ID="ID_691761631" MODIFIED="1620413102782" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1620413085608" ID="ID_1442789443" MODIFIED="1620413086995" TEXT="User needs"/>
+<node CREATED="1620413087839" ID="ID_172515922" MODIFIED="1620413092540" TEXT="Use appropriate methods"/>
+<node CREATED="1620413092905" ID="ID_24335515" MODIFIED="1620413099786" TEXT="Effectiveness over efficiency">
+<node CREATED="1620413131047" ID="ID_180346018" MODIFIED="1620413135187" TEXT="Why building a kettle"/>
+<node CREATED="1620413135504" ID="ID_188435956" MODIFIED="1620413139962" TEXT="... if you want to buy it?"/>
+</node>
+</node>
+<node CREATED="1620413159994" ID="ID_1189546347" MODIFIED="1620413208180" TEXT="Problem in business">
+<icon BUILTIN="licq"/>
+<node CREATED="1620413190895" ID="ID_1720107384" MODIFIED="1620413198957">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./business_case.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1620413209184" ID="ID_177530619" MODIFIED="1620413214394" TEXT="No context whatsoever"/>
+<node CREATED="1620413220975" ID="ID_1712299326" MODIFIED="1620413225539" TEXT="Take decision on that basis"/>
+</node>
+<node CREATED="1620413425678" ID="ID_726185043" MODIFIED="1620413430146" TEXT="You&apos;ve a context with a map"/>
+</node>
+<node CREATED="1620413439861" ID="ID_1307313222" MODIFIED="1620414721636" POSITION="right" TEXT="Act">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-0"/>
+<node CREATED="1620413462741" ID="ID_579346510" MODIFIED="1620413469873" TEXT="Continuisly going back to parse maps"/>
+<node CREATED="1620413487661" ID="ID_1135784936" MODIFIED="1620413490097" TEXT="To refer them"/>
+<node CREATED="1620413490365" ID="ID_377871305" MODIFIED="1620413493609" TEXT="To learn them"/>
+<node CREATED="1620413543813" ID="ID_1660211342" MODIFIED="1620414652097" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1620413545598" ID="ID_1627867376" MODIFIED="1620413548321" TEXT="History of compute"/>
+<node CREATED="1620413549374" FOLDED="true" ID="ID_1337478219" MODIFIED="1620414591043" TEXT="img">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620414342777" ID="ID_1639101547" MODIFIED="1620414386667">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./01_history_compute.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620414327097" FOLDED="true" ID="ID_373661172" MODIFIED="1620414600681" TEXT="img">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620414388850" ID="ID_496498980" MODIFIED="1620414393660">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./02_history_compute.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620414328522" FOLDED="true" ID="ID_1084834235" MODIFIED="1620414603833" TEXT="img">
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620414395393" ID="ID_474476143" MODIFIED="1620414397559">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./03_history_compute.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620414329521" FOLDED="true" ID="ID_283500324" MODIFIED="1620414607465" TEXT="img">
+<icon BUILTIN="full-4"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620414399162" ID="ID_666865542" MODIFIED="1620414401170">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./04_history_compute.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620414330649" FOLDED="true" ID="ID_642505473" MODIFIED="1620414609947" TEXT="img">
+<icon BUILTIN="full-5"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620414446321" ID="ID_585715150" MODIFIED="1620414453686">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./05_history_compute.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620414331955" FOLDED="true" ID="ID_1357959202" MODIFIED="1620414613098" TEXT="img">
+<icon BUILTIN="full-6"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620414454873" ID="ID_618063433" MODIFIED="1620414457101">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./06_history_compute.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620414335049" FOLDED="true" ID="ID_198074324" MODIFIED="1620414616233" TEXT="img">
+<icon BUILTIN="full-7"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620414458433" ID="ID_1957544541" MODIFIED="1620414460905">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./07_history_compute.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620414336218" FOLDED="true" ID="ID_168308637" MODIFIED="1620414623041" TEXT="img">
+<icon BUILTIN="full-8"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620414462665" ID="ID_1972702048" MODIFIED="1620414464353">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./08_history_compute.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620414337209" FOLDED="true" ID="ID_1030830086" MODIFIED="1620414625537" TEXT="img">
+<icon BUILTIN="full-9"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620414466025" ID="ID_835262716" MODIFIED="1620414468058">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./09_history_compute.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620414340523" FOLDED="true" ID="ID_567964492" MODIFIED="1620414629816" TEXT="img">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-0"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620414469457" ID="ID_123214051" MODIFIED="1620414471193">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./10_history_compute.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620414473273" FOLDED="true" ID="ID_1576733973" MODIFIED="1620414633490" TEXT="img">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620414481705" ID="ID_1507090150" MODIFIED="1620414484704">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./11_history_compute.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620414476121" FOLDED="true" ID="ID_165970822" MODIFIED="1620414636679" TEXT="img">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620414486545" ID="ID_1096187064" MODIFIED="1620414488384">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./12_history_compute.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620414477938" FOLDED="true" ID="ID_1443909140" MODIFIED="1620414645737" TEXT="img">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1620414490194" ID="ID_174198446" MODIFIED="1620414493147">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./13_history_compute.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1620414653169" ID="ID_1215969635" MODIFIED="1620414657549" TEXT="Serverless will be the key"/>
+</node>
+<node CREATED="1620414660600" ID="ID_1447223979" MODIFIED="1620414724054" POSITION="right" TEXT="Strategy circle">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1620414676928" ID="ID_168953246" MODIFIED="1620414678724" TEXT="img">
+<node CREATED="1620414679000" ID="ID_325073960" MODIFIED="1620414682787">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="./strategy_circle.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1620414684472" ID="ID_1948394128" MODIFIED="1620414687518" TEXT="Iterative process"/>
+<node CREATED="1620414687800" ID="ID_488850753" MODIFIED="1620414690517" TEXT="Adjust as you go"/>
+<node CREATED="1620414690880" ID="ID_315703241" MODIFIED="1620414697684" TEXT="&quot;Crossing the river by feeling the stones&quot;">
+<node CREATED="1620414726056" ID="ID_1275230878" MODIFIED="1620414731036" TEXT="Understand the path you&apos;re taking"/>
+<node CREATED="1620414731368" ID="ID_83246338" MODIFIED="1620414737772" TEXT="... by doing small steps"/>
+</node>
+</node>
+</node>
+</map>
