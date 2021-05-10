@@ -7,6 +7,7 @@ sed -i "s#$pattern#$replace#" README.md
 mindmaps=$(tree -P "*.mm")
 
 cd ../library/
+sed -i "s#$pattern#$replace#" README.md
 sed -Ei '/```bash/,$d' README.md
 echo '```bash' >> README.md
 echo $mindmaps >> README.md
@@ -14,4 +15,3 @@ echo '```' >> README.md
 git add README.md
 git commit -m "Update Alexandria Library"
 git push origin master
-cd -
