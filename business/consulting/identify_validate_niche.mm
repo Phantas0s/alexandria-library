@@ -7,6 +7,7 @@
 <node CREATED="1619028446898" ID="ID_1598973168" MODIFIED="1619028450774" TEXT="There is no upside to them"/>
 <node CREATED="1619028456113" ID="ID_955600744" MODIFIED="1619028459317" TEXT="One sided exchange"/>
 <node CREATED="1619028462744" ID="ID_1344409013" MODIFIED="1619028466326" TEXT="They&apos;re doing you a favor"/>
+</node>
 <node CREATED="1619028480369" ID="ID_334223385" MODIFIED="1619028481510" TEXT="You need">
 <node CREATED="1619028482009" ID="ID_1547600831" MODIFIED="1619028485061" TEXT="Focus and agenda"/>
 <node CREATED="1619028487643" ID="ID_162246294" MODIFIED="1619028491246" TEXT="Ask questions and listen"/>
@@ -17,7 +18,6 @@
 <node CREATED="1619028533057" ID="ID_1838595290" MODIFIED="1619028536533" TEXT="Don&apos;t speak about">
 <node CREATED="1619028536737" ID="ID_646004157" MODIFIED="1619028537453" TEXT="you"/>
 <node CREATED="1619028538752" ID="ID_1717699774" MODIFIED="1619028540107" TEXT="your needs"/>
-</node>
 </node>
 </node>
 <node CREATED="1619028551321" ID="ID_59627511" MODIFIED="1619028555210" POSITION="right" TEXT="Identify Potential Buyers, Decision-Makers and Influencers">
@@ -109,8 +109,7 @@
       Could I prevail on you for half an hour of your time?
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1619031118022" ID="ID_627227058" MODIFIED="1619031123456" TEXT="People like to speak about what they did"/>
 </node>
@@ -158,8 +157,7 @@
       <font color="rgb(55, 55, 55)" face="Helvetica Neue, Helvetica, Arial, sans-serif">hey, I want to be respectful of your time here and we have only a few minutes left.&#160;&#160;I&#8217;m actually happy to keep talking if you wanted to, but I&#8217;m grateful for what you&#8217;ve already given me and totally understand if you need to get going.&#8221;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1619031372531" ID="ID_1822201628" MODIFIED="1619031378147" POSITION="right" TEXT="Defining Next Steps">

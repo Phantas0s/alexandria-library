@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1548392819531" ID="ID_1757159682" LINK="https://daedtech.com/how-to-pick-a-niche/" MODIFIED="1548395376957" TEXT="How to Pick a Niche: Start Listening to Other People">
 <node CREATED="1548392899509" ID="ID_1722353864" MODIFIED="1548392910704" POSITION="right" TEXT="Difficult to speak about specificity in abstract"/>
-<node CREATED="1548392948100" FOLDED="true" ID="ID_1991702964" MODIFIED="1548395243899" POSITION="right" TEXT="Definitions">
+<node CREATED="1548392948100" ID="ID_1991702964" MODIFIED="1548395243899" POSITION="right" TEXT="Definitions">
 <icon BUILTIN="full-1"/>
 <node CREATED="1548392955076" ID="ID_178565633" MODIFIED="1548392978118" TEXT="Generalist">
 <node CREATED="1548392958322" ID="ID_907531956" MODIFIED="1548392960904" TEXT="Human resource"/>
@@ -15,9 +15,7 @@
 <node CREATED="1548393032250" ID="ID_99103472" MODIFIED="1548393033992" TEXT="Hobby"/>
 <node CREATED="1548393034578" ID="ID_651327278" MODIFIED="1548393035832" TEXT="Job"/>
 </node>
-<node CREATED="1548393042324" ID="ID_133741403" MODIFIED="1548393077196" TEXT="Leverage out high demand">
-<node CREATED="1548393068715" ID="ID_1719729530" MODIFIED="1548393073032" TEXT="for narrow skillset"/>
-</node>
+<node CREATED="1548393042324" ID="ID_133741403" MODIFIED="1620455412215" TEXT="Leverage out high demand for narrow skillset"/>
 </node>
 <node CREATED="1548393094339" ID="ID_1410049940" MODIFIED="1548393123422" TEXT="Niche filler">
 <node CREATED="1548393097154" ID="ID_1199361842" MODIFIED="1548393106466" TEXT="Optimize your career">
@@ -28,7 +26,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1548393229640" FOLDED="true" ID="ID_1084104519" MODIFIED="1548395249798" POSITION="right" TEXT=" Finding a Niche but Stumble into a Specialty">
+<node CREATED="1548393229640" ID="ID_1084104519" MODIFIED="1548395249798" POSITION="right" TEXT=" Finding a Niche but Stumble into a Specialty">
 <icon BUILTIN="full-2"/>
 <node CREATED="1548393274489" ID="ID_1832681230" MODIFIED="1548393288990" TEXT="I optimize for intersection">
 <node CREATED="1548393289193" ID="ID_879101580" MODIFIED="1548393291950" TEXT="What I love to do"/>
@@ -36,7 +34,7 @@
 <node CREATED="1548393264641" ID="ID_1039241460" MODIFIED="1548393326790" TEXT="... Instead of optimizing for an employer"/>
 </node>
 <node CREATED="1548393385016" ID="ID_1970031586" MODIFIED="1548393390238" TEXT="Hope someone pay you for that"/>
-<node CREATED="1548393390503" ID="ID_1610750241" MODIFIED="1596891763830" TEXT="... hope is not a strategy"/>
+<node CREATED="1548393390503" ID="ID_1610750241" MODIFIED="1620455441759" TEXT="... but hope is not a strategy"/>
 </node>
 <node CREATED="1548393405696" ID="ID_1283159658" MODIFIED="1548395243002" POSITION="right" TEXT="Start listening">
 <icon BUILTIN="full-3"/>
@@ -65,11 +63,9 @@
 </node>
 </node>
 <node CREATED="1548393794325" ID="ID_147719336" MODIFIED="1548393802834" TEXT="Writing for my blog">
-<node CREATED="1548393803061" ID="ID_1817317114" MODIFIED="1548393808321" TEXT="Then people asked me to write for them">
-<node CREATED="1548393808611" ID="ID_8719492" MODIFIED="1548393813346" TEXT="Then more and more people">
+<node CREATED="1548393803061" ID="ID_1817317114" MODIFIED="1548393808321" TEXT="Then people asked me to write for them"/>
+<node CREATED="1548393808611" ID="ID_8719492" MODIFIED="1548393813346" TEXT="Then more and more people"/>
 <node CREATED="1548393813531" ID="ID_1387382793" MODIFIED="1548393819721" TEXT="Then... could it be a business"/>
-</node>
-</node>
 </node>
 <node CREATED="1548393821404" ID="ID_534767477" MODIFIED="1548393827186" TEXT="Began a marketing agency">
 <node CREATED="1548393832027" ID="ID_367710687" MODIFIED="1548393836522" TEXT="Hitsubscribe"/>
