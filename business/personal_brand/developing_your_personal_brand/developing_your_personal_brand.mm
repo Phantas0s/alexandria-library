@@ -108,7 +108,7 @@
     
   </head>
   <body>
-    <img src="developing_your_personal_brand/cost_personal_brand.png" />
+    <img src="./cost_personal_brand.png" />
   </body>
 </html></richcontent>
 </node>
@@ -1197,7 +1197,7 @@
     
   </head>
   <body>
-    <img src="developing_your_personal_brand/example_elevator_pitch.png" />
+    <img src="./example_elevator_pitch.png" />
   </body>
 </html>
 </richcontent>
@@ -1246,7 +1246,7 @@
     
   </head>
   <body>
-    <img src="developing_your_personal_brand/image_example_1.png" />
+    <img src="./image_example_1.png" />
   </body>
 </html></richcontent>
 </node>

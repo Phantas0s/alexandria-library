@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1619697450682" ID="ID_1291623452" LINK="https://app.pluralsight.com/course-player?clipId=66532c10-3d72-486c-bc37-5086cf2076fb" MODIFIED="1620216437887" TEXT="Marketing and selling your own product and service">
+<node CREATED="1619697450682" ID="ID_1291623452" LINK="https://app.pluralsight.com/course-player?clipId=66532c10-3d72-486c-bc37-5086cf2076fb" MODIFIED="1620720893902" TEXT="Marketing and selling your own product and service">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,7 +12,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1619697924313" ID="ID_1129145204" MODIFIED="1619697927566" POSITION="right" TEXT="Introduction">
+<node CREATED="1619697924313" FOLDED="true" ID="ID_1129145204" MODIFIED="1619697927566" POSITION="right" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1619697930633" ID="ID_1874616200" MODIFIED="1619697937181" TEXT="Don&apos;t get stuck in analysis paralysis"/>
 <node CREATED="1619697937832" ID="ID_140611572" MODIFIED="1619697943645" TEXT="Don&apos;t overthink it"/>
@@ -28,7 +28,7 @@
 <node CREATED="1619698106527" ID="ID_1060051078" MODIFIED="1619698113068" TEXT="What are the most common marketing models?"/>
 </node>
 </node>
-<node CREATED="1619697499684" ID="ID_951670086" MODIFIED="1619697861258" POSITION="right" TEXT="Marketing concepts">
+<node CREATED="1619697499684" FOLDED="true" ID="ID_951670086" MODIFIED="1619697861258" POSITION="right" TEXT="Marketing concepts">
 <icon BUILTIN="full-1"/>
 <node CREATED="1619698140968" ID="ID_243291652" MODIFIED="1619700696820" TEXT="Organizational function">
 <icon BUILTIN="full-1"/>
@@ -293,7 +293,7 @@
 <icon BUILTIN="full-8"/>
 </node>
 </node>
-<node CREATED="1619697861778" ID="ID_475700109" MODIFIED="1619697900702" POSITION="right" TEXT="Sales concepts">
+<node CREATED="1619697861778" FOLDED="true" ID="ID_475700109" MODIFIED="1619697900702" POSITION="right" TEXT="Sales concepts">
 <icon BUILTIN="full-2"/>
 <node CREATED="1619701075412" FOLDED="true" ID="ID_1841372996" MODIFIED="1619709787468" TEXT="Goal">
 <icon BUILTIN="full-1"/>
@@ -522,7 +522,7 @@
 <node CREATED="1619702773181" ID="ID_538915150" MODIFIED="1619702775705" TEXT="Selling the wheel"/>
 </node>
 </node>
-<node CREATED="1619697865185" ID="ID_54879128" MODIFIED="1619697901301" POSITION="right" TEXT="Marketing tactics">
+<node CREATED="1619697865185" FOLDED="true" ID="ID_54879128" MODIFIED="1619697901301" POSITION="right" TEXT="Marketing tactics">
 <icon BUILTIN="full-3"/>
 <node CREATED="1619702960620" FOLDED="true" ID="ID_397777649" MODIFIED="1619703088591" TEXT="List High Value Marketing Activities">
 <icon BUILTIN="full-1"/>
@@ -719,7 +719,7 @@
 <node CREATED="1619704382366" ID="ID_908848622" MODIFIED="1619704391050" TEXT="Realize this is fluid and can change"/>
 </node>
 </node>
-<node CREATED="1619697870234" ID="ID_1701731141" MODIFIED="1619697902022" POSITION="right" TEXT="Sales tactics">
+<node CREATED="1619697870234" FOLDED="true" ID="ID_1701731141" MODIFIED="1619697902022" POSITION="right" TEXT="Sales tactics">
 <icon BUILTIN="full-4"/>
 <node CREATED="1619708264628" FOLDED="true" ID="ID_1310919419" MODIFIED="1619709690941" TEXT="Practive active listening">
 <icon BUILTIN="full-1"/>
@@ -941,7 +941,7 @@
 <node CREATED="1619709736118" ID="ID_937912107" MODIFIED="1619709743043" TEXT="Call someone on your chicken list"/>
 </node>
 </node>
-<node CREATED="1619697874513" ID="ID_776131280" MODIFIED="1619709922860" POSITION="right" TEXT="Bringing it all together">
+<node CREATED="1619697874513" FOLDED="true" ID="ID_776131280" MODIFIED="1619709922860" POSITION="right" TEXT="Bringing it all together">
 <icon BUILTIN="full-5"/>
 <node CREATED="1619709933662" ID="ID_1258413873" MODIFIED="1619709938938" TEXT="The Value of Concepts">
 <node CREATED="1619709941069" ID="ID_209570747" MODIFIED="1619709945065" TEXT="Standard of understanding">

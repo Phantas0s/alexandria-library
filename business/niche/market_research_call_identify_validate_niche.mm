@@ -58,7 +58,7 @@
 <node CREATED="1619028908334" ID="ID_859027807" MODIFIED="1619028914690" TEXT="What hesitation they have to purchase"/>
 </node>
 </node>
-<node CREATED="1619028924007" ID="ID_1678394989" MODIFIED="1619028924908" TEXT="I&#x2019;ll consider this meeting a success if I learn _________&#x201d;  "/>
+<node CREATED="1619028924007" ID="ID_1678394989" MODIFIED="1620899971010" TEXT="&quot;I&#x2019;ll consider this meeting a success if I learn _________&#x201d;  "/>
 </node>
 <node CREATED="1619028931071" ID="ID_1701779417" MODIFIED="1619028936510" POSITION="right" TEXT="Create a List of Questions to Steer the Conversation">
 <icon BUILTIN="full-4"/>
@@ -184,7 +184,7 @@
 </node>
 <node CREATED="1619031527155" ID="ID_1455924132" MODIFIED="1619031536072" TEXT="When saying goodbye, tell them you&apos;ll keep them posted"/>
 </node>
-<node CREATED="1619031545284" ID="ID_178191900" MODIFIED="1619031549548" POSITION="right" TEXT="Lather, Rinse, Repeat ">
+<node CREATED="1619031545284" ID="ID_178191900" MODIFIED="1620908289151" POSITION="right" TEXT="Gather, Rinse, Repeat ">
 <icon BUILTIN="full-8"/>
 <node CREATED="1619031556667" ID="ID_1022469904" MODIFIED="1619031562528" TEXT="You&apos;ll have a lot of these conversations"/>
 <node CREATED="1619031568804" ID="ID_493843234" MODIFIED="1619031575128" TEXT="Need a lot of people before extrapolating"/>

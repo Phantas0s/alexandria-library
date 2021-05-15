@@ -1,7 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1619537590211" ID="ID_1664751230" LINK="https://www.youtube.com/watch?v=p5Yoyh90nTM&amp;t=45s" MODIFIED="1619537612484" TEXT="How to Find Customers Who Are 100x More Valuable Without 100x the Effort">
-<node CREATED="1619537766591" ID="ID_1506047715" MODIFIED="1619537774292" POSITION="right" TEXT="Case Study #1 - Changing your pricing">
+<node CREATED="1619537766591" FOLDED="true" ID="ID_1506047715" MODIFIED="1620721311020" POSITION="right" TEXT="Case Study #1 - Changing your pricing">
+<icon BUILTIN="full-1"/>
 <node CREATED="1619537852142" ID="ID_1937886102" MODIFIED="1619537855610" TEXT="WPEngine"/>
 <node CREATED="1619538139581" ID="ID_936587891" MODIFIED="1619538149233" TEXT="Hired as consultant">
 <node CREATED="1619538160230" ID="ID_1114243943" MODIFIED="1619538163761" TEXT="Blogger for decades"/>
@@ -52,7 +53,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1619538288158" ID="ID_823437895" MODIFIED="1619538312032" POSITION="right" TEXT="Case Study #2 Doing things which don&apos;t scale">
+<node CREATED="1619538288158" FOLDED="true" ID="ID_823437895" MODIFIED="1620721311783" POSITION="right" TEXT="Case Study #2 Doing things which don&apos;t scale">
+<icon BUILTIN="full-2"/>
 <node CREATED="1619538313791" ID="ID_1400771862" MODIFIED="1619538315289" TEXT="Developers">
 <node CREATED="1619538315541" ID="ID_721294184" MODIFIED="1619538318985" TEXT="Don&apos;t want to deal with people"/>
 <node CREATED="1619538319269" ID="ID_1401021199" MODIFIED="1619538324057" TEXT="Don&apos;t want to deal with taxes"/>
@@ -96,7 +98,8 @@
 <node CREATED="1619538847858" ID="ID_1977718375" MODIFIED="1619538852942" TEXT="Almost full time job for building buffer"/>
 <node CREATED="1619538866192" ID="ID_1246274663" MODIFIED="1619538984524" TEXT="... but it was effective"/>
 </node>
-<node CREATED="1619539000891" ID="ID_27775407" MODIFIED="1619539016542" POSITION="right" TEXT="Case Study #3 - I did this. It doesn&apos;t scale. Do it anyway">
+<node CREATED="1619539000891" FOLDED="true" ID="ID_27775407" MODIFIED="1620721312322" POSITION="right" TEXT="Case Study #3 - I did this. It doesn&apos;t scale. Do it anyway">
+<icon BUILTIN="full-3"/>
 <node CREATED="1619539043386" ID="ID_53005953" MODIFIED="1619539056046" TEXT="When you got a business / product but can&apos;t live with it"/>
 <node CREATED="1619539065441" ID="ID_297637823" MODIFIED="1619539109351" TEXT="For plan +100 / month"/>
 <node CREATED="1619539109731" ID="ID_996684934" MODIFIED="1619539112638" TEXT="... free consultation">
@@ -187,7 +190,8 @@
 <node CREATED="1619541127378" ID="ID_1412077671" MODIFIED="1619541132287" TEXT="Ideas who they are"/>
 </node>
 </node>
-<node CREATED="1619541133459" ID="ID_1749581066" MODIFIED="1619541136615" POSITION="right" TEXT="Conclusion">
+<node CREATED="1619541133459" FOLDED="true" ID="ID_1749581066" MODIFIED="1620721313508" POSITION="right" TEXT="Conclusion">
+<icon BUILTIN="full-4"/>
 <node CREATED="1619541136779" ID="ID_642757367" MODIFIED="1619541138182" TEXT="Be brave"/>
 <node CREATED="1619541138907" ID="ID_824170978" MODIFIED="1619541193407" TEXT="Charge more and deliver the experience"/>
 <node CREATED="1619541147370" ID="ID_1116855140" MODIFIED="1619541152616" TEXT="Do what others can&apos;t or won&apos;t do"/>

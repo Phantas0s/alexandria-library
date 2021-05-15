@@ -1,10 +1,21 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1620229681888" ID="ID_481816065" MODIFIED="1620229703081" TEXT="Conducting stakeholder interviews and surveys">
+<node CREATED="1620229681888" ID="ID_481816065" MODIFIED="1620721974385" TEXT="Conducting stakeholder interviews and surveys">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Course from pluralsight
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1620229705005" ID="ID_543335465" MODIFIED="1620229707810" POSITION="right" TEXT="Course overview">
 <icon BUILTIN="full-1"/>
 </node>
-<node CREATED="1620229712268" ID="ID_729608087" MODIFIED="1620229793786" POSITION="right" TEXT="Understanding research terms">
+<node CREATED="1620229712268" FOLDED="true" ID="ID_729608087" MODIFIED="1620229793786" POSITION="right" TEXT="Understanding research terms">
 <icon BUILTIN="full-2"/>
 <node CREATED="1620229721374" FOLDED="true" ID="ID_1763686809" MODIFIED="1620229725648" TEXT="Course overview">
 <node CREATED="1620229726028" ID="ID_1398791286" MODIFIED="1620229728585" TEXT="Research">
@@ -122,7 +133,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1620230501586" ID="ID_216673495" MODIFIED="1620230513929" POSITION="right" TEXT="Providing customer value using stakeholder research">
+<node CREATED="1620230501586" FOLDED="true" ID="ID_216673495" MODIFIED="1620230513929" POSITION="right" TEXT="Providing customer value using stakeholder research">
 <icon BUILTIN="full-3"/>
 <node CREATED="1620231170479" FOLDED="true" ID="ID_98560346" MODIFIED="1620231171971" TEXT="Overview">
 <node CREATED="1620231172247" ID="ID_1194134855" MODIFIED="1620231179451" TEXT="Tie research to company objective"/>
@@ -214,7 +225,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1620232013179" ID="ID_1790955153" MODIFIED="1620316001173" POSITION="right" TEXT="Planning Stakeholder Research Activities">
+<node CREATED="1620232013179" FOLDED="true" ID="ID_1790955153" MODIFIED="1620316001173" POSITION="right" TEXT="Planning Stakeholder Research Activities">
 <icon BUILTIN="full-4"/>
 <node CREATED="1620232036675" FOLDED="true" ID="ID_1587423637" MODIFIED="1620315997294" TEXT="Research planning overview">
 <icon BUILTIN="full-1"/>
@@ -380,7 +391,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1620316005904" ID="ID_286714108" MODIFIED="1620316023892" POSITION="right" TEXT="Conducting Stakeholder Interviews">
+<node CREATED="1620316005904" FOLDED="true" ID="ID_286714108" MODIFIED="1620316023892" POSITION="right" TEXT="Conducting Stakeholder Interviews">
 <icon BUILTIN="full-5"/>
 <node CREATED="1620316033991" ID="ID_1406439797" MODIFIED="1620316275715" TEXT="Interviewing overview and mental models">
 <icon BUILTIN="full-1"/>
@@ -480,7 +491,7 @@
 <node CREATED="1620316864227" ID="ID_1146487112" MODIFIED="1620316871288" TEXT="Allow for breaks and refreshment if available"/>
 </node>
 </node>
-<node CREATED="1620316890331" ID="ID_1633397524" MODIFIED="1620316909644" POSITION="right" TEXT="Conducting Stakeholder Survey">
+<node CREATED="1620316890331" FOLDED="true" ID="ID_1633397524" MODIFIED="1620316909644" POSITION="right" TEXT="Conducting Stakeholder Survey">
 <icon BUILTIN="full-6"/>
 <node CREATED="1620316928922" ID="ID_1332697659" MODIFIED="1620323062999" TEXT="Conducting Survey Overview">
 <icon BUILTIN="full-1"/>
@@ -592,7 +603,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1620321780877" ID="ID_1841608589" MODIFIED="1620321810193" POSITION="right" TEXT="Analyze and synthesizing research finding">
+<node CREATED="1620321780877" FOLDED="true" ID="ID_1841608589" MODIFIED="1620321810193" POSITION="right" TEXT="Analyze and synthesizing research finding">
 <icon BUILTIN="full-7"/>
 <node CREATED="1620321812021" ID="ID_1329205678" MODIFIED="1620323066852" TEXT="Analyze data overview">
 <icon BUILTIN="full-1"/>
