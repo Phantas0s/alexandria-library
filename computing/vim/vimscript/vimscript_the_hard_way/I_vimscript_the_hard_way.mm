@@ -10,8 +10,7 @@
       Good practices:<br /><br />https://google.github.io/styleguide/vimscriptguide.xml
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1587903834848" ID="ID_263951312" LINK="https://github.com/Phantas0s/playground/tree/master/vimscript/vimscript-hard-way" MODIFIED="1588155027198" POSITION="right" TEXT="Code">
 <icon BUILTIN="full-0"/>
@@ -331,8 +330,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1587721664439" FOLDED="true" ID="ID_323587723" MODIFIED="1587995209361" TEXT="8.1 Keyword Characters">
-<node CREATED="1587721730063" FOLDED="true" ID="ID_1168256067" MODIFIED="1587721732026" TEXT=":set iskeyword? ">
+<node CREATED="1587721664439" ID="ID_323587723" MODIFIED="1587995209361" TEXT="8.1 Keyword Characters">
+<node CREATED="1587721730063" ID="ID_1168256067" MODIFIED="1587721732026" TEXT=":set iskeyword? ">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1587721732555" ID="ID_1128111935" MODIFIED="1587721738916" TEXT="iskeyword=@,48-57,_,192-255,#"/>
 <node CREATED="1587721739726" ID="ID_724840527" MODIFIED="1587721742320" TEXT="... means">
@@ -359,7 +358,7 @@
 </node>
 </node>
 <node CREATED="1587721893744" ID="ID_701136466" MODIFIED="1587721898932" TEXT="Abbreviations will be expanded"/>
-<node CREATED="1587721899515" FOLDED="true" ID="ID_1863777221" MODIFIED="1587721905315" TEXT="... for anything that&apos;s not">
+<node CREATED="1587721899515" ID="ID_1863777221" MODIFIED="1587721905315" TEXT="... for anything that&apos;s not">
 <node CREATED="1587721905546" ID="ID_786071013" MODIFIED="1587721906983" TEXT="a letter"/>
 <node CREATED="1587721913734" ID="ID_1267493125" MODIFIED="1587721915906" TEXT="a number"/>
 <node CREATED="1587721920048" ID="ID_72278300" MODIFIED="1587721922374" TEXT="an underscore"/>
