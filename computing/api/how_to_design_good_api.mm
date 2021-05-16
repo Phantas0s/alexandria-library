@@ -50,12 +50,12 @@
 <node CREATED="1616744808707" ID="ID_1946049805" MODIFIED="1616744815311" TEXT="Appropriate to audience"/>
 </node>
 </node>
-<node CREATED="1616745183192" FOLDED="true" ID="ID_1565409272" MODIFIED="1616746190816" POSITION="right" TEXT="The Process of API Design">
+<node CREATED="1616745183192" ID="ID_1565409272" MODIFIED="1616746190816" POSITION="right" TEXT="The Process of API Design">
 <icon BUILTIN="full-1"/>
 <node CREATED="1616745203153" ID="ID_904788724" MODIFIED="1616745217277" TEXT="Gather requirements with healthy degree of skepticism">
 <node CREATED="1616745219905" ID="ID_1862595651" MODIFIED="1616745234710" TEXT="Often you&apos;ll get solutions instead"/>
 <node CREATED="1616745236025" ID="ID_1058745086" MODIFIED="1616745241662" TEXT="... but maybe better exists"/>
-<node CREATED="1616745253289" ID="ID_649194602" MODIFIED="1616745262101" TEXT="Our job is to extraxt true requirements">
+<node CREATED="1616745253289" ID="ID_649194602" MODIFIED="1621165304536" TEXT="Our job is to extract true requirements">
 <node CREATED="1616745262393" ID="ID_1075351299" MODIFIED="1616745267630" TEXT="Should take form of use cases"/>
 </node>
 <node CREATED="1616745270032" ID="ID_6592016" MODIFIED="1616745294165" TEXT="Can be easier and more rewarding to do something more general">
@@ -65,7 +65,7 @@
 </node>
 <node CREATED="1616745333465" ID="ID_1391847927" MODIFIED="1616745340739" TEXT="Start with short spec - 1 page is ideal">
 <node CREATED="1616745343704" ID="ID_84185344" MODIFIED="1616745353788" TEXT="At this stage, agility trumps completeness"/>
-<node CREATED="1616745354647" ID="ID_1319875381" MODIFIED="1616745361283" TEXT="Bounce spec off as many people as possible"/>
+<node CREATED="1616745354647" ID="ID_1319875381" MODIFIED="1621165326999" TEXT="Bounce spec of as many people as possible"/>
 <node CREATED="1616745362464" ID="ID_626326" MODIFIED="1616745370211" TEXT="... listen to their input and take it seriously"/>
 <node CREATED="1616745371207" ID="ID_1787566685" MODIFIED="1616745375819" TEXT="If it&apos;s short, easy to modify"/>
 <node CREATED="1616745377433" ID="ID_1107790168" MODIFIED="1616745383532" TEXT="Flesh it out as you gain confidence"/>
@@ -88,7 +88,7 @@
 <node CREATED="1616746222718" ID="ID_445730085" MODIFIED="1616746229943" TEXT="... than on the production code of the API"/>
 </node>
 </node>
-<node CREATED="1616746251738" ID="ID_1613788677" MODIFIED="1616746259557" TEXT="Writing to SPI is Even More Important">
+<node CREATED="1616746251738" ID="ID_1613788677" MODIFIED="1621165600012" TEXT="Writing to API is Even More Important">
 <node CREATED="1616746259883" ID="ID_640343928" MODIFIED="1616746264982" TEXT="Service Provider Interface">
 <node CREATED="1616746285626" ID="ID_189707693" MODIFIED="1616746289752" TEXT="Higher level API"/>
 <node CREATED="1616746290194" ID="ID_1305284928" MODIFIED="1616746294429" TEXT="... dispatching to other APIs"/>
