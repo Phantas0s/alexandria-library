@@ -15,7 +15,7 @@
 <node CREATED="1553800780603" ID="ID_1803606314" MODIFIED="1553800785985" TEXT="You want your client to be successful"/>
 <node CREATED="1553800791444" ID="ID_313767569" MODIFIED="1553800799345" TEXT="You want to be the go-to person for client"/>
 </node>
-<node CREATED="1553800819779" FOLDED="true" ID="ID_597447869" MODIFIED="1616253882370" TEXT="How do I earn my client trust?">
+<node CREATED="1553800819779" FOLDED="true" ID="ID_597447869" MODIFIED="1621352293707" TEXT="How do I earn my client trust?">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -161,7 +161,7 @@
 <icon BUILTIN="full-1"/>
 <node CREATED="1553801718667" ID="ID_318264729" MODIFIED="1553801726184" TEXT="Guy in front of a computer punching keyboard"/>
 </node>
-<node CREATED="1553801765275" FOLDED="true" ID="ID_942381961" MODIFIED="1553802377372" TEXT="Prerequisites to give advises ">
+<node CREATED="1553801765275" ID="ID_942381961" MODIFIED="1621352308248" TEXT="Prerequisites to give advise">
 <icon BUILTIN="full-2"/>
 <node CREATED="1553801790796" ID="ID_169000894" MODIFIED="1553801794273" TEXT="Expertise"/>
 <node CREATED="1553801794771" ID="ID_813568525" MODIFIED="1553801795953" TEXT="Trust"/>

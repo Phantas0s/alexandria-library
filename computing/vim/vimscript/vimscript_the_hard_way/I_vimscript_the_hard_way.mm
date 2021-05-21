@@ -1626,14 +1626,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1587997264826" FOLDED="true" ID="ID_1069631807" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/29.html" MODIFIED="1587999447124" POSITION="left" TEXT="Normal">
+<node CREATED="1587997264826" ID="ID_1069631807" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/29.html" MODIFIED="1587999447124" POSITION="left" TEXT="Normal">
 <icon BUILTIN="full-2"/>
 <icon BUILTIN="full-9"/>
 <node CREATED="1587997368538" ID="ID_268442475" MODIFIED="1587999447124" TEXT="Introduction">
 <node CREATED="1587997371818" ID="ID_1351297900" MODIFIED="1587999447124" TEXT="Execute commands from keystrokes"/>
 <node CREATED="1587997376701" ID="ID_484374474" MODIFIED="1587999447124" TEXT="... like we are in normal mode"/>
 </node>
-<node CREATED="1587997393259" ID="ID_254638225" MODIFIED="1587999447124" TEXT="29.1 Avoiding Mappings">
+<node CREATED="1587997393259" FOLDED="true" ID="ID_254638225" MODIFIED="1587999447124" TEXT="29.1 Avoiding Mappings">
 <node CREATED="1587997454213" ID="ID_924500222" MODIFIED="1587999447124" TEXT="normal">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -1748,7 +1748,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588002018416" FOLDED="true" ID="ID_677407390" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/32.html" MODIFIED="1588156062031" POSITION="left" TEXT="Case Study: Grep Operator, Part One">
+<node CREATED="1588002018416" ID="ID_677407390" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/32.html" MODIFIED="1588156062031" POSITION="left" TEXT="Case Study: Grep Operator, Part One">
 <icon BUILTIN="full-3"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1588002076101" FOLDED="true" ID="ID_1610466954" MODIFIED="1588002085543" TEXT="32.1 Grep">
@@ -1816,10 +1816,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1588077709862" FOLDED="true" ID="ID_1851888359" MODIFIED="1588077711785" TEXT="33.5 Escaping Shell Command Arguments">
-<node CREATED="1588077745672" ID="ID_194764498" MODIFIED="1588077749492" TEXT="Won&apos;t work on">
-<node CREATED="1588077749721" ID="ID_1296392964" MODIFIED="1588077751387" TEXT="that&apos;s"/>
-</node>
+<node CREATED="1588077709862" ID="ID_1851888359" MODIFIED="1588077711785" TEXT="33.5 Escaping Shell Command Arguments">
+<node CREATED="1588077745672" ID="ID_194764498" MODIFIED="1621400916251" TEXT="Won&apos;t work on &quot;that&apos;s&quot;"/>
 <node CREATED="1588077752204" ID="ID_1612785920" MODIFIED="1588077757193" TEXT="... quote problem!"/>
 <node CREATED="1588077763437" ID="ID_321043160" MODIFIED="1588077769412" TEXT="shellescapte">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
