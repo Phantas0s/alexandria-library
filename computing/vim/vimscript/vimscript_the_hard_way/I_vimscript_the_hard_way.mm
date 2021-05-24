@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1620289672017" TEXT="Vimscript the Hard Way">
+<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1621695608011" TEXT="Vimscript the Hard Way">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -592,10 +592,10 @@
 </node>
 <node CREATED="1587744500071" ID="ID_374308438" MODIFIED="1587744504580" TEXT="13.2 Exercises"/>
 </node>
-<node CREATED="1587744604405" FOLDED="true" ID="ID_1662287652" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/14.html" MODIFIED="1587999447122" POSITION="right" TEXT="Autocommand Groups">
+<node CREATED="1587744604405" ID="ID_1662287652" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/14.html" MODIFIED="1587999447122" POSITION="right" TEXT="Autocommand Groups">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-4"/>
-<node CREATED="1587744765788" FOLDED="true" ID="ID_1422775612" MODIFIED="1587995197110" TEXT="Introduction">
+<node CREATED="1587744765788" ID="ID_1422775612" MODIFIED="1587995197110" TEXT="Introduction">
 <node CREATED="1587744767973" ID="ID_1068407879" MODIFIED="1587744791975" TEXT="Run two times same autocmd"/>
 <node CREATED="1587744776996" ID="ID_1445986262" MODIFIED="1587744788038" TEXT="These autocmd will all be triggered!"/>
 <node CREATED="1587744793207" ID="ID_620614056" MODIFIED="1587744799677" TEXT="... Vim has no way to know they are the same"/>
@@ -609,11 +609,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1587744814175" FOLDED="true" ID="ID_322174943" MODIFIED="1587995197111" TEXT="14.1 The Problem">
+<node CREATED="1587744814175" ID="ID_322174943" MODIFIED="1587995197111" TEXT="14.1 The Problem">
 <node CREATED="1587744825139" ID="ID_616286154" MODIFIED="1587744833645" TEXT="When sourcing ~/vimrc"/>
 <node CREATED="1587744838713" ID="ID_1511496903" MODIFIED="1587744847577" TEXT="... create AGAIN the autocmd!"/>
 <node CREATED="1587744856635" ID="ID_762468944" MODIFIED="1587744865723" TEXT="... and make Vim slower"/>
-<node CREATED="1587744875674" ID="ID_1628627218" MODIFIED="1587744878418" TEXT="Example">
+<node CREATED="1587744875674" ID="ID_1628627218" MODIFIED="1621834481977" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1587744878621" ID="ID_1918981653" MODIFIED="1587744888257" TEXT="To see this run three times:"/>
 <node CREATED="1587744880862" ID="ID_495378015" MODIFIED="1587744890374" TEXT=":autocmd BufWrite * :sleep 200m ">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -1626,7 +1627,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587997264826" ID="ID_1069631807" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/29.html" MODIFIED="1587999447124" POSITION="left" TEXT="Normal">
+<node CREATED="1587997264826" FOLDED="true" ID="ID_1069631807" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/29.html" MODIFIED="1587999447124" POSITION="left" TEXT="Normal">
 <icon BUILTIN="full-2"/>
 <icon BUILTIN="full-9"/>
 <node CREATED="1587997368538" ID="ID_268442475" MODIFIED="1587999447124" TEXT="Introduction">
@@ -1748,7 +1749,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588002018416" ID="ID_677407390" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/32.html" MODIFIED="1588156062031" POSITION="left" TEXT="Case Study: Grep Operator, Part One">
+<node CREATED="1588002018416" FOLDED="true" ID="ID_677407390" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/32.html" MODIFIED="1588156062031" POSITION="left" TEXT="Case Study: Grep Operator, Part One">
 <icon BUILTIN="full-3"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1588002076101" FOLDED="true" ID="ID_1610466954" MODIFIED="1588002085543" TEXT="32.1 Grep">
