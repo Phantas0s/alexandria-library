@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1621695608011" TEXT="Vimscript the Hard Way">
+<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1622007403784" TEXT="Vimscript the Hard Way">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -10,7 +10,8 @@
       Good practices:<br /><br />https://google.github.io/styleguide/vimscriptguide.xml
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1587903834848" ID="ID_263951312" LINK="https://github.com/Phantas0s/playground/tree/master/vimscript/vimscript-hard-way" MODIFIED="1588155027198" POSITION="right" TEXT="Code">
 <icon BUILTIN="full-0"/>
@@ -2289,20 +2290,20 @@
 </node>
 </node>
 </node>
-<node CREATED="1588248656165" FOLDED="true" ID="ID_853615789" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/41.html" MODIFIED="1588248669162" POSITION="left" TEXT="Creating a Full Plugin">
+<node CREATED="1588248656165" ID="ID_853615789" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/41.html" MODIFIED="1588248669162" POSITION="left" TEXT="Creating a Full Plugin">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-1"/>
-<node CREATED="1588248677119" ID="ID_426419919" LINK="http://perl11.org/potion/index.html" MODIFIED="1588248690398" TEXT="41.1 Potion">
+<node CREATED="1588248677119" FOLDED="true" ID="ID_426419919" LINK="http://perl11.org/potion/index.html" MODIFIED="1588248690398" TEXT="41.1 Potion">
 <node CREATED="1588250790727" ID="ID_281239981" MODIFIED="1588250795438" TEXT="bin/potion">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1588248706732" ID="ID_1490914498" MODIFIED="1588248711211" TEXT="41.2 Exercises"/>
 </node>
-<node CREATED="1588248723157" FOLDED="true" ID="ID_855092661" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/42.html" MODIFIED="1588248737915" POSITION="left" TEXT="Plugin Layout in the Dark Ages">
+<node CREATED="1588248723157" ID="ID_855092661" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/42.html" MODIFIED="1588248737915" POSITION="left" TEXT="Plugin Layout in the Dark Ages">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1588248936009" ID="ID_1551331842" MODIFIED="1588248941881" TEXT="42.1 Basic Layout">
+<node CREATED="1588248936009" FOLDED="true" ID="ID_1551331842" MODIFIED="1588248941881" TEXT="42.1 Basic Layout">
 <node CREATED="1588248974626" ID="ID_290288311" MODIFIED="1588248978718" TEXT="What plugin means?">
 <node CREATED="1588248992272" ID="ID_204533711" MODIFIED="1588249003760" TEXT="A bunch of Vimscript that does stuff">
 <icon BUILTIN="full-1"/>
@@ -2312,7 +2313,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588249017109" ID="ID_1048643651" MODIFIED="1588249025783" TEXT="42.2 ~/.vim/colors/">
+<node CREATED="1588249017109" FOLDED="true" ID="ID_1048643651" MODIFIED="1588249025783" TEXT="42.2 ~/.vim/colors/">
 <node CREATED="1588249027531" ID="ID_1736750230" MODIFIED="1588249031018" TEXT="Color schemes"/>
 <node CREATED="1588249062792" ID="ID_531983298" MODIFIED="1588249067302" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -2325,7 +2326,7 @@
 <node CREATED="1588249057358" ID="ID_316249393" MODIFIED="1588249059361" TEXT="... and run it"/>
 </node>
 </node>
-<node CREATED="1588249084456" ID="ID_1045552822" MODIFIED="1588249092172" TEXT="42.3 ~/.vim/ftdetect/">
+<node CREATED="1588249084456" FOLDED="true" ID="ID_1045552822" MODIFIED="1588249092172" TEXT="42.3 ~/.vim/ftdetect/">
 <node CREATED="1588249127497" ID="ID_258405713" MODIFIED="1588249134072" TEXT="Stand for &quot;filetype detection&quot;"/>
 <node CREATED="1588249096611" ID="ID_1558570722" MODIFIED="1588249122852" TEXT="Everything in there also run when starting Vim"/>
 <node CREATED="1588249145387" ID="ID_918508480" MODIFIED="1588249149086" TEXT="Set up autocommands"/>
@@ -2337,7 +2338,7 @@
 <node CREATED="1588251889666" ID="ID_1396145350" MODIFIED="1588251916115" TEXT="Automatically wrap content in autocommand"/>
 <node CREATED="1588251925383" ID="ID_1221601540" MODIFIED="1588251940523" TEXT="... so no need to worry about it"/>
 </node>
-<node CREATED="1588249178775" ID="ID_1376313539" MODIFIED="1588249197772" TEXT="42.3 ~/.vim/ftplugin/">
+<node CREATED="1588249178775" FOLDED="true" ID="ID_1376313539" MODIFIED="1588249197772" TEXT="42.3 ~/.vim/ftplugin/">
 <node CREATED="1588249204154" ID="ID_1441650840" MODIFIED="1588249210740" TEXT="Naming of these files matter!">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -2357,7 +2358,7 @@
 <node CREATED="1588249341724" ID="ID_1961071017" MODIFIED="1588249344732" TEXT="... in every buffer"/>
 </node>
 </node>
-<node CREATED="1588249351193" ID="ID_496640795" MODIFIED="1588249357429" TEXT="42.4. ~/.vim/indent/">
+<node CREATED="1588249351193" FOLDED="true" ID="ID_496640795" MODIFIED="1588249357429" TEXT="42.4. ~/.vim/indent/">
 <node CREATED="1588249374020" ID="ID_1935540814" MODIFIED="1588249381679" TEXT="Files get loaded"/>
 <node CREATED="1588249382194" ID="ID_757548122" MODIFIED="1588249385213" TEXT="... based on their names">
 <node CREATED="1588249385428" ID="ID_1570492011" MODIFIED="1588249388943" TEXT="like ftplugin/"/>
@@ -2365,35 +2366,35 @@
 <node CREATED="1588249391219" ID="ID_967248598" MODIFIED="1588249401274" TEXT="Set option related to indentation for filetypes"/>
 <node CREATED="1588249401774" ID="ID_1359405333" MODIFIED="1588249419584" TEXT="Option should be buffer-local"/>
 </node>
-<node CREATED="1588249420912" ID="ID_1310316382" MODIFIED="1588249429145" TEXT="42.5 ~/.vim/compiler">
+<node CREATED="1588249420912" FOLDED="true" ID="ID_1310316382" MODIFIED="1588249429145" TEXT="42.5 ~/.vim/compiler">
 <node CREATED="1588249440565" ID="ID_1728995657" MODIFIED="1588249445441" TEXT="Set compiler related option"/>
 <node CREATED="1588249445987" ID="ID_1691915354" MODIFIED="1588249448917" TEXT="... based on filename"/>
 <node CREATED="1588249454453" ID="ID_230694565" MODIFIED="1588249457645" TEXT="... in current buffer"/>
 </node>
-<node CREATED="1588249459533" ID="ID_689926052" MODIFIED="1588249483772" TEXT="42.6 ~/.vim/after/">
+<node CREATED="1588249459533" FOLDED="true" ID="ID_689926052" MODIFIED="1588249483772" TEXT="42.6 ~/.vim/after/">
 <node CREATED="1588249506879" ID="ID_1025175466" MODIFIED="1588249508952" TEXT="Bit of a hack"/>
 <node CREATED="1588249509378" ID="ID_1125147647" MODIFIED="1588249516038" TEXT="Loaded when Vim start"/>
 <node CREATED="1588249516396" ID="ID_1210857558" MODIFIED="1588249524369" TEXT="... but after ~/.vim/plugin/"/>
 <node CREATED="1588249527671" ID="ID_986346244" MODIFIED="1588249537026" TEXT="Allow you to override Vim&apos;s internal files"/>
 </node>
-<node CREATED="1588249549372" ID="ID_1401162224" MODIFIED="1588249557217" TEXT="42.7 ~/.vim/autoload/">
+<node CREATED="1588249549372" FOLDED="true" ID="ID_1401162224" MODIFIED="1588249557217" TEXT="42.7 ~/.vim/autoload/">
 <node CREATED="1588249563998" ID="ID_345077899" MODIFIED="1588249570895" TEXT="Delay the loading of your plugin&apos;s code"/>
 <node CREATED="1588249571307" ID="ID_1931088263" MODIFIED="1588249575571" TEXT="... until it&apos;s actually needed"/>
 <node CREATED="1588249580857" ID="ID_1693710532" MODIFIED="1588249584592" TEXT="Incredibly important hack"/>
 </node>
-<node CREATED="1588249588187" ID="ID_872050764" MODIFIED="1588250775387" TEXT="42.8 ~/.vim/doc/">
+<node CREATED="1588249588187" FOLDED="true" ID="ID_872050764" MODIFIED="1588250775387" TEXT="42.8 ~/.vim/doc/">
 <node CREATED="1588249594034" ID="ID_1972883298" MODIFIED="1588249601370" TEXT="Where you add documentation for your plugin"/>
 </node>
 <node CREATED="1588250777639" ID="ID_544440376" MODIFIED="1588250782277" TEXT="42.9 Exercises"/>
 </node>
-<node CREATED="1588250960317" FOLDED="true" ID="ID_1419026672" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/43.html" MODIFIED="1588250981142" POSITION="left" TEXT="A New Hope: Plugin Layout with Pathogen">
+<node CREATED="1588250960317" ID="ID_1419026672" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/43.html" MODIFIED="1588250981142" POSITION="left" TEXT="A New Hope: Plugin Layout with Pathogen">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-3"/>
-<node CREATED="1588250985993" ID="ID_1612454450" MODIFIED="1588250991650" TEXT="43.1 Runtimepath">
+<node CREATED="1588250985993" FOLDED="true" ID="ID_1612454450" MODIFIED="1588250991650" TEXT="43.1 Runtimepath">
 <node CREATED="1588251001054" ID="ID_686829441" MODIFIED="1588251007004" TEXT="Paths where to find files"/>
 <node CREATED="1588251007415" ID="ID_34250851" MODIFIED="1588251017171" TEXT="... pretty much line linux PATH env var"/>
 </node>
-<node CREATED="1588251026441" ID="ID_137671230" MODIFIED="1588251030436" TEXT="43.2 Pathogen">
+<node CREATED="1588251026441" FOLDED="true" ID="ID_137671230" MODIFIED="1588251030436" TEXT="43.2 Pathogen">
 <node CREATED="1588251063483" ID="ID_1960694511" MODIFIED="1588251075582" TEXT="Automatically add paths to your runtimepath"/>
 <node CREATED="1588251081169" ID="ID_57146485" MODIFIED="1588251085351" TEXT="For vim-plug">
 <node CREATED="1588251085628" ID="ID_1753343573" MODIFIED="1588251106515" TEXT="in ~/.vim/plugged"/>
@@ -2406,7 +2407,7 @@
 <node CREATED="1588251184934" ID="ID_370221787" MODIFIED="1588251188365" TEXT="43.3 Being Pathogen-Compatible"/>
 <node CREATED="1588251671314" ID="ID_96113830" MODIFIED="1588251674672" TEXT="43.4 Exercises"/>
 </node>
-<node CREATED="1588251679218" FOLDED="true" ID="ID_1621401125" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/44.html" MODIFIED="1588251700703" POSITION="left" TEXT="Detecting Filetypes">
+<node CREATED="1588251679218" ID="ID_1621401125" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/44.html" MODIFIED="1588251700703" POSITION="left" TEXT="Detecting Filetypes">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-4"/>
 <node CREATED="1588251718766" ID="ID_1609989177" MODIFIED="1588251721025" TEXT="44.1 Detecting Potion Files"/>
@@ -2419,15 +2420,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1588328758035" FOLDED="true" ID="ID_986946968" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/45.html" MODIFIED="1588328762545" POSITION="left" TEXT="Basic Syntax Highlighting">
+<node CREATED="1588328758035" ID="ID_986946968" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/45.html" MODIFIED="1588328762545" POSITION="left" TEXT="Basic Syntax Highlighting">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-5"/>
-<node CREATED="1588328830750" ID="ID_892432673" MODIFIED="1588328833475" TEXT="Introduction">
+<node CREATED="1588328830750" FOLDED="true" ID="ID_892432673" MODIFIED="1588328833475" TEXT="Introduction">
 <node CREATED="1588328833649" ID="ID_1541540867" MODIFIED="1588328837818" TEXT="b:current_syntax">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1588329234087" ID="ID_1792924049" MODIFIED="1588333073799" TEXT="45.1 Highlighting Keywords">
+<node CREATED="1588329234087" FOLDED="true" ID="ID_1792924049" MODIFIED="1588333073799" TEXT="45.1 Highlighting Keywords">
 <node CREATED="1588330796415" ID="ID_1332062946" MODIFIED="1588330798179" TEXT="syntax keyword">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1588330804184" ID="ID_322345383" MODIFIED="1588330807777" TEXT="Define &quot;chunk&quot;"/>
@@ -2458,10 +2459,10 @@
 </node>
 <node CREATED="1588332921954" ID="ID_1522893657" MODIFIED="1588332941502" TEXT="You can organize that however you want"/>
 </node>
-<node CREATED="1588332951476" ID="ID_1623637519" MODIFIED="1588333077341" TEXT="45.2 Highlighting Functions">
+<node CREATED="1588332951476" FOLDED="true" ID="ID_1623637519" MODIFIED="1588333077341" TEXT="45.2 Highlighting Functions">
 <node CREATED="1588333056973" ID="ID_711677029" MODIFIED="1588333062891" TEXT="Same spirit than keywords"/>
 </node>
-<node CREATED="1588333063690" ID="ID_1756209212" MODIFIED="1588333082643" TEXT="45.3 Exercises">
+<node CREATED="1588333063690" FOLDED="true" ID="ID_1756209212" MODIFIED="1588333082643" TEXT="45.3 Exercises">
 <node CREATED="1588333176748" ID="ID_880095460" MODIFIED="1588333178709" TEXT=":help syn-keyword">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -2473,21 +2474,21 @@
 </node>
 </node>
 </node>
-<node CREATED="1588333311940" FOLDED="true" ID="ID_1852267354" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/46.html" MODIFIED="1588333325432" POSITION="left" TEXT="Advanced Syntax Highlighting">
+<node CREATED="1588333311940" ID="ID_1852267354" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/46.html" MODIFIED="1588333325432" POSITION="left" TEXT="Advanced Syntax Highlighting">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-6"/>
-<node CREATED="1588333564403" ID="ID_650971740" MODIFIED="1588333572697" TEXT="46.1 Highlighting Comments">
+<node CREATED="1588333564403" FOLDED="true" ID="ID_650971740" MODIFIED="1588333572697" TEXT="46.1 Highlighting Comments">
 <node CREATED="1588333573466" ID="ID_837976987" MODIFIED="1588333579611" TEXT="syntax match">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1588333580947" ID="ID_1021573997" MODIFIED="1588333589238" TEXT="Match regex instead of keywords"/>
 <node CREATED="1588334215803" ID="ID_189841008" MODIFIED="1588334228624" TEXT="Does not support multiple groups on single line"/>
 </node>
-<node CREATED="1588333897070" ID="ID_1433166451" MODIFIED="1588333902379" TEXT="46.2 Highlighting Operators">
+<node CREATED="1588333897070" FOLDED="true" ID="ID_1433166451" MODIFIED="1588333902379" TEXT="46.2 Highlighting Operators">
 <node CREATED="1588334317285" ID="ID_490776299" MODIFIED="1588334321511" TEXT="Groups defined later"/>
 <node CREATED="1588334329567" ID="ID_635753030" MODIFIED="1588334337217" TEXT="... have priority on groups defined earlier"/>
 </node>
-<node CREATED="1588334342014" ID="ID_1795101460" MODIFIED="1588334361923" TEXT="46.3 exercises">
+<node CREATED="1588334342014" FOLDED="true" ID="ID_1795101460" MODIFIED="1588334361923" TEXT="46.3 exercises">
 <node CREATED="1588334362217" ID="ID_681527718" MODIFIED="1588334366629" TEXT=":help syn-match">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -2716,7 +2717,7 @@ hello('Steve')</code></pre>
 </node>
 </node>
 </node>
-<node CREATED="1588440086319" FOLDED="true" ID="ID_813868043" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/50.html" MODIFIED="1588440100214" POSITION="left" TEXT="Section Movement Theory">
+<node CREATED="1588440086319" ID="ID_813868043" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/50.html" MODIFIED="1588440100214" POSITION="left" TEXT="Section Movement Theory">
 <icon BUILTIN="full-5"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1588440111529" ID="ID_1313628486" MODIFIED="1588440114103" TEXT="Introduction">
@@ -2875,10 +2876,10 @@ hello('Steve')</code></pre>
 </node>
 </node>
 </node>
-<node CREATED="1588579977187" FOLDED="true" ID="ID_674339000" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/52.html" MODIFIED="1588579983617" POSITION="left" TEXT="External Commands">
+<node CREATED="1588579977187" ID="ID_674339000" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/52.html" MODIFIED="1588579983617" POSITION="left" TEXT="External Commands">
 <icon BUILTIN="full-5"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1588580011612" ID="ID_52270970" MODIFIED="1588580013471" TEXT="Introduction">
+<node CREATED="1588580011612" FOLDED="true" ID="ID_52270970" MODIFIED="1588580013471" TEXT="Introduction">
 <node CREATED="1588580013700" ID="ID_745808107" MODIFIED="1588580020764" TEXT="Vim follows UNIX philosophy">
 <node CREATED="1588580020766" ID="ID_1233428283" MODIFIED="1588580023926" TEXT="&quot;Do one thing well&quot;"/>
 </node>
@@ -2886,7 +2887,7 @@ hello('Steve')</code></pre>
 <node CREATED="1588580043133" ID="ID_1573518903" MODIFIED="1588580045690" TEXT="... when appropriate"/>
 </node>
 <node CREATED="1588580051661" ID="ID_813345298" MODIFIED="1588580055786" TEXT="52.1 Compiling"/>
-<node CREATED="1588585223152" ID="ID_1875241360" MODIFIED="1588585227356" TEXT="52.2 Bang!">
+<node CREATED="1588585223152" FOLDED="true" ID="ID_1875241360" MODIFIED="1588585227356" TEXT="52.2 Bang!">
 <node CREATED="1588585232776" ID="ID_566647780" MODIFIED="1588585236080" TEXT=":!">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -2903,7 +2904,7 @@ hello('Steve')</code></pre>
 <node CREATED="1588585281397" ID="ID_654504209" MODIFIED="1588585283080" TEXT="no prompt"/>
 </node>
 </node>
-<node CREATED="1588585378427" ID="ID_689506925" MODIFIED="1588585382532" TEXT="52.3 Displaying Bytecode">
+<node CREATED="1588585378427" FOLDED="true" ID="ID_689506925" MODIFIED="1588585382532" TEXT="52.3 Displaying Bytecode">
 <node CREATED="1588585579209" ID="ID_1452174056" MODIFIED="1588585583178" TEXT="potion -c V">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1588585583603" ID="ID_45627004" MODIFIED="1588585586913" TEXT="Display bytecode"/>
@@ -2921,7 +2922,7 @@ hello('Steve')</code></pre>
 </node>
 </node>
 </node>
-<node CREATED="1588585682280" ID="ID_1738297099" MODIFIED="1588585687039" TEXT="52.4 system()">
+<node CREATED="1588585682280" FOLDED="true" ID="ID_1738297099" MODIFIED="1588585687039" TEXT="52.4 system()">
 <node CREATED="1588585740385" ID="ID_1199660602" MODIFIED="1588585746027" TEXT="Input">
 <node CREATED="1588585746233" ID="ID_75438030" MODIFIED="1588585749156" TEXT="Command"/>
 <node CREATED="1588585766724" ID="ID_643328152" MODIFIED="1588585792626" TEXT="String">
@@ -2934,7 +2935,7 @@ hello('Steve')</code></pre>
 <node CREATED="1588585756295" ID="ID_102949" MODIFIED="1588585760652" TEXT="... as a string"/>
 </node>
 </node>
-<node CREATED="1588591101055" ID="ID_1902683434" MODIFIED="1588591564025" TEXT="52.5 Scratch Splits">
+<node CREATED="1588591101055" FOLDED="true" ID="ID_1902683434" MODIFIED="1588591564025" TEXT="52.5 Scratch Splits">
 <node CREATED="1588591106490" ID="ID_1623819115" MODIFIED="1588591112380" TEXT="Open up new window to show result"/>
 <node CREATED="1588591125699" ID="ID_272013838" MODIFIED="1588591130484" TEXT="Scratch split">
 <node CREATED="1588591130682" ID="ID_1304932254" MODIFIED="1588591133889" TEXT="Split with buffer"/>
@@ -2954,7 +2955,7 @@ hello('Steve')</code></pre>
 </node>
 </node>
 </node>
-<node CREATED="1588591578639" ID="ID_1206131771" MODIFIED="1588591583075" TEXT="52.6 Exercises">
+<node CREATED="1588591578639" FOLDED="true" ID="ID_1206131771" MODIFIED="1588591583075" TEXT="52.6 Exercises">
 <node CREATED="1588591584041" ID="ID_1496755301" MODIFIED="1588591631177" TEXT=":help bufname">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -3209,10 +3210,10 @@ hello('Steve')</code></pre>
 </node>
 <node CREATED="1588595414449" ID="ID_852996017" MODIFIED="1588595417535" TEXT="55.4 Exercises"/>
 </node>
-<node CREATED="1588595427154" FOLDED="true" ID="ID_1189638211" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/56.html" MODIFIED="1588595433924" POSITION="left" TEXT="What now?">
+<node CREATED="1588595427154" ID="ID_1189638211" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/56.html" MODIFIED="1588595433924" POSITION="left" TEXT="What now?">
 <icon BUILTIN="full-5"/>
 <icon BUILTIN="full-6"/>
-<node CREATED="1588595443981" ID="ID_897739827" MODIFIED="1588595447752" TEXT="56.1 Color Schemes">
+<node CREATED="1588595443981" FOLDED="true" ID="ID_897739827" MODIFIED="1588595447752" TEXT="56.1 Color Schemes">
 <node CREATED="1588595466360" ID="ID_202410625" MODIFIED="1588595467840" TEXT="Basics">
 <node CREATED="1588595468110" ID="ID_1918269531" MODIFIED="1588595469216" TEXT=":help highlight">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -3221,17 +3222,17 @@ hello('Steve')</code></pre>
 <node CREATED="1588595472924" ID="ID_1226487431" MODIFIED="1588595486160" TEXT="Take a look at built-in color scheme"/>
 <node CREATED="1588595493979" ID="ID_1833099677" LINK="https://github.com/sjl/badwolf/blob/master/colors/badwolf.vim" MODIFIED="1588595514222" TEXT="Bad Wolf"/>
 </node>
-<node CREATED="1588595563228" ID="ID_528897740" MODIFIED="1588595573067" TEXT="56.2 The Command Command">
+<node CREATED="1588595563228" FOLDED="true" ID="ID_528897740" MODIFIED="1588595573067" TEXT="56.2 The Command Command">
 <node CREATED="1588595628381" ID="ID_329913811" MODIFIED="1588595634319" TEXT="Some prefer using command"/>
 <node CREATED="1588595634994" ID="ID_697400702" MODIFIED="1588595651737" TEXT="... instead of imposing keystrokes"/>
 <node CREATED="1588596014092" ID="ID_738061618" MODIFIED="1588596018080" TEXT=":help user-commands">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1588596026968" ID="ID_1056391915" MODIFIED="1588596033645" TEXT="56.3 runtimepath">
+<node CREATED="1588596026968" FOLDED="true" ID="ID_1056391915" MODIFIED="1588596033645" TEXT="56.3 runtimepath">
 <node CREATED="1588596046517" ID="ID_1102128689" MODIFIED="1588596052657" TEXT="To understand how plugin managers work"/>
 </node>
-<node CREATED="1588596053535" ID="ID_47664134" MODIFIED="1588596055963" TEXT="56.4">
+<node CREATED="1588596053535" FOLDED="true" ID="ID_47664134" MODIFIED="1588596055963" TEXT="56.4">
 <node CREATED="1588596056441" ID="ID_207104946" MODIFIED="1588596058460" TEXT="Omnicomplete">
 <node CREATED="1588596063505" ID="ID_995300552" MODIFIED="1588596067888" TEXT=":help ins-completion">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -3246,19 +3247,19 @@ hello('Steve')</code></pre>
 </node>
 </node>
 </node>
-<node CREATED="1588596124992" ID="ID_1280175523" MODIFIED="1588596129341" TEXT="56.5 Compiler Support">
+<node CREATED="1588596124992" FOLDED="true" ID="ID_1280175523" MODIFIED="1588596129341" TEXT="56.5 Compiler Support">
 <node CREATED="1588596140431" ID="ID_1795769923" MODIFIED="1588596150751" TEXT="Vim can interact deeply with compliers"/>
 <node CREATED="1588596156579" ID="ID_416129236" MODIFIED="1588596162840" TEXT=":help quickfix.txt">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1588596171085" ID="ID_402279402" MODIFIED="1588596176467" TEXT="56.6 Other Languages">
+<node CREATED="1588596171085" FOLDED="true" ID="ID_402279402" MODIFIED="1588596176467" TEXT="56.6 Other Languages">
 <node CREATED="1588596184351" ID="ID_713044098" MODIFIED="1588596190318" TEXT="Can script VIm in different languages"/>
 <node CREATED="1588596204396" ID="ID_671203169" MODIFIED="1588596211640" TEXT=":help &lt;language&gt;">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1588596214051" ID="ID_1989575521" MODIFIED="1588596220655" TEXT="56.7 Vim&apos;s Documentation">
+<node CREATED="1588596214051" FOLDED="true" ID="ID_1989575521" MODIFIED="1588596220655" TEXT="56.7 Vim&apos;s Documentation">
 <node CREATED="1588596227356" ID="ID_685137200" MODIFIED="1588596231047" TEXT="Pretty useful helps"/>
 <node CREATED="1588596233903" ID="ID_1484136074" MODIFIED="1588596234439" TEXT=":help various-motions"/>
 <node CREATED="1588596236811" ID="ID_338296988" MODIFIED="1588596237663" TEXT=":help sign-support"/>
@@ -3274,7 +3275,7 @@ hello('Steve')</code></pre>
 <node CREATED="1588596268168" ID="ID_1566231320" MODIFIED="1588596268613" TEXT=":help usr_32.txt"/>
 <node CREATED="1588596271074" ID="ID_1262940377" MODIFIED="1588596271571" TEXT=":help usr_42.txt"/>
 </node>
-<node CREATED="1588596275364" ID="ID_1443834114" MODIFIED="1588596280584" TEXT="56.8 Exercises">
+<node CREATED="1588596275364" FOLDED="true" ID="ID_1443834114" MODIFIED="1588596280584" TEXT="56.8 Exercises">
 <node CREATED="1588596280798" ID="ID_1210285229" MODIFIED="1588596287528" TEXT="Go writing a Vim Plugin!"/>
 </node>
 </node>
