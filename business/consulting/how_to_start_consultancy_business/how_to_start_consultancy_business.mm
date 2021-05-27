@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1621949436434" ID="ID_969509893" LINK="https://www.consultingsuccess.com/how-to-start-a-consulting-business" MODIFIED="1621949446692" TEXT="How To Start a Consultancy Business">
-<node CREATED="1621949673326" ID="ID_1543417204" MODIFIED="1621949693892" POSITION="right" TEXT="Introduction">
+<node CREATED="1621949673326" FOLDED="true" ID="ID_1543417204" MODIFIED="1621949693892" POSITION="right" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1621949470910" ID="ID_1384207657" MODIFIED="1621949476458" TEXT="Consulting definition">
 <node CREATED="1621949476647" ID="ID_961909049" MODIFIED="1621949483027" TEXT="Business of giving expert advice"/>
@@ -14,7 +14,7 @@
 </node>
 <node CREATED="1621949456407" ID="ID_707633667" MODIFIED="1621949457611" POSITION="right" TEXT="Choose Your Consulting Business Model">
 <icon BUILTIN="full-1"/>
-<node CREATED="1621949568174" ID="ID_1200574030" MODIFIED="1621949987438" TEXT="The Solo Consultant Model">
+<node CREATED="1621949568174" FOLDED="true" ID="ID_1200574030" MODIFIED="1621949987438" TEXT="The Solo Consultant Model">
 <icon BUILTIN="full-1"/>
 <node CREATED="1621949576368" ID="ID_1946737956" MODIFIED="1621949580362" TEXT="Work closely with clients"/>
 <node CREATED="1621949580671" ID="ID_1807376252" MODIFIED="1621949595987" TEXT="Complete the project work yourself"/>
@@ -33,7 +33,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1621949666765" ID="ID_1644071271" MODIFIED="1621949987987" TEXT="The Consulting Firm Model">
+<node CREATED="1621949666765" FOLDED="true" ID="ID_1644071271" MODIFIED="1621949987987" TEXT="The Consulting Firm Model">
 <icon BUILTIN="full-2"/>
 <node CREATED="1621949698551" ID="ID_1773852960" MODIFIED="1621949704577" TEXT="Responsible for running the firm"/>
 <node CREATED="1621949705569" ID="ID_679723688" MODIFIED="1621949712098" TEXT="Don&apos;t just work on client projects"/>
@@ -43,12 +43,12 @@
 <node CREATED="1621949790302" ID="ID_319468214" MODIFIED="1621949794267" TEXT="Would like to sell one day"/>
 </node>
 <node CREATED="1621949795241" ID="ID_1704411582" MODIFIED="1621949801705" TEXT="Drawbacks">
-<node CREATED="1621949807154" ID="ID_1059294425" MODIFIED="1621949812458" TEXT="Don&apos;t like managing people"/>
-<node CREATED="1621949812928" ID="ID_559115806" MODIFIED="1621949819829" TEXT="Don&apos;t like the idea of lower profit margin"/>
-<node CREATED="1621949820173" ID="ID_1661755812" MODIFIED="1621949826345" TEXT="Feel stress about making payroll"/>
+<node CREATED="1621949807154" ID="ID_1059294425" MODIFIED="1622014553410" TEXT="Need to manage people"/>
+<node CREATED="1621949812928" ID="ID_559115806" MODIFIED="1622014559170" TEXT="Lower profit margin"/>
+<node CREATED="1621949820173" ID="ID_1661755812" MODIFIED="1622014568107" TEXT="Making payroll can be stressful"/>
 </node>
 </node>
-<node CREATED="1621949828013" ID="ID_152972931" MODIFIED="1621949988899" TEXT="The productized consulting model">
+<node CREATED="1621949828013" FOLDED="true" ID="ID_152972931" MODIFIED="1621949988899" TEXT="The productized consulting model">
 <icon BUILTIN="full-3"/>
 <node CREATED="1621949836079" ID="ID_346618803" MODIFIED="1621949844431" TEXT="Turn experience into &quot;productized service&quot;">
 <node CREATED="1621949849021" ID="ID_1797196118" MODIFIED="1621949854432" TEXT="Repeatable series of steps"/>
@@ -67,7 +67,7 @@
 <node CREATED="1621949959323" ID="ID_1568956281" MODIFIED="1621949968664" TEXT="... before you&apos;re ready to turn it into repeatable process"/>
 </node>
 </node>
-<node CREATED="1621949970911" ID="ID_246200909" MODIFIED="1621949989561" TEXT="The Hybrid Consulting Model">
+<node CREATED="1621949970911" FOLDED="true" ID="ID_246200909" MODIFIED="1621949989561" TEXT="The Hybrid Consulting Model">
 <icon BUILTIN="full-4"/>
 <node CREATED="1621949980912" ID="ID_757767233" MODIFIED="1621949986049" TEXT="Mixture of the 3 above"/>
 <node CREATED="1621949993354" ID="ID_1546286562" MODIFIED="1621949997582" TEXT="Pick and choose what you want"/>
@@ -90,7 +90,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1621950126228" ID="ID_1542156695" MODIFIED="1621950133778" POSITION="right" TEXT="Get Clear On Your Ideal Client">
+<node CREATED="1621950126228" FOLDED="true" ID="ID_1542156695" MODIFIED="1621950133778" POSITION="right" TEXT="Get Clear On Your Ideal Client">
 <icon BUILTIN="full-2"/>
 <node CREATED="1621950137459" ID="ID_272852843" MODIFIED="1621950143158" TEXT="Most important question to answer"/>
 <node CREATED="1621950152260" ID="ID_1041453127" MODIFIED="1621951140908" TEXT="The Big Fish in A Small Pond Mindset">
@@ -114,26 +114,25 @@
   <body>
     <img src="niche_scoring_method.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1621950369398" ID="ID_1451285498" MODIFIED="1621950581612" TEXT="Experience">
+<node CREATED="1621950369398" FOLDED="true" ID="ID_1451285498" MODIFIED="1621950581612" TEXT="Experience">
 <node CREATED="1621950578804" MODIFIED="1621950578804" TEXT="How would you rate your experience with this niche?"/>
 </node>
-<node CREATED="1621950369402" ID="ID_548749345" MODIFIED="1621950585886" TEXT="Expertise">
+<node CREATED="1621950369402" FOLDED="true" ID="ID_548749345" MODIFIED="1621950585886" TEXT="Expertise">
 <node CREATED="1621950586716" MODIFIED="1621950586716" TEXT="How would you rate your status as an expert within this niche?"/>
 </node>
-<node CREATED="1621950369403" ID="ID_1070709954" MODIFIED="1621950591128" TEXT="Results">
+<node CREATED="1621950369403" FOLDED="true" ID="ID_1070709954" MODIFIED="1621950591128" TEXT="Results">
 <node CREATED="1621950591676" MODIFIED="1621950591676" TEXT="How would you rate your confidence that you can deliver results for this niche?"/>
 </node>
-<node CREATED="1621950369403" ID="ID_1466532324" MODIFIED="1621950598694" TEXT="Potential">
+<node CREATED="1621950369403" FOLDED="true" ID="ID_1466532324" MODIFIED="1621950598694" TEXT="Potential">
 <node CREATED="1621950599419" ID="ID_630510934" MODIFIED="1621950601679" TEXT="How would you rate this niche&#x2019;s growth and how willing they are to hire consultants?"/>
 </node>
-<node CREATED="1621950369406" ID="ID_1500022849" MODIFIED="1621950605678" TEXT="Interest">
+<node CREATED="1621950369406" FOLDED="true" ID="ID_1500022849" MODIFIED="1621950605678" TEXT="Interest">
 <node CREATED="1621950606387" MODIFIED="1621950606387" TEXT="How would you rate your interest in this niche?"/>
 </node>
-<node CREATED="1621950369407" ID="ID_1039913584" MODIFIED="1621950610414" TEXT="Access">
+<node CREATED="1621950369407" FOLDED="true" ID="ID_1039913584" MODIFIED="1621950610414" TEXT="Access">
 <node CREATED="1621950610971" ID="ID_1478741787" MODIFIED="1621950610971" TEXT="How would you rate your ability to speak with ideal clients in this niche?"/>
 </node>
 </node>
@@ -207,14 +206,14 @@
 <node CREATED="1621951046561" ID="ID_1600749821" MODIFIED="1621951049292" TEXT="Calling prospect"/>
 <node CREATED="1621951049616" ID="ID_1083596386" MODIFIED="1621951059725" TEXT="Big part of marketing and sales"/>
 </node>
-<node CREATED="1621951088028" ID="ID_838723362" MODIFIED="1621951090461" TEXT="Idea client">
+<node CREATED="1621951088028" ID="ID_838723362" MODIFIED="1622016363795" TEXT="Ideal client">
 <node CREATED="1621951090650" ID="ID_1563683510" MODIFIED="1621951093477" TEXT="Who you serve"/>
 <node CREATED="1621951094311" ID="ID_1559510901" MODIFIED="1621951098041" TEXT="Who you add value to"/>
 </node>
 <node CREATED="1621951098618" ID="ID_344559705" MODIFIED="1621951103916" TEXT="... is the foundation of consulting business"/>
 </node>
 </node>
-<node CREATED="1621951143841" ID="ID_1292394165" MODIFIED="1621951152422" POSITION="right" TEXT="Write Messaging That Attracts Clients">
+<node CREATED="1621951143841" FOLDED="true" ID="ID_1292394165" MODIFIED="1621951152422" POSITION="right" TEXT="Write Messaging That Attracts Clients">
 <icon BUILTIN="full-3"/>
 <node CREATED="1621951469063" ID="ID_1686565254" MODIFIED="1621951472123" TEXT="Good messaging">
 <node CREATED="1621951472352" ID="ID_183625834" MODIFIED="1621951483052" TEXT="Ideal client feel"/>
@@ -276,8 +275,7 @@
   <body>
     <img src="magnetic_message.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1621951798448" ID="ID_970733422" MODIFIED="1621951801683" TEXT="Example">
@@ -317,7 +315,6 @@
 </node>
 <node CREATED="1621952009142" ID="ID_1820332725" MODIFIED="1621952017375" POSITION="right" TEXT="Create and Price Your Consulting Offer">
 <icon BUILTIN="full-4"/>
-<node CREATED="1621952048479" ID="ID_1022751485" MODIFIED="1621952054730" TEXT="Create and price your strategic consulting offer"/>
 <node CREATED="1621952056623" FOLDED="true" ID="ID_1659705123" MODIFIED="1621952064553" TEXT="Ideal client has a series of problem">
 <node CREATED="1621952064717" ID="ID_629372752" MODIFIED="1621952066942" TEXT="You have the">
 <node CREATED="1621952067164" ID="ID_820949063" MODIFIED="1621952068559" TEXT="expertise"/>
@@ -326,9 +323,10 @@
 <node CREATED="1621952072380" ID="ID_1450620492" MODIFIED="1621952077193" TEXT="... to carry out and solve problems"/>
 <node CREATED="1621952081119" ID="ID_169849645" MODIFIED="1621952090245" TEXT="Able to create client&apos;s desired results"/>
 </node>
-<node CREATED="1621952114168" FOLDED="true" ID="ID_911963777" MODIFIED="1621952118113" TEXT="Complex topic">
-<node CREATED="1621952118269" ID="ID_621184103" MODIFIED="1621952121528" TEXT="Different strategies"/>
-<node CREATED="1621952121821" ID="ID_1067542898" MODIFIED="1621952127873" TEXT="... for beginners and expert consultant"/>
+<node CREATED="1621952114168" ID="ID_911963777" MODIFIED="1621952118113" TEXT="Complex topic"/>
+<node CREATED="1621952118269" ID="ID_621184103" MODIFIED="1622017624030" TEXT="Different strategies for consultants">
+<node CREATED="1622017615218" ID="ID_183561519" MODIFIED="1622017625830" TEXT="beginner"/>
+<node CREATED="1622017618654" ID="ID_995432838" MODIFIED="1622017627638" TEXT="expert"/>
 </node>
 <node CREATED="1621952107593" FOLDED="true" ID="ID_769235611" MODIFIED="1621952111411" TEXT="Set Your Consulting Fees">
 <icon BUILTIN="full-1"/>
@@ -489,7 +487,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1621953053178" ID="ID_350895183" MODIFIED="1621953060287" POSITION="right" TEXT="Rev Up Your Marketing Engine ">
+<node CREATED="1621953053178" FOLDED="true" ID="ID_350895183" MODIFIED="1621953060287" POSITION="right" TEXT="Rev Up Your Marketing Engine ">
 <icon BUILTIN="full-5"/>
 <node CREATED="1621953068500" ID="ID_1388384982" MODIFIED="1621953075146" TEXT="Early on consulting business"/>
 <node CREATED="1621953075533" ID="ID_718009356" MODIFIED="1621953077810" TEXT="... client won&apos;t come"/>
@@ -580,8 +578,7 @@
   <body>
     <img src="weekly_marketing_schedule.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1621953770999" ID="ID_21520831" MODIFIED="1621953779852" TEXT="Early-stage consultant spend more time">
@@ -622,7 +619,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1621953914500" ID="ID_982903330" MODIFIED="1621953928765" POSITION="right" TEXT="Generate Meaningful Conversations">
+<node CREATED="1621953914500" FOLDED="true" ID="ID_982903330" MODIFIED="1621953928765" POSITION="right" TEXT="Generate Meaningful Conversations">
 <icon BUILTIN="full-6"/>
 <node CREATED="1621953932894" ID="ID_1274609120" MODIFIED="1621953948648" TEXT="Sales come next"/>
 <node CREATED="1621953951911" FOLDED="true" ID="ID_1152119320" MODIFIED="1621954447007" TEXT="The Truth About Consulting Sales">
@@ -739,7 +736,7 @@
 <node CREATED="1621954617301" ID="ID_1218429413" MODIFIED="1621954623569" TEXT="Selling is integral to consulting business"/>
 </node>
 </node>
-<node CREATED="1621954641854" ID="ID_594090128" MODIFIED="1621954645270" POSITION="right" TEXT="What Comes Next? Start A Consulting Business Checklist">
+<node CREATED="1621954641854" FOLDED="true" ID="ID_594090128" MODIFIED="1621954645270" POSITION="right" TEXT="What Comes Next? Start A Consulting Business Checklist">
 <icon BUILTIN="full-7"/>
 <node CREATED="1621954650046" ID="ID_1529189479" MODIFIED="1621954654804" TEXT="Getting clients is the most difficult"/>
 <node CREATED="1621954659509" ID="ID_1916263260" MODIFIED="1621954663475" TEXT="Crucial skill"/>
