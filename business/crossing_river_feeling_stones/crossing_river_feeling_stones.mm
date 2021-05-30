@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1620404261209" ID="ID_1749212691" MODIFIED="1620404291811" TEXT="Crossing the river by feeling the stones">
+<node CREATED="1620404261209" ID="ID_1749212691" LINK="https://www.youtube.com/watch?v=2IW9L1uNMCs" MODIFIED="1622382212591" TEXT="Crossing the river by feeling the stones">
 <node CREATED="1620404977382" ID="ID_53246077" MODIFIED="1620414711749" POSITION="right" TEXT="Strategy">
 <icon BUILTIN="full-1"/>
 <node CREATED="1620404320520" ID="ID_295865021" MODIFIED="1620404322716" TEXT="Blahs">
@@ -87,8 +87,7 @@
   <body>
     <img src="./swot_as_map.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -174,8 +173,7 @@
   <body>
     <img src="./map_with_anchor.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620409071650" FOLDED="true" ID="ID_452857395" MODIFIED="1620409196245" TEXT="Add movement">
@@ -188,8 +186,7 @@
   <body>
     <img src="./map_with_movement.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -249,8 +246,7 @@
   <body>
     <img src="./climate_map.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620412573313" FOLDED="true" ID="ID_1742919324" MODIFIED="1620412610371" TEXT="Not one methodology fits them all">
@@ -263,8 +259,7 @@
   <body>
     <img src="./no_methodology_fits_them_all.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620412689905" FOLDED="true" ID="ID_104247362" MODIFIED="1620412699084" TEXT="Example">
@@ -278,8 +273,7 @@
   <body>
     <img src="./climate_map_example.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1620412882257" ID="ID_1250732334" MODIFIED="1620412888252" TEXT="Custom built can&apos;t be contracted"/>
 <node CREATED="1620412888616" ID="ID_1937915717" MODIFIED="1620412892141" TEXT="... because it changes all the time"/>
@@ -312,8 +306,7 @@
   <body>
     <img src="./business_case.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1620413209184" ID="ID_177530619" MODIFIED="1620413214394" TEXT="No context whatsoever"/>
 <node CREATED="1620413220975" ID="ID_1712299326" MODIFIED="1620413225539" TEXT="Take decision on that basis"/>
@@ -340,8 +333,7 @@
   <body>
     <img src="./01_history_compute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620414327097" FOLDED="true" ID="ID_373661172" MODIFIED="1620414600681" TEXT="img">
@@ -355,8 +347,7 @@
   <body>
     <img src="./02_history_compute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620414328522" FOLDED="true" ID="ID_1084834235" MODIFIED="1620414603833" TEXT="img">
@@ -370,8 +361,7 @@
   <body>
     <img src="./03_history_compute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620414329521" FOLDED="true" ID="ID_283500324" MODIFIED="1620414607465" TEXT="img">
@@ -385,8 +375,7 @@
   <body>
     <img src="./04_history_compute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620414330649" FOLDED="true" ID="ID_642505473" MODIFIED="1620414609947" TEXT="img">
@@ -400,8 +389,7 @@
   <body>
     <img src="./05_history_compute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620414331955" FOLDED="true" ID="ID_1357959202" MODIFIED="1620414613098" TEXT="img">
@@ -415,8 +403,7 @@
   <body>
     <img src="./06_history_compute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620414335049" FOLDED="true" ID="ID_198074324" MODIFIED="1620414616233" TEXT="img">
@@ -430,8 +417,7 @@
   <body>
     <img src="./07_history_compute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620414336218" FOLDED="true" ID="ID_168308637" MODIFIED="1620414623041" TEXT="img">
@@ -445,8 +431,7 @@
   <body>
     <img src="./08_history_compute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620414337209" FOLDED="true" ID="ID_1030830086" MODIFIED="1620414625537" TEXT="img">
@@ -460,8 +445,7 @@
   <body>
     <img src="./09_history_compute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620414340523" FOLDED="true" ID="ID_567964492" MODIFIED="1620414629816" TEXT="img">
@@ -476,8 +460,7 @@
   <body>
     <img src="./10_history_compute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620414473273" FOLDED="true" ID="ID_1576733973" MODIFIED="1620414633490" TEXT="img">
@@ -492,8 +475,7 @@
   <body>
     <img src="./11_history_compute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620414476121" FOLDED="true" ID="ID_165970822" MODIFIED="1620414636679" TEXT="img">
@@ -508,8 +490,7 @@
   <body>
     <img src="./12_history_compute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620414477938" FOLDED="true" ID="ID_1443909140" MODIFIED="1620414645737" TEXT="img">
@@ -524,8 +505,7 @@
   <body>
     <img src="./13_history_compute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -543,8 +523,7 @@
   <body>
     <img src="./strategy_circle.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620414684472" ID="ID_1948394128" MODIFIED="1620414687518" TEXT="Iterative process"/>

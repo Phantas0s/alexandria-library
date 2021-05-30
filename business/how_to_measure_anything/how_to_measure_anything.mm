@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1534771139116" ID="ID_305672683" MODIFIED="1619609981494" TEXT="How to measure anything">
+<node CREATED="1534771139116" ID="ID_305672683" MODIFIED="1622379536045" TEXT="How to measure anything">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -514,8 +514,7 @@
       See PDF page 77 / 78
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1535295384402" ID="ID_1392138391" MODIFIED="1535295397584" TEXT="Equivalent bet">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1535293992194" ID="ID_1044030555" MODIFIED="1535293999730" TEXT="Telling yourself you bet money">

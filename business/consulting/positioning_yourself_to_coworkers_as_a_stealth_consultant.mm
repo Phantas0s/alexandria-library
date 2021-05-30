@@ -1,18 +1,15 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1548306839026" ID="ID_1589180532" LINK="https://daedtech.com/positioning-yourself-to-coworkers-as-a-stealth-consultant/" MODIFIED="1548308144855" TEXT="Positioning Yourself to Coworkers as a Stealth Consultant">
-<node CREATED="1548307093618" FOLDED="true" ID="ID_1252217681" MODIFIED="1551333039097" POSITION="right" TEXT="Internal company positioning">
+<node CREATED="1548307093618" ID="ID_1252217681" MODIFIED="1551333039097" POSITION="right" TEXT="Internal company positioning">
 <icon BUILTIN="full-1"/>
 <node CREATED="1548307060629" ID="ID_1672408600" MODIFIED="1548307079291" TEXT="As an engineer, how to &quot;signal&quot; your positioning">
 <node CREATED="1548307079292" ID="ID_1091169160" MODIFIED="1548307081727" TEXT="to management?"/>
 </node>
 <node CREATED="1548307103828" ID="ID_1664629350" MODIFIED="1548307107177" TEXT="Worst strategy">
-<node CREATED="1548307107388" ID="ID_1500088783" MODIFIED="1548307116000" TEXT="Went through hiring process">
-<node CREATED="1548307116196" ID="ID_1633413227" MODIFIED="1548307117169" TEXT="Means">
+<node CREATED="1548307107388" ID="ID_1500088783" MODIFIED="1548307116000" TEXT="Went through hiring process"/>
 <node CREATED="1548307117355" ID="ID_475731678" MODIFIED="1548307122912" TEXT="Your are replaceable"/>
 <node CREATED="1548307123396" ID="ID_1664747979" MODIFIED="1548307141856" TEXT="You&apos;re only slightly better"/>
-</node>
-</node>
 </node>
 </node>
 <node CREATED="1548307223162" FOLDED="true" ID="ID_1629614942" MODIFIED="1551333038114" POSITION="right" TEXT="Tell everyone it&apos;s your speciality">

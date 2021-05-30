@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1535716048358" ID="ID_938706386" LINK="https://www.kalzumeus.com/2010/03/20/running-a-software-business-on-5-hours-a-week/" MODIFIED="1619611739308" TEXT="A software business five hours a week">
+<node CREATED="1535716048358" ID="ID_938706386" LINK="https://www.kalzumeus.com/2010/03/20/running-a-software-business-on-5-hours-a-week/" MODIFIED="1622379535186" TEXT="A software business five hours a week">
 <richcontent TYPE="NOTE"><html>
   <head>
     
