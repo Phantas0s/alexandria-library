@@ -28,8 +28,7 @@
       <em class="markup--em markup--pullquote-em">&#8212; Robert M. Galford, &#8220;The Trusted&#160;Advisor&#8221;</em>
     </blockquote>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-2"/>
 <node CREATED="1553800862460" ID="ID_1847328010" MODIFIED="1553800869192" TEXT="No magic formula to build trust"/>
 <node CREATED="1553800892491" ID="ID_153033620" MODIFIED="1553800902288" TEXT="You need to constantly reinforce the message">
@@ -161,7 +160,7 @@
 <icon BUILTIN="full-1"/>
 <node CREATED="1553801718667" ID="ID_318264729" MODIFIED="1553801726184" TEXT="Guy in front of a computer punching keyboard"/>
 </node>
-<node CREATED="1553801765275" ID="ID_942381961" MODIFIED="1621352308248" TEXT="Prerequisites to give advise">
+<node CREATED="1553801765275" FOLDED="true" ID="ID_942381961" MODIFIED="1621352308248" TEXT="Prerequisites to give advise">
 <icon BUILTIN="full-2"/>
 <node CREATED="1553801790796" ID="ID_169000894" MODIFIED="1553801794273" TEXT="Expertise"/>
 <node CREATED="1553801794771" ID="ID_813568525" MODIFIED="1553801795953" TEXT="Trust"/>
@@ -207,7 +206,7 @@
 <node CREATED="1553802019161" ID="ID_548300660" MODIFIED="1553802020723" TEXT="&#x201c;What is the best/worst thing that can happen?&#x201d;"/>
 </node>
 </node>
-<node CREATED="1553802050177" FOLDED="true" ID="ID_1099373673" MODIFIED="1553802386316" TEXT="Don&apos;t jump to conclusion">
+<node CREATED="1553802050177" ID="ID_1099373673" MODIFIED="1553802386316" TEXT="Don&apos;t jump to conclusion">
 <icon BUILTIN="full-4"/>
 <node CREATED="1553802085296" ID="ID_372375916" MODIFIED="1553802092469" TEXT="If problem look similar to another">
 <node CREATED="1553802092627" ID="ID_1517974885" MODIFIED="1553802095951" TEXT="Keep solution for you"/>

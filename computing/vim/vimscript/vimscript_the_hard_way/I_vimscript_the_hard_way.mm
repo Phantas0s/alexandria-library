@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1622007403784" TEXT="Vimscript the Hard Way">
+<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1622698214032" TEXT="Vimscript the Hard Way">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -593,7 +593,7 @@
 </node>
 <node CREATED="1587744500071" ID="ID_374308438" MODIFIED="1587744504580" TEXT="13.2 Exercises"/>
 </node>
-<node CREATED="1587744604405" ID="ID_1662287652" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/14.html" MODIFIED="1587999447122" POSITION="right" TEXT="Autocommand Groups">
+<node CREATED="1587744604405" FOLDED="true" ID="ID_1662287652" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/14.html" MODIFIED="1587999447122" POSITION="right" TEXT="Autocommand Groups">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-4"/>
 <node CREATED="1587744765788" ID="ID_1422775612" MODIFIED="1587995197110" TEXT="Introduction">
@@ -2290,7 +2290,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588248656165" ID="ID_853615789" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/41.html" MODIFIED="1588248669162" POSITION="left" TEXT="Creating a Full Plugin">
+<node CREATED="1588248656165" FOLDED="true" ID="ID_853615789" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/41.html" MODIFIED="1588248669162" POSITION="left" TEXT="Creating a Full Plugin">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1588248677119" FOLDED="true" ID="ID_426419919" LINK="http://perl11.org/potion/index.html" MODIFIED="1588248690398" TEXT="41.1 Potion">
@@ -2300,7 +2300,7 @@
 </node>
 <node CREATED="1588248706732" ID="ID_1490914498" MODIFIED="1588248711211" TEXT="41.2 Exercises"/>
 </node>
-<node CREATED="1588248723157" ID="ID_855092661" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/42.html" MODIFIED="1588248737915" POSITION="left" TEXT="Plugin Layout in the Dark Ages">
+<node CREATED="1588248723157" FOLDED="true" ID="ID_855092661" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/42.html" MODIFIED="1588248737915" POSITION="left" TEXT="Plugin Layout in the Dark Ages">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1588248936009" FOLDED="true" ID="ID_1551331842" MODIFIED="1588248941881" TEXT="42.1 Basic Layout">
@@ -2387,7 +2387,7 @@
 </node>
 <node CREATED="1588250777639" ID="ID_544440376" MODIFIED="1588250782277" TEXT="42.9 Exercises"/>
 </node>
-<node CREATED="1588250960317" ID="ID_1419026672" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/43.html" MODIFIED="1588250981142" POSITION="left" TEXT="A New Hope: Plugin Layout with Pathogen">
+<node CREATED="1588250960317" FOLDED="true" ID="ID_1419026672" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/43.html" MODIFIED="1588250981142" POSITION="left" TEXT="A New Hope: Plugin Layout with Pathogen">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1588250985993" FOLDED="true" ID="ID_1612454450" MODIFIED="1588250991650" TEXT="43.1 Runtimepath">
@@ -2407,7 +2407,7 @@
 <node CREATED="1588251184934" ID="ID_370221787" MODIFIED="1588251188365" TEXT="43.3 Being Pathogen-Compatible"/>
 <node CREATED="1588251671314" ID="ID_96113830" MODIFIED="1588251674672" TEXT="43.4 Exercises"/>
 </node>
-<node CREATED="1588251679218" ID="ID_1621401125" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/44.html" MODIFIED="1588251700703" POSITION="left" TEXT="Detecting Filetypes">
+<node CREATED="1588251679218" FOLDED="true" ID="ID_1621401125" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/44.html" MODIFIED="1588251700703" POSITION="left" TEXT="Detecting Filetypes">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-4"/>
 <node CREATED="1588251718766" ID="ID_1609989177" MODIFIED="1588251721025" TEXT="44.1 Detecting Potion Files"/>
@@ -2420,7 +2420,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588328758035" ID="ID_986946968" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/45.html" MODIFIED="1588328762545" POSITION="left" TEXT="Basic Syntax Highlighting">
+<node CREATED="1588328758035" FOLDED="true" ID="ID_986946968" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/45.html" MODIFIED="1588328762545" POSITION="left" TEXT="Basic Syntax Highlighting">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-5"/>
 <node CREATED="1588328830750" FOLDED="true" ID="ID_892432673" MODIFIED="1588328833475" TEXT="Introduction">
@@ -2474,7 +2474,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588333311940" ID="ID_1852267354" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/46.html" MODIFIED="1588333325432" POSITION="left" TEXT="Advanced Syntax Highlighting">
+<node CREATED="1588333311940" FOLDED="true" ID="ID_1852267354" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/46.html" MODIFIED="1588333325432" POSITION="left" TEXT="Advanced Syntax Highlighting">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-6"/>
 <node CREATED="1588333564403" FOLDED="true" ID="ID_650971740" MODIFIED="1588333572697" TEXT="46.1 Highlighting Comments">
@@ -2717,7 +2717,7 @@ hello('Steve')</code></pre>
 </node>
 </node>
 </node>
-<node CREATED="1588440086319" ID="ID_813868043" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/50.html" MODIFIED="1588440100214" POSITION="left" TEXT="Section Movement Theory">
+<node CREATED="1588440086319" FOLDED="true" ID="ID_813868043" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/50.html" MODIFIED="1588440100214" POSITION="left" TEXT="Section Movement Theory">
 <icon BUILTIN="full-5"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1588440111529" ID="ID_1313628486" MODIFIED="1588440114103" TEXT="Introduction">
@@ -2876,7 +2876,7 @@ hello('Steve')</code></pre>
 </node>
 </node>
 </node>
-<node CREATED="1588579977187" ID="ID_674339000" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/52.html" MODIFIED="1588579983617" POSITION="left" TEXT="External Commands">
+<node CREATED="1588579977187" FOLDED="true" ID="ID_674339000" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/52.html" MODIFIED="1588579983617" POSITION="left" TEXT="External Commands">
 <icon BUILTIN="full-5"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1588580011612" FOLDED="true" ID="ID_52270970" MODIFIED="1588580013471" TEXT="Introduction">
@@ -3210,7 +3210,7 @@ hello('Steve')</code></pre>
 </node>
 <node CREATED="1588595414449" ID="ID_852996017" MODIFIED="1588595417535" TEXT="55.4 Exercises"/>
 </node>
-<node CREATED="1588595427154" ID="ID_1189638211" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/56.html" MODIFIED="1588595433924" POSITION="left" TEXT="What now?">
+<node CREATED="1588595427154" FOLDED="true" ID="ID_1189638211" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/56.html" MODIFIED="1588595433924" POSITION="left" TEXT="What now?">
 <icon BUILTIN="full-5"/>
 <icon BUILTIN="full-6"/>
 <node CREATED="1588595443981" FOLDED="true" ID="ID_897739827" MODIFIED="1588595447752" TEXT="56.1 Color Schemes">
