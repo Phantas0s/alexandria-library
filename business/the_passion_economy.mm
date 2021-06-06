@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1622705526682" ID="ID_1616563006" MODIFIED="1622705532911" TEXT="The Passion Economy">
+<node CREATED="1622705526682" ID="ID_1616563006" LINK="https://www.thebusinessofauthority.com/episodes/the-passion-economy-with-adam-davidson" MODIFIED="1622715280275" TEXT="The Passion Economy">
 <node CREATED="1622705705520" ID="ID_165273969" MODIFIED="1622709077058" POSITION="right" TEXT="Passion">
 <icon BUILTIN="full-1"/>
 <node CREATED="1622705734008" ID="ID_971995574" MODIFIED="1622705741789" TEXT="Suffering of Jesus on the cross"/>
