@@ -1,0 +1,130 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1623343469960" ID="ID_345465988" LINK="https://www.thebusinessofauthority.com/episodes/getting-the-best-answers" MODIFIED="1623343476029" TEXT="Getting the best answers">
+<node CREATED="1623343530194" ID="ID_1929686038" MODIFIED="1623345687606" POSITION="right" TEXT="In what case you would ask questions?">
+<icon BUILTIN="full-1"/>
+<node CREATED="1623343563691" ID="ID_385745073" MODIFIED="1623343698518" TEXT="Reaching target marketing">
+<node CREATED="1623343698921" ID="ID_984948589" MODIFIED="1623343699765" TEXT="For">
+<node CREATED="1623343572602" ID="ID_1102597858" MODIFIED="1623343701831" TEXT="product"/>
+<node CREATED="1623343574131" ID="ID_690970877" MODIFIED="1623343575704" TEXT="service"/>
+<node CREATED="1623343576073" ID="ID_1457894384" MODIFIED="1623343578790" TEXT="productized service"/>
+</node>
+<node CREATED="1623343581330" ID="ID_1423190035" MODIFIED="1623343588606" TEXT="Just want to have feedback"/>
+<node CREATED="1623343591937" ID="ID_620837502" MODIFIED="1623343602229" TEXT="Incredibly beneficial to find people helping others"/>
+</node>
+<node CREATED="1623343676708" ID="ID_24383863" MODIFIED="1623343681117" TEXT="Podcast tours">
+<node CREATED="1623343681570" ID="ID_130431996" MODIFIED="1623343689453" TEXT="Ask hosts to have you"/>
+<node CREATED="1623343689801" ID="ID_692319699" MODIFIED="1623343691836" TEXT="How to ask that?"/>
+</node>
+<node CREATED="1623343708016" ID="ID_27176554" MODIFIED="1623343710509" TEXT="Training / coaching">
+<node CREATED="1623343715944" ID="ID_611636342" MODIFIED="1623343722701" TEXT="Want to get feedback on your work"/>
+<node CREATED="1623343738264" ID="ID_1699601229" MODIFIED="1623343744078" TEXT="Lost in the weed"/>
+<node CREATED="1623343745237" ID="ID_1170834081" MODIFIED="1623343747485" TEXT="Ask for">
+<node CREATED="1623343747689" ID="ID_103972171" MODIFIED="1623343748789" TEXT="coach"/>
+<node CREATED="1623343749132" ID="ID_893003827" MODIFIED="1623343749853" TEXT="mentor"/>
+<node CREATED="1623343750208" ID="ID_38697209" MODIFIED="1623343751253" TEXT="hero"/>
+</node>
+</node>
+</node>
+<node CREATED="1623343493811" ID="ID_1204234076" MODIFIED="1623345688565" POSITION="right" TEXT="Where to ask questions?">
+<icon BUILTIN="full-2"/>
+<node CREATED="1623343512282" ID="ID_540782780" MODIFIED="1623343515118" TEXT="Linkedin is very good"/>
+<node CREATED="1623343515434" ID="ID_687009608" MODIFIED="1623343516278" TEXT="Emails"/>
+</node>
+<node CREATED="1623343800049" ID="ID_1986499430" MODIFIED="1623345689204" POSITION="right" TEXT="Picking the person you gonna ask">
+<icon BUILTIN="full-3"/>
+<node CREATED="1623343813024" ID="ID_1484925119" MODIFIED="1623343821932" TEXT="Ask people with relevant opinion"/>
+<node CREATED="1623343892118" ID="ID_1702775892" MODIFIED="1623344306141" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1623343887744" ID="ID_1334721852" MODIFIED="1623343891764" TEXT="User of your product"/>
+</node>
+</node>
+<node CREATED="1623343900823" ID="ID_1574171148" MODIFIED="1623345689892" POSITION="right" TEXT="Market research">
+<icon BUILTIN="full-4"/>
+<node CREATED="1623343904120" ID="ID_826040468" MODIFIED="1623343908084" TEXT="Want to test a little bit"/>
+<node CREATED="1623343908414" ID="ID_1316984790" MODIFIED="1623343915412" TEXT="Want to see if there&apos;s an appetite"/>
+<node CREATED="1623343929224" FOLDED="true" ID="ID_1613777457" MODIFIED="1623344289626" TEXT="Can be come across as SALES if you don&apos;t know person">
+<node CREATED="1623343952624" ID="ID_1604431300" MODIFIED="1623343961636" TEXT="&quot;Would you be okay if I can ask you a question?&quot;">
+<node CREATED="1623344012088" ID="ID_253395206" MODIFIED="1623344024867" TEXT="Asking for permission"/>
+<node CREATED="1623344015399" ID="ID_1342748926" MODIFIED="1623344023939" TEXT="It&apos;s OK especially if you don&apos;t the person"/>
+</node>
+<node CREATED="1623343979447" ID="ID_439979876" MODIFIED="1623343983700" TEXT="That&apos;s all for the beginning">
+<node CREATED="1623343983928" ID="ID_1815937379" MODIFIED="1623343989955" TEXT="If you ask the question directly"/>
+<node CREATED="1623343991512" ID="ID_1883969183" MODIFIED="1623343994283" TEXT="... it doesn&apos;t work"/>
+</node>
+<node CREATED="1623344049575" ID="ID_1783336712" MODIFIED="1623344059042" TEXT="You need to come across as massively polite">
+<node CREATED="1623344059247" ID="ID_170382249" MODIFIED="1623344061827" TEXT="Not pushy"/>
+<node CREATED="1623344063879" ID="ID_1593801216" MODIFIED="1623344067611" TEXT="Limit timid"/>
+</node>
+<node CREATED="1623344078231" ID="ID_1496202090" MODIFIED="1623344092603" TEXT="&quot;I Want to build a product but I don&apos;t want to do it if it doesn&apos;t help anybody&quot;"/>
+<node CREATED="1623344093103" ID="ID_1033044860" MODIFIED="1623344143091" TEXT="Ask your question">
+<node CREATED="1623344143623" ID="ID_1621201902" MODIFIED="1623344156028" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1623344111431" ID="ID_39562395" MODIFIED="1623344147221" TEXT="What is your biggest challenge regarding of..."/>
+<node CREATED="1623344120607" ID="ID_935431142" MODIFIED="1623344139115" TEXT="What&apos;s the main piece of software you use..."/>
+<node CREATED="1623344126478" ID="ID_672314031" MODIFIED="1623344137667" TEXT="Is there any area of your workflow which is bottleneck"/>
+</node>
+<node CREATED="1623344149438" ID="ID_1325508064" MODIFIED="1623344154411" TEXT="Try to see if the problem exists anywhere"/>
+</node>
+<node CREATED="1623344184791" ID="ID_1852419664" MODIFIED="1623344200081" TEXT="You don&apos;t want to write a novel">
+<node CREATED="1623344204318" ID="ID_1362794746" MODIFIED="1623344209722" TEXT="Don&apos;t finish with &quot;thoughts?&quot;"/>
+<node CREATED="1623344210076" ID="ID_895558378" MODIFIED="1623344216913" TEXT="You won&apos;t get anything at the end"/>
+<node CREATED="1623344217478" ID="ID_1073121486" MODIFIED="1623344222746" TEXT="Might be two sentences top"/>
+</node>
+</node>
+<node CREATED="1623344289901" ID="ID_668959526" MODIFIED="1623344311569" TEXT="If you know the person, it&apos;s way easier"/>
+<node CREATED="1623344379525" ID="ID_299133708" MODIFIED="1623344391890" TEXT="If there is no question mark, there is no question"/>
+<node CREATED="1623344480853" FOLDED="true" ID="ID_193649244" MODIFIED="1623344487385" TEXT="If there is a backstory">
+<node CREATED="1623344487885" ID="ID_227587454" MODIFIED="1623344490721" TEXT="Ask the question first"/>
+<node CREATED="1623344491036" ID="ID_193673429" MODIFIED="1623344493418" TEXT="Then backstory"/>
+<node CREATED="1623344493774" ID="ID_1867139159" MODIFIED="1623344509448" TEXT="... otherwise the reader needs to read backstory again"/>
+<node CREATED="1623344509732" ID="ID_681236806" MODIFIED="1623344512401" TEXT="... to search about clues"/>
+<node CREATED="1623344606988" ID="ID_496197830" MODIFIED="1623344613624" TEXT="Question can hook the reader"/>
+</node>
+<node CREATED="1623344729922" FOLDED="true" ID="ID_1841977015" MODIFIED="1623344775744" TEXT="&quot;It&apos;s totally find not to answer the question. Here&apos;s the question&quot;">
+<node CREATED="1623344776363" ID="ID_1242701191" MODIFIED="1623344781214" TEXT="&quot;I know you&apos;re busy&quot;"/>
+<node CREATED="1623344758011" ID="ID_552928450" MODIFIED="1623344759887" TEXT="Polite"/>
+<node CREATED="1623344760276" ID="ID_1316215792" MODIFIED="1623344761799" TEXT="Thoughtful"/>
+</node>
+</node>
+<node CREATED="1623344872754" ID="ID_677490065" MODIFIED="1623345690773" POSITION="right" TEXT="Outreach to podcast host">
+<icon BUILTIN="full-5"/>
+<node CREATED="1623344881186" ID="ID_176970744" MODIFIED="1623344895398" TEXT="You&apos;ve got">
+<node CREATED="1623344886107" ID="ID_239072572" MODIFIED="1623344888447" TEXT="big idea"/>
+<node CREATED="1623344888794" ID="ID_87519379" MODIFIED="1623344890399" TEXT="new book"/>
+<node CREATED="1623344890715" ID="ID_111578678" MODIFIED="1623344900231" TEXT="new product"/>
+</node>
+<node CREATED="1623344901922" ID="ID_706789485" MODIFIED="1623344917278" TEXT="Want some visibility and guests"/>
+<node CREATED="1623344973634" ID="ID_641354519" MODIFIED="1623344983165" TEXT="Host needs to know what&apos;s in for their audience">
+<node CREATED="1623344992281" ID="ID_479230265" MODIFIED="1623344995654" TEXT="That&apos;s what they care about"/>
+</node>
+<node CREATED="1623345059610" ID="ID_1901693000" MODIFIED="1623345062981" TEXT="Show that you know the show">
+<node CREATED="1623345063153" ID="ID_1652088815" MODIFIED="1623345071222" TEXT="&quot;I like X episode&quot;"/>
+<node CREATED="1623345072285" ID="ID_1649825902" MODIFIED="1623345089396" TEXT="&quot;I teach something which could be interesting for your audience&quot;"/>
+<node CREATED="1623345089721" ID="ID_52220915" MODIFIED="1623345104204" TEXT="&quot;Here what could be interesting for your audience&quot;">
+<node CREATED="1623345106074" ID="ID_1775149209" MODIFIED="1623345113844" TEXT="Title 1"/>
+<node CREATED="1623345108697" ID="ID_876131110" MODIFIED="1623345109774" TEXT="Title 2"/>
+<node CREATED="1623345110145" ID="ID_1353172422" MODIFIED="1623345112292" TEXT="Title 3"/>
+</node>
+<node CREATED="1623345114546" ID="ID_1877391354" MODIFIED="1623345119206" TEXT="Can be even some notes and links"/>
+<node CREATED="1623345207665" ID="ID_1314730757" MODIFIED="1623345212054" TEXT="If you can&apos;t do that, don&apos;t ask anything"/>
+</node>
+<node CREATED="1623345154761" ID="ID_1184287505" MODIFIED="1623345161628" TEXT="The first ones are difficult">
+<node CREATED="1623345161785" ID="ID_346677395" MODIFIED="1623345173485" TEXT="Pick hosts which is small"/>
+<node CREATED="1623345175889" ID="ID_658683832" MODIFIED="1623345179413" TEXT="More likely to be taken"/>
+</node>
+</node>
+<node CREATED="1623345418992" ID="ID_1656950158" MODIFIED="1623345692318" POSITION="right" TEXT="Outreach to podcast guest">
+<icon BUILTIN="full-6"/>
+<node CREATED="1623345432176" ID="ID_1169617287" MODIFIED="1623345443948" TEXT="Draft 10 for email"/>
+<node CREATED="1623345450552" ID="ID_516635152" MODIFIED="1623345455700" TEXT="Especially for known people"/>
+</node>
+<node CREATED="1623345577743" ID="ID_19654131" MODIFIED="1623345693991" POSITION="right" TEXT="Getting graceful feedback">
+<icon BUILTIN="full-7"/>
+<node CREATED="1623345586368" ID="ID_441733534" MODIFIED="1623345596580" TEXT="&quot;What kind of feedback you&apos;re looking for?&quot;"/>
+<node CREATED="1623345659099" ID="ID_1764970693" MODIFIED="1623345667275" TEXT="Be clear what kind of feedback you&apos;re looking for"/>
+<node CREATED="1623345669464" ID="ID_1758542296" MODIFIED="1623345671915" TEXT="More specific the better"/>
+<node CREATED="1623345809927" ID="ID_769594699" MODIFIED="1623345817099" TEXT="Ask one question and provide context if needs be"/>
+</node>
+</node>
+</map>
