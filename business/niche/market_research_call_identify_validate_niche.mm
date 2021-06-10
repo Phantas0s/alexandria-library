@@ -87,7 +87,7 @@
 <node CREATED="1619031000894" ID="ID_494105059" MODIFIED="1619031011682" POSITION="right" TEXT="Asking for the Conversation ">
 <icon BUILTIN="full-5"/>
 <node CREATED="1619031086694" ID="ID_1044542586" MODIFIED="1619031092162" TEXT="Don&apos;t bait-and-pitch"/>
-<node CREATED="1619031092486" ID="ID_1142441352" MODIFIED="1619031099025" TEXT="Example of good email">
+<node CREATED="1619031092486" ID="ID_1142441352" MODIFIED="1623075716569" TEXT="Example of good email">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -109,7 +109,8 @@
       Could I prevail on you for half an hour of your time?
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1619031118022" ID="ID_627227058" MODIFIED="1619031123456" TEXT="People like to speak about what they did"/>
 </node>
