@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1572535501543" ID="ID_553918342" LINK="http://www.effectiveengineer.com/blog/secret-to-growing-software-engineering-career" MODIFIED="1572535511773" TEXT="The Secret to Growing Your Engineering Career If You Don&#x2019;t Want to Manage">
-<node CREATED="1572535515563" FOLDED="true" ID="ID_851700983" MODIFIED="1587143172293" POSITION="right" TEXT="Technical Ability + Experience &#x2260; Impact">
+<node CREATED="1572535515563" ID="ID_851700983" MODIFIED="1587143172293" POSITION="right" TEXT="Technical Ability + Experience &#x2260; Impact">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572535685381" ID="ID_508940382" MODIFIED="1572535701195" TEXT="Ability to write code plateaus over time">
 <node CREATED="1572535722878" ID="ID_1770819243" MODIFIED="1572535730186" TEXT="Learn a lot at the beginning"/>
@@ -13,14 +13,14 @@
 </node>
 <node CREATED="1572535940604" ID="ID_1260607384" MODIFIED="1572535945176" TEXT="Need new ways to create impact"/>
 </node>
-<node CREATED="1572535930251" FOLDED="true" ID="ID_1667757399" MODIFIED="1587143170421" POSITION="right" TEXT="Management Is Just One Leverage Point to Increase Your Impact">
+<node CREATED="1572535930251" ID="ID_1667757399" MODIFIED="1587143170421" POSITION="right" TEXT="Management Is Just One Leverage Point to Increase Your Impact">
 <icon BUILTIN="full-2"/>
 <node CREATED="1572535956491" ID="ID_712264590" MODIFIED="1572535969112" TEXT="Well defined leverage point to scale impact"/>
 <node CREATED="1572535997706" ID="ID_343351268" MODIFIED="1572536007255" TEXT="Grow your impact outside management">
 <node CREATED="1572536007420" ID="ID_1007219650" MODIFIED="1572536011103" TEXT="require more creativity"/>
 </node>
 </node>
-<node CREATED="1572536020347" FOLDED="true" ID="ID_747953277" MODIFIED="1587143169303" POSITION="left" TEXT="So What&#x2019;s the Secret to Growing Your Career Without Becoming a Manager?">
+<node CREATED="1572536020347" ID="ID_747953277" MODIFIED="1587143169303" POSITION="right" TEXT="So What&#x2019;s the Secret to Growing Your Career Without Becoming a Manager?">
 <icon BUILTIN="full-3"/>
 <node CREATED="1572536040788" ID="ID_1886180746" MODIFIED="1572536047192" TEXT="Impact doesn&apos;t have to plateau">
 <node CREATED="1572536057452" ID="ID_844540159" MODIFIED="1572536061552" TEXT="what code to write"/>
@@ -40,7 +40,8 @@
 <node CREATED="1572536201520" ID="ID_999309907" MODIFIED="1572536209693" TEXT="Example to amplify impact">
 <node CREATED="1572536214347" ID="ID_1381874613" MODIFIED="1572536228734" TEXT="Build tool / abstractions increasing output of team"/>
 <node CREATED="1572536248429" ID="ID_1850129587" MODIFIED="1572536256878" TEXT="Expertise to consul on software ">
-<node CREATED="1572536264263" ID="ID_546776198" MODIFIED="1572536266238" TEXT="Example">
+<node CREATED="1572536264263" ID="ID_546776198" MODIFIED="1623435218418" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1572536266497" ID="ID_737377521" MODIFIED="1572536269654" TEXT="Machine learning expert"/>
 </node>
 </node>
