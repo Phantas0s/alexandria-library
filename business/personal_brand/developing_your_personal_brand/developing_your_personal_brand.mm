@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1619980308452" ID="ID_341454624" LINK="https://app.pluralsight.com/course-player?clipId=7ec65fbd-d54b-4ab4-ab87-34734f6bc2ae" MODIFIED="1620131526579" TEXT="Developing your personal brand">
+<node CREATED="1619980308452" ID="ID_341454624" LINK="https://app.pluralsight.com/course-player?clipId=7ec65fbd-d54b-4ab4-ab87-34734f6bc2ae" MODIFIED="1625552923057" TEXT="Developing your personal brand">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -157,9 +157,9 @@
 <node CREATED="1619981534255" ID="ID_298668124" MODIFIED="1619981537684" TEXT="... till book was published"/>
 </node>
 </node>
-<node CREATED="1619981588511" FOLDED="true" ID="ID_726744187" MODIFIED="1620132306464" TEXT="Of thought leaders and subject matter experts">
+<node CREATED="1619981588511" ID="ID_726744187" MODIFIED="1620132306464" TEXT="Of thought leaders and subject matter experts">
 <icon BUILTIN="full-5"/>
-<node CREATED="1619981613070" ID="ID_853974264" MODIFIED="1619981617099" TEXT="How to be perceived?">
+<node CREATED="1619981613070" FOLDED="true" ID="ID_853974264" MODIFIED="1619981617099" TEXT="How to be perceived?">
 <node CREATED="1619981617351" ID="ID_1306837424" MODIFIED="1619981621058" TEXT="Has integrity"/>
 <node CREATED="1619981621385" ID="ID_831383598" MODIFIED="1619981624165" TEXT="Good to work with"/>
 <node CREATED="1619981624519" ID="ID_991125755" MODIFIED="1619981631404" TEXT="Positive character attributes"/>
@@ -167,7 +167,7 @@
 <node CREATED="1619981635047" ID="ID_1463835150" MODIFIED="1619981639099" TEXT="Leadership and management skills"/>
 </node>
 <node CREATED="1619981639678" ID="ID_1809487888" MODIFIED="1619981643803" TEXT="... what&apos;s your list?"/>
-<node CREATED="1619981644654" ID="ID_1049392946" MODIFIED="1619981648162" TEXT="Branded designations">
+<node CREATED="1619981644654" FOLDED="true" ID="ID_1049392946" MODIFIED="1619981648162" TEXT="Branded designations">
 <node CREATED="1619981651247" ID="ID_595496170" MODIFIED="1619981654380" TEXT="Subject matter expert">
 <node CREATED="1619981658487" ID="ID_1683383779" MODIFIED="1619981659354" TEXT="SME"/>
 <node CREATED="1619981659662" ID="ID_42688249" MODIFIED="1619981664208" TEXT="Expert on particular">
@@ -220,7 +220,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1619982010037" ID="ID_1029480593" MODIFIED="1619982018810" TEXT="What brand would you do?">
+<node CREATED="1619982010037" FOLDED="true" ID="ID_1029480593" MODIFIED="1619982018810" TEXT="What brand would you do?">
 <node CREATED="1619982018989" ID="ID_1865400718" MODIFIED="1619982024881" TEXT="Write about it"/>
 <node CREATED="1619982025244" ID="ID_883938275" MODIFIED="1619982028633" TEXT="Speak at conferences about it"/>
 </node>
@@ -1199,8 +1199,7 @@
   <body>
     <img src="./example_elevator_pitch.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1620139641850" ID="ID_153409658" MODIFIED="1620139657533" TEXT="Comments">

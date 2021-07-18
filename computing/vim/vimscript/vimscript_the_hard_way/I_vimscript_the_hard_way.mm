@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1622786323571" TEXT="Vimscript the Hard Way">
+<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1625582464172" TEXT="Vimscript the Hard Way">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -568,7 +568,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587744349963" FOLDED="true" ID="ID_1459411153" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/13.html" MODIFIED="1587999447122" POSITION="right" TEXT="Buffer-Local Abbreviations">
+<node CREATED="1587744349963" ID="ID_1459411153" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/13.html" MODIFIED="1587999447122" POSITION="right" TEXT="Buffer-Local Abbreviations">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1587744402685" ID="ID_645821646" MODIFIED="1587995198817" TEXT="Introduction">
@@ -699,7 +699,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587747850088" FOLDED="true" ID="ID_1761355517" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/15.html" MODIFIED="1587999447122" POSITION="right" TEXT="Operator-Pending Mappings">
+<node CREATED="1587747850088" ID="ID_1761355517" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/15.html" MODIFIED="1587999447122" POSITION="right" TEXT="Operator-Pending Mappings">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-5"/>
 <node CREATED="1587747880357" ID="ID_1762317543" MODIFIED="1587995194765" TEXT="Introduction">
@@ -771,7 +771,8 @@
 <node CREATED="1587748765065" ID="ID_1496476201" MODIFIED="1587748774698" TEXT=":normal!">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1587748768176" ID="ID_1177161188" MODIFIED="1587748773356" TEXT="Simulate pressing key in normal mode"/>
-<node CREATED="1587748778189" ID="ID_424676997" MODIFIED="1587748779506" TEXT="Example">
+<node CREATED="1587748778189" ID="ID_424676997" MODIFIED="1625582551345" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1587748779728" ID="ID_1815112865" MODIFIED="1587748791424" TEXT="normal! dddd">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
