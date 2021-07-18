@@ -1,0 +1,1079 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1615050071886" ID="ID_963020349" MODIFIED="1615050274907" TEXT="An Introduction to General System Thinking">
+<node CREATED="1621257742869" ID="ID_151587739" MODIFIED="1621257793120" POSITION="right" TEXT="Preface to silver anniversary edition">
+<node CREATED="1621257796964" ID="ID_316980391" MODIFIED="1624375963171" TEXT="Albert Einstein">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The significant problems we face cannot be solved at the same level of thinking we were at when we
+    </p>
+    <p>
+      created them. - Albert Einstein
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1621257838487" ID="ID_126339439" MODIFIED="1621257843081" POSITION="right" TEXT="Original Preface">
+<node CREATED="1621257850492" ID="ID_1644739741" MODIFIED="1621257855240" TEXT="People have foggy ideas">
+<node CREATED="1621257868421" ID="ID_1267478312" MODIFIED="1621257872553" TEXT="... about what they are saying"/>
+<node CREATED="1621257872988" ID="ID_1123970982" MODIFIED="1621257884697" TEXT="... how translating thoughts in computer programs"/>
+</node>
+<node CREATED="1621257888356" ID="ID_447327596" MODIFIED="1621257894072" TEXT="Need fog clearing techniques">
+<node CREATED="1621257897172" ID="ID_115031636" MODIFIED="1621257900689" TEXT="Way of thinking"/>
+<node CREATED="1621257901003" ID="ID_240806725" MODIFIED="1621257903593" TEXT="... a programmer could have"/>
+</node>
+</node>
+<node CREATED="1621257913796" ID="ID_1348859439" MODIFIED="1621257921317" POSITION="right" TEXT="How To Use ThisBook"/>
+<node CREATED="1621257932420" ID="ID_154349581" MODIFIED="1625760320694" POSITION="right" TEXT="Chapter 1 - The Problem">
+<icon BUILTIN="full-1"/>
+<node CREATED="1621257984147" FOLDED="true" ID="ID_738939494" MODIFIED="1621257988386" TEXT="The complexity of the world">
+<icon BUILTIN="full-1"/>
+<node CREATED="1621257992795" ID="ID_926026419" MODIFIED="1625991966872" TEXT="First step of knowledge"/>
+<node CREATED="1621258002163" ID="ID_1968157046" MODIFIED="1621258006752" TEXT="... is confession of ignorance"/>
+<node CREATED="1621258012259" ID="ID_1756690912" MODIFIED="1621258020224" TEXT="Need to acknowledge our ignorance"/>
+<node CREATED="1621258023181" ID="ID_1870583397" MODIFIED="1621258030766" TEXT="General systems is child of science"/>
+</node>
+<node CREATED="1621258033083" FOLDED="true" ID="ID_304259399" MODIFIED="1621258045216" TEXT="Mechanism and mechanics">
+<icon BUILTIN="full-2"/>
+<node CREATED="1621258052363" ID="ID_1473882486" MODIFIED="1621258066150" TEXT="Examine Physics for general view of science"/>
+<node CREATED="1621258068867" ID="ID_1802522110" MODIFIED="1625759939775" TEXT="Physics">
+<node CREATED="1621258070340" ID="ID_680523899" MODIFIED="1621258085039" TEXT="Study of objects in precise environment"/>
+<node CREATED="1621258087563" ID="ID_104283558" MODIFIED="1621258090496" TEXT="&quot;Law of nature&quot;"/>
+</node>
+<node CREATED="1621258096771" ID="ID_1752297143" MODIFIED="1621258098784" TEXT="Mechanics">
+<node CREATED="1621258139459" ID="ID_1160166086" MODIFIED="1621258143923" TEXT="Karl Deutsch">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#8230; implied the notion of a whole which was completely equal to the sum of its parts; which could
+    </p>
+    <p>
+      be run in reverse; and which would behave in exactly identical fashion no matter how often these
+    </p>
+    <p>
+      parts were disassembled and put together again, and irrespective of the sequence in which the
+    </p>
+    <p>
+      disassembling or reassembling would take place. It implied consequently that the parts were never
+    </p>
+    <p>
+      significantly modified by each other, nor by their own past, and that each part once placed in its
+    </p>
+    <p>
+      appropriate position with its appropriate momentum, would stay exactly there and continue to fulfill
+    </p>
+    <p>
+      its completely and uniquely determined function.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1621258217323" ID="ID_406735859" MODIFIED="1621258242152" TEXT="Why mechanics considered base of science?">
+<node CREATED="1621258242659" ID="ID_1403942644" MODIFIED="1621258245383" TEXT="Very limited"/>
+<node CREATED="1621258251523" ID="ID_1678848436" MODIFIED="1621258267311" TEXT="Only aproximatisation of mechanical systems"/>
+</node>
+<node CREATED="1621258271826" ID="ID_1242849706" MODIFIED="1621258275094" TEXT="Complex mechanical systems"/>
+<node CREATED="1621258275419" FOLDED="true" ID="ID_1964678363" MODIFIED="1621258279487" TEXT="... can be reduced to simpler ones">
+<node CREATED="1621258282626" ID="ID_988029833" MODIFIED="1621258285935" TEXT="Only then formal methods"/>
+<node CREATED="1621258286274" ID="ID_1974554226" MODIFIED="1621258291662" TEXT="... can do their work"/>
+</node>
+<node CREATED="1621258297914" FOLDED="true" ID="ID_11376904" MODIFIED="1621258400299" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1621258299169" ID="ID_106228404" MODIFIED="1621258300958" TEXT="Solar systems"/>
+<node CREATED="1621258301251" ID="ID_1888033974" MODIFIED="1621258309407" TEXT="Special tractable case of bodies in motion"/>
+<node CREATED="1621258366058" ID="ID_1461974996" MODIFIED="1621258369205" TEXT="But we know it&apos;s wrong">
+<node CREATED="1621258372265" ID="ID_1948977720" MODIFIED="1621258374101" TEXT="Many more bodies"/>
+</node>
+<node CREATED="1621258382089" ID="ID_410935546" MODIFIED="1621258388071" TEXT="... ignored to focus on motion for example"/>
+<node CREATED="1621258390586" ID="ID_1865462955" MODIFIED="1621258398981" TEXT="... influence of other bodies &quot;too small&quot;"/>
+</node>
+</node>
+<node CREATED="1621258403602" FOLDED="true" ID="ID_1009646857" MODIFIED="1621258415000" TEXT="The square law of computation">
+<icon BUILTIN="full-3"/>
+<node CREATED="1621258449634" ID="ID_672538761" MODIFIED="1621258465509" TEXT="Need to understand">
+<node CREATED="1621258419490" ID="ID_1503589461" MODIFIED="1621258462421" TEXT="How each object behave in isolation">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1621258439001" ID="ID_227565035" MODIFIED="1621258447286" TEXT="How each body affect the other">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1621258467353" ID="ID_67088595" MODIFIED="1621258477702" TEXT="How things behave if there is no body">
+<icon BUILTIN="full-3"/>
+<node CREATED="1621258513017" ID="ID_43407957" MODIFIED="1621258521742" TEXT="The &quot;field equation&quot;"/>
+</node>
+</node>
+<node CREATED="1621258489801" FOLDED="true" ID="ID_418302267" MODIFIED="1621258495006" TEXT="Most general 2 bodies system">
+<node CREATED="1621258495242" ID="ID_96699570" MODIFIED="1621258500278" TEXT="2 isolated equations"/>
+<node CREATED="1621258502873" ID="ID_1884247549" MODIFIED="1621258507404" TEXT="1 interaction equation"/>
+<node CREATED="1621258508212" ID="ID_275242263" MODIFIED="1621258511885" TEXT="1 field equation"/>
+</node>
+<node CREATED="1621258531424" FOLDED="true" ID="ID_487911414" MODIFIED="1621258533805" TEXT="More there is body">
+<node CREATED="1621258534721" ID="ID_1841440779" MODIFIED="1621258543948" TEXT="more interaction equation rise"/>
+<node CREATED="1621258548697" ID="ID_545381589" MODIFIED="1621258554428" TEXT="n bodies">
+<node CREATED="1621258555473" ID="ID_1626953323" MODIFIED="1621258560558" TEXT="2^n relationships"/>
+</node>
+</node>
+<node CREATED="1621258566696" FOLDED="true" ID="ID_809116051" MODIFIED="1621258574404" TEXT="Need to lower the number of equations">
+<node CREATED="1621258576553" ID="ID_1137259696" MODIFIED="1621258583053" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1621258577889" ID="ID_1439114743" MODIFIED="1621258581308" TEXT="We don&apos;t care about small bodies"/>
+</node>
+</node>
+<node CREATED="1621258588153" ID="ID_244143326" MODIFIED="1621258693874" TEXT="Square Law of Computation">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1621258594465" ID="ID_139048409" MODIFIED="1621258599212" TEXT="Amount of computation increase"/>
+<node CREATED="1621258599689" ID="ID_796663812" MODIFIED="1621258607661" TEXT="... as the size of the problem increase"/>
+<node CREATED="1621258695585" ID="ID_23296236" MODIFIED="1625760044991" TEXT="... at least as the square of number or equations"/>
+<node CREATED="1621258713545" ID="ID_1022303068" MODIFIED="1621258719221" TEXT="... if no simplification is made"/>
+</node>
+<node CREATED="1621258741312" ID="ID_331903881" MODIFIED="1621258755575" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1621258743592" ID="ID_561202046" MODIFIED="1621258745972" TEXT="If double equations"/>
+<node CREATED="1621258746287" ID="ID_666354318" MODIFIED="1621258753771" TEXT="... need computer 4 times as fast"/>
+<node CREATED="1621258762432" ID="ID_797231121" MODIFIED="1621258769797" TEXT="... to solve things in good amount of time"/>
+</node>
+<node CREATED="1621258798351" ID="ID_686358573" MODIFIED="1621258810276" TEXT="Limit of size of a system of equation can be solved"/>
+</node>
+<node CREATED="1621258818352" FOLDED="true" ID="ID_1119911307" MODIFIED="1621258822527" TEXT="The Simplification of Science and the Science of Simplification">
+<icon BUILTIN="full-4"/>
+<node CREATED="1621258840455" FOLDED="true" ID="ID_957803564" MODIFIED="1621258844693" TEXT="Practical computation">
+<node CREATED="1621258844920" ID="ID_266146045" MODIFIED="1621258855228" TEXT="Implicit assumptions need to be brought"/>
+<node CREATED="1621258855527" ID="ID_1100623524" MODIFIED="1621258859763" TEXT="... out into the open">
+<node CREATED="1621258861800" ID="ID_4436374" MODIFIED="1621258865331" TEXT="Programmer study"/>
+<node CREATED="1621258865655" ID="ID_1906333089" MODIFIED="1621258870683" TEXT="... how people make assumptions"/>
+</node>
+</node>
+<node CREATED="1621258877520" FOLDED="true" ID="ID_744812732" MODIFIED="1621258880668" TEXT="Mechanics">
+<node CREATED="1621258880952" ID="ID_1595998777" MODIFIED="1621258890659" TEXT="Need to assume that some interactions"/>
+<node CREATED="1621258890999" ID="ID_1986152758" MODIFIED="1621258894389" TEXT="... are more important than others"/>
+<node CREATED="1621258896377" ID="ID_427995030" MODIFIED="1621258903344" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1621258897480" ID="ID_1793635181" MODIFIED="1621258901140" TEXT="Gravity in solar system"/>
+</node>
+<node CREATED="1621258922543" ID="ID_949053294" MODIFIED="1621258923573" TEXT="Why?">
+<node CREATED="1621258923839" ID="ID_749414881" MODIFIED="1621258933108" TEXT="They give satisfactory answers"/>
+<node CREATED="1621258933479" ID="ID_146302512" MODIFIED="1621258942875" TEXT="... means match observational data"/>
+</node>
+</node>
+<node CREATED="1621258945295" ID="ID_1590029001" MODIFIED="1621258955131" TEXT="Greatest generalization achieved">
+<node CREATED="1621258956063" ID="ID_130847060" MODIFIED="1621258957827" TEXT="Newton"/>
+<node CREATED="1621258958214" ID="ID_1978854755" MODIFIED="1621258965067" TEXT="F=GMm/r^2">
+<node CREATED="1621258968151" ID="ID_150961598" MODIFIED="1621258971618" TEXT="M">
+<node CREATED="1621258971806" ID="ID_1036716925" MODIFIED="1621258975154" TEXT="Mass of first object"/>
+</node>
+<node CREATED="1621258975919" ID="ID_1941364114" MODIFIED="1621258977571" TEXT="m">
+<node CREATED="1621258977863" ID="ID_1015414402" MODIFIED="1621258980588" TEXT="Mass of second object"/>
+</node>
+<node CREATED="1621258982096" ID="ID_1317508254" MODIFIED="1621258983690" TEXT="r">
+<node CREATED="1621258983838" ID="ID_1165304187" MODIFIED="1621258987587" TEXT="Distance between object"/>
+</node>
+<node CREATED="1621258988534" ID="ID_1608209381" MODIFIED="1621258992131" TEXT="G">
+<node CREATED="1621258992423" ID="ID_997650143" MODIFIED="1621258996554" TEXT="Universal constant"/>
+</node>
+</node>
+<node CREATED="1621259018863" ID="ID_1052673865" MODIFIED="1621259033091" TEXT="State implicitly that no more equation needed"/>
+<node CREATED="1621259040119" ID="ID_989765012" MODIFIED="1621259104980" TEXT="... but only about for pair">
+<node CREATED="1621259089622" ID="ID_785012786" MODIFIED="1621259094658" TEXT="simplification"/>
+</node>
+<node CREATED="1621259112527" ID="ID_179811692" MODIFIED="1621259118395" TEXT="Works in mechanics but not in psychology"/>
+<node CREATED="1621259140566" ID="ID_1019792479" MODIFIED="1621259555915" TEXT="For solar system">
+<node CREATED="1621259143177" ID="ID_1460215878" MODIFIED="1621259155595" TEXT="reduce equations from 1000 to 45">
+<node CREATED="1621259160926" ID="ID_1743301630" MODIFIED="1621259165419" TEXT="10 things taken in pair"/>
+</node>
+<node CREATED="1621259179367" ID="ID_729158773" MODIFIED="1621259183506" TEXT="Square law of computation">
+<node CREATED="1621259192750" ID="ID_606543424" MODIFIED="1621259200187" TEXT="Size of our task decrease"/>
+<node CREATED="1621259200551" ID="ID_646637364" MODIFIED="1621259212443" TEXT="... by square of 1000/45"/>
+<node CREATED="1621259439991" ID="ID_1593659462" MODIFIED="1621259449155" TEXT="... or about 100 time"/>
+</node>
+<node CREATED="1621259522990" ID="ID_1584185497" MODIFIED="1621259528818" TEXT="Consider mass of Sun bigger"/>
+<node CREATED="1621259534414" ID="ID_256307563" MODIFIED="1621259538739" TEXT="... only consider pair with the sun"/>
+</node>
+</node>
+<node CREATED="1621259564965" ID="ID_1278453175" MODIFIED="1621259573195" TEXT="Separating systems into non-interactive systems">
+<node CREATED="1621259575901" ID="ID_371101547" MODIFIED="1621259580242" TEXT="Extremely important in science"/>
+<node CREATED="1621259585334" ID="ID_190822947" MODIFIED="1621259592395" TEXT="n^2 computation if there is interaction"/>
+<node CREATED="1621259592694" ID="ID_1959405" MODIFIED="1621259594939" TEXT="... n otherwise"/>
+<node CREATED="1621259635438" ID="ID_843126063" MODIFIED="1621259648281" TEXT="Square Law of computation put a limit of any computing device"/>
+<node CREATED="1621259649030" ID="ID_706850523" MODIFIED="1621259655522" TEXT="The human brain is some sort of computing device"/>
+<node CREATED="1621259660238" ID="ID_455776697" MODIFIED="1621259670458" TEXT="If we want to survive in a complex world, we need all the help"/>
+<node CREATED="1621259672195" ID="ID_654682217" MODIFIED="1621259676443" TEXT="Newton was a genius">
+<node CREATED="1621259676630" ID="ID_394067805" MODIFIED="1621259680699" TEXT="Not because of his brain"/>
+<node CREATED="1621259681134" ID="ID_1363136398" MODIFIED="1621259716890" TEXT="... but because of his ability to take world and">
+<node CREATED="1621259696794" ID="ID_1132634731" MODIFIED="1621259699322" TEXT="simplify"/>
+<node CREATED="1621259699671" ID="ID_1151537353" MODIFIED="1621259706898" TEXT="idealize"/>
+<node CREATED="1621259707191" ID="ID_1446317358" MODIFIED="1621259712329" TEXT="streamline"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1621259730453" FOLDED="true" ID="ID_1882848459" MODIFIED="1621259745795" TEXT="Statistical Mechanics and the Law of Large Number">
+<icon BUILTIN="full-5"/>
+<node CREATED="1621259755269" ID="ID_1365580898" MODIFIED="1621259761946" TEXT="Newton achievement"/>
+<node CREATED="1621259762988" ID="ID_1953092307" MODIFIED="1621259770202" TEXT="Describing system with around 105 objects"/>
+<node CREATED="1621259772318" ID="ID_1682351723" MODIFIED="1621259777666" TEXT="... of which found 10 of interest"/>
+<node CREATED="1621259782173" FOLDED="true" ID="ID_1831716278" MODIFIED="1621259785506" TEXT="Law of Large Number">
+<node CREATED="1621259791550" ID="ID_107207473" MODIFIED="1625760187278" TEXT="Larger the population"/>
+<node CREATED="1621259798765" ID="ID_1576178466" MODIFIED="1621259802418" TEXT="... more likely we are"/>
+<node CREATED="1621259802782" ID="ID_794959466" MODIFIED="1625992485616" TEXT="... to observe values"/>
+<node CREATED="1621259806454" ID="ID_261172566" MODIFIED="1621259810401" TEXT="... close to predicted"/>
+<node CREATED="1621259810703" ID="ID_55572007" MODIFIED="1621259813794" TEXT="... average value"/>
+</node>
+<node CREATED="1621259830998" FOLDED="true" ID="ID_1430991832" MODIFIED="1621259853554" TEXT="Statistical mechanics">
+<node CREATED="1621259854902" ID="ID_1687921441" MODIFIED="1621259861450" TEXT="&quot;Unorganized complexity&quot;"/>
+<node CREATED="1621259867626" ID="ID_1355817229" MODIFIED="1621259875434" TEXT="Complex systems"/>
+<node CREATED="1621259882117" ID="ID_1016962811" MODIFIED="1625992474736" TEXT="... sufficiently random"/>
+<node CREATED="1621259885438" ID="ID_1714437690" MODIFIED="1621259894114" TEXT="... so sufficiently regular"/>
+<node CREATED="1621259895779" ID="ID_1210334651" MODIFIED="1621259902338" TEXT="... to be studied statistically"/>
+</node>
+</node>
+<node CREATED="1621260489747" FOLDED="true" ID="ID_759025249" MODIFIED="1621260498192" TEXT="The Law of Medium Numbers">
+<icon BUILTIN="full-6"/>
+<node COLOR="#338800" CREATED="1621260440268" FOLDED="true" ID="ID_187186169" MODIFIED="1621260456428" TEXT="It&apos;s not possible to summarize the following - see book">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+<node COLOR="#338800" CREATED="1621260462891" ID="ID_274035021" MODIFIED="1621260468213" TEXT="Important passage">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1621260511219" ID="ID_851146633" MODIFIED="1621260530312" POSITION="right" TEXT="Chapter 2 - The Approach">
+<icon BUILTIN="full-2"/>
+<node CREATED="1622648993500" FOLDED="true" ID="ID_1346859463" MODIFIED="1623778434489" TEXT="Oranism, Analogy, and Vitalism">
+<icon BUILTIN="full-1"/>
+<node CREATED="1622649005868" ID="ID_461422105" MODIFIED="1622649013198" TEXT="See Kennet Boulding">
+<node CREATED="1622649014212" ID="ID_30444146" MODIFIED="1622649050118" TEXT="General Systems as a Point of View"/>
+</node>
+<node CREATED="1622649089602" ID="ID_1120785316" MODIFIED="1622649093999" TEXT="If system poorly known">
+<node CREATED="1622649094171" ID="ID_1240157696" MODIFIED="1622649097127" TEXT="Difficult to model anything"/>
+<node CREATED="1622649103027" ID="ID_1695446086" MODIFIED="1622649110615" TEXT="... but can give fresh point of view"/>
+<node CREATED="1622649111010" ID="ID_688125509" MODIFIED="1622649157430" TEXT=".... if something known about analog"/>
+</node>
+<node CREATED="1622649159323" ID="ID_1622255087" MODIFIED="1622649164662" TEXT="Analog jiggles the mind"/>
+<node CREATED="1622649168162" ID="ID_870492447" MODIFIED="1625992723975" TEXT="Need good analogies and analog">
+<node CREATED="1622649173474" ID="ID_1247684168" MODIFIED="1625992730080" TEXT="Make model rigorous"/>
+<node CREATED="1622649178673" ID="ID_72520568" MODIFIED="1622649236694" TEXT="... or tempting to ignore discordant parts of model"/>
+<node CREATED="1622649221074" ID="ID_519165978" MODIFIED="1622649230878" TEXT="Not too dangerous in practice"/>
+<node CREATED="1622649239945" ID="ID_24644084" MODIFIED="1622649246205" TEXT="... if model not taken seriously"/>
+</node>
+<node CREATED="1622649261233" ID="ID_1618082944" MODIFIED="1622649262572" TEXT="Every model">
+<node CREATED="1622649262721" ID="ID_240685232" MODIFIED="1622649279149" TEXT="Expression of one thing we hope to understand"/>
+<node CREATED="1622649279689" ID="ID_1361342005" MODIFIED="1622649284005" TEXT="... in terms of things we do understand"/>
+</node>
+<node CREATED="1622649371424" ID="ID_1251068610" MODIFIED="1622649384266" TEXT="Need some primitives to avoid too many questions amoung yourself"/>
+<node CREATED="1622649391888" ID="ID_914363919" MODIFIED="1622649425837" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1622649393120" ID="ID_428496395" MODIFIED="1622649395828" TEXT="Animism">
+<node CREATED="1622649396167" ID="ID_1007636793" MODIFIED="1622649400524" TEXT="Every object has a spirit"/>
+<node CREATED="1622649400832" ID="ID_613452114" MODIFIED="1622649403196" TEXT="Many primitives"/>
+</node>
+<node CREATED="1622649403719" ID="ID_1911581833" MODIFIED="1622649404556" TEXT="God">
+<node CREATED="1622649404714" ID="ID_579940481" MODIFIED="1622649407300" TEXT="1 Primitive"/>
+<node CREATED="1622649407680" ID="ID_1668240317" MODIFIED="1622649412308" TEXT="Explain everything so nothing"/>
+</node>
+</node>
+<node CREATED="1622649470136" ID="ID_786698597" MODIFIED="1622649475507" TEXT="Claim of mechanisms">
+<node CREATED="1622649475727" ID="ID_1424525394" MODIFIED="1622649483363" TEXT="Every phenomenon reduced to primitive of physics"/>
+<node CREATED="1622649483991" ID="ID_843646145" MODIFIED="1622649495603" TEXT="... but they didn&apos;t demonstrate &quot;everything&quot;"/>
+</node>
+<node CREATED="1622649498887" ID="ID_202698506" MODIFIED="1622649504243" TEXT="Science essentially reductionist">
+<node CREATED="1622649505919" ID="ID_475366409" MODIFIED="1622649512995" TEXT="Study of things reduced"/>
+<node CREATED="1622649513431" ID="ID_228777772" MODIFIED="1622649517563" TEXT="... to study of other things"/>
+<node CREATED="1622649523116" ID="ID_1212078104" MODIFIED="1622649529491" TEXT="Science didn&apos;t reduce all phenomena">
+<node CREATED="1622649530902" ID="ID_494934913" MODIFIED="1622649536138" TEXT="to physical"/>
+<node CREATED="1622649536446" ID="ID_53986124" MODIFIED="1622649544795" TEXT="... or chemical primitives"/>
+</node>
+</node>
+<node CREATED="1622649554447" ID="ID_1345756791" MODIFIED="1622649559963" TEXT="Simplifying with analogies">
+<node CREATED="1622649560231" ID="ID_1186942419" MODIFIED="1622649568851" TEXT="Every significant thinkers in science"/>
+<node CREATED="1622649569182" ID="ID_1158462081" MODIFIED="1622649575346" TEXT="... do exactly that"/>
+</node>
+</node>
+<node CREATED="1622649578622" FOLDED="true" ID="ID_1659803294" MODIFIED="1623778435078" TEXT="The Scientist and Her Categories">
+<icon BUILTIN="full-2"/>
+<node CREATED="1622650019348" ID="ID_1387334257" MODIFIED="1622650036983" TEXT="What the thinking of different disciplines have in common?"/>
+<node CREATED="1622650045411" ID="ID_1039567053" MODIFIED="1622650054111" TEXT="How do we know what we know?">
+<node CREATED="1622650056739" ID="ID_1122121568" MODIFIED="1622650060063" TEXT="How thinking is done?"/>
+</node>
+<node CREATED="1622650062907" ID="ID_1288994284" MODIFIED="1622650067759" TEXT="Most thinking">
+<node CREATED="1622650064891" ID="ID_465060477" MODIFIED="1622650071127" TEXT="Personal"/>
+<node CREATED="1622650071411" ID="ID_799337761" MODIFIED="1622650074287" TEXT="Idiosyncratic"/>
+<node CREATED="1622650080843" ID="ID_1082392125" MODIFIED="1622650086327" TEXT="Much what&apos;s done in communicable"/>
+</node>
+<node CREATED="1622650136146" ID="ID_1740333005" MODIFIED="1622650169854" TEXT="How the ideas we hold are knowledge?"/>
+<node CREATED="1622650173394" ID="ID_701600126" MODIFIED="1622650174270" TEXT="Group">
+<node CREATED="1622650174450" ID="ID_457815169" MODIFIED="1622650178022" TEXT="Common set of standards"/>
+<node CREATED="1622650178602" ID="ID_1297969984" MODIFIED="1622650183510" TEXT="Categories of thoughts"/>
+<node CREATED="1622650188170" ID="ID_283332334" MODIFIED="1622650192142" TEXT="Simplify internal communication"/>
+<node CREATED="1622650197426" ID="ID_445773562" MODIFIED="1622650202414" TEXT="More effective categories"/>
+<node CREATED="1622650202761" ID="ID_1290575979" MODIFIED="1622650206582" TEXT="... are for internal communication"/>
+<node CREATED="1622650211274" ID="ID_796032782" MODIFIED="1622650227702" TEXT="More difficult to make communication"/>
+<node CREATED="1622650228202" ID="ID_603366310" MODIFIED="1622650230974" TEXT="... with outsiders"/>
+</node>
+<node CREATED="1622650238586" ID="ID_1950715622" MODIFIED="1622650245742" TEXT="Modern society has many groups">
+<node CREATED="1622650248386" ID="ID_684989930" MODIFIED="1622650252510" TEXT="Switch patterns easily"/>
+<node CREATED="1622650253258" ID="ID_1556415543" MODIFIED="1622650256958" TEXT="When it&apos;s not easy">
+<node CREATED="1622650257127" ID="ID_477855181" MODIFIED="1622650280118" TEXT="&quot;foreign&quot; patterns are difficult"/>
+<node CREATED="1622650261689" ID="ID_709907473" MODIFIED="1622650269678" TEXT="&quot;ethnocentrism&quot;"/>
+</node>
+</node>
+<node CREATED="1622650283706" ID="ID_457639381" MODIFIED="1622650287174" TEXT="Science form social groups">
+<node CREATED="1622650292186" ID="ID_1099715408" MODIFIED="1622650340938" TEXT="Thomas Kun">
+<node CREATED="1622650331081" ID="ID_1212432629" MODIFIED="1622650336516" TEXT="Paradigms"/>
+<node CREATED="1622650302889" ID="ID_172756025" MODIFIED="1622650313101" TEXT="How they&apos;re">
+<node CREATED="1622650313498" ID="ID_1812916693" MODIFIED="1622650314356" TEXT="created"/>
+<node CREATED="1622650314618" ID="ID_249019218" MODIFIED="1622650316477" TEXT="destroyed"/>
+</node>
+<node CREATED="1622650317137" ID="ID_365542745" MODIFIED="1625992825359" TEXT="How created from one generation to the next"/>
+<node CREATED="1623684074069" ID="ID_1191650847" MODIFIED="1623684085742" TEXT="How they help / hinder progress of science"/>
+<node CREATED="1623684086084" ID="ID_806629499" MODIFIED="1623684095152" TEXT="&quot;Scientific revolution&quot; attack the paradigm"/>
+</node>
+<node CREATED="1623684216988" ID="ID_9127669" MODIFIED="1625992839695" TEXT="Scientists do only one revolution">
+<node CREATED="1623684229596" ID="ID_557063478" MODIFIED="1623684232111" TEXT="No gain for the second"/>
+</node>
+<node CREATED="1623684240819" ID="ID_1688089811" MODIFIED="1625992846158" TEXT="Some transport paradigms from one field to another">
+<node CREATED="1623684255411" ID="ID_289200037" MODIFIED="1623684259587" TEXT="Know one thing very well">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1623684260076" ID="ID_904485596" MODIFIED="1623684265003" TEXT="Apply it to everything">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1623684268939" ID="ID_481648381" MODIFIED="1623684270519" TEXT="Generalists">
+<node CREATED="1623684270731" ID="ID_595973349" MODIFIED="1623684274215" TEXT="Believe in generality of science"/>
+<node CREATED="1623684278667" ID="ID_801398055" MODIFIED="1623684280871" TEXT="Higher">
+<node CREATED="1623684281123" ID="ID_1987687333" MODIFIED="1623684283056" TEXT="vantage point"/>
+<node CREATED="1623684283411" ID="ID_461704517" MODIFIED="1623684287271" TEXT="level of generality"/>
+</node>
+</node>
+<node CREATED="1623684292771" ID="ID_1599605997" MODIFIED="1623684315055" TEXT="Thinking one paradigm is more &quot;real&quot;">
+<node CREATED="1623684300539" ID="ID_1397703156" MODIFIED="1625992862547" TEXT="DANGER">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1623684315467" ID="ID_231723846" MODIFIED="1623684322910" TEXT="Faith in truth of own discipline"/>
+<node CREATED="1623684323212" ID="ID_1632528682" MODIFIED="1623684331519" TEXT="... diminish chance of revolution"/>
+</node>
+<node CREATED="1623684359499" ID="ID_1746339225" MODIFIED="1625992870705" TEXT="Good generalists don&apos;t have faith in anything">
+<node CREATED="1623684382290" ID="ID_1847513649" MODIFIED="1623684387343" TEXT="Believe of something without evidence"/>
+</node>
+</node>
+</node>
+<node CREATED="1623684825312" FOLDED="true" ID="ID_811666289" MODIFIED="1623778435627" TEXT="The Main Article of General Systems Faith">
+<icon BUILTIN="full-3"/>
+<node CREATED="1623684857111" ID="ID_374102992" MODIFIED="1623684865491" TEXT="Without faith we can&apos;t live">
+<node CREATED="1623684887303" ID="ID_1379004185" MODIFIED="1623684894739" TEXT="We wouldn&apos;t do anything anymore"/>
+<node CREATED="1623684872472" ID="ID_1831814306" MODIFIED="1623684885612" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1623684873639" ID="ID_916193546" MODIFIED="1623684877923" TEXT="No faith in walking"/>
+<node CREATED="1623684878255" ID="ID_831691764" MODIFIED="1623684883827" TEXT="... so I shouldn&apos;t!"/>
+</node>
+</node>
+<node CREATED="1623684912225" ID="ID_1602349704" MODIFIED="1623684914540" TEXT="Need to search">
+<node CREATED="1623684914689" ID="ID_1559686580" MODIFIED="1623684917452" TEXT="law about law"/>
+<node CREATED="1623684917767" ID="ID_628424950" MODIFIED="1623684920805" TEXT="order about order"/>
+</node>
+<node CREATED="1623684926249" ID="ID_64482970" MODIFIED="1623684933733" TEXT="... power of generalisation through induction"/>
+<node CREATED="1623684939785" ID="ID_1193096206" MODIFIED="1623684948437" TEXT="... can then draw conclusions of case not observed"/>
+<node CREATED="1623684951547" ID="ID_894400191" MODIFIED="1623684954036" TEXT="Faith is needed">
+<node CREATED="1623684954953" ID="ID_438631137" MODIFIED="1623684969500" TEXT="Generality from one to another discipline don&apos;t always work">
+<node CREATED="1623684977057" ID="ID_555369668" MODIFIED="1623684980148" TEXT="We can&apos;t have enough info"/>
+<node CREATED="1623684980440" ID="ID_117659629" MODIFIED="1623684986516" TEXT="... to be sure it will work"/>
+<node CREATED="1623684991208" ID="ID_1551733016" MODIFIED="1623684998444" TEXT="... because explosion of knowledge"/>
+<node CREATED="1623685003120" ID="ID_328312383" MODIFIED="1623685006539" TEXT="Leap of faith in the dark"/>
+</node>
+<node CREATED="1623685012344" ID="ID_1902559087" MODIFIED="1623685025244" TEXT="Generalist approach complex systems with naive simplicity"/>
+</node>
+<node CREATED="1623685032712" ID="ID_909499438" MODIFIED="1623685043805" TEXT="Errors show often in order of second degree">
+<node CREATED="1623685048256" ID="ID_1974691470" MODIFIED="1623685053908" TEXT="Might be soon enough"/>
+</node>
+<node CREATED="1623685058352" ID="ID_1643857001" MODIFIED="1623685060924" TEXT="Need to">
+<node CREATED="1623685061224" ID="ID_1091819035" MODIFIED="1623685064524" TEXT="ignore a lot of data"/>
+<node CREATED="1623685064888" ID="ID_1273693028" MODIFIED="1623685070300" TEXT="see the mere outline of things"/>
+</node>
+</node>
+<node CREATED="1623685077336" FOLDED="true" ID="ID_960450572" MODIFIED="1623778436248" TEXT="The nature of General System Law">
+<icon BUILTIN="full-4"/>
+<node CREATED="1623685092336" ID="ID_245050550" MODIFIED="1623685098325" TEXT="Paradigm of scientific assertion">
+<node CREATED="1623685098495" ID="ID_1278176395" MODIFIED="1623685102588" TEXT="&quot;If so... then so&quot;"/>
+<node CREATED="1623685110104" ID="ID_1473402816" MODIFIED="1623685120020" TEXT="Often &quot;if so&quot; taken away for simplicity">
+<node CREATED="1623685122431" ID="ID_476701304" MODIFIED="1625992934527" TEXT="otherwise too complicated"/>
+<node CREATED="1623685127774" ID="ID_1337654943" MODIFIED="1623685130451" TEXT="... to reason"/>
+<node CREATED="1623685130799" ID="ID_1712572102" MODIFIED="1623685133980" TEXT="... or even use"/>
+</node>
+</node>
+<node CREATED="1623685140376" ID="ID_1287023015" MODIFIED="1623685145691" TEXT="Roles of laws in scientific thinking">
+<node CREATED="1623685146928" ID="ID_1017192736" MODIFIED="1623685151524" TEXT="Guides to measurement"/>
+<node CREATED="1623685152015" ID="ID_147963891" MODIFIED="1623685156652" TEXT="Define the terms within them"/>
+<node CREATED="1623685157160" ID="ID_357990102" MODIFIED="1623685166020" TEXT="Remind us to look for things we have not noticed"/>
+<node CREATED="1623685166552" ID="ID_1299829720" MODIFIED="1623685169428" TEXT="Product behavior"/>
+<node CREATED="1623685169896" ID="ID_933758608" MODIFIED="1623685175931" TEXT="Rallying point to discuss">
+<node CREATED="1623685177664" ID="ID_1775148158" MODIFIED="1623685193548" TEXT="Ways of measurement"/>
+<node CREATED="1623685181647" ID="ID_646790945" MODIFIED="1623685191483" TEXT="Meaning of term"/>
+<node CREATED="1623685199304" ID="ID_1210800932" MODIFIED="1623685201236" TEXT="Heuristic"/>
+<node CREATED="1623685201695" ID="ID_1690315865" MODIFIED="1623685205355" TEXT="Problem solving techniques"/>
+</node>
+</node>
+<node CREATED="1623685209276" ID="ID_1345154377" MODIFIED="1623685212891" TEXT="Learning to think scientifically">
+<node CREATED="1623685215095" ID="ID_1849234452" MODIFIED="1623685219195" TEXT="Remembering the laws"/>
+<node CREATED="1623685219648" ID="ID_1856257643" MODIFIED="1623685226372" TEXT="Knowing which law and in what way"/>
+</node>
+<node CREATED="1623685232071" ID="ID_39037589" MODIFIED="1623685236459" TEXT="If law as many &quot;if-so&quot; closes">
+<node CREATED="1623685242567" ID="ID_941986637" MODIFIED="1623685246147" TEXT="Difficult to">
+<node CREATED="1623685246359" ID="ID_1220736052" MODIFIED="1623685248539" TEXT="remember"/>
+<node CREATED="1623685248906" ID="ID_69268073" MODIFIED="1623685252539" TEXT="know when to use it"/>
+</node>
+<node CREATED="1623685268399" ID="ID_478823117" MODIFIED="1623685272235" TEXT="When choice is between">
+<node CREATED="1623685272423" ID="ID_1335164006" MODIFIED="1623685276602" TEXT="&quot;if so&quot; close"/>
+<node CREATED="1623685277767" ID="ID_1666733283" MODIFIED="1623685284987" TEXT="redefining term"/>
+</node>
+<node CREATED="1623685289479" ID="ID_92643587" MODIFIED="1623685334275" TEXT="... redefine the term"/>
+</node>
+<node CREATED="1623685311199" ID="ID_110194360" MODIFIED="1623685318788" TEXT="If law as few &quot;if-so&quot;">
+<node CREATED="1623685318935" ID="ID_482536410" MODIFIED="1623685321252" TEXT="General law"/>
+</node>
+<node CREATED="1623685344631" ID="ID_1478040326" MODIFIED="1623685360123" TEXT="If fact contradict the law, two solutions">
+<node CREATED="1623685354566" ID="ID_381264918" MODIFIED="1623685357739" TEXT="Reject the law"/>
+<node CREATED="1623685360598" ID="ID_1229915184" MODIFIED="1623685365969" TEXT="Change the law"/>
+</node>
+<node COLOR="#338800" CREATED="1623685370231" ID="ID_549441049" MODIFIED="1623685750390" TEXT="Law of conservation of law">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1623685374367" ID="ID_1843808076" MODIFIED="1623685819424" TEXT="When the facts contradict the law"/>
+<node CREATED="1623685815008" ID="ID_517319938" MODIFIED="1623685823257" TEXT="... reject the facts or change the definitions"/>
+<node CREATED="1623685824501" ID="ID_547125870" MODIFIED="1623685833073" TEXT="... but never throw away the law"/>
+</node>
+<node CREATED="1623685384927" ID="ID_59428319" MODIFIED="1623685750390" TEXT="Science obey this law">
+<node CREATED="1623685398095" ID="ID_199972281" MODIFIED="1623685750390" TEXT="When law invalidated"/>
+<node CREATED="1623685403407" ID="ID_54157258" MODIFIED="1623685750390" TEXT="... it&apos;s maybe because law has too much info"/>
+<node CREATED="1623685422470" ID="ID_418800792" MODIFIED="1623685750390" TEXT="Have more">
+<node CREATED="1623685424911" ID="ID_1015734985" MODIFIED="1623685750390" TEXT="condition"/>
+<node CREATED="1623685426862" ID="ID_1889475047" MODIFIED="1623685750390" TEXT="definition"/>
+<node CREATED="1623685430302" ID="ID_1467586028" MODIFIED="1623685750390" TEXT="exception"/>
+</node>
+<node CREATED="1623685432479" ID="ID_1825768532" MODIFIED="1623685750390" TEXT="... more precise answer to more narrow knowledge"/>
+<node CREATED="1623685454550" ID="ID_1463143750" MODIFIED="1625992975582" TEXT="... but lose their original flavors"/>
+</node>
+<node CREATED="1623685466741" ID="ID_918780138" MODIFIED="1623685470467" TEXT="General system laws of this book">
+<node CREATED="1623685470623" ID="ID_1456805326" MODIFIED="1623685477866" TEXT="Not designed to yield answers"/>
+<node CREATED="1623685481622" ID="ID_569734855" MODIFIED="1623685487226" TEXT="Can afford to be occasionally wrong"/>
+<node CREATED="1623685496799" ID="ID_687934238" MODIFIED="1623685502378" TEXT="Never used to praise conclusion"/>
+<node CREATED="1623685502815" ID="ID_169087850" MODIFIED="1623685506018" TEXT="... without checking inside"/>
+</node>
+<node CREATED="1623685508902" ID="ID_932171166" MODIFIED="1623685513426" TEXT="Improve memorability">
+<node CREATED="1623685513710" ID="ID_794793619" MODIFIED="1623685520754" TEXT="Making system laws no more precise"/>
+<node CREATED="1623685521168" ID="ID_991924128" MODIFIED="1623685525754" TEXT="Add phrase or catchy name"/>
+<node CREATED="1623685532839" ID="ID_1530302534" MODIFIED="1623685547586" TEXT="To remember, use">
+<node CREATED="1623685533927" ID="ID_1185564248" MODIFIED="1623685537042" TEXT="Prohibition"/>
+<node CREATED="1623685537414" ID="ID_1541492403" MODIFIED="1623685540106" TEXT="Contradiction"/>
+<node CREATED="1623685540420" ID="ID_714141381" MODIFIED="1623685542626" TEXT="Paradox"/>
+</node>
+<node CREATED="1623685550398" ID="ID_1803962272" MODIFIED="1623686058237" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1623685552726" ID="ID_1932546494" MODIFIED="1623685560883" TEXT="Law of Conservation of Energy"/>
+<node CREATED="1623685561590" ID="ID_978764193" MODIFIED="1625992994659" TEXT="&quot;It&apos;s impossible to build a perpetual motion-machine&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1623685589910" ID="ID_1960054570" MODIFIED="1623685597147" TEXT="Laws are not constraints for thoughts">
+<node CREATED="1623685597301" ID="ID_1481269167" MODIFIED="1623685600746" TEXT="They are stimulants"/>
+<node CREATED="1623685601374" ID="ID_1116494080" MODIFIED="1623685613282" TEXT="Increase memory of law with unforgivable examples"/>
+</node>
+<node COLOR="#338800" CREATED="1623685623990" ID="ID_1962767615" MODIFIED="1623685737270" TEXT="Law of happy particularities">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1623685631838" ID="ID_617328985" MODIFIED="1623685734345" TEXT="Any general law must have at least two specifics applications"/>
+</node>
+<node COLOR="#338800" CREATED="1623685842253" ID="ID_1341716133" MODIFIED="1623685850798" TEXT="Law of unhappy peculiarities">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1623685857381" ID="ID_793938437" MODIFIED="1623685864697" TEXT="Any general law is bound to have at least two exceptions"/>
+<node CREATED="1623685865197" ID="ID_1811158991" MODIFIED="1623685880329" TEXT="If you never say anything wrong, you never say anything"/>
+</node>
+<node CREATED="1623685961669" ID="ID_1747928069" MODIFIED="1623685967079" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node COLOR="#338800" CREATED="1623685890021" ID="ID_236541170" MODIFIED="1623685925021" TEXT="Composition law">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1623685897885" ID="ID_537723714" MODIFIED="1623685907953" TEXT="The whole is more than the sum of its part"/>
+</node>
+<node COLOR="#338800" CREATED="1623685908533" ID="ID_1235051683" MODIFIED="1623685926213" TEXT="Decomposition law">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1623685911733" ID="ID_1736552546" MODIFIED="1623685922521" TEXT="The part is more than a fraction of the whole"/>
+</node>
+<node CREATED="1623685945340" ID="ID_1567994739" MODIFIED="1623685952233" TEXT="... seems contradictory so hard to forget"/>
+</node>
+<node CREATED="1623685968037" ID="ID_3140994" MODIFIED="1623685975655" TEXT="What advantage of these laws?">
+<node CREATED="1623685980597" ID="ID_468200466" MODIFIED="1623685989328" TEXT="Not helpful for exact predictions of complex systems"/>
+<node CREATED="1623778300215" ID="ID_288113172" MODIFIED="1623778362586" TEXT="Guard us to fallacy of exact prediction"/>
+<node CREATED="1623778398238" ID="ID_54731038" MODIFIED="1623778408833" TEXT="It isn&apos;t what we don&apos;t know that gives us trouble"/>
+<node CREATED="1623778409150" ID="ID_41261691" MODIFIED="1623778414257" TEXT="... it&apos;s what we know that ain&apos;t so"/>
+</node>
+</node>
+<node CREATED="1623778420661" FOLDED="true" ID="ID_733148917" MODIFIED="1623778437477" TEXT="Varieties of System Thinking">
+<icon BUILTIN="full-5"/>
+<node CREATED="1623778442621" ID="ID_1844901109" MODIFIED="1623778449033" TEXT="3 sort of activities involving models">
+<node CREATED="1623778449862" ID="ID_451381389" MODIFIED="1623778454066" TEXT="Improving through process">
+<node CREATED="1623778457237" ID="ID_752199313" MODIFIED="1623778460066" TEXT="General system thinking"/>
+</node>
+<node CREATED="1623778455013" ID="ID_1672255854" MODIFIED="1623778467370" TEXT="Studying special systems"/>
+<node CREATED="1623778467893" ID="ID_675058222" MODIFIED="1623778478018" TEXT="Creating new laws and refining old ones">
+<node CREATED="1623778481205" ID="ID_1879998409" MODIFIED="1623778485929" TEXT="General system research"/>
+</node>
+</node>
+<node CREATED="1623778493317" ID="ID_834310586" MODIFIED="1623778531817" TEXT="General system approach help learning new subjects">
+<node CREATED="1623778561613" ID="ID_1938423146" MODIFIED="1623778566504" TEXT="Know already general info about subjects"/>
+<node CREATED="1623778533614" ID="ID_1515775918" MODIFIED="1623778569561" TEXT="Might map with information of specialist"/>
+<node CREATED="1623778577698" ID="ID_713922237" MODIFIED="1623778581904" TEXT="Make sharp questions possible"/>
+</node>
+<node CREATED="1623778594829" ID="ID_1836265764" MODIFIED="1623778621704" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1623778596581" ID="ID_950245689" MODIFIED="1623778611264" TEXT="Economist&apos;s law of diminishing return"/>
+<node CREATED="1623778611821" ID="ID_1219292590" MODIFIED="1623778619801" TEXT="... is law of limiting factors"/>
+</node>
+</node>
+</node>
+<node CREATED="1623778630077" ID="ID_1208270689" MODIFIED="1623778643578" POSITION="right" TEXT="Chapter 3 - System and Illusion">
+<icon BUILTIN="full-3"/>
+<node CREATED="1623778657301" FOLDED="true" ID="ID_1604611248" MODIFIED="1623780050849" TEXT="A system is a way of looking at the world">
+<icon BUILTIN="full-1"/>
+<node CREATED="1623778672381" ID="ID_1518475924" MODIFIED="1623778676152" TEXT="Truth natural for poet"/>
+<node CREATED="1623778676437" ID="ID_968719897" MODIFIED="1625993147389" TEXT="... terrible for scientist"/>
+<node CREATED="1623778693417" ID="ID_1987085531" MODIFIED="1623778713876" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1623778694613" ID="ID_1312559461" MODIFIED="1623778700464" TEXT="Learning musical sheet">
+<node CREATED="1623778700797" ID="ID_1275168017" MODIFIED="1623778705728" TEXT="Learning rules of a game?"/>
+<node CREATED="1623778706078" ID="ID_1419896794" MODIFIED="1623778712737" TEXT="... or acquiring knowledge?"/>
+</node>
+</node>
+<node CREATED="1623778719805" ID="ID_1518877511" MODIFIED="1623778726657" TEXT="Fools to believe that other point of views">
+<node CREATED="1625993168642" ID="ID_1988635450" MODIFIED="1625993172037" TEXT="... are fooling"/>
+<node CREATED="1625993172496" ID="ID_1557842388" MODIFIED="1625993175501" TEXT="... or less true"/>
+</node>
+<node CREATED="1623778734692" ID="ID_178759212" MODIFIED="1623778737249" TEXT="Egocentrism">
+<node CREATED="1623778737868" ID="ID_395462339" MODIFIED="1623778741448" TEXT="Form of animism"/>
+<node CREATED="1623778741861" ID="ID_432940808" MODIFIED="1623778747000" TEXT="Form of vitalism"/>
+</node>
+<node CREATED="1623778776829" ID="ID_555085065" MODIFIED="1623778779433" TEXT="Einstein">
+<node CREATED="1623778779844" ID="ID_700714187" MODIFIED="1623778782609" TEXT="&quot;The belief in an external world independent of the percipient subject is the foundation of all science&quot;"/>
+<node CREATED="1623778813285" ID="ID_1195440276" MODIFIED="1623778814489" TEXT="... but not"/>
+<node CREATED="1623778814813" ID="ID_58696650" MODIFIED="1623778823761" TEXT="... &quot;An external world independent of the percipient subject is the foundation of all science&quot;"/>
+</node>
+<node CREATED="1623778843716" ID="ID_1976290691" MODIFIED="1623778862625" TEXT="Belief in external world independent of percipient subject">
+<node CREATED="1623778866757" ID="ID_1566230182" MODIFIED="1623778869673" TEXT="Heuristic device"/>
+<node CREATED="1623778870677" ID="ID_1603111340" MODIFIED="1623778875600" TEXT="Mental tool to aid discovery"/>
+<node CREATED="1623778885369" ID="ID_1602375954" MODIFIED="1623778905760" TEXT="... but can&apos;t tell us when or where it can be applied"/>
+</node>
+<node CREATED="1623778907235" ID="ID_903892745" MODIFIED="1623778935262" STYLE="fork" TEXT="The banana principle">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#338800" CREATED="1623778917796" ID="ID_1353066076" MODIFIED="1623778941631" TEXT="Heuristic devices don&apos;t tell you when to stop">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1623778942572" ID="ID_894580412" MODIFIED="1623778958104" TEXT="Scale of ascending value for heuristic devices">
+<node CREATED="1623778958324" ID="ID_1780155293" MODIFIED="1623778958984" TEXT="idea"/>
+<node CREATED="1623778959356" ID="ID_348977024" MODIFIED="1623778960256" TEXT="concept"/>
+<node CREATED="1623778960547" ID="ID_1984796836" MODIFIED="1623778962001" TEXT="rule"/>
+<node CREATED="1623778962532" ID="ID_1197448974" MODIFIED="1623778964336" TEXT="principle"/>
+<node CREATED="1623778965011" ID="ID_1706013606" MODIFIED="1623778967319" TEXT="law"/>
+<node CREATED="1623778967620" ID="ID_398416540" MODIFIED="1623778969112" TEXT="reality"/>
+<node CREATED="1623778969419" ID="ID_286593388" MODIFIED="1623778970920" TEXT="truth"/>
+</node>
+<node CREATED="1623778975660" ID="ID_1367329985" MODIFIED="1623778981280" TEXT="Further along the scale"/>
+<node CREATED="1623778981604" ID="ID_1317242638" MODIFIED="1623778986079" TEXT="... the less we see heuristic device"/>
+<node CREATED="1623778986364" ID="ID_417727293" MODIFIED="1623778988608" TEXT="... as a device">
+<node CREATED="1623778997043" ID="ID_857561387" MODIFIED="1623779003552" TEXT="Tend to think we can use the device forever"/>
+<node CREATED="1623779010580" ID="ID_757727672" MODIFIED="1623779020720" TEXT="We forget the banana principle"/>
+<node CREATED="1623779025652" ID="ID_1926230512" MODIFIED="1623779036899" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1623779028676" ID="ID_1398256868" MODIFIED="1623779032112" TEXT="The most success we have"/>
+<node CREATED="1623779032388" ID="ID_1413855261" MODIFIED="1623779035736" TEXT="... the more sure we become"/>
+</node>
+</node>
+<node CREATED="1623779048332" ID="ID_472397132" MODIFIED="1623779059296" TEXT="One of most powerful heuristic">
+<node CREATED="1623779059587" ID="ID_1508758585" MODIFIED="1623779074375" TEXT="It exists a reality"/>
+<node CREATED="1623779074643" ID="ID_1347240475" MODIFIED="1623779083237" TEXT="... independent from the observer"/>
+</node>
+<node CREATED="1623779094916" ID="ID_1265767318" MODIFIED="1623779116298" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1623779099724" ID="ID_879662226" MODIFIED="1623779114336" TEXT="&quot;The exception proves the rule&quot;"/>
+<node CREATED="1623779106715" ID="ID_1641924048" MODIFIED="1623779111575" TEXT="First meaning of proof">
+<node CREATED="1623779118931" ID="ID_1768947641" MODIFIED="1625993364006" TEXT="Printing and photography"/>
+<node CREATED="1623779124115" ID="ID_1846952658" MODIFIED="1623779135296" TEXT="Test applied to a substance"/>
+<node CREATED="1623779136044" ID="ID_1041376339" MODIFIED="1623779148031" TEXT="... to determine if they are satisfactory quality"/>
+<node CREATED="1623779163467" ID="ID_158974740" MODIFIED="1623779171535" TEXT="Exception doesn&apos;t say rule is true"/>
+<node CREATED="1623779171923" ID="ID_52021796" MODIFIED="1623779175424" TEXT="... it simply tests it!"/>
+</node>
+</node>
+<node CREATED="1623779182259" ID="ID_1437709004" MODIFIED="1623779186998" TEXT="&quot;Accepting meaning&quot;">
+<node CREATED="1623779187195" ID="ID_1630225542" MODIFIED="1623779194111" TEXT="Implies somebody doing the accepting"/>
+<node CREATED="1623779197771" ID="ID_1558392051" MODIFIED="1623779201504" TEXT="... an observer"/>
+<node CREATED="1623779205732" ID="ID_80937845" MODIFIED="1623779210327" TEXT="... so likely division of understanding"/>
+</node>
+<node CREATED="1623779239732" ID="ID_523398923" MODIFIED="1623779244863" TEXT="Problem of absolute speech">
+<node CREATED="1623779247419" ID="ID_1830823961" MODIFIED="1623779836757" TEXT="Say there is one point of view"/>
+<node CREATED="1623779837083" ID="ID_347697779" MODIFIED="1623779843661" TEXT="... even if there are multiple"/>
+<node CREATED="1623779857161" ID="ID_1007007037" MODIFIED="1623779860645" TEXT="In general, no problem with that"/>
+<node CREATED="1623779860920" ID="ID_1527814214" MODIFIED="1623779867317" TEXT="... but you can learn more considering"/>
+<node CREATED="1623779867593" ID="ID_345745142" MODIFIED="1623779870764" TEXT="... relative nature of things"/>
+</node>
+<node CREATED="1623779885353" ID="ID_692046587" MODIFIED="1623779894525" TEXT="How avoiding fallacies of absolute thoughts?">
+<node CREATED="1623779900384" ID="ID_1386507518" MODIFIED="1623779916045" TEXT="Tools are human-made">
+<node CREATED="1623779916953" ID="ID_1210957532" MODIFIED="1623779918437" TEXT="models"/>
+<node CREATED="1623779918753" ID="ID_1481574616" MODIFIED="1623779919980" TEXT="words"/>
+<node CREATED="1623779920318" ID="ID_150723233" MODIFIED="1623779922301" TEXT="instruments"/>
+<node CREATED="1623779922611" ID="ID_301253242" MODIFIED="1623779925278" TEXT="techniques"/>
+</node>
+<node CREATED="1623779929368" ID="ID_459046033" MODIFIED="1623779939893" TEXT="Absolute thinking is helpful in some contexts">
+<node CREATED="1623779947897" ID="ID_57135984" MODIFIED="1623779952213" TEXT="Conventional context"/>
+<node CREATED="1623779952600" ID="ID_606176255" MODIFIED="1623779958117" TEXT="... aka most of the time"/>
+</node>
+</node>
+<node CREATED="1623779963120" ID="ID_252078490" MODIFIED="1623779965027" TEXT="Any system">
+<node CREATED="1623779965184" ID="ID_1733060489" MODIFIED="1623779971413" TEXT="Point of view of one or several observers"/>
+<node CREATED="1623779987201" ID="ID_421952589" MODIFIED="1623779989036" TEXT="Good or bad"/>
+<node CREATED="1623779989344" ID="ID_1560757982" MODIFIED="1623779995477" TEXT="... depends only of the purpose"/>
+<node CREATED="1623779995776" ID="ID_109365587" MODIFIED="1623780008948" TEXT="... which the system is designed"/>
+<node CREATED="1623780009809" ID="ID_1867716473" MODIFIED="1623780012589" TEXT="... to satisfy"/>
+</node>
+</node>
+<node CREATED="1623780040367" FOLDED="true" ID="ID_255798661" MODIFIED="1623780051388" TEXT="A system is a set">
+<icon BUILTIN="full-2"/>
+<node CREATED="1623780053928" ID="ID_1875984548" MODIFIED="1623780057444" TEXT="Anything could be a system"/>
+<node CREATED="1623780059881" FOLDED="true" ID="ID_955227936" MODIFIED="1623780067892" TEXT="Truly arbitrary system">
+<node CREATED="1623780070832" ID="ID_1806208514" MODIFIED="1623780077620" TEXT="Can&apos;t say anything general"/>
+<node CREATED="1623780077870" ID="ID_868150838" MODIFIED="1623780079308" TEXT="... about them"/>
+<node CREATED="1623780086496" ID="ID_1346258765" MODIFIED="1623780088283" TEXT="... except">
+<node CREATED="1623780088503" ID="ID_470372702" MODIFIED="1623780093452" TEXT="&quot;nothing general can be said&quot;"/>
+</node>
+<node CREATED="1623780180679" ID="ID_1654036376" MODIFIED="1623780202226" TEXT="Hard to find"/>
+<node CREATED="1623780195567" ID="ID_1368417477" MODIFIED="1623780200676" TEXT="Most systems are non arbitrary"/>
+</node>
+<node CREATED="1623780099936" FOLDED="true" ID="ID_388656800" MODIFIED="1623780102459" TEXT="General system approach">
+<node CREATED="1623780102624" ID="ID_1231741480" MODIFIED="1623780119115" TEXT="Attention to non arbitrary systems"/>
+<node CREATED="1623780126856" ID="ID_1113706788" MODIFIED="1623780132780" TEXT="Reasons of non arbitrary">
+<node CREATED="1623780132994" ID="ID_707878966" MODIFIED="1623780136196" TEXT="&quot;source of the order&quot;"/>
+</node>
+<node CREATED="1623780151970" ID="ID_1158279843" MODIFIED="1623780161692" TEXT="Non arbitrareness can be">
+<node CREATED="1623780161855" ID="ID_74139124" MODIFIED="1623780165555" TEXT="outside, in real world"/>
+<node CREATED="1623780165895" ID="ID_380235588" MODIFIED="1623780168630" TEXT="in the observer"/>
+</node>
+</node>
+<node CREATED="1623780209744" FOLDED="true" ID="ID_766076212" MODIFIED="1623780211748" TEXT="Observer">
+<node CREATED="1623780211919" ID="ID_304948220" MODIFIED="1623780216443" TEXT="Often ignored in system thinking"/>
+<node CREATED="1623780223447" ID="ID_1584746960" MODIFIED="1623780226172" TEXT="Most popular way">
+<node CREATED="1623780226315" ID="ID_985203654" MODIFIED="1623780230179" TEXT="Math represents the system"/>
+</node>
+</node>
+<node CREATED="1623780232727" ID="ID_1144531701" MODIFIED="1623780234618" TEXT="Set theory">
+<node CREATED="1623780238671" ID="ID_512794433" MODIFIED="1623780242691" TEXT="Every system is a set of">
+<node CREATED="1623780242894" ID="ID_1324592198" MODIFIED="1623780243947" TEXT="objects">
+<node CREATED="1623780714381" ID="ID_967671388" MODIFIED="1623780716281" TEXT="names"/>
+<node CREATED="1623780716630" ID="ID_1466413924" MODIFIED="1623780741169" TEXT="... representing sort of &quot;things&quot;"/>
+<node CREATED="1623780720029" ID="ID_498703271" MODIFIED="1623780755185" TEXT="... which might be other names"/>
+</node>
+<node CREATED="1623780244247" ID="ID_1138287773" MODIFIED="1623780247051" TEXT="relationships"/>
+</node>
+<node CREATED="1623780252663" ID="ID_361235970" MODIFIED="1623780260442" TEXT="Doesn&apos;t say anything why observer might choose them"/>
+</node>
+<node CREATED="1623780768877" ID="ID_770573327" MODIFIED="1623780779232" TEXT="Naming non existent set members">
+<node CREATED="1623780779629" ID="ID_390313601" MODIFIED="1623780782753" TEXT="Potential fallacy"/>
+<node CREATED="1623780789109" ID="ID_1228178096" MODIFIED="1623780791057" TEXT="Worst">
+<node CREATED="1623780791236" ID="ID_823158802" MODIFIED="1623780793609" TEXT="Doesn&apos;t exist"/>
+<node CREATED="1623780793908" ID="ID_1052753129" MODIFIED="1623780800249" TEXT="... but we don&apos;t question their existence"/>
+</node>
+</node>
+<node CREATED="1623780806933" ID="ID_593796571" MODIFIED="1623780817648" TEXT="Enumeration of element of a set">
+<node CREATED="1623780818477" ID="ID_786419820" MODIFIED="1623780822977" TEXT="Can be its representation"/>
+<node CREATED="1623780827293" ID="ID_547676545" MODIFIED="1623780833600" TEXT="Has its pitfalls"/>
+</node>
+<node CREATED="1623780837285" ID="ID_901966247" MODIFIED="1623780904441" TEXT="From Plato set can be typified">
+<node CREATED="1623780851233" ID="ID_967841373" MODIFIED="1623780856777" TEXT="For him">
+<node CREATED="1623780856948" ID="ID_1206422972" MODIFIED="1623780860673" TEXT="Special type is better"/>
+<node CREATED="1623780861021" ID="ID_1835059926" MODIFIED="1623780867289" TEXT="... than enumeration of all objects"/>
+</node>
+<node CREATED="1623780872428" ID="ID_1933213655" MODIFIED="1623780878848" TEXT="... but strictly observer mental construction"/>
+<node CREATED="1623780883381" ID="ID_776504452" MODIFIED="1623780887360" TEXT="... useful for mass of data"/>
+</node>
+<node CREATED="1623780892724" ID="ID_823797298" MODIFIED="1623780908529" TEXT="... but decomposition fallacy">
+<node CREATED="1623780920133" ID="ID_523390491" MODIFIED="1623780924225" TEXT="Different people can have"/>
+<node CREATED="1623780924636" ID="ID_360196832" MODIFIED="1623780930785" TEXT="... different idea of type"/>
+<node CREATED="1623780931285" ID="ID_365018159" MODIFIED="1623780933868" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1623780935908" ID="ID_1312113091" MODIFIED="1623780943208" TEXT="(Browning, Blake, Byron...)"/>
+<node CREATED="1623780943764" ID="ID_54200540" MODIFIED="1623780948288" TEXT="Type?">
+<node CREATED="1623780948477" ID="ID_194178353" MODIFIED="1623780958392" TEXT="Set of all English poets beginning with &quot;b&quot;?"/>
+<node CREATED="1623780958964" ID="ID_619231108" MODIFIED="1623780966864" TEXT="All English poets"/>
+<node CREATED="1623780971775" ID="ID_808240563" MODIFIED="1623780974592" TEXT="All great poets?"/>
+</node>
+<node CREATED="1623780979420" ID="ID_1190274905" MODIFIED="1623780983960" TEXT="... could be a thousand sets!"/>
+</node>
+</node>
+<node CREATED="1623780993244" ID="ID_1114109753" MODIFIED="1623781005096" TEXT="In literacy ambiguity can be intentional">
+<node CREATED="1623781005428" ID="ID_1475455297" MODIFIED="1623781008711" TEXT="Not good for sciences"/>
+</node>
+<node CREATED="1623781036235" ID="ID_365966462" MODIFIED="1623781039464" TEXT="Type needs to be made">
+<node CREATED="1623781039691" ID="ID_1061578753" MODIFIED="1623781041640" TEXT="Explicit"/>
+<node CREATED="1623781041948" ID="ID_1266272518" MODIFIED="1623781043544" TEXT="Operational"/>
+</node>
+<node CREATED="1623781052300" ID="ID_1976679630" MODIFIED="1623781059624" TEXT="Most often explicit in math operations">
+<node CREATED="1623781073452" ID="ID_340897381" MODIFIED="1623781077347" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1623781059900" ID="ID_40704024" MODIFIED="1623781063912" TEXT="Set of even number"/>
+</node>
+</node>
+<node CREATED="1623781139282" ID="ID_99537490" MODIFIED="1623781145672" TEXT="... not when dealing with real world">
+<node CREATED="1623781145900" ID="ID_707998953" MODIFIED="1623781150007" TEXT="Sets are difficult to construct there"/>
+</node>
+<node CREATED="1623781160094" ID="ID_1144073080" MODIFIED="1623781173359" TEXT="Computers expose flaws of explicit rules">
+<node CREATED="1624375869760" ID="ID_1826557842" MODIFIED="1624375876013" TEXT="When tried to manage rules"/>
+<node CREATED="1624375876313" ID="ID_515234737" MODIFIED="1624375880476" TEXT="... many discovered"/>
+<node CREATED="1624375880847" ID="ID_997154647" MODIFIED="1624375888987" TEXT="... they never precisely knew "/>
+<node CREATED="1624375889464" ID="ID_24506738" MODIFIED="1624375891996" TEXT="... what they were doing"/>
+</node>
+<node CREATED="1624375900880" ID="ID_966465374" MODIFIED="1624375906820" TEXT="Simplest mental acts are not simple">
+<node CREATED="1624375909472" ID="ID_712010683" MODIFIED="1624375916308" TEXT="Not completely rational"/>
+<node CREATED="1624375916632" ID="ID_467799421" MODIFIED="1624375922420" TEXT="Not entirely arbitrary"/>
+<node CREATED="1624376454702" ID="ID_81008321" MODIFIED="1624376457063" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1624376457357" ID="ID_1940897972" MODIFIED="1624376460954" TEXT="Parsing a sentence"/>
+<node CREATED="1624376461253" ID="ID_55566256" MODIFIED="1624376466546" TEXT="Deduce its semantic"/>
+</node>
+</node>
+<node CREATED="1624375928072" ID="ID_198872100" MODIFIED="1624375932612" TEXT="We don&apos;t know what happens in our head"/>
+</node>
+<node CREATED="1624375937839" FOLDED="true" ID="ID_601985863" MODIFIED="1624375962684" TEXT="Observers and Observations">
+<icon BUILTIN="full-3"/>
+<node CREATED="1624375969064" FOLDED="true" ID="ID_1517605757" MODIFIED="1624375993108" TEXT="What&apos;s in a set?">
+<node CREATED="1624375993368" ID="ID_579034951" MODIFIED="1624375996244" TEXT="Objects?"/>
+<node CREATED="1624375996584" ID="ID_1688284093" MODIFIED="1624376001036" TEXT="Parts?"/>
+<node CREATED="1624376001359" ID="ID_1396048048" MODIFIED="1624376003004" TEXT="Elements?"/>
+<node CREATED="1624376004008" ID="ID_1121095987" MODIFIED="1624376006484" TEXT="Attributes?"/>
+</node>
+<node CREATED="1624376011943" FOLDED="true" ID="ID_1603879485" MODIFIED="1624376019020" TEXT="... discord implies that nobody knows">
+<node CREATED="1624376020952" ID="ID_1248556034" MODIFIED="1624376024532" TEXT="Undefined primitives"/>
+<node CREATED="1624376025296" ID="ID_533078347" MODIFIED="1624376034058" TEXT="If we know what they are"/>
+<node CREATED="1624376034383" ID="ID_181138986" MODIFIED="1624376041725" TEXT="... we&apos;re not speaking about system in general"/>
+<node CREATED="1624376042040" ID="ID_1878469721" MODIFIED="1624376046684" TEXT="... but about specific systems"/>
+</node>
+<node CREATED="1624376269926" FOLDED="true" ID="ID_325336778" MODIFIED="1624376273178" TEXT="Bertrand Russel">
+<node CREATED="1624376279590" ID="ID_766513770" MODIFIED="1624376292834" TEXT="&quot;Mathematics gets its appearance of truth from not saying what it is talking about&quot;"/>
+</node>
+<node CREATED="1624376414798" FOLDED="true" ID="ID_110399648" MODIFIED="1624376423066" TEXT="If the member of the set &quot;ain&apos;t nothing&quot;">
+<node CREATED="1624376423357" ID="ID_1718746997" MODIFIED="1624376431258" TEXT="It&apos;s contentlsess"/>
+<node CREATED="1624376431694" ID="ID_1094427118" MODIFIED="1624376435058" TEXT="... that is mathematical"/>
+</node>
+<node CREATED="1624376517997" FOLDED="true" ID="ID_375327842" MODIFIED="1624376521553" TEXT="Mathematical argument">
+<node CREATED="1624376521757" ID="ID_187930751" MODIFIED="1624376524393" TEXT="Not true or false"/>
+<node CREATED="1624376529805" ID="ID_266615553" MODIFIED="1624376533593" TEXT="... but">
+<node CREATED="1624376533749" ID="ID_1203796929" MODIFIED="1624376534440" TEXT="valid">
+<node CREATED="1624376593718" ID="ID_1612844897" MODIFIED="1624376599544" TEXT="&quot;internally consistent&quot;"/>
+</node>
+<node CREATED="1624376534765" ID="ID_1658626074" MODIFIED="1624376535696" TEXT="invalid"/>
+</node>
+</node>
+<node CREATED="1624376559165" ID="ID_1428677597" MODIFIED="1624376565425" TEXT="Correspondence between">
+<node CREATED="1624376565709" ID="ID_565332446" MODIFIED="1624376568999" TEXT="Math argument">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1624376569925" ID="ID_1705688485" MODIFIED="1624376575258" TEXT="Something real">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1624376575869" ID="ID_753904430" MODIFIED="1624376633065" TEXT="... speak of argument being &quot;true&quot;"/>
+<node CREATED="1624376643949" FOLDED="true" ID="ID_1046278281" MODIFIED="1624376650847" TEXT="Invalid argument can never be true">
+<node CREATED="1624376651045" ID="ID_1870687415" MODIFIED="1624376665265" TEXT="... but not really a mathematical assertion"/>
+<node CREATED="1624376665629" ID="ID_756115797" MODIFIED="1624376673464" TEXT="... more philosophical one"/>
+</node>
+</node>
+<node CREATED="1624376699404" ID="ID_1592683508" MODIFIED="1625760416972" TEXT="Problem: math doesn&apos;t distinguish between">
+<node CREATED="1624376711820" ID="ID_1760880883" MODIFIED="1624376713312" TEXT="sterile"/>
+<node CREATED="1624376713652" ID="ID_1098963281" MODIFIED="1624376715312" TEXT="productive"/>
+</node>
+<node CREATED="1624376730276" FOLDED="true" ID="ID_1383226208" MODIFIED="1624376739912" TEXT="Disease of general system movement">
+<node CREATED="1624376740140" ID="ID_867724046" MODIFIED="1624376747264" TEXT="&quot;hypermathematisis&quot;"/>
+<node CREATED="1624376748132" ID="ID_234556688" MODIFIED="1624376759288" TEXT="Sterile because can be applied to anything"/>
+<node CREATED="1624376759612" ID="ID_1099365869" MODIFIED="1624376762424" TEXT="... and therefore nothing"/>
+<node CREATED="1624376772432" ID="ID_1274922037" MODIFIED="1624376774504" TEXT="How to prevent it?">
+<node CREATED="1624376780596" ID="ID_1201806934" MODIFIED="1624376788448" TEXT="Formulation of idea with words instead of symbols">
+<icon BUILTIN="full-1"/>
+<node CREATED="1624376795132" ID="ID_54896389" MODIFIED="1624376797671" TEXT="Stay close to things"/>
+<node CREATED="1624376797980" ID="ID_305388150" MODIFIED="1624376801367" TEXT="... we want to speak about"/>
+</node>
+<node CREATED="1624376802179" ID="ID_338079624" MODIFIED="1624376837278" TEXT="Law of happy particularity">
+<icon BUILTIN="full-2"/>
+<node CREATED="1624376808859" ID="ID_152689200" MODIFIED="1624376811696" TEXT="Avoid any math notation"/>
+<node CREATED="1624376812108" ID="ID_1301308497" MODIFIED="1624376819159" TEXT="... except if we use it more than once"/>
+<node CREATED="1624376865012" ID="ID_526731875" MODIFIED="1624376871360" TEXT="... provide economy of notation"/>
+<node CREATED="1624376890220" ID="ID_1854982946" MODIFIED="1624376913606" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1624376891635" ID="ID_656985687" MODIFIED="1624376893287" TEXT="Set notation"/>
+<node CREATED="1624376893739" ID="ID_1871857531" MODIFIED="1624376901199" TEXT="Not because it looks good"/>
+<node CREATED="1624376901548" ID="ID_307085217" MODIFIED="1624376912079" TEXT="... but to talk about delimited range of possibilities"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1625759103965" FOLDED="true" ID="ID_228140924" MODIFIED="1625759114640" TEXT="Observer using Carthesian product of sets">
+<node CREATED="1625759114933" ID="ID_1125563026" MODIFIED="1625759120137" TEXT="Error or composition">
+<node CREATED="1625759120781" ID="ID_52758500" MODIFIED="1625759147872" TEXT="Too broad characterisation"/>
+<node CREATED="1625759148292" ID="ID_1884721306" MODIFIED="1625759152338" TEXT="... of an observer"/>
+<node CREATED="1625759155725" ID="ID_973962783" MODIFIED="1625759161961" TEXT="Model too general"/>
+</node>
+<node CREATED="1625759171132" ID="ID_528700650" MODIFIED="1625759185240" TEXT="If scope properly characterized">
+<node CREATED="1625759189324" ID="ID_1407316690" MODIFIED="1625759199727" TEXT="Cartesian doesn&apos;t exclude any observation possible"/>
+<node CREATED="1625759200275" ID="ID_1845197533" MODIFIED="1625759221521" TEXT="Gives us a way to prevent undergeneralization"/>
+</node>
+</node>
+<node CREATED="1625759229028" FOLDED="true" ID="ID_1273000887" MODIFIED="1625759237584" TEXT="Symptom of hypermathematic models">
+<node CREATED="1625759240804" ID="ID_441524190" MODIFIED="1625759245304" TEXT="Using product set is everything">
+<node CREATED="1625759248236" ID="ID_1937346201" MODIFIED="1625759286961" TEXT="Give all possible discrimination"/>
+<node CREATED="1625759273763" ID="ID_639966574" MODIFIED="1625759283199" TEXT="... to all possible condamnation of discrimination"/>
+<node CREATED="1625759302131" ID="ID_1832039082" MODIFIED="1625759308935" TEXT="But can end up with enormous set!">
+<node CREATED="1625759311652" ID="ID_388138539" MODIFIED="1625759314913" TEXT="Combinatorial size"/>
+<node CREATED="1625759318012" ID="ID_1044602641" MODIFIED="1625759320577" TEXT="Perfectly genreal"/>
+<node CREATED="1625759321204" ID="ID_1178599518" MODIFIED="1625759328952" TEXT="... but doesn&apos;t fit computational capacity"/>
+<node CREATED="1625759329267" ID="ID_1315235904" MODIFIED="1625759332047" TEXT="... of any system"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1625759340613" FOLDED="true" ID="ID_1936649890" MODIFIED="1625760353313" TEXT="The Principle of Indifference">
+<icon BUILTIN="full-4"/>
+<node CREATED="1625759357179" ID="ID_1062080350" MODIFIED="1625759358889" TEXT="Consistency">
+<node CREATED="1625759359012" ID="ID_600413075" MODIFIED="1625759457927" TEXT="Compatibility one set of observation"/>
+<node CREATED="1625759458226" ID="ID_897835247" MODIFIED="1625759459793" TEXT="... with another"/>
+<node CREATED="1625759525523" ID="ID_664323126" MODIFIED="1625759529368" TEXT="Cannot depend how observer"/>
+<node CREATED="1625759529691" ID="ID_5094610" MODIFIED="1625759543200" TEXT="... names his observation">
+<node CREATED="1625759544884" ID="ID_1551913353" MODIFIED="1625759558532" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1625759546115" ID="ID_664963607" MODIFIED="1625759552032" TEXT="(manchette, negligente)"/>
+<node CREATED="1625759552387" ID="ID_618910562" MODIFIED="1625759556352" TEXT="(cuff, careless)"/>
+<node CREATED="1625759564955" ID="ID_1265583823" MODIFIED="1625759567569" TEXT="Consistent">
+<node CREATED="1625759567731" ID="ID_1357425660" MODIFIED="1625759573000" TEXT="One in English"/>
+<node CREATED="1625759573299" ID="ID_1867545154" MODIFIED="1625759575792" TEXT="Other in French"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1625759579898" ID="ID_1820273371" MODIFIED="1625759586494" TEXT="Principle of indifference">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1625759589875" ID="ID_243313605" MODIFIED="1625759594408" TEXT="Laws should not depend"/>
+<node CREATED="1625759594786" ID="ID_1028898433" MODIFIED="1625759600215" TEXT="... on a particular choice of notation"/>
+</node>
+<node CREATED="1625759606707" ID="ID_160774848" MODIFIED="1625759614192" TEXT="Try to reformulate statement with same meaning">
+<node CREATED="1625759614348" ID="ID_1512065114" MODIFIED="1625759616503" TEXT="If it doesn&apos;t hold"/>
+<node CREATED="1625759616835" ID="ID_1203640632" MODIFIED="1625759630062" TEXT="... it doesn&apos;t follow the principle"/>
+<node CREATED="1625759636218" ID="ID_492921698" MODIFIED="1625759640535" TEXT="... so incorrect"/>
+</node>
+<node CREATED="1625759648018" ID="ID_984661030" MODIFIED="1625759651070" TEXT="Name often changed">
+<node CREATED="1625759651259" ID="ID_1489957108" MODIFIED="1625759660063" TEXT="By revolutionary acts"/>
+<node CREATED="1625759663226" ID="ID_1695192730" MODIFIED="1625759667894" TEXT="... to change thinking pattern"/>
+<node CREATED="1625759672619" ID="ID_1117567072" MODIFIED="1625759678696" TEXT="If it needs a revolution"/>
+<node CREATED="1625759679130" ID="ID_1690961844" MODIFIED="1625759692023" TEXT="... indicate the magnitude of their grip on minds"/>
+</node>
+<node CREATED="1625759698627" ID="ID_1261166178" MODIFIED="1625759706777" TEXT="Take math symbol to use principle of indifference">
+<node CREATED="1625759711051" ID="ID_130728264" MODIFIED="1625759714231" TEXT="Take sting out of words"/>
+<node CREATED="1625759714691" ID="ID_504620689" MODIFIED="1625759723471" TEXT="Testing consistency of two observers"/>
+<node CREATED="1625759735898" ID="ID_1666856371" MODIFIED="1626614104723" TEXT="Neutralize form of observation">
+<node CREATED="1625759751450" ID="ID_1272486360" MODIFIED="1625759759237" TEXT="Each observation has an arbitrary name"/>
+<node CREATED="1625759760995" FOLDED="true" ID="ID_1171383561" MODIFIED="1625759767983" TEXT="Get rid of subjective ">
+<node CREATED="1626614081958" ID="ID_980640358" MODIFIED="1626614088761" TEXT="A observe a pachyderm"/>
+<node CREATED="1626614089318" ID="ID_487011133" MODIFIED="1626614095977" TEXT="B observe an elephant"/>
+<node CREATED="1626614096452" ID="ID_630529922" MODIFIED="1626614099313" TEXT="... consistent!"/>
+</node>
+<node CREATED="1626613506879" FOLDED="true" ID="ID_1986224858" MODIFIED="1626614162514" TEXT="One observer dominating another">
+<node CREATED="1626614144277" ID="ID_1354490512" MODIFIED="1626614157725" TEXT="Img">
+<icon BUILTIN="licq"/>
+<node CREATED="1626613513399" ID="ID_458094417" MODIFIED="1626613522447">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="observer_dominating_another.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1626614163052" ID="ID_1353425545" MODIFIED="1626614170824" TEXT="Can guess what A will say if B says something"/>
+<node CREATED="1626614171124" ID="ID_1250283944" MODIFIED="1626614175734" TEXT="... inverse not true"/>
+<node CREATED="1626614179348" ID="ID_85495516" MODIFIED="1626614199736" TEXT="Many to one mapping from B to A"/>
+<node CREATED="1626614189219" ID="ID_973275862" MODIFIED="1626614217336" TEXT="One to many mapping from A to B"/>
+<node CREATED="1626614275715" ID="ID_785761713" MODIFIED="1626614293640" TEXT="A consistent with B">
+<node CREATED="1626614278780" ID="ID_1716505796" MODIFIED="1626614282832" TEXT="So A observation "/>
+<node CREATED="1626614283468" ID="ID_1586670053" MODIFIED="1626614287264" TEXT="... doesn&apos;t bring anything to B"/>
+</node>
+</node>
+<node CREATED="1626614315244" FOLDED="true" ID="ID_240184444" MODIFIED="1626614408160" TEXT="Neither observer dominate">
+<icon BUILTIN="licq"/>
+<node CREATED="1626614329043" ID="ID_474898028" MODIFIED="1626614373558">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="inconsistent_observers.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1626614445035" ID="ID_261600940" MODIFIED="1626614450519" TEXT="Easy to think that">
+<node CREATED="1626614450890" ID="ID_672574444" MODIFIED="1626614455919" TEXT="... we can observe everything"/>
+<node CREATED="1626614456306" ID="ID_1768562114" MODIFIED="1626614460767" TEXT="... when speaking about other&apos;s"/>
+<node CREATED="1626614461123" ID="ID_239524256" MODIFIED="1626614463479" TEXT="... point of views"/>
+<node CREATED="1626614470419" ID="ID_1249180596" MODIFIED="1626614474029" TEXT="... but we don&apos;t have this power!"/>
+</node>
+<node CREATED="1626614479746" ID="ID_1691993490" MODIFIED="1626614486086" TEXT="For simple case, can have a &quot;superobserver&quot;">
+<node CREATED="1626614493539" ID="ID_1531002331" MODIFIED="1626614497295" TEXT="Viewing capacities"/>
+<node CREATED="1626614500654" ID="ID_554985755" MODIFIED="1626614517735" TEXT="... dependant of the capabilities"/>
+<node CREATED="1626614518147" ID="ID_1925331594" MODIFIED="1626614524880" TEXT="... of present observers"/>
+<node CREATED="1626614525227" ID="ID_546789342" MODIFIED="1626614530110" TEXT="Not omniscient"/>
+<node CREATED="1626614530802" ID="ID_174464302" MODIFIED="1626614540543" TEXT="View must dominate view of any other observer"/>
+<node CREATED="1626614545762" ID="ID_677231496" MODIFIED="1626614554366" TEXT="In extreme case use carthesian product"/>
+<node CREATED="1626614560210" ID="ID_1414275031" MODIFIED="1626614564590" TEXT="... of all observers present"/>
+<node CREATED="1626614608490" ID="ID_1742227785" MODIFIED="1626614612598" TEXT="Combinatorial power">
+<node CREATED="1626614634570" ID="ID_130274557" MODIFIED="1626614643008" TEXT="Img">
+<icon BUILTIN="licq"/>
+<node CREATED="1626614613090" ID="ID_48743056" MODIFIED="1626614616294">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="combinatioral_powers_of_superobserver.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1626614629835" ID="ID_59177462" MODIFIED="1626614639197" TEXT="Grow very fast">
+<node CREATED="1626614697818" ID="ID_183327370" MODIFIED="1626614704246" TEXT="That&apos;s why only useful in simple situation"/>
+<node CREATED="1626614669818" ID="ID_1158940836" MODIFIED="1626614691413" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1626614671009" ID="ID_707688120" MODIFIED="1626614678438" TEXT="Two observer can discriminate 10 situation"/>
+<node CREATED="1626614678722" ID="ID_1084678815" MODIFIED="1626614689623" TEXT="Superobservers can discriminate 10^2"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1626614738177" ID="ID_502851627" MODIFIED="1626614763558" POSITION="right" TEXT="Chapter 4 - interpreting observations">
+<icon BUILTIN="full-4"/>
+<node CREATED="1626614787417" ID="ID_967254682" MODIFIED="1626614789344" TEXT="States">
+<icon BUILTIN="full-1"/>
+<node CREATED="1626614794377" ID="ID_1170503628" MODIFIED="1626614800685" TEXT="Black box game">
+<node CREATED="1626614810849" ID="ID_397049996" MODIFIED="1626614813742" TEXT="Observer">
+<node CREATED="1626614813977" ID="ID_1792668360" MODIFIED="1626614817493" TEXT="Omniscient"/>
+<node CREATED="1626614817834" ID="ID_1604987714" MODIFIED="1626614820077" TEXT="Not omnipotent">
+<node CREATED="1626614920224" ID="ID_62736896" MODIFIED="1626614922741" TEXT="Can&apos;t do everything"/>
+<node CREATED="1626614928113" ID="ID_1716177715" MODIFIED="1626614933389" TEXT="Can&apos;t influence the system"/>
+</node>
+</node>
+</node>
+<node CREATED="1626614939161" ID="ID_647142771" MODIFIED="1626614943669" TEXT="Works for astronomers">
+<node CREATED="1626614946328" ID="ID_691234875" MODIFIED="1626614966053" TEXT="Break down at home"/>
+<node CREATED="1626614966689" ID="ID_1487413083" MODIFIED="1626614970893" TEXT="... if courageous enough"/>
+<node CREATED="1626614971169" ID="ID_1184305981" MODIFIED="1626614976949" TEXT="... to try to interact with the system"/>
+</node>
+<node CREATED="1626614986401" ID="ID_744842992" MODIFIED="1626614995949" TEXT="World independant of percipient observers"/>
+</node>
+<node CREATED="1626615027679" ID="ID_1169501606" MODIFIED="1626615033304" TEXT="The Eye-Brain Law">
+<icon BUILTIN="full-2"/>
+<node CREATED="1626615080536" ID="ID_1657580452" MODIFIED="1626615086245" TEXT="The Eye-brain law">
+<node COLOR="#338800" CREATED="1626615042409" ID="ID_1565071282" MODIFIED="1626615064955" TEXT="&quot;To a certain extent, mental power can compensate for observational weakness&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1626615087832" ID="ID_1154549550" MODIFIED="1626615094756" TEXT="The Brain-eye law">
+<node COLOR="#338800" CREATED="1626615095153" ID="ID_1680052676" MODIFIED="1626615118369" TEXT="&quot;To a certain extent, observational power can compensate for mental weakness&quot;&quot;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1626615215568" ID="ID_550720055" MODIFIED="1626615231400" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1626615155449" ID="ID_1808810547" MODIFIED="1626615169476" TEXT="Experienced doctor needs fewer laboratory tests"/>
+<node CREATED="1626615169872" ID="ID_1060183512" MODIFIED="1626615178060" TEXT="... than interns to make diagnosis">
+<node CREATED="1626615187152" ID="ID_1168248669" MODIFIED="1626615198900" TEXT="Intern can substitute years of experience"/>
+<node CREATED="1626615199200" ID="ID_1580589606" MODIFIED="1626615203900" TEXT="... with a good laboratory"/>
+</node>
+<node CREATED="1626615220040" ID="ID_291715623" MODIFIED="1626615228915" TEXT="We drive more slowly at night to compensate reduced vision"/>
+<node CREATED="1626615235984" ID="ID_1736551234" MODIFIED="1626615265077" TEXT="We write notes on papers for later reading to relieve our memory"/>
+</node>
+<node CREATED="1626615269752" ID="ID_1062647214" MODIFIED="1626615286430" TEXT="Eye-brain law doesn&apos;t work when no constraints in observation">
+<node CREATED="1626615292144" ID="ID_87595206" MODIFIED="1626615295229" TEXT="Memory is of no use"/>
+<node CREATED="1626615295600" ID="ID_15041007" MODIFIED="1626615300140" TEXT="... if future is like the past"/>
+</node>
+<node CREATED="1626615307800" ID="ID_481257310" MODIFIED="1626615308676" TEXT="State">
+<node CREATED="1626615308879" ID="ID_1324884630" MODIFIED="1626615313764" TEXT="Situation our observer"/>
+<node CREATED="1626615314079" ID="ID_692648935" MODIFIED="1626615322236" TEXT="... can recognize"/>
+<node CREATED="1626615322920" ID="ID_1327999760" MODIFIED="1626615326396" TEXT="... if it occurs again"/>
+</node>
+<node CREATED="1626615338808" ID="ID_1905881590" MODIFIED="1626615345100" TEXT="Discriminating too many states is bad"/>
+<node CREATED="1626615362497" ID="ID_306767287" MODIFIED="1626615370733" TEXT="Being too precise makes everything more complex"/>
+<node CREATED="1626615377759" ID="ID_539216941" MODIFIED="1626615385380" TEXT="Balance can&apos;t be pushed too far between">
+<node CREATED="1626615385538" ID="ID_482110329" MODIFIED="1626615387844" TEXT="&quot;eye power&quot;"/>
+<node CREATED="1626615388215" ID="ID_354685665" MODIFIED="1626615391859" TEXT="&quot;brain power&quot;"/>
+</node>
+<node CREATED="1626615396184" ID="ID_1743233705" MODIFIED="1626615401468" TEXT="Problem of science: to find a compromise"/>
+</node>
+<node CREATED="1626615410872" ID="ID_659713336" MODIFIED="1626615423375" TEXT="The Generalized Thermodynamic Law">
+<icon BUILTIN="full-3"/>
+<node CREATED="1626615433935" ID="ID_666336621" MODIFIED="1626615439538" TEXT="Observational problems grow greater"/>
+<node CREATED="1626615439863" ID="ID_151459713" MODIFIED="1626615465780" TEXT="... the most complex the system"/>
+<node CREATED="1626615481343" ID="ID_115724405" MODIFIED="1626615491243" TEXT="What we observe depends of our characteristics as observers"/>
+<node CREATED="1626615491591" ID="ID_1962177245" MODIFIED="1626615493339" TEXT="... but not only"/>
+<node CREATED="1626615496871" ID="ID_1147247435" MODIFIED="1626615500171" TEXT="Two extreme views">
+<node CREATED="1626615500551" ID="ID_1043506906" MODIFIED="1626615503243" TEXT="Realists">
+<node CREATED="1626615504983" ID="ID_1499604140" MODIFIED="1626615517155" TEXT="What&apos;s in our heads is real"/>
+</node>
+<node CREATED="1626615517823" ID="ID_412539888" MODIFIED="1626615523267" TEXT="Solipsist">
+<node CREATED="1626615523663" ID="ID_715579400" MODIFIED="1626615528878" TEXT="Everything we see is in our head"/>
+</node>
+</node>
+<node CREATED="1626615535855" ID="ID_97361379" MODIFIED="1626615547236" TEXT="... both suffer from same disease"/>
+<node CREATED="1626615548159" ID="ID_1795322348" MODIFIED="1626615554635" TEXT="2 components of observation (Galileo)">
+<node CREATED="1626615561087" ID="ID_1108530160" MODIFIED="1626615570051" TEXT="Primary qualities of matter inherent in matter"/>
+<node CREATED="1626615575447" ID="ID_1333881567" MODIFIED="1626615578451" TEXT="Secondary quality">
+<node CREATED="1626615578615" ID="ID_1242987050" MODIFIED="1626615583067" TEXT="Product of interaction"/>
+<node CREATED="1626615585327" ID="ID_1635754876" MODIFIED="1626615591667" TEXT="... of body possessing"/>
+<node CREATED="1626615591967" ID="ID_1559767407" MODIFIED="1626615595315" TEXT="... primary qualities"/>
+<node CREATED="1626615595735" ID="ID_1398418488" MODIFIED="1626615600116" TEXT="... with sense organ"/>
+<node CREATED="1626615600463" ID="ID_1281325712" MODIFIED="1626615603722" TEXT="... of human observer"/>
+</node>
+</node>
+<node CREATED="1626615605383" ID="ID_604906436" MODIFIED="1626615611577" TEXT="Generalized thermodynamic law">
+<node CREATED="1626615612887" ID="ID_1126839642" MODIFIED="1626615627963" TEXT="More probable states are more likely to be observed"/>
+<node CREATED="1626615628486" ID="ID_1937025217" MODIFIED="1626615632763" TEXT="... than less probable states"/>
+<node CREATED="1626615637468" ID="ID_691146077" MODIFIED="1626615650380" TEXT="... unless specific constraints"/>
+<node CREATED="1626615650943" ID="ID_133162493" MODIFIED="1626615655699" TEXT="... exist to keep them from occuring"/>
+</node>
+<node CREATED="1626615666612" ID="ID_1081390167" MODIFIED="1626615674603" TEXT="The things we saw more frequently are more frequent">
+<node CREATED="1626615677558" ID="ID_771068968" MODIFIED="1626615690237" TEXT="Because physical reasons to favor some states">
+<icon BUILTIN="full-1"/>
+<node CREATED="1626615696663" ID="ID_228183404" MODIFIED="1626615700451" TEXT="First law of thermodynamic"/>
+<node CREATED="1626615700791" ID="ID_653598840" MODIFIED="1626615705294" TEXT="... about conservation of energy"/>
+</node>
+<node CREATED="1626615706614" ID="ID_1995543623" MODIFIED="1626615722123" TEXT="Because there is some mental reasons">
+<icon BUILTIN="full-2"/>
+<node CREATED="1626615723830" ID="ID_666246514" MODIFIED="1626615736635" TEXT="Second law of thermodynamic"/>
+<node CREATED="1626615737926" ID="ID_1470947463" MODIFIED="1626615744626" TEXT=".... about limited power of observer"/>
+<node CREATED="1626615745133" ID="ID_1306665351" MODIFIED="1626615753683" TEXT="... when viewing system of large numbers"/>
+<node CREATED="1626615754358" ID="ID_291952619" MODIFIED="1626615762635" TEXT="... of particles"/>
+</node>
+<node CREATED="1626615775455" ID="ID_783460557" MODIFIED="1626615849546" TEXT="Keep us to overdo realistic thinkings"/>
+</node>
+<node CREATED="1626615865759" ID="ID_1624494755" MODIFIED="1626615870866" TEXT="State is a situation">
+<node CREATED="1626615871078" ID="ID_582435850" MODIFIED="1626615874482" TEXT="... which can be recognize"/>
+<node CREATED="1626615874814" ID="ID_1999035216" MODIFIED="1626615886018" TEXT="... if it occurs again"/>
+</node>
+</node>
+</node>
+</node>
+</map>
