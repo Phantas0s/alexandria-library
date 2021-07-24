@@ -49,11 +49,30 @@
 <node CREATED="1627142637371" ID="ID_311191423" MODIFIED="1627142653461" TEXT="Can manage them with kubectl"/>
 </node>
 <node CREATED="1627142733464" ID="ID_1695157368" MODIFIED="1627142740133" TEXT="Basics minikube commands">
+<node CREATED="1627145754090" ID="ID_1745694896" MODIFIED="1627145756149" TEXT="Deployment">
 <node CREATED="1627142740440" ID="ID_1165516898" MODIFIED="1627142744186" TEXT="minikube start">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1627142766215" ID="ID_1798561268" MODIFIED="1627142768766" TEXT="Start a new cluster"/>
 </node>
-<node CREATED="1627142783593" ID="ID_821941947" MODIFIED="1627142811952" TEXT="kubectl run hello-minikube --image=grc.io/google_containers/echoserver:1.4 --port=8080">
+<node CREATED="1627142783593" ID="ID_821941947" MODIFIED="1627143481006" TEXT="kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080 ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1627146410098" ID="ID_242136993" MODIFIED="1627146420510" TEXT="Expose">
+<node CREATED="1627145767418" ID="ID_1872302978" MODIFIED="1627146479230" TEXT="kubectl expose pod hello-minikube --type=NodePort">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1627145983290" ID="ID_1697235514" MODIFIED="1627146474566" TEXT="Exposing pod minikube to service type NodePort"/>
+</node>
+<node CREATED="1627146421921" ID="ID_1542350982" MODIFIED="1627146426810" TEXT="kubectl get pod">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1627146459794" ID="ID_1839662148" MODIFIED="1627146462803" TEXT="curl $(minikube service hello-minikube --url) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1627147236003" ID="ID_1494568998" MODIFIED="1627147253110" TEXT="kubectl delete pod hello-minikube ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1627147242778" ID="ID_58361520" MODIFIED="1627147245124" TEXT="minikube stop ">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
