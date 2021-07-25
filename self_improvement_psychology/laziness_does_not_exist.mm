@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1573228610625" ID="ID_67242960" LINK="https://humanparts.medium.com/laziness-does-not-exist-3af27e312d01" MODIFIED="1573230605355" TEXT="Laziness doesn&apos;t exists">
-<node CREATED="1573228728087" FOLDED="true" ID="ID_1372364210" MODIFIED="1573898658564" POSITION="right" TEXT="Predict / explain person action">
+<node CREATED="1573228728087" ID="ID_1372364210" MODIFIED="1573898658564" POSITION="right" TEXT="Predict / explain person action">
 <icon BUILTIN="full-1"/>
 <node CREATED="1573229182252" ID="ID_211083280" MODIFIED="1573229187008" TEXT="Look at">
 <node CREATED="1573229187268" ID="ID_1167321315" MODIFIED="1573229189520" TEXT="Social norms"/>
@@ -14,7 +14,7 @@
 <node CREATED="1573229220297" ID="ID_1507468553" MODIFIED="1573229227758" TEXT="individual-level traits"/>
 </node>
 <node CREATED="1573229269690" ID="ID_1159768005" MODIFIED="1573229272887" TEXT="Ask yourself">
-<node CREATED="1573229273156" ID="ID_82821796" MODIFIED="1573229279919" TEXT="Why this person doesnt do this or that?"/>
+<node CREATED="1573229273156" ID="ID_82821796" MODIFIED="1627226428114" TEXT="Why this person doesn&apos;t do this or that?"/>
 <node CREATED="1573229285569" ID="ID_421560201" MODIFIED="1573229288983" TEXT="What are the barriers?"/>
 <node CREATED="1573229289346" ID="ID_1283855547" MODIFIED="1573229292918" TEXT="... there are always barriers">
 <node CREATED="1573229306618" ID="ID_2528843" MODIFIED="1573229310007" TEXT="Recognize them"/>
@@ -37,8 +37,10 @@
 <node CREATED="1573229559327" ID="ID_1875195175" MODIFIED="1573229562212" TEXT="World is unfriendly"/>
 <node CREATED="1573229562815" ID="ID_1894178774" MODIFIED="1573229564797" TEXT="Nights are cold"/>
 <node CREATED="1573229573889" ID="ID_350653913" MODIFIED="1573229576045" TEXT="Alcohol">
-<node CREATED="1573229576208" ID="ID_1345620375" MODIFIED="1573229581965" TEXT="Might be only way to warm up"/>
-<node CREATED="1573229582520" ID="ID_64189721" MODIFIED="1573229583988" TEXT="... and sleep"/>
+<node CREATED="1573229576208" ID="ID_1345620375" MODIFIED="1627226444778" TEXT="Might be only way to">
+<node CREATED="1627226444950" ID="ID_1273931333" MODIFIED="1627226446385" TEXT="warm up"/>
+<node CREATED="1627226446764" ID="ID_1642230654" MODIFIED="1627226447753" TEXT="sleep"/>
+</node>
 </node>
 <node CREATED="1573229591483" ID="ID_883673034" MODIFIED="1573229593581" TEXT="Cigarette">
 <node CREATED="1573229593824" ID="ID_1766310915" MODIFIED="1573229597403" TEXT="If you&apos;re under nourished"/>
@@ -117,7 +119,7 @@
 <node CREATED="1573230288857" ID="ID_43613390" MODIFIED="1573230295048" TEXT="Procrastination just means people have needs"/>
 <node CREATED="1573230301233" ID="ID_180511692" MODIFIED="1612107998596" TEXT="... we need to help procrastinator answer them"/>
 </node>
-<node CREATED="1573230582448" FOLDED="true" ID="ID_766533550" MODIFIED="1573230601968" POSITION="left" TEXT="Taking a curious / empathic approach is the best way">
+<node CREATED="1573230582448" ID="ID_766533550" MODIFIED="1573230601968" POSITION="left" TEXT="Taking a curious / empathic approach is the best way">
 <icon BUILTIN="full-4"/>
 <node CREATED="1573230631167" ID="ID_1328858487" MODIFIED="1573230639892" TEXT="People do not choose to disappoint"/>
 <node CREATED="1573230653743" ID="ID_782585775" MODIFIED="1573230658948" TEXT="... nobody wants to feel that way"/>

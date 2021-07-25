@@ -55,7 +55,7 @@
 </node>
 <node CREATED="1624092104476" ID="ID_1690393152" MODIFIED="1624092497865" POSITION="right" TEXT="Expert stuff / new stuff">
 <icon BUILTIN="full-6"/>
-<node CREATED="1624092110189" ID="ID_276704940" MODIFIED="1624092120320" TEXT="Tendency pour all time to the task you&apos;re great at"/>
+<node CREATED="1624092110189" ID="ID_276704940" MODIFIED="1627226176867" TEXT="Tendency using all time to the task you&apos;re great at"/>
 </node>
 <node CREATED="1624092556043" ID="ID_1191850366" MODIFIED="1624092579803" POSITION="right" TEXT="Stop fooling yourself">
 <icon BUILTIN="full-7"/>
