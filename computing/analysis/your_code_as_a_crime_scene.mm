@@ -117,7 +117,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1625232464361" ID="ID_1048002646" MODIFIED="1625232474256" POSITION="right" TEXT=" Part I - Evolving Software">
+<node CREATED="1625232464361" FOLDED="true" ID="ID_1048002646" MODIFIED="1625232474256" POSITION="right" TEXT=" Part I - Evolving Software">
 <icon BUILTIN="full-1"/>
 <node CREATED="1625232521129" FOLDED="true" ID="ID_611416294" MODIFIED="1625232535598" TEXT="Code as a Crime Scene">
 <icon BUILTIN="full-2"/>
@@ -651,7 +651,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1627321809442" ID="ID_1291476740" MODIFIED="1627321819495" TEXT="Calculate Complexity Trends from your Code&apos;s Shape">
+<node CREATED="1627321809442" FOLDED="true" ID="ID_1291476740" MODIFIED="1627321819495" TEXT="Calculate Complexity Trends from your Code&apos;s Shape">
 <icon BUILTIN="full-6"/>
 <node CREATED="1627321864569" ID="ID_217605091" MODIFIED="1627321875685" TEXT="Complexity by the Visual Shape of Programs">
 <icon BUILTIN="full-1"/>
@@ -715,8 +715,65 @@
 <node CREATED="1627476865866" ID="ID_427903018" MODIFIED="1627476867774" TEXT="New features"/>
 <node CREATED="1627476868153" ID="ID_1227020239" MODIFIED="1627476870398" TEXT="... add complexity"/>
 </node>
-<node CREATED="1627476890882" ID="ID_643073306" MODIFIED="1627476902446" TEXT="Lehman&apos;s lay of increasing complexity"/>
+<node CREATED="1627476890882" ID="ID_643073306" MODIFIED="1627663367980" TEXT="Lehman&apos;s law of increasing complexity"/>
+<node CREATED="1627663447176" ID="ID_1395396041" MODIFIED="1627663448309" TEXT="Use Indentation to Analyze Complexity Trends ">
+<node CREATED="1627663581193" ID="ID_433696972" MODIFIED="1627663590651" TEXT="Careful of disturbance"/>
+<node CREATED="1627663590992" ID="ID_1035152585" MODIFIED="1627663602043" TEXT="... like running indentation tool"/>
+<node CREATED="1627663604417" ID="ID_1648043290" MODIFIED="1627663615140" TEXT="... in the bunch of commits you analyze"/>
 </node>
+<node CREATED="1627663626136" ID="ID_1625645842" MODIFIED="1627663633019" TEXT="Focus on a range of revision"/>
+<node CREATED="1627663898032" ID="ID_618299083" MODIFIED="1627663902516" TEXT="Discover the Trend">
+<node CREATED="1627664135352" ID="ID_997683992" MODIFIED="1627664139291" TEXT="Total complexity trend">
+<node CREATED="1627664274367" ID="ID_1875061367" MODIFIED="1627664278941" TEXT="Growth can happen because">
+<node CREATED="1627664279168" ID="ID_1839772757" MODIFIED="1627664291534" TEXT="New code is added to module">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1627664284527" ID="ID_921220667" MODIFIED="1627664292475" TEXT="Existing code is replaced by complex code">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1627664293143" ID="ID_1512117766" MODIFIED="1627664298588" TEXT="... case 2 is most worrying"/>
+</node>
+<node CREATED="1627664139592" ID="ID_248852904" MODIFIED="1627664143772" TEXT="Standard deviation">
+<node CREATED="1627664302064" ID="ID_1750779643" MODIFIED="1627664308044" TEXT="When it decreases it&apos;s good"/>
+<node CREATED="1627664311487" ID="ID_372080433" MODIFIED="1627664317940" TEXT="Lines get more alike in term of complexity"/>
+</node>
+<node CREATED="1627664323927" ID="ID_910800937" MODIFIED="1627664324972" TEXT="Means">
+<node CREATED="1627664325207" ID="ID_495366155" MODIFIED="1627664328051" TEXT="Good when decrease"/>
+</node>
+</node>
+</node>
+<node CREATED="1627664335071" ID="ID_889856350" MODIFIED="1627664342918" TEXT="Evaluate the Growth Patterns">
+<icon BUILTIN="full-4"/>
+<node CREATED="1627664347632" ID="ID_714075674" MODIFIED="1627664355899" TEXT="Number is not interesting"/>
+<node CREATED="1627664356336" ID="ID_1401010146" MODIFIED="1627664483389" TEXT="Curve is better">
+<icon BUILTIN="licq"/>
+<node CREATED="1627664468143" ID="ID_1224527720" MODIFIED="1627664477140">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="your_code_as_a_crime_scene/shape_complexity_growth.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1627664498384" ID="ID_392448258" MODIFIED="1627664502147" TEXT="To know how bad it is">
+<node CREATED="1627664502328" ID="ID_1398124867" MODIFIED="1627664508964" TEXT="Descriptive statistics"/>
+<node CREATED="1627664509304" ID="ID_1529082752" MODIFIED="1627664513235" TEXT="... like standard deviation"/>
+</node>
+</node>
+<node CREATED="1627664526519" ID="ID_1857910376" MODIFIED="1627664531637" TEXT="From Individual Hotspots to Architectures">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+</node>
+<node CREATED="1627664590648" ID="ID_1087842304" MODIFIED="1627664597941" POSITION="right" TEXT=" Part II - Dissect Your Architecture">
+<icon BUILTIN="full-2"/>
+<node CREATED="1627664637535" ID="ID_1155224150" MODIFIED="1627664647541" TEXT="Treat Your Code As a Cooperative Witness">
+<icon BUILTIN="full-7"/>
 </node>
 </node>
 </node>
