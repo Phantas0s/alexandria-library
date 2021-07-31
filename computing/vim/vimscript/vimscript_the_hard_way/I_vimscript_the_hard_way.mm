@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1625582464172" TEXT="Vimscript the Hard Way">
+<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1627728044819" TEXT="Vimscript the Hard Way">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -568,7 +568,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587744349963" ID="ID_1459411153" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/13.html" MODIFIED="1587999447122" POSITION="right" TEXT="Buffer-Local Abbreviations">
+<node CREATED="1587744349963" FOLDED="true" ID="ID_1459411153" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/13.html" MODIFIED="1587999447122" POSITION="right" TEXT="Buffer-Local Abbreviations">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1587744402685" ID="ID_645821646" MODIFIED="1587995198817" TEXT="Introduction">
@@ -699,7 +699,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587747850088" ID="ID_1761355517" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/15.html" MODIFIED="1587999447122" POSITION="right" TEXT="Operator-Pending Mappings">
+<node CREATED="1587747850088" FOLDED="true" ID="ID_1761355517" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/15.html" MODIFIED="1587999447122" POSITION="right" TEXT="Operator-Pending Mappings">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-5"/>
 <node CREATED="1587747880357" ID="ID_1762317543" MODIFIED="1587995194765" TEXT="Introduction">
@@ -801,7 +801,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587749243982" ID="ID_965179661" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/16.html" MODIFIED="1587999447122" POSITION="right" TEXT="More Operator-Pending Mappings ">
+<node CREATED="1587749243982" FOLDED="true" ID="ID_965179661" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/16.html" MODIFIED="1587999447122" POSITION="right" TEXT="More Operator-Pending Mappings ">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-6"/>
 <node CREATED="1587749398063" ID="ID_1716726738" MODIFIED="1587749403700" TEXT="Introduction">

@@ -69,6 +69,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1600329284351" ID="ID_757849801" MODIFIED="1600329289682" TEXT="... usually autocommand does that"/>
+<node CREATED="1627727159273" ID="ID_28893252" MODIFIED="1627727166580" TEXT="Determine syntax group with regex"/>
 <node CREATED="1600329481269" ID="ID_529085860" MODIFIED="1600329489025" TEXT="Syntax group linked to highlight group"/>
 <node CREATED="1600329489718" ID="ID_1327668038" MODIFIED="1600329495992" TEXT="... highlight group give colors"/>
 <node CREATED="1600330114532" ID="ID_1066871235" MODIFIED="1600330121771" TEXT="Filetype linked to syntax"/>
