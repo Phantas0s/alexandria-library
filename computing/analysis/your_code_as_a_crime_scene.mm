@@ -254,7 +254,7 @@
 <icon BUILTIN="full-6"/>
 </node>
 </node>
-<node CREATED="1626619993381" FOLDED="true" ID="ID_1201282197" MODIFIED="1626620002120" TEXT="Creating an offender profile">
+<node CREATED="1626619993381" ID="ID_1201282197" MODIFIED="1626620002120" TEXT="Creating an offender profile">
 <icon BUILTIN="full-3"/>
 <node CREATED="1626620046431" FOLDED="true" ID="ID_1615240656" MODIFIED="1626620054590" TEXT="Mining Evolutionary Data">
 <icon BUILTIN="full-1"/>
@@ -957,7 +957,31 @@
 </node>
 </node>
 </node>
-<node CREATED="1627734074314" ID="ID_764670202" MODIFIED="1627734081256" TEXT=" Catch Architectural Decay"/>
+<node CREATED="1627734074314" ID="ID_764670202" MODIFIED="1627923805970" TEXT=" Catch Architectural Decay">
+<icon BUILTIN="full-3"/>
+<node CREATED="1627923812631" ID="ID_1198320908" MODIFIED="1627923823874" TEXT="Temporal coupling related to software defects">
+<node CREATED="1627923828037" ID="ID_1362767129" MODIFIED="1627923844232" TEXT="Developer may forget to update one of implict coupled module"/>
+<node CREATED="1627923845373" ID="ID_1381980857" MODIFIED="1627923857296" TEXT="Unexepected feature interactions">
+<node CREATED="1627923861461" ID="ID_835985311" MODIFIED="1627923865004" TEXT="Evolutionary lifetime"/>
+<node CREATED="1627923868149" ID="ID_848583516" MODIFIED="1627923871792" TEXT="... intimely tied"/>
+</node>
+<node CREATED="1627923881389" ID="ID_856067127" MODIFIED="1627923886048" TEXT="Hight degree of temporal coupline">
+<node CREATED="1627923886245" ID="ID_1829834843" MODIFIED="1627923893321" TEXT="Hight defect rates"/>
+<node CREATED="1627923945653" ID="ID_1181555043" MODIFIED="1627924056928" TEXT="Temporal coupling outperform complexity metrics"/>
+<node CREATED="1627924057285" ID="ID_587474876" MODIFIED="1627924066569" TEXT="... when identifying more severe bugs"/>
+</node>
+<node CREATED="1627927577685" ID="ID_1392648749" MODIFIED="1627927671737" TEXT="Another Lehman law">
+<node CREATED="1627927583143" ID="ID_287042466" MODIFIED="1627927587329" TEXT="Law of continuous change"/>
+<node CREATED="1627927589485" ID="ID_122410041" MODIFIED="1627927598369" TEXT="Program undergoes continual change"/>
+<node CREATED="1627927598733" ID="ID_1748852920" MODIFIED="1627927602681" TEXT="... or is less and less useful"/>
+<node CREATED="1627927622117" ID="ID_407514643" MODIFIED="1627927623545" TEXT="Tension">
+<node CREATED="1627927624453" ID="ID_747116793" MODIFIED="1627927635401" TEXT="Evolve our system to make them better and relevant"/>
+<node CREATED="1627927636102" ID="ID_1553240037" MODIFIED="1627927648537" TEXT="We don&apos;t want to increase the complexity of the system"/>
+</node>
+</node>
+</node>
+<node CREATED="1627927758701" ID="ID_52523149" MODIFIED="1627927768241" TEXT="Identify Architecturally Signigicant Modules"/>
+</node>
 </node>
 </node>
 </node>
