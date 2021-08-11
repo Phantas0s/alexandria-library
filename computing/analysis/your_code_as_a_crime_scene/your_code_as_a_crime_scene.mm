@@ -254,7 +254,7 @@
 <icon BUILTIN="full-6"/>
 </node>
 </node>
-<node CREATED="1626619993381" ID="ID_1201282197" MODIFIED="1626620002120" TEXT="Creating an offender profile">
+<node CREATED="1626619993381" FOLDED="true" ID="ID_1201282197" MODIFIED="1626620002120" TEXT="Creating an offender profile">
 <icon BUILTIN="full-3"/>
 <node CREATED="1626620046431" FOLDED="true" ID="ID_1615240656" MODIFIED="1626620054590" TEXT="Mining Evolutionary Data">
 <icon BUILTIN="full-1"/>
@@ -651,7 +651,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1627321809442" ID="ID_1291476740" MODIFIED="1627321819495" TEXT="Calculate Complexity Trends from your Code&apos;s Shape">
+<node CREATED="1627321809442" FOLDED="true" ID="ID_1291476740" MODIFIED="1627321819495" TEXT="Calculate Complexity Trends from your Code&apos;s Shape">
 <icon BUILTIN="full-6"/>
 <node CREATED="1627321864569" ID="ID_217605091" MODIFIED="1627321875685" TEXT="Complexity by the Visual Shape of Programs">
 <icon BUILTIN="full-1"/>
@@ -1023,7 +1023,7 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node CREATED="1628011450951" ID="ID_216846705" MODIFIED="1628011460670" TEXT="Build a Safety Net for your Architecture">
+<node CREATED="1628011450951" FOLDED="true" ID="ID_216846705" MODIFIED="1628011460670" TEXT="Build a Safety Net for your Architecture">
 <icon BUILTIN="full-9"/>
 <node CREATED="1628011494112" FOLDED="true" ID="ID_1471308092" MODIFIED="1628011502229" TEXT="Know What&apos;s in an Architecture">
 <icon BUILTIN="full-1"/>
@@ -1247,8 +1247,7 @@
   <body>
     <img src="modification_test_app_patterns.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1283,7 +1282,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1628521531403" ID="ID_1392157514" MODIFIED="1628521537312" TEXT="Use Beauty as a Guiding Principle">
+<node CREATED="1628521531403" FOLDED="true" ID="ID_1392157514" MODIFIED="1628521537312" TEXT="Use Beauty as a Guiding Principle">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1628521649259" ID="ID_420563845" MODIFIED="1628521656297" TEXT="Learn Why Attractiveness Matters">
@@ -1358,8 +1357,240 @@
 <icon BUILTIN="full-5"/>
 <node CREATED="1628523174305" ID="ID_1545674164" MODIFIED="1628523182775" TEXT="Define Each Layer as an Architectural Boundary"/>
 <node CREATED="1628523409067" ID="ID_919283121" MODIFIED="1628523414423" TEXT="Identify Expensive Change Patterns"/>
-<node CREATED="1628523447651" ID="ID_862744000" MODIFIED="1628523454135" TEXT="Use Hotspots to Assess the Severity"/>
+<node CREATED="1628523447651" ID="ID_862744000" MODIFIED="1628523454135" TEXT="Use Hotspots to Assess the Severity">
+<node CREATED="1628606301399" ID="ID_1381042740" MODIFIED="1628606304707" TEXT="If high volatile"/>
+<node CREATED="1628606305166" ID="ID_43143813" MODIFIED="1628606315403" TEXT="... temporal coupling involving module"/>
+<node CREATED="1628606316399" ID="ID_107606709" MODIFIED="1628606328779" TEXT="... is a more serious concern"/>
+<node CREATED="1628606335127" ID="ID_1617040370" MODIFIED="1628606340195" TEXT="But temporal coupling"/>
+<node CREATED="1628606340503" ID="ID_1610922662" MODIFIED="1628606359683" TEXT="... don&apos;t tell us direction of change dependency">
+<node CREATED="1628606369815" ID="ID_98288578" MODIFIED="1628606374803" TEXT="What change lead to"/>
+<node CREATED="1628606375295" ID="ID_32200685" MODIFIED="1628606378267" TEXT="... what other change?"/>
 </node>
+</node>
+<node CREATED="1628606415911" ID="ID_466837054" MODIFIED="1628606421395" TEXT="Treat Patterns as Helpful Friends">
+<node CREATED="1628606431239" ID="ID_206938930" MODIFIED="1628606439931" TEXT="Pattern doesn&apos;t provide unversally good design"/>
+<node CREATED="1628606440311" ID="ID_194886569" MODIFIED="1628606443707" TEXT="Context dependent"/>
+<node CREATED="1628606449887" ID="ID_1257096925" MODIFIED="1628606453570" TEXT="Patterns offering">
+<node CREATED="1628606453767" ID="ID_252156729" MODIFIED="1628606457498" TEXT="Guide">
+<node CREATED="1628606467263" ID="ID_1449504593" MODIFIED="1628606475258" TEXT="Agreeing on right set of initial principle is challenging"/>
+<node CREATED="1628606475647" ID="ID_1458343878" MODIFIED="1628606481235" TEXT="Knowledge captured in patterns help"/>
+</node>
+<node CREATED="1628606482455" ID="ID_1195530739" MODIFIED="1628606485955" TEXT="Share knowledge">
+<node CREATED="1628606488903" ID="ID_589504070" MODIFIED="1628606492721" TEXT="Few designs are really novel"/>
+<node CREATED="1628606494527" ID="ID_983805117" MODIFIED="1628606503203" TEXT="Often patterns can apply to problems as well"/>
+</node>
+<node CREATED="1628606504679" ID="ID_1723598770" MODIFIED="1628606508467" TEXT="Have social value">
+<node CREATED="1628606514487" ID="ID_816150822" MODIFIED="1628606519099" TEXT="Collaborative construction"/>
+<node CREATED="1628606519455" ID="ID_1677757084" MODIFIED="1628606523283" TEXT="Shared vocabulary"/>
+<node CREATED="1628606530399" ID="ID_561298260" MODIFIED="1628606534507" TEXT="More of a communication tool"/>
+<node CREATED="1628606534895" ID="ID_1860242512" MODIFIED="1628606537954" TEXT="... than technical solution"/>
+</node>
+<node CREATED="1628606539351" ID="ID_1935446448" MODIFIED="1628606541715" TEXT="Reasonging tools">
+<node CREATED="1628606547343" ID="ID_813299221" MODIFIED="1628606555739" TEXT="Sophisticated form of chunking"/>
+<node CREATED="1628606559383" ID="ID_1641126165" MODIFIED="1628606568467" TEXT="Name serve as handles to knowledge stored in long term memory"/>
+<node CREATED="1628606574591" ID="ID_1316116186" MODIFIED="1628606583867" TEXT="Guide us as we evolve ourmetnal models of">
+<node CREATED="1628606584119" ID="ID_1944399509" MODIFIED="1628606586443" TEXT="problem space"/>
+<node CREATED="1628606586743" ID="ID_1262840903" MODIFIED="1628606588571" TEXT="solution space"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1628606591743" ID="ID_1876651593" MODIFIED="1628606599548" TEXT="Expand Your Analyses">
+<icon BUILTIN="full-6"/>
+<node CREATED="1628606701511" ID="ID_366804463" MODIFIED="1628606710035" TEXT="Want to track the solution to our analysis"/>
+<node CREATED="1628606729807" ID="ID_1229892629" MODIFIED="1628606734827" TEXT="Analyze Microservices">
+<node CREATED="1628606761311" ID="ID_1756614072" MODIFIED="1628606767346" TEXT="Each part orthogonal to each others"/>
+<node CREATED="1628606768063" ID="ID_301305751" MODIFIED="1628606771874" TEXT="Glue with simple mechanism">
+<node CREATED="1628606772071" ID="ID_316606290" MODIFIED="1628606773635" TEXT="message bus"/>
+<node CREATED="1628606773943" ID="ID_1911380299" MODIFIED="1628606776379" TEXT="HtTP API"/>
+</node>
+<node CREATED="1628606791623" ID="ID_1587934499" MODIFIED="1628606793843" TEXT="Attractive"/>
+<node CREATED="1628606807231" ID="ID_1852072274" MODIFIED="1628606814363" TEXT="Each service as an architectural boundary"/>
+<node CREATED="1628606819839" ID="ID_1110066860" MODIFIED="1628606831075" TEXT="If changes ripple through multiple services"/>
+<node CREATED="1628606831415" ID="ID_763493624" MODIFIED="1628606838459" TEXT="... we know that ug;liness is creeping into our system"/>
+</node>
+<node CREATED="1628606842439" ID="ID_1425057288" MODIFIED="1628606849507" TEXT="Rever-Engineer Your Principles from Code">
+<node CREATED="1628606859351" ID="ID_450231357" MODIFIED="1628606867659" TEXT="What to do if there is no architectural style?"/>
+<node CREATED="1628606875935" ID="ID_810924164" MODIFIED="1628606885443" TEXT="All coebases have some principles">
+<node CREATED="1628606889191" ID="ID_282682634" MODIFIED="1628606896683" TEXT="All programmers have their own styles"/>
+<node CREATED="1628606898279" ID="ID_271839572" MODIFIED="1628606901851" TEXT="There are some consistencies"/>
+<node CREATED="1628606903359" ID="ID_55007995" MODIFIED="1628606905891" TEXT="Might change overtime"/>
+</node>
+<node CREATED="1628606924239" ID="ID_1122063281" MODIFIED="1628606938523" TEXT="Look at the records in VCS to spot patterns"/>
+<node CREATED="1628606943143" ID="ID_616320774" MODIFIED="1628606955707" TEXT="Look at what you learn when you change the code"/>
+<node CREATED="1628606974800" ID="ID_673032666" MODIFIED="1628606981011" TEXT="Tailor analysis depending on these principles"/>
+<node CREATED="1628606986399" ID="ID_343348054" MODIFIED="1628606991259" TEXT="Look for changes breaking the principles">
+<node CREATED="1628606996847" ID="ID_1781193447" MODIFIED="1628607000299" TEXT="Even if principles are not idea"/>
+<node CREATED="1628607002295" ID="ID_1657901637" MODIFIED="1628607012827" TEXT="... it will assesss how consistent is the system"/>
+</node>
+</node>
+<node CREATED="1628607019703" ID="ID_1932416293" MODIFIED="1628607025931" TEXT="Use Your Suite or Analysis Techniques">
+<node CREATED="1628607058695" ID="ID_1097756817" MODIFIED="1628607063195" TEXT="Many problems have social roots"/>
+<node CREATED="1628607065943" ID="ID_748583037" MODIFIED="1628607075027" TEXT="Organizational problems that creep in the code"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1628607094639" ID="ID_872406253" MODIFIED="1628607138556" POSITION="right" TEXT=" Part III - Master the Social Aspects of Code">
+<icon BUILTIN="full-3"/>
+<node CREATED="1628607128743" FOLDED="true" ID="ID_1843251284" MODIFIED="1628697170892" TEXT="Norm, Groups, and False Serial Killers">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1628607312175" ID="ID_1543440089" MODIFIED="1628607321525" TEXT="Learn Why the Right People Don&apos;t Speak Up">
+<icon BUILTIN="full-1"/>
+<node CREATED="1628693357382" ID="ID_830669351" MODIFIED="1628693362017" TEXT="See How We Influence Each Other">
+<node CREATED="1628693379166" ID="ID_454713092" MODIFIED="1628693389675" TEXT="We influence each other working together"/>
+<node CREATED="1628693399215" ID="ID_344548460" MODIFIED="1628693408138" TEXT="Group can&apos;t operate at 100% efficiency">
+<node CREATED="1628693409134" ID="ID_1462213316" MODIFIED="1628693410962" TEXT="Process loss"/>
+<node CREATED="1628693413487" ID="ID_1858105624" MODIFIED="1628693468130" TEXT="Working together has costs in losses for">
+<node CREATED="1628693468334" ID="ID_870260488" MODIFIED="1628693469970" TEXT="coordination"/>
+<node CREATED="1628693470342" ID="ID_853507791" MODIFIED="1628693471538" TEXT="motivation"/>
+</node>
+<node CREATED="1628693480534" ID="ID_289826224" MODIFIED="1628693563099" TEXT="Group often perform below their potentials">
+<icon BUILTIN="licq"/>
+<node CREATED="1628693564278" ID="ID_267014853" MODIFIED="1628693571397">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="group_loss.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1628693786086" ID="ID_1082727200" MODIFIED="1628693791114" TEXT="Learn About Social Biases"/>
+<node CREATED="1628693836142" ID="ID_521857536" MODIFIED="1628693844602" TEXT="Isn&apos;t All This Group Stuff Culture-Dependent?">
+<node CREATED="1628693914574" ID="ID_1554193075" MODIFIED="1628693917162" TEXT="Different cultures"/>
+<node CREATED="1628693917510" ID="ID_1914380579" MODIFIED="1628693919906" TEXT="... have different values"/>
+<node CREATED="1628693920214" ID="ID_945419035" MODIFIED="1628693924114" TEXT="... affecting how members behave"/>
+<node CREATED="1628693927134" ID="ID_695095542" MODIFIED="1628693930434" TEXT="When you choose a tech"/>
+<node CREATED="1628693930806" ID="ID_1268934412" MODIFIED="1628693935450" TEXT="... you also choose a culture"/>
+</node>
+</node>
+<node CREATED="1628693938822" ID="ID_1162048079" MODIFIED="1628693949154" TEXT="Understand Pluralistic Ignorance">
+<icon BUILTIN="full-2"/>
+<node CREATED="1628694012182" ID="ID_212116719" MODIFIED="1628694017666" TEXT="Everybody wants to reject a norm"/>
+<node CREATED="1628694017998" ID="ID_1010917266" MODIFIED="1628694023786" TEXT="... but think that everybody else support it"/>
+<node CREATED="1628694024142" ID="ID_487653190" MODIFIED="1628694032010" TEXT="... so they show they&apos;re in favor of it"/>
+<node CREATED="1628694063166" ID="ID_16435779" MODIFIED="1628694072538" TEXT="Mistake familiar opinion for widespread one"/>
+<node CREATED="1628694203102" ID="ID_249111303" MODIFIED="1628694208378" TEXT="Challenge With Questions and Data">
+<node CREATED="1628694255878" ID="ID_392409186" MODIFIED="1628694267122" TEXT="When you suspect there are social biases"/>
+<node CREATED="1628694267454" ID="ID_41762733" MODIFIED="1628694273666" TEXT="... try the following approach">
+<node CREATED="1628694273894" ID="ID_1569842773" MODIFIED="1628694276754" TEXT="Ask Questions">
+<node CREATED="1628694280318" ID="ID_1281881908" MODIFIED="1628694284290" TEXT="Make others aware"/>
+<node CREATED="1628694284670" ID="ID_1078397033" MODIFIED="1628694287634" TEXT="... that proposed view"/>
+<node CREATED="1628694287998" ID="ID_1050255332" MODIFIED="1628694293090" TEXT="... is not shared by everyone"/>
+</node>
+<node CREATED="1628694294206" ID="ID_567370219" MODIFIED="1628694296090" TEXT="Talk to people">
+<node CREATED="1628694300318" ID="ID_553537145" MODIFIED="1628694310906" TEXT="Pluralistic ignorance comes from fear">
+<node CREATED="1628694311150" ID="ID_1113577500" MODIFIED="1628694312618" TEXT="rejection"/>
+<node CREATED="1628694312887" ID="ID_1813212351" MODIFIED="1628694314554" TEXT="criticism"/>
+</node>
+<node CREATED="1628694317158" ID="ID_408466505" MODIFIED="1628694329370" TEXT="If you think a decision is wrong, talk to your peers"/>
+</node>
+<node CREATED="1628694335863" ID="ID_1606781573" MODIFIED="1628694340370" TEXT="Support decisions with data">
+<node CREATED="1628694342982" ID="ID_675612093" MODIFIED="1628694345162" TEXT="Can&apos;t avoid">
+<node CREATED="1628694345366" ID="ID_1496709515" MODIFIED="1628694346882" TEXT="social biases"/>
+<node CREATED="1628694347182" ID="ID_1808735585" MODIFIED="1628694350017" TEXT="cognitive biases"/>
+</node>
+<node CREATED="1628694803606" ID="ID_822961291" MODIFIED="1628694814842" TEXT="Check assumptions with data either">
+<node CREATED="1628694815222" ID="ID_136583342" MODIFIED="1628694817562" TEXT="support decision"/>
+<node CREATED="1628694817847" ID="ID_822290902" MODIFIED="1628694820826" TEXT="challenge decision"/>
+</node>
+</node>
+</node>
+<node CREATED="1628694837046" ID="ID_151311945" MODIFIED="1628694843698" TEXT="If you&apos;re in a leadership position">
+<node CREATED="1628694843910" ID="ID_1971122619" MODIFIED="1628694852962" TEXT="Use outside experts to review your decisions"/>
+<node CREATED="1628694951430" ID="ID_1877211336" MODIFIED="1628694961082" TEXT="Let subgrups work independently on same problem"/>
+<node CREATED="1628694962070" ID="ID_1733482235" MODIFIED="1628694974386" TEXT="Avoir advocating specific solution early in discussion"/>
+<node CREATED="1628694974958" ID="ID_1125925018" MODIFIED="1628694987634" TEXT="Discuss worst-case scenarios to make group risk-aware"/>
+<node CREATED="1628694988270" ID="ID_1355949343" MODIFIED="1628694998905" TEXT="Plan second meeting to reconsider decisions of first one"/>
+</node>
+<node CREATED="1628695006054" ID="ID_1350473560" MODIFIED="1628695011065" TEXT="... useful to avoid groupthink">
+<node CREATED="1628695115214" ID="ID_727161978" MODIFIED="1628695120946" TEXT="Supress all form of internal dissent"/>
+<node CREATED="1628695121510" ID="ID_1195530691" MODIFIED="1628695124130" TEXT="Disastrous"/>
+<node CREATED="1628695126409" ID="ID_201912760" MODIFIED="1628695128258" TEXT="Ignore">
+<node CREATED="1628695128422" ID="ID_1684488459" MODIFIED="1628695129778" TEXT="alternative"/>
+<node CREATED="1628695130126" ID="ID_880292853" MODIFIED="1628695131922" TEXT="risk of failure"/>
+</node>
+<node CREATED="1628695135046" ID="ID_1893716911" MODIFIED="1628695142010" TEXT="Gives false sense of consensus"/>
+</node>
+</node>
+</node>
+<node CREATED="1628695148214" ID="ID_641333917" MODIFIED="1628695241570" TEXT=" Witness Groupthink in Action">
+<icon BUILTIN="full-3"/>
+<node CREATED="1628695242678" ID="ID_1601504691" MODIFIED="1628695247034" TEXT="Know the Role of Authorities"/>
+<node CREATED="1628695289070" ID="ID_1327320563" MODIFIED="1628695294498" TEXT="Move Away from Traditional Brainstorming">
+<node CREATED="1628695302142" ID="ID_945863971" MODIFIED="1628695305378" TEXT="Brainstorming session">
+<node CREATED="1628695305534" ID="ID_1612326688" MODIFIED="1628695311418" TEXT="Best of bias">
+<node CREATED="1628695311638" ID="ID_958979856" MODIFIED="1628695312530" TEXT="social"/>
+<node CREATED="1628695312846" ID="ID_1191588075" MODIFIED="1628695315298" TEXT="cognitive"/>
+</node>
+</node>
+<node CREATED="1628695338318" ID="ID_1566214125" MODIFIED="1628695348642" TEXT="Study suggest there is a lot of process lost in brainstorming">
+<node CREATED="1628695377350" ID="ID_430720483" MODIFIED="1628695381538" TEXT="One person only speak at a time">
+<node CREATED="1628695381869" ID="ID_429973187" MODIFIED="1628695384506" TEXT="Big influence"/>
+</node>
+<node CREATED="1628695385206" ID="ID_695503315" MODIFIED="1628695390882" TEXT="Might lose your idea when it&apos;s your turn"/>
+</node>
+<node CREATED="1628695371918" ID="ID_1989993031" MODIFIED="1628695376962" TEXT="Need well trained group leader"/>
+</node>
+</node>
+<node CREATED="1628695464766" ID="ID_789765263" MODIFIED="1628695491755" TEXT=" Discover Your Team&apos;s Modus Operandi">
+<icon BUILTIN="full-4"/>
+<node CREATED="1628695565246" ID="ID_707851399" MODIFIED="1628695569658" TEXT="Modus operandi">
+<node CREATED="1628695569830" ID="ID_1884043865" MODIFIED="1628695574650" TEXT="How people function"/>
+</node>
+<node CREATED="1628695579286" ID="ID_1418917596" MODIFIED="1628695585210" TEXT="Use Commit Messages as a Discussion Basis">
+<node CREATED="1628695623398" ID="ID_374855142" MODIFIED="1628695629634" TEXT="Commit log has social information"/>
+<node CREATED="1628695702118" ID="ID_1104425348" MODIFIED="1628695716536" TEXT="git log --pretty=format:&apos;%s&apos;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1628695725358" ID="ID_121927175" MODIFIED="1628695732538" TEXT="Different way to vizualise them">
+<node CREATED="1628695746782" ID="ID_850056084" MODIFIED="1628695752570" TEXT="Can create a word cloud"/>
+</node>
+</node>
+<node CREATED="1628695785902" ID="ID_1036612691" MODIFIED="1628695791818" TEXT="Commit Messages Tell a Story">
+<node CREATED="1628695820502" ID="ID_796311934" MODIFIED="1628695825282" TEXT="Cloud present a distilled version"/>
+<node CREATED="1628695825678" ID="ID_625986632" MODIFIED="1628695834194" TEXT="... of our teams daily code-centered activities"/>
+<node CREATED="1628696419511" ID="ID_73915332" MODIFIED="1628696422202" TEXT="What we want to see">
+<node CREATED="1628696422407" ID="ID_1343390760" MODIFIED="1628696425674" TEXT="words from our domain"/>
+</node>
+<node CREATED="1628696524398" ID="ID_675216247" MODIFIED="1628696528146" TEXT="What we don&apos;t want to see">
+<node CREATED="1628696528350" ID="ID_456732876" MODIFIED="1628696539466" TEXT="words indicating quality problems"/>
+<node CREATED="1628696543102" ID="ID_1312872978" MODIFIED="1628696544394" TEXT="... in">
+<node CREATED="1628696544966" ID="ID_1992065050" MODIFIED="1628696545801" TEXT="code"/>
+<node CREATED="1628696546110" ID="ID_345421455" MODIFIED="1628696547826" TEXT="process"/>
+</node>
+<node CREATED="1628696555744" ID="ID_1690995603" MODIFIED="1628696559026" TEXT="... if you find them">
+<node CREATED="1628696559222" ID="ID_521142126" MODIFIED="1628696560738" TEXT="drill deeper"/>
+</node>
+</node>
+<node CREATED="1628696568966" ID="ID_1984597859" MODIFIED="1628696583018" TEXT="Could analyze in respect of emotional content"/>
+<node CREATED="1628696812894" ID="ID_121876301" MODIFIED="1628696822034" TEXT="Emotions play a large role in our daily lives">
+<node CREATED="1628696822294" ID="ID_152803074" MODIFIED="1628696825306" TEXT="Strong motivators"/>
+<node CREATED="1628696826705" ID="ID_489687761" MODIFIED="1628696830130" TEXT="Influence our behaviors"/>
+<node CREATED="1628696835218" ID="ID_983337663" MODIFIED="1628696840762" TEXT="Not always conscious"/>
+</node>
+<node CREATED="1628696926471" ID="ID_882834164" MODIFIED="1628696931290" TEXT="Analysis are fun"/>
+<node CREATED="1628696931606" ID="ID_798964298" MODIFIED="1628697118726" TEXT="... but nothing replace">
+<node CREATED="1628697118727" ID="ID_1760683081" MODIFIED="1628697122250" TEXT="good communication"/>
+<node CREATED="1628697122839" ID="ID_497054990" MODIFIED="1628697126674" TEXT="active role in daily work"/>
+</node>
+</node>
+</node>
+<node CREATED="1628696851430" ID="ID_1753271995" MODIFIED="1628696859028" TEXT="Mine Organizational Metrics from Code">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+<node CREATED="1628697171726" ID="ID_1975236063" MODIFIED="1628697182923" TEXT="Discover Organizational Metrics in Your Codebase">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-2"/>
 </node>
 </node>
 </node>
