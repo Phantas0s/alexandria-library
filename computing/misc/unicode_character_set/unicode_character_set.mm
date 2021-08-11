@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1597155711508" ID="ID_688918881" LINK="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/" MODIFIED="1597155733796" TEXT="Unicode and Character Sets">
-<node CREATED="1597155898301" ID="ID_713327521" MODIFIED="1597155900199" POSITION="right" TEXT="A Historical Perspective">
+<node CREATED="1597155898301" FOLDED="true" ID="ID_713327521" MODIFIED="1597155900199" POSITION="right" TEXT="A Historical Perspective">
 <icon BUILTIN="full-1"/>
 <node CREATED="1597155927208" ID="ID_1012005521" MODIFIED="1597155933251" TEXT="At the beginning ASCII">
 <node COLOR="#338800" CREATED="1597155945976" ID="ID_1414324998" MODIFIED="1597155964559" TEXT="Created in 1960">
@@ -32,10 +32,10 @@
 <node CREATED="1597156279678" ID="ID_249781293" MODIFIED="1597156283166" TEXT="Codes below 32">
 <node CREATED="1597156283417" ID="ID_1189934610" MODIFIED="1597156285489" TEXT="Control character"/>
 <node CREATED="1597156285887" ID="ID_1507198750" MODIFIED="1597156288448" TEXT="Can do a beep"/>
-<node CREATED="1597156288803" ID="ID_1113810256" MODIFIED="1597156291333" TEXT="... or control a priner"/>
+<node CREATED="1597156288803" ID="ID_1113810256" MODIFIED="1628608050267" TEXT="... or control a printer"/>
 </node>
 </node>
-<node CREATED="1597156300765" ID="ID_652757380" MODIFIED="1597156325152" TEXT="8 bits let people be creative">
+<node CREATED="1597156300765" FOLDED="true" ID="ID_652757380" MODIFIED="1597156325152" TEXT="8 bits let people be creative">
 <node CREATED="1597156325689" ID="ID_250631983" MODIFIED="1597156338686" TEXT="Could use from 128 to 255 for whatever they wanted"/>
 <node CREATED="1597156358031" ID="ID_133427218" MODIFIED="1597156366465" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -111,15 +111,13 @@
 <node CREATED="1597156887728" ID="ID_1253622437" MODIFIED="1597156908645" TEXT="s++ / s-- wasn&apos;t advised"/>
 </node>
 </node>
-<node CREATED="1597156928151" ID="ID_1827140540" MODIFIED="1597156932123" TEXT="It was working if">
-<node CREATED="1597156932343" ID="ID_275862664" MODIFIED="1597156947572" TEXT="You didn&apos;t ">
+<node CREATED="1597156928151" ID="ID_1827140540" MODIFIED="1628608330227" TEXT="It was working if you dind&apos;t">
 <node CREATED="1597156947808" ID="ID_1138322283" MODIFIED="1597156948444" TEXT="have more than one language on a computer"/>
 <node CREATED="1597156949517" ID="ID_188683349" MODIFIED="1597156955259" TEXT="move string from one computer to another"/>
 </node>
-</node>
 <node CREATED="1597156957647" ID="ID_1835560767" MODIFIED="1597156962972" TEXT="... then Internet happened"/>
 </node>
-<node CREATED="1597156970623" ID="ID_268530876" MODIFIED="1597156976807" POSITION="right" TEXT="Unicode">
+<node CREATED="1597156970623" FOLDED="true" ID="ID_268530876" MODIFIED="1597156976807" POSITION="right" TEXT="Unicode">
 <icon BUILTIN="full-2"/>
 <node CREATED="1597156989454" ID="ID_1660970852" MODIFIED="1597156994529" TEXT="Effort to create single character set"/>
 <node CREATED="1597156994896" ID="ID_1292158731" MODIFIED="1597157003868" TEXT="... including every writing system on the planet"/>
@@ -192,7 +190,8 @@
 <node CREATED="1597158258953" ID="ID_1765649648" MODIFIED="1597158285691" TEXT="We have gone beyond two bytes (65536 characters)"/>
 </node>
 </node>
-<node CREATED="1597158317590" ID="ID_521024916" MODIFIED="1597158320393" TEXT="Example">
+<node CREATED="1597158317590" ID="ID_521024916" MODIFIED="1628608587413" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1597158321623" ID="ID_840131131" MODIFIED="1597158322856" TEXT="Hello"/>
 <node CREATED="1597158323653" ID="ID_1128776803" MODIFIED="1597158326592" TEXT="Five code points">
 <node CREATED="1597158329677" ID="ID_652532832" MODIFIED="1597158330305" TEXT="U+0048 U+0065 U+006C U+006C U+006F."/>
@@ -272,7 +271,7 @@
 <node CREATED="1597159229431" ID="ID_1518784639" MODIFIED="1597159231650" TEXT="... or a box"/>
 </node>
 </node>
-<node CREATED="1597159266574" ID="ID_1883785652" MODIFIED="1597159275162" TEXT="Some encoding will encore correctly">
+<node CREATED="1597159266574" ID="ID_1883785652" MODIFIED="1628608747771" TEXT="Some encoding will encode correctly">
 <node CREATED="1597159278350" ID="ID_956271701" MODIFIED="1597159280719" TEXT="Western Europe">
 <node CREATED="1597159280887" ID="ID_1912597322" MODIFIED="1597159281599" TEXT="Windows-1252"/>
 <node CREATED="1597159289466" ID="ID_199805677" MODIFIED="1597159291003" TEXT="ISO-8859-1">
@@ -288,7 +287,7 @@
 <node CREATED="1597159346590" ID="ID_1172265029" MODIFIED="1597159349626" TEXT="UTF-32"/>
 </node>
 </node>
-<node CREATED="1597159357462" ID="ID_154158594" MODIFIED="1597159363789" POSITION="right" TEXT="The Single Most Important Fact About Encodings">
+<node CREATED="1597159357462" FOLDED="true" ID="ID_154158594" MODIFIED="1597159363789" POSITION="right" TEXT="The Single Most Important Fact About Encodings">
 <icon BUILTIN="full-4"/>
 <node CREATED="1597159372734" ID="ID_1192828243" MODIFIED="1597159378843" TEXT="Does not make sense to have a string"/>
 <node CREATED="1597159379257" ID="ID_34408953" MODIFIED="1597159390987" TEXT="... without knowing what encoding it uses"/>
@@ -331,8 +330,7 @@
       </p>
     </blockquote>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597159613148" ID="ID_12964378" MODIFIED="1597159631401" TEXT="meta tag needs to be first thing in head"/>
 <node CREATED="1597159640851" ID="ID_440925326" MODIFIED="1597159646584" TEXT="... because when interpreter sees it"/>
 <node CREATED="1597159646900" ID="ID_881002501" MODIFIED="1597159661825" TEXT="... it comes back to beginning to reinterpret everything"/>
