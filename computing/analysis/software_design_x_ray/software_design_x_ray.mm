@@ -1,0 +1,126 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1628932401302" ID="ID_629816092" MODIFIED="1628932440743" TEXT="Software Design X Ray">
+<node CREATED="1628932445023" ID="ID_868848815" MODIFIED="1628933117643" POSITION="right" TEXT="The World of Behavioral Code Analysis">
+<icon BUILTIN="full-0"/>
+<node CREATED="1628932517662" ID="ID_134337522" MODIFIED="1628933108380" TEXT="Why You Should Read This Book">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1628932724181" ID="ID_911049418" MODIFIED="1628933108968" TEXT="Who is this book for?">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1628932784453" ID="ID_441195985" MODIFIED="1628933110195" TEXT="How Should You Read This Book?">
+<icon BUILTIN="full-3"/>
+<node CREATED="1628932875942" ID="ID_1748529470" MODIFIED="1628932883625" TEXT="To Readers of Your Code as a Crime Scene">
+<node CREATED="1628932888557" ID="ID_1969727711" MODIFIED="1628932893282" TEXT="Overlap between two books"/>
+<node CREATED="1628932913589" ID="ID_496168334" MODIFIED="1628932918321" TEXT="Most of part I is repeated"/>
+<node CREATED="1628932918678" ID="ID_1845675840" MODIFIED="1628932923697" TEXT="... but goes more in details"/>
+</node>
+</node>
+<node CREATED="1628932935261" ID="ID_1331593980" MODIFIED="1628933110867" TEXT="How Do I Get Behavioral Data for My Code?">
+<icon BUILTIN="full-4"/>
+<node CREATED="1628932953165" ID="ID_1881727586" MODIFIED="1628932955441" TEXT="Behavior patterns"/>
+<node CREATED="1628932955725" ID="ID_320183603" MODIFIED="1628932959433" TEXT="... of all programmers of codebase"/>
+<node CREATED="1628933083997" ID="ID_397587794" MODIFIED="1628933085072" TEXT="Tooling">
+<node CREATED="1628933085317" ID="ID_555404558" MODIFIED="1628933088497" TEXT="Manifestation of ideas"/>
+<node CREATED="1628933089733" ID="ID_1670844524" MODIFIED="1628933094897" TEXT="Way to put ideas into practice"/>
+</node>
+</node>
+<node CREATED="1628933101981" ID="ID_1382999308" MODIFIED="1628933111530" TEXT="Oneline Resources">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+<node CREATED="1628933114909" ID="ID_1751159305" MODIFIED="1628933132362" POSITION="right" TEXT=" Part I - Prioritize and React to Technical Debt">
+<icon BUILTIN="full-1"/>
+<node CREATED="1628933136468" ID="ID_1631491964" MODIFIED="1628933143770" TEXT="Why Technical Debt Isn&apos;t Technical">
+<icon BUILTIN="full-1"/>
+<node CREATED="1628933230533" ID="ID_1821630034" MODIFIED="1628933236043" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1628933160021" ID="ID_592756262" MODIFIED="1628933168752" TEXT="Large system">
+<node CREATED="1628933168917" ID="ID_1023654131" MODIFIED="1628933174345" TEXT="Difficult to repay technical debts"/>
+<node CREATED="1628933176430" ID="ID_1299950376" MODIFIED="1628933180008" TEXT="Millions line of codes"/>
+<node CREATED="1628933180309" ID="ID_233341042" MODIFIED="1628933183273" TEXT="Multiple dev teams"/>
+</node>
+<node CREATED="1628933185421" ID="ID_42216241" MODIFIED="1628933191393" TEXT="... no one has holistic overview"/>
+<node CREATED="1628933201109" ID="ID_1562908774" MODIFIED="1628933213489" TEXT="Let&apos;s mine collective intelligence of contributing programmers"/>
+</node>
+<node CREATED="1628933225748" ID="ID_1127483161" MODIFIED="1628933237412" TEXT="Questioning Technical Debt">
+<icon BUILTIN="full-1"/>
+<node CREATED="1628933815141" ID="ID_1217724042" MODIFIED="1628933822082" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1628933243973" ID="ID_867614376" MODIFIED="1628933253008" TEXT="Metaphore to communicate">
+<node CREATED="1628933253493" ID="ID_1256950710" MODIFIED="1628933256056" TEXT="refactoring"/>
+<node CREATED="1628933256340" ID="ID_1429834393" MODIFIED="1628933263768" TEXT="technical trade-offs"/>
+</node>
+<node CREATED="1628933265189" ID="ID_1750453988" MODIFIED="1628933268857" TEXT="... to business people"/>
+<node CREATED="1628933280084" ID="ID_860138618" MODIFIED="1628933284601" TEXT="Release software fasters"/>
+<node CREATED="1628933284941" ID="ID_1737604066" MODIFIED="1628933294561" TEXT="... at expense of future costs">
+<node CREATED="1628933300573" ID="ID_506075457" MODIFIED="1628933303208" TEXT="Micro-level">
+<node CREATED="1628933304877" ID="ID_1589433273" MODIFIED="1628933307129" TEXT="Hack new feature"/>
+<node CREATED="1628933307852" ID="ID_1668354457" MODIFIED="1628933312705" TEXT="... with use of complex logic"/>
+</node>
+<node CREATED="1628933313892" ID="ID_383465920" MODIFIED="1628933315680" TEXT="Macro-level">
+<node CREATED="1628933317180" ID="ID_377013033" MODIFIED="1628933321944" TEXT="Architectural trade-offs"/>
+<node CREATED="1628933323420" ID="ID_1832936445" MODIFIED="1628933328912" TEXT="... to get system moving forward"/>
+</node>
+</node>
+<node CREATED="1628933333509" ID="ID_1807164192" MODIFIED="1628933344489" TEXT="Strategic business decision"/>
+<node CREATED="1628933345253" ID="ID_717836903" MODIFIED="1628933347897" TEXT="... rather than technical"/>
+<node CREATED="1628933355028" ID="ID_1165499523" MODIFIED="1628933360150" TEXT="Reckless debt">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1628933360397" ID="ID_1656473709" MODIFIED="1628933364001" TEXT="Extension of technical debt"/>
+<node CREATED="1628933368012" ID="ID_36991940" MODIFIED="1628933372896" TEXT="Code violate basic design principles"/>
+<node CREATED="1628933376181" ID="ID_22678716" MODIFIED="1628933381592" TEXT="... without any short-term pay off"/>
+<node CREATED="1628933392653" ID="ID_929508708" MODIFIED="1628933400169" TEXT="Difficult to differentiate with technical debt"/>
+<node CREATED="1628933430293" ID="ID_1918816748" MODIFIED="1628933433952" TEXT="... but results are the same"/>
+</node>
+<node CREATED="1628933479885" ID="ID_1818477719" MODIFIED="1628933492585" TEXT="Often misused to describe legacy code">
+<node CREATED="1628933505253" ID="ID_925749466" MODIFIED="1628933514257" TEXT="Michael Feathers &quot;code without tests&quot;"/>
+<node CREATED="1628933522245" ID="ID_968173283" MODIFIED="1628933533505" TEXT="Legacy code is undesirable &quot;after-the-fact&quot;"/>
+<node CREATED="1628933533861" ID="ID_1077119343" MODIFIED="1628933541344" TEXT="Technical debt can be deliberate"/>
+</node>
+</node>
+<node CREATED="1628933823197" ID="ID_1333901614" MODIFIED="1628933829826" TEXT="Interest Rate Is a Function of Time">
+<icon BUILTIN="full-1"/>
+<node CREATED="1628933856364" ID="ID_31782746" MODIFIED="1628933861528" TEXT="Not all bad code is technical debt">
+<node CREATED="1628933861765" ID="ID_1716879948" MODIFIED="1628933864497" TEXT="Need to know the context"/>
+<node CREATED="1628933869485" ID="ID_416481883" MODIFIED="1628933876432" TEXT="If we don&apos;t pay interest on it, it&apos;s not"/>
+<node CREATED="1628933880813" ID="ID_1104715762" MODIFIED="1628933887213" TEXT="Interest rate is a function fo time">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1628933891508" ID="ID_561124189" MODIFIED="1628933898560" TEXT="Need time diension on top of our code"/>
+<node CREATED="1628933901396" ID="ID_557744597" MODIFIED="1628933905161" TEXT="... for interest rate"/>
+</node>
+</node>
+<node CREATED="1628933924781" ID="ID_1426705536" MODIFIED="1628933931890" TEXT="The Perils of Quantifying Technical Debts">
+<icon BUILTIN="full-2"/>
+<node CREATED="1628934061189" ID="ID_1907970697" MODIFIED="1628934065922" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1628933965788" ID="ID_1054814181" MODIFIED="1628933974640" TEXT="Tool giving 4000 years of tech deb for codebase">
+<node CREATED="1628933974789" ID="ID_254091051" MODIFIED="1628933977056" TEXT="Not really useful"/>
+<node CREATED="1628933977286" ID="ID_1842421532" MODIFIED="1628933979785" TEXT="Where do you begin?"/>
+<node CREATED="1628933981824" ID="ID_868720808" MODIFIED="1628933987873" TEXT="Is all debt equally important?"/>
+</node>
+<node CREATED="1628934013620" ID="ID_264396720" MODIFIED="1628934018088" TEXT="Achieving a &quot;better&quot; score">
+<node CREATED="1628934018301" ID="ID_218900791" MODIFIED="1628934022417" TEXT="Might make the code worse"/>
+<node CREATED="1628934025508" ID="ID_1346106994" MODIFIED="1628934032192" TEXT="No way of knowing if it makes everything better"/>
+<node CREATED="1628934038757" ID="ID_1191969666" MODIFIED="1628934048185" TEXT="Don&apos;t measure tech debt from code alone"/>
+<node CREATED="1628934048549" ID="ID_1098656725" MODIFIED="1628934053025" TEXT="... much of it is not technical"/>
+</node>
+</node>
+<node CREATED="1628934066492" ID="ID_136351017" MODIFIED="1628934080978" TEXT="Why We Mistake Organizational Problems for Technical Issues">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1628934133005" ID="ID_1990246006" MODIFIED="1628934138178" TEXT="Your Mental Models of Code">
+<icon BUILTIN="full-2"/>
+<node CREATED="1628934143868" ID="ID_442554479" MODIFIED="1628934148024" TEXT="Need to serve two audiences">
+<node CREATED="1628934148325" ID="ID_1211033901" MODIFIED="1628934151232" TEXT="Machine"/>
+<node CREATED="1628934151565" ID="ID_1637305423" MODIFIED="1628934157176" TEXT="Programmers"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</map>
