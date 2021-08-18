@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1619697450682" ID="ID_1291623452" LINK="https://app.pluralsight.com/course-player?clipId=66532c10-3d72-486c-bc37-5086cf2076fb" MODIFIED="1620720893902" TEXT="Marketing and selling your own product and service">
+<node CREATED="1619697450682" ID="ID_1291623452" LINK="https://app.pluralsight.com/course-player?clipId=66532c10-3d72-486c-bc37-5086cf2076fb" MODIFIED="1628947415814" TEXT="Marketing and selling your own product and service">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -30,10 +30,10 @@
 </node>
 <node CREATED="1619697499684" FOLDED="true" ID="ID_951670086" MODIFIED="1619697861258" POSITION="right" TEXT="Marketing concepts">
 <icon BUILTIN="full-1"/>
-<node CREATED="1619698140968" ID="ID_243291652" MODIFIED="1619700696820" TEXT="Organizational function">
+<node CREATED="1619698140968" FOLDED="true" ID="ID_243291652" MODIFIED="1619700696820" TEXT="Organizational function">
 <icon BUILTIN="full-1"/>
 <node CREATED="1619698145879" ID="ID_831193509" MODIFIED="1619698148691" TEXT="Marketing">
-<node CREATED="1619698165640" ID="ID_1950805225" MODIFIED="1619698168300" TEXT="How bis is our market?"/>
+<node CREATED="1619698165640" ID="ID_1950805225" MODIFIED="1628947436987" TEXT="How big is our market?"/>
 <node CREATED="1619698168824" ID="ID_1312037133" MODIFIED="1619698172308" TEXT="Who is in our market?"/>
 <node CREATED="1619698172912" ID="ID_15694824" MODIFIED="1619698180107" TEXT="How do we get stuff in front of audiene?"/>
 <node CREATED="1619698180495" ID="ID_99776283" MODIFIED="1619698185747" TEXT="How much will they pay?"/>
@@ -194,7 +194,7 @@
 <node CREATED="1619699562914" ID="ID_1062107949" MODIFIED="1619699564093" TEXT="Goal">
 <node CREATED="1619699564834" ID="ID_1272254436" MODIFIED="1619699570702" TEXT="Shape forces to your advantage and position"/>
 </node>
-<node CREATED="1619699522042" ID="ID_1010992931" MODIFIED="1619699523622" TEXT="Forces">
+<node CREATED="1619699522042" FOLDED="true" ID="ID_1010992931" MODIFIED="1619699523622" TEXT="Forces">
 <node CREATED="1619699523859" ID="ID_31297482" MODIFIED="1619699577993" TEXT="Threat of substitutes">
 <icon BUILTIN="full-1"/>
 <node CREATED="1619699643635" ID="ID_285537526" MODIFIED="1619699670757" TEXT="Can something existing fill need?">
@@ -430,7 +430,7 @@
 <node CREATED="1619702132924" ID="ID_1580483996" MODIFIED="1619702136324" TEXT="Don&apos;t make a big deal about it"/>
 </node>
 </node>
-<node CREATED="1619702143487" FOLDED="true" ID="ID_218010696" MODIFIED="1619709802184" TEXT="Ask for the Sale">
+<node CREATED="1619702143487" ID="ID_218010696" MODIFIED="1619709802184" TEXT="Ask for the Sale">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1619702153384" ID="ID_1458995572" MODIFIED="1619702158099" TEXT="Let them know your intentions">
@@ -449,7 +449,7 @@
 <node CREATED="1619702242574" ID="ID_1620219642" MODIFIED="1619702252003" TEXT="Ask with confidence that you have a great solution"/>
 <node CREATED="1619702252319" ID="ID_1507240134" MODIFIED="1619702255323" TEXT="... and others could help"/>
 </node>
-<node CREATED="1619702258623" FOLDED="true" ID="ID_1520981582" MODIFIED="1619709804852" TEXT="Selling to the right person">
+<node CREATED="1619702258623" ID="ID_1520981582" MODIFIED="1619709804852" TEXT="Selling to the right person">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1619702264254" ID="ID_1961377891" MODIFIED="1619702267099" TEXT="Gatekeeper">
@@ -522,7 +522,7 @@
 <node CREATED="1619702773181" ID="ID_538915150" MODIFIED="1619702775705" TEXT="Selling the wheel"/>
 </node>
 </node>
-<node CREATED="1619697865185" FOLDED="true" ID="ID_54879128" MODIFIED="1619697901301" POSITION="right" TEXT="Marketing tactics">
+<node CREATED="1619697865185" ID="ID_54879128" MODIFIED="1619697901301" POSITION="right" TEXT="Marketing tactics">
 <icon BUILTIN="full-3"/>
 <node CREATED="1619702960620" FOLDED="true" ID="ID_397777649" MODIFIED="1619703088591" TEXT="List High Value Marketing Activities">
 <icon BUILTIN="full-1"/>
@@ -547,14 +547,14 @@
 </node>
 </node>
 <node CREATED="1619703138265" ID="ID_791238903" MODIFIED="1619703143704" TEXT="Honor what you have scheduled in"/>
-<node CREATED="1619703144384" ID="ID_21355851" MODIFIED="1619703148143" TEXT="HIgh value activities"/>
+<node CREATED="1619703144384" ID="ID_21355851" MODIFIED="1628948808531" TEXT="High value activities"/>
 <node CREATED="1619703149779" ID="ID_1182814139" MODIFIED="1619703156823" TEXT="Allow yourself to neglect scheduled tasks"/>
 <node CREATED="1619703161235" ID="ID_1653401929" MODIFIED="1619703164942" TEXT="Everyday set your clock to 0">
 <node CREATED="1619703170195" ID="ID_1941466900" MODIFIED="1619703174487" TEXT="Don&apos;t beat yourself up"/>
 <node CREATED="1619703174786" ID="ID_1164000247" MODIFIED="1619703179495" TEXT="... missing something the day before"/>
 </node>
 </node>
-<node CREATED="1619703180517" FOLDED="true" ID="ID_1904905107" MODIFIED="1619703198350" TEXT="Explain how you differentiate from competition">
+<node CREATED="1619703180517" ID="ID_1904905107" MODIFIED="1619703198350" TEXT="Explain how you differentiate from competition">
 <icon BUILTIN="full-3"/>
 <node CREATED="1619703199387" ID="ID_37396316" MODIFIED="1619703205951" TEXT="Require honest analysis of competition"/>
 <node CREATED="1619703206746" ID="ID_1502962752" MODIFIED="1619703212046" TEXT="Focus on features AND benefits"/>
@@ -719,9 +719,9 @@
 <node CREATED="1619704382366" ID="ID_908848622" MODIFIED="1619704391050" TEXT="Realize this is fluid and can change"/>
 </node>
 </node>
-<node CREATED="1619697870234" FOLDED="true" ID="ID_1701731141" MODIFIED="1619697902022" POSITION="right" TEXT="Sales tactics">
+<node CREATED="1619697870234" ID="ID_1701731141" MODIFIED="1619697902022" POSITION="right" TEXT="Sales tactics">
 <icon BUILTIN="full-4"/>
-<node CREATED="1619708264628" FOLDED="true" ID="ID_1310919419" MODIFIED="1619709690941" TEXT="Practive active listening">
+<node CREATED="1619708264628" FOLDED="true" ID="ID_1310919419" MODIFIED="1628949025187" TEXT="Practice active listening">
 <icon BUILTIN="full-1"/>
 <node CREATED="1619708271332" ID="ID_1649554812" MODIFIED="1619708274873" TEXT="Active vs passive">
 <node CREATED="1619708276836" ID="ID_1549201720" MODIFIED="1619708280512" TEXT="Active is listening"/>
