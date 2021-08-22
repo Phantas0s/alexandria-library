@@ -10,8 +10,7 @@
       Marketing and Selling Your Own Products and Services - Pluralsight
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1619697924313" FOLDED="true" ID="ID_1129145204" MODIFIED="1619697927566" POSITION="right" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1619697930633" ID="ID_1874616200" MODIFIED="1619697937181" TEXT="Don&apos;t get stuck in analysis paralysis"/>
@@ -449,7 +448,7 @@
 <node CREATED="1619702242574" ID="ID_1620219642" MODIFIED="1619702252003" TEXT="Ask with confidence that you have a great solution"/>
 <node CREATED="1619702252319" ID="ID_1507240134" MODIFIED="1619702255323" TEXT="... and others could help"/>
 </node>
-<node CREATED="1619702258623" ID="ID_1520981582" MODIFIED="1619709804852" TEXT="Selling to the right person">
+<node CREATED="1619702258623" FOLDED="true" ID="ID_1520981582" MODIFIED="1619709804852" TEXT="Selling to the right person">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1619702264254" ID="ID_1961377891" MODIFIED="1619702267099" TEXT="Gatekeeper">
@@ -488,10 +487,9 @@
 <node CREATED="1619702558181" ID="ID_1404134630" MODIFIED="1619702560425" TEXT="... go under them"/>
 </node>
 </node>
-<node CREATED="1619702567974" FOLDED="true" ID="ID_798035698" MODIFIED="1619709809422" TEXT="Consultative sales">
+<node CREATED="1619702567974" ID="ID_798035698" MODIFIED="1619709809422" TEXT="Consultative sales">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-5"/>
-<node CREATED="1619702572117" ID="ID_410753192" MODIFIED="1619702581842" TEXT="When you understand their needs"/>
 <node CREATED="1619702582654" ID="ID_548315956" MODIFIED="1619702590265" TEXT="Strive to understand the prospect needs"/>
 <node CREATED="1619702591382" ID="ID_1228084593" MODIFIED="1619702597090" TEXT="Bring your industry expertise to the table"/>
 <node CREATED="1619702597541" ID="ID_651995053" MODIFIED="1619702604169" TEXT="Help them come to the best solution">
@@ -501,7 +499,7 @@
 <node CREATED="1619702619973" ID="ID_436761658" MODIFIED="1619702623689" TEXT="... and more trusting relationship"/>
 <node CREATED="1619702623998" ID="ID_1215463335" MODIFIED="1619702627393" TEXT="Trust is key for sales!"/>
 </node>
-<node CREATED="1619702641925" FOLDED="true" ID="ID_313697218" MODIFIED="1619709810973" TEXT="When prospects don&apos;t understand your value">
+<node CREATED="1619702641925" ID="ID_313697218" MODIFIED="1619709810973" TEXT="When prospects don&apos;t understand your value">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-6"/>
 <node CREATED="1619702661141" ID="ID_75399968" MODIFIED="1619702664305" TEXT="Who&apos;s fault is it?">
@@ -512,7 +510,7 @@
 <node CREATED="1619702693797" ID="ID_960099458" MODIFIED="1619702703064" TEXT="Honing your message will help others understand your value"/>
 <node CREATED="1619702724349" ID="ID_1141899189" MODIFIED="1619702736712" TEXT="Get help refining and get feedback on your message"/>
 </node>
-<node CREATED="1619702749196" FOLDED="true" ID="ID_36667038" MODIFIED="1619709812451" TEXT="Great books">
+<node CREATED="1619702749196" ID="ID_36667038" MODIFIED="1619709812451" TEXT="Great books">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-7"/>
 <node CREATED="1619702751189" ID="ID_93806107" MODIFIED="1619702755600" TEXT="How to become a rainmaker">
@@ -721,7 +719,7 @@
 </node>
 <node CREATED="1619697870234" ID="ID_1701731141" MODIFIED="1619697902022" POSITION="right" TEXT="Sales tactics">
 <icon BUILTIN="full-4"/>
-<node CREATED="1619708264628" FOLDED="true" ID="ID_1310919419" MODIFIED="1628949025187" TEXT="Practice active listening">
+<node CREATED="1619708264628" ID="ID_1310919419" MODIFIED="1628949025187" TEXT="Practice active listening">
 <icon BUILTIN="full-1"/>
 <node CREATED="1619708271332" ID="ID_1649554812" MODIFIED="1619708274873" TEXT="Active vs passive">
 <node CREATED="1619708276836" ID="ID_1549201720" MODIFIED="1619708280512" TEXT="Active is listening"/>
@@ -738,7 +736,7 @@
 <node CREATED="1619708322933" ID="ID_17488894" MODIFIED="1619708328648" TEXT="Practice makes improvement"/>
 <node CREATED="1619708332571" ID="ID_1538927800" MODIFIED="1619708506791" TEXT="Practice even outside of sales conversations"/>
 </node>
-<node CREATED="1619708348318" FOLDED="true" ID="ID_1629205415" MODIFIED="1619709691558" TEXT="Ask for a referral">
+<node CREATED="1619708348318" ID="ID_1629205415" MODIFIED="1619709691558" TEXT="Ask for a referral">
 <icon BUILTIN="full-2"/>
 <node CREATED="1619708355276" ID="ID_943688975" MODIFIED="1619708359583" TEXT="Doesn&apos;t need to be a customer"/>
 <node CREATED="1619708360491" ID="ID_1861697766" MODIFIED="1619708367272" TEXT="Doesn&apos;t even need to be a prospect"/>
@@ -764,16 +762,17 @@
 <node CREATED="1619708538749" ID="ID_321011018" MODIFIED="1619708546095" TEXT="Analyze your conversation"/>
 </node>
 </node>
-<node CREATED="1619708553659" FOLDED="true" ID="ID_97551344" MODIFIED="1619709692897" TEXT="List ten new prospects to contact">
+<node CREATED="1619708553659" ID="ID_97551344" MODIFIED="1619709692897" TEXT="List ten new prospects to contact">
 <icon BUILTIN="full-4"/>
 <node CREATED="1619708565242" ID="ID_1985662715" MODIFIED="1619708570223" TEXT="Blank slate brainstorming project"/>
 <node CREATED="1619708575588" ID="ID_1405430743" MODIFIED="1619708580014" TEXT="DO NOT exclude anyone"/>
 <node CREATED="1619708604003" ID="ID_1501757827" MODIFIED="1619708609711" TEXT="Each person isn&apos;t going to be a buyer"/>
 <node CREATED="1619708625203" ID="ID_806227649" MODIFIED="1619708632646" TEXT="Even if you don&apos;t have contact information"/>
 <node CREATED="1619708661163" ID="ID_1831429573" MODIFIED="1619708665527" TEXT="Gives you a starting point"/>
-<node CREATED="1619708666514" ID="ID_483133112" MODIFIED="1619708673039" TEXT="Analyze why you listed each person"/>
+<node CREATED="1619708666514" ID="ID_483133112" MODIFIED="1619708673039" TEXT="Analyze why you listed each person">
 <node CREATED="1619708687026" ID="ID_874959529" MODIFIED="1619708691775" TEXT="... from there you can find another name"/>
 <node CREATED="1619708693533" ID="ID_736525257" MODIFIED="1619708699222" TEXT="... or think about other industries"/>
+</node>
 </node>
 <node CREATED="1619708702605" FOLDED="true" ID="ID_885507128" MODIFIED="1619709694619" TEXT="Evaluate and clean up your sales UI">
 <icon BUILTIN="full-5"/>
