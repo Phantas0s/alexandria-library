@@ -93,7 +93,7 @@
 <node CREATED="1628933901396" ID="ID_557744597" MODIFIED="1628933905161" TEXT="... for interest rate"/>
 </node>
 </node>
-<node CREATED="1628933924781" ID="ID_1426705536" MODIFIED="1628933931890" TEXT="The Perils of Quantifying Technical Debts">
+<node CREATED="1628933924781" FOLDED="true" ID="ID_1426705536" MODIFIED="1628933931890" TEXT="The Perils of Quantifying Technical Debts">
 <icon BUILTIN="full-2"/>
 <node CREATED="1628934061189" FOLDED="true" ID="ID_1907970697" MODIFIED="1628934065922" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -171,8 +171,105 @@
 <node CREATED="1629913124845" ID="ID_611550167" MODIFIED="1629913130297" TEXT="... parallel dev add new challenges"/>
 </node>
 </node>
-<node CREATED="1629913182821" ID="ID_1995897465" MODIFIED="1629913190955" TEXT="Mine Your Organization&apos;s Collective Intelligence">
+<node CREATED="1629913182821" FOLDED="true" ID="ID_1995897465" MODIFIED="1629913190955" TEXT="Mine Your Organization&apos;s Collective Intelligence">
 <icon BUILTIN="full-3"/>
+<node CREATED="1630166256755" ID="ID_1066945803" MODIFIED="1630166262963" TEXT="How to uncover area of improvement?"/>
+<node CREATED="1630166263685" ID="ID_1815120333" MODIFIED="1630166266992" TEXT="Questions">
+<node CREATED="1630166267180" ID="ID_1810703998" MODIFIED="1630166372295" TEXT="Where&apos;s the code with highest interest rate?">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1630166324941" ID="ID_40785491" MODIFIED="1630166329305" TEXT="In what degrees"/>
+<node CREATED="1630166329653" ID="ID_584152894" MODIFIED="1630166334369" TEXT="... code affect abilities"/>
+<node CREATED="1630166334670" ID="ID_1125286493" MODIFIED="1630166338609" TEXT="... to solve problems"/>
+</node>
+<node CREATED="1630166277629" ID="ID_810321582" MODIFIED="1630166373038" TEXT="Does our architecture support the way our system evolves?">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1630166344893" ID="ID_1834644693" MODIFIED="1630166349874" TEXT="Need to know if we work">
+<node CREATED="1630166350053" ID="ID_255713125" MODIFIED="1630166355505" TEXT="for architecture"/>
+<node CREATED="1630166357365" ID="ID_1339030743" MODIFIED="1630166360409" TEXT="against architecture"/>
+</node>
+</node>
+<node CREATED="1630166287909" ID="ID_291829099" MODIFIED="1630166373416" TEXT="Are there any productivity bottlenecks for interteam coordination?">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1630166386501" ID="ID_271134131" MODIFIED="1630166388737" TEXT="Miss information">
+<node CREATED="1630166389109" ID="ID_1260798685" MODIFIED="1630166392561" TEXT="time dimension"/>
+<node CREATED="1630166392933" ID="ID_1949735515" MODIFIED="1630166395224" TEXT="social dimension"/>
+</node>
+<node CREATED="1630166411432" ID="ID_1699453343" MODIFIED="1630166417417" TEXT="... VCS helps getting it"/>
+<node CREATED="1630166436541" ID="ID_547349516" MODIFIED="1630166440153" TEXT="There&apos;s More to Code than Code">
+<node CREATED="1630166617276" ID="ID_810462309" MODIFIED="1630166619089" TEXT="Time dimension">
+<node CREATED="1630166619253" ID="ID_16345647" MODIFIED="1630166622633" TEXT="When code was made"/>
+</node>
+<node CREATED="1630166623189" ID="ID_1999107881" MODIFIED="1630166633361" TEXT="Social dimension">
+<node CREATED="1630166633988" ID="ID_969936429" MODIFIED="1630166637833" TEXT="Who made the change"/>
+</node>
+</node>
+</node>
+<node CREATED="1630166752468" FOLDED="true" ID="ID_1753129223" MODIFIED="1630166760991" TEXT="Prioritize Improvements Guided by Data">
+<icon BUILTIN="full-4"/>
+<node CREATED="1630166774189" ID="ID_1220481416" MODIFIED="1630166778017" TEXT="Improvement to complex code">
+<node CREATED="1630166778205" ID="ID_295721787" MODIFIED="1630166780065" TEXT="High risk"/>
+<node CREATED="1630166780421" ID="ID_289754004" MODIFIED="1630166783705" TEXT="Payoff uncertain"/>
+</node>
+<node CREATED="1630166978885" ID="ID_1091154916" MODIFIED="1630166985905" TEXT="Need to prioritize how we work with the code"/>
+<node CREATED="1630167002333" ID="ID_189750286" MODIFIED="1630167011249" TEXT="Mistaking organizational problem from technical issue"/>
+<node CREATED="1630167011597" ID="ID_665806175" MODIFIED="1630167014104" TEXT="... won&apos;t bring us far"/>
+</node>
+</node>
+<node CREATED="1630167042077" ID="ID_926220112" MODIFIED="1630167047569" TEXT="Idetify Code with High Interest Rate">
+<node CREATED="1630167068701" ID="ID_1009041052" MODIFIED="1630167071944" TEXT="Measure Interest Rates">
+<icon BUILTIN="full-1"/>
+<node CREATED="1630167603205" ID="ID_1990675018" MODIFIED="1630167607515" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1630167414917" ID="ID_901052688" MODIFIED="1630167421393" TEXT="Always power law distribution">
+<node CREATED="1630167520005" ID="ID_110242686" MODIFIED="1630167526985" TEXT="Majority of code in long tail"/>
+<node CREATED="1630167528223" ID="ID_17676246" MODIFIED="1630167532569" TEXT="... and remain untouched"/>
+</node>
+<node CREATED="1630167552221" ID="ID_1054471171" MODIFIED="1630167565153" TEXT="Most development focused in relatively small part of codebases"/>
+</node>
+<node CREATED="1630167608213" ID="ID_574281129" MODIFIED="1630168423267" TEXT="A Proxy for Interest Rate">
+<icon BUILTIN="full-1"/>
+<node CREATED="1630167624317" ID="ID_1035920681" MODIFIED="1630168047033" TEXT="Change frequency algorithm">
+<node CREATED="1630167628125" ID="ID_566983065" MODIFIED="1630167636441" TEXT="Count the number of time each file referenced in Git"/>
+<node CREATED="1630167637037" ID="ID_632635117" MODIFIED="1630167638897" TEXT="Sort the result"/>
+<node CREATED="1630168156213" ID="ID_617294764" MODIFIED="1630168157838" TEXT="git log --format=format: --name-only | egrep -v &apos;^$&apos; | sort | uniq -c | sort -r | head -5 ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1630168413717" ID="ID_667998973" MODIFIED="1630168422347" TEXT="The Effectiveness of Change Frequencies">
+<icon BUILTIN="full-2"/>
+<node CREATED="1630168443021" ID="ID_1687480133" MODIFIED="1630168452041" TEXT="Practical implementation trickier">
+<node CREATED="1630168452325" ID="ID_1703366834" MODIFIED="1630168459385" TEXT="Want to track renamed content"/>
+<node CREATED="1630168460109" ID="ID_664041504" MODIFIED="1630168466529" TEXT="Git log output reference file no longer existing"/>
+<node CREATED="1630168467861" ID="ID_1082848877" MODIFIED="1630168470977" TEXT="... or moved to other repo"/>
+<node CREATED="1630168476925" ID="ID_1595472624" MODIFIED="1630168485337" TEXT="Give any type of content, not only code"/>
+</node>
+<node CREATED="1630168494205" ID="ID_1199151324" MODIFIED="1630168500089" TEXT="Need tooling on top of raw data"/>
+<node CREATED="1630168515069" ID="ID_1312935899" MODIFIED="1630168518305" TEXT="Code is complex">
+<node CREATED="1630168518509" ID="ID_697675714" MODIFIED="1630168525609" TEXT="No need for complex tool to analyse it"/>
+<node CREATED="1630168526341" ID="ID_1924750689" MODIFIED="1630168530673" TEXT="Simplicify often win"/>
+</node>
+<node CREATED="1630168831085" ID="ID_856000462" MODIFIED="1630168840009" TEXT="Changes are not equals">
+<node CREATED="1630168840197" ID="ID_748354456" MODIFIED="1630168841777" TEXT="Weakness"/>
+<node CREATED="1630168842054" ID="ID_1772976150" MODIFIED="1630168846833" TEXT="Difference between changing config"/>
+<node CREATED="1630168847133" ID="ID_606683822" MODIFIED="1630168855817" TEXT="... and correcting a bug in 5000 lines of code"/>
+</node>
+<node CREATED="1630168861477" ID="ID_1713869906" MODIFIED="1630168879865" TEXT="... need complexity dimension to our model"/>
+</node>
+<node CREATED="1630168908805" ID="ID_1463268851" MODIFIED="1630168918428" TEXT="Add a Language-Neutral Complexity Dimension">
+<icon BUILTIN="full-3"/>
+<node CREATED="1630168966597" ID="ID_335432127" MODIFIED="1630168980129" TEXT="McCabe cyclomatic complexity / Halstead complexiety measures">
+<node CREATED="1630168980853" ID="ID_877124320" MODIFIED="1630168988225" TEXT="Language specific"/>
+<node CREATED="1630168993677" ID="ID_619606607" MODIFIED="1630168998849" TEXT="In conflict with modern systems">
+<node CREATED="1630168999589" ID="ID_699802290" MODIFIED="1630169003633" TEXT="Combine multiple languages"/>
+</node>
+</node>
+<node CREATED="1630169010125" ID="ID_1826138213" MODIFIED="1630169014465" TEXT="Other metric performing well enough">
+<node CREATED="1630169014621" ID="ID_753312279" MODIFIED="1630169015137" TEXT="LOC"/>
+</node>
+</node>
 </node>
 </node>
 </node>
