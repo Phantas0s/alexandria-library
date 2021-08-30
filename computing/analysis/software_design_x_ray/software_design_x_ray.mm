@@ -32,7 +32,7 @@
 </node>
 <node CREATED="1628933114909" ID="ID_1751159305" MODIFIED="1628933132362" POSITION="right" TEXT=" Part I - Prioritize and React to Technical Debt">
 <icon BUILTIN="full-1"/>
-<node CREATED="1628933136468" ID="ID_1631491964" MODIFIED="1628933143770" TEXT="Why Technical Debt Isn&apos;t Technical">
+<node CREATED="1628933136468" FOLDED="true" ID="ID_1631491964" MODIFIED="1628933143770" TEXT="Why Technical Debt Isn&apos;t Technical">
 <icon BUILTIN="full-1"/>
 <node CREATED="1628933230533" FOLDED="true" ID="ID_1821630034" MODIFIED="1628933236043" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -217,7 +217,8 @@
 <node CREATED="1630167011597" ID="ID_665806175" MODIFIED="1630167014104" TEXT="... won&apos;t bring us far"/>
 </node>
 </node>
-<node CREATED="1630167042077" ID="ID_926220112" MODIFIED="1630167047569" TEXT="Idetify Code with High Interest Rate">
+<node CREATED="1630167042077" FOLDED="true" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
+<icon BUILTIN="full-2"/>
 <node CREATED="1630167068701" ID="ID_1009041052" MODIFIED="1630167071944" TEXT="Measure Interest Rates">
 <icon BUILTIN="full-1"/>
 <node CREATED="1630167603205" ID="ID_1990675018" MODIFIED="1630167607515" TEXT="Introduction">
@@ -269,9 +270,129 @@
 <node CREATED="1630169010125" ID="ID_1826138213" MODIFIED="1630169014465" TEXT="Other metric performing well enough">
 <node CREATED="1630169014621" ID="ID_753312279" MODIFIED="1630169015137" TEXT="LOC"/>
 </node>
+<node CREATED="1630335825365" ID="ID_1071875741" MODIFIED="1630335828561" TEXT="Let&apos;s combine">
+<node CREATED="1630335829565" ID="ID_1910926310" MODIFIED="1630335833064" TEXT="complexity dimension"/>
+<node CREATED="1630335833460" ID="ID_260135136" MODIFIED="1630335840370" TEXT="measure of change frequency"/>
 </node>
 </node>
 </node>
+<node CREATED="1630335853756" ID="ID_674095890" MODIFIED="1630335861121" TEXT="Prioritize Technical Debt With Hotspots">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1630335945517" ID="ID_536430686" MODIFIED="1630335956993" TEXT="Evaluate HotSpots with Complexity Trend">
+<icon BUILTIN="full-3"/>
+<node CREATED="1630335961949" ID="ID_1072916152" MODIFIED="1630336023273" TEXT="What is complexity, Anyway?">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1630335999972" ID="ID_1718185289" MODIFIED="1630336024035" TEXT="Know the Biases in Complexity Trends">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1630336520052" ID="ID_35212070" MODIFIED="1630336525162" TEXT="Inspect the Code">
+<icon BUILTIN="full-4"/>
+<node CREATED="1630336544853" ID="ID_1132570455" MODIFIED="1630336550495" TEXT="Hotspot analysis minimize manual efforts"/>
+<node CREATED="1630336554917" ID="ID_1238862783" MODIFIED="1630336562343" TEXT="... and give high probability we focus on right part of code"/>
+<node CREATED="1630336743356" ID="ID_690882523" MODIFIED="1630336749816" TEXT="Investing further need domain expertise"/>
+<node CREATED="1630336751764" ID="ID_687577949" MODIFIED="1630336756881" TEXT="... but can still look at best practices"/>
+</node>
+<node CREATED="1630337313324" ID="ID_1661730114" MODIFIED="1630337322560" TEXT="Escape the Technical-Debt Trap">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+<node CREATED="1630336015500" ID="ID_60683458" MODIFIED="1630337368210" TEXT="Use X-Rays to Get Deep Insights into Code">
+<icon BUILTIN="full-4"/>
+<node CREATED="1630337396804" ID="ID_1396091227" MODIFIED="1630337404906" TEXT="Inspect the code">
+<icon BUILTIN="full-1"/>
+<node CREATED="1630336095668" ID="ID_1780303717" MODIFIED="1630336104161" TEXT="Find hotspot in big file"/>
+<node CREATED="1630336104501" ID="ID_687832017" MODIFIED="1630336111975" TEXT="X-Ray gives prioritized list of methods to inspect"/>
+<node CREATED="1630336116359" ID="ID_812300154" MODIFIED="1630336123137" TEXT="Might lead to refactor"/>
+<node CREATED="1630336309100" ID="ID_796275445" MODIFIED="1630336314225" TEXT="X-Ray analysis involves">
+<node CREATED="1630336314621" ID="ID_330959211" MODIFIED="1630336325455" TEXT="Fetch source code for each historic revision of our hotspot from Git"/>
+<node CREATED="1630336325965" ID="ID_1051083355" MODIFIED="1630336329985" TEXT="Run a git diff">
+<node CREATED="1630336331349" ID="ID_44016780" MODIFIED="1630336338057" TEXT="Every subsequent revision"/>
+<node CREATED="1630336392028" ID="ID_46799627" MODIFIED="1630336399640" TEXT="Diff show where dev made notification"/>
+</node>
+<node CREATED="1630336348925" ID="ID_1774361997" MODIFIED="1630336361312" TEXT="Match the diff results to the functions / methods existing in the revision">
+<node CREATED="1630336367077" ID="ID_769229424" MODIFIED="1630336370273" TEXT="Need to parse source code"/>
+<node CREATED="1630336370653" ID="ID_1141808583" MODIFIED="1630336373576" TEXT="... to know which function"/>
+<node CREATED="1630336373916" ID="ID_288052676" MODIFIED="1630336378856" TEXT="... was affected "/>
+<node CREATED="1630336379845" ID="ID_477008031" MODIFIED="1630336381904" TEXT="... in what commuit"/>
+</node>
+<node CREATED="1630336401764" ID="ID_1399169169" MODIFIED="1630336413888" TEXT="Perform hotspot calculation on resulting set of changed functions">
+<node CREATED="1630336417925" ID="ID_136296980" MODIFIED="1630336421624" TEXT="Over all revision of the hotspot"/>
+<node CREATED="1630336433375" ID="ID_689387426" MODIFIED="1630336444368" TEXT="Algorithm identical to file-level hotspot"/>
+<node CREATED="1630336444701" ID="ID_1653865540" MODIFIED="1630336450808" TEXT="... but scope different">
+<node CREATED="1630336453956" ID="ID_602900759" MODIFIED="1630336456672" TEXT="Change frequency"/>
+<node CREATED="1630336456980" ID="ID_111967812" MODIFIED="1630336462089" TEXT="... is number of time function modified"/>
+</node>
+<node CREATED="1630336467772" ID="ID_14789375" MODIFIED="1630336472752" TEXT="Complexity dimension">
+<node CREATED="1630336472893" ID="ID_776833038" MODIFIED="1630336476072" TEXT="Length of the function"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1630337409188" ID="ID_1334885300" MODIFIED="1630337416960" TEXT="Escape the Technical-Debt Trap">
+<icon BUILTIN="full-5"/>
+<node CREATED="1630337444692" ID="ID_1736155515" MODIFIED="1630337452778" TEXT="Work with Untouchable Code">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1630337499893" ID="ID_217202817" MODIFIED="1630337507360" TEXT="There&apos;s More to Hotspots">
+<icon BUILTIN="full-2"/>
+<node CREATED="1630337527605" ID="ID_1080022006" MODIFIED="1630337533456" TEXT="Most common reason: low cohesion"/>
+<node CREATED="1630337534710" ID="ID_433359927" MODIFIED="1630337543472" TEXT="Contains several unrelated parts"/>
+<node CREATED="1630337543869" ID="ID_1964443713" MODIFIED="1630337547432" TEXT="Lack modularity"/>
+<node CREATED="1630337547997" ID="ID_318157048" MODIFIED="1630337553432" TEXT="Too many responsibilities"/>
+</node>
+</node>
+<node CREATED="1630337602253" ID="ID_998842134" MODIFIED="1630337606530" TEXT="Exercises">
+<icon BUILTIN="full-6"/>
+</node>
+</node>
+<node CREATED="1630337639429" FOLDED="true" ID="ID_314205742" MODIFIED="1630337651090" TEXT="Coupling in Time: A Heuristic for the Concept of Surprise">
+<icon BUILTIN="full-3"/>
+<node CREATED="1630337653997" ID="ID_1207230658" MODIFIED="1630337661610" TEXT="Uncover Expensive Change Patterns">
+<icon BUILTIN="full-1"/>
+<node CREATED="1630337666236" ID="ID_471169565" MODIFIED="1630337670042" TEXT="What is change coupling?">
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node CREATED="1630337685797" ID="ID_1315837140" MODIFIED="1630337689362" TEXT="Detect Cochanging Files">
+<icon BUILTIN="full-2"/>
+<node CREATED="1630337699493" ID="ID_1102259170" MODIFIED="1630337709266" TEXT="Minimize Your Investigative Efforts">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1630337715892" ID="ID_1164154309" MODIFIED="1630337727018" TEXT="There Is No Such Thing as Just Test Code">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1630337734173" ID="ID_1041681031" MODIFIED="1630337750515" TEXT="The Dirty Secret of Copy Paste">
+<icon BUILTIN="full-3"/>
+<node CREATED="1630337876941" ID="ID_874635987" MODIFIED="1630337885928" TEXT="Copy-paste detectors should be more used"/>
+<node CREATED="1630337889924" ID="ID_1906651502" MODIFIED="1630337893416" TEXT="Different algorithm">
+<node CREATED="1630337893613" ID="ID_1076018999" MODIFIED="1630337897192" TEXT="Simpler look at the text"/>
+<node CREATED="1630337897517" ID="ID_944758994" MODIFIED="1630337901192" TEXT="More complex looks at the AST"/>
+</node>
+</node>
+<node CREATED="1630337934229" ID="ID_430664400" MODIFIED="1630337942721" TEXT="The Power of Language-Neutral Analyses">
+<icon BUILTIN="full-4"/>
+<node CREATED="1630337957668" ID="ID_1696738691" MODIFIED="1630337964456" TEXT="Learn More About Change Coupling"/>
+</node>
+<node CREATED="1630337973428" ID="ID_1790547140" MODIFIED="1630337976083" TEXT="Exercises">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+<node CREATED="1630338043861" ID="ID_1364060777" MODIFIED="1630338049602" TEXT="Pay Off Your Technical Debt">
+<icon BUILTIN="full-4"/>
+<node CREATED="1630338058668" ID="ID_780583124" MODIFIED="1630338063865" TEXT="Follow the rinciple of Proximity">
+<icon BUILTIN="full-1"/>
+<node CREATED="1630338082340" ID="ID_446327725" MODIFIED="1630338085488" TEXT="Functions changed together"/>
+<node CREATED="1630338085860" ID="ID_1164042853" MODIFIED="1630338091553" TEXT="... are moved close together"/>
+</node>
+</node>
+</node>
+<node COLOR="#338800" CREATED="1630337990573" ID="ID_428777867" MODIFIED="1630338023466" POSITION="left" TEXT="Many Chapters were skipped because of repetitions from Code as Crime Scene">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
 </node>
 </node>
 </map>
