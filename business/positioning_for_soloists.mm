@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1622097954092" ID="ID_1991981482" LINK="https://www.thebusinessofauthority.com/episodes/positioning-for-soloists" MODIFIED="1622098679003" TEXT="Positioning for soloists">
-<node CREATED="1622097965154" ID="ID_25503087" MODIFIED="1622098683582" POSITION="right" TEXT="Positioning">
+<node CREATED="1622097965154" FOLDED="true" ID="ID_25503087" MODIFIED="1622098683582" POSITION="right" TEXT="Positioning">
 <icon BUILTIN="full-1"/>
 <node CREATED="1622097969779" ID="ID_1688155096" MODIFIED="1622097976073" TEXT="Position in mind of your audience"/>
 <node CREATED="1622098036052" ID="ID_915279660" MODIFIED="1622098039641" TEXT="Easy for your consumer">
@@ -20,7 +20,7 @@
 <node CREATED="1622098096133" ID="ID_1284192343" MODIFIED="1622098100958" TEXT="Apathy people you&apos;re trying to serve"/>
 </node>
 </node>
-<node CREATED="1622098125980" ID="ID_928631393" MODIFIED="1622098684278" POSITION="right" TEXT="5 components">
+<node CREATED="1622098125980" FOLDED="true" ID="ID_928631393" MODIFIED="1622098684278" POSITION="right" TEXT="5 components">
 <icon BUILTIN="full-2"/>
 <node CREATED="1622098130515" ID="ID_1363589702" MODIFIED="1622098165300" TEXT="Competitive alternative">
 <icon BUILTIN="full-1"/>
@@ -67,7 +67,7 @@
 <node CREATED="1622098446881" ID="ID_496911509" MODIFIED="1622098493780" TEXT="Can be a bit risky"/>
 </node>
 </node>
-<node CREATED="1622098504920" ID="ID_2576364" MODIFIED="1622098684924" POSITION="right" TEXT="Client who loves you">
+<node CREATED="1622098504920" FOLDED="true" ID="ID_2576364" MODIFIED="1622098684924" POSITION="right" TEXT="Client who loves you">
 <icon BUILTIN="full-3"/>
 <node CREATED="1622098514104" ID="ID_1169685922" MODIFIED="1622098517939" TEXT="First position yourself"/>
 <node CREATED="1622098518488" ID="ID_1765449409" MODIFIED="1622098532805" TEXT="Look at your clients">
@@ -125,7 +125,7 @@
 <node CREATED="1622105316827" ID="ID_132847357" MODIFIED="1622105335929" TEXT="Extreme focus on a douzaine of words"/>
 </node>
 </node>
-<node CREATED="1622105375580" ID="ID_936058796" MODIFIED="1622105391490" POSITION="right" TEXT="List your true competitive alternatives">
+<node CREATED="1622105375580" FOLDED="true" ID="ID_936058796" MODIFIED="1622105391490" POSITION="right" TEXT="List your true competitive alternatives">
 <icon BUILTIN="full-5"/>
 <node CREATED="1622105391859" ID="ID_704699465" MODIFIED="1622105407775" TEXT="Not only other people doing what we do"/>
 <node CREATED="1622105408323" ID="ID_190972131" MODIFIED="1622105413239" TEXT="... larger than that"/>
@@ -139,7 +139,7 @@
 <node CREATED="1622105644122" ID="ID_239822629" MODIFIED="1622105644542" TEXT="..."/>
 </node>
 </node>
-<node CREATED="1622105733521" ID="ID_1464363050" MODIFIED="1622105767221" POSITION="right" TEXT="Isolate your unique attribute or feature">
+<node CREATED="1622105733521" FOLDED="true" ID="ID_1464363050" MODIFIED="1622105767221" POSITION="right" TEXT="Isolate your unique attribute or feature">
 <icon BUILTIN="full-6"/>
 <node CREATED="1622105784073" ID="ID_1824757165" MODIFIED="1622105793109" TEXT="All individuals with unique set of">
 <node CREATED="1622105793274" ID="ID_1910539082" MODIFIED="1622105794173" TEXT="passions"/>
@@ -206,7 +206,7 @@
 </node>
 <node CREATED="1622106736341" ID="ID_1521876607" MODIFIED="1622106744346" TEXT="Features will be different depending who you choose"/>
 </node>
-<node CREATED="1622137948940" ID="ID_1802829619" MODIFIED="1622137963949" POSITION="right" TEXT="Find a market frame of reference">
+<node CREATED="1622137948940" FOLDED="true" ID="ID_1802829619" MODIFIED="1622137963949" POSITION="right" TEXT="Find a market frame of reference">
 <icon BUILTIN="full-8"/>
 <node CREATED="1622137955396" ID="ID_1430089698" MODIFIED="1622137961889" TEXT="Put strength at the center"/>
 <node CREATED="1622137978644" ID="ID_1221475513" MODIFIED="1622137987081" TEXT="Don&apos;t fight the wrong set of assumption"/>

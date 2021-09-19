@@ -68,8 +68,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1535133689237" ID="ID_32060867" MODIFIED="1556365405327" POSITION="right" TEXT="Measurement: the Solution Exists">
 <icon BUILTIN="full-1"/>
 <node CREATED="1534771179999" ID="ID_1515877894" MODIFIED="1618034382221" TEXT="Intangibles and the Challenge">
@@ -91,7 +90,7 @@
 <node CREATED="1534771296053" ID="ID_1481547376" MODIFIED="1552024822185" TEXT="Measurement is about supporting decisions">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1534771319966" FOLDED="true" ID="ID_273377765" MODIFIED="1535221516505" TEXT="the book answer">
+<node CREATED="1534771319966" ID="ID_273377765" MODIFIED="1535221516505" TEXT="the book answer">
 <node CREATED="1534771325238" ID="ID_623467520" MODIFIED="1534771329875" TEXT="What is the real problem?"/>
 <node CREATED="1534771331311" ID="ID_23857345" MODIFIED="1534771338405" TEXT="What do we really need to measure it?"/>
 <node CREATED="1534771341751" ID="ID_1188852988" MODIFIED="1534771346572" TEXT="How much precision do we need?"/>
@@ -117,7 +116,7 @@
 </node>
 <node CREATED="1534771528814" ID="ID_1554843687" MODIFIED="1552024864957" TEXT="Simple methods have powerful results"/>
 </node>
-<node CREATED="1534771560877" FOLDED="true" ID="ID_645421751" MODIFIED="1556365399555" TEXT="The illusion of intangible: why immensurable is not">
+<node CREATED="1534771560877" ID="ID_645421751" MODIFIED="1556365399555" TEXT="The illusion of intangible: why immensurable is not">
 <icon BUILTIN="full-3"/>
 <node CREATED="1534771602765" ID="ID_138638170" MODIFIED="1555176709739" TEXT="3 misconception of measurement">
 <node CREATED="1534771620677" ID="ID_1540188144" MODIFIED="1534771631529" TEXT="Concept of measurement">
@@ -146,9 +145,7 @@
 <node CREATED="1534773063571" ID="ID_342095730" MODIFIED="1534773092479" TEXT="Lot of uncertainty"/>
 <node CREATED="1534773069227" ID="ID_221355862" MODIFIED="1534773089384" TEXT="High cost of being wrong"/>
 <node CREATED="1534773080172" ID="ID_906408141" MODIFIED="1552025004699" TEXT="Other things are irrelevant"/>
-<node CREATED="1534773109563" FOLDED="true" ID="ID_1420623766" MODIFIED="1552025032313" TEXT="Any reduction of uncertainty">
-<node CREATED="1534773117779" ID="ID_434393843" MODIFIED="1534773125531" TEXT="Has a monetary value"/>
-</node>
+<node CREATED="1534773109563" ID="ID_1420623766" MODIFIED="1631594812070" TEXT="Any reduction of uncertainty has a monetary value"/>
 </node>
 </node>
 <node CREATED="1534773133617" ID="ID_121707693" MODIFIED="1554554925763" TEXT="Manager often measure">
