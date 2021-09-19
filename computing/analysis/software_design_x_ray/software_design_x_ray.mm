@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1628932401302" ID="ID_629816092" MODIFIED="1628932440743" TEXT="Software Design X Ray">
-<node CREATED="1628932445023" ID="ID_868848815" MODIFIED="1628933117643" POSITION="right" TEXT="The World of Behavioral Code Analysis">
+<node CREATED="1628932445023" FOLDED="true" ID="ID_868848815" MODIFIED="1628933117643" POSITION="right" TEXT="The World of Behavioral Code Analysis">
 <icon BUILTIN="full-0"/>
 <node CREATED="1628932517662" ID="ID_134337522" MODIFIED="1628933108380" TEXT="Why You Should Read This Book">
 <icon BUILTIN="full-1"/>
@@ -9,7 +9,7 @@
 <node CREATED="1628932724181" ID="ID_911049418" MODIFIED="1628933108968" TEXT="Who is this book for?">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1628932784453" ID="ID_441195985" MODIFIED="1628933110195" TEXT="How Should You Read This Book?">
+<node CREATED="1628932784453" FOLDED="true" ID="ID_441195985" MODIFIED="1628933110195" TEXT="How Should You Read This Book?">
 <icon BUILTIN="full-3"/>
 <node CREATED="1628932875942" ID="ID_1748529470" MODIFIED="1628932883625" TEXT="To Readers of Your Code as a Crime Scene">
 <node CREATED="1628932888557" ID="ID_1969727711" MODIFIED="1628932893282" TEXT="Overlap between two books"/>
@@ -17,7 +17,7 @@
 <node CREATED="1628932918678" ID="ID_1845675840" MODIFIED="1628932923697" TEXT="... but goes more in details"/>
 </node>
 </node>
-<node CREATED="1628932935261" ID="ID_1331593980" MODIFIED="1628933110867" TEXT="How Do I Get Behavioral Data for My Code?">
+<node CREATED="1628932935261" FOLDED="true" ID="ID_1331593980" MODIFIED="1628933110867" TEXT="How Do I Get Behavioral Data for My Code?">
 <icon BUILTIN="full-4"/>
 <node CREATED="1628932953165" ID="ID_1881727586" MODIFIED="1628932955441" TEXT="Behavior patterns"/>
 <node CREATED="1628932955725" ID="ID_320183603" MODIFIED="1628932959433" TEXT="... of all programmers of codebase"/>
@@ -219,7 +219,7 @@
 </node>
 <node CREATED="1630167042077" FOLDED="true" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
 <icon BUILTIN="full-2"/>
-<node CREATED="1630167068701" ID="ID_1009041052" MODIFIED="1630167071944" TEXT="Measure Interest Rates">
+<node CREATED="1630167068701" FOLDED="true" ID="ID_1009041052" MODIFIED="1630167071944" TEXT="Measure Interest Rates">
 <icon BUILTIN="full-1"/>
 <node CREATED="1630167603205" ID="ID_1990675018" MODIFIED="1630167607515" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -279,10 +279,12 @@
 <node CREATED="1630335853756" ID="ID_674095890" MODIFIED="1630335861121" TEXT="Prioritize Technical Debt With Hotspots">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1630335945517" ID="ID_536430686" MODIFIED="1630335956993" TEXT="Evaluate HotSpots with Complexity Trend">
+<node CREATED="1630335945517" FOLDED="true" ID="ID_536430686" MODIFIED="1630335956993" TEXT="Evaluate HotSpots with Complexity Trend">
 <icon BUILTIN="full-3"/>
 <node CREATED="1630335961949" ID="ID_1072916152" MODIFIED="1630336023273" TEXT="What is complexity, Anyway?">
 <icon BUILTIN="full-1"/>
+<node CREATED="1631968711506" ID="ID_1965094097" MODIFIED="1631968723006" TEXT="Indentation-based complexity"/>
+<node CREATED="1631968723418" ID="ID_1571371831" MODIFIED="1631968733181" TEXT="... correlate well with traditional complexity metrics"/>
 </node>
 <node CREATED="1630335999972" ID="ID_1718185289" MODIFIED="1630336024035" TEXT="Know the Biases in Complexity Trends">
 <icon BUILTIN="full-2"/>
@@ -298,7 +300,7 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node CREATED="1630336015500" ID="ID_60683458" MODIFIED="1630337368210" TEXT="Use X-Rays to Get Deep Insights into Code">
+<node CREATED="1630336015500" FOLDED="true" ID="ID_60683458" MODIFIED="1630337368210" TEXT="Use X-Rays to Get Deep Insights into Code">
 <icon BUILTIN="full-4"/>
 <node CREATED="1630337396804" ID="ID_1396091227" MODIFIED="1630337404906" TEXT="Inspect the code">
 <icon BUILTIN="full-1"/>
@@ -331,7 +333,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1630337409188" ID="ID_1334885300" MODIFIED="1630337416960" TEXT="Escape the Technical-Debt Trap">
+<node CREATED="1630337409188" FOLDED="true" ID="ID_1334885300" MODIFIED="1630337416960" TEXT="Escape the Technical-Debt Trap">
 <icon BUILTIN="full-5"/>
 <node CREATED="1630337444692" ID="ID_1736155515" MODIFIED="1630337452778" TEXT="Work with Untouchable Code">
 <icon BUILTIN="full-1"/>
@@ -381,12 +383,516 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node CREATED="1630338043861" ID="ID_1364060777" MODIFIED="1630338049602" TEXT="Pay Off Your Technical Debt">
+<node CREATED="1630338043861" FOLDED="true" ID="ID_1364060777" MODIFIED="1630338049602" TEXT="Pay Off Your Technical Debt">
 <icon BUILTIN="full-4"/>
-<node CREATED="1630338058668" ID="ID_780583124" MODIFIED="1630338063865" TEXT="Follow the rinciple of Proximity">
+<node CREATED="1630338058668" FOLDED="true" ID="ID_780583124" MODIFIED="1630592007868" TEXT="Follow the principle of Proximity">
 <icon BUILTIN="full-1"/>
+<node CREATED="1630592235076" ID="ID_104543474" MODIFIED="1630592239390" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
 <node CREATED="1630338082340" ID="ID_446327725" MODIFIED="1630338085488" TEXT="Functions changed together"/>
 <node CREATED="1630338085860" ID="ID_1164042853" MODIFIED="1630338091553" TEXT="... are moved close together"/>
+<node CREATED="1630592153679" ID="ID_922704689" MODIFIED="1630592158384" TEXT="Don&apos;t bring abstraction too far">
+<node CREATED="1630592158596" ID="ID_1060219528" MODIFIED="1630592162824" TEXT="Even if two methods look identical"/>
+<node CREATED="1630592163244" ID="ID_619867360" MODIFIED="1630592170032" TEXT="... they might model different aspects"/>
+<node CREATED="1630592170468" ID="ID_274902631" MODIFIED="1630592173120" TEXT="... of problem domain"/>
+<node CREATED="1630592183348" ID="ID_989752598" MODIFIED="1630592189584" TEXT="Abstraction can break in heavy rain of">
+<node CREATED="1630592189773" ID="ID_417469799" MODIFIED="1630592193384" TEXT="control flags"/>
+<node CREATED="1630592193718" ID="ID_511085833" MODIFIED="1630592198936" TEXT="boolean params"/>
+</node>
+<node CREATED="1630592203127" ID="ID_313808285" MODIFIED="1630592208735" TEXT="... worst than the original ducplication"/>
+</node>
+</node>
+<node CREATED="1630592225788" ID="ID_194641623" MODIFIED="1630592233661" TEXT="Use Your Perception">
+<icon BUILTIN="full-1"/>
+<node CREATED="1630592281196" ID="ID_1112161429" MODIFIED="1630592290920" TEXT="Proximity principle">
+<node CREATED="1630592291076" ID="ID_619341330" MODIFIED="1630592296344" TEXT="Objects close to each others"/>
+<node CREATED="1630592296651" ID="ID_776118854" MODIFIED="1630592310632" TEXT="... appear to form groups"/>
+</node>
+<node CREATED="1630592327604" ID="ID_865267455" MODIFIED="1630592358432" TEXT="Should favor structure guiding brain to related part grouped"/>
+<node CREATED="1630592415020" ID="ID_1732790229" MODIFIED="1630592423264" TEXT="Under-used refactoring technique"/>
+</node>
+<node CREATED="1630592428724" ID="ID_1649951463" MODIFIED="1630592433415" TEXT="Automate Proximity Recommendations">
+<icon BUILTIN="full-2"/>
+<node CREATED="1630592454244" ID="ID_1390157890" MODIFIED="1630592458608" TEXT="Change coupling">
+<node CREATED="1630592458852" ID="ID_973456210" MODIFIED="1630592466344" TEXT="paris of functions"/>
+<node CREATED="1630592471452" ID="ID_1717662593" MODIFIED="1630592475072" TEXT="... evolving together"/>
+</node>
+<node CREATED="1630592951284" ID="ID_38628176" MODIFIED="1630592955904" TEXT="Can calculate distance between them"/>
+<node CREATED="1630592994452" ID="ID_480042275" MODIFIED="1630593000432" TEXT="Keep public function close to the private ones"/>
+<node CREATED="1630593000764" ID="ID_373468808" MODIFIED="1630593002488" TEXT="... they use"/>
+<node CREATED="1630593103444" ID="ID_1432554426" MODIFIED="1630593109136" TEXT="If you have a cluster of methods">
+<node CREATED="1630593109308" ID="ID_719138101" MODIFIED="1630593111560" TEXT="Sign that you might"/>
+<node CREATED="1630593111899" ID="ID_825437681" MODIFIED="1630593117072" TEXT="... need to create another abstraction">
+<node CREATED="1630593117284" ID="ID_615482397" MODIFIED="1630593118352" TEXT="module"/>
+<node CREATED="1630593118613" ID="ID_1881282259" MODIFIED="1630593119440" TEXT="class"/>
+<node CREATED="1630593119772" ID="ID_835583080" MODIFIED="1630593120224" TEXT="..."/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1630593129588" FOLDED="true" ID="ID_969583845" MODIFIED="1630593137840" TEXT="Refactor Congested Code with the Splinter Pattern">
+<icon BUILTIN="full-2"/>
+<node CREATED="1630593501324" FOLDED="true" ID="ID_822937808" MODIFIED="1630593506705" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1630593408188" ID="ID_540559156" MODIFIED="1630593413928" TEXT="Splinter pattern">
+<node CREATED="1630593414100" ID="ID_435377423" MODIFIED="1630593417816" TEXT="Offer structured way"/>
+<node CREATED="1630593418180" ID="ID_1989111586" MODIFIED="1630593423624" TEXT="... to break up hotspots"/>
+</node>
+<node CREATED="1630593434492" ID="ID_1535076994" MODIFIED="1630593436336" TEXT="Hotspot">
+<node CREATED="1630593436508" ID="ID_707618133" MODIFIED="1630593439239" TEXT="Code growing"/>
+<node CREATED="1630593439644" ID="ID_214304769" MODIFIED="1630593444200" TEXT="... with too many responsibilities"/>
+</node>
+</node>
+<node CREATED="1630593509516" FOLDED="true" ID="ID_241787964" MODIFIED="1630593523252" TEXT="Parallel Development Is at Conflict with Refactoring">
+<icon BUILTIN="full-1"/>
+<node CREATED="1630593530140" ID="ID_1206288593" MODIFIED="1630593635368" TEXT="When other modify or use what you refactor"/>
+<node CREATED="1630593635692" ID="ID_494187716" MODIFIED="1630593639896" TEXT="... it will lead to problems"/>
+<node CREATED="1630593659172" ID="ID_1329212633" MODIFIED="1630593664032" TEXT="Splinter pattern">
+<node CREATED="1630593664204" ID="ID_867752227" MODIFIED="1630593672184" TEXT="Won&apos;t improve quality of code"/>
+<node CREATED="1630593672508" ID="ID_1515188014" MODIFIED="1630593680576" TEXT="Transform the code that mutliple people can work on it"/>
+</node>
+</node>
+<node CREATED="1630593683348" FOLDED="true" ID="ID_808848589" MODIFIED="1630593691120" TEXT="Split a Hotspot File Along Its responsibilities">
+<icon BUILTIN="full-2"/>
+<node CREATED="1630593701780" ID="ID_91505375" MODIFIED="1630593705536" TEXT="Maintain the original API"/>
+<node CREATED="1630593705851" ID="ID_1593858047" MODIFIED="1630593715816" TEXT="Break the hotspot into smaller parts"/>
+<node CREATED="1630593813540" ID="ID_136400602" MODIFIED="1630593815496" TEXT="Worfklow">
+<node CREATED="1630593815700" ID="ID_205438110" MODIFIED="1630593824043" TEXT="Ensure your tests cover the splinter candidate">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1630593825420" ID="ID_1275387413" MODIFIED="1630593831234" TEXT="Identify behavior inside hotspot">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1630593840772" ID="ID_619969398" MODIFIED="1630593844370" TEXT="Refactor for proximity">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1630593855196" ID="ID_1513820482" MODIFIED="1630593869728" TEXT="Extract a new module for the behavior with the most development activity">
+<icon BUILTIN="full-4"/>
+<node CREATED="1630593874204" ID="ID_154733768" MODIFIED="1630593882512" TEXT="Use X-Ray analysis to decide where to start"/>
+</node>
+<node CREATED="1630593892148" ID="ID_666052326" MODIFIED="1630593896753" TEXT="Delegate to the new module">
+<icon BUILTIN="full-5"/>
+<node CREATED="1630593946676" ID="ID_1379810064" MODIFIED="1630593951136" TEXT="Replace body of original method"/>
+<node CREATED="1630593951485" ID="ID_936950431" MODIFIED="1630593955136" TEXT="... with delegation to new module"/>
+<node CREATED="1630593957766" ID="ID_1812190467" MODIFIED="1630593978072" TEXT="Allow to move forward faster"/>
+<node CREATED="1630593969692" ID="ID_1064974608" MODIFIED="1630593976936" TEXT="Limit the risk of conflicting changes by others"/>
+</node>
+<node CREATED="1630593904820" ID="ID_756024845" MODIFIED="1630593925673" TEXT="Perform the necessary regression tests to ensure you haven&apos;t altered behavior of the system">
+<icon BUILTIN="full-6"/>
+</node>
+<node CREATED="1630593928268" ID="ID_225350953" MODIFIED="1630593937705" TEXT="Select the next behavior to refactor and start over at step 4">
+<icon BUILTIN="full-7"/>
+</node>
+</node>
+</node>
+<node CREATED="1630594001652" FOLDED="true" ID="ID_422413992" MODIFIED="1630594009562" TEXT="Separate Code with Mixed Content">
+<icon BUILTIN="full-3"/>
+<node CREATED="1630594042108" ID="ID_555545899" MODIFIED="1630594051944" TEXT="Sometimes programming languages are mixed"/>
+<node CREATED="1630594055724" ID="ID_508074936" MODIFIED="1630594060600" TEXT="Before splinter refactoring"/>
+<node CREATED="1630594060948" ID="ID_1273865593" MODIFIED="1630594067112" TEXT="... need to extract different languages"/>
+<node CREATED="1630594067420" ID="ID_1444652326" MODIFIED="1630594069736" TEXT="... in different files"/>
+<node CREATED="1630594079820" ID="ID_1105549306" MODIFIED="1630594088759" TEXT="Then easier to identify behavior in tech soup"/>
+</node>
+<node CREATED="1630594093884" FOLDED="true" ID="ID_1269666564" MODIFIED="1630594100153" TEXT="Signal Incompleteness with Names">
+<icon BUILTIN="full-4"/>
+<node CREATED="1630594165795" ID="ID_452948435" MODIFIED="1630594177216" TEXT="Sharing code with unrelated methods in original hotspots"/>
+<node CREATED="1630594183512" ID="ID_934294489" MODIFIED="1630594185984" TEXT="Two choices">
+<node CREATED="1630594186188" ID="ID_822224448" MODIFIED="1630594204594" TEXT="Duplicate the shared method in your splinter">
+<icon BUILTIN="full-1"/>
+<node CREATED="1630594283860" ID="ID_393407937" MODIFIED="1630594285455" TEXT="Not that bad"/>
+<node CREATED="1630594285811" ID="ID_681543189" MODIFIED="1630594289576" TEXT="Concept become narrower"/>
+<node CREATED="1630594290796" ID="ID_512297720" MODIFIED="1630594296576" TEXT="... so duplication will change too"/>
+</node>
+<node CREATED="1630594191939" ID="ID_1792411502" MODIFIED="1630594205122" TEXT="Maintain a shared abstraction in a new module">
+<icon BUILTIN="full-2"/>
+<node CREATED="1630594311108" ID="ID_1474573735" MODIFIED="1630594317344" TEXT="Avoid name like">
+<node CREATED="1630594317516" ID="ID_994889834" MODIFIED="1630594318312" TEXT="misc"/>
+<node CREATED="1630594318620" ID="ID_1092364936" MODIFIED="1630594319568" TEXT="util"/>
+<node CREATED="1630594319888" ID="ID_579504337" MODIFIED="1630594320928" TEXT="common"/>
+</node>
+<node CREATED="1630594321420" ID="ID_1912483117" MODIFIED="1630594323840" TEXT="Go full on with">
+<node CREATED="1630594323988" ID="ID_1851605885" MODIFIED="1630594325232" TEXT="dumpster"/>
+</node>
+<node CREATED="1630594327027" ID="ID_1306410677" MODIFIED="1630594329888" TEXT="Signal low cohesion"/>
+<node CREATED="1630594335980" ID="ID_588446480" MODIFIED="1630594341952" TEXT="Means that shared module need more work"/>
+</node>
+</node>
+</node>
+<node CREATED="1630594351644" FOLDED="true" ID="ID_544564164" MODIFIED="1630594358433" TEXT="Know the Consequences of Spltinters">
+<icon BUILTIN="full-5"/>
+<node CREATED="1630594383812" ID="ID_1993430356" MODIFIED="1630594388735" TEXT="When all splinter extracted"/>
+<node CREATED="1630594389044" ID="ID_47885046" MODIFIED="1630594394768" TEXT="... ready to apply traditional refactoring"/>
+<node CREATED="1630594400844" ID="ID_371752658" MODIFIED="1630594402696" TEXT="Next step">
+<node CREATED="1630594402851" ID="ID_304476516" MODIFIED="1630594405208" TEXT="remove middle man"/>
+<node CREATED="1630594409796" ID="ID_659163496" MODIFIED="1630594421240" TEXT="Let client of original hostpot"/>
+<node CREATED="1630594421557" ID="ID_472758040" MODIFIED="1630594434776" TEXT="... access splinter directly"/>
+<node CREATED="1630594435516" ID="ID_1499360103" MODIFIED="1630594440144" TEXT="... without any delegation"/>
+</node>
+<node CREATED="1630594446508" ID="ID_751208879" MODIFIED="1630594452880" TEXT="Some splinter modules won&apos;t need refactoring">
+<node CREATED="1630594531812" ID="ID_1238758965" MODIFIED="1630594538176" TEXT="Use hotspot analysis at a later date"/>
+<node CREATED="1630594538556" ID="ID_1473844827" MODIFIED="1630594540136" TEXT="... to be sure"/>
+<node CREATED="1630594543484" ID="ID_1356883110" MODIFIED="1630594551968" TEXT="Only include dev activity after splinter refactoring">
+<node CREATED="1630594554044" ID="ID_116370621" MODIFIED="1630594558646" TEXT="--after=&lt;date&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1630594594220" ID="ID_1007755281" MODIFIED="1630594602424" TEXT="Even with splinter, hotspot refactoring is high risk">
+<node CREATED="1630594610684" ID="ID_1854746638" MODIFIED="1630594617464" TEXT="Tempting to do it on a separate branch"/>
+<node CREATED="1630594617780" ID="ID_1919181846" MODIFIED="1630594621744" TEXT="Don&apos;t go there!"/>
+<node CREATED="1630594625092" ID="ID_1217589947" MODIFIED="1630594629904" TEXT="Key driver for hotspot refactoring">
+<node CREATED="1630594630076" ID="ID_1352456235" MODIFIED="1630594632752" TEXT="short lead times"/>
+</node>
+<node CREATED="1630594646876" ID="ID_361382445" MODIFIED="1630594656128" TEXT="Branch gives false sense of safety">
+<node CREATED="1630594702940" ID="ID_1349425487" MODIFIED="1630594706568" TEXT="Lead to take too large steps"/>
+<node CREATED="1630594716059" ID="ID_270550236" MODIFIED="1630594720552" TEXT="Even if merging multiple time a day"/>
+<node CREATED="1630594720995" ID="ID_1408523519" MODIFIED="1630594725792" TEXT="... need to manage these merge">
+<node CREATED="1630594726003" ID="ID_1414135329" MODIFIED="1630594730496" TEXT="Understand what was on main branch"/>
+<node CREATED="1630594730788" ID="ID_1884106853" MODIFIED="1630594740703" TEXT="... and how it can affect the refactoring"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1630594753844" FOLDED="true" ID="ID_341619359" MODIFIED="1630594762562" TEXT="Build Temporary Tests as a Safety Net">
+<icon BUILTIN="full-3"/>
+<node CREATED="1631715245019" ID="ID_366663693" MODIFIED="1631715249583" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1630594772236" ID="ID_1744805189" MODIFIED="1630594780352" TEXT="Need tests before splinter refactoring"/>
+<node CREATED="1630594781004" ID="ID_298902494" MODIFIED="1630594785016" TEXT="Most hotspots lack tests">
+<node CREATED="1630594789260" ID="ID_1429402932" MODIFIED="1630594793664" TEXT="Unit tests are often impossible"/>
+<node CREATED="1630594796372" ID="ID_1215133912" MODIFIED="1630594800256" TEXT="... until code refactored"/>
+</node>
+</node>
+<node CREATED="1631715251825" ID="ID_1813566491" MODIFIED="1631715260847" TEXT="Introduce Provisional End-to-End Tests">
+<icon BUILTIN="full-1"/>
+<node CREATED="1631715266777" ID="ID_1420638707" MODIFIED="1631715273332" TEXT="Treat code as black box"/>
+<node CREATED="1631715273784" ID="ID_1686473368" MODIFIED="1631715279372" TEXT="Only focus on its behavior"/>
+<node CREATED="1631715291251" ID="ID_931198485" MODIFIED="1631715301615" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1631715292992" ID="ID_1950531081" MODIFIED="1631715296908" TEXT="Selenium for web app"/>
+</node>
+<node CREATED="1631715326960" ID="ID_1635885727" MODIFIED="1631715332164" TEXT="Only use it for refactoring">
+<node CREATED="1631715332488" ID="ID_805566790" MODIFIED="1631715339964" TEXT="Preserve existing behavior"/>
+<node CREATED="1631715340529" ID="ID_1867064351" MODIFIED="1631715347028" TEXT="... for safer and more controlled process"/>
+</node>
+<node CREATED="1631715444888" ID="ID_505134534" MODIFIED="1631715448419" TEXT="Look at code coverage">
+<node CREATED="1631715449648" ID="ID_1388606137" MODIFIED="1631715454892" TEXT="See uncovered execution paths"/>
+<node CREATED="1631715455193" ID="ID_1651617847" MODIFIED="1631715458012" TEXT="... with high complexity"/>
+</node>
+</node>
+<node CREATED="1631715479248" ID="ID_1860025989" MODIFIED="1631715485590" TEXT="Reduce Debt by Deleting Cost Sinks">
+<icon BUILTIN="full-2"/>
+<node CREATED="1631715570920" ID="ID_71218868" MODIFIED="1631715578365" TEXT="Hotspots are often with inadequate test coverage"/>
+<node CREATED="1631715583456" ID="ID_51337736" MODIFIED="1631715589724" TEXT="No tests where there is need for"/>
+<node CREATED="1631715598752" ID="ID_279157046" MODIFIED="1631715600372" TEXT="Worst">
+<node CREATED="1631715600512" ID="ID_1832702449" MODIFIED="1631715609363" TEXT="Unit test suits not growing with prod code"/>
+<node CREATED="1631715609704" ID="ID_814432206" MODIFIED="1631715621484" TEXT="... but still add to maintenance code"/>
+</node>
+<node CREATED="1631715708689" ID="ID_214495142" MODIFIED="1631715716916" TEXT="Often happen when a dev wants tests"/>
+<node CREATED="1631715717272" ID="ID_1739210390" MODIFIED="1631715722628" TEXT="... but the rest of the org doesn&apos;t follow"/>
+<node CREATED="1631715745992" ID="ID_1359229006" MODIFIED="1631715756212" TEXT="Deleting initial unit tests might be the best solution"/>
+</node>
+</node>
+<node CREATED="1631715769328" FOLDED="true" ID="ID_1595945789" MODIFIED="1631715780374" TEXT="Turn Hotspot Methods into Brain-Friendly Chunks">
+<icon BUILTIN="full-4"/>
+<node COLOR="#338800" CREATED="1631715858216" ID="ID_531822974" MODIFIED="1631715886633" TEXT="Working memory chunk">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+<node COLOR="#338800" CREATED="1631715866544" ID="ID_1064368887" MODIFIED="1631715880416" TEXT="See code as a crime scene">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1631716255648" ID="ID_1535177910" MODIFIED="1631716264677" TEXT="Good first approach">
+<node CREATED="1631716264848" ID="ID_265946296" MODIFIED="1631716270476" TEXT="Dividing a large method into"/>
+<node CREATED="1631716271081" ID="ID_1062505262" MODIFIED="1631716275924" TEXT="... chunks of small method calls"/>
+<node CREATED="1631716276616" ID="ID_1632292556" MODIFIED="1631716285517" TEXT="Use refactoring Extract Method"/>
+</node>
+</node>
+<node CREATED="1631716327897" FOLDED="true" ID="ID_224511241" MODIFIED="1631716333894" TEXT="The Curse of a Successful System">
+<icon BUILTIN="full-5"/>
+<node CREATED="1631716357992" ID="ID_349090328" MODIFIED="1631716366956" TEXT="Most of code decay is not due of incompetence"/>
+<node CREATED="1631716367320" ID="ID_803312473" MODIFIED="1631716376516" TEXT="... but more owed by success of evolving product"/>
+<node CREATED="1631716407689" ID="ID_1151671212" MODIFIED="1631716411676" TEXT="Better to be guided by data"/>
+<node CREATED="1631716412056" ID="ID_1298588211" MODIFIED="1631716419677" TEXT="... to find true maintenance bottleneck"/>
+<node CREATED="1631716420176" ID="ID_550056487" MODIFIED="1631716425180" TEXT="... while the codebase evolve"/>
+</node>
+</node>
+<node CREATED="1631716448424" FOLDED="true" ID="ID_1360752731" MODIFIED="1631716454031" TEXT="The Principle of Code Age">
+<icon BUILTIN="full-5"/>
+<node CREATED="1631804281377" ID="ID_165714609" MODIFIED="1631804283833" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1631804284463" ID="ID_984231454" MODIFIED="1631804288988" TEXT="Package-level refactorings"/>
+<node CREATED="1631804290120" ID="ID_298082976" MODIFIED="1631804294964" TEXT="Organize code by its age"/>
+<node CREATED="1631804348496" ID="ID_753016485" MODIFIED="1631804351493" TEXT="Code age analysis">
+<node CREATED="1631804353401" ID="ID_1138940856" MODIFIED="1631804365675" TEXT="Evolve systems toward increased development stability"/>
+<node CREATED="1631804369259" ID="ID_1807397966" MODIFIED="1631804373915" TEXT="Lower cognitive overhead"/>
+</node>
+</node>
+<node CREATED="1631804383087" ID="ID_1905353990" MODIFIED="1631804417459" TEXT="Stabilize Code by Age">
+<icon BUILTIN="full-1"/>
+<node CREATED="1631804936375" ID="ID_12171103" MODIFIED="1631804945581" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1631804640607" ID="ID_219527163" MODIFIED="1631804647171" TEXT="Different change rate of software component"/>
+<node CREATED="1631804647528" ID="ID_639656631" MODIFIED="1631804652659" TEXT="... may tear the system apart">
+<node CREATED="1631804658439" ID="ID_1343724500" MODIFIED="1631804662476" TEXT="Hard to understand"/>
+<node CREATED="1631804662800" ID="ID_1183201153" MODIFIED="1631804665018" TEXT="... so hard to change"/>
+</node>
+<node CREATED="1631804674663" ID="ID_1543416142" MODIFIED="1631804678659" TEXT="Forces that tear codebase">
+<node CREATED="1631804678943" ID="ID_1315999200" MODIFIED="1631804684275" TEXT="Frailties of human memomry"/>
+<node CREATED="1631804684680" ID="ID_1788413979" MODIFIED="1631804693875" TEXT="Need to communicate knowledge across">
+<node CREATED="1631804694463" ID="ID_426219686" MODIFIED="1631804695147" TEXT="time"/>
+<node CREATED="1631804695496" ID="ID_1624838352" MODIFIED="1631804699411" TEXT="corporate boundaries"/>
+</node>
+</node>
+<node CREATED="1631804712351" ID="ID_1281993070" MODIFIED="1631804715867" TEXT="Designing with code age">
+<node CREATED="1631804716103" ID="ID_1707321580" MODIFIED="1631804736779" TEXT="Organize code by its age">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1631804721111" ID="ID_241842221" MODIFIED="1631804737646" TEXT="Turn stable packages into libraries">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1631804730383" ID="ID_1552062073" MODIFIED="1631804738396" TEXT="Move and refactor code we fail to stabilize">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1631804789159" ID="ID_372621246" MODIFIED="1631804791939" TEXT="Advantages">
+<node CREATED="1631804792232" ID="ID_634569838" MODIFIED="1631804839035" TEXT="Promote long-term memory models of code">
+<icon BUILTIN="full-1"/>
+<node CREATED="1631804800103" ID="ID_1177725274" MODIFIED="1631804804179" TEXT="Chunk remaining valid over time"/>
+<node CREATED="1631804805960" ID="ID_1023433934" MODIFIED="1631804813156" TEXT="Always expect same things"/>
+</node>
+<node CREATED="1631804814120" ID="ID_291013108" MODIFIED="1631804839661" TEXT="Lessens cognitive load (there&apos;s less active code)">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1631804831335" ID="ID_1524718970" MODIFIED="1631804840269" TEXT="Prioritizes test suites to shorten lead times">
+<icon BUILTIN="full-3"/>
+<node CREATED="1631804877481" ID="ID_1204057573" MODIFIED="1631804879699" TEXT="Decision point"/>
+<node CREATED="1631804880031" ID="ID_1771409378" MODIFIED="1631804882676" TEXT="... to skip some test runs"/>
+<node CREATED="1631804882960" ID="ID_472679565" MODIFIED="1631804887139" TEXT="... if it became too slow for builds"/>
+</node>
+</node>
+<node CREATED="1631804915215" ID="ID_260904482" MODIFIED="1631804940210" TEXT="Code by age within containing business context"/>
+</node>
+<node CREATED="1631804946887" ID="ID_290199038" MODIFIED="1631804952403" TEXT="Calculate the Age of Code">
+<icon BUILTIN="full-1"/>
+<node CREATED="1631805038023" ID="ID_154703685" MODIFIED="1631805044370" TEXT="Need reference for most recent date">
+<node CREATED="1631805046287" ID="ID_686938339" MODIFIED="1631805053131" TEXT="Current date works fine"/>
+<node CREATED="1631805053447" ID="ID_936835008" MODIFIED="1631805056755" TEXT="... for codebase in active dev"/>
+<node CREATED="1631805068807" ID="ID_1614701453" MODIFIED="1631805075387" TEXT="Otherwise, date of most recent commit"/>
+</node>
+<node CREATED="1631805128655" ID="ID_1712694224" MODIFIED="1631805147075" TEXT="git log RoR codebase">
+<node CREATED="1631805118743" ID="ID_531173938" MODIFIED="1631805119778" TEXT="git log -1 --format=&quot;%ad&quot; --date=short -- activerecord/lib/active_record/base.rb ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1631805127039" ID="ID_1033542598" MODIFIED="1631805128292" TEXT="git log -1 --format=&quot;%ad&quot; --date=short -- activerecord/lib/active_record/gem_version.rb ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1631805202503" ID="ID_1756346445" MODIFIED="1631805204960" TEXT="%ad">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1631805205239" ID="ID_90561796" MODIFIED="1631805207283" TEXT="Author date"/>
+<node CREATED="1631805212447" ID="ID_1443253787" MODIFIED="1631805216107" TEXT="Last modification time of a file"/>
+</node>
+<node CREATED="1631805385631" ID="ID_1135977929" MODIFIED="1631805389994" TEXT="Need to scale that to whole system">
+<node CREATED="1631805390255" ID="ID_759284138" MODIFIED="1631805415140" TEXT="Retrieve list or files">
+<icon BUILTIN="full-1"/>
+<node CREATED="1631805399311" ID="ID_147584732" MODIFIED="1631805401344" TEXT="git ls-files">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1631805402295" ID="ID_1354154306" MODIFIED="1631805415755" TEXT="Iterate over the list and apply git log to fetch modif date">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1631805416543" ID="ID_726647057" MODIFIED="1631805428037" TEXT="Calculate the age metric for each file based on current date">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1631805486103" ID="ID_1531281407" MODIFIED="1631805493579" TEXT="Might need to exclude generated files"/>
+</node>
+<node CREATED="1631805231943" ID="ID_400169661" MODIFIED="1631805236491" TEXT="Simple output means simpler scripting"/>
+</node>
+<node CREATED="1631805500615" ID="ID_1199877174" MODIFIED="1631805506116" TEXT="The Three Generations of Code">
+<icon BUILTIN="full-2"/>
+<node CREATED="1631891936587" ID="ID_823275339" MODIFIED="1631891946386" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1631805516135" ID="ID_1164030740" MODIFIED="1631805518611" TEXT="Idea from Dan North">
+<node CREATED="1631805518823" ID="ID_812574659" MODIFIED="1631805528987" TEXT="software half-life for simplifying code"/>
+</node>
+<node CREATED="1631805555119" ID="ID_883223966" MODIFIED="1631805560939" TEXT="Mental model arn&apos;t fixed">
+<node CREATED="1631805596359" ID="ID_450392263" MODIFIED="1631805601146" TEXT="Hermann Ebbinghaus"/>
+<node CREATED="1631805601499" ID="ID_513972791" MODIFIED="1631805607627" TEXT="We forget at an exponential rate"/>
+<node CREATED="1631805616847" ID="ID_81017947" MODIFIED="1631805626107" TEXT="Need to repeat info"/>
+<node CREATED="1631805626426" ID="ID_1842818644" MODIFIED="1631805628435" TEXT="... to remember more"/>
+</node>
+<node CREATED="1631807355656" ID="ID_479797107" MODIFIED="1631891940257" TEXT="Social side of age of code">
+<node CREATED="1631807359935" ID="ID_959702496" MODIFIED="1631807364076" TEXT="Developer writting old code"/>
+<node CREATED="1631807364407" ID="ID_1160713074" MODIFIED="1631807368387" TEXT="... are not in org anymore"/>
+<node CREATED="1631891562859" ID="ID_569717920" MODIFIED="1631891567463" TEXT="Code we don&apos;t longer know">
+<node CREATED="1631891567635" ID="ID_729878960" MODIFIED="1631891571999" TEXT="David Parnas"/>
+<node CREATED="1631891572411" ID="ID_721718253" MODIFIED="1631891577528" TEXT="... &quot;ignorant surgery&quot;"/>
+</node>
+</node>
+</node>
+<node CREATED="1631891702124" ID="ID_1410474290" MODIFIED="1631891947330" TEXT="Your Best Bug Fix is Time">
+<icon BUILTIN="full-1"/>
+<node CREATED="1631891785027" ID="ID_1332468867" MODIFIED="1631891790782" TEXT="Risk of new bugs decrease with time"/>
+<node CREATED="1631891886044" ID="ID_1716126721" MODIFIED="1631891889863" TEXT="More stuff added"/>
+<node CREATED="1631891890163" ID="ID_1919990765" MODIFIED="1631891894991" TEXT="... more stuff corrected"/>
+<node CREATED="1631891909091" ID="ID_1750395299" MODIFIED="1631891917215" TEXT="Reasoning doesn&apos;t apply to test cases"/>
+<node CREATED="1631891922595" ID="ID_1089269217" MODIFIED="1631891926023" TEXT="Might be a time bomb too"/>
+</node>
+<node CREATED="1631891961955" ID="ID_129729248" MODIFIED="1631891971681" TEXT="Reafactor Toward Code of Similar Age">
+<icon BUILTIN="full-2"/>
+<node CREATED="1631892025066" ID="ID_460675187" MODIFIED="1631892032631" TEXT="Code age is heuristics"/>
+<node CREATED="1631892032971" ID="ID_358272906" MODIFIED="1631892037471" TEXT="... like many things in this book"/>
+<node CREATED="1631892039818" ID="ID_1343767541" MODIFIED="1631892045390" TEXT="Analysis won&apos;t make decision for us"/>
+<node CREATED="1631892118003" ID="ID_1331822511" MODIFIED="1631892127623" TEXT="Can help to refactor to a higher level entity"/>
+<node CREATED="1631892127979" ID="ID_1112253709" MODIFIED="1631892134903" TEXT="... a new mental chunk like stable package"/>
+<node CREATED="1631892458939" ID="ID_151584131" MODIFIED="1631892469950" TEXT="Mix of old and new code is difficult to stabilize"/>
+</node>
+</node>
+<node CREATED="1631892357171" ID="ID_268898382" MODIFIED="1631892362273" TEXT="Refactor Your Package Structure">
+<icon BUILTIN="full-3"/>
+<node CREATED="1631892713403" ID="ID_1007980781" MODIFIED="1631892722463" TEXT="Stabilizing packages with old code"/>
+<node CREATED="1631892722891" ID="ID_1113429155" MODIFIED="1631892733343" TEXT="... can help us create reusable packages"/>
+<node CREATED="1631892745027" ID="ID_1103484555" MODIFIED="1631892756110" TEXT="When modules change at different rates"/>
+<node CREATED="1631892756611" ID="ID_628888136" MODIFIED="1631892768007" TEXT="... good chance that they represent separate concepts"/>
+<node CREATED="1631892784611" ID="ID_975572911" MODIFIED="1631892788239" TEXT="Common closure principle">
+<node CREATED="1631892788409" ID="ID_378677302" MODIFIED="1631892797551" TEXT="Modules that change together"/>
+<node CREATED="1631892797883" ID="ID_1834533457" MODIFIED="1631892802646" TEXT="... should be packaged together"/>
+</node>
+</node>
+<node CREATED="1631892852170" ID="ID_1253588764" MODIFIED="1631892857633" TEXT="Scale from Files to Systems">
+<icon BUILTIN="full-4"/>
+<node CREATED="1631892991099" ID="ID_403457572" MODIFIED="1631892997655" TEXT="Code age analysis is imperfect"/>
+<node CREATED="1631892997947" ID="ID_1255066676" MODIFIED="1631893008751" TEXT="Tiny change on a file can hide some opportunities"/>
+<node CREATED="1631893009082" ID="ID_914073090" MODIFIED="1631893012103" TEXT="... of refactoring"/>
+<node CREATED="1631893012403" ID="ID_846228513" MODIFIED="1631893015967" TEXT="Only heuristics">
+<node CREATED="1631893016627" ID="ID_342928438" MODIFIED="1631893024485" TEXT="Our expertise should prevale"/>
+</node>
+</node>
+<node CREATED="1631893031531" ID="ID_1666361574" MODIFIED="1631893036248" TEXT="Exercises">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1631893083227" ID="ID_1769007685" MODIFIED="1631893093256" POSITION="right" TEXT=" Part II - Work with Large Codebases and Organizations">
+<icon BUILTIN="full-2"/>
+<node CREATED="1631967136028" ID="ID_736305035" MODIFIED="1631967145812" TEXT="Spot Your System&apos;s Tipping Point">
+<icon BUILTIN="full-6"/>
+<node CREATED="1631967171914" ID="ID_127604674" MODIFIED="1631967192600" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1631967175786" ID="ID_29960245" MODIFIED="1631967183671" TEXT="Social code analysis"/>
+<node CREATED="1631967184035" ID="ID_869027322" MODIFIED="1631967189278" TEXT="... to make sense of large-scale systems"/>
+<node CREATED="1631967197442" ID="ID_1725817700" MODIFIED="1631967202598" TEXT="... to break them into subsystems"/>
+</node>
+<node CREATED="1631967218882" ID="ID_246283008" MODIFIED="1631967257718" TEXT="Is Software Too Hard?">
+<icon BUILTIN="full-1"/>
+<node CREATED="1631967520210" ID="ID_1625693437" MODIFIED="1631967528384" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1631967282986" ID="ID_1797529913" MODIFIED="1631967288406" TEXT="Brain has many">
+<node CREATED="1631967288602" ID="ID_1330796152" MODIFIED="1631967290246" TEXT="bottlenecks">
+<node CREATED="1631967314252" ID="ID_1695189576" MODIFIED="1631967316750" TEXT="Imperfect memory"/>
+<node CREATED="1631967317082" ID="ID_1937148975" MODIFIED="1631967320942" TEXT="Restricted attention span"/>
+<node CREATED="1631967321514" ID="ID_128381315" MODIFIED="1631967327686" TEXT="Limited multitasking abilities"/>
+<node CREATED="1631967328186" ID="ID_337180006" MODIFIED="1631967328710" TEXT="..."/>
+</node>
+<node CREATED="1631967290578" ID="ID_1580784321" MODIFIED="1631967292094" TEXT="bias"/>
+</node>
+<node CREATED="1631967293178" ID="ID_713715247" MODIFIED="1631967337614" TEXT="How can we code at all?">
+<node CREATED="1631967337857" ID="ID_12667660" MODIFIED="1631967342382" TEXT="We didn&apos;t evolve to program"/>
+</node>
+<node CREATED="1631967352146" ID="ID_1960174054" MODIFIED="1631967355894" TEXT="Need to use workaround">
+<node CREATED="1631967356498" ID="ID_1203614668" MODIFIED="1631967359734" TEXT="Abstraction"/>
+<node CREATED="1631967360002" ID="ID_860564506" MODIFIED="1631967362198" TEXT="Cohesion"/>
+<node CREATED="1631967363452" ID="ID_118732518" MODIFIED="1631967364701" TEXT="Good naming"/>
+</node>
+<node CREATED="1631967415546" ID="ID_622795683" MODIFIED="1631967419302" TEXT="Problem of large codebase">
+<node CREATED="1631967419474" ID="ID_1093592709" MODIFIED="1631967426134" TEXT="Too much code to fit in our brain"/>
+<node CREATED="1631967426434" ID="ID_1667600048" MODIFIED="1631967429806" TEXT="Moving target: things changed"/>
+<node CREATED="1631967449458" ID="ID_1726177768" MODIFIED="1631967452742" TEXT="Social dimension of dev">
+<node CREATED="1631967458418" ID="ID_88832305" MODIFIED="1631967462254" TEXT="More than 12 to 15 devs"/>
+<node CREATED="1631967462674" ID="ID_79343690" MODIFIED="1631967465734" TEXT="... and you&apos;ve problems">
+<node CREATED="1631967466041" ID="ID_1570571731" MODIFIED="1631967469542" TEXT="Coordination"/>
+<node CREATED="1631967469841" ID="ID_1555120316" MODIFIED="1631967471117" TEXT="Motivation"/>
+<node CREATED="1631967471394" ID="ID_853133975" MODIFIED="1631967473230" TEXT="Communication"/>
+</node>
+</node>
+<node CREATED="1631967497266" ID="ID_161993859" MODIFIED="1631967510494" TEXT="Technical aspects are not the only problem"/>
+</node>
+</node>
+<node CREATED="1631967530714" ID="ID_1658366723" MODIFIED="1631967537277" TEXT="Societies within a Software System">
+<icon BUILTIN="full-1"/>
+<node CREATED="1631967629906" ID="ID_1188513105" MODIFIED="1631967633862" TEXT="Linux kernel"/>
+<node CREATED="1631967634587" ID="ID_790672443" MODIFIED="1631967640341" TEXT="16241 contributors"/>
+<node CREATED="1631967640834" ID="ID_1425359460" MODIFIED="1631967649966" TEXT="What&apos;s the coordination cost?"/>
+</node>
+<node CREATED="1631967655714" ID="ID_192148546" MODIFIED="1631967662782" TEXT="Raise the Abstraction Level">
+<icon BUILTIN="full-2"/>
+<node CREATED="1631967699105" ID="ID_1707066141" MODIFIED="1631967704253" TEXT="Collaboration depends on modularity"/>
+<node CREATED="1631967704569" ID="ID_1796939295" MODIFIED="1631967711213" TEXT="... doesn&apos;t mean coordination will be easy"/>
+<node CREATED="1631967718885" ID="ID_78723649" MODIFIED="1631967722902" TEXT="Need to move analysis to">
+<node CREATED="1631967723106" ID="ID_780123995" MODIFIED="1631967724125" TEXT="modules"/>
+<node CREATED="1631967724401" ID="ID_916987478" MODIFIED="1631967726861" TEXT="subsystems"/>
+</node>
+<node CREATED="1631967774250" ID="ID_880632226" MODIFIED="1631967785798" TEXT="... can give hotspots to different team"/>
+<node CREATED="1631967786089" ID="ID_1674379572" MODIFIED="1631967791357" TEXT="... can improve communication with stakeholders"/>
+</node>
+</node>
+<node CREATED="1631967826482" ID="ID_834532357" MODIFIED="1631967837623" TEXT="Divide and Conquer with Architectural Hotspots">
+<icon BUILTIN="full-2"/>
+<node CREATED="1631968148129" ID="ID_584940465" MODIFIED="1631968180367" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1631967847930" ID="ID_954586684" MODIFIED="1631967849750" TEXT="Workflow">
+<node CREATED="1631967849906" ID="ID_93173937" MODIFIED="1631967905813" TEXT="Identify your architectural boundaries">
+<icon BUILTIN="full-1"/>
+<node CREATED="1631967857330" ID="ID_605368796" MODIFIED="1631967869894" TEXT="Sometimes correctly documented"/>
+<node CREATED="1631967872154" ID="ID_1869081784" MODIFIED="1631967881973" TEXT="If not, need reverse-engineering boundaries"/>
+<node CREATED="1631967885178" ID="ID_1967776755" MODIFIED="1631967895437" TEXT="Starting point: folder structure"/>
+</node>
+<node CREATED="1631967897618" ID="ID_540819704" MODIFIED="1631967907351" TEXT="Run a hotspot analysis on an architectural level">
+<icon BUILTIN="full-2"/>
+<node CREATED="1631967916290" ID="ID_521629686" MODIFIED="1631967923981" TEXT="Identify subsystem with most dev effort"/>
+<node CREATED="1631967924665" ID="ID_1447261736" MODIFIED="1631967935309" TEXT="Visualize complexity trend of whole architectural component"/>
+</node>
+<node CREATED="1631967936337" ID="ID_356855969" MODIFIED="1631967943639" TEXT="Analyse the files in each architectural hotpost">
+<icon BUILTIN="full-3"/>
+<node CREATED="1631967946266" ID="ID_230189744" MODIFIED="1631967950206" TEXT="Back to individual files"/>
+<node CREATED="1631967952506" ID="ID_1698944504" MODIFIED="1631967959134" TEXT="Analysis scope is smaller"/>
+<node CREATED="1631967960107" ID="ID_1437229616" MODIFIED="1631967965030" TEXT="Focus on one subsystem at a time"/>
+</node>
+</node>
+<node CREATED="1631967975193" ID="ID_1778371379" MODIFIED="1631967976389" TEXT="Why?">
+<node CREATED="1631967983561" ID="ID_1996911679" MODIFIED="1631967989702" TEXT="Each subsystem has different audience">
+<node CREATED="1631968075962" ID="ID_273330738" MODIFIED="1631968079381" TEXT="Each analysis result"/>
+<node CREATED="1631968079753" ID="ID_922279114" MODIFIED="1631968086421" TEXT="... taylored to people working on part"/>
+<node CREATED="1631968097850" ID="ID_1906520401" MODIFIED="1631968104294" TEXT="Aggregate stats of individual files"/>
+<node CREATED="1631968104690" ID="ID_1249144912" MODIFIED="1631968109509" TEXT="... into logical components"/>
+</node>
+<node CREATED="1631968117242" ID="ID_868468559" MODIFIED="1631968120638" TEXT="Main driver of complexity">
+<node CREATED="1631968120794" ID="ID_48549108" MODIFIED="1631968127765" TEXT="Organizational size instead of line of code"/>
+</node>
+</node>
+</node>
+<node CREATED="1631968182642" ID="ID_918848017" MODIFIED="1631968191309" TEXT="A Language of Specifying Architectural Boundaries">
+<icon BUILTIN="full-1"/>
+<node CREATED="1631968269193" ID="ID_1532429464" MODIFIED="1631968272254" TEXT="Need hotspots"/>
+<node CREATED="1631968272561" ID="ID_245005457" MODIFIED="1631968275822" TEXT="Need logical component">
+<node CREATED="1631968276618" ID="ID_859799918" MODIFIED="1631968279846" TEXT="Aggregate multiple files"/>
+<node CREATED="1631968281106" ID="ID_1834998643" MODIFIED="1631968283990" TEXT="... into analysis unit"/>
+<node CREATED="1631968284729" ID="ID_13304193" MODIFIED="1631968291822" TEXT="... which carry meaning on architectural level"/>
+</node>
+</node>
+<node CREATED="1631968352810" ID="ID_909849799" MODIFIED="1631968480847" TEXT="Summarize Change Frequencies By Component">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1631968481937" ID="ID_1084072201" MODIFIED="1631968486583" TEXT="Analyze Subsystems">
+<icon BUILTIN="full-3"/>
+<node CREATED="1631968794186" ID="ID_713684931" MODIFIED="1631968803431" TEXT="Prioritize Function Hotspots and Code Clones">
+<icon BUILTIN="full-1"/>
+</node>
 </node>
 </node>
 </node>
