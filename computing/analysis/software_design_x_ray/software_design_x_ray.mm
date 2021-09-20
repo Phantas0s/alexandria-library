@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1628932401302" ID="ID_629816092" MODIFIED="1628932440743" TEXT="Software Design X Ray">
-<node CREATED="1628932445023" FOLDED="true" ID="ID_868848815" MODIFIED="1628933117643" POSITION="right" TEXT="The World of Behavioral Code Analysis">
+<node CREATED="1628932445023" ID="ID_868848815" MODIFIED="1628933117643" POSITION="right" TEXT="The World of Behavioral Code Analysis">
 <icon BUILTIN="full-0"/>
 <node CREATED="1628932517662" ID="ID_134337522" MODIFIED="1628933108380" TEXT="Why You Should Read This Book">
 <icon BUILTIN="full-1"/>
@@ -217,7 +217,7 @@
 <node CREATED="1630167011597" ID="ID_665806175" MODIFIED="1630167014104" TEXT="... won&apos;t bring us far"/>
 </node>
 </node>
-<node CREATED="1630167042077" FOLDED="true" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
+<node CREATED="1630167042077" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
 <icon BUILTIN="full-2"/>
 <node CREATED="1630167068701" FOLDED="true" ID="ID_1009041052" MODIFIED="1630167071944" TEXT="Measure Interest Rates">
 <icon BUILTIN="full-1"/>
@@ -279,12 +279,17 @@
 <node CREATED="1630335853756" ID="ID_674095890" MODIFIED="1630335861121" TEXT="Prioritize Technical Debt With Hotspots">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1630335945517" FOLDED="true" ID="ID_536430686" MODIFIED="1630335956993" TEXT="Evaluate HotSpots with Complexity Trend">
+<node CREATED="1630335945517" ID="ID_536430686" MODIFIED="1630335956993" TEXT="Evaluate HotSpots with Complexity Trend">
 <icon BUILTIN="full-3"/>
 <node CREATED="1630335961949" ID="ID_1072916152" MODIFIED="1630336023273" TEXT="What is complexity, Anyway?">
 <icon BUILTIN="full-1"/>
 <node CREATED="1631968711506" ID="ID_1965094097" MODIFIED="1631968723006" TEXT="Indentation-based complexity"/>
 <node CREATED="1631968723418" ID="ID_1571371831" MODIFIED="1631968733181" TEXT="... correlate well with traditional complexity metrics"/>
+<node CREATED="1632144768720" ID="ID_1665880387" MODIFIED="1632144770540" TEXT="Drawbacks">
+<node CREATED="1632144771624" ID="ID_322618034" MODIFIED="1632144786148" TEXT="Re-formating"/>
+<node CREATED="1632144787320" ID="ID_314235681" MODIFIED="1632144790996" TEXT="Changing spaces to tabs..."/>
+</node>
+<node CREATED="1632144793584" ID="ID_41338124" MODIFIED="1632144798059" TEXT="Not perfect, just heuristic"/>
 </node>
 <node CREATED="1630335999972" ID="ID_1718185289" MODIFIED="1630336024035" TEXT="Know the Biases in Complexity Trends">
 <icon BUILTIN="full-2"/>
@@ -890,8 +895,114 @@
 </node>
 <node CREATED="1631968481937" ID="ID_1084072201" MODIFIED="1631968486583" TEXT="Analyze Subsystems">
 <icon BUILTIN="full-3"/>
+<node CREATED="1632128371806" ID="ID_709138835" MODIFIED="1632128376518" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1632128478830" ID="ID_793878217" MODIFIED="1632128489690" TEXT="Large file can be problematic (too many responsibilities)"/>
+</node>
 <node CREATED="1631968794186" ID="ID_713684931" MODIFIED="1631968803431" TEXT="Prioritize Function Hotspots and Code Clones">
 <icon BUILTIN="full-1"/>
+<node CREATED="1632128536942" ID="ID_1685851995" MODIFIED="1632128545817" TEXT="Very high Cyclomatic Complexity can be an indicator"/>
+</node>
+<node CREATED="1632128834349" ID="ID_94500115" MODIFIED="1632128845425" TEXT="Look for Quick Wins">
+<icon BUILTIN="full-2"/>
+<node CREATED="1632128861805" ID="ID_166362487" MODIFIED="1632128864209" TEXT="Can boost morale"/>
+<node CREATED="1632128869142" ID="ID_1301977003" MODIFIED="1632128875473" TEXT="Code-clone is often quick win">
+<node CREATED="1632128901558" ID="ID_161466078" MODIFIED="1632128905897" TEXT="Temporal coupling"/>
+<node CREATED="1632128906294" ID="ID_160313873" MODIFIED="1632128910226" TEXT="... is good way to find them"/>
+</node>
+<node CREATED="1632128933614" ID="ID_913206285" MODIFIED="1632128937097" TEXT="Same code is not enough!">
+<node CREATED="1632128937397" ID="ID_1350428703" MODIFIED="1632128942281" TEXT="We need to know if it changes together"/>
+</node>
+</node>
+<node CREATED="1632128973517" ID="ID_1695111734" MODIFIED="1632128978875" TEXT="Ask the Right Questions">
+<icon BUILTIN="full-3"/>
+<node CREATED="1632129080246" ID="ID_1602605461" MODIFIED="1632129086409" TEXT="Sometimes code clone show worrisome picture"/>
+<node CREATED="1632129086749" ID="ID_1440903045" MODIFIED="1632129093418" TEXT="Almost same code but with conditional in one">
+<node CREATED="1632129093598" ID="ID_1032965501" MODIFIED="1632129098801" TEXT="Should the conditional be in both?"/>
+<node CREATED="1632129101918" ID="ID_1637365116" MODIFIED="1632129109554" TEXT="Somebody missed to change both?"/>
+</node>
+<node CREATED="1632129125021" ID="ID_1782652398" MODIFIED="1632129138289" TEXT="Run git blame and talk to devs">
+<node CREATED="1632129144749" ID="ID_1504158805" MODIFIED="1632129147113" TEXT="If code is correct"/>
+<node CREATED="1632129147437" ID="ID_1900601326" MODIFIED="1632129152561" TEXT="... encapsulate the behavior"/>
+<node CREATED="1632129155677" ID="ID_525666466" MODIFIED="1632129158353" TEXT="... in well named functions"/>
+<node CREATED="1632129158741" ID="ID_512494538" MODIFIED="1632129162161" TEXT="... or make a comment"/>
+</node>
+</node>
+<node CREATED="1632129163045" ID="ID_1354267236" MODIFIED="1632129167636" TEXT="Rinse and Repeat">
+<icon BUILTIN="full-4"/>
+<node CREATED="1632129205037" ID="ID_846008073" MODIFIED="1632129209713" TEXT="Make developers part of the refactoring"/>
+<node CREATED="1632129210005" ID="ID_1673497062" MODIFIED="1632129218769" TEXT="They&apos;ll be more aware of the shortcoming of existing code"/>
+<node CREATED="1632129220165" ID="ID_699363260" MODIFIED="1632129226801" TEXT="Let them see the effects of improvement"/>
+<node CREATED="1632129230334" ID="ID_336318682" MODIFIED="1632129233577" TEXT="We build expertise by doing"/>
+</node>
+</node>
+<node CREATED="1632129240310" ID="ID_557512853" MODIFIED="1632133013707" TEXT="Fight the Normalizeation of Deviance">
+<icon BUILTIN="full-4"/>
+<node CREATED="1632129674773" ID="ID_763416905" MODIFIED="1632129680468" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1632129286670" ID="ID_252017984" MODIFIED="1632129309140" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1632129289341" ID="ID_61314496" MODIFIED="1632129295513" TEXT="Challenger launch"/>
+<node CREATED="1632129295837" ID="ID_1932621788" MODIFIED="1632129298289" TEXT="Problem in one rocket"/>
+<node CREATED="1632129298630" ID="ID_762410024" MODIFIED="1632129305473" TEXT="Root cause was social"/>
+</node>
+<node CREATED="1632129634293" ID="ID_369459445" MODIFIED="1632129637825" TEXT="Each time you accept a risk"/>
+<node CREATED="1632129638157" ID="ID_414746475" MODIFIED="1632129642257" TEXT="... the deviation becomes the new normal"/>
+<node CREATED="1632129661901" ID="ID_976604274" MODIFIED="1632129668969" TEXT="If you long enough with massive files of code"/>
+<node CREATED="1632129669333" ID="ID_1184890464" MODIFIED="1632129672209" TEXT="... it becomes the new normal"/>
+</node>
+<node CREATED="1632129684253" ID="ID_663243443" MODIFIED="1632129689404" TEXT="Get a Whistleblower">
+<icon BUILTIN="full-1"/>
+<node CREATED="1632131475814" ID="ID_1701834890" MODIFIED="1632131486874" TEXT="Complexity trends are good whistleblowers"/>
+<node CREATED="1632131488358" ID="ID_253648317" MODIFIED="1632131494346" TEXT="Give us unbiased frame of reference"/>
+<node CREATED="1632131502998" ID="ID_10507601" MODIFIED="1632131512002" TEXT="Workflow for complexity trend">
+<node CREATED="1632131513590" ID="ID_1860305752" MODIFIED="1632131547252" TEXT="Decide upon a sample interval">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1632131519310" ID="ID_659833110" MODIFIED="1632131547891" TEXT="Calculate a complexity trend for each file">
+<icon BUILTIN="full-2"/>
+<node CREATED="1632131544717" ID="ID_1317233937" MODIFIED="1632131544717" TEXT="2"/>
+<node CREATED="1632131529750" ID="ID_1344502554" MODIFIED="1632131534681" TEXT="... in logical component with sample points"/>
+</node>
+<node CREATED="1632131535253" ID="ID_27551463" MODIFIED="1632131557201" TEXT="Aggregate the individual trends into a single one">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1632131987478" ID="ID_625574127" MODIFIED="1632131994850" TEXT="If complexity is linear, it&apos;s kind of OK"/>
+</node>
+<node CREATED="1632132743878" ID="ID_18664528" MODIFIED="1632132751196" TEXT="Communicate with Nontechnical Managers">
+<icon BUILTIN="full-2"/>
+<node CREATED="1632132774101" ID="ID_345442246" MODIFIED="1632132781450" TEXT="Might need some management decision for large redesigns"/>
+<node CREATED="1632132827286" ID="ID_971454607" MODIFIED="1632132828642" TEXT="Worfklow">
+<node CREATED="1632132785261" ID="ID_1549526966" MODIFIED="1632132935979" TEXT="Calculate percentage of commits involved in hotspots">
+<icon BUILTIN="full-1"/>
+<node CREATED="1632132798750" ID="ID_993354633" MODIFIED="1632132805161" TEXT="10 to 15% common"/>
+<node CREATED="1632132814469" ID="ID_1039553908" MODIFIED="1632132820970" TEXT="... to show why code is important"/>
+</node>
+<node CREATED="1632132831430" ID="ID_32838298" MODIFIED="1632132936740" TEXT="Show complexity trend">
+<icon BUILTIN="full-2"/>
+<node CREATED="1632132839006" ID="ID_1175301936" MODIFIED="1632132843482" TEXT="Explain that code get worse overtime"/>
+<node CREATED="1632132845472" ID="ID_1903613166" MODIFIED="1632132851961" TEXT="It will slow you down"/>
+</node>
+<node CREATED="1632132861038" ID="ID_70147717" MODIFIED="1632132937402" TEXT="Add people side to presentation">
+<icon BUILTIN="full-3"/>
+<node CREATED="1632132865678" ID="ID_333896537" MODIFIED="1632132878385" TEXT="... to highlight hotspots are coordination bottleneck too"/>
+</node>
+<node CREATED="1632132941710" ID="ID_1015029185" MODIFIED="1632132949115" TEXT="Later, visualize effect of refactoring">
+<icon BUILTIN="full-4"/>
+<node CREATED="1632132963806" ID="ID_222500461" MODIFIED="1632132968474" TEXT="Steep downward trend"/>
+<node CREATED="1632132970022" ID="ID_1886057515" MODIFIED="1632132977329" TEXT="Most effective when applied on level of logical components"/>
+<node CREATED="1632132978046" ID="ID_1543401822" MODIFIED="1632132985882" TEXT="... tend to carry meaning to non-technical people"/>
+</node>
+</node>
+<node CREATED="1632132993158" ID="ID_1186079903" MODIFIED="1632132995618" TEXT="Data buys trust"/>
+</node>
+</node>
+<node CREATED="1632133014566" ID="ID_861187346" MODIFIED="1632133021755" TEXT="Toward Team-Oriented Measures">
+<icon BUILTIN="full-5"/>
+<node CREATED="1632144611976" ID="ID_422815308" MODIFIED="1632144621836" TEXT="Use same concepts on levels of details">
+<node CREATED="1632144622032" ID="ID_815579131" MODIFIED="1632144623716" TEXT="hotspots"/>
+<node CREATED="1632144624104" ID="ID_1605300497" MODIFIED="1632144626228" TEXT="complexity trends"/>
 </node>
 </node>
 </node>
