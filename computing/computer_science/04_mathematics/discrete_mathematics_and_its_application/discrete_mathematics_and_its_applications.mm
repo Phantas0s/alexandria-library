@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1618034432047" TEXT="Discrete mathematics and its application">
+<node CREATED="1530447263141" ID="ID_1913987750" LINK="http://highered.mheducation.com/sites/0073383090/student_view0/self_assessments.html" MODIFIED="1632571020555" TEXT="Discrete mathematics and its application">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -524,7 +524,7 @@
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1530447285087" ID="ID_1982099078" MODIFIED="1587472961477" POSITION="right" TEXT="PLAN of the book">
+<node CREATED="1530447285087" FOLDED="true" ID="ID_1982099078" MODIFIED="1587472961477" POSITION="right" TEXT="PLAN of the book">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1587388729193" FOLDED="true" ID="ID_1384629814" MODIFIED="1587473041204" TEXT="Plan">
@@ -557,7 +557,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1530447452934" ID="ID_769479249" MODIFIED="1587200120125" POSITION="right" TEXT="The foundation: logic and proof">
+<node CREATED="1530447452934" FOLDED="true" ID="ID_769479249" MODIFIED="1587200120125" POSITION="right" TEXT="The foundation: logic and proof">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1530447523116" ID="ID_954479220" MODIFIED="1565526995995" TEXT="1.1 Propositional Logic">
@@ -2171,7 +2171,7 @@
 <node CREATED="1540654873977" ID="ID_725635487" MODIFIED="1618034439459" POSITION="right" TEXT="Basic structures: Sets, Functions, Sequences, Sums and Matrices">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1540654915290" FOLDED="true" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
+<node CREATED="1540654915290" ID="ID_1993730354" MODIFIED="1587392529874" TEXT="2.1 Sets">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1587200788075" FOLDED="true" ID="ID_1978714486" MODIFIED="1587200794703" TEXT="Symbol |">
 <node CREATED="1587200794903" ID="ID_1054493729" MODIFIED="1587200799025" TEXT="Alone: such as"/>
@@ -2264,7 +2264,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1540655648503" ID="ID_499915404" MODIFIED="1587391079955" TEXT="Basic sets">
+<node CREATED="1540655648503" FOLDED="true" ID="ID_499915404" MODIFIED="1587391079955" TEXT="Basic sets">
 <node CREATED="1540741024166" ID="ID_822716889" MODIFIED="1587390778770" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1540655673065" ID="ID_382595990" MODIFIED="1557066941018">
@@ -2424,7 +2424,7 @@
 <node CREATED="1540742391335" ID="ID_356398285" MODIFIED="1557066941018" TEXT="Elements of V represented with points"/>
 </node>
 </node>
-<node CREATED="1545143712276" ID="ID_541934488" MODIFIED="1599283334970" TEXT="Subset">
+<node CREATED="1545143712276" FOLDED="true" ID="ID_541934488" MODIFIED="1599283334970" TEXT="Subset">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2580,7 +2580,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1545145356296" ID="ID_1400445968" MODIFIED="1566041486997" TEXT="Cartesian Products">
+<node CREATED="1545145356296" FOLDED="true" ID="ID_1400445968" MODIFIED="1566041486997" TEXT="Cartesian Products">
 <node CREATED="1553351166154" ID="ID_176722714" MODIFIED="1557066941018" TEXT="Cartesian product of a set">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2999,7 +2999,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1559226217694" FOLDED="true" ID="ID_1832647831" MODIFIED="1586506986340" TEXT="2.3 Functions">
+<node CREATED="1559226217694" ID="ID_1832647831" MODIFIED="1586506986340" TEXT="2.3 Functions">
 <node CREATED="1562406780467" FOLDED="true" ID="ID_1713732385" MODIFIED="1585668917503" TEXT="Introduction">
 <node CREATED="1559226273678" ID="ID_453490020" MODIFIED="1559226275627" TEXT="Can be called">
 <node CREATED="1559226275823" ID="ID_377513065" MODIFIED="1559226280639" TEXT="transformation">
@@ -3200,8 +3200,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1562406845346" FOLDED="true" ID="ID_1708510164" MODIFIED="1574835042463" TEXT="One-to-One and Onto Functions">
-<node CREATED="1562406865450" FOLDED="true" ID="ID_1572085634" MODIFIED="1565518952071" TEXT="one-to-one (injective)">
+<node CREATED="1562406845346" ID="ID_1708510164" MODIFIED="1574835042463" TEXT="One-to-One and Onto Functions">
+<node CREATED="1562406865450" ID="ID_1572085634" MODIFIED="1565518952071" TEXT="one-to-one (injective)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3262,7 +3262,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1562407605084" FOLDED="true" ID="ID_1555109081" MODIFIED="1565518964599" TEXT="Onto function (surjective)">
+<node CREATED="1562407605084" ID="ID_1555109081" MODIFIED="1565518964599" TEXT="Onto function (surjective)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3299,7 +3299,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1562870060741" FOLDED="true" ID="ID_788284197" MODIFIED="1565519450949" TEXT="Bijection (bijective)">
+<node CREATED="1562870060741" ID="ID_788284197" MODIFIED="1565519450949" TEXT="Bijection (bijective)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3310,10 +3310,9 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1563113171535" ID="ID_256792983" MODIFIED="1563113178151" TEXT="Or one to one correspondence"/>
 <node CREATED="1565519452253" ID="ID_1943712046" MODIFIED="1565519455514" TEXT="cardinality     f(x) -&gt; y         |x| = |y| "/>
 </node>
-<node CREATED="1562870068826" FOLDED="true" ID="ID_1040610920" MODIFIED="1599284592922" TEXT="Examples">
+<node CREATED="1562870068826" ID="ID_1040610920" MODIFIED="1599284592922" TEXT="Examples">
 <icon BUILTIN="licq"/>
 <icon BUILTIN="wizard"/>
 <node CREATED="1562870101578" ID="ID_702059284" MODIFIED="1562870107132">
@@ -6178,7 +6177,7 @@
 <node CREATED="1588321600757" ID="ID_1426583357" MODIFIED="1588321605202" POSITION="left" TEXT="Relations">
 <icon BUILTIN="full-9"/>
 </node>
-<node CREATED="1587388646477" ID="ID_1922308220" MODIFIED="1587388688874" POSITION="left" TEXT="Graphs">
+<node CREATED="1587388646477" FOLDED="true" ID="ID_1922308220" MODIFIED="1587388688874" POSITION="left" TEXT="Graphs">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1588694296780" FOLDED="true" ID="ID_445152677" MODIFIED="1588694301627" TEXT="Introduction">
