@@ -651,7 +651,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1627321809442" FOLDED="true" ID="ID_1291476740" MODIFIED="1627321819495" TEXT="Calculate Complexity Trends from your Code&apos;s Shape">
+<node CREATED="1627321809442" ID="ID_1291476740" MODIFIED="1627321819495" TEXT="Calculate Complexity Trends from your Code&apos;s Shape">
 <icon BUILTIN="full-6"/>
 <node CREATED="1627321864569" ID="ID_217605091" MODIFIED="1627321875685" TEXT="Complexity by the Visual Shape of Programs">
 <icon BUILTIN="full-1"/>
@@ -748,15 +748,18 @@
 <node CREATED="1627664347632" ID="ID_714075674" MODIFIED="1627664355899" TEXT="Number is not interesting"/>
 <node CREATED="1627664356336" ID="ID_1401010146" MODIFIED="1627664483389" TEXT="Curve is better">
 <icon BUILTIN="licq"/>
-<node CREATED="1627664468143" ID="ID_1224527720" MODIFIED="1627664477140">
+<node CREATED="1627664468143" ID="ID_1224527720" MODIFIED="1632586539426">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <img src="your_code_as_a_crime_scene/shape_complexity_growth.png" />
+    <p>
+      <img src="./shape_complexity_growth.png" />
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1627664498384" ID="ID_392448258" MODIFIED="1627664502147" TEXT="To know how bad it is">
@@ -855,7 +858,7 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
-<node CREATED="1627732511546" FOLDED="true" ID="ID_562748697" MODIFIED="1627732518399" TEXT=" Detect Architectural Decay">
+<node CREATED="1627732511546" ID="ID_562748697" MODIFIED="1627732518399" TEXT=" Detect Architectural Decay">
 <icon BUILTIN="full-8"/>
 <node CREATED="1627732566416" FOLDED="true" ID="ID_975405313" MODIFIED="1627732576156" TEXT="Support Your Redesigns with Data">
 <icon BUILTIN="full-1"/>
