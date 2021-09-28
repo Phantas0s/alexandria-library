@@ -217,7 +217,7 @@
 <node CREATED="1630167011597" ID="ID_665806175" MODIFIED="1630167014104" TEXT="... won&apos;t bring us far"/>
 </node>
 </node>
-<node CREATED="1630167042077" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
+<node CREATED="1630167042077" FOLDED="true" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
 <icon BUILTIN="full-2"/>
 <node CREATED="1630167068701" FOLDED="true" ID="ID_1009041052" MODIFIED="1630167071944" TEXT="Measure Interest Rates">
 <icon BUILTIN="full-1"/>
@@ -784,7 +784,7 @@
 </node>
 <node CREATED="1631893083227" ID="ID_1769007685" MODIFIED="1631893093256" POSITION="right" TEXT=" Part II - Work with Large Codebases and Organizations">
 <icon BUILTIN="full-2"/>
-<node CREATED="1631967136028" ID="ID_736305035" MODIFIED="1631967145812" TEXT="Spot Your System&apos;s Tipping Point">
+<node CREATED="1631967136028" FOLDED="true" ID="ID_736305035" MODIFIED="1631967145812" TEXT="Spot Your System&apos;s Tipping Point">
 <icon BUILTIN="full-6"/>
 <node CREATED="1631967171914" FOLDED="true" ID="ID_127604674" MODIFIED="1631967192600" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1020,7 +1020,7 @@
 </node>
 <node CREATED="1632217388151" ID="ID_992321965" MODIFIED="1632217394932" TEXT="Beyong Conway&apos;s Law">
 <icon BUILTIN="full-7"/>
-<node CREATED="1632218027694" ID="ID_972643100" MODIFIED="1632218035710" TEXT="Introduction">
+<node CREATED="1632218027694" FOLDED="true" ID="ID_972643100" MODIFIED="1632218035710" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1632217527583" ID="ID_838584506" MODIFIED="1632217532562" TEXT="Software project often mistakes">
 <node CREATED="1632217532750" ID="ID_501371284" MODIFIED="1632217536858" TEXT="organizational problems"/>
@@ -1033,7 +1033,7 @@
 <node CREATED="1632217978462" ID="ID_869263847" MODIFIED="1632217985219" TEXT="... with excess coordination needs"/>
 </node>
 </node>
-<node CREATED="1632218036559" ID="ID_724332532" MODIFIED="1632218043219" TEXT="Software Architecture is About Making Choices">
+<node CREATED="1632218036559" FOLDED="true" ID="ID_724332532" MODIFIED="1632218043219" TEXT="Software Architecture is About Making Choices">
 <icon BUILTIN="full-1"/>
 <node CREATED="1632408854998" ID="ID_50886209" MODIFIED="1632408860505" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1076,7 +1076,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1632409674550" ID="ID_1357122198" MODIFIED="1632409680802" TEXT="Measure Corrdination Needs">
+<node CREATED="1632409674550" FOLDED="true" ID="ID_1357122198" MODIFIED="1632409680802" TEXT="Measure Corrdination Needs">
 <icon BUILTIN="full-2"/>
 <node CREATED="1632410307325" ID="ID_1178611603" MODIFIED="1632410314403" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1109,10 +1109,10 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node CREATED="1632412811513" ID="ID_1761884303" MODIFIED="1632412820044" TEXT="Code Ownership and Diffusion of Responsibility">
+<node CREATED="1632412811513" FOLDED="true" ID="ID_1761884303" MODIFIED="1632412820044" TEXT="Code Ownership and Diffusion of Responsibility">
 <icon BUILTIN="full-3"/>
 <node CREATED="1632413440783" ID="ID_1645033481" MODIFIED="1632413443859" TEXT="Immutable Design"/>
-<node CREATED="1632413447095" ID="ID_1862402977" MODIFIED="1632413458259" TEXT="Code Ownership Means Responsibility">
+<node CREATED="1632413447095" FOLDED="true" ID="ID_1862402977" MODIFIED="1632413458259" TEXT="Code Ownership Means Responsibility">
 <node CREATED="1632413461927" ID="ID_234031477" MODIFIED="1632413466179" TEXT="Code ownership doesn&apos;t mean"/>
 <node CREATED="1632413466471" ID="ID_1067128520" MODIFIED="1632413470651" TEXT="... &quot;don&apos;t touch my code&quot;"/>
 <node CREATED="1632413470998" ID="ID_243870854" MODIFIED="1632413478171" TEXT="More about someone responsible of the quality">
@@ -1121,7 +1121,7 @@
 </node>
 <node CREATED="1632413479576" ID="ID_473253961" MODIFIED="1632413533642" TEXT="Can go against diffusion of responsability"/>
 </node>
-<node CREATED="1632413555431" ID="ID_678822185" MODIFIED="1632413561595" TEXT="Provide Broad Knowledge Boundaries">
+<node CREATED="1632413555431" FOLDED="true" ID="ID_678822185" MODIFIED="1632413561595" TEXT="Provide Broad Knowledge Boundaries">
 <node CREATED="1632413713487" ID="ID_48489183" MODIFIED="1632413731963" TEXT="Developer fragmentation doesn&apos;t mean stop sharing knowledge"/>
 <node CREATED="1632413739647" ID="ID_1094360425" MODIFIED="1632413745659" TEXT="Need to distinguish between">
 <node CREATED="1632413745823" ID="ID_748110593" MODIFIED="1632413750131" TEXT="Operational boundaries">
@@ -1135,7 +1135,171 @@
 </node>
 <node CREATED="1632413806727" ID="ID_323330578" MODIFIED="1632413816875" TEXT="Broader knowledge boundaries">
 <node CREATED="1632413818007" ID="ID_959798043" MODIFIED="1632413842523" TEXT="make interteam communication easier"/>
-<node CREATED="1632413832775" ID="ID_906579764" MODIFIED="1632413840291" TEXT="gives competitive advantage"/>
+<node CREATED="1632413832775" ID="ID_906579764" MODIFIED="1632413840291" TEXT="gives competitive advantage">
+<node CREATED="1632762573517" ID="ID_1615829551" MODIFIED="1632762576242" TEXT="innovation"/>
+</node>
+</node>
+<node CREATED="1632819016305" ID="ID_1118154903" MODIFIED="1632819023828" TEXT="Broadening knowledge boundaries">
+<node CREATED="1632819024022" ID="ID_995551643" MODIFIED="1632819031603" TEXT="Invite people from other teams to code review"/>
+<node CREATED="1632819034347" ID="ID_1432573500" MODIFIED="1632819043043" TEXT="Schedule regular sessions to present">
+<node CREATED="1632819043255" ID="ID_1059788" MODIFIED="1632819047563" TEXT="walkthroughs"/>
+<node CREATED="1632819047959" ID="ID_1866754585" MODIFIED="1632819050611" TEXT="solution"/>
+<node CREATED="1632819051007" ID="ID_1374697716" MODIFIED="1632819052098" TEXT="design"/>
+</node>
+<node CREATED="1632819093351" ID="ID_1624229410" MODIFIED="1632819097113" TEXT="... great learning possibility"/>
+<node CREATED="1632819097423" ID="ID_406785353" MODIFIED="1632819104058" TEXT="... for both parties"/>
+<node CREATED="1632819056015" ID="ID_1926163496" MODIFIED="1632819112984" TEXT="Encourage people to rotate team"/>
+</node>
+</node>
+<node CREATED="1632819132134" FOLDED="true" ID="ID_568990790" MODIFIED="1632819140466" TEXT="Specify a Start Date with Organizational Significance">
+<node CREATED="1632819144431" ID="ID_394585322" MODIFIED="1632819149050" TEXT="Development org are not static">
+<node CREATED="1632819149230" ID="ID_1637625916" MODIFIED="1632819154002" TEXT="People move between teams"/>
+<node CREATED="1632819154278" ID="ID_1817707490" MODIFIED="1632819156995" TEXT="New teams formed"/>
+<node CREATED="1632819157311" ID="ID_1406901109" MODIFIED="1632819159762" TEXT="Old teams abandonned"/>
+</node>
+<node CREATED="1632819164726" ID="ID_1866232261" MODIFIED="1632819173290" TEXT="Each organization change can introduce bias in team-level metrics"/>
+<node CREATED="1632819177766" ID="ID_537534057" MODIFIED="1632819192147" TEXT="... can avoid them by making an analysis on period when things didn&apos;t change much"/>
+<node CREATED="1632819205982" ID="ID_270731080" MODIFIED="1632819208658" TEXT="Social analysis">
+<node CREATED="1632819208822" ID="ID_1230915188" MODIFIED="1632819214937" TEXT="Want to detect long term trends"/>
+<node CREATED="1632819223062" ID="ID_918090460" MODIFIED="1632819224546" TEXT="Start date">
+<node CREATED="1632819224694" ID="ID_421612015" MODIFIED="1632819232138" TEXT="Significant event in product life cycle">
+<node CREATED="1632819233046" ID="ID_1184208156" MODIFIED="1632819244470" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1632819235702" ID="ID_144936633" MODIFIED="1632819238922" TEXT="Major release"/>
+<node CREATED="1632819239206" ID="ID_626876178" MODIFIED="1632819242874" TEXT="Fairly large redesign"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1632819302781" ID="ID_1292715698" MODIFIED="1632819308284" TEXT="Analyze Operational Team Boundaries">
+<icon BUILTIN="full-4"/>
+<node CREATED="1632819460150" ID="ID_67700152" MODIFIED="1632819462828" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1632819466310" ID="ID_1991956906" MODIFIED="1632819474266" TEXT="Often coordination unit of interest is team"/>
+<node CREATED="1632819480710" ID="ID_1392536121" MODIFIED="1632819484266" TEXT="Case in larger organizations"/>
+<node CREATED="1632819490406" ID="ID_1258168930" MODIFIED="1632819495490" TEXT="VCS doesn&apos;t know anything about team"/>
+<node CREATED="1632819530102" ID="ID_1757000054" MODIFIED="1632819703796" TEXT="Need to map individuals with team">
+<icon BUILTIN="licq"/>
+<node CREATED="1632819704581" ID="ID_1925892702" MODIFIED="1632819715950">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="mapping_people_team.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1632819770462" ID="ID_1299738187" MODIFIED="1632819788169" TEXT="Can use mailmap git option"/>
+<node CREATED="1632819741342" ID="ID_1541747814" MODIFIED="1632819748778" TEXT="Then can try to detect excess parallel work">
+<node CREATED="1632819893998" ID="ID_771520275" MODIFIED="1632819908657" TEXT="More difficult to have a consistent mental model"/>
+<node CREATED="1632819909142" ID="ID_381133848" MODIFIED="1632819914290" TEXT="... with a lot of parallel work in one place"/>
+</node>
+</node>
+<node CREATED="1632819943534" ID="ID_592671817" MODIFIED="1632819954306" TEXT="Introduce New Teams to Take on Shared Responsibilities">
+<icon BUILTIN="full-1"/>
+<node CREATED="1632820070486" ID="ID_1300534951" MODIFIED="1632820089393" TEXT="Steps">
+<node CREATED="1632820089597" ID="ID_1616280826" MODIFIED="1632820096322" TEXT="Grant someone ownership for legacy code"/>
+<node CREATED="1632820111470" ID="ID_519507860" MODIFIED="1632820125066" TEXT="Ensure the person gets necessary time to addresss most critical parts"/>
+</node>
+<node CREATED="1632820129342" ID="ID_1421981237" MODIFIED="1632820133618" TEXT="Social analysis can help with that">
+<node CREATED="1632820166742" ID="ID_783828962" MODIFIED="1632820170859" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1632820145957" ID="ID_1351469869" MODIFIED="1632820157746" TEXT="If three team had major contribution on one legacy part"/>
+<node CREATED="1632820158046" ID="ID_697990936" MODIFIED="1632820166409" TEXT="... create a new team with one member of each team"/>
+</node>
+</node>
+<node CREATED="1632820212925" ID="ID_1947130626" MODIFIED="1632820223801" TEXT="Architectural building blocks often defined early in product&apos;s life cycle">
+<node CREATED="1632820225230" ID="ID_112177850" MODIFIED="1632820228345" TEXT="As code evolve"/>
+<node CREATED="1632820228678" ID="ID_722604450" MODIFIED="1632820234281" TEXT="... new boundaries are needed"/>
+<node CREATED="1632820234574" ID="ID_1258151753" MODIFIED="1632820239786" TEXT="... but org fail to see that most of the time"/>
+<node CREATED="1632820323845" ID="ID_319802706" MODIFIED="1632820325242" TEXT="Lead to">
+<node CREATED="1632820326118" ID="ID_1451961706" MODIFIED="1632820329737" TEXT="developer congestion"/>
+<node CREATED="1632820331309" ID="ID_1714937000" MODIFIED="1632820335513" TEXT="coordination bottleneck"/>
+</node>
+</node>
+<node CREATED="1632820376149" ID="ID_985506919" MODIFIED="1632820386417" TEXT="Team-level analysis can be on">
+<node CREATED="1632820386589" ID="ID_21832585" MODIFIED="1632820387785" TEXT="component"/>
+<node CREATED="1632820388109" ID="ID_151683543" MODIFIED="1632820388641" TEXT="files">
+<node CREATED="1632820398485" ID="ID_1571038999" MODIFIED="1632820404929" TEXT="Show you how diffuse"/>
+<node CREATED="1632820405261" ID="ID_280804809" MODIFIED="1632820408201" TEXT="... parallel work is"/>
+</node>
+<node CREATED="1632820446197" ID="ID_734614565" MODIFIED="1632820471419" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1632820447477" ID="ID_1023627431" MODIFIED="1632820455425" TEXT="Lot of change with integration tests">
+<node CREATED="1632820455893" ID="ID_1172093340" MODIFIED="1632820457001" TEXT="Normal"/>
+</node>
+<node CREATED="1632820457541" ID="ID_1435815543" MODIFIED="1632820461081" TEXT="... but tests are very large">
+<node CREATED="1632820461333" ID="ID_1401070377" MODIFIED="1632820463233" TEXT="abnormal"/>
+</node>
+<node CREATED="1632820464085" ID="ID_401301221" MODIFIED="1632820469929" TEXT="... quality was less good that normal code"/>
+<node CREATED="1632826881335" ID="ID_60665013" MODIFIED="1632826888994" TEXT="No holistic view of the tests"/>
+<node CREATED="1632826890566" ID="ID_115074509" MODIFIED="1632826897049" TEXT="No sense of personal responsibility for it"/>
+</node>
+<node CREATED="1632826947599" ID="ID_1898528555" MODIFIED="1632826950523" TEXT="... solution proposed">
+<node CREATED="1632826950735" ID="ID_838961593" MODIFIED="1632826958339" TEXT="Took a technical view on integration-test design">
+<node CREATED="1632826967382" ID="ID_1500307271" MODIFIED="1632826973947" TEXT="Code attract many contributors"/>
+<node CREATED="1632826974238" ID="ID_1578472087" MODIFIED="1632826978091" TEXT="... when it&apos;s low cohesion"/>
+<node CREATED="1632826997207" ID="ID_111186769" MODIFIED="1632827010618" TEXT="Extracting plumbing into separate library">
+<node CREATED="1632827012783" ID="ID_1460047522" MODIFIED="1632827016971" TEXT="Initialization code"/>
+<node CREATED="1632827017782" ID="ID_137514630" MODIFIED="1632827019666" TEXT="Result reporting"/>
+<node CREATED="1632827020222" ID="ID_707634982" MODIFIED="1632827022874" TEXT="Infrastructure"/>
+</node>
+<node CREATED="1632827024735" ID="ID_602205505" MODIFIED="1632827030490" TEXT="... test suite can be splitted more easily"/>
+</node>
+<node CREATED="1632827041487" ID="ID_667751285" MODIFIED="1632827049466" TEXT="Introduction of new team to take resonsibility">
+<node CREATED="1632827057518" ID="ID_1535961455" MODIFIED="1632827063338" TEXT="Final say on code accepted"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1632827129446" ID="ID_1838532540" MODIFIED="1632827140259" TEXT="Social Groups: The Flip Side to Conway&apos;s Law">
+<icon BUILTIN="full-5"/>
+<node CREATED="1632827854958" ID="ID_282044845" MODIFIED="1632827859003" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1632827153038" ID="ID_1612753639" MODIFIED="1632827719786" TEXT="Coway&apos;s law">
+<node CREATED="1632827728558" ID="ID_203407861" MODIFIED="1632827736578" TEXT="Simplification - team work is multifaceted"/>
+<node CREATED="1632827739045" ID="ID_285361385" MODIFIED="1632827744138" TEXT="Imly a trade-off">
+<node CREATED="1632827745118" ID="ID_1789701946" MODIFIED="1632827752250" TEXT="Minimize communication between teams"/>
+<node CREATED="1632827755278" ID="ID_1663728291" MODIFIED="1632827773234" TEXT="Wins comes with">
+<node CREATED="1632827773654" ID="ID_757578586" MODIFIED="1632827774650" TEXT="costs"/>
+<node CREATED="1632827774958" ID="ID_1437844886" MODIFIED="1632827775857" TEXT="risks"/>
+</node>
+<node CREATED="1632827777038" ID="ID_174869941" MODIFIED="1632827784194" TEXT="... rarely mentioned in software settings"/>
+</node>
+</node>
+<node CREATED="1632827831581" ID="ID_215221219" MODIFIED="1632827844210" TEXT="Social costs are teams with perfect boundaries">
+<node CREATED="1632827844533" ID="ID_991621449" MODIFIED="1632827849410" TEXT="Motivaltion losses"/>
+<node CREATED="1632827849749" ID="ID_1370167631" MODIFIED="1632827853801" TEXT="Group conflicts"/>
+</node>
+</node>
+<node CREATED="1632827861374" ID="ID_50222323" MODIFIED="1632827865698" TEXT="Motivation Losses in Teams">
+<icon BUILTIN="full-1"/>
+<node CREATED="1632828185549" ID="ID_880977683" MODIFIED="1632828187618" TEXT="Social loafing">
+<node CREATED="1632828187813" ID="ID_22815670" MODIFIED="1632828426169" TEXT="People feel like their contributions are dispensable"/>
+<node CREATED="1632828205942" ID="ID_1068952667" MODIFIED="1632828435977" TEXT="Feeling of success of team doesn&apos;t depend on personal effort"/>
+<node CREATED="1632828214533" ID="ID_1840406956" MODIFIED="1632828445041" TEXT="Feel anonymous"/>
+<node CREATED="1632828367965" ID="ID_1135603744" MODIFIED="1632828371024" TEXT="Can happen if">
+<node CREATED="1632828371350" ID="ID_1408337398" MODIFIED="1632828383721" TEXT="Goal of particular project not clearly communicated"/>
+<node CREATED="1632828385990" ID="ID_416044923" MODIFIED="1632828394681" TEXT="Arbitrary deadlines are enforced"/>
+</node>
+<node CREATED="1632828401469" ID="ID_222661746" MODIFIED="1632828408513" TEXT="As leader, need to communicate WHY"/>
+<node CREATED="1632828458206" ID="ID_272683713" MODIFIED="1632828467177" TEXT="Problem increases with group size">
+<node CREATED="1632828473549" ID="ID_1531268859" MODIFIED="1632828477425" TEXT="Ringelmann effect"/>
+</node>
+</node>
+<node CREATED="1632828517165" ID="ID_953886024" MODIFIED="1632828521552" TEXT="Reducing social loafing">
+<node CREATED="1632828522085" ID="ID_1507661759" MODIFIED="1632828531131" TEXT="Small groups">
+<node CREATED="1632828534237" ID="ID_1237222467" MODIFIED="1632828541249" TEXT="Small teams of three or four people"/>
+<node CREATED="1632828546853" ID="ID_1553655607" MODIFIED="1632828551953" TEXT="Each contribution more recognized"/>
+<node CREATED="1632828552629" ID="ID_1389478957" MODIFIED="1632828557665" TEXT="Less coordination losses"/>
+</node>
+<node CREATED="1632828527421" ID="ID_1057034403" MODIFIED="1632828529785" TEXT="Evaluation"/>
 </node>
 </node>
 </node>
