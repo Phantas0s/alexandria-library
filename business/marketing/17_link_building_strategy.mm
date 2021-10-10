@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1596724407901" ID="ID_752734979" LINK="https://bloggingfordevs.com/link-building-strategies/" MODIFIED="1596815929115" TEXT="17 Link Building Strategies for Developers and Technical Founders">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1596724407901" ID="ID_752734979" LINK="https://bloggingfordevs.com/link-building-strategies/" MODIFIED="1633182433990" TEXT="17 Link Building Strategies for Developers and Technical Founders">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1596724505007" FOLDED="true" ID="ID_853036181" MODIFIED="1596724577336" POSITION="right" TEXT="Why backlinks are so important for SEO">
 <icon BUILTIN="full-1"/>
 <node CREATED="1596724514478" ID="ID_282428554" MODIFIED="1596724524434" TEXT="Links from external websites like upvote for Google"/>
@@ -199,7 +199,7 @@
 <node CREATED="1596726824788" ID="ID_1892989920" MODIFIED="1596726829312" TEXT="Get the word of your stuff out"/>
 </node>
 </node>
-<node CREATED="1596726833444" ID="ID_1093406408" MODIFIED="1596726835072" TEXT="Speak at a conference">
+<node CREATED="1596726833444" FOLDED="true" ID="ID_1093406408" MODIFIED="1596726835072" TEXT="Speak at a conference">
 <icon BUILTIN="full-5"/>
 <node CREATED="1596726846746" ID="ID_988820470" LINK="https://confs.tech/" MODIFIED="1596726853562" TEXT="Virtual conference"/>
 <node CREATED="1596726902283" ID="ID_1881099998" MODIFIED="1596726913240" TEXT="Just to backlink is much effort"/>
@@ -325,7 +325,7 @@
 </node>
 <node CREATED="1596813969406" ID="ID_367879124" MODIFIED="1596813973442" TEXT="Pretty time consuming"/>
 </node>
-<node CREATED="1596814030958" FOLDED="true" ID="ID_947527407" MODIFIED="1596814033286" TEXT="Write a guest post for a quality online publication">
+<node CREATED="1596814030958" ID="ID_947527407" MODIFIED="1596814033286" TEXT="Write a guest post for a quality online publication">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1596814106545" ID="ID_1211223809" MODIFIED="1596814168664" TEXT="Examples">
@@ -334,18 +334,7 @@
 <node CREATED="1596814111773" ID="ID_924902615" LINK="https://smashingmagazine.com/write-for-us/" MODIFIED="1596814178377" TEXT="Smashing Magazine"/>
 <node CREATED="1596814116653" ID="ID_344231090" LINK="https://alistapart.com/about/contribute/" MODIFIED="1596814183160" TEXT="A List Apart"/>
 <node CREATED="1596814120437" ID="ID_1904515831" LINK="https://cloudways.com/en/write-for-us.php" MODIFIED="1596814188484" TEXT="Cloudways"/>
-<node CREATED="1596814122797" ID="ID_1211647815" LINK="https://thenextweb.com/podium/about/" MODIFIED="1596814194103" TEXT="The Next Web">
-<node COLOR="#338800" CREATED="1596814125173" ID="ID_1213525808" MODIFIED="1596814139777" TEXT="They contacted me once for cross posting">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="password"/>
-<node COLOR="#338800" CREATED="1596814141004" ID="ID_1313133953" MODIFIED="1596814156581" TEXT="I replied">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#338800" CREATED="1596814143278" ID="ID_1308646009" MODIFIED="1596814156939" TEXT="...  never had an answer back :D">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
+<node CREATED="1596814122797" ID="ID_1211647815" LINK="https://thenextweb.com/podium/about/" MODIFIED="1596814194103" TEXT="The Next Web"/>
 <node CREATED="1596814163757" ID="ID_1393734133" LINK="https://webflow.com/blog-pages/write-for-us" MODIFIED="1596814201398" TEXT="Webflow"/>
 </node>
 <node CREATED="1596814224964" ID="ID_1822671231" MODIFIED="1596814231888" TEXT="Lot of debate how efficient it is..."/>
