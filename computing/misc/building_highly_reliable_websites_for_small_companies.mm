@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1535905011956" ID="ID_1660559778" LINK="https://www.kalzumeus.com/2010/04/20/building-highly-reliable-websites-for-small-companies/" MODIFIED="1587137200369" TEXT="Building Highly Reliable Websites For Small Companies">
+<node CREATED="1535905011956" ID="ID_1660559778" LINK="https://www.kalzumeus.com/2010/04/20/building-highly-reliable-websites-for-small-companies/" MODIFIED="1633775925278" TEXT="Building Highly Reliable Websites For Small Companies">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -29,19 +29,19 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1535905040808" FOLDED="true" ID="ID_1539850130" MODIFIED="1587137216220" POSITION="right" TEXT="Downtime">
+<node CREATED="1535905040808" ID="ID_1539850130" MODIFIED="1587137216220" POSITION="right" TEXT="Downtime">
 <icon BUILTIN="full-1"/>
 <node CREATED="1535905044927" ID="ID_348040326" MODIFIED="1535905048395" TEXT="Annoys customer"/>
 <node CREATED="1535905049376" ID="ID_1447130109" MODIFIED="1535905057188" TEXT="Annoys proprietors"/>
 <node CREATED="1535905134805" ID="ID_376309947" MODIFIED="1536168632261" TEXT="... but you will have some"/>
 </node>
-<node CREATED="1535907767605" FOLDED="true" ID="ID_1647728048" MODIFIED="1587137227893" POSITION="right" TEXT="Identify the risk">
+<node CREATED="1535907767605" ID="ID_1647728048" MODIFIED="1587137227893" POSITION="right" TEXT="Identify the risk">
 <icon BUILTIN="full-2"/>
 <node CREATED="1535907771635" ID="ID_390441450" MODIFIED="1535907775516" TEXT="Where are they?"/>
 <node CREATED="1535907808956" ID="ID_1803861333" MODIFIED="1536168640295" TEXT="Think about what can break">
 <node CREATED="1535907817150" ID="ID_590166947" MODIFIED="1535907822365" TEXT="Write it!"/>
 </node>
-<node CREATED="1535907847416" ID="ID_1901403400" MODIFIED="1569953290224" TEXT="What are the risks?">
+<node CREATED="1535907847416" FOLDED="true" ID="ID_1901403400" MODIFIED="1569953290224" TEXT="What are the risks?">
 <node CREATED="1535907852366" ID="ID_1078759147" MODIFIED="1535907854937" TEXT="Moving parts">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1535907920282" ID="ID_1209258407" MODIFIED="1535907923864" TEXT="Hard drives">
@@ -139,7 +139,7 @@
 <node CREATED="1535910353851" ID="ID_558369146" MODIFIED="1535910359494" TEXT="Eliminate the rotten root"/>
 </node>
 </node>
-<node CREATED="1535908381765" FOLDED="true" ID="ID_1598729037" MODIFIED="1587137248423" POSITION="right" TEXT="Prevent failures">
+<node CREATED="1535908381765" ID="ID_1598729037" MODIFIED="1587137248423" POSITION="right" TEXT="Prevent failures">
 <icon BUILTIN="full-4"/>
 <node CREATED="1535908397440" ID="ID_1753061943" MODIFIED="1535908400157" TEXT="Decouple">
 <node CREATED="1535908400448" ID="ID_667600016" MODIFIED="1535908405972" TEXT="Failure of specific component">
@@ -155,9 +155,8 @@
 </node>
 <node CREATED="1535908526189" ID="ID_905770254" MODIFIED="1535908529710" TEXT="Request API">
 <node CREATED="1535908529949" ID="ID_635980622" MODIFIED="1535908537640" TEXT="Asynchronously"/>
-<node CREATED="1535908538039" ID="ID_1161020036" MODIFIED="1535908542561" TEXT="Otherwise their downtimes">
-<node CREATED="1535908542760" ID="ID_1716756475" MODIFIED="1535908550951" TEXT="are yours as well...."/>
-</node>
+<node CREATED="1535908538039" ID="ID_1161020036" MODIFIED="1535908542561" TEXT="Otherwise their downtimes"/>
+<node CREATED="1535908542760" ID="ID_1716756475" MODIFIED="1633775975457" TEXT="... are yours as well"/>
 </node>
 <node CREATED="1535909030131" ID="ID_437888538" MODIFIED="1535909040352" TEXT="You&apos;re the least reliable component">
 <node CREATED="1535909125852" ID="ID_979229787" MODIFIED="1535909176875" TEXT="If it has to be done more than once">
