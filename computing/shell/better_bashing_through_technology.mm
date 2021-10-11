@@ -84,8 +84,7 @@
       h
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1616338988690" ID="ID_880081032" MODIFIED="1616338993247" TEXT="If add echo in config variable"/>
 <node CREATED="1616338993691" ID="ID_1784199021" MODIFIED="1616338999517" TEXT="... do_work function contain them to"/>
@@ -179,8 +178,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1616339425230" ID="ID_625779437" MODIFIED="1616339432152" TEXT="log &quot;INFO&quot; &quot;Some status&quot;">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -252,8 +250,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1616339723180" ID="ID_333232173" MODIFIED="1616339726867" TEXT="Argument parsing">
@@ -418,8 +415,7 @@
       run &quot;$@&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1616339765372" ID="ID_1354519432" MODIFIED="1616339773952" TEXT="print usage">
 <richcontent TYPE="NOTE"><html>
@@ -476,8 +472,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
