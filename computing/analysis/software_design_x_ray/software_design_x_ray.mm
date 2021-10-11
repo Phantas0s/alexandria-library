@@ -784,7 +784,7 @@
 </node>
 <node CREATED="1631893083227" ID="ID_1769007685" MODIFIED="1631893093256" POSITION="right" TEXT=" Part II - Work with Large Codebases and Organizations">
 <icon BUILTIN="full-2"/>
-<node CREATED="1631967136028" FOLDED="true" ID="ID_736305035" MODIFIED="1631967145812" TEXT="Spot Your System&apos;s Tipping Point">
+<node CREATED="1631967136028" ID="ID_736305035" MODIFIED="1631967145812" TEXT="Spot Your System&apos;s Tipping Point">
 <icon BUILTIN="full-6"/>
 <node CREATED="1631967171914" FOLDED="true" ID="ID_127604674" MODIFIED="1631967192600" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -845,7 +845,7 @@
 <node CREATED="1631967786089" ID="ID_1674379572" MODIFIED="1631967791357" TEXT="... can improve communication with stakeholders"/>
 </node>
 </node>
-<node CREATED="1631967826482" FOLDED="true" ID="ID_834532357" MODIFIED="1631967837623" TEXT="Divide and Conquer with Architectural Hotspots">
+<node CREATED="1631967826482" ID="ID_834532357" MODIFIED="1631967837623" TEXT="Divide and Conquer with Architectural Hotspots">
 <icon BUILTIN="full-2"/>
 <node CREATED="1631968148129" ID="ID_584940465" MODIFIED="1631968180367" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -880,7 +880,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1631968182642" ID="ID_918848017" MODIFIED="1631968191309" TEXT="A Language of Specifying Architectural Boundaries">
+<node CREATED="1631968182642" ID="ID_918848017" MODIFIED="1633367728965" TEXT="A Language of Specifying Architectural Boundaries">
 <icon BUILTIN="full-1"/>
 <node CREATED="1631968269193" ID="ID_1532429464" MODIFIED="1631968272254" TEXT="Need hotspots"/>
 <node CREATED="1631968272561" ID="ID_245005457" MODIFIED="1631968275822" TEXT="Need logical component">
@@ -1018,7 +1018,7 @@
 <node CREATED="1632217350615" ID="ID_1766541020" MODIFIED="1632217365074" TEXT="Components high level enough for stakeholders to understand"/>
 </node>
 </node>
-<node CREATED="1632217388151" FOLDED="true" ID="ID_992321965" MODIFIED="1632217394932" TEXT="Beyong Conway&apos;s Law">
+<node CREATED="1632217388151" ID="ID_992321965" MODIFIED="1632217394932" TEXT="Beyong Conway&apos;s Law">
 <icon BUILTIN="full-7"/>
 <node CREATED="1632218027694" FOLDED="true" ID="ID_972643100" MODIFIED="1632218035710" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1121,7 +1121,7 @@
 </node>
 <node CREATED="1632413479576" ID="ID_473253961" MODIFIED="1632413533642" TEXT="Can go against diffusion of responsability"/>
 </node>
-<node CREATED="1632413555431" FOLDED="true" ID="ID_678822185" MODIFIED="1632413561595" TEXT="Provide Broad Knowledge Boundaries">
+<node CREATED="1632413555431" ID="ID_678822185" MODIFIED="1632413561595" TEXT="Provide Broad Knowledge Boundaries">
 <node CREATED="1632413713487" ID="ID_48489183" MODIFIED="1632413731963" TEXT="Developer fragmentation doesn&apos;t mean stop sharing knowledge"/>
 <node CREATED="1632413739647" ID="ID_1094360425" MODIFIED="1632413745659" TEXT="Need to distinguish between">
 <node CREATED="1632413745823" ID="ID_748110593" MODIFIED="1632413750131" TEXT="Operational boundaries">
@@ -1257,7 +1257,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1632827129446" ID="ID_1838532540" MODIFIED="1632827140259" TEXT="Social Groups: The Flip Side to Conway&apos;s Law">
+<node CREATED="1632827129446" FOLDED="true" ID="ID_1838532540" MODIFIED="1632827140259" TEXT="Social Groups: The Flip Side to Conway&apos;s Law">
 <icon BUILTIN="full-5"/>
 <node CREATED="1632827854958" ID="ID_282044845" MODIFIED="1632827859003" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1359,13 +1359,13 @@
 <icon BUILTIN="full-8"/>
 <node CREATED="1633012810903" ID="ID_1235189395" MODIFIED="1633012862910" TEXT="Dodge the Silver Bullet">
 <icon BUILTIN="full-1"/>
-<node CREATED="1633012976006" ID="ID_1778814894" MODIFIED="1633012979709" TEXT="Introduction">
+<node CREATED="1633012976006" FOLDED="true" ID="ID_1778814894" MODIFIED="1633012979709" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1633012959039" ID="ID_110747627" MODIFIED="1633012965786" TEXT="Monolith"/>
 <node CREATED="1633012965991" ID="ID_1591439656" MODIFIED="1633012969851" TEXT="Good at the beginning"/>
 <node CREATED="1633012970169" ID="ID_1214635245" MODIFIED="1633012973555" TEXT="Bottleneck when more devs"/>
 </node>
-<node CREATED="1633012985223" ID="ID_496961852" MODIFIED="1633013001925" TEXT="The Trade-Off Between Architectural Refinements and Relacement Systems">
+<node CREATED="1633012985223" FOLDED="true" ID="ID_496961852" MODIFIED="1633013001925" TEXT="The Trade-Off Between Architectural Refinements and Relacement Systems">
 <icon BUILTIN="full-1"/>
 <node CREATED="1633013002623" ID="ID_1346100395" MODIFIED="1633013027282" TEXT="Potential problems to launch a new project">
 <node CREATED="1633013028543" ID="ID_1136134481" MODIFIED="1633013036093" TEXT="Immediate legacy code">
@@ -1411,7 +1411,8 @@
 <node CREATED="1633082219775" ID="ID_1228630992" MODIFIED="1633082226449" TEXT="From there you gather data to guide future change"/>
 </node>
 </node>
-<node CREATED="1633082232885" ID="ID_99708958" MODIFIED="1633082240959" TEXT="Layered Architecture and the Cost of Consistency">
+</node>
+<node CREATED="1633082232885" FOLDED="true" ID="ID_99708958" MODIFIED="1633082240959" TEXT="Layered Architecture and the Cost of Consistency">
 <icon BUILTIN="full-2"/>
 <node CREATED="1633082262829" ID="ID_1046788208" MODIFIED="1633082268891" TEXT="Change Patterns in Layered Architecture">
 <icon BUILTIN="full-1"/>
@@ -1435,9 +1436,353 @@
 <node CREATED="1633083596428" ID="ID_962625755" MODIFIED="1633083597368" TEXT="SQL"/>
 </node>
 <node CREATED="1633083623715" ID="ID_1856774598" MODIFIED="1633083628536" TEXT="... code divided in technical axis"/>
-<node CREATED="1633083630899" ID="ID_1034789184" MODIFIED="1633083635360" TEXT="... while our work is feature oriented"/>
+<node CREATED="1633083630899" ID="ID_1034789184" MODIFIED="1633083635360" TEXT="... while our work is feature oriented">
+<node CREATED="1633361045978" ID="ID_1237168332" MODIFIED="1633361051511" TEXT="Majority of commit cut through layers"/>
+<node CREATED="1633361051964" ID="ID_1618202401" MODIFIED="1633361056887" TEXT="Degree of coupline">
+<node CREATED="1633361057196" ID="ID_1740606757" MODIFIED="1633361066079" TEXT="30% in stable applications"/>
+<node CREATED="1633361066763" ID="ID_254850014" MODIFIED="1633361074526" TEXT="70% in codebase that grow new features"/>
 </node>
 </node>
+<node CREATED="1633361031773" ID="ID_1991212909" MODIFIED="1633361038697" TEXT="We have separation of concerns">
+<node CREATED="1633361038971" ID="ID_1268335429" MODIFIED="1633361042102" TEXT="But maybe it&apos;s the wrong one"/>
+<node CREATED="1633361088627" ID="ID_303776507" MODIFIED="1633361090135" TEXT="Risk of">
+<node CREATED="1633361090299" ID="ID_1586401595" MODIFIED="1633361095326" TEXT="unexpected feature interactions"/>
+<node CREATED="1633361096043" ID="ID_1875878610" MODIFIED="1633361099005" TEXT="conflicting changes"/>
+</node>
+<node CREATED="1633361102194" ID="ID_1569051294" MODIFIED="1633361109407" TEXT="... get worse with scale"/>
+</node>
+</node>
+</node>
+<node CREATED="1633361614387" FOLDED="true" ID="ID_588668878" MODIFIED="1633361626315" TEXT="Monolithic Alternatives: Use Case and Feature-Centric">
+<icon BUILTIN="full-3"/>
+<node CREATED="1633361653402" ID="ID_387841169" MODIFIED="1633361659086" TEXT="Package by Components and Features">
+<icon BUILTIN="full-1"/>
+<node CREATED="1633361848018" ID="ID_1127755654" MODIFIED="1633361850742" TEXT="Package by components">
+<node CREATED="1633361896370" ID="ID_40824438" LINK="http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html" MODIFIED="1633361951895" TEXT="Simon Brown"/>
+<node CREATED="1633361716457" ID="ID_799428689" MODIFIED="1633361726110" TEXT="Component should be an architectural building block"/>
+<node CREATED="1633361735874" ID="ID_537588657" MODIFIED="1633361738062" TEXT="Combine">
+<node CREATED="1633361738227" ID="ID_759001698" MODIFIED="1633361740710" TEXT="application logic"/>
+<node CREATED="1633361741066" ID="ID_369018249" MODIFIED="1633361743486" TEXT="data access logic"/>
+</node>
+<node CREATED="1633361774772" ID="ID_1274213616" MODIFIED="1633361781998" TEXT="Each component as a different design"/>
+<node CREATED="1633361782330" ID="ID_1021536321" MODIFIED="1633361790774" TEXT="... to adapt to them"/>
+<node CREATED="1633361818234" ID="ID_953794047" MODIFIED="1633361819846" TEXT="Components">
+<node CREATED="1633361821377" ID="ID_1576993828" MODIFIED="1633361830118" TEXT="Natural operational boundaries for dev teams"/>
+<node CREATED="1633361831426" ID="ID_1078542892" MODIFIED="1633361838054" TEXT="Sets the stage for alignment of">
+<node CREATED="1633361838210" ID="ID_1866347070" MODIFIED="1633361840286" TEXT="organization"/>
+<node CREATED="1633361840609" ID="ID_565003906" MODIFIED="1633361842262" TEXT="architecture"/>
+</node>
+</node>
+</node>
+<node CREATED="1633361853738" ID="ID_383957535" MODIFIED="1633361856718" TEXT="Package by feature">
+<node CREATED="1633361872938" ID="ID_937779487" MODIFIED="1633361876374" TEXT="High level consistency"/>
+<node CREATED="1633361876690" ID="ID_66263606" MODIFIED="1633361885084" TEXT="Doesn&apos;t enforce specific design"/>
+<node CREATED="1633361889314" ID="ID_1993609378" MODIFIED="1633361894382" TEXT="Domain oriented approach"/>
+<node CREATED="1633362152330" ID="ID_520266379" MODIFIED="1633362170623" TEXT="User facing feature becomes a high level building block"/>
+<node CREATED="1633362237065" ID="ID_1369229533" MODIFIED="1633362242564" TEXT="Difference with package by components">
+<node CREATED="1633362192161" ID="ID_1491892280" MODIFIED="1633362196933" TEXT="UI becomes part of each feature"/>
+<node CREATED="1633362227625" ID="ID_499524139" MODIFIED="1633362236669" TEXT="Harder to share code between different features"/>
+</node>
+<node CREATED="1633362276057" ID="ID_262386648" MODIFIED="1633362284141" TEXT="To be sure everything is decouple, delete one feature">
+<node CREATED="1633362284273" ID="ID_378647958" MODIFIED="1633362287181" TEXT="If you can build and run app"/>
+<node CREATED="1633362287481" ID="ID_631395481" MODIFIED="1633362299053" TEXT="... without too much tweaks"/>
+<node CREATED="1633362299408" ID="ID_380400322" MODIFIED="1633362301972" TEXT="... it&apos;s a very good sign"/>
+</node>
+</node>
+<node CREATED="1633362319737" ID="ID_1258772327" MODIFIED="1633362321717" TEXT="DCI">
+<node CREATED="1633362321896" ID="ID_1362174552" MODIFIED="1633362328237" TEXT="Means">
+<node CREATED="1633362328465" ID="ID_724320119" MODIFIED="1633362329837" TEXT="Data"/>
+<node CREATED="1633362330201" ID="ID_1130725702" MODIFIED="1633362332253" TEXT="Context"/>
+<node CREATED="1633362332640" ID="ID_1524035741" MODIFIED="1633362338229" TEXT="Interaction"/>
+</node>
+<node CREATED="1633362365593" ID="ID_133651116" MODIFIED="1633362368877" TEXT="Seperation between">
+<node CREATED="1633362369089" ID="ID_1830928573" MODIFIED="1633362372405" TEXT="data and domain model"/>
+<node CREATED="1633362372801" ID="ID_1777841191" MODIFIED="1633362378437" TEXT="the different features">
+<node CREATED="1633362420785" ID="ID_1956877146" MODIFIED="1633362422821" TEXT="Object role"/>
+</node>
+</node>
+<node CREATED="1633362423616" ID="ID_961433307" MODIFIED="1633362428637" TEXT="Can combine different object roles"/>
+<node CREATED="1633362451769" ID="ID_41798459" MODIFIED="1633362456773" TEXT="Can be good for refactoring monoliths"/>
+<node CREATED="1633362530025" ID="ID_1192111371" MODIFIED="1633362538781" TEXT="See the book Lean Architecture for Agile Software Development"/>
+</node>
+<node CREATED="1633362553873" ID="ID_1132042685" MODIFIED="1633362560716" TEXT="Need to study the different alternatives"/>
+<node CREATED="1633362566913" ID="ID_1577469434" MODIFIED="1633362576765" TEXT="... and prototype before making your choice">
+<node CREATED="1633362769552" ID="ID_1980408239" MODIFIED="1633362774452" TEXT="Prototype refactoring"/>
+<node CREATED="1633362774753" ID="ID_972713312" MODIFIED="1633362780764" TEXT="... can be a good idea for monoliths"/>
+</node>
+</node>
+</node>
+<node CREATED="1633362782223" FOLDED="true" ID="ID_866271694" MODIFIED="1633366534106" TEXT="Discover Bounded Contexts Through Change Patterns">
+<icon BUILTIN="full-4"/>
+<node CREATED="1633365487071" ID="ID_1581960156" MODIFIED="1633365490161" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1633362829920" ID="ID_347309758" MODIFIED="1633362843436" TEXT="Can use change coupling data for bounded contexts"/>
+</node>
+<node CREATED="1633365476903" ID="ID_530816036" MODIFIED="1633365483435" TEXT="Look for Clusters of Cochanging Files">
+<icon BUILTIN="full-1"/>
+<node CREATED="1633365711110" ID="ID_1386862006" MODIFIED="1633365714091" TEXT="Workflow">
+<node CREATED="1633365495638" ID="ID_25352481" MODIFIED="1633365609044" TEXT="File analysis">
+<icon BUILTIN="full-1"/>
+<node CREATED="1633365498663" ID="ID_627007134" MODIFIED="1633365510443" TEXT="Looking for clusters of cochanging  file"/>
+<node CREATED="1633365510911" ID="ID_953160621" MODIFIED="1633365515322" TEXT="... so logically related"/>
+</node>
+<node CREATED="1633365603326" ID="ID_421782771" MODIFIED="1633365620044" TEXT="Look for pattern on method level">
+<icon BUILTIN="full-2"/>
+<node CREATED="1633365628854" ID="ID_1176248732" MODIFIED="1633365631275" TEXT="Code similarities"/>
+<node CREATED="1633365661543" ID="ID_1569291304" MODIFIED="1633365665715" TEXT="Might be a concept that design"/>
+<node CREATED="1633365666038" ID="ID_463442200" MODIFIED="1633365669523" TEXT="... fails to capture"/>
+</node>
+</node>
+<node CREATED="1633365769134" ID="ID_772039327" MODIFIED="1633365772499" TEXT="Social view to consider">
+<node CREATED="1633365806790" ID="ID_976864551" MODIFIED="1633365817203" TEXT="Sharing code between features previously duplicated"/>
+<node CREATED="1633365817486" ID="ID_1828562444" MODIFIED="1633365820994" TEXT="... can look very attractice"/>
+<node CREATED="1633365821343" ID="ID_1351244462" MODIFIED="1633365829003" TEXT="But if two different teams are responsible for them"/>
+<node CREATED="1633365829310" ID="ID_1796138344" MODIFIED="1633365837730" TEXT="... can lead to conflicted changes in shared context"/>
+</node>
+</node>
+</node>
+<node CREATED="1633366022190" FOLDED="true" ID="ID_809824973" MODIFIED="1633366539603" TEXT="The Perils of Feature Teams">
+<icon BUILTIN="full-5"/>
+<node CREATED="1633366261406" ID="ID_900916824" MODIFIED="1633366267275" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1633366112310" ID="ID_300517227" MODIFIED="1633366120306" TEXT="Multiple teams changing the same codebase"/>
+<node CREATED="1633366120670" ID="ID_127409021" MODIFIED="1633366126634" TEXT="Excessive coordination needs"/>
+<node CREATED="1633366255789" ID="ID_694743799" MODIFIED="1633366260282" TEXT="Can see that with knowledge maps"/>
+</node>
+<node CREATED="1633366293870" ID="ID_405140886" MODIFIED="1633366301611" TEXT="Build Team Knowledge Maps">
+<icon BUILTIN="full-1"/>
+<node CREATED="1633366325358" ID="ID_1088265111" MODIFIED="1633366331049" TEXT="Amount of code contributed by each team"/>
+<node CREATED="1633366332102" ID="ID_1612900524" MODIFIED="1633366336009" TEXT="... in same analysis period"/>
+<node COLOR="#338800" CREATED="1633366383181" ID="ID_453030801" MODIFIED="1633366389127" TEXT="See code as a crime scene">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1633366390861" ID="ID_694664318" MODIFIED="1633366397163" TEXT="Not All Teams Are Equal">
+<icon BUILTIN="full-2"/>
+<node CREATED="1633366434517" ID="ID_1593212113" MODIFIED="1633366441177" TEXT="Separate maintenance team">
+<node CREATED="1633366441453" ID="ID_1469936631" MODIFIED="1633366443426" TEXT="Dangerous"/>
+<node CREATED="1633366443790" ID="ID_1748388565" MODIFIED="1633366446441" TEXT="Motivation loss"/>
+<node CREATED="1633366446741" ID="ID_664440370" MODIFIED="1633366449866" TEXT="Low in-group cohsion"/>
+<node CREATED="1633366453573" ID="ID_230173101" MODIFIED="1633366457369" TEXT="Broken feedback loop"/>
+<node CREATED="1633366462974" ID="ID_37035206" MODIFIED="1633366464585" TEXT="Blurred lines"/>
+</node>
+</node>
+</node>
+<node CREATED="1633366544166" FOLDED="true" ID="ID_1158375430" MODIFIED="1633366550835" TEXT="Clean and Dirty Architectures">
+<icon BUILTIN="full-6"/>
+<node CREATED="1633366576597" ID="ID_1856196899" MODIFIED="1633366595328" TEXT="Layered architecture is conflict between">
+<node CREATED="1633366596509" ID="ID_971455060" MODIFIED="1633366602169" TEXT="The technical way the code is structured"/>
+<node CREATED="1633366602517" ID="ID_1808129110" MODIFIED="1633366613377" TEXT="Feature oriented way system evolve"/>
+</node>
+<node CREATED="1633366617973" ID="ID_1218531177" MODIFIED="1633366625129" TEXT="... feature and component don&apos;t align well with layers"/>
+<node CREATED="1633366664389" ID="ID_685015846" MODIFIED="1633366672873" TEXT="Primary analysis for architecture is change coupling"/>
+</node>
+</node>
+<node CREATED="1633366758213" ID="ID_1545916557" MODIFIED="1633366775587" TEXT="Systems of Systems: Analyzing Multiple Repositories and Microservices">
+<icon BUILTIN="full-9"/>
+<node CREATED="1633366812181" FOLDED="true" ID="ID_1033783017" MODIFIED="1633366821121" TEXT="Analyze Code in Multiple Repositories">
+<icon BUILTIN="full-1"/>
+<node CREATED="1633366902501" ID="ID_398082104" MODIFIED="1633366907738" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1633366832501" ID="ID_1532537367" MODIFIED="1633366836625" TEXT="Loosely coupled service">
+<node CREATED="1633366836916" ID="ID_80758292" MODIFIED="1633366842992" TEXT="Independently deployable"/>
+<node CREATED="1633366843861" ID="ID_1894712308" MODIFIED="1633366850089" TEXT="Execute in their own environment"/>
+</node>
+<node CREATED="1633366867389" ID="ID_1885044669" MODIFIED="1633366874665" TEXT="Exchange information via set of protocols"/>
+<node CREATED="1633366876175" ID="ID_1386809157" MODIFIED="1633366879616" TEXT="Communication can be">
+<node CREATED="1633366879765" ID="ID_789789296" MODIFIED="1633366881593" TEXT="synchronous"/>
+<node CREATED="1633366881854" ID="ID_1715555560" MODIFIED="1633366888016" TEXT="asynchronous"/>
+</node>
+<node CREATED="1633366895685" ID="ID_236402863" MODIFIED="1633366901953" TEXT="Support normally autonomous team"/>
+</node>
+<node CREATED="1633367154045" ID="ID_126790872" MODIFIED="1633367160386" TEXT="Detect Services with Low Cohesion">
+<icon BUILTIN="full-1"/>
+<node CREATED="1633367170340" ID="ID_874924566" MODIFIED="1633367176912" TEXT="Microservice is a high-discipline architecture"/>
+<node CREATED="1633367179060" ID="ID_1730857467" MODIFIED="1633367186880" TEXT="Direct cost to introduce new design elements"/>
+<node CREATED="1633367188023" ID="ID_145088996" MODIFIED="1633367194656" TEXT="... cost grow as we climb abstraction ladder">
+<node CREATED="1633367218652" ID="ID_812389537" MODIFIED="1633367221624" TEXT="Easy to create a function"/>
+<node CREATED="1633367222284" ID="ID_1011663902" MODIFIED="1633367226496" TEXT="Hard to create a microservice">
+<node CREATED="1633367226684" ID="ID_1886869029" MODIFIED="1633367230240" TEXT="Deployment pipeline"/>
+<node CREATED="1633367230484" ID="ID_826990936" MODIFIED="1633367232744" TEXT="Test suite"/>
+<node CREATED="1633367233116" ID="ID_101805291" MODIFIED="1633367238960" TEXT="API documentation"/>
+</node>
+</node>
+<node CREATED="1633367297676" ID="ID_612531676" MODIFIED="1633367301937" TEXT="Detecting low cohesion service">
+<node CREATED="1633367302188" ID="ID_443754137" MODIFIED="1633367621048" TEXT="Hotspot analysis is good heuristic"/>
+<node CREATED="1633367624756" ID="ID_776701429" MODIFIED="1633367653007" TEXT="Service is a logical component"/>
+</node>
+<node CREATED="1633367671395" ID="ID_1071426051" MODIFIED="1633367677943" TEXT="Two strategies to determine logical components">
+<node CREATED="1633367683204" ID="ID_1278558302" LINK="#ID_918848017" MODIFIED="1633367744801" TEXT="Aggregation patterns if everything in a single repository">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1633367745772" ID="ID_1595495192" MODIFIED="1633367787769" TEXT="Separate Git repos">
+<icon BUILTIN="full-2"/>
+<node CREATED="1633367763131" ID="ID_1099705966" MODIFIED="1633367772216" TEXT="Aggregate contributions per repo"/>
+<node CREATED="1633367773035" ID="ID_1802630571" MODIFIED="1633367784904" TEXT="... without need to specify any aggregation patterns"/>
+<node CREATED="1633367855499" ID="ID_1905440502" MODIFIED="1633367860735" TEXT="Aggregate all contributions">
+<node CREATED="1633367848819" ID="ID_1918653904" MODIFIED="1633367863405" TEXT="git rev-list --count HEAD">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1633367870107" ID="ID_634191620" MODIFIED="1633367872511" TEXT="Count all commits"/>
+</node>
+</node>
+</node>
+<node CREATED="1633367984771" ID="ID_1809533943" MODIFIED="1633367992614" TEXT="When find architectural hotspot">
+<node CREATED="1633367999244" ID="ID_1246105346" MODIFIED="1633368003967" TEXT="Run hotspot analysis on file leve">
+<node CREATED="1633368004635" ID="ID_833944102" MODIFIED="1633368020712" TEXT="... service with low cohesion are complex"/>
+</node>
+<node CREATED="1633368027963" ID="ID_1406856664" MODIFIED="1633368031199" TEXT="... to find way to refactor them"/>
+</node>
+<node CREATED="1633368214907" ID="ID_154803793" MODIFIED="1633368220959" TEXT="Splitting microservices">
+<node CREATED="1633368221483" ID="ID_492663379" MODIFIED="1633368227247" TEXT="Usually easier than splitting monolith"/>
+<node CREATED="1633368231931" ID="ID_1746566229" MODIFIED="1633368236447" TEXT="Act on smaller part of codebase"/>
+</node>
+</node>
+</node>
+<node CREATED="1633368270579" FOLDED="true" ID="ID_607350736" MODIFIED="1633368277624" TEXT="Compare Hotspots Across Repositories">
+<icon BUILTIN="full-2"/>
+<node CREATED="1633368641698" ID="ID_396854571" MODIFIED="1633368647478" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1633368401307" ID="ID_42220031" MODIFIED="1633368407894" TEXT="Even if team autonomy is better"/>
+<node CREATED="1633368408250" ID="ID_323018368" MODIFIED="1633368415462" TEXT="... a microservice never exist in isolation"/>
+<node CREATED="1633368415867" ID="ID_136838091" MODIFIED="1633368423255" TEXT="... and needs to interact with other teams"/>
+<node CREATED="1633368456627" ID="ID_1992665953" MODIFIED="1633368461607" TEXT="Solutions">
+<node CREATED="1633368461770" ID="ID_1234061709" MODIFIED="1633368469287" TEXT="Reviewing code for other microservice">
+<node CREATED="1633368469499" ID="ID_1394324935" MODIFIED="1633368474430" TEXT="... but context switching"/>
+</node>
+<node CREATED="1633368476363" ID="ID_544829096" MODIFIED="1633368487679" TEXT="File level hotspot analysis"/>
+</node>
+<node CREATED="1633368499578" ID="ID_775499559" MODIFIED="1633368510814" TEXT="File level hotspot analysis on different services">
+<node CREATED="1633368517050" ID="ID_559052666" MODIFIED="1633368528230" TEXT="Prefix each file with virtual root for name collision"/>
+<node CREATED="1633368568226" ID="ID_996149559" MODIFIED="1633368574310" TEXT="Prefix each path iwth it"/>
+<node CREATED="1633368574730" ID="ID_1890266685" MODIFIED="1633368579406" TEXT="Generate a dataset for each reop"/>
+<node CREATED="1633368580522" ID="ID_366083730" MODIFIED="1633368593078" TEXT="... and concatenate the results"/>
+</node>
+<node CREATED="1633368635874" ID="ID_1915484731" MODIFIED="1633368639118" TEXT="Gives hotspot a context"/>
+</node>
+<node CREATED="1633368648354" ID="ID_106588866" MODIFIED="1633368656047" TEXT="Communicate Across the Organization">
+<icon BUILTIN="full-1"/>
+<node CREATED="1633368762618" ID="ID_885334574" MODIFIED="1633368773254" TEXT="Hotspot map can help to communicate with non technical"/>
+<node CREATED="1633368773546" ID="ID_277575912" MODIFIED="1633368780318" TEXT="A microservice ten time the size of everything else"/>
+<node CREATED="1633368780610" ID="ID_652282907" MODIFIED="1633368792102" TEXT="... is more obvious than vague technical code"/>
+</node>
+</node>
+<node CREATED="1633368800017" ID="ID_759877809" MODIFIED="1633368806943" TEXT="Track Change Patterns in Distributed Systems">
+<icon BUILTIN="full-3"/>
+<node CREATED="1633368934377" ID="ID_191801133" MODIFIED="1633368939502" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1633368816218" ID="ID_323901188" MODIFIED="1633368822110" TEXT="Strong coupling is cardinal sin"/>
+<node CREATED="1633368822473" ID="ID_916619954" MODIFIED="1633368830574" TEXT="Grinds microservice dev to a halt"/>
+<node CREATED="1633368871693" ID="ID_1128340004" MODIFIED="1633368882766" TEXT="Simple change code ripple accross organizational boundaries"/>
+</node>
+<node CREATED="1633368982738" ID="ID_662054604" MODIFIED="1633368988774" TEXT="Use Logical Change Sets to Group Commits">
+<icon BUILTIN="full-1"/>
+<node CREATED="1633369059425" ID="ID_794777894" MODIFIED="1633369068086" TEXT="So far change coupling to code referenced by same commits"/>
+<node CREATED="1633369068715" ID="ID_901458163" MODIFIED="1633369085294" TEXT="Won&apos;t work for different people with different commits"/>
+<node CREATED="1633369089962" ID="ID_507136340" MODIFIED="1633369094029" TEXT="Need higher concept"/>
+<node CREATED="1633369094274" ID="ID_1936705939" MODIFIED="1633369099509" TEXT="logical change sets">
+<node CREATED="1633369106089" ID="ID_1232367816" MODIFIED="1633535460893" TEXT="Way to group different commits together"/>
+</node>
+<node CREATED="1633535466794" ID="ID_1108065032" MODIFIED="1633535487181" TEXT="2 ways identifying logical change sets (depends of data)">
+<node CREATED="1633535488185" ID="ID_1994619219" MODIFIED="1633535533918" TEXT="Proximity in time and organization">
+<icon BUILTIN="full-1"/>
+<node CREATED="1633535542129" ID="ID_1135725578" MODIFIED="1633535554237" TEXT="Same modules changed over and over in short period of time"/>
+<node CREATED="1633535554529" ID="ID_1310772084" MODIFIED="1633535561661" TEXT="High chance of logical coupling"/>
+</node>
+<node CREATED="1633535497217" ID="ID_1985508678" MODIFIED="1633535502037" TEXT="Task or ticket identifiers">
+<icon BUILTIN="full-2"/>
+<node CREATED="1633535572905" ID="ID_230137303" MODIFIED="1633535583790" TEXT="Task or ticket reference to commit"/>
+<node CREATED="1633535585801" ID="ID_466472054" MODIFIED="1633535595412" TEXT="Can let us group multiple commits into logical change set"/>
+</node>
+</node>
+</node>
+<node CREATED="1633535632753" ID="ID_1333983931" MODIFIED="1633535643637" TEXT="Detect Implicit Dependencies Between Microservices">
+<icon BUILTIN="full-2"/>
+<node CREATED="1633535676881" ID="ID_777897161" MODIFIED="1633535678333" TEXT="Workflow">
+<node CREATED="1633535652713" ID="ID_606314634" MODIFIED="1633535681181" TEXT="Prefix each file in our CVS data with virtual root">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1633535668849" ID="ID_1517890817" MODIFIED="1633535681734" TEXT="Combine the raw data from all repo in one dataset">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+</node>
+<node CREATED="1633535827553" ID="ID_1340368372" MODIFIED="1633535832846" TEXT="Balance Monolithic UIs">
+<icon BUILTIN="full-3"/>
+<node CREATED="1633535853185" ID="ID_424072995" MODIFIED="1633535867765" TEXT="Implicit dependency FE / BE common in microservices">
+<node CREATED="1633535871273" ID="ID_62892222" MODIFIED="1633535875789" TEXT="Separate different services"/>
+<node CREATED="1633535877025" ID="ID_875072278" MODIFIED="1633535882141" TEXT="... but single UI to end user"/>
+<node CREATED="1633535891353" ID="ID_1984930988" MODIFIED="1633535895005" TEXT="... which needs to stay cohesive"/>
+<node CREATED="1633535895281" ID="ID_806756275" MODIFIED="1633535902724" TEXT="... even if everything else is distributed"/>
+</node>
+<node CREATED="1633535909873" ID="ID_1926738015" MODIFIED="1633535913549" TEXT="... UI becomes new monolith"/>
+<node CREATED="1633535916377" ID="ID_121834652" MODIFIED="1633535923949" TEXT="Two ways to reduce this conflict">
+<node CREATED="1633535924344" ID="ID_1828590983" MODIFIED="1633535926669" TEXT="Composite UI">
+<node CREATED="1633535931344" ID="ID_692464073" MODIFIED="1633535936524" TEXT="Microservices themselvres compose the UI"/>
+<node CREATED="1633535945625" ID="ID_328271524" MODIFIED="1633535952981" TEXT="Client code specify templates"/>
+<node CREATED="1633535953664" ID="ID_969731056" MODIFIED="1633535968364" TEXT="... populate by vierw model of services"/>
+</node>
+<node CREATED="1633535973601" ID="ID_1844907871" MODIFIED="1633535976741" TEXT="Back end for front end">
+<node CREATED="1633535977577" ID="ID_180967546" MODIFIED="1633535978388" TEXT="BFF"/>
+<node CREATED="1633535978769" ID="ID_585544531" MODIFIED="1633535985957" TEXT="Set of smaller monolithic UI"/>
+<node CREATED="1633536006928" ID="ID_1120955333" MODIFIED="1633536015044" TEXT="Backend service dedicated to each separate user experience">
+<node CREATED="1633536020897" ID="ID_529086011" MODIFIED="1633536028862" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1633536023224" ID="ID_20595665" MODIFIED="1633536024707" TEXT="One for mobile"/>
+<node CREATED="1633536024992" ID="ID_261741181" MODIFIED="1633536027092" TEXT="One for dev"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1633536131920" ID="ID_1994773363" MODIFIED="1633536151926" TEXT="Detect Microservices Shotgun Surgery">
+<icon BUILTIN="full-4"/>
+<node CREATED="1633536211800" ID="ID_1232100362" MODIFIED="1633536220540" TEXT="Logical coupling in microservices"/>
+<node CREATED="1633536220847" ID="ID_1462050199" MODIFIED="1633536233732" TEXT="... is shotgun surgery on an architectural scale"/>
+<node CREATED="1633536250320" ID="ID_390032856" MODIFIED="1633536255740" TEXT="Usual root causes">
+<node CREATED="1633536255960" ID="ID_1572061050" MODIFIED="1633536269725" TEXT="Service chare code isn&apos;t stable from evolutionary POV"/>
+<node CREATED="1633536270944" ID="ID_603932363" MODIFIED="1633536286116" TEXT="Protocal design is hard, service becomes leaky abstractions"/>
+<node CREATED="1633536294696" ID="ID_256298082" MODIFIED="1633536302468" TEXT="Same team responsible for multiple services"/>
+</node>
+<node CREATED="1633536318008" ID="ID_1424235983" MODIFIED="1633536333236" TEXT="Some services not independent form a natural hierarchy">
+<node CREATED="1633536362591" ID="ID_26205183" MODIFIED="1633536368492" TEXT="When detect these services"/>
+<node CREATED="1633536368792" ID="ID_612779008" MODIFIED="1633536374772" TEXT="... organize them in same Git repository"/>
+<node CREATED="1633536382408" ID="ID_1015796302" MODIFIED="1633536388748" TEXT="Experess relatedness"/>
+<node CREATED="1633536390032" ID="ID_1174436389" MODIFIED="1633536401932" TEXT="Benefit from easier code navigation"/>
+</node>
+</node>
+<node CREATED="1633536420552" ID="ID_1506650712" MODIFIED="1633536431749" TEXT="Optimize for Sociotechnical Congruence Across Boundaries">
+<icon BUILTIN="full-5"/>
+<node CREATED="1633536440248" ID="ID_115663999" MODIFIED="1633536446356" TEXT="In larger organization bring analysis a step further"/>
+<node CREATED="1633536455200" ID="ID_1168831234" MODIFIED="1633536460892" TEXT="Correlate technical change coupling results"/>
+<node CREATED="1633536494888" ID="ID_646879502" MODIFIED="1633536506076" TEXT="Dependencies between code shared by different teams"/>
+<node CREATED="1633536512623" ID="ID_279071567" MODIFIED="1633536516668" TEXT="What to do?">
+<node CREATED="1633536516816" ID="ID_737284830" MODIFIED="1633536518868" TEXT="Live with it">
+<icon BUILTIN="full-1"/>
+<node CREATED="1633536523024" ID="ID_1442563192" MODIFIED="1633536526667" TEXT="Team need to stay close"/>
+<node CREATED="1633536528112" ID="ID_1842312930" MODIFIED="1633536533764" TEXT="Coordination cost might increase"/>
+</node>
+<node CREATED="1633536534447" ID="ID_1606827295" MODIFIED="1633536539524" TEXT="Transfer ownership">
+<icon BUILTIN="full-2"/>
+<node CREATED="1633536548855" ID="ID_1610387107" MODIFIED="1633536552571" TEXT="Transfer the shared part"/>
+<node CREATED="1633536553200" ID="ID_1633017133" MODIFIED="1633536560748" TEXT="... for the team to have full control"/>
+</node>
+<node CREATED="1633536562576" ID="ID_1498175096" MODIFIED="1633536567526" TEXT="Redefine the protocols">
+<icon BUILTIN="full-3"/>
+<node CREATED="1633536576367" ID="ID_1711248705" MODIFIED="1633536580003" TEXT="Problem can be technical"/>
+<node CREATED="1633536580295" ID="ID_1708373906" MODIFIED="1633536586667" TEXT="Service exposing too much implementation details"/>
+<node CREATED="1633536586983" ID="ID_1653242443" MODIFIED="1633536589243" TEXT="Can be fixed"/>
+</node>
+<node CREATED="1633536592407" ID="ID_1733327101" MODIFIED="1633536596982" TEXT="Collapse the services">
+<icon BUILTIN="full-4"/>
+<node CREATED="1633536601264" ID="ID_1286453005" MODIFIED="1633536607835" TEXT="Inspect if the two services are logically the same"/>
+<node CREATED="1633536610367" ID="ID_1835555943" MODIFIED="1633536620987" TEXT="If they should be collapsed into a single service"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1633536629591" ID="ID_971874075" MODIFIED="1633536636910" TEXT="Measure Technical Srawl">
+<icon BUILTIN="full-4"/>
 </node>
 </node>
 </node>

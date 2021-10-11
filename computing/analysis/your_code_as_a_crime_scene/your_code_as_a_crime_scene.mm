@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1625231611304" ID="ID_418070969" LINK="https://www.goodreads.com/book/show/23627482-your-code-as-a-crime-scene" MODIFIED="1628863996686" TEXT="Your Code as a Crime Scene">
-<node CREATED="1625232540183" ID="ID_1303291427" MODIFIED="1625232546183" POSITION="right" TEXT="Part 0">
+<node CREATED="1625232540183" FOLDED="true" ID="ID_1303291427" MODIFIED="1625232546183" POSITION="right" TEXT="Part 0">
 <icon BUILTIN="full-0"/>
 <node CREATED="1625231661315" FOLDED="true" ID="ID_142157888" MODIFIED="1625232510493" TEXT="Welcome!">
 <icon BUILTIN="full-1"/>
@@ -117,7 +117,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1625232464361" ID="ID_1048002646" MODIFIED="1625232474256" POSITION="right" TEXT=" Part I - Evolving Software">
+<node CREATED="1625232464361" FOLDED="true" ID="ID_1048002646" MODIFIED="1625232474256" POSITION="right" TEXT=" Part I - Evolving Software">
 <icon BUILTIN="full-1"/>
 <node CREATED="1625232521129" ID="ID_611416294" MODIFIED="1625232535598" TEXT="Code as a Crime Scene">
 <icon BUILTIN="full-2"/>
@@ -758,8 +758,7 @@
       <img src="./shape_complexity_growth.png" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1627664498384" ID="ID_392448258" MODIFIED="1627664502147" TEXT="To know how bad it is">
@@ -772,7 +771,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1627664590648" ID="ID_1087842304" MODIFIED="1627664597941" POSITION="right" TEXT=" Part II - Dissect Your Architecture">
+<node CREATED="1627664590648" FOLDED="true" ID="ID_1087842304" MODIFIED="1627664597941" POSITION="right" TEXT=" Part II - Dissect Your Architecture">
 <icon BUILTIN="full-2"/>
 <node CREATED="1627664637535" FOLDED="true" ID="ID_1155224150" MODIFIED="1627664647541" TEXT="Treat Your Code As a Cooperative Witness">
 <icon BUILTIN="full-7"/>
@@ -1798,12 +1797,12 @@
 <node CREATED="1628776083678" ID="ID_727377144" MODIFIED="1628776088490" TEXT="Toward a Communication Map"/>
 </node>
 </node>
-<node CREATED="1628776132006" FOLDED="true" ID="ID_1546843554" MODIFIED="1628776139932" TEXT=" Build a Knowledge Map of Your System">
+<node CREATED="1628776132006" ID="ID_1546843554" MODIFIED="1628776139932" TEXT=" Build a Knowledge Map of Your System">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1628776986271" ID="ID_1888060655" MODIFIED="1628778446836" TEXT="Know Your Knowledge Distribution">
 <icon BUILTIN="full-1"/>
-<node CREATED="1628777427583" ID="ID_1121058633" MODIFIED="1628777431651" TEXT="Find the Author to Praise">
+<node CREATED="1628777427583" FOLDED="true" ID="ID_1121058633" MODIFIED="1628777431651" TEXT="Find the Author to Praise">
 <node CREATED="1628777433023" ID="ID_1844515928" MODIFIED="1628777435755" TEXT="blame command">
 <node CREATED="1628777442887" ID="ID_23988474" MODIFIED="1628777445986" TEXT="Praise for SVN"/>
 <node CREATED="1628777534382" ID="ID_1225493502" MODIFIED="1628777539090" TEXT="Not about blame or praise!"/>
@@ -1824,7 +1823,7 @@
 </node>
 <node CREATED="1628777516695" ID="ID_492960991" MODIFIED="1628777520211" TEXT="Need high level overview"/>
 </node>
-<node CREATED="1628777606471" ID="ID_1972174390" MODIFIED="1628777615538" TEXT="Dig Below the Surface with Developer Patterns">
+<node CREATED="1628777606471" FOLDED="true" ID="ID_1972174390" MODIFIED="1628777615538" TEXT="Dig Below the Surface with Developer Patterns">
 <node CREATED="1628777695166" ID="ID_1956165573" MODIFIED="1628777701723" TEXT="Need summary of indivitual contribution"/>
 <node CREATED="1628777708114" ID="ID_1669169427" MODIFIED="1628777760475" TEXT="... and total number of revisions per module"/>
 <node CREATED="1628777832479" ID="ID_1304734284" MODIFIED="1628777841066" TEXT="Raw output often become daunting">
@@ -1832,7 +1831,7 @@
 <node CREATED="1628777844303" ID="ID_963461687" MODIFIED="1628777848651" TEXT="... in the mess"/>
 </node>
 </node>
-<node CREATED="1628777880591" ID="ID_1560343368" MODIFIED="1628777889115" TEXT="Visualize Developer Effort with Fractal Figures">
+<node CREATED="1628777880591" FOLDED="true" ID="ID_1560343368" MODIFIED="1628777889115" TEXT="Visualize Developer Effort with Fractal Figures">
 <node CREATED="1628777900247" FOLDED="true" ID="ID_495476846" MODIFIED="1628777923389" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1628777923879" ID="ID_1395110107" MODIFIED="1628777973119">
@@ -1849,7 +1848,7 @@
 <node CREATED="1628777997351" ID="ID_548152275" MODIFIED="1628778002107" TEXT="Each programmer with a color"/>
 <node CREATED="1628778002935" ID="ID_1727376817" MODIFIED="1628778011058" TEXT="Area proportional of number of commits"/>
 </node>
-<node CREATED="1628778144351" ID="ID_1036413796" MODIFIED="1628778146075" TEXT="Distinguish the Ownership Models">
+<node CREATED="1628778144351" FOLDED="true" ID="ID_1036413796" MODIFIED="1628778146075" TEXT="Distinguish the Ownership Models">
 <node CREATED="1628778160967" ID="ID_783516750" MODIFIED="1628778163515" TEXT="Single developer">
 <node CREATED="1628778163672" ID="ID_362078396" MODIFIED="1628778168138" TEXT="Simplest communication structure"/>
 <node CREATED="1628778172656" ID="ID_893684271" MODIFIED="1628778177490" TEXT="Quality often consistent"/>
@@ -1875,7 +1874,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1628778363615" ID="ID_470354325" MODIFIED="1628778367243" TEXT="Do more with Fractal Figures">
+<node CREATED="1628778363615" FOLDED="true" ID="ID_470354325" MODIFIED="1628778367243" TEXT="Do more with Fractal Figures">
 <node CREATED="1628778371599" ID="ID_1789533214" MODIFIED="1628778376435" TEXT="Work well on architecture level too"/>
 <node CREATED="1628778379414" ID="ID_1839142572" MODIFIED="1628778391795" TEXT="Visualize framentation of">
 <node CREATED="1628778392231" ID="ID_108413718" MODIFIED="1628778394843" TEXT="whole systems"/>
@@ -1893,7 +1892,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1628778447479" ID="ID_1835824976" MODIFIED="1628778492068" TEXT="Grow Your Mental Maps">
+<node CREATED="1628778447479" FOLDED="true" ID="ID_1835824976" MODIFIED="1628778492068" TEXT="Grow Your Mental Maps">
 <icon BUILTIN="full-2"/>
 <node CREATED="1628841971289" ID="ID_204951094" MODIFIED="1628841973435" TEXT="Mental map">
 <node CREATED="1628841973694" ID="ID_571739100" MODIFIED="1628841980281" TEXT="Subjective view of specific geographic area"/>
@@ -1912,7 +1911,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1628842261637" ID="ID_1994235860" MODIFIED="1628842275408" TEXT="Investigate Knowledge in Scala Repository">
+<node CREATED="1628842261637" FOLDED="true" ID="ID_1994235860" MODIFIED="1628842275408" TEXT="Investigate Knowledge in Scala Repository">
 <icon BUILTIN="full-3"/>
 <node CREATED="1628842489366" ID="ID_356194158" MODIFIED="1628842951577" TEXT="Analyze the Knowledge Distribution">
 <node CREATED="1628842688414" ID="ID_1034593012" MODIFIED="1628842693274" TEXT="Analysis code on two years"/>
@@ -1927,7 +1926,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1628843434997" ID="ID_1969443048" MODIFIED="1628843440740" TEXT="Vizualize Knowledge Loss">
+<node CREATED="1628843434997" FOLDED="true" ID="ID_1969443048" MODIFIED="1628843440740" TEXT="Vizualize Knowledge Loss">
 <icon BUILTIN="full-4"/>
 <node CREATED="1628843454253" ID="ID_1225373802" MODIFIED="1628843460514" TEXT="Learn the Predictive Power of Abandoned Code">
 <node CREATED="1628843467197" ID="ID_1259639672" MODIFIED="1628843471145" TEXT="Spreading knowledge">
