@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1586606944671" ID="ID_1424724504" LINK="https://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go" MODIFIED="1586607151802" TEXT="Introduction to interfaces">
-<node CREATED="1586606974324" FOLDED="true" ID="ID_1099632047" MODIFIED="1586608511138" POSITION="right" TEXT="Introduction to interfaces">
+<node CREATED="1586606974324" ID="ID_1099632047" MODIFIED="1586608511138" POSITION="right" TEXT="Introduction to interfaces">
 <icon BUILTIN="full-1"/>
 <node CREATED="1586606982532" ID="ID_1641376705" MODIFIED="1586606988385" TEXT="What is an interface?">
 <node CREATED="1586606988847" ID="ID_432398461" MODIFIED="1586606997831" TEXT="Set of methods">
@@ -18,157 +18,19 @@
 <node CREATED="1586607071517" ID="ID_110140005" MODIFIED="1586607080343" TEXT="Any type that defines"/>
 <node CREATED="1586607080691" ID="ID_1310986412" MODIFIED="1586607083851" TEXT="... every methods of interface"/>
 <node CREATED="1586607084238" ID="ID_439481619" MODIFIED="1586607087533" TEXT="... implement interface"/>
-<node CREATED="1586607107136" ID="ID_743683131" LINK="https://play.golang.org/p/yGTd4MtgD5" MODIFIED="1586607126055" TEXT="Example">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import (
-    </p>
-    <p>
-      &quot;fmt&quot;
-    </p>
-    <p>
-      )
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Animal interface {
-    </p>
-    <p>
-      Speak() string
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Dog struct {
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func (d Dog) Speak() string {
-    </p>
-    <p>
-      return &quot;Woof!&quot;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Cat struct {
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func (c Cat) Speak() string {
-    </p>
-    <p>
-      return &quot;Meow!&quot;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Llama struct {
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func (l Llama) Speak() string {
-    </p>
-    <p>
-      return &quot;?????&quot;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type JavaProgrammer struct {
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func (j JavaProgrammer) Speak() string {
-    </p>
-    <p>
-      return &quot;Design patterns!&quot;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      animals := []Animal{Dog{}, Cat{}, Llama{}, JavaProgrammer{}}
-    </p>
-    <p>
-      for _, animal := range animals {
-    </p>
-    <p>
-      fmt.Println(animal.Speak())
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1586607107136" ID="ID_743683131" LINK="https://play.golang.org/p/yGTd4MtgD5" MODIFIED="1634879637040" TEXT="Example">
+<icon BUILTIN="wizard"/>
 </node>
 </node>
 </node>
-<node CREATED="1586607140711" FOLDED="true" ID="ID_1854653803" MODIFIED="1586608510108" POSITION="right" TEXT="The interface{} type">
+<node CREATED="1586607140711" ID="ID_1854653803" MODIFIED="1586608510108" POSITION="right" TEXT="The interface{} type">
 <icon BUILTIN="full-2"/>
 <node CREATED="1586607160324" ID="ID_397438221" MODIFIED="1586607163790" TEXT="Empty interface">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1586607169653" ID="ID_1220077154" MODIFIED="1586607178828" TEXT="Interface which has no methods"/>
 <node CREATED="1586607185464" ID="ID_687091175" MODIFIED="1586607193868" TEXT="All types satisfy the empty interface">
-<node CREATED="1586607227850" ID="ID_1168732793" MODIFIED="1586607232186" TEXT="Example">
+<node CREATED="1586607227850" ID="ID_1168732793" MODIFIED="1634879736956" TEXT="Example">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -179,9 +41,9 @@
 }</pre>
   </body>
 </html></richcontent>
-<node CREATED="1586607234412" ID="ID_1793913074" MODIFIED="1586607237176" TEXT="Type of v?">
+<icon BUILTIN="wizard"/>
+<node CREATED="1586607234412" ID="ID_1793913074" MODIFIED="1586607237176" TEXT="Type of v?"/>
 <node CREATED="1586607240774" ID="ID_1554492644" MODIFIED="1586607243310" TEXT="interface{}"/>
-</node>
 </node>
 </node>
 <node CREATED="1586607278970" ID="ID_1356642723" MODIFIED="1586607281782" TEXT="Interface value">
@@ -208,52 +70,24 @@
   <body>
     <img src="two_words.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1586608337925" ID="ID_560963985" LINK="https://play.golang.org/p/Dhg1YS6BJS" MODIFIED="1586608372305" TEXT="Example">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre http-equiv="content-type" content="text/html; charset=utf-8">package main
-
-import (
-    &quot;fmt&quot;
-)
-
-func PrintAll(vals []interface{}) {
-    for _, val := range vals {
-        fmt.Println(val)
-    }
-}
-
-func main() {
-    names := []string{&quot;stanley&quot;, &quot;david&quot;, &quot;oscar&quot;}
-    vals := make([]interface{}, len(names))
-    for i, v := range names {
-        vals[i] = v
-    }
-    PrintAll(vals)
-}</pre>
-  </body>
-</html>
-</richcontent>
+<node CREATED="1586608337925" ID="ID_560963985" LINK="https://play.golang.org/p/Dhg1YS6BJS" MODIFIED="1634879912937" TEXT="Example">
+<icon BUILTIN="wizard"/>
 </node>
 </node>
 </node>
-<node CREATED="1586608319345" ID="ID_1550945596" MODIFIED="1586608412437" POSITION="left" TEXT="Pointers and interfaces">
+<node CREATED="1586608319345" ID="ID_1550945596" MODIFIED="1586608412437" POSITION="right" TEXT="Pointers and interfaces">
 <icon BUILTIN="full-3"/>
 </node>
-<node CREATED="1586608389881" ID="ID_997427507" MODIFIED="1586608414603" POSITION="left" TEXT="The real world: getting a proper timestamp out of the Twitter API">
+<node CREATED="1586608389881" ID="ID_997427507" MODIFIED="1586608414603" POSITION="right" TEXT="The real world: getting a proper timestamp out of the Twitter API">
 <icon BUILTIN="full-4"/>
 </node>
-<node CREATED="1586608405448" ID="ID_773434707" MODIFIED="1586608416820" POSITION="left" TEXT="Real-world interfaces: getting an object out of an http request">
+<node CREATED="1586608405448" ID="ID_773434707" MODIFIED="1586608416820" POSITION="right" TEXT="Real-world interfaces: getting an object out of an http request">
 <icon BUILTIN="full-5"/>
 </node>
-<node CREATED="1586608423597" ID="ID_742429598" MODIFIED="1586608428039" POSITION="left" TEXT="Wrapping up">
+<node CREATED="1586608423597" ID="ID_742429598" MODIFIED="1586608428039" POSITION="right" TEXT="Wrapping up">
 <icon BUILTIN="full-6"/>
 </node>
 </node>
