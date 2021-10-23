@@ -22,8 +22,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1576152718802" ID="ID_815038783" MODIFIED="1576152790189" TEXT="Byte Stream Model">
-<icon BUILTIN="licq"/>
+<node CREATED="1576152718802" ID="ID_815038783" MODIFIED="1634966201274" TEXT="Byte Stream Model">
 <node CREATED="1576153526475" ID="ID_1808813189" MODIFIED="1576153584935" TEXT="Building block of most applications"/>
 <node CREATED="1576153565379" ID="ID_354546748" MODIFIED="1576153571480" TEXT="Abstract away entire network"/>
 <node CREATED="1576153529659" FOLDED="true" ID="ID_1474692638" MODIFIED="1576153573190" TEXT="img">
@@ -101,8 +100,7 @@
   <body>
     <img src="1_1_bit_torrent.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -129,8 +127,7 @@
   <body>
     <img src="1_1_nat.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -166,8 +163,7 @@
   <body>
     <img src="1_1_skype_relay.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
