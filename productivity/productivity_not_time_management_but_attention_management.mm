@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572536781653" ID="ID_1565021624" LINK="https://www.nytimes.com/2019/03/28/smarter-living/productivity-isnt-about-time-management-its-about-attention-management.html" MODIFIED="1633190389998" TEXT="Productivity Isn&#x2019;t About Time Management. It&#x2019;s About Attention Management.">
+<node CREATED="1572536781653" ID="ID_1565021624" LINK="https://www.nytimes.com/2019/03/28/smarter-living/productivity-isnt-about-time-management-its-about-attention-management.html" MODIFIED="1634967401816" TEXT="Productivity Isn&#x2019;t About Time Management. It&#x2019;s About Attention Management.">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -35,7 +35,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1572536899931" FOLDED="true" ID="ID_1473643009" MODIFIED="1572537072316" POSITION="right" TEXT="Introduction">
+<node CREATED="1572536899931" ID="ID_1473643009" MODIFIED="1572537072316" POSITION="right" TEXT="Introduction">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572536902843" ID="ID_945544007" MODIFIED="1572536913617" TEXT="Culture obsessed by personal productivity">
 <node CREATED="1572536925859" ID="ID_72039786" MODIFIED="1572536929383" TEXT="Key: time management"/>
@@ -55,7 +55,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572537068403" FOLDED="true" ID="ID_572594277" MODIFIED="1572537075515" POSITION="right" TEXT="O.K., sure, but why shift our focus?">
+<node CREATED="1572537068403" ID="ID_572594277" MODIFIED="1572537075515" POSITION="right" TEXT="O.K., sure, but why shift our focus?">
 <icon BUILTIN="full-2"/>
 <node CREATED="1572537085986" ID="ID_18915023" MODIFIED="1572537088407" TEXT="Time management">
 <node CREATED="1572537088570" ID="ID_1567277171" MODIFIED="1572537093359" TEXT="Set goals when to finish the task"/>
@@ -79,22 +79,22 @@
 </node>
 </node>
 </node>
-<node CREATED="1572537363032" ID="ID_147022216" MODIFIED="1572537366586" POSITION="left" TEXT="But how do I stay on task if I&#x2019;m not worried about time?">
+<node CREATED="1572537363032" ID="ID_147022216" MODIFIED="1572537366586" POSITION="right" TEXT="But how do I stay on task if I&#x2019;m not worried about time?">
 <icon BUILTIN="full-3"/>
 <node CREATED="1572537390240" ID="ID_99760485" MODIFIED="1572537393717" TEXT="Attention management"/>
-<node CREATED="1572537393887" FOLDED="true" ID="ID_1560012254" MODIFIED="1572537596843" TEXT="Include the where">
+<node CREATED="1572537393887" ID="ID_1560012254" MODIFIED="1572537596843" TEXT="Include the where">
 <node CREATED="1572537449807" ID="ID_1809476190" MODIFIED="1572537479863" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1572537451559" ID="ID_554785526" LINK="https://psycnet.apa.org/fulltext/2014-01192-001.html" MODIFIED="1572537487331" TEXT="bad weather good for productivity"/>
 <node CREATED="1572537458176" ID="ID_1350241491" MODIFIED="1572537475860" TEXT="... less likely to be distracted"/>
 </node>
 </node>
-<node CREATED="1572537608991" FOLDED="true" ID="ID_649221763" MODIFIED="1572537612723" TEXT="include the when">
+<node CREATED="1572537608991" ID="ID_649221763" MODIFIED="1572537612723" TEXT="include the when">
 <node CREATED="1572537647127" ID="ID_1699968979" MODIFIED="1572537691725" TEXT="Boring task after moderately interesting ones"/>
 <node CREATED="1572537660006" ID="ID_1194229963" MODIFIED="1572537702002" TEXT="... then tackle the most interessing"/>
 </node>
 </node>
-<node CREATED="1572537705630" ID="ID_499541137" MODIFIED="1572537948597" POSITION="left" TEXT="Of makers and managers">
+<node CREATED="1572537705630" ID="ID_499541137" MODIFIED="1572537948597" POSITION="right" TEXT="Of makers and managers">
 <icon BUILTIN="full-4"/>
 <node CREATED="1572537720293" ID="ID_658906767" MODIFIED="1572537761218" TEXT="Goal is not only being productive">
 <node CREATED="1572537725117" ID="ID_174714254" MODIFIED="1633190487604" TEXT="... but being creative too"/>
@@ -141,9 +141,8 @@
 <node CREATED="1572538074122" ID="ID_1697472951" MODIFIED="1590324544347" TEXT="Examples">
 <icon BUILTIN="wizard"/>
 <node CREATED="1572538077002" ID="ID_1222833614" MODIFIED="1572538088671" TEXT="Make a rule"/>
-<node CREATED="1572538089057" ID="ID_1358507309" MODIFIED="1572538106166" TEXT="... turn on Youtube when you know">
-<node CREATED="1572538106954" ID="ID_54838433" MODIFIED="1572538110423" TEXT="what you want to watch"/>
-</node>
+<node CREATED="1572538089057" ID="ID_1358507309" MODIFIED="1572538106166" TEXT="... turn on Youtube when you know"/>
+<node CREATED="1634967472907" ID="ID_1131704546" MODIFIED="1634967478024" TEXT="... what you want to watch"/>
 <node CREATED="1572538110946" ID="ID_828471426" MODIFIED="1572538116038" TEXT="Go to social media only to share things"/>
 </node>
 <node CREATED="1572538139393" ID="ID_646042770" MODIFIED="1572538145605" TEXT="Use small interval to create"/>
