@@ -5,10 +5,18 @@
 <icon BUILTIN="full-1"/>
 <node CREATED="1618834200319" ID="ID_823225886" LINK="http://marketingbullets.com/" MODIFIED="1618835363782" TEXT="4 keys to sell anything for Gary Bencivenga">
 <icon BUILTIN="full-1"/>
-<node CREATED="1618834204312" ID="ID_756878684" MODIFIED="1618834206987" TEXT="An urgent problem"/>
-<node CREATED="1618834207731" ID="ID_1897408175" MODIFIED="1618834211268" TEXT="Unquestionable proof"/>
-<node CREATED="1618834211887" ID="ID_1362237586" MODIFIED="1618834213947" TEXT="Unique promise"/>
-<node CREATED="1618834214796" ID="ID_1014755082" MODIFIED="1618834223339" TEXT="User-friendly proposition"/>
+<node CREATED="1618834204312" ID="ID_756878684" MODIFIED="1635604330437" TEXT="An urgent problem">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1618834207731" ID="ID_1897408175" MODIFIED="1635604331127" TEXT="Unquestionable proof">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1618834211887" ID="ID_1362237586" MODIFIED="1635604332689" TEXT="Unique promise">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1618834214796" ID="ID_1014755082" MODIFIED="1635604333319" TEXT="User-friendly proposition">
+<icon BUILTIN="full-4"/>
+</node>
 <node CREATED="1618834231999" ID="ID_866491348" MODIFIED="1618834237747" TEXT="... the most important by far">
 <node CREATED="1618834238255" ID="ID_932733254" MODIFIED="1618834239945" TEXT="PROOF">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -17,7 +25,7 @@
 </node>
 <node CREATED="1618834595925" ID="ID_1895899767" MODIFIED="1618835377086" TEXT="Let&apos;s take a look at few PROOF">
 <icon BUILTIN="full-2"/>
-<node CREATED="1618834622061" ID="ID_1920751007" MODIFIED="1618834738049" TEXT="Being an authority">
+<node CREATED="1618834622061" FOLDED="true" ID="ID_1920751007" MODIFIED="1618834738049" TEXT="Being an authority">
 <icon BUILTIN="full-1"/>
 <node CREATED="1618834650461" ID="ID_694780865" MODIFIED="1618834656361" TEXT="Real proofs">
 <node CREATED="1618834656670" ID="ID_1476087224" MODIFIED="1618834658545" TEXT="Blogs"/>
@@ -29,7 +37,7 @@
 </node>
 <node CREATED="1618834698292" ID="ID_1633998563" MODIFIED="1618834705969" TEXT="Physical book is even better"/>
 </node>
-<node CREATED="1618834740133" ID="ID_1016516029" MODIFIED="1618834744456" TEXT="Start small and adjusts">
+<node CREATED="1618834740133" FOLDED="true" ID="ID_1016516029" MODIFIED="1618834744456" TEXT="Start small and adjusts">
 <icon BUILTIN="full-2"/>
 <node CREATED="1618834750692" ID="ID_1104738816" MODIFIED="1621515638241" TEXT="Started writing about what you know"/>
 <node CREATED="1618834772860" ID="ID_1384556286" MODIFIED="1618834774783" TEXT="Adjusted with">
@@ -40,15 +48,15 @@
 </node>
 <node CREATED="1618834812228" ID="ID_361816985" MODIFIED="1618834820399" TEXT="Can&apos;t get feedback if you don&apos;t start"/>
 </node>
-<node CREATED="1618834843332" ID="ID_174263676" MODIFIED="1618834848876" TEXT="Focus on your &quot;ideal&quot; client">
+<node CREATED="1618834843332" FOLDED="true" ID="ID_174263676" MODIFIED="1618834848876" TEXT="Focus on your &quot;ideal&quot; client">
 <icon BUILTIN="full-3"/>
 <node CREATED="1618834855780" ID="ID_17759093" MODIFIED="1618834867751" TEXT="Target get smaller more you talk"/>
 <node CREATED="1618834879940" ID="ID_1814586989" MODIFIED="1618834889982" TEXT="This is one of the most important step"/>
-<node CREATED="1618834891188" ID="ID_1515643123" MODIFIED="1618834897232" TEXT="&quot;Ideal Client Discovery&quot;">
+<node CREATED="1618834891188" FOLDED="true" ID="ID_1515643123" MODIFIED="1618834897232" TEXT="&quot;Ideal Client Discovery&quot;">
 <node CREATED="1618834905739" ID="ID_606957067" MODIFIED="1618834910679" TEXT="More focused client, the better"/>
 <node CREATED="1618834936782" ID="ID_414189118" MODIFIED="1618834943367" TEXT="Keep &quot;him/her&quot; in sight"/>
 </node>
-<node CREATED="1618834944147" ID="ID_936777241" MODIFIED="1618834953846" TEXT="Who your ideal client is?">
+<node CREATED="1618834944147" FOLDED="true" ID="ID_936777241" MODIFIED="1618834953846" TEXT="Who your ideal client is?">
 <node CREATED="1618834954067" ID="ID_1943122188" MODIFIED="1618834960663" TEXT="What the title?"/>
 <node CREATED="1618834961555" ID="ID_1218533022" MODIFIED="1618834964246" TEXT="What the industry?"/>
 <node CREATED="1618834964851" ID="ID_603015387" MODIFIED="1618834967782" TEXT="What the location?"/>
@@ -65,7 +73,7 @@
 <node CREATED="1618835023363" ID="ID_1011140713" MODIFIED="1618835033013" TEXT="If everyone is your ideal client, nobody is"/>
 <node CREATED="1618835075770" ID="ID_11395624" MODIFIED="1618835080757" TEXT="Need a lot of money for a broader market"/>
 </node>
-<node CREATED="1618835120546" ID="ID_102415685" MODIFIED="1618835134695" TEXT="Ask questions and have conversations">
+<node CREATED="1618835120546" FOLDED="true" ID="ID_102415685" MODIFIED="1618835134695" TEXT="Ask questions and have conversations">
 <icon BUILTIN="full-4"/>
 <node CREATED="1618835138634" ID="ID_743410975" MODIFIED="1618835142839" TEXT="It is not simplistic"/>
 <node CREATED="1618835157815" ID="ID_529943792" MODIFIED="1618835159397" TEXT="Don&apos;t preach">
@@ -79,7 +87,7 @@
 <node CREATED="1618835210078" ID="ID_1965240164" MODIFIED="1618835214486" TEXT="conversation process"/>
 </node>
 </node>
-<node CREATED="1618835225298" ID="ID_998019176" MODIFIED="1618835234111" TEXT="Conversation platform attracting idea client">
+<node CREATED="1618835225298" FOLDED="true" ID="ID_998019176" MODIFIED="1618835234111" TEXT="Conversation platform attracting idea client">
 <icon BUILTIN="full-5"/>
 <node CREATED="1618835252618" ID="ID_999256935" MODIFIED="1618835262582" TEXT="Not optimal">
 <node CREATED="1618835262753" ID="ID_930537333" MODIFIED="1618835266685" TEXT="Beg for appointment"/>
@@ -98,21 +106,21 @@
 <node CREATED="1618835391641" ID="ID_1033773039" MODIFIED="1618835397197" TEXT="The programs they have :D"/>
 </node>
 </node>
-<node CREATED="1618835450161" ID="ID_177754810" MODIFIED="1618837709046" POSITION="right" TEXT="Productization: &quot;How to Bust the COnsultant Bottleneck&quot;">
+<node CREATED="1618835450161" ID="ID_177754810" MODIFIED="1635604716876" POSITION="right" TEXT="Productization: &quot;How to Bust the Consultant Bottleneck&quot;">
 <icon BUILTIN="full-2"/>
-<node CREATED="1618926216863" ID="ID_1236229974" MODIFIED="1618926241716" TEXT="Intro">
+<node CREATED="1618926216863" FOLDED="true" ID="ID_1236229974" MODIFIED="1618926241716" TEXT="Intro">
 <icon BUILTIN="full-1"/>
 <node CREATED="1618835465401" ID="ID_34673628" MODIFIED="1618835466077" TEXT="To scale your business the easy way "/>
-<node CREATED="1618835508105" ID="ID_1319562885" MODIFIED="1618835521781" TEXT="Productization instead of custom services">
+<node CREATED="1618835508105" FOLDED="true" ID="ID_1319562885" MODIFIED="1618835521781" TEXT="Productization instead of custom services">
 <node CREATED="1618835527736" ID="ID_980389812" MODIFIED="1618835534949" TEXT="Based on paretto principle 80/20"/>
 <node CREATED="1618836413852" ID="ID_1178682143" MODIFIED="1618836419536" TEXT="Find 20% of processes"/>
 <node CREATED="1618836419900" ID="ID_722066015" MODIFIED="1618836423832" TEXT="... solving 80% of problems"/>
 </node>
-<node CREATED="1618836540131" ID="ID_528033614" MODIFIED="1618836569989" TEXT="Example">
+<node CREATED="1618836540131" FOLDED="true" ID="ID_528033614" MODIFIED="1618836569989" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1618836553971" ID="ID_67197252" MODIFIED="1618836564174" TEXT="&quot;Sale Funnel Audit&quot; for 2500$"/>
 </node>
-<node CREATED="1618836570796" ID="ID_1555466734" MODIFIED="1618836572687" TEXT="Advantages">
+<node CREATED="1618836570796" FOLDED="true" ID="ID_1555466734" MODIFIED="1618836572687" TEXT="Advantages">
 <node CREATED="1618836572979" ID="ID_1426874839" MODIFIED="1618836632617" TEXT="Make the first sales much more easy">
 <icon BUILTIN="full-1"/>
 </node>
@@ -148,17 +156,18 @@
 <node CREATED="1618837101225" ID="ID_1670209930" MODIFIED="1618837103485" TEXT="Less project work"/>
 </node>
 </node>
-<node CREATED="1618837404256" ID="ID_1739100368" MODIFIED="1618837409691" TEXT="Product can let you see other problems">
+<node CREATED="1618837404256" FOLDED="true" ID="ID_1739100368" MODIFIED="1618837409691" TEXT="Product can let you see other problems">
 <node CREATED="1618837409887" ID="ID_1156931214" MODIFIED="1618837414059" TEXT="Monitoring inside"/>
 <node CREATED="1618837414407" ID="ID_942627156" MODIFIED="1618837418163" TEXT="... of the business of your client"/>
 </node>
-<node CREATED="1618837553247" ID="ID_488161015" MODIFIED="1618837556147" TEXT="Tips">
-<node CREATED="1618837556334" ID="ID_1380238704" MODIFIED="1618837585302" TEXT="Productization is a removal process">
+<node CREATED="1618837553247" FOLDED="true" ID="ID_488161015" MODIFIED="1618837556147" TEXT="Tips">
+<node CREATED="1618837556334" FOLDED="true" ID="ID_1380238704" MODIFIED="1618837585302" TEXT="Productization is a removal process">
 <icon BUILTIN="full-1"/>
 <node CREATED="1618837562142" ID="ID_352400552" MODIFIED="1618837582179" TEXT="&quot;What can I remove from my offering"/>
 <node CREATED="1618837568998" ID="ID_324430316" MODIFIED="1618837578498" TEXT="... and still provide 80% of the value?&quot;"/>
 </node>
-<node CREATED="1618837586165" ID="ID_1199164047" MODIFIED="1618837594346" TEXT="Productization starts with customer problems">
+<node CREATED="1618837586165" FOLDED="true" ID="ID_1199164047" MODIFIED="1635604774855" TEXT="Productization starts with customer problems">
+<icon BUILTIN="full-2"/>
 <node CREATED="1618837596318" ID="ID_1309926062" MODIFIED="1618837599233" TEXT="Don&apos;t ask">
 <node CREATED="1618837599576" ID="ID_764170772" MODIFIED="1618837612394" TEXT="What problems can I solve for my customers?"/>
 </node>
@@ -166,7 +175,8 @@
 <node CREATED="1618837618502" ID="ID_856474517" MODIFIED="1618837629034" TEXT="What problems my customers are ALREADY paying me to solve often?"/>
 </node>
 </node>
-<node CREATED="1618837633774" ID="ID_560359202" MODIFIED="1618837648012" TEXT="Productization for the consultant is about">
+<node CREATED="1618837633774" FOLDED="true" ID="ID_560359202" MODIFIED="1635604776594" TEXT="Productization for the consultant is about">
+<icon BUILTIN="full-3"/>
 <node CREATED="1618837648221" ID="ID_1103396349" MODIFIED="1618837668879" TEXT="Quick processes">
 <icon BUILTIN="full-1"/>
 </node>
@@ -177,7 +187,8 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node CREATED="1618837674788" ID="ID_914693817" MODIFIED="1618837688674" TEXT="Productization for the client is about outcome">
+<node CREATED="1618837674788" FOLDED="true" ID="ID_914693817" MODIFIED="1635604783237" TEXT="Productization for the client is about outcome">
+<icon BUILTIN="full-4"/>
 <node CREATED="1618837688941" ID="ID_300536865" MODIFIED="1618837691530" TEXT="Specific"/>
 <node CREATED="1618837691869" ID="ID_291939559" MODIFIED="1618837693402" TEXT="Concrete"/>
 <node CREATED="1618837694021" ID="ID_1325928409" MODIFIED="1618837695537" TEXT="Tangible"/>
@@ -190,7 +201,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1618837842597" ID="ID_566879663" MODIFIED="1618926243707" TEXT="How to validate your productization concept?">
+<node CREATED="1618837842597" FOLDED="true" ID="ID_566879663" MODIFIED="1618926243707" TEXT="How to validate your productization concept?">
 <icon BUILTIN="full-3"/>
 <node CREATED="1618837959268" ID="ID_1505535331" MODIFIED="1618837965360" TEXT="Spend a lot of time with clients for that"/>
 <node CREATED="1618837969604" ID="ID_993762004" MODIFIED="1618837974849" TEXT="Ask">
@@ -364,7 +375,7 @@
 </node>
 <node CREATED="1618933637194" ID="ID_1752847875" MODIFIED="1618933639212" TEXT="How to sell it">
 <node CREATED="1618933681337" ID="ID_613225109" MODIFIED="1618933687702" TEXT="List out what you deliver each month"/>
-<node CREATED="1618933688258" ID="ID_1847748376" MODIFIED="1618933784118" TEXT="Put # value to the benefit you&apos;ll deliver to the client"/>
+<node CREATED="1618933688258" ID="ID_1847748376" MODIFIED="1635606058280" TEXT="Put value to the benefit you&apos;ll deliver to the client"/>
 <node CREATED="1618933696890" ID="ID_946813676" MODIFIED="1618933779884" TEXT="Show them your retainer is less than 20% of the benefit you&apos;ll deliver"/>
 <node CREATED="1618933710258" ID="ID_1950899603" MODIFIED="1618933772710" TEXT="Show them how an upfront retainer guarantees them your attention and focus on their project"/>
 <node CREATED="1618933728648" ID="ID_1628265711" MODIFIED="1618933758990" TEXT="Show them how an upfront retainer makes them a priority over non retainer client"/>

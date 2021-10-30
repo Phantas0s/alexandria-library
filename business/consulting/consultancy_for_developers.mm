@@ -15,7 +15,7 @@
 <node CREATED="1553800780603" ID="ID_1803606314" MODIFIED="1553800785985" TEXT="You want your client to be successful"/>
 <node CREATED="1553800791444" ID="ID_313767569" MODIFIED="1553800799345" TEXT="You want to be the go-to person for client"/>
 </node>
-<node CREATED="1553800819779" FOLDED="true" ID="ID_597447869" MODIFIED="1621352293707" TEXT="How do I earn my client trust?">
+<node CREATED="1553800819779" ID="ID_597447869" MODIFIED="1621352293707" TEXT="How do I earn my client trust?">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -36,7 +36,7 @@
 <node CREATED="1553800910811" ID="ID_1261782713" MODIFIED="1553800916383" TEXT="You want them to be successful"/>
 <node CREATED="1553800917266" ID="ID_711349964" MODIFIED="1553800921278" TEXT="You&apos;re smart and reliable"/>
 </node>
-<node CREATED="1553800932770" FOLDED="true" ID="ID_141978565" MODIFIED="1553802358373" TEXT="Research your client">
+<node CREATED="1553800932770" ID="ID_141978565" MODIFIED="1553802358373" TEXT="Research your client">
 <icon BUILTIN="full-1"/>
 <node CREATED="1553800951337" ID="ID_1270849318" MODIFIED="1553800956639" TEXT="Does your client have a company website?"/>
 <node CREATED="1553800957275" ID="ID_569550947" MODIFIED="1553800963534" TEXT="Read through their linkedin"/>
@@ -46,7 +46,7 @@
 <node CREATED="1553800980195" ID="ID_869129846" MODIFIED="1553800983262" TEXT="Books"/>
 </node>
 </node>
-<node CREATED="1553801010019" FOLDED="true" ID="ID_53301187" MODIFIED="1553802371630" TEXT="Prepare for meetings">
+<node CREATED="1553801010019" ID="ID_53301187" MODIFIED="1553802371630" TEXT="Prepare for meetings">
 <icon BUILTIN="full-2"/>
 <node CREATED="1553801024754" ID="ID_891919491" MODIFIED="1553801029359" TEXT="Read / prepare the agenda"/>
 <node CREATED="1553801031122" ID="ID_746844221" MODIFIED="1553801037127" TEXT="Revisit notes from previous meeting"/>
@@ -58,7 +58,7 @@
 <node CREATED="1553801099345" ID="ID_1554948934" MODIFIED="1553801107647" TEXT="Assume you&apos;re the only personed prepared"/>
 <node CREATED="1553801123128" ID="ID_529015084" MODIFIED="1553801124942" TEXT="Don&apos;t be late"/>
 </node>
-<node CREATED="1553801134976" FOLDED="true" ID="ID_1051633686" MODIFIED="1553802372508" TEXT="Make small commitment and over-deliver">
+<node CREATED="1553801134976" ID="ID_1051633686" MODIFIED="1553802372508" TEXT="Make small commitment and over-deliver">
 <icon BUILTIN="full-3"/>
 <node CREATED="1553801152049" ID="ID_146928241" MODIFIED="1553801156046" TEXT="Be transparent on">
 <node CREATED="1553801156232" ID="ID_1209989797" MODIFIED="1553801157334" TEXT="Plans"/>
@@ -91,14 +91,14 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1553801206577" FOLDED="true" ID="ID_1455267545" MODIFIED="1553802363500" TEXT="Explain the process, make the risk known">
+<node CREATED="1553801206577" ID="ID_1455267545" MODIFIED="1553802363500" TEXT="Explain the process, make the risk known">
 <icon BUILTIN="full-4"/>
-<node CREATED="1553801295639" ID="ID_864155080" MODIFIED="1553801305749" TEXT="Explain that deadlines or not spot-on"/>
+<node CREATED="1553801295639" ID="ID_864155080" MODIFIED="1635603894136" TEXT="Explain that deadlines are not spot-on"/>
 <node CREATED="1553801312031" ID="ID_1570526320" MODIFIED="1553801322173" TEXT="Start with assumption">
 <node CREATED="1553801322451" ID="ID_836124771" MODIFIED="1553801331091" TEXT="they know nothing about building software"/>
 </node>
 </node>
-<node CREATED="1553801340679" FOLDED="true" ID="ID_910636259" MODIFIED="1553802366075" TEXT="Keep the client up to date">
+<node CREATED="1553801340679" ID="ID_910636259" MODIFIED="1553802366075" TEXT="Keep the client up to date">
 <icon BUILTIN="full-5"/>
 <node CREATED="1553801357712" ID="ID_176720462" MODIFIED="1553801364699" TEXT="Late in deadline? Send an update"/>
 <node CREATED="1553801376167" ID="ID_1421069275" MODIFIED="1553801381547" TEXT="Client need to feel">
@@ -125,7 +125,7 @@
 </html></richcontent>
 <icon BUILTIN="full-6"/>
 </node>
-<node CREATED="1553801454197" FOLDED="true" ID="ID_1228144253" MODIFIED="1553802369995" TEXT="Always tell the truth">
+<node CREATED="1553801454197" ID="ID_1228144253" MODIFIED="1553802369995" TEXT="Always tell the truth">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -206,16 +206,17 @@
 <node CREATED="1553802019161" ID="ID_548300660" MODIFIED="1553802020723" TEXT="&#x201c;What is the best/worst thing that can happen?&#x201d;"/>
 </node>
 </node>
-<node CREATED="1553802050177" ID="ID_1099373673" MODIFIED="1553802386316" TEXT="Don&apos;t jump to conclusion">
+<node CREATED="1553802050177" FOLDED="true" ID="ID_1099373673" MODIFIED="1553802386316" TEXT="Don&apos;t jump to conclusion">
 <icon BUILTIN="full-4"/>
-<node CREATED="1553802085296" ID="ID_372375916" MODIFIED="1553802092469" TEXT="If problem look similar to another">
+<node CREATED="1553802085296" FOLDED="true" ID="ID_372375916" MODIFIED="1553802092469" TEXT="If problem look similar to another">
 <node CREATED="1553802092627" ID="ID_1517974885" MODIFIED="1553802095951" TEXT="Keep solution for you"/>
 <node CREATED="1553802101097" ID="ID_539930478" MODIFIED="1553802105462" TEXT="Keep collecting information"/>
-<node CREATED="1553802108521" ID="ID_1779605136" MODIFIED="1553802113645" TEXT="Make sure you understand the problem">
-<node CREATED="1553802113818" ID="ID_1265919000" MODIFIED="1553802115621" TEXT="and the context"/>
+<node CREATED="1553802108521" ID="ID_1779605136" MODIFIED="1635604089399" TEXT="Make sure you understand">
+<node CREATED="1635604090779" ID="ID_74790485" MODIFIED="1635604092384" TEXT="the problem"/>
+<node CREATED="1635604092699" ID="ID_240636695" MODIFIED="1635604094640" TEXT="the context"/>
 </node>
 </node>
-<node CREATED="1553802133585" ID="ID_303600891" MODIFIED="1553802138694" TEXT="... this become important">
+<node CREATED="1553802133585" FOLDED="true" ID="ID_303600891" MODIFIED="1553802138694" TEXT="... this become important">
 <node CREATED="1553802138930" ID="ID_1181188064" MODIFIED="1553802142557" TEXT="If you&apos;re working in a team"/>
 <node CREATED="1553802143017" ID="ID_1051710417" MODIFIED="1553802147712" TEXT="If the team was not with you"/>
 </node>
@@ -239,14 +240,13 @@
 <node CREATED="1553802327999" ID="ID_1756608551" MODIFIED="1553802334956" TEXT="Help you come up with a better version of the idea"/>
 </node>
 </node>
-<node CREATED="1553802346993" FOLDED="true" ID="ID_1852258558" MODIFIED="1553802391540" TEXT="Be objective, avoid thought mistakes">
+<node CREATED="1553802346993" ID="ID_1852258558" MODIFIED="1553802391540" TEXT="Be objective, avoid thought mistakes">
 <icon BUILTIN="full-6"/>
-<node CREATED="1553802400023" ID="ID_1767648022" MODIFIED="1553802409723" TEXT="Acknowledge that your judgment is not always perfect">
+<node CREATED="1553802400023" ID="ID_1767648022" MODIFIED="1553802409723" TEXT="Acknowledge that your judgment is not always perfect"/>
 <node CREATED="1553802422989" ID="ID_1141430233" MODIFIED="1553802424691" TEXT="Fallacies">
 <node CREATED="1553802424919" ID="ID_1869863491" MODIFIED="1553802442366" TEXT="Texas sharpshooter fallacy"/>
 <node CREATED="1553802428614" ID="ID_604811771" MODIFIED="1553802440294" TEXT="Sunk cost fallacy"/>
 <node CREATED="1553802432127" ID="ID_30690661" MODIFIED="1553802434109" TEXT="Confirmation bias"/>
-</node>
 </node>
 </node>
 <node CREATED="1553802485941" FOLDED="true" ID="ID_781297014" MODIFIED="1553802490418" TEXT="Keep the pragmatism-idealism balance">
