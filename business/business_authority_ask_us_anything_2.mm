@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1623751585862" ID="ID_156124014" LINK="https://www.thebusinessofauthority.com/episodes/ask-us-anything-2" MODIFIED="1623752879363" TEXT="Ask us anything 2">
-<node CREATED="1623751615756" ID="ID_1446240558" MODIFIED="1623751704685" POSITION="right" TEXT="Digital content and lead">
+<node CREATED="1623751615756" FOLDED="true" ID="ID_1446240558" MODIFIED="1635660205680" POSITION="right" TEXT="Digital content and lead">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,10 +12,11 @@
     </p>
   </body>
 </html></richcontent>
+<icon BUILTIN="full-1"/>
 <node CREATED="1623751704877" ID="ID_1327914792" MODIFIED="1623751709001" TEXT="Need to find a niche"/>
 <node CREATED="1623752008397" ID="ID_1624177381" MODIFIED="1623752024290" TEXT="Automated marketing system"/>
 </node>
-<node CREATED="1623752110693" ID="ID_1637772797" MODIFIED="1623752129487" POSITION="right" TEXT="Social capital">
+<node CREATED="1623752110693" FOLDED="true" ID="ID_1637772797" MODIFIED="1635660206312" POSITION="right" TEXT="Social capital">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -27,12 +28,12 @@
     <br class="Apple-interchange-newline" />
     
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<icon BUILTIN="full-2"/>
 <node CREATED="1623752136717" ID="ID_1781752072" MODIFIED="1623752494646" TEXT="Trust is important"/>
 <node CREATED="1623752494995" ID="ID_1780641563" MODIFIED="1623752497088" TEXT="Focus is important"/>
 </node>
-<node CREATED="1623752499651" ID="ID_415938819" MODIFIED="1623752851124" POSITION="right" TEXT="Value price engagement">
+<node CREATED="1623752499651" FOLDED="true" ID="ID_415938819" MODIFIED="1635660206879" POSITION="right" TEXT="Value price engagement">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -42,8 +43,8 @@
       <font color="rgb(15, 15, 15)" face="-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif">Positioning yourself to value price engagements when your projects don&#8217;t have an end date&#8212;and you&#8217;re currently charging hourly or by retainer.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<icon BUILTIN="full-3"/>
 <node CREATED="1623752518763" ID="ID_1919741707" MODIFIED="1623752526656" TEXT="Value pricing for project with particular outcome">
 <node CREATED="1623752570284" ID="ID_249502326" MODIFIED="1623752575516" TEXT="Need deadline"/>
 <node CREATED="1623752555315" ID="ID_1511271246" MODIFIED="1623752557968" TEXT="If there is not value"/>
@@ -65,7 +66,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1623752851978" ID="ID_33104162" MODIFIED="1623752865743" POSITION="right" TEXT="Positioning music and musician">
+<node CREATED="1623752851978" FOLDED="true" ID="ID_33104162" MODIFIED="1635660207529" POSITION="right" TEXT="Positioning music and musician">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -75,8 +76,8 @@
       <font color="rgb(15, 15, 15)" face="-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif">How to apply positioning in the context of music and musicians&#8212;is this process different when dealing with an &#8220;esoteric&#8221; specialty?</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<icon BUILTIN="full-4"/>
 <node CREATED="1623752914114" ID="ID_1246459072" MODIFIED="1623752916374" TEXT="Music for ">
 <node CREATED="1623752916867" ID="ID_499468337" MODIFIED="1623752918321" TEXT="business?"/>
 <node CREATED="1623752918666" ID="ID_1474654736" MODIFIED="1623752920238" TEXT="art?"/>
@@ -92,7 +93,7 @@
 </node>
 <node CREATED="1623753123321" ID="ID_1848815371" MODIFIED="1623753128038" TEXT="It&apos;s really hard and brutal"/>
 </node>
-<node CREATED="1623753270792" ID="ID_782407175" MODIFIED="1623753289605" POSITION="right" TEXT="What&apos;s next for the business of authority">
+<node CREATED="1623753270792" ID="ID_782407175" MODIFIED="1635660208176" POSITION="right" TEXT="What&apos;s next for the business of authority">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -108,8 +109,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<icon BUILTIN="full-5"/>
 </node>
 </node>
 </map>
