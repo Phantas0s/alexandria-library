@@ -2161,7 +2161,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1635425096217" FOLDED="true" ID="ID_1005222100" MODIFIED="1635425104903" POSITION="right" TEXT=" Chapter 7 - Some Systems Questions">
+<node CREATED="1635425096217" ID="ID_1005222100" MODIFIED="1635425104903" POSITION="right" TEXT=" Chapter 7 - Some Systems Questions">
 <icon BUILTIN="full-7"/>
 <node CREATED="1635425113663" ID="ID_344685451" MODIFIED="1635425331346" TEXT="&quot;Nothing is permanent except change&quot; Heraclitus"/>
 <node CREATED="1635425334032" FOLDED="true" ID="ID_848962638" MODIFIED="1635425339125" TEXT="The Systems Triumvirate">
@@ -2237,8 +2237,7 @@
       because it is founded on the very nature of thought, which is the only organ of science. - Bakunin
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-2"/>
 <node CREATED="1635425768712" ID="ID_1433260941" MODIFIED="1635425772898" TEXT="What is permanent in systems?"/>
 <node CREATED="1635425773419" ID="ID_1674418525" MODIFIED="1635425776675" TEXT="Stable vs immobile">
@@ -2315,7 +2314,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1635426376202" ID="ID_317560686" MODIFIED="1635426378644" TEXT=" Survival">
+<node CREATED="1635426376202" FOLDED="true" ID="ID_317560686" MODIFIED="1635426378644" TEXT=" Survival">
 <icon BUILTIN="full-3"/>
 <node CREATED="1635426392931" ID="ID_897071421" MODIFIED="1635426399359" TEXT="Why does a system survive?">
 <node CREATED="1635426400736" ID="ID_340229085" MODIFIED="1635426409878" TEXT="Because systems that don&apos;t survive"/>
@@ -2348,17 +2347,17 @@
 <node CREATED="1635426588698" ID="ID_1934413221" MODIFIED="1635426596061" TEXT="Many system born and die without noticing them"/>
 </node>
 </node>
-<node CREATED="1635426598708" ID="ID_956018818" MODIFIED="1635426600520" TEXT="Identity">
+<node CREATED="1635426598708" FOLDED="true" ID="ID_956018818" MODIFIED="1635426600520" TEXT="Identity">
 <icon BUILTIN="full-4"/>
 <node CREATED="1635426603136" ID="ID_1185889253" MODIFIED="1635426607910" TEXT="To exist is to have an identity"/>
 <node CREATED="1635426608561" ID="ID_1077860994" MODIFIED="1635426619997" TEXT="Synonymous with viability"/>
-<node CREATED="1635426620504" ID="ID_1454658638" MODIFIED="1635426625766" TEXT="To have an identifier">
+<node CREATED="1635426620504" FOLDED="true" ID="ID_1454658638" MODIFIED="1635426625766" TEXT="To have an identifier">
 <node CREATED="1635426628490" ID="ID_284952404" MODIFIED="1635426634349" TEXT="Difficulties to say when system">
 <node CREATED="1635426634520" ID="ID_427781463" MODIFIED="1635426635465" TEXT="exists"/>
 <node CREATED="1635426635757" ID="ID_488381157" MODIFIED="1635426642721" TEXT="cease to exist"/>
 </node>
 </node>
-<node CREATED="1635426668092" ID="ID_533637053" MODIFIED="1635426772818" TEXT="Example">
+<node CREATED="1635426668092" FOLDED="true" ID="ID_533637053" MODIFIED="1635426772818" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1635426647777" ID="ID_1526082503" MODIFIED="1635426653766" TEXT="Did Rome fall in 476?">
 <node CREATED="1635426655174" ID="ID_341534652" MODIFIED="1635426659143" TEXT="Some historians say so"/>
@@ -2366,7 +2365,7 @@
 </node>
 </node>
 <node CREATED="1635426790496" ID="ID_1954561749" MODIFIED="1635426796053" TEXT="Depends how you define the identity of a system"/>
-<node CREATED="1635426801909" ID="ID_1265737161" MODIFIED="1635426817820" TEXT=" Definition of some">
+<node CREATED="1635426801909" FOLDED="true" ID="ID_1265737161" MODIFIED="1635426817820" TEXT=" Definition of some">
 <node CREATED="1635426818015" ID="ID_531257985" MODIFIED="1635426821164" TEXT="Many discussions about it"/>
 <node CREATED="1635426822352" ID="ID_243491332" MODIFIED="1635426855494" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -2377,7 +2376,7 @@
 <node CREATED="1635426850065" ID="ID_996251098" MODIFIED="1635426853636" TEXT="... not only one"/>
 </node>
 </node>
-<node CREATED="1635426880704" ID="ID_83290419" MODIFIED="1635426883468" TEXT="Is it same letter?">
+<node CREATED="1635426880704" FOLDED="true" ID="ID_83290419" MODIFIED="1635426883468" TEXT="Is it same letter?">
 <node CREATED="1635426914000" ID="ID_1345438039" MODIFIED="1635426918619" TEXT="img">
 <icon BUILTIN="licq"/>
 <node CREATED="1635426919913" ID="ID_704465679" MODIFIED="1635426942365">
@@ -2388,8 +2387,7 @@
   <body>
     <img src="same_letter.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1635426944359" ID="ID_1711862303" MODIFIED="1635426952668" TEXT="If yes, changed them in canonical form"/>
@@ -2406,34 +2404,33 @@
   <body>
     <img src="same_letter_2.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1635427078191" ID="ID_1061042392" MODIFIED="1635427079251" TEXT="Deep problem ">
+<node CREATED="1635427078191" FOLDED="true" ID="ID_1061042392" MODIFIED="1635427079251" TEXT="Deep problem ">
 <node CREATED="1635427079824" ID="ID_1671951920" MODIFIED="1635427088049" TEXT="Is everybody speaking about &quot;some&quot; kind of &quot;same&quot;?"/>
 </node>
-<node CREATED="1635427093030" ID="ID_1865998716" MODIFIED="1635427102403" TEXT="Different is most fundamental in general system thinking">
+<node CREATED="1635427093030" FOLDED="true" ID="ID_1865998716" MODIFIED="1635427102403" TEXT="Different is most fundamental in general system thinking">
 <node CREATED="1635427107677" ID="ID_855947419" MODIFIED="1635427110076" TEXT="Most difficult concept"/>
 </node>
 <node CREATED="1635427119615" ID="ID_394979563" MODIFIED="1635427133126" TEXT="Only can identity &quot;perfectly&quot; a system"/>
-<node CREATED="1635427152768" ID="ID_1981279944" MODIFIED="1635427153628" TEXT="... if">
+<node CREATED="1635427152768" FOLDED="true" ID="ID_1981279944" MODIFIED="1635427153628" TEXT="... if">
 <node CREATED="1635427154103" ID="ID_1999920743" MODIFIED="1635427155003" TEXT="closed"/>
 <node CREATED="1635427155265" ID="ID_1184602273" MODIFIED="1635427157868" TEXT="self-determined"/>
 </node>
-<node CREATED="1635427201716" ID="ID_238940542" MODIFIED="1635427213502" TEXT="Need to observe behavior on long period of time">
+<node CREATED="1635427201716" FOLDED="true" ID="ID_238940542" MODIFIED="1635427213502" TEXT="Need to observe behavior on long period of time">
 <node CREATED="1635427215723" ID="ID_1085364659" MODIFIED="1635427220785" TEXT="How long depends"/>
 <node CREATED="1635427221086" ID="ID_1895483193" MODIFIED="1635427224682" TEXT="... of consequence of a mistake"/>
 </node>
 <node CREATED="1635427226662" ID="ID_684442815" MODIFIED="1635427234505" TEXT="Identity will depend of input of system"/>
 <node CREATED="1635427267207" ID="ID_1357429253" MODIFIED="1635427276340" TEXT="System survive if it is built in such a way"/>
-<node CREATED="1635427276678" ID="ID_1993082712" MODIFIED="1635427284202" TEXT="... that all identifying properties are stable">
+<node CREATED="1635427276678" FOLDED="true" ID="ID_1993082712" MODIFIED="1635427284202" TEXT="... that all identifying properties are stable">
 <node CREATED="1635427287086" ID="ID_260882138" MODIFIED="1635427290098" TEXT="&quot;build such a way&quot;"/>
 <node CREATED="1635427290430" ID="ID_1803990186" MODIFIED="1635427299505" TEXT="&quot;Law of nature&quot; (part of any system)"/>
 <node CREATED="1635427302608" ID="ID_1945996482" MODIFIED="1635427318156" TEXT="&quot;Special system law&quot; (structure of that particular system)"/>
 </node>
-<node CREATED="1635427351214" ID="ID_662841636" MODIFIED="1635427356518" TEXT="General problem of maintaining identity">
+<node CREATED="1635427351214" FOLDED="true" ID="ID_662841636" MODIFIED="1635427356518" TEXT="General problem of maintaining identity">
 <node CREATED="1635427359284" ID="ID_1271645471" MODIFIED="1635427363888">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2442,11 +2439,10 @@
   <body>
     <img src="general_problem_maintaining_identity.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1635427375760" ID="ID_1576060451" MODIFIED="1635427380554" TEXT="Question of survival depends of">
+<node CREATED="1635427375760" FOLDED="true" ID="ID_1576060451" MODIFIED="1635427380554" TEXT="Question of survival depends of">
 <node CREATED="1635427382310" ID="ID_851565953" MODIFIED="1635427417626" TEXT="What the environment does">
 <icon BUILTIN="full-1"/>
 </node>
@@ -2463,6 +2459,142 @@
 </node>
 <node CREATED="1635427423407" ID="ID_1275612574" MODIFIED="1635427428647" TEXT=" Regulation and Adaptation">
 <icon BUILTIN="full-5"/>
+<node CREATED="1635781152047" ID="ID_1292399910" MODIFIED="1635781156941" TEXT="Where do systems come from?"/>
+<node CREATED="1635781158640" ID="ID_778633945" MODIFIED="1635781161996" TEXT="When system fail to survive">
+<node CREATED="1635781162385" ID="ID_1335770345" MODIFIED="1635781166618" TEXT="Sometimes create another"/>
+<node CREATED="1635781167008" ID="ID_492140652" MODIFIED="1635781171148" TEXT="Sometimes not replaced"/>
+</node>
+<node CREATED="1635781173919" ID="ID_660976032" MODIFIED="1635781194197" TEXT="Will be there less and less systems?">
+<node CREATED="1635781197239" ID="ID_1158784789" MODIFIED="1635781201020" TEXT="Not if there are source"/>
+<node CREATED="1635781201352" ID="ID_886493034" MODIFIED="1635781206332" TEXT="... of new transformations"/>
+</node>
+<node CREATED="1635781211152" ID="ID_1037769039" MODIFIED="1635781221378" TEXT="Where does transformation come from?">
+<node CREATED="1635781224062" ID="ID_273198709" MODIFIED="1635781227755" TEXT="Where is it in systems?"/>
+<node CREATED="1635781233543" ID="ID_1808186273" MODIFIED="1635781236179" TEXT="We don&apos;t know"/>
+<node CREATED="1635781236487" ID="ID_1030849083" MODIFIED="1635781241627" TEXT="In white box, it&apos;s the program">
+<node CREATED="1635781244160" ID="ID_744022548" MODIFIED="1635781248627" TEXT="Program change itself"/>
+</node>
+</node>
+<node CREATED="1635781252679" ID="ID_1618172119" MODIFIED="1635781254739" TEXT="Computer program">
+<node CREATED="1635781254903" ID="ID_1528581098" MODIFIED="1635781259427" TEXT="Hardware">
+<node CREATED="1635781260479" ID="ID_857607830" MODIFIED="1635781262353" TEXT="Law of nature"/>
+</node>
+<node CREATED="1635781265239" ID="ID_1639823373" MODIFIED="1635781266227" TEXT="Program">
+<node CREATED="1635781266415" ID="ID_854167600" MODIFIED="1635781268267" TEXT="Interesting part"/>
+<node CREATED="1635781272806" ID="ID_1247215398" MODIFIED="1635781275956" TEXT="Theater play"/>
+<node CREATED="1635781276256" ID="ID_914452368" MODIFIED="1635781279803" TEXT="Not stage management"/>
+</node>
+</node>
+<node CREATED="1635781290311" ID="ID_1488020498" MODIFIED="1635781297507" TEXT="Till now assume transformation is fixed">
+<node CREATED="1635781298544" ID="ID_580134084" MODIFIED="1635781307619" TEXT="Principle of indifference to transformation"/>
+<node CREATED="1635781308038" ID="ID_830505126" MODIFIED="1635781321601" TEXT="Possibility of change in the transformation itself"/>
+</node>
+<node CREATED="1635781324214" ID="ID_1390815935" MODIFIED="1635781330291" TEXT="The Law of Effects">
+<node COLOR="#338800" CREATED="1635781334023" ID="ID_105339825" MODIFIED="1635781346832" TEXT="Small change in structure usually lead to small changes in behaviors">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#338800" CREATED="1635781351006" ID="ID_1112560986" MODIFIED="1635781364742" TEXT="Small changes in the white box usually lead to small changes in the black box">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#338800" CREATED="1635781473094" ID="ID_1859702849" MODIFIED="1635781486758" TEXT="Small changes in behavior will usually be found to result from small changes in structure">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1635781375923" ID="ID_1856218921" MODIFIED="1635781381082" TEXT="Experience with law of effects">
+<node CREATED="1635781381238" ID="ID_450614091" MODIFIED="1635781391179" TEXT="Tendency to to partition systems into part">
+<node CREATED="1635781391382" ID="ID_785957252" MODIFIED="1635781392331" TEXT="fixed"/>
+<node CREATED="1635781392606" ID="ID_1377367784" MODIFIED="1635781393907" TEXT="variables"/>
+</node>
+<node CREATED="1635781401774" ID="ID_1611315119" MODIFIED="1635781411563" TEXT="Fixed part (&quot;structured&quot;) are source of behaviors"/>
+</node>
+<node CREATED="1635781419311" ID="ID_910070094" MODIFIED="1635781432858" TEXT="Completing structural view is the behavioral view">
+<node CREATED="1635781436518" ID="ID_258696888" MODIFIED="1635781447658" TEXT="Only way we know structure is to observe behavior">
+<node CREATED="1635781455158" ID="ID_1969492892" MODIFIED="1635781457920" TEXT="Law of Effects"/>
+</node>
+</node>
+<node CREATED="1635781496502" ID="ID_919665725" MODIFIED="1635781503865" TEXT="Two stances are source of scientific controversy">
+<node CREATED="1635781504094" ID="ID_359958070" MODIFIED="1635781507757" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1635781508622" ID="ID_1995106946" MODIFIED="1635781510874" TEXT="Biology">
+<node CREATED="1635781511061" ID="ID_709136697" MODIFIED="1635781518122" TEXT="Anatomists VS ethologists"/>
+<node CREATED="1635781519125" ID="ID_832674150" MODIFIED="1635781530850" TEXT="Molecular biologists VS systemtists"/>
+</node>
+<node CREATED="1635781532334" ID="ID_94668590" MODIFIED="1635781533658" TEXT="Physic">
+<node CREATED="1635781533942" ID="ID_757599637" MODIFIED="1635781547707" TEXT="Mechanic VS thermodynamics"/>
+</node>
+<node CREATED="1635781549220" ID="ID_1830323325" MODIFIED="1635781555761" TEXT="Psychology">
+<node CREATED="1635781557206" ID="ID_1837775882" MODIFIED="1635781563396" TEXT="Physiologist VS behaviorists"/>
+</node>
+<node CREATED="1635781599717" ID="ID_1353628727" MODIFIED="1635781600993" TEXT="Art">
+<node CREATED="1635781601165" ID="ID_592078314" MODIFIED="1635781604631" TEXT="Linear VS painterly"/>
+</node>
+</node>
+<node CREATED="1635781610541" ID="ID_1398617081" MODIFIED="1635781619041" TEXT="... but complementary ways of looking at the world!"/>
+</node>
+<node CREATED="1635781627557" ID="ID_1140435691" MODIFIED="1635781637257" TEXT="Tools we can use">
+<node CREATED="1635781637445" ID="ID_937305939" MODIFIED="1635781642328" TEXT="&quot;Adaptation&quot;"/>
+<node CREATED="1635781642653" ID="ID_1472300580" MODIFIED="1635781647169" TEXT="&quot;Regulation&quot;"/>
+<node CREATED="1635781647525" ID="ID_786068884" MODIFIED="1635781651961" TEXT="&quot;Failing to survive&quot;"/>
+</node>
+<node CREATED="1635781652692" ID="ID_1881084218" MODIFIED="1635781656010" TEXT="... but don&apos;t exist">
+<node CREATED="1635781661181" ID="ID_1013193477" MODIFIED="1635781670967" TEXT="Suppose perfect partition between">
+<node CREATED="1635781671173" ID="ID_1247991401" MODIFIED="1635781673041" TEXT="behavior"/>
+<node CREATED="1635781673319" ID="ID_569492251" MODIFIED="1635781675056" TEXT="structure"/>
+</node>
+<node CREATED="1635781677789" ID="ID_426046640" MODIFIED="1635781680193" TEXT="... which is wrong"/>
+<node CREATED="1635781680861" ID="ID_148198679" MODIFIED="1635781691169" TEXT="No absolute way to distinguish between the 3"/>
+</node>
+</node>
+<node CREATED="1635781706797" ID="ID_1332898795" MODIFIED="1635781711086" TEXT="The Used Car Law">
+<icon BUILTIN="full-6"/>
+<node CREATED="1635781713421" ID="ID_31376660" MODIFIED="1635781715665" TEXT="Car owner">
+<node CREATED="1635781715820" ID="ID_430026138" MODIFIED="1635781717281" TEXT="Regulation">
+<node CREATED="1635781724691" ID="ID_1302417330" MODIFIED="1635781727072" TEXT="Oil"/>
+<node CREATED="1635781727444" ID="ID_377716659" MODIFIED="1635781730233" TEXT="Gas"/>
+</node>
+<node CREATED="1635781730844" ID="ID_556789141" MODIFIED="1635781733985" TEXT="Adaptation">
+<node CREATED="1635781734316" ID="ID_1940954851" MODIFIED="1635781737377" TEXT="Changing engine"/>
+</node>
+<node CREATED="1635781738228" ID="ID_10593265" MODIFIED="1635781749481" TEXT="Cost of regulation when to the point"/>
+<node CREATED="1635781749789" ID="ID_1119219019" MODIFIED="1635781759096" TEXT="... when adaptation was justified"/>
+<node CREATED="1635781769015" ID="ID_488761182" MODIFIED="1635781780616" TEXT="By adopting, cost of regulation reduced"/>
+<node CREATED="1635781786521" ID="ID_477426603" MODIFIED="1635781794168" TEXT="Long cycle before change of identity">
+<node CREATED="1635781794331" ID="ID_798724578" MODIFIED="1635781798024" TEXT="Buying a new car"/>
+</node>
+</node>
+<node CREATED="1635781804020" ID="ID_807562756" MODIFIED="1635781806192" TEXT="The used car law">
+<node COLOR="#338800" CREATED="1635781806572" ID="ID_762982837" MODIFIED="1635781820435" TEXT="A system that is diong a good job of regulation need not adapt">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#338800" CREATED="1635781821588" ID="ID_1287296255" MODIFIED="1635781838243" TEXT="A system may adapt in order to simplify its job of regulating">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1635781849163" ID="ID_1719458777" MODIFIED="1635781851192" TEXT="Ego">
+<node CREATED="1635781921715" ID="ID_1808718408" MODIFIED="1635781935312" TEXT="Regulating to avoid adaptation from outside"/>
+<node CREATED="1635781935754" ID="ID_1706174586" MODIFIED="1635781944584" TEXT="Regulating to preserve identity from inside">
+<node CREATED="1635781946588" ID="ID_407158129" MODIFIED="1635781947959" TEXT="to survive"/>
+</node>
+</node>
+<node CREATED="1635781952147" ID="ID_658238987" MODIFIED="1635781959871" TEXT="More effective regulation system"/>
+<node CREATED="1635781960371" ID="ID_880302071" MODIFIED="1635781967535" TEXT="... less likely it is to change an offending behavior">
+<node CREATED="1635781971683" ID="ID_847451912" MODIFIED="1635781978734" TEXT="Need to change his methods of identification"/>
+<node CREATED="1635781979155" ID="ID_857413665" MODIFIED="1635781993967" TEXT="Substencially  increase pain"/>
+</node>
+<node CREATED="1635781998170" ID="ID_1112384096" MODIFIED="1635782003422" TEXT="Name qualify arbitrary systems"/>
+<node CREATED="1635782004075" ID="ID_429081974" MODIFIED="1635782009599" TEXT="... but only its shell"/>
+<node CREATED="1635782010139" ID="ID_1255669190" MODIFIED="1635782019143" TEXT="Need ot use identifying methods"/>
+<node CREATED="1635782019595" ID="ID_1340051318" MODIFIED="1635782025463" TEXT="... focusing on what interests us"/>
+<node CREATED="1635782028347" ID="ID_1879985704" MODIFIED="1635782031831" TEXT="Rephrase of used car law">
+<node CREATED="1635782032139" ID="ID_227200417" MODIFIED="1635782051119" TEXT="A way of looking at the world">
+<node CREATED="1635782051314" ID="ID_820906757" MODIFIED="1635782062398" TEXT="... not putting execessive stress on an observer"/>
+<node CREATED="1635782062899" ID="ID_1176235762" MODIFIED="1635782068670" TEXT="... need not be changed"/>
+</node>
+<node CREATED="1635782073626" ID="ID_1834868709" MODIFIED="1635782085399" TEXT="A way of looking at the world">
+<node CREATED="1635782085577" ID="ID_692071330" MODIFIED="1635782087886" TEXT="... may be changed"/>
+<node CREATED="1635782092674" ID="ID_1853221230" MODIFIED="1635782097759" TEXT="... to reduce stress on an observer"/>
+</node>
+</node>
 </node>
 </node>
 </node>
