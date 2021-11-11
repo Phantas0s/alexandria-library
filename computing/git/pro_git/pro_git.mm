@@ -6,7 +6,7 @@
 </node>
 <node CREATED="1629647784616" ID="ID_1935603771" MODIFIED="1629647808299" POSITION="right" TEXT=" Getting Started">
 <icon BUILTIN="full-1"/>
-<node CREATED="1629647823248" ID="ID_1521125993" MODIFIED="1629648446740" TEXT="About Version Control">
+<node CREATED="1629647823248" FOLDED="true" ID="ID_1521125993" MODIFIED="1629648446740" TEXT="About Version Control">
 <icon BUILTIN="full-1"/>
 <node CREATED="1629647841720" ID="ID_1324103472" MODIFIED="1629647845507" TEXT="Local Version Control Systems">
 <node CREATED="1629647866000" ID="ID_811022301" MODIFIED="1629647867635" TEXT="VCS"/>
@@ -29,7 +29,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1629647827903" ID="ID_41153443" MODIFIED="1629648447470" TEXT="A Short History of Git">
+<node CREATED="1629647827903" FOLDED="true" ID="ID_41153443" MODIFIED="1629648447470" TEXT="A Short History of Git">
 <icon BUILTIN="full-2"/>
 <node CREATED="1629647979375" ID="ID_1143164663" MODIFIED="1629648010788" TEXT="Come from Linux abandoning BitKeeper"/>
 <node CREATED="1629647995103" ID="ID_1180252161" MODIFIED="1629648007579" TEXT="Used experience with BitKeeper to create git"/>
@@ -44,7 +44,7 @@
 <node CREATED="1629648054423" ID="ID_563117957" MODIFIED="1629648066955" TEXT="Able to handle large projects (speed / data size)"/>
 </node>
 </node>
-<node CREATED="1629648077799" ID="ID_891305550" MODIFIED="1629648448285" TEXT="Git Basics">
+<node CREATED="1629648077799" FOLDED="true" ID="ID_891305550" MODIFIED="1629648448285" TEXT="Git Basics">
 <icon BUILTIN="full-3"/>
 <node CREATED="1629648080151" FOLDED="true" ID="ID_940869779" MODIFIED="1629648442621" TEXT="Snapshots, Not Differences">
 <icon BUILTIN="full-1"/>
@@ -88,7 +88,7 @@
 <node CREATED="1629648430719" ID="ID_1877714852" MODIFIED="1629648443170" TEXT="Nearly Every Operation is Local">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1629648436199" FOLDED="true" ID="ID_334993928" MODIFIED="1629648444125" TEXT="Git Has Integrity">
+<node CREATED="1629648436199" ID="ID_334993928" MODIFIED="1629648444125" TEXT="Git Has Integrity">
 <icon BUILTIN="full-3"/>
 <node CREATED="1629648460279" ID="ID_1016183278" MODIFIED="1629648465091" TEXT="Everything in git is check-summed"/>
 <node CREATED="1629648466433" ID="ID_1268445486" MODIFIED="1629648468451" TEXT="... before stored"/>
@@ -110,27 +110,30 @@
 </node>
 <node CREATED="1629648543823" ID="ID_1508323334" MODIFIED="1629648547755" TEXT="... or file corruption"/>
 </node>
-<node CREATED="1629648605535" FOLDED="true" ID="ID_1684798572" MODIFIED="1629648670556" TEXT="Git Generally Only Adds Data">
+<node CREATED="1629648605535" ID="ID_1684798572" MODIFIED="1629648670556" TEXT="Git Generally Only Adds Data">
 <icon BUILTIN="full-4"/>
 <node CREATED="1629648619831" ID="ID_1156438225" MODIFIED="1629648631507" TEXT="Difficult to have something undoable"/>
 <node CREATED="1629648631839" ID="ID_1775914034" MODIFIED="1629648635387" TEXT="... or to erase some data"/>
 <node CREATED="1629648644623" ID="ID_338456747" MODIFIED="1629648648995" TEXT="Make easier to experiment without dangers"/>
 </node>
-<node CREATED="1629648653039" FOLDED="true" ID="ID_901405979" MODIFIED="1629648661341" TEXT="The Three states">
+<node CREATED="1629648653039" ID="ID_901405979" MODIFIED="1629648661341" TEXT="The Three states">
 <icon BUILTIN="full-5"/>
-<node CREATED="1629648678278" ID="ID_702281409" MODIFIED="1629648681067" TEXT="Three states">
-<node CREATED="1629648681262" ID="ID_1435509081" MODIFIED="1629648685163" TEXT="Commited">
-<node CREATED="1629648700751" ID="ID_968152080" MODIFIED="1629648704819" TEXT="Data stored in local database"/>
-</node>
-<node CREATED="1629648685463" ID="ID_1628640181" MODIFIED="1629648693275" TEXT="Modified">
+<node CREATED="1629648678278" FOLDED="true" ID="ID_702281409" MODIFIED="1629648681067" TEXT="Three states">
+<node CREATED="1629648685463" ID="ID_1628640181" MODIFIED="1636271332913" TEXT="Modified">
+<icon BUILTIN="full-1"/>
 <node CREATED="1629648709286" ID="ID_252370770" MODIFIED="1629648715995" TEXT="File changed but not in db"/>
 </node>
-<node CREATED="1629648686919" ID="ID_1205395842" MODIFIED="1629648722051" TEXT="Staged">
+<node CREATED="1629648686919" ID="ID_1205395842" MODIFIED="1636271333494" TEXT="Staged">
+<icon BUILTIN="full-2"/>
 <node CREATED="1629648724967" ID="ID_1073088783" MODIFIED="1629648733515" TEXT="File marked as modified"/>
 <node CREATED="1629648733874" ID="ID_1790508187" MODIFIED="1629648739227" TEXT="... and go into next commit snapshot"/>
 </node>
+<node CREATED="1629648681262" ID="ID_1435509081" MODIFIED="1636271333993" TEXT="Commited">
+<icon BUILTIN="full-3"/>
+<node CREATED="1629648700751" ID="ID_968152080" MODIFIED="1629648704819" TEXT="Data stored in local database"/>
 </node>
-<node CREATED="1629648745495" ID="ID_238027924" MODIFIED="1629648749421" TEXT="Illustration">
+</node>
+<node CREATED="1629648745495" FOLDED="true" ID="ID_238027924" MODIFIED="1629648749421" TEXT="Illustration">
 <icon BUILTIN="licq"/>
 <node CREATED="1629648773447" ID="ID_844443348" MODIFIED="1629648787933">
 <richcontent TYPE="NODE"><html>
@@ -145,7 +148,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1629648864959" ID="ID_216862527" MODIFIED="1629648868949" TEXT="The Command Line">
+<node CREATED="1629648864959" FOLDED="true" ID="ID_216862527" MODIFIED="1629648868949" TEXT="The Command Line">
 <icon BUILTIN="full-4"/>
 <node CREATED="1629648884286" ID="ID_1515698505" MODIFIED="1629648888883" TEXT="Can do everything with the CLI"/>
 <node CREATED="1629648889183" ID="ID_598856059" MODIFIED="1629648892539" TEXT="... not with the GUIs"/>
@@ -156,7 +159,7 @@
 <node CREATED="1629648881847" ID="ID_172215320" MODIFIED="1629648911181" TEXT="Installing Git">
 <icon BUILTIN="full-5"/>
 </node>
-<node CREATED="1629648928391" ID="ID_720830451" MODIFIED="1629648932660" TEXT="First Time Git Setup">
+<node CREATED="1629648928391" FOLDED="true" ID="ID_720830451" MODIFIED="1629648932660" TEXT="First Time Git Setup">
 <icon BUILTIN="full-6"/>
 <node CREATED="1629648947767" ID="ID_783852811" MODIFIED="1630420192641" TEXT="Config tool">
 <icon BUILTIN="full-1"/>
@@ -218,7 +221,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1629649850007" ID="ID_1792594534" MODIFIED="1629649852854" TEXT="Getting Help">
+<node CREATED="1629649850007" FOLDED="true" ID="ID_1792594534" MODIFIED="1629649852854" TEXT="Getting Help">
 <icon BUILTIN="full-7"/>
 <node CREATED="1629649920879" ID="ID_1636278477" MODIFIED="1629649931666" TEXT="Manpage">
 <node CREATED="1629649853439" ID="ID_1074064645" MODIFIED="1629649866256" TEXT="git help &lt;command&gt;">
@@ -257,7 +260,7 @@
 <icon BUILTIN="full-2"/>
 <node CREATED="1629649999031" FOLDED="true" ID="ID_1393346430" MODIFIED="1629650349462" TEXT="Getting a Git Repository">
 <icon BUILTIN="full-1"/>
-<node CREATED="1629650003983" ID="ID_1324472022" MODIFIED="1629650013547" TEXT="Initializing a Repository in an Existing Directory">
+<node CREATED="1629650003983" FOLDED="true" ID="ID_1324472022" MODIFIED="1629650013547" TEXT="Initializing a Repository in an Existing Directory">
 <node CREATED="1629650021863" ID="ID_636065677" MODIFIED="1629650023584" TEXT="git init">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -268,7 +271,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1629650043679" ID="ID_1290024" MODIFIED="1629650049275" TEXT="Cloning an Existing Repository">
+<node CREATED="1629650043679" FOLDED="true" ID="ID_1290024" MODIFIED="1629650049275" TEXT="Cloning an Existing Repository">
 <node CREATED="1629650049543" ID="ID_1898432406" MODIFIED="1629650125132" TEXT="git clone &lt;url&gt;">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -655,7 +658,7 @@
 <node CREATED="1630432100655" ID="ID_451126248" MODIFIED="1630432102691" TEXT="--oneline"/>
 </node>
 </node>
-<node CREATED="1630432167839" FOLDED="true" ID="ID_430086195" MODIFIED="1630432172012" TEXT="Limiting Log Output">
+<node CREATED="1630432167839" ID="ID_430086195" MODIFIED="1630432172012" TEXT="Limiting Log Output">
 <icon BUILTIN="full-1"/>
 <node CREATED="1630503772999" ID="ID_1971968222" MODIFIED="1630503776802" TEXT="Only show a subset of commits"/>
 <node CREATED="1630503779637" ID="ID_169385336" MODIFIED="1630503782752" TEXT="-&lt;number&gt;">
@@ -1055,11 +1058,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1631978887376" FOLDED="true" ID="ID_1918576239" MODIFIED="1631978894604" TEXT="Branches in a Nutshell">
+<node CREATED="1631978887376" ID="ID_1918576239" MODIFIED="1631978894604" TEXT="Branches in a Nutshell">
 <icon BUILTIN="full-1"/>
-<node CREATED="1631979807917" FOLDED="true" ID="ID_788810313" MODIFIED="1631979811900" TEXT="Introduction">
+<node CREATED="1631979807917" ID="ID_788810313" MODIFIED="1631979811900" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
-<node CREATED="1631978944335" ID="ID_852138535" MODIFIED="1631978976906" TEXT="Commit object contains">
+<node CREATED="1631978944335" FOLDED="true" ID="ID_852138535" MODIFIED="1631978976906" TEXT="Commit object contains">
 <node CREATED="1631978947400" ID="ID_492320385" MODIFIED="1631978979531" TEXT="Pointer to the snapshot content staged"/>
 <node CREATED="1631978973112" ID="ID_180567222" MODIFIED="1631978985635" TEXT="Author&apos;s name and email"/>
 <node CREATED="1631978986356" ID="ID_822566988" MODIFIED="1631978988092" TEXT="Message typed"/>
@@ -1068,7 +1071,7 @@
 <node CREATED="1631979018928" ID="ID_1757809142" MODIFIED="1631979025668" TEXT="Multiple for merge of two or more branches"/>
 </node>
 </node>
-<node CREATED="1631979134495" ID="ID_744268279" MODIFIED="1631979161520" TEXT="Example">
+<node CREATED="1631979134495" FOLDED="true" ID="ID_744268279" MODIFIED="1631979161520" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1631979137455" ID="ID_1421745237" MODIFIED="1631979251912" TEXT="1 directory / 3 files"/>
 <node CREATED="1631979150454" ID="ID_1204957376" MODIFIED="1631979253994" TEXT="Stage them all">
@@ -1093,7 +1096,7 @@
 <node CREATED="1631979365117" ID="ID_863883078" MODIFIED="1631979367577" TEXT="... at which blob"/>
 <node CREATED="1631979369606" ID="ID_1205716747" MODIFIED="1631979376802" TEXT="One commit with pointer to that root tree"/>
 </node>
-<node CREATED="1631979391613" FOLDED="true" ID="ID_1715242487" MODIFIED="1631979483860" TEXT="Illustration">
+<node CREATED="1631979391613" ID="ID_1715242487" MODIFIED="1631979483860" TEXT="Illustration">
 <icon BUILTIN="licq"/>
 <node CREATED="1631979485990" ID="ID_169218108" MODIFIED="1631979553568">
 <richcontent TYPE="NODE"><html>
@@ -1107,12 +1110,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1631979700037" ID="ID_1633323672" MODIFIED="1631979715114" TEXT="Branch definition">
+<node CREATED="1631979700037" FOLDED="true" ID="ID_1633323672" MODIFIED="1631979715114" TEXT="Branch definition">
 <node CREATED="1631979702109" ID="ID_273889232" MODIFIED="1631979707817" TEXT="Lightweight movable pointer to a commit"/>
 <node CREATED="1631979724965" ID="ID_163316212" MODIFIED="1631979726793" TEXT="Each commit"/>
 <node CREATED="1631979727101" ID="ID_43391961" MODIFIED="1631979735249" TEXT="... branch pointer moves automatically"/>
 </node>
-<node CREATED="1631979746221" ID="ID_1276394373" MODIFIED="1631979749497" TEXT="Default branch">
+<node CREATED="1631979746221" FOLDED="true" ID="ID_1276394373" MODIFIED="1631979749497" TEXT="Default branch">
 <node CREATED="1631979749668" ID="ID_1507883388" MODIFIED="1631979750506" TEXT="master"/>
 <node CREATED="1631979750949" ID="ID_638102758" MODIFIED="1631979757881" TEXT="Created by default with git init"/>
 <node CREATED="1631979758373" ID="ID_264356341" MODIFIED="1631979762497" TEXT="Doesn&apos;t have any other specificity"/>
@@ -1139,8 +1142,7 @@
   <body>
     <img src="head_pointer.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1631980220970" ID="ID_1619359962" MODIFIED="1631980225972" TEXT="git log --oneline --decorate">
@@ -1191,9 +1193,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1631980616090" FOLDED="true" ID="ID_1086355270" MODIFIED="1631980621038" TEXT="Basic Branching and Merging">
+<node CREATED="1631980616090" ID="ID_1086355270" MODIFIED="1631980621038" TEXT="Basic Branching and Merging">
 <icon BUILTIN="full-2"/>
-<node CREATED="1631980650434" FOLDED="true" ID="ID_191684956" MODIFIED="1631980654554" TEXT="Basic branching">
+<node CREATED="1631980650434" ID="ID_191684956" MODIFIED="1631980654554" TEXT="Basic branching">
 <icon BUILTIN="full-1"/>
 <node CREATED="1631980674858" ID="ID_489113802" MODIFIED="1631980680013" TEXT="Create new branch and switch to it">
 <node CREATED="1631980684450" ID="ID_1133068310" MODIFIED="1631980710210" TEXT="git checkout -b &lt;branch&gt;">
@@ -1206,6 +1208,9 @@
 <node CREATED="1631980702794" ID="ID_1824380136" MODIFIED="1631980708946" TEXT="git checkout &lt;branch&gt;">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+<node CREATED="1636273964956" ID="ID_239300886" LINK="#ID_366554150" MODIFIED="1636274045346" TEXT="git checkout -b &lt;branch&gt; &lt;remote branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1631980811617" ID="ID_478660189" MODIFIED="1631980818109" TEXT="Three branches">
@@ -1235,8 +1240,7 @@
   <body>
     <img src="fast_forward_merge.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1273,8 +1277,7 @@
   <body>
     <img src="three_way_merge_1.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1631981251184" ID="ID_1612317469" MODIFIED="1631981254632">
 <richcontent TYPE="NODE"><html>
@@ -1284,13 +1287,12 @@
   <body>
     <img src="three_way_merge_2.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1631981329823" ID="ID_1015799468" MODIFIED="1631981334822" TEXT="Basic Merge Conflict">
+<node CREATED="1631981329823" FOLDED="true" ID="ID_1015799468" MODIFIED="1631981334822" TEXT="Basic Merge Conflict">
 <icon BUILTIN="full-3"/>
 <node CREATED="1631981341226" ID="ID_897683526" MODIFIED="1631981350844" TEXT="Merging branches don&apos;t go smoothly sometimes"/>
 <node CREATED="1631981355463" ID="ID_1891000076" MODIFIED="1631981371709" TEXT="Example">
@@ -1318,8 +1320,429 @@
 </node>
 <node CREATED="1631981607991" ID="ID_1413621869" MODIFIED="1631981611137" TEXT="Branch Management">
 <icon BUILTIN="full-3"/>
-<node CREATED="1631981615446" ID="ID_1197386285" MODIFIED="1631981624470" TEXT="Introduction">
+<node CREATED="1636271440467" ID="ID_1873290384" MODIFIED="1636271442673" TEXT="git branch">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636271447756" ID="ID_1833669654" MODIFIED="1636271451760" TEXT="Listing of current branch"/>
+<node CREATED="1636271456052" ID="ID_1660352182" MODIFIED="1636271463868" TEXT="Indicate the checked out branch"/>
+</node>
+<node CREATED="1636271473801" ID="ID_1621982419" MODIFIED="1636271479505" TEXT="git branch -v">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636271480918" ID="ID_1269352112" MODIFIED="1636271504651" TEXT="See last commit for each branch"/>
+</node>
+<node CREATED="1636271539085" ID="ID_151819356" MODIFIED="1636271542909" TEXT="git branch --merged">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636271543093" ID="ID_1433737036" MODIFIED="1636271579337" TEXT="Output merged branches"/>
+<node CREATED="1636271553381" ID="ID_709056338" MODIFIED="1636271557097" TEXT="... with the checked out branch"/>
+<node CREATED="1636271600771" ID="ID_1958440676" MODIFIED="1636271606045" TEXT="git branch --no-merged">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1636271721996" ID="ID_885713489" MODIFIED="1636271724145" TEXT="With argument">
+<node CREATED="1636271724484" ID="ID_70614193" MODIFIED="1636271734520" TEXT="Look if the branch was merged with other"/>
+<node CREATED="1636271735012" ID="ID_772954415" MODIFIED="1636271747613" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1636271736306" ID="ID_1067816926" MODIFIED="1636271743222" TEXT="git branch --no-merged my-branch">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1636271624402" ID="ID_751472103" MODIFIED="1636271626877" TEXT="git branch -d">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636271627124" ID="ID_994330637" MODIFIED="1636271632366" TEXT="Delete the branch only if it was merged"/>
+</node>
+<node CREATED="1636271634125" ID="ID_1301862889" MODIFIED="1636271648063" TEXT="git branch -D">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636271636650" ID="ID_34140919" MODIFIED="1636271645963" TEXT="Force delete the branch, even if it wasn&apos;t merged"/>
+</node>
+</node>
+<node CREATED="1636271754062" ID="ID_700586171" MODIFIED="1636271759659" TEXT="Branching Workflows">
+<icon BUILTIN="full-4"/>
+<node CREATED="1636271774625" FOLDED="true" ID="ID_575300107" MODIFIED="1636271778673" TEXT="Long-Running Branches">
+<icon BUILTIN="full-1"/>
+<node CREATED="1636271803422" ID="ID_1050794897" MODIFIED="1636271809296" TEXT="Three-way-merge easy to do"/>
+<node CREATED="1636271810011" FOLDED="true" ID="ID_143883237" MODIFIED="1636271836223" TEXT="Stable branch">
+<node CREATED="1636271836459" ID="ID_931496865" MODIFIED="1636271837748" TEXT="master">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1636271819876" ID="ID_105533045" MODIFIED="1636271852857" TEXT="Other parallel branch">
+<node CREATED="1636271826020" ID="ID_1978768978" MODIFIED="1636271832101" TEXT="develop">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1636271830059" ID="ID_781835489" MODIFIED="1636271831603" TEXT="next">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1636271847593" ID="ID_777536315" MODIFIED="1636271850759" TEXT="... used to test stability"/>
+<node CREATED="1636271858250" ID="ID_1017636646" MODIFIED="1636271868189" TEXT="... when it get stable, merged to stable branch"/>
+<node CREATED="1636271895946" FOLDED="true" ID="ID_600337830" MODIFIED="1636271978004" TEXT="Stability branching silo">
+<icon BUILTIN="licq"/>
+<node CREATED="1636271965460" ID="ID_740240059" MODIFIED="1636271970687">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="stability_branching_silo.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1636272057330" ID="ID_530324189" MODIFIED="1636272063134" TEXT="Branches with different level of stability"/>
+</node>
+<node CREATED="1636272063819" FOLDED="true" ID="ID_1058795614" MODIFIED="1636272066721" TEXT="Topic Branches">
+<icon BUILTIN="full-2"/>
+<node CREATED="1636272073059" ID="ID_271977727" MODIFIED="1636272077382" TEXT="Branch for particular feature"/>
+<node CREATED="1636272198423" ID="ID_762303551" MODIFIED="1636272250380" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1636272199995" FOLDED="true" ID="ID_930158121" MODIFIED="1636272243299" TEXT="Initial state">
+<icon BUILTIN="licq"/>
+<node CREATED="1636272243699" ID="ID_309946758" MODIFIED="1636272247397">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="topic_branches_initial_state.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1636272219450" FOLDED="true" ID="ID_898342358" MODIFIED="1636272221335" TEXT="Decide that">
+<node CREATED="1636272253138" ID="ID_605585613" MODIFIED="1636272385099" TEXT="iss91v2 is best solution">
+<icon BUILTIN="full-1"/>
+<node CREATED="1636272286890" ID="ID_416843963" MODIFIED="1636272386487" TEXT="Throw away iss91"/>
+</node>
+<node CREATED="1636272262062" ID="ID_689059938" MODIFIED="1636272267963" TEXT="dumb idea is genius">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1636272301755" ID="ID_836256677" MODIFIED="1636272390102" TEXT="Merge iss91v2 and dumb idea">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1636272317411" FOLDED="true" ID="ID_372594845" MODIFIED="1636272345910" TEXT="Result">
+<icon BUILTIN="licq"/>
+<node CREATED="1636272407587" ID="ID_1851314570" MODIFIED="1636272410139">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="topic_branches_result.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1636272419264" FOLDED="true" ID="ID_366554150" MODIFIED="1636272425293" TEXT="Remote Branches">
+<icon BUILTIN="full-3"/>
+<node CREATED="1636273014496" FOLDED="true" ID="ID_1595656837" MODIFIED="1636273018417" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
+<node CREATED="1636272436362" ID="ID_799181491" MODIFIED="1636273020959" TEXT="References (pointers) in your remote repositories">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636272450744" ID="ID_937875654" MODIFIED="1636272452669" TEXT="branches"/>
+<node CREATED="1636272453058" ID="ID_457678583" MODIFIED="1636272453838" TEXT="tags"/>
+<node CREATED="1636272454200" ID="ID_1099080018" MODIFIED="1636272454667" TEXT="..."/>
+</node>
+<node CREATED="1636272462378" ID="ID_510273989" MODIFIED="1636273020959" TEXT="Full list of remote references">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636272468378" ID="ID_1868451913" MODIFIED="1636272473602" TEXT="git ls-remote &lt;remote&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1636272474618" ID="ID_846288415" MODIFIED="1636272478770" TEXT="git remote show &lt;remote&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1636272619754" ID="ID_500592730" MODIFIED="1636273020959" TEXT="Remote-tracking branches">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636272625073" ID="ID_1359044531" MODIFIED="1636272629430" TEXT="Reference to state of remote branches"/>
+<node CREATED="1636272630458" ID="ID_357013800" MODIFIED="1636272637126" TEXT="Local references you can&apos;t move">
+<node CREATED="1636272642721" ID="ID_668664638" MODIFIED="1636272645542" TEXT="Git do it for you"/>
+<node CREATED="1636272645944" ID="ID_1587339656" MODIFIED="1636272651028" TEXT="... each time you do network communication"/>
+<node CREATED="1636272653413" ID="ID_1829741953" MODIFIED="1636272689337" TEXT="... to make sure they accurately represent their states"/>
+</node>
+<node CREATED="1636272700657" ID="ID_1005846347" MODIFIED="1636274063035" TEXT="Syntax">
+<node CREATED="1636272702641" ID="ID_1091718945" MODIFIED="1636272709169" TEXT="&lt;remote&gt;/&lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1636272714057" ID="ID_1230353810" MODIFIED="1636272727083" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1636272715345" ID="ID_1740716255" MODIFIED="1636272721474" TEXT="master branch on origin remote"/>
+<node CREATED="1636272721874" ID="ID_1037531622" MODIFIED="1636272802413" TEXT="origin/master"/>
+<node CREATED="1636272838336" ID="ID_1325702237" MODIFIED="1636272843349" TEXT="&quot;origin&quot; name is nothing special"/>
+</node>
+<node CREATED="1636272851681" ID="ID_301641673" MODIFIED="1636272856608" TEXT="git clone -o &lt;remote&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636272857087" ID="ID_1004565426" MODIFIED="1636272864695" TEXT="Name the remote &lt;remote&gt;"/>
+<node CREATED="1636272865066" ID="ID_388723112" MODIFIED="1636272870994" TEXT="... instead of &quot;origin&quot; by default"/>
+</node>
+<node CREATED="1636272885460" ID="ID_717809164" MODIFIED="1636272889549" TEXT="Synchronize your work">
+<node CREATED="1636272889736" ID="ID_857976426" MODIFIED="1636272893961" TEXT="git fetch origin">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1636272897234" ID="ID_1260096293" MODIFIED="1636272906038" TEXT="Look up the remote &quot;origin&quot;">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1636272906480" ID="ID_702066510" MODIFIED="1636272914869" TEXT="Fetch any data local doesn&apos;t have">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1636272917361" ID="ID_1506341244" MODIFIED="1636272926630" TEXT="Update your local database">
+<icon BUILTIN="full-3"/>
+<node CREATED="1636272927016" ID="ID_346712757" MODIFIED="1636272930849" TEXT="Move origin/master"/>
+<node CREATED="1636272931457" ID="ID_1951468170" MODIFIED="1636272936852" TEXT="... to a new updated position"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1636273023579" FOLDED="true" ID="ID_355866254" MODIFIED="1636273025843" TEXT="Pushing">
+<icon BUILTIN="full-1"/>
+<node CREATED="1636273103240" ID="ID_1940520780" MODIFIED="1636273109452" TEXT="Push to synchronize remote branch"/>
+<node CREATED="1636273123838" ID="ID_1939774820" MODIFIED="1636273133905" TEXT="git push &lt;remote&gt; &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636273147876" ID="ID_1080446114" MODIFIED="1636273346281" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1636273150604" ID="ID_1132259538" MODIFIED="1636273155987" TEXT="git push origin serverfix"/>
+<node CREATED="1636273156368" ID="ID_1710489539" MODIFIED="1636273159052" TEXT="Bit of a shortcut">
+<node CREATED="1636273160644" ID="ID_1216720479" MODIFIED="1636273167389" TEXT="Expand serverfix"/>
+<node CREATED="1636273167888" ID="ID_813327693" MODIFIED="1636273178911" TEXT="refs/heads/serverfix:refs/heads/serverfix">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1636273201136" ID="ID_791422713" MODIFIED="1636273218019" TEXT="Means &quot;take my serverfix local branch and push it to update the remote&apos;s serverfix branch&quot;"/>
+<node CREATED="1636273247160" ID="ID_1360149017" MODIFIED="1636273253237" TEXT="Can leave of refs/heads">
+<node CREATED="1636273253484" ID="ID_1255287928" MODIFIED="1636273259929" TEXT="git push origin serverfix:serverfix">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1636273270868" ID="ID_1824097593" MODIFIED="1636273295874" TEXT="Can use this format to push local branch"/>
+<node CREATED="1636273296990" ID="ID_470235728" MODIFIED="1636273301812" TEXT="... to remote branch with different name"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1636273857765" ID="ID_1059517626" MODIFIED="1636273861862" TEXT="git fetch &lt;remote&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636273864085" ID="ID_1477658487" MODIFIED="1636273871685" TEXT="Brings new remote-tracking branches"/>
+<node CREATED="1636273875277" ID="ID_1553163040" MODIFIED="1636273883026" TEXT="Don&apos;t create automatically local branches"/>
+<node CREATED="1636273888363" ID="ID_630860678" MODIFIED="1636273922036" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1636273890135" ID="ID_1540450681" MODIFIED="1636273896120" TEXT="git fetch origin"/>
+<node CREATED="1636273896510" ID="ID_385633583" MODIFIED="1636273904340" TEXT="Create a new branch serverfix -&gt; origin/serverfix"/>
+<node CREATED="1636273906482" ID="ID_1430640221" MODIFIED="1636273916761" TEXT="Doesn&apos;t create serverfix branch"/>
+<node CREATED="1636273917069" ID="ID_218926896" MODIFIED="1636273933922" TEXT="... but origin/serverfix pointer"/>
+</node>
+</node>
+</node>
+<node CREATED="1636273428939" FOLDED="true" ID="ID_732073328" MODIFIED="1636273431901" TEXT="Tracking Branches">
+<icon BUILTIN="full-2"/>
+<node CREATED="1636273468415" ID="ID_1594115301" MODIFIED="1636273501153" TEXT="Checking out local branch from remote-tracking branch">
+<node CREATED="1636273477382" ID="ID_1033747494" MODIFIED="1636273480491" TEXT="Create a tracking branch"/>
+<node CREATED="1636273481739" ID="ID_777715903" MODIFIED="1636273491699" TEXT="Branch it tracks called an &quot;upstream branch&quot;"/>
+</node>
+<node CREATED="1636273506239" ID="ID_547364706" MODIFIED="1636273519547" TEXT="Branch with direct relationship to remote branch"/>
+<node CREATED="1636273528147" ID="ID_746319648" MODIFIED="1636273536538" TEXT="git pull on tracking branch">
+<node CREATED="1636273538331" ID="ID_1761768223" MODIFIED="1636273547393" TEXT="Know automatically what server to fetch from"/>
+<node CREATED="1636273548551" ID="ID_410172865" MODIFIED="1636273555667" TEXT="... and which branch to merge in"/>
+</node>
+<node CREATED="1636273625430" ID="ID_1234488860" MODIFIED="1636273745211" TEXT="Create tracking branch">
+<node CREATED="1636273629197" ID="ID_1233054849" MODIFIED="1636273644986" TEXT="git checkout -b &lt;branch&gt; &lt;remote&gt;/&lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1636273645810" ID="ID_1065852800" MODIFIED="1636273661189" TEXT="git checkout --track &lt;remote&gt;/&lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1636273801485" ID="ID_1865947255" MODIFIED="1636273808925" TEXT="git checkout &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636273811957" ID="ID_1888815073" MODIFIED="1636273815218" TEXT="If branch doesn&apos;t exist"/>
+<node CREATED="1636273816093" ID="ID_1548870466" MODIFIED="1636273822441" TEXT="If it exactly match a name on only one remote"/>
+<node CREATED="1636273825437" ID="ID_652003023" MODIFIED="1636273834506" TEXT="... create a tracking branch!"/>
+</node>
+</node>
+<node CREATED="1636274302628" ID="ID_1518841095" MODIFIED="1636274309816" TEXT="Change upstream branch you&apos;re tracking">
+<node CREATED="1636274312178" ID="ID_749248400" MODIFIED="1636274352953" TEXT="git branch -u &lt;remote branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1636274334980" ID="ID_1134714220" MODIFIED="1636274351492" TEXT="git branch --set-upstream-to &lt;remote branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1636274360867" ID="ID_963413632" MODIFIED="1636274364320" TEXT="Upstream shortcut">
+<node CREATED="1636274368516" ID="ID_192496913" MODIFIED="1636274377996" TEXT="@{upstream}">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1636274374275" ID="ID_1343872662" MODIFIED="1636274378422" TEXT="@{u}">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1636274385225" ID="ID_11577230" MODIFIED="1636274395941" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1636274386422" ID="ID_106010324" MODIFIED="1636274393843" TEXT="git merge @{u}">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1636274404133" ID="ID_1567687019" MODIFIED="1636274407134" TEXT="git branch -vv">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636274407372" ID="ID_672690530" MODIFIED="1636274412864" TEXT="Output tracking branches"/>
+<node CREATED="1636274543471" ID="ID_721005737" MODIFIED="1636274550561" TEXT="Can see ahead and behind too"/>
+<node CREATED="1636274551017" ID="ID_1765593211" MODIFIED="1636274554294" TEXT="Don&apos;t fetch to server">
+<node CREATED="1636274554478" ID="ID_863122850" MODIFIED="1636274558143" TEXT="Info updated"/>
+<node CREATED="1636274558498" ID="ID_391733940" MODIFIED="1636274560999" TEXT="... from last fetch"/>
+</node>
+</node>
+<node CREATED="1636274576307" ID="ID_1223610369" MODIFIED="1636274582101" TEXT="git fetch --all">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1636274583135" ID="ID_90463291" MODIFIED="1636274587095" TEXT="Fetch from all remotes"/>
+</node>
+</node>
+<node CREATED="1636274594195" FOLDED="true" ID="ID_418139790" MODIFIED="1636274595902" TEXT="Pulling">
+<icon BUILTIN="full-3"/>
+<node CREATED="1636274609280" ID="ID_372455886" MODIFIED="1636274631521" TEXT="Most cases">
+<node CREATED="1636274631715" ID="ID_614479842" MODIFIED="1636274635177" TEXT="git fetch">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1636274636075" ID="ID_1908141240" MODIFIED="1636274638920" TEXT="git merge">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1636274661211" ID="ID_770425797" MODIFIED="1636274667050" TEXT="Magic of git pull can often be confusing"/>
+</node>
+<node CREATED="1636274669717" FOLDED="true" ID="ID_238591882" MODIFIED="1636274814261" TEXT="Deleting remote branch">
+<icon BUILTIN="full-4"/>
+<node CREATED="1636274836611" ID="ID_615557688" MODIFIED="1636274844561" TEXT="git push --delete &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1636274861829" ID="ID_1086341542" MODIFIED="1636274865564" TEXT="Remove the pointer from the server"/>
+<node CREATED="1636274866131" ID="ID_856677775" MODIFIED="1636274876447" TEXT="Git keep data until garbage collection"/>
+<node CREATED="1636274876786" ID="ID_99384532" MODIFIED="1636274883982" TEXT="... means that it&apos;s often easy to recover"/>
+</node>
+</node>
+</node>
+<node CREATED="1636274893273" ID="ID_242660976" MODIFIED="1636274895118" TEXT="Rebasing">
+<icon BUILTIN="full-5"/>
+<node CREATED="1636274966306" ID="ID_942435757" MODIFIED="1636274970261" TEXT="The Basic Rebase">
+<icon BUILTIN="full-1"/>
+<node CREATED="1636275041042" FOLDED="true" ID="ID_448468933" MODIFIED="1636275044016" TEXT="Merge command">
+<node CREATED="1636275044393" ID="ID_90796334" MODIFIED="1636275054854" TEXT="Three way merge between two latest branch snapshots"/>
+<node CREATED="1636274976346" FOLDED="true" ID="ID_1671236243" MODIFIED="1636275095092" TEXT="Initial state">
+<icon BUILTIN="licq"/>
+<node CREATED="1636275016738" ID="ID_1623574929" MODIFIED="1636275020916">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="basic_merging.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1636275089626" ID="ID_23081039" MODIFIED="1636275505815" TEXT="After merge">
+<icon BUILTIN="licq"/>
+<node CREATED="1636275099706" ID="ID_868250137" MODIFIED="1636275104354">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="basic_merging_2.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1636275124434" ID="ID_1015393617" MODIFIED="1636275128692" TEXT="Create a new snapshot and commit"/>
+</node>
+<node CREATED="1636275155330" FOLDED="true" ID="ID_772756708" MODIFIED="1636275156732" TEXT="Rebasing">
+<node CREATED="1636275157194" ID="ID_75795679" MODIFIED="1636275163166" TEXT="Take the patch of change introduced"/>
+<node CREATED="1636275163490" ID="ID_885375506" MODIFIED="1636275172205" TEXT="Reapply it on top of last commit">
+<node CREATED="1636275201810" ID="ID_1202618649" MODIFIED="1636275219197" TEXT="Replay all the changes commited on a branch"/>
+<node CREATED="1636275219508" ID="ID_773776621" MODIFIED="1636275227740" TEXT="... on another branch"/>
+</node>
+<node CREATED="1636275180633" ID="ID_1297916302" MODIFIED="1636275190795" TEXT="git rebase &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1636275251865" FOLDED="true" ID="ID_1751513245" MODIFIED="1636275256060" TEXT="Workflow">
+<node CREATED="1636275256378" ID="ID_187660690" MODIFIED="1636275264556" TEXT="Go on the common ancestor of two branches">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1636275267017" ID="ID_133435863" MODIFIED="1636275282406" TEXT="Gett the diff introduced by each commit on branch yo&apos;re on">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1636275283078" ID="ID_225334581" MODIFIED="1636275287783" TEXT="Save diffs to temp files">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1636275291106" ID="ID_998626581" MODIFIED="1636275300645" TEXT="Reset the current branch to same commit you&apos;re rebasing into">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1636275303424" ID="ID_1464968010" MODIFIED="1636275310955" TEXT="Apply each change in turn">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+<node CREATED="1636275328859" FOLDED="true" ID="ID_1200962470" MODIFIED="1636275362994" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1636275351311" FOLDED="true" ID="ID_147262886" MODIFIED="1636275358739" TEXT="Rebase">
+<icon BUILTIN="licq"/>
+<node CREATED="1636275387111" ID="ID_1208824830" MODIFIED="1636275391969">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="rebasing.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1636275396256" FOLDED="true" ID="ID_932064959" MODIFIED="1636275404980" TEXT="Then go back to master branch">
+<node CREATED="1636275414533" ID="ID_168118482" MODIFIED="1636275417642" TEXT="git checkout master">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1636275406473" FOLDED="true" ID="ID_750808115" MODIFIED="1636275411506" TEXT="... and do a fast forward merge">
+<node CREATED="1636275418073" ID="ID_207958306" MODIFIED="1636275421699" TEXT="git merge experiment">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1636275423465" FOLDED="true" ID="ID_964751652" MODIFIED="1636275425479" TEXT="Result">
+<icon BUILTIN="licq"/>
+<node CREATED="1636275448517" ID="ID_1474471290" MODIFIED="1636275452445">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="rebasing_result.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1636275473392" ID="ID_243895786" MODIFIED="1636275481987" TEXT="Snapshot pointed to by C&apos;4"/>
+<node CREATED="1636275482320" ID="ID_1290200663" LINK="#ID_23081039" MODIFIED="1636275508224" TEXT="... exactly the same as C5"/>
+</node>
+<node CREATED="1636275520649" FOLDED="true" ID="ID_915160674" MODIFIED="1636275531453" TEXT="No difference for end result between">
+<node CREATED="1636275531600" ID="ID_1487418961" MODIFIED="1636275533340" TEXT="merge"/>
+<node CREATED="1636275534080" ID="ID_1118691026" MODIFIED="1636275535103" TEXT="rebase"/>
+</node>
+<node CREATED="1636275535753" FOLDED="true" ID="ID_352290470" MODIFIED="1636275541188" TEXT="... but rebase gives a cleaner history">
+<node CREATED="1636275559372" ID="ID_1619921645" MODIFIED="1636275562984" TEXT="Looks like a linear history"/>
+<node CREATED="1636275569284" ID="ID_832070896" MODIFIED="1636275571297" TEXT="All work in series"/>
+<node CREATED="1636275571601" ID="ID_1694723433" MODIFIED="1636275576628" TEXT="... even if it was in fact in parallel"/>
+</node>
+<node CREATED="1636275597784" FOLDED="true" ID="ID_394821643" MODIFIED="1636275600284" TEXT="Useful of OOS">
+<node CREATED="1636275600520" ID="ID_165738877" MODIFIED="1636275621204" TEXT="Maintainer just have to do a fast-forward merge"/>
+<node CREATED="1636275612483" ID="ID_1242751388" MODIFIED="1636275615156" TEXT="... to apply your work"/>
+</node>
+</node>
+<node CREATED="1636275658004" ID="ID_1225797138" MODIFIED="1636275661631" TEXT="More Interesting Rebases">
+<icon BUILTIN="full-2"/>
 </node>
 </node>
 </node>
