@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1628932401302" ID="ID_629816092" MODIFIED="1628932440743" TEXT="Software Design X Ray">
-<node CREATED="1628932445023" ID="ID_868848815" MODIFIED="1628933117643" POSITION="right" TEXT="The World of Behavioral Code Analysis">
+<node CREATED="1628932445023" FOLDED="true" ID="ID_868848815" MODIFIED="1628933117643" POSITION="right" TEXT="The World of Behavioral Code Analysis">
 <icon BUILTIN="full-0"/>
 <node CREATED="1628932517662" ID="ID_134337522" MODIFIED="1628933108380" TEXT="Why You Should Read This Book">
 <icon BUILTIN="full-1"/>
@@ -217,9 +217,9 @@
 <node CREATED="1630167011597" ID="ID_665806175" MODIFIED="1630167014104" TEXT="... won&apos;t bring us far"/>
 </node>
 </node>
-<node CREATED="1630167042077" FOLDED="true" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
+<node CREATED="1630167042077" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
 <icon BUILTIN="full-2"/>
-<node CREATED="1630167068701" FOLDED="true" ID="ID_1009041052" MODIFIED="1630167071944" TEXT="Measure Interest Rates">
+<node CREATED="1630167068701" ID="ID_1009041052" MODIFIED="1630167071944" TEXT="Measure Interest Rates">
 <icon BUILTIN="full-1"/>
 <node CREATED="1630167603205" ID="ID_1990675018" MODIFIED="1630167607515" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -353,6 +353,16 @@
 </node>
 <node CREATED="1630337602253" ID="ID_998842134" MODIFIED="1630337606530" TEXT="Exercises">
 <icon BUILTIN="full-6"/>
+<node CREATED="1636612495233" ID="ID_1719019174" MODIFIED="1636612496351" TEXT="Docker"/>
+<node CREATED="1636612496696" ID="ID_553405169" MODIFIED="1636612497663" TEXT="Ruby">
+<node CREATED="1636612497852" ID="ID_1187923383" MODIFIED="1636612500319" TEXT="Two false positive">
+<node CREATED="1636612500531" ID="ID_1814035313" MODIFIED="1636612506639" TEXT="Dramatic refactoring at one point"/>
+<node CREATED="1636612506923" ID="ID_1522533462" MODIFIED="1636612512735" TEXT="Now only call other files"/>
+</node>
+<node CREATED="1636612519043" ID="ID_1767387495" MODIFIED="1636612522527" TEXT="Still appear as hotspots"/>
+<node CREATED="1636612522867" ID="ID_179197231" MODIFIED="1636612540575" TEXT="With code age, we can see that these files wern&apos;t modified for a while"/>
+<node CREATED="1636612541219" ID="ID_1974445027" MODIFIED="1636612545606" TEXT="... so might not be worth the effort"/>
+</node>
 </node>
 </node>
 <node CREATED="1630337639429" FOLDED="true" ID="ID_314205742" MODIFIED="1630337651090" TEXT="Coupling in Time: A Heuristic for the Concept of Surprise">
@@ -625,7 +635,7 @@
 </node>
 <node CREATED="1631716448424" FOLDED="true" ID="ID_1360752731" MODIFIED="1631716454031" TEXT="The Principle of Code Age">
 <icon BUILTIN="full-5"/>
-<node CREATED="1631804281377" ID="ID_165714609" MODIFIED="1631804283833" TEXT="Introduction">
+<node CREATED="1631804281377" FOLDED="true" ID="ID_165714609" MODIFIED="1631804283833" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1631804284463" ID="ID_984231454" MODIFIED="1631804288988" TEXT="Package-level refactorings"/>
 <node CREATED="1631804290120" ID="ID_298082976" MODIFIED="1631804294964" TEXT="Organize code by its age"/>
@@ -782,7 +792,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1631893083227" ID="ID_1769007685" MODIFIED="1631893093256" POSITION="right" TEXT=" Part II - Work with Large Codebases and Organizations">
+<node CREATED="1631893083227" FOLDED="true" ID="ID_1769007685" MODIFIED="1631893093256" POSITION="right" TEXT=" Part II - Work with Large Codebases and Organizations">
 <icon BUILTIN="full-2"/>
 <node CREATED="1631967136028" FOLDED="true" ID="ID_736305035" MODIFIED="1631967145812" TEXT="Spot Your System&apos;s Tipping Point">
 <icon BUILTIN="full-6"/>
@@ -2082,9 +2092,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1630337990573" ID="ID_428777867" MODIFIED="1630338023466" POSITION="left" TEXT="Many Chapters were skipped because of repetitions from Code as Crime Scene">
+<node COLOR="#338800" CREATED="1630337990573" ID="ID_428777867" MODIFIED="1636609874958" POSITION="left" TEXT="Many Chapters were skipped (repetition with Code Crime Scene)">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
+</node>
+<node CREATED="1636609829877" ID="ID_561093348" LINK="http://www.adamtornhill.com/code/xrayexercises.html" MODIFIED="1636609837208" POSITION="left" TEXT="Exercises">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="clanbomber"/>
 </node>
 </node>
 </map>
