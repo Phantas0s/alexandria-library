@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1628932401302" ID="ID_629816092" MODIFIED="1628932440743" TEXT="Software Design X Ray">
-<node CREATED="1628932445023" FOLDED="true" ID="ID_868848815" MODIFIED="1628933117643" POSITION="right" TEXT="The World of Behavioral Code Analysis">
+<node CREATED="1628932445023" ID="ID_868848815" MODIFIED="1628933117643" POSITION="right" TEXT="The World of Behavioral Code Analysis">
 <icon BUILTIN="full-0"/>
 <node CREATED="1628932517662" ID="ID_134337522" MODIFIED="1628933108380" TEXT="Why You Should Read This Book">
 <icon BUILTIN="full-1"/>
@@ -34,7 +34,7 @@
 <icon BUILTIN="full-1"/>
 <node CREATED="1628933136468" FOLDED="true" ID="ID_1631491964" MODIFIED="1628933143770" TEXT="Why Technical Debt Isn&apos;t Technical">
 <icon BUILTIN="full-1"/>
-<node CREATED="1628933230533" FOLDED="true" ID="ID_1821630034" MODIFIED="1628933236043" TEXT="Introduction">
+<node CREATED="1628933230533" ID="ID_1821630034" MODIFIED="1628933236043" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1628933160021" ID="ID_592756262" MODIFIED="1628933168752" TEXT="Large system">
 <node CREATED="1628933168917" ID="ID_1023654131" MODIFIED="1628933174345" TEXT="Difficult to repay technical debts"/>
@@ -44,7 +44,7 @@
 <node CREATED="1628933185421" ID="ID_42216241" MODIFIED="1628933191393" TEXT="... no one has holistic overview"/>
 <node CREATED="1628933201109" ID="ID_1562908774" MODIFIED="1628933213489" TEXT="Let&apos;s mine collective intelligence of contributing programmers"/>
 </node>
-<node CREATED="1628933225748" FOLDED="true" ID="ID_1127483161" MODIFIED="1628933237412" TEXT="Questioning Technical Debt">
+<node CREATED="1628933225748" ID="ID_1127483161" MODIFIED="1628933237412" TEXT="Questioning Technical Debt">
 <icon BUILTIN="full-1"/>
 <node CREATED="1628933815141" ID="ID_1217724042" MODIFIED="1628933822082" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -64,8 +64,7 @@
 <node CREATED="1628933323420" ID="ID_1832936445" MODIFIED="1628933328912" TEXT="... to get system moving forward"/>
 </node>
 </node>
-<node CREATED="1628933333509" ID="ID_1807164192" MODIFIED="1628933344489" TEXT="Strategic business decision"/>
-<node CREATED="1628933345253" ID="ID_717836903" MODIFIED="1628933347897" TEXT="... rather than technical"/>
+<node CREATED="1628933333509" ID="ID_1807164192" MODIFIED="1636704217260" TEXT="Strategic business decision rather than technical"/>
 <node CREATED="1628933355028" ID="ID_1165499523" MODIFIED="1628933360150" TEXT="Reckless debt">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1628933360397" ID="ID_1656473709" MODIFIED="1628933364001" TEXT="Extension of technical debt"/>
@@ -93,9 +92,9 @@
 <node CREATED="1628933901396" ID="ID_557744597" MODIFIED="1628933905161" TEXT="... for interest rate"/>
 </node>
 </node>
-<node CREATED="1628933924781" FOLDED="true" ID="ID_1426705536" MODIFIED="1628933931890" TEXT="The Perils of Quantifying Technical Debts">
+<node CREATED="1628933924781" ID="ID_1426705536" MODIFIED="1628933931890" TEXT="The Perils of Quantifying Technical Debts">
 <icon BUILTIN="full-2"/>
-<node CREATED="1628934061189" FOLDED="true" ID="ID_1907970697" MODIFIED="1628934065922" TEXT="Introduction">
+<node CREATED="1628934061189" ID="ID_1907970697" MODIFIED="1628934065922" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1628933965788" ID="ID_1054814181" MODIFIED="1628933974640" TEXT="Tool giving 4000 years of tech deb for codebase">
 <node CREATED="1628933974789" ID="ID_254091051" MODIFIED="1628933977056" TEXT="Not really useful"/>
@@ -171,7 +170,7 @@
 <node CREATED="1629913124845" ID="ID_611550167" MODIFIED="1629913130297" TEXT="... parallel dev add new challenges"/>
 </node>
 </node>
-<node CREATED="1629913182821" FOLDED="true" ID="ID_1995897465" MODIFIED="1629913190955" TEXT="Mine Your Organization&apos;s Collective Intelligence">
+<node CREATED="1629913182821" ID="ID_1995897465" MODIFIED="1629913190955" TEXT="Mine Your Organization&apos;s Collective Intelligence">
 <icon BUILTIN="full-3"/>
 <node CREATED="1630166256755" ID="ID_1066945803" MODIFIED="1630166262963" TEXT="How to uncover area of improvement?"/>
 <node CREATED="1630166263685" ID="ID_1815120333" MODIFIED="1630166266992" TEXT="Questions">
@@ -206,7 +205,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1630166752468" FOLDED="true" ID="ID_1753129223" MODIFIED="1630166760991" TEXT="Prioritize Improvements Guided by Data">
+<node CREATED="1630166752468" ID="ID_1753129223" MODIFIED="1630166760991" TEXT="Prioritize Improvements Guided by Data">
 <icon BUILTIN="full-4"/>
 <node CREATED="1630166774189" ID="ID_1220481416" MODIFIED="1630166778017" TEXT="Improvement to complex code">
 <node CREATED="1630166778205" ID="ID_295721787" MODIFIED="1630166780065" TEXT="High risk"/>
@@ -261,7 +260,7 @@
 </node>
 <node CREATED="1630168908805" ID="ID_1463268851" MODIFIED="1630168918428" TEXT="Add a Language-Neutral Complexity Dimension">
 <icon BUILTIN="full-3"/>
-<node CREATED="1630168966597" ID="ID_335432127" MODIFIED="1630168980129" TEXT="McCabe cyclomatic complexity / Halstead complexiety measures">
+<node CREATED="1630168966597" ID="ID_335432127" MODIFIED="1636705309700" TEXT="McCabe cyclomatic complexity / Halstead complexity measures">
 <node CREATED="1630168980853" ID="ID_877124320" MODIFIED="1630168988225" TEXT="Language specific"/>
 <node CREATED="1630168993677" ID="ID_619606607" MODIFIED="1630168998849" TEXT="In conflict with modern systems">
 <node CREATED="1630168999589" ID="ID_699802290" MODIFIED="1630169003633" TEXT="Combine multiple languages"/>
