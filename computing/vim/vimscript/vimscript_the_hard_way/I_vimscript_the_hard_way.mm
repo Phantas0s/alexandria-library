@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1634920161836" TEXT="Vimscript the Hard Way">
+<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1637648128509" TEXT="Vimscript the Hard Way">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -801,7 +801,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587749243982" FOLDED="true" ID="ID_965179661" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/16.html" MODIFIED="1587999447122" POSITION="right" TEXT="More Operator-Pending Mappings ">
+<node CREATED="1587749243982" ID="ID_965179661" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/16.html" MODIFIED="1587999447122" POSITION="right" TEXT="More Operator-Pending Mappings ">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-6"/>
 <node CREATED="1587749398063" ID="ID_1716726738" MODIFIED="1587749403700" TEXT="Introduction">
