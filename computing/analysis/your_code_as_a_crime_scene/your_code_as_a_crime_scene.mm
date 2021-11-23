@@ -356,9 +356,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1627129075493" ID="ID_714859527" MODIFIED="1627129088227" TEXT="Analyze Hotspots in Large-Scale Systems">
+<node CREATED="1627129075493" FOLDED="true" ID="ID_714859527" MODIFIED="1627129088227" TEXT="Analyze Hotspots in Large-Scale Systems">
 <icon BUILTIN="full-4"/>
-<node CREATED="1627129134309" ID="ID_394689283" MODIFIED="1627129177728" TEXT="Analyze  a Large Codebase">
+<node CREATED="1627129134309" FOLDED="true" ID="ID_394689283" MODIFIED="1627129177728" TEXT="Analyze  a Large Codebase">
 <icon BUILTIN="full-1"/>
 <node CREATED="1627129195722" FOLDED="true" ID="ID_1823262762" MODIFIED="1627129207218" TEXT="How do you know what part needs attention?">
 <node CREATED="1627129207619" ID="ID_92896237" MODIFIED="1627129214596" TEXT="Expertise takes time to build"/>
@@ -468,13 +468,13 @@
 <node CREATED="1627131983939" ID="ID_1811502549" MODIFIED="1627131989437" TEXT="Spreadsheets"/>
 </node>
 </node>
-<node CREATED="1627131971087" ID="ID_106460666" MODIFIED="1627131976759" TEXT="Explore the Visualization">
+<node CREATED="1627131971087" FOLDED="true" ID="ID_106460666" MODIFIED="1627131976759" TEXT="Explore the Visualization">
 <icon BUILTIN="full-3"/>
 <node CREATED="1627132529978" ID="ID_1798828541" MODIFIED="1636731086416" TEXT="Launch the hotspot visualization"/>
 <node CREATED="1627132538174" ID="ID_700764779" MODIFIED="1636731079527" TEXT="Use Interactive Hotspot visualizations"/>
 <node CREATED="1627132551195" ID="ID_1572148214" MODIFIED="1636731077809" TEXT="Include all modules in the visualization"/>
 </node>
-<node CREATED="1627132580641" ID="ID_164575616" MODIFIED="1627132587972" TEXT="Study the Distribution of Hotspots">
+<node CREATED="1627132580641" FOLDED="true" ID="ID_164575616" MODIFIED="1627132587972" TEXT="Study the Distribution of Hotspots">
 <icon BUILTIN="full-4"/>
 <node CREATED="1627132603529" ID="ID_1072893935" MODIFIED="1627132611048" TEXT="Mutliple hotspots changing together"/>
 <node CREATED="1627132611439" ID="ID_1230462447" MODIFIED="1627132626276" TEXT="... sign of unstable code"/>
@@ -520,7 +520,7 @@
 </node>
 <node CREATED="1627133429995" ID="ID_1690696764" MODIFIED="1627133437640" TEXT="Create Your Own Visualizations"/>
 </node>
-<node CREATED="1627133635955" ID="ID_157033832" MODIFIED="1627133645655" TEXT="Differentiate Between True Problems and False Positives">
+<node CREATED="1627133635955" FOLDED="true" ID="ID_157033832" MODIFIED="1627133645655" TEXT="Differentiate Between True Problems and False Positives">
 <icon BUILTIN="full-5"/>
 <node CREATED="1627133667405" ID="ID_562737234" MODIFIED="1627133690433" TEXT="If you can redisign hotspots, do it!"/>
 <node CREATED="1627133696560" ID="ID_1365800457" MODIFIED="1627133701248" TEXT="Otherwise defensive measure">
@@ -529,7 +529,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1627133757432" ID="ID_838479415" MODIFIED="1627133771828" TEXT=" Judge Hotspots With the Power of Names">
+<node CREATED="1627133757432" FOLDED="true" ID="ID_838479415" MODIFIED="1627133771828" TEXT=" Judge Hotspots With the Power of Names">
 <icon BUILTIN="full-5"/>
 <node CREATED="1627133803489" FOLDED="true" ID="ID_699970101" MODIFIED="1627133808275" TEXT="Important distinction">
 <node CREATED="1627133808656" ID="ID_1292720808" MODIFIED="1627133835599" TEXT="Hotspots based on complex application logic"/>
@@ -774,7 +774,7 @@
 </node>
 <node CREATED="1627664590648" ID="ID_1087842304" MODIFIED="1627664597941" POSITION="right" TEXT=" Part II - Dissect Your Architecture">
 <icon BUILTIN="full-2"/>
-<node CREATED="1627664637535" ID="ID_1155224150" MODIFIED="1627664647541" TEXT="Treat Your Code As a Cooperative Witness">
+<node CREATED="1627664637535" FOLDED="true" ID="ID_1155224150" MODIFIED="1627664647541" TEXT="Treat Your Code As a Cooperative Witness">
 <icon BUILTIN="full-7"/>
 <node CREATED="1627729732930" ID="ID_875464574" MODIFIED="1627729738512" TEXT="Know How Your Brain Deceives You">
 <icon BUILTIN="full-1"/>
@@ -1160,8 +1160,7 @@
       <img src="./problem_solving.png" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1628356570678" ID="ID_930833665" MODIFIED="1628356580002" TEXT="Understanding and solving word arithmetic problems"/>
 </node>
@@ -1440,7 +1439,7 @@
 </node>
 <node CREATED="1628607094639" ID="ID_872406253" MODIFIED="1628607138556" POSITION="right" TEXT=" Part III - Master the Social Aspects of Code">
 <icon BUILTIN="full-3"/>
-<node CREATED="1628607128743" ID="ID_1843251284" MODIFIED="1628697170892" TEXT="Norm, Groups, and False Serial Killers">
+<node CREATED="1628607128743" FOLDED="true" ID="ID_1843251284" MODIFIED="1628697170892" TEXT="Norm, Groups, and False Serial Killers">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1628607312175" FOLDED="true" ID="ID_1543440089" MODIFIED="1628607321525" TEXT="Learn Why the Right People Don&apos;t Speak Up">
@@ -1589,7 +1588,7 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node CREATED="1628697171726" ID="ID_1975236063" MODIFIED="1628697182923" TEXT="Discover Organizational Metrics in Your Codebase">
+<node CREATED="1628697171726" FOLDED="true" ID="ID_1975236063" MODIFIED="1628697182923" TEXT="Discover Organizational Metrics in Your Codebase">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1628754910907" ID="ID_388889810" MODIFIED="1628754919682" TEXT="Let&apos;s Work in the Communication Business">
@@ -1797,7 +1796,7 @@
 <node CREATED="1628776083678" ID="ID_727377144" MODIFIED="1628776088490" TEXT="Toward a Communication Map"/>
 </node>
 </node>
-<node CREATED="1628776132006" ID="ID_1546843554" MODIFIED="1628776139932" TEXT=" Build a Knowledge Map of Your System">
+<node CREATED="1628776132006" FOLDED="true" ID="ID_1546843554" MODIFIED="1628776139932" TEXT=" Build a Knowledge Map of Your System">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1628776986271" ID="ID_1888060655" MODIFIED="1628778446836" TEXT="Know Your Knowledge Distribution">
