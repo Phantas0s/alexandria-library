@@ -216,7 +216,7 @@
 <node CREATED="1630167011597" ID="ID_665806175" MODIFIED="1630167014104" TEXT="... won&apos;t bring us far"/>
 </node>
 </node>
-<node CREATED="1630167042077" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
+<node CREATED="1630167042077" FOLDED="true" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
 <icon BUILTIN="full-2"/>
 <node CREATED="1630167068701" ID="ID_1009041052" MODIFIED="1630167071944" TEXT="Measure Interest Rates">
 <icon BUILTIN="full-1"/>
@@ -791,9 +791,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1631893083227" FOLDED="true" ID="ID_1769007685" MODIFIED="1631893093256" POSITION="right" TEXT=" Part II - Work with Large Codebases and Organizations">
+<node CREATED="1631893083227" ID="ID_1769007685" MODIFIED="1631893093256" POSITION="right" TEXT=" Part II - Work with Large Codebases and Organizations">
 <icon BUILTIN="full-2"/>
-<node CREATED="1631967136028" FOLDED="true" ID="ID_736305035" MODIFIED="1631967145812" TEXT="Spot Your System&apos;s Tipping Point">
+<node CREATED="1631967136028" ID="ID_736305035" MODIFIED="1631967145812" TEXT="Spot Your System&apos;s Tipping Point">
 <icon BUILTIN="full-6"/>
 <node CREATED="1631967171914" FOLDED="true" ID="ID_127604674" MODIFIED="1631967192600" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -854,7 +854,7 @@
 <node CREATED="1631967786089" ID="ID_1674379572" MODIFIED="1631967791357" TEXT="... can improve communication with stakeholders"/>
 </node>
 </node>
-<node CREATED="1631967826482" FOLDED="true" ID="ID_834532357" MODIFIED="1631967837623" TEXT="Divide and Conquer with Architectural Hotspots">
+<node CREATED="1631967826482" ID="ID_834532357" MODIFIED="1631967837623" TEXT="Divide and Conquer with Architectural Hotspots">
 <icon BUILTIN="full-2"/>
 <node CREATED="1631968148129" ID="ID_584940465" MODIFIED="1631968180367" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1027,7 +1027,7 @@
 <node CREATED="1632217350615" ID="ID_1766541020" MODIFIED="1632217365074" TEXT="Components high level enough for stakeholders to understand"/>
 </node>
 </node>
-<node CREATED="1632217388151" ID="ID_992321965" MODIFIED="1632217394932" TEXT="Beyong Conway&apos;s Law">
+<node CREATED="1632217388151" FOLDED="true" ID="ID_992321965" MODIFIED="1632217394932" TEXT="Beyong Conway&apos;s Law">
 <icon BUILTIN="full-7"/>
 <node CREATED="1632218027694" FOLDED="true" ID="ID_972643100" MODIFIED="1632218035710" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1431,7 +1431,7 @@
 <node CREATED="1633082367953" ID="ID_1724663542" MODIFIED="1633082371081" TEXT="Expected finding"/>
 </node>
 </node>
-<node CREATED="1633082375629" ID="ID_753182771" MODIFIED="1633082385450" TEXT="A Separation of Concerns that Concern">
+<node CREATED="1633082375629" FOLDED="true" ID="ID_753182771" MODIFIED="1633082385450" TEXT="A Separation of Concerns that Concern">
 <icon BUILTIN="full-2"/>
 <node CREATED="1633083534525" ID="ID_1493963611" MODIFIED="1633083537432" TEXT="Premise">
 <node CREATED="1633083537612" ID="ID_744006202" MODIFIED="1633083550920" TEXT="Every layer decoupled"/>
@@ -1521,7 +1521,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1633362782223" FOLDED="true" ID="ID_866271694" MODIFIED="1633366534106" TEXT="Discover Bounded Contexts Through Change Patterns">
+<node CREATED="1633362782223" ID="ID_866271694" MODIFIED="1633366534106" TEXT="Discover Bounded Contexts Through Change Patterns">
 <icon BUILTIN="full-4"/>
 <node CREATED="1633365487071" ID="ID_1581960156" MODIFIED="1633365490161" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1589,7 +1589,7 @@
 </node>
 <node CREATED="1633366758213" ID="ID_1545916557" MODIFIED="1633366775587" TEXT="Systems of Systems: Analyzing Multiple Repositories and Microservices">
 <icon BUILTIN="full-9"/>
-<node CREATED="1633366812181" FOLDED="true" ID="ID_1033783017" MODIFIED="1633366821121" TEXT="Analyze Code in Multiple Repositories">
+<node CREATED="1633366812181" ID="ID_1033783017" MODIFIED="1633366821121" TEXT="Analyze Code in Multiple Repositories">
 <icon BUILTIN="full-1"/>
 <node CREATED="1633366902501" ID="ID_398082104" MODIFIED="1633366907738" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1637,7 +1637,7 @@
 </node>
 </node>
 <node CREATED="1633367984771" ID="ID_1809533943" MODIFIED="1633367992614" TEXT="When find architectural hotspot">
-<node CREATED="1633367999244" ID="ID_1246105346" MODIFIED="1633368003967" TEXT="Run hotspot analysis on file leve">
+<node CREATED="1633367999244" ID="ID_1246105346" MODIFIED="1637731272554" TEXT="Run hotspot analysis on file level">
 <node CREATED="1633368004635" ID="ID_833944102" MODIFIED="1633368020712" TEXT="... service with low cohesion are complex"/>
 </node>
 <node CREATED="1633368027963" ID="ID_1406856664" MODIFIED="1633368031199" TEXT="... to find way to refactor them"/>
@@ -1858,7 +1858,7 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node CREATED="1633967426952" ID="ID_1158727428" MODIFIED="1633967436997" TEXT="An Extra Team Member: Predictive and Proactive Analysis">
+<node CREATED="1633967426952" FOLDED="true" ID="ID_1158727428" MODIFIED="1633967436997" TEXT="An Extra Team Member: Predictive and Proactive Analysis">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1633967503720" ID="ID_1029485250" MODIFIED="1633967510013" TEXT="Introduction">
