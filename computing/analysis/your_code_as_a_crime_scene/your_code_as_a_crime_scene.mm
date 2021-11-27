@@ -1,11 +1,11 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1625231611304" ID="ID_418070969" LINK="https://www.goodreads.com/book/show/23627482-your-code-as-a-crime-scene" MODIFIED="1628863996686" TEXT="Your Code as a Crime Scene">
-<node CREATED="1625232540183" ID="ID_1303291427" MODIFIED="1625232546183" POSITION="right" TEXT="Part 0">
+<node CREATED="1625232540183" FOLDED="true" ID="ID_1303291427" MODIFIED="1625232546183" POSITION="right" TEXT="Part 0">
 <icon BUILTIN="full-0"/>
 <node CREATED="1625231661315" ID="ID_142157888" MODIFIED="1625232510493" TEXT="Welcome!">
 <icon BUILTIN="full-1"/>
-<node CREATED="1625231849639" ID="ID_1649282630" MODIFIED="1625231870534" TEXT="Introduction">
+<node CREATED="1625231849639" FOLDED="true" ID="ID_1649282630" MODIFIED="1625231870534" TEXT="Introduction">
 <icon BUILTIN="full-1"/>
 <node CREATED="1625231667117" ID="ID_1880965262" MODIFIED="1625231675818" TEXT="Can&apos;t understand systems">
 <node CREATED="1625231676489" ID="ID_998708507" MODIFIED="1625231677439" TEXT="complex"/>
@@ -22,7 +22,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1625231735215" ID="ID_195768709" MODIFIED="1625231871228" TEXT="About this book">
+<node CREATED="1625231735215" FOLDED="true" ID="ID_195768709" MODIFIED="1625231871228" TEXT="About this book">
 <icon BUILTIN="full-2"/>
 <node CREATED="1625231743605" ID="ID_737643202" MODIFIED="1625231745612" TEXT="Blends">
 <node CREATED="1625231746488" ID="ID_1486196654" MODIFIED="1625231763591" TEXT="Forensic psychology">
@@ -99,7 +99,7 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
-<node CREATED="1625232336255" ID="ID_664964547" MODIFIED="1625232342941" TEXT="Get your investigative tools">
+<node CREATED="1625232336255" FOLDED="true" ID="ID_664964547" MODIFIED="1625232342941" TEXT="Get your investigative tools">
 <icon BUILTIN="full-6"/>
 <node CREATED="1625232346273" ID="ID_83664396" MODIFIED="1625232449416" TEXT="Forget the tools">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -118,7 +118,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1625232464361" ID="ID_1048002646" MODIFIED="1625232474256" POSITION="right" TEXT=" Part I - Evolving Software">
+<node CREATED="1625232464361" FOLDED="true" ID="ID_1048002646" MODIFIED="1625232474256" POSITION="right" TEXT=" Part I - Evolving Software">
 <icon BUILTIN="full-1"/>
 <node CREATED="1625232521129" FOLDED="true" ID="ID_611416294" MODIFIED="1625232535598" TEXT="Code as a Crime Scene">
 <icon BUILTIN="full-2"/>
@@ -356,9 +356,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1627129075493" FOLDED="true" ID="ID_714859527" MODIFIED="1627129088227" TEXT="Analyze Hotspots in Large-Scale Systems">
+<node CREATED="1627129075493" ID="ID_714859527" MODIFIED="1627129088227" TEXT="Analyze Hotspots in Large-Scale Systems">
 <icon BUILTIN="full-4"/>
-<node CREATED="1627129134309" FOLDED="true" ID="ID_394689283" MODIFIED="1627129177728" TEXT="Analyze  a Large Codebase">
+<node CREATED="1627129134309" ID="ID_394689283" MODIFIED="1627129177728" TEXT="Analyze  a Large Codebase">
 <icon BUILTIN="full-1"/>
 <node CREATED="1627129195722" FOLDED="true" ID="ID_1823262762" MODIFIED="1627129207218" TEXT="How do you know what part needs attention?">
 <node CREATED="1627129207619" ID="ID_92896237" MODIFIED="1627129214596" TEXT="Expertise takes time to build"/>
@@ -772,7 +772,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1627664590648" ID="ID_1087842304" MODIFIED="1627664597941" POSITION="right" TEXT=" Part II - Dissect Your Architecture">
+<node CREATED="1627664590648" FOLDED="true" ID="ID_1087842304" MODIFIED="1627664597941" POSITION="right" TEXT=" Part II - Dissect Your Architecture">
 <icon BUILTIN="full-2"/>
 <node CREATED="1627664637535" FOLDED="true" ID="ID_1155224150" MODIFIED="1627664647541" TEXT="Treat Your Code As a Cooperative Witness">
 <icon BUILTIN="full-7"/>
@@ -1437,7 +1437,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1628607094639" ID="ID_872406253" MODIFIED="1628607138556" POSITION="right" TEXT=" Part III - Master the Social Aspects of Code">
+<node CREATED="1628607094639" FOLDED="true" ID="ID_872406253" MODIFIED="1628607138556" POSITION="right" TEXT=" Part III - Master the Social Aspects of Code">
 <icon BUILTIN="full-3"/>
 <node CREATED="1628607128743" FOLDED="true" ID="ID_1843251284" MODIFIED="1628697170892" TEXT="Norm, Groups, and False Serial Killers">
 <icon BUILTIN="full-1"/>
@@ -1525,7 +1525,7 @@
 <node CREATED="1628695148214" FOLDED="true" ID="ID_641333917" MODIFIED="1628695241570" TEXT=" Witness Groupthink in Action">
 <icon BUILTIN="full-3"/>
 <node CREATED="1628695242678" ID="ID_1601504691" MODIFIED="1628695247034" TEXT="Know the Role of Authorities"/>
-<node CREATED="1628695289070" ID="ID_1327320563" MODIFIED="1628695294498" TEXT="Move Away from Traditional Brainstorming">
+<node CREATED="1628695289070" ID="ID_1327320563" MODIFIED="1628695294498" TEXT="Move Away from Traditional Brainstorming"/>
 <node CREATED="1628695302142" ID="ID_945863971" MODIFIED="1628695305378" TEXT="Brainstorming session">
 <node CREATED="1628695305534" ID="ID_1612326688" MODIFIED="1628695311418" TEXT="Best of bias">
 <node CREATED="1628695311638" ID="ID_958979856" MODIFIED="1628695312530" TEXT="social"/>
@@ -1539,7 +1539,6 @@
 <node CREATED="1628695385206" ID="ID_695503315" MODIFIED="1628695390882" TEXT="Might lose your idea when it&apos;s your turn"/>
 </node>
 <node CREATED="1628695371918" ID="ID_1989993031" MODIFIED="1628695376962" TEXT="Need well trained group leader"/>
-</node>
 </node>
 <node CREATED="1628695464766" FOLDED="true" ID="ID_789765263" MODIFIED="1628695491755" TEXT=" Discover Your Team&apos;s Modus Operandi">
 <icon BUILTIN="full-4"/>
@@ -1591,7 +1590,7 @@
 <node CREATED="1628697171726" FOLDED="true" ID="ID_1975236063" MODIFIED="1628697182923" TEXT="Discover Organizational Metrics in Your Codebase">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
-<node CREATED="1628754910907" ID="ID_388889810" MODIFIED="1628754919682" TEXT="Let&apos;s Work in the Communication Business">
+<node CREATED="1628754910907" FOLDED="true" ID="ID_388889810" MODIFIED="1628754919682" TEXT="Let&apos;s Work in the Communication Business">
 <icon BUILTIN="full-1"/>
 <node CREATED="1628754951484" ID="ID_22498261" MODIFIED="1636806881001" TEXT="Reducing deadlines">
 <node CREATED="1628754982635" ID="ID_809641251" MODIFIED="1628754996496" TEXT="3 time faster than historical data"/>
@@ -1638,14 +1637,14 @@
 </node>
 <node CREATED="1628760792154" FOLDED="true" ID="ID_1884927233" MODIFIED="1632412396123" TEXT="Find the Social Problems of Scale">
 <icon BUILTIN="full-2"/>
-<node CREATED="1628760972977" ID="ID_1452349781" MODIFIED="1628760976109" TEXT="On many projects">
+<node CREATED="1628760972977" FOLDED="true" ID="ID_1452349781" MODIFIED="1628760976109" TEXT="On many projects">
 <node CREATED="1628760976306" ID="ID_304770656" MODIFIED="1628760980598" TEXT="organizational component"/>
 <node CREATED="1628760980947" ID="ID_236030509" MODIFIED="1628760990245" TEXT="... determine either">
 <node CREATED="1628760990497" ID="ID_1590595299" MODIFIED="1628760992517" TEXT="success"/>
 <node CREATED="1628760992849" ID="ID_324024739" MODIFIED="1628760994077" TEXT="failure"/>
 </node>
 </node>
-<node CREATED="1628760999705" ID="ID_1822215584" MODIFIED="1628761014397" TEXT="Know the Difference Between Open-Source and Proprietary Software">
+<node CREATED="1628760999705" FOLDED="true" ID="ID_1822215584" MODIFIED="1628761014397" TEXT="Know the Difference Between Open-Source and Proprietary Software">
 <node CREATED="1628761030337" ID="ID_175222023" MODIFIED="1628761031957" TEXT="Open source">
 <node CREATED="1628761032121" ID="ID_306127315" MODIFIED="1628761037788" TEXT="Self-selected communities"/>
 <node CREATED="1628761039994" ID="ID_1019831041" MODIFIED="1628761047861" TEXT="Create differente motivational force for developers"/>
@@ -1666,10 +1665,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1628761265666" ID="ID_1866014779" MODIFIED="1628761280461" TEXT="Understand How Hotspots Attract Mutliple Authors">
+<node CREATED="1628761265666" FOLDED="true" ID="ID_1866014779" MODIFIED="1628761280461" TEXT="Understand How Hotspots Attract Mutliple Authors">
 <node CREATED="1628761347098" ID="ID_820519718" MODIFIED="1628761358789" TEXT="Problem starts when architecture can&apos;t sustain all developers"/>
 <node CREATED="1628761360785" ID="ID_586730520" MODIFIED="1628761435996" TEXT="Hotspots arise when code accumulate responsibilities">
-<node CREATED="1628761440737" ID="ID_1065360404" MODIFIED="1628761447917" TEXT="Dev wofking on independent freatues"/>
+<node CREATED="1628761440737" ID="ID_1065360404" MODIFIED="1637934088416" TEXT="Dev wofking on independent features"/>
 <node CREATED="1628761448305" ID="ID_1340075896" MODIFIED="1628761454349" TEXT="... forced into same part of the code"/>
 </node>
 <node CREATED="1628761468313" ID="ID_609980061" MODIFIED="1628761470573" TEXT="Changes">
@@ -1677,11 +1676,11 @@
 <node CREATED="1628761475456" ID="ID_1119939264" MODIFIED="1628761479981" TEXT="inconsistent"/>
 </node>
 </node>
-<node CREATED="1628761489850" ID="ID_1237224253" MODIFIED="1628761495245" TEXT="Analyze Your Code for Multiple Authors">
+<node CREATED="1628761489850" FOLDED="true" ID="ID_1237224253" MODIFIED="1628761495245" TEXT="Analyze Your Code for Multiple Authors">
 <node CREATED="1628761502842" ID="ID_748258221" MODIFIED="1628761507869" TEXT="Calculate author frequencies"/>
 <node CREATED="1628761918378" ID="ID_1656815037" MODIFIED="1628761931285" TEXT="See what module changed by many"/>
 </node>
-<node CREATED="1628761940466" ID="ID_927654678" MODIFIED="1628761947133" TEXT="Learn the Value of Oranizational Metrics">
+<node CREATED="1628761940466" FOLDED="true" ID="ID_927654678" MODIFIED="1628761947133" TEXT="Learn the Value of Oranizational Metrics">
 <node CREATED="1628762057361" ID="ID_84370942" MODIFIED="1628762089302" TEXT="Organizational metrics "/>
 <node CREATED="1628762091898" ID="ID_599078657" MODIFIED="1628762102246" TEXT="... outperform traditional measures (Microsoft 2008)">
 <node CREATED="1628762076017" ID="ID_1615297127" MODIFIED="1628762078229" TEXT="Code complexity"/>
@@ -1698,15 +1697,13 @@
 <node CREATED="1628762232073" ID="ID_1587079539" MODIFIED="1628762238349" TEXT="... is the same that the one with most parallel work"/>
 <node CREATED="1628762253041" ID="ID_660202882" MODIFIED="1628762261293" TEXT="... trickiest part of code affects most programmers"/>
 <node CREATED="1628762263105" ID="ID_491949273" MODIFIED="1628762267869" TEXT="Interpret Conway&apos;s Law">
-<node CREATED="1628762597554" ID="ID_1181071821" MODIFIED="1628762601565" TEXT="Interpretations">
-<node CREATED="1628762584433" ID="ID_729542538" MODIFIED="1628762641430" TEXT="If you&apos;ve four groups, you get a 4-pass compiler">
+<node CREATED="1628762584433" ID="ID_647630502" MODIFIED="1628762641430" TEXT="If you&apos;ve four groups, you get a 4-pass compiler">
 <icon BUILTIN="full-1"/>
 </node>
-<node CREATED="1628762608305" ID="ID_1377125029" MODIFIED="1628762642129" TEXT="Start from system you&apos;re building">
+<node CREATED="1628762608305" ID="ID_422061354" MODIFIED="1628762642129" TEXT="Start from system you&apos;re building">
 <icon BUILTIN="full-2"/>
-<node CREATED="1628762624953" ID="ID_1018101443" MODIFIED="1628762629270" TEXT="How should be the"/>
-<node CREATED="1628762629617" ID="ID_1901239053" MODIFIED="1628762632997" TEXT="... optimal organization?"/>
-</node>
+<node CREATED="1628762624953" ID="ID_521446247" MODIFIED="1628762629270" TEXT="How should be the"/>
+<node CREATED="1628762629617" ID="ID_1868324676" MODIFIED="1628762632997" TEXT="... optimal organization?"/>
 </node>
 </node>
 <node CREATED="1628762479649" ID="ID_1331931195" MODIFIED="1628762484965" TEXT="Use Conway&apos;s Law on Legacy Systems">
@@ -1733,7 +1730,7 @@
 <icon BUILTIN="full-4"/>
 <node CREATED="1628775058590" ID="ID_1259085714" MODIFIED="1628775065450" TEXT="To analyze communication cost"/>
 <node CREATED="1628775065798" ID="ID_504844289" MODIFIED="1628775072418" TEXT="... needs to know who&apos;s communicating with whom"/>
-<node CREATED="1628775076990" ID="ID_1055287691" MODIFIED="1628775083034" TEXT="Based on idea there is a main dev for each module">
+<node CREATED="1628775076990" FOLDED="true" ID="ID_1055287691" MODIFIED="1628775083034" TEXT="Based on idea there is a main dev for each module">
 <node CREATED="1628775089518" ID="ID_760056598" MODIFIED="1628775093946" TEXT="How to measure code knowledge?"/>
 <node CREATED="1628775098734" ID="ID_1177480216" MODIFIED="1628775107058" TEXT="Number of contributed lines of code as a beginning"/>
 <node CREATED="1628775112966" ID="ID_906827221" MODIFIED="1628775118626" TEXT="Flawed like all heuristics">
@@ -1768,9 +1765,9 @@
 <node CREATED="1628775763382" ID="ID_1734746441" MODIFIED="1628775771130" TEXT="No informal communication channels"/>
 </node>
 </node>
-<node CREATED="1628775783662" FOLDED="true" ID="ID_468233882" MODIFIED="1628775791308" TEXT="Take it step by step">
+<node CREATED="1628775783662" ID="ID_468233882" MODIFIED="1628775791308" TEXT="Take it step by step">
 <icon BUILTIN="full-5"/>
-<node CREATED="1628775841014" FOLDED="true" ID="ID_438509105" MODIFIED="1628775847669" TEXT="Steps">
+<node CREATED="1628775841014" ID="ID_438509105" MODIFIED="1628775847669" TEXT="Steps">
 <icon BUILTIN="licq"/>
 <node CREATED="1628775848678" ID="ID_1876961594" MODIFIED="1628775902020">
 <richcontent TYPE="NODE"><html>
@@ -1963,7 +1960,7 @@
 <node CREATED="1628860657386" FOLDED="true" ID="ID_1621054230" MODIFIED="1628860662711" TEXT="Dive Deeper with Code Churn">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-4"/>
-<node CREATED="1628860779810" FOLDED="true" ID="ID_489428300" MODIFIED="1628860787943" TEXT="Introduction">
+<node CREATED="1628860779810" ID="ID_489428300" MODIFIED="1628860787943" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1628860672834" ID="ID_1737319434" MODIFIED="1628860676389" TEXT="Code churn">
 <node CREATED="1628860676545" ID="ID_1759582595" MODIFIED="1628860682830" TEXT="Rate at which code evolves"/>
@@ -1977,7 +1974,7 @@
 <node CREATED="1628860747297" ID="ID_1028043770" MODIFIED="1628860754829" TEXT="Let&apos;s you evaluate your development prractices"/>
 <node CREATED="1628860755281" ID="ID_1960834858" MODIFIED="1628860763061" TEXT="Investigate potential process lost"/>
 </node>
-<node CREATED="1628860765585" FOLDED="true" ID="ID_319148804" MODIFIED="1628860788647" TEXT="Cure the Disease, not the Symptoms">
+<node CREATED="1628860765585" ID="ID_319148804" MODIFIED="1628860788647" TEXT="Cure the Disease, not the Symptoms">
 <icon BUILTIN="full-1"/>
 <node CREATED="1628860827785" ID="ID_1152275880" MODIFIED="1628860838307" TEXT="Parallel work with multiple branches are often nightmare"/>
 <node CREATED="1628860824561" ID="ID_257497940" MODIFIED="1628860827229" TEXT="Meet Code Churn">
@@ -1989,7 +1986,7 @@
 <node CREATED="1628860875113" ID="ID_1487009140" MODIFIED="1628860877782" TEXT="Many of them overtime"/>
 </node>
 </node>
-<node CREATED="1628860883642" FOLDED="true" ID="ID_1585534363" MODIFIED="1628860889959" TEXT="Discover Your process Loss from Code">
+<node CREATED="1628860883642" ID="ID_1585534363" MODIFIED="1628860889959" TEXT="Discover Your process Loss from Code">
 <icon BUILTIN="full-2"/>
 <node CREATED="1628861003418" ID="ID_717978853" MODIFIED="1628861013021" TEXT="Can detect problems in process for software teams"/>
 <node CREATED="1628861031202" ID="ID_804258318" MODIFIED="1628861034917" TEXT="Measure the Churn Trend">
