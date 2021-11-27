@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1636483287612" TEXT="Vim User Manual">
+<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1637915588323" TEXT="Vim User Manual">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -31,7 +31,7 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
-<node CREATED="1615127238736" FOLDED="true" ID="ID_403168201" MODIFIED="1615127326387" TEXT="The first steps in Vim">
+<node CREATED="1615127238736" ID="ID_403168201" MODIFIED="1615127326387" TEXT="The first steps in Vim">
 <icon BUILTIN="full-2"/>
 <node CREATED="1615127750380" ID="ID_1702018597" MODIFIED="1615127781159" TEXT="Running Vim for the First Time">
 <icon BUILTIN="full-1"/>
@@ -1855,7 +1855,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1629010129062" FOLDED="true" ID="ID_228750428" MODIFIED="1629010139578" TEXT="Dealing with long lines">
+<node CREATED="1629010129062" ID="ID_228750428" MODIFIED="1629010139578" TEXT="Dealing with long lines">
 <icon BUILTIN="full-4"/>
 <node CREATED="1629011653632" FOLDED="true" ID="ID_786736990" MODIFIED="1629011660725" TEXT="Lines wider than columns on your screen">
 <node CREATED="1629011661010" ID="ID_1162717793" MODIFIED="1629011663781" TEXT="Vim warps line"/>
@@ -1953,7 +1953,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1629019398202" ID="ID_372384226" MODIFIED="1629019401201" TEXT="Repeating">
+<node CREATED="1629019398202" FOLDED="true" ID="ID_372384226" MODIFIED="1629019401201" TEXT="Repeating">
 <icon BUILTIN="full-7"/>
 <node CREATED="1629019503090" ID="ID_1929802793" MODIFIED="1629019507437" TEXT="Repeating with visual mode">
 <icon BUILTIN="full-1"/>
