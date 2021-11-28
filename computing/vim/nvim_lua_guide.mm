@@ -460,6 +460,316 @@
 </node>
 <node CREATED="1638019629371" ID="ID_1948145886" MODIFIED="1638019636532" POSITION="right" TEXT=" Managing Vim Options">
 <icon BUILTIN="full-5"/>
+<node CREATED="1638105659937" ID="ID_1746730298" MODIFIED="1638105665814" TEXT="Using api functions">
+<icon BUILTIN="full-1"/>
+<node CREATED="1638105891991" ID="ID_497433329" MODIFIED="1638105903884" TEXT="Input">
+<node CREATED="1638105894235" ID="ID_289462313" MODIFIED="1638105900748" TEXT="Name of the option"/>
+<node CREATED="1638105901488" ID="ID_1032581322" MODIFIED="1638105902397" TEXT="Value"/>
+<node CREATED="1638105910825" ID="ID_1214060569" MODIFIED="1638105918469" TEXT="Boolean options need to be set on true or false">
+<node CREATED="1638105925848" ID="ID_1646223996" MODIFIED="1638105927316" TEXT="Example">
+<node CREATED="1638105929635" ID="ID_95140359" MODIFIED="1638105931193" TEXT="vim.api.nvim_set_option(&apos;smarttab&apos;, false) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1638105673961" ID="ID_978947002" MODIFIED="1638105677143" TEXT="Global options">
+<node CREATED="1638105677683" ID="ID_1111302521" MODIFIED="1638105684582" TEXT="vim.api.nvim_set_option()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638105684938" ID="ID_907930464" MODIFIED="1638105690510" TEXT="vim.api.nvim_get_options()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1638105691602" ID="ID_1685621653" MODIFIED="1638105696350" TEXT="Buffer-local options">
+<node CREATED="1638105697001" ID="ID_1402803718" MODIFIED="1638105714780" TEXT="vim.api.nvim_buf_set_option()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638105705914" ID="ID_1300282677" MODIFIED="1638105715169" TEXT="vim.api.nvim_bug_get_options()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1638105715906" ID="ID_402537671" MODIFIED="1638105720765" TEXT="Window-local options">
+<node CREATED="1638105721121" ID="ID_131773467" MODIFIED="1638105741844" TEXT="vim.api.nvim_win_set_option()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638105729810" ID="ID_1445130671" MODIFIED="1638105740268" TEXT="vim.api.nvim_win_get_option()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638105945112" ID="ID_179563705" MODIFIED="1638105953940" TEXT="Take a third arg for window / buffer number">
+<node CREATED="1638105956896" ID="ID_542594151" MODIFIED="1638105961828" TEXT="0 is current buffer / window"/>
+</node>
+</node>
+</node>
+<node CREATED="1638105962906" ID="ID_319220717" MODIFIED="1638105966036" TEXT="Using meta-accessors">
+<node CREATED="1638105970440" ID="ID_328571856" MODIFIED="1638105974116" TEXT="Wrap api functions"/>
+<node CREATED="1638105975548" ID="ID_741879457" MODIFIED="1638105986087" TEXT="vim.o">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1638105977047" ID="ID_1037956615" MODIFIED="1638105980765" TEXT="Behave as :set"/>
+<node CREATED="1638106084974" ID="ID_1583569182" MODIFIED="1638106087629" TEXT="vim.opt">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1638105981855" ID="ID_1508987114" MODIFIED="1638105986874" TEXT="vim.go">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1638105987187" ID="ID_402482005" MODIFIED="1638105992092" TEXT="Behave as :setglobal"/>
+<node CREATED="1638106091233" ID="ID_1620421340" MODIFIED="1638106095314" TEXT="vim.opt_global">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1638105992759" ID="ID_563617968" MODIFIED="1638105995520" TEXT="vim.bo">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1638105995776" ID="ID_378902478" MODIFIED="1638106026116" TEXT="Behaves like :setlocal for buffer-local options"/>
+<node CREATED="1638106041456" ID="ID_1006574043" MODIFIED="1638106043703" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1638106044670" ID="ID_1944402103" MODIFIED="1638106045570" TEXT="vim.bo[4].expandtab = true ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1638106001208" ID="ID_9859852" MODIFIED="1638106027619" TEXT="vim.wo">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1638106003636" ID="ID_89343984" MODIFIED="1638106023143" TEXT="Behave as :setlocal for window-local options"/>
+</node>
+<node COLOR="#338800" CREATED="1638106126647" ID="ID_955236227" MODIFIED="1638106130928" TEXT=":help vim.opt">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1638106136378" ID="ID_817073993" MODIFIED="1638106145038" POSITION="right" TEXT=" Managing Vim internal variables">
+<icon BUILTIN="full-6"/>
+<node CREATED="1638106922826" ID="ID_913901563" MODIFIED="1638106933595" TEXT="Using api functions">
+<icon BUILTIN="full-1"/>
+<node CREATED="1638106154562" ID="ID_1621580196" MODIFIED="1638106160975" TEXT="Global variable (g:)">
+<node CREATED="1638106167002" ID="ID_1247128068" MODIFIED="1638106183950" TEXT="vim.api.nvim_set_var()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638106167003" ID="ID_1899756424" MODIFIED="1638106183949" TEXT="vim.api.nvim_get_var()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638106167003" ID="ID_1993238240" MODIFIED="1638106183949" TEXT="vim.api.nvim_del_var()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1638106168809" ID="ID_376394426" MODIFIED="1638106200244" TEXT="Buffer variable (b:)">
+<node CREATED="1638106174261" ID="ID_1595881778" MODIFIED="1638106183949" TEXT="vim.api.nvim_buf_set_var()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638106174261" ID="ID_1122510868" MODIFIED="1638106183949" TEXT="vim.api.nvim_buf_get_var()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638106174262" ID="ID_1482858885" MODIFIED="1638106183949" TEXT="vim.api.nvim_buf_del_var()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1638106177151" ID="ID_1223843420" MODIFIED="1638106197930" TEXT="Window Variables (w:)">
+<node CREATED="1638106180630" ID="ID_1559523137" MODIFIED="1638106183948" TEXT="vim.api.nvim_win_set_var()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638106180631" ID="ID_511925884" MODIFIED="1638106183948" TEXT="vim.api.nvim_win_get_var()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638106180632" ID="ID_1289031894" MODIFIED="1638106183947" TEXT="vim.api.nvim_win_del_var()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1638106188055" ID="ID_1907880755" MODIFIED="1638106193834" TEXT="Tabpage variables (t:)">
+<node CREATED="1638106201239" ID="ID_650305595" MODIFIED="1638106203479" TEXT="vim.api.nvim_tabpage_set_var()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638106201240" ID="ID_258686919" MODIFIED="1638106203479" TEXT="vim.api.nvim_tabpage_get_var()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638106201241" ID="ID_960362825" MODIFIED="1638106203479" TEXT="vim.api.nvim_tabpage_del_var()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1638106205040" ID="ID_830786656" MODIFIED="1638106212507" TEXT="Predefined Vim variables (v:)">
+<node CREATED="1638106217822" ID="ID_1837416778" MODIFIED="1638106220018" TEXT="vim.api.nvim_set_vvar()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638106217824" ID="ID_734510444" MODIFIED="1638106220018" TEXT="vim.api.nvim_get_vvar()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1638106240733" ID="ID_517433082" MODIFIED="1638106242579" TEXT="Local variable">
+<node CREATED="1638106242971" ID="ID_413566061" MODIFIED="1638106250018" TEXT="l:, s: and :a"/>
+<node CREATED="1638106250407" ID="ID_273209136" MODIFIED="1638106254195" TEXT="Don&apos;t make sense in Lua"/>
+<node CREATED="1638106254597" ID="ID_1743092156" MODIFIED="1638106258437" TEXT="... has its own scoping rules"/>
+</node>
+</node>
+<node CREATED="1638106936986" ID="ID_1860339770" MODIFIED="1638106938774" TEXT="Using meta-accessors ">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1638106966282" ID="ID_270712053" MODIFIED="1638107229238" POSITION="right" TEXT=" Calling Vimscript functions ">
+<icon BUILTIN="full-7"/>
+<node CREATED="1638106967915" ID="ID_1678786784" MODIFIED="1638106977410" TEXT="vim.fn.&lt;function&gt;()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1638106981362" ID="ID_501807314" MODIFIED="1638106987749" TEXT="Data type converted back and force between">
+<node CREATED="1638106987945" ID="ID_631451480" MODIFIED="1638106988982" TEXT="Lua"/>
+<node CREATED="1638106989426" ID="ID_1489765163" MODIFIED="1638106990862" TEXT="Vimscript"/>
+</node>
+<node CREATED="1638107015682" ID="ID_335551625" MODIFIED="1638107026760" TEXT="Hashes # are not valid characters in Lua">
+<node CREATED="1638107044042" ID="ID_140035768" MODIFIED="1638107062713" TEXT="Need to use [ ] for autoload functions"/>
+<node CREATED="1638107054540" ID="ID_44656007" MODIFIED="1638107064249" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1638107038061" ID="ID_476253445" MODIFIED="1638107039027" TEXT="vim.fn[&apos;my#autoload#function&apos;]()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1638107069784" ID="ID_908774623" MODIFIED="1638107073625" TEXT="Identical to vim.call">
+<node CREATED="1638107076333" ID="ID_1059129086" MODIFIED="1638107081229" TEXT="More lua-like syntax"/>
+</node>
+<node CREATED="1638107088617" ID="ID_489588530" MODIFIED="1638107090292" TEXT="Tip">
+<node CREATED="1638107090961" ID="ID_1064603708" MODIFIED="1638107099721" TEXT="Neovim has an extensive library of built-in functions"/>
+<node CREATED="1638107100636" ID="ID_45574533" MODIFIED="1638107103992" TEXT="Very useful for plugins"/>
+<node CREATED="1638107138538" ID="ID_272021032" MODIFIED="1638107147480" TEXT="Can be used via vim.api">
+<node COLOR="#338800" CREATED="1638107149074" ID="ID_1046112042" MODIFIED="1638107151963" TEXT=":help api">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#338800" CREATED="1638107112347" ID="ID_353121920" MODIFIED="1638107154328" TEXT=":help vim-function">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1638107125505" ID="ID_1613468221" MODIFIED="1638107129429" TEXT="Alphabetical list"/>
+</node>
+<node COLOR="#338800" CREATED="1638107115450" ID="ID_1001233091" MODIFIED="1638107155248" TEXT=":help function-list">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1638107121448" ID="ID_117070261" MODIFIED="1638107124349" TEXT="Grouped by topics"/>
+</node>
+</node>
+<node COLOR="#338800" CREATED="1638107083017" ID="ID_1552343035" MODIFIED="1638107158065" TEXT=":help vim.fn">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638107162149" ID="ID_959702865" MODIFIED="1638107164164" TEXT="Caveat">
+<node CREATED="1638107164968" ID="ID_667946010" MODIFIED="1638107173885" TEXT="Some Vim function returning boolean return 0 or 1"/>
+<node CREATED="1638107184468" ID="ID_984097302" MODIFIED="1638107194253" TEXT="Vimscript, 0 or 1 are truthy or falsy"/>
+<node CREATED="1638107194735" ID="ID_597590186" MODIFIED="1638107196956" TEXT="... not in Lua">
+<node CREATED="1638107199960" ID="ID_1228015748" MODIFIED="1638107207499" TEXT="Need to explicitely check for 0 or 1"/>
+<node CREATED="1638107212631" ID="ID_971489974" MODIFIED="1638107216439" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1638107214146" ID="ID_1252445369" MODIFIED="1638107218683" TEXT="if vim.fn.has(&apos;nvim&apos;) == 1">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1638107222823" ID="ID_899947191" MODIFIED="1638107231066" POSITION="right" TEXT=" Defining mappings">
+<icon BUILTIN="full-8"/>
+<node CREATED="1638107233629" ID="ID_1824954244" MODIFIED="1638107236004" TEXT="Global mappings">
+<node CREATED="1638107241861" ID="ID_1644349252" MODIFIED="1638107265053" TEXT="vim.api.nvim_set_keymap()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638107241862" ID="ID_1511935786" MODIFIED="1638107265053" TEXT="vim.api.nvim_get_keymap()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638107241863" ID="ID_721241957" MODIFIED="1638107265052" TEXT="vim.api.nvim_del_keymap()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1638107243087" ID="ID_600397317" MODIFIED="1638107245518" TEXT="Buffer local mappings">
+<node CREATED="1638107248174" ID="ID_444373279" MODIFIED="1638107265052" TEXT="vim.api.nvim_buf_set_keymap()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638107248175" ID="ID_656802067" MODIFIED="1638107265052" TEXT="vim.api.nvim_buf_get_keymap()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1638107248176" ID="ID_419957127" MODIFIED="1638107265052" TEXT="vim.api.nvim_buf_del_keymap()">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#338800" CREATED="1638107288103" ID="ID_193634950" MODIFIED="1638107290156" TEXT=":help :map-arguments ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1638107298191" ID="ID_238665510" MODIFIED="1638107345420" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1638107302337" ID="ID_1145294391" MODIFIED="1638107303632" TEXT="vim.api.nvim_set_keymap(&apos;n&apos;, &apos;&lt;Leader&gt;&lt;Space&gt;&apos;, &apos;:set hlsearch!&lt;CR&gt;&apos;, { noremap = true, silent = true }) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1638107307982" ID="ID_1418297819" MODIFIED="1638107312874" TEXT=":nnoremap &lt;silent&gt; &lt;Leader&gt;&lt;Space&gt; :set hlsearch&lt;CR&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1638107322690" ID="ID_949882783" MODIFIED="1638107324642" TEXT="vim.api.nvim_set_keymap(&apos;n&apos;, &apos;&lt;Leader&gt;tegf&apos;,  [[&lt;Cmd&gt;lua require(&apos;telescope.builtin&apos;).git_files()&lt;CR&gt;]], { noremap = true, silent = true }) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1638107327336" ID="ID_895819380" MODIFIED="1638107331210" TEXT=":nnoremap &lt;silent&gt; &lt;Leader&gt;tegf &lt;Cmd&gt;lua require(&apos;telescope.builtin&apos;).git_files()&lt;CR&gt; "/>
+</node>
+<node CREATED="1638107336271" ID="ID_297427033" MODIFIED="1638107341666" TEXT="vim.api.nvim_buf_set_keymap(0, &apos;&apos;, &apos;cc&apos;, &apos;line(&quot;.&quot;) == 1 ? &quot;cc&quot; : &quot;ggcc&quot;&apos;, { noremap = true, expr = true }) ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1638107339407" ID="ID_1556385988" MODIFIED="1638107342913" TEXT="-- :noremap &lt;buffer&gt; &lt;expr&gt; cc line(&apos;.&apos;) == 1 ? &apos;cc&apos; : &apos;ggcc&apos; ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1638107353702" ID="ID_1965869254" MODIFIED="1638107362451" POSITION="right" TEXT=" Defining user Commands">
+<icon BUILTIN="full-9"/>
+<node CREATED="1638107387298" ID="ID_1901430964" MODIFIED="1638107395961" TEXT="Not yet implemented"/>
+</node>
+<node CREATED="1638107365974" ID="ID_1242473784" MODIFIED="1638107371336" POSITION="right" TEXT=" Defining autocommands">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-0"/>
+<node CREATED="1638107387298" ID="ID_755570538" MODIFIED="1638107395961" TEXT="Not yet implemented"/>
+</node>
+<node CREATED="1638107376265" ID="ID_1724095616" MODIFIED="1638107384758" POSITION="right" TEXT=" Defining syntax/highlights">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1638107387298" ID="ID_1489598833" MODIFIED="1638107395961" TEXT="Not yet implemented"/>
+</node>
+<node CREATED="1638107407239" ID="ID_599160721" MODIFIED="1638107412323" POSITION="right" TEXT=" General Tips and Recommendations">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-2"/>
+<node CREATED="1638107439943" ID="ID_1827434602" MODIFIED="1638107462933" TEXT="Reloading cached modules">
+<icon BUILTIN="full-1"/>
+<node CREATED="1638107427382" ID="ID_1840854472" MODIFIED="1638107432382" TEXT="require cache modules"/>
+<node CREATED="1638107432694" ID="ID_1971205396" MODIFIED="1638107452455" TEXT="Cumbersome when working on a plugin"/>
+<node CREATED="1638107463990" ID="ID_699892418" MODIFIED="1638107486509" TEXT="Can set package.loaded variable to nil"/>
+</node>
+<node CREATED="1638107513022" ID="ID_1458135053" MODIFIED="1638107520024" TEXT="Don&apos;t pad Lua strings">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1638107525150" ID="ID_1298719202" MODIFIED="1638107527309" TEXT="Notes about Vimscript &lt;-&gt; Lua type conversion ">
+<icon BUILTIN="full-3"/>
+<node CREATED="1638107528398" ID="ID_510513492" MODIFIED="1638107546370" TEXT="Converting a variable creates a copy">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1638107544622" ID="ID_52773986" MODIFIED="1638107547108" TEXT="Conversion is not always possible">
+<icon BUILTIN="full-2"/>
+<node CREATED="1638107548358" ID="ID_1962018836" MODIFIED="1638107550635" TEXT="Mostly affect">
+<node CREATED="1638107550797" ID="ID_818325740" MODIFIED="1638107551627" TEXT="functions"/>
+<node CREATED="1638107551942" ID="ID_902665991" MODIFIED="1638107552803" TEXT="tables"/>
+</node>
+</node>
+<node CREATED="1638107600009" ID="ID_118712774" MODIFIED="1638107601490" TEXT="Vim booleans ">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1638107622460" ID="ID_1831918614" MODIFIED="1638107676998" TEXT=" Setting up linters/language servers ">
+<icon BUILTIN="full-4"/>
+<node CREATED="1638107632557" ID="ID_1856910720" MODIFIED="1638107634766" TEXT="luacheck ">
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node CREATED="1638107666661" ID="ID_83360974" MODIFIED="1638107681381" TEXT=" Debugging Lua code ">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1638107719205" ID="ID_411200" MODIFIED="1638107722230" TEXT="Testing Lua Code">
+<icon BUILTIN="full-6"/>
+</node>
+<node CREATED="1638107723072" ID="ID_1638350249" MODIFIED="1638107731897" TEXT="Using Luarocks packages">
+<icon BUILTIN="full-7"/>
+</node>
+</node>
+<node CREATED="1638107735196" ID="ID_1968995715" MODIFIED="1638107739961" POSITION="right" TEXT=" Miscellaneous">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-3"/>
+<node CREATED="1638107740428" ID="ID_551031849" MODIFIED="1638107743427" TEXT="vim.loop"/>
+<node CREATED="1638107747328" ID="ID_1953187579" MODIFIED="1638107748623" TEXT="vim.lsp"/>
+<node CREATED="1638107751885" ID="ID_1032413424" MODIFIED="1638107754473" TEXT="vim.treesitter"/>
+<node CREATED="1638107756213" ID="ID_1087268784" MODIFIED="1638107758696" TEXT="Transpilers"/>
 </node>
 </node>
 </map>
