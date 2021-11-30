@@ -118,7 +118,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1625232464361" FOLDED="true" ID="ID_1048002646" MODIFIED="1625232474256" POSITION="right" TEXT=" Part I - Evolving Software">
+<node CREATED="1625232464361" ID="ID_1048002646" MODIFIED="1625232474256" POSITION="right" TEXT=" Part I - Evolving Software">
 <icon BUILTIN="full-1"/>
 <node CREATED="1625232521129" FOLDED="true" ID="ID_611416294" MODIFIED="1625232535598" TEXT="Code as a Crime Scene">
 <icon BUILTIN="full-2"/>
@@ -356,7 +356,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1627129075493" ID="ID_714859527" MODIFIED="1627129088227" TEXT="Analyze Hotspots in Large-Scale Systems">
+<node CREATED="1627129075493" FOLDED="true" ID="ID_714859527" MODIFIED="1627129088227" TEXT="Analyze Hotspots in Large-Scale Systems">
 <icon BUILTIN="full-4"/>
 <node CREATED="1627129134309" ID="ID_394689283" MODIFIED="1627129177728" TEXT="Analyze  a Large Codebase">
 <icon BUILTIN="full-1"/>
@@ -1437,7 +1437,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1628607094639" FOLDED="true" ID="ID_872406253" MODIFIED="1628607138556" POSITION="right" TEXT=" Part III - Master the Social Aspects of Code">
+<node CREATED="1628607094639" ID="ID_872406253" MODIFIED="1628607138556" POSITION="right" TEXT=" Part III - Master the Social Aspects of Code">
 <icon BUILTIN="full-3"/>
 <node CREATED="1628607128743" FOLDED="true" ID="ID_1843251284" MODIFIED="1628697170892" TEXT="Norm, Groups, and False Serial Killers">
 <icon BUILTIN="full-1"/>
@@ -1587,7 +1587,7 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node CREATED="1628697171726" FOLDED="true" ID="ID_1975236063" MODIFIED="1628697182923" TEXT="Discover Organizational Metrics in Your Codebase">
+<node CREATED="1628697171726" ID="ID_1975236063" MODIFIED="1628697182923" TEXT="Discover Organizational Metrics in Your Codebase">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1628754910907" FOLDED="true" ID="ID_388889810" MODIFIED="1628754919682" TEXT="Let&apos;s Work in the Communication Business">
@@ -1635,7 +1635,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1628760792154" FOLDED="true" ID="ID_1884927233" MODIFIED="1632412396123" TEXT="Find the Social Problems of Scale">
+<node CREATED="1628760792154" ID="ID_1884927233" MODIFIED="1632412396123" TEXT="Find the Social Problems of Scale">
 <icon BUILTIN="full-2"/>
 <node CREATED="1628760972977" FOLDED="true" ID="ID_1452349781" MODIFIED="1628760976109" TEXT="On many projects">
 <node CREATED="1628760976306" ID="ID_304770656" MODIFIED="1628760980598" TEXT="organizational component"/>
@@ -1644,8 +1644,8 @@
 <node CREATED="1628760992849" ID="ID_324024739" MODIFIED="1628760994077" TEXT="failure"/>
 </node>
 </node>
-<node CREATED="1628760999705" FOLDED="true" ID="ID_1822215584" MODIFIED="1628761014397" TEXT="Know the Difference Between Open-Source and Proprietary Software">
-<node CREATED="1628761030337" ID="ID_175222023" MODIFIED="1628761031957" TEXT="Open source">
+<node CREATED="1628760999705" ID="ID_1822215584" MODIFIED="1628761014397" TEXT="Know the Difference Between Open-Source and Proprietary Software">
+<node CREATED="1628761030337" ID="ID_175222023" MODIFIED="1628761031957" TEXT="Open source"/>
 <node CREATED="1628761032121" ID="ID_306127315" MODIFIED="1628761037788" TEXT="Self-selected communities"/>
 <node CREATED="1628761039994" ID="ID_1019831041" MODIFIED="1628761047861" TEXT="Create differente motivational force for developers"/>
 <node CREATED="1628761052849" ID="ID_664411114" MODIFIED="1628761057518" TEXT="Communication model">
@@ -1662,7 +1662,6 @@
 <node CREATED="1628761213953" ID="ID_422638828" MODIFIED="1628761225141" TEXT="60% more change security flaws"/>
 </node>
 <node CREATED="1628761236057" ID="ID_866420582" MODIFIED="1628761244134" TEXT="Price for parallel development"/>
-</node>
 </node>
 </node>
 <node CREATED="1628761265666" FOLDED="true" ID="ID_1866014779" MODIFIED="1628761280461" TEXT="Understand How Hotspots Attract Mutliple Authors">
@@ -1726,7 +1725,7 @@
 <node CREATED="1628775016838" ID="ID_528557939" MODIFIED="1628775023450" TEXT="Find main developer of the coupled module"/>
 </node>
 </node>
-<node CREATED="1628775036278" FOLDED="true" ID="ID_568932248" MODIFIED="1628775048869" TEXT="Evaluate Communication Costs">
+<node CREATED="1628775036278" ID="ID_568932248" MODIFIED="1628775048869" TEXT="Evaluate Communication Costs">
 <icon BUILTIN="full-4"/>
 <node CREATED="1628775058590" ID="ID_1259085714" MODIFIED="1628775065450" TEXT="To analyze communication cost"/>
 <node CREATED="1628775065798" ID="ID_504844289" MODIFIED="1628775072418" TEXT="... needs to know who&apos;s communicating with whom"/>
