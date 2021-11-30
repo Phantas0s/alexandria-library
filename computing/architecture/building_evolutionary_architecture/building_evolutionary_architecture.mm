@@ -1,9 +1,9 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1637596820088" ID="ID_1954682023" MODIFIED="1637596829892" TEXT="Building Evolutionary Architecture">
-<node CREATED="1637596841896" FOLDED="true" ID="ID_1488900064" MODIFIED="1637596849518" POSITION="right" TEXT="Software Architecture">
+<node CREATED="1637596841896" ID="ID_1488900064" MODIFIED="1637596849518" POSITION="right" TEXT="Software Architecture">
 <icon BUILTIN="full-1"/>
-<node CREATED="1637596868118" FOLDED="true" ID="ID_917922018" MODIFIED="1637596870233" TEXT="Introduction">
+<node CREATED="1637596868118" ID="ID_917922018" MODIFIED="1637596870233" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1637596871008" ID="ID_276264547" MODIFIED="1637596876122" TEXT="Difficult to define">
 <node CREATED="1637596876320" ID="ID_258864797" MODIFIED="1637596878692" TEXT="Large scope"/>
@@ -21,12 +21,13 @@
 <node CREATED="1637597119454" ID="ID_1744152651" MODIFIED="1637597123227" TEXT="... for proposed solution"/>
 <node CREATED="1637597127462" ID="ID_445394990" MODIFIED="1637597130706" TEXT="Must consider other factors"/>
 <node CREATED="1637597131735" ID="ID_1486550673" MODIFIED="1637597139811" TEXT="Solution balancing all concerns optimally"/>
-<node CREATED="1637597166629" ID="ID_1917951663" MODIFIED="1637597168921" TEXT="For example">
+<node CREATED="1637597166629" ID="ID_1917951663" MODIFIED="1638290994140" TEXT="For example">
+<icon BUILTIN="wizard"/>
 <node COLOR="#338800" CREATED="1637597177486" ID="ID_1144657864" MODIFIED="1637597515601" TEXT="Why the hell they don&apos;t call that properties or attribute or quality instead of &quot;illities&quot;???">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
 </node>
-<node CREATED="1637597170758" FOLDED="true" ID="ID_747123923" MODIFIED="1637597197161" TEXT="Partial list of &quot;-illities&quot;">
+<node CREATED="1637597170758" FOLDED="true" ID="ID_747123923" MODIFIED="1638291017559" TEXT="Partial list of &quot;-illities&quot;">
 <node CREATED="1637597206230" ID="ID_827060825" MODIFIED="1637597208537" TEXT="Accessibility"/>
 <node CREATED="1637597208861" ID="ID_1410524574" MODIFIED="1637597211914" TEXT="Accountability"/>
 <node CREATED="1637597212222" ID="ID_1817733820" MODIFIED="1637597214009" TEXT="Accuracy"/>
@@ -393,9 +394,9 @@
 </node>
 <node CREATED="1637685126391" ID="ID_863912276" MODIFIED="1637685136166" TEXT="Not all tests are fitness function (but some are)"/>
 </node>
-<node CREATED="1637685170640" FOLDED="true" ID="ID_1957026657" MODIFIED="1637685184892" TEXT="Categories">
+<node CREATED="1637685170640" ID="ID_1957026657" MODIFIED="1637685184892" TEXT="Categories">
 <icon BUILTIN="full-2"/>
-<node CREATED="1637685189551" ID="ID_755655379" MODIFIED="1637685194089" TEXT="Atomic Versus Holistic">
+<node CREATED="1637685189551" FOLDED="true" ID="ID_755655379" MODIFIED="1637685194089" TEXT="Atomic Versus Holistic">
 <icon BUILTIN="full-1"/>
 <node CREATED="1637685195816" ID="ID_353117400" MODIFIED="1637685204219" TEXT="Atomic fitness functions">
 <node CREATED="1637685204440" ID="ID_477167830" MODIFIED="1637685212187" TEXT="Run against singular context"/>
@@ -407,7 +408,7 @@
 <node CREATED="1637685363928" ID="ID_1605767577" MODIFIED="1637685412235" TEXT="Make sure that combined features don&apos;t break up"/>
 </node>
 </node>
-<node CREATED="1637685418387" ID="ID_296251384" MODIFIED="1637685423337" TEXT="Triggered Versus Continual">
+<node CREATED="1637685418387" FOLDED="true" ID="ID_296251384" MODIFIED="1637685423337" TEXT="Triggered Versus Continual">
 <icon BUILTIN="full-2"/>
 <node CREATED="1637685429463" ID="ID_1935067222" MODIFIED="1637685431492" TEXT="Triggered">
 <node CREATED="1637685431679" ID="ID_655852642" MODIFIED="1637685435115" TEXT="Particular event"/>
@@ -434,7 +435,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1637685528730" ID="ID_1683777867" MODIFIED="1637685534885" TEXT="Static Versus Dynamic">
+<node CREATED="1637685528730" FOLDED="true" ID="ID_1683777867" MODIFIED="1637685534885" TEXT="Static Versus Dynamic">
 <icon BUILTIN="full-3"/>
 <node CREATED="1637685537039" ID="ID_264613901" MODIFIED="1637685538779" TEXT="Static">
 <node CREATED="1637685539448" ID="ID_1298479367" MODIFIED="1637685541907" TEXT="Predefined results"/>
@@ -457,7 +458,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1637685605919" ID="ID_1160363472" MODIFIED="1637685612271" TEXT="Automated Versus Manual">
+<node CREATED="1637685605919" FOLDED="true" ID="ID_1160363472" MODIFIED="1637685612271" TEXT="Automated Versus Manual">
 <icon BUILTIN="full-4"/>
 <node CREATED="1637685615400" ID="ID_370170062" MODIFIED="1637685621980" TEXT="We try to automate everything">
 <node CREATED="1637685622360" ID="ID_1003121541" MODIFIED="1637685625276" TEXT="CI/CD"/>
@@ -471,7 +472,7 @@
 </node>
 <node CREATED="1637685661919" ID="ID_302743311" MODIFIED="1637685665019" TEXT="Manual fitness functions"/>
 </node>
-<node CREATED="1637685671783" ID="ID_941121806" MODIFIED="1637685675943" TEXT="Temporal">
+<node CREATED="1637685671783" FOLDED="true" ID="ID_941121806" MODIFIED="1637685675943" TEXT="Temporal">
 <icon BUILTIN="full-5"/>
 <node CREATED="1637685678520" ID="ID_730686758" MODIFIED="1637685688819" TEXT="Most fitness functions trigger on change"/>
 <node CREATED="1637685689375" ID="ID_633921847" MODIFIED="1637685719715" TEXT="Might want time assessing them too"/>
@@ -481,12 +482,12 @@
 <node CREATED="1637685704362" ID="ID_884924881" MODIFIED="1637685709499" TEXT="... available on encryption library"/>
 </node>
 </node>
-<node CREATED="1637685725768" ID="ID_8066851" MODIFIED="1637685730919" TEXT="Intentional over Emergent">
+<node CREATED="1637685725768" FOLDED="true" ID="ID_8066851" MODIFIED="1637685730919" TEXT="Intentional over Emergent">
 <icon BUILTIN="full-6"/>
 <node CREATED="1637685736847" ID="ID_917530433" MODIFIED="1637685745540" TEXT="Architects define most fitness functions at the beginning"/>
 <node CREATED="1637685746046" ID="ID_639813302" MODIFIED="1637685754813" TEXT="Some will emerge during development"/>
 </node>
-<node CREATED="1637685758695" ID="ID_711002739" MODIFIED="1637685761606" TEXT="Domain specific">
+<node CREATED="1637685758695" FOLDED="true" ID="ID_711002739" MODIFIED="1637685761606" TEXT="Domain specific">
 <icon BUILTIN="full-7"/>
 <node CREATED="1637685762302" ID="ID_630071378" MODIFIED="1637685773211" TEXT="Specific architectural concerns"/>
 <node CREATED="1637685773734" ID="ID_1963981702" MODIFIED="1637685787659" TEXT="Many problem domains have drivers leading to"/>
@@ -585,9 +586,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1637686421181" FOLDED="true" ID="ID_1805861904" MODIFIED="1637686427157" POSITION="right" TEXT=" Engineering Incremental Change">
+<node CREATED="1637686421181" ID="ID_1805861904" MODIFIED="1637686427157" POSITION="right" TEXT=" Engineering Incremental Change">
 <icon BUILTIN="full-3"/>
-<node CREATED="1637689126343" FOLDED="true" ID="ID_1254084440" MODIFIED="1637689128486" TEXT="Introduction">
+<node CREATED="1637689126343" ID="ID_1254084440" MODIFIED="1637689128486" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1637689129232" ID="ID_1870829567" MODIFIED="1637689144851" TEXT="Evolutionary architecture implied incremental changes"/>
 <node CREATED="1637689147815" ID="ID_1866493834" MODIFIED="1637689157531" TEXT="2 aspects of incremental changes">
@@ -598,7 +599,7 @@
 <node CREATED="1637689188895" ID="ID_844717624" MODIFIED="1637689196556" TEXT="Key component of evolutionary architecture"/>
 </node>
 </node>
-<node CREATED="1637689207431" FOLDED="true" ID="ID_995270311" MODIFIED="1637689211711" TEXT="Building Blocks">
+<node CREATED="1637689207431" ID="ID_995270311" MODIFIED="1637689211711" TEXT="Building Blocks">
 <icon BUILTIN="full-1"/>
 <node CREATED="1637689297935" FOLDED="true" ID="ID_898573695" MODIFIED="1637689314446" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -778,7 +779,7 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node CREATED="1637690605684" ID="ID_1657418699" MODIFIED="1637690611035" POSITION="right" TEXT=" Architectural Coupling">
+<node CREATED="1637690605684" FOLDED="true" ID="ID_1657418699" MODIFIED="1637690611035" POSITION="right" TEXT=" Architectural Coupling">
 <icon BUILTIN="full-4"/>
 <node CREATED="1637767485508" FOLDED="true" ID="ID_368628948" MODIFIED="1637767503457" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1420,8 +1421,7 @@
   <body>
     <img src="serverless_arch.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1638204339297" ID="ID_548601577" MODIFIED="1638204344626" TEXT="Two kinds">
@@ -1498,7 +1498,154 @@
 </node>
 <node CREATED="1638204843129" ID="ID_232614808" MODIFIED="1638204852614" TEXT=" Case Study: Guarding Against Component Cycles">
 <icon BUILTIN="full-5"/>
+<node CREATED="1638288987557" ID="ID_1070890534" MODIFIED="1638289103153" TEXT="Using JDepend API to guard against "/>
+<node CREATED="1638289103508" ID="ID_119089822" MODIFIED="1638289110905" TEXT="... cycle dependencies"/>
 </node>
+</node>
+<node CREATED="1638289113263" FOLDED="true" ID="ID_392016129" MODIFIED="1638289118364" POSITION="right" TEXT=" Evolutionary Data">
+<icon BUILTIN="full-5"/>
+<node CREATED="1638289138085" ID="ID_89978925" MODIFIED="1638289352385" TEXT="Evolutionary database design is important">
+<icon BUILTIN="full-0"/>
+</node>
+<node CREATED="1638289346441" FOLDED="true" ID="ID_783331297" MODIFIED="1638289351490" TEXT="Evolutionary Database Design">
+<icon BUILTIN="full-1"/>
+<node CREATED="1638289385857" ID="ID_933105789" MODIFIED="1638289392891" TEXT="Evolving Schemas">
+<icon BUILTIN="full-1"/>
+<node CREATED="1638289405617" ID="ID_306403261" MODIFIED="1638289412948" TEXT="Need to evolve schema alongside code"/>
+<node CREATED="1638289420209" ID="ID_653540224" MODIFIED="1638289426141" TEXT="Database, like code, must be">
+<node CREATED="1638289426329" ID="ID_1785903720" MODIFIED="1638289427915" TEXT="Tested">
+<node CREATED="1638289431897" ID="ID_1328797016" MODIFIED="1638289436790" TEXT="Test change to DB schemas"/>
+<node CREATED="1638289442852" ID="ID_1657670249" MODIFIED="1638289445973" TEXT="If ORM">
+<node CREATED="1638289446153" ID="ID_1322283457" MODIFIED="1638289450366" TEXT="Fitness function to ensure"/>
+<node CREATED="1638289450673" ID="ID_278811022" MODIFIED="1638289456994" TEXT="... that mapping stays in sync with schema"/>
+</node>
+</node>
+<node CREATED="1638289458391" ID="ID_1986927543" MODIFIED="1638289459734" TEXT="Versioned"/>
+<node CREATED="1638289479622" ID="ID_582176355" MODIFIED="1638289485205" TEXT="Incremental">
+<node CREATED="1638289496177" ID="ID_1192146720" MODIFIED="1638289499597" TEXT="Automated migration tools"/>
+</node>
+</node>
+<node CREATED="1638289548464" ID="ID_1405962112" MODIFIED="1638289552188" TEXT="Automated migration tool">
+<node CREATED="1638289552344" ID="ID_722144851" MODIFIED="1638289556836" TEXT="Undo often unnecessary">
+<node CREATED="1638289557146" ID="ID_181746015" MODIFIED="1638289565996" TEXT="Why being able to build DB in both senses?"/>
+<node CREATED="1638289581167" ID="ID_1499088362" MODIFIED="1638289594307" TEXT="Need to maintain two versions of correctness">
+<node CREATED="1638289585023" ID="ID_84887953" MODIFIED="1638289586315" TEXT="forward"/>
+<node CREATED="1638289586664" ID="ID_1408170468" MODIFIED="1638289588244" TEXT="backward"/>
+</node>
+<node CREATED="1638289603352" ID="ID_1343292774" MODIFIED="1638289606477" TEXT="Can be challenging"/>
+</node>
+<node CREATED="1638289611703" ID="ID_1241215614" MODIFIED="1638289614779" TEXT="Migrations immutable">
+<node CREATED="1638289624415" ID="ID_1054954581" MODIFIED="1638289641163" TEXT="Don&apos;t remove or change any migration"/>
+<node CREATED="1638289627992" ID="ID_1303563846" MODIFIED="1638289635843" TEXT="Just add a new one"/>
+</node>
+</node>
+</node>
+<node CREATED="1638289645903" ID="ID_1922071327" MODIFIED="1638289652126" TEXT="Shared Database Integration">
+<icon BUILTIN="full-2"/>
+<node CREATED="1638289701102" ID="ID_1753140336" MODIFIED="1638289706330" TEXT="When database is common to many services"/>
+<node CREATED="1638289706640" ID="ID_358125109" MODIFIED="1638289715410" TEXT="Refactoring add a transition step">
+<node CREATED="1638289723623" ID="ID_82988619" MODIFIED="1638289726163" TEXT="Old &amp; new"/>
+</node>
+<node CREATED="1638289841119" ID="ID_28124353" MODIFIED="1638289844402" TEXT="Might need a trigger if">
+<node CREATED="1638289844590" ID="ID_613841222" MODIFIED="1638289849361" TEXT="New columns are created"/>
+<node CREATED="1638289849653" ID="ID_1449135871" MODIFIED="1638289853807" TEXT="Old columns are still updated"/>
+<node CREATED="1638289854179" ID="ID_542481580" MODIFIED="1638289864978" TEXT="... till old columns can be deleted"/>
+</node>
+</node>
+<node CREATED="1638289869622" ID="ID_1201730734" MODIFIED="1638289874974" TEXT="Inappropriate Data Coupling">
+<icon BUILTIN="full-3"/>
+<node CREATED="1638290365059" ID="ID_1322615224" MODIFIED="1638290374423" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1638289916085" ID="ID_1308223222" MODIFIED="1638289921745" TEXT="Most databases are old">
+<node CREATED="1638289926357" ID="ID_1094221574" MODIFIED="1638289934000" TEXT="No testing, refactoring tools..."/>
+<node CREATED="1638289922149" ID="ID_301661759" MODIFIED="1638289941374" TEXT="Closed source from vendors"/>
+</node>
+</node>
+<node CREATED="1638290330387" ID="ID_297975819" MODIFIED="1638290377132" TEXT="Two Phase Commit Transactions">
+<icon BUILTIN="full-1"/>
+<node CREATED="1638289970780" ID="ID_861303139" MODIFIED="1638289973864" TEXT="Transactions are coupling"/>
+<node CREATED="1638290012308" ID="ID_649652393" MODIFIED="1638290017248" TEXT="Why transactions are created?">
+<node CREATED="1638290017540" ID="ID_345518510" MODIFIED="1638290025369" TEXT="Global coordination is difficult, transaction is an answer"/>
+<node CREATED="1638290026980" ID="ID_1054119917" MODIFIED="1638290042016" TEXT="Show how the business needs to be coupled"/>
+<node CREATED="1638290046996" ID="ID_512354851" MODIFIED="1638290053704" TEXT="DBA might own the transactional context"/>
+</node>
+<node CREATED="1638290097892" ID="ID_1056511068" MODIFIED="1638290124888" TEXT="Microservices are not the best for transactional systems">
+<node CREATED="1638290114596" ID="ID_1933256125" MODIFIED="1638290118919" TEXT="Service based architecture better"/>
+</node>
+<node CREATED="1638290196627" ID="ID_1310831579" MODIFIED="1638290204320" TEXT="Transactions should be avoided as much as possible">
+<node CREATED="1638290262219" ID="ID_516419635" MODIFIED="1638290269711" TEXT="Often, transactional context makes the service"/>
+<node CREATED="1638290276411" ID="ID_314946859" MODIFIED="1638290293046" TEXT="Create coupling between services if mismatch between">
+<node CREATED="1638290293186" ID="ID_999454921" MODIFIED="1638290296286" TEXT="Granularity of the services"/>
+<node CREATED="1638290301323" ID="ID_1596009762" MODIFIED="1638290303646" TEXT="Data concerns"/>
+</node>
+</node>
+</node>
+<node CREATED="1638290354778" ID="ID_1570606597" MODIFIED="1638290377837" TEXT="Age and Quality of Data">
+<icon BUILTIN="full-2"/>
+<node CREATED="1638290390514" FOLDED="true" ID="ID_946599454" MODIFIED="1638290399526" TEXT="DB schemas are still an abstraction are real world">
+<node CREATED="1638290422370" ID="ID_1858969254" MODIFIED="1638290425647" TEXT="Real world change often"/>
+</node>
+<node CREATED="1638290406314" ID="ID_1900235539" MODIFIED="1638290420077" TEXT="DBAs believing that their schema don&apos;t change ignore reality"/>
+<node CREATED="1638290434986" FOLDED="true" ID="ID_1417111813" MODIFIED="1638290445861" TEXT="Common process of &quot;evolution&quot;">
+<node CREATED="1638290437722" ID="ID_720116397" MODIFIED="1638290443313" TEXT="Adding another join table"/>
+<node CREATED="1638290446201" ID="ID_963393936" MODIFIED="1638290447493" TEXT="Bad idea">
+<node CREATED="1638290471506" ID="ID_340703526" MODIFIED="1638290474053" TEXT="Work on short term"/>
+<node CREATED="1638290475673" ID="ID_123532830" MODIFIED="1638290487886" TEXT="Obfuscates the real underlying abstraction"/>
+<node CREATED="1638290500529" ID="ID_1588055929" MODIFIED="1638290505877" TEXT="Create byzantine grouping"/>
+</node>
+</node>
+<node CREATED="1638290518873" FOLDED="true" ID="ID_1106970527" MODIFIED="1638290525229" TEXT="Legacy data is another huge problem">
+<node CREATED="1638290603289" ID="ID_181503079" MODIFIED="1638290606820" TEXT="Inconsistent at best"/>
+<node CREATED="1638290607091" ID="ID_1449340059" MODIFIED="1638290609676" TEXT="Garbage at worst"/>
+</node>
+<node CREATED="1638290630144" FOLDED="true" ID="ID_809874210" MODIFIED="1638290642412" TEXT="The data needs to evolve with architecture">
+<node CREATED="1638290645856" ID="ID_1845730276" MODIFIED="1638290649596" TEXT="Schema"/>
+<node CREATED="1638290649944" ID="ID_1204972542" MODIFIED="1638290651236" TEXT="Quality"/>
+</node>
+<node CREATED="1638290659710" ID="ID_1735350143" MODIFIED="1638290665988" TEXT="... problems need to be fixed early"/>
+<node CREATED="1638290677789" FOLDED="true" ID="ID_852587335" MODIFIED="1638290683964" TEXT="Keep true value in the data">
+<node CREATED="1638290684264" ID="ID_1829804787" MODIFIED="1638290694279" TEXT="Need frank conversation of what represents value"/>
+<node CREATED="1638290695704" ID="ID_584621632" MODIFIED="1638290708684" TEXT="Can keep old data as a reference"/>
+<node CREATED="1638290709071" ID="ID_678071744" MODIFIED="1638290719540" TEXT="... but out of the evolutionary development"/>
+</node>
+</node>
+</node>
+<node CREATED="1638290732576" ID="ID_112111292" MODIFIED="1638290745149" TEXT="Case Study: Evolving PnultimateWidget&apos;s Routing">
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+</node>
+<node CREATED="1638290787239" ID="ID_1614298338" MODIFIED="1638290797365" POSITION="right" TEXT=" Building Evolvable Architectures">
+<icon BUILTIN="full-6"/>
+<node CREATED="1638290832959" ID="ID_376975376" MODIFIED="1638290836445" TEXT="Mechanics">
+<icon BUILTIN="full-1"/>
+<node CREATED="1638290839487" ID="ID_826319046" MODIFIED="1638290846995" TEXT="Three steps for evolutionary architecture">
+<node CREATED="1638290847311" ID="ID_490342711" MODIFIED="1638290854040" TEXT="Identify Dimensions Affected by Evolution">
+<icon BUILTIN="full-1"/>
+<node CREATED="1638290869967" ID="ID_271255956" MODIFIED="1638290874939" TEXT="Whatever quality of architecture"/>
+<node CREATED="1638290875943" ID="ID_400670081" LINK="#ID_747123923" MODIFIED="1638291021891" TEXT="... seems important"/>
+</node>
+<node CREATED="1638291034590" ID="ID_347484319" MODIFIED="1638291045203" TEXT="Define Fitness Functions for Each Dimension">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1638291077894" ID="ID_854101757" MODIFIED="1638291088316" TEXT="Use Deployment Pipelines to Automate Fitness Functions">
+<icon BUILTIN="full-3"/>
+<node CREATED="1638291226006" ID="ID_130632516" MODIFIED="1638291234826" TEXT="Cycle time is important aspect of incremental change"/>
+<node CREATED="1638291241393" ID="ID_1324918996" MODIFIED="1638291258437" TEXT="If cycle time lengthen, slow down evolvability"/>
+</node>
+</node>
+<node CREATED="1638291666515" ID="ID_1610255291" MODIFIED="1638291696384" TEXT="Ongoing activities">
+<node CREATED="1638291696684" ID="ID_1539522451" MODIFIED="1638291701184" TEXT="At the beginning of the project"/>
+<node CREATED="1638291701491" ID="ID_595397014" MODIFIED="1638291705136" TEXT="Along the project evolve"/>
+</node>
+</node>
+<node CREATED="1638291712499" ID="ID_498389577" MODIFIED="1638291795459" TEXT="Greenfield Projects">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node COLOR="#338800" CREATED="1638291771244" ID="ID_273771985" MODIFIED="1638291792059" POSITION="left" TEXT="Didn&apos;t read all the book, repeat itself">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
 </node>
 </node>
 </map>
