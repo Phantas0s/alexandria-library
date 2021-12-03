@@ -30,17 +30,19 @@ Quickly, I began to write mindmaps of everything interesting I was reading or wa
 
 > Invest regularly in your knowledge portfolio. -- **The Pragmatic Programmer**
 
-This choice is based on experimentation I've done. I remember more if I create mindmaps of what I'm consuming, and I find it easy to go back to a mindmap to refresh *exactly* the knowledge I need.
+This choice is based on experiments I've done. I remember more of the content I'm consuming if I create mindmaps, and it's easy to go back to a mindmap to find *exactly* the knowledge I need.
 
 Therefore, it's a personal choice. If you're interested to create a "second brain", you should do some experiments too and see what works for you. 
 
-Mindmaps allow me to:
+These mindmaps allow me to:
 
 1. Capture the knowledge fairly quickly, especially because Freemind can be controlled with [Vim](https://www.vim.org)-like keystrokes. For more information, you can try my [Freemind config files](https://github.com/Phantas0s/.dotfiles/blob/master/install/install-freemind.sh).
-2. Mindmaps offer a visual way to access any part of any resource quickly, by localizing the branches I'm interested in.
-3. I can easily add annotations, questions, or even links on a mindmap.
+2. Have a visual way to access any part of any resource quickly, by localizing the branches I'm interested in.
+3. Add annotations, questions, or even links on a mindmap.
 
 I like trees, I love mindmaps. For me, it's a fun way to capture knowledge. Whatever system you choose, I advise you to use something you like doing, or you won't do it.
+
+Additionally, these mindmaps are in XML. Since my [development environment is centered around the shell](https://themouseless.dev), I've many tools to search through plain text. As a result, I can find the exact mindmap I need easily.
 
 Finally, it's way easier to get back to some precise content I previously read or watched using mindmaps, instead of opening a book or a video and trying to localize the content I'm seeking.
 
