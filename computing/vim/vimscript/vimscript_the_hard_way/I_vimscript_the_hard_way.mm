@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1638256477306" TEXT="Vimscript the Hard Way">
+<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1638682995766" TEXT="Vimscript the Hard Way">
 <richcontent TYPE="NOTE"><html>
   <head>
     

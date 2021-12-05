@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1628932401302" ID="ID_629816092" MODIFIED="1628932440743" TEXT="Software Design X Ray">
-<node CREATED="1628932445023" ID="ID_868848815" MODIFIED="1628933117643" POSITION="right" TEXT="The World of Behavioral Code Analysis">
+<node CREATED="1628932445023" FOLDED="true" ID="ID_868848815" MODIFIED="1628933117643" POSITION="right" TEXT="The World of Behavioral Code Analysis">
 <icon BUILTIN="full-0"/>
 <node CREATED="1628932517662" ID="ID_134337522" MODIFIED="1628933108380" TEXT="Why You Should Read This Book">
 <icon BUILTIN="full-1"/>
@@ -216,7 +216,7 @@
 <node CREATED="1630167011597" ID="ID_665806175" MODIFIED="1630167014104" TEXT="... won&apos;t bring us far"/>
 </node>
 </node>
-<node CREATED="1630167042077" FOLDED="true" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
+<node CREATED="1630167042077" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
 <icon BUILTIN="full-2"/>
 <node CREATED="1630167068701" ID="ID_1009041052" MODIFIED="1630167071944" TEXT="Measure Interest Rates">
 <icon BUILTIN="full-1"/>
@@ -304,7 +304,7 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node CREATED="1630336015500" FOLDED="true" ID="ID_60683458" MODIFIED="1630337368210" TEXT="Use X-Rays to Get Deep Insights into Code">
+<node CREATED="1630336015500" ID="ID_60683458" MODIFIED="1630337368210" TEXT="Use X-Rays to Get Deep Insights into Code">
 <icon BUILTIN="full-4"/>
 <node CREATED="1630337396804" ID="ID_1396091227" MODIFIED="1630337404906" TEXT="Inspect the code">
 <icon BUILTIN="full-1"/>
@@ -321,7 +321,7 @@
 <node CREATED="1630336367077" ID="ID_769229424" MODIFIED="1630336370273" TEXT="Need to parse source code"/>
 <node CREATED="1630336370653" ID="ID_1141808583" MODIFIED="1630336373576" TEXT="... to know which function"/>
 <node CREATED="1630336373916" ID="ID_288052676" MODIFIED="1630336378856" TEXT="... was affected "/>
-<node CREATED="1630336379845" ID="ID_477008031" MODIFIED="1630336381904" TEXT="... in what commuit"/>
+<node CREATED="1630336379845" ID="ID_477008031" MODIFIED="1638542847498" TEXT="... in what commit"/>
 </node>
 <node CREATED="1630336401764" ID="ID_1399169169" MODIFIED="1630336413888" TEXT="Perform hotspot calculation on resulting set of changed functions">
 <node CREATED="1630336417925" ID="ID_136296980" MODIFIED="1630336421624" TEXT="Over all revision of the hotspot"/>
@@ -791,7 +791,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1631893083227" ID="ID_1769007685" MODIFIED="1631893093256" POSITION="right" TEXT=" Part II - Work with Large Codebases and Organizations">
+<node CREATED="1631893083227" FOLDED="true" ID="ID_1769007685" MODIFIED="1631893093256" POSITION="right" TEXT=" Part II - Work with Large Codebases and Organizations">
 <icon BUILTIN="full-2"/>
 <node CREATED="1631967136028" ID="ID_736305035" MODIFIED="1631967145812" TEXT="Spot Your System&apos;s Tipping Point">
 <icon BUILTIN="full-6"/>
