@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1545313890562" ID="ID_1172222827" MODIFIED="1618314438893" TEXT="Accelerate">
+<node CREATED="1545313890562" ID="ID_1172222827" MODIFIED="1638783329638" TEXT="Accelerate">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -372,7 +372,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1545382929815" ID="ID_1816166281" MODIFIED="1586595333991" TEXT="Measuring and changing culture">
+<node CREATED="1545382929815" FOLDED="true" ID="ID_1816166281" MODIFIED="1586595333991" TEXT="Measuring and changing culture">
 <icon BUILTIN="full-3"/>
 <node CREATED="1545316742030" FOLDED="true" ID="ID_1325663018" MODIFIED="1586595626062" TEXT="Culture can be defined with levels">
 <node CREATED="1545316752030" ID="ID_1613641138" MODIFIED="1573204168901" TEXT="Assumptions">
@@ -424,8 +424,7 @@
   <body>
     Ron Westrum
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1545381586818" FOLDED="true" ID="ID_423122412" MODIFIED="1573204268043" TEXT="Pathological">
 <icon BUILTIN="full-1"/>
 <node CREATED="1545381592251" ID="ID_161240002" MODIFIED="1545381594510" TEXT="Power oriented"/>
@@ -911,7 +910,7 @@
 <node CREATED="1586455449038" ID="ID_1527190515" MODIFIED="1586455449685" TEXT="I am rugged, not because it is easy, but because it is necessary and I am up for the challenge (Corman et al. 2012)."/>
 </node>
 </node>
-<node CREATED="1547909155221" ID="ID_790657332" MODIFIED="1586595268952" TEXT="Management practices for software">
+<node CREATED="1547909155221" FOLDED="true" ID="ID_790657332" MODIFIED="1586595268952" TEXT="Management practices for software">
 <icon BUILTIN="full-7"/>
 <node CREATED="1547909175017" FOLDED="true" ID="ID_1316382726" MODIFIED="1547909183072" TEXT="Management in software saw a lot of changes">
 <node CREATED="1547909190413" ID="ID_1989166335" MODIFIED="1547909219136" TEXT="Project management institute">
@@ -1575,7 +1574,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1547984321150" FOLDED="true" ID="ID_775970727" MODIFIED="1586603826857" POSITION="right" TEXT="The research">
+<node CREATED="1547984321150" ID="ID_775970727" MODIFIED="1586603826857" POSITION="right" TEXT="The research">
 <icon BUILTIN="full-2"/>
 <node CREATED="1547984364230" FOLDED="true" ID="ID_201276016" MODIFIED="1586455990398" TEXT="The science behind the book">
 <icon BUILTIN="full-1"/>
