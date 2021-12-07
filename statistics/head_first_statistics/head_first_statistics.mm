@@ -3,7 +3,7 @@
 <node CREATED="1638381061033" ID="ID_1126022544" MODIFIED="1638381074436" TEXT="Head First statistics">
 <node CREATED="1638381074772" ID="ID_1236134570" MODIFIED="1638381090490" POSITION="right" TEXT="Visualizing information">
 <icon BUILTIN="full-1"/>
-<node CREATED="1638382437318" ID="ID_405587725" MODIFIED="1638382490168" TEXT="Welcome to statsville!">
+<node CREATED="1638382437318" FOLDED="true" ID="ID_405587725" MODIFIED="1638382490168" TEXT="Welcome to statsville!">
 <icon BUILTIN="full-1"/>
 <node CREATED="1638381108365" ID="ID_103695882" MODIFIED="1638381113318" TEXT="Statistics are everywhere">
 <icon BUILTIN="full-1"/>
@@ -61,7 +61,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1638382462295" ID="ID_1213188518" MODIFIED="1638382490801" TEXT="Differences in data presentation">
+<node CREATED="1638382462295" FOLDED="true" ID="ID_1213188518" MODIFIED="1638382490801" TEXT="Differences in data presentation">
 <icon BUILTIN="full-2"/>
 <node CREATED="1638381527162" ID="ID_533703163" MODIFIED="1638382494444" TEXT="A tale of two charts">
 <icon BUILTIN="full-1"/>
@@ -124,7 +124,7 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node CREATED="1638382479637" ID="ID_210290795" MODIFIED="1638382492474" TEXT="Anatomy of a pie chart">
+<node CREATED="1638382479637" FOLDED="true" ID="ID_210290795" MODIFIED="1638382492474" TEXT="Anatomy of a pie chart">
 <icon BUILTIN="full-3"/>
 <node CREATED="1638382190487" ID="ID_281591740" MODIFIED="1638382502153" TEXT="The Humbe Pie Chart">
 <icon BUILTIN="full-1"/>
@@ -143,7 +143,7 @@
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node CREATED="1638382566686" ID="ID_416955698" MODIFIED="1638382576451" TEXT="Two types of bar charts">
+<node CREATED="1638382566686" FOLDED="true" ID="ID_416955698" MODIFIED="1638382576451" TEXT="Two types of bar charts">
 <icon BUILTIN="full-4"/>
 <node CREATED="1638382583549" ID="ID_1786098810" MODIFIED="1638382591312" TEXT="Bar charts can allow for more accuracy">
 <icon BUILTIN="full-1"/>
@@ -170,7 +170,7 @@
 <node CREATED="1638382770413" ID="ID_1597031207" MODIFIED="1638382777080" TEXT="More useful if name of categories are long"/>
 </node>
 </node>
-<node CREATED="1638382800853" ID="ID_1501621856" MODIFIED="1638383072543" TEXT=" A look at scale">
+<node CREATED="1638382800853" FOLDED="true" ID="ID_1501621856" MODIFIED="1638383072543" TEXT=" A look at scale">
 <icon BUILTIN="full-5"/>
 <node CREATED="1638382818538" ID="ID_215094855" MODIFIED="1638383122206" TEXT="Using percentage scales">
 <icon BUILTIN="full-1"/>
@@ -206,7 +206,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1638383205782" ID="ID_750653322" MODIFIED="1638383212830" TEXT=" Two data sets on one bar chart">
+<node CREATED="1638383205782" FOLDED="true" ID="ID_750653322" MODIFIED="1638383212830" TEXT=" Two data sets on one bar chart">
 <icon BUILTIN="full-6"/>
 <node CREATED="1638383230590" ID="ID_270305586" MODIFIED="1638383236168" TEXT="The split category bar chart">
 <icon BUILTIN="full-1"/>
@@ -220,8 +220,7 @@
   <body>
     <img src="split_category_bar_chart.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1638383244007" ID="ID_824897299" MODIFIED="1638383248681" TEXT="Useful to compare frequency"/>
@@ -242,8 +241,7 @@
   <body>
     <img src="segmented_bar_chart.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1638383348558" ID="ID_1631183199" MODIFIED="1638383354859" TEXT="Show frequencies and percentage">
@@ -286,6 +284,186 @@
 </node>
 </node>
 <node CREATED="1638383776558" ID="ID_1762107120" MODIFIED="1638383792102" TEXT="Dealing with grouped data">
+<icon BUILTIN="full-2"/>
+<node CREATED="1638894190623" ID="ID_830288112" MODIFIED="1638894195128" TEXT="How to chart ranged data?"/>
+<node CREATED="1638894007547" ID="ID_1135603819" MODIFIED="1638894034419" TEXT="How to chart that?">
+<node CREATED="1638894048046" ID="ID_985115923" MODIFIED="1638894051189" TEXT="Each bar represent a range"/>
+<node CREATED="1638894053016" ID="ID_1812464248" MODIFIED="1638894056594" TEXT="Can create a histogram"/>
+<node CREATED="1638894109148" ID="ID_146382967" MODIFIED="1638894116062" TEXT="Value on a contiguous numeric scale"/>
+<node CREATED="1638894075348" ID="ID_236911832" MODIFIED="1638894078439" TEXT="Two differences with bars">
+<node CREATED="1638894060598" ID="ID_23607988" MODIFIED="1638894084040" TEXT="Area of bar proportional to frequency">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1638894069205" ID="ID_1962442313" MODIFIED="1638894084695" TEXT="No gaps between the bars">
+<icon BUILTIN="full-2"/>
+<node CREATED="1638894306016" ID="ID_825449276" MODIFIED="1638894309186" TEXT="Show all value covered"/>
+<node CREATED="1638894315471" ID="ID_915447540" MODIFIED="1638894322880" TEXT="Interval reflect the range of values covered"/>
+<node CREATED="1638894332315" ID="ID_1801356957" MODIFIED="1638894335556" TEXT="Might need to round values"/>
+</node>
+</node>
+</node>
+<node CREATED="1638894132507" ID="ID_1760016799" MODIFIED="1638894135144" TEXT="Need to decide">
+<node CREATED="1638894135364" ID="ID_1261225989" MODIFIED="1638894140016" TEXT="How wide bars need to be"/>
+<node CREATED="1638894140361" ID="ID_548132487" MODIFIED="1638894151644" TEXT="What range it can cover"/>
+</node>
+<node CREATED="1638894196652" ID="ID_1668041870" MODIFIED="1638894261767" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1638893993652" FOLDED="true" ID="ID_1439751017" MODIFIED="1638894001599" TEXT="Illustraction">
+<icon BUILTIN="licq"/>
+<node CREATED="1638894002604" ID="ID_1506898925" MODIFIED="1638894005721">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="grouped_data.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1638894245179" FOLDED="true" ID="ID_1444362485" MODIFIED="1638894252888" TEXT="Histogram example">
+<icon BUILTIN="licq"/>
+<node CREATED="1638894253587" ID="ID_1920477806" MODIFIED="1638894256243">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="histogram_example.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1638894280099" ID="ID_1963021116" MODIFIED="1638894287428" TEXT="Common that width of equal size, but don&apos;t have to be"/>
+</node>
+</node>
+<node CREATED="1638894669402" ID="ID_17326616" MODIFIED="1638894688426" TEXT="A problem with unequal interval widths">
+<icon BUILTIN="full-8"/>
+<node CREATED="1638894690723" FOLDED="true" ID="ID_225101546" MODIFIED="1638894697193" TEXT="Manic Mango needs another chart">
+<icon BUILTIN="full-1"/>
+<node CREATED="1638894713357" ID="ID_1830159930" MODIFIED="1638894720261" TEXT="Chart with interval with different widths"/>
+<node CREATED="1638894723036" ID="ID_510486630" MODIFIED="1638894751454" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1638894732714" ID="ID_484361154" MODIFIED="1638894733886" TEXT="0-1"/>
+<node CREATED="1638894735225" ID="ID_991765206" MODIFIED="1638894736814" TEXT="1-3"/>
+<node CREATED="1638894737391" ID="ID_603221589" MODIFIED="1638894740086" TEXT="3-5"/>
+<node CREATED="1638894740470" ID="ID_1837360787" MODIFIED="1638894742652" TEXT="5-10"/>
+<node CREATED="1638894743073" ID="ID_134141039" MODIFIED="1638894747782" TEXT="10-24"/>
+</node>
+<node CREATED="1638894786392" ID="ID_1944380145" MODIFIED="1638894794126" TEXT="It might make bar disproportionally large"/>
+<node CREATED="1638894807675" ID="ID_578766622" MODIFIED="1638894814473" TEXT="... can create misleading impressions">
+<node CREATED="1638894826025" ID="ID_946800491" MODIFIED="1638894838678" TEXT="Bigger range has a higher frequency">
+<node CREATED="1638895745112" ID="ID_213483251" MODIFIED="1638895751269" TEXT="Area represents the frequency"/>
+<node CREATED="1638895769812" ID="ID_1066499490" MODIFIED="1638895772856" TEXT="Frequency density"/>
+</node>
+<node CREATED="1638894838991" ID="ID_1077634889" MODIFIED="1638894842109" TEXT="... even if it&apos;s not the case"/>
+</node>
+</node>
+<node CREATED="1638894884821" FOLDED="true" ID="ID_600413195" MODIFIED="1638894893860" TEXT="Make the area of histogram bars proportional to frequency">
+<icon BUILTIN="full-2"/>
+<node CREATED="1638895151095" ID="ID_1859315160" MODIFIED="1638895174603" TEXT="Can make reflect">
+<node CREATED="1638895174847" ID="ID_1871859872" MODIFIED="1638895177997" TEXT="width of each bar"/>
+<node CREATED="1638895178580" ID="ID_48149112" MODIFIED="1638895183932" TEXT="width of each interval"/>
+</node>
+<node CREATED="1638895185488" ID="ID_695168385" MODIFIED="1638895196324" TEXT="... but affect overall area of each bar"/>
+<node CREATED="1638895201650" ID="ID_543949994" MODIFIED="1638895203236" TEXT="Worfklow">
+<node CREATED="1638895203415" ID="ID_907469246" MODIFIED="1638895208215" TEXT="Find the bar widths">
+<icon BUILTIN="full-1"/>
+<node CREATED="1638895216834" ID="ID_1940219198" MODIFIED="1638895224372" TEXT="Needs to understand the coverage for each group"/>
+<node CREATED="1638895224640" ID="ID_601426453" MODIFIED="1638895244491" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1638895226446" ID="ID_823370612" MODIFIED="1638895238212" TEXT="1-3 hours"/>
+<node CREATED="1638895229840" ID="ID_1557662014" MODIFIED="1638895256863" TEXT="Cover full 2 hours, both">
+<node CREATED="1638895251242" ID="ID_679065214" MODIFIED="1638895252629" TEXT="1-2"/>
+<node CREATED="1638895253049" ID="ID_776579966" MODIFIED="1638895260557" TEXT="2-3"/>
+</node>
+<node CREATED="1638895268737" ID="ID_757740529" MODIFIED="1638895275578" TEXT="Bar width is 2"/>
+<node CREATED="1638895276076" ID="ID_76572647" MODIFIED="1638895281533" TEXT="Boundaries are 1 and 3"/>
+</node>
+</node>
+<node CREATED="1638895305576" ID="ID_1466456753" MODIFIED="1638895310700" TEXT="Find the bar heights">
+<icon BUILTIN="full-2"/>
+<node CREATED="1638895324399" ID="ID_1791532427" MODIFIED="1638895408052" TEXT="Frequency = area">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1638895344022" ID="ID_587801917" MODIFIED="1638895409172" TEXT="Area of each bar">
+<icon BUILTIN="full-2"/>
+<node CREATED="1638895347023" ID="ID_881071381" MODIFIED="1638895349908" TEXT="width * height"/>
+</node>
+<node CREATED="1638895370737" ID="ID_1913743909" MODIFIED="1638895409718" TEXT="Height">
+<icon BUILTIN="full-3"/>
+<node CREATED="1638895372103" ID="ID_195304161" MODIFIED="1638895376907" TEXT="Frequency / width"/>
+</node>
+</node>
+<node CREATED="1638895439834" ID="ID_744352568" MODIFIED="1638895442695" TEXT="Draw your chart">
+<icon BUILTIN="full-3"/>
+<node CREATED="1638895451358" ID="ID_861713485" MODIFIED="1638895692541" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1638895452894" FOLDED="true" ID="ID_442144985" MODIFIED="1638895557232" TEXT="Data">
+<icon BUILTIN="licq"/>
+<node CREATED="1638895557917" ID="ID_1269123053" MODIFIED="1638895618869">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="histogram_variable_width_data.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1638895621254" FOLDED="true" ID="ID_1488769820" MODIFIED="1638895635643" TEXT="Wrong">
+<icon BUILTIN="licq"/>
+<node CREATED="1638895624143" ID="ID_215228610" MODIFIED="1638895629424">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="histogram_variable_width_wrong.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1638895636389" FOLDED="true" ID="ID_235527634" MODIFIED="1638895678876" TEXT="Good">
+<icon BUILTIN="licq"/>
+<node CREATED="1638895637572" ID="ID_1616346992" MODIFIED="1638895676096">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="histogram_variable_width_good.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1638895769812" ID="ID_1278197304" MODIFIED="1638895772856" TEXT="Frequency density">
+<node CREATED="1638895783440" ID="ID_411775787" MODIFIED="1638895787825" TEXT="Frequency / group width"/>
+</node>
+</node>
+<node CREATED="1638895882112" FOLDED="true" ID="ID_479978805" MODIFIED="1638895887413" TEXT="Histograms can&apos;t do everything">
+<icon BUILTIN="full-3"/>
+<node CREATED="1638895929581" ID="ID_293276959" MODIFIED="1638895936443" TEXT="Not well suited for cumulative frequency"/>
+</node>
+</node>
+<node CREATED="1638895939030" ID="ID_1801717670" MODIFIED="1638895944765" TEXT=" Cumulative Frequency Graphs">
+<node CREATED="1638895945552" ID="ID_1859680413" MODIFIED="1638895951687" TEXT="Introducing cumulative frequency">
+<icon BUILTIN="full-1"/>
+<node CREATED="1638895961084" ID="ID_1176793359" MODIFIED="1638895963495" TEXT="Total frequency"/>
+<node CREATED="1638895963788" ID="ID_152821146" MODIFIED="1638895968424" TEXT="... below or above"/>
+<node CREATED="1638895968727" ID="ID_1546862150" MODIFIED="1638895971992" TEXT="... particular value"/>
+<node CREATED="1638895975652" ID="ID_1962519632" MODIFIED="1638895981476" TEXT="Equivalent to running total"/>
+</node>
+<node CREATED="1638896007200" ID="ID_260218487" MODIFIED="1638896017577" TEXT="So what are the cumulative frequencies?">
 <icon BUILTIN="full-2"/>
 </node>
 </node>
