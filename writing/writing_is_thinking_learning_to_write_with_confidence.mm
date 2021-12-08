@@ -114,8 +114,9 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node CREATED="1574078766729" ID="ID_786050650" MODIFIED="1574078780342" TEXT="Don&apos;t consider articles you don&apos;t think will benefit others">
-<node CREATED="1574078790312" ID="ID_889852271" MODIFIED="1574078795293" TEXT="... and you care about"/>
+<node CREATED="1574078766729" ID="ID_786050650" MODIFIED="1638951800865" TEXT="Don&apos;t consider articles">
+<node CREATED="1574078790312" ID="ID_889852271" MODIFIED="1638951809165" TEXT="you care about"/>
+<node CREATED="1638951801409" ID="ID_1953404661" MODIFIED="1638951801409" TEXT="you don&apos;t think will benefit others"/>
 </node>
 <node CREATED="1574078875479" ID="ID_510307029" MODIFIED="1574078881788" TEXT="Anything and everything can fuel inspiration"/>
 </node>
@@ -127,6 +128,19 @@
 <icon BUILTIN="full-1"/>
 <node CREATED="1574078982600" ID="ID_642801104" MODIFIED="1574078991099" TEXT="Even if don&apos;t, article can be written"/>
 <node CREATED="1574078991447" ID="ID_1401856199" MODIFIED="1574078995442" TEXT="... but need good reasons"/>
+<node COLOR="#338800" CREATED="1638951836011" ID="ID_54393680" MODIFIED="1638951849473" TEXT="Disagree with that">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+<node COLOR="#338800" CREATED="1638951850612" ID="ID_624889125" MODIFIED="1638951861900" TEXT="Putting success before fun is dangerous">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#338800" CREATED="1638951862395" ID="ID_1797845800" MODIFIED="1638951877491" TEXT="Why we have so many shitty articles on Internet">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#338800" CREATED="1638951883859" ID="ID_1347080029" MODIFIED="1638951896032" TEXT="Difficult to predict how an article will rank and when">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 <node CREATED="1574079004704" ID="ID_316075634" MODIFIED="1574079018148" TEXT="Secondary keyword">
 <icon BUILTIN="full-2"/>
@@ -137,9 +151,7 @@
 <node CREATED="1574079606361" ID="ID_1361661379" MODIFIED="1574079615550" TEXT="Outline">
 <icon BUILTIN="full-3"/>
 <node CREATED="1574079627906" ID="ID_228591982" MODIFIED="1574079632493" TEXT="Always bullet point form"/>
-<node CREATED="1574079642601" ID="ID_1558136297" MODIFIED="1574079647182" TEXT="3-6 major headings">
-<node CREATED="1574079647674" ID="ID_1688492747" MODIFIED="1574079649950" TEXT="with sub points"/>
-</node>
+<node CREATED="1574079642601" ID="ID_1558136297" MODIFIED="1638951825065" TEXT="3-6 major headings with sub points"/>
 </node>
 <node CREATED="1574079858144" ID="ID_357730562" MODIFIED="1574080078827" TEXT="Idea arbitrage">
 <icon BUILTIN="full-4"/>
@@ -182,7 +194,7 @@
 <icon BUILTIN="full-6"/>
 <node CREATED="1574080397018" ID="ID_204485494" MODIFIED="1574080400527" TEXT="This is only personal"/>
 </node>
-<node CREATED="1574080462243" ID="ID_977020338" MODIFIED="1587830698963" POSITION="right" TEXT="Just Do It">
+<node CREATED="1574080462243" FOLDED="true" ID="ID_977020338" MODIFIED="1587830698963" POSITION="right" TEXT="Just Do It">
 <icon BUILTIN="full-7"/>
 <node CREATED="1574080465091" ID="ID_895025882" MODIFIED="1574080483528" TEXT="Your best articles might go unnoticed"/>
 <node CREATED="1574080483528" ID="ID_1285802708" MODIFIED="1634968370443" TEXT="... or even being a total flop"/>
