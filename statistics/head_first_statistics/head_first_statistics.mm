@@ -208,7 +208,7 @@
 </node>
 <node CREATED="1638383205782" FOLDED="true" ID="ID_750653322" MODIFIED="1638383212830" TEXT=" Two data sets on one bar chart">
 <icon BUILTIN="full-6"/>
-<node CREATED="1638383230590" ID="ID_270305586" MODIFIED="1638383236168" TEXT="The split category bar chart">
+<node CREATED="1638383230590" FOLDED="true" ID="ID_270305586" MODIFIED="1638383236168" TEXT="The split category bar chart">
 <icon BUILTIN="full-1"/>
 <node CREATED="1638383267295" ID="ID_594411865" MODIFIED="1638383271744" TEXT="Illustration">
 <icon BUILTIN="licq"/>
@@ -229,7 +229,7 @@
 <node CREATED="1638383258184" ID="ID_409375740" MODIFIED="1638383260163" TEXT="percentages"/>
 </node>
 </node>
-<node CREATED="1638383261542" ID="ID_460145070" MODIFIED="1638383266102" TEXT="The segmented bar chart">
+<node CREATED="1638383261542" FOLDED="true" ID="ID_460145070" MODIFIED="1638383266102" TEXT="The segmented bar chart">
 <icon BUILTIN="full-2"/>
 <node CREATED="1638383324910" ID="ID_475508260" MODIFIED="1638383334798" TEXT="Illustration">
 <icon BUILTIN="licq"/>
@@ -255,7 +255,7 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node CREATED="1638383559477" ID="ID_1971059288" MODIFIED="1638383567117" TEXT="Categorical and numerical data">
+<node CREATED="1638383559477" FOLDED="true" ID="ID_1971059288" MODIFIED="1638383567117" TEXT="Categorical and numerical data">
 <icon BUILTIN="full-7"/>
 <node CREATED="1638383568894" ID="ID_992006935" MODIFIED="1638383782364" TEXT="Categories vs numbers">
 <icon BUILTIN="full-1"/>
@@ -331,15 +331,14 @@
   <body>
     <img src="histogram_example.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1638894280099" ID="ID_1963021116" MODIFIED="1638894287428" TEXT="Common that width of equal size, but don&apos;t have to be"/>
 </node>
 </node>
-<node CREATED="1638894669402" ID="ID_17326616" MODIFIED="1638894688426" TEXT="A problem with unequal interval widths">
+<node CREATED="1638894669402" FOLDED="true" ID="ID_17326616" MODIFIED="1638894688426" TEXT="A problem with unequal interval widths">
 <icon BUILTIN="full-8"/>
 <node CREATED="1638894690723" FOLDED="true" ID="ID_225101546" MODIFIED="1638894697193" TEXT="Manic Mango needs another chart">
 <icon BUILTIN="full-1"/>
@@ -411,8 +410,7 @@
   <body>
     <img src="histogram_variable_width_data.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1638895621254" FOLDED="true" ID="ID_1488769820" MODIFIED="1638895635643" TEXT="Wrong">
@@ -425,8 +423,7 @@
   <body>
     <img src="histogram_variable_width_wrong.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1638895636389" FOLDED="true" ID="ID_235527634" MODIFIED="1638895678876" TEXT="Good">
@@ -439,8 +436,7 @@
   <body>
     <img src="histogram_variable_width_good.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -455,7 +451,9 @@
 <node CREATED="1638895929581" ID="ID_293276959" MODIFIED="1638895936443" TEXT="Not well suited for cumulative frequency"/>
 </node>
 </node>
-<node CREATED="1638895939030" ID="ID_1801717670" MODIFIED="1638895944765" TEXT=" Cumulative Frequency Graphs">
+<node CREATED="1638895939030" FOLDED="true" ID="ID_1801717670" MODIFIED="1638980284867" TEXT=" Cumulative Frequency Graphs">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-9"/>
 <node CREATED="1638895945552" ID="ID_1859680413" MODIFIED="1638895951687" TEXT="Introducing cumulative frequency">
 <icon BUILTIN="full-1"/>
 <node CREATED="1638895961084" ID="ID_1176793359" MODIFIED="1638895963495" TEXT="Total frequency"/>
@@ -463,8 +461,57 @@
 <node CREATED="1638895968727" ID="ID_1546862150" MODIFIED="1638895971992" TEXT="... particular value"/>
 <node CREATED="1638895975652" ID="ID_1962519632" MODIFIED="1638895981476" TEXT="Equivalent to running total"/>
 </node>
-<node CREATED="1638896007200" ID="ID_260218487" MODIFIED="1638896017577" TEXT="So what are the cumulative frequencies?">
+<node CREATED="1638896007200" ID="ID_260218487" MODIFIED="1638980562392" TEXT="So what are the cumulative frequencies?">
+<font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-2"/>
+<node CREATED="1638980686752" ID="ID_525853370" MODIFIED="1638980715500" TEXT="Need to accumulate the frequency"/>
+<node CREATED="1638980718792" ID="ID_592360832" MODIFIED="1638980767944" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1638981201887" ID="ID_415696375" MODIFIED="1638981225503" TEXT="Data">
+<icon BUILTIN="licq"/>
+<node CREATED="1638980639735" ID="ID_952718943" MODIFIED="1638981146820">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="cumulative_frequency_data.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1638980582439" ID="ID_1097544454" MODIFIED="1638980634039" TEXT="Drawing the cumulative frequency graph">
+<icon BUILTIN="full-3"/>
+<node CREATED="1638981244117" ID="ID_939230009" MODIFIED="1638981267203" TEXT="Can plot them on a chart"/>
+</node>
+<node CREATED="1638981664476" ID="ID_471889607" MODIFIED="1638981684681" TEXT="Choosing the right chart">
+<icon BUILTIN="full-4"/>
+<node CREATED="1638982243449" ID="ID_903912113" MODIFIED="1638982262979" TEXT="Line chart">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1638982071280" ID="ID_213670934" MODIFIED="1638982241245" TEXT="Good to see trend in data"/>
+<node CREATED="1638982128218" ID="ID_1114455427" MODIFIED="1638982149172" TEXT="Can show multiple set of data without clutter"/>
+<node CREATED="1638982279409" ID="ID_747296004" MODIFIED="1638982308165" TEXT="Often used with time measurement"/>
+<node CREATED="1638982368512" ID="ID_1314449059" MODIFIED="1638982550300" TEXT="Don&apos;t use them with categories on axis"/>
+</node>
+</node>
+</node>
+<node CREATED="1638982586634" ID="ID_1623734716" MODIFIED="1638982634814" TEXT="Manic Mango conquered the game market">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-0"/>
+</node>
+</node>
+<node CREATED="1638982639824" ID="ID_747881563" MODIFIED="1638982736868" POSITION="right" TEXT=" Measuring central tendency">
+<icon BUILTIN="full-2"/>
+<node CREATED="1638982777031" ID="ID_581484942" MODIFIED="1638982814541" TEXT="Statsville health club uses average">
+<icon BUILTIN="full-1"/>
+<node CREATED="1638983155025" ID="ID_1740256184" MODIFIED="1638983195946" TEXT="Search average age for each class"/>
+</node>
+<node CREATED="1638983229942" ID="ID_354803193" MODIFIED="1638983255559" TEXT="Measuring central tendency">
+<icon BUILTIN="full-2"/>
+<node CREATED="1638983259442" ID="ID_1945483024" MODIFIED="1638983312619" TEXT="A common measure of average is the mean">
+<icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
