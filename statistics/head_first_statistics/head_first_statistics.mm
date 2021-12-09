@@ -512,6 +512,79 @@
 <icon BUILTIN="full-2"/>
 <node CREATED="1638983259442" ID="ID_1945483024" MODIFIED="1638983312619" TEXT="A common measure of average is the mean">
 <icon BUILTIN="full-1"/>
+<node CREATED="1639071499869" ID="ID_749083730" MODIFIED="1639071504388" TEXT="Workflow">
+<node CREATED="1639071505601" ID="ID_52852592" MODIFIED="1639071533417" TEXT="Add all number together">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1639071547297" ID="ID_1721211888" MODIFIED="1639071574340" TEXT="Divide by the count of numbers">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1639071580267" ID="ID_1812020683" MODIFIED="1639071615941" TEXT="Because there is more than one average">
+<node CREATED="1639071644516" ID="ID_548796621" MODIFIED="1639071667831" TEXT="Need to be precise when speaking about average"/>
+<node CREATED="1639071670772" ID="ID_1723185794" MODIFIED="1639071694198" TEXT=" Better understanding of what going on with data"/>
+</node>
+</node>
+<node CREATED="1639071748330" ID="ID_852519224" MODIFIED="1639071757250" TEXT="Statistics notations">
+<icon BUILTIN="full-2"/>
+<node CREATED="1639071759417" ID="ID_405069752" MODIFIED="1639071772144" TEXT="Mean math">
+<icon BUILTIN="full-1"/>
+<node CREATED="1639071795615" ID="ID_1131034135" MODIFIED="1639071825940" TEXT="Almost every statistical notation is adding numbers"/>
+<node CREATED="1639071850775" ID="ID_438609282" MODIFIED="1639071863564" TEXT="How to generalize it?">
+<node CREATED="1639071890265" ID="ID_1190873596" MODIFIED="1639071903803" TEXT="Use letter representing number"/>
+<node CREATED="1639071968223" ID="ID_721256480" MODIFIED="1639072024484" TEXT="Sum = x1 + x2 + x3 ... + xn"/>
+</node>
+</node>
+<node CREATED="1639072095743" ID="ID_1665295611" MODIFIED="1639072114757" TEXT="Back to the mean">
+<icon BUILTIN="full-2"/>
+<node CREATED="1639072116774" ID="ID_1433867052" MODIFIED="1639072331473" TEXT="Formula">
+<icon BUILTIN="licq"/>
+<node CREATED="1639072283280" ID="ID_746615629" MODIFIED="1639072293483">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="formula_mean.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1639072334991" ID="ID_1016049317" MODIFIED="1639072351166" TEXT="symbol">
+<icon BUILTIN="licq"/>
+<node CREATED="1639072357096" ID="ID_1775351898" MODIFIED="1639072420727">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="mean_symbol.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1639072543636" ID="ID_370448668" MODIFIED="1639072557461" TEXT="Mean and frequencies">
+<icon BUILTIN="full-3"/>
+<node CREATED="1639072559374" ID="ID_1690615813" MODIFIED="1639072612570" TEXT="When calculate means numbers can be repeated"/>
+<node CREATED="1639072618848" ID="ID_1242459498" MODIFIED="1639072633433" TEXT=" Important to know the frequency of repetitions"/>
+<node CREATED="1639072652220" ID="ID_1448793214" MODIFIED="1639072754306" TEXT=" Formula including frequency">
+<icon BUILTIN="licq"/>
+<node CREATED="1639075434684" ID="ID_1619973111" MODIFIED="1639075449008">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="mean_frequency.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
