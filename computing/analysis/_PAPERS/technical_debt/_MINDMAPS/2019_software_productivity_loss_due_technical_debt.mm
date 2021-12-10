@@ -10,9 +10,9 @@
 <node CREATED="1637128930048" ID="ID_35603747" MODIFIED="1637128966644" TEXT="Perform additional testing during this time"/>
 </node>
 </node>
-<node CREATED="1637128971264" FOLDED="true" ID="ID_690659911" MODIFIED="1637128974340" POSITION="right" TEXT=" Introduction">
+<node CREATED="1637128971264" ID="ID_690659911" MODIFIED="1637128974340" POSITION="right" TEXT=" Introduction">
 <icon BUILTIN="full-1"/>
-<node CREATED="1637128987703" FOLDED="true" ID="ID_575532539" MODIFIED="1637128997563" TEXT="Company need to consider dev cost">
+<node CREATED="1637128987703" ID="ID_575532539" MODIFIED="1637128997563" TEXT="Company need to consider dev cost">
 <node CREATED="1637128997743" ID="ID_1012579193" MODIFIED="1637128998266" TEXT="time"/>
 <node CREATED="1637128998614" ID="ID_1535778633" MODIFIED="1637129000081" TEXT="resources"/>
 </node>
@@ -56,7 +56,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1637130067715" FOLDED="true" ID="ID_329513255" MODIFIED="1637130071583" POSITION="right" TEXT=" Research Questions">
+<node CREATED="1637130067715" ID="ID_329513255" MODIFIED="1637130071583" POSITION="right" TEXT=" Research Questions">
 <icon BUILTIN="full-2"/>
 <node CREATED="1637130103620" ID="ID_722921675" MODIFIED="1637130122439" TEXT="In what ways does technical debt waste developers&apos; working time?">
 <icon BUILTIN="full-1"/>
@@ -97,7 +97,7 @@
 <node CREATED="1637130356749" ID="ID_1229397989" MODIFIED="1637130358407" TEXT="manager"/>
 </node>
 </node>
-<node CREATED="1637130365634" FOLDED="true" ID="ID_1580506496" MODIFIED="1637130369079" POSITION="right" TEXT=" Related Work">
+<node CREATED="1637130365634" ID="ID_1580506496" MODIFIED="1637130369079" POSITION="right" TEXT=" Related Work">
 <icon BUILTIN="full-3"/>
 <node CREATED="1637130437323" ID="ID_1304650926" MODIFIED="1637130440918" TEXT="Productivity">
 <node CREATED="1637130448162" ID="ID_1847487606" MODIFIED="1637130457351" TEXT="Effectiveness of productive effort">
@@ -120,7 +120,9 @@
 <node CREATED="1637130786377" ID="ID_1734669157" MODIFIED="1637130789677" TEXT="... for customer or user"/>
 </node>
 <node CREATED="1637131077560" ID="ID_326919108" LINK="../2015_software_practitioner_and_technical_debt.pdf" MODIFIED="1637131126914" TEXT="Architectural decision most important source of TD"/>
-<node CREATED="1637131323728" ID="ID_946909538" MODIFIED="1637131348252" TEXT="Software practitioner estimate that TD waste 36% of dev time"/>
+<node CREATED="1637131323728" ID="ID_946909538" MODIFIED="1639113468393" TEXT="Software practitioner estimate that TD waste 36% of dev time">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 <node CREATED="1637131428353" ID="ID_1924854633" MODIFIED="1637131442081" TEXT="Interest seems to compound"/>
 <node CREATED="1637131359999" ID="ID_194820855" MODIFIED="1637131363851" TEXT="Most negative impact">
 <node CREATED="1637131364274" ID="ID_448708937" MODIFIED="1637131370099" TEXT="Architectural TD"/>
@@ -130,7 +132,7 @@
 <node CREATED="1637131497111" ID="ID_671187480" LINK="../2015_uncovering_contagious_debt_phenomenon.pdf" MODIFIED="1637132223290" TEXT="contagious debt"/>
 </node>
 </node>
-<node CREATED="1637131500542" FOLDED="true" ID="ID_1372804906" MODIFIED="1637131505062" POSITION="right" TEXT=" Methodology">
+<node CREATED="1637131500542" ID="ID_1372804906" MODIFIED="1637131505062" POSITION="right" TEXT=" Methodology">
 <icon BUILTIN="full-4"/>
 <node CREATED="1637131593535" ID="ID_521075414" MODIFIED="1637131599253" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -174,7 +176,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1637131841044" FOLDED="true" ID="ID_130931997" MODIFIED="1637131848397" POSITION="right" TEXT=" Results and Findings">
+<node CREATED="1637131841044" ID="ID_130931997" MODIFIED="1637131848397" POSITION="right" TEXT=" Results and Findings">
 <icon BUILTIN="full-5"/>
 <node CREATED="1637131849260" ID="ID_1585161900" MODIFIED="1637131855491" TEXT="Wasted Time">
 <icon BUILTIN="full-1"/>
@@ -253,7 +255,7 @@
 <node CREATED="1637165912664" ID="ID_834248221" MODIFIED="1637165917074" TEXT="This study try to fix that"/>
 </node>
 </node>
-<node CREATED="1637165970990" FOLDED="true" ID="ID_1114251909" MODIFIED="1637165983267" POSITION="right" TEXT=" Verifiability, Limitations, and Threats of Validity">
+<node CREATED="1637165970990" ID="ID_1114251909" MODIFIED="1637165983267" POSITION="right" TEXT=" Verifiability, Limitations, and Threats of Validity">
 <icon BUILTIN="full-7"/>
 <node CREATED="1637165984006" ID="ID_1118933824" MODIFIED="1637165989606" TEXT="Verifiability and Limitations">
 <icon BUILTIN="full-1"/>
@@ -270,7 +272,7 @@
 <node CREATED="1637166140037" ID="ID_912396771" MODIFIED="1637166141905" TEXT="Reliability"/>
 </node>
 </node>
-<node CREATED="1637166160100" FOLDED="true" ID="ID_1814339504" MODIFIED="1637166164852" POSITION="right" TEXT=" Conclusion and Future Work">
+<node CREATED="1637166160100" ID="ID_1814339504" MODIFIED="1637166164852" POSITION="right" TEXT=" Conclusion and Future Work">
 <icon BUILTIN="full-8"/>
 <node CREATED="1637166175532" ID="ID_1912124125" MODIFIED="1637166187295" TEXT="43 developers"/>
 <node CREATED="1637166178739" ID="ID_495577671" MODIFIED="1637166180656" TEXT="7 week"/>
