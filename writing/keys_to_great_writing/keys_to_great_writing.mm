@@ -201,7 +201,7 @@
 </node>
 <node CREATED="1595155766628" ID="ID_1002576412" MODIFIED="1595155821718" POSITION="right" TEXT="Part One: Keys to Great Writing">
 <icon BUILTIN="full-1"/>
-<node CREATED="1595155836361" FOLDED="true" ID="ID_434917557" MODIFIED="1595155882748" TEXT="Chapter One: Economy">
+<node CREATED="1595155836361" ID="ID_434917557" MODIFIED="1595155882748" TEXT="Chapter One: Economy">
 <icon BUILTIN="full-1"/>
 <node CREATED="1595159294835" FOLDED="true" ID="ID_295114282" MODIFIED="1595159298868" TEXT="Make every word count">
 <icon BUILTIN="full-1"/>
@@ -485,9 +485,9 @@
 </node>
 <node CREATED="1595675590836" ID="ID_748104935" MODIFIED="1595675591672" TEXT="Chapter One Exercises"/>
 </node>
-<node CREATED="1595155841582" FOLDED="true" ID="ID_1549820793" MODIFIED="1595155884385" TEXT="Chapter Two: Precision">
+<node CREATED="1595155841582" ID="ID_1549820793" MODIFIED="1595155884385" TEXT="Chapter Two: Precision">
 <icon BUILTIN="full-2"/>
-<node CREATED="1595675644148" FOLDED="true" ID="ID_569392494" MODIFIED="1595675747763" TEXT="Use the right word">
+<node CREATED="1595675644148" ID="ID_569392494" MODIFIED="1595675747763" TEXT="Use the right word">
 <icon BUILTIN="full-1"/>
 <node CREATED="1595675674027" FOLDED="true" ID="ID_979495071" MODIFIED="1595675689407" TEXT="Other components matter">
 <node CREATED="1595675680732" ID="ID_803715289" MODIFIED="1595675695855" TEXT="Rhythm"/>
@@ -637,18 +637,21 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
-<node CREATED="1595155860416" FOLDED="true" ID="ID_1766239134" MODIFIED="1595155885975" TEXT="Chapter Three: Action">
+<node CREATED="1595155860416" ID="ID_1766239134" MODIFIED="1595155885975" TEXT="Chapter Three: Action">
 <icon BUILTIN="full-3"/>
-<node CREATED="1595676564893" FOLDED="true" ID="ID_698062446" MODIFIED="1595676575613" TEXT="Use action and movement">
+<node CREATED="1595676564893" ID="ID_698062446" MODIFIED="1595676575613" TEXT="Use action and movement">
 <icon BUILTIN="full-1"/>
+<node CREATED="1639135366393" ID="ID_139399669" MODIFIED="1639135405395" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
 <node CREATED="1595676568309" ID="ID_484854618" MODIFIED="1595676573818" TEXT="... to engage your reader"/>
-<node CREATED="1595676716996" ID="ID_1104697939" MODIFIED="1595676721768" TEXT="People attracted to movement">
+<node CREATED="1595676716996" FOLDED="true" ID="ID_1104697939" MODIFIED="1595676721768" TEXT="People attracted to movement">
 <node CREATED="1595676724244" ID="ID_1201527502" MODIFIED="1595676729016" TEXT="Even by a fly!"/>
 </node>
-<node CREATED="1595676733717" ID="ID_268080724" MODIFIED="1595676738496" TEXT="Most compiling force in writing">
+<node CREATED="1595676733717" FOLDED="true" ID="ID_268080724" MODIFIED="1595676738496" TEXT="Most compiling force in writing">
 <node CREATED="1595676742268" ID="ID_1398076163" MODIFIED="1595676746520" TEXT="Arouses curiosity"/>
 </node>
-<node CREATED="1595676749371" ID="ID_194355865" MODIFIED="1595676861643" TEXT="Make your sentences tell stories">
+</node>
+<node CREATED="1595676749371" FOLDED="true" ID="ID_194355865" MODIFIED="1595676861643" TEXT="Make your sentences tell stories">
 <icon BUILTIN="full-1"/>
 <node CREATED="1595676757691" ID="ID_776310510" MODIFIED="1595676760840" TEXT="Without movement, no story"/>
 <node CREATED="1595676763036" ID="ID_430474266" MODIFIED="1595676770113" TEXT="Apply to sentence structure">
@@ -665,7 +668,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595676828092" ID="ID_1980022173" MODIFIED="1595676876048" TEXT="Use verbs to animate your descriptions">
+<node CREATED="1595676828092" FOLDED="true" ID="ID_1980022173" MODIFIED="1595676876048" TEXT="Use verbs to animate your descriptions">
 <icon BUILTIN="full-2"/>
 <node CREATED="1595676892788" ID="ID_1709828622" MODIFIED="1595676896408" TEXT="Writing with action verbs"/>
 <node CREATED="1595676897219" ID="ID_1751783100" MODIFIED="1595676906839" TEXT="... relieve you from too many">
@@ -673,7 +676,7 @@
 <node CREATED="1595676911218" ID="ID_844548206" MODIFIED="1595676913263" TEXT="adverbs"/>
 </node>
 </node>
-<node CREATED="1595676957539" ID="ID_1551806186" MODIFIED="1595676973290" TEXT="Use semicolon and elliptical construction">
+<node CREATED="1595676957539" FOLDED="true" ID="ID_1551806186" MODIFIED="1595676973290" TEXT="Use semicolon and elliptical construction">
 <icon BUILTIN="full-3"/>
 <node CREATED="1595676967515" ID="ID_1442007859" MODIFIED="1595676970455" TEXT="... to suggest movement"/>
 <node CREATED="1595676992355" ID="ID_946247345" MODIFIED="1595676995959" TEXT="&quot;Mind travel&quot;">
@@ -702,7 +705,9 @@
 </node>
 <node CREATED="1595677174217" ID="ID_1343888306" MODIFIED="1595677186208" TEXT="Know How to Work with the Active and Passive Voices">
 <icon BUILTIN="full-2"/>
-<node CREATED="1595677231121" ID="ID_1626747844" MODIFIED="1595677234485" TEXT="Definitions">
+<node CREATED="1639135428061" ID="ID_1884914077" MODIFIED="1639135437169" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1595677231121" FOLDED="true" ID="ID_1626747844" MODIFIED="1595677234485" TEXT="Definitions">
 <node CREATED="1595677222905" ID="ID_851930986" MODIFIED="1595677224749" TEXT="Active voice">
 <node CREATED="1595677224929" ID="ID_1777157515" MODIFIED="1595677230358" TEXT="Subject performs the action"/>
 </node>
@@ -711,16 +716,17 @@
 </node>
 </node>
 <node CREATED="1595677250448" ID="ID_1165061431" MODIFIED="1595677255709" TEXT="Prefer active voice in general"/>
+</node>
 <node CREATED="1595677256625" ID="ID_152072881" MODIFIED="1595677263950" TEXT="Use the active voice for emphasis and energy">
 <icon BUILTIN="full-1"/>
 </node>
-<node CREATED="1595677271370" ID="ID_1426884505" MODIFIED="1595677276647" TEXT="Know when to use the passive voice">
+<node CREATED="1595677271370" FOLDED="true" ID="ID_1426884505" MODIFIED="1595677276647" TEXT="Know when to use the passive voice">
 <icon BUILTIN="full-2"/>
 <node CREATED="1595677280264" ID="ID_1184503589" MODIFIED="1595677288778" TEXT="To emphasis receiver of action">
 <icon BUILTIN="full-1"/>
 <node CREATED="1595677292361" ID="ID_1240321877" MODIFIED="1595677324252" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1595677298065" ID="ID_1157718137" MODIFIED="1595677308317" TEXT="&quot;Millions of people have red the Hunt of October&quot;"/>
+<node CREATED="1595677298065" ID="ID_1157718137" MODIFIED="1639134975588" TEXT="&quot;Millions of people have read the Hunt of October&quot;"/>
 <node CREATED="1595677309479" ID="ID_1619741410" MODIFIED="1595677320742" TEXT="&quot;The Hunt of October was read by millions of people&quot;"/>
 </node>
 </node>
@@ -793,13 +799,13 @@
 </node>
 <node CREATED="1595677560534" ID="ID_811743286" MODIFIED="1595677578375" TEXT="Know how to work with verbs and nouns">
 <icon BUILTIN="full-3"/>
-<node CREATED="1595677608039" ID="ID_1051844984" MODIFIED="1595677628060" TEXT="Prefer strong action verbs">
+<node CREATED="1595677608039" FOLDED="true" ID="ID_1051844984" MODIFIED="1595677628060" TEXT="Prefer strong action verbs">
 <icon BUILTIN="full-1"/>
 <node CREATED="1595677620909" ID="ID_191399497" MODIFIED="1595677626034" TEXT="... over nominalizations"/>
 <node CREATED="1595677635446" ID="ID_124532387" MODIFIED="1595677649258" TEXT="Verbs are best way to create movement"/>
 <node CREATED="1595677644886" ID="ID_233440333" MODIFIED="1595677666769" TEXT="Nominalization add more words"/>
 </node>
-<node CREATED="1595677701974" ID="ID_1296298451" MODIFIED="1595677706914" TEXT="Know when to use nominalizations">
+<node CREATED="1595677701974" FOLDED="true" ID="ID_1296298451" MODIFIED="1595677706914" TEXT="Know when to use nominalizations">
 <icon BUILTIN="full-2"/>
 <node CREATED="1595677718534" ID="ID_659691654" MODIFIED="1595677741541" TEXT="When subjects refer to previous topics / actions">
 <icon BUILTIN="full-1"/>
@@ -843,7 +849,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595678052002" ID="ID_1689447047" MODIFIED="1595678108734" TEXT="Don&#x2019;t verb your nouns">
+<node CREATED="1595678052002" FOLDED="true" ID="ID_1689447047" MODIFIED="1595678108734" TEXT="Don&#x2019;t verb your nouns">
 <icon BUILTIN="full-3"/>
 <node CREATED="1595678071723" ID="ID_1653578805" MODIFIED="1595678084530" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -855,7 +861,7 @@
 <node CREATED="1595678093483" ID="ID_964522493" MODIFIED="1595678098096" TEXT="Language change with the world"/>
 </node>
 </node>
-<node CREATED="1595678099259" ID="ID_1097990464" MODIFIED="1595678105875" TEXT="Avoid noun stacks">
+<node CREATED="1595678099259" FOLDED="true" ID="ID_1097990464" MODIFIED="1595678105875" TEXT="Avoid noun stacks">
 <icon BUILTIN="full-4"/>
 <node CREATED="1595678129026" ID="ID_1177069328" MODIFIED="1595678132487" TEXT="Suck energy from the text"/>
 <node CREATED="1595678136251" ID="ID_885612917" MODIFIED="1595678148941" TEXT="Example">
@@ -881,18 +887,18 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
-<node CREATED="1595155865277" FOLDED="true" ID="ID_520284532" MODIFIED="1595155888334" TEXT="Chapter Four: Music">
+<node CREATED="1595155865277" ID="ID_520284532" MODIFIED="1595155888334" TEXT="Chapter Four: Music">
 <icon BUILTIN="full-4"/>
-<node CREATED="1595741618569" FOLDED="true" ID="ID_980741492" MODIFIED="1595741623338" TEXT="Listen to the Music">
+<node CREATED="1595741618569" ID="ID_980741492" MODIFIED="1595741623338" TEXT="Listen to the Music">
 <icon BUILTIN="full-1"/>
-<node CREATED="1595741715549" ID="ID_917568383" MODIFIED="1595741719952" TEXT="Listen to your voice">
+<node CREATED="1595741715549" FOLDED="true" ID="ID_917568383" MODIFIED="1595741719952" TEXT="Listen to your voice">
 <icon BUILTIN="full-1"/>
 <node CREATED="1595741692181" ID="ID_1052750243" MODIFIED="1595741694326" TEXT="Written voice">
 <node CREATED="1595741694550" ID="ID_1422485367" MODIFIED="1595741696425" TEXT="Word choice"/>
 <node CREATED="1595741697180" ID="ID_284479512" MODIFIED="1595741699786" TEXT="Sentence structure"/>
 </node>
 </node>
-<node CREATED="1595741703181" ID="ID_1013240560" MODIFIED="1595741709355" TEXT="Write with rhythm">
+<node CREATED="1595741703181" FOLDED="true" ID="ID_1013240560" MODIFIED="1595741709355" TEXT="Write with rhythm">
 <icon BUILTIN="full-2"/>
 <node CREATED="1595741771212" ID="ID_1618680524" MODIFIED="1595741779039" TEXT="Provide variety with sentence length"/>
 <node CREATED="1595741784452" ID="ID_1568556454" MODIFIED="1595741787598" TEXT="... if same length">
@@ -910,17 +916,20 @@
 </node>
 </node>
 </node>
-<node CREATED="1595741855347" FOLDED="true" ID="ID_779822326" MODIFIED="1595741863331" TEXT="Use Variety to Create Emphasis">
+<node CREATED="1595741855347" ID="ID_779822326" MODIFIED="1595741863331" TEXT="Use Variety to Create Emphasis">
 <icon BUILTIN="full-2"/>
+<node CREATED="1639135446140" ID="ID_1033735157" MODIFIED="1639135465638" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
 <node CREATED="1595741889978" FOLDED="true" ID="ID_1132580200" MODIFIED="1595741897767" TEXT="Sentences are no isolate blocks">
 <node CREATED="1595741904714" ID="ID_1756742708" MODIFIED="1595741915142" TEXT="Listen how sentence structures"/>
 <node CREATED="1595741908842" ID="ID_612650526" MODIFIED="1595741921431" TEXT="... are related"/>
 <node CREATED="1595741922139" ID="ID_1141293497" MODIFIED="1595741924158" TEXT="... to one another"/>
 </node>
+</node>
 <node CREATED="1595741937410" ID="ID_373288182" MODIFIED="1595741946464" TEXT="Vary your sentence length and structure">
 <icon BUILTIN="full-1"/>
 </node>
-<node CREATED="1595741947322" ID="ID_919615512" MODIFIED="1595741971115" TEXT="Avoid creating strings of simple declarative sentences">
+<node CREATED="1595741947322" ID="ID_919615512" MODIFIED="1639135346708" TEXT="Avoid creating strings of simple declarative sentences">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -939,7 +948,8 @@
       monotony. Monotony steals life from your writing.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <icon BUILTIN="full-2"/>
 </node>
 <node CREATED="1595741976657" FOLDED="true" ID="ID_309301797" MODIFIED="1595741985794" TEXT="But for special effect, repeat short emphatic sentences">
@@ -1035,7 +1045,7 @@
 <node CREATED="1595742494310" ID="ID_840081067" MODIFIED="1595742504722" TEXT="&quot;The first thing you expect is an apology. Up front.&quot;"/>
 </node>
 </node>
-<node CREATED="1595742509750" ID="ID_1397827802" MODIFIED="1599145955717" TEXT="Invert the usual order">
+<node CREATED="1595742509750" FOLDED="true" ID="ID_1397827802" MODIFIED="1599145955717" TEXT="Invert the usual order">
 <icon BUILTIN="full-8"/>
 <node CREATED="1595742517877" ID="ID_42470086" MODIFIED="1595742520633" TEXT="Lift a sentence"/>
 <node CREATED="1595742521126" ID="ID_952854995" MODIFIED="1595742526673" TEXT="... and breathes life into it"/>
@@ -1066,9 +1076,9 @@
 <node CREATED="1595742671165" ID="ID_701523191" MODIFIED="1595742677313" TEXT="Subordination is proof of intelligent thinking"/>
 </node>
 </node>
-<node CREATED="1595742789507" FOLDED="true" ID="ID_1480388984" MODIFIED="1595742792083" TEXT="Use Rhythm to Create Closing Emphasis  ">
+<node CREATED="1595742789507" ID="ID_1480388984" MODIFIED="1595742792083" TEXT="Use Rhythm to Create Closing Emphasis  ">
 <icon BUILTIN="full-3"/>
-<node CREATED="1595742807643" ID="ID_961546899" MODIFIED="1595742817509" TEXT="Place important words at the ends of sentences">
+<node CREATED="1595742807643" FOLDED="true" ID="ID_961546899" MODIFIED="1595742817509" TEXT="Place important words at the ends of sentences">
 <icon BUILTIN="full-1"/>
 <node CREATED="1595742842675" ID="ID_322843727" MODIFIED="1595742848431" TEXT="Emphasis comes before period"/>
 <node CREATED="1595742849219" ID="ID_1682977718" MODIFIED="1595742853967" TEXT="Period create a pause">
@@ -1080,7 +1090,7 @@
 <node CREATED="1595742887547" ID="ID_883144490" MODIFIED="1595742893063" TEXT="Once you&apos;ve made your point, stop"/>
 </node>
 </node>
-<node CREATED="1595742896787" ID="ID_1161718943" MODIFIED="1595742904362" TEXT="Use ellipses to end sentences economically">
+<node CREATED="1595742896787" FOLDED="true" ID="ID_1161718943" MODIFIED="1595742904362" TEXT="Use ellipses to end sentences economically">
 <icon BUILTIN="full-2"/>
 <node CREATED="1595742905147" ID="ID_201665984" MODIFIED="1595742916439" TEXT="Two varieties of ellipse">
 <node CREATED="1595742916755" ID="ID_1371166190" MODIFIED="1599057877633" TEXT="The one you can see">
@@ -1123,7 +1133,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595750233799" FOLDED="true" ID="ID_1533205761" MODIFIED="1595750246966" TEXT="Punctuate your beat">
+<node CREATED="1595750233799" ID="ID_1533205761" MODIFIED="1595750246966" TEXT="Punctuate your beat">
 <icon BUILTIN="full-4"/>
 <node CREATED="1595750476446" FOLDED="true" ID="ID_1907978664" MODIFIED="1595750482989" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1280,7 +1290,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595751052474" FOLDED="true" ID="ID_1320061713" MODIFIED="1595751086641" TEXT="Don&apos;t let long sentence sprawl">
+<node CREATED="1595751052474" ID="ID_1320061713" MODIFIED="1595751086641" TEXT="Don&apos;t let long sentence sprawl">
 <icon BUILTIN="full-5"/>
 <node CREATED="1595751097137" FOLDED="true" ID="ID_15918760" MODIFIED="1595751098709" TEXT="Long sentence">
 <node CREATED="1595751100074" ID="ID_268846635" MODIFIED="1595751102517" TEXT="Lack of clarity"/>
@@ -1320,7 +1330,7 @@
 <node CREATED="1595751404951" ID="ID_799982592" MODIFIED="1595751412211" TEXT="No subject or independent verb"/>
 </node>
 </node>
-<node CREATED="1595751508118" ID="ID_1140763870" MODIFIED="1595751575999" TEXT="Shape long sentence">
+<node CREATED="1595751508118" FOLDED="true" ID="ID_1140763870" MODIFIED="1595751575999" TEXT="Shape long sentence">
 <icon BUILTIN="full-4"/>
 <node CREATED="1595751519446" ID="ID_1256217434" MODIFIED="1595751522074" TEXT="... by">
 <node CREATED="1595751522357" ID="ID_1842057244" MODIFIED="1595751526402" TEXT="restructuring"/>
@@ -1354,7 +1364,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595780164237" FOLDED="true" ID="ID_656383281" MODIFIED="1596024172120" TEXT="Know Your Sentence Types">
+<node CREATED="1595780164237" ID="ID_656383281" MODIFIED="1596024172120" TEXT="Know Your Sentence Types">
 <icon BUILTIN="full-6"/>
 <node CREATED="1596015794631" FOLDED="true" ID="ID_1448433903" MODIFIED="1596015811802" TEXT="Sentence Type">
 <icon BUILTIN="full-1"/>
@@ -1704,9 +1714,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1596023951827" FOLDED="true" ID="ID_135945749" MODIFIED="1596024176448" TEXT="Learn from Others">
+<node CREATED="1596023951827" ID="ID_135945749" MODIFIED="1596024176448" TEXT="Learn from Others">
 <icon BUILTIN="full-7"/>
-<node CREATED="1596023961667" ID="ID_41177998" MODIFIED="1596023972203" TEXT="Study and imitate">
+<node CREATED="1596023961667" FOLDED="true" ID="ID_41177998" MODIFIED="1596023972203" TEXT="Study and imitate">
 <icon BUILTIN="full-1"/>
 <node CREATED="1596023975180" ID="ID_593267508" MODIFIED="1596023980687" TEXT="Improve your style by">
 <node CREATED="1596023981243" ID="ID_724031222" MODIFIED="1596023986839" TEXT="Listen sound of your language"/>
@@ -1731,7 +1741,7 @@
 <icon BUILTIN="full-8"/>
 </node>
 </node>
-<node CREATED="1595155869024" ID="ID_1516877912" MODIFIED="1595155890558" TEXT="Chapter Five: Personality">
+<node CREATED="1595155869024" FOLDED="true" ID="ID_1516877912" MODIFIED="1595155890558" TEXT="Chapter Five: Personality">
 <icon BUILTIN="full-5"/>
 <node CREATED="1596024203241" FOLDED="true" ID="ID_1165785319" MODIFIED="1596024233261" TEXT="Be Lively, Unpredictable, Playful, and Genuine  ">
 <font NAME="SansSerif" SIZE="12"/>
@@ -2071,9 +2081,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1595155896355" FOLDED="true" ID="ID_1667977631" MODIFIED="1596191492353" TEXT="Chapter Six: Purpose">
+<node CREATED="1595155896355" ID="ID_1667977631" MODIFIED="1596191492353" TEXT="Chapter Six: Purpose">
 <icon BUILTIN="full-6"/>
-<node CREATED="1596191895263" ID="ID_143822736" MODIFIED="1596191902107" TEXT="Know What You Want to Say">
+<node CREATED="1596191895263" ID="ID_143822736" MODIFIED="1639135741399" TEXT="Know What You Want to Say">
+<icon BUILTIN="full-1"/>
+<node CREATED="1639135662877" ID="ID_752829075" MODIFIED="1639135691641" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
 <node CREATED="1596191852944" ID="ID_520548302" MODIFIED="1596191860139" TEXT="More you"/>
 <node CREATED="1596191929758" ID="ID_813006935" MODIFIED="1596191957235" TEXT="... know clearly what you think about"/>
 <node CREATED="1596191940262" ID="ID_1591403072" MODIFIED="1596191946963" TEXT="... and how you want to say it"/>
@@ -2081,6 +2094,7 @@
 <node CREATED="1596191972774" FOLDED="true" ID="ID_1269825214" MODIFIED="1596192011194" TEXT="You&apos;ll discover bigger clarity / precision while writing">
 <node CREATED="1596191997021" ID="ID_1444115902" MODIFIED="1596192000425" TEXT="&quot;How do I know what I think"/>
 <node CREATED="1596192001079" ID="ID_687810746" MODIFIED="1596192006946" TEXT="... until I write it?&quot;"/>
+</node>
 </node>
 <node CREATED="1596192044670" FOLDED="true" ID="ID_484000051" MODIFIED="1596192056150" TEXT="Choose a subject you care about">
 <icon BUILTIN="full-1"/>
@@ -2258,6 +2272,7 @@
 <node CREATED="1596295553361" ID="ID_1193435872" MODIFIED="1596295587846" TEXT="If reader has experiences in context described"/>
 <node CREATED="1596295563428" ID="ID_1572032517" MODIFIED="1596295575110" TEXT="... more chance they understand message"/>
 <node CREATED="1596295571041" ID="ID_969774904" MODIFIED="1596295581958" TEXT="... or accept point of view"/>
+</node>
 </node>
 </node>
 <node CREATED="1596295021413" ID="ID_806771766" MODIFIED="1596295603168" TEXT="Determine a Persuasive Strategy">
@@ -2581,7 +2596,6 @@
 </node>
 <node CREATED="1596546161864" ID="ID_1344070639" MODIFIED="1596546166453" TEXT="Allow yourself to be surprised"/>
 <node CREATED="1596546167216" ID="ID_1038223787" MODIFIED="1596546178140" TEXT="Follow your thoughts / feelings"/>
-</node>
 </node>
 </node>
 </node>
@@ -2981,7 +2995,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1595155914374" FOLDED="true" ID="ID_1190480840" MODIFIED="1596191495243" TEXT="Chapter Eight: Organization">
+<node CREATED="1595155914374" ID="ID_1190480840" MODIFIED="1596191495243" TEXT="Chapter Eight: Organization">
 <icon BUILTIN="full-8"/>
 <node CREATED="1597761879637" FOLDED="true" ID="ID_1948471957" MODIFIED="1597761885485" TEXT="Plan Your Writing">
 <icon BUILTIN="full-1"/>
@@ -4405,7 +4419,7 @@
 </node>
 <node CREATED="1595155796411" ID="ID_96764167" MODIFIED="1595155825493" POSITION="right" TEXT="Part Three: Drafting and Revising">
 <icon BUILTIN="full-3"/>
-<node CREATED="1595155942570" ID="ID_1689177006" MODIFIED="1598715346177" TEXT="Chapter Eleven: The Writing Process">
+<node CREATED="1595155942570" FOLDED="true" ID="ID_1689177006" MODIFIED="1598715346177" TEXT="Chapter Eleven: The Writing Process">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1599147774216" FOLDED="true" ID="ID_1072942176" MODIFIED="1599147781469" TEXT="Write In Stages">
