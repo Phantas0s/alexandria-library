@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1600327677598" ID="ID_1708836528" LINK="https://www.youtube.com/watch?v=JFr28K65-5E" MODIFIED="1600327879415" TEXT="Learn to Customize Vim">
-<node CREATED="1600327753929" ID="ID_839623944" MODIFIED="1600327865971" POSITION="right" TEXT="Initialization">
+<node CREATED="1600327753929" FOLDED="true" ID="ID_839623944" MODIFIED="1600327865971" POSITION="right" TEXT="Initialization">
 <icon BUILTIN="full-1"/>
 <node COLOR="#338800" CREATED="1600327894716" ID="ID_1204922949" MODIFIED="1600327903899" TEXT=":h vimrc">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -86,6 +86,9 @@
 <node CREATED="1600342418982" ID="ID_314723806" MODIFIED="1600342424314" TEXT="... to set a makeprg"/>
 <node CREATED="1600342425414" ID="ID_1959728332" MODIFIED="1600342431034" TEXT="... and errorformat"/>
 <node CREATED="1600342431766" ID="ID_1668113484" MODIFIED="1600342437506" TEXT="... for vim-native compilation"/>
+</node>
+<node CREATED="1639333220613" ID="ID_1939577589" MODIFIED="1639333231512" TEXT="Compiler not set automatically">
+<node CREATED="1639333232716" ID="ID_1565889191" MODIFIED="1639333239504" TEXT="Need to use ftplugin"/>
 </node>
 <node CREATED="1600342622716" ID="ID_505314011" MODIFIED="1600342636693" TEXT=":lcd %:h">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
