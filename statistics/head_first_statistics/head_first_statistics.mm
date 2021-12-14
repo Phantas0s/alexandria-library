@@ -547,8 +547,7 @@
   <body>
     <img src="formula_mean.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1639072334991" ID="ID_1016049317" MODIFIED="1639072351166" TEXT="symbol">
@@ -561,8 +560,7 @@
   <body>
     <img src="mean_symbol.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -581,10 +579,93 @@
   <body>
     <img src="mean_frequency.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
+</node>
+<node CREATED="1639230614749" ID="ID_1294091174" MODIFIED="1639230715097" TEXT="When good means go bad">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1639230963453" ID="ID_636674862" MODIFIED="1639231177712" TEXT="Introducing outliers">
+<icon BUILTIN="full-5"/>
+<node CREATED="1639230999597" ID="ID_473274217" MODIFIED="1639231107709" TEXT="Extreme values in the data"/>
+<node CREATED="1639231011248" ID="ID_294003551" MODIFIED="1639231043568" TEXT="Shape of visualization is not as smoot"/>
+<node CREATED="1639231047899" ID="ID_128475459" MODIFIED="1639231060809" TEXT="Extreme data called outliers">
+<node CREATED="1639231221183" ID="ID_1412474511" MODIFIED="1639231241346" TEXT="Distort the mean"/>
+</node>
+<node CREATED="1639231244413" ID="ID_1914342019" MODIFIED="1639231252108" TEXT="... the data is skewed">
+<node CREATED="1639231277079" ID="ID_963447058" MODIFIED="1639231285043" TEXT="Can be on the right or left"/>
+<node CREATED="1639231307040" ID="ID_920327839" MODIFIED="1639231312747" TEXT="Pull the mean to right of left"/>
+<node CREATED="1639232011010" ID="ID_1085794676" MODIFIED="1639232020503" TEXT="Depends where the tail points to"/>
+</node>
+<node CREATED="1639231366254" ID="ID_479623059" MODIFIED="1639231371306" TEXT="Symmitrical data">
+<node CREATED="1639231372910" ID="ID_1866457135" MODIFIED="1639231378493" TEXT="No outlier to pull the mean"/>
+<node CREATED="1639231391359" ID="ID_782323350" MODIFIED="1639231397739" TEXT="Ideal world"/>
+</node>
+</node>
+<node CREATED="1639231459415" ID="ID_1158167616" MODIFIED="1639231477901" TEXT="Calculating the median">
+<icon BUILTIN="full-6"/>
+<node CREATED="1639231480302" ID="ID_67588504" MODIFIED="1639231502681" TEXT="Other sort of average"/>
+<node CREATED="1639231504662" ID="ID_276796181" MODIFIED="1639231513746" TEXT="Take the a value in the middle"/>
+<node CREATED="1639231517294" ID="ID_3943582" MODIFIED="1639231528417" TEXT="Useful when mean is pull by outliers"/>
+<node CREATED="1639231659493" ID="ID_1024391991" MODIFIED="1639231670312" TEXT="If even number of elements">
+<node CREATED="1639231671884" ID="ID_1160162209" MODIFIED="1639231681313" TEXT="Calculate the mean of the two numbers"/>
+<node CREATED="1639231694111" ID="ID_1290438381" MODIFIED="1639231701068" TEXT="... in the middle"/>
+</node>
+<node CREATED="1639231772605" ID="ID_1943450016" MODIFIED="1639231795512" TEXT="(n+1) / 2">
+<node CREATED="1639231810436" ID="ID_1602142435" MODIFIED="1639231925140" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1639231818571" ID="ID_981200557" MODIFIED="1639231826617" TEXT="11 numbers"/>
+<node CREATED="1639231828037" ID="ID_1048038944" MODIFIED="1639231858727" TEXT="Median is the 6th number"/>
+<node CREATED="1639231844357" ID="ID_658575529" MODIFIED="1639231888182" TEXT="(11+1)/2"/>
+</node>
+</node>
+<node CREATED="1639232273869" ID="ID_57514189" MODIFIED="1639232278253" TEXT="If median">
+<node CREATED="1639232279810" ID="ID_1347023312" MODIFIED="1639232290146" TEXT="Lower than mean"/>
+<node CREATED="1639232292593" ID="ID_1777746415" MODIFIED="1639232302205" TEXT="... data skewed to the left"/>
+<node CREATED="1639232306010" ID="ID_1658987954" MODIFIED="1639232316671" TEXT="... and vice versa"/>
+</node>
+</node>
+<node CREATED="1639232386116" ID="ID_1947744899" MODIFIED="1639232397454" TEXT="When good medians go bad">
+<icon BUILTIN="full-7"/>
+<node CREATED="1639232399497" ID="ID_1586774816" MODIFIED="1639232825806" TEXT="If data have very different groups of numerical data"/>
+<node CREATED="1639232835599" ID="ID_869193701" MODIFIED="1639232854413" TEXT="... both means and medians can be misleading"/>
+<node CREATED="1639232857623" ID="ID_555380293" MODIFIED="1639232867049" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1639232869917" ID="ID_1670754079" MODIFIED="1639232877568" TEXT="Histogram with ages"/>
+<node CREATED="1639232884206" ID="ID_856989823" MODIFIED="1639232889396" TEXT=" ... of parents and children"/>
+</node>
+</node>
+<node CREATED="1639232983597" ID="ID_1571058360" MODIFIED="1639233000480" TEXT="Calculating the mode">
+<icon BUILTIN="full-8"/>
+<node CREATED="1639233002713" ID="ID_203641214" MODIFIED="1639233016042" TEXT="Third type of average"/>
+<node CREATED="1639233019398" ID="ID_429620128" MODIFIED="1639233036577" TEXT="Value with higher frequency"/>
+<node CREATED="1639233038172" ID="ID_869681223" MODIFIED="1639233071163" TEXT=" If more than one value, each one is a mode">
+<node CREATED="1639233125085" ID="ID_1300913973" MODIFIED="1639233151828" TEXT="If the data look like it representing more than one trend or set"/>
+<node CREATED="1639233154353" ID="ID_392952961" MODIFIED="1639233163753" TEXT="... then decompose it"/>
+<node CREATED="1639233165415" ID="ID_748716307" MODIFIED="1639233175511" TEXT="If a set has two modes"/>
+<node CREATED="1639233178668" ID="ID_1127390194" MODIFIED="1639233193719" TEXT=" ... it&apos;s called bimodal"/>
+</node>
+<node CREATED="1639233078255" ID="ID_456001040" MODIFIED="1639233255968" TEXT="Work with categorial data too">
+<node CREATED="1639233257717" ID="ID_1881822477" MODIFIED="1639233271047" TEXT="Not just with numerical data"/>
+<node CREATED="1639233284066" ID="ID_1314299559" MODIFIED="1639233302584" TEXT="Only sort of average working with categorial data"/>
+</node>
+<node CREATED="1639233351762" ID="ID_250136026" MODIFIED="1639233358352" TEXT="Three steps to find the mode">
+<node CREATED="1639233361075" ID="ID_1432886015" MODIFIED="1639233422936" TEXT="Find all distinct categories of values in set">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1639233396980" ID="ID_1421715708" MODIFIED="1639233431497" TEXT="Write down frequency for each category">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1639233434322" ID="ID_1097607658" MODIFIED="1639233480224" TEXT="Pick out the one(s) with the highest frequency the the mode">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1639233565001" ID="ID_1129458355" MODIFIED="1639233574539" TEXT="When is it most useful?">
+<node CREATED="1639233576160" ID="ID_1617468829" MODIFIED="1639233582647" TEXT="When the data is categorial"/>
+<node CREATED="1639233584793" ID="ID_1178139967" MODIFIED="1639233607403" TEXT=" When there is a low number of modes"/>
+</node>
+<node CREATED="1639233624992" ID="ID_1117673789" MODIFIED="1639233645134" TEXT="Only average which needs to be IN the data set"/>
 </node>
 </node>
 </node>
