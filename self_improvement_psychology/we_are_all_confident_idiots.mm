@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572690200779" ID="ID_1248565166" LINK="https://psmag.com/social-justice/confident-idiots-92793" MODIFIED="1613923999768" TEXT="We Are All Confident Idiots">
+<node CREATED="1572690200779" ID="ID_1248565166" LINK="https://psmag.com/social-justice/confident-idiots-92793" MODIFIED="1639563156599" TEXT="We Are All Confident Idiots">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -10,7 +10,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1572690386840" ID="ID_527155654" MODIFIED="1574748187615" POSITION="right" TEXT="How people answer to incompetence">
+<node CREATED="1572690386840" FOLDED="true" ID="ID_527155654" MODIFIED="1574748187615" POSITION="right" TEXT="How people answer to incompetence">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572690412588" FOLDED="true" ID="ID_1478104315" MODIFIED="1572691430046" TEXT="People not">
 <node CREATED="1572690422725" ID="ID_812401991" MODIFIED="1572690424737" TEXT="disoriented"/>
@@ -45,7 +45,7 @@
 <node CREATED="1572691054519" ID="ID_943053427" MODIFIED="1572691465133" TEXT="We are misinformed">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1572691073495" FOLDED="true" ID="ID_92783974" MODIFIED="1572691139675" TEXT="We have irrelevant / misleading">
+<node CREATED="1572691073495" ID="ID_92783974" MODIFIED="1572691139675" TEXT="We have irrelevant / misleading">
 <node CREATED="1572691112160" ID="ID_1681040460" MODIFIED="1572691118956" TEXT="life experience"/>
 <node CREATED="1572691142382" ID="ID_1433462876" MODIFIED="1572691143547" TEXT="theories"/>
 <node CREATED="1572691144030" ID="ID_1158996386" MODIFIED="1572691145235" TEXT="facts"/>
@@ -78,11 +78,11 @@
 <node CREATED="1572691414668" FOLDED="true" ID="ID_323814727" MODIFIED="1572691476755" POSITION="right" TEXT="Born wrong">
 <icon BUILTIN="full-2"/>
 <node CREATED="1572691506508" ID="ID_1440940646" MODIFIED="1613924070645" TEXT="You as a baby have some">
-<node CREATED="1572691527619" ID="ID_1486415865" MODIFIED="1572691529528" TEXT="truth">
+<node CREATED="1572691527619" FOLDED="true" ID="ID_1486415865" MODIFIED="1572691529528" TEXT="truth">
 <node CREATED="1572691510739" ID="ID_1302375666" MODIFIED="1598106768082" TEXT="Two object can&apos;t be in same space"/>
 <node CREATED="1572691516524" ID="ID_1457830071" MODIFIED="1598106770186" TEXT="A computer can&apos;t walk like human"/>
 </node>
-<node CREATED="1572691532588" ID="ID_950835262" MODIFIED="1572691662237" TEXT="misbelieve">
+<node CREATED="1572691532588" FOLDED="true" ID="ID_950835262" MODIFIED="1572691662237" TEXT="misbelieve">
 <node CREATED="1572691570723" ID="ID_1743155187" MODIFIED="1598106760794" TEXT="Important aspect of living thing is their roles">
 <node CREATED="1572691591355" ID="ID_537187505" MODIFIED="1572691596802" TEXT="Examples">
 <icon BUILTIN="wizard"/>
@@ -116,7 +116,7 @@
 </node>
 <node CREATED="1572692383277" ID="ID_636236048" MODIFIED="1574748566978" POSITION="left" TEXT="Motivated reasoning">
 <icon BUILTIN="full-4"/>
-<node CREATED="1572692407100" ID="ID_489955247" MODIFIED="1574748325675" TEXT="Most stubborn misbelieves">
+<node CREATED="1572692407100" FOLDED="true" ID="ID_489955247" MODIFIED="1574748325675" TEXT="Most stubborn misbelieves">
 <node CREATED="1572692412493" ID="ID_292843361" MODIFIED="1598106809690" TEXT="... not from our childhood"/>
 <node CREATED="1572692418332" FOLDED="true" ID="ID_1111790263" MODIFIED="1598106812153" TEXT="... but from what define who we are">
 <node CREATED="1572692432229" ID="ID_1494649490" MODIFIED="1572692435161" TEXT="believes">
@@ -139,24 +139,25 @@
 <node CREATED="1572692523276" ID="ID_881854551" MODIFIED="1572692523981" TEXT="forgotten "/>
 <node CREATED="1572692524715" ID="ID_138223101" MODIFIED="1572692526752" TEXT="diminished"/>
 </node>
-<node CREATED="1572692505020" ID="ID_1252366100" MODIFIED="1572692511376" TEXT="... in order for us to keep our belives"/>
-<node COLOR="#338800" CREATED="1598106835132" ID="ID_979762569" MODIFIED="1598106938883" TEXT="This remind me the confirmation bias">
+<node CREATED="1572692505020" ID="ID_1252366100" MODIFIED="1639563335057" TEXT="... in order for us to keep our beliefs"/>
+<node COLOR="#338800" CREATED="1598106835132" ID="ID_979762569" MODIFIED="1639563358799" TEXT="This remind me the confirmation bias">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      It could be link to the book &quot;The information diet&quot; which basically claims that corporations in our society try to comfort us in the confirmation bias by serving us information which are not in contradiction with our believes.<br />It's a powerful and scary idea.
+      See the book &quot;The information diet&quot; which basically claims that corporations in our society try to comfort us in the confirmation bias by serving us information which are not in contradiction with our believes.<br />It's a powerful and scary idea.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
 </node>
 </node>
 </node>
-<node CREATED="1572692861668" ID="ID_87461895" MODIFIED="1574748565530" TEXT="Anthropological theory of cultural cognition">
+<node CREATED="1572692861668" FOLDED="true" ID="ID_87461895" MODIFIED="1574748565530" TEXT="Anthropological theory of cultural cognition">
 <node CREATED="1572692867480" ID="ID_202295642" MODIFIED="1572692960021" TEXT="People sort ideological worldview following">
 <node CREATED="1572692885864" ID="ID_569974388" MODIFIED="1572692889629" TEXT="Individualist">
 <node CREATED="1572692891921" ID="ID_1862181069" MODIFIED="1572692895733" TEXT="autonomy"/>
@@ -194,7 +195,7 @@
 </node>
 </node>
 <node CREATED="1572693629723" ID="ID_1406879637" MODIFIED="1572693643102" TEXT="Quick development of opinions">
-<node CREATED="1572693643345" FOLDED="true" ID="ID_1969579144" MODIFIED="1598107020055" TEXT="... on topics we don&apos;t know anything about">
+<node CREATED="1572693643345" ID="ID_1969579144" MODIFIED="1598107020055" TEXT="... on topics we don&apos;t know anything about">
 <node COLOR="#338800" CREATED="1598107021714" ID="ID_1514890786" MODIFIED="1598107066559" TEXT="Remind me Elon Musk saying bullsh*t about COVID on twitter">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="password"/>
@@ -244,7 +245,7 @@
 <node CREATED="1572694055328" ID="ID_1292730867" MODIFIED="1572694062978" TEXT="Needs to educate people on their misbelieves">
 <node CREATED="1572694168862" ID="ID_906984526" MODIFIED="1572694170387" TEXT="In class">
 <node CREATED="1572694110991" ID="ID_1375286824" MODIFIED="1598107162860" TEXT="Variations on the Socratic method"/>
-<node CREATED="1572694114677" ID="ID_1294076471" MODIFIED="1572694128628" TEXT="Misbelief should be review first and discarded"/>
+<node CREATED="1572694114677" ID="ID_1294076471" MODIFIED="1639563478081" TEXT="Misbelief should be reviewed first and discarded"/>
 </node>
 <node CREATED="1572694176669" ID="ID_381575683" MODIFIED="1572694180003" TEXT="Internet / Social media">
 <node CREATED="1572694180181" ID="ID_593287701" MODIFIED="1572694188706" TEXT="Better not to spread misbelief"/>
@@ -282,7 +283,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572694617107" ID="ID_373363454" MODIFIED="1574748656810" POSITION="left" TEXT="Civics for enlighted dummies">
+<node CREATED="1572694617107" FOLDED="true" ID="ID_373363454" MODIFIED="1574748656810" POSITION="left" TEXT="Civics for enlighted dummies">
 <icon BUILTIN="full-6"/>
 <node CREATED="1572694769361" ID="ID_1814284528" MODIFIED="1572694786350" TEXT="People do study"/>
 <node CREATED="1572694786529" ID="ID_184315271" MODIFIED="1598107225365" TEXT="... and think that American cultural knowledge decay"/>

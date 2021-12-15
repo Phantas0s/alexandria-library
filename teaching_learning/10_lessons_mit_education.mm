@@ -69,7 +69,6 @@
 <node CREATED="1602244309430" ID="ID_496916568" MODIFIED="1602244311499" POSITION="right" TEXT=" You must measure up to a very high level of performance">
 <icon BUILTIN="full-6"/>
 <node CREATED="1602244348302" ID="ID_1331713705" MODIFIED="1602244355593" TEXT="Doesn&apos;t matter much about experience of the teacher"/>
-<node CREATED="1602244355926" ID="ID_1125700096" MODIFIED="1602244525698" TEXT="... for "/>
 <node CREATED="1602244536333" ID="ID_246956798" MODIFIED="1602244540247" TEXT="What matters the most is ambiance"/>
 <node CREATED="1602244544253" ID="ID_1467738744" MODIFIED="1602244552544" TEXT="... in which course is taught"/>
 <node CREATED="1602244592451" ID="ID_231486237" MODIFIED="1602244598874" TEXT="Expectation of high standard"/>
