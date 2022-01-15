@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1641457321465" TEXT="Vim User Manual">
+<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1642053877470" TEXT="Vim User Manual">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,7 +12,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1615127224623" FOLDED="true" ID="ID_247720417" MODIFIED="1620199746836" POSITION="right" TEXT="Getting Started">
+<node CREATED="1615127224623" ID="ID_247720417" MODIFIED="1620199746836" POSITION="right" TEXT="Getting Started">
 <icon BUILTIN="full-1"/>
 <node CREATED="1615127236200" ID="ID_1366482076" MODIFIED="1615127325273" TEXT="About the manuals">
 <icon BUILTIN="full-1"/>
@@ -71,7 +71,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1615127773363" FOLDED="true" ID="ID_586402645" MODIFIED="1615127788339" TEXT="Finding help">
+<node CREATED="1615127773363" ID="ID_586402645" MODIFIED="1615127788339" TEXT="Finding help">
 <icon BUILTIN="full-8"/>
 <node CREATED="1615128784965" ID="ID_1433054229" MODIFIED="1615128795033" TEXT=":help {subject}"/>
 <node CREATED="1615128796038" ID="ID_1858427828" MODIFIED="1615128797385" TEXT=":help x">
