@@ -1,19 +1,20 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1617193924860" ID="ID_970247666" LINK="https://plato.stanford.edu/entries/fallacies/" MODIFIED="1617193964678" TEXT="Fallacies">
-<node CREATED="1617193947249" ID="ID_907088074" MODIFIED="1617193999125" POSITION="right" TEXT="Introduction">
-<node CREATED="1617193999273" FOLDED="true" ID="ID_758172328" MODIFIED="1617194001220" TEXT="Two conceptions">
+<node CREATED="1617193947249" ID="ID_907088074" MODIFIED="1642921543513" POSITION="right" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1617193999273" ID="ID_758172328" MODIFIED="1617194001220" TEXT="Two conceptions">
 <node CREATED="1617194001400" ID="ID_1342471470" MODIFIED="1617194007629" TEXT="False and popular beliefs"/>
 <node CREATED="1617194007980" ID="ID_254002156" MODIFIED="1617194012836" TEXT="Bad arguments">
 <node CREATED="1617194039584" ID="ID_740959941" MODIFIED="1617194049564" TEXT="Preferred by academic writers"/>
 </node>
 </node>
-<node CREATED="1617194079890" FOLDED="true" ID="ID_475730157" MODIFIED="1617194083141" TEXT="Actors">
+<node CREATED="1617194079890" ID="ID_475730157" MODIFIED="1617194083141" TEXT="Actors">
 <node CREATED="1617194083384" ID="ID_968034535" MODIFIED="1617194086412" TEXT="Aristotle"/>
 <node CREATED="1617194087061" ID="ID_362146232" MODIFIED="1617194091468" TEXT="Richard Whately"/>
 <node CREATED="1617194092344" ID="ID_892156332" MODIFIED="1617194097212" TEXT="John Stuart Mill"/>
 </node>
-<node CREATED="1617194137896" FOLDED="true" ID="ID_31558826" MODIFIED="1617194142988" TEXT="20th century interest">
+<node CREATED="1617194137896" ID="ID_31558826" MODIFIED="1617194142988" TEXT="20th century interest">
 <node CREATED="1617194143191" ID="ID_1727970604" MODIFIED="1617194149884" TEXT="Ill fit between formal logic"/>
 <node CREATED="1617194150263" ID="ID_1275258039" MODIFIED="1617194156788" TEXT="... and natural language">
 <node CREATED="1617194157023" ID="ID_417786334" MODIFIED="1617194158796" TEXT="reasoning"/>
@@ -38,7 +39,10 @@
 <node CREATED="1617194347575" ID="ID_252459677" MODIFIED="1617282931959" TEXT="... better using symbolic language of formal logic"/>
 </node>
 </node>
-<node CREATED="1617194384118" ID="ID_1756278796" MODIFIED="1617194388395" TEXT="Review here informal fallacies">
+</node>
+<node CREATED="1617207067904" ID="ID_1589937371" MODIFIED="1642921644433" POSITION="right" TEXT="The core fallacies">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
 <node CREATED="1617195927191" FOLDED="true" ID="ID_1766096466" MODIFIED="1617195928910" TEXT="The fallacy of equivocation">
 <icon BUILTIN="full-1"/>
 <node CREATED="1617196164566" ID="ID_1731141274" MODIFIED="1617196174946" TEXT="Argument exploits ambiguity"/>
@@ -103,9 +107,12 @@
 <icon BUILTIN="full-4"/>
 <node CREATED="1617203919318" ID="ID_913184610" MODIFIED="1617203935159" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1617203921118" ID="ID_111863138" MODIFIED="1617204292177" TEXT="&quot;Every member of the investigative team was an excellent researcher&quot;"/>
-<node CREATED="1617203928740" ID="ID_1753636115" MODIFIED="1617204295709" TEXT="&quot;It was an excellent investigative team&quot;">
+<node CREATED="1617203928740" ID="ID_1753636115" MODIFIED="1642920700483" TEXT="&quot;It was an excellent investigative team&quot;">
 <font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1617203921118" ID="ID_111863138" MODIFIED="1642920683787" TEXT="&quot;Every member of the investigative team was an excellent researcher&quot;">
+<icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1617204364348" ID="ID_1716133635" MODIFIED="1617204372664" TEXT="Excellence doesn&apos;t transfer from 2 to 1"/>
 <node CREATED="1617204379627" ID="ID_1698529061" MODIFIED="1617204386487" TEXT="Maybe some member of the team are not researchers"/>
@@ -114,7 +121,7 @@
 <node CREATED="1617195979056" FOLDED="true" ID="ID_1066034137" MODIFIED="1617195981093" TEXT="The fallacy of begging the question (petitio principii)">
 <icon BUILTIN="full-5"/>
 <node CREATED="1617204909901" ID="ID_1945832539" MODIFIED="1617204916817" TEXT="Used often incorrectly for &quot;raising a question&quot;"/>
-<node CREATED="1617204964652" ID="ID_652040394" MODIFIED="1617204969792" TEXT="Premise and conclusion are the same">
+<node CREATED="1617204964652" FOLDED="true" ID="ID_652040394" MODIFIED="1617204969792" TEXT="Premise and conclusion are the same">
 <node CREATED="1617204970012" ID="ID_626755828" MODIFIED="1617204991245" TEXT="Example">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -131,11 +138,11 @@
 <node CREATED="1617204994701" ID="ID_446320751" MODIFIED="1617204998248" TEXT="No reason for the conclusion"/>
 </node>
 </node>
-<node CREATED="1617205093139" ID="ID_1319458509" MODIFIED="1617205097087" TEXT="Not really logical fallacies">
+<node CREATED="1617205093139" FOLDED="true" ID="ID_1319458509" MODIFIED="1617205097087" TEXT="Not really logical fallacies">
 <node CREATED="1617205097258" ID="ID_1028881017" MODIFIED="1617205102111" TEXT="Conclusion is not always wrong"/>
 <node CREATED="1617205102411" ID="ID_961051977" MODIFIED="1617205106839" TEXT="... even if it&apos;s not right either"/>
 </node>
-<node CREATED="1617205126203" ID="ID_857950114" MODIFIED="1617205132807" TEXT="Going in circle">
+<node CREATED="1617205126203" FOLDED="true" ID="ID_857950114" MODIFIED="1617205132807" TEXT="Going in circle">
 <node CREATED="1617205134115" ID="ID_279598169" MODIFIED="1617205152399" TEXT="Example">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -158,7 +165,7 @@
 <icon BUILTIN="wizard"/>
 <node CREATED="1617205185762" ID="ID_1616279278" MODIFIED="1617205186254" TEXT="Are you still a member of the Ku Klux Klan?"/>
 <node CREATED="1617205186930" ID="ID_35149637" MODIFIED="1617205199110" TEXT="Whatever you answer the questin"/>
-<node CREATED="1617205199554" ID="ID_606239634" MODIFIED="1617205211429" TEXT="... you admit being a member of the Ki Klux Klan at one point"/>
+<node CREATED="1617205199554" ID="ID_606239634" MODIFIED="1642920829867" TEXT="... you admit being a member of the Ku Klux Klan at one point"/>
 </node>
 <node CREATED="1617205250174" ID="ID_479686578" MODIFIED="1617205254934" TEXT="Not really a fallacy?">
 <node CREATED="1617205255129" ID="ID_670640506" MODIFIED="1617205260542" TEXT="Asking a question"/>
@@ -336,12 +343,12 @@
 <node CREATED="1617206557890" ID="ID_1297871864" MODIFIED="1617206561711" TEXT="... are two very different things"/>
 </node>
 </node>
-<node CREATED="1617196140053" FOLDED="true" ID="ID_120034838" MODIFIED="1617196142693" TEXT="The fallacy of the slippery slope">
+<node CREATED="1617196140053" ID="ID_120034838" MODIFIED="1617196142693" TEXT="The fallacy of the slippery slope">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-5"/>
 <node CREATED="1617206636531" ID="ID_804724993" MODIFIED="1617206639077" TEXT="Starting point"/>
 <node CREATED="1617206639451" ID="ID_540991361" MODIFIED="1617206642358" TEXT="Go through inference"/>
-<node CREATED="1617206642738" ID="ID_964366663" MODIFIED="1617206651030" TEXT="Arrive to an undesriable conclusion"/>
+<node CREATED="1617206642738" ID="ID_964366663" MODIFIED="1642921504629" TEXT="Arrive to an undesirable conclusion"/>
 <node CREATED="1617206651643" ID="ID_1640890018" MODIFIED="1617206656166" TEXT="... so starting point is wrong!"/>
 <node CREATED="1617206659494" ID="ID_355779135" MODIFIED="1617206804189" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -369,7 +376,8 @@
 <node CREATED="1617206892169" ID="ID_1712102845" MODIFIED="1617206895630" TEXT="wrong causal relations"/>
 <node CREATED="1617206895953" ID="ID_340577047" MODIFIED="1617206898020" TEXT="vague terms"/>
 </node>
-<node CREATED="1617206912569" ID="ID_1703854142" MODIFIED="1617206913757" TEXT="Example">
+<node CREATED="1617206912569" ID="ID_1703854142" MODIFIED="1642921532329" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1617206914161" ID="ID_1764963760" MODIFIED="1617206927621" TEXT="If you remove the hair one by one"/>
 <node CREATED="1617206927945" ID="ID_926161700" MODIFIED="1617206933085" TEXT="... a man become beardless"/>
 <node CREATED="1617206933552" ID="ID_1579512507" MODIFIED="1617206938285" TEXT="What means beardless?">
@@ -379,10 +387,6 @@
 </node>
 </node>
 </node>
-</node>
-</node>
-<node CREATED="1617207067904" ID="ID_1589937371" MODIFIED="1617207075735" POSITION="right" TEXT="The core fallacies">
-<icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1617207091065" ID="ID_1725942153" MODIFIED="1617207096226" POSITION="right" TEXT="History of Fallacy Theory">
 <icon BUILTIN="full-2"/>
