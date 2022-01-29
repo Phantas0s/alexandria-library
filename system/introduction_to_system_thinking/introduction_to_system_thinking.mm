@@ -31,7 +31,7 @@
 <node CREATED="1621257901003" ID="ID_240806725" MODIFIED="1621257903593" TEXT="... a programmer could have"/>
 </node>
 </node>
-<node CREATED="1621257932420" ID="ID_154349581" MODIFIED="1625760320694" TEXT="Chapter 1 - The Problem">
+<node CREATED="1621257932420" FOLDED="true" ID="ID_154349581" MODIFIED="1625760320694" TEXT="Chapter 1 - The Problem">
 <icon BUILTIN="full-1"/>
 <node CREATED="1621257984147" FOLDED="true" ID="ID_738939494" MODIFIED="1621257988386" TEXT="The complexity of the world">
 <icon BUILTIN="full-1"/>
@@ -2130,7 +2130,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1635263823405" FOLDED="true" ID="ID_679337203" MODIFIED="1635263837653" TEXT="The Principle of Indeterminability">
+<node CREATED="1635263823405" FOLDED="true" ID="ID_679337203" MODIFIED="1643045392605" TEXT="The Principle of Indeterminability">
 <icon BUILTIN="full-5"/>
 <node CREATED="1635424561646" ID="ID_49891635" MODIFIED="1635424564016" TEXT="Type of systems">
 <node CREATED="1635263839589" ID="ID_1816302387" MODIFIED="1635263854380" TEXT="Initial State">
@@ -2992,7 +2992,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1642263537259" ID="ID_1264052149" MODIFIED="1642263550191" TEXT=" Chapter 3 - Birth Free Aggregates">
+<node CREATED="1642263537259" FOLDED="true" ID="ID_1264052149" MODIFIED="1642263550191" TEXT=" Chapter 3 - Birth Free Aggregates">
 <icon BUILTIN="full-3"/>
 <node CREATED="1642263606796" ID="ID_1150669067" MODIFIED="1642263618610" TEXT="Social Versus Innate Survival">
 <icon BUILTIN="full-1"/>
@@ -3064,8 +3064,7 @@
   <body>
     <img src="initial_aggregate_proportioned.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1642437758741" ID="ID_1250903860" MODIFIED="1642437766514" TEXT="Get so flat on the tail that it never reachers 0">
@@ -3189,8 +3188,7 @@
   <body>
     <img src="constant_proportions.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3213,8 +3211,7 @@
   <body>
     <img src="life_table.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1642442150763" ID="ID_1431445665" MODIFIED="1642442153671" TEXT="Called life table"/>
@@ -3236,8 +3233,7 @@
   <body>
     <img src="unimodal_distribution.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1642442771305" ID="ID_789727827" MODIFIED="1642442790305" TEXT=" Examples">
@@ -3266,7 +3262,268 @@
 </node>
 </node>
 </node>
-<node CREATED="1642442887368" ID="ID_105256474" MODIFIED="1642442896706" TEXT="Can&apos;t be described with single numbers"/>
+<node CREATED="1642442887368" ID="ID_105256474" MODIFIED="1642442896706" TEXT="Can&apos;t be described with single numbers">
+<node CREATED="1643044237739" ID="ID_1883992927" MODIFIED="1643044240767" TEXT="No half life there"/>
+</node>
+<node CREATED="1643044251186" ID="ID_1564173272" MODIFIED="1643044263031" TEXT="If peak sharp enough">
+<node CREATED="1643044263730" ID="ID_776426572" MODIFIED="1643044269031" TEXT="Modal value M"/>
+<node CREATED="1643044270826" ID="ID_1597666339" MODIFIED="1643044279006" TEXT="... can provide accurate description"/>
+</node>
+<node CREATED="1643044367498" ID="ID_1019546511" MODIFIED="1643044372043" TEXT="N curve often called">
+<node CREATED="1643044372322" ID="ID_371867251" MODIFIED="1643044376006" TEXT="&quot;S&quot; curve"/>
+<node CREATED="1643044376979" ID="ID_1068349333" MODIFIED="1643044380238" TEXT="ogive"/>
+<node CREATED="1643044383346" FOLDED="true" ID="ID_1861582793" MODIFIED="1643044392251" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1643044439481" ID="ID_34885156" MODIFIED="1643044449940">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="s_curve_ogive.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1643044551592" ID="ID_1715118637" MODIFIED="1643044567122" TEXT="Not all these curves are &quot;S&quot; shaped!"/>
+</node>
+<node CREATED="1643044583408" ID="ID_1312705471" MODIFIED="1643044654198" TEXT="N&apos; curve">
+<node CREATED="1643044588208" ID="ID_1148698654" MODIFIED="1643044598068" TEXT="rate of change (life table)"/>
+</node>
+<node CREATED="1643044568553" ID="ID_825144329" MODIFIED="1643044574941" TEXT=" N curve">
+<node CREATED="1643044576841" ID="ID_795149415" MODIFIED="1643044582228" TEXT="Change in aggregate size"/>
+<node CREATED="1643044619470" ID="ID_392957235" MODIFIED="1643044627179" TEXT="Sum of death turned upside down so far"/>
+<node CREATED="1643044636361" ID="ID_859442881" MODIFIED="1643044639516" TEXT="In calculus">
+<node CREATED="1643044639945" ID="ID_1387709675" MODIFIED="1643044646285" TEXT="The integral of N&apos; curve"/>
+</node>
+</node>
+<node CREATED="1643044724879" ID="ID_1009386274" MODIFIED="1643044728852" TEXT=" For normal distribution">
+<node CREATED="1643044729680" ID="ID_1626841982" MODIFIED="1643044735644" TEXT="M and width (or spread)"/>
+<node CREATED="1643044736312" ID="ID_218276592" MODIFIED="1643044741835" TEXT=" ... of single peak is enough"/>
+<node CREATED="1643044742367" ID="ID_1536332665" MODIFIED="1643044753115" TEXT=" ... to give precisely the aggregate behavior">
+<node CREATED="1643044759184" ID="ID_584656391" MODIFIED="1643044764659" TEXT="It&apos;s simple"/>
+<node CREATED="1643044772135" ID="ID_190520692" MODIFIED="1643044779572" TEXT=" ... that&apos;s why some sees it everywhere"/>
+</node>
+<node CREATED="1643044797094" ID="ID_352175874" MODIFIED="1643044799779" TEXT="Mathematician">
+<node CREATED="1643044801566" ID="ID_1009295391" MODIFIED="1643044803835" TEXT="Variance"/>
+<node CREATED="1643044804735" ID="ID_1101282050" MODIFIED="1643044814139" TEXT="Standard deviation">
+<node CREATED="1643044818239" ID="ID_804336855" MODIFIED="1643044885043" TEXT="&quot;normal&quot; distribution">
+<node CREATED="1643044851519" ID="ID_1124891208" MODIFIED="1643044853995" TEXT="small variance"/>
+<node CREATED="1643044854463" ID="ID_1343244257" MODIFIED="1643044860232" TEXT=" elements of aggregate quite similar"/>
+<node CREATED="1643044864031" ID="ID_1203734340" MODIFIED="1643044872235" TEXT=" ... sharp drop in N ogive"/>
+</node>
+<node CREATED="1643044873815" ID="ID_606556858" MODIFIED="1643044880914" TEXT="&quot;fat&quot; distribution">
+<node CREATED="1643044887359" ID="ID_938709718" MODIFIED="1643044889778" TEXT="Large variance"/>
+<node CREATED="1643044890494" ID="ID_626903201" MODIFIED="1643044909522" TEXT=" ogive flatten lazily"/>
+<node CREATED="1643044895334" ID="ID_864452877" MODIFIED="1643044907066" TEXT=" more and more like exponential decay"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1643044919782" ID="ID_1540241174" MODIFIED="1643044927345" TEXT="Ogive and exponentials">
+<node CREATED="1643044927726" ID="ID_94937814" MODIFIED="1643044932763" TEXT="Two different curves"/>
+<node CREATED="1643044933957" ID="ID_1494719654" MODIFIED="1643044938569" TEXT=" ... for birth free aggregates"/>
+<node CREATED="1643044944142" ID="ID_1510356656" MODIFIED="1643044948369" TEXT="Exponential">
+<node CREATED="1643044950270" ID="ID_578673359" MODIFIED="1643044989546" TEXT="Aggregate with totally independent members"/>
+<node CREATED="1643044991199" ID="ID_1820564862" MODIFIED="1643045006690" TEXT=" Deplete faster when more of them"/>
+</node>
+<node CREATED="1643045009117" ID="ID_107927110" MODIFIED="1643045010433" TEXT="Ogive">
+<node CREATED="1643045010989" ID="ID_1969006481" MODIFIED="1643045016185" TEXT="Members more or less similar"/>
+<node CREATED="1643045016765" ID="ID_1239950255" MODIFIED="1643045025119" TEXT=" Mean (or modal) time of death"/>
+<node CREATED="1643045026565" ID="ID_1241683181" MODIFIED="1643045035250" TEXT=" Rate of depletion doesn&apos;t depend on size"/>
+<node CREATED="1643045035614" ID="ID_1090001061" MODIFIED="1643045037407" TEXT=" ... but age"/>
+</node>
+</node>
+</node>
+<node CREATED="1643045052942" ID="ID_325645377" MODIFIED="1643045075852" TEXT=" Composite curves">
+<icon BUILTIN="full-5"/>
+<node CREATED="1643045127853" ID="ID_133511735" MODIFIED="1643045157158" TEXT="With original decay">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1643045130997" ID="ID_1390113839" MODIFIED="1643045138537" TEXT="can see if there are 2 types of elements"/>
+<node CREATED="1643045139950" ID="ID_1112437013" MODIFIED="1643045154617" TEXT="... if peakes are narrow and well separated"/>
+<node CREATED="1643045162413" ID="ID_157323614" MODIFIED="1643045177456" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1643045166020" ID="ID_259363858" MODIFIED="1643045173352" TEXT="Two types of trees in forest"/>
+</node>
+<node CREATED="1643045248900" ID="ID_659732446" MODIFIED="1643045253024" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1643045256490" ID="ID_409842227" MODIFIED="1643045265788">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="two_types.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1643045290083" ID="ID_1300527408" MODIFIED="1643045294432" TEXT="Reasoning from black box">
+<node CREATED="1643045295060" FOLDED="true" ID="ID_890346688" MODIFIED="1643045302486" TEXT="But caution!">
+<node CREATED="1643045309251" ID="ID_258490419" MODIFIED="1643045312206" TEXT="2 types or"/>
+<node CREATED="1643045314428" ID="ID_1243216544" MODIFIED="1643045319304" TEXT=" ... 2 environmental conditions?"/>
+<node CREATED="1643045352084" ID="ID_918517139" LINK="#ID_679337203" MODIFIED="1643045401717" TEXT="Principle of indeterminability"/>
+<node CREATED="1643045416140" ID="ID_383606085" MODIFIED="1643045424651" TEXT="Can begin to look like exponential"/>
+<node CREATED="1643045426746" ID="ID_533766401" MODIFIED="1643045430488" TEXT=" ... so not 2 types anymore"/>
+</node>
+<node CREATED="1643045457147" ID="ID_1132701181" MODIFIED="1643045500934" TEXT="Nature doesn&apos;t give us nice curves">
+<icon BUILTIN="licq"/>
+<node CREATED="1643045554059" ID="ID_599090921" MODIFIED="1643045559959">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="uncertainty_in_curve.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643045658461" ID="ID_1015475359" MODIFIED="1643045664697" TEXT="Pond of fish">
+<node CREATED="1643045665244" ID="ID_1841206769" MODIFIED="1643045672657" TEXT="Is there an exponential process removing fishes?"/>
+<node CREATED="1643045673554" ID="ID_1842592679" MODIFIED="1643045679289" TEXT=" Is there two types of fishes?"/>
+<node CREATED="1643045683283" ID="ID_883513165" MODIFIED="1643045689632" TEXT="... general system can&apos;t answer">
+<node CREATED="1643045689940" ID="ID_1546024884" MODIFIED="1643045692977" TEXT="need to go in the pond"/>
+</node>
+</node>
+</node>
+<node CREATED="1643045601277" ID="ID_809219474" MODIFIED="1643045607265" TEXT="Wrong cross indicate"/>
+<node CREATED="1643045608237" ID="ID_1270432443" MODIFIED="1643045621945" TEXT=" ... how far observation might be in error"/>
+<node CREATED="1643045623844" ID="ID_1240214411" MODIFIED="1643045627088" TEXT=" ... in either direction">
+<node CREATED="1643045630119" ID="ID_1586972185" MODIFIED="1643045635430" TEXT="No empirical observation"/>
+<node CREATED="1643045635861" ID="ID_415658784" MODIFIED="1643045646550" TEXT=" ... is absolutely accurate"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1643045700573" ID="ID_1704242830" MODIFIED="1643126807013" TEXT="Chapter 4 - Reasoning about Aggregates">
+<icon BUILTIN="full-4"/>
+<node CREATED="1643126880083" ID="ID_1411010345" MODIFIED="1643126887428" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1643126824591" ID="ID_1476186340" MODIFIED="1643126836703" TEXT="We first see purity in aggregates"/>
+<node CREATED="1643126837435" ID="ID_1216556904" MODIFIED="1643126851830" TEXT="... that&apos;s what lead us to think about aggregate at the first place"/>
+</node>
+<node CREATED="1643126889322" FOLDED="true" ID="ID_1191124633" MODIFIED="1643126906656" TEXT="Cooperation and Competition: The Law of Collapse">
+<icon BUILTIN="full-1"/>
+<node CREATED="1643126917442" ID="ID_681648830" MODIFIED="1643126921543" TEXT="Aggregate with bigger number">
+<node CREATED="1643126921931" ID="ID_118797380" MODIFIED="1643126945100" TEXT="Enhance individual survival"/>
+<node CREATED="1643126945665" ID="ID_1732716318" MODIFIED="1643126950654" TEXT=" Safety in numbers"/>
+</node>
+<node CREATED="1643126952908" ID="ID_76333647" MODIFIED="1643126998029" TEXT="Smaller aggregate">
+<node CREATED="1643126999995" ID="ID_1656723401" MODIFIED="1643127008343" TEXT="Enhance individual survival"/>
+<node CREATED="1643127005283" ID="ID_1053076287" MODIFIED="1643127015070" TEXT=" Everyone for itself"/>
+</node>
+<node CREATED="1643127017907" ID="ID_1111700065" MODIFIED="1643127021158" TEXT="Individual either">
+<node CREATED="1643127023290" ID="ID_978215334" MODIFIED="1643127026591" TEXT="Cooperate"/>
+<node CREATED="1643127026914" ID="ID_1230307382" MODIFIED="1643127028438" TEXT=" Compete"/>
+</node>
+<node CREATED="1643127037250" ID="ID_1358952496" MODIFIED="1643127044567" TEXT=" Individual act independently">
+<node CREATED="1643127044891" ID="ID_1212649991" MODIFIED="1643127049020" TEXT="Boundaries between">
+<node CREATED="1643127050562" ID="ID_935402587" MODIFIED="1643127053829" TEXT="Cooperation"/>
+<node CREATED="1643127054098" ID="ID_151940554" MODIFIED="1643127057022" TEXT=" Competition"/>
+</node>
+<node CREATED="1643127199193" ID="ID_1170372388" MODIFIED="1643127204074" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1643127206273" ID="ID_36198794" MODIFIED="1643127226079">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="cooperative_aggregates.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1643127235977" ID="ID_324441843" MODIFIED="1643127246136" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1643127239353" ID="ID_686572335" MODIFIED="1643127242040" TEXT="Pure cooperation">
+<node CREATED="1643127247377" ID="ID_724765770" MODIFIED="1643127272298" TEXT="Sand grains in a rock worn by water"/>
+<node CREATED="1643127273001" ID="ID_1576529199" MODIFIED="1643127286468" TEXT="Individuals in center can&apos;t be exterminated"/>
+<node CREATED="1643127287130" ID="ID_430279072" MODIFIED="1643127302109" TEXT=" ... before the ones at boundaries"/>
+</node>
+<node CREATED="1643127306185" ID="ID_1271251096" MODIFIED="1643127310766" TEXT="Load sharing properties">
+<node CREATED="1643127323983" ID="ID_1004437675" MODIFIED="1643127330381" TEXT="Members of organization"/>
+<node CREATED="1643127330625" ID="ID_1183149957" MODIFIED="1643127336189" TEXT=" ... letting a bigger load of work"/>
+<node CREATED="1643127336945" ID="ID_666462839" MODIFIED="1643127359052" TEXT=" ... to others when they live"/>
+<node CREATED="1643127367621" ID="ID_133564097" MODIFIED="1643127371910" TEXT="Collapse of structure"/>
+</node>
+</node>
+<node CREATED="1643127385633" ID="ID_1323266492" MODIFIED="1643127393421" TEXT="Impression of negativism when living aggregate">
+<node CREATED="1643127399368" ID="ID_1735855030" MODIFIED="1643127405429" TEXT="Staying in the aggregate"/>
+<node CREATED="1643127406024" ID="ID_1868527834" MODIFIED="1643127410316" TEXT=" ... can be bad too!"/>
+<node CREATED="1643127415633" ID="ID_888496332" MODIFIED="1643127419949" TEXT="Rarity can be desirable">
+<node CREATED="1643127480896" ID="ID_700858140" MODIFIED="1643127499639" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1643127501944" ID="ID_1536585416" MODIFIED="1643127570972">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="competing_aggregate_last_standing.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1643127610183" ID="ID_943701230" MODIFIED="1643127620867" TEXT=" If a member die because of other cometitive aggregate"/>
+<node CREATED="1643127621376" ID="ID_800591094" MODIFIED="1643127630100" TEXT=" .... the last one will never die"/>
+<node CREATED="1643127648879" ID="ID_1848274659" MODIFIED="1643127658388" TEXT="Nothing last forever"/>
+<node CREATED="1643127658792" ID="ID_200540235" MODIFIED="1643127668243" TEXT=" ... but can go on for a while"/>
+</node>
+</node>
+<node CREATED="1643127677288" ID="ID_918297250" MODIFIED="1643127680379" TEXT="Law of collapse">
+<node CREATED="1643127682968" ID="ID_268497710" MODIFIED="1643127691091" TEXT="Any strong association among lifetime"/>
+<node CREATED="1643127692664" ID="ID_1970705618" MODIFIED="1643127704835" TEXT="... be it cooperative or competitive"/>
+<node CREATED="1643127706031" ID="ID_1804233869" MODIFIED="1643127715748" TEXT="... leads to sudden depletion"/>
+</node>
+</node>
+<node CREATED="1643127732278" ID="ID_171938860" MODIFIED="1643127965670" TEXT="The Law of Typology">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-2"/>
+<node CREATED="1643127742487" ID="ID_1013112426" MODIFIED="1643127759323" TEXT="Ogives follow the same principle">
+<node CREATED="1643127767455" ID="ID_1052064909" MODIFIED="1643127773779" TEXT="Smaller variation from the mean"/>
+<node CREATED="1643127774670" ID="ID_1865782131" MODIFIED="1643127784403" TEXT="... sharper the decline"/>
+<node CREATED="1643127789726" ID="ID_201710774" MODIFIED="1643127795515" TEXT="... and vice versa"/>
+</node>
+<node CREATED="1643127804975" ID="ID_861764838" MODIFIED="1643127823147" TEXT="Difficult to know what type of aggregate with depression curve only"/>
+<node CREATED="1643127825175" ID="ID_272819359" MODIFIED="1643127839731" TEXT=" ... for any curve, there is corresponding model of each type">
+<node CREATED="1643127843039" ID="ID_728479538" MODIFIED="1643127855114" TEXT="Law of indeterminability"/>
+<node CREATED="1643127856007" ID="ID_359524506" MODIFIED="1643127861944" TEXT="Could be influence of environment"/>
+</node>
+<node CREATED="1643127875215" ID="ID_519652060" MODIFIED="1643127883840" TEXT="Elements of aggregate could be an aggregate">
+<node CREATED="1643127886199" ID="ID_1140536313" MODIFIED="1643127892282" TEXT="Push difficulty one level below"/>
+<node CREATED="1643127893118" ID="ID_533433722" MODIFIED="1643127905099" TEXT=" Chain of &quot;why&quot; questions"/>
+</node>
+<node CREATED="1643127912470" ID="ID_1169568278" MODIFIED="1643127916034" TEXT="Science and art">
+<node CREATED="1643127916639" ID="ID_253347017" MODIFIED="1643127930545" TEXT="Love to explain individual"/>
+<node CREATED="1643127930941" ID="ID_32307899" MODIFIED="1643127934378" TEXT=" ... via aggregate"/>
+<node CREATED="1643127938094" ID="ID_964638062" MODIFIED="1643127941819" TEXT="Can be">
+<node CREATED="1643127942311" ID="ID_989991130" MODIFIED="1643127943994" TEXT="powerful"/>
+<node CREATED="1643127944893" ID="ID_1082403022" MODIFIED="1643127951834" TEXT="fallacious when misapplied"/>
+</node>
+</node>
+<node CREATED="1643127953654" ID="ID_693260897" MODIFIED="1643127959898" TEXT="Typological thinking">
+<node CREATED="1643127973750" ID="ID_1614299696" MODIFIED="1643127977850" TEXT="Unquestioned assumptions"/>
+<node CREATED="1643127978445" ID="ID_1614690710" MODIFIED="1643127999938" TEXT="behavior of aggregate"/>
+<node CREATED="1643128000581" ID="ID_949587236" MODIFIED="1643128009729" TEXT="... equal sum of behaviors of individual"/>
+<node CREATED="1643128029974" ID="ID_1910922164" MODIFIED="1643128065238" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1643128031886" ID="ID_1353075050" MODIFIED="1643128040849" TEXT="Having two distinct types">
+<node CREATED="1643128042445" ID="ID_899938665" MODIFIED="1643128043897" TEXT="Parents"/>
+<node CREATED="1643128047782" ID="ID_1598121197" MODIFIED="1643128050033" TEXT="Daughters"/>
+</node>
+<node CREATED="1643128052741" ID="ID_286748496" MODIFIED="1643128062962" TEXT="... and bring the &quot;average&quot;"/>
+<node CREATED="1643128074901" ID="ID_1886428077" MODIFIED="1643128083201" TEXT="Suppose more or less identical individual"/>
+</node>
+<node CREATED="1643128092101" ID="ID_1075986780" MODIFIED="1643128096322" TEXT="Fallacy is not in explanation"/>
+<node CREATED="1643128098236" ID="ID_75873363" MODIFIED="1643128106338" TEXT=" ... but in failure of considering other explanations">
+<node CREATED="1643128111892" ID="ID_1133259023" MODIFIED="1643128114529" TEXT="Possible diversity"/>
+<node CREATED="1643128115053" ID="ID_927506231" MODIFIED="1643128118129" TEXT=" ... in individual"/>
+</node>
+</node>
 </node>
 </node>
 </node>
