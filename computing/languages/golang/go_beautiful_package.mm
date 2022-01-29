@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528482084555" ID="ID_620096067" LINK="https://www.youtube.com/watch?v=cmkKxNN7cs4" MODIFIED="1593952884112" TEXT="Go beautiful package">
+<node CREATED="1528482084555" ID="ID_620096067" LINK="https://www.youtube.com/watch?v=cmkKxNN7cs4" MODIFIED="1643457432166" TEXT="Go beautiful package">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -68,9 +68,8 @@
 </node>
 </node>
 <node CREATED="1528483228502" ID="ID_669375550" MODIFIED="1528483257731" POSITION="right" TEXT="Unit Test">
-<node CREATED="1528483230526" ID="ID_1060080191" MODIFIED="1528483234546" TEXT="In a different package">
+<node CREATED="1528483230526" ID="ID_1060080191" MODIFIED="1528483234546" TEXT="In a different package"/>
 <node CREATED="1528483237397" ID="ID_1671872639" MODIFIED="1528483245787" TEXT="Make yourself a user of the API"/>
-</node>
 </node>
 <node CREATED="1528483395428" ID="ID_1925405627" MODIFIED="1532014441688" POSITION="left" TEXT="Avoid constructors if possible">
 <node CREATED="1528483399957" ID="ID_1615086346" MODIFIED="1528483408369" TEXT="What happens in there?"/>
