@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1581412135824" ID="ID_343389241" LINK="https://www.scotthyoung.com/blog/ultralearning/" MODIFIED="1615707219805" TEXT="Ultralearning">
+<node CREATED="1581412135824" ID="ID_343389241" LINK="https://www.scotthyoung.com/blog/ultralearning/" MODIFIED="1643440980524" TEXT="Ultralearning">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -377,7 +377,7 @@
 <node CREATED="1581918562138" ID="ID_1915507131" MODIFIED="1581918608495" TEXT="Learning sabbatical">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1581918569503" FOLDED="true" ID="ID_1717075345" MODIFIED="1581918611612" TEXT="Reimagining existing learning effort">
+<node CREATED="1581918569503" ID="ID_1717075345" MODIFIED="1581918611612" TEXT="Reimagining existing learning effort">
 <icon BUILTIN="full-3"/>
 <node CREATED="1581918689457" ID="ID_307292695" MODIFIED="1581918697288" TEXT="Use the time you already have to learn"/>
 <node CREATED="1581918698444" ID="ID_1655437371" MODIFIED="1581918705832" TEXT="... to practice ultralearning"/>
@@ -392,9 +392,9 @@
 <node CREATED="1581918760387" ID="ID_969585795" MODIFIED="1581918769448" TEXT="Can we become an ultralearner?"/>
 </node>
 </node>
-<node CREATED="1581413254780" FOLDED="true" ID="ID_1099158281" MODIFIED="1585473663739" POSITION="right" TEXT="How to Become an Ultralearner">
+<node CREATED="1581413254780" ID="ID_1099158281" MODIFIED="1585473663739" POSITION="right" TEXT="How to Become an Ultralearner">
 <icon BUILTIN="full-3"/>
-<node CREATED="1581918940039" ID="ID_1234805930" MODIFIED="1581919797889" TEXT="Case of De Montebello">
+<node CREATED="1581918940039" FOLDED="true" ID="ID_1234805930" MODIFIED="1581919797889" TEXT="Case of De Montebello">
 <node CREATED="1581918922911" ID="ID_1631611031" MODIFIED="1581918929592" TEXT="More interesting to see people"/>
 <node CREATED="1581918930443" ID="ID_1095419070" MODIFIED="1581918936426" TEXT="... before succeeding with ultralearning"/>
 <node CREATED="1581918937157" ID="ID_1279144909" MODIFIED="1581918939070" TEXT="... than after"/>
@@ -402,7 +402,7 @@
 <node CREATED="1581918957158" ID="ID_1670503497" MODIFIED="1591882780302" TEXT="Becoming an Ultralearner ">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
-<node CREATED="1581918966613" ID="ID_1642051573" MODIFIED="1581918968550" TEXT="Metaskill">
+<node CREATED="1581918966613" ID="ID_1642051573" MODIFIED="1581918968550" TEXT="Metaskill"/>
 <node CREATED="1581918968788" ID="ID_1864142483" MODIFIED="1581918973243" TEXT="Involve many other skills"/>
 <node CREATED="1581918978335" ID="ID_247977678" MODIFIED="1581918991425" TEXT="Examples">
 <icon BUILTIN="wizard"/>
@@ -410,7 +410,6 @@
 <node CREATED="1581918995686" ID="ID_637313900" MODIFIED="1581918998358" TEXT="Storytelling"/>
 <node CREATED="1581918999138" ID="ID_1986439527" MODIFIED="1581919001240" TEXT="Creativity"/>
 <node CREATED="1581919001948" ID="ID_847424492" MODIFIED="1581919005879" TEXT="Selling skills"/>
-</node>
 </node>
 </node>
 <node CREATED="1581919017828" FOLDED="true" ID="ID_413546789" MODIFIED="1591882783506" TEXT="First Steps of a Fledgling Ultralearner ">
@@ -440,10 +439,10 @@
 <node CREATED="1581919141949" FOLDED="true" ID="ID_1164524986" MODIFIED="1591882799850" TEXT="Principles of Becoming an Ultralearner ">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-4"/>
-<node CREATED="1581919152558" ID="ID_1130857336" MODIFIED="1581919157071" TEXT="Every project is unique">
+<node CREATED="1581919152558" FOLDED="true" ID="ID_1130857336" MODIFIED="1581919157071" TEXT="Every project is unique">
 <node CREATED="1581919159236" ID="ID_1252251070" MODIFIED="1581919165172" TEXT="Every method to achieve it too"/>
 </node>
-<node CREATED="1581919167511" ID="ID_1228421520" MODIFIED="1581919173018" TEXT="Principles can guide solving problems">
+<node CREATED="1581919167511" FOLDED="true" ID="ID_1228421520" MODIFIED="1581919173018" TEXT="Principles can guide solving problems">
 <node CREATED="1581919192327" ID="ID_886715677" MODIFIED="1581919198748" TEXT="They make sense of the world"/>
 <node CREATED="1581919199462" ID="ID_1381085244" MODIFIED="1581919209892" TEXT="Don&apos;t always articulate exactly"/>
 <node CREATED="1581919210918" ID="ID_1339486954" MODIFIED="1581919217679" TEXT="... how to solve a specific challenge"/>
@@ -523,7 +522,7 @@
 <node CREATED="1581919747538" ID="ID_953243003" MODIFIED="1581919753888" TEXT="Go where nobody went before!"/>
 </node>
 </node>
-<node CREATED="1581919767589" ID="ID_1833236799" MODIFIED="1581919772743" TEXT="Recognizing a general working principle">
+<node CREATED="1581919767589" FOLDED="true" ID="ID_1833236799" MODIFIED="1581919772743" TEXT="Recognizing a general working principle">
 <node CREATED="1581919773085" ID="ID_1432493137" MODIFIED="1581919776805" TEXT="Many people do it"/>
 <node CREATED="1581919777464" ID="ID_1371727048" MODIFIED="1581919786634" TEXT="Is there any study supporting it?"/>
 </node>
@@ -2243,7 +2242,7 @@
 <node CREATED="1591884080561" MODIFIED="1591884080561" TEXT="Application 3: For Expanding Your Intuition"/>
 </node>
 </node>
-<node CREATED="1581413569510" ID="ID_587242765" MODIFIED="1585474825116" POSITION="left" TEXT="Principle 9 - Experimentation: Explore Outside Your Comfort Zone">
+<node CREATED="1581413569510" FOLDED="true" ID="ID_587242765" MODIFIED="1585474825116" POSITION="left" TEXT="Principle 9 - Experimentation: Explore Outside Your Comfort Zone">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1583235182165" FOLDED="true" ID="ID_442346765" MODIFIED="1591884104592" TEXT="How van Gogh Learned to Paint ">
