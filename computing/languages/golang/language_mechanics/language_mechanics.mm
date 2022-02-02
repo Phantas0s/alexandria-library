@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1586077556509" ID="ID_80997837" MODIFIED="1610010532178" TEXT="Language Mechanics">
+<node CREATED="1586077556509" ID="ID_80997837" MODIFIED="1643552411255" TEXT="Language Mechanics">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -96,7 +96,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1586077839958" ID="ID_559786914" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-stacks-and-pointers.html" MODIFIED="1586705643958" POSITION="right" TEXT="Language Mechanics On Stacks And Pointers">
+<node CREATED="1586077839958" FOLDED="true" ID="ID_559786914" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-stacks-and-pointers.html" MODIFIED="1586705643958" POSITION="right" TEXT="Language Mechanics On Stacks And Pointers">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1586078038615" ID="ID_1763978390" MODIFIED="1586078039194" TEXT="Introduction"/>
@@ -118,7 +118,7 @@
 <node CREATED="1586078215537" ID="ID_175491322" MODIFIED="1586078219499" TEXT="copied"/>
 </node>
 </node>
-<node CREATED="1586078268926" FOLDED="true" ID="ID_585871128" MODIFIED="1586079359945" TEXT="Small program">
+<node CREATED="1586078268926" ID="ID_585871128" MODIFIED="1586079359945" TEXT="Small program">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -179,11 +179,11 @@
 <node CREATED="1586078876279" ID="ID_995255939" MODIFIED="1586078885385" TEXT="Each value has an address in memory"/>
 <node CREATED="1586078904156" ID="ID_1159437809" MODIFIED="1586078911212" TEXT="Use ampersand &amp; operator to get addess"/>
 </node>
-<node CREATED="1586078934312" ID="ID_213372124" MODIFIED="1586078937893" TEXT="Function calls">
+<node CREATED="1586078934312" FOLDED="true" ID="ID_213372124" MODIFIED="1586078937893" TEXT="Function calls">
 <node CREATED="1586078957504" ID="ID_1591819814" MODIFIED="1586078963716" TEXT="goroutine needs to frame"/>
 <node CREATED="1586078964400" ID="ID_558797654" MODIFIED="1586078968194" TEXT="... new section of memory"/>
 <node CREATED="1586078969092" ID="ID_97152307" MODIFIED="1586078973047" TEXT="... on the stack"/>
-<node CREATED="1586079000927" FOLDED="true" ID="ID_1242656903" MODIFIED="1586079004597" TEXT="Frame transition">
+<node CREATED="1586079000927" ID="ID_1242656903" MODIFIED="1586079004597" TEXT="Frame transition">
 <node CREATED="1586079004803" ID="ID_702270384" MODIFIED="1586079009901" TEXT="Every value copied to new frame"/>
 <node CREATED="1586079010385" FOLDED="true" ID="ID_973954403" LINK="#ID_585871128" MODIFIED="1586705563441" TEXT="State of memory">
 <icon BUILTIN="licq"/>
@@ -200,7 +200,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586079248301" FOLDED="true" ID="ID_90427287" MODIFIED="1586079250714" TEXT="Function return">
+<node CREATED="1586079248301" ID="ID_90427287" MODIFIED="1586079250714" TEXT="Function return">
 <node CREATED="1586079257467" ID="ID_1393232546" MODIFIED="1586079265448" TEXT="When function return"/>
 <node CREATED="1586079266220" ID="ID_844756406" MODIFIED="1586079272059" TEXT="... and control goes back to calling function"/>
 <node CREATED="1586079338450" ID="ID_189039196" LINK="#ID_585871128" MODIFIED="1586705588480" TEXT="State of memory">
@@ -216,7 +216,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1586079377379" ID="ID_702769160" MODIFIED="1586079381712" TEXT="Nothing is wiped clean">
+<node CREATED="1586079377379" FOLDED="true" ID="ID_702769160" MODIFIED="1586079381712" TEXT="Nothing is wiped clean">
 <node CREATED="1586079381886" ID="ID_795674890" MODIFIED="1586079388719" TEXT="Memory of called function considered invalid"/>
 <node CREATED="1586079406404" ID="ID_1708081213" MODIFIED="1586079524164" TEXT="Why frames not clean?">
 <node CREATED="1586079410286" ID="ID_1150442872" MODIFIED="1586079530236" TEXT="Useless to do it when exiting function"/>
@@ -229,16 +229,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1586079544734" ID="ID_1292289448" MODIFIED="1586079545647" TEXT="Sharing Values">
+<node CREATED="1586079544734" FOLDED="true" ID="ID_1292289448" MODIFIED="1586079545647" TEXT="Sharing Values">
 <node CREATED="1586087463744" ID="ID_595884146" MODIFIED="1610010756876" TEXT="Purpose of pointer">
 <node CREATED="1586087471664" ID="ID_452378424" MODIFIED="1586087476017" TEXT="Share a value with a function"/>
 <node CREATED="1586087476598" ID="ID_1344777068" MODIFIED="1586087485064" TEXT="... even if value is not in function&apos;s frame"/>
 </node>
-<node CREATED="1586087496022" ID="ID_1369695062" MODIFIED="1586087499460" TEXT="If you don&apos;t need to share">
+<node CREATED="1586087496022" FOLDED="true" ID="ID_1369695062" MODIFIED="1586087499460" TEXT="If you don&apos;t need to share">
 <node CREATED="1586087503274" ID="ID_966398724" MODIFIED="1586087506000" TEXT="don&apos;t use a pointer"/>
 </node>
 </node>
-<node CREATED="1586087594056" FOLDED="true" ID="ID_821979980" LINK="https://golang.org/ref/spec#PointerType" MODIFIED="1586087768207" TEXT="Pointer Types">
+<node CREATED="1586087594056" ID="ID_821979980" LINK="https://golang.org/ref/spec#PointerType" MODIFIED="1586087768207" TEXT="Pointer Types">
 <node CREATED="1586087610630" ID="ID_409085627" MODIFIED="1586087612924" TEXT="For every type"/>
 <node CREATED="1586087613624" ID="ID_121668169" MODIFIED="1586087618241" TEXT="... exists a complement pointer type"/>
 <node CREATED="1586087618585" ID="ID_1574478282" MODIFIED="1586087628544" TEXT="Example">
@@ -363,7 +363,7 @@
 <node CREATED="1586088234496" ID="ID_725464489" MODIFIED="1586088236031" TEXT="Hold a value"/>
 </node>
 </node>
-<node CREATED="1586077858673" FOLDED="true" ID="ID_378544821" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html" MODIFIED="1586706057505" POSITION="right" TEXT="Language Mechanics On Escape Analysis">
+<node CREATED="1586077858673" ID="ID_378544821" LINK="https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html" MODIFIED="1586706057505" POSITION="right" TEXT="Language Mechanics On Escape Analysis">
 <icon BUILTIN="full-2"/>
 <node CREATED="1586088277741" FOLDED="true" ID="ID_378668439" MODIFIED="1586705677410" TEXT="Introduction">
 <node CREATED="1586088309613" ID="ID_115861512" MODIFIED="1586088314216" TEXT="How to share a value up the stack?"/>
@@ -385,12 +385,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1586088478254" ID="ID_1305826482" MODIFIED="1586705681276" TEXT="Heap">
+<node CREATED="1586088478254" FOLDED="true" ID="ID_1305826482" MODIFIED="1586705681276" TEXT="Heap">
 <node CREATED="1586088480477" ID="ID_64198335" MODIFIED="1586088496624" TEXT="Second area of memory to store values">
 <node CREATED="1586088486651" ID="ID_589065479" MODIFIED="1586088490640" TEXT="in addition to the stack"/>
 </node>
 <node CREATED="1586088503353" ID="ID_859490899" MODIFIED="1586088539516" TEXT="No self cleaning">
-<node CREATED="1586088506479" ID="ID_1634517305" MODIFIED="1586088509655" TEXT="bigger cost to use it">
+<node CREATED="1586088506479" ID="ID_1634517305" MODIFIED="1643552554755" TEXT="Bigger cost to use it">
 <node CREATED="1586088545716" ID="ID_1083166040" MODIFIED="1586088552420" TEXT="25% of CPU capacity"/>
 <node CREATED="1586088657929" ID="ID_1949566546" MODIFIED="1586088664141" TEXT="microsecond of &quot;stop the world&quot; latency"/>
 </node>
@@ -412,7 +412,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586088773647" ID="ID_1056447015" MODIFIED="1586088777906" TEXT="Sharing Stacks">
+<node CREATED="1586088773647" FOLDED="true" ID="ID_1056447015" MODIFIED="1586088777906" TEXT="Sharing Stacks">
 <node CREATED="1586088786414" ID="ID_503107432" MODIFIED="1586088799837" TEXT="For go, no pointer can point to another goroutine stack"/>
 <node CREATED="1586088818150" ID="ID_874806226" MODIFIED="1586088825482" TEXT="... it would be too much to manage">
 <node CREATED="1586088825808" ID="ID_1492835852" MODIFIED="1586088834300" TEXT="&quot;stop the world latency&quot; would be overwhelming"/>
@@ -423,7 +423,7 @@
 <node CREATED="1586088944598" ID="ID_1424997167" MODIFIED="1586088952094" TEXT="... make it difficult to reference to different stacks"/>
 </node>
 </node>
-<node CREATED="1586088957960" ID="ID_520446247" MODIFIED="1586088962046" TEXT="Escape Mechanics">
+<node CREATED="1586088957960" FOLDED="true" ID="ID_520446247" MODIFIED="1586088962046" TEXT="Escape Mechanics">
 <node CREATED="1586089284402" ID="ID_1262719607" MODIFIED="1586089301088" TEXT="Anytime a value is shared outside scope of function&apos;s stack frame"/>
 <node CREATED="1586089301668" ID="ID_1342963408" MODIFIED="1586089306410" TEXT="... will be allocated on the heap"/>
 <node CREATED="1586089418376" ID="ID_1977212358" LINK="https://play.golang.org/p/Y_VZxYteKO" MODIFIED="1589629946168" TEXT="Small program">
@@ -471,7 +471,7 @@
 </html></richcontent>
 <node CREATED="1586089451729" ID="ID_1462240614" MODIFIED="1586089456522" TEXT="createUserV1()">
 <node CREATED="1586089456728" ID="ID_119062172" MODIFIED="1586089461237" TEXT="Return value semantic of User"/>
-<node CREATED="1586089487199" FOLDED="true" ID="ID_1664537236" MODIFIED="1586705742138" TEXT="Memory state">
+<node CREATED="1586089487199" ID="ID_1664537236" MODIFIED="1586705742138" TEXT="Memory state">
 <icon BUILTIN="licq"/>
 <node CREATED="1586089515882" ID="ID_113431596" MODIFIED="1586089730038">
 <richcontent TYPE="NODE"><html>
@@ -631,13 +631,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1586077888975" FOLDED="true" ID="ID_84797629" LINK="https://www.ardanlabs.com/blog/2017/06/language-mechanics-on-memory-profiling.html" MODIFIED="1586706146954" POSITION="right" TEXT="Language Mechanics On Memory Profiling">
+<node CREATED="1586077888975" ID="ID_84797629" LINK="https://www.ardanlabs.com/blog/2017/06/language-mechanics-on-memory-profiling.html" MODIFIED="1586706146954" POSITION="right" TEXT="Language Mechanics On Memory Profiling">
 <icon BUILTIN="full-3"/>
-<node CREATED="1586091072777" ID="ID_1278340142" MODIFIED="1586091077267" TEXT="Introduction">
+<node CREATED="1586091072777" FOLDED="true" ID="ID_1278340142" MODIFIED="1586091077267" TEXT="Introduction">
 <node CREATED="1586091351673" ID="ID_1146657653" MODIFIED="1586091364906" TEXT="Other scenarios "/>
 <node CREATED="1586091365549" ID="ID_425915681" MODIFIED="1586091366830" TEXT="... that can cause values to escape"/>
 </node>
-<node CREATED="1586091375898" ID="ID_134729672" MODIFIED="1586091381698" TEXT="The Program">
+<node CREATED="1586091375898" FOLDED="true" ID="ID_134729672" MODIFIED="1586091381698" TEXT="The Program">
 <node CREATED="1586091430747" ID="ID_1843048188" LINK="https://play.golang.org/p/n_SzF4Cer4" MODIFIED="1586091489571" TEXT="Capitalize word elvis in a string">
 <node CREATED="1586091535566" ID="ID_1307140796" LINK="https://play.golang.org/p/TnXrxJVfLV" MODIFIED="1586091548721" TEXT="benchmarking"/>
 </node>
@@ -701,7 +701,7 @@
 <node CREATED="1586091520676" ID="ID_66034470" MODIFIED="1586091528052" TEXT="How well function performs?"/>
 <node CREATED="1586091528416" ID="ID_1044506689" MODIFIED="1586091532223" TEXT="How much pressure on the heap?"/>
 </node>
-<node CREATED="1586091425158" ID="ID_1260397708" MODIFIED="1586091430327" TEXT="Benchmarking">
+<node CREATED="1586091425158" FOLDED="true" ID="ID_1260397708" MODIFIED="1586091430327" TEXT="Benchmarking">
 <node CREATED="1586091560858" ID="ID_1686912064" MODIFIED="1589630294610" TEXT="Benchmark function">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -740,7 +740,7 @@
 <node CREATED="1586091615786" ID="ID_172032462" MODIFIED="1586091621529" TEXT="... what line of code cause the 2 allocs?"/>
 <node CREATED="1586091629629" ID="ID_1518212757" MODIFIED="1586091637129" TEXT="... need to do profiling"/>
 </node>
-<node CREATED="1586091626961" ID="ID_737898005" MODIFIED="1586091639906" TEXT="Profiling">
+<node CREATED="1586091626961" FOLDED="true" ID="ID_737898005" MODIFIED="1586091639906" TEXT="Profiling">
 <node CREATED="1586091710078" ID="ID_1378974902" MODIFIED="1586091715334" TEXT="Using memprofile switch"/>
 <node CREATED="1586091715556" ID="ID_912321218" MODIFIED="1589630306113" TEXT="go test -run none -bench AlgorithmOne -benchtime 3s -benchmem -memprofile mem.out">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -858,7 +858,7 @@ ROUTINE ======================== .../memcpu.algOne in code/go/src/.../memcpu/str
 </node>
 </node>
 </node>
-<node CREATED="1586092324394" ID="ID_1132535508" MODIFIED="1586092327098" TEXT="Compiler reporting">
+<node CREATED="1586092324394" FOLDED="true" ID="ID_1132535508" MODIFIED="1586092327098" TEXT="Compiler reporting">
 <node CREATED="1586092335671" ID="ID_823788906" MODIFIED="1589630257741" TEXT="go build -gcflags &quot;-m -m&quot;">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1586092339850" ID="ID_1706161464" MODIFIED="1586092342608" TEXT="Lots of output"/>
@@ -948,7 +948,7 @@ ROUTINE ======================== .../memcpu.algOne in code/go/src/.../memcpu/str
 </node>
 </node>
 </node>
-<node CREATED="1586092568741" ID="ID_209377588" MODIFIED="1586092570740" TEXT="Interfaces">
+<node CREATED="1586092568741" FOLDED="true" ID="ID_209377588" MODIFIED="1586092570740" TEXT="Interfaces">
 <node CREATED="1586092594760" ID="ID_217611871" LINK="#ID_883040332" MODIFIED="1586092673153" TEXT="io.ReadFull accept value through interface type">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1095,7 +1095,7 @@ ROUTINE ======================== .../memcpu.BenchmarkAlgorithmOne in code/go/src
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1586092968096" ID="ID_907024900" MODIFIED="1586092970123" TEXT="Stack Frames">
+<node CREATED="1586092968096" FOLDED="true" ID="ID_907024900" MODIFIED="1586092970123" TEXT="Stack Frames">
 <node CREATED="1586092981955" ID="ID_132783445" MODIFIED="1586092982997" TEXT="go build -gcflags &quot;-m -m&quot;">
 <node CREATED="1586092983451" ID="ID_85359662" MODIFIED="1586092995775" TEXT="result">
 <richcontent TYPE="NOTE"><html>
@@ -1122,7 +1122,7 @@ ROUTINE ======================== .../memcpu.BenchmarkAlgorithmOne in code/go/src
 <node CREATED="1586093338578" ID="ID_896915173" MODIFIED="1586093343303" TEXT="Can&apos;t hardcode the size of the slice!"/>
 </node>
 </node>
-<node CREATED="1586093349891" ID="ID_592078937" MODIFIED="1586093350644" TEXT="Allocations and Performance">
+<node CREATED="1586093349891" FOLDED="true" ID="ID_592078937" MODIFIED="1586093350644" TEXT="Allocations and Performance">
 <node CREATED="1586093351078" ID="ID_199895323" MODIFIED="1586093408557" TEXT="Comparison of performance at each refactoring">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1407,7 +1407,7 @@ func (t *Time) UnmarshalText(data []byte) error {</code></pre>
 </node>
 </node>
 </node>
-<node CREATED="1586603856787" FOLDED="true" ID="ID_315979408" LINK="https://www.ardanlabs.com/blog/2017/07/interface-semantics.html" MODIFIED="1586706567131" POSITION="left" TEXT="Interface Semantics">
+<node CREATED="1586603856787" FOLDED="true" ID="ID_315979408" LINK="https://www.ardanlabs.com/blog/2017/07/interface-semantics.html" MODIFIED="1586706567131" POSITION="right" TEXT="Interface Semantics">
 <icon BUILTIN="full-5"/>
 <node CREATED="1586604014584" ID="ID_371346649" MODIFIED="1586604015308" TEXT="Introduction">
 <node CREATED="1586604021800" FOLDED="true" ID="ID_1601779590" MODIFIED="1586604025350" TEXT="Interface provides">
