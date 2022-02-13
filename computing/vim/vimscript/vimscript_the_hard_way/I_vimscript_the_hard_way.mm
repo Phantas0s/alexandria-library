@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1643693616849" TEXT="Vimscript the Hard Way">
+<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1644755857871" TEXT="Vimscript the Hard Way">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2391,11 +2391,11 @@
 <node CREATED="1588250960317" FOLDED="true" ID="ID_1419026672" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/43.html" MODIFIED="1588250981142" POSITION="left" TEXT="A New Hope: Plugin Layout with Pathogen">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-3"/>
-<node CREATED="1588250985993" FOLDED="true" ID="ID_1612454450" MODIFIED="1588250991650" TEXT="43.1 Runtimepath">
+<node CREATED="1588250985993" ID="ID_1612454450" MODIFIED="1588250991650" TEXT="43.1 Runtimepath">
 <node CREATED="1588251001054" ID="ID_686829441" MODIFIED="1588251007004" TEXT="Paths where to find files"/>
 <node CREATED="1588251007415" ID="ID_34250851" MODIFIED="1588251017171" TEXT="... pretty much line linux PATH env var"/>
 </node>
-<node CREATED="1588251026441" FOLDED="true" ID="ID_137671230" MODIFIED="1588251030436" TEXT="43.2 Pathogen">
+<node CREATED="1588251026441" ID="ID_137671230" MODIFIED="1588251030436" TEXT="43.2 Pathogen">
 <node CREATED="1588251063483" ID="ID_1960694511" MODIFIED="1588251075582" TEXT="Automatically add paths to your runtimepath"/>
 <node CREATED="1588251081169" ID="ID_57146485" MODIFIED="1588251085351" TEXT="For vim-plug">
 <node CREATED="1588251085628" ID="ID_1753343573" MODIFIED="1588251106515" TEXT="in ~/.vim/plugged"/>
@@ -2421,15 +2421,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1588328758035" FOLDED="true" ID="ID_986946968" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/45.html" MODIFIED="1588328762545" POSITION="left" TEXT="Basic Syntax Highlighting">
+<node CREATED="1588328758035" ID="ID_986946968" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/45.html" MODIFIED="1588328762545" POSITION="left" TEXT="Basic Syntax Highlighting">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-5"/>
-<node CREATED="1588328830750" FOLDED="true" ID="ID_892432673" MODIFIED="1588328833475" TEXT="Introduction">
+<node CREATED="1588328830750" ID="ID_892432673" MODIFIED="1588328833475" TEXT="Introduction">
 <node CREATED="1588328833649" ID="ID_1541540867" MODIFIED="1588328837818" TEXT="b:current_syntax">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1588329234087" FOLDED="true" ID="ID_1792924049" MODIFIED="1588333073799" TEXT="45.1 Highlighting Keywords">
+<node CREATED="1588329234087" ID="ID_1792924049" MODIFIED="1588333073799" TEXT="45.1 Highlighting Keywords">
 <node CREATED="1588330796415" ID="ID_1332062946" MODIFIED="1588330798179" TEXT="syntax keyword">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1588330804184" ID="ID_322345383" MODIFIED="1588330807777" TEXT="Define &quot;chunk&quot;"/>
@@ -2463,19 +2463,16 @@
 <node CREATED="1588332951476" FOLDED="true" ID="ID_1623637519" MODIFIED="1588333077341" TEXT="45.2 Highlighting Functions">
 <node CREATED="1588333056973" ID="ID_711677029" MODIFIED="1588333062891" TEXT="Same spirit than keywords"/>
 </node>
-<node CREATED="1588333063690" FOLDED="true" ID="ID_1756209212" MODIFIED="1588333082643" TEXT="45.3 Exercises">
+<node CREATED="1588333063690" ID="ID_1756209212" MODIFIED="1588333082643" TEXT="45.3 Exercises">
 <node CREATED="1588333176748" ID="ID_880095460" MODIFIED="1588333178709" TEXT=":help syn-keyword">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1588333290644" ID="ID_719530242" MODIFIED="1588333292086" TEXT=":help group-name">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1588333295838" ID="ID_637765869" MODIFIED="1588333298079" TEXT=":help syn-keyword">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-</node>
-<node CREATED="1588333311940" FOLDED="true" ID="ID_1852267354" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/46.html" MODIFIED="1588333325432" POSITION="left" TEXT="Advanced Syntax Highlighting">
+<node CREATED="1588333311940" ID="ID_1852267354" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/46.html" MODIFIED="1588333325432" POSITION="left" TEXT="Advanced Syntax Highlighting">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-6"/>
 <node CREATED="1588333564403" FOLDED="true" ID="ID_650971740" MODIFIED="1588333572697" TEXT="46.1 Highlighting Comments">

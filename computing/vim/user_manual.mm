@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1643780159846" TEXT="Vim User Manual">
+<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1644558217049" TEXT="Vim User Manual">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -503,19 +503,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1615127251784" FOLDED="true" ID="ID_622066094" MODIFIED="1615127330638" TEXT="Using syntax highlighting">
+<node CREATED="1615127251784" ID="ID_622066094" MODIFIED="1615127330638" TEXT="Using syntax highlighting">
 <icon BUILTIN="full-6"/>
-<node CREATED="1617979341370" FOLDED="true" ID="ID_461769862" MODIFIED="1617979345213" TEXT="Switching it on">
+<node CREATED="1617979341370" ID="ID_461769862" MODIFIED="1617979345213" TEXT="Switching it on">
 <icon BUILTIN="full-1"/>
 <node CREATED="1617979346026" ID="ID_874726976" MODIFIED="1617979353137" TEXT=":syntax enable">
 <font ITALIC="true" NAME="Open Sans" SIZE="13"/>
 </node>
 </node>
-<node CREATED="1617979381345" FOLDED="true" ID="ID_1599155424" MODIFIED="1617979386229" TEXT="No or wrong colors?">
+<node CREATED="1617979381345" ID="ID_1599155424" MODIFIED="1617979386229" TEXT="No or wrong colors?">
 <icon BUILTIN="full-2"/>
 <node CREATED="1617979406727" ID="ID_1537270060" MODIFIED="1617979411095" TEXT="Troubleshooting terminal?"/>
 </node>
-<node CREATED="1617979412313" FOLDED="true" ID="ID_553702436" MODIFIED="1617979415431" TEXT="Different colors">
+<node CREATED="1617979412313" ID="ID_553702436" MODIFIED="1617979415431" TEXT="Different colors">
 <icon BUILTIN="full-3"/>
 <node CREATED="1617979486291" ID="ID_1099593292" MODIFIED="1617979492460" TEXT=":colorscheme evening"/>
 <node CREATED="1617979560135" ID="ID_1970375580" MODIFIED="1617979562227" TEXT="Write your own">
@@ -525,13 +525,27 @@
 </node>
 </node>
 <node CREATED="1617979645479" ID="ID_510951731" MODIFIED="1617979649691" TEXT="Edit the colorscheme">
-<node CREATED="1617979650608" ID="ID_1197036267" MODIFIED="1617979650608" TEXT="term                attributes in a B&amp;W terminal"/>
-<node CREATED="1617979650609" ID="ID_416977167" MODIFIED="1617979650609" TEXT="cterm                attributes in a color terminal"/>
-<node CREATED="1617979650609" ID="ID_1921418322" MODIFIED="1617979650609" TEXT="ctermfg                foreground color in a color terminal"/>
-<node CREATED="1617979650610" ID="ID_615204516" MODIFIED="1617979650610" TEXT="ctermbg                background color in a color terminal"/>
-<node CREATED="1617979650610" ID="ID_1184314928" MODIFIED="1617979650610" TEXT="gui                attributes in the GUI"/>
-<node CREATED="1617979650611" ID="ID_829117360" MODIFIED="1617979650611" TEXT="guifg                foreground color in the GUI"/>
-<node CREATED="1617979650611" ID="ID_996441797" MODIFIED="1617979650611" TEXT="guibg                background color in the GUI"/>
+<node CREATED="1617979650608" ID="ID_1197036267" MODIFIED="1644558298339" TEXT="term">
+<node CREATED="1644558289564" ID="ID_307447134" MODIFIED="1644558374396" TEXT="attributes in a B&amp;W terminal"/>
+</node>
+<node CREATED="1617979650609" ID="ID_416977167" MODIFIED="1644558310250" TEXT="cterm">
+<node CREATED="1644558303366" ID="ID_278238143" MODIFIED="1644558303366" TEXT="attributes in a color terminal"/>
+</node>
+<node CREATED="1617979650609" ID="ID_1921418322" MODIFIED="1644558319994" TEXT="ctermfg">
+<node CREATED="1644558320558" MODIFIED="1644558320558" TEXT="foreground color in a color terminal"/>
+</node>
+<node CREATED="1617979650610" ID="ID_615204516" MODIFIED="1644558328401" TEXT="ctermbg">
+<node CREATED="1644558328917" MODIFIED="1644558328917" TEXT="background color in a color terminal"/>
+</node>
+<node CREATED="1617979650610" ID="ID_1184314928" MODIFIED="1644558337676" TEXT="gui">
+<node CREATED="1644558339190" MODIFIED="1644558339190" TEXT="attributes in the GUI"/>
+</node>
+<node CREATED="1617979650611" ID="ID_829117360" MODIFIED="1644558346474" TEXT="guifg">
+<node CREATED="1644558346945" MODIFIED="1644558346945" TEXT="foreground color in the GUI"/>
+</node>
+<node CREATED="1617979650611" ID="ID_996441797" MODIFIED="1644558355889" TEXT="guibg">
+<node CREATED="1644558356782" MODIFIED="1644558356782" TEXT="background color in the GUI"/>
+</node>
 <node CREATED="1617979664622" ID="ID_1113917188" MODIFIED="1617979671214" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1617979665935" ID="ID_712505172" MODIFIED="1617979667691" TEXT="Comment green"/>
@@ -547,7 +561,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1617979778288" FOLDED="true" ID="ID_446721542" MODIFIED="1617979783749" TEXT="With colors or without colors">
+<node CREATED="1617979778288" ID="ID_446721542" MODIFIED="1617979783749" TEXT="With colors or without colors">
 <icon BUILTIN="full-4"/>
 <node CREATED="1617979798869" ID="ID_403057622" MODIFIED="1617979824594" TEXT="Stop syntax highlighting  for file">
 <node CREATED="1617979812677" ID="ID_1905915538" MODIFIED="1617979815855" TEXT=":syntax clear">
@@ -571,7 +585,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1617979876940" FOLDED="true" ID="ID_1405086476" MODIFIED="1617979883531" TEXT="Printing with colors">
+<node CREATED="1617979876940" ID="ID_1405086476" MODIFIED="1617979883531" TEXT="Printing with colors">
 <icon BUILTIN="full-5"/>
 <node CREATED="1617979946180" ID="ID_1367584062" MODIFIED="1617979950696" TEXT="Printing from Vim???"/>
 <node CREATED="1617979951156" ID="ID_861401067" MODIFIED="1617979954544" TEXT="Seems not working on Linux..."/>
