@@ -101,6 +101,14 @@
 <node CREATED="1600342706901" ID="ID_806025062" MODIFIED="1600342715502" TEXT="Mind matter if build too use current directory"/>
 </node>
 <node CREATED="1600343116091" ID="ID_783195934" MODIFIED="1600343130027" TEXT="Not automatically set to filetype"/>
+<node CREATED="1645076139313" ID="ID_1790303910" MODIFIED="1645076144635" TEXT="Writing your own compiler">
+<node CREATED="1645076162466" ID="ID_1521804004" MODIFIED="1645076191028" TEXT="CompilerSet makeprg=go build">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1645076192279" ID="ID_437005126" MODIFIED="1645076212516" TEXT="CompilerSet errorformat=">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 <node COLOR="#006699" CREATED="1600328648442" ID="ID_1675431622" MODIFIED="1600330152409" TEXT="ftdetect/">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -152,10 +160,15 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1600343429788" ID="ID_48374059" MODIFIED="1600343433576" TEXT="Resource ftplugin"/>
 </node>
+<node CREATED="1645076467952" ID="ID_1579372304" MODIFIED="1645076469980" TEXT="For compiler">
+<node CREATED="1645076472006" ID="ID_1360172596" MODIFIED="1645076498351" TEXT="nnoremap &lt;buffer&gt; &lt;space&gt; :silent make &lt;bar&gt; redraw!&lt;CR&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 </node>
 <node CREATED="1600328668373" ID="ID_627894071" MODIFIED="1600328737357" TEXT="plugin/">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#338800" CREATED="1600343649308" ID="ID_1985217863" MODIFIED="1600343656420" TEXT=":h ftplugin">
+<node COLOR="#338800" CREATED="1600343649308" ID="ID_1985217863" MODIFIED="1645076739905" TEXT=":h plugin">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1600343609691" ID="ID_1874595170" MODIFIED="1600343641791" TEXT="Defines global plugins automatically loaded when Vim starts"/>

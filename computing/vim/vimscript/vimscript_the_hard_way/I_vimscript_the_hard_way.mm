@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1644755857871" TEXT="Vimscript the Hard Way">
+<node CREATED="1587641851018" ID="ID_210510843" LINK="https://learnvimscriptthehardway.stevelosh.com/" MODIFIED="1645163032879" TEXT="Vimscript the Hard Way">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2421,7 +2421,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588328758035" ID="ID_986946968" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/45.html" MODIFIED="1588328762545" POSITION="left" TEXT="Basic Syntax Highlighting">
+<node CREATED="1588328758035" FOLDED="true" ID="ID_986946968" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/45.html" MODIFIED="1588328762545" POSITION="left" TEXT="Basic Syntax Highlighting">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-5"/>
 <node CREATED="1588328830750" ID="ID_892432673" MODIFIED="1588328833475" TEXT="Introduction">
@@ -2472,7 +2472,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588333311940" ID="ID_1852267354" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/46.html" MODIFIED="1588333325432" POSITION="left" TEXT="Advanced Syntax Highlighting">
+<node CREATED="1588333311940" FOLDED="true" ID="ID_1852267354" LINK="https://learnvimscriptthehardway.stevelosh.com/chapters/46.html" MODIFIED="1588333325432" POSITION="left" TEXT="Advanced Syntax Highlighting">
 <icon BUILTIN="full-4"/>
 <icon BUILTIN="full-6"/>
 <node CREATED="1588333564403" FOLDED="true" ID="ID_650971740" MODIFIED="1588333572697" TEXT="46.1 Highlighting Comments">
