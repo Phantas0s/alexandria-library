@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1615050071886" ID="ID_963020349" MODIFIED="1641226789503" TEXT="Series General System Thinking">
-<node CREATED="1641224953632" ID="ID_865726895" MODIFIED="1641225004296" POSITION="right" TEXT=" Introduction to General System Thinking">
+<node CREATED="1641224953632" FOLDED="true" ID="ID_865726895" MODIFIED="1641225004296" POSITION="right" TEXT=" Introduction to General System Thinking">
 <icon BUILTIN="full-1"/>
 <node CREATED="1621257742869" FOLDED="true" ID="ID_151587739" MODIFIED="1621257793120" TEXT="Preface to silver anniversary edition">
 <node CREATED="1621257796964" ID="ID_316980391" MODIFIED="1624375963171" TEXT="Albert Einstein">
@@ -3396,7 +3396,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1643045700573" ID="ID_1704242830" MODIFIED="1643126807013" TEXT="Chapter 4 - Reasoning about Aggregates">
+<node CREATED="1643045700573" FOLDED="true" ID="ID_1704242830" MODIFIED="1643126807013" TEXT="Chapter 4 - Reasoning about Aggregates">
 <icon BUILTIN="full-4"/>
 <node CREATED="1643126880083" ID="ID_1411010345" MODIFIED="1643126887428" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -3733,7 +3733,7 @@
 <node CREATED="1643648122878" ID="ID_743441393" MODIFIED="1643648152499" TEXT=" Chapter 5 - Modeling Differentiated Aggregates">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-5"/>
-<node CREATED="1644336804890" ID="ID_1681903318" MODIFIED="1644337515703" TEXT="The State Vector">
+<node CREATED="1644336804890" FOLDED="true" ID="ID_1681903318" MODIFIED="1644337515703" TEXT="The State Vector">
 <icon BUILTIN="full-1"/>
 <node CREATED="1644336816218" ID="ID_506781063" MODIFIED="1644336850903" TEXT="Problem is not to find the &quot;true anatomy&quot;"/>
 <node CREATED="1644336851811" ID="ID_1760836785" MODIFIED="1644336869551" TEXT=" ... but level of anatomical analysis"/>
@@ -3777,7 +3777,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1644337517166" ID="ID_162263856" MODIFIED="1644338129213" TEXT="Constructing a system of equation">
+<node CREATED="1644337517166" FOLDED="true" ID="ID_162263856" MODIFIED="1644338129213" TEXT="Constructing a system of equation">
 <icon BUILTIN="full-2"/>
 <node CREATED="1644338182354" ID="ID_615229730" MODIFIED="1644338189591" TEXT="Physist">
 <node CREATED="1644338190651" ID="ID_1082986674" MODIFIED="1644338194302" TEXT="Name his variables"/>
@@ -3843,9 +3843,252 @@
 </node>
 </node>
 </node>
-<node CREATED="1644339144632" ID="ID_363900215" MODIFIED="1644339342513" TEXT="To Solve or Not To Solve?">
+<node CREATED="1644339144632" FOLDED="true" ID="ID_363900215" MODIFIED="1644339342513" TEXT="To Solve or Not To Solve?">
 <icon BUILTIN="full-3"/>
-<node CREATED="1644339353025" ID="ID_735363101" MODIFIED="1644339360299" TEXT="Solving equations might be difficult"/>
+<node CREATED="1644339353025" ID="ID_735363101" MODIFIED="1644339360299" TEXT="Solving equations might be difficult">
+<node CREATED="1644855176007" ID="ID_1106561025" MODIFIED="1644855183097" TEXT="Need to take many factors into account"/>
+<node CREATED="1644855183647" ID="ID_1133053235" MODIFIED="1644855194965" TEXT="Examples">
+<icon BUILTIN="wizard"/>
+<node CREATED="1644855186518" ID="ID_174415992" MODIFIED="1644855187786" TEXT="Splash"/>
+<node CREATED="1644855188647" ID="ID_48093834" MODIFIED="1644855190826" TEXT="Depth"/>
+<node CREATED="1644855192247" ID="ID_487995007" MODIFIED="1644855193059" TEXT="..."/>
+</node>
+</node>
+<node CREATED="1644855457476" ID="ID_1286164872" MODIFIED="1644855463529" TEXT="Many conclusions can be done"/>
+<node CREATED="1644855464027" ID="ID_1753432760" MODIFIED="1644855469233" TEXT="... by looking only at equations">
+<node CREATED="1644855474364" ID="ID_1316701537" MODIFIED="1644855478889" TEXT="Sometimes, solving can be">
+<node CREATED="1644855479180" ID="ID_417805377" MODIFIED="1644855480744" TEXT="too complex"/>
+<node CREATED="1644855481604" ID="ID_199342903" MODIFIED="1644855483143" TEXT=" useless"/>
+</node>
+<node CREATED="1644855485532" ID="ID_324573073" MODIFIED="1644855498248" TEXT=" Knowing how to solve differential equations"/>
+<node CREATED="1644855498979" ID="ID_1895086070" MODIFIED="1644855506881" TEXT=" ... can be a drawback">
+<node CREATED="1644855521492" ID="ID_1267036269" MODIFIED="1644855527000" TEXT="First instinct: need to solve it!"/>
+</node>
+<node CREATED="1644855536604" ID="ID_1709272138" MODIFIED="1644855584141" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1644855540548" ID="ID_1018945024" MODIFIED="1644855552247" TEXT="Trivial system of 3 bathtubs"/>
+<node CREATED="1644855553059" ID="ID_1458148489" MODIFIED="1644855567056" TEXT=" ... become a system of nonlinear"/>
+<node CREATED="1644855567434" ID="ID_1599910598" MODIFIED="1644855582552" TEXT=" ... discontinuous differential equations"/>
+<node CREATED="1644855593051" ID="ID_407715853" MODIFIED="1644855596951" TEXT="No simple ways to solve them"/>
+<node CREATED="1644855604268" ID="ID_1614879365" MODIFIED="1644855612223" TEXT="Might think that nature is made of simple equations"/>
+<node CREATED="1644855612515" ID="ID_1030583950" MODIFIED="1644855616359" TEXT=" ... after a while"/>
+</node>
+</node>
+<node CREATED="1644855628476" ID="ID_332502771" MODIFIED="1644855636696" TEXT="By exposing all the states to build equations"/>
+<node CREATED="1644855636955" ID="ID_333492675" MODIFIED="1644855658926" TEXT=" ... general system thinker tries to build better equations"/>
+<node CREATED="1644855671763" ID="ID_1366174986" MODIFIED="1644855677454" TEXT="... but also when not to">
+<node CREATED="1644855677810" ID="ID_1834413060" MODIFIED="1644855679407" TEXT="build them"/>
+<node CREATED="1644855679706" ID="ID_483227504" MODIFIED="1644855681695" TEXT=" solve them"/>
+</node>
+</node>
+<node CREATED="1644855691499" FOLDED="true" ID="ID_122404296" MODIFIED="1644855702082" TEXT="Renaming Systems">
+<icon BUILTIN="full-4"/>
+<node CREATED="1644855711074" ID="ID_1472223411" MODIFIED="1644855879587" TEXT="We all study bathtubes">
+<icon BUILTIN="licq"/>
+<node CREATED="1644855869209" ID="ID_1518543115" MODIFIED="1644855876256">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="bathtube_abstracted.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1644855884553" ID="ID_1497065503" MODIFIED="1644855901245" TEXT="Might be difficult to transfer method"/>
+<node CREATED="1644855902610" ID="ID_98278464" MODIFIED="1644855909621" TEXT="... because of mental representation of bathtubes"/>
+<node CREATED="1644855937583" ID="ID_1990745060" MODIFIED="1644855948967" TEXT="Separating system and environment">
+<icon BUILTIN="licq"/>
+<node CREATED="1644855949920" ID="ID_1707791166" MODIFIED="1644855985004">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="separating_system_env.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1644855990809" ID="ID_457108946" MODIFIED="1644856007501" TEXT="N=N1+N2+N3"/>
+<node CREATED="1644856011088" ID="ID_681365917" MODIFIED="1644856016821" TEXT="Renaming systems">
+<node CREATED="1644856022904" ID="ID_1595642550" MODIFIED="1644856029421" TEXT="Systems where objects are not moved around"/>
+<node CREATED="1644856029648" ID="ID_889620496" MODIFIED="1644856033972" TEXT=" ... but renamed"/>
+<node CREATED="1644856158600" ID="ID_219565418" MODIFIED="1644856164283" TEXT="Would be difficult to name all rules"/>
+<node CREATED="1644856165015" ID="ID_1334296674" MODIFIED="1644856171652" TEXT=" ... to prove it&apos;s a renaming system"/>
+<node CREATED="1644856178048" ID="ID_566488959" MODIFIED="1644856193556" TEXT="... but possible with little checking"/>
+</node>
+</node>
+<node CREATED="1644856199240" FOLDED="true" ID="ID_504280290" MODIFIED="1644856308551" TEXT="The renaming - conservation law">
+<icon BUILTIN="full-5"/>
+<node CREATED="1644856210168" ID="ID_1638697799" MODIFIED="1644856241675" TEXT="For N1+N2+N3, sum of all N1 remain constant"/>
+<node CREATED="1644856248082" ID="ID_1123769419" MODIFIED="1644856255643" TEXT="Renaming conservation law"/>
+<node CREATED="1644856266511" ID="ID_1161315970" MODIFIED="1644856275603" TEXT="&quot;Every renaming system has an overall conservation law&quot;"/>
+<node CREATED="1644856281679" ID="ID_155844652" MODIFIED="1644856289891" TEXT="When we can&apos;t count elements of our system">
+<node CREATED="1644856290311" ID="ID_720241652" MODIFIED="1644856315923" TEXT="... use difference equations">
+<node CREATED="1644856320855" ID="ID_726527737" MODIFIED="1644856324858" TEXT="Directly about counting"/>
+<node CREATED="1644856325471" ID="ID_1773833005" MODIFIED="1644856358162" TEXT=" Nt+1=Nt+Bt-Dt"/>
+</node>
+<node CREATED="1644856364143" ID="ID_940187520" MODIFIED="1644856370715" TEXT="... instead of higher level of abstraction">
+<node CREATED="1644856371134" ID="ID_233662484" MODIFIED="1644856384323" TEXT=" N&apos;=B-D"/>
+</node>
+<node CREATED="1644856404039" ID="ID_504250892" MODIFIED="1644856418130" TEXT="If members are numerous, we approximate">
+<node CREATED="1644856418566" ID="ID_804367060" MODIFIED="1644856421762" TEXT="called &quot;measuring&quot;"/>
+</node>
+<node CREATED="1644856445278" ID="ID_836202777" MODIFIED="1644856451066" TEXT="Conservation law stand">
+<node CREATED="1644856452022" ID="ID_396579781" MODIFIED="1644856468130" TEXT="Sum of count of subaggregate = count of aggregate"/>
+</node>
+</node>
+</node>
+<node CREATED="1644856499173" FOLDED="true" ID="ID_1386823883" MODIFIED="1644856509373" TEXT="Simulation and Conservation">
+<icon BUILTIN="full-6"/>
+<node CREATED="1644856512869" ID="ID_20522751" MODIFIED="1644856520146" TEXT="Primacy or one to one simulation">
+<node CREATED="1644856634285" ID="ID_285316544" MODIFIED="1644856640000" TEXT="Simulation where one member of aggregate"/>
+<node CREATED="1644856640647" ID="ID_1529008641" MODIFIED="1644856654480" TEXT="... is a memory cell"/>
+</node>
+<node CREATED="1644856660677" ID="ID_1395785489" MODIFIED="1644856663216" TEXT="Fixed simulation">
+<node CREATED="1644856668540" ID="ID_1967490513" MODIFIED="1644856672696" TEXT="Count of members fixed"/>
+<node CREATED="1644856676989" ID="ID_407070182" MODIFIED="1644856681553" TEXT="Best kind for computer program"/>
+</node>
+<node CREATED="1644856690101" ID="ID_739245984" MODIFIED="1644856706000" TEXT="All fixed primary simulations are renaming simulations"/>
+<node CREATED="1644856710571" ID="ID_1715912784" MODIFIED="1644856714329" TEXT="Computer system is a mental model">
+<node CREATED="1644856715389" ID="ID_1860048012" MODIFIED="1644856726805" TEXT="Thinking of computer system"/>
+<node CREATED="1644856727845" ID="ID_271421435" MODIFIED="1644856731023" TEXT="... as a model of model"/>
+<node CREATED="1644856731588" ID="ID_922318652" MODIFIED="1644856789508">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="secondary_simulation.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1644856806076" ID="ID_1232180863" MODIFIED="1644856813855" TEXT="Secondary simulations work with aggregates"/>
+<node CREATED="1644856817011" ID="ID_1604493324" MODIFIED="1644856820231" TEXT="... not with individuals">
+<node CREATED="1644856822763" ID="ID_1359011944" MODIFIED="1644856829608" TEXT="Need only the types or categories"/>
+</node>
+<node CREATED="1644856836588" ID="ID_166998684" MODIFIED="1644856841031" TEXT="If categories are not fixed">
+<node CREATED="1644856844164" ID="ID_1313314865" MODIFIED="1644856850688" TEXT="Ternary simulation can be used">
+<node CREATED="1644856854419" ID="ID_1685149259" MODIFIED="1644856857717" TEXT="Number of categories"/>
+<node CREATED="1644856858499" ID="ID_1045227970" MODIFIED="1644856865207" TEXT="... in specific grouping categories"/>
+</node>
+</node>
+<node CREATED="1644856869403" ID="ID_1359177252" MODIFIED="1644856892559" TEXT="If level repersent of level of resolution of thought"/>
+<node CREATED="1644856878524" ID="ID_1343546697" MODIFIED="1644856895768" TEXT="... about the aggregate"/>
+</node>
+<node CREATED="1644856904665" FOLDED="true" ID="ID_1421504809" MODIFIED="1644857359529" TEXT="Tracers">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-7"/>
+<node CREATED="1644856935851" ID="ID_1806203291" MODIFIED="1644856944526" TEXT="Even in a system which doesn&apos;t obey conservation law"/>
+<node CREATED="1644856945163" ID="ID_1757774104" MODIFIED="1644856976871" TEXT=" ... might be subaggregate of subsidiary interest conserved">
+<node CREATED="1644856987515" ID="ID_1421199840" MODIFIED="1644856998854" TEXT="Reasoning about non conservative systems"/>
+<node CREATED="1644856999403" ID="ID_1482611910" MODIFIED="1644857006991" TEXT=" ... might be easier to focus our POV"/>
+<node CREATED="1644857007443" ID="ID_1145791275" MODIFIED="1644857015287" TEXT=" ... for a time on subaggregates"/>
+<node CREATED="1644857015739" ID="ID_1260171855" MODIFIED="1644857021959" TEXT=" ... that are conserved">
+<node CREATED="1644857022843" ID="ID_958673996" MODIFIED="1644857031591" TEXT="Related in same way to subaggregate"/>
+<node CREATED="1644857032314" ID="ID_1943695237" MODIFIED="1644857034591" TEXT="... that are not"/>
+</node>
+</node>
+<node CREATED="1644857039938" ID="ID_252999482" MODIFIED="1644857048374" TEXT="Conserved aggregates can be called &quot;tracers&quot;">
+<node CREATED="1644857060489" ID="ID_1606456520" MODIFIED="1644857065470" TEXT="Traced by traits conserved"/>
+<node CREATED="1644857065946" ID="ID_626616461" MODIFIED="1644857074694" TEXT="... through variety of migrations"/>
+</node>
+<node CREATED="1644857078073" ID="ID_1623490159" MODIFIED="1644857079302" TEXT="Example">
+<node CREATED="1644857086016" ID="ID_1303256598" MODIFIED="1644857097901" TEXT="Deduce population of fishes in a pound"/>
+<node CREATED="1644857098480" ID="ID_43790162" MODIFIED="1644857108734" TEXT="... by rates of disappearance of foods"/>
+</node>
+<node CREATED="1644857114186" ID="ID_677857698" MODIFIED="1644857129126" TEXT="More there are conserved aggregates in our system"/>
+<node CREATED="1644857129466" ID="ID_317366860" MODIFIED="1644857141901" TEXT=" ... more we can do deductions">
+<node CREATED="1644857142745" ID="ID_69184574" MODIFIED="1644857151318" TEXT="Extra conservation law"/>
+<node CREATED="1644857151553" ID="ID_579200277" MODIFIED="1644857155598" TEXT=" ... allow extra relationships"/>
+<node CREATED="1644857155922" ID="ID_1184091" MODIFIED="1644857161502" TEXT=" ... among elements of system"/>
+</node>
+<node CREATED="1644857165402" ID="ID_911225291" MODIFIED="1644857172045" TEXT="One first generalist question is always">
+<node CREATED="1644857174096" ID="ID_1948969440" MODIFIED="1644857179957" TEXT="&quot;What&apos;s conserved?&quot;"/>
+</node>
+<node CREATED="1644857190513" ID="ID_462970922" MODIFIED="1644857199309" TEXT="Aggregate with different conservation properties">
+<node CREATED="1644857200904" ID="ID_1549512650" MODIFIED="1644857206549" TEXT="Need to be renaming system"/>
+<node CREATED="1644857207376" ID="ID_1831672912" MODIFIED="1644857218739" TEXT="... or have very special kind of program"/>
+<node CREATED="1644857219905" ID="ID_1775522097" MODIFIED="1644857225233" TEXT=" Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1644857226297" ID="ID_731625097" MODIFIED="1644857236029" TEXT="Search of conserved information"/>
+<node CREATED="1644857236247" ID="ID_1525152203" MODIFIED="1644857243229" TEXT=" ... along matter and energy in physics">
+<node CREATED="1644857246505" ID="ID_1288984004" MODIFIED="1644857255725" TEXT="We can&apos;t really pour &quot;information&quot;"/>
+<node CREATED="1644857256257" ID="ID_1028763885" MODIFIED="1644857261949" TEXT=" No conservation law"/>
+</node>
+<node CREATED="1644857281473" ID="ID_1665608719" MODIFIED="1644857290564" TEXT="... except if coupled with very specific programs"/>
+</node>
+</node>
+<node CREATED="1644857296896" ID="ID_239996808" MODIFIED="1644857319125" TEXT="Many aspects of information are conserved">
+<node CREATED="1644857322569" ID="ID_1867898784" MODIFIED="1644857333124" TEXT="Useful tools to study"/>
+<node CREATED="1644857333871" ID="ID_104188600" MODIFIED="1644857342253" TEXT="... systems of information"/>
+<node CREATED="1644857348864" ID="ID_1221862405" MODIFIED="1644857370896" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1644857376728" ID="ID_549641657" MODIFIED="1644857389600" TEXT="Typographical errors might be copied everywhere"/>
+<node CREATED="1644857390584" ID="ID_712675507" MODIFIED="1644857413524" TEXT="Can be used to trace origin of derivative document"/>
+</node>
+<node CREATED="1644857419168" ID="ID_1974799735" MODIFIED="1644857429386" TEXT="Error can be intentional">
+<node CREATED="1644857430064" ID="ID_316714991" MODIFIED="1644857440556" TEXT="... to show that information"/>
+<node CREATED="1644857440909" ID="ID_510034559" MODIFIED="1644857446435" TEXT=" ... will be copied somewhere else"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1644857451176" ID="ID_956834570" MODIFIED="1644857470199" TEXT=" Chapter 6 - Programs for Models of Differentiated Aggregates">
+<icon BUILTIN="full-6"/>
+<node CREATED="1644857697191" ID="ID_690677083" MODIFIED="1644857702863" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1644857614807" ID="ID_693091779" MODIFIED="1644857623867" TEXT="In 19th century">
+<node CREATED="1644857627727" ID="ID_691618116" MODIFIED="1644857638403" TEXT="Many machines were invented"/>
+<node CREATED="1644857639063" ID="ID_1968875981" MODIFIED="1644857642643" TEXT="... with notation to understand"/>
+<node CREATED="1644857643103" ID="ID_701307217" MODIFIED="1644857647891" TEXT="... their inner working"/>
+<node CREATED="1644857652142" ID="ID_1932480791" MODIFIED="1644857657330" TEXT="Today, may are undecipherable"/>
+</node>
+<node CREATED="1644857659799" ID="ID_1097702609" MODIFIED="1644857662530" TEXT="In our century">
+<node CREATED="1644857666758" ID="ID_1487266231" MODIFIED="1644857683426" TEXT="Great notation concept based on computer:"/>
+<node CREATED="1644857673599" ID="ID_889288427" MODIFIED="1644857682105" TEXT=" ... computer programs"/>
+<node CREATED="1644857688767" ID="ID_45459002" MODIFIED="1644857693603" TEXT="Great conceptual tool of our time"/>
+</node>
+</node>
+<node CREATED="1644857703983" ID="ID_592898665" MODIFIED="1644857918184" TEXT="Varieties of Programs">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1644857711150" ID="ID_1980090894" MODIFIED="1644857719907" TEXT="Fundamental system equation">
+<node CREATED="1644857722407" ID="ID_945377543" MODIFIED="1644857734227" TEXT="St+1=f(St,It)"/>
+<node CREATED="1644857739797" ID="ID_1629155258" MODIFIED="1644857749117" TEXT="f stands for program producing next step"/>
+<node CREATED="1644857753527" ID="ID_1104997775" MODIFIED="1644857768338" TEXT="&quot;program&quot; is a more general concept than &quot;equation&quot;">
+<node CREATED="1644857772631" ID="ID_584280157" MODIFIED="1644857775962" TEXT="Two are equivalent"/>
+<node CREATED="1644857776503" ID="ID_1210376727" MODIFIED="1644857780203" TEXT="... in mathematical sense"/>
+</node>
+</node>
+<node CREATED="1644857789806" ID="ID_1663409500" MODIFIED="1644857813259" TEXT="Equations limited to relatively well-behaved math operations">
+<node CREATED="1644857815654" ID="ID_1611698374" MODIFIED="1644857828459" TEXT="&quot;well behaved&quot;"/>
+<node CREATED="1644857829215" ID="ID_741160652" MODIFIED="1644857839347" TEXT="... different from &quot;poorly behaved&quot;"/>
+</node>
+<node CREATED="1644857860543" ID="ID_188326554" MODIFIED="1644857898187" TEXT="Differences between different parts of system"/>
+<node CREATED="1644857882422" ID="ID_1294671517" MODIFIED="1644857891722" TEXT=" ... are easier to model with programs"/>
+<node CREATED="1644857920311" ID="ID_1705771336" MODIFIED="1644857933723" TEXT="Alway fundamental limitations to any simulation">
+<node CREATED="1644857936023" ID="ID_108880598" MODIFIED="1644857978568" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1644857937903" ID="ID_1680383822" MODIFIED="1644857962179" TEXT="Difficult with 1000 different behaviors"/>
+<node CREATED="1644857962815" ID="ID_975336603" MODIFIED="1644857966843" TEXT="... even in a program"/>
+</node>
+<node CREATED="1644858001887" ID="ID_469086849" MODIFIED="1644858012363" TEXT="Cost of working out of the problem itself"/>
+</node>
+<node CREATED="1644858019726" ID="ID_1467430641" MODIFIED="1644858027275" TEXT="In practice, simulation is worth it if it&apos;s cheap">
+<node CREATED="1644858034359" ID="ID_901168462" MODIFIED="1644858046499" TEXT="Where mathematicians can be better"/>
+<node CREATED="1644858047623" ID="ID_476279201" MODIFIED="1644858051339" TEXT="... than programmers sometimes"/>
+<node CREATED="1644858055255" ID="ID_472912368" MODIFIED="1644858065171" TEXT="If system can be modelled with sufficient accuracy"/>
+<node CREATED="1644858065735" ID="ID_539997948" MODIFIED="1644858070923" TEXT="... with set of equations"/>
+</node>
+</node>
+<node CREATED="1644858075718" ID="ID_1544453298" MODIFIED="1644858094052" TEXT="Transitive closures: the diagram of possible effects">
+<icon BUILTIN="full-2"/>
 </node>
 </node>
 </node>
