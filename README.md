@@ -312,10 +312,12 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   │   └── mit_mathematics_for_computer_science
 │   │   │       └── mit_mathematics_for_computer_science.mm
 │   │   ├── 06_computer_networking
-│   │   │   └── computer_networking_top_down_approach
-│   │   │       ├── computer_networking.mm
-│   │   │       └── Wireshark Labs
-│   │   │           └── Kurose_Ross_Wireshark_labs_7th_ed
+│   │   │   ├── computer_networking_top_down_approach
+│   │   │   │   ├── computer_networking.mm
+│   │   │   │   └── Wireshark Labs
+│   │   │   │       └── Kurose_Ross_Wireshark_labs_7th_ed
+│   │   │   └── introduction_to_computer_networking
+│   │   │       └── introduction_to_computer_networking.mm
 │   │   ├── oral_history_john_mc_carthy.mm
 │   │   └── power_abstraction_liskov.mm
 │   ├── database
@@ -480,8 +482,6 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 ├── health
 │   └── _INFOGRAPHICS
 ├── _IN_PROGRESS
-│   ├── introduction_to_computer_networking
-│   │   └── introduction_to_computer_networking.mm
 │   └── magic_trick_of_testing.mm
 ├── languages
 │   ├── Deutsch
