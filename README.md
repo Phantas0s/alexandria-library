@@ -271,7 +271,7 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   ├── how_to_design_good_api.mm
 │   │   ├── REST
 │   │   │   ├── _ANNOTATED
-│   │   │   └── rest.mm
+│   │   │   └── REST.mm
 │   │   └── rest_vs_rpc.mm
 │   ├── architecture
 │   │   ├── building_evolutionary_architecture
