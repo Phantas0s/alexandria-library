@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1645032380886" TEXT="Vim User Manual">
+<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1645515655388" TEXT="Vim User Manual">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3125,11 +3125,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1615127477564" FOLDED="true" ID="ID_1765115359" MODIFIED="1629021507423" TEXT="Write a Vim script">
+<node CREATED="1615127477564" ID="ID_1765115359" MODIFIED="1629021507423" TEXT="Write a Vim script">
 <icon BUILTIN="full-2"/>
 <node COLOR="#ff0000" CREATED="1629478538527" ID="ID_738763593" MODIFIED="1629478543608" TEXT="PASSED">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1645541049092" ID="ID_666033947" MODIFIED="1645541056058" TEXT="Could be interesting for THE BOOK though"/>
 </node>
 <node CREATED="1615127480557" FOLDED="true" ID="ID_1532719597" MODIFIED="1629021509813" TEXT="Add new menus">
 <icon BUILTIN="full-3"/>
