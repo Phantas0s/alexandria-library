@@ -3777,7 +3777,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1644337517166" FOLDED="true" ID="ID_162263856" MODIFIED="1644338129213" TEXT="Constructing a system of equation">
+<node CREATED="1644337517166" ID="ID_162263856" MODIFIED="1644338129213" TEXT="Constructing a system of equation">
 <icon BUILTIN="full-2"/>
 <node CREATED="1644338182354" ID="ID_615229730" MODIFIED="1644338189591" TEXT="Physist">
 <node CREATED="1644338190651" ID="ID_1082986674" MODIFIED="1644338194302" TEXT="Name his variables"/>
@@ -3822,7 +3822,7 @@
 <node CREATED="1644338731608" ID="ID_574862204" MODIFIED="1644338734628" TEXT="... without exceptions"/>
 <node CREATED="1644339044509" ID="ID_1329808970" MODIFIED="1644339045051" TEXT="Example">
 <icon BUILTIN="wizard"/>
-<node CREATED="1644338868779" ID="ID_1848972130" MODIFIED="1644338872059" TEXT="Illustration">
+<node CREATED="1644338868779" ID="ID_1848972130" MODIFIED="1645460129679" TEXT="Illustration">
 <icon BUILTIN="licq"/>
 <node CREATED="1644338873490" ID="ID_682898172" MODIFIED="1644338881005">
 <richcontent TYPE="NODE"><html>
@@ -3893,8 +3893,7 @@
   <body>
     <img src="bathtube_abstracted.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1644855884553" ID="ID_1497065503" MODIFIED="1644855901245" TEXT="Might be difficult to transfer method"/>
@@ -3909,8 +3908,7 @@
   <body>
     <img src="separating_system_env.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1644855990809" ID="ID_457108946" MODIFIED="1644856007501" TEXT="N=N1+N2+N3"/>
@@ -4089,6 +4087,217 @@
 </node>
 <node CREATED="1644858075718" ID="ID_1544453298" MODIFIED="1644858094052" TEXT="Transitive closures: the diagram of possible effects">
 <icon BUILTIN="full-2"/>
+<node CREATED="1645459000130" ID="ID_1932555399" MODIFIED="1645459005079" TEXT="Reasoning with aids of diagrams">
+<node CREATED="1645459018041" ID="ID_45878095" MODIFIED="1645459024939" TEXT="Above verbal reasoning"/>
+<node CREATED="1645459025553" ID="ID_1030346479" MODIFIED="1645459034861" TEXT=" Share many pitfalls with verbal reasoning"/>
+<node CREATED="1645459047458" ID="ID_1089905469" MODIFIED="1645459059061" TEXT="... but offer useful complementary tools"/>
+</node>
+<node CREATED="1645459063183" ID="ID_1064798705" MODIFIED="1645459070348" TEXT="Language system seems based on hearing">
+<node CREATED="1645459072225" ID="ID_1699688342" MODIFIED="1645459074646" TEXT="One dimension"/>
+</node>
+<node CREATED="1645459078031" ID="ID_123562000" MODIFIED="1645459149268" TEXT="Diagram or pictures">
+<node CREATED="1645459081325" ID="ID_473783855" MODIFIED="1645459084188" TEXT="2 dimensions"/>
+</node>
+<node CREATED="1645459181391" ID="ID_507761386" MODIFIED="1645459188715" TEXT="Fallacies in one system often exposed in the other"/>
+<node CREATED="1645459196248" ID="ID_1605665975" MODIFIED="1645459204650" TEXT="Visual reasoning studies only recently">
+<node CREATED="1645459207536" ID="ID_584274360" MODIFIED="1645459216475" TEXT="Mostly as abstract math discipline"/>
+<node CREATED="1645459216918" ID="ID_146346522" MODIFIED="1645459222115" TEXT="... which is graph theory"/>
+<node CREATED="1645459228616" ID="ID_1777859528" MODIFIED="1645459236499" TEXT="What we really need is psychologist work"/>
+</node>
+<node CREATED="1645459240015" ID="ID_1632453449" MODIFIED="1645459246490" TEXT="Transitive closure of a graph">
+<node CREATED="1645459254183" ID="ID_1177133801" MODIFIED="1645459257226" TEXT="Graph theory"/>
+<node CREATED="1645459314622" ID="ID_308964305" MODIFIED="1645459325421" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1645459328814" ID="ID_212279355" MODIFIED="1645459340948">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="transitive_close_graph.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1645459358222" ID="ID_330196958" MODIFIED="1645459364924" TEXT="When no transitive close is possible"/>
+<node CREATED="1645459365329" ID="ID_1855318971" MODIFIED="1645459374095" TEXT=" ... diagram &quot;closed&quot;">
+<icon BUILTIN="licq"/>
+<node CREATED="1645459411510" ID="ID_514458690" MODIFIED="1645459427446">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="transivite_closure.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1645459440871" ID="ID_664678099" MODIFIED="1645459448473" TEXT="If same substance goes">
+<node CREATED="1645459449065" ID="ID_1014012263" MODIFIED="1645459451675" TEXT="From i to j"/>
+<node CREATED="1645459452839" ID="ID_1360544826" MODIFIED="1645459469051" TEXT="and j to k"/>
+<node CREATED="1645459457630" ID="ID_1641654152" MODIFIED="1645459466402" TEXT="... it can go from i to k"/>
+<node CREATED="1645459477894" ID="ID_694220450" MODIFIED="1645459486172" TEXT="Graphical equivalence of functional reduction"/>
+<node CREATED="1645459491257" ID="ID_62095324" MODIFIED="1645459494412" TEXT="k may depends on i"/>
+</node>
+</node>
+<node CREATED="1645459504575" ID="ID_1395954370" MODIFIED="1645459520316" TEXT="Ashby (1956)">
+<node CREATED="1645459522409" ID="ID_1256824655" MODIFIED="1645459528609" TEXT="Called transitive closure"/>
+<node CREATED="1645459545813" ID="ID_1520725656" MODIFIED="1645459558265" TEXT="... by suggesting name &quot;diagram of ultimate effects&quot;"/>
+<node CREATED="1645459561878" ID="ID_830501000" MODIFIED="1645459567426" TEXT="... call attention where lines are missing">
+<node CREATED="1645459569503" ID="ID_1057922958" MODIFIED="1645459589862" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1645459576238" ID="ID_1736044289" LINK="#ID_1855318971" MODIFIED="1645459583575" TEXT="In last illlustration"/>
+<node CREATED="1645459591302" ID="ID_1682544996" MODIFIED="1645459598547" TEXT="k doesn&apos;t affect anything">
+<node CREATED="1645459601287" ID="ID_1497097536" MODIFIED="1645459603001" TEXT="no lines out"/>
+<node CREATED="1645459606725" ID="ID_1568124061" MODIFIED="1645459611329" TEXT="kind of &quot;sink&quot;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1645459641710" ID="ID_647666525" MODIFIED="1645459650339" TEXT="With no convervative aggregate">
+<node CREATED="1645459650655" ID="ID_1122667008" MODIFIED="1645459657473" TEXT="Impossible to reason forward"/>
+<node CREATED="1645459658007" ID="ID_1947978046" MODIFIED="1645459669714" TEXT=" ... or backward through transitive closure">
+<node CREATED="1645459677150" ID="ID_1917141620" MODIFIED="1645459681833" TEXT="Impossible to say if something affect"/>
+<node CREATED="1645459682286" ID="ID_1404843993" MODIFIED="1645459685688" TEXT=" ... or doesn&apos;t affect"/>
+<node CREATED="1645459685919" ID="ID_1941034837" MODIFIED="1645459688538" TEXT=" ... something else"/>
+</node>
+</node>
+</node>
+<node CREATED="1645459700094" ID="ID_423045646" MODIFIED="1645459707412" TEXT=" Structure matrices">
+<icon BUILTIN="full-3"/>
+<node CREATED="1645459713700" ID="ID_1255120162" MODIFIED="1645459716732" TEXT="Graph and analogies">
+<node CREATED="1645459719510" ID="ID_20711090" MODIFIED="1645459723937" TEXT="Suggestive to look at"/>
+<node CREATED="1645459725575" ID="ID_1933376343" MODIFIED="1645459728938" TEXT=" Difficult to manipulate"/>
+</node>
+<node CREATED="1645459733270" ID="ID_689556537" MODIFIED="1645459735578" TEXT="Projections for">
+<node CREATED="1645459735797" ID="ID_389773558" MODIFIED="1645459738664" TEXT="possible effects"/>
+<node CREATED="1645459739015" ID="ID_779045528" MODIFIED="1645459740065" TEXT=" flows"/>
+</node>
+<node CREATED="1645459749911" ID="ID_1740042143" MODIFIED="1645459754680" TEXT=" ... classification forward in time">
+<node CREATED="1645459762958" ID="ID_1553872383" MODIFIED="1645459771706" TEXT="Structured matrices"/>
+</node>
+<node CREATED="1645459775278" ID="ID_708882786" MODIFIED="1645459781602" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1645459782949" ID="ID_891226187" MODIFIED="1645459834135">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="structured_matrix.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1645459858557" ID="ID_737683688" MODIFIED="1645459861552" TEXT="Mcn">
+<node CREATED="1645459862581" ID="ID_633468844" MODIFIED="1645459868466" TEXT="Reas M-sub-c-n"/>
+</node>
+<node CREATED="1645459869173" ID="ID_1136812308" MODIFIED="1645459873656" TEXT="M12">
+<node CREATED="1645459874613" ID="ID_999356295" MODIFIED="1645459895569" TEXT="Reads M-sub-1-2"/>
+</node>
+<node CREATED="1645459883397" ID="ID_110372050" MODIFIED="1645459885008" TEXT="Mij">
+<node CREATED="1645459885413" ID="ID_1125117754" MODIFIED="1645459890395" TEXT="Reads M-sub-i-j"/>
+<node CREATED="1645459898309" ID="ID_612438018" MODIFIED="1645459900016" TEXT="i is row"/>
+<node CREATED="1645459900406" ID="ID_1346379868" MODIFIED="1645459903000" TEXT="j is column"/>
+</node>
+</node>
+<node CREATED="1645459912125" ID="ID_1663955479" MODIFIED="1645459917329" TEXT="Symetric matrix">
+<node CREATED="1645459907716" ID="ID_834849135" MODIFIED="1645459911881" TEXT="Mij = Mji"/>
+<node CREATED="1645459951161" ID="ID_1850848170" MODIFIED="1645459954202" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1645459955380" ID="ID_665995174" MODIFIED="1645459960377" TEXT="Mileage matrix should be symetric"/>
+<node CREATED="1645459960741" ID="ID_397291517" MODIFIED="1645459973975" TEXT="Distance chicago - NY"/>
+<node CREATED="1645459974414" ID="ID_1598450718" MODIFIED="1645459981010" TEXT="... = Distance NY - chicago"/>
+</node>
+</node>
+<node CREATED="1645459988678" ID="ID_1138950355" MODIFIED="1645459993000" TEXT="Any matrix tells us something"/>
+<node CREATED="1645459993468" ID="ID_1559378957" MODIFIED="1645459999218" TEXT="... about the structure of the system they represent">
+<node CREATED="1645460003206" ID="ID_655907921" LINK="#ID_1848972130" MODIFIED="1645460160955" TEXT="Matrice of bathtubes">
+<icon BUILTIN="licq"/>
+<node CREATED="1645460161971" ID="ID_116401172" MODIFIED="1645460197434">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="matrix_bathtube.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1645460199396" ID="ID_890508838" MODIFIED="1645460206105" TEXT="Eliminate many things">
+<node CREATED="1645460206350" ID="ID_1341208145" MODIFIED="1645460210679" TEXT="Shape up box"/>
+<node CREATED="1645460211155" ID="ID_527607816" MODIFIED="1645460213311" TEXT="Length of page"/>
+<node CREATED="1645460215192" ID="ID_1450052222" MODIFIED="1645460217209" TEXT=" Layout of page"/>
+<node CREATED="1645460217476" ID="ID_1792455697" MODIFIED="1645460218192" TEXT=" ..."/>
+</node>
+<node CREATED="1645460225214" ID="ID_215076627" MODIFIED="1645460227790" TEXT="Stripping information">
+<node CREATED="1645460228008" ID="ID_1675823799" MODIFIED="1645460234271" TEXT="Make other information more visible"/>
+<node CREATED="1645460238310" ID="ID_1715325934" MODIFIED="1645460248986" TEXT=" Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1645460250709" ID="ID_349756871" MODIFIED="1645460265354" TEXT="S row all 0">
+<node CREATED="1645460265573" ID="ID_1928482304" MODIFIED="1645460269816" TEXT="A source"/>
+</node>
+<node CREATED="1645460270421" ID="ID_1037717448" MODIFIED="1645460277367" TEXT="K column all 0">
+<node CREATED="1645460277619" ID="ID_812006242" MODIFIED="1645460278823" TEXT="A sink"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1645460307020" ID="ID_1473264227" MODIFIED="1645460312896" TEXT=" Time Scale and Continuity">
+<icon BUILTIN="full-4"/>
+<node CREATED="1645460315779" ID="ID_1965439187" MODIFIED="1645460326010" TEXT="General question of one aggregate to another"/>
+<node CREATED="1645460422261" ID="ID_1263648045" MODIFIED="1645460426031" TEXT=".. but no account of time">
+<node CREATED="1645460433563" ID="ID_193311498" MODIFIED="1645460441592" TEXT="0 or 1 says effect possible or impossible"/>
+<node CREATED="1645460442123" ID="ID_390034188" MODIFIED="1645460451647" TEXT=" No clue about how long effect can be felt"/>
+</node>
+<node CREATED="1645460454843" ID="ID_1633096289" MODIFIED="1645460470070" TEXT="Matrix lets us manipulate the system&apos;s structure as accuratly as a diagram">
+<node CREATED="1645460471802" ID="ID_1081349969" MODIFIED="1645460477360" TEXT="Can also add to matrix"/>
+<node CREATED="1645460477693" ID="ID_26214988" MODIFIED="1645460482558" TEXT=" ... magnitude of the system felt"/>
+<node CREATED="1645460490572" ID="ID_1129258715" MODIFIED="1645460494446" TEXT="Matrix represent the program"/>
+</node>
+<node CREATED="1645460496716" ID="ID_148791902" MODIFIED="1645460500783" TEXT="Linear equations">
+<node CREATED="1645460503851" ID="ID_421333628" MODIFIED="1645460510126" TEXT="Special case but frequently used"/>
+<node CREATED="1645460515618" ID="ID_246627508" MODIFIED="1645460524415" TEXT="Multiplying the affecting aggregate"/>
+<node CREATED="1645460524795" ID="ID_1661155735" MODIFIED="1645460534366" TEXT=" ... by constant value for each time period"/>
+<node CREATED="1645460573858" ID="ID_1913979002" MODIFIED="1645460577875" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1645460578674" ID="ID_1943029643" MODIFIED="1645460589953">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="value_matrix_structure.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1645460722985" ID="ID_1116688668" MODIFIED="1645460726575" TEXT=" Continuity">
+<node CREATED="1645460630459" ID="ID_1318611577" MODIFIED="1645460640037" TEXT="Short time scale system often appears contiguous">
+<node CREATED="1645460643986" ID="ID_628654388" MODIFIED="1645460649390" TEXT="Main influence of aggregate"/>
+<node CREATED="1645460649658" ID="ID_1926657101" MODIFIED="1645460651911" TEXT=" ... is itself"/>
+</node>
+<node CREATED="1645460656170" ID="ID_723568309" MODIFIED="1645460661373" TEXT="Increase time length">
+<node CREATED="1645460662027" ID="ID_8468292" MODIFIED="1645460673807" TEXT="More discussed systems"/>
+<node CREATED="1645460674210" ID="ID_497898789" MODIFIED="1645460683134" TEXT="Values might appear jumping all over the place"/>
+</node>
+<node CREATED="1645460688386" ID="ID_1320125455" MODIFIED="1645460693990" TEXT="Serious reasoning mistakes with diagrams">
+<node CREATED="1645460694210" ID="ID_801129477" MODIFIED="1645460702935" TEXT="... if we forget that a diagram"/>
+<node CREATED="1645460703322" ID="ID_108713346" MODIFIED="1645460706607" TEXT="... represents a time scale"/>
+<node CREATED="1645460710282" ID="ID_1488126560" MODIFIED="1645460721901" TEXT=" ... not just static pure structure"/>
+</node>
+<node CREATED="1645460735161" ID="ID_91869490" MODIFIED="1645460741350" TEXT="System after a short period of time"/>
+<node CREATED="1645460741604" ID="ID_1773409368" MODIFIED="1645460749070" TEXT=" ... mostly look like it was before period">
+<node CREATED="1645460753274" ID="ID_1376886617" MODIFIED="1645460759533" TEXT="Since arrow of effect always there"/>
+</node>
+</node>
 </node>
 </node>
 </node>
