@@ -1,7 +1,7 @@
 # The Alexandria Library
 
 ![Alexandria Library illustration](./library-of-alexandria.jpg)
-![count mindmaps](https://img.shields.io/badge/total_mindmaps-241-blue)
+![count mindmaps](https://img.shields.io/badge/total_mindmaps-243-blue)
 [![Github repo-size](https://img.shields.io/github/repo-size/Phantas0s/alexandria-library.svg?color=success&label=Library%20size)]()
 
 > The opportunity before all of us is living up to the dream of the Library of Alexandria and then taking it a step further - universal access to all knowledge. Interestingly, it is now technically doable. -- **[Brewster Kahle](https://en.wikipedia.org/wiki/Brewster_Kahle)** 
@@ -358,6 +358,7 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   │   ├── advanced_testing_with_go_by_mitchell_hashimoto.mm
 │   │   │   ├── concurency_in_go.mm
 │   │   │   ├── concurency_is_not_parallelism.mm
+│   │   │   ├── context_package_semantics.mm
 │   │   │   ├── delve_talk_-_go_internal.mm
 │   │   │   ├── design_command_line_tool_people_love
 │   │   │   │   └── design_command_line_tool_people_love.mm
@@ -387,6 +388,7 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   ├── fp_high_school_algebra
 │   │   ├── how_to_think_like_a_programmer.mm
 │   │   ├── implementing_a_strong_code_review_culture.mm
+│   │   ├── it_depends.mm
 │   │   ├── lean_code
 │   │   │   └── lean_code.mm
 │   │   ├── learn_to_impact_the_business_as_a_developer.mm
@@ -576,5 +578,5 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
     ├── write_to_express_not_to_impress.mm
     └── writing_is_thinking_learning_to_write_with_confidence.mm
 
-212 directories, 241 files
+212 directories, 243 files
 ```

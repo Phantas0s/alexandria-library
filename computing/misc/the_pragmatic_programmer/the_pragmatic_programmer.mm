@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1568986214867" ID="ID_1384012147" MODIFIED="1617509898718" TEXT="The Pragmatic Programmer">
+<node CREATED="1568986214867" ID="ID_1384012147" MODIFIED="1645423063093" TEXT="The Pragmatic Programmer">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -127,10 +127,10 @@
       <font color="#338800" face="SansSerif, sans-serif"><b>Tip 40: Design using services </b></font>
     </p>
     <p>
-      <font color="#338800" face="SansSerif, sans-serif"><b>Tip 41: always design from concurrency</b></font>
+      <font color="#338800" face="SansSerif, sans-serif"><b>Tip 41: Always design from concurrency</b></font>
     </p>
     <p>
-      <font color="#338800" face="SansSerif, sans-serif"><b>Tip 42 : separate view from model</b></font>
+      <font color="#338800" face="SansSerif, sans-serif"><b>Tip 42: Separate view from model</b></font>
     </p>
     <p>
       <font color="#338800" face="SansSerif, sans-serif"><b>Tip 43: Use blackboard to coordinate workflows</b></font>
@@ -145,7 +145,7 @@
       <font color="#338800" face="SansSerif, sans-serif"><b>Tip 46: Test your estimates </b></font>
     </p>
     <p>
-      <font color="#338800" face="SansSerif, sans-serif"><b>Tip 47: refactor early, refactor often</b></font>
+      <font color="#338800" face="SansSerif, sans-serif"><b>Tip 47: Refactor early, refactor often</b></font>
     </p>
     <p>
       <font color="#338800" face="SansSerif, sans-serif"><b>Tip 48: Design to test</b></font>
@@ -659,7 +659,7 @@
 </node>
 <node CREATED="1568986433431" ID="ID_1605691272" MODIFIED="1568986434708" TEXT="Summary"/>
 </node>
-<node CREATED="1568986312041" ID="ID_382294961" MODIFIED="1573120593282" POSITION="right" TEXT="A Pragmatic Approach">
+<node CREATED="1568986312041" FOLDED="true" ID="ID_382294961" MODIFIED="1573120593282" POSITION="right" TEXT="A Pragmatic Approach">
 <icon BUILTIN="full-2"/>
 <node CREATED="1568986438703" FOLDED="true" ID="ID_461425204" MODIFIED="1573022538741" TEXT="The Evils of Duplication">
 <node CREATED="1569076902738" FOLDED="true" ID="ID_1726898705" MODIFIED="1573022114799" TEXT="Programmer">
@@ -1934,7 +1934,7 @@
 <node CREATED="1570275020680" ID="ID_1662711673" MODIFIED="1570275025877" TEXT="Track their allocations"/>
 </node>
 </node>
-<node CREATED="1568986349897" FOLDED="true" ID="ID_1756539197" MODIFIED="1587283477238" POSITION="left" TEXT="Bend or Break">
+<node CREATED="1568986349897" FOLDED="true" ID="ID_1756539197" MODIFIED="1587283477238" POSITION="right" TEXT="Bend or Break">
 <icon BUILTIN="full-5"/>
 <node CREATED="1568986680781" FOLDED="true" ID="ID_999776105" MODIFIED="1587283394143" TEXT="Decoupling and the Law of Demeter">
 <node CREATED="1570275341719" ID="ID_973631510" MODIFIED="1570275347562" TEXT="Organize your code in module"/>
@@ -2280,7 +2280,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1568986356904" FOLDED="true" ID="ID_1154865654" MODIFIED="1587283520957" POSITION="left" TEXT="While You Are Coding">
+<node CREATED="1568986356904" FOLDED="true" ID="ID_1154865654" MODIFIED="1587283520957" POSITION="right" TEXT="While You Are Coding">
 <icon BUILTIN="full-6"/>
 <node CREATED="1570366273194" FOLDED="true" ID="ID_856914291" MODIFIED="1587283484053" TEXT="Programming is NOT mechanical">
 <node CREATED="1570366285685" ID="ID_509399952" MODIFIED="1573121343473" TEXT="Decisions to be made every minute">
@@ -2889,9 +2889,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1568986364150" FOLDED="true" ID="ID_1886478717" MODIFIED="1587283617148" POSITION="left" TEXT="Before the Project">
+<node CREATED="1568986364150" FOLDED="true" ID="ID_1886478717" MODIFIED="1587283617148" POSITION="right" TEXT="Before the Project">
 <icon BUILTIN="full-7"/>
-<node CREATED="1568986762948" FOLDED="true" ID="ID_1845262443" MODIFIED="1587283533598" TEXT="The Requirements Pit">
+<node CREATED="1568986762948" ID="ID_1845262443" MODIFIED="1587283533598" TEXT="The Requirements Pit">
 <node CREATED="1570970813207" FOLDED="true" ID="ID_1160039379" MODIFIED="1587283527898" TEXT="Requirements">
 <node CREATED="1570970816847" ID="ID_1651883547" MODIFIED="1570970819867" TEXT="not magical things"/>
 <node CREATED="1570970820255" ID="ID_1669532849" MODIFIED="1570970830645" TEXT="... we only &quot;gather&quot;"/>
@@ -2988,7 +2988,7 @@
 <node CREATED="1570971347411" ID="ID_1377460103" MODIFIED="1570971355966" TEXT="... that the date was abstracted to 2 digits"/>
 </node>
 </node>
-<node CREATED="1570971369164" FOLDED="true" ID="ID_1226836695" MODIFIED="1587283527901" TEXT="Just one more Wafer-Thin Mint...">
+<node CREATED="1570971369164" ID="ID_1226836695" MODIFIED="1587283527901" TEXT="Just one more Wafer-Thin Mint...">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1570971381378" ID="ID_1973627344" MODIFIED="1570971386215" TEXT="Many project failures">
 <node CREATED="1570971386426" ID="ID_647337454" MODIFIED="1570971388903" TEXT="feature bloat"/>
@@ -3231,7 +3231,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1568986375278" FOLDED="true" ID="ID_951439448" MODIFIED="1587283633909" POSITION="left" TEXT="Pragmatic Projects">
+<node CREATED="1568986375278" FOLDED="true" ID="ID_951439448" MODIFIED="1587283633909" POSITION="right" TEXT="Pragmatic Projects">
 <icon BUILTIN="full-8"/>
 <node CREATED="1568986805467" FOLDED="true" ID="ID_1156423776" MODIFIED="1587283625777" TEXT="Pragmatic Teams">
 <node CREATED="1571486776275" ID="ID_1999630158" MODIFIED="1573121771515" TEXT="No broken windows">
