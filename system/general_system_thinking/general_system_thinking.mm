@@ -4039,7 +4039,7 @@
 </node>
 <node CREATED="1644857451176" ID="ID_956834570" MODIFIED="1644857470199" TEXT=" Chapter 6 - Programs for Models of Differentiated Aggregates">
 <icon BUILTIN="full-6"/>
-<node CREATED="1644857697191" ID="ID_690677083" MODIFIED="1644857702863" TEXT="Introduction">
+<node CREATED="1644857697191" FOLDED="true" ID="ID_690677083" MODIFIED="1644857702863" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1644857614807" ID="ID_693091779" MODIFIED="1644857623867" TEXT="In 19th century">
 <node CREATED="1644857627727" ID="ID_691618116" MODIFIED="1644857638403" TEXT="Many machines were invented"/>
@@ -4053,7 +4053,7 @@
 <node CREATED="1644857688767" ID="ID_45459002" MODIFIED="1644857693603" TEXT="Great conceptual tool of our time"/>
 </node>
 </node>
-<node CREATED="1644857703983" ID="ID_592898665" MODIFIED="1644857918184" TEXT="Varieties of Programs">
+<node CREATED="1644857703983" FOLDED="true" ID="ID_592898665" MODIFIED="1644857918184" TEXT="Varieties of Programs">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1644857711150" ID="ID_1980090894" MODIFIED="1644857719907" TEXT="Fundamental system equation">
@@ -4085,7 +4085,7 @@
 <node CREATED="1644858065735" ID="ID_539997948" MODIFIED="1644858070923" TEXT="... with set of equations"/>
 </node>
 </node>
-<node CREATED="1644858075718" ID="ID_1544453298" MODIFIED="1644858094052" TEXT="Transitive closures: the diagram of possible effects">
+<node CREATED="1644858075718" FOLDED="true" ID="ID_1544453298" MODIFIED="1644858094052" TEXT="Transitive closures: the diagram of possible effects">
 <icon BUILTIN="full-2"/>
 <node CREATED="1645459000130" ID="ID_1932555399" MODIFIED="1645459005079" TEXT="Reasoning with aids of diagrams">
 <node CREATED="1645459018041" ID="ID_45878095" MODIFIED="1645459024939" TEXT="Above verbal reasoning"/>
@@ -4164,7 +4164,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1645459700094" ID="ID_423045646" MODIFIED="1645459707412" TEXT=" Structure matrices">
+<node CREATED="1645459700094" FOLDED="true" ID="ID_423045646" MODIFIED="1645459707412" TEXT=" Structure matrices">
 <icon BUILTIN="full-3"/>
 <node CREATED="1645459713700" ID="ID_1255120162" MODIFIED="1645459716732" TEXT="Graph and analogies">
 <node CREATED="1645459719510" ID="ID_20711090" MODIFIED="1645459723937" TEXT="Suggestive to look at"/>
@@ -4188,8 +4188,7 @@
   <body>
     <img src="structured_matrix.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1645459858557" ID="ID_737683688" MODIFIED="1645459861552" TEXT="Mcn">
 <node CREATED="1645459862581" ID="ID_633468844" MODIFIED="1645459868466" TEXT="Reas M-sub-c-n"/>
@@ -4224,8 +4223,7 @@
   <body>
     <img src="matrix_bathtube.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1645460199396" ID="ID_890508838" MODIFIED="1645460206105" TEXT="Eliminate many things">
@@ -4248,7 +4246,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1645460307020" ID="ID_1473264227" MODIFIED="1645460312896" TEXT=" Time Scale and Continuity">
+<node CREATED="1645460307020" FOLDED="true" ID="ID_1473264227" MODIFIED="1645460312896" TEXT=" Time Scale and Continuity">
 <icon BUILTIN="full-4"/>
 <node CREATED="1645460315779" ID="ID_1965439187" MODIFIED="1645460326010" TEXT="General question of one aggregate to another"/>
 <node CREATED="1645460422261" ID="ID_1263648045" MODIFIED="1645460426031" TEXT=".. but no account of time">
@@ -4274,8 +4272,7 @@
   <body>
     <img src="value_matrix_structure.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -4296,7 +4293,516 @@
 <node CREATED="1645460735161" ID="ID_91869490" MODIFIED="1645460741350" TEXT="System after a short period of time"/>
 <node CREATED="1645460741604" ID="ID_1773409368" MODIFIED="1645460749070" TEXT=" ... mostly look like it was before period">
 <node CREATED="1645460753274" ID="ID_1376886617" MODIFIED="1645460759533" TEXT="Since arrow of effect always there"/>
+<node CREATED="1646066919232" ID="ID_1505865022" MODIFIED="1646066932991" TEXT="Need to be aware of omissions"/>
+<node CREATED="1646066933353" ID="ID_447340835" MODIFIED="1646067096758" TEXT=" ... to transcribe diagraph correctly"/>
+<node CREATED="1646066968633" ID="ID_53841403" MODIFIED="1646066972165" TEXT=" ... in structure matrix">
+<node CREATED="1646066974490" ID="ID_353997231" MODIFIED="1646066977693" TEXT="Mxx"/>
+<node CREATED="1646066978162" ID="ID_166163380" MODIFIED="1646066979741" TEXT="Diagonal"/>
 </node>
+<node CREATED="1646066991434" ID="ID_701288379" MODIFIED="1646066999813" TEXT="Continuous system needs this &quot;main diagonal&quot;"/>
+</node>
+</node>
+<node CREATED="1646067113868" ID="ID_853056718" MODIFIED="1646067117780" TEXT="Discrete time systems">
+<node CREATED="1646067118912" ID="ID_1626500166" MODIFIED="1646067124826" TEXT="Line from x to y might not exists"/>
+<node CREATED="1646067125248" ID="ID_1942147613" MODIFIED="1646067135933" TEXT="No convention omitting lines"/>
+<node CREATED="1646067149536" ID="ID_553461021" MODIFIED="1646067153786" TEXT="Need to draw all arrows"/>
+</node>
+</node>
+<node CREATED="1646067162128" FOLDED="true" ID="ID_1190262930" MODIFIED="1646067258287" TEXT="Projecting Possible Effects with a Structure Matrix">
+<icon BUILTIN="full-5"/>
+<node CREATED="1646067259400" ID="ID_453949899" MODIFIED="1646067271452" TEXT="Calculate matrix of possible effects"/>
+<node CREATED="1646067271880" FOLDED="true" ID="ID_1879005168" MODIFIED="1646067276244" TEXT="... with matrix multiplication">
+<node CREATED="1646067279888" ID="ID_1254206630" MODIFIED="1646067283652" TEXT="Calculate for each time step"/>
+</node>
+<node CREATED="1646067356376" FOLDED="true" ID="ID_265957957" MODIFIED="1646067362972" TEXT="Multiply matrix of possible effect with itself">
+<node CREATED="1646067366816" ID="ID_1158207153" MODIFIED="1646067374355" TEXT="Give the next matrix on timeline"/>
+</node>
+<node CREATED="1646067443743" FOLDED="true" ID="ID_1391813290" MODIFIED="1646067534534" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1646067558767" ID="ID_792421299" MODIFIED="1646067569111">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="diagram_immediate_effect.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1646067383631" FOLDED="true" ID="ID_1056589925" MODIFIED="1646067386260" TEXT="Advantage">
+<node CREATED="1646067386486" ID="ID_523938620" MODIFIED="1646067393659" TEXT="A computer can calculate all of that"/>
+</node>
+<node CREATED="1646067595502" ID="ID_1962545517" MODIFIED="1646067600394" TEXT="When system not connected">
+<node CREATED="1646067600590" ID="ID_1697701440" MODIFIED="1646067607210" TEXT="Disconnected part assumed as independent"/>
+<node CREATED="1646067613910" ID="ID_996555105" MODIFIED="1646067617322" TEXT="Make two or more systems"/>
+</node>
+</node>
+<node CREATED="1646067620265" FOLDED="true" ID="ID_253711193" MODIFIED="1646067627479" TEXT="Partitioning a System">
+<icon BUILTIN="full-6"/>
+<node CREATED="1646067629398" ID="ID_1637330008" MODIFIED="1646067638690" TEXT="Disconnected systems are good for system thinkers">
+<node CREATED="1646067650245" ID="ID_1537467276" MODIFIED="1646067659667" TEXT="Square law of computations"/>
+</node>
+<node CREATED="1646067758525" ID="ID_1949416224" MODIFIED="1646067779589" TEXT="Example">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1646067762605" ID="ID_548473227" MODIFIED="1646067767730">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="another_diagram_multiple_effects.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1646067664054" ID="ID_1865624369" MODIFIED="1646067671890" TEXT="In large system, difficult to think what&apos;s independent">
+<node CREATED="1646067676830" ID="ID_726962492" MODIFIED="1646067679465" TEXT="Many elements are 0"/>
+<node CREATED="1646067679885" ID="ID_421339027" MODIFIED="1646067685138" TEXT="System not fully connected"/>
+</node>
+<node CREATED="1646067694797" ID="ID_382704965" MODIFIED="1646067707112" TEXT="... from there, can we discover more about system structure"/>
+</node>
+<node CREATED="1646067807526" ID="ID_401435253" MODIFIED="1646067815153" TEXT="How to see what&apos;s connected in large system">
+<node CREATED="1646067833972" ID="ID_734295790" MODIFIED="1646067842074" TEXT="Numbers can be changed without changing structure it represents"/>
+<node CREATED="1646067844069" ID="ID_1677783976" MODIFIED="1646067849057" TEXT="But how to change numbers of matrix?">
+<node CREATED="1646067870788" ID="ID_496226553" MODIFIED="1646067874648" TEXT="Can rename row / columns"/>
+</node>
+</node>
+<node CREATED="1646067877533" ID="ID_421410883" MODIFIED="1646067881743" TEXT=" Principle of indifference">
+<node CREATED="1646067882988" ID="ID_155658629" MODIFIED="1646067891265" TEXT="Doesn&apos;t matter how often we do it"/>
+</node>
+<node CREATED="1646067897444" ID="ID_671011327" MODIFIED="1646067900506" TEXT=" Principle of difference">
+<node CREATED="1646067900876" ID="ID_869772878" MODIFIED="1646067910586" TEXT="May matter a lot, psychologically"/>
+</node>
+<node CREATED="1646067921750" ID="ID_1442255296" MODIFIED="1646067937780" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1646067954805" ID="ID_1788554792" MODIFIED="1646067988732">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="complex_reduce_simpler.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1646068030412" ID="ID_936203356" MODIFIED="1646068037305" TEXT="Interior matrix with 2 distinct parts"/>
+<node CREATED="1646068038796" ID="ID_328663035" MODIFIED="1646068048766" TEXT=" Can redraw graph with help of matrix"/>
+<node CREATED="1646068049709" ID="ID_1907591139" MODIFIED="1646068060999" TEXT=" Disconnected / separable system"/>
+</node>
+<node CREATED="1646068070212" ID="ID_1850333556" MODIFIED="1646068072960" TEXT="Very large system">
+<node CREATED="1646068074812" ID="ID_1273375105" MODIFIED="1646068090457" TEXT="Unlikely to have close Matrix separation"/>
+<node CREATED="1646068120364" ID="ID_1786642120" MODIFIED="1646068152501" TEXT="Might want to pretend that thes &quot;ones&quot; are not there "/>
+<node CREATED="1646068154841" ID="ID_477228817" MODIFIED="1646068160400" TEXT="IF system obey law of effects">
+<node CREATED="1646068160627" ID="ID_172706278" MODIFIED="1646068167976" TEXT="Little change = little effects"/>
+<node CREATED="1646068168379" ID="ID_805162244" MODIFIED="1646068176167" TEXT="It&apos;s a gamble, and generalist gamble"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1646068187043" ID="ID_595994950" MODIFIED="1646068205330" TEXT=" Chapter 7 - Structure and Behavior">
+<icon BUILTIN="full-7"/>
+<node CREATED="1646071949647" FOLDED="true" ID="ID_874936717" MODIFIED="1646071952543" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1646071905151" ID="ID_1239534977" MODIFIED="1646071906763" TEXT="Ashby">
+<node CREATED="1646071907735" ID="ID_387838631" MODIFIED="1646071916667" TEXT="Concept of structure derived from behavior">
+<node CREATED="1646071922519" ID="ID_1424547711" MODIFIED="1646071925668" TEXT="From concept of stability"/>
+<node CREATED="1646071926280" ID="ID_1192436659" MODIFIED="1646071929675" TEXT="... and not vice-versa"/>
+</node>
+</node>
+<node CREATED="1646071934264" ID="ID_1490851629" MODIFIED="1646071949155" TEXT="Old question structure vs behavior"/>
+</node>
+<node CREATED="1646071973270" FOLDED="true" ID="ID_1121536790" MODIFIED="1646071980846" TEXT="The Structure of Structure">
+<icon BUILTIN="full-1"/>
+<node CREATED="1646071987870" ID="ID_1956605430" MODIFIED="1646071989708" TEXT="In culture">
+<node CREATED="1646071991274" ID="ID_1624344643" MODIFIED="1646071994403" TEXT="Structure is stability"/>
+<node CREATED="1646071994833" ID="ID_1957510330" MODIFIED="1646072011586" TEXT="... of enduring parts"/>
+</node>
+<node CREATED="1646072012323" ID="ID_772969158" MODIFIED="1646072019587" TEXT="When reach matrix abstraction">
+<node CREATED="1646072019902" ID="ID_492394535" MODIFIED="1646072022912" TEXT="No more culture"/>
+<node CREATED="1646072023288" ID="ID_292113317" MODIFIED="1646072026564" TEXT="... referenced there"/>
+</node>
+<node CREATED="1646072030175" ID="ID_620123893" MODIFIED="1646072036779" TEXT="Structure doesn&apos;t need to be physical">
+<node CREATED="1646072042382" ID="ID_123592145" MODIFIED="1646072047201" TEXT="In sense &quot;hard solid matter&apos;"/>
+</node>
+<node CREATED="1646072079936" ID="ID_1471844866" MODIFIED="1646072086318" TEXT="Represent structure as visual objects">
+<node CREATED="1646072087574" ID="ID_1673572449" MODIFIED="1646072095898" TEXT="Because we&apos;re used to them"/>
+<node CREATED="1646072096350" ID="ID_42938500" MODIFIED="1646072102776" TEXT="Essence of strtuct is not appearance"/>
+<node CREATED="1646072103121" ID="ID_118326793" MODIFIED="1646072107091" TEXT="... but endurance">
+<node CREATED="1646072111407" ID="ID_987764158" MODIFIED="1646072119058" TEXT="Structure is what which">
+<node CREATED="1646072119582" ID="ID_1566218556" MODIFIED="1646072125450" TEXT="stand"/>
+<node CREATED="1646072121085" ID="ID_1432063877" MODIFIED="1646072127131" TEXT="remain"/>
+<node CREATED="1646072127821" ID="ID_1411025511" MODIFIED="1646072139385" TEXT=" unchanged">
+<node CREATED="1646072141971" ID="ID_293286072" MODIFIED="1646072147546" TEXT="Regardless of physical properties"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1646072152695" FOLDED="true" ID="ID_214415963" MODIFIED="1646072169031" TEXT="Projecting Behavior with a Linear Program">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646072173384" ID="ID_6765482" MODIFIED="1646072179164" TEXT="Can use tools for conservatice systems"/>
+<node CREATED="1646072180160" ID="ID_828115252" MODIFIED="1646072184240" TEXT="... for nonconservative systems"/>
+<node CREATED="1646072199090" ID="ID_1466350084" MODIFIED="1646072208057" TEXT="We can&apos;t say less about system nonconservative"/>
+<node CREATED="1646072209070" ID="ID_1988051918" MODIFIED="1646072215438" TEXT="... simpy by looking at">
+<node CREATED="1646072215653" ID="ID_995275466" MODIFIED="1646072219682" TEXT="form of equation"/>
+<node CREATED="1646072220048" ID="ID_125025031" MODIFIED="1646072222426" TEXT="digraph"/>
+<node CREATED="1646072222976" ID="ID_20835586" MODIFIED="1646072225889" TEXT="structured matrix"/>
+</node>
+<node CREATED="1646072232558" ID="ID_438908751" MODIFIED="1646072239978" TEXT="Need to replace the &quot;1&quot; in structure matrix"/>
+<node CREATED="1646072240364" ID="ID_271451123" MODIFIED="1646072245995" TEXT="... by more precise description">
+<node CREATED="1646072246265" ID="ID_1048561908" MODIFIED="1646072285326" TEXT="Even for gross prediction"/>
+</node>
+<node CREATED="1646072320527" ID="ID_1856735064" MODIFIED="1646072325973" TEXT="Even our monster computers can&apos;t solve everything">
+<node CREATED="1646072326205" ID="ID_1976500204" MODIFIED="1646072328081" TEXT="Two solutions"/>
+<node CREATED="1646072329630" ID="ID_542172467" MODIFIED="1646072378609" TEXT="Write general equations">
+<icon BUILTIN="full-1"/>
+<node CREATED="1646072346445" ID="ID_252553154" MODIFIED="1646072351874" TEXT="... to get nature of solution"/>
+<node CREATED="1646072352589" ID="ID_1886633970" MODIFIED="1646072359645" TEXT=" ... in general terms"/>
+</node>
+<node CREATED="1646072360645" ID="ID_1259050517" MODIFIED="1646072379976" TEXT="Write down equations from outset">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646072369573" ID="ID_944493497" MODIFIED="1646072372577" TEXT="approximate"/>
+<node CREATED="1646072373698" ID="ID_542178282" MODIFIED="1646072376833" TEXT="we know we can solve"/>
+</node>
+<node CREATED="1646072387037" ID="ID_853614416" MODIFIED="1646072391241" TEXT="Each approach has">
+<node CREATED="1646072391644" ID="ID_1628522683" MODIFIED="1646072395940" TEXT="benefits in some context"/>
+<node CREATED="1646072396333" ID="ID_1920083622" MODIFIED="1646072397401" TEXT="dangers"/>
+</node>
+</node>
+<node CREATED="1646072403305" ID="ID_1752089348" MODIFIED="1646072481301" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1646072405252" ID="ID_1900828313" MODIFIED="1646072412628" TEXT="Quantitive approach"/>
+<node CREATED="1646072418384" ID="ID_325047815" MODIFIED="1646072423617" TEXT="Study behavior or population"/>
+<node CREATED="1646072439998" ID="ID_1642813169" MODIFIED="1646072526291" TEXT="Sum of matrices * init vector">
+<icon BUILTIN="licq"/>
+<node CREATED="1646072467614" ID="ID_1617646787" MODIFIED="1646072475350">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="study_behavior_population.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1646072530793" ID="ID_1625882002" MODIFIED="1646072581315" TEXT="Growth of three population component">
+<icon BUILTIN="licq"/>
+<node CREATED="1646072582321" ID="ID_1164044192" MODIFIED="1646072590198">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="growth_three_population_components.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1646072613456" ID="ID_739989801" MODIFIED="1646072619032" TEXT="Doesn&apos;t mean model extend to other data">
+<node CREATED="1646072619359" ID="ID_692891753" MODIFIED="1646072631431" TEXT="It&apos;s not because quantitative reasoning looks right"/>
+<node CREATED="1646072631812" ID="ID_1235060604" MODIFIED="1646072635161" TEXT=" that is it">
+<node CREATED="1646072635426" ID="ID_1154782830" MODIFIED="1646072640431" TEXT="Skepticism is always good"/>
+</node>
+</node>
+</node>
+<node CREATED="1646072646188" FOLDED="true" ID="ID_624482328" MODIFIED="1646072655770" TEXT="Qualitative Reasoning About Structure">
+<icon BUILTIN="full-3"/>
+<node CREATED="1646072661766" ID="ID_420893814" MODIFIED="1646072672388" TEXT="Example before is white box simulation">
+<node CREATED="1646072677210" ID="ID_1386328527" MODIFIED="1646072681175" TEXT="Access fully to">
+<node CREATED="1646072688183" ID="ID_1161029546" MODIFIED="1646072691112" TEXT="Internal structure"/>
+<node CREATED="1646072691466" ID="ID_1539274042" MODIFIED="1646072693576" TEXT="Initial state"/>
+</node>
+</node>
+<node CREATED="1646072698836" ID="ID_1708353102" MODIFIED="1646072704144" TEXT="Only observing behavior is black box"/>
+<node CREATED="1646072722860" ID="ID_1570136205" MODIFIED="1646073110924" TEXT="Example">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="wizard"/>
+<node CREATED="1646072724535" ID="ID_1281283504" MODIFIED="1646072734205" TEXT="If we only see the following graph">
+<icon BUILTIN="licq"/>
+<node CREATED="1646072781987" ID="ID_1806715305" MODIFIED="1646072798183">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="computer_plotted_simulation_not_exponential.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1646072804540" ID="ID_1819026706" MODIFIED="1646072809288" TEXT="Seems to be exponential"/>
+<node CREATED="1646072809663" ID="ID_1920838018" MODIFIED="1646072817400" TEXT="... but tiny dip at the beginning">
+<node CREATED="1646072826488" ID="ID_1310546436" MODIFIED="1646072842438" TEXT="In real life, would be dismissed as observational error"/>
+<node CREATED="1646072848653" ID="ID_1754686469" MODIFIED="1646072854715" TEXT="... because without it, model simpler"/>
+<node CREATED="1646072861862" ID="ID_1723473790" MODIFIED="1646072867517" TEXT="Single bathtube equation">
+<node CREATED="1646072867771" ID="ID_1096561407" MODIFIED="1646072872843" TEXT="N&apos;=f(n)"/>
+<node CREATED="1646072877782" ID="ID_312691909" MODIFIED="1646072879343" TEXT="No input"/>
+<node CREATED="1646072879823" ID="ID_1855203894" MODIFIED="1646072885831" TEXT="One type of individual"/>
+</node>
+</node>
+<node CREATED="1646072903234" ID="ID_749775954" MODIFIED="1646072906001" TEXT="Guess exponential"/>
+<node CREATED="1646072906203" ID="ID_1797398016" MODIFIED="1646072911136" TEXT=" N&apos;=pN">
+<node CREATED="1646072911498" ID="ID_1598362379" MODIFIED="1646072919502" TEXT="p = rate of growth"/>
+</node>
+<node CREATED="1646072926692" ID="ID_1742711348" MODIFIED="1646072931150" TEXT=" Qualitative reasoning">
+<node CREATED="1646072934196" ID="ID_604037623" MODIFIED="1646073203884" TEXT="N&apos; is slope of chronological graph N">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1646072945387" ID="ID_1520356518" MODIFIED="1646073067306" TEXT="If N&apos; depends only on N">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646072951132" ID="ID_587296097" MODIFIED="1646072959090" TEXT="whenever N has some value"/>
+<node CREATED="1646072959690" ID="ID_1753133662" MODIFIED="1646072962840" TEXT="... slope must be some value"/>
+</node>
+<node CREATED="1646073020105" ID="ID_780320843" MODIFIED="1646073068137" TEXT="Slope evolution">
+<icon BUILTIN="full-3"/>
+<node CREATED="1646072965233" ID="ID_1272496744" MODIFIED="1646073036077" TEXT="1500 (beginning)">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646072989819" ID="ID_123690231" MODIFIED="1646072995855" TEXT="Slop downward"/>
+</node>
+<node CREATED="1646073005393" ID="ID_1904053203" MODIFIED="1646073011874" TEXT="1500 (later)">
+<node CREATED="1646073014520" ID="ID_152453042" MODIFIED="1646073016815" TEXT="Slop upward"/>
+</node>
+</node>
+<node CREATED="1646073048491" ID="ID_780153674" MODIFIED="1646073069872" TEXT="Must conclude">
+<icon BUILTIN="full-4"/>
+<node CREATED="1646073052094" ID="ID_726017301" MODIFIED="1646073058087" TEXT="N&apos;=f(N,m)"/>
+<node CREATED="1646073061738" ID="ID_97198339" MODIFIED="1646073065153" TEXT="... to explain dip"/>
+</node>
+<node CREATED="1646073074658" ID="ID_843766269" MODIFIED="1646073103306" TEXT="Search for explanation">
+<icon BUILTIN="full-5"/>
+<node CREATED="1646073077491" ID="ID_1316551190" MODIFIED="1646073079279" TEXT="Immigration?"/>
+<node CREATED="1646073081360" ID="ID_1479532342" MODIFIED="1646073086967" TEXT="Emigration?"/>
+<node CREATED="1646073087555" ID="ID_566527265" MODIFIED="1646073098206" TEXT="Know that population is isolated">
+<node CREATED="1646073098370" ID="ID_365991011" MODIFIED="1646073127007" TEXT="Something change within system"/>
+<node CREATED="1646073127417" ID="ID_846566004" MODIFIED="1646073134954" TEXT="What are the fixed set of rules?"/>
+<node CREATED="1646073135315" ID="ID_1130535767" MODIFIED="1646073145047" TEXT="This &quot;something else&quot; is what we call structure">
+<node CREATED="1646073145667" ID="ID_1400399878" MODIFIED="1646073147175" TEXT="Which stands"/>
+<node CREATED="1646073150377" ID="ID_696466191" MODIFIED="1646073154366" TEXT="uninfluenced by change"/>
+<node CREATED="1646073156628" ID="ID_387196479" MODIFIED="1646073161429" TEXT="... coming from outside system"/>
+</node>
+<node CREATED="1646073164837" ID="ID_431455062" MODIFIED="1646073170479" TEXT="N&apos;=f(N)"/>
+<node CREATED="1646073175874" ID="ID_1503659688" LINK="#ID_604037623" MODIFIED="1646073207959" TEXT="Goto 1"/>
+</node>
+<node CREATED="1646073222827" ID="ID_61764491" MODIFIED="1646073229905" TEXT="Fundamental system equation">
+<node CREATED="1646073230644" ID="ID_170047985" MODIFIED="1646073242643" TEXT="St+1 = f(St,It)">
+<node CREATED="1646073246445" ID="ID_782578024" MODIFIED="1646073252144" TEXT="Perfectly structureless system"/>
+</node>
+<node CREATED="1646073258274" ID="ID_1799214057" MODIFIED="1646073267743" TEXT="St+1 = It">
+<node CREATED="1646073268088" ID="ID_172709259" MODIFIED="1646073274911" TEXT="System has no &quot;mind of its own&quot;"/>
+</node>
+</node>
+</node>
+<node CREATED="1646073307451" ID="ID_1049813479" MODIFIED="1646073319734" TEXT="Check procedure again">
+<icon BUILTIN="full-6"/>
+<node CREATED="1646073311290" ID="ID_512889751" MODIFIED="1646073315719" TEXT="Prevent observational errors"/>
+</node>
+<node CREATED="1646073322028" ID="ID_790298912" LINK="#ID_1281283504" MODIFIED="1646073355542" TEXT="More than one program or equation determining 7.4">
+<icon BUILTIN="full-7"/>
+<node CREATED="1646073356778" ID="ID_799447817" MODIFIED="1646073359768" TEXT="Looking at white box"/>
+<node CREATED="1646073360113" ID="ID_283771147" MODIFIED="1646073364927" TEXT="... we know it&apos;s correct"/>
+<node CREATED="1646073377018" ID="ID_15011728" MODIFIED="1646073383057" TEXT="Solid foundation for further research">
+<node CREATED="1646073384362" ID="ID_813356952" MODIFIED="1646073395697" TEXT="That&apos;s what generall system thinking"/>
+<node CREATED="1646073388514" ID="ID_17026543" MODIFIED="1646073390479" TEXT="... is all about"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1646073400531" FOLDED="true" ID="ID_1191601960" MODIFIED="1646073406894" TEXT=" Detecting the Presence of Structure">
+<icon BUILTIN="full-4"/>
+<node CREATED="1646073413493" ID="ID_1058216707" MODIFIED="1646238992640" TEXT="Presence of structure when system "/>
+<node CREATED="1646238993411" ID="ID_1852490832" MODIFIED="1646238996295" TEXT="... doesn&apos;t follow the input">
+<node CREATED="1646238953804" ID="ID_714734535" MODIFIED="1646238960511" TEXT="Exact input plot"/>
+<node CREATED="1646238960883" ID="ID_1717126033" MODIFIED="1646238966767" TEXT=" ... and system response"/>
+<node CREATED="1646238967017" ID="ID_1768582795" MODIFIED="1646238972063" TEXT=" ... for structureless system"/>
+</node>
+<node CREATED="1646239001496" ID="ID_394956121" MODIFIED="1646239006756" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1646239027433" ID="ID_565000179" MODIFIED="1646239098528">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="detecting_structure_example.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1646239105386" ID="ID_1485619823" MODIFIED="1646239110479" TEXT="Fundamental laws of mechanics">
+<node CREATED="1646239110851" ID="ID_10228620" MODIFIED="1646239121261" TEXT="How things behave in absence of structure"/>
+<node CREATED="1646239122250" ID="ID_363139754" MODIFIED="1646239129215" TEXT="... or most of structure removal"/>
+<node CREATED="1646239133578" ID="ID_1821803833" MODIFIED="1646239141958" TEXT="Provide the baseline"/>
+<node CREATED="1646239142482" ID="ID_356263647" MODIFIED="1646239147981" TEXT="... against which change can be detected"/>
+</node>
+</node>
+</node>
+<node CREATED="1646239157530" ID="ID_1787688391" MODIFIED="1646239167401" TEXT=" Chapter 8 - The Structure Regulation Law">
+<icon BUILTIN="full-8"/>
+<node CREATED="1646239182114" ID="ID_283881164" MODIFIED="1646239192784" TEXT="The Equivalence of Structure and Input">
+<icon BUILTIN="full-1"/>
+<node CREATED="1646239205675" ID="ID_1165920126" MODIFIED="1646239212973" TEXT="In real world, data has always uncertainty"/>
+<node CREATED="1646239213593" ID="ID_1642834537" MODIFIED="1646239224885" TEXT="The more incertainty">
+<node CREATED="1646239225967" ID="ID_817995183" MODIFIED="1646239229709" TEXT=" ... the more we have to wait"/>
+<node CREATED="1646239230530" ID="ID_1530664956" MODIFIED="1646239234590" TEXT=" ... to distinguish">
+<node CREATED="1646239239826" ID="ID_677669767" MODIFIED="1646239241742" TEXT="2 models"/>
+<node CREATED="1646239242466" ID="ID_575644141" MODIFIED="1646239248190" TEXT=" effect of structure and input"/>
+</node>
+</node>
+<node CREATED="1646239254152" ID="ID_1723494384" MODIFIED="1646239268320" TEXT="Doesn&apos;t matter of model discreptancy&apos;s source">
+<node CREATED="1646239268537" ID="ID_1241246496" MODIFIED="1646239271294" TEXT="input"/>
+<node CREATED="1646239271834" ID="ID_1920238268" MODIFIED="1646239273206" TEXT="structure"/>
+</node>
+<node CREATED="1646239279295" ID="ID_886728441" MODIFIED="1646239281246" TEXT="What matter">
+<node CREATED="1646239281432" ID="ID_848535759" MODIFIED="1646239284718" TEXT="What model can predict"/>
+<node CREATED="1646239285073" ID="ID_30721275" MODIFIED="1646239288341" TEXT="... better overtime"/>
+<node CREATED="1646239290642" ID="ID_470714179" MODIFIED="1646239293309" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1646239297482" ID="ID_575625385" MODIFIED="1646239301910" TEXT="Mental illness"/>
+<node CREATED="1646239302289" ID="ID_47425793" MODIFIED="1646239304420" TEXT="... from">
+<node CREATED="1646239304745" ID="ID_539655388" MODIFIED="1646239307974" TEXT="brain structure?"/>
+<node CREATED="1646239308345" ID="ID_1168433142" MODIFIED="1646239316101" TEXT="input from environment?"/>
+</node>
+</node>
+</node>
+<node CREATED="1646239326993" ID="ID_981801377" MODIFIED="1646239330446" TEXT="Structure is determined"/>
+<node CREATED="1646239332585" ID="ID_775120849" MODIFIED="1646239335476" TEXT="... in term of input">
+<node CREATED="1646239339209" ID="ID_4705896" MODIFIED="1646239346004" TEXT="If you know"/>
+<node CREATED="1646239346233" ID="ID_622297537" MODIFIED="1646239350077" TEXT=" ... what input / output are"/>
+</node>
+<node CREATED="1646239372217" ID="ID_1482113642" MODIFIED="1646239376245" TEXT="Input can be determined"/>
+<node CREATED="1646239376738" ID="ID_1642807926" MODIFIED="1646239379580" TEXT="... in term of structure">
+<node CREATED="1646239385560" ID="ID_1892343383" MODIFIED="1646239387109" TEXT="If you know"/>
+<node CREATED="1646239387559" ID="ID_798209173" MODIFIED="1646239392349" TEXT="... structure and output"/>
+</node>
+<node CREATED="1646239397857" ID="ID_1007160709" MODIFIED="1646239409549" TEXT="Nobody knows it in sense of absolute certainty"/>
+</node>
+<node CREATED="1646239413702" ID="ID_1158061448" MODIFIED="1646239419504" TEXT=" Can a Linear System be Stable">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646239425409" ID="ID_1380634461" MODIFIED="1646239433485" TEXT="Already know that limiting behavior"/>
+<node CREATED="1646239433712" ID="ID_718431971" MODIFIED="1646239443749" TEXT=" ... of single linear aggregate will be exponential"/>
+<node CREATED="1646239445520" ID="ID_983600013" MODIFIED="1646239455141" TEXT="Nt+1=pN1">
+<node CREATED="1646239456937" ID="ID_1024398974" MODIFIED="1646239460421" TEXT="Increase or decrease"/>
+<node CREATED="1646239462260" ID="ID_1905170081" MODIFIED="1646239465525" TEXT="Depending of p">
+<node CREATED="1646239465784" ID="ID_575106520" MODIFIED="1646239471181" TEXT="If p&gt;1 or p&lt;1"/>
+<node CREATED="1646239471601" ID="ID_988399364" MODIFIED="1646239480204" TEXT="if p=1, stable aggregate"/>
+</node>
+</node>
+<node CREATED="1646239484937" ID="ID_888211384" MODIFIED="1646239492052" TEXT="Differenciated aggregates">
+<node CREATED="1646239492888" ID="ID_1124519658" MODIFIED="1646239497804" TEXT="When one grow faster,"/>
+<node CREATED="1646239498087" ID="ID_1554827490" MODIFIED="1646239503997" TEXT=" ... the other one effectively disappear"/>
+</node>
+<node CREATED="1646239511769" ID="ID_330246024" MODIFIED="1646239519117" TEXT="If two aggregates renew constant"/>
+<node CREATED="1646239519864" ID="ID_1006350885" MODIFIED="1646239524404" TEXT="... we have steady behavior">
+<node CREATED="1646239526576" ID="ID_1675343488" MODIFIED="1646239527708" TEXT="Matrix">
+<node CREATED="1646239528088" ID="ID_452679902" MODIFIED="1646239542500" TEXT="1 0"/>
+<node CREATED="1646239531088" ID="ID_817810173" MODIFIED="1646239544764" TEXT="0 1"/>
+</node>
+<node CREATED="1646239551590" ID="ID_1895214908" MODIFIED="1646239553564" TEXT="Another way">
+<node CREATED="1646239553830" ID="ID_943076788" MODIFIED="1646239557165" TEXT="0 1"/>
+<node CREATED="1646239557832" ID="ID_735611521" MODIFIED="1646239559651" TEXT="1 0"/>
+</node>
+<node CREATED="1646239566407" ID="ID_736947577" MODIFIED="1646239575003" TEXT="0 everywhere and single one on each row">
+<node CREATED="1646239576624" ID="ID_1741778886" MODIFIED="1646239583684" TEXT="Permutation matrix"/>
+<node CREATED="1646239589297" ID="ID_762024413" MODIFIED="1646239595412" TEXT="... for succession of states it produces"/>
+<node CREATED="1646239599816" ID="ID_628500172" MODIFIED="1646239606884" TEXT="... aggregate change role at each interval"/>
+</node>
+</node>
+<node CREATED="1646239612680" ID="ID_197006799" MODIFIED="1646239621059" TEXT="Guessing is a good thing, if we check them"/>
+</node>
+<node CREATED="1646239624128" ID="ID_492927134" MODIFIED="1646239631998" TEXT=" Why Linear System are So Popular">
+<icon BUILTIN="full-3"/>
+<node CREATED="1646239633456" ID="ID_1626554553" MODIFIED="1646239637315" TEXT=" Equifinal state">
+<node CREATED="1646239638486" ID="ID_1934495102" MODIFIED="1646239645548" TEXT="State compbound of 3 equal elements"/>
+<node CREATED="1646239645999" ID="ID_402090671" MODIFIED="1646239651987" TEXT="... more or less big"/>
+<node CREATED="1646239652670" ID="ID_256768355" MODIFIED="1646239657408" TEXT="... depending of initial state"/>
+</node>
+<node CREATED="1646239659848" ID="ID_840258721" MODIFIED="1646239674860" TEXT="Any equifinal state can be find in advance"/>
+<node CREATED="1646239675176" ID="ID_724885044" MODIFIED="1646239681780" TEXT=" ... thanks to structure matrix"/>
+<node CREATED="1646239689446" ID="ID_1921448095" MODIFIED="1646239713164" TEXT="In fact, so much can be deduced quantitively"/>
+<node CREATED="1646239718047" ID="ID_1396233963" MODIFIED="1646239725627" TEXT="Because they&apos;re so convenient">
+<node CREATED="1646239725959" ID="ID_744998924" MODIFIED="1646239728139" TEXT="We often forget"/>
+<node CREATED="1646239728559" ID="ID_414267790" MODIFIED="1646239731956" TEXT="... why we use them"/>
+</node>
+<node CREATED="1646239739056" ID="ID_950160741" MODIFIED="1646239747138" TEXT="Often forget that linear structure"/>
+<node CREATED="1646239747944" ID="ID_1116062805" MODIFIED="1646239753547" TEXT="... is separated from its behavior">
+<node CREATED="1646239757158" ID="ID_1342112932" MODIFIED="1646239759337" TEXT="In most system"/>
+<node CREATED="1646239760535" ID="ID_995731127" MODIFIED="1646239764923" TEXT="... separation doesn&apos;t exist"/>
+</node>
+<node CREATED="1646239770783" ID="ID_1399135984" MODIFIED="1646239773427" TEXT="Nice tool to use first">
+<node CREATED="1646239773695" ID="ID_1208657962" MODIFIED="1646239777395" TEXT="... because so easy to use"/>
+<node CREATED="1646239777783" ID="ID_1471525088" MODIFIED="1646239783707" TEXT=" ... to get more info"/>
+</node>
+</node>
+<node CREATED="1646239786408" ID="ID_285848726" MODIFIED="1646239794287" TEXT=" The Structure Regulation Law">
+<icon BUILTIN="full-4"/>
+<node CREATED="1646239795823" ID="ID_260495750" MODIFIED="1646239797594" TEXT=" Separation">
+<node CREATED="1646239798014" ID="ID_1443146322" MODIFIED="1646239800403" TEXT="Structure"/>
+<node CREATED="1646239800719" ID="ID_1357776716" MODIFIED="1646239802379" TEXT=" Behavior"/>
+</node>
+<node CREATED="1646239808502" ID="ID_786153072" MODIFIED="1646239819171" TEXT="... happens when &quot;structure part&quot;"/>
+<node CREATED="1646239819838" ID="ID_804526733" MODIFIED="1646239826081" TEXT=" ... remains relatively stable">
+<node CREATED="1646239828038" ID="ID_279739354" MODIFIED="1646239833834" TEXT="Otherwise, wouldn&apos;t be structure"/>
+</node>
+<node CREATED="1646239839215" ID="ID_967294283" MODIFIED="1646239846651" TEXT="Incessant process of regulation"/>
+<node CREATED="1646239847118" ID="ID_471380144" MODIFIED="1646239858755" TEXT=" ... that makes them stable">
+<node CREATED="1646239861534" ID="ID_253731808" MODIFIED="1646239882275" TEXT="Conversaly, structure make the stability possible"/>
+<node CREATED="1646239882870" ID="ID_206353158" MODIFIED="1646239888083" TEXT=" ... at the first place!"/>
+<node CREATED="1646239891942" ID="ID_197235558" MODIFIED="1646239895482" TEXT="Reciprocal between">
+<node CREATED="1646239899198" ID="ID_823065472" MODIFIED="1646239901267" TEXT="Structure"/>
+<node CREATED="1646239901700" ID="ID_581705905" MODIFIED="1646239903418" TEXT="Behavior"/>
+</node>
+</node>
+<node CREATED="1646239904583" ID="ID_1067532974" MODIFIED="1646239912537" TEXT="Structure Regulation Law">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646239913663" ID="ID_1983994721" MODIFIED="1646239919755" TEXT="Stability is made possible"/>
+<node CREATED="1646239920422" ID="ID_1063270104" MODIFIED="1646239926050" TEXT="... by the process of regulation"/>
+<node CREATED="1646239926543" ID="ID_337963139" MODIFIED="1646239935594" TEXT="Regulation is made possible"/>
+<node CREATED="1646239935847" ID="ID_86328033" MODIFIED="1646239946187" TEXT=" ... by the existence of stability"/>
+</node>
+<node CREATED="1646239950334" ID="ID_509429967" MODIFIED="1646239957000" TEXT="If initial state as cumulative effetcs"/>
+<node CREATED="1646239957398" ID="ID_422832295" MODIFIED="1646239964458" TEXT="... system might become less stable"/>
+<node CREATED="1646240036142" ID="ID_1148383143" MODIFIED="1646240039442" TEXT="Success in engineering">
+<node CREATED="1646240040990" ID="ID_1835197952" MODIFIED="1646240047586" TEXT="Often low sensitivity to real world">
+<node CREATED="1646240050476" ID="ID_1439696097" MODIFIED="1646240085687" TEXT="&quot;accidents&quot;"/>
+<node CREATED="1646240052341" ID="ID_1646276435" MODIFIED="1646240083298" TEXT="&quot;decays&quot;"/>
+</node>
+<node CREATED="1646240057141" ID="ID_1900373106" MODIFIED="1646240064793" TEXT="... often need to sacrifice some &quot;efficiency&quot;"/>
+<node CREATED="1646240065477" ID="ID_1999435162" MODIFIED="1646240078633" TEXT="... for structural stability"/>
+</node>
+<node CREATED="1646240091454" ID="ID_743942500" MODIFIED="1646240094012" TEXT="Fail in programming">
+<node CREATED="1646240095958" ID="ID_1231420271" MODIFIED="1646240107074" TEXT="Often come in ignoring structure"/>
+<node CREATED="1646240112240" ID="ID_1077838219" MODIFIED="1646240114786" TEXT="Regulation law">
+<node CREATED="1646240115069" ID="ID_128629170" MODIFIED="1646240119858" TEXT="Bring efficiency"/>
+<node CREATED="1646240120461" ID="ID_1116988815" MODIFIED="1646240126289" TEXT="... but forget structural stability"/>
+<node CREATED="1646240126629" ID="ID_1401980082" MODIFIED="1646240137049" TEXT=" ... of the matrix (&quot;program&quot;)"/>
+</node>
+<node CREATED="1646240142509" ID="ID_848562453" MODIFIED="1646240144577" TEXT="In other terms">
+<node CREATED="1646240144854" ID="ID_1955309697" MODIFIED="1646240149673" TEXT="Who regulates the regulator?"/>
+</node>
+</node>
+<node CREATED="1646240161102" ID="ID_1340368971" MODIFIED="1646240171793" TEXT="If you think regulated systems are stable"/>
+<node CREATED="1646240172044" ID="ID_549060900" MODIFIED="1646240176399" TEXT=" ... because it&apos;s &quot;like that&quot;"/>
+<node CREATED="1646240176885" ID="ID_227891413" MODIFIED="1646240179154" TEXT=" ... ask yourself">
+<node CREATED="1646240180334" ID="ID_325169681" MODIFIED="1646240184487" TEXT="&quot;Do plants move?&quot;"/>
+<node CREATED="1646240184932" ID="ID_254197786" MODIFIED="1646240188799" TEXT="&quot;Do rocks move?&quot;"/>
+</node>
+<node CREATED="1646240194829" ID="ID_472632288" MODIFIED="1646240196666" TEXT="... they do move">
+<node CREATED="1646240196934" ID="ID_63223120" MODIFIED="1646240207241" TEXT="Even if time scale doesn&apos;t permit"/>
+<node CREATED="1646240207661" ID="ID_1378736065" MODIFIED="1646240213890" TEXT=" ... casual observations"/>
+</node>
+<node CREATED="1646240218045" ID="ID_568318896" MODIFIED="1646240220432" TEXT=" When push a wall">
+<node CREATED="1646240221748" ID="ID_1847504359" MODIFIED="1646240228617" TEXT="It moves"/>
+<node CREATED="1646240229060" ID="ID_339262266" MODIFIED="1646240231777" TEXT="Tiny amount"/>
+<node CREATED="1646240232220" ID="ID_744336403" MODIFIED="1646240244729" TEXT="Come back to initial position (or almost) afterward"/>
 </node>
 </node>
 </node>

@@ -551,8 +551,8 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   └── head_first_statistics
 │       └── head_first_statistics.mm
 ├── system
-│   └── introduction_to_system_thinking
-│       └── introduction_to_system_thinking.mm
+│   └── general_system_thinking
+│       └── general_system_thinking.mm
 ├── teaching_learning
 │   ├── 10_lessons_mit_education.mm
 │   ├── a_mind_for_numbers.mm
