@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1568986214867" ID="ID_1384012147" MODIFIED="1645423063093" TEXT="The Pragmatic Programmer">
+<node CREATED="1568986214867" ID="ID_1384012147" MODIFIED="1646073439734" TEXT="The Pragmatic Programmer">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2077,7 +2077,7 @@
 <node CREATED="1570277110055" ID="ID_1195983136" MODIFIED="1570277111515" TEXT="... it dies"/>
 </node>
 </node>
-<node CREATED="1568986692155" FOLDED="true" ID="ID_959622231" MODIFIED="1587283457875" TEXT="Temporal Coupling">
+<node CREATED="1568986692155" ID="ID_959622231" MODIFIED="1587283457875" TEXT="Temporal Coupling">
 <node CREATED="1570277215223" ID="ID_1874681798" MODIFIED="1570277219675" TEXT="Two different aspects">
 <node CREATED="1570277219888" ID="ID_611814692" MODIFIED="1570277224235" TEXT="Concurrency">
 <node CREATED="1570277239374" ID="ID_628013239" MODIFIED="1570277253595" TEXT="Things possibly happening at the same time"/>
@@ -2143,7 +2143,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1570364499539" FOLDED="true" ID="ID_444923796" MODIFIED="1587283450039" TEXT="Design for concurrency">
+<node CREATED="1570364499539" ID="ID_444923796" MODIFIED="1587283450039" TEXT="Design for concurrency">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1570364514548" ID="ID_71240460" MODIFIED="1570364519254" TEXT="Concurrency">
 <node CREATED="1570364519497" ID="ID_1913581112" MODIFIED="1570364524093" TEXT="Add constraints"/>
