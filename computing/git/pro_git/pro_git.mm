@@ -2067,7 +2067,496 @@
 </node>
 <node CREATED="1646245359230" ID="ID_236847320" MODIFIED="1646245377133" TEXT="The Nuclear Option: filter-branch">
 <icon BUILTIN="full-6"/>
+<node CREATED="1646576906279" FOLDED="true" ID="ID_840124547" MODIFIED="1646576913168" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
 <node CREATED="1646245366701" ID="ID_1269120101" MODIFIED="1646245370137" TEXT="For huge amount of commits"/>
+</node>
+<node CREATED="1646576917637" FOLDED="true" ID="ID_444474671" MODIFIED="1646579914401" TEXT="Removing a File from Every Commit">
+<icon BUILTIN="full-1"/>
+<node CREATED="1646576929651" ID="ID_1370037808" MODIFIED="1646576935600" TEXT="For example a huge binary file"/>
+<node CREATED="1646576953281" ID="ID_983864134" MODIFIED="1646576960326" TEXT="... or a file containing a password">
+<node CREATED="1646576980951" ID="ID_1506336524" MODIFIED="1646577001178" TEXT="git filter-branch --tree-filter &apos;rm -f passwords.txt&apos; HEAD">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646577044841" ID="ID_1771445221" MODIFIED="1646577051333" TEXT="Remove a file names passwords.txt"/>
+<node CREATED="1646577051752" ID="ID_1223054175" MODIFIED="1646577056043" TEXT="... from every snapshot"/>
+<node CREATED="1646577063056" ID="ID_1699103526" MODIFIED="1646577067197" TEXT=" ... if it exists or not"/>
+</node>
+<node CREATED="1646577009356" ID="ID_1633074350" MODIFIED="1646577014186" TEXT="--tree-filter">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646577014609" ID="ID_1526858194" MODIFIED="1646577031916" TEXT="Runs the specified command after each checkout of the project"/>
+<node CREATED="1646577032297" ID="ID_468163477" MODIFIED="1646577035734" TEXT="... and then recommit the result"/>
+</node>
+<node CREATED="1646577098153" ID="ID_1499987817" MODIFIED="1646577107187" TEXT="Generally a good idea to do in a test branch first"/>
+<node CREATED="1646577118153" ID="ID_460790023" MODIFIED="1646577125288" TEXT="Pass --all to do it to all your branches!"/>
+</node>
+<node CREATED="1646577129385" FOLDED="true" ID="ID_142238040" MODIFIED="1646579915209" TEXT="Making a subdirectory the new root">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646577144514" ID="ID_1694997203" MODIFIED="1646577164684" TEXT="New subdirectory of the project the new root for every commit"/>
+<node CREATED="1646577165845" ID="ID_709119096" MODIFIED="1646577177031" TEXT="git filter-branch --subdirectory-filter trunk HEAD">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1646577181713" FOLDED="true" ID="ID_943763815" MODIFIED="1646579916041" TEXT="Changing Emaill Addresses Globally">
+<icon BUILTIN="full-3"/>
+<node CREATED="1646577189912" ID="ID_953466555" MODIFIED="1646577204941" TEXT="In multiple commits"/>
+<node CREATED="1646577216118" ID="ID_1916691600" MODIFIED="1646577237270" TEXT="Needs to use a commit filter to only change yours">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ git filter-branch --commit-filter '
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if [ &quot;$GIT_AUTHOR_EMAIL&quot; = &quot;schacon@localhost&quot; ];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;then
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;GIT_AUTHOR_NAME=&quot;Scott Chacon&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;GIT_AUTHOR_EMAIL=&quot;schacon@example.com&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;git commit-tree &quot;$@&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;git commit-tree &quot;$@&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fi' HEAD
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1646577252695" ID="ID_170416543" MODIFIED="1646577257863" TEXT=" Reset Demystified">
+<icon BUILTIN="full-7"/>
+<node CREATED="1646577293178" FOLDED="true" ID="ID_1907688529" MODIFIED="1646577298773" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1646577267880" ID="ID_373024765" MODIFIED="1646577278329" TEXT="The most confusing commands when you encounter them">
+<node CREATED="1646577278608" ID="ID_676608598" MODIFIED="1646577281392" TEXT="checkout">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646577281663" ID="ID_1951243488" MODIFIED="1646577283185" TEXT="reset">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1646577404046" FOLDED="true" ID="ID_909250280" MODIFIED="1646577409716" TEXT="The Three Trees">
+<icon BUILTIN="full-1"/>
+<node CREATED="1646577415624" ID="ID_1867460589" MODIFIED="1646577426410" TEXT="Easier way to think about reset and checkout"/>
+<node CREATED="1646577448049" ID="ID_1647733187" MODIFIED="1646577453083" TEXT="Tree = collection of files"/>
+<node CREATED="1646577426808" ID="ID_1848075176" MODIFIED="1646577444830" TEXT="Imagine Git as a content manager of three different trees">
+<node CREATED="1646577460852" ID="ID_1232363865" MODIFIED="1646577463781" TEXT="HEAD">
+<icon BUILTIN="full-1"/>
+<node CREATED="1646577464974" ID="ID_1613227783" MODIFIED="1646577472098" TEXT="Last commit snapshot, next parent"/>
+<node CREATED="1646577614976" ID="ID_836040572" MODIFIED="1646577621602" TEXT="Pointer of the current branch reference"/>
+<node CREATED="1646577622107" ID="ID_1404764082" MODIFIED="1646577626881" TEXT="... which is a pointer to the last commit"/>
+<node CREATED="1646577651145" ID="ID_1458786972" MODIFIED="1646577654321" TEXT="To see the snapshot">
+<node CREATED="1646577654603" ID="ID_365644730" MODIFIED="1646577660188" TEXT="git cat-file -p HEAD">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1646577671325" ID="ID_1536374012" MODIFIED="1646577690801" TEXT="Git cat-file and ls-tree commands are &quot;plumbing&quot; commands"/>
+<node CREATED="1646577694892" ID="ID_1831050697" MODIFIED="1646577701630" TEXT="... often used for lowest level things"/>
+</node>
+<node CREATED="1646577474264" ID="ID_195127815" MODIFIED="1646577504101" TEXT="Index">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646577476562" ID="ID_1481745950" MODIFIED="1646577480947" TEXT="Proposed next commit snapshot"/>
+<node CREATED="1646577717486" ID="ID_114108207" MODIFIED="1646577722897" TEXT="Git&apos;s &quot;Staging Area&quot;"/>
+<node CREATED="1646577727684" ID="ID_1741300450" MODIFIED="1646577748668" TEXT="Tree for a new commit"/>
+<node CREATED="1646577752170" ID="ID_366195546" MODIFIED="1646577755761" TEXT="git ls-file -s">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646577767267" ID="ID_1254367963" MODIFIED="1646577771863" TEXT="What the index currently looks like"/>
+</node>
+<node CREATED="1646577775453" ID="ID_1255138826" MODIFIED="1646577784410" TEXT="It&apos;s not a tree structure but a flattened manifest"/>
+</node>
+<node CREATED="1646577481498" ID="ID_1416082440" MODIFIED="1646577497177" TEXT="Working Directory">
+<icon BUILTIN="full-3"/>
+<node CREATED="1646577484958" ID="ID_453758884" MODIFIED="1646577487384" TEXT="sandbox"/>
+<node CREATED="1646577795333" ID="ID_1154810174" MODIFIED="1646577810534" TEXT="Two other trees store their content in .git folder"/>
+<node CREATED="1646577813387" ID="ID_1722250553" MODIFIED="1646577825078" TEXT="Working directory unpack them as actual files"/>
+<node CREATED="1646577835773" ID="ID_1311491509" MODIFIED="1646577855956" TEXT="Can try changing out files before comiting them">
+<node CREATED="1646577856193" ID="ID_181499483" MODIFIED="1646577859345" TEXT="... first to staging area"/>
+<node CREATED="1646577859732" ID="ID_69727079" MODIFIED="1646577863509" TEXT="... then to the history"/>
+</node>
+<node CREATED="1646577869061" ID="ID_909683625" MODIFIED="1646577870332" TEXT="tree">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1646577894524" FOLDED="true" ID="ID_1950934676" MODIFIED="1646577912514" TEXT="The Workflow">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646577927981" ID="ID_946192329" MODIFIED="1646577992158" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1646577993316" ID="ID_633949285" MODIFIED="1646578017505">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="workflow_git.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1646578109572" FOLDED="true" ID="ID_1613423499" MODIFIED="1646578114301" TEXT=" The Role of Reset">
+<icon BUILTIN="full-3"/>
+<node CREATED="1646578115380" ID="ID_1644384924" MODIFIED="1646578137120" TEXT="Directly manipulate the three trees"/>
+<node CREATED="1646578144877" ID="ID_1153436613" MODIFIED="1646578152157" TEXT="Step 1: move HEAD">
+<icon BUILTIN="full-1"/>
+<node CREATED="1646578247789" ID="ID_1991054594" MODIFIED="1646578257340" TEXT="Not same as moving HEAD itself">
+<node CREATED="1646578257619" ID="ID_649434348" MODIFIED="1646578260429" TEXT="What checkout does"/>
+</node>
+<node CREATED="1646578265906" ID="ID_1938388952" MODIFIED="1646578274040" TEXT="Moves the branch that HEAD is pointing to">
+<node CREATED="1646578290314" ID="ID_1957237810" MODIFIED="1646578328404" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1646578293353" ID="ID_252351833" MODIFIED="1646578295486" TEXT="If you&apos;re on master"/>
+<node CREATED="1646578295886" ID="ID_1387433411" MODIFIED="1646578311063" TEXT="If you do git reset 9e5e6a4"/>
+<node CREATED="1646578312450" ID="ID_869324630" MODIFIED="1646578323102" TEXT="... master will point to this commit"/>
+</node>
+</node>
+<node CREATED="1646578338698" ID="ID_260201381" MODIFIED="1646578354453" TEXT="No matter what form of reset, it will try to do that"/>
+<node CREATED="1646578364698" ID="ID_1326583735" MODIFIED="1646578376564" TEXT="git reset --soft">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646578368705" ID="ID_1494048953" MODIFIED="1646578371637" TEXT="Stop at this step"/>
+</node>
+<node CREATED="1646578399133" ID="ID_152300905" MODIFIED="1646578407529" TEXT="git reset --soft HEAD~">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646578408075" ID="ID_1434438359" MODIFIED="1646578418758" TEXT="Reset back to the parent of HEAD"/>
+<node CREATED="1646578419114" ID="ID_61853307" MODIFIED="1646578427911" TEXT="Moving the branch back where it was"/>
+<node CREATED="1646578432115" ID="ID_634547825" MODIFIED="1646578439930" TEXT="... without changing the index of working directory"/>
+<node CREATED="1646578704880" ID="ID_1057644982" MODIFIED="1646578713664" TEXT="Equivalent of --amend if you change something"/>
+</node>
+<node CREATED="1646579111524" ID="ID_1244693579" MODIFIED="1646579115064" TEXT="If you run git status">
+<node CREATED="1646579115339" ID="ID_698001663" MODIFIED="1646579126051" TEXT="See the difference between Index"/>
+<node CREATED="1646579126467" ID="ID_1047338202" MODIFIED="1646579130642" TEXT="... and what the new HEA is"/>
+</node>
+</node>
+<node CREATED="1646579094172" ID="ID_1512038741" MODIFIED="1646579103280" TEXT="Updating the Index (--mixed)">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646579109044" ID="ID_214944111" MODIFIED="1646579147231" TEXT="Update the Index with the contents of whatever snapshot HEAD now point to"/>
+<node CREATED="1646579158211" ID="ID_364522789" MODIFIED="1646579163091" TEXT="By default, stop at this point"/>
+<node CREATED="1646579382812" ID="ID_202475941" MODIFIED="1646579393570" TEXT="Undo your last commit and also unstage everything">
+<node CREATED="1646579398876" ID="ID_1593425910" MODIFIED="1646579401361" TEXT="Roll back before">
+<node CREATED="1646579401557" ID="ID_1482256946" MODIFIED="1646579405788" TEXT="git add">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646579403288" ID="ID_273055035" MODIFIED="1646579406239" TEXT="git commit">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1646579412722" ID="ID_1805173742" MODIFIED="1646579427133" TEXT="Updating the working directory (--hard)">
+<icon BUILTIN="full-3"/>
+<node CREATED="1646579441266" ID="ID_1985391761" MODIFIED="1646579446631" TEXT="If use --hard, continue to this stage"/>
+<node CREATED="1646579455949" ID="ID_1383360294" MODIFIED="1646579462260" TEXT="Only way to make git reset dangerous"/>
+<node CREATED="1646579468892" ID="ID_1417109146" MODIFIED="1646579486056" TEXT="Reset everything, and also your work in the working directory"/>
+</node>
+</node>
+<node CREATED="1646579540428" FOLDED="true" ID="ID_1799208213" MODIFIED="1646579546314" TEXT=" Reset with a Path">
+<icon BUILTIN="full-4"/>
+<node CREATED="1646579553050" ID="ID_1673181772" MODIFIED="1646579555641" TEXT="Skip step 1"/>
+<node CREATED="1646579557981" ID="ID_1283910309" MODIFIED="1646579565931" TEXT=" Limit the action to a set of files">
+<node CREATED="1646579595111" ID="ID_1305167675" MODIFIED="1646579621932" TEXT="git reset file.txt">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646579601724" ID="ID_401714765" MODIFIED="1646579612840" TEXT="Move file.txt from staging area to working directory"/>
+<node CREATED="1646579658972" ID="ID_1256433541" MODIFIED="1646579661607" TEXT="Unstage the file"/>
+<node CREATED="1646579682090" ID="ID_1428596987" MODIFIED="1646579688430" TEXT="Can specify a commit to pull the file from">
+<node CREATED="1646579688699" ID="ID_204203160" MODIFIED="1646579698119" TEXT="git reset eb43bf file.txt">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1646579725860" ID="ID_1580588935" MODIFIED="1646579730689" TEXT="Can accept a --patch option">
+<node CREATED="1646579730932" ID="ID_767736082" MODIFIED="1646579739152" TEXT="Unstage content on a hunk-by-hunk basis"/>
+</node>
+</node>
+<node CREATED="1646579617835" ID="ID_834435574" MODIFIED="1646579633276" TEXT="git reset --hard file.txt">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646579626606" ID="ID_980563683" MODIFIED="1646579632320" TEXT="Delete all modification to file.txt"/>
+</node>
+</node>
+</node>
+<node CREATED="1646579771348" FOLDED="true" ID="ID_1169515977" MODIFIED="1646579776842" TEXT=" Squashing">
+<icon BUILTIN="full-5"/>
+<node CREATED="1646579806058" ID="ID_1418260148" MODIFIED="1646579826646" TEXT="You have three commits"/>
+<node CREATED="1646579826987" ID="ID_1117067899" MODIFIED="1646579836707" TEXT="Second commit has &quot;WIP&quot; as comment and want to squash it"/>
+<node CREATED="1646579837115" ID="ID_634190029" MODIFIED="1646579848803" TEXT="git reset --soft HEAD~2">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646579859153" ID="ID_1890517135" MODIFIED="1646579874861" TEXT="Get every file between commit 1 and 3 in index"/>
+</node>
+</node>
+<node CREATED="1646579901787" ID="ID_1360918156" MODIFIED="1646579907795" TEXT=" Check It Out">
+<icon BUILTIN="full-6"/>
+<node CREATED="1646660305202" ID="ID_1815621739" MODIFIED="1646660323218" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1646660276582" ID="ID_934670012" MODIFIED="1646660288702" TEXT="What&apos;s the difference between reset and checkout?"/>
+<node CREATED="1646660289882" ID="ID_1627143137" MODIFIED="1646660304629" TEXT="Checkout also manipulate the 3 trees"/>
+</node>
+<node CREATED="1646660330881" ID="ID_601931814" MODIFIED="1646660789164" TEXT="Without Paths">
+<icon BUILTIN="full-1"/>
+<node CREATED="1646660338537" ID="ID_1873273059" MODIFIED="1646660340677" TEXT="Similar">
+<node CREATED="1646660341457" ID="ID_1556085110" MODIFIED="1646660367359" TEXT="git checkout &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646660351209" ID="ID_1127171117" MODIFIED="1646660367883" TEXT="git reset --hard &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1646660364071" ID="ID_465449256" MODIFIED="1646660365940" TEXT="Differences">
+<node CREATED="1646660372897" ID="ID_528290569" MODIFIED="1646660457813" TEXT="Checkout is working directory safe">
+<node CREATED="1646660384793" ID="ID_1440832450" MODIFIED="1646660403982" TEXT="Check if it doesn&apos;t revert changed files"/>
+<node CREATED="1646660429072" ID="ID_1008303671" MODIFIED="1646660435604" TEXT="reset --hard doesn&apos;t check anything"/>
+</node>
+<node CREATED="1646660442137" ID="ID_38638416" MODIFIED="1646660454668" TEXT="How they update HEAD">
+<node CREATED="1646660458561" ID="ID_1879373479" MODIFIED="1646660467669" TEXT="reset move the branch the HEAD points to"/>
+<node CREATED="1646660468255" ID="ID_226105155" MODIFIED="1646660477932" TEXT="checkout move HEAD itself to point to another branch"/>
+<node CREATED="1646660498312" ID="ID_1754029383" MODIFIED="1646660589569" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1646660502159" ID="ID_1565217758" MODIFIED="1646660507516" TEXT="We are on develop branch"/>
+<node CREATED="1646660507968" ID="ID_694643783" MODIFIED="1646660514647" TEXT="git reset master">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646660515031" ID="ID_1739119750" MODIFIED="1646660526339" TEXT="develop will point to the same commit as master does"/>
+</node>
+<node CREATED="1646660532647" ID="ID_803788714" MODIFIED="1646660536520" TEXT="git checkout master">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646660536783" ID="ID_695764820" MODIFIED="1646660556507" TEXT="HEAD will move, not develop, and will point to master"/>
+</node>
+<node CREATED="1646660590600" FOLDED="true" ID="ID_1032353414" MODIFIED="1646660593687" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1646660594703" ID="ID_1256047512" MODIFIED="1646660712538">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="diff_reset_checkout.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1646660751302" ID="ID_1753329911" MODIFIED="1646660790606" TEXT="With Paths">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646660809381" ID="ID_1488047067" MODIFIED="1646660814002" TEXT="Similar">
+<node CREATED="1646660814414" ID="ID_782268921" MODIFIED="1646660854002" TEXT="git reset --hard &lt;branch&gt; &lt;file&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646660865493" ID="ID_333775965" MODIFIED="1646660872935" TEXT="Doesn&apos;t exists though :D"/>
+</node>
+<node CREATED="1646660822903" ID="ID_95124936" MODIFIED="1646660856654" TEXT="git checkout &lt;file&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646660911190" ID="ID_618218636" MODIFIED="1646660915450" TEXT="Can use --patch also"/>
+<node CREATED="1646660915814" ID="ID_974911910" MODIFIED="1646660920777" TEXT="... to only revert chunks"/>
+</node>
+</node>
+<node CREATED="1646660893398" ID="ID_164902837" MODIFIED="1646660897170" TEXT="Does not move head"/>
+<node CREATED="1646660885190" ID="ID_470188808" MODIFIED="1646660889034" TEXT="Not working directory safe"/>
+</node>
+</node>
+<node CREATED="1646660935734" ID="ID_599459949" MODIFIED="1646660943524" TEXT="Summary">
+<icon BUILTIN="full-7"/>
+<node CREATED="1646660944150" ID="ID_709565302" MODIFIED="1646660952684" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1646660988181" ID="ID_836961614" MODIFIED="1646660995260">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="reset_summary.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1646661027829" ID="ID_242451132" MODIFIED="1646661038260" TEXT=" Advanced Merging">
+<icon BUILTIN="full-8"/>
+<node CREATED="1646661167115" ID="ID_12425449" MODIFIED="1646661182508" TEXT="Merge Conflicts">
+<icon BUILTIN="full-1"/>
+<node CREATED="1646661239340" ID="ID_143579175" MODIFIED="1646661248560" TEXT="Ensure that your branch is clean before merging">
+<node CREATED="1646661253316" ID="ID_1455128538" MODIFIED="1646661258016" TEXT="Some commands might undo your work"/>
+<node CREATED="1646661258388" ID="ID_496993903" MODIFIED="1646661263392" TEXT="Stash your stuff"/>
+<node CREATED="1646661267627" ID="ID_644647947" MODIFIED="1646661270831" TEXT="Solutions">
+<node CREATED="1646661271138" ID="ID_111110164" MODIFIED="1646661273951" TEXT="Stash your stuff"/>
+<node CREATED="1646661274363" ID="ID_82848678" MODIFIED="1646661280823" TEXT="Commit to a temporary branch"/>
+</node>
+</node>
+</node>
+<node CREATED="1646661306356" ID="ID_1871918356" MODIFIED="1646661314154" TEXT="Aborting a merge">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646661315122" ID="ID_1872982154" MODIFIED="1646661335364" TEXT="git merge --abort">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646661336307" ID="ID_1596626436" MODIFIED="1646661339472" TEXT="Abort a merge"/>
+<node CREATED="1646661345187" ID="ID_624317914" MODIFIED="1646661350661" TEXT="Revert back to your state before the merge"/>
+<node CREATED="1646661354571" ID="ID_142586989" MODIFIED="1646661366751" TEXT="Can not work perfectly if you had changes">
+<node CREATED="1646661367051" ID="ID_682857197" MODIFIED="1646661368839" TEXT="unstashed"/>
+<node CREATED="1646661369260" ID="ID_1572751916" MODIFIED="1646661373077" TEXT="uncommited"/>
+</node>
+</node>
+<node CREATED="1646661397154" ID="ID_1381548235" MODIFIED="1646661425154" TEXT="git reset --hard HEAD">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646661403051" ID="ID_1237119440" MODIFIED="1646661407479" TEXT="Let you start over"/>
+<node CREATED="1646661407874" ID="ID_1584854621" MODIFIED="1646661413710" TEXT="Any uncommited work will be lost"/>
+</node>
+</node>
+<node CREATED="1646661444979" ID="ID_1999499439" MODIFIED="1646661457922" TEXT="Ignoring Whitespace">
+<icon BUILTIN="full-3"/>
+<node CREATED="1646661485003" ID="ID_1468434320" MODIFIED="1646661491663" TEXT="If you see you have a lot of whitespaces issue"/>
+<node CREATED="1646661492536" ID="ID_1671827598" MODIFIED="1646661500511" TEXT=" ... can abort and retry with some params"/>
+<node CREATED="1646661500986" ID="ID_348185292" MODIFIED="1646661532539" TEXT="git merge -Xignore-space-change &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646661558538" ID="ID_1078514453" MODIFIED="1646661564182" TEXT="Sequence of one or more whitespaces"/>
+<node CREATED="1646661564466" ID="ID_1895916941" MODIFIED="1646661567574" TEXT=" ... as equivalent"/>
+</node>
+<node CREATED="1646661533546" ID="ID_1183464284" MODIFIED="1646661548091" TEXT="git merge -Xignore-all-space &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646661551178" ID="ID_85837666" MODIFIED="1646661554820" TEXT="Ignore any whitespace"/>
+</node>
+<node CREATED="1646661582739" ID="ID_1515709636" MODIFIED="1646661598029" TEXT="Life changer if someone changed everything from space to tabs"/>
+</node>
+<node CREATED="1646667737309" ID="ID_802163617" MODIFIED="1646667744588" TEXT="Manual File Re-merging">
+<icon BUILTIN="full-4"/>
+<node CREATED="1646667777302" ID="ID_1513036063" MODIFIED="1646667813346" TEXT="Possibility to run scripts to handle some merge"/>
+<node CREATED="1646667847549" ID="ID_1920869055" MODIFIED="1646667849970" TEXT="Workflow">
+<node CREATED="1646667850228" ID="ID_611539431" MODIFIED="1646668323143" TEXT="Get in merge conflict state">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1646667855845" ID="ID_1731969195" MODIFIED="1646668324189" TEXT="Get copies of either">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646667872317" ID="ID_1718877253" MODIFIED="1646667874362" TEXT="our version"/>
+<node CREATED="1646667877645" ID="ID_152085565" MODIFIED="1646667879642" TEXT="the other version"/>
+<node CREATED="1646667888493" ID="ID_1742991157" MODIFIED="1646667902177" TEXT="Stored in the index under &quot;stages&quot;">
+<node CREATED="1646667905349" ID="ID_1596932957" MODIFIED="1646667907481" TEXT="Stage 1">
+<node CREATED="1646667907685" ID="ID_1660740228" MODIFIED="1646667910433" TEXT="Common ancestor"/>
+<node CREATED="1646668042612" ID="ID_1799436913" MODIFIED="1646668096004" TEXT="git show :1:&lt;file&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1646667911053" ID="ID_1773847626" MODIFIED="1646667912889" TEXT="Stage 2">
+<node CREATED="1646667913181" ID="ID_962191867" MODIFIED="1646667921609" TEXT="Your version"/>
+<node CREATED="1646668042612" ID="ID_744394864" MODIFIED="1646668093851" TEXT="git show :2:&lt;file&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1646667922389" ID="ID_560722810" MODIFIED="1646667924928" TEXT="Stage 3">
+<node CREATED="1646667925276" ID="ID_1879689892" MODIFIED="1646667931585" TEXT="From MERGE_HEAD"/>
+<node CREATED="1646668020100" ID="ID_576682065" MODIFIED="1646668024856" TEXT="The &quot;other&quot; version"/>
+<node CREATED="1646668042612" ID="ID_1023090206" MODIFIED="1646668092717" TEXT="git show :3:&lt;file&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1646668173938" ID="ID_1355753061" MODIFIED="1646668185284" TEXT="Getting the sha of each files">
+<node CREATED="1646668185523" ID="ID_1361979912" MODIFIED="1646668190899" TEXT="git ls-files -u">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1646667880205" ID="ID_1030828337" MODIFIED="1646668325784" TEXT="Fix one of the version">
+<icon BUILTIN="full-3"/>
+<node CREATED="1646668215595" ID="ID_327018640" MODIFIED="1646668222207" TEXT="Now we have the files"/>
+<node CREATED="1646668222601" ID="ID_1908444274" MODIFIED="1646668230119" TEXT="... we can apply whatever we want on one of them"/>
+<node CREATED="1646668434753" ID="ID_1743847499" MODIFIED="1646668438383" TEXT="... and then"/>
+<node CREATED="1646668237346" ID="ID_1946279885" MODIFIED="1646668308654" TEXT="git merge-file -p &lt;our-file&gt; &lt;common&gt; &lt;their-file&gt; &gt; &lt;file&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1646668470361" ID="ID_1642299912" MODIFIED="1646668475672" TEXT="Use git diff">
+<icon BUILTIN="full-4"/>
+<node CREATED="1646668476312" ID="ID_973875282" MODIFIED="1646668486413" TEXT="See what the merge introduced">
+<node CREATED="1646668486633" ID="ID_732171248" MODIFIED="1646668492929" TEXT="git diff --ours">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1646668532550" ID="ID_609329418" MODIFIED="1646668541613" TEXT="To see what change from the other side">
+<node CREATED="1646668541825" ID="ID_726706308" MODIFIED="1646668546033" TEXT="git diff --theirs">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1646668554632" ID="ID_1395385172" MODIFIED="1646668558484" TEXT="From both side">
+<node CREATED="1646668558728" ID="ID_890559633" MODIFIED="1646668564312" TEXT="git diff --base">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1646668576376" ID="ID_811064420" MODIFIED="1646668598231" TEXT="Cleaning up">
+<icon BUILTIN="full-5"/>
+<node CREATED="1646668580079" ID="ID_231010283" MODIFIED="1646668592132" TEXT="Delete the files no longer needed">
+<node CREATED="1646668599663" ID="ID_150737968" MODIFIED="1646668608300" TEXT="the files introduced in 2"/>
+</node>
+<node CREATED="1646668592721" ID="ID_1958525627" MODIFIED="1646668595409" TEXT="git clean -f">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1646668615247" ID="ID_171977643" MODIFIED="1646668625703" TEXT=" Checking Out Conflicts">
+<icon BUILTIN="full-5"/>
+<node CREATED="1646668723847" ID="ID_1899161267" MODIFIED="1646668732891" TEXT="Get more context about the conflict"/>
+<node CREATED="1646668733263" ID="ID_394526666" MODIFIED="1646668816223" TEXT="git checkout --conflict">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646668740745" ID="ID_1203133907" MODIFIED="1646668753627" TEXT="Re-checkout the file again and replace the merge conflict margers"/>
+<node CREATED="1646668757455" ID="ID_1680728729" MODIFIED="1646668764610" TEXT="Reset the markers and try to resolve them again"/>
+<node CREATED="1646668791174" ID="ID_1736477199" MODIFIED="1646668803659" TEXT="Can use &quot;diff3&quot; or &quot;merge&quot; (default)">
+<node CREATED="1646668805247" ID="ID_442728258" MODIFIED="1646668815479" TEXT="git checkout --conflict=diff3 &lt;file&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646668833023" ID="ID_698219829" MODIFIED="1646668858687" TEXT="Add the base on top of the ours and theirs">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1646668871166" ID="ID_1401876416" MODIFIED="1646668874698" TEXT="If you like diff3 format">
+<node CREATED="1646668875118" ID="ID_1098290742" MODIFIED="1646668882674" TEXT="git config --global merge.conflictstyle diff3">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1646668898814" ID="ID_109526457" MODIFIED="1646668904202" TEXT="Fast way to choose one side">
+<node CREATED="1646668904430" ID="ID_677684134" MODIFIED="1646668909959" TEXT="git checkout --ours">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646668910326" ID="ID_42167154" MODIFIED="1646668914839" TEXT="git checkout --theirs">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646668920046" ID="ID_1017885063" MODIFIED="1646668926057" TEXT="Can be useful for binaries"/>
+<node CREATED="1646668941285" ID="ID_525297594" MODIFIED="1646668950401" TEXT="When you only want to use certain files from another branch"/>
+</node>
+</node>
+<node CREATED="1646668954622" ID="ID_1468147724" MODIFIED="1646668958477" TEXT=" Merge Log">
+<icon BUILTIN="full-6"/>
+<node CREATED="1646669063101" ID="ID_1356085608" MODIFIED="1646669084288" TEXT="git log --oneline --left-right HEAD...MERGE_HEAD">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646669088301" ID="ID_1112707425" MODIFIED="1646669092552" TEXT="Full list of all the unique commits"/>
+<node CREATED="1646669093117" ID="ID_1561249232" MODIFIED="1646669105880" TEXT=" ... that were included in either branches involved in merge"/>
+</node>
+<node CREATED="1646669063101" ID="ID_198185711" MODIFIED="1646669130400" TEXT="git log --oneline --left-right --merge">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646669130660" ID="ID_1200544852" MODIFIED="1646669139880" TEXT="Show every commits conflicted on both side"/>
+</node>
+<node CREATED="1646669063101" ID="ID_674756380" MODIFIED="1646669184480" TEXT="git log --oneline --left-right --merge -p">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646669165708" ID="ID_360903834" MODIFIED="1646669173328" TEXT="Get the diffs of the conflicted files"/>
+</node>
+</node>
+<node CREATED="1646669289804" ID="ID_863058747" MODIFIED="1646669294226" TEXT=" Combined Diff Format">
+<icon BUILTIN="full-7"/>
 </node>
 </node>
 </node>
