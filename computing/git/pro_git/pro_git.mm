@@ -4,7 +4,7 @@
 <node CREATED="1629647766747" ID="ID_678038977" MODIFIED="1629647770917" POSITION="right" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 </node>
-<node CREATED="1629647784616" FOLDED="true" ID="ID_1935603771" MODIFIED="1629647808299" POSITION="right" TEXT=" Getting Started">
+<node CREATED="1629647784616" ID="ID_1935603771" MODIFIED="1629647808299" POSITION="right" TEXT=" Getting Started">
 <icon BUILTIN="full-1"/>
 <node CREATED="1629647823248" FOLDED="true" ID="ID_1521125993" MODIFIED="1629648446740" TEXT="About Version Control">
 <icon BUILTIN="full-1"/>
@@ -256,7 +256,7 @@
 <icon BUILTIN="full-8"/>
 </node>
 </node>
-<node CREATED="1629649995031" FOLDED="true" ID="ID_335270706" MODIFIED="1629649998069" POSITION="right" TEXT=" Git Basics">
+<node CREATED="1629649995031" ID="ID_335270706" MODIFIED="1629649998069" POSITION="right" TEXT=" Git Basics">
 <icon BUILTIN="full-2"/>
 <node CREATED="1629649999031" FOLDED="true" ID="ID_1393346430" MODIFIED="1629650349462" TEXT="Getting a Git Repository">
 <icon BUILTIN="full-1"/>
@@ -1048,7 +1048,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1630518858608" FOLDED="true" ID="ID_843404213" MODIFIED="1630518861453" POSITION="right" TEXT=" Git Branching">
+<node CREATED="1630518858608" ID="ID_843404213" MODIFIED="1630518861453" POSITION="right" TEXT=" Git Branching">
 <icon BUILTIN="full-3"/>
 <node CREATED="1631978878753" FOLDED="true" ID="ID_438680786" MODIFIED="1631978884828" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1990,13 +1990,13 @@
 <node CREATED="1645977236501" ID="ID_113876025" MODIFIED="1645977263387" TEXT=" Signing Your Work">
 <icon BUILTIN="full-4"/>
 </node>
-<node CREATED="1645977264141" ID="ID_199270471" MODIFIED="1645977267743" TEXT=" Searching">
+<node CREATED="1645977264141" FOLDED="true" ID="ID_199270471" MODIFIED="1645977267743" TEXT=" Searching">
 <icon BUILTIN="full-5"/>
 <node CREATED="1645977275660" ID="ID_762508794" MODIFIED="1645977282692" TEXT="git grep">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1646243850437" ID="ID_1185454422" MODIFIED="1646243854950" TEXT="Rewriting History">
+<node CREATED="1646243850437" FOLDED="true" ID="ID_1185454422" MODIFIED="1646243854950" TEXT="Rewriting History">
 <icon BUILTIN="full-6"/>
 <node CREATED="1646243960133" ID="ID_599071457" MODIFIED="1646243997372" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -2139,7 +2139,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1646577252695" ID="ID_170416543" MODIFIED="1646577257863" TEXT=" Reset Demystified">
+<node CREATED="1646577252695" FOLDED="true" ID="ID_170416543" MODIFIED="1646577257863" TEXT=" Reset Demystified">
 <icon BUILTIN="full-7"/>
 <node CREATED="1646577293178" FOLDED="true" ID="ID_1907688529" MODIFIED="1646577298773" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -2386,9 +2386,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1646661027829" ID="ID_242451132" MODIFIED="1646661038260" TEXT=" Advanced Merging">
+<node CREATED="1646661027829" FOLDED="true" ID="ID_242451132" MODIFIED="1646661038260" TEXT=" Advanced Merging">
 <icon BUILTIN="full-8"/>
-<node CREATED="1646661167115" ID="ID_12425449" MODIFIED="1646661182508" TEXT="Merge Conflicts">
+<node CREATED="1646661167115" FOLDED="true" ID="ID_12425449" MODIFIED="1646661182508" TEXT="Merge Conflicts">
 <icon BUILTIN="full-1"/>
 <node CREATED="1646661239340" ID="ID_143579175" MODIFIED="1646661248560" TEXT="Ensure that your branch is clean before merging">
 <node CREATED="1646661253316" ID="ID_1455128538" MODIFIED="1646661258016" TEXT="Some commands might undo your work"/>
@@ -2399,7 +2399,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1646661306356" ID="ID_1871918356" MODIFIED="1646661314154" TEXT="Aborting a merge">
+<node CREATED="1646661306356" FOLDED="true" ID="ID_1871918356" MODIFIED="1646661314154" TEXT="Aborting a merge">
 <icon BUILTIN="full-2"/>
 <node CREATED="1646661315122" ID="ID_1872982154" MODIFIED="1646661335364" TEXT="git merge --abort">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -2416,7 +2416,7 @@
 <node CREATED="1646661407874" ID="ID_1584854621" MODIFIED="1646661413710" TEXT="Any uncommited work will be lost"/>
 </node>
 </node>
-<node CREATED="1646661444979" ID="ID_1999499439" MODIFIED="1646661457922" TEXT="Ignoring Whitespace">
+<node CREATED="1646661444979" FOLDED="true" ID="ID_1999499439" MODIFIED="1646661457922" TEXT="Ignoring Whitespace">
 <icon BUILTIN="full-3"/>
 <node CREATED="1646661485003" ID="ID_1468434320" MODIFIED="1646661491663" TEXT="If you see you have a lot of whitespaces issue"/>
 <node CREATED="1646661492536" ID="ID_1671827598" MODIFIED="1646661500511" TEXT=" ... can abort and retry with some params"/>
@@ -2431,7 +2431,7 @@
 </node>
 <node CREATED="1646661582739" ID="ID_1515709636" MODIFIED="1646661598029" TEXT="Life changer if someone changed everything from space to tabs"/>
 </node>
-<node CREATED="1646667737309" ID="ID_802163617" MODIFIED="1646667744588" TEXT="Manual File Re-merging">
+<node CREATED="1646667737309" FOLDED="true" ID="ID_802163617" MODIFIED="1646667744588" TEXT="Manual File Re-merging">
 <icon BUILTIN="full-4"/>
 <node CREATED="1646667777302" ID="ID_1513036063" MODIFIED="1646667813346" TEXT="Possibility to run scripts to handle some merge"/>
 <node CREATED="1646667847549" ID="ID_1920869055" MODIFIED="1646667849970" TEXT="Workflow">
@@ -2507,7 +2507,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1646668615247" ID="ID_171977643" MODIFIED="1646668625703" TEXT=" Checking Out Conflicts">
+<node CREATED="1646668615247" FOLDED="true" ID="ID_171977643" MODIFIED="1646668625703" TEXT=" Checking Out Conflicts">
 <icon BUILTIN="full-5"/>
 <node CREATED="1646668723847" ID="ID_1899161267" MODIFIED="1646668732891" TEXT="Get more context about the conflict"/>
 <node CREATED="1646668733263" ID="ID_394526666" MODIFIED="1646668816223" TEXT="git checkout --conflict">
@@ -2539,7 +2539,7 @@
 <node CREATED="1646668941285" ID="ID_525297594" MODIFIED="1646668950401" TEXT="When you only want to use certain files from another branch"/>
 </node>
 </node>
-<node CREATED="1646668954622" ID="ID_1468147724" MODIFIED="1646668958477" TEXT=" Merge Log">
+<node CREATED="1646668954622" FOLDED="true" ID="ID_1468147724" MODIFIED="1646668958477" TEXT=" Merge Log">
 <icon BUILTIN="full-6"/>
 <node CREATED="1646669063101" ID="ID_1356085608" MODIFIED="1646669084288" TEXT="git log --oneline --left-right HEAD...MERGE_HEAD">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -2555,8 +2555,260 @@
 <node CREATED="1646669165708" ID="ID_360903834" MODIFIED="1646669173328" TEXT="Get the diffs of the conflicted files"/>
 </node>
 </node>
-<node CREATED="1646669289804" ID="ID_863058747" MODIFIED="1646669294226" TEXT=" Combined Diff Format">
+<node CREATED="1646669289804" FOLDED="true" ID="ID_863058747" MODIFIED="1646669294226" TEXT=" Combined Diff Format">
 <icon BUILTIN="full-7"/>
+<node CREATED="1646744670920" ID="ID_1678760697" MODIFIED="1646744680094" TEXT="When in conflict state"/>
+<node CREATED="1646744680859" ID="ID_974023483" MODIFIED="1646744689406" TEXT=" ... git diff only show what&apos;s in conflict">
+<node CREATED="1646744698330" ID="ID_474696348" MODIFIED="1646744704849" TEXT="Useful to see what you still need to solve"/>
+</node>
+<node CREATED="1646744821514" ID="ID_1225424481" MODIFIED="1646744829832" TEXT="Seeing resolved conflicts after the fact">
+<node CREATED="1646744830148" ID="ID_1375390491" MODIFIED="1646744843414" TEXT="git log -p --cc">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646744843667" ID="ID_1496359409" MODIFIED="1646744849313" TEXT="On a merge commit"/>
+<node CREATED="1646744874179" ID="ID_1779073604" MODIFIED="1646744880014" TEXT="Equivalent">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646744880984" ID="ID_779703646" MODIFIED="1646744882625" TEXT="git show">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1646744854410" ID="ID_421365651" MODIFIED="1646744856867" TEXT="git log -p">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646744857009" ID="ID_857294051" MODIFIED="1646744865215" TEXT="Show only page for non-merge commits"/>
+</node>
+</node>
+</node>
+<node CREATED="1646745250680" FOLDED="true" ID="ID_1606442428" MODIFIED="1646745254206" TEXT=" Undoing Merges">
+<icon BUILTIN="full-8"/>
+<node CREATED="1646745279055" ID="ID_1780336355" MODIFIED="1646745287501" TEXT="Merge accidentally a branch to master">
+<node CREATED="1646745290551" ID="ID_1511757656" MODIFIED="1646745355207" TEXT="Illustration">
+<icon BUILTIN="licq"/>
+<node CREATED="1646745355935" ID="ID_437796373" MODIFIED="1646745360061">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="wrong_merge.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1646745370544" ID="ID_436220286" MODIFIED="1646745374652" TEXT="Two ways to approach the problem">
+<node CREATED="1646745374857" ID="ID_1000208293" MODIFIED="1646745696317" TEXT="Fix the references">
+<icon BUILTIN="full-1"/>
+<node CREATED="1646745381320" ID="ID_840330232" MODIFIED="1646745387812" TEXT="If merge exists only on local repository"/>
+<node CREATED="1646745391775" ID="ID_1299383471" MODIFIED="1646745397842" TEXT="Easiest solution is to move the branch"/>
+<node CREATED="1646745401590" ID="ID_425000551" MODIFIED="1646745411324" TEXT="... that they point where you want them to"/>
+<node CREATED="1646745449543" FOLDED="true" ID="ID_619821149" MODIFIED="1646745617499" TEXT="git reset --hard HEAD~">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="licq"/>
+<node CREATED="1646745608796" ID="ID_1708002892" MODIFIED="1646745615598">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="git_reset_merge.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1646745652302" ID="ID_1004334270" MODIFIED="1646745653929" TEXT="Downside">
+<node CREATED="1646745654109" ID="ID_597512242" MODIFIED="1646745657274" TEXT="Rewrite the history"/>
+<node CREATED="1646745661150" ID="ID_131106455" MODIFIED="1646745667307" TEXT="Can be problematic when sharing repo"/>
+<node CREATED="1646745673397" ID="ID_1227848646" MODIFIED="1646745683659" TEXT="If people have other commits, there&apos;s a danger"/>
+</node>
+</node>
+<node CREATED="1646745692212" ID="ID_500863144" MODIFIED="1646745697067" TEXT="Reverse the commit">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646745706798" ID="ID_1772313459" MODIFIED="1646745714987" TEXT="Doing a new commit reverting the change of existing one"/>
+<node CREATED="1646745716893" ID="ID_1179721110" MODIFIED="1646745722758" TEXT="git revert -m 1 HEAD">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646745729197" ID="ID_1253657421" MODIFIED="1646745732913" TEXT="-m 1"/>
+<node CREATED="1646745735414" ID="ID_348508177" MODIFIED="1646745742536" TEXT="... indicate which parent is the mainline"/>
+<node CREATED="1646745742909" ID="ID_1411761969" MODIFIED="1646745749163" TEXT="... which should be kept"/>
+</node>
+<node CREATED="1646745798085" ID="ID_1174796967" MODIFIED="1646745811058" TEXT="Git get confused if you try to merge same branch again"/>
+<node CREATED="1646745844164" ID="ID_589529983" MODIFIED="1646745861112" TEXT="... worst, if new commit on this branch"/>
+<node CREATED="1646745861836" ID="ID_1628232350" MODIFIED="1646745867378" TEXT=" ... Git will only bring them!"/>
+<node CREATED="1646745878444" ID="ID_46758666" MODIFIED="1646745880351" TEXT="Best solution">
+<node CREATED="1646745880588" ID="ID_926215346" MODIFIED="1646745886019" TEXT="Un-revert the merge"/>
+<node CREATED="1646745886436" ID="ID_368001850" MODIFIED="1646745908596" TEXT="git revert ^M">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1646745914284" FOLDED="true" ID="ID_612797014" MODIFIED="1646745918488" TEXT=" Other Types of Merges">
+<icon BUILTIN="full-9"/>
+<node CREATED="1646745950995" ID="ID_431339942" MODIFIED="1646745956665" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1646745938404" ID="ID_859146704" MODIFIED="1646745945378" TEXT="Default merge is the &quot;recursive&quot; strategy"/>
+<node CREATED="1646745946773" ID="ID_770425928" MODIFIED="1646745950191" TEXT="What are the others?"/>
+</node>
+<node CREATED="1646745959884" ID="ID_310518970" MODIFIED="1646746118076" TEXT="Our or Theirs Preference">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1646745998532" ID="ID_692186558" MODIFIED="1646746061932" TEXT="When merging, can favorise one side">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646746046909" ID="ID_655443140" MODIFIED="1646746059406" TEXT="git merge -Xours &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646746046909" ID="ID_869657918" MODIFIED="1646746068455" TEXT="git merge -Xtheirs &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1646746092652" ID="ID_453155282" MODIFIED="1646746121772" TEXT="git merge-file --ours">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646746092652" ID="ID_1802256185" MODIFIED="1646746123364" TEXT="git merge-file --theirs">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646746204938" ID="ID_1186524407" MODIFIED="1646746215766" TEXT="If you don&apos;t even want Git to try to merge from other side">
+<node CREATED="1646746216323" ID="ID_293060941" MODIFIED="1646746223460" TEXT="git merge -s ours &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646746266899" ID="ID_450479740" MODIFIED="1646746282432" TEXT="Trick Git to think that the branch has been already merge"/>
+<node CREATED="1646746224282" ID="ID_1233280912" MODIFIED="1646746235136" TEXT="Can be useful when same things have been modified on two branches"/>
+</node>
+</node>
+<node CREATED="1646746309251" ID="ID_727932455" MODIFIED="1646746315414" TEXT=" Subtree merging">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646746380474" ID="ID_773675474" MODIFIED="1646746388374" TEXT="You have two projects">
+<node CREATED="1646746388721" ID="ID_1192286947" MODIFIED="1646746394597" TEXT="One of the project maps on the subdirectory"/>
+<node CREATED="1646746394954" ID="ID_1207849562" MODIFIED="1646746398389" TEXT=" ... of another project"/>
+</node>
+<node CREATED="1646746412787" ID="ID_1192315826" MODIFIED="1646746417909" TEXT="Subtree merging">
+<node CREATED="1646746418193" ID="ID_1713466229" MODIFIED="1646746425933" TEXT="Git gets that the subdirectory of one"/>
+<node CREATED="1646746426346" ID="ID_1027948206" MODIFIED="1646746430663" TEXT="... is also part of the other"/>
+<node CREATED="1646746431185" ID="ID_1134255564" MODIFIED="1646746440685" TEXT=" ... and merge appropriately"/>
+</node>
+<node CREATED="1646746526250" ID="ID_1701480052" MODIFIED="1646746538287" TEXT="Pull a branch from a project as subdirectory in another">
+<node CREATED="1646746538513" ID="ID_1850810182" MODIFIED="1646746541761" TEXT="git read-tree">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646746548409" ID="ID_740303132" MODIFIED="1646746554660" TEXT="Reads the root tree of one branch"/>
+<node CREATED="1646746566162" ID="ID_564831246" MODIFIED="1646746616684" TEXT="... into current staging area and working directory"/>
+</node>
+<node CREATED="1646746711914" ID="ID_933275629" MODIFIED="1646746739498" TEXT="git read-tree --prefix=&lt;dir/&gt; -u &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646746745561" ID="ID_1075567366" MODIFIED="1646746753334" TEXT="Can get upstream change from there">
+<node CREATED="1646746753569" ID="ID_860731406" MODIFIED="1646746763387" TEXT="git checkout &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646746761344" ID="ID_103158661" MODIFIED="1646746763954" TEXT="git pull">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646746797512" ID="ID_238232241" MODIFIED="1646746802485" TEXT="git checkout master">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646746804856" ID="ID_234569555" MODIFIED="1646746826546" TEXT="git merge --squash -s recursive -Xsubtree=&lt;dir/&gt; &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1646746766304" ID="ID_1917466552" MODIFIED="1646746773406" TEXT="... then can merge changes back in our main branch"/>
+<node CREATED="1646746844153" ID="ID_1880662683" MODIFIED="1646746852092" TEXT="Can also change stuff in your main branch"/>
+<node CREATED="1646746853729" ID="ID_99487570" MODIFIED="1646746858988" TEXT="... and merge it back into your &lt;branch&gt;"/>
+</node>
+<node CREATED="1646746868624" ID="ID_771033697" MODIFIED="1646746873915" TEXT="Somewhat similar to submodules">
+<node CREATED="1646746887001" ID="ID_417009670" MODIFIED="1646746889501" TEXT="Bit more complex"/>
+<node CREATED="1646746889856" ID="ID_711985032" MODIFIED="1646746900276" TEXT="Easier to make mistakes in reintegrating changes"/>
+<node CREATED="1646746900672" ID="ID_638402275" MODIFIED="1646746911228" TEXT="... or accidentally pushing a branch in unrelated repo"/>
+<node CREATED="1646746917920" ID="ID_697034365" MODIFIED="1646746982518" TEXT="To do a diff between subdirectory and branch / subdirectory and main branch">
+<node CREATED="1646746934529" ID="ID_1202437388" MODIFIED="1646746943651" TEXT="git diff-tree -p &lt;branch&gt;">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646746952649" ID="ID_854067689" MODIFIED="1646747004619" TEXT="git diff-tree -p  origin/master">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1646747018791" FOLDED="true" ID="ID_1535629450" MODIFIED="1646747022567" TEXT=" Rerere">
+<icon BUILTIN="full-9"/>
+<node CREATED="1646747027329" ID="ID_541073625" MODIFIED="1646747033036" TEXT="Reuse Recorded Resolution"/>
+<node CREATED="1646747049015" ID="ID_1818398071" MODIFIED="1646747059324" TEXT="Remember a conflict resolution">
+<node CREATED="1646747060688" ID="ID_1350630338" MODIFIED="1646747069954" TEXT=" ... for Git to automatically do it next time"/>
+<node CREATED="1646747074784" ID="ID_1505101875" MODIFIED="1646747078660" TEXT="... for same conflict"/>
+</node>
+<node CREATED="1646747081553" ID="ID_981938277" MODIFIED="1646747121594" TEXT=" Can be useful for long lived branch you&apos;ll need to bring back to master">
+<node CREATED="1646747121792" ID="ID_1919752539" MODIFIED="1646747168907" TEXT="Enable rerere">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1646747127608" ID="ID_1528058814" MODIFIED="1646747169749" TEXT="Attempt the occasional merge">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1646747133495" ID="ID_231348164" MODIFIED="1646747170644" TEXT="Resolve the confllicts">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1646747139543" ID="ID_1290894092" MODIFIED="1646747171387" TEXT="Back out of the merge">
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+<node CREATED="1646747154254" ID="ID_1818915369" MODIFIED="1646747166475" TEXT="... final merge should be easy because rerere will do it for you"/>
+<node CREATED="1646747183216" ID="ID_27607133" MODIFIED="1646747192787" TEXT="Can keep a branch rebased without going through same conflicts"/>
+<node CREATED="1646747202351" ID="ID_1704167055" MODIFIED="1646747211244" TEXT="Merge a branch but decide to rebase it at the end">
+<node CREATED="1646747211551" ID="ID_1686966730" MODIFIED="1646747216828" TEXT="rerere would have recorded the merge"/>
+<node CREATED="1646747217183" ID="ID_1970619731" MODIFIED="1646747221778" TEXT="... and apply it on the rebase"/>
+</node>
+<node CREATED="1646747240640" ID="ID_1189133132" MODIFIED="1646747246825" TEXT="Merge fail because some tests fail">
+<node CREATED="1646747247022" ID="ID_1742940467" MODIFIED="1646747257955" TEXT="rerere will solve the conflicts you&apos;ve already solve"/>
+<node CREATED="1646747258294" ID="ID_1457154206" MODIFIED="1646747265932" TEXT="... when test problem has been fixed"/>
+</node>
+<node CREATED="1646747271327" ID="ID_1624675556" MODIFIED="1646747287242" TEXT="git config --global rerere.enabled true">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1646747335239" ID="ID_1262816446" MODIFIED="1646747342619" TEXT="When in state of merge conflict">
+<node CREATED="1646747342870" ID="ID_329073042" MODIFIED="1646747352227" TEXT="git rerere status">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646747352821" ID="ID_408510506" MODIFIED="1646747358073" TEXT="Recorded file from pre-merge state"/>
+</node>
+<node CREATED="1646747358950" ID="ID_1543752346" MODIFIED="1646747362552" TEXT="git rerere diff">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646747364367" ID="ID_514504666" MODIFIED="1646747374594" TEXT="Current state of resolution"/>
+<node CREATED="1646747374958" ID="ID_341845940" MODIFIED="1646747379713" TEXT="What you started with to resolve"/>
+<node CREATED="1646747380045" ID="ID_609951926" MODIFIED="1646747382953" TEXT="What is the resolution"/>
+</node>
+</node>
+<node CREATED="1646747412748" ID="ID_984440516" MODIFIED="1646747420291" TEXT="&quot;When there is this on one side"/>
+<node CREATED="1646747420717" ID="ID_567938545" MODIFIED="1646747423498" TEXT="... and that on the other"/>
+<node CREATED="1646747423901" ID="ID_918180541" MODIFIED="1646747429153" TEXT="... I should resolve it like this&quot;"/>
+</node>
+<node CREATED="1646747511541" ID="ID_773101857" MODIFIED="1646747517515" TEXT=" Debugging with Git">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-0"/>
+<node CREATED="1646747545956" ID="ID_53055110" MODIFIED="1646747550530" TEXT="File Annotation">
+<icon BUILTIN="full-1"/>
+<node CREATED="1646747572294" ID="ID_45732173" MODIFIED="1646747578990" TEXT="git blame -L 69.82">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646747579285" ID="ID_1478261288" MODIFIED="1646747581906" TEXT="See who did what"/>
+<node CREATED="1646747582236" ID="ID_212908382" MODIFIED="1646747588666" TEXT="... between line 69 to 82"/>
+</node>
+<node CREATED="1646747632595" ID="ID_681861886" MODIFIED="1646747639048" TEXT="Line beginning with ^">
+<node CREATED="1646747648254" ID="ID_707097510" MODIFIED="1646747656880" TEXT="Lines introduced during the repo initial commit"/>
+<node CREATED="1646747657326" ID="ID_1923750521" MODIFIED="1646747661193" TEXT="Never changed since"/>
+</node>
+<node CREATED="1646747702213" ID="ID_898340350" MODIFIED="1646747709438" TEXT="git blame -C">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646747710203" ID="ID_1105975210" MODIFIED="1646747716745" TEXT="If the lines were copied from another files"/>
+<node CREATED="1646747717069" ID="ID_854565150" MODIFIED="1646747721858" TEXT="... Git will try to indicate it!"/>
+<node CREATED="1646747732755" ID="ID_453385032" MODIFIED="1646747753328" TEXT="Useful when decomposing a file into multiple ones"/>
+</node>
+</node>
+<node CREATED="1646747782644" ID="ID_1468042703" MODIFIED="1646747786399" TEXT="Binary Search">
+<icon BUILTIN="full-2"/>
+<node CREATED="1646747787300" ID="ID_1712073859" MODIFIED="1646747789988" TEXT="git bisect">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1646747793964" ID="ID_1764427339" MODIFIED="1646747800865" TEXT="Binary search through commit history"/>
+<node CREATED="1646747801597" ID="ID_58968288" MODIFIED="1646747817352" TEXT="... to help you identify which commit introduced the issue"/>
+</node>
 </node>
 </node>
 </node>
