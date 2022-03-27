@@ -3170,6 +3170,28 @@
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 </node>
+<node CREATED="1647877184994" ID="ID_691563819" MODIFIED="1647877189201" TEXT="Replace">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-3"/>
+<node CREATED="1647877241818" ID="ID_1825457138" MODIFIED="1647877245580" TEXT="replace command">
+<node CREATED="1647877246042" ID="ID_1785619539" MODIFIED="1647877258195" TEXT="Specify an object in Git"/>
+<node CREATED="1647877258544" ID="ID_1109143757" MODIFIED="1647877263493" TEXT="Says &quot;each time you see this object"/>
+<node CREATED="1647877263833" ID="ID_788909250" MODIFIED="1647877274062" TEXT="... pretend it&apos;s another object&quot;"/>
+</node>
+<node CREATED="1647877290089" ID="ID_1240827371" MODIFIED="1647877310784" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1647877292641" ID="ID_727852547" MODIFIED="1647877300333" TEXT="Having a short history for new people"/>
+<node CREATED="1647877300705" ID="ID_1735637885" MODIFIED="1647877305667" TEXT="Having the complete history for data mining"/>
+</node>
+<node COLOR="#338800" CREATED="1647877347912" ID="ID_883837730" MODIFIED="1647877381451" TEXT="pass this one, interesting but... not useful for now">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node CREATED="1647877388913" ID="ID_1413269049" MODIFIED="1647877395189" TEXT=" Credentials storage">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-4"/>
+</node>
 </node>
 <node CREATED="1645290533446" ID="ID_337607465" MODIFIED="1645290539245" POSITION="right" TEXT=" Customizing Git">
 <icon BUILTIN="full-8"/>

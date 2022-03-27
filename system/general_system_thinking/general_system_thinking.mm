@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1615050071886" ID="ID_963020349" MODIFIED="1641226789503" TEXT="Series General System Thinking">
-<node CREATED="1641224953632" FOLDED="true" ID="ID_865726895" MODIFIED="1641225004296" POSITION="right" TEXT=" Introduction to General System Thinking">
+<node CREATED="1641224953632" ID="ID_865726895" MODIFIED="1641225004296" POSITION="right" TEXT=" Introduction to General System Thinking">
 <icon BUILTIN="full-1"/>
 <node CREATED="1621257742869" FOLDED="true" ID="ID_151587739" MODIFIED="1621257793120" TEXT="Preface to silver anniversary edition">
 <node CREATED="1621257796964" ID="ID_316980391" MODIFIED="1624375963171" TEXT="Albert Einstein">
@@ -1822,7 +1822,7 @@
 <node CREATED="1637649671300" ID="ID_987979916" MODIFIED="1637649686624" TEXT=" ... but look at thrid statement of Strong Connection Law!"/>
 </node>
 </node>
-<node CREATED="1634572112283" ID="ID_1631041294" MODIFIED="1634572127661" TEXT=" Chapter 6 - Describing Behavior">
+<node CREATED="1634572112283" FOLDED="true" ID="ID_1631041294" MODIFIED="1634572127661" TEXT=" Chapter 6 - Describing Behavior">
 <icon BUILTIN="full-6"/>
 <node CREATED="1634572128650" FOLDED="true" ID="ID_595291748" MODIFIED="1634572135199" TEXT="Simulation - The White Box">
 <icon BUILTIN="full-1"/>
@@ -2636,7 +2636,7 @@
 </node>
 <node CREATED="1641224988928" ID="ID_1683554464" MODIFIED="1641225005942" POSITION="right" TEXT=" Passive Regulation">
 <icon BUILTIN="full-2"/>
-<node CREATED="1641227411216" FOLDED="true" ID="ID_1519024549" MODIFIED="1641227420807" TEXT=" Preface">
+<node CREATED="1641227411216" ID="ID_1519024549" MODIFIED="1641227420807" TEXT=" Preface">
 <icon BUILTIN="full-0"/>
 <node CREATED="1641227475201" ID="ID_1643343078" MODIFIED="1641227490803" TEXT=" Scientists concerns">
 <node CREATED="1641227435032" ID="ID_836693117" MODIFIED="1641227450973" TEXT="Social scientists concerned by &quot;math anxiety&quot;"/>
@@ -2651,9 +2651,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1641226698156" FOLDED="true" ID="ID_1794993879" MODIFIED="1641226795811" TEXT="Chapter 1 - The Problem of Persistance">
+<node CREATED="1641226698156" ID="ID_1794993879" MODIFIED="1641226795811" TEXT="Chapter 1 - The Problem of Persistance">
 <icon BUILTIN="full-1"/>
-<node CREATED="1641227170784" ID="ID_829713099" MODIFIED="1641228069055" TEXT="Weinberg&apos;s Law of Twins">
+<node CREATED="1641227170784" FOLDED="true" ID="ID_829713099" MODIFIED="1641228069055" TEXT="Weinberg&apos;s Law of Twins">
 <icon BUILTIN="full-1"/>
 <node CREATED="1641227577672" ID="ID_1911362384" MODIFIED="1641227587493" TEXT="Best prediction for any system in next instant">
 <node CREATED="1641227590823" ID="ID_1081796705" MODIFIED="1641227609364" TEXT="Doing just what hey were doing"/>
@@ -2680,35 +2680,39 @@
 <node CREATED="1641227997623" ID="ID_1260425309" MODIFIED="1641228008692" TEXT="... about explanation of social continuity"/>
 </node>
 </node>
-<node CREATED="1641227178857" ID="ID_638763351" MODIFIED="1641228071341" TEXT="The Continuity Taboo">
+<node CREATED="1641227178857" FOLDED="true" ID="ID_638763351" MODIFIED="1641228071341" TEXT="The Continuity Taboo">
 <icon BUILTIN="full-2"/>
 <node CREATED="1641231466204" ID="ID_1750803851" MODIFIED="1641231476281" TEXT="Social scientists motivated by">
 <node CREATED="1641231477756" ID="ID_1344401485" MODIFIED="1641231487896" TEXT="... deep concern of quality of human existance"/>
 <node CREATED="1641231489701" ID="ID_65170090" MODIFIED="1641231495889" TEXT="... much more than any other science"/>
 </node>
 <node CREATED="1641231500444" ID="ID_1353559148" MODIFIED="1641231522609" TEXT=" Nowadays, society seen as static and prone social continuity">
-<node CREATED="1641231526516" ID="ID_831392864" MODIFIED="1641231542718" TEXT="Discontinuity due to new generations"/>
-<node CREATED="1641231543884" ID="ID_1686559342" MODIFIED="1641231549800" TEXT="... is taboo"/>
+<node CREATED="1641231526516" ID="ID_831392864" MODIFIED="1648381446270" TEXT="Discontinuity due to new generations is taboo"/>
 <node CREATED="1641231555764" ID="ID_654650988" MODIFIED="1641231560929" TEXT=" New generation needs to continue society"/>
 <node CREATED="1641231561445" ID="ID_1969399250" MODIFIED="1641231574218" TEXT=" Don&apos;t ask themselves why"/>
 </node>
 <node CREATED="1641231587597" ID="ID_1349123132" MODIFIED="1641231613089" TEXT="Humans need to deal with ways we see &quot;existence&quot;">
 <node CREATED="1641231613645" ID="ID_330485608" MODIFIED="1641231617049" TEXT="Case for many systems"/>
-<node CREATED="1641231618348" ID="ID_520419388" MODIFIED="1641231633264" TEXT=" We see them because they solved pb of existence"/>
+<node CREATED="1641231618348" ID="ID_520419388" MODIFIED="1648381613447" TEXT=" We see them ">
+<node CREATED="1648381614028" ID="ID_979473720" MODIFIED="1648381618022" TEXT="... because they solved pb of existence"/>
 <node CREATED="1641231642660" ID="ID_14219785" MODIFIED="1641231646529" TEXT=" ... for a time"/>
-<node CREATED="1641231638172" ID="ID_1789718510" MODIFIED="1641231677289" TEXT=" We don&apos;t have opportunity to observe a system"/>
-<node CREATED="1641231668261" ID="ID_418142348" MODIFIED="1641231688529" TEXT=" ... that didn&apos;t manage to survive for a while"/>
+</node>
+<node CREATED="1641231638172" ID="ID_1789718510" MODIFIED="1641231677289" TEXT=" We don&apos;t have opportunity to observe a system">
+<node CREATED="1648381625857" ID="ID_869649657" MODIFIED="1648381630645" TEXT="... that didn&apos;t manage to survive"/>
+<node CREATED="1648381631105" ID="ID_1402987968" MODIFIED="1648381635582" TEXT="... for a while"/>
+</node>
 </node>
 <node CREATED="1641231692812" ID="ID_1756731461" MODIFIED="1641231738650" TEXT=" Question beyond sheer existence are more interesting">
 <node CREATED="1641231711437" ID="ID_771545438" MODIFIED="1641231727921" TEXT="If we rarely wrestle"/>
 <node CREATED="1641231739405" ID="ID_1909867346" MODIFIED="1641231747146" TEXT=" ... with questions of survival"/>
 </node>
-<node CREATED="1641231756925" ID="ID_333964479" MODIFIED="1641231759857" TEXT=" Get useful information"/>
-<node CREATED="1641231760157" ID="ID_417596960" MODIFIED="1641231766073" TEXT=" ... if we know what question to ask"/>
-<node CREATED="1641231767741" ID="ID_1120402948" MODIFIED="1641231775417" TEXT=" What better to preserve social continuity"/>
-<node CREATED="1641231776157" ID="ID_1993337041" MODIFIED="1641231787105" TEXT=" ... by teaching questions not to ask?"/>
+<node CREATED="1641231756925" ID="ID_333964479" MODIFIED="1648381674708" TEXT=" Get useful information if we know what to ask"/>
+<node CREATED="1641231767741" ID="ID_1120402948" MODIFIED="1641231775417" TEXT=" What better to preserve social continuity">
+<node CREATED="1648381681121" ID="ID_900072930" MODIFIED="1648381691797" TEXT="... by teaching questions"/>
+<node CREATED="1648381692209" ID="ID_559211275" MODIFIED="1648381695923" TEXT="... not to ask?"/>
 </node>
-<node CREATED="1641231799541" ID="ID_688337178" MODIFIED="1641231808442" TEXT=" The general system approach to continuity">
+</node>
+<node CREATED="1641231799541" FOLDED="true" ID="ID_688337178" MODIFIED="1641231808442" TEXT=" The general system approach to continuity">
 <icon BUILTIN="full-3"/>
 <node CREATED="1641231885566" ID="ID_510951369" MODIFIED="1641231898353" TEXT="To get interest, it&apos;s not only about question">
 <node CREATED="1641231905471" ID="ID_1236538079" MODIFIED="1641231907840" TEXT="To ask"/>
@@ -2756,9 +2760,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1641232425372" FOLDED="true" ID="ID_1908627167" MODIFIED="1641232433092" TEXT=" Chapter 2 - Aggregates">
+<node CREATED="1641232425372" ID="ID_1908627167" MODIFIED="1641232433092" TEXT=" Chapter 2 - Aggregates">
 <icon BUILTIN="full-2"/>
-<node CREATED="1641232437803" FOLDED="true" ID="ID_1114450545" MODIFIED="1641281458309" TEXT="The First Law of Aggregates">
+<node CREATED="1641232437803" ID="ID_1114450545" MODIFIED="1641281458309" TEXT="The First Law of Aggregates">
 <icon BUILTIN="full-1"/>
 <node CREATED="1641232443355" ID="ID_1860405229" MODIFIED="1641232490176" TEXT="From grand strategy of stability"/>
 <node CREATED="1641232491757" ID="ID_1898173301" MODIFIED="1641232499656" TEXT=" ... redundancy is the most common"/>
@@ -2772,7 +2776,7 @@
 <node CREATED="1641232835011" ID="ID_1780820082" MODIFIED="1641232949526" TEXT="Pieces in games">
 <node CREATED="1641232838643" ID="ID_1362818473" MODIFIED="1641232854583" TEXT="Specific critical minimum set of pieces"/>
 <node CREATED="1641232855219" ID="ID_706306060" MODIFIED="1641232866015" TEXT=" Most of our universal experience has less precise limits"/>
-<node CREATED="1641232874299" ID="ID_76771971" MODIFIED="1641232937274" TEXT="If set of pieces is long enough">
+<node CREATED="1641232874299" ID="ID_76771971" MODIFIED="1648383028224" TEXT="If set of pieces is big enough">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1641232882699" ID="ID_20268460" MODIFIED="1641232902911" TEXT=" ... we won&apos;t perceive them as pieces all"/>
 <node CREATED="1641232905851" ID="ID_348538057" MODIFIED="1641232923421" TEXT=" Example">
@@ -2803,7 +2807,7 @@
 </node>
 </node>
 <node CREATED="1641281578452" ID="ID_581546903" MODIFIED="1641281588944" TEXT=" &quot;Pure&quot; aggregates">
-<node CREATED="1641281591204" ID="ID_1696695835" MODIFIED="1641281603296" TEXT="Lake is not &quot;pure&quot; aggregate">
+<node CREATED="1641281591204" ID="ID_1696695835" MODIFIED="1648383190706" TEXT="A lake is not a &quot;pure&quot; aggregate">
 <node CREATED="1641281605021" ID="ID_262018767" MODIFIED="1641281615359" TEXT="One of its aggregate variable"/>
 <node CREATED="1641281616421" ID="ID_524871012" MODIFIED="1641281623416" TEXT=" ... dominate our perceptions"/>
 <node CREATED="1641281625924" ID="ID_1858416218" MODIFIED="1641281640384" TEXT="But water support many other systems"/>
@@ -2812,7 +2816,8 @@
 <node CREATED="1641281652532" ID="ID_1377982330" MODIFIED="1641281662401" TEXT=" Idea is not exactly the same for different persons"/>
 <node CREATED="1641281666588" ID="ID_1594653977" MODIFIED="1641281672040" TEXT=" Pure aggregate systems are rare">
 <node CREATED="1641281675956" ID="ID_1721178090" MODIFIED="1641281680471" TEXT="More true deeper we dig"/>
-<node CREATED="1641281683588" ID="ID_1426224004" MODIFIED="1641281686496" TEXT="Example">
+<node CREATED="1641281683588" ID="ID_1426224004" MODIFIED="1648383260761" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1641281688427" ID="ID_1187373648" MODIFIED="1641281693256" TEXT="From forest to molecule"/>
 </node>
 </node>
@@ -2833,7 +2838,7 @@
 <node CREATED="1641281808755" ID="ID_1786041143" MODIFIED="1641281814126" TEXT="... individuals in aggregate"/>
 </node>
 </node>
-<node CREATED="1641281825914" FOLDED="true" ID="ID_1323472786" MODIFIED="1641281845618" TEXT="Birth and Deaths - The Fundamental Aggregate Equation">
+<node CREATED="1641281825914" ID="ID_1323472786" MODIFIED="1641281845618" TEXT="Birth and Deaths - The Fundamental Aggregate Equation">
 <icon BUILTIN="full-2"/>
 <node CREATED="1641281906738" ID="ID_1174560642" MODIFIED="1641281915811" TEXT="Aggregates are everywhere">
 <node CREATED="1641281917873" ID="ID_490236224" MODIFIED="1641281927254" TEXT="Basis for lowest level of stability"/>
@@ -2866,7 +2871,7 @@
 <node CREATED="1642261951177" ID="ID_982541870" MODIFIED="1642261955460" TEXT="Interaction with outside"/>
 </node>
 </node>
-<node CREATED="1642261966993" ID="ID_665179705" MODIFIED="1642261973885" TEXT="To examine behavior ot N overtime">
+<node CREATED="1642261966993" ID="ID_665179705" MODIFIED="1648384356163" TEXT="To examine behavior to N overtime">
 <node CREATED="1642261974213" ID="ID_810809000" MODIFIED="1642261992545" TEXT="Rule governing survival or existing members">
 <icon BUILTIN="full-1"/>
 </node>
@@ -2908,9 +2913,9 @@
 <node CREATED="1642262275640" ID="ID_517273878" MODIFIED="1642262277956" TEXT=" ... what to gather"/>
 </node>
 </node>
-<node CREATED="1642262284408" FOLDED="true" ID="ID_420623529" MODIFIED="1642262296799" TEXT=" Differential Equations and Chronological Graphs">
+<node CREATED="1642262284408" ID="ID_420623529" MODIFIED="1642262296799" TEXT=" Differential Equations and Chronological Graphs">
 <icon BUILTIN="full-3"/>
-<node CREATED="1642262310656" FOLDED="true" ID="ID_1108047365" MODIFIED="1642262402660" TEXT="Fundamental equation">
+<node CREATED="1642262310656" ID="ID_1108047365" MODIFIED="1642262402660" TEXT="Fundamental equation">
 <node CREATED="1642262317207" ID="ID_1324727116" MODIFIED="1642262321123" TEXT="Aid for non-mathematician"/>
 <node CREATED="1642262325991" ID="ID_192906121" MODIFIED="1642262329468" TEXT=" ... to understand maths"/>
 <node CREATED="1642262331793" ID="ID_1720221188" MODIFIED="1642262339649" TEXT=" Example">
@@ -2939,17 +2944,17 @@
 </node>
 </node>
 </node>
-<node CREATED="1642262700621" FOLDED="true" ID="ID_652907407" MODIFIED="1642262706064" TEXT="Fundamental aggregate equation">
+<node CREATED="1642262700621" ID="ID_652907407" MODIFIED="1648386764874" TEXT="Fundamental aggregate equation">
 <node CREATED="1642262706966" ID="ID_1926377373" MODIFIED="1642262718912" TEXT="N&apos; = B - D"/>
 <node CREATED="1642262719998" ID="ID_1910222456" MODIFIED="1642262724659" TEXT="&quot;The rate at which N changes"/>
 <node CREATED="1642262726030" ID="ID_1165459629" MODIFIED="1642262751442" TEXT=" ... is equal to the rate of births"/>
 <node CREATED="1642262752102" ID="ID_1974052011" MODIFIED="1642262765585" TEXT=" ... minus the rate of deaths&quot;"/>
 </node>
-<node CREATED="1642262773663" FOLDED="true" ID="ID_79119726" MODIFIED="1642262778914" TEXT=" Equation deals with change">
+<node CREATED="1642262773663" ID="ID_79119726" MODIFIED="1642262778914" TEXT=" Equation deals with change">
 <node CREATED="1642262779373" ID="ID_228583667" MODIFIED="1642262786025" TEXT="Also called differentials"/>
 <node CREATED="1642262786662" ID="ID_1902606853" MODIFIED="1642262793274" TEXT=" ... so differentials equations"/>
 </node>
-<node CREATED="1642262800462" FOLDED="true" ID="ID_439444319" MODIFIED="1642262811760" TEXT=" Intimate relationship between">
+<node CREATED="1642262800462" ID="ID_439444319" MODIFIED="1642262811760" TEXT=" Intimate relationship between">
 <node CREATED="1642262812165" ID="ID_1361597581" MODIFIED="1642262818402" TEXT="differential equation"/>
 <node CREATED="1642262818886" ID="ID_987357222" MODIFIED="1642262828930" TEXT=" chronological graphs"/>
 </node>
@@ -3730,7 +3735,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1643648122878" ID="ID_743441393" MODIFIED="1643648152499" TEXT=" Chapter 5 - Modeling Differentiated Aggregates">
+<node CREATED="1643648122878" FOLDED="true" ID="ID_743441393" MODIFIED="1643648152499" TEXT=" Chapter 5 - Modeling Differentiated Aggregates">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-5"/>
 <node CREATED="1644336804890" FOLDED="true" ID="ID_1681903318" MODIFIED="1644337515703" TEXT="The State Vector">
@@ -4037,7 +4042,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1644857451176" ID="ID_956834570" MODIFIED="1644857470199" TEXT=" Chapter 6 - Programs for Models of Differentiated Aggregates">
+<node CREATED="1644857451176" FOLDED="true" ID="ID_956834570" MODIFIED="1644857470199" TEXT=" Chapter 6 - Programs for Models of Differentiated Aggregates">
 <icon BUILTIN="full-6"/>
 <node CREATED="1644857697191" FOLDED="true" ID="ID_690677083" MODIFIED="1644857702863" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -4403,7 +4408,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1646068187043" ID="ID_595994950" MODIFIED="1646068205330" TEXT=" Chapter 7 - Structure and Behavior">
+<node CREATED="1646068187043" FOLDED="true" ID="ID_595994950" MODIFIED="1646068205330" TEXT=" Chapter 7 - Structure and Behavior">
 <icon BUILTIN="full-7"/>
 <node CREATED="1646071949647" FOLDED="true" ID="ID_874936717" MODIFIED="1646071952543" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -4633,8 +4638,7 @@
   <body>
     <img src="detecting_structure_example.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1646239105386" ID="ID_1485619823" MODIFIED="1646239110479" TEXT="Fundamental laws of mechanics">
@@ -4645,7 +4649,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1646239157530" ID="ID_1787688391" MODIFIED="1646239167401" TEXT=" Chapter 8 - The Structure Regulation Law">
+<node CREATED="1646239157530" FOLDED="true" ID="ID_1787688391" MODIFIED="1646239167401" TEXT=" Chapter 8 - The Structure Regulation Law">
 <icon BUILTIN="full-8"/>
 <node CREATED="1646239182114" ID="ID_283881164" MODIFIED="1646239192784" TEXT="The Equivalence of Structure and Input">
 <icon BUILTIN="full-1"/>
