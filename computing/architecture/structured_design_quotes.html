@@ -1,0 +1,1455 @@
+<!-- Saved from https://www.win.tue.nl/~wstomv/quotes/structured-design.html at 2022-03-31T07:38:40Z using monolith v2.6.1 -->
+<!DOCTYPE html><html><head>
+<title>`Structured Design' by Yourdon and Constantine</title>
+<link rel="icon" href="data:image/vnd.microsoft.icon;base64,AAABAAIAEBAAAAEACABoBQAAJgAAACAgAAABABgAqAwAAI4FAAAoAAAAEAAAACAAAAABAAgAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAA////APv6+gCphG4AnXVaAKJ8YQCNX0MA7OTaAKB4YQDv6eMA7ufiAKN8ZQC9r5wAz8O2ANXEtQCMXDQAbTAHAMq1ogBZFQAA5NnPAOPXzQBjIwAAmYFlAKyLbgCATiwAYyEAAObc0wDl29IAay4FAPTz8ACjjnQAmG1MAIdWMgD9/v0AqoVoAH9KJgBjIgAA6N7VAOnh1wBqLQQA1cu/AMW4qADPuqkAekIcAKiDZgCIVzQAqINlAH1IJADi1soAyrakAGYpAACmknYA/P38AMGnkwCATCUA6N/YAK2KbQCDUC4Av6WSAF8fAABgIAAAyrOjAJZ8XgB7RBsAcTgOAMy2pgDm4NkArJmCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBQgAAAAAAADc4AAA5Ojs8AD0AAD4/QAAtLgAAES8wMQAyMzQ1JDYAISIAACMkJSYAJygpKissABYXAAAYGRobABwdAB4fIA0ODxAAERITFAAAFQAAAAACAwQFBgcICQoAAAsMAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAYAAAAAACADAAAAAAAAAAAAAAAAAAAAAAAAP////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////39/dTJvaCKb+vn4f////////////////////////////////////////////////7+/fz7+vv6+f39/P////////////////////7+/fz7+vz7+vz7+v38+////////////tPIu4ptTeji3P////////////////7+/v37+/v6+fz6+f7+/v///////////+bb06N9XotbPcy3p/79/f////////////n39MKplpNoRo1fPo1ePptyVNXDtPz7+v///+jj3I90VNLGuv79/f////////7+/s25p5FjQYZVNYpbOL6jjvDq5f///////9zNwX9KH2YnALiahP79/P////////7+/tbGt2suB2gqBXlEF3U9D2cpAHE2D9jIu/////r5+KmVe6qVfPf18////////+Xa0Xc+FXtGHJpyT5ZqSZluUezj2////////93Ow4FNI2YnALueiP79/f///////+7n4pdsSmQkAJpxUNrMwNXFt4FPJmYnAKqIa////////9bMv41zUerl3v////38+5pzUmsvBcixnvfz8PXx7e7n4fz7+v///////93Ow4JOJGYnALueiP79/f///////+ng2otaN2krAMSrl////////62LcGcoAJ95WP/+/v///+3o45F3V8/GuP79/fj084lYMWwwAKB3V6+NcbKSebSWfdbFuP///////93Ow4JOJGYnALueiP79/f///////+rh2o5eOG0xALeZf////////rmchGUlAaR/X/7+/v////Xz8aiUe6iUe/j29Pr594lYMGorAJxzUa+OcoBLIWcoALWYfv///////93Pw4JOJGYoALueiP79/f///////+rh2o5eOG0xALaZgP///v/+/reZgGUlAKWAYf7+/f////38/MK0oZJ4WPPw7P///62LbmcnALyhiuHTyI5fPXI3EeHVyf///////9vMwYFPJWYoALqdiP79/f///////+ng2o5eOG0wALaZgP/+/v/+/reZgWUmAKSAYf7+/f///////9TMv4xxT+nk3v///+/p44RRLGsvAH9JH2kqAL2ijv39/P///////+HVyoBNIWYnALyijf///////////+nf2o1eOG0wALaZgP/+/v/+/reZgWUmAKWAYf7+/f///////+fi3JR7XczBsf39/P///+fe1sqzosCmktbGufn29P////n29Pj18t3Pw4BLH2QlALaYf/Xx7vn39P///+jf24xbOG4xALaZgP/+/v/+/reZgWUmAKWAYf7+/f////////f29LWkkKKMcPj29P////////79/f38+////////////7ibhJhvS41eN280BGgqAH1GG5RoQ6B5XNvMv/Pu64ZUN2svALSWff/+/v/+/rWWfmMjAKJ8Xf7+/f////////7+/tnRxo90VeLc1P///////////////////////////5lvVWwuCGwvCW81DHA2DGwwCGkrB2svCrGSdfLt6Y1cRG80C7eZgf7+/v/+/rWWgGgpDKN8Xv7+/v///////////+/r5pF4Wca5qfz7+v///////////////////////+zj3d/SyOLVzOLWzOLWzOLVzOHVy+DSyO3l3/r49+nf2N7RxvDq5f////////Dr5t7QyO3l3/////////////////b08bCdhqyZgff18/////////////////////////////////////////////////////////////////////////////////////////////////////////////////7+/vDs5+vm4P38/P///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"></link></head>
+<body bgcolor="#ffffff">
+<h1><em>Structured Design</em> by Yourdon and Constantine</h1>
+Selected quotes from
+<blockquote>
+<a href="http://www.yourdon.com/">Edward Yourdon</a> and Larry L. Constantine.<br>
+<em>Structured Design: Fundamentals of a Discipline of Computer Program
+  and System Design</em><br>
+Prentice-Hall, 1979 (Facsimile edition 1986).<br>
+ISBN 0-13-854471-9
+[<a href="http://www.amazon.com/exec/obidos/ISBN=0138544719/theinternationscA/">See this book at Amazon.com</a>]<br>
+</blockquote>
+compiled by <a href="http://www.win.tue.nl/~wstomv/">Tom Verhoeff</a> in July 2000.
+<b>Bold face</b> emphasis is mine.
+
+<h2>Table of Contents</h2>
+<table>
+<tbody><tr>
+<th align="RIGHT">Section I</th>
+<th><a href="#I">CONCEPT</a></th>
+<td align="RIGHT">1</td>
+</tr>
+<tr>
+<td align="RIGHT">1</td>
+<td><a href="#1">Toward Program Engineering</a></td>
+<td align="RIGHT">3</td>
+</tr>
+<tr>
+<td align="RIGHT">2</td>
+<td><a href="#2">Basic Concepts of Structured Design</a></td>
+<td align="RIGHT">17</td>
+</tr>
+<tr>
+<td align="RIGHT">3</td>
+<td><a href="#3">The Structure of Computer Programs</a></td>
+<td align="RIGHT">30</td>
+</tr>
+<tr>
+<td align="RIGHT">4</td>
+<td><a href="#4">Structure and Procedure</a></td>
+<td align="RIGHT">48</td>
+</tr>
+<tr>
+<th align="RIGHT">Section II</th>
+<th><a href="#II">FOUNDATION</a></th>
+<td align="RIGHT">65</td>
+</tr>
+<tr>
+<td align="RIGHT">5</td>
+<td><a href="#5">Human Information Processing and Program Simplicity</a></td>
+<td align="RIGHT">67</td>
+</tr>
+<tr>
+<td align="RIGHT">6</td>
+<td><a href="#6">Coupling</a></td>
+<td align="RIGHT">84</td>
+</tr>
+<tr>
+<td align="RIGHT">7</td>
+<td><a href="#7">Cohesion</a></td>
+<td align="RIGHT">105</td>
+</tr>
+<tr>
+<th align="RIGHT">Section III</th>
+<th>TECHNIQUE</th>
+<td align="RIGHT">143</td>
+</tr>
+<tr>
+<td align="RIGHT">8</td>
+<td><a href="#8">The Morphology of Simple Systems</a></td>
+<td align="RIGHT">145</td>
+</tr>
+<tr>
+<td align="RIGHT">9</td>
+<td><a href="#9">Design Heuristics</a></td>
+<td align="RIGHT">165</td>
+</tr>
+<tr>
+<td align="RIGHT">10</td>
+<td><a href="#10">Transform Analysis</a></td>
+<td align="RIGHT">187</td>
+</tr>
+<tr>
+<td align="RIGHT">11</td>
+<td><a href="#11">Transaction Analysis</a></td>
+<td align="RIGHT">235</td>
+</tr>
+<tr>
+<td align="RIGHT">12</td>
+<td><a href="#12">Alternative Design Strategies</a></td>
+<td align="RIGHT">245</td>
+</tr>
+<tr>
+<th align="RIGHT">Section IV</th>
+<th>PRAGMATICS</th>
+<td align="RIGHT">257</td>
+</tr>
+<tr>
+<td align="RIGHT">13</td>
+<td><a href="#13">Communication in Modular Systems</a></td>
+<td align="RIGHT">259</td>
+</tr>
+<tr>
+<td align="RIGHT">14</td>
+<td><a href="#14">Packaging</a></td>
+<td align="RIGHT">276</td>
+</tr>
+<tr>
+<td align="RIGHT">15</td>
+<td><a href="#15">Optimization of Modular Systems</a></td>
+<td align="RIGHT">290</td>
+</tr>
+<tr>
+<th align="RIGHT">Section V</th>
+<th>EXTENSIONS</th>
+<td align="RIGHT">305</td>
+</tr>
+<tr>
+<td align="RIGHT">16</td>
+<td><a href="#16">A Typology of Systems Components</a></td>
+<td align="RIGHT">307</td>
+</tr>
+<tr>
+<td align="RIGHT">17</td>
+<td><a href="#17">Recursive Structures</a></td>
+<td align="RIGHT">318</td>
+</tr>
+<tr>
+<td align="RIGHT">18</td>
+<td><a href="#18">Homologous and Incremental Structures</a></td>
+<td align="RIGHT">331</td>
+</tr>
+<tr>
+<th align="RIGHT">Section VI</th>
+<th>THE REAL WORLD</th>
+<td align="RIGHT">351</td>
+</tr>
+<tr>
+<td align="RIGHT">19</td>
+<td><a href="#19">Structure and Program Quality</a></td>
+<td align="RIGHT">353</td>
+</tr>
+<tr>
+<td align="RIGHT">20</td>
+<td><a href="#20">Implementation of Modular Systems</a></td>
+<td align="RIGHT">375</td>
+</tr>
+<tr>
+<td align="RIGHT">21</td>
+<td><a href="#21">The Management Milieu</a></td>
+<td align="RIGHT">395</td>
+</tr>
+<tr>
+<th align="RIGHT"></th>
+<th>APPENDICES</th>
+<td align="RIGHT"></td>
+</tr>
+<tr>
+<td align="RIGHT">A.</td>
+<td>Structure Charts: A Guide</td>
+<td align="RIGHT">409</td>
+</tr>
+<tr>
+<td align="RIGHT">B.</td>
+<td>Summary of Standard Graphics for Program Structure Charts</td>
+<td align="RIGHT">437</td>
+</tr>
+<tr>
+<td align="RIGHT"></td>
+<td><a href="#Glossary">Glossary</a></td>
+<td>445</td>
+</tr>
+<tr>
+<td align="RIGHT"></td>
+<td>Index</td>
+<td>485</td>
+</tr>
+</tbody></table>
+
+<h2><a name="I">I.</a> CONCEPT</h2>
+
+<dl compact="">
+<dt>p. 1
+</dt><dd>For most of the computer systems ever developed,
+  the structure was not methodically laid out in advance ---
+  it just happened.
+  The total collection of pieces and their interfaces with each other
+  typically have not been planned systematically.
+  <em>Structured design,</em> therefore, answers questions that have
+  never been raised in many data processing organizations.
+  <p>
+</p></dd></dl>
+
+<h2><a name="1">1.</a> Toward Program Engineering</h2>
+
+<dl compact="">
+<dt>p. 7
+</dt><dd>[T]he <b>systems designer</b> accomplishes what some organizations call
+  ``<b>general systems design</b>'':
+  designing the major elements of the data base, the major componennts of
+  the system, and the interfaces between them.
+  Ideally, the final product of the systems designer is a document
+  describing this structural design;
+  ... we will introduce the notion of <em>structure charts</em>
+  as a convenient means of documenting the structural design of
+  a program or a system.
+ <p>
+</p></dd><dt>p. 8
+</dt><dd><em>Structured design</em> is the art of designing the <b>components</b>
+  of a system and the <b>interrelationship</b> between those components in the
+  best possible way.
+  <p>
+  <em>Structured design</em> is the process of deciding which components
+  interconnected in which way will solve some well-specified problem.
+  </p><p>
+  ``<b>Design</b>'' means to plan or mark out the form and method of a solution.
+  </p><p>
+</p></dd><dt>p. 13
+</dt><dd>[O]ur overall technical objective function is made up of
+  varying amounts of (emphasis on) <b>efficiency</b>, <b>maintainability</b>,
+  <b>modifiability</b>, <b>generality</b>, <b>flexibility</b>, and <b>utility</b>. ...
+  For them to be usable in an engineering sense by the designer,
+  we will have to develop some objective measure or characterization
+  of each and to show just how each is influenced by various isolated
+  design decisions and overall design practices.
+  <p>
+</p></dd></dl>
+
+<h2><a name="2">2.</a> Basic Concepts of Structured Design</h2>
+
+<dl compact="">
+<dt>p. 17
+</dt><dd>[I]t is insufficient, in most cases, for the designer to consider
+  <em>a</em> solution, <em>a</em> design.
+  He should <b>evaluate several alternate designs</b> and choose the <em>best</em>
+  --- best in the sense of maximizing such technical objectives as
+  efficiency, reliability, and maintainability while satisfying such
+  design constraints as memory size and response time.
+  <p>
+</p></dd><dt>p. 18
+</dt><dd>Successful design is based on a principle known since the days of
+  Julius Caesar: <b>Divide and conquer</b>.
+  <p>
+</p></dd><dt>p. 20
+</dt><dd>Implementation, maintenance, and modification [costs] generally will be
+  minimized when <em>each piece of the system corresponds to exactly
+  one small, well-defined piece of the problem, and each relationship
+  between a system's pieces corresponds only to a relationship between
+  pieces of the problem.</em>
+  <p>
+</p></dd><dt>p. 21
+</dt><dd>[G]ood design is an exercise in <em>partitioning</em>
+  and <em>organizing</em> the pieces of a system.
+  <p>
+  By <b>partitioning</b> we mean the division of the problem into smaller
+  subproblems, so that each subproblem will eventually correspond to
+  a piece of the system.
+  The questions are: Where and how should we divide the problem?
+  Which aspects of the problem belong in the same part of the system,
+  and which aspects belong in different parts?
+  Structured design answers these questions with two basic principles:
+  </p><p>
+  </p><ul>
+  <li>Highly interrelated parts of the problem should be in the same
+    piece of the system, i.e., things that belong together should go
+    together.
+    <p>
+  </p></li><li>Unrelated parts of the problem should reside in unrelated pieces
+    of the system.
+    That is, things that have nothing to do with one another don't belong
+    together.
+    <p>
+  </p></li></ul>
+  ...
+  <p>
+  The other major aspect of structured design is <b>organization</b> of the system.
+  That is, we must decide how to interrelate the parts of the system,
+  and we must decide which parts belong where in relation to each other.
+  </p><p>
+</p></dd><dt>p. 22
+</dt><dd>The concept of a black box is a very powerful one,
+  both in engineering and in software design.
+  A <b>black box</b> is a system (or equivalently, a component)
+  with known inputs, known outputs, and, generally, a known transform,
+  but with unknown (or irrelevant) contents.
+  The box is black --- we cannot see inside it.
+  <p>
+  Black boxes have numerous interesting properties,
+  the most important of which is that we can use them.
+  A true black box is a system which can be fully exploited
+  [by knowing the interface and]
+  without knowledge of what is inside it.
+  </p><p>
+</p></dd><dt>p. 24
+</dt><dd>How [black boxes] may be used [in design] is best
+  understood in terms of a ``<b>rule of black boxes</b>,''
+  which may be thought of as a general-purpose design heuristic:
+  <blockquote>
+  Whenever a function or capability is seen as being required during
+  the design of a system, define it as a black box and make use of it in
+  the system without concern for its structural or methodological
+  realization.
+  </blockquote>
+  Eventually, of course, each such invoked black box must in turn
+  be designed, a process which may give rise to more black boxes and so on.
+  <p>
+</p></dd></dl>
+
+<h2><a name="3">3.</a> The Structure of Computer Programs</h2>
+
+<dl compact="">
+<dt>p. 30
+</dt><dd>A computer program is a system.
+  We noted ... that <em>structure</em> --- components and interrelationships among
+  components --- is an essential, often neglected property of computer programs.
+  But just what are the components of computer programs and how are they related?
+  <p>
+</p></dd><dt>p. 31
+</dt><dd>At the most elementary (and safest) level, we observe that computer
+  programs are, by definition, composed of <b>statements</b>.
+  These statements are arranged (another way of saying <em>structured</em>)
+  in a sequence.
+  <p>
+</p></dd><dt>p. 33
+</dt><dd>The term <em>monolithic</em> refers to any system or portion of a
+  system which consists of pieces so highly interrelated that they
+  behave like a single piece.
+  <p>
+  ...
+  </p><p>
+  [I]t is all but impossible to simplify significantly the structure
+  of an existing program or system through <b>after-the-fact modularization</b>.
+  Once reduced to code, the structural complexity of a system is
+  essentially fixed.
+  It is, thus, clear, that simple structures must be designed that way
+  from the beginning.
+  </p><p>
+</p></dd><dt>p. 37
+</dt><dd><em>A module is a lexically contiguous sequence of program statements,
+  bounded by boundary elements, having an aggregate identifier.</em>
+  Another way of saying this is taht a module is a bounded,
+  contiguous group of statements having a single name by which it
+  can be referred to as a unit.
+  <p>
+</p></dd><dt>p. 41
+</dt><dd>It is important to keep in mind that the existence of a reference
+  does not necessarly mean that a referent will be accessed.
+  <p>
+</p></dd><dt>p. 43
+</dt><dd>A number of design principles and strategies in this book will
+  require us to study the flow of <em>data</em> through the program
+  or system.
+  Hence, we need a method of restating the problem itself
+  (i.e. ``functional requirements'' or ``system specifications'')
+  in a manner that emphasizes the <b>data flow</b> and de-emphasizes ...
+  the procedural aspects of the problem.
+  ...
+  <p>
+  The data-oriented technique that we will use is called
+  <em>data flow graph</em>.
+  The same model is also known as a <em>data flow diagram</em> [DFD],
+  or a <em>program graph</em> or even a ``bubble chart.''
+  The elements of the data flow graph are called <em>transforms</em>
+  and are represented graphically by small circles (or ``bubbles'' ...).
+  ... [T]he transforms represent transformations of data ...
+  from one form to another form.
+  The data elements are represented by labeled arrows connecting
+  one transform bubble to another.
+  </p><p>
+</p></dd></dl>
+
+<h2><a name="4">4.</a> Structure and Procedure</h2>
+
+<dl compact="">
+<dt>p. 48
+</dt><dd>Neophytes and veterans alike often find it difficult to comprehend
+  the difference between <b>procedure</b> and <b>structure</b> in computer programs and systems.
+  ... [N.B. The term `procedure' is not defined, and it neither appears in
+  the glossary nor in the index.]
+  <p>
+  Every computer system has structure ---
+  that is, it is made up of components that are interconnected.
+  ...
+  Regardless of how a system was developed, whether its structure was
+  designed or determined by accident, we can document the modular structure.
+  </p><p>
+</p></dd><dt>p. 64
+</dt><dd>[A] <b>flowchart</b> is a model of the procedural flow of a program,
+  whereas a <b>structure chart</b> is a time-independent model of the
+  hierarchical relationships of modules within a program or system.
+  <p>
+</p></dd></dl>
+
+<h2><a name="II">II.</a> FOUNDATION</h2>
+
+<dl compact="">
+<dt>p. 65
+</dt><dd>Our approach to structured design is based on a formal,
+  though not (as yet) mathematical, theory of the complexity of
+  computer systems and programs.
+  In our view, the cost of systems development is a function of problem
+  and program complexity as measured in terms of human error.
+  For a given problem, the human error production and, therefore,
+  the cost of coding, debugging, maintenance, and modification are
+  minimized when the problem is subdivided into the smallest functional
+  units that can be treated independently.
+  <p>
+</p></dd></dl>
+
+<h2><a name="5">5.</a> Human Information Processing and Program Simplicity</h2>
+
+<dl compact="">
+<dt>p. 67
+</dt><dd>An understanding of the <b>basic economic structure</b> of the systems
+  development process is essential in developing better,
+  more efficient methods of systems production ---
+  as well as better, more efficient systems.
+  <p>
+</p></dd><dt>p. 68
+</dt><dd>[<b>T</b>]<b>esting and debugging</b> account for most of the cost of systems
+  development;
+  the common estimate is that 50 percent of a data processing project
+  is devoted to these activities.
+  ...
+  [T]he true <b>cost of debugging</b> is the cost of everything the programmer&nbsp;/
+  analyst does in the development of a system beyond what would be necessary
+  if he made no mistakes; ...
+  <p>
+  That most of the cost of systems development today is due to errors
+  is not something to be denied, but rather an insight to be traded upon.
+  Indeed, this is so vital that no theory of programming or programs,
+  no technique or practice for programming or systems design,
+  which does not give central recognition to the role of bugs and debugging,
+  can be of much value in the practical amelioration of the pains in the field.
+  </p><p>
+</p></dd><dt>p. 69
+</dt><dd>[W]e find that we can increase the complexity of the problem
+  from <em>very</em> trivial to trivial to not-quite-so-trivial
+  with a correspondingly small increase in the number of errors ---
+  but sooner or later, the errors begin to increase more rapidly.
+  ...
+  <p>
+  The psychologist-mathematician George Miller,
+  in a summary of a very large body of research, first described the
+  <b>human information processing limitations</b> that give rise to this effect.
+  It appears that people can metnally juggle, deal with, or keep track of
+  only about seven objects, entities, or concepts at a time.
+  In effect, the immediate recirculating memory needed for problem-solving
+  with multiple elements has a capacity of about 7±2 entities.
+  Above that number, errors in the process increase disproportionately.
+  </p><p>
+</p></dd><dt>p. 70
+</dt><dd>The <b>Fundamental Theorem of Software Engineering</b> ... [b]asically ...
+  says that we can win if we divide any task into independent subtasks.
+  <p>
+</p></dd><dt>p. 72--73
+</dt><dd>[W]e ... emphasize the following:
+  <p>
+  </p><ul>
+  <li>The cost of developing most systems is largely the cost of debugging them.
+    <p>
+  </p></li><li>The cost of debugging is essentially equivalent to the cost of errors
+    committed by the programmer&nbsp;/ analyst.
+    <p>
+  </p></li><li>The number of errors committed during the design, coding, and
+    debugging of a system rises non-linearly as the complexity
+    (which may be thought of as roughly equal to the size) of the system increases.
+    <p>
+  </p></li><li>Complexity can be decreased
+    (and, thus, errors and the cost of developing the system)
+    by breaking the problem into smaller and smaller pieces,
+    so long as these pieces are relatively independent of each other.
+    <p>
+  </p></li><li>Eventually, the process of breaking pieces of the system into
+    smaller pieces will create more complexity than it eliminates,
+    because of intermodule dependencies ---
+    but this point does not occur as quickly as most designers would like to believe.
+    <p>
+  </p></li></ul>
+  A final word of caution is in order:
+  Whenever we talk of improvements in design, or potential savings in costs,
+  there will always be an implied qualification.
+  We assume <b>equal quality of implementation</b>.
+  It is possible to do a sufficiently poor job of implementing a plan or
+  design so as to exceed any arbitrary limit in cost, time, or any
+  measure of dysfunctionality of the solution.
+  That is to say, there is always some programmer bad enough to screw up
+  even the best design!
+  <p>
+</p></dd><dt>p. 81
+</dt><dd>The human limits in processing nested information are even sharper
+  than in dealing with linear, sequential information.
+  ... the human ``push-down stack'' can get overloaded at only two or
+  three levels of nesting.
+</dd></dl>
+
+<h2><a name="6">6.</a> Coupling</h2>
+
+<dl compact="">
+<dt>p. 85
+</dt><dd>The key question is:
+  <b>How much of one module must be known in order to
+  understand another module?</b>
+  <em>The more that we must know of module B in order to understand module A,
+  the more closely connected A is to B.</em>
+  The fact that we must know something about another module is a priori
+  evidence of some degree of interconnection even if the <em>form</em>
+  of the interconnection is not known.
+  <p>
+  ...
+  </p><p>
+  The measure that we are seeking is known as <em>coupling</em>;
+  it is a measure of the <em>strength</em> of interconnection. ...
+  Obviously, what we are striving for is <b>loosely coupled systems</b> ---
+  that is, systems in which one can study (or debug, or maintain)
+  any one module without having to know very much about any other modules
+  in the system.
+  </p><p>
+  Coupling as an abstract concept ---
+  the degree of interdependence between modules ---
+  may be operationalized as the probability that in coding, debugging,
+  or modifying one module, a programmer will have to take into account
+  something about another module.
+  </p><p>
+</p></dd><dt>p. 86
+</dt><dd>Four major aspects of computer systems can increase or decrease
+  intermodular coupling.
+  In order of estimated magnitude of their effect on coupling, these are
+  <p>
+  </p><ul>
+  <li><em>Type of connection between modules.</em> ...
+    <p>
+  </p></li><li><em>Complexity of the interface.</em> ...
+    <p>
+  </p></li><li><em>Type of information flow along the connection.</em> ...
+    <p>
+  </p></li><li><em>Binding time of the connection.</em> ...
+    <p>
+  </p></li></ul>
+  <p>
+</p></dd><dt>p. 99
+</dt><dd>The concept of coupling invites the development of a reciprocal concept:
+  <em>decoupling.</em>
+  <b>Decoupling</b> is any systematic method or technique by which modules
+  can be made more independent.
+  <p>
+</p></dd></dl>
+
+<h2><a name="7">7.</a> Cohesion</h2>
+
+<dl compact="">
+<dt>p. 105
+</dt><dd>We already have seen that the choice of modules in a system
+  is not arbitrary.
+  The manner in which we physically divide a system into pieces
+  (particularly in relation to the <em>problem</em> structure)
+  can affect significantly the structural complexity of the resulting system,
+  as well as the total number of intermodular references.
+  Adapting the system's design to the problem structure
+  (or ``application structure'') is an extremely important design philosophy;
+  we generally find that problematically related processing elements
+  translate into highly interconnected code.
+  Even if this were not true,
+  structures that tend to group together highly interrelated elements
+  (from the viewpoint of the <em>problem</em>, once again)
+  tend to be more effectively modular.
+  <p>
+</p></dd><dt>p. 106
+</dt><dd>[T]he most effectively modular system is the one for which the
+  sum of <b>functional relatedness</b> between pairs of elements
+  <em>not in the same module</em> is minimized;
+  among other things, this tends to minimize the required number
+  of intermodular connections and the amount of intermodular coupling.
+  <p>
+  ``Intramodular functional relatedness'' is a clumsy term.
+  What we are considering is the <em>cohesion</em> of each module in isolation ---
+  how tightly bound or related its internal elements are to one another.
+  </p><p>
+  ...
+  </p><p>
+  Clearly, cohesion and coupling are interrelated.
+  The greater the cohesion of individual modules in the system,
+  the lower the coupling between modules will be. ...
+  </p><p>
+  Both coupling and cohesion are powerful tools in the design of
+  modular structures, but of the two, cohesion emerges from extenisve practice
+  as more important.
+  </p><p>
+</p></dd></dl>
+
+<h2><a name="8">8.</a> The Morphology of Simple Systems</h2>
+
+<dl compact="">
+<dt>p. 155
+</dt><dd>One of the most obvious morphological features is <b>depth</b> ---
+  that is, the number of <em>levels</em> in the hierarchy.
+  <p>
+</p></dd><dt>p. 157
+</dt><dd>Rather than dealing with such primitive measures as depth and width,
+  we might consider the <em>overall</em> morphology of the system.
+  Based on observations of a large number of systems
+  during the past several years,
+  we find that most well-designed systems have a shape of ... a <b>mosque</b>.
+  <p>
+  ... Note that the mosque shape characteristically has a higher fan-out
+  in the high-level modules, and higher fan-in in the bottom-level modules.
+  </p><p>
+</p></dd><dt>p. 162
+</dt><dd>Of the morphological factors relating to systems simplicity,
+  the morphology known as <b>transform-centered</b> organization is the most important.
+  The transform-centered model ... is highly factored, hence, quite deep
+  for the number of atomic modules.
+  Afferent and efferent branches are somewhat balanced;
+  hence, the model is neither input-driven nor output-driven. ...
+  In the fully factored form,
+  this structure involves at each level a single transformation or set of
+  alternative transformations performed by subordinate transform modules,
+  whose inputs are supplied by the last subordinate afferent modules
+  (on the afferent side),
+  or whose outputs are fed to the next subordinate efferent modules
+  (on the efferent side). ...
+  <p>
+  ... It was derived empirically from a careful review of the morphology of systems,
+  comparing systems that had proven to be cheap to implement, to maintain,
+  and to modify with ones that had been expensive. ...
+  The study ... produced what came to be called the transform-centered model.
+  Most of the cheap systems had it; none of the costly systems did!
+  Since then, of course, support for highly factored transform-centered design
+  has become widespread, and is based on both experience and numerous studies.
+  </p><p>
+</p></dd></dl>
+
+<h2><a name="9">9.</a> Design Heuristics</h2>
+
+<dl compact="">
+<dt>p. 166
+</dt><dd><b>Module size</b>:
+  For most purposes ... modules much larger than one hundred statements
+  are outside the optimal range with respect to the economy of
+  error commission and correction.
+  <p>
+</p></dd><dt>p. 171
+</dt><dd><b>Fan-out</b>, or <em>span of control,</em> is the number of immediate subordinates
+  of a module...
+  As with module size, very high or very low spans are possible indicators
+  of poor design.
+  <p>
+</p></dd><dt>p. 172
+</dt><dd>Whenever possible, we wish to maximize <b>fan-in</b> durin the design process.
+  Fan-in is the <em>raison d'être</em> of modularity:
+  Each instance of multiple fan-in means that some duplicate code has been avoided.
+  <p>
+</p></dd><dt>p. 175
+</dt><dd>The <b>scope of effect of a decision</b> is the collection of
+  all modules containing any processing that is conditional upon that decision.
+  If even a tiny part of the processing in a module is influenced by the decision,
+  then the entire module is included in the scope of effect.
+  <p>
+</p></dd><dt>p. 178
+</dt><dd>The <b>scope of control of a module</b> is the module itself and
+  <em>all</em> of its subordinates.
+  Scope of control is a purely structural parameter independent of the module's functions.
+  <p>
+  Now we can state a design heuristic that involves both scope of control
+  and scope of effect:
+  </p><blockquote>
+    <em>For any given decision, the scope of effect should be a subset of
+    the scope of control of the module in which the decision is located.</em>
+  </blockquote>
+  In other words, all of the modules that are affected, or influenced,
+  by a decision should be subordinate ultimately to the module that makes
+  the decision.
+  <p>
+</p></dd><dt>p. 185
+</dt><dd>It must be emphasized that this chapter has discussed <em>heuristics,</em>
+  not religious rules.
+  Heuristics such as module size, span of control, and scope of effect&nbsp;/
+  scope of control can be extremely valuable if properly used,
+  but actually can lead to poor design if interpreted too literally.
+  <p>
+</p></dd></dl>
+
+<h2><a name="10">10.</a> Transform Analysis</h2>
+
+<dl compact="">
+<dt>p. 187
+</dt><dd>[S]ystems whose morphology --- or overall shape --- [is] <b>transform-centered</b>
+  tend to be associated with low development costs, low maintenance costs,
+  and low modification costs.
+  ... [S]uch low-cost systems tend to be highly factored;
+  that is, the high-level modules make most of the decisions,
+  and the low-level modules accomplish most of the detailed work.
+  <p>
+  <em>Transform analysis,</em> or <em>transform-centered design,</em>
+  is a <b>strategy for deriving initial structural designs</b> that
+  are quite good (with respect to modularity) and generally require only a modest
+  restructuring to arrive at a final design.
+  </p><p>
+</p></dd><dt>p. 188
+</dt><dd>Overall, the purpose of the strategy is to identify the <b>primary processing
+  functions</b> of the system, the <b>high-level inputs</b> to those functions,
+  and the <b>high-level outputs</b>. ...
+  [T]ransform analysis is an <em>information flow</em> model
+  rather than a procedural model.
+  <p>
+  The transform analysis strategy consists of the following four major steps:
+  </p><p>
+  </p><ol>
+  <li>restating the problem as a data flow graph
+    <p>
+  </p></li><li>identifying the afferent and efferent data elements
+    <p>
+  </p></li><li>first-level factoring
+    <p>
+  </p></li><li>factoring of afferent, efferent, and transform branches
+    <p>
+  </p></li></ol>
+  <p>
+</p></dd><dt>p. 192
+</dt><dd>We ... define <em>afferent data elements</em> as follows:
+  <blockquote>
+    <em>Afferent data elements are those high-level elements of data
+    that are furthest removed from physical input,
+    yet still constitute inputs to the system.</em>
+  </blockquote>
+  <p>
+  Thus, afferent data elements are the highest level of abstraction
+  to the term ``<b>input to the system</b>.''
+  </p><p>
+</p></dd><dt>p. 194
+</dt><dd>Beginning at the other end with the physical outputs,
+  we try to identify the <em>efferent data elements</em> ...
+  those furthest removed from the physical output which may
+  still be regarded as outgoing.
+  Such elements might be regarded as ``<b>logical output data</b>''
+  that have just been produced by the ``<b>main processing</b>''
+  part of the system ...
+  <p>
+</p></dd><dt>p. 195
+</dt><dd>Three distinct substrategies are used to factor the three types of
+  subordinate modules (afferent, efferent, and transform)
+  into lower-level subordinates. ...
+  It is not necessary to completely factor one branch down to the lowest
+  level of detail before working on another branch,
+  but it is important to <b>identify all of the immediate subordinates</b>
+  of any given module before turning to any other module.
+  <p>
+</p></dd><dt>p. 222
+</dt><dd>The transform-centered strategy still requires judgement and
+  common sense on the part of the designer; it does <em>not</em> reduce
+  design to a series of mechanical steps.
+  <p>
+</p></dd></dl>
+
+<h2><a name="11">11.</a> Transaction Analysis</h2>
+
+<dl compact="">
+<dt>p. 223
+</dt><dd>[T]ransform analysis will be <em>the</em> guiding influence on the designer for
+  most systems.
+  However, ... additional strategies can be used to supplement ... transform analysis.
+  <p>
+  <b>Transaction analysis</b> is suggested by data flow graphs ...
+  where a transform splits an input data stream into several discrete output substreams.
+  </p><p>
+</p></dd><dt>p. 224
+</dt><dd>A great deal of the usefulness of transaction analysis depends on how
+  we define <b>transaction</b>.
+  In the most general sense,
+  <blockquote>
+    <em>A transaction is any element of data, control, signal, event, or change
+    of state that causes, triggers, or initiates some action or sequence of actions.</em>
+  </blockquote>
+  <p>
+</p></dd><dt>p. 225
+</dt><dd>A <b>transaction center</b> of a system must be able to
+  <p>
+  </p><ul>
+  <li>get (obtain or respond to) transactions in raw form
+    <p>
+  </p></li><li>analyze each transaction to determine its type
+    <p>
+  </p></li><li>dispatch on type of transaction
+    <p>
+  </p></li><li>complete the processing of each transaction
+    <p>
+  </p></li></ul>
+  <p>
+</p></dd></dl>
+
+<h2><a name="12">12.</a> Alternative Design Strategies</h2>
+
+<dl compact="">
+<dt>p. 245
+</dt><dd>Depending upon the nature of the application,
+  transform-centered design or transform-centered design plus
+  transaction-centered design usually will yield a design with highly
+  cohesive, loosely coupled modules.
+  <p>
+  However, these two strategies are not the <em>only</em> way of deriving
+  good designs in a systematic manner.
+  </p><p>
+</p></dd><dt>p. 246
+</dt><dd><b>Data-structure design method</b>:
+  One of the popular design strategies is based on the analysis of
+  <em>data structure,</em> rather than <em>data flow</em> ...:
+  <p>
+  </p><ol>
+  <li>Define structures for the data that is to be processed.
+    <p>
+  </p></li><li>Form a program structure based on the data structures.
+    <p>
+  </p></li><li>Define the task to be performed in terms of the elementary
+    operations available, and allocate each of those operations to suitable
+    components of the program structure.
+    <p>
+  </p></li></ol>
+  <p>
+  Implicit in the data-structure approach is the fact that most ... applications
+  deal with <b>hierarchies of data</b> --- e.g., fields within records within files.
+  Thus, this approach develops a <b>hierarchy of modules</b> that,
+  in some sense, is a mirror image of the hierarchy of data associated with the problem.
+  </p><p>
+</p></dd><dt>p. 251
+</dt><dd>Another interesting modular design approach is described by Parnas as a set of rules
+  for the decomposition of systems into subsystems.
+  <p>
+</p></dd><dt>p. 252
+</dt><dd>The <b>Parnas decomposition criteria</b> may be paraphrased as follows:
+  <p>
+  </p><ol>
+  <li>Decomposition is <em>not</em> to be based on flowcharts or procedures.
+    <p>
+  </p></li><li>Each design interface is to contain (require) as little information
+    as possible to correctly specify it.
+    <p>
+  </p></li><li>Each design unit is to ``hide'' an assumption about the solution
+    that is likely to change.
+    <p>
+  </p></li><li>A design unit is to be specified to other design units
+    (or to the programmers of other design units)
+    with neither too much nor too little detail.
+    <p>
+  </p></li></ol>
+  <p>
+</p></dd></dl>
+
+<h2><a name="13">13.</a> Communication in Modular Systems</h2>
+
+<dl compact="">
+<dt>p. 259
+</dt><dd>We do not intend to portray ... pathological connections as an evil
+  that must be voided at all cost,
+  but we will suggest some steps that the designer should go through in order to
+  justify anything other than normal connections.
+  <p>
+</p></dd><dt>p. 260
+</dt><dd>[A] <b>pathological connection</b> is a reference [to] an identifier or any
+  entity <em>inside</em> a module [originating from outside the module].
+  <p>
+</p></dd><dt>p. 263
+</dt><dd><em>In general, the use of pathological connections reduces the ability of
+  the programmer to treat modules as black boxes.</em>
+  <p>
+</p></dd><dt>p. 270
+</dt><dd>Much of the reluctance to use normal communication between modules may stem
+  from the coding required for the interfaces.
+  Programmers complain that it takes a great deal of <b>extra work</b>
+  to code the passing of parameters, and to check fatal error flags and
+  all the other encumbrances of normal communication.
+  <p>
+  ...
+  </p><p>
+  Since the highly modular approach of structured design has been proved to
+  <em>reduce</em> programming,
+  it is extremely unlikely that a central feature --- namely normal subroutine calling ---
+  should increase programming over all.
+  </p><p>
+</p></dd><dt>p. 271
+</dt><dd>Perhaps the strongest, certainly the most commonly heard,
+  argument in favor of pathological communication is that of <b>efficiency</b>.
+  Still, the designer should ask himself whether the cost of normal communication
+  is truly unbearable compared to the <b>total cost</b> of pathological communication.
+  If so, and if efficiency is an important issue in the system,
+  then pathological communication may well be justified.
+  <p>
+  We should point out, however, that the cost of normal communication is not so
+  terribly excessive in most high-level programming languages.
+  </p><p>
+</p></dd><dt>p. 273
+</dt><dd>Perhaps the strongest argument <em>against</em> pathological connections is
+  that they make <b>future modification</b> of the system more difficult.
+  <p>
+  ...
+  </p><p>
+  If the designer feels that every minute of coding time is precious,
+  that nary a microsecond of CPU time can be wasted,
+  and that future modifications to the system are unlikely, so be it!
+  We concerned only with the fact that many pathological communications are
+  designed <b>unconsciously</b> or <b>casually</b> ---
+  or they result from a long-standing prejudice that all normal communications are bad
+  because they require too much CPU time.
+  </p><p>
+</p></dd></dl>
+
+<h2><a name="14">14.</a> Packaging</h2>
+
+<dl compact="">
+<dt>p. 276
+</dt><dd>[W]e must make a system fit into the <b>available physical memory</b> ...,
+  and we must implement the various input-output processes of the system
+  on <b>actual devices</b>.
+  Both of these steps are concerned with the physical realization of a modular system
+  on an actual computer.
+  <p>
+  The term <em>packing</em> refers to the assignment of the modules of a total system
+  into sections handled as distinct physical units for execution on a machine.
+  ...
+  For some systems, <em>programs</em> are the load units;
+  in others, we see the terms ``overlays,'' ``load module,'' ``job step,''
+  and so forth.
+  </p><p>
+</p></dd><dt>p. 289
+</dt><dd>[W]e cannot overemphasize that packaging should be done as a <b>last step</b>
+  in the structural design --- <em>not</em> as the first step!
+  <p>
+</p></dd></dl>
+
+<h2><a name="15">15.</a> Optimization of Modular Systems</h2>
+
+<dl compact="">
+<dt>p. 290
+</dt><dd>Optimization is something that should be considered <em>after</em> the system
+  has been designed, and should not be an influence on the design process itself.
+  It is demonstrably cheaper to develop a <b>simple working system</b>, and speed it up,
+  than to design a fast system and then try to make it work.
+  The savings possible by delaying optimization are even greater when the design is
+  highly factored and uncoupled.
+  ...
+  Many systems do <em>have</em> to be optimized to reduce their use of CPU time,
+  memory, use of peripheral devices, or other limited resources.
+  <p>
+</p></dd><dt>p. 291
+</dt><dd>An interesting <b>paradox</b> comes to light in most discussions
+  about the optimization of modular systems:
+  Many programmer&nbsp;/ analysts are convinced that the techniques discussed
+  in this book contribute significantly to the inefficiency of their systems,
+  yet they have nod idea <em>how much.</em>
+  A few crude experiments suggest that a highly modular system usually requires
+  5--10 percent more memory and CPU time than do systems implemented
+  in the traditional fashion;
+  on the other hand,
+  there have been occasions when modular systems have been considerably <em>more</em>
+  efficient than classical systems.
+  <p>
+  ...
+  </p><p>
+  [O]ptimization should be discussed from a <b>rational point of view</b>:
+  Not <em>every</em> microsecond of computer time has to be optimized!
+  The following [15.1.1 -- 15.1.6] philosophies are important to keep in mind ...
+  </p><p>
+</p></dd><dt>p. 291--292 
+</dt><dd><b>15.1.1
+  The efficiency of a system depends on the competence of the designer</b>
+  <p>
+  There is not much point in talking about efficient systems or optimization
+  if the system is being designed and/or programmed by people of only
+  <b>mediocre talent</b>.
+  Of course, this is a rather sensitive issue.
+  One's ego makes it difficult to deal with one's own mediocrity,
+  and one's manners make it difficult to accuse colleagues of mediocrity.
+  Nevertheless, it is a fact that shoud be faced squarely:
+  A surprisingly large number of analyst&nbsp;/ designers design
+  <em>stupid</em> systems, and an even larger number of programmers
+  write horribly <em>stupid</em> code.
+  </p><p>
+  These are blunt words, to be sure.
+  However, a <b>classic study</b> by Sackman et al. pointed out that,
+  among <em>experienced</em> programmers,
+  we can find a 25:1 difference in design time and debugging time.
+  Equally disturbing is the fact that the resulting code can vary
+  in speed and size by a factor ten.
+  The most depressing fact of all was that Sackman's study indicated
+  that there was no correlation between programming performance and
+  scores on programming aptitude tests.
+  H.&nbsp;L.&nbsp;Mencken observed that nobody ever went broke
+  underestimating the intelligence of the American public.
+  After visiting programming organizations around the country,
+  the authors have concluded, somewhat sadly, that a similar statement
+  could be made about programmers and designers.
+  </p><p>
+  Our point is simple: <b>There is no substitute for competence</b>.
+  If you want a system designed and implemented efficiently,
+  make sure it is done by people who know what they are doing ---
+  which, by the way, has very little to do with the number of years
+  they have been working in the computer field!
+  </p><p>
+</p></dd><dt>p. 292
+</dt><dd><b>15.1.2 In many cases, the simple way is the efficient way</b>
+  <p>
+</p></dd><dt>p. 293
+</dt><dd><b>15.1.3 Only a small part of a typical system has any impact on
+  overall efficiency</b>
+  <p>
+  Knuth's classic study indicates that approximately 5&nbsp;percent
+  of the code in a typical program consumes approximately
+  50&nbsp;percent of its execution time.  [cf. Amdahl's Law]
+  </p><p>
+  <b>15.1.4 Simple modular systems can be optimized easily</b>
+  </p><p>
+</p></dd><dt>p. 294
+</dt><dd><b>15.1.5 Overemphasis on optimization tends to detract
+  from other design goals</b>
+  <p>
+  <b>15.1.6 Optimization is irrelevant if the program doesn't work</b>
+  </p><p>
+</p></dd><dt>p. 295--296
+</dt><dd>If our system needs to be optimized,
+  there are two ways of approaching the problem:
+  optimizing the code within modules,
+  or changing the overall structure of the system to improve performance.
+  <p>
+  The specific techniques for optimizing code within a module are
+  largely outside the scope of this book.
+  We know that <b>optimizing compilers</b> are becoming increasingly
+  significant.
+  ...
+  </p><p>
+  However, we can suggest an organized plan of attack ...
+  for optimizing the code within modules of a large system.
+  ...:
+  </p><p>
+  </p><ol>
+  <li><em>Determine the execution time for each module or load unit.</em>
+    <p>
+  </p></li><li><em>Examine each module to estimate potential improvement.</em>
+    <p>
+  </p></li><li><em>Estimate cost involved in making the improvement.</em>
+    <p>
+  </p></li><li><em>Establish priorities for making improvements to modules.</em>
+    <p>
+  </p></li><li><em>Optimize the modules with the highest priority.</em>
+    <p>
+  </p></li></ol>
+  <p>
+</p></dd><dt>p. 296--297
+</dt><dd>In a small number of cases, optimization within module boundaries
+  may not be sufficient to achieve the desired level of efficiency.
+  It then may be necessary to modify the structure of the system.
+  Before indulging in this kind of optimization,
+  it is important that the designer
+  <b>identify the source of the inefficiency</b>
+  [i.e. gather statistics].
+  <p>
+  ...
+  </p><p>
+  Fortunately there is only a small set of structural modifications
+  that make noticeable improvements in execution speed
+  (and perhaps, in memory).
+  </p><p>
+</p></dd><dt>p. 301
+</dt><dd>A great deal of the overhead in intermodule transitions is involved
+  in the <b>passing of data</b>:
+  consequently, some of the most popular optimization techniques
+  involve minimizing the passing of such data.
+  <p>
+</p></dd><dt>p. 303
+</dt><dd>After each [real or imaginary] manipulation of the structure,
+  a <b>careful analysis</b> should be performed to see what actual,
+  demonstrable gains in efficiency
+  and what probable sacrifices in modularity have been made.
+  <p>
+</p></dd></dl>
+
+<h2><a name="16">16.</a> A Typology of Systems Components</h2>
+
+<dl compact="">
+<dt>p. 307
+</dt><dd>
+  When modularity is first introduced, one frequently hears,
+  ``Oh, you mean using subroutines.''
+  It is true that the subroutine is the most ubiquitous type of module
+  within computer systems;
+  fortunately, it is not the <em>only</em> type!
+  <p>
+</p></dd><dt>p. 308
+</dt><dd>A three-dimensional characterization of activation and control
+  has proven useful.
+  This involves three (possibly interdependent) factors:
+  <b>time</b>, <b>mechanism of activation</b>, and
+  <b>pattern of control flow</b>.
+</dd></dl>
+
+<h2><a name="17">17.</a> Recursive Structures</h2>
+
+<dl compact="">
+<dt>p. 318
+</dt><dd>Nothing in this book so far ... precludes structures ...,
+  in which the graph for the structure chart has cycles in it.
+  This type of structure is known as <em>recursive.</em>
+  ...
+  Although it is traditional to discuss recursion from a procedural
+  or algorithmic viewpoint ..., it is obvious that recursion
+  is also a <b>structural phenomenon</b> and, therefore,
+  may be explored in terms of structural issues,
+  including structural design.
+  <p>
+</p></dd><dt>p. 319
+</dt><dd>The necessary (but, alas, not always sufficient)
+  conditions for <b>termination</b> of a recursive module are two.
+  First, at least on call in the cycle of subordinates must be conditional ...
+  Second, the exact values of input arguments may not repeat within
+  recursive calls.
+  <p>
+</p></dd><dt>p. 324--325
+</dt><dd>It is always possible to transform a recursive process into
+  a nonrecursive or iterative process that uses only loops
+  rather than recursive calls.
+  In most cases, this amounts to <b>simulating the recursion</b>
+  by having the procedure do its own explicit stacking and
+  unstacking of the data.
+  <p>
+</p></dd></dl>
+
+<h2><a name="18">18.</a> Homologous and Incremental Structures</h2>
+
+<dl compact="">
+<dt>p. 332
+</dt><dd>The questions of which module is in charge and which is the
+  subordinate can be avoided altogether by employing structures
+  that are not hierarchical.
+  <p>
+  <b>Homologous</b>, or non-hierarchical, systems arise from any
+  control relationship that does not define a hierarchy of control
+  responsibility.
+  </p><p>
+</p></dd><dt>p. 333
+</dt><dd>In the abstract,
+  a <b>coroutine</b> is a module whose point of activation is
+  always the next sequential statement following the last point
+  at which the module deactivated itself by activating another coroutine.
+  <p>
+</p></dd></dl>
+
+<h2><a name="19">19.</a> Structure and Program Quality</h2>
+
+<dl compact="">
+<dt>p. 353
+</dt><dd>Throughout this book we have emphasized that we are seeking
+  designs that minimum-cost:
+  inexpensive to implement, inexpensive to test, and
+  inexpensive to maintain and modify.
+  <p>
+  However, there are additional qualities that usually are
+  associated with good systems;
+  among the common ones are <b>generality</b>, <b>flexibility</b>,
+  and <b>reliability</b>.
+  </p><p>
+</p></dd><dt>p. 354
+</dt><dd>We could informally define a <b>general-purpose system</b>
+  ... as one that is widely used or usable,
+  solves a broad case of a class problem [sic],
+  is readily adaptable to many variations, and will function
+  in many different environments.
+  <p>
+  ...
+  </p><p>
+  The most persistent myth of generality and generalization is
+  that most general systems --- by religious principle ---
+  cost more to design and more to build.
+  </p><p>
+</p></dd><dt>p. 362
+</dt><dd>Reliable operation is a major design goal in most systems
+  development processes.
+  In hard-systems engineering, reliability often is so important
+  that formal, systematic strategies are used to increase
+  reliability, including so-called <b>statistical reliability theory</b>.
+  <p>
+  The techniques for developing <b>reliable computer hardware</b> ---
+  redundancy, self-checking data and computations,
+  majority voting logic, duplicated systems,
+  fall-back and switchover,
+  and the like --- are such that hardware <em>can</em> now be
+  made arbitrary reliable.
+  Similar concepts in software have been almost totally absent
+  until recently ...
+  </p><p>
+</p></dd><dt>p. 369
+</dt><dd>The <b>probablistic behavior</b> of software failures
+  arises not from an intrinsic decay process of the components,
+  but fomr the <em>data</em> that the software is called upon to process.
+  <p>
+  ...
+  </p><p>
+  No software system of any realistic size is ever completely ...
+  <b>error-free</b>.
+  </p><p>
+</p></dd><dt>p. 371--372
+</dt><dd>The difference between <b>hardware redundancy</b> and <b>software redundancy</b>
+  can be appreciated by considering a duplicated hardware system.
+  Performance of the same operation by two machines ...
+  provides a dependable method of increasing reliability.
+  There is a very low probability that both systems will fail
+  simultaneously and in identical fashion.
+  Thus, agreement in results generally can be taken as an absence
+  of failure. ...
+  <p>
+  Consider what happens when we execute two copies of the same program
+  (or the same program twice).
+  If the results disagree,
+  it is indicative of a <em>hardware</em> failure,
+  not a software failure. ...
+  Thus, it is clear that software redundancy must be achieved
+  through non-identical components,
+  implying a comparatively larger development cost.
+  </p><p>
+</p></dd><dt>p. 373
+</dt><dd>In prototype, a <b>fault-handling process</b> has four elements.
+  The <b>existence</b> of a fault must be detected by some process
+  for a program to be cognizant of it.
+  Immediate action must be taken to process, bypass, or otherwise
+  <b>deal with the fault</b>.
+  Finally, provision may be made for <b>ultimate correction</b>
+  of the cause of the fault, or <b>recovery</b> from its consequences.
+  <p>
+  It is an almost universal rule of thumb that faults should be
+  detected <b>as early as possible</b> ---
+  that is, close to the source at some interface.
+  </p><p>
+  ...
+  </p><p>
+  The design philosophy that yields greater reliability is the one
+  that requires every function to protect itself,
+  <b>validating its own data</b>.
+  </p><p>
+</p></dd><dt>p. 374
+</dt><dd>Systems programs and their components ---
+  especially <b>operating systems</b> and <b>real-time&nbsp;/ time-sharing
+  systems</b> --- must <em>never</em> assume correctness of data.
+  The same is probably valid for all parts of vital systems.
+  The rub is that the very system requiring maximum reliability
+  often is the one with the most stringent speed requirement.
+  <p>
+  ...
+  </p><p>
+  The preferred way to build a <b>general-purpose system</b> is <em>not</em>
+  to build one computer program that will do all things for all people.
+  Instead, what one should do is build a <b>large number of small,
+  single-purpose modules</b> that are flexible and that have
+  <b>extremely clean interfaces</b>.
+  The generality comes from the almost infinite number of combinations
+  of such modules ...
+  </p><p>
+</p></dd></dl>
+
+<h2><a name="20">20.</a> Implementation of Modular Systems</h2>
+
+<dl compact="">
+<dt>p. 375
+</dt><dd>Most of the emphasis throughout this book has been on the
+  <em>design</em> of highly modular systems.
+  We have made passing references to <b>implementation</b>,
+  <b>testing</b>, <b>debugging</b>, <b>installation</b>,
+  and other such terms,
+  but we have given no details on the methods and strategies
+  to be followed once the design work is done.
+  <p>
+</p></dd><dt>p. 377--378
+</dt><dd>The <em>phased</em> approach to implementation could be described
+  in the follwing (slightly tongue-in-cheek) manner:
+  <p>
+  </p><ol>
+  <li>Design, code, and test each module by itself
+    (this is commonly known as <b>unit test</b>).
+    <p>
+  </p></li><li>Throw all the modules into a large bag.
+    <p>
+  </p></li><li>Shake the bag very hard (this is commonly known as
+    <b>systems integration</b>).
+    <p>
+  </p></li><li>Cross your fingers and hope that it all works
+    (this is commonly known as <b>field test</b>).
+    <p>
+  </p></li></ol>
+  <p>
+  ...
+  </p><p>
+  In contrast, ... an <em>incremental</em> approach can be paraphrased
+  in the following manner:
+  </p><p>
+  </p><ol>
+  <li>Design, code and test one module by itself.
+    <p>
+  </p></li><li>Add another module.
+    <p>
+  </p></li><li>Test and debug the combination.
+    <p>
+  </p></li><li>Repeat steps 2 and 3.
+    <p>
+  </p></li></ol>
+  <p>
+</p></dd><dt>p. 378
+</dt><dd>For many years, <b>bottom-up testing</b> has been practiced ...
+  [I]t was simply the best-known series of steps in which testing
+  was done:
+  <p>
+  </p><ol>
+  <li>Unit testing (sometimes known as module testing,
+    single-thread testing, or program testing)
+    <p>
+  </p></li><li>Subsystem testing (also known as run testing, or
+    multi-thread testing)
+    <p>
+  </p></li><li>Systems testing (sometimes known as volume testing)
+    <p>
+  </p></li><li>Acceptance testing (also known as field testing, or user testing)
+    <p>
+  </p></li></ol>
+  <p>
+</p></dd><dt>p. 379
+</dt><dd>In most cases, <b>bottom-up development</b> requires the presence
+  of so-called <b>drivers</b> --- also known as ``test harness,''
+  ``test monitors,' and ``test drivers,'' and various other terms.
+  A test driver has to ``exercise'' the module under test,
+  in what is basically a primitive simulation of what
+  the superordinate module would if it were available.
+  <p>
+  ...
+  </p><p>
+  The concept of a <em>dummy module,</em> or <em>stub</em>,
+  is an important aspect of <b>top-down implementation</b>.
+  </p><p>
+</p></dd></dl>
+
+<h2><a name="21">21.</a> The Management Milieu</h2>
+
+<dl compact="">
+<dt>p. 396
+</dt><dd>The basic questions to be asked in this chapter are:
+  Should management understand anything about the concepts of
+  structural design?
+  How does structural design help the manager accomplish his job
+  more effectively?
+  ... [I]t will be necessary to discard the myth that
+  the technical and the managerial aspects of systems development
+  are separable.
+  In reality, they are not.
+  <p>
+</p></dd><dt>p. 397
+</dt><dd>[<b>U</b>]<b>nder-budgeting of design increases total system's cost</b>.
+  <p>
+</p></dd><dt>p. 400
+</dt><dd><b>Conway's Law</b>:
+  <blockquote>
+    <em>The structure of a system reflects the structure of
+    the organization that built it.</em>
+  </blockquote>
+  Conway's Law has been stated even more strongly:
+  <blockquote>
+    <em>The structure of any system designed by an organization
+    is isomorphic to the structure of the organization.</em>
+  </blockquote>
+  <p>
+</p></dd><dt>p. 402
+</dt><dd><b>21.2 Management benefits of prior structural design</b>
+  <p>
+  [W]e ... suggest, for the sake of management,
+  that a complete (or nearly complete) structural design
+  be accomplished first, using all of the principles of coupling,
+  cohesion, transform-centered design, and others previously discussed.
+  When this has been accomplished,
+  we suggest that coding and testing be accomplished in an
+  <em>incremental</em> fashion...
+  </p><p>
+  <b>21.2.1 Reliable cost estimating</b>
+  </p><p>
+</p></dd><dt>p. 403
+</dt><dd><b>21.2.2 Improved scheduling, improved planning</b>
+  <p>
+  <b>21.2.3 Parallel development of acceptance and validation criteria</b>
+  </p><p>
+</p></dd><dt>p. 404
+</dt><dd><b>21.2.4 Better project monitoring and control</b>
+  <p>
+</p></dd><dt>p. 406
+</dt><dd>It has been our experience that careful attention to
+  the principles of structured design makes it far easier for the manager
+  to develop <b>accurate schedules and budgets</b> ---
+  for precisely the same reason that structured design enables
+  the technician to develop, test, and maintain his system
+  more easily.
+</dd></dl>
+
+<h2><a name="Glossary">Glossary</a></h2>
+
+<dl compact="">
+<dt>p. 446
+</dt><dd><b>black box</b>:
+  a system (or, equivalently, a component) with known
+  inputs, known outputs, and generally a known transform,
+  but with unknown (or irrelevant) contents.
+  <p>
+</p></dd><dt>p. 447
+</dt><dd><b>cohesion</b>:
+  the degree of functional relatedness of processing elements
+  within a single module.
+  <p>
+</p></dd><dt>p. 449
+</dt><dd><b>conroutine</b>:
+  a nonincremental module activated by a bifurcated transfer.
+  Also known as a task.
+  <p>
+  <b>coroutine</b>:
+  a module whose point of activation is
+  always the next sequential statement following the last point
+  at which the module deactivated itself by activating another coroutine.
+  </p><p>
+  <b>coupling</b>:
+  a measure of the strength of interconnection between one module
+  and another.
+  </p><p>
+</p></dd><dt>p. 451
+</dt><dd><b>driver</b>:
+  a primitive simulation of a superordinate module,
+  usd in the bottom-up testing of a subordinate module.
+  <p>
+</p></dd><dt>p. 452
+</dt><dd><b>factoring</b>:
+  a process of decomposing a system into a hierarchy of modules.
+  <p>
+</p></dd><dt>p. 454
+</dt><dd><b>interface</b>:
+  the point in a module or segment elsewhere referenced
+  by an identifier at which control or data is received or transmitted.
+  [???]
+  <p>
+</p></dd><dt>p. 462
+</dt><dd><b>stub</b>:
+  a primitive implementation of a subordinate module;
+  normally used in the top-down testing of a superordinate module.
+  <p>
+</p></dd></dl>
+
+<p>
+</p><hr>
+<address>
+Page contents by <a href="http://www.win.tue.nl/~wstomv/">Tom Verhoeff</a><br>
+<a href="mailto:T.Verhoeff@TUE.NL">Feedback on this page is welcome.</a>
+</address>
+
+
+</body></html>
