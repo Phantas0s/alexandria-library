@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1646580745533" TEXT="Vim User Manual">
+<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1649137619812" TEXT="Vim User Manual">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1765,7 +1765,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1615127426016" FOLDED="true" ID="ID_77917991" MODIFIED="1629010114435" TEXT="Editing Formatted text">
+<node CREATED="1615127426016" ID="ID_77917991" MODIFIED="1629010114435" TEXT="Editing Formatted text">
 <icon BUILTIN="full-6"/>
 <node CREATED="1629010116464" FOLDED="true" ID="ID_896283484" MODIFIED="1629010137772" TEXT="Breaking lines">
 <icon BUILTIN="full-1"/>
@@ -1838,7 +1838,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1629010125598" FOLDED="true" ID="ID_193343407" MODIFIED="1629010138837" TEXT="Indents and tabs">
+<node CREATED="1629010125598" ID="ID_193343407" MODIFIED="1629010138837" TEXT="Indents and tabs">
 <icon BUILTIN="full-3"/>
 <node CREATED="1629011256786" ID="ID_1773144402" MODIFIED="1629011262382" TEXT="Indent to stand out text"/>
 <node CREATED="1629011276737" FOLDED="true" ID="ID_311519572" MODIFIED="1629011282638" TEXT="Inserting indent automatically">
@@ -1853,7 +1853,7 @@
 <node CREATED="1629011383977" ID="ID_777310457" MODIFIED="1629011388222" TEXT="Default is 8"/>
 </node>
 </node>
-<node CREATED="1629011396994" FOLDED="true" ID="ID_710338186" MODIFIED="1629011398798" TEXT="Tabstop">
+<node CREATED="1629011396994" ID="ID_710338186" MODIFIED="1629011398798" TEXT="Tabstop">
 <node CREATED="1629011439825" ID="ID_16524126" MODIFIED="1629011446549" TEXT="If you&apos;re already 4 spaces and add indent"/>
 <node CREATED="1629011447313" ID="ID_1948976407" MODIFIED="1629011453293" TEXT="... &apos;shiftwidth&apos; will be added"/>
 <node CREATED="1629011454121" ID="ID_1096057081" MODIFIED="1629011494517" TEXT="Inserting &lt;tab&gt; if you&apos;ve already the amount of &apos;shiftwidth&apos;">
