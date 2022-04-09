@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1551722926877" ID="ID_728695612" LINK="https://www.youtube.com/watch?v=TVy7MtVbMA4" MODIFIED="1587834110947" TEXT="Topic planning">
-<node CREATED="1552073273662" FOLDED="true" ID="ID_1986488002" MODIFIED="1587834087144" POSITION="right" TEXT="Spreadsheet">
+<node CREATED="1552073273662" ID="ID_1986488002" MODIFIED="1587834087144" POSITION="right" TEXT="Spreadsheet">
 <icon BUILTIN="full-1"/>
 <node CREATED="1552073279521" ID="ID_568349068" MODIFIED="1552073312363" TEXT="Title">
 <node CREATED="1552073280531" ID="ID_1859650782" MODIFIED="1552073283583" TEXT="Name of the blog post"/>
@@ -25,7 +25,8 @@
 <node CREATED="1552073373194" ID="ID_979702905" MODIFIED="1552073480320" TEXT="What they will do after reading the article">
 <node CREATED="1552073532818" ID="ID_1687809663" MODIFIED="1552073541040" TEXT="Give whitepaper against email address"/>
 </node>
-<node CREATED="1552074448834" ID="ID_959448712" MODIFIED="1552074453666" TEXT="Examples">
+<node CREATED="1552074448834" ID="ID_959448712" MODIFIED="1649482928205" TEXT="Examples">
+<icon BUILTIN="wizard"/>
 <node CREATED="1552074434806" ID="ID_1085296010" MODIFIED="1552074442356" TEXT="Reference other post on the blog"/>
 <node CREATED="1552073497401" ID="ID_143447683" MODIFIED="1552073500733" TEXT="Buying something">
 <node CREATED="1552073512271" ID="ID_374035091" MODIFIED="1552073517486" TEXT="not the best idea for trust"/>
@@ -56,7 +57,7 @@
 <node CREATED="1552074046649" ID="ID_518521922" MODIFIED="1552074049171" TEXT="Difficult to rank"/>
 </node>
 </node>
-<node CREATED="1552074149716" FOLDED="true" ID="ID_1141194707" MODIFIED="1587834087996" POSITION="left" TEXT="Use search data to plan">
+<node CREATED="1552074149716" FOLDED="true" ID="ID_1141194707" MODIFIED="1587834087996" POSITION="right" TEXT="Use search data to plan">
 <icon BUILTIN="full-3"/>
 <node CREATED="1552074176679" ID="ID_991818574" MODIFIED="1552074191231" TEXT="Searchers always ask questions"/>
 <node CREATED="1552074224794" ID="ID_14196718" MODIFIED="1552074231659" TEXT="Look what is successful right now"/>

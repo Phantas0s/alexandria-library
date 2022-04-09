@@ -1,10 +1,10 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1569695344795" ID="ID_1364569854" LINK="https://medium.com/swlh/write-to-express-not-to-impress-465d628f39fe" MODIFIED="1569695357140" TEXT="Write to Express not to Impress">
-<node CREATED="1573639987188" FOLDED="true" ID="ID_1813938575" MODIFIED="1573640770244" POSITION="right" TEXT="Root of our problem as writter">
+<node CREATED="1573639987188" ID="ID_1813938575" MODIFIED="1573640770244" POSITION="right" TEXT="Root of our problem as writter">
 <node CREATED="1573639993489" ID="ID_393349804" MODIFIED="1573639996774" TEXT="Desire to impress"/>
 </node>
-<node CREATED="1573640046212" FOLDED="true" ID="ID_594394115" MODIFIED="1587829301245" POSITION="right" TEXT="Turn prepositional phrases into adjectives">
+<node CREATED="1573640046212" ID="ID_594394115" MODIFIED="1587829301245" POSITION="right" TEXT="Turn prepositional phrases into adjectives">
 <icon BUILTIN="full-1"/>
 <node CREATED="1573640084456" ID="ID_1144400074" MODIFIED="1573640097508" TEXT="Prepositional phrase describe the noun before it">
 <node CREATED="1573640097766" ID="ID_1370115761" MODIFIED="1573640110085" TEXT="try turning it into one-word adjective"/>
@@ -15,7 +15,7 @@
 <node CREATED="1573640078296" ID="ID_1755295251" MODIFIED="1573640081253" TEXT="Tech CEOs"/>
 </node>
 </node>
-<node CREATED="1573640124222" FOLDED="true" ID="ID_1703937074" MODIFIED="1587829728417" POSITION="right" TEXT="Replace adverbs with strong verbs">
+<node CREATED="1573640124222" ID="ID_1703937074" MODIFIED="1587829728417" POSITION="right" TEXT="Replace adverbs with strong verbs">
 <icon BUILTIN="full-2"/>
 <node CREATED="1573640145488" ID="ID_598882424" MODIFIED="1573640150324" TEXT="Adverb add details to verb"/>
 <node CREATED="1573640152502" ID="ID_79730246" MODIFIED="1573640159467" TEXT="Can be replaced by strong verbs"/>
@@ -137,12 +137,13 @@
 <node CREATED="1573640826097" ID="ID_1019021798" MODIFIED="1573640826601" TEXT="Company policy on vacation rollover"/>
 </node>
 </node>
-<node CREATED="1573640830321" FOLDED="true" ID="ID_790062805" MODIFIED="1587829938441" POSITION="left" TEXT="Use positive description, not negative">
+<node CREATED="1573640830321" ID="ID_790062805" MODIFIED="1587829938441" POSITION="left" TEXT="Use positive description, not negative">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1573640857089" ID="ID_1324312970" MODIFIED="1573640866766" TEXT="Instead to describe something what it&apos;s not"/>
 <node CREATED="1573640867138" ID="ID_985500776" MODIFIED="1573640870710" TEXT="... describe what it is"/>
-<node CREATED="1573640840522" ID="ID_528731485" MODIFIED="1573640841983" TEXT="Example">
+<node CREATED="1573640840522" ID="ID_528731485" MODIFIED="1649483260358" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1573640842170" ID="ID_1900522440" MODIFIED="1573640847461" TEXT="The living room lacks sunlight"/>
 <node CREATED="1573640847826" ID="ID_907691139" MODIFIED="1573640851333" TEXT="The living room is dark"/>
 </node>
