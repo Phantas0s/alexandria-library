@@ -413,6 +413,7 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   ├── network
 │   ├── _PAPERS
 │   │   ├── _ANNOTATED
+│   │   ├── architecture
 │   │   ├── code_review
 │   │   ├── communication
 │   │   ├── concurrency
@@ -580,5 +581,5 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
     ├── write_to_express_not_to_impress.mm
     └── writing_is_thinking_learning_to_write_with_confidence.mm
 
-212 directories, 245 files
+213 directories, 245 files
 ```

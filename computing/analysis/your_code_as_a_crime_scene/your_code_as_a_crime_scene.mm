@@ -772,9 +772,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1627664590648" FOLDED="true" ID="ID_1087842304" MODIFIED="1627664597941" POSITION="right" TEXT=" Part II - Dissect Your Architecture">
+<node CREATED="1627664590648" ID="ID_1087842304" MODIFIED="1627664597941" POSITION="right" TEXT=" Part II - Dissect Your Architecture">
 <icon BUILTIN="full-2"/>
-<node CREATED="1627664637535" FOLDED="true" ID="ID_1155224150" MODIFIED="1627664647541" TEXT="Treat Your Code As a Cooperative Witness">
+<node CREATED="1627664637535" ID="ID_1155224150" MODIFIED="1627664647541" TEXT="Treat Your Code As a Cooperative Witness">
 <icon BUILTIN="full-7"/>
 <node CREATED="1627729732930" ID="ID_875464574" MODIFIED="1627729738512" TEXT="Know How Your Brain Deceives You">
 <icon BUILTIN="full-1"/>
@@ -819,7 +819,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1627730720123" ID="ID_421685305" MODIFIED="1627730750485" TEXT="Use Temporal Coupling to Reduce BIas">
+<node CREATED="1627730720123" ID="ID_421685305" MODIFIED="1649997983777" TEXT="Use Temporal Coupling to Reduce Bias">
 <icon BUILTIN="full-3"/>
 <node CREATED="1627730902928" ID="ID_1777463093" MODIFIED="1627730913283" TEXT="Temporal coupling synonymes">
 <node CREATED="1627730914084" ID="ID_1529459056" MODIFIED="1627730917778" TEXT="Change coupling"/>
@@ -1437,7 +1437,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1628607094639" ID="ID_872406253" MODIFIED="1628607138556" POSITION="right" TEXT=" Part III - Master the Social Aspects of Code">
+<node CREATED="1628607094639" FOLDED="true" ID="ID_872406253" MODIFIED="1628607138556" POSITION="right" TEXT=" Part III - Master the Social Aspects of Code">
 <icon BUILTIN="full-3"/>
 <node CREATED="1628607128743" ID="ID_1843251284" MODIFIED="1628697170892" TEXT="Norm, Groups, and False Serial Killers">
 <icon BUILTIN="full-1"/>

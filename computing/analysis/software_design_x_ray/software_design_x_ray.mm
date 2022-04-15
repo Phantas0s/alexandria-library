@@ -216,7 +216,7 @@
 <node CREATED="1630167011597" ID="ID_665806175" MODIFIED="1630167014104" TEXT="... won&apos;t bring us far"/>
 </node>
 </node>
-<node CREATED="1630167042077" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
+<node CREATED="1630167042077" FOLDED="true" ID="ID_926220112" MODIFIED="1630335302691" TEXT="Identifiy Code with High Interest Rate">
 <icon BUILTIN="full-2"/>
 <node CREATED="1630167068701" ID="ID_1009041052" MODIFIED="1630167071944" TEXT="Measure Interest Rates">
 <icon BUILTIN="full-1"/>
@@ -791,7 +791,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1631893083227" FOLDED="true" ID="ID_1769007685" MODIFIED="1631893093256" POSITION="right" TEXT=" Part II - Work with Large Codebases and Organizations">
+<node CREATED="1631893083227" ID="ID_1769007685" MODIFIED="1631893093256" POSITION="right" TEXT=" Part II - Work with Large Codebases and Organizations">
 <icon BUILTIN="full-2"/>
 <node CREATED="1631967136028" ID="ID_736305035" MODIFIED="1631967145812" TEXT="Spot Your System&apos;s Tipping Point">
 <icon BUILTIN="full-6"/>
@@ -836,13 +836,13 @@
 <node CREATED="1631967497266" ID="ID_161993859" MODIFIED="1631967510494" TEXT="Technical aspects are not the only problem"/>
 </node>
 </node>
-<node CREATED="1631967530714" ID="ID_1658366723" MODIFIED="1631967537277" TEXT="Societies within a Software System">
+<node CREATED="1631967530714" FOLDED="true" ID="ID_1658366723" MODIFIED="1631967537277" TEXT="Societies within a Software System">
 <icon BUILTIN="full-1"/>
 <node CREATED="1631967629906" ID="ID_1188513105" MODIFIED="1631967633862" TEXT="Linux kernel"/>
 <node CREATED="1631967634587" ID="ID_790672443" MODIFIED="1631967640341" TEXT="16241 contributors"/>
 <node CREATED="1631967640834" ID="ID_1425359460" MODIFIED="1631967649966" TEXT="What&apos;s the coordination cost?"/>
 </node>
-<node CREATED="1631967655714" ID="ID_192148546" MODIFIED="1631967662782" TEXT="Raise the Abstraction Level">
+<node CREATED="1631967655714" FOLDED="true" ID="ID_192148546" MODIFIED="1631967662782" TEXT="Raise the Abstraction Level">
 <icon BUILTIN="full-2"/>
 <node CREATED="1631967699105" ID="ID_1707066141" MODIFIED="1631967704253" TEXT="Collaboration depends on modularity"/>
 <node CREATED="1631967704569" ID="ID_1796939295" MODIFIED="1631967711213" TEXT="... doesn&apos;t mean coordination will be easy"/>
@@ -854,9 +854,9 @@
 <node CREATED="1631967786089" ID="ID_1674379572" MODIFIED="1631967791357" TEXT="... can improve communication with stakeholders"/>
 </node>
 </node>
-<node CREATED="1631967826482" ID="ID_834532357" MODIFIED="1631967837623" TEXT="Divide and Conquer with Architectural Hotspots">
+<node CREATED="1631967826482" FOLDED="true" ID="ID_834532357" MODIFIED="1631967837623" TEXT="Divide and Conquer with Architectural Hotspots">
 <icon BUILTIN="full-2"/>
-<node CREATED="1631968148129" ID="ID_584940465" MODIFIED="1631968180367" TEXT="Introduction">
+<node CREATED="1631968148129" FOLDED="true" ID="ID_584940465" MODIFIED="1631968180367" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1631967847930" ID="ID_954586684" MODIFIED="1631967849750" TEXT="Workflow">
 <node CREATED="1631967849906" ID="ID_93173937" MODIFIED="1631967905813" TEXT="Identify your architectural boundaries">
@@ -889,7 +889,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1631968182642" ID="ID_918848017" MODIFIED="1633367728965" TEXT="A Language of Specifying Architectural Boundaries">
+<node CREATED="1631968182642" FOLDED="true" ID="ID_918848017" MODIFIED="1633367728965" TEXT="A Language of Specifying Architectural Boundaries">
 <icon BUILTIN="full-1"/>
 <node CREATED="1631968269193" ID="ID_1532429464" MODIFIED="1631968272254" TEXT="Need hotspots"/>
 <node CREATED="1631968272561" ID="ID_245005457" MODIFIED="1631968275822" TEXT="Need logical component">
@@ -904,15 +904,15 @@
 </node>
 <node CREATED="1631968481937" FOLDED="true" ID="ID_1084072201" MODIFIED="1631968486583" TEXT="Analyze Subsystems">
 <icon BUILTIN="full-3"/>
-<node CREATED="1632128371806" ID="ID_709138835" MODIFIED="1632128376518" TEXT="Introduction">
+<node CREATED="1632128371806" FOLDED="true" ID="ID_709138835" MODIFIED="1632128376518" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1632128478830" ID="ID_793878217" MODIFIED="1632128489690" TEXT="Large file can be problematic (too many responsibilities)"/>
 </node>
-<node CREATED="1631968794186" ID="ID_713684931" MODIFIED="1631968803431" TEXT="Prioritize Function Hotspots and Code Clones">
+<node CREATED="1631968794186" FOLDED="true" ID="ID_713684931" MODIFIED="1631968803431" TEXT="Prioritize Function Hotspots and Code Clones">
 <icon BUILTIN="full-1"/>
 <node CREATED="1632128536942" ID="ID_1685851995" MODIFIED="1632128545817" TEXT="Very high Cyclomatic Complexity can be an indicator"/>
 </node>
-<node CREATED="1632128834349" ID="ID_94500115" MODIFIED="1632128845425" TEXT="Look for Quick Wins">
+<node CREATED="1632128834349" FOLDED="true" ID="ID_94500115" MODIFIED="1632128845425" TEXT="Look for Quick Wins">
 <icon BUILTIN="full-2"/>
 <node CREATED="1632128861805" ID="ID_166362487" MODIFIED="1632128864209" TEXT="Can boost morale"/>
 <node CREATED="1632128869142" ID="ID_1301977003" MODIFIED="1632128875473" TEXT="Code-clone is often quick win">
@@ -923,7 +923,7 @@
 <node CREATED="1632128937397" ID="ID_1350428703" MODIFIED="1632128942281" TEXT="We need to know if it changes together"/>
 </node>
 </node>
-<node CREATED="1632128973517" ID="ID_1695111734" MODIFIED="1632128978875" TEXT="Ask the Right Questions">
+<node CREATED="1632128973517" FOLDED="true" ID="ID_1695111734" MODIFIED="1632128978875" TEXT="Ask the Right Questions">
 <icon BUILTIN="full-3"/>
 <node CREATED="1632129080246" ID="ID_1602605461" MODIFIED="1632129086409" TEXT="Sometimes code clone show worrisome picture"/>
 <node CREATED="1632129086749" ID="ID_1440903045" MODIFIED="1632129093418" TEXT="Almost same code but with conditional in one">
@@ -937,7 +937,7 @@
 <node CREATED="1632129158741" ID="ID_512494538" MODIFIED="1632129162161" TEXT="... or make a comment"/>
 </node>
 </node>
-<node CREATED="1632129163045" ID="ID_1354267236" MODIFIED="1632129167636" TEXT="Rinse and Repeat">
+<node CREATED="1632129163045" FOLDED="true" ID="ID_1354267236" MODIFIED="1632129167636" TEXT="Rinse and Repeat">
 <icon BUILTIN="full-4"/>
 <node CREATED="1632129205037" ID="ID_846008073" MODIFIED="1632129209713" TEXT="Make developers part of the refactoring"/>
 <node CREATED="1632129210005" ID="ID_1673497062" MODIFIED="1632129218769" TEXT="They&apos;ll be more aware of the shortcoming of existing code"/>
@@ -1027,7 +1027,7 @@
 <node CREATED="1632217350615" ID="ID_1766541020" MODIFIED="1632217365074" TEXT="Components high level enough for stakeholders to understand"/>
 </node>
 </node>
-<node CREATED="1632217388151" FOLDED="true" ID="ID_992321965" MODIFIED="1632217394932" TEXT="Beyong Conway&apos;s Law">
+<node CREATED="1632217388151" ID="ID_992321965" MODIFIED="1632217394932" TEXT="Beyong Conway&apos;s Law">
 <icon BUILTIN="full-7"/>
 <node CREATED="1632218027694" FOLDED="true" ID="ID_972643100" MODIFIED="1632218035710" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1044,9 +1044,9 @@
 </node>
 <node CREATED="1632218036559" FOLDED="true" ID="ID_724332532" MODIFIED="1632218043219" TEXT="Software Architecture is About Making Choices">
 <icon BUILTIN="full-1"/>
-<node CREATED="1632408854998" ID="ID_50886209" MODIFIED="1632408860505" TEXT="Introduction">
+<node CREATED="1632408854998" FOLDED="true" ID="ID_50886209" MODIFIED="1632408860505" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
-<node CREATED="1632218052718" ID="ID_1632112736" MODIFIED="1632218054730" TEXT="Architecture">
+<node CREATED="1632218052718" FOLDED="true" ID="ID_1632112736" MODIFIED="1632218054730" TEXT="Architecture">
 <node CREATED="1632218058078" ID="ID_1281619997" MODIFIED="1632218059578" TEXT="Set of">
 <node CREATED="1632218059734" ID="ID_1923210547" MODIFIED="1632218060834" TEXT="principles"/>
 <node CREATED="1632218061478" ID="ID_821111141" MODIFIED="1632218062874" TEXT="guidelines"/>
@@ -1063,23 +1063,23 @@
 <node CREATED="1632218075910" ID="ID_920840980" MODIFIED="1632218135121" TEXT="Arrows"/>
 </node>
 </node>
-<node CREATED="1632408820348" ID="ID_77116570" MODIFIED="1632408824258" TEXT="Architecture boundary">
-<node CREATED="1632408824510" ID="ID_430045862" MODIFIED="1632408827770" TEXT="High level mental chung"/>
+<node CREATED="1632408820348" FOLDED="true" ID="ID_77116570" MODIFIED="1632408824258" TEXT="Architecture boundary">
+<node CREATED="1632408824510" ID="ID_430045862" MODIFIED="1649999694800" TEXT="High level mental chunk"/>
 <node CREATED="1632408829229" ID="ID_815162487" MODIFIED="1632408841459" TEXT="Can reason about"/>
 <node CREATED="1632408842621" ID="ID_211779920" MODIFIED="1632408853347" TEXT="Succeed when can implement new feature easily"/>
 </node>
 </node>
-<node CREATED="1632408869182" ID="ID_1800512370" MODIFIED="1632408870714" TEXT="Conway&#x2019;s Law and Its Impact on Modularity">
+<node CREATED="1632408869182" FOLDED="true" ID="ID_1800512370" MODIFIED="1632408870714" TEXT="Conway&#x2019;s Law and Its Impact on Modularity">
 <icon BUILTIN="full-1"/>
 <node CREATED="1632409114606" ID="ID_1085876798" MODIFIED="1632409123250" TEXT="Modular bondaries need to align"/>
 <node CREATED="1632409123902" ID="ID_1620375030" MODIFIED="1632409132458" TEXT="... with responsabilities of teams in org"/>
 <node CREATED="1632409135158" ID="ID_1850362022" MODIFIED="1632409142385" TEXT="Core of Conway&apos;s Law"/>
-<node CREATED="1632409149583" ID="ID_221510258" MODIFIED="1632409153827" TEXT="Modular boundaries should be">
+<node CREATED="1632409149583" FOLDED="true" ID="ID_221510258" MODIFIED="1632409153827" TEXT="Modular boundaries should be">
 <node CREATED="1632409154038" ID="ID_1067360666" MODIFIED="1632409158986" TEXT="from problem domain"/>
 <node CREATED="1632409159358" ID="ID_593615379" MODIFIED="1632409163226" TEXT="... rather than solution domain"/>
 <node CREATED="1632409185030" ID="ID_754783096" MODIFIED="1632409195530" TEXT="(business domain, not technical boundaries)"/>
 </node>
-<node CREATED="1632409817191" ID="ID_1586419586" MODIFIED="1632409823042" TEXT="Coordination cost increases with">
+<node CREATED="1632409817191" FOLDED="true" ID="ID_1586419586" MODIFIED="1632409823042" TEXT="Coordination cost increases with">
 <node CREATED="1632409823191" ID="ID_657404922" MODIFIED="1632409824634" TEXT="distance"/>
 <node CREATED="1632409827270" ID="ID_597413979" MODIFIED="1632409829770" TEXT="number of developers"/>
 </node>
@@ -1118,7 +1118,7 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node CREATED="1632412811513" ID="ID_1761884303" MODIFIED="1632412820044" TEXT="Code Ownership and Diffusion of Responsibility">
+<node CREATED="1632412811513" FOLDED="true" ID="ID_1761884303" MODIFIED="1632412820044" TEXT="Code Ownership and Diffusion of Responsibility">
 <icon BUILTIN="full-3"/>
 <node CREATED="1632413440783" ID="ID_1645033481" MODIFIED="1632413443859" TEXT="Immutable Design"/>
 <node CREATED="1632413447095" FOLDED="true" ID="ID_1862402977" MODIFIED="1632413458259" TEXT="Code Ownership Means Responsibility">
@@ -1364,9 +1364,9 @@
 <icon BUILTIN="full-6"/>
 </node>
 </node>
-<node CREATED="1633012732007" FOLDED="true" ID="ID_59428070" MODIFIED="1633012743861" TEXT="Toward Modular Monoliths through the Social View of Code">
+<node CREATED="1633012732007" ID="ID_59428070" MODIFIED="1633012743861" TEXT="Toward Modular Monoliths through the Social View of Code">
 <icon BUILTIN="full-8"/>
-<node CREATED="1633012810903" ID="ID_1235189395" MODIFIED="1633012862910" TEXT="Dodge the Silver Bullet">
+<node CREATED="1633012810903" FOLDED="true" ID="ID_1235189395" MODIFIED="1633012862910" TEXT="Dodge the Silver Bullet">
 <icon BUILTIN="full-1"/>
 <node CREATED="1633012976006" FOLDED="true" ID="ID_1778814894" MODIFIED="1633012979709" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1464,7 +1464,7 @@
 </node>
 <node CREATED="1633361614387" FOLDED="true" ID="ID_588668878" MODIFIED="1633361626315" TEXT="Monolithic Alternatives: Use Case and Feature-Centric">
 <icon BUILTIN="full-3"/>
-<node CREATED="1633361653402" ID="ID_387841169" MODIFIED="1633361659086" TEXT="Package by Components and Features">
+<node CREATED="1633361653402" FOLDED="true" ID="ID_387841169" MODIFIED="1633361659086" TEXT="Package by Components and Features">
 <icon BUILTIN="full-1"/>
 <node CREATED="1633361848018" ID="ID_1127755654" MODIFIED="1633361850742" TEXT="Package by components">
 <node CREATED="1633361896370" ID="ID_40824438" LINK="http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html" MODIFIED="1633361951895" TEXT="Simon Brown"/>
@@ -1521,7 +1521,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1633362782223" ID="ID_866271694" MODIFIED="1633366534106" TEXT="Discover Bounded Contexts Through Change Patterns">
+<node CREATED="1633362782223" FOLDED="true" ID="ID_866271694" MODIFIED="1633366534106" TEXT="Discover Bounded Contexts Through Change Patterns">
 <icon BUILTIN="full-4"/>
 <node CREATED="1633365487071" ID="ID_1581960156" MODIFIED="1633365490161" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1648,7 +1648,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1633368270579" FOLDED="true" ID="ID_607350736" MODIFIED="1633368277624" TEXT="Compare Hotspots Across Repositories">
+<node CREATED="1633368270579" ID="ID_607350736" MODIFIED="1633368277624" TEXT="Compare Hotspots Across Repositories">
 <icon BUILTIN="full-2"/>
 <node CREATED="1633368641698" ID="ID_396854571" MODIFIED="1633368647478" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
@@ -1844,7 +1844,7 @@
 <node CREATED="1633966465175" ID="ID_680469745" MODIFIED="1633966471396" TEXT="cloc recognize programming language"/>
 <node CREATED="1633966645912" ID="ID_1345215700" MODIFIED="1633966653988" TEXT="Do it for each service and aggregate"/>
 </node>
-<node CREATED="1633966654872" ID="ID_824029350" MODIFIED="1633966661205" TEXT="Calculate a Techincal Sprawl Index">
+<node CREATED="1633966654872" ID="ID_824029350" MODIFIED="1650000181272" TEXT="Calculate a Technical Sprawl Index">
 <icon BUILTIN="full-3"/>
 <node CREATED="1633966883848" ID="ID_734986060" MODIFIED="1633966891108" TEXT="Choose carefully programming language"/>
 <node CREATED="1633966891456" ID="ID_1686179982" MODIFIED="1633966898180" TEXT="More than solving business problems"/>
