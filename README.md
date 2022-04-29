@@ -1,7 +1,7 @@
 # The Alexandria Library
 
 ![Alexandria Library illustration](./library-of-alexandria.jpg)
-![count mindmaps](https://img.shields.io/badge/total_mindmaps-245-blue)
+![count mindmaps](https://img.shields.io/badge/total_mindmaps-247-blue)
 [![Github repo-size](https://img.shields.io/github/repo-size/Phantas0s/alexandria-library.svg?color=success&label=Library%20size)]()
 
 > The opportunity before all of us is living up to the dream of the Library of Alexandria and then taking it a step further - universal access to all knowledge. Interestingly, it is now technically doable. -- **[Brewster Kahle](https://en.wikipedia.org/wiki/Brewster_Kahle)** 
@@ -218,6 +218,8 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   ├── how_to_pick_a_niche_start_listening_to_other_people.mm
 │   │   ├── market_research_call_identify_validate_niche.mm
 │   │   └── niching_down.mm
+│   ├── obliquity
+│   │   └── obliquity.mm
 │   ├── personal_brand
 │   │   └── developing_your_personal_brand
 │   │       └── developing_your_personal_brand.mm
@@ -314,7 +316,7 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   │       └── mit_mathematics_for_computer_science.mm
 │   │   ├── 06_computer_networking
 │   │   │   ├── computer_networking_top_down_approach
-│   │   │   │   ├── computer_networking.mm
+│   │   │   │   ├── computer_networking_top_down_approach.mm
 │   │   │   │   └── Wireshark Labs
 │   │   │   │       └── Kurose_Ross_Wireshark_labs_7th_ed
 │   │   │   └── introduction_to_computer_networking
@@ -414,6 +416,7 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   ├── _PAPERS
 │   │   ├── _ANNOTATED
 │   │   ├── architecture
+│   │   │   └── _ANNOTATED
 │   │   ├── code_review
 │   │   ├── communication
 │   │   ├── concurrency
@@ -460,6 +463,7 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   ├── better_bashing_through_technology.mm
 │   │   ├── cli_design_best_practice.mm
 │   │   ├── cli_guidelines.mm
+│   │   ├── linux_command_line_shell_bible.mm
 │   │   ├── refactoring_in_bash_functions.mm
 │   │   ├── terminal_io
 │   │   ├── the_awk_programming_language.mm
@@ -581,5 +585,5 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
     ├── write_to_express_not_to_impress.mm
     └── writing_is_thinking_learning_to_write_with_confidence.mm
 
-213 directories, 245 files
+215 directories, 247 files
 ```
