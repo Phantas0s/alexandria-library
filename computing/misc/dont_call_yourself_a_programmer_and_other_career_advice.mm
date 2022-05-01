@@ -3,7 +3,7 @@
 <node CREATED="1591172133991" ID="ID_1207194770" LINK="https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/" MODIFIED="1591185514739" TEXT="Don&apos;t Call Yourself A Programmer, And Other Career Advice">
 <node CREATED="1591185574973" FOLDED="true" ID="ID_898312569" MODIFIED="1591185577120" POSITION="right" TEXT="90% of programming jobs are in creating Line of Business software">
 <icon BUILTIN="full-1"/>
-<node CREATED="1591185583062" ID="ID_1116403459" MODIFIED="1591185593331" TEXT="Price of anything (including you)">
+<node CREATED="1591185583062" FOLDED="true" ID="ID_1116403459" MODIFIED="1591185593331" TEXT="Price of anything (including you)">
 <node CREATED="1591185594974" ID="ID_145706762" MODIFIED="1591185600786" TEXT="Function of"/>
 <node CREATED="1591185601231" ID="ID_686665830" MODIFIED="1591185604937" TEXT="... the supply of it"/>
 <node CREATED="1591185605462" ID="ID_1582618734" MODIFIED="1591185608875" TEXT="... and demand for it"/>
@@ -14,7 +14,7 @@
 <node CREATED="1591185636734" ID="ID_1347227019" MODIFIED="1591185639698" TEXT="available on internet"/>
 <node CREATED="1591185641285" ID="ID_783497369" MODIFIED="1591185646090" TEXT="downloaded from App store"/>
 </node>
-<node CREATED="1591185646710" ID="ID_1546199907" MODIFIED="1591185651098" TEXT="but">
+<node CREATED="1591185646710" ID="ID_1546199907" MODIFIED="1650690271420" TEXT="... but">
 <node CREATED="1591185651310" ID="ID_1632946947" MODIFIED="1633776074959" TEXT="boring one-off app in corporations"/>
 <node CREATED="1591185689301" ID="ID_1918735083" MODIFIED="1591185697516" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -34,25 +34,29 @@
 </node>
 <node CREATED="1591185814533" ID="ID_733882347" MODIFIED="1591185828568" TEXT="Customer facing software are pretty rare"/>
 </node>
-<node CREATED="1591185841884" ID="ID_1028795809" MODIFIED="1591185850287" POSITION="right" TEXT="Engineers are hired to create business value, not to program things">
+<node CREATED="1591185841884" FOLDED="true" ID="ID_1028795809" MODIFIED="1591185850287" POSITION="right" TEXT="Engineers are hired to create business value, not to program things">
 <icon BUILTIN="full-2"/>
 <node CREATED="1591185858588" FOLDED="true" ID="ID_1892504045" MODIFIED="1591185869680" TEXT="Business do things for reasons">
 <node CREATED="1591185869844" ID="ID_913372221" MODIFIED="1591185871625" TEXT="irrational"/>
 <node CREATED="1591185872526" ID="ID_93398168" MODIFIED="1591185874032" TEXT="political"/>
 </node>
-<node CREATED="1591185878612" FOLDED="true" ID="ID_1113647478" MODIFIED="1591185881472" TEXT="... but at the end">
-<node CREATED="1591185881661" ID="ID_1597575702" MODIFIED="1591185884552" TEXT="increase revenue"/>
-<node CREATED="1591185884925" ID="ID_1875407133" MODIFIED="1591185890183" TEXT="reduce costs"/>
+<node CREATED="1591185878612" FOLDED="true" ID="ID_1113647478" MODIFIED="1650690333980" TEXT="Goals">
+<node CREATED="1591185881661" ID="ID_1597575702" MODIFIED="1650690316529" TEXT="Increase revenue">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1591185884925" ID="ID_1875407133" MODIFIED="1650690312904" TEXT="Reduce costs">
+<icon BUILTIN="full-2"/>
 </node>
 <node CREATED="1591185953980" ID="ID_825249237" MODIFIED="1591185970991" TEXT="Status awarded to people who are credited to do that"/>
-<node CREATED="1591185984227" FOLDED="true" ID="ID_961613078" MODIFIED="1591186010728" TEXT="Are NO goal">
+</node>
+<node CREATED="1591185984227" FOLDED="true" ID="ID_961613078" MODIFIED="1650690341980" TEXT="NOT goals">
 <node CREATED="1591186010922" ID="ID_1331234385" MODIFIED="1591186017159" TEXT="Beautiful software"/>
 <node CREATED="1591186018024" ID="ID_1914225492" MODIFIED="1591186025799" TEXT="Solving complex technical problems"/>
 <node CREATED="1591186026283" ID="ID_1584931520" MODIFIED="1591186035044" TEXT="Writing bug free software"/>
 <node CREATED="1591186035605" ID="ID_1811870500" MODIFIED="1591186039295" TEXT="Using sexy programming language"/>
 </node>
 <node CREATED="1591186047875" FOLDED="true" ID="ID_1120755577" MODIFIED="1591186050119" TEXT="Peter Drucker">
-<node CREATED="1591186050347" ID="ID_649479798" MODIFIED="1591186059567" TEXT="Profit Center">
+<node CREATED="1591186050347" FOLDED="true" ID="ID_649479798" MODIFIED="1591186059567" TEXT="Profit Center">
 <node CREATED="1591186071212" ID="ID_400680566" MODIFIED="1591186075263" TEXT="Bring in the bacon"/>
 <node CREATED="1591186075772" ID="ID_1608037415" MODIFIED="1633776106869" TEXT="Examples">
 <icon BUILTIN="wizard"/>
@@ -61,7 +65,7 @@
 <node CREATED="1591186092122" ID="ID_505281656" MODIFIED="1591186103694" TEXT="Masters of universe on wall street"/>
 </node>
 </node>
-<node CREATED="1591186059931" ID="ID_1644994686" MODIFIED="1591186061983" TEXT="Cost Center">
+<node CREATED="1591186059931" FOLDED="true" ID="ID_1644994686" MODIFIED="1591186061983" TEXT="Cost Center">
 <node CREATED="1591186106451" ID="ID_1290560715" MODIFIED="1591186109518" TEXT="Everybody else"/>
 </node>
 </node>
@@ -72,10 +76,10 @@
 </node>
 <node CREATED="1591186160323" FOLDED="true" ID="ID_488682353" MODIFIED="1591186164173" TEXT="Work for the profit center">
 <node CREATED="1591186164378" ID="ID_672862598" MODIFIED="1591186166414" TEXT="Easy to find"/>
-</node>
-<node CREATED="1591186170386" FOLDED="true" ID="ID_1622722134" MODIFIED="1591186172382" TEXT="... if not">
+<node CREATED="1591186170386" ID="ID_1622722134" MODIFIED="1591186172382" TEXT="... if not">
 <node CREATED="1591186172555" ID="ID_420993067" MODIFIED="1591186178629" TEXT="Work elsewhere"/>
 <node CREATED="1591186179113" ID="ID_366826754" MODIFIED="1591186184150" TEXT="Engineer your transfer there"/>
+</node>
 </node>
 <node CREATED="1591186187914" FOLDED="true" ID="ID_1524546274" MODIFIED="1591186189309" TEXT="Engineer">
 <node CREATED="1591186189490" ID="ID_1745855179" MODIFIED="1591186194830" TEXT="Very highly paid cost centers"/>
@@ -83,7 +87,7 @@
 <node CREATED="1591186229498" ID="ID_1588417211" MODIFIED="1591186235460" TEXT="... but not if you&apos;re in profit center"/>
 </node>
 </node>
-<node CREATED="1591186237825" ID="ID_1823451302" MODIFIED="1591186245753" POSITION="right" TEXT="Don&apos;t call yourself a programmer">
+<node CREATED="1591186237825" FOLDED="true" ID="ID_1823451302" MODIFIED="1591186245753" POSITION="right" TEXT="Don&apos;t call yourself a programmer">
 <icon BUILTIN="full-3"/>
 <node CREATED="1591186248881" ID="ID_280624032" MODIFIED="1591186269142" TEXT="Sounds like &quot;anomalously high cost peon&quot;"/>
 <node CREATED="1591186270281" ID="ID_573280989" MODIFIED="1591186282621" TEXT="... &quot;who types mumbo-jumbo&quot;"/>
@@ -100,7 +104,7 @@
 <node CREATED="1591186442648" ID="ID_1836286385" MODIFIED="1591186450196" TEXT="&quot;wrote the backend billing code that 97% of Google&#x2019;s revenue passes through&quot;"/>
 </node>
 </node>
-<node CREATED="1591186710544" ID="ID_999962823" MODIFIED="1591186715698" POSITION="right" TEXT="You are not defined by your chosen software stack">
+<node CREATED="1591186710544" FOLDED="true" ID="ID_999962823" MODIFIED="1591186715698" POSITION="right" TEXT="You are not defined by your chosen software stack">
 <icon BUILTIN="full-4"/>
 <node CREATED="1591186725449" ID="ID_1732145487" MODIFIED="1591186729540" TEXT="Stack doesn&apos;t matter"/>
 <node CREATED="1591186736792" ID="ID_408618654" MODIFIED="1591186755124" TEXT="Everybody who describes themselves as &lt;language&gt; programmer">
@@ -118,9 +122,10 @@
 </node>
 <node CREATED="1591187178581" ID="ID_1972714410" MODIFIED="1591187188753" TEXT="Companies where lack of buzzword"/>
 <node CREATED="1591187189285" ID="ID_471763059" MODIFIED="1591187194185" TEXT="... means you won&apos;t get hired">
-<node CREATED="1591187194405" ID="ID_1436750466" MODIFIED="1591187197001" TEXT="Don&apos;t work for them"/>
+<node CREATED="1591187194405" ID="ID_1436750466" MODIFIED="1591187197001" TEXT="Don&apos;t work for them">
 <node CREATED="1591187204852" ID="ID_1648651213" MODIFIED="1591187213472" TEXT="... if you really want, add buzzword to resume"/>
 <node CREATED="1591187213805" ID="ID_527098737" MODIFIED="1591187218825" TEXT="... and learn it quickly"/>
+</node>
 <node CREATED="1591187243500" ID="ID_1437387876" MODIFIED="1591187268422" TEXT="Example">
 <icon BUILTIN="wizard"/>
 <node CREATED="1591187246724" ID="ID_1862004064" MODIFIED="1591187249320" TEXT="Need to know Ruby?"/>
@@ -129,7 +134,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1591187295891" ID="ID_801205783" MODIFIED="1591187299669" POSITION="right" TEXT="Co-workers and bosses are not usually your friends">
+<node CREATED="1591187295891" FOLDED="true" ID="ID_801205783" MODIFIED="1591187299669" POSITION="right" TEXT="Co-workers and bosses are not usually your friends">
 <icon BUILTIN="full-5"/>
 <node CREATED="1591187303852" ID="ID_1566584324" MODIFIED="1591187310496" TEXT="You&apos;ll spend a lot of time with them"/>
 <node CREATED="1591187318011" ID="ID_529085505" MODIFIED="1591187325000" TEXT="Can become close friends with them"/>
@@ -150,20 +155,21 @@
 <node CREATED="1591187456010" FOLDED="true" ID="ID_1472275467" MODIFIED="1591187461009" POSITION="right" TEXT="You radically overestimate the average skill of the competition because of the crowd you hang around with">
 <icon BUILTIN="full-6"/>
 <node CREATED="1591187467875" ID="ID_576778503" MODIFIED="1591187480006" TEXT="Many people employed can&apos;t solve FizzBuzz"/>
-<node CREATED="1591187493619" ID="ID_1546297951" MODIFIED="1591187499174" TEXT="You&apos;re probably good enough"/>
+<node CREATED="1591187493619" ID="ID_1546297951" MODIFIED="1591187499174" TEXT="You&apos;re probably good enough">
 <node CREATED="1591187499882" ID="ID_714347255" MODIFIED="1591187506958" TEXT="... for the company you think you&apos;re not good enough"/>
 <node CREATED="1591187512683" ID="ID_888737549" MODIFIED="1591187517855" TEXT="... they still hire mortals"/>
 </node>
-<node CREATED="1591187528106" FOLDED="true" ID="ID_646606197" MODIFIED="1591187536042" POSITION="right" TEXT="&#x201c;Read ad.  Send in resume.  Go to job interview.  Receive offer.&#x201d; is the exception, not the typical case, for getting employment">
+</node>
+<node CREATED="1591187528106" ID="ID_646606197" MODIFIED="1591187536042" POSITION="right" TEXT="&#x201c;Read ad.  Send in resume.  Go to job interview.  Receive offer.&#x201d; is the exception, not the typical case, for getting employment">
 <icon BUILTIN="full-7"/>
 <node CREATED="1591187540706" ID="ID_936622446" MODIFIED="1591187547918" TEXT="Most job never available publicly"/>
 <node CREATED="1591187552282" ID="ID_628622982" MODIFIED="1591187559646" TEXT="... like worthwhile candidates"/>
 <node CREATED="1591187659574" ID="ID_1535558870" MODIFIED="1591187661830" TEXT="Word of mouth"/>
 <node CREATED="1591187668866" ID="ID_1459017943" MODIFIED="1591187673333" TEXT="... especially for good places"/>
-<node CREATED="1591187682185" ID="ID_1443500141" MODIFIED="1591187685341" TEXT="Why?">
+<node CREATED="1591187682185" FOLDED="true" ID="ID_1443500141" MODIFIED="1591187685341" TEXT="Why?">
 <node CREATED="1591187685593" ID="ID_1041927670" MODIFIED="1591187691869" TEXT="Don&apos;t want hundred of resume"/>
 <node CREATED="1591187694953" ID="ID_812096173" MODIFIED="1591187697605" TEXT="Don&apos;t have HR yet"/>
-<node CREATED="1591187724601" ID="ID_450517026" MODIFIED="1591187732475" TEXT="Don&apos;t want to hire a non-FIzzBuzzer"/>
+<node CREATED="1591187724601" ID="ID_450517026" MODIFIED="1650690571506" TEXT="Don&apos;t want to hire a non-FizzBuzzer"/>
 </node>
 </node>
 <node CREATED="1591187740273" FOLDED="true" ID="ID_316376400" MODIFIED="1591187744169" POSITION="right" TEXT="Networking: it isn&#x2019;t just for TCP packets">
@@ -189,13 +195,13 @@
 <node CREATED="1591187947653" ID="ID_366585346" MODIFIED="1591187950027" TEXT="Major in CS"/>
 </node>
 </node>
-<node CREATED="1591188102214" FOLDED="true" ID="ID_1008795202" MODIFIED="1591188108709" POSITION="right" TEXT="How much money do engineers make?">
+<node CREATED="1591188102214" ID="ID_1008795202" MODIFIED="1591188108709" POSITION="right" TEXT="How much money do engineers make?">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1591188118198" ID="ID_16616137" MODIFIED="1591188120667" TEXT="Wrong question"/>
 <node CREATED="1591188121041" ID="ID_1955037629" MODIFIED="1591188144618" TEXT="... instead &quot;What kind of offers do engineers routinely work for?&quot;"/>
-<node CREATED="1591188149966" ID="ID_538666856" MODIFIED="1591188157642" TEXT="Salary is one of manly levers which can motivate"/>
-<node CREATED="1591188205997" ID="ID_741570669" MODIFIED="1591188301897" TEXT="People earning more">
+<node CREATED="1591188149966" ID="ID_538666856" MODIFIED="1650691846431" TEXT="Salary is one of many levers which can motivate"/>
+<node CREATED="1591188205997" ID="ID_741570669" MODIFIED="1650691846429" TEXT="People earning more">
 <node CREATED="1591188210558" ID="ID_79840255" MODIFIED="1591188216882" TEXT="Work for big company">
 <node CREATED="1591188217070" ID="ID_999787324" MODIFIED="1591188219194" TEXT="not startup"/>
 </node>
