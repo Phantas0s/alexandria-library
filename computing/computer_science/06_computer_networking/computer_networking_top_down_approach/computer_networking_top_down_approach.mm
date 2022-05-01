@@ -9,23 +9,23 @@
 <node CREATED="1627740384712" ID="ID_1788484842" MODIFIED="1627740398439" TEXT="1.1.1 A Nuts and Bolts Description">
 <icon BUILTIN="full-1"/>
 <node CREATED="1627740408561" ID="ID_1567702958" MODIFIED="1627740415453" TEXT="Computer network"/>
-<node CREATED="1627740415857" FOLDED="true" ID="ID_723238438" MODIFIED="1627740434613" TEXT="... interconnecting devices">
-<node CREATED="1627740434880" ID="ID_962891819" MODIFIED="1627740436578" TEXT="hosts">
+<node CREATED="1627740415857" ID="ID_723238438" MODIFIED="1627740434613" TEXT="... interconnecting devices">
+<node CREATED="1627740434880" ID="ID_962891819" MODIFIED="1650906604533" TEXT="Hosts">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1627740437016" ID="ID_437103355" MODIFIED="1627740439026" TEXT="end systems">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1627740448649" FOLDED="true" ID="ID_390542721" MODIFIED="1627740457053" TEXT="... connected by">
-<node CREATED="1627740457289" ID="ID_1312003490" MODIFIED="1627740460314" TEXT="communication links">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1627740460689" ID="ID_422863534" MODIFIED="1627740464154" TEXT="packet switches">
+<node CREATED="1627740437016" ID="ID_437103355" MODIFIED="1650906607882" TEXT="End systems">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1627740469385" FOLDED="true" ID="ID_1355745610" MODIFIED="1627740483317" TEXT="Links can transmit at different rate">
+<node CREATED="1627740448649" ID="ID_390542721" MODIFIED="1627740457053" TEXT="... connected by">
+<node CREATED="1627740457289" ID="ID_1312003490" MODIFIED="1650906610394" TEXT="Communication links">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1627740460689" ID="ID_422863534" MODIFIED="1650906614396" TEXT="Packet switches">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1627740469385" ID="ID_1355745610" MODIFIED="1627740483317" TEXT="Links can transmit at different rate">
 <node CREATED="1627740483889" ID="ID_1639238360" MODIFIED="1627740488858" TEXT="Transmission rate">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -174,11 +174,12 @@
 <node CREATED="1627741326677" ID="ID_954114334" MODIFIED="1627741345757" TEXT="Socket interface">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1627741335805" ID="ID_121288584" MODIFIED="1627741344992" TEXT="Provided by end systems attached to Internet"/>
-<node CREATED="1627741349644" ID="ID_1261924041" MODIFIED="1627741355056" TEXT="Specifies how a program running"/>
+<node CREATED="1627741349644" ID="ID_1261924041" MODIFIED="1650906578555" TEXT="Specifies how a program run">
 <node CREATED="1627741355404" ID="ID_1898867734" MODIFIED="1627741358952" TEXT="... on one end system"/>
 <node CREATED="1627741359396" ID="ID_657299639" MODIFIED="1627741366015" TEXT="... asks the Internet infrastructure"/>
 <node CREATED="1627741366540" ID="ID_269402261" MODIFIED="1627741370128" TEXT="... to deliver data "/>
 <node CREATED="1627741370516" ID="ID_1709369497" MODIFIED="1627741376216" TEXT="... to a specific app on another end system"/>
+</node>
 <node CREATED="1627741380756" ID="ID_999271722" MODIFIED="1627741382448" TEXT="Set of rules"/>
 <node CREATED="1627741435722" ID="ID_457747872" MODIFIED="1627741437800" TEXT="Analogy">
 <node CREATED="1627741437980" ID="ID_1024991368" MODIFIED="1627741440224" TEXT="Postal service"/>
@@ -220,14 +221,103 @@
       and/or receipt of a message or other event.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1627741692195" ID="ID_1377815273" MODIFIED="1627741697863" TEXT="1.2 The Network Edge">
 <icon BUILTIN="full-2"/>
+<node CREATED="1650707636964" ID="ID_449064255" MODIFIED="1650708071448" TEXT="Access Network">
+<icon BUILTIN="full-1"/>
 </node>
+<node CREATED="1650707642569" ID="ID_1740922925" MODIFIED="1650708072260" TEXT="Physical Media">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1650707647098" ID="ID_683093139" MODIFIED="1650708056727" TEXT="1.3 The Network Core">
+<icon BUILTIN="full-3"/>
+<node CREATED="1650707651058" ID="ID_172666561" MODIFIED="1650708073078" TEXT="Packet Switching">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1650707658073" ID="ID_458470858" MODIFIED="1650708073715" TEXT=" Circuit Switching">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1650707664393" ID="ID_1045102416" MODIFIED="1650708074414" TEXT=" A Network of Networks">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node CREATED="1650707681083" ID="ID_757583468" MODIFIED="1650708057888" TEXT="1.4 Delay, Loss, and Throughput in Packet-Switched Networks">
+<icon BUILTIN="full-4"/>
+<node CREATED="1650707697866" ID="ID_213446749" MODIFIED="1650708076212" TEXT="Overview of Delay in Packet-Switched Networks">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1650707710650" ID="ID_1051803020" MODIFIED="1650708077007" TEXT="Queueing Delay and Packet Loss">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1650707723250" ID="ID_146454050" MODIFIED="1650708083863" TEXT=" End-to-End Delay">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1650707727185" ID="ID_1087386430" MODIFIED="1650708084861" TEXT=" Trhoughput in Computer Networks">
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+<node CREATED="1650707740354" ID="ID_919638535" MODIFIED="1650708058933" TEXT="1.5 Protocol Layers and Their Service Models">
+<icon BUILTIN="full-5"/>
+<node CREATED="1650707750433" ID="ID_1425092414" MODIFIED="1650708087038" TEXT="Layered Architecture">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1650707754106" ID="ID_1079917787" MODIFIED="1650708087949" TEXT=" Encapsulation">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1650707762361" ID="ID_514892996" MODIFIED="1650708090260" TEXT="1.6 Network Under Attack">
+<icon BUILTIN="full-6"/>
+</node>
+<node CREATED="1650707771537" ID="ID_725816431" MODIFIED="1650708060943" TEXT="1.7 History of Computer Networking and the Internet">
+<icon BUILTIN="full-7"/>
+<node CREATED="1650707780178" ID="ID_323069674" MODIFIED="1650708091589" TEXT="1961-1972: The Development of Packet Switching">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1650707799881" ID="ID_158298176" MODIFIED="1650708092279" TEXT="1972-1980: Proprietary Networks and Internetworking">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1650707809321" ID="ID_58483719" MODIFIED="1650708092948" TEXT="1980-1990: A Proliferation of Networks">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1650707834401" ID="ID_1493523320" MODIFIED="1650708093751" TEXT="The 1990s: The Internet Explosion">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1650707852112" ID="ID_499493849" MODIFIED="1650708094813" TEXT="The New Millennium">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+<node CREATED="1650707863559" ID="ID_1921143334" MODIFIED="1650708062135" TEXT="1.8 Summary">
+<icon BUILTIN="full-8"/>
+</node>
+</node>
+<node CREATED="1650707880465" ID="ID_475373783" MODIFIED="1650708020603" POSITION="right" TEXT=" Chapter 2 - Application Layer">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1650707886024" ID="ID_1809995209" MODIFIED="1650708021352" POSITION="right" TEXT=" Chapter 3 - Transport Layer">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1650707892793" ID="ID_1340532276" MODIFIED="1650708022198" POSITION="right" TEXT=" Chapter 4 - The Network Layer: Data Plane">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1650707906545" ID="ID_1767450355" MODIFIED="1650708023300" POSITION="right" TEXT=" Chapter 5 - The Network Layer: Control Plane">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1650707918879" ID="ID_910017976" MODIFIED="1650708024661" POSITION="right" TEXT=" Chapter 6 - The Link Layer and LANs">
+<icon BUILTIN="full-6"/>
+</node>
+<node CREATED="1650707927289" ID="ID_1538382651" MODIFIED="1650708025912" POSITION="right" TEXT=" Chapter 7 - Wireless and Mobile Networks">
+<icon BUILTIN="full-7"/>
+</node>
+<node CREATED="1650707949704" ID="ID_515249599" MODIFIED="1650708026997" POSITION="right" TEXT=" Chapter 8 - Security in Computer Networks">
+<icon BUILTIN="full-8"/>
+</node>
+<node CREATED="1650707957944" ID="ID_1611697807" MODIFIED="1650708028480" POSITION="right" TEXT=" Chatper 9 - Multimedia Networking">
+<icon BUILTIN="full-9"/>
 </node>
 </node>
 </map>
