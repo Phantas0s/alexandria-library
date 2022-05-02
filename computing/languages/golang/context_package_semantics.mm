@@ -192,7 +192,8 @@
 <node CREATED="1645875123714" ID="ID_585504957" MODIFIED="1645875129997" TEXT="Programmer is always drafting code"/>
 <node CREATED="1645875130361" ID="ID_718284439" MODIFIED="1645875139116" TEXT=" No difference when a writer draft his article"/>
 </node>
-<node CREATED="1645875183689" ID="ID_835186148" MODIFIED="1645875187743" TEXT="Example">
+<node CREATED="1645875183689" ID="ID_835186148" MODIFIED="1649152197218" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1645875187955" ID="ID_640049761" MODIFIED="1645875196374" TEXT="Knows there will be a upper context">
 <node CREATED="1645875196562" ID="ID_1314365975" MODIFIED="1645875203559" TEXT="Not calling ctx.Background"/>
 <node CREATED="1645875204971" ID="ID_294575950" MODIFIED="1645875207309" TEXT="... in that case"/>
@@ -210,7 +211,7 @@
 </node>
 <node CREATED="1645875272978" ID="ID_14223543" MODIFIED="1645875277792" TEXT="Most important semantics of all"/>
 <node CREATED="1645875278370" ID="ID_1699814940" MODIFIED="1645875298478" TEXT=" Function should accomplish its logic with empty context value"/>
-<node CREATED="1645875337490" ID="ID_1180717458" MODIFIED="1645875343597" TEXT="If info needed from the ontext">
+<node CREATED="1645875337490" ID="ID_1180717458" MODIFIED="1649152229128" TEXT="If info needed from the context">
 <node CREATED="1645875344346" ID="ID_1542850246" MODIFIED="1645875350199" TEXT="If info is missing"/>
 <node CREATED="1645875350850" ID="ID_1367107766" MODIFIED="1645875359023" TEXT="... program should fail and app should shutdown"/>
 </node>
@@ -230,8 +231,12 @@
 <node CREATED="1645875676977" MODIFIED="1645875676977" TEXT="The chain of function calls between them must propagate the Context."/>
 <node CREATED="1645875676977" MODIFIED="1645875676977" TEXT="Replace a Context using WithCancel, WithDeadline, WithTimeout, or WithValue."/>
 <node CREATED="1645875676977" MODIFIED="1645875676977" TEXT="When a Context is canceled, all Contexts derived from it are also canceled."/>
-<node CREATED="1645875676978" MODIFIED="1645875676978" TEXT="The same Context may be passed to functions running in different goroutines; Contexts are safe for simultaneous use by multiple goroutines."/>
-<node CREATED="1645875676985" MODIFIED="1645875676985" TEXT="Do not pass a nil Context, even if a function permits it. Pass a TODO context if you are unsure about which Context to use."/>
+<node CREATED="1645875676978" ID="ID_1927689447" MODIFIED="1649152283465" TEXT="The same Context may be passed to functions running in different goroutines">
+<node CREATED="1649152286406" ID="ID_1839583751" MODIFIED="1649152291223" TEXT="Contexts are safe for simultaneous use by multiple goroutines."/>
+</node>
+<node CREATED="1645875676985" ID="ID_294453043" MODIFIED="1649152300704" TEXT="Do not pass a nil Context, even if a function permits it">
+<node CREATED="1649152302301" ID="ID_1203458919" MODIFIED="1649152306520" TEXT="Pass a TODO context if you are unsure about which Context to use."/>
+</node>
 <node CREATED="1645875676988" MODIFIED="1645875676988" TEXT="Use context values only for request-scoped data that transits processes and APIs, not for passing optional parameters to functions."/>
 </node>
 </node>
