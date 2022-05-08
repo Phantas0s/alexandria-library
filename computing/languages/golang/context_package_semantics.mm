@@ -224,14 +224,14 @@
 <node CREATED="1645875668881" ID="ID_985863053" MODIFIED="1645875672957" POSITION="right" TEXT=" Conclusion">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
-<node CREATED="1645875676975" MODIFIED="1645875676975" TEXT="Incoming requests to a server should create a Context."/>
-<node CREATED="1645875676976" MODIFIED="1645875676976" TEXT="Outgoing calls to servers should accept a Context."/>
-<node CREATED="1645875676976" MODIFIED="1645875676976" TEXT="Do not store Contexts inside a struct type; instead, pass a Context explicitly to each function that needs it."/>
-<node CREATED="1645875676977" MODIFIED="1645875676977" TEXT="The chain of function calls between them must propagate the Context."/>
-<node CREATED="1645875676977" MODIFIED="1645875676977" TEXT="Replace a Context using WithCancel, WithDeadline, WithTimeout, or WithValue."/>
-<node CREATED="1645875676977" MODIFIED="1645875676977" TEXT="When a Context is canceled, all Contexts derived from it are also canceled."/>
-<node CREATED="1645875676978" MODIFIED="1645875676978" TEXT="The same Context may be passed to functions running in different goroutines; Contexts are safe for simultaneous use by multiple goroutines."/>
-<node CREATED="1645875676985" MODIFIED="1645875676985" TEXT="Do not pass a nil Context, even if a function permits it. Pass a TODO context if you are unsure about which Context to use."/>
+<node CREATED="1645875676975" ID="ID_1101600997" MODIFIED="1651939648196" TEXT="Incoming requests to a server should create a Context"/>
+<node CREATED="1645875676976" ID="ID_497759451" MODIFIED="1651939649251" TEXT="Outgoing calls to servers should accept a Context"/>
+<node CREATED="1645875676976" ID="ID_659913024" MODIFIED="1651939650868" TEXT="Do not store Contexts inside a struct type; instead, pass a Context explicitly to each function that needs it"/>
+<node CREATED="1645875676977" ID="ID_294812199" MODIFIED="1651939653010" TEXT="The chain of function calls between them must propagate the Context"/>
+<node CREATED="1645875676977" ID="ID_547190282" MODIFIED="1651939657474" TEXT="Replace a Context using WithCancel, WithDeadline, WithTimeout, or WithValue"/>
+<node CREATED="1645875676977" ID="ID_1749185389" MODIFIED="1651939664650" TEXT="When a Context is canceled, all Contexts derived from it are also canceled"/>
+<node CREATED="1645875676978" ID="ID_1657897652" MODIFIED="1645875676978" TEXT="The same Context may be passed to functions running in different goroutines; Contexts are safe for simultaneous use by multiple goroutines."/>
+<node CREATED="1645875676985" ID="ID_927920184" MODIFIED="1645875676985" TEXT="Do not pass a nil Context, even if a function permits it. Pass a TODO context if you are unsure about which Context to use."/>
 <node CREATED="1645875676988" MODIFIED="1645875676988" TEXT="Use context values only for request-scoped data that transits processes and APIs, not for passing optional parameters to functions."/>
 </node>
 </node>

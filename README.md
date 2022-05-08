@@ -1,7 +1,7 @@
 # The Alexandria Library
 
 ![Alexandria Library illustration](./library-of-alexandria.jpg)
-![count mindmaps](https://img.shields.io/badge/total_mindmaps-248-blue)
+![count mindmaps](https://img.shields.io/badge/total_mindmaps-247-blue)
 [![Github repo-size](https://img.shields.io/github/repo-size/Phantas0s/alexandria-library.svg?color=success&label=Library%20size)]()
 
 > The opportunity before all of us is living up to the dream of the Library of Alexandria and then taking it a step further - universal access to all knowledge. Interestingly, it is now technically doable. -- **[Brewster Kahle](https://en.wikipedia.org/wiki/Brewster_Kahle)** 
@@ -463,7 +463,8 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   ├── better_bashing_through_technology.mm
 │   │   ├── cli_design_best_practice.mm
 │   │   ├── cli_guidelines.mm
-│   │   ├── linux_command_line_shell_bible.mm
+│   │   ├── linux_command_line_shell_bible
+│   │   │   └── linux_command_line_shell_bible.mm
 │   │   ├── managing_project_with_gnu_make.mm
 │   │   ├── refactoring_in_bash_functions.mm
 │   │   ├── terminal_io
@@ -491,8 +492,6 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 ├── _githooks
 ├── health
 │   └── _INFOGRAPHICS
-├── _IN_PROGRESS
-│   └── magic_trick_of_testing.mm
 ├── languages
 │   ├── Deutsch
 │   │   ├── dfe.mm
@@ -586,5 +585,5 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
     ├── write_to_express_not_to_impress.mm
     └── writing_is_thinking_learning_to_write_with_confidence.mm
 
-215 directories, 248 files
+215 directories, 247 files
 ```

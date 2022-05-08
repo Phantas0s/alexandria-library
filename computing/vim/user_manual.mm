@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1649137619812" TEXT="Vim User Manual">
+<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1651935522202" TEXT="Vim User Manual">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -744,7 +744,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1615127260790" FOLDED="true" ID="ID_518818346" MODIFIED="1615127376740" TEXT="Splitting windows">
+<node CREATED="1615127260790" ID="ID_518818346" MODIFIED="1615127376740" TEXT="Splitting windows">
 <icon BUILTIN="full-8"/>
 <node CREATED="1624103498201" FOLDED="true" ID="ID_1771284967" MODIFIED="1624103623972" TEXT="Split a window">
 <icon BUILTIN="full-1"/>
@@ -835,7 +835,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1624104377070" FOLDED="true" ID="ID_765324480" MODIFIED="1624104379435" TEXT="Various">
+<node CREATED="1624104377070" ID="ID_765324480" MODIFIED="1624104379435" TEXT="Various">
 <icon BUILTIN="full-8"/>
 <node CREATED="1624104380511" ID="ID_1566642517" MODIFIED="1624104390962" TEXT="&apos;laststatus&apos; option">
 <node CREATED="1624104395623" ID="ID_927525486" MODIFIED="1624104400636" TEXT="When last window has statusline"/>
