@@ -1,4 +1,4 @@
-<map version="1.0.1">
+map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1645873423529" ID="ID_130136669" LINK="https://www.ardanlabs.com/blog/2019/09/context-package-semantics-in-go.html" MODIFIED="1645873437707" TEXT="Context package semantics">
 <node CREATED="1645873440389" ID="ID_1151114369" MODIFIED="1645873444953" POSITION="right" TEXT="Introduction">
@@ -192,7 +192,8 @@
 <node CREATED="1645875123714" ID="ID_585504957" MODIFIED="1645875129997" TEXT="Programmer is always drafting code"/>
 <node CREATED="1645875130361" ID="ID_718284439" MODIFIED="1645875139116" TEXT=" No difference when a writer draft his article"/>
 </node>
-<node CREATED="1645875183689" ID="ID_835186148" MODIFIED="1645875187743" TEXT="Example">
+<node CREATED="1645875183689" ID="ID_835186148" MODIFIED="1649152197218" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1645875187955" ID="ID_640049761" MODIFIED="1645875196374" TEXT="Knows there will be a upper context">
 <node CREATED="1645875196562" ID="ID_1314365975" MODIFIED="1645875203559" TEXT="Not calling ctx.Background"/>
 <node CREATED="1645875204971" ID="ID_294575950" MODIFIED="1645875207309" TEXT="... in that case"/>
@@ -210,7 +211,7 @@
 </node>
 <node CREATED="1645875272978" ID="ID_14223543" MODIFIED="1645875277792" TEXT="Most important semantics of all"/>
 <node CREATED="1645875278370" ID="ID_1699814940" MODIFIED="1645875298478" TEXT=" Function should accomplish its logic with empty context value"/>
-<node CREATED="1645875337490" ID="ID_1180717458" MODIFIED="1645875343597" TEXT="If info needed from the ontext">
+<node CREATED="1645875337490" ID="ID_1180717458" MODIFIED="1649152229128" TEXT="If info needed from the context">
 <node CREATED="1645875344346" ID="ID_1542850246" MODIFIED="1645875350199" TEXT="If info is missing"/>
 <node CREATED="1645875350850" ID="ID_1367107766" MODIFIED="1645875359023" TEXT="... program should fail and app should shutdown"/>
 </node>
@@ -224,14 +225,18 @@
 <node CREATED="1645875668881" ID="ID_985863053" MODIFIED="1645875672957" POSITION="right" TEXT=" Conclusion">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
-<node CREATED="1645875676975" ID="ID_1101600997" MODIFIED="1651939648196" TEXT="Incoming requests to a server should create a Context"/>
-<node CREATED="1645875676976" ID="ID_497759451" MODIFIED="1651939649251" TEXT="Outgoing calls to servers should accept a Context"/>
-<node CREATED="1645875676976" ID="ID_659913024" MODIFIED="1651939650868" TEXT="Do not store Contexts inside a struct type; instead, pass a Context explicitly to each function that needs it"/>
-<node CREATED="1645875676977" ID="ID_294812199" MODIFIED="1651939653010" TEXT="The chain of function calls between them must propagate the Context"/>
-<node CREATED="1645875676977" ID="ID_547190282" MODIFIED="1651939657474" TEXT="Replace a Context using WithCancel, WithDeadline, WithTimeout, or WithValue"/>
-<node CREATED="1645875676977" ID="ID_1749185389" MODIFIED="1651939664650" TEXT="When a Context is canceled, all Contexts derived from it are also canceled"/>
-<node CREATED="1645875676978" ID="ID_1657897652" MODIFIED="1645875676978" TEXT="The same Context may be passed to functions running in different goroutines; Contexts are safe for simultaneous use by multiple goroutines."/>
-<node CREATED="1645875676985" ID="ID_927920184" MODIFIED="1645875676985" TEXT="Do not pass a nil Context, even if a function permits it. Pass a TODO context if you are unsure about which Context to use."/>
+<node CREATED="1645875676975" MODIFIED="1645875676975" TEXT="Incoming requests to a server should create a Context."/>
+<node CREATED="1645875676976" MODIFIED="1645875676976" TEXT="Outgoing calls to servers should accept a Context."/>
+<node CREATED="1645875676976" MODIFIED="1645875676976" TEXT="Do not store Contexts inside a struct type; instead, pass a Context explicitly to each function that needs it."/>
+<node CREATED="1645875676977" MODIFIED="1645875676977" TEXT="The chain of function calls between them must propagate the Context."/>
+<node CREATED="1645875676977" MODIFIED="1645875676977" TEXT="Replace a Context using WithCancel, WithDeadline, WithTimeout, or WithValue."/>
+<node CREATED="1645875676977" MODIFIED="1645875676977" TEXT="When a Context is canceled, all Contexts derived from it are also canceled."/>
+<node CREATED="1645875676978" ID="ID_1927689447" MODIFIED="1649152283465" TEXT="The same Context may be passed to functions running in different goroutines">
+<node CREATED="1649152286406" ID="ID_1839583751" MODIFIED="1649152291223" TEXT="Contexts are safe for simultaneous use by multiple goroutines."/>
+</node>
+<node CREATED="1645875676985" ID="ID_294453043" MODIFIED="1649152300704" TEXT="Do not pass a nil Context, even if a function permits it">
+<node CREATED="1649152302301" ID="ID_1203458919" MODIFIED="1649152306520" TEXT="Pass a TODO context if you are unsure about which Context to use."/>
+</node>
 <node CREATED="1645875676988" MODIFIED="1645875676988" TEXT="Use context values only for request-scoped data that transits processes and APIs, not for passing optional parameters to functions."/>
 </node>
 </node>
