@@ -1,0 +1,2 @@
+cli_guidelines.md
+linux_command_line_shell_bible.md
