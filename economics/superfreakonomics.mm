@@ -1,7 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1655011391529" ID="ID_195187353" MODIFIED="1655011686420" TEXT="Super Freakonomics">
-<node CREATED="1655011687875" ID="ID_1437451237" MODIFIED="1655011689725" POSITION="right" TEXT="Introduction">
+<node CREATED="1655011687875" FOLDED="true" ID="ID_1437451237" MODIFIED="1655548520440" POSITION="right" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
 <node CREATED="1655011711272" ID="ID_1188684554" MODIFIED="1655011717692" TEXT="People react to incentives">
 <node CREATED="1655011717960" ID="ID_119788901" MODIFIED="1655011720197" TEXT="But not always"/>
 <node CREATED="1655011721425" ID="ID_1120755059" MODIFIED="1655011726332" TEXT="... the way you think they will"/>
@@ -63,7 +64,8 @@
 <node CREATED="1655012266472" ID="ID_1931618505" MODIFIED="1655012282092" TEXT="Quickly forget how bad our predictions were"/>
 </node>
 </node>
-<node CREATED="1655012412120" ID="ID_1938440508" MODIFIED="1655012422268" POSITION="right" TEXT="How is a street prostitute like a department store Santa?">
+<node CREATED="1655012412120" FOLDED="true" ID="ID_1938440508" MODIFIED="1655548527850" POSITION="right" TEXT="How is a street prostitute like a department store Santa?">
+<icon BUILTIN="full-1"/>
 <node CREATED="1655012427096" ID="ID_1650457707" MODIFIED="1655012431260" TEXT="Price discrimination">
 <node CREATED="1655012431464" ID="ID_605381878" MODIFIED="1655012433620" TEXT="Different prices"/>
 <node CREATED="1655012434392" ID="ID_1643508472" MODIFIED="1655012440292" TEXT="... for different groups of customers"/>
@@ -93,7 +95,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1655012613472" ID="ID_272504680" MODIFIED="1655012622556" POSITION="right" TEXT="Why should suicide bombers buy life insurance?">
+<node CREATED="1655012613472" FOLDED="true" ID="ID_272504680" MODIFIED="1655548528622" POSITION="right" TEXT="Why should suicide bombers buy life insurance?">
+<icon BUILTIN="full-2"/>
 <node CREATED="1655012627640" ID="ID_1149174829" MODIFIED="1655012635997" TEXT="Study on hospital ER">
 <node CREATED="1655012636320" ID="ID_1867031651" MODIFIED="1655012642108" TEXT="Better to have a woman doctor"/>
 <node CREATED="1655012644480" ID="ID_1873539570" MODIFIED="1655012648924" TEXT="Skill doesn&apos;t matter as much"/>
@@ -126,6 +129,20 @@
 <node CREATED="1655545879589" ID="ID_619413841" MODIFIED="1655545882649" TEXT="... is as dangerous"/>
 <node CREATED="1655545888798" ID="ID_1204104488" MODIFIED="1655545892649" TEXT="... as fighting one"/>
 </node>
+</node>
+<node CREATED="1655547977566" FOLDED="true" ID="ID_629377623" MODIFIED="1655548529490" POSITION="right" TEXT="Unbelievable Stories about Apathy and Altruism">
+<icon BUILTIN="full-3"/>
+<node CREATED="1655546177509" ID="ID_553667264" MODIFIED="1655546187585" TEXT="Judgements on ego-driven altruism">
+<node CREATED="1655546144941" ID="ID_873430963" MODIFIED="1655546170386" TEXT="&quot;impure altruism&quot;"/>
+<node CREATED="1655546154006" ID="ID_1417183787" MODIFIED="1655546165658" TEXT="&quot;workm-glow altruism&quot;"/>
+</node>
+<node CREATED="1655546190518" ID="ID_555920076" MODIFIED="1655546196249" TEXT="People are not &quot;good&quot; and &quot;bad&quot;">
+<node CREATED="1655546197398" ID="ID_429936604" MODIFIED="1655546200010" TEXT="They are people"/>
+<node CREATED="1655546200469" ID="ID_5087234" MODIFIED="1655546205153" TEXT="They respond to incentives"/>
+</node>
+</node>
+<node CREATED="1655548430108" FOLDED="true" ID="ID_1889948293" MODIFIED="1655548530305" POSITION="right" TEXT="The Fix is In - And It&apos;s Cheap and Simple">
+<icon BUILTIN="full-4"/>
 <node CREATED="1655545918557" ID="ID_214714527" MODIFIED="1655545930857" TEXT="How to know if putting people in prison lower crime rate?">
 <node CREATED="1655545932158" ID="ID_1266362715" MODIFIED="1655545939226" TEXT="Take a group of states">
 <node CREATED="1655545941189" ID="ID_679226883" MODIFIED="1655545959246" TEXT="Command each of them to release 10000 prisoners">
@@ -136,6 +153,7 @@
 </node>
 <node CREATED="1655545990677" ID="ID_1414226215" MODIFIED="1655546005163" TEXT="Wait a few year">
 <icon BUILTIN="full-3"/>
+</node>
 </node>
 <node CREATED="1655546006126" ID="ID_1812699041" MODIFIED="1655546010601" TEXT="... impossible in practice"/>
 <node CREATED="1655546014470" ID="ID_1111046008" MODIFIED="1655546020985" TEXT="Need real life events mimicing experiment">
@@ -152,16 +170,6 @@
 </node>
 </node>
 <node CREATED="1655546118254" ID="ID_1902649939" MODIFIED="1655546135290" TEXT="People act very differently when observed"/>
-</node>
-<node CREATED="1655546140438" ID="ID_886692978" MODIFIED="1655546144378" TEXT="About altruism">
-<node CREATED="1655546177509" ID="ID_553667264" MODIFIED="1655546187585" TEXT="Judgements on ego-driven altruism">
-<node CREATED="1655546144941" ID="ID_873430963" MODIFIED="1655546170386" TEXT="&quot;impure altruism&quot;"/>
-<node CREATED="1655546154006" ID="ID_1417183787" MODIFIED="1655546165658" TEXT="&quot;workm-glow altruism&quot;"/>
-</node>
-<node CREATED="1655546190518" ID="ID_555920076" MODIFIED="1655546196249" TEXT="People are not &quot;good&quot; and &quot;bad&quot;">
-<node CREATED="1655546197398" ID="ID_429936604" MODIFIED="1655546200010" TEXT="They are people"/>
-<node CREATED="1655546200469" ID="ID_5087234" MODIFIED="1655546205153" TEXT="They respond to incentives"/>
-</node>
 </node>
 <node CREATED="1655546211014" ID="ID_451999554" MODIFIED="1655546215969" TEXT="Cheap and simple solutions">
 <node CREATED="1655546216141" ID="ID_397532340" MODIFIED="1655546219818" TEXT="Often not seen well"/>
@@ -197,8 +205,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1655546856806" ID="ID_114085281" MODIFIED="1655547473238" TEXT="Chapter 5">
+<node CREATED="1655546856806" FOLDED="true" ID="ID_114085281" MODIFIED="1655548531342" POSITION="right" TEXT="What do Al Gore and Mount Pinatubo Have in Common">
 <font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="full-5"/>
 <node CREATED="1655547245270" ID="ID_1771752941" MODIFIED="1655547250218" TEXT="Global warming">
 <node CREATED="1655547250966" ID="ID_333617428" MODIFIED="1655547296213" TEXT="Look like religion">
 <font NAME="SansSerif" SIZE="12"/>
@@ -240,12 +249,12 @@
 </node>
 </node>
 <node CREATED="1655547596549" ID="ID_1543139928" MODIFIED="1655547599714" TEXT="Positive externality">
-<node CREATED="1655547604054" ID="ID_505031616" MODIFIED="1655547606793" TEXT="Example">
+<node CREATED="1655547604054" ID="ID_505031616" MODIFIED="1655548513966" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1655547607013" ID="ID_1482738207" MODIFIED="1655547613202" TEXT="Invisible anti-theft device"/>
 <node CREATED="1655547613573" ID="ID_1609108785" MODIFIED="1655547620097" TEXT="LoJack"/>
 <node CREATED="1655547620518" ID="ID_1422157242" MODIFIED="1655547626537" TEXT="All car have potentially one">
 <node CREATED="1655547626734" ID="ID_658768174" MODIFIED="1655547634825" TEXT="Thief likely not to steal anything"/>
-</node>
 </node>
 </node>
 </node>
