@@ -4,7 +4,7 @@
 ![count mindmaps](https://img.shields.io/badge/total_mindmaps-249-blue)
 [![Github repo-size](https://img.shields.io/github/repo-size/Phantas0s/alexandria-library.svg?color=success&label=Library%20size)]()
 
-> The opportunity before all of us is living up to the dream of the Library of Alexandria and then taking it a step further - universal access to all knowledge. Interestingly, it is now technically doable. -- **[Brewster Kahle](https://en.wikipedia.org/wiki/Brewster_Kahle)** 
+> The opportunity before all of us is living up to the dream of the Library of Alexandria and then taking it a step further - universal access to all knowledge. Interestingly, it is now technically doable. -- **[Brewster Kahle](https://en.wikipedia.org/wiki/Brewster_Kahle)**
 
 Welcome to The Alexandria Library!
 
@@ -32,7 +32,7 @@ Quickly, I began to write mindmaps of everything interesting I was reading or wa
 
 This choice is based on experiments I've done. I remember more of the content I'm consuming if I create mindmaps, and it's easy to go back to a mindmap to find *exactly* the knowledge I need.
 
-Therefore, it's a personal choice. If you're interested to create a "second brain", you should do some experiments too and see what works for you. 
+Therefore, it's a personal choice. If you're interested to create a "second brain", you should do some experiments too and see what works for you.
 
 These mindmaps allow me to:
 
@@ -568,7 +568,7 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   ├── memory_unlimited.mm
 │   ├── _PAPERS
 │   │   └── _ANNOTATED
-│   ├── teaching_tech_together.mm.mm
+│   ├── teaching_tech_together.mm
 │   ├── the_science_of_accelerated_learning.mm
 │   └── ultralearning.mm
 └── writing

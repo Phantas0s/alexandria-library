@@ -3,6 +3,8 @@
 <node CREATED="1655647357696" ID="ID_460953856" LINK="https://teachtogether.tech/en/index.html" MODIFIED="1655647379016" TEXT="Teaching Tech Together">
 <node CREATED="1655647396894" ID="ID_111904002" MODIFIED="1655647400018" POSITION="right" TEXT="Introduction"/>
 <node CREATED="1655647666271" ID="ID_1274313803" MODIFIED="1655647673979" POSITION="right" TEXT="Mental Models and Formative Assessment">
+<node CREATED="1655740021488" ID="ID_1165063420" MODIFIED="1655740025191" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
 <node CREATED="1655647674422" ID="ID_1514376699" MODIFIED="1655647683155" TEXT="First step: knowing who are your learners"/>
 <node CREATED="1655648617455" ID="ID_1441576438" MODIFIED="1655649000673" TEXT="Based on Research of Patricia Benner">
 <richcontent TYPE="NOTE"><html>
@@ -14,8 +16,7 @@
       From Novice to Expert: Excellence and Power in Clinical Nursing Practice
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1655649009759" ID="ID_1065247631" MODIFIED="1655649017091" TEXT="Three stages">
 <node CREATED="1655649017303" ID="ID_663120506" MODIFIED="1655649019667" TEXT="Novices">
@@ -65,8 +66,7 @@
       <font color="rgb(33, 37, 41)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol">Derek A. Muller, James Bewes, Manjula D. Sharma, and Peter Reimann: &quot;Saying the Wrong Thing: Improving Learning with Multimedia by Including Misconceptions&quot;.&#160;</font><font color="rgb(33, 37, 41)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol" size="16px"><em style="color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">Journal of Computer Assisted Learning</em></font><font color="rgb(33, 37, 41)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol">, 24(2), 7 2007, doi:10.1111/j.1365-2729.2007.00248.x.&#160;</font><font color="rgb(33, 37, 41)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol" size="16px"><em style="color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">Reports that including explicit discussion of misconceptions significantly improves learning outcomes: students with low prior knowledge benefit most and students with more prior knowledge are not disadvantaged.</em></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1655649438895" ID="ID_1609019376" MODIFIED="1655649449643" TEXT="Students don&apos;t understand that new knowledge is different that preconception"/>
 <node CREATED="1655649449999" ID="ID_480506236" MODIFIED="1655649457571" TEXT="Help when video presents wrong a-priori"/>
 </node>
@@ -105,15 +105,16 @@
       <font color="rgb(33, 37, 41)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol" size="16px">Slava Kalyuga, Paul Ayres, Paul Chandler, and John Sweller: &quot;The Expertise Reversal Effect&quot;.&#160;<em style="color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">Educational Psychologist</em>, 38(1), 3 2003, doi:10.1207/s15326985ep3801_4.&#160;<em style="color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">Reports that instructional techniques that work well with inexperienced learners lose their effectiveness or have negative consequences when used with more experienced learners.</em></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1655649727615" ID="ID_378945943" MODIFIED="1655649733691" TEXT="Need to decide early who your lessons are for"/>
 </node>
 </node>
 </node>
-<node CREATED="1655649990743" ID="ID_963180354" MODIFIED="1655649995802" TEXT="Are People Learning?">
+</node>
+<node CREATED="1655649990743" ID="ID_963180354" MODIFIED="1655740066870" TEXT="Are People Learning?">
+<icon BUILTIN="full-1"/>
 <node CREATED="1655651664832" ID="ID_883502985" MODIFIED="1655651671139" TEXT="First step of building a mental model">
 <node CREATED="1655651671279" ID="ID_1493222922" MODIFIED="1655651677667" TEXT="Clearing things that don&apos;t belong"/>
 <node CREATED="1655651678007" ID="ID_757953469" MODIFIED="1655651686467" TEXT="The problems is your certainty which are false"/>
@@ -221,13 +222,165 @@
 </node>
 </node>
 </node>
-<node CREATED="1655650023111" ID="ID_1233937272" MODIFIED="1655650027427" TEXT="National Machines"/>
-<node CREATED="1655650027863" ID="ID_1416332637" MODIFIED="1655650029659" TEXT="Exercises"/>
-<node CREATED="1655650030126" ID="ID_1249892775" MODIFIED="1655650031186" TEXT="Review"/>
+<node CREATED="1655650023111" ID="ID_1233937272" MODIFIED="1655740067725" TEXT="Notional Machines">
+<icon BUILTIN="full-2"/>
+<node CREATED="1655739665564" ID="ID_1756700676" MODIFIED="1655739678551" TEXT="Term computional thinking is used in many different senses"/>
+<node CREATED="1655739678867" ID="ID_399065239" MODIFIED="1655739685061" TEXT="Better to think of notional machines">
+<node CREATED="1655739705021" ID="ID_838837328" MODIFIED="1655739711921" TEXT="Idealized abstraction of computer hardware"/>
+<node CREATED="1655739712346" ID="ID_1670201774" MODIFIED="1655739726329" TEXT="Enable the semantics of programs to be describes"/>
+<node CREATED="1655739730982" ID="ID_571769928" MODIFIED="1655739742934" TEXT="Correctly reflects what programs do when executed"/>
+</node>
+<node CREATED="1655739754276" ID="ID_407433965" MODIFIED="1655739898688" TEXT="Example">
+<icon BUILTIN="wizard"/>
+<node CREATED="1655739756235" ID="ID_1399151451" MODIFIED="1655739761768" TEXT="Notional machine for Python"/>
+<node CREATED="1655739775181" ID="ID_766944811" MODIFIED="1655739775181" TEXT="Running programs live in memory, which is divided between a call stack and a heap."/>
+<node CREATED="1655739775181" ID="ID_1775807108" MODIFIED="1655739775181" TEXT="Memory for data is always allocated from the heap."/>
+<node CREATED="1655739775182" ID="ID_1452818662" MODIFIED="1655739807071" TEXT="Every piece of data is stored in a two-part structure">
+<node CREATED="1655739791712" ID="ID_1246800536" MODIFIED="1655739795503" TEXT="The first part says what type the data is"/>
+<node CREATED="1655739797234" ID="ID_1495597235" MODIFIED="1655739803232" TEXT="The second part is the actual value."/>
+</node>
+<node CREATED="1655739775227" ID="ID_493469858" MODIFIED="1655739775227" TEXT="Booleans, numbers, and character strings are never modified after they are created."/>
+<node CREATED="1655739775228" ID="ID_962757430" MODIFIED="1655739819759" TEXT="Lists, sets, and other collections store references to other data rather than storing those values directly. ">
+<node CREATED="1655739820399" MODIFIED="1655739820399" TEXT="They can be modified after they are created, i.e. a list can be extended or new values can be added to a set."/>
+</node>
+<node CREATED="1655739775240" ID="ID_687440001" MODIFIED="1655739825192" TEXT="When code is loaded into memory, Python converts it to a sequence of instructions that are stored like any other data">
+<node CREATED="1655739826708" ID="ID_1019460259" MODIFIED="1655739832269" TEXT="This is why it&#x2019;s possible to assign functions to variables and pass them as parameters."/>
+</node>
+<node CREATED="1655739775256" ID="ID_1140305547" MODIFIED="1655739775256" TEXT="When code is executed, Python steps through the instructions, doing what each one tells it to in turn."/>
+<node CREATED="1655739775257" ID="ID_140810756" MODIFIED="1655739844751" TEXT="Some instructions make Python read data, do calculations, and create new data">
+<node CREATED="1655739845412" ID="ID_1496465787" MODIFIED="1655739854102" TEXT="Other instructions control what instructions Python executes, which is how loops and conditionals work. "/>
+<node CREATED="1655739854988" MODIFIED="1655739854988" TEXT="Yet another instruction tells Python to call a function."/>
+</node>
+<node CREATED="1655739775262" ID="ID_1218139848" MODIFIED="1655739775262" TEXT="When a function is called, Python pushes a new stack frame onto the call stack."/>
+<node CREATED="1655739775263" ID="ID_276532871" MODIFIED="1655739878535" TEXT="Each stack frame stores variables&#x2019; names and references to data">
+<node CREATED="1655739879274" ID="ID_110596957" MODIFIED="1655739884320" TEXT="Function parameters are just another kind of variable"/>
+</node>
+<node CREATED="1655739775267" ID="ID_988427202" MODIFIED="1655739887790" TEXT="When a variable is used, Python looks for it in the top stack frame. If it isn&#x2019;t there, it looks in the bottom (global) frame"/>
+<node CREATED="1655739775272" ID="ID_1711882306" MODIFIED="1655739895646" TEXT="When the function finishes, Python erases its stack frame and jumps backs to the instructions it was executing before the function call">
+<node CREATED="1655739893708" MODIFIED="1655739893708" TEXT="If there isn&#x2019;t a &#x201c;before,&#x201d; the program has finished"/>
+</node>
+</node>
+</node>
+<node CREATED="1655650027863" ID="ID_1416332637" MODIFIED="1655740068696" TEXT="Exercises">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1655650030126" ID="ID_1249892775" MODIFIED="1655740069647" TEXT="Review">
+<icon BUILTIN="full-4"/>
+</node>
 </node>
 <node CREATED="1655650036639" ID="ID_569597110" MODIFIED="1655650039771" POSITION="right" TEXT="Expertise and Memory">
-<node CREATED="1655650040295" ID="ID_1338267012" MODIFIED="1655650042539" TEXT="Concept Maps"/>
-<node CREATED="1655650042887" ID="ID_1412271507" MODIFIED="1655650047162" TEXT="Seven Plus or Minus Two"/>
+<node CREATED="1655739978130" ID="ID_1236427659" MODIFIED="1655740078231" TEXT="Introduction">
+<icon BUILTIN="full-0"/>
+<node CREATED="1655740085162" ID="ID_1142419847" MODIFIED="1655740088351" TEXT="Chapter about expertise"/>
+<node CREATED="1655740105738" ID="ID_939730396" MODIFIED="1655740108070" TEXT="Expert"/>
+<node CREATED="1655740108234" ID="ID_109955316" MODIFIED="1655740113909" TEXT="Can solve problem faster than a &quot;competent&quot;"/>
+<node CREATED="1655740122626" ID="ID_613060683" MODIFIED="1655740129109" TEXT="Can deal with cases the normal rule don&apos;t apply"/>
+<node CREATED="1655740203785" ID="ID_1764473282" MODIFIED="1655740325661" TEXT="Make things seem effortless">
+<node CREATED="1655740209593" ID="ID_1423208589" MODIFIED="1655740213054" TEXT="Know the solution at a glance"/>
+</node>
+<node CREATED="1655740249553" ID="ID_514392855" MODIFIED="1655740252757" TEXT="Don&apos;t know more facts">
+<node CREATED="1655740253144" ID="ID_852104474" MODIFIED="1655740282147" TEXT="Mental models are more densely connected"/>
+</node>
+<node CREATED="1655740335584" ID="ID_499252925" MODIFIED="1655740345498" TEXT="Can jump from problem to solution in less step">
+<node CREATED="1655740345697" ID="ID_760309035" MODIFIED="1655740347948" TEXT="Competent">
+<node CREATED="1655740348632" ID="ID_1099867424" MODIFIED="1655740364413" TEXT="A-&gt;B-&gt;C-&gt;D"/>
+</node>
+<node CREATED="1655740365056" ID="ID_908535352" MODIFIED="1655740366581" TEXT="Expert">
+<node CREATED="1655740373120" ID="ID_743676449" MODIFIED="1655740378500" TEXT="A-&gt;D"/>
+</node>
+</node>
+<node CREATED="1655740408624" ID="ID_1331053544" MODIFIED="1655740414972" TEXT="Fluid representations">
+<node CREATED="1655740419560" ID="ID_1667495741" MODIFIED="1655740437005" TEXT="Ability to go back and forth between different views of a problem"/>
+</node>
+<node CREATED="1655740450241" ID="ID_850821934" MODIFIED="1655740457659" TEXT="Better to diagnosis">
+<node CREATED="1655740457831" ID="ID_1900737264" MODIFIED="1655740465565" TEXT="Easier to go backward"/>
+<node CREATED="1655740466326" ID="ID_538179946" MODIFIED="1655740470835" TEXT="... from symptoms to cause"/>
+<node CREATED="1655740516614" ID="ID_308773355" MODIFIED="1655740522149" TEXT="Interview">
+<node CREATED="1655740522309" ID="ID_362972367" MODIFIED="1655740527316" TEXT="Better to ask developer to work out a bug"/>
+<node CREATED="1655740531975" ID="ID_1750010025" MODIFIED="1655740536106" TEXT="... than to ask them to program"/>
+</node>
+</node>
+<node CREATED="1655740701735" ID="ID_1250726812" MODIFIED="1655740705547" TEXT="Expert blind spot">
+<node CREATED="1655740656807" ID="ID_1649075153" MODIFIED="1655740667049" TEXT="So familiar with their subjects that they can&apos;t see the world that way"/>
+<node CREATED="1655740674630" ID="ID_1700213031" MODIFIED="1655740681316" TEXT="Less good to teach what they know"/>
+<node CREATED="1655740681879" ID="ID_1781600384" MODIFIED="1655740693755" TEXT="... than a competent who remembers learning these things"/>
+<node CREATED="1655741226273" ID="ID_472875531" MODIFIED="1655741230357" TEXT="The J Word">
+<node CREATED="1655741230528" ID="ID_112051335" MODIFIED="1655741241270" TEXT="Expert often betray their blind sport using the word &quot;just&quot;"/>
+<node CREATED="1655741242161" ID="ID_419897032" MODIFIED="1655741249590" TEXT="&quot;Oh it&apos;s easy, you just fire up this and that&quot;"/>
+<node CREATED="1655741256394" ID="ID_1946829200" MODIFIED="1655741262204" TEXT="Speaker thinks the problem is trivial"/>
+<node CREATED="1655741469282" ID="ID_964631399" MODIFIED="1655741483180" TEXT="... and therefore if you struggle, you&apos;re stupid"/>
+</node>
+</node>
+</node>
+<node CREATED="1655650040295" ID="ID_1338267012" MODIFIED="1655650042539" TEXT="Concept Maps">
+<node CREATED="1655741489314" ID="ID_625977359" MODIFIED="1655741497830" TEXT="Tool of choice to represent someone&apos;s mental model"/>
+<node CREATED="1655741500441" ID="ID_1916798028" MODIFIED="1655741507502" TEXT="Representation">
+<node CREATED="1655741507688" ID="ID_349056242" MODIFIED="1655741511509" TEXT="Bubbles are facts"/>
+<node CREATED="1655741512337" ID="ID_1168587885" MODIFIED="1655741516862" TEXT="Connections are connections"/>
+</node>
+<node CREATED="1655741548314" ID="ID_1355888887" MODIFIED="1655741551942" TEXT="Can be used in many ways">
+<node CREATED="1655741552162" ID="ID_315852346" MODIFIED="1655741571156" TEXT="Helping teacher figure out what to teach">
+<node CREATED="1655741574985" ID="ID_1483951812" MODIFIED="1655741580565" TEXT="Separate content from order"/>
+<node CREATED="1655741581153" ID="ID_436627979" MODIFIED="1655741592998" TEXT="Order can change drastically as the course is built"/>
+</node>
+<node CREATED="1655741594530" ID="ID_324701677" MODIFIED="1655741602326" TEXT="Aiding communication between lesson designers">
+<node CREATED="1655741613850" ID="ID_1836351366" MODIFIED="1655741626668" TEXT="Make difference between teaching explicit"/>
+<node CREATED="1655741628859" ID="ID_1690941865" MODIFIED="1655741639846" TEXT="Can prevent push learners in different directions"/>
+</node>
+<node CREATED="1655741642200" ID="ID_656397309" MODIFIED="1655741646293" TEXT="Aiding communication with learners">
+<node CREATED="1655741650906" ID="ID_377650459" MODIFIED="1655741661933" TEXT="Drawing the concept map piece by piece while teaching"/>
+</node>
+<node CREATED="1655741666618" ID="ID_1745306480" MODIFIED="1655741670253" TEXT="For assessment">
+<node CREATED="1655741675553" ID="ID_1717294151" MODIFIED="1655741680532" TEXT="Learners drawing concept map"/>
+<node CREATED="1655741680842" ID="ID_1403396077" MODIFIED="1655741686439" TEXT="Show teacher what">
+<node CREATED="1655741686616" ID="ID_1672775933" MODIFIED="1655741966182" TEXT="they missed"/>
+<node CREATED="1655741689065" ID="ID_319979194" MODIFIED="1655741693236" TEXT="has been miscommunicated"/>
+</node>
+<node CREATED="1655741978554" ID="ID_1561817506" MODIFIED="1655741985246" TEXT="Too time consuming to review"/>
+<node CREATED="1655741985720" ID="ID_1462001345" MODIFIED="1655741998667" TEXT=".... but useful when learners are familiar with the technique">
+<node CREATED="1655742006465" ID="ID_1133192115" MODIFIED="1655742011365" TEXT="Total novice will struggle"/>
+</node>
+<node CREATED="1655742022266" ID="ID_732616596" MODIFIED="1655742031078" TEXT="Some teachers are skeptical if novice can do that"/>
+</node>
+</node>
+<node CREATED="1655742051713" ID="ID_585716216" MODIFIED="1655742054653" TEXT="Start anywhere">
+<node CREATED="1655742054857" ID="ID_834687347" MODIFIED="1655742059757" TEXT="If you don&apos;t know how to start"/>
+<node CREATED="1655742060072" ID="ID_1806200519" MODIFIED="1655742066028" TEXT="... simply add two words related to the topic"/>
+<node CREATED="1655742229169" ID="ID_703799681" MODIFIED="1655742233069" TEXT="... then draw a connection"/>
+<node CREATED="1655742233930" ID="ID_37150426" MODIFIED="1655742235541" TEXT="... and continue"/>
+</node>
+<node CREATED="1655742249273" ID="ID_1157147806" MODIFIED="1655742256397" TEXT="Other possible representation">
+<node CREATED="1655742256634" ID="ID_1363965404" MODIFIED="1655742259110" TEXT="Venn diagrams"/>
+<node CREATED="1655742259440" ID="ID_1086793918" MODIFIED="1655742261309" TEXT="Flowcharts"/>
+<node CREATED="1655742262008" ID="ID_903309923" MODIFIED="1655742264533" TEXT="Decision trees"/>
+</node>
+<node CREATED="1655742267073" ID="ID_726643314" MODIFIED="1655742273502" TEXT="Goal is to exxternalize cognition">
+<node CREATED="1655742274474" ID="ID_110435898" MODIFIED="1655742277964" TEXT="Make mental models visible"/>
+<node CREATED="1655742278289" ID="ID_1742688022" MODIFIED="1655742286286" TEXT="... so that they can be compared and combined"/>
+</node>
+<node CREATED="1655742308561" ID="ID_1096241909" MODIFIED="1655742317965" TEXT="Better feedback if people think you spend less time on it">
+<node CREATED="1655742318128" ID="ID_869512407" MODIFIED="1655742327165" TEXT="Use pen"/>
+<node CREATED="1655742320727" ID="ID_1913568662" MODIFIED="1655742331973" TEXT="Use scrap paper"/>
+<node CREATED="1655742332249" ID="ID_1363694155" MODIFIED="1655742337421" TEXT="No fancy computer tools"/>
+</node>
+</node>
+<node CREATED="1655650042887" ID="ID_1412271507" MODIFIED="1655650047162" TEXT="Seven Plus or Minus Two">
+<node CREATED="1655742557857" ID="ID_18638643" MODIFIED="1655742567029" TEXT="Memory can be divided in two distinct layers">
+<node CREATED="1655742567201" ID="ID_1649409588" MODIFIED="1655742571869" TEXT="Long term memory">
+<node CREATED="1655742572024" ID="ID_1155793982" MODIFIED="1655742576541" TEXT="Persistent memory"/>
+<node CREATED="1655742830951" ID="ID_1372287704" MODIFIED="1655742834467" TEXT="Capacity unlimited"/>
+<node CREATED="1655742835494" ID="ID_181699826" MODIFIED="1655742838403" TEXT="Slow to access">
+<node CREATED="1655742850807" ID="ID_874905542" MODIFIED="1655742854017" TEXT="Too slow for dangers"/>
+</node>
+</node>
+<node CREATED="1655742855064" ID="ID_970868768" MODIFIED="1655742862235" TEXT="Short term memory">
+<node CREATED="1655742862407" ID="ID_1162021544" MODIFIED="1655742864986" TEXT="Working memory"/>
+<node CREATED="1655742866374" ID="ID_403947263" MODIFIED="1655742871691" TEXT="Much faster but smaller"/>
+<node CREATED="1655742874702" ID="ID_99410185" MODIFIED="1655742885643" TEXT="Estimated that adult can hold 7+2 items"/>
+</node>
+<node CREATED="1655742934542" ID="ID_1105681631" MODIFIED="1655742942682" TEXT="First store information in short term memory"/>
+</node>
+</node>
 <node CREATED="1655650047559" ID="ID_1296200044" MODIFIED="1655650050907" TEXT="Becoming an Expert"/>
 <node CREATED="1655650051271" ID="ID_1896869232" MODIFIED="1655650053122" TEXT="Exercises"/>
 </node>

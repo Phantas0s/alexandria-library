@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1522433385267" ID="ID_518873482" MODIFIED="1652594652316" TEXT="The science of accelerated learning">
+<node CREATED="1522433385267" ID="ID_518873482" MODIFIED="1655795376655" TEXT="The science of accelerated learning">
 <richcontent TYPE="NOTE"><html>
   <head>
     
