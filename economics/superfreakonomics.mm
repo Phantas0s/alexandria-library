@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1655011391529" ID="ID_195187353" MODIFIED="1655011686420" TEXT="Super Freakonomics">
-<node CREATED="1655011687875" FOLDED="true" ID="ID_1437451237" MODIFIED="1655548520440" POSITION="right" TEXT="Introduction">
+<node CREATED="1655011687875" ID="ID_1437451237" MODIFIED="1655548520440" POSITION="right" TEXT="Introduction">
 <icon BUILTIN="full-0"/>
 <node CREATED="1655011711272" ID="ID_1188684554" MODIFIED="1655011717692" TEXT="People react to incentives">
 <node CREATED="1655011717960" ID="ID_119788901" MODIFIED="1655011720197" TEXT="But not always"/>
@@ -36,7 +36,7 @@
 <node CREATED="1655011965048" ID="ID_1477379537" MODIFIED="1655011971324" TEXT="... according to numbers"/>
 </node>
 <node CREATED="1655011978503" ID="ID_303985555" MODIFIED="1655011982868" TEXT="Important caveat">
-<node CREATED="1655011983064" ID="ID_317702675" MODIFIED="1655011991069" TEXT="Drunk walker won&apos;t hurt anybody else"/>
+<node CREATED="1655011983064" ID="ID_317702675" MODIFIED="1658660224293" TEXT="Walking drunk won&apos;t hurt anybody else"/>
 </node>
 </node>
 <node CREATED="1655012008968" ID="ID_799336717" MODIFIED="1655012060916" TEXT="Car accidents VS horse accidents">
@@ -55,7 +55,7 @@
 </node>
 </node>
 <node CREATED="1655012183384" ID="ID_793798201" MODIFIED="1655012186804" TEXT="Economic approach">
-<node CREATED="1655012228144" ID="ID_615339847" MODIFIED="1655012229708" TEXT="Gather data"/>
+<node CREATED="1655012228144" ID="ID_615339847" MODIFIED="1658660279205" TEXT="Gather data"/>
 <node CREATED="1655012230584" ID="ID_1372743750" MODIFIED="1655012233516" TEXT="Ask the good question"/>
 <node CREATED="1655012234401" ID="ID_617853086" MODIFIED="1655012244100" TEXT="Describe the world as it is, without bias"/>
 </node>
@@ -64,7 +64,7 @@
 <node CREATED="1655012266472" ID="ID_1931618505" MODIFIED="1655012282092" TEXT="Quickly forget how bad our predictions were"/>
 </node>
 </node>
-<node CREATED="1655012412120" FOLDED="true" ID="ID_1938440508" MODIFIED="1655548527850" POSITION="right" TEXT="How is a street prostitute like a department store Santa?">
+<node CREATED="1655012412120" ID="ID_1938440508" MODIFIED="1655548527850" POSITION="right" TEXT="How is a street prostitute like a department store Santa?">
 <icon BUILTIN="full-1"/>
 <node CREATED="1655012427096" ID="ID_1650457707" MODIFIED="1655012431260" TEXT="Price discrimination">
 <node CREATED="1655012431464" ID="ID_605381878" MODIFIED="1655012433620" TEXT="Different prices"/>
@@ -75,10 +75,12 @@
 <node CREATED="1655012457352" ID="ID_1245499985" MODIFIED="1655012464788" TEXT="Pre-marital sex"/>
 </node>
 <node CREATED="1655012469080" ID="ID_358152626" MODIFIED="1655012472956" TEXT="Principal agent problem">
-<node CREATED="1655012473152" ID="ID_1724496218" MODIFIED="1655012482509" TEXT="Two parties in same undertaking"/>
+<node CREATED="1655012473152" ID="ID_1724496218" MODIFIED="1655012482509" TEXT="Two parties in same undertaking">
 <node CREATED="1655012483624" ID="ID_171816338" MODIFIED="1655012490308" TEXT="... seem to have the same incentive"/>
 <node CREATED="1655012490784" ID="ID_592982701" MODIFIED="1655012493076" TEXT="... but maybe not"/>
-<node CREATED="1655012495928" ID="ID_341964657" MODIFIED="1655012497580" TEXT="Example">
+</node>
+<node CREATED="1655012495928" ID="ID_341964657" MODIFIED="1658660377600" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1655012498056" ID="ID_1200794865" MODIFIED="1655012502508" TEXT="Police don&apos;t arrest pimps"/>
 <node CREATED="1655012503008" ID="ID_1354147245" MODIFIED="1655012511612" TEXT="... to not have violence when they&apos;re replaced"/>
 <node CREATED="1655012515336" ID="ID_1022323887" MODIFIED="1655012524932" TEXT="In exchange, pimps stay hidden"/>
@@ -95,9 +97,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1655012613472" FOLDED="true" ID="ID_272504680" MODIFIED="1655548528622" POSITION="right" TEXT="Why should suicide bombers buy life insurance?">
+<node CREATED="1655012613472" ID="ID_272504680" MODIFIED="1655548528622" POSITION="right" TEXT="Why should suicide bombers buy life insurance?">
 <icon BUILTIN="full-2"/>
-<node CREATED="1655012627640" ID="ID_1149174829" MODIFIED="1655012635997" TEXT="Study on hospital ER">
+<node CREATED="1655012627640" FOLDED="true" ID="ID_1149174829" MODIFIED="1655012635997" TEXT="Study on hospital ER">
 <node CREATED="1655012636320" ID="ID_1867031651" MODIFIED="1655012642108" TEXT="Better to have a woman doctor"/>
 <node CREATED="1655012644480" ID="ID_1873539570" MODIFIED="1655012648924" TEXT="Skill doesn&apos;t matter as much"/>
 <node CREATED="1655012651280" ID="ID_1315895554" MODIFIED="1655012656748" TEXT="How colleagues rank doctors">
@@ -108,7 +110,7 @@
 <node CREATED="1655012684584" ID="ID_93952915" MODIFIED="1655012687324" TEXT="Better to stay home"/>
 </node>
 </node>
-<node CREATED="1655545671546" ID="ID_762153744" MODIFIED="1655545674909" TEXT="About Cancer">
+<node CREATED="1655545671546" FOLDED="true" ID="ID_762153744" MODIFIED="1655545674909" TEXT="About Cancer">
 <node CREATED="1655545675350" ID="ID_1511588534" MODIFIED="1655545682771" TEXT="Chimio is quite innefective"/>
 <node CREATED="1655545683342" ID="ID_497754853" MODIFIED="1655545729802" TEXT="Counter-argument">
 <node CREATED="1655545690327" ID="ID_474942847" MODIFIED="1655545738570" TEXT="Could be very effective for patient surviving">
@@ -125,12 +127,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1655545874789" ID="ID_79636048" MODIFIED="1655545879353" TEXT="It seems that practicing a war">
+<node CREATED="1655545874789" FOLDED="true" ID="ID_79636048" MODIFIED="1655545879353" TEXT="It seems that practicing a war">
 <node CREATED="1655545879589" ID="ID_619413841" MODIFIED="1655545882649" TEXT="... is as dangerous"/>
 <node CREATED="1655545888798" ID="ID_1204104488" MODIFIED="1655545892649" TEXT="... as fighting one"/>
 </node>
 </node>
-<node CREATED="1655547977566" FOLDED="true" ID="ID_629377623" MODIFIED="1655548529490" POSITION="right" TEXT="Unbelievable Stories about Apathy and Altruism">
+<node CREATED="1655547977566" ID="ID_629377623" MODIFIED="1655548529490" POSITION="right" TEXT="Unbelievable Stories about Apathy and Altruism">
 <icon BUILTIN="full-3"/>
 <node CREATED="1655546177509" ID="ID_553667264" MODIFIED="1655546187585" TEXT="Judgements on ego-driven altruism">
 <node CREATED="1655546144941" ID="ID_873430963" MODIFIED="1655546170386" TEXT="&quot;impure altruism&quot;"/>
@@ -141,7 +143,7 @@
 <node CREATED="1655546200469" ID="ID_5087234" MODIFIED="1655546205153" TEXT="They respond to incentives"/>
 </node>
 </node>
-<node CREATED="1655548430108" FOLDED="true" ID="ID_1889948293" MODIFIED="1655548530305" POSITION="right" TEXT="The Fix is In - And It&apos;s Cheap and Simple">
+<node CREATED="1655548430108" ID="ID_1889948293" MODIFIED="1655548530305" POSITION="right" TEXT="The Fix is In - And It&apos;s Cheap and Simple">
 <icon BUILTIN="full-4"/>
 <node CREATED="1655545918557" ID="ID_214714527" MODIFIED="1655545930857" TEXT="How to know if putting people in prison lower crime rate?">
 <node CREATED="1655545932158" ID="ID_1266362715" MODIFIED="1655545939226" TEXT="Take a group of states">
@@ -205,19 +207,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1655546856806" FOLDED="true" ID="ID_114085281" MODIFIED="1655548531342" POSITION="right" TEXT="What do Al Gore and Mount Pinatubo Have in Common">
+<node CREATED="1655546856806" ID="ID_114085281" MODIFIED="1655548531342" POSITION="right" TEXT="What do Al Gore and Mount Pinatubo Have in Common">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-5"/>
 <node CREATED="1655547245270" ID="ID_1771752941" MODIFIED="1655547250218" TEXT="Global warming">
 <node CREATED="1655547250966" ID="ID_333617428" MODIFIED="1655547296213" TEXT="Look like religion">
 <font NAME="SansSerif" SIZE="12"/>
+</node>
 <node CREATED="1655547256382" ID="ID_900986147" MODIFIED="1655547267994" TEXT="We had paradise and destroyed it">
 <node CREATED="1655547273494" ID="ID_1930868607" MODIFIED="1655547277441" TEXT="... with overconsumption"/>
 <node CREATED="1655547277781" ID="ID_952024526" MODIFIED="1655547285090" TEXT="... and tech"/>
 </node>
 <node CREATED="1655547300702" ID="ID_457861218" MODIFIED="1655547314466" TEXT="Heretics say it&apos;s a natural process">
 <node CREATED="1655547315894" ID="ID_184294469" MODIFIED="1655547324026" TEXT="Only 2% of emission is man made"/>
-</node>
 </node>
 </node>
 <node CREATED="1655547268334" ID="ID_1979056894" MODIFIED="1655547475008" TEXT="&quot;Externality&quot;">
