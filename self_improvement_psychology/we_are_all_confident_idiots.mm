@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572690200779" ID="ID_1248565166" LINK="https://psmag.com/social-justice/confident-idiots-92793" MODIFIED="1643442024602" TEXT="We Are All Confident Idiots">
+<node CREATED="1572690200779" ID="ID_1248565166" LINK="https://psmag.com/social-justice/confident-idiots-92793" MODIFIED="1668870606706" TEXT="We Are All Confident Idiots">
 <richcontent TYPE="NOTE"><html>
   <head>
     

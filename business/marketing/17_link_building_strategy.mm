@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1596724407901" ID="ID_752734979" LINK="https://bloggingfordevs.com/link-building-strategies/" MODIFIED="1633182433990" TEXT="17 Link Building Strategies for Developers and Technical Founders">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1596724505007" FOLDED="true" ID="ID_853036181" MODIFIED="1596724577336" POSITION="right" TEXT="Why backlinks are so important for SEO">
+<node CREATED="1596724505007" ID="ID_853036181" MODIFIED="1596724577336" POSITION="right" TEXT="Why backlinks are so important for SEO">
 <icon BUILTIN="full-1"/>
 <node CREATED="1596724514478" ID="ID_282428554" MODIFIED="1596724524434" TEXT="Links from external websites like upvote for Google"/>
 <node CREATED="1596724539133" ID="ID_1546902347" MODIFIED="1596724543353" TEXT="More authoritative the website">
@@ -11,7 +11,7 @@
 </node>
 <node CREATED="1596724543934" ID="ID_1543907440" MODIFIED="1596724549720" TEXT="... better it is for yours"/>
 </node>
-<node CREATED="1596724574052" FOLDED="true" ID="ID_822999240" MODIFIED="1596724581109" POSITION="right" TEXT="How Google chooses which articles to rank (as far as we know)">
+<node CREATED="1596724574052" ID="ID_822999240" MODIFIED="1596724581109" POSITION="right" TEXT="How Google chooses which articles to rank (as far as we know)">
 <icon BUILTIN="full-2"/>
 <node CREATED="1596724632660" ID="ID_186529800" LINK="https://backlinko.com/google-ranking-factors" MODIFIED="1596724640049" TEXT="Google has 200 factors to rank website"/>
 <node CREATED="1596724694242" ID="ID_1085964762" MODIFIED="1596724699014" TEXT="Backlink is an important one"/>
@@ -32,7 +32,7 @@
 </node>
 <node CREATED="1596724916650" ID="ID_1340720035" MODIFIED="1596724928557" TEXT="How to boost ourselves with backlinks?"/>
 </node>
-<node CREATED="1596724906539" FOLDED="true" ID="ID_1403619012" MODIFIED="1596724910327" POSITION="right" TEXT="The most important SEO tactic that most developers have never heard of before">
+<node CREATED="1596724906539" ID="ID_1403619012" MODIFIED="1596724910327" POSITION="right" TEXT="The most important SEO tactic that most developers have never heard of before">
 <icon BUILTIN="full-3"/>
 <node CREATED="1596724949897" ID="ID_1766459642" MODIFIED="1596724953453" TEXT="Link building">
 <node CREATED="1596724959369" ID="ID_1569214130" MODIFIED="1596724963992" TEXT="Gain external link through">
@@ -49,11 +49,10 @@
 <node CREATED="1596725133095" ID="ID_1804294791" MODIFIED="1596725138428" TEXT="Important to determine if a backlink"/>
 <node CREATED="1596725138799" ID="ID_1798529928" MODIFIED="1596725143619" TEXT="... is valuable to you"/>
 </node>
-<node CREATED="1596725144480" FOLDED="true" ID="ID_16571262" MODIFIED="1596725150391" POSITION="right" TEXT="Why all backlinks are not created equal">
+<node CREATED="1596725144480" ID="ID_16571262" MODIFIED="1596725150391" POSITION="right" TEXT="Why all backlinks are not created equal">
 <icon BUILTIN="full-4"/>
-<node CREATED="1596725197992" ID="ID_380853324" MODIFIED="1596725211364" TEXT="Google takes into account &quot;quality of links&quot;">
-<node CREATED="1596725211631" ID="ID_1478845281" MODIFIED="1596725224068" TEXT="To go around link spams"/>
-</node>
+<node CREATED="1596725197992" ID="ID_380853324" MODIFIED="1596725211364" TEXT="Google takes into account &quot;quality of links&quot;"/>
+<node CREATED="1596725211631" ID="ID_1478845281" MODIFIED="1670602147697" TEXT="... to go around link spams"/>
 </node>
 <node CREATED="1596725236591" FOLDED="true" ID="ID_239998159" MODIFIED="1596725240055" POSITION="right" TEXT="How to tell if a backlink is useful for your website (or a waste of your time)">
 <icon BUILTIN="full-5"/>
@@ -120,7 +119,7 @@
 </node>
 <node CREATED="1596725838034" ID="ID_815777899" MODIFIED="1596725844791" TEXT="... don&apos;t waste your time building useless links"/>
 </node>
-<node CREATED="1596725825050" ID="ID_1768945266" MODIFIED="1596725830700" POSITION="right" TEXT="17 Link Building Strategies for Developers and Tech Founders">
+<node CREATED="1596725825050" FOLDED="true" ID="ID_1768945266" MODIFIED="1596725830700" POSITION="right" TEXT="17 Link Building Strategies for Developers and Tech Founders">
 <icon BUILTIN="full-6"/>
 <node CREATED="1596725874618" ID="ID_120567794" MODIFIED="1596725881439" TEXT="Don&apos;t implement each strategy"/>
 <node CREATED="1596725867017" ID="ID_634305527" MODIFIED="1596725889911" TEXT="... experiment and pick what helps"/>
@@ -404,15 +403,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1596815596386" ID="ID_1378543571" MODIFIED="1596815600059" POSITION="right" TEXT="How to turn the strategies in this article into an infinite list of backlink ideas">
+<node CREATED="1596815596386" FOLDED="true" ID="ID_1378543571" MODIFIED="1596815600059" POSITION="right" TEXT="How to turn the strategies in this article into an infinite list of backlink ideas">
 <icon BUILTIN="full-7"/>
 <node CREATED="1596815625171" ID="ID_824368319" MODIFIED="1596815630359" TEXT="Mix and match these strategies"/>
 </node>
-<node CREATED="1596815640995" ID="ID_825637262" MODIFIED="1596815644458" POSITION="right" TEXT="The most important strategy for building powerful backlinks (you&apos;re probably going to hate)">
+<node CREATED="1596815640995" FOLDED="true" ID="ID_825637262" MODIFIED="1596815644458" POSITION="right" TEXT="The most important strategy for building powerful backlinks (you&apos;re probably going to hate)">
 <icon BUILTIN="full-8"/>
 <node CREATED="1596815657874" ID="ID_290271443" MODIFIED="1596815666215" TEXT="Networking"/>
 </node>
-<node CREATED="1596815695362" ID="ID_1662571203" MODIFIED="1596815698938" POSITION="right" TEXT="Links don&apos;t happen by accident">
+<node CREATED="1596815695362" FOLDED="true" ID="ID_1662571203" MODIFIED="1596815698938" POSITION="right" TEXT="Links don&apos;t happen by accident">
 <icon BUILTIN="full-9"/>
 <node CREATED="1596815707962" ID="ID_563111123" MODIFIED="1596815709742" TEXT="Work for them"/>
 <node CREATED="1596815714329" ID="ID_419957676" MODIFIED="1596815715677" TEXT="Network and collaborate with people who can link to you ">

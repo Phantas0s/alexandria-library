@@ -51,7 +51,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572084409628" FOLDED="true" ID="ID_35522490" MODIFIED="1587829278431" POSITION="left" TEXT="Ugh, So We&#x2019;re Not Supposed to Talk about Ourselves at All?">
+<node CREATED="1572084409628" FOLDED="true" ID="ID_35522490" MODIFIED="1587829278431" POSITION="right" TEXT="Ugh, So We&#x2019;re Not Supposed to Talk about Ourselves at All?">
 <icon BUILTIN="full-5"/>
 <node CREATED="1572084425987" ID="ID_251835286" MODIFIED="1572084434648" TEXT="You can talk about everything above..."/>
 <node CREATED="1572084435028" ID="ID_1478922240" MODIFIED="1572084440065" TEXT="... but talk about it carefully"/>
@@ -79,7 +79,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572084632034" FOLDED="true" ID="ID_313624985" MODIFIED="1587829279188" POSITION="left" TEXT="But Big Boy Company X Doesn&#x2019;t Heed Your Advice! ">
+<node CREATED="1572084632034" FOLDED="true" ID="ID_313624985" MODIFIED="1587829279188" POSITION="right" TEXT="But Big Boy Company X Doesn&#x2019;t Heed Your Advice! ">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="full-6"/>
 <node CREATED="1572084704431" ID="ID_744177216" MODIFIED="1572084714150" TEXT="Big companies play in a different world"/>
@@ -89,7 +89,7 @@
 <node CREATED="1572084753665" ID="ID_978805309" MODIFIED="1572084760524" TEXT="Don&apos;t mimic the giants"/>
 </node>
 </node>
-<node CREATED="1572084772630" FOLDED="true" ID="ID_1404249859" MODIFIED="1587829279797" POSITION="left" TEXT="Always Think of Your Readers and You&#x2019;ll Do Fine">
+<node CREATED="1572084772630" FOLDED="true" ID="ID_1404249859" MODIFIED="1587829279797" POSITION="right" TEXT="Always Think of Your Readers and You&#x2019;ll Do Fine">
 <icon BUILTIN="full-7"/>
 <node CREATED="1572084787535" ID="ID_1289636394" MODIFIED="1572084791756" TEXT="For each blog, imagine a reader">
 <node CREATED="1572084795064" ID="ID_1992245597" MODIFIED="1572084799253" TEXT="fairly specific person"/>

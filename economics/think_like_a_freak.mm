@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1657553332178" ID="ID_1768735262" MODIFIED="1657553336219" TEXT="Think like a freak">
-<node CREATED="1657553416184" FOLDED="true" ID="ID_1816053398" MODIFIED="1657553487145" POSITION="right" TEXT="What does it mean to think like a freak?">
+<node CREATED="1657553416184" ID="ID_1816053398" MODIFIED="1657553487145" POSITION="right" TEXT="What does it mean to think like a freak?">
 <icon BUILTIN="full-1"/>
 <node CREATED="1657553431478" ID="ID_1366762373" MODIFIED="1657553446168" TEXT="Often private interest more important"/>
 <node CREATED="1657553447948" ID="ID_1825158667" MODIFIED="1657553450879" TEXT="... than communal ones"/>
@@ -36,7 +36,7 @@
 <node CREATED="1657553632053" ID="ID_618537227" MODIFIED="1657553636249" TEXT="Re-imagine our thinking"/>
 </node>
 </node>
-<node CREATED="1657553872155" FOLDED="true" ID="ID_1815633088" MODIFIED="1657555191893" POSITION="right" TEXT="The Three Harest Words in the English Language">
+<node CREATED="1657553872155" ID="ID_1815633088" MODIFIED="1669471963901" POSITION="right" TEXT="The Three Hardest Words in the English Language">
 <icon BUILTIN="full-2"/>
 <node CREATED="1657553918363" ID="ID_244177774" MODIFIED="1657553920968" TEXT="&quot;I don&apos;t know&quot;"/>
 <node CREATED="1657553921452" ID="ID_593638119" MODIFIED="1657553930865" TEXT="Knowledge hierarchy">
@@ -59,7 +59,8 @@
 <node CREATED="1657553999581" ID="ID_59759855" MODIFIED="1657554004808" TEXT="... tackled by politicians"/>
 </node>
 </node>
-<node CREATED="1657554115244" ID="ID_935932303" MODIFIED="1657554116455" TEXT="Example">
+<node CREATED="1657554115244" ID="ID_935932303" MODIFIED="1669471981920" TEXT="Example">
+<icon BUILTIN="wizard"/>
 <node CREATED="1657554116611" ID="ID_1125520577" MODIFIED="1657554122344" TEXT="What the best way to stop mass shouting?"/>
 <node CREATED="1657554128147" ID="ID_489607116" MODIFIED="1657554134239" TEXT="Can&apos;t be answered only by cluster of facts"/>
 <node CREATED="1657554137324" ID="ID_1600126496" MODIFIED="1657554138743" TEXT="Need">
@@ -205,7 +206,7 @@
 <node CREATED="1657555166487" ID="ID_1303749495" MODIFIED="1657555179955" TEXT="... and follow up by &quot;but maybe I can find out&quot;"/>
 </node>
 </node>
-<node CREATED="1657555198685" FOLDED="true" ID="ID_1209946951" MODIFIED="1657555205259" POSITION="right" TEXT="What&apos;s your problem?">
+<node CREATED="1657555198685" ID="ID_1209946951" MODIFIED="1657555205259" POSITION="right" TEXT="What&apos;s your problem?">
 <icon BUILTIN="full-3"/>
 <node CREATED="1657555211270" ID="ID_1444120320" MODIFIED="1657555218146" TEXT="Need to ask the right question">
 <node CREATED="1657555233703" ID="ID_1355147842" MODIFIED="1657555241178" TEXT="Wrong question leads to wrong answers"/>
@@ -300,7 +301,7 @@
 <node CREATED="1657642066637" ID="ID_1755070649" MODIFIED="1657642082936" TEXT="Is it possible to practice endlessly something you don&apos;t enjoy?"/>
 </node>
 </node>
-<node CREATED="1657642094620" FOLDED="true" ID="ID_880247077" MODIFIED="1657642103163" POSITION="right" TEXT="Like giving candy to a baby">
+<node CREATED="1657642094620" ID="ID_880247077" MODIFIED="1657642103163" POSITION="right" TEXT="Like giving candy to a baby">
 <icon BUILTIN="full-6"/>
 <node CREATED="1657642104732" FOLDED="true" ID="ID_215363774" MODIFIED="1657642111009" TEXT="People respond to incentive">
 <node CREATED="1657642111236" ID="ID_650405346" MODIFIED="1657642115601" TEXT="Not always easy to figure out"/>
@@ -322,7 +323,7 @@
 <node CREATED="1657642256908" ID="ID_1030322478" MODIFIED="1657642261328" TEXT="Climb in the mind of people"/>
 <node CREATED="1657642261891" ID="ID_876781417" MODIFIED="1657642266432" TEXT="Figure out what is important for them"/>
 </node>
-<node CREATED="1657642272668" FOLDED="true" ID="ID_614158448" MODIFIED="1657642279784" TEXT="Some incentive are obvious">
+<node CREATED="1657642272668" ID="ID_614158448" MODIFIED="1657642279784" TEXT="Some incentive are obvious">
 <node CREATED="1657642280012" ID="ID_1628816807" MODIFIED="1657642283663" TEXT="Many are not"/>
 <node CREATED="1657642285587" ID="ID_39923782" MODIFIED="1657642293936" TEXT="Asking people what they need"/>
 <node CREATED="1657642294403" ID="ID_1400982485" MODIFIED="1657642297055" TEXT="... doesn&apos;t always work"/>
@@ -336,7 +337,7 @@
 <node CREATED="1657642326970" ID="ID_580770933" MODIFIED="1657642331392" TEXT="... often a gap between the two"/>
 </node>
 </node>
-<node CREATED="1657642335331" FOLDED="true" ID="ID_695059221" MODIFIED="1657642341640" TEXT="Determining someone true incentives">
+<node CREATED="1657642335331" ID="ID_695059221" MODIFIED="1657642341640" TEXT="Determining someone true incentives">
 <node CREATED="1657642341884" ID="ID_1964538641" MODIFIED="1657642344598" TEXT="Experiments can help"/>
 <node CREATED="1657642351171" ID="ID_428049726" MODIFIED="1657642419664" TEXT="Example">
 <icon BUILTIN="wizard"/>
@@ -377,7 +378,7 @@
 <node CREATED="1657642435899" ID="ID_562256857" MODIFIED="1657642443958" TEXT="Think about actual behavior of real people"/>
 <node CREATED="1657642445971" ID="ID_773622853" MODIFIED="1657642448718" TEXT="... not what it might be"/>
 </node>
-<node CREATED="1657642458362" FOLDED="true" ID="ID_929673596" MODIFIED="1657642461886" TEXT="Moral incentive">
+<node CREATED="1657642458362" ID="ID_929673596" MODIFIED="1657642461886" TEXT="Moral incentive">
 <node CREATED="1657642462227" ID="ID_904917692" MODIFIED="1657642467398" TEXT="Don&apos;t work as well as people imagine"/>
 <node CREATED="1657642468067" ID="ID_1951676171" MODIFIED="1657642477079" TEXT="Subtext message">
 <node CREATED="1657642477299" ID="ID_1694158659" MODIFIED="1657642482054" TEXT="&quot;A lot of people are doing it wrong&quot;"/>
@@ -533,7 +534,7 @@
 <node CREATED="1658333213318" FOLDED="true" ID="ID_1611402740" MODIFIED="1658333229284" TEXT="It&apos;s not me, it&apos;s you">
 <icon BUILTIN="full-2"/>
 <node CREATED="1658333232491" ID="ID_63560836" MODIFIED="1658333239520" TEXT="You&apos;re only the producer of the argument"/>
-<node CREATED="1658333243940" ID="ID_1209059535" MODIFIED="1658333250215" TEXT="He producer has the word that counts"/>
+<node CREATED="1658333243940" ID="ID_1209059535" MODIFIED="1669472347868" TEXT="The producer has the word that counts"/>
 <node CREATED="1658333250636" ID="ID_654176180" MODIFIED="1658333255462" TEXT="Even if argument is extremely good">
 <node CREATED="1658333255692" ID="ID_102013972" MODIFIED="1658333269838" TEXT="If it doesn&apos;t reasonate with recipient"/>
 <node CREATED="1658333270244" ID="ID_507079236" MODIFIED="1658333284255" TEXT="... you won&apos;t go anywhere"/>
@@ -643,11 +644,13 @@
 <node CREATED="1658334266309" ID="ID_647228592" MODIFIED="1658334280945" TEXT="Decision of quitting or not might comes from a dilemma"/>
 </node>
 <node CREATED="1658334286396" ID="ID_611307207" MODIFIED="1658334292520" TEXT="Thinks of quitting as &quot;letting go&quot;">
-<node CREATED="1658334293820" ID="ID_1511535242" MODIFIED="1658334313793" TEXT="Letting go of the conventional wisdom that torment us"/>
-<node CREATED="1658334314525" ID="ID_1252393344" MODIFIED="1658334329344" TEXT="Letting go of the artificial limits that hold us back"/>
-<node CREATED="1658334343492" ID="ID_1571519408" MODIFIED="1658334347375" TEXT="Letting go of bad habits"/>
-<node CREATED="1658334347779" ID="ID_1974761533" MODIFIED="1658334355783" TEXT="Letting go of fear">
-<node CREATED="1658334356043" ID="ID_237539680" MODIFIED="1658334368503" TEXT="If admiting that we don&apos;t know"/>
+<node CREATED="1669472404697" ID="ID_426541393" MODIFIED="1669472408524" TEXT="Letting go of">
+<node CREATED="1669472408896" ID="ID_1883468905" MODIFIED="1669472415879" TEXT="Conventional wisdom that torment us"/>
+<node CREATED="1669472416328" ID="ID_1214797071" MODIFIED="1669472424141" TEXT="Artificial limits that hold us back"/>
+<node CREATED="1669472424527" ID="ID_466439834" MODIFIED="1669472428195" TEXT="Bad habits"/>
+<node CREATED="1669472428564" ID="ID_30031493" MODIFIED="1669472442013" TEXT="Fear">
+<node CREATED="1669472442267" ID="ID_19350598" MODIFIED="1669472447877" TEXT="Admitting that we don&apos;t know"/>
+</node>
 </node>
 </node>
 </node>

@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1651935522202" TEXT="Vim User Manual">
+<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1669959466677" TEXT="Vim User Manual">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -31,7 +31,7 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
-<node CREATED="1615127238736" ID="ID_403168201" MODIFIED="1615127326387" TEXT="The first steps in Vim">
+<node CREATED="1615127238736" FOLDED="true" ID="ID_403168201" MODIFIED="1615127326387" TEXT="The first steps in Vim">
 <icon BUILTIN="full-2"/>
 <node CREATED="1615127750380" ID="ID_1702018597" MODIFIED="1615127781159" TEXT="Running Vim for the First Time">
 <icon BUILTIN="full-1"/>
@@ -503,7 +503,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1615127251784" ID="ID_622066094" MODIFIED="1615127330638" TEXT="Using syntax highlighting">
+<node CREATED="1615127251784" FOLDED="true" ID="ID_622066094" MODIFIED="1615127330638" TEXT="Using syntax highlighting">
 <icon BUILTIN="full-6"/>
 <node CREATED="1617979341370" ID="ID_461769862" MODIFIED="1617979345213" TEXT="Switching it on">
 <icon BUILTIN="full-1"/>
@@ -744,7 +744,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1615127260790" ID="ID_518818346" MODIFIED="1615127376740" TEXT="Splitting windows">
+<node CREATED="1615127260790" FOLDED="true" ID="ID_518818346" MODIFIED="1615127376740" TEXT="Splitting windows">
 <icon BUILTIN="full-8"/>
 <node CREATED="1624103498201" FOLDED="true" ID="ID_1771284967" MODIFIED="1624103623972" TEXT="Split a window">
 <icon BUILTIN="full-1"/>
@@ -1767,7 +1767,7 @@
 </node>
 <node CREATED="1615127426016" ID="ID_77917991" MODIFIED="1629010114435" TEXT="Editing Formatted text">
 <icon BUILTIN="full-6"/>
-<node CREATED="1629010116464" FOLDED="true" ID="ID_896283484" MODIFIED="1629010137772" TEXT="Breaking lines">
+<node CREATED="1629010116464" ID="ID_896283484" MODIFIED="1629010137772" TEXT="Breaking lines">
 <icon BUILTIN="full-1"/>
 <node CREATED="1629010149703" ID="ID_734106814" MODIFIED="1629010159410" TEXT="Doesn&apos;t perform automatic line breaks per default"/>
 <node CREATED="1629010170910" ID="ID_182026501" MODIFIED="1629010178561" TEXT="Option &apos;textwidth&apos;">
@@ -1801,7 +1801,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1629010122933" FOLDED="true" ID="ID_354444488" MODIFIED="1629010138282" TEXT="Aligning text">
+<node CREATED="1629010122933" ID="ID_354444488" MODIFIED="1629010138282" TEXT="Aligning text">
 <icon BUILTIN="full-2"/>
 <node CREATED="1629011062907" ID="ID_387123571" MODIFIED="1629011066639" TEXT="Center a range of line">
 <node CREATED="1629011066859" ID="ID_1566025989" MODIFIED="1629011073679" TEXT=":{range} center [width]">
@@ -3154,7 +3154,7 @@
 <icon BUILTIN="full-6"/>
 </node>
 </node>
-<node CREATED="1615127513190" ID="ID_1668822243" MODIFIED="1615127516857" POSITION="right" TEXT="Reference manual">
+<node CREATED="1615127513190" FOLDED="true" ID="ID_1668822243" MODIFIED="1615127516857" POSITION="right" TEXT="Reference manual">
 <node CREATED="1615127522277" ID="ID_631186184" MODIFIED="1615127527903" TEXT=":h reference_toc">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>

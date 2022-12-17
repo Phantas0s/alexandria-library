@@ -1,6 +1,19 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1573066274230" ID="ID_666313599" LINK="https://www.youtube.com/watch?v=QHHg99hwQGY" MODIFIED="1573066348453" TEXT="Magic: the Gathering: Twenty Years, Twenty Lessons Learned">
+<node COLOR="#338800" CREATED="1671120657256" ID="ID_710898587" MODIFIED="1671120923376" POSITION="right" TEXT="In summary">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="password"/>
+<node COLOR="#338800" CREATED="1671120662356" ID="ID_1840052488" MODIFIED="1671120681074" TEXT="Involve the player a maximum">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#338800" CREATED="1671120670371" ID="ID_999430173" MODIFIED="1671120681682" TEXT="Involve the emotions of the player">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#338800" CREATED="1671120733211" ID="ID_442674763" MODIFIED="1671120759782" TEXT="Go all in">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
 <node CREATED="1573066378097" FOLDED="true" ID="ID_1752612587" MODIFIED="1573068145820" POSITION="right" TEXT="Fighting against human nature is a losing battle">
 <icon BUILTIN="full-1"/>
 <node CREATED="1573066463967" ID="ID_335558301" MODIFIED="1573066465884" TEXT="Audience">
@@ -15,15 +28,14 @@
 <icon BUILTIN="full-2"/>
 <node CREATED="1573066589735" ID="ID_1252008889" MODIFIED="1573066592524" TEXT="Human perception"/>
 <node CREATED="1573066606295" ID="ID_1794301201" MODIFIED="1573066637852" TEXT="Aesthetic school">
-<node CREATED="1573066610525" ID="ID_236129200" MODIFIED="1573066617530" TEXT="How human perceive the world"/>
+<node CREATED="1573066610525" ID="ID_236129200" MODIFIED="1671093735381" TEXT="How human perceives the world"/>
 <node CREATED="1573066626735" ID="ID_1122886141" MODIFIED="1573066633196" TEXT="What is aesthetically pleasing"/>
 </node>
 <node CREATED="1573066644247" ID="ID_292741660" MODIFIED="1573066649138" TEXT="Not only visual">
-<node CREATED="1573066649398" ID="ID_1969126124" MODIFIED="1573066654515" TEXT="Game component needs to feel right">
+<node CREATED="1573066649398" ID="ID_1969126124" MODIFIED="1573066654515" TEXT="Game component needs to feel right"/>
 <node CREATED="1573066654653" ID="ID_1766328562" MODIFIED="1573066656371" TEXT="Balance"/>
 <node CREATED="1573066656687" ID="ID_1225530063" MODIFIED="1573066660467" TEXT="Symmetry"/>
 <node CREATED="1573066660832" ID="ID_747663139" MODIFIED="1573066663899" TEXT="Pattern completion"/>
-</node>
 </node>
 <node CREATED="1573066679110" ID="ID_1238039137" MODIFIED="1573066696579" TEXT="Don&apos;t fight how humans like to perceive things"/>
 </node>
@@ -43,7 +55,7 @@
 <node CREATED="1573066895653" ID="ID_560858509" MODIFIED="1573066898313" TEXT="Resonance"/>
 <node CREATED="1573066898493" ID="ID_1641793809" MODIFIED="1595779708301" TEXT="Teaching school for game mechanics"/>
 <node CREATED="1573066942787" ID="ID_384786050" MODIFIED="1573066950473" TEXT="... to make teaching game mechanics easier"/>
-<node CREATED="1573066921719" FOLDED="true" ID="ID_70656802" MODIFIED="1573067052248" TEXT="Examples">
+<node CREATED="1573066921719" ID="ID_70656802" MODIFIED="1573067052248" TEXT="Examples">
 <icon BUILTIN="wizard"/>
 <node CREATED="1573066924781" ID="ID_1547241251" MODIFIED="1573066931017" TEXT="Game mechanics fly"/>
 <node CREATED="1573066931356" ID="ID_655227810" MODIFIED="1573066976913" TEXT="... doesn&apos;t need to explain!"/>
@@ -164,21 +176,20 @@
 <node CREATED="1573068336160" ID="ID_149442387" MODIFIED="1573068347837" TEXT="Customizations"/>
 </node>
 </node>
-<node CREATED="1573068355990" FOLDED="true" ID="ID_464365546" MODIFIED="1573069934021" POSITION="left" TEXT="If everyone likes your game but no one loves it, it will fail">
+<node CREATED="1573068355990" FOLDED="true" ID="ID_464365546" MODIFIED="1573069934021" POSITION="right" TEXT="If everyone likes your game but no one loves it, it will fail">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1573068447216" ID="ID_1759455585" MODIFIED="1573068452077" TEXT="Search a strong response">
 <node CREATED="1573068452240" ID="ID_1417585685" MODIFIED="1573068457381" TEXT="Even if some of it is negative"/>
 </node>
 <node CREATED="1573068457744" ID="ID_545901389" MODIFIED="1573068463276" TEXT="Not everyone will love everything"/>
-<node CREATED="1573068476191" ID="ID_287311772" MODIFIED="1573068489707" TEXT="Some player hate">
-<node CREATED="1573068481921" ID="ID_1731679791" MODIFIED="1573068485468" TEXT="what others love"/>
-</node>
+<node CREATED="1573068476191" ID="ID_287311772" MODIFIED="1573068489707" TEXT="Some player hate"/>
+<node CREATED="1573068481921" ID="ID_1731679791" MODIFIED="1671094626627" TEXT="... what others love"/>
 <node CREATED="1573068490800" ID="ID_955073399" MODIFIED="1573068496787" TEXT="Don&apos;t minimize the negative that much!">
 <node CREATED="1573068497072" ID="ID_1700420849" MODIFIED="1573068500812" TEXT="Look at the big picture"/>
 </node>
 </node>
-<node CREATED="1573068513345" FOLDED="true" ID="ID_1081016117" MODIFIED="1573069934021" POSITION="left" TEXT="Don&apos;t design to prove you can do something">
+<node CREATED="1573068513345" FOLDED="true" ID="ID_1081016117" MODIFIED="1573069934021" POSITION="right" TEXT="Don&apos;t design to prove you can do something">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1573068602016" ID="ID_555438956" MODIFIED="1573068607523" TEXT="Don&apos;t let your ego drive your motivation">
@@ -193,7 +204,7 @@
 <node CREATED="1573068655823" ID="ID_1088607989" MODIFIED="1573068657115" TEXT="for people"/>
 </node>
 </node>
-<node CREATED="1573068660319" FOLDED="true" ID="ID_1167713571" MODIFIED="1573069934021" POSITION="left" TEXT="Make the fun part also the correct strategy for win">
+<node CREATED="1573068660319" FOLDED="true" ID="ID_1167713571" MODIFIED="1573069934021" POSITION="right" TEXT="Make the fun part also the correct strategy for win">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1573068728095" ID="ID_168541394" MODIFIED="1573068732138" TEXT="Game designer">
@@ -210,7 +221,7 @@
 <node CREATED="1573068792750" ID="ID_273595461" MODIFIED="1573068796841" TEXT="Core component of game experience"/>
 </node>
 </node>
-<node CREATED="1573068807925" FOLDED="true" ID="ID_397139209" MODIFIED="1573069934021" POSITION="left" TEXT="Don&apos;t be afraid to be blunt">
+<node CREATED="1573068807925" FOLDED="true" ID="ID_397139209" MODIFIED="1573069934021" POSITION="right" TEXT="Don&apos;t be afraid to be blunt">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-4"/>
 <node CREATED="1573068918341" ID="ID_135082855" MODIFIED="1573068924113" TEXT="Sometimes subtlety doesn&apos;t work">
@@ -222,7 +233,7 @@
 <node CREATED="1573068966252" ID="ID_746048686" MODIFIED="1573068970624" TEXT="... when it&apos;s valuable"/>
 </node>
 </node>
-<node CREATED="1573068971828" FOLDED="true" ID="ID_719955835" MODIFIED="1573069934022" POSITION="left" TEXT="Design the component for the audience intended for">
+<node CREATED="1573068971828" FOLDED="true" ID="ID_719955835" MODIFIED="1573069934022" POSITION="right" TEXT="Design the component for the audience intended for">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-5"/>
 <node CREATED="1573069126418" ID="ID_139962132" MODIFIED="1573069130488" TEXT="If you design to everybody">
@@ -234,13 +245,13 @@
 <node CREATED="1573069164173" ID="ID_889502508" MODIFIED="1573069167688" TEXT="... it&apos;s not for them"/>
 </node>
 </node>
-<node CREATED="1573069173546" FOLDED="true" ID="ID_1118061483" MODIFIED="1573069934022" POSITION="left" TEXT="Be more afraid of boring your players than challenging them">
+<node CREATED="1573069173546" FOLDED="true" ID="ID_1118061483" MODIFIED="1573069934022" POSITION="right" TEXT="Be more afraid of boring your players than challenging them">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-6"/>
 <node CREATED="1573069305018" ID="ID_1913598126" MODIFIED="1573069310239" TEXT="You can&apos;t do that!">
 <node CREATED="1573069311194" ID="ID_591693077" MODIFIED="1573069315791" TEXT="It&apos;s too risky!"/>
 </node>
-<node CREATED="1573069324664" ID="ID_288750184" MODIFIED="1573069338766" TEXT="If you&apos;re trying to do something awsome">
+<node CREATED="1573069324664" ID="ID_288750184" MODIFIED="1671120098735" TEXT="If you&apos;re trying to do something awesome">
 <node CREATED="1573069374785" ID="ID_541471852" MODIFIED="1573069380538" TEXT="... and you fail"/>
 <node CREATED="1573069339697" ID="ID_1315871200" MODIFIED="1573069342836" TEXT="they will recognize it"/>
 <node CREATED="1573069343176" ID="ID_1225829768" MODIFIED="1573069345966" TEXT="they will respect it"/>
@@ -250,7 +261,7 @@
 <node CREATED="1573069363601" ID="ID_703464053" MODIFIED="1573069366262" TEXT="not taking a risk"/>
 </node>
 </node>
-<node CREATED="1573069383464" FOLDED="true" ID="ID_802010971" MODIFIED="1573069934022" POSITION="left" TEXT="You don&apos;t have to change much to change everything">
+<node CREATED="1573069383464" FOLDED="true" ID="ID_802010971" MODIFIED="1573069934022" POSITION="right" TEXT="You don&apos;t have to change much to change everything">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-7"/>
 <node CREATED="1573069502321" ID="ID_1251224030" MODIFIED="1573069544204" TEXT="Game components">
@@ -267,23 +278,22 @@
 </node>
 </node>
 </node>
-<node CREATED="1573069567662" ID="ID_825571545" MODIFIED="1573069934022" POSITION="left" TEXT="Restrictions breed creativity">
+<node CREATED="1573069567662" FOLDED="true" ID="ID_825571545" MODIFIED="1573069934022" POSITION="right" TEXT="Restrictions breed creativity">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-8"/>
 <node CREATED="1573069620405" ID="ID_86538515" MODIFIED="1573069625083" TEXT="More option available">
 <node CREATED="1573069625279" ID="ID_688425466" MODIFIED="1596891670063" TEXT="more creative your are?"/>
 <node CREATED="1573069631552" ID="ID_746010510" MODIFIED="1573069633923" TEXT="... not true!!!"/>
 </node>
-<node CREATED="1573069635199" FOLDED="true" ID="ID_1503936239" MODIFIED="1573069646130" TEXT="Brain">
-<node CREATED="1573069646303" ID="ID_1703688693" MODIFIED="1573069651923" TEXT="Did I save this problem before?">
+<node CREATED="1573069635199" ID="ID_1503936239" MODIFIED="1573069646130" TEXT="Brain">
+<node CREATED="1573069646303" ID="ID_1703688693" MODIFIED="1573069651923" TEXT="Did I save this problem before?"/>
 <node CREATED="1573069652111" ID="ID_1566708151" MODIFIED="1573069657363" TEXT="If yes, use exactly the same solution"/>
 <node CREATED="1573069657733" ID="ID_811756142" MODIFIED="1573069661299" TEXT="Same neurone pathway">
 <node CREATED="1573069661464" ID="ID_502319842" MODIFIED="1573069663635" TEXT="same answer"/>
 </node>
 <node CREATED="1573069664271" ID="ID_1508201311" MODIFIED="1573069668492" TEXT="... not good for creativity"/>
 </node>
-</node>
-<node CREATED="1573069669951" FOLDED="true" ID="ID_1880913745" MODIFIED="1573069678171" TEXT="Start where you never started before">
+<node CREATED="1573069669951" ID="ID_1880913745" MODIFIED="1573069678171" TEXT="Start where you never started before">
 <node CREATED="1573069682671" ID="ID_1460938258" MODIFIED="1573069683905" TEXT="New ideas"/>
 <node CREATED="1573069684253" ID="ID_1579074394" MODIFIED="1573069686763" TEXT="New solutions"/>
 </node>
@@ -294,10 +304,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1573069722399" FOLDED="true" ID="ID_399150173" MODIFIED="1573069934022" POSITION="left" TEXT="Your audience is good to recognize problems and bad to solve them">
+<node CREATED="1573069722399" FOLDED="true" ID="ID_399150173" MODIFIED="1573069934022" POSITION="right" TEXT="Your audience is good to recognize problems and bad to solve them">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-9"/>
-<node CREATED="1573069796356" FOLDED="true" ID="ID_878123169" MODIFIED="1573069801801" TEXT="Player">
+<node CREATED="1573069796356" ID="ID_878123169" MODIFIED="1573069801801" TEXT="Player">
 <node CREATED="1573069801997" ID="ID_125477933" MODIFIED="1573069813282" TEXT="better understanding how they feel about the game"/>
 <node CREATED="1573069819983" ID="ID_27626297" MODIFIED="1573069823977" TEXT="Can tell when something is wrong"/>
 <node CREATED="1573069832062" ID="ID_508053896" MODIFIED="1573069838905" TEXT="Good at identifying problems"/>
@@ -306,7 +316,7 @@
 <node CREATED="1573069902509" ID="ID_202214922" MODIFIED="1573069906850" TEXT="bad at finding solutions"/>
 </node>
 </node>
-<node CREATED="1573069918612" ID="ID_1626756106" MODIFIED="1573070008186" POSITION="left" TEXT="All the lessons connect">
+<node CREATED="1573069918612" ID="ID_1626756106" MODIFIED="1573070008186" POSITION="right" TEXT="All the lessons connect">
 <icon BUILTIN="full-2"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1573070028660" ID="ID_787637118" MODIFIED="1596891703806" TEXT="Only one large and interconnected lessons here"/>

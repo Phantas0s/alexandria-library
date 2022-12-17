@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1572536781653" ID="ID_1565021624" LINK="https://www.nytimes.com/2019/03/28/smarter-living/productivity-isnt-about-time-management-its-about-attention-management.html" MODIFIED="1643440362291" TEXT="No time management but attention management">
+<node CREATED="1572536781653" ID="ID_1565021624" LINK="https://www.nytimes.com/2019/03/28/smarter-living/productivity-isnt-about-time-management-its-about-attention-management.html" MODIFIED="1669469324147" TEXT="No time management but attention management">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -35,7 +35,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1572536899931" FOLDED="true" ID="ID_1473643009" MODIFIED="1572537072316" POSITION="right" TEXT="Introduction">
+<node CREATED="1572536899931" ID="ID_1473643009" MODIFIED="1572537072316" POSITION="right" TEXT="Introduction">
 <icon BUILTIN="full-1"/>
 <node CREATED="1572536902843" FOLDED="true" ID="ID_945544007" MODIFIED="1572536913617" TEXT="Culture obsessed by personal productivity">
 <node CREATED="1572536925859" ID="ID_72039786" MODIFIED="1572536929383" TEXT="Key: time management"/>
@@ -55,19 +55,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1572537068403" FOLDED="true" ID="ID_572594277" MODIFIED="1572537075515" POSITION="right" TEXT="O.K., sure, but why shift our focus?">
+<node CREATED="1572537068403" ID="ID_572594277" MODIFIED="1572537075515" POSITION="right" TEXT="O.K., sure, but why shift our focus?">
 <icon BUILTIN="full-2"/>
-<node CREATED="1572537085986" FOLDED="true" ID="ID_18915023" MODIFIED="1572537088407" TEXT="Time management">
+<node CREATED="1572537085986" ID="ID_18915023" MODIFIED="1572537088407" TEXT="Time management">
 <node CREATED="1572537088570" ID="ID_1567277171" MODIFIED="1572537093359" TEXT="Set goals when to finish the task"/>
 </node>
-<node CREATED="1572537214242" FOLDED="true" ID="ID_942801558" MODIFIED="1572537220174" TEXT="Saving or savoring the world?">
+<node CREATED="1572537214242" ID="ID_942801558" MODIFIED="1572537220174" TEXT="Saving or savoring the world?">
 <node CREATED="1572537220393" ID="ID_30460554" MODIFIED="1572537222405" TEXT="Take both!"/>
 <node CREATED="1572537222776" ID="ID_838475636" MODIFIED="1572537228276" TEXT="Projects ">
 <node CREATED="1572537228482" ID="ID_1330607073" MODIFIED="1633190419418" TEXT="Personally interesting"/>
 <node CREATED="1572537233289" ID="ID_1515983469" MODIFIED="1633190426346" TEXT="Socially meaningful"/>
 </node>
 </node>
-<node CREATED="1572537265816" FOLDED="true" ID="ID_575187" MODIFIED="1572537271285" TEXT="Productivity struggle">
+<node CREATED="1572537265816" ID="ID_575187" MODIFIED="1572537271285" TEXT="Productivity struggle">
 <node CREATED="1572537271481" ID="ID_246728370" MODIFIED="1572537275662" TEXT="Not lack of efficiency"/>
 <node CREATED="1572537276034" ID="ID_1068184893" MODIFIED="1572537279117" TEXT="... but lack of motivation"/>
 <node CREATED="1572537284305" ID="ID_657744290" MODIFIED="1572537287589" TEXT="Productivity">
@@ -79,7 +79,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572537363032" FOLDED="true" ID="ID_147022216" MODIFIED="1572537366586" POSITION="right" TEXT="But how do I stay on task if I&#x2019;m not worried about time?">
+<node CREATED="1572537363032" ID="ID_147022216" MODIFIED="1572537366586" POSITION="right" TEXT="But how do I stay on task if I&#x2019;m not worried about time?">
 <icon BUILTIN="full-3"/>
 <node CREATED="1572537390240" ID="ID_99760485" MODIFIED="1572537393717" TEXT="Attention management"/>
 <node CREATED="1572537393887" ID="ID_1560012254" MODIFIED="1572537596843" TEXT="Include the where">
