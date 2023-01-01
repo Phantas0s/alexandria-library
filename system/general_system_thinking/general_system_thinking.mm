@@ -3,24 +3,22 @@
 <node CREATED="1615050071886" ID="ID_963020349" MODIFIED="1641226789503" TEXT="Series General System Thinking">
 <node CREATED="1641224953632" ID="ID_865726895" MODIFIED="1641225004296" POSITION="right" TEXT=" Introduction to General System Thinking">
 <icon BUILTIN="full-1"/>
-<node CREATED="1621257742869" FOLDED="true" ID="ID_151587739" MODIFIED="1621257793120" TEXT="Preface to silver anniversary edition">
-<node CREATED="1621257796964" ID="ID_316980391" MODIFIED="1624375963171" TEXT="Albert Einstein">
+<node CREATED="1621257742869" ID="ID_151587739" MODIFIED="1621257793120" TEXT="Preface to silver anniversary edition">
+<node CREATED="1621257796964" ID="ID_316980391" MODIFIED="1672496322845" TEXT="Albert Einstein">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      The significant problems we face cannot be solved at the same level of thinking we were at when we
-    </p>
-    <p>
-      created them. - Albert Einstein
+      The significant problems we face cannot be solved at the same level of thinking we were at when we created them. - Albert Einstein
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1621257838487" FOLDED="true" ID="ID_126339439" MODIFIED="1642263576085" TEXT="Original Preface">
+<node CREATED="1621257838487" ID="ID_126339439" MODIFIED="1642263576085" TEXT="Original Preface">
 <icon BUILTIN="full-0"/>
 <node CREATED="1621257850492" ID="ID_1644739741" MODIFIED="1621257855240" TEXT="People have foggy ideas">
 <node CREATED="1621257868421" ID="ID_1267478312" MODIFIED="1621257872553" TEXT="... about what they are saying"/>
@@ -31,7 +29,7 @@
 <node CREATED="1621257901003" ID="ID_240806725" MODIFIED="1621257903593" TEXT="... a programmer could have"/>
 </node>
 </node>
-<node CREATED="1621257932420" FOLDED="true" ID="ID_154349581" MODIFIED="1625760320694" TEXT="Chapter 1 - The Problem">
+<node CREATED="1621257932420" ID="ID_154349581" MODIFIED="1625760320694" TEXT="Chapter 1 - The Problem">
 <icon BUILTIN="full-1"/>
 <node CREATED="1621257984147" FOLDED="true" ID="ID_738939494" MODIFIED="1621257988386" TEXT="The complexity of the world">
 <icon BUILTIN="full-1"/>
@@ -217,7 +215,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1621259730453" FOLDED="true" ID="ID_1882848459" MODIFIED="1621259745795" TEXT="Statistical Mechanics and the Law of Large Number">
+<node CREATED="1621259730453" ID="ID_1882848459" MODIFIED="1621259745795" TEXT="Statistical Mechanics and the Law of Large Number">
 <icon BUILTIN="full-5"/>
 <node CREATED="1621259755269" ID="ID_1365580898" MODIFIED="1621259761946" TEXT="Newton achievement"/>
 <node CREATED="1621259762988" ID="ID_1953092307" MODIFIED="1621259770202" TEXT="Describing system with around 105 objects"/>
@@ -233,13 +231,14 @@
 </node>
 <node CREATED="1621259830998" ID="ID_1430991832" MODIFIED="1621259853554" TEXT="Statistical mechanics">
 <node CREATED="1621259854902" ID="ID_1687921441" MODIFIED="1621259861450" TEXT="&quot;Unorganized complexity&quot;"/>
-<node CREATED="1621259867626" ID="ID_1355817229" MODIFIED="1621259875434" TEXT="Complex systems"/>
+<node CREATED="1621259867626" ID="ID_1355817229" MODIFIED="1621259875434" TEXT="Complex systems">
 <node CREATED="1621259882117" ID="ID_1016962811" MODIFIED="1625992474736" TEXT="... sufficiently random"/>
 <node CREATED="1621259885438" ID="ID_1714437690" MODIFIED="1621259894114" TEXT="... so sufficiently regular"/>
 <node CREATED="1621259895779" ID="ID_1210334651" MODIFIED="1621259902338" TEXT="... to be studied statistically"/>
 </node>
 </node>
-<node CREATED="1621260489747" ID="ID_759025249" MODIFIED="1621260498192" TEXT="The Law of Medium Numbers">
+</node>
+<node CREATED="1621260489747" FOLDED="true" ID="ID_759025249" MODIFIED="1621260498192" TEXT="The Law of Medium Numbers">
 <icon BUILTIN="full-6"/>
 <node CREATED="1632057912297" ID="ID_498213031" MODIFIED="1632057917011" TEXT="Small population">
 <node CREATED="1632057917169" ID="ID_1675784489" MODIFIED="1632057921390" TEXT="Just need to observe what they do"/>
@@ -4651,7 +4650,7 @@
 </node>
 <node CREATED="1646239157530" FOLDED="true" ID="ID_1787688391" MODIFIED="1648910683546" TEXT="Chapter 8 - The Structure Regulation Law">
 <icon BUILTIN="full-8"/>
-<node CREATED="1646239182114" ID="ID_283881164" MODIFIED="1646239192784" TEXT="The Equivalence of Structure and Input">
+<node CREATED="1646239182114" FOLDED="true" ID="ID_283881164" MODIFIED="1646239192784" TEXT="The Equivalence of Structure and Input">
 <icon BUILTIN="full-1"/>
 <node CREATED="1646239205675" ID="ID_1165920126" MODIFIED="1646239212973" TEXT="In real world, data has always uncertainty"/>
 <node CREATED="1646239213593" ID="ID_1642834537" MODIFIED="1648910472131" TEXT="The more uncertainty">
@@ -4689,7 +4688,7 @@
 </node>
 <node CREATED="1646239397857" ID="ID_1007160709" MODIFIED="1646239409549" TEXT="Nobody knows it in sense of absolute certainty"/>
 </node>
-<node CREATED="1646239413702" ID="ID_1158061448" MODIFIED="1646239419504" TEXT=" Can a Linear System be Stable">
+<node CREATED="1646239413702" FOLDED="true" ID="ID_1158061448" MODIFIED="1646239419504" TEXT=" Can a Linear System be Stable">
 <icon BUILTIN="full-2"/>
 <node CREATED="1646239425409" ID="ID_1380634461" MODIFIED="1646239433485" TEXT="Already know that limiting behavior"/>
 <node CREATED="1646239433712" ID="ID_718431971" MODIFIED="1646239443749" TEXT=" ... of single linear aggregate will be exponential"/>

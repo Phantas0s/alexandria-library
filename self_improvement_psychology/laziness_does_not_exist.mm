@@ -67,7 +67,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1573229829502" ID="ID_1377123652" MODIFIED="1573898828155" POSITION="left" TEXT="Procrastination">
+<node CREATED="1573229829502" ID="ID_1377123652" MODIFIED="1573898828155" POSITION="right" TEXT="Procrastination">
 <icon BUILTIN="full-3"/>
 <node CREATED="1573229832992" ID="ID_1479553268" MODIFIED="1612107960452" TEXT="People love blaming for laziness"/>
 <node CREATED="1573229873206" ID="ID_1122844898" MODIFIED="1573229878643" TEXT="... for others or themselves">
@@ -108,7 +108,8 @@
 <node CREATED="1573230096525" ID="ID_1889905635" MODIFIED="1573230097913" TEXT="Solution">
 <node CREATED="1573230098069" ID="ID_889036255" MODIFIED="1573230105815" TEXT="Look what hold the procrastinator back"/>
 <node CREATED="1573230113260" ID="ID_390158842" MODIFIED="1573230116272" TEXT="If stress">
-<node CREATED="1573230116403" ID="ID_459103995" MODIFIED="1573898965866" TEXT="Do something else more relaxing for a while"/>
+<node CREATED="1573230116403" ID="ID_459103995" MODIFIED="1672496230856" TEXT="Do something else"/>
+<node CREATED="1672496231352" ID="ID_94058380" MODIFIED="1672496232654" TEXT="... more relaxing for a while"/>
 </node>
 <node CREATED="1573230141579" ID="ID_520372625" MODIFIED="1573230165231" TEXT="If struggling to divide large responsibility in tasks">
 <node CREATED="1573230165434" ID="ID_565079164" MODIFIED="1573230168471" TEXT="Discrete"/>
@@ -127,7 +128,7 @@
 <node CREATED="1573230288857" ID="ID_43613390" MODIFIED="1573230295048" TEXT="Procrastination just means people have needs"/>
 <node CREATED="1573230301233" ID="ID_180511692" MODIFIED="1612107998596" TEXT="... we need to help procrastinator answer them"/>
 </node>
-<node CREATED="1573230582448" ID="ID_766533550" MODIFIED="1573230601968" POSITION="left" TEXT="Taking a curious / empathic approach is the best way">
+<node CREATED="1573230582448" ID="ID_766533550" MODIFIED="1573230601968" POSITION="right" TEXT="Taking a curious / empathic approach is the best way">
 <icon BUILTIN="full-4"/>
 <node CREATED="1573230631167" ID="ID_1328858487" MODIFIED="1573230639892" TEXT="People do not choose to disappoint"/>
 <node CREATED="1573230653743" ID="ID_782585775" MODIFIED="1573230658948" TEXT="... nobody wants to feel that way"/>

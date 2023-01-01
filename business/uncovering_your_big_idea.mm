@@ -121,9 +121,10 @@
 </node>
 <node CREATED="1620580796042" ID="ID_173889768" MODIFIED="1620581007544" POSITION="right" TEXT="Speaking to people">
 <icon BUILTIN="full-6"/>
-<node CREATED="1620580798921" ID="ID_1823908338" MODIFIED="1620580813454" TEXT="Just try different way to speak about you"/>
+<node CREATED="1620580798921" ID="ID_1823908338" MODIFIED="1620580813454" TEXT="Just try different way to speak about you">
 <node CREATED="1620580813849" ID="ID_343730184" MODIFIED="1620580816078" TEXT="... to different people"/>
 <node CREATED="1620580816418" ID="ID_121061190" MODIFIED="1620580833357" TEXT="... see how people react"/>
+</node>
 <node CREATED="1620580823961" ID="ID_1577445562" MODIFIED="1620580829886" TEXT="Try out and get feedback"/>
 <node CREATED="1620580866321" ID="ID_1731822137" MODIFIED="1620580872006" TEXT="Keep working at it a little bit at a time"/>
 <node CREATED="1620580878086" ID="ID_1347892941" MODIFIED="1620580882389" TEXT="Make sense of your body of work"/>
