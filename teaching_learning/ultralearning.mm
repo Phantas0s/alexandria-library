@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1581412135824" ID="ID_343389241" LINK="https://www.scotthyoung.com/blog/ultralearning/" MODIFIED="1655795377603" TEXT="Ultralearning">
+<node CREATED="1581412135824" ID="ID_343389241" LINK="https://www.scotthyoung.com/blog/ultralearning/" MODIFIED="1673505869988" TEXT="Ultralearning">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1443,7 +1443,7 @@
 <node CREATED="1582725341322" ID="ID_1076911048" MODIFIED="1582725349801" TEXT="... but when often avoid what&apos;s difficult!"/>
 </node>
 </node>
-<node CREATED="1581413379236" FOLDED="true" ID="ID_1830460532" MODIFIED="1586067615251" POSITION="left" TEXT="Principle 5 - Retrieval: Test to Learn">
+<node CREATED="1581413379236" FOLDED="true" ID="ID_1830460532" MODIFIED="1586067615251" POSITION="right" TEXT="Principle 5 - Retrieval: Test to Learn">
 <icon BUILTIN="full-8"/>
 <node CREATED="1591883428128" ID="ID_848453164" MODIFIED="1591883430103" TEXT="Ramanujan&#x2019;s Genius ">
 <icon BUILTIN="full-1"/>
@@ -1604,7 +1604,7 @@
 <icon BUILTIN="full-7"/>
 </node>
 </node>
-<node CREATED="1581413394583" FOLDED="true" ID="ID_1614043920" MODIFIED="1586067614481" POSITION="left" TEXT="Principle 6 - Feedback: Don&apos;t Dodge the Punches">
+<node CREATED="1581413394583" FOLDED="true" ID="ID_1614043920" MODIFIED="1586067614481" POSITION="right" TEXT="Principle 6 - Feedback: Don&apos;t Dodge the Punches">
 <icon BUILTIN="full-9"/>
 <node CREATED="1582797499803" ID="ID_16738856" MODIFIED="1591883610191" TEXT="The Power of Information ">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1881,7 +1881,7 @@
 <node CREATED="1583210998651" ID="ID_1101660074" MODIFIED="1583211004097" TEXT="More you get it, less it hurts"/>
 </node>
 </node>
-<node CREATED="1581413516996" FOLDED="true" ID="ID_738898600" MODIFIED="1585474797109" POSITION="left" TEXT="Principle 7 - Retention: Don&apos;t Fill a Leaky Bucket">
+<node CREATED="1581413516996" FOLDED="true" ID="ID_738898600" MODIFIED="1585474797109" POSITION="right" TEXT="Principle 7 - Retention: Don&apos;t Fill a Leaky Bucket">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
 <node CREATED="1591883749478" ID="ID_1295575126" MODIFIED="1591883751379" TEXT="What Is Nigel Richards&#x2019;s Secret? ">
@@ -2098,7 +2098,7 @@
 <node CREATED="1583212725457" ID="ID_143076497" MODIFIED="1583212737144" TEXT="Integrates knowledge into deep understanding"/>
 </node>
 </node>
-<node CREATED="1581413545131" FOLDED="true" ID="ID_586967717" MODIFIED="1585474819205" POSITION="left" TEXT="Principle 8 - Intuition: Dig Deep Before Building Up">
+<node CREATED="1581413545131" FOLDED="true" ID="ID_586967717" MODIFIED="1585474819205" POSITION="right" TEXT="Principle 8 - Intuition: Dig Deep Before Building Up">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1583212760506" FOLDED="true" ID="ID_1834253786" MODIFIED="1591883936058" TEXT="Demystifying Feynman&#x2019;s Magic ">
@@ -2243,7 +2243,7 @@
 <node CREATED="1591884080561" MODIFIED="1591884080561" TEXT="Application 3: For Expanding Your Intuition"/>
 </node>
 </node>
-<node CREATED="1581413569510" FOLDED="true" ID="ID_587242765" MODIFIED="1585474825116" POSITION="left" TEXT="Principle 9 - Experimentation: Explore Outside Your Comfort Zone">
+<node CREATED="1581413569510" FOLDED="true" ID="ID_587242765" MODIFIED="1585474825116" POSITION="right" TEXT="Principle 9 - Experimentation: Explore Outside Your Comfort Zone">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1583235182165" FOLDED="true" ID="ID_442346765" MODIFIED="1591884104592" TEXT="How van Gogh Learned to Paint ">
@@ -2470,7 +2470,7 @@
 <node CREATED="1583330684336" ID="ID_1547421680" MODIFIED="1583330696410" TEXT="Encourage you to think hard to solve problems"/>
 </node>
 </node>
-<node CREATED="1581413600469" FOLDED="true" ID="ID_162438914" MODIFIED="1585666515341" POSITION="left" TEXT="Your First Ultralearning Project">
+<node CREATED="1581413600469" FOLDED="true" ID="ID_162438914" MODIFIED="1585666515341" POSITION="right" TEXT="Your First Ultralearning Project">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1583330710556" FOLDED="true" ID="ID_1557647305" MODIFIED="1591884267206" TEXT="Step 1: Do Your Research ">
@@ -2829,7 +2829,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1581413613528" FOLDED="true" ID="ID_1325664823" MODIFIED="1585666515341" POSITION="left" TEXT="An Unconventional Education">
+<node CREATED="1581413613528" FOLDED="true" ID="ID_1325664823" MODIFIED="1585666515341" POSITION="right" TEXT="An Unconventional Education">
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-4"/>
 <node CREATED="1583499685242" FOLDED="true" ID="ID_1530076884" MODIFIED="1583556277739" TEXT="Judit Polgar">

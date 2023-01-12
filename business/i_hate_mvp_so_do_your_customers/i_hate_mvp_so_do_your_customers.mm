@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1573231732587" ID="ID_270791502" MODIFIED="1573232479297" TEXT="I hate MVPs. So do your customers. Make it SLC instead">
 <node CREATED="1573231816790" ID="ID_1174013602" MODIFIED="1573231819907" POSITION="right" TEXT="MVP Mantra">
-<node CREATED="1573231820111" ID="ID_1837230730" MODIFIED="1573231825011" TEXT="Minimum viable product"/>
+<node CREATED="1573231820111" ID="ID_1837230730" MODIFIED="1672908495373" TEXT="Minimum Viable Product"/>
 <node CREATED="1573231829882" ID="ID_1918082349" MODIFIED="1622380640046" TEXT="Best way to maximize learning while pleasing customer"/>
 <node CREATED="1573231867965" ID="ID_968539494" MODIFIED="1573231870937" TEXT="Motivation valid">
 <node CREATED="1573231871103" ID="ID_1491545831" MODIFIED="1573231875443" TEXT="Build something">
@@ -40,7 +40,7 @@
 </node>
 <node CREATED="1573232120787" ID="ID_1332333887" MODIFIED="1573232126432" TEXT="... in short good for what it was designed"/>
 </node>
-<node CREATED="1573232208627" ID="ID_1456832194" MODIFIED="1573232216616" TEXT="Can&apos;t stay simple overtime or get more complex"/>
+<node CREATED="1573232208627" ID="ID_1456832194" MODIFIED="1672908535071" TEXT="Can stay simple overtime or get more complex"/>
 </node>
 <node CREATED="1573232138427" ID="ID_554053076" MODIFIED="1573232141776" TEXT="Complete">
 <node CREATED="1573232146490" ID="ID_1548402895" MODIFIED="1573232156648" TEXT="MVP is too incomplete"/>
@@ -78,15 +78,18 @@
 <node CREATED="1573232531960" ID="ID_696296482" MODIFIED="1573232630152" TEXT="Spotify Modes of Transportation example">
 <node CREATED="1573232619387" ID="ID_1819471230" MODIFIED="1573232633078" TEXT="img">
 <icon BUILTIN="licq"/>
-<node CREATED="1573232595472" ID="ID_1560587782" MODIFIED="1573232598766">
+<node CREATED="1573232595472" ID="ID_1560587782" MODIFIED="1672908576571">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <img src="spotify_modes_of_transportation.PNG" />
+    <p>
+      <img src="spotify_modes_of_transportation.png" />
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1573232634256" ID="ID_1111565141" MODIFIED="1573232636851" TEXT="Skateboard">
