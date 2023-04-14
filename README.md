@@ -1,7 +1,7 @@
 # The Alexandria Library
 
 ![Alexandria Library illustration](./library-of-alexandria.jpg)
-![count mindmaps](https://img.shields.io/badge/total_mindmaps-250-blue)
+![count mindmaps](https://img.shields.io/badge/total_mindmaps-253-blue)
 [![Github repo-size](https://img.shields.io/github/repo-size/Phantas0s/alexandria-library.svg?color=success&label=Library%20size)]()
 
 > The opportunity before all of us is living up to the dream of the Library of Alexandria and then taking it a step further - universal access to all knowledge. Interestingly, it is now technically doable. -- **[Brewster Kahle](https://en.wikipedia.org/wiki/Brewster_Kahle)**
@@ -151,6 +151,7 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   ├── web_consultant_web_developer.mm
 │   │   ├── when_to_systematize.mm
 │   │   └── why_client_doesnt_take_decision_save_money.mm
+│   ├── craft_a_story_that_sells.mm
 │   ├── crossing_river_feeling_stones
 │   │   └── crossing_river_feeling_stones.mm
 │   ├── dealing_with_chaos.mm
@@ -186,27 +187,16 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   ├── i_hate_mvp_so_do_your_customers
 │   │   └── i_hate_mvp_so_do_your_customers.mm
 │   ├── jason_cohen_interview.mm
-│   ├── magic_the_gathering_twenty_years_twenty_lesson_learned.mm
 │   ├── marketing
-│   │   ├── 17_link_building_strategy.mm
-│   │   ├── 5_ways_you_can_make_money_with_your_personnal_brand.mm
 │   │   ├── content_marketing_strategies.mm
-│   │   ├── developing_linkbait_for_a_non_technical_audience.mm
 │   │   ├── human_email_automation.mm
 │   │   ├── _INFOGRAPHICS
-│   │   ├── keyword_difficulty.mm
 │   │   ├── marketing_mindset.mm
 │   │   ├── marketing_selling_own_product_service
 │   │   │   └── marketing_selling_own_product_service.mm
 │   │   ├── perfect_about_page.mm
-│   │   ├── SEO
-│   │   │   └── the_big_book_of_getting_people_to_link_to_you.mm
-│   │   ├── seo_moz.com.mm
-│   │   ├── strategic_seo_for_startups.mm
 │   │   └── what_is_lead_generation
 │   │       └── what_is_lead_generation.mm
-│   ├── metrics
-│   │   └── tyranny_of_metrics.mm
 │   ├── nacked_business_how_honesty_makes_you_more_money.mm
 │   ├── networking
 │   │   ├── informational_interview.mm
@@ -221,6 +211,7 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   ├── obliquity
 │   │   └── obliquity.mm
 │   ├── personal_brand
+│   │   ├── 5_ways_you_can_make_money_with_your_personnal_brand.mm
 │   │   └── developing_your_personal_brand
 │   │       └── developing_your_personal_brand.mm
 │   ├── positioning_for_soloists.mm
@@ -243,6 +234,13 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   └── quick_dirty_guide_startup_brand.mm
 │   ├── sales
 │   │   └── why_we_still_need_to_sell.mm
+│   ├── SEO
+│   │   ├── 17_link_building_strategy.mm
+│   │   ├── developing_linkbait_for_a_non_technical_audience.mm
+│   │   ├── keyword_difficulty.mm
+│   │   ├── seo_moz.com.mm
+│   │   ├── strategic_seo_for_startups.mm
+│   │   └── the_big_book_of_getting_people_to_link_to_you.mm
 │   ├── setting_up_your_ecosystem.mm
 │   ├── signs_your_message_is_not_working.mm
 │   ├── _STUDIES
@@ -256,12 +254,9 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   ├── the_trusted_advisor_follow_up.mm
 │   ├── the_trusted_advisor.mm
 │   ├── the_why_conversation.mm
-│   ├── training
-│   │   ├── create_or_sell_an_online_course.mm
-│   │   └── frelancer_show_-_303_genesis_of_a_course.mm
+│   ├── tyranny_of_metrics.mm
 │   ├── uncovering_your_big_idea.mm
-│   ├── what_i_learned_cofounding_dribble.mm
-│   └── you_dont_have_imposter_syndrome.mm
+│   └── what_i_learned_cofounding_dribble.mm
 ├── computing
 │   ├── analysis
 │   │   ├── software_design_x_ray
@@ -334,9 +329,8 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   │   └── accelerate.mm
 │   │   ├── kubernetes_basics
 │   │   │   └── official_kubernetes_tutorial.mm
-│   │   ├── stress_free_game_development_with_devops
-│   │   │   └── stress_free_game_development_with_devops.mm
-│   │   └── _STUDIES
+│   │   └── stress_free_game_development_with_devops
+│   │       └── stress_free_game_development_with_devops.mm
 │   ├── distributed_systems
 │   ├── game
 │   │   └── webgl_fundamentals
@@ -447,7 +441,6 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   │   └── tools
 │   │   │       └── _ANNOTATED
 │   │   ├── mouseless
-│   │   │   ├── _ANNOTATED
 │   │   │   └── thebluedragons
 │   │   ├── paradigms
 │   │   │   └── _ANNOTATED
@@ -472,6 +465,8 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   └── zsh.mm
 │   ├── _SLIDES
 │   ├── technical_interviewing_you_doing_it_wrong.mm
+│   ├── tools
+│   │   └── treesitter.mm
 │   └── vim
 │       ├── cutomizing_vim
 │       │   └── customizing_vim.mm
@@ -491,6 +486,9 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   ├── freakonomics.mm
 │   ├── superfreakonomics.mm
 │   └── think_like_a_freak.mm
+├── games
+│   ├── magic_the_gathering_twenty_years_twenty_lesson_learned.mm
+│   └── practical_creativity.mm
 ├── _githooks
 ├── health
 │   └── _INFOGRAPHICS
@@ -552,9 +550,11 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   │   └── _ANNOTATED
 │   │   └── stress
 │   │       └── _ANNOTATED
+│   ├── problem_solving
 │   ├── psychology_of_focus.mm
 │   ├── the_willpower_instinct.mm
 │   ├── we_are_all_confident_idiots.mm
+│   ├── you_dont_have_imposter_syndrome.mm
 │   └── zen_body_being.mm
 ├── statistics
 │   └── head_first_statistics
@@ -565,6 +565,8 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 ├── teaching_learning
 │   ├── 10_lessons_mit_education.mm
 │   ├── a_mind_for_numbers.mm
+│   ├── create_or_sell_an_online_course.mm
+│   ├── frelancer_show_-_303_genesis_of_a_course.mm
 │   ├── how_to_speak.mm
 │   ├── memory_unlimited.mm
 │   ├── _PAPERS
@@ -588,5 +590,5 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
     ├── write_to_express_not_to_impress.mm
     └── writing_is_thinking_learning_to_write_with_confidence.mm
 
-215 directories, 250 files
+215 directories, 253 files
 ```

@@ -1,0 +1,103 @@
+====== Vi-mode ======
+
+===== Mode Indicator =====
+
+A common request with vi key bindings is to have the mode displayed somewhere such as the prompt. The following makes use of the ''RPROMPT'' for this:
+
+  precmd() {
+    RPROMPT=""
+  }
+  zle-keymap-select() {
+    RPROMPT=""
+    [[ $KEYMAP = vicmd ]] && RPROMPT="(CMD)"
+    () { return $__prompt_status }
+    zle reset-prompt
+  }
+  zle-line-init() {
+    typeset -g __prompt_status="$?"
+  }
+  zle -N zle-keymap-select
+  zle -N zle-line-init
+
+You may already have one or more of these functions defined in which case, you need to preserve the old functionality. You may also already use RPROMPT. Note that you can also use the normal (left) prompt but you may then want to include a message for insert mode to keep the prompt the same length.
+
+Saving the return status in "__prompt_status" is only necessary if your prompt includes the last command's return status.
+
+===== Vim Bindings =====
+
+The following bindings add keys that may be familiar to vim users:
+
+  bindkey -a 'gg' beginning-of-buffer-or-history
+  bindkey -a 'g~' vi-oper-swap-case
+  bindkey -a G end-of-buffer-or-history
+
+In Vim backspace doesn't stop at the point where you started insert mode:
+  bindkey '^?' backward-delete-char
+  bindkey '^H' backward-delete-char
+
+The following binding of Ctrl-G is also closer to actual vi. The default ("list-expand") is only useful if don't use the _expand completer which would make the more generic "list-choices" do the job.
+  bindkey '^G' what-cursor-position
+
+===== Text Objects =====
+
+Vim-style text objects are supported since version 5.0.8 of zsh. Some are provided as shell functions so need to be manually enabled. In particular, select-bracketed which selects text delimited by brackets and select-quoted which selects text delimited by quote characters. The following binds them to key combinations such as ''i"'' ''a('' in both the visual and viopp keymaps.
+
+  autoload -U select-bracketed select-quoted
+  zle -N select-bracketed
+  zle -N select-quoted
+    for km in viopp visual; do
+    bindkey -M $km -- '-' vi-up-line-or-history
+    for c in {a,i}"${(s..):-\'\"\`\|,./:;-=+@}"; do
+      bindkey -M $km $c select-quoted
+    done
+    for c in {a,i}${(s..):-'()[]{}<>bB'}; do
+      bindkey -M $km $c select-bracketed
+    done
+  done
+
+  
+
+===== Clipboard Integration =====
+
+This is using xclip but the same could be accomplished with xsel,
+pbcopy/pbpaste, etc.
+
+  [[ -n $DISPLAY ]] && (( $+commands[xclip] )) && {
+  
+    function cutbuffer() {
+      zle .$WIDGET
+      echo $CUTBUFFER | xclip
+    }
+  
+    zle_cut_widgets=(
+      vi-backward-delete-char
+      vi-change
+      vi-change-eol
+      vi-change-whole-line
+      vi-delete
+      vi-delete-char
+      vi-kill-eol
+      vi-substitute
+      vi-yank
+      vi-yank-eol
+    )
+    for widget in $zle_cut_widgets
+    do
+      zle -N $widget cutbuffer
+    done
+  
+    function putbuffer() {
+      zle copy-region-as-kill "$(xclip -o)"
+      zle .$WIDGET
+    }
+  
+    zle_put_widgets=(
+      vi-put-after
+      vi-put-before
+    )
+    for widget in $zle_put_widgets
+    do
+      zle -N $widget putbuffer
+    done
+  }
+  

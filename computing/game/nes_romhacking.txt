@@ -1,0 +1,1131 @@
+Source: https://gamefaqs.gamespot.com/nes/916386-nes/faqs/2948
+                       
+                        "THE ROM HACKERS BIBLE v0.2"
+                                  
+                             By SeRiAlKLR
+                         <SeRiAlKLR@usa.net>
+
+                         RomHackers Inc. (c) 1997
+
+
+’,.+¬=_+s’_`š š`_’s+_=- The Rom Hackers Bible -=_+s’_`š š`_’s+_=¬-.,’
+
+
+
+                         TABLE OF CONTENTS
+
+
+  I. Introduction
+      1. Preface
+      2. Introduction
+      3. Disclaimer
+ II. Tools
+      A) Nes Tools
+          1. NESticle
+          2. Hex editor
+          3. Xchar v1
+          4. Xlate v1
+          5. Romhack
+      B) Snes Tools
+          1. Ctool
+          2. Kill Them
+          3. SnesTool
+          4. Xchar v2
+          5. Xlate v2
+          6. CartDisk
+          7.RipGrfx
+III. The process
+      1. The ROM
+      2. Changing graphics
+      3. Changing text
+ IV. The Nintendo 
+      1. General Architecture
+      2. Interrupts
+      3. I/O Ports
+      4. PPU Memory
+      5. Hit/VBlank Bits
+      6. Joysticks
+      7. Sprites
+      8. Memory Mappers
+          a) Sequential
+          b) Konami
+          c) VROM Switch
+          d) 5202 Chip
+          e) Others
+
+      
+ V. Sample walkthrough
+VI. The Big Credits and Thanks section!!
+
+
+’,.+¬=_+s’_`š š`_’s+_=- Section I. -=_+s’_`š š`_’s+_=¬-.,’
+
+
+
+I. Introduction
+---------------
+
+
+A. Preface
+   
+        This document was written due to the general lack of thourough
+rom hacking documents. Although there are a few available they arent as 
+thourough as I needed. Therefore I wrote this to help all "would be"
+rom hackers. I also copied extracts of various text on certain 
+tools, and I added credit to the author's when due, all other text is by
+me and I hope you find this useful. Also I will not cover pasofami hacking
+ due to the fact that ines format is more popular.
+
+
+B. Introduction
+
+        Hacking a ROM in its simplest form is easy. It does, even then,
+require alot of time depending on the complexity of the hack you are
+doing.  For the truly daring you can even learn how to hack the rom
+completely, by this I  mean "change the colors, etc.. even make a whole 
+new game" This information is in chapter IV.
+
+       Using this document you "may" learn how to be a great rom hacker
+although I'm not promissing  anything. The "information" is here, it's
+how you use it that makes the difference. 
+
+
+C. Disclaimer
+
+   1) The author is not responsible for any illegal activities related with
+       this document.
+   2) The author is not affiliated in any way with any programs or
+       companies mentioned within this document.
+   3) The author takes no responsibility in any damage done to your system by
+       running the mentioned programs.
+   3) This document MAY be copied and transmitted electronically, so long as
+       everything included is INTACT and NOT MODIFIED.
+   4) This document MAY NOT be distributed as any hard copy. This includes
+       paper, books, or magazines.
+   5) This document MAY NOT be modified to another format, such as HTML or
+       Adobe's PostScript, without prior written consent by the author.
+   
+
+
+’,.+¬=_+s’_`š š`_’s+_=- Section II. -=_+s’_`š š`_’s+_=¬-.,’
+
+
+
+II. Tools
+---------
+(A) NES ROM HACKING TOOLS
+
+1. NESticle
+
+        To edit patterns, goto the View/Pattern table, then click 
+on a pattern and edit it.Right clicking on a pattern will change 
+its attribute (palette), to aid in drawing. If you wish, you can save 
+the changes with File/Write VROM, and the VROM will be written directly
+to the .NES file, so make back-up copies!!.
+( nesticle homepage http://www2.southwind.net/~bldlust/NESticle.html )
+
+2. Hex editor
+
+        Depending on the rom your hacking it may or may not have
+text in it to edit. Generally use this for simple hacks, but also
+use it for major rom hacking as described later in the document.
+
+3. Xchar 
+        
+        X-Char is a tile data editor for Nintendo systems.  Tile 
+data is both the tile and sprite data of the cartridge.  This
+tool allows the user to modify the data to their liking, it
+sports an easy to use interface, simple enough for even the
+most uninitiated in the ways of ROM editting.  If you can use
+a paint program, you can use this.(Planet X Software)
+Version 2 allows you to edit roms for many emulator formats:
+a) *.nes
+b) *.gb
+c) *.smc
+
+note: It may support more but the above are all that i've tried.
+
+4. Xlate
+
+       what xlate does is take a table file (created by you) of byte 
+equivalencies to characters defined by the rom (companies rarely used ascii 
+standards for their text encoding).  with a normal hexeditor, you can't see 
+jack shit of text in a rom. with xlate, you can manipulate what bytes define
+ the characters, so you can see the text by the way it was meant to be seen 
+in the rom. let's take a segment from ff2j, for example. 
+
+8F AC AA AB B7
+
+under a normal hexeditor (ascii), it would look like crap. ‡ª¬~+ to be exact.
+but as i said, squaresoft didn't use standard ascii codes for their text. 
+8F means F, AC means i, etc.. it's xlate's job to reallign the text codes 
+into something that looks right.
+
+the format for creating a xlate 1.00 table is like this :
+
+<A> <B> <C>
+8F   F   F
+AA   g   g
+AB   h   h
+AC   i   i
+B7   t   t
+...
+
+A: column A is the byte addressed.
+B: column B is the key you press to call the letter in column C.
+C: column C is the text displayed to us while in xlate, in place of the byte 
+in column A.
+
+so, in xlate, when bytes 8F,AC,AA,AB,B7 are addressed, they look like 'Fight
+'. ( Extract from Demi's romhacking text )
+
+
+5. Romhack
+
+      RomHack starts with the File Requester. From there you may choose 
+the rom file you want to see. Actually, you can read ANY file, but RomHack
+comes handy only with roms! Chosen the rom, the main screen displaying a 
+BITwise dump of that rom will pop up. On the bottom of the screen the rom 
+filename is displayed. On the top right, we have: the POSition indicator 
+into the rom (referred to the first pixel shown on the top-left of the 
+screen), the total LENgth of the ROM and the MODulus (or sprites size) value. The modulus
+is very important, since it's the key to display things like character-sets
+and sprites. The Y modulus works togheter with the X one to help display
+graphics with aligned bytes (sprites). The key of sprites dumping is, anyway,
+the SPRITES mode. The sprites mode displays bytes in the following format:
+
+byte 1    byte 9
+byte 2    byte 10
+byte 3    byte 11
+byte 4    byte 12
+byte 5    byte 13
+byte 6    byte 14
+byte 7    byte 15
+byte 8    byte 16
+
+byte 17   byte 25
+byte 18   byte 26
+byte 19   byte 27
+byte 20   byte 28
+byte 21   byte 29
+byte 22   byte 30
+byte 23   byte 31
+byte 24   byte 32
+
+... and so on
+
+It looks like many roms store sprites this way. Of course the X and Y
+size of sprites can be fully customizable.
+
+Another neat feature of RomHack is Dump. You can have a real-time dump
+of the ROM in HEX, ASCII and 6502 DISASSEMBLY. (Fabrizio Zavagli)
+
+(B) SNES ROM HACKING TOOLS
+
+
+ 1. Ctool v1.62
+      
+    A) What it can do:
+
+* A whole NEW algorithm to verify SNES checksum!! 
+   Old versions of CTOOL only could handle 2,4,8,16 and 32 MBit cartridges. 
+   Now CTOOL V1.62 can calculate checksum of 10,12,20 and 24 Mbit carts!
+ * Verify option shows blocks left and percentage of process.
+ * Split option aborts if destination size equals original size. 
+   Old versions of CTOOL created a copy of the file. Fixed!
+ * Join option shows the name of the files being joined.
+ * When splitting SMC files, the cartridge mode byte -if present- is copied
+   to the last file. Reversely, when joining SMC files, the mode byte of the
+   last file is copied onto the new file.
+ * Transfer option sends cartridge mode byte to SWC !!!!
+   This means that we can now send High ROM games to our beloved Wild Card
+   and also avoid SRAM protections by changing the header appropiately!
+ * Transfer routine has been recoded so that SWC will not get locked when
+   the console is powered off. Old versions of CTOOL sometimes needed an
+   unlocking program like RESETPRT.COM to bring SWC back alive.
+ * Transfer option shows file name, blocks left and percentage of files 
+   being sent to the SWC.
+ * Another NEW option /m activates "Multi File mode" !!
+   Now you don't need to join your files in a full sized one. CTOOL can now
+   handle multi splitted SMC files when verifying and sending to the copier!
+   If /m flag is not set, smart detection asks you to choose it if needed.
+ * Maker ID's identification optimized to half size, as old codes were all
+   compatible with new ones. No longer needed to have 2 tables in memory!
+ * Some new Maker ID's included and some old ones fixed to real names.
+ * Japanese letter 'little tsu' now appears as (k).  (Black Hole)
+ 
+  B) How do I use it:
+    
+     It is menu driven figure it out.
+
+
+
+2. Kill Them 
+
+    A) What is it :
+
+    With this tool you are able to remove up to 95% of all present and up-
+    coming PAL, NTSC and SLOWROM Protections!
+    The best'n fastest available Fixer 4 your PC! Don't believe it? Just 
+    test and make sure.
+    
+    B) How do I use it:
+
+    Just type at the commandline: KILLEM31 <FILENAME> /<OPTION>
+
+    The options look like this: /1 : for removing PAL-Protections at once
+                                /2 : for detecting PAL-Protections and
+                                     creating an IPS file to remove 'em
+                                /3 : for removing NTSC-Protections at once
+                                /4 : for detecting NTSC-Protections and
+                                     creating an IPS file to remove 'em
+                                /5 : for removing SLOW-Protections at once
+                                /6 : for detecting SLOW-Protections and
+                                     creating an IPS file to remove 'em
+
+    Use option 1 & 2 only for NTSC-Modules and option 3 & 4 only for PAL-
+    Modules. Otherwise it can be that an NTSC game won't work on an NTSC
+    Machine and the same with PAL. But the Utility automatically detects
+    a NTSC or PAL game, so don't be shy! (Wonderboy)
+ 
+3.  SnesTool-
+
+    What it is: Multipurpose tool to modify snes roms(not grafix)
+
+    How do I use it:
+
+*CONFIGURE
+This is important for adding headers, sending hi-rom games, and
+fixing headers.
+First the Printer port (1-4) is asked, if none set 1=default
+The function gets the port values from segment 40 (bios variables)
+
+Then it asks ya for 5 different style of copiers, press Y if you
+have the correct one, Double profighter works ok, Procom/Magicom also
+And the Profighter Q+ 32 mbit is ok as well, the others are NOT tested
+yet. So if Hi-rom sending does not work, try some other copiers
+instead, there are 5 different types of Hirom Sending.
+
+If you have made your choice, the fileselector gets active, then
+choose the SNESTOOL and press return, it will then patch the
+snestool.exe file to keep the values you entered. 
+You can skip the patching, but why re-enter it everytime huh ?
+Changing your settings as many times as you like is no problem 
+you can patch the Snestool.exe until you drop..
+
+*TAB
+Go to browsing mode, exit with Esc or <TAB> again.
+Use this to switch between File-Selector and Menu.
+
+*SPLIT
+Pick a snes file, then you can choose the split size for 4/8/12 mbit,
+with the arrow keys, press return to start.
+It will keep the 1st 8 letters name the extension to 1/2/3/etc..
+
+*JOIN
+Will only take *.1 files then renames the file to *.smc.
+Works on multiple files.
+
+*SLOWROMFIX
+Searches & patches the selected file for some standard fixes.
+Number of fixes will be displayed.
+Almost fixes the same ones as killem31.
+Killem is a little better however, but sometimes fixes a little
+too much...
+
+*PALFIX
+Search & patch standard protections for games which do not work on
+pal machines.
+
+*NTSCFIX
+Same but for games that do not work on NTSC machines.
+Once fixed it must work on both machines.
+
+*USE IPS
+Apply the International Patch Standard on a file.
+This type was invented by DAX and ME, we got a lot
+of success with it, because we released the programs
+on ATARI/AMIGA AND PC format at the same time.
+
+Pick an IPS file first, the the game to be patched.
+If IPS2 is detected, it will write a temporary file
+called TEMP.SMC then renames it back to the original.
+IPS2 files are ment to 'Cut' a file.
+Kill them fucking advertisement Intro's...
+
+*CREATE IPS
+Compares 2 files, then write the difference to a file called
+'2ndname.IPS'.
+
+*ADD HEADER
+Test the size, and if ok writes a TEMP.SMC, renaming it afterwoods.
+Works on multiple files.
+
+*REPAIR HEADER
+Auto detects multiple files, ask for S-ram on/off, Hirom yes/no,
+with wildcard selected, also for mode 24 (other place of S-ram).
+then patches all files accordingly.
+
+*REMOVE INTRO
+Tries to find and restore the original reset vector then cut's off
+the intro (if added to the end).
+Does NOT work on the latest Anthrox intro's, the ones who modify
+a lot of 'blanking instructions'.
+Does NOT work with the 'Hidden reset vector' stuff.
+
+*SEND & RUN
+Pick a file to send, make sure you have selected the correct
+configuration, else strange things might happen.
+It will detect multiple files and send the rest also.
+after loading 1 or 2 blocks a file info menu will pop up,
+containing some useful information about the game.
+Some company's could be wrong, because they use the incorrect company-
+value. 
+Esc cancels the sending.
+
+*SLOWFIX ON/OFF
+If ON each loaded block is scanned for fixes, if found it will
+be patched in memory only, just before sending, at the end of
+sending, the number of fixes will be displayed in the same box.
+
+*FILEINFO
+Go to browsing mode by using <TAB> press return on a snes file to get
+your information, exit with <TAB> again or esc.  
+	 
+*EXIT
+Press ESC in SELECTION mode to quit.
+
+*CHOOSE DRIVE
+press A or C to Z to choose another Harddisk or CD-Rom
+
+*DELETE
+In the file selector you can press the DELETE key to kill a file..
+
+*FILESELECTOR CONTROL KEYS
+Use the Cursor keys to Move Up and Down to select files
+and Left and Right to go in and out of Directories.
+
+*HOT-KEYS
+ The HOT Keys are obvious since there Green and in Capitals.(Sledge & MCA)
+
+4. Xchar version 2 - same description as as xchar v1 but
+                     it allows you to edit other roms.(nes/gb/smc/smd)
+5. Xchar version 2 - same as above.
+
+6. CartDisk
+
+  A)   What is it:
+
+          Display the cartridge information (ROM/SRAM size, Title, Licensee, 
+Country, Version, etc.) of the cartridge plugged into the interface.
+Browse through cartridge information contained in image files on disk(s).
+Copy the cartridge to disk (up to 32Mbits, including HiROM support).
+Load a cartridge image from disk *
+Compare a cartridge image with a cartridge in the interface.
+Copy, load and clear the Static RAM on any cartridge **
+Convert between image formats (SMC/SWC and Game Doctor)
+Split an image in half.
+Join two images together.
+
+*Pad an image which is not an even number of Mbits.
+
+*Destroy PAL/NTSC, SRAM protect and FastROM detect codes 
+Use Game Genie, Gold Finger and Action Replay codes to cheat in games 
+
+*Convert between Game Genie, Gold Finger and Action Replay codes.
+
+*Apply an IPS patch on an image.
+
+*Modify game information such as title, ROM/RAM size, Licensee, Country, etc. 
+
+
+7) RipGRFX
+
+   WHat is it:
+
+     This nifty tool allows you to rip the grafix out of snes
+games so you can do whatever u want with 'em. :)
+
+  How do i use it:
+
+
+    Ripgrfx <filename>.swc 
+*must be in swc format!!
+
+’,.+¬=_+s’_`š š`_’s+_=- Section III. -=_+s’_`š š`_’s+_=¬-.,’
+
+
+
+III. The process
+----------------
+
+
+A. The ROM
+
+        First of all, you have to choose a rom to hack. This ROM can be
+ines/pasofami/gameboy/snes/genesis format depending on the tool you use.
+Xchar version 2 allows you to edit several formats ( I'm hoping that
+they will improve the controls somewhat, but its a good tool )
+
+
+B. Changing graphics
+
+        Here's where the fun part comes in. Load up your ROM and go to
+View --> Pattern tables. A window should pop up with funny looking graphics.
+Start your game and find a certain sprite, such as Link in Zelda 2. Now, your
+sprite and the palette in the pattern table are probably different, so right
+click the left or right side of the table until the table palette and the
+sprite palette are the same. Search through the table and find a part of your
+sprite. Click on it. Another window should pop up. Under this window, you have
+an enlarged tile of that part of your sprite. Click on a color and change the
+sprite around. When your done editing your sprites, you can save your changes
+by clicking on File --> Write VROM. Be sure to make a backup copy of the
+original ROM before writing the VROM. (Blackfury)
+       
+      Using Xchar is self explanatory. you simply scroll down until you
+find the character you wish to edit and press enter. This will bring up
+a closer view of the sprite and also a color table (only 4). Then u edit as 
+you wish and press " S " to save it. 
+
+How do I use Xchar? Easy use these commands:
+
+(1) Viewing mode:
+
+ [~] Toggle SNES mode (NES mode by default)
+ [space] Change bitdepth (SNES mode only)
+ [\] Change byte offset (if tile appears disaligned, use this)
+ [-] Shrink tile array x dimension by 1
+ [+] Enlarge tile array x dimension by 1
+ [[] Shrink tile array y dimension by 1
+ []] Enlarge tile array y dimension by 1
+ [pgup]  Move up one page
+ [pgdn]  Move down one page
+ [up]    Move up one line
+ [down]  Move down one line
+ [left]  Move up one character
+ [right] Move down one character
+ [enter] Open tile array editor
+ [s] Save editted rom
+ [l] Reload rom
+ [x] cut tile array
+ [c] copy tile array
+ [v] paste tile array
+ [esc]   Exit program
+
+(2) Editing mode:
+
+ [esc]   Return to view mode
+ [+] Zoom in
+ [-] Zoom out 
+
+(3) Viewing mode:
+
+ [mouse right]   grab tile
+ [mouse left]    place tile/press button
+
+(4) Editing:
+
+ [mouse right]   grab color
+ [mouse left]    place color/press button
+
+         Another tool that comes in handy for grafix is Romhack.
+(desciption above in section II )  this is  used to find the grafix u 
+want to edit then you press a key and presto you see the bytes
+in hex or ascii, which u can then edit with a hex editor. Rather nifty.
+(HomePage at  http://www.ipsnet.it/netpages/room481)
+
+C. Changing text
+
+        Changing text is a little more complicated than changing graphics.
+First you are going to need to make a text table. To do this, go to a part of
+a game where there is text. Then, load up your pattern tables and find where
+the letters are. In ZELDA 2, for instance, the number 0 is located at D0.
+Other numbers/letters follow, so our chart will look like this:
+
+  0 1 2 3 4 5 6 7 8 9 A B C D E F
+0 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+A
+B
+C
+D 0 1 2 3 4 5 6 7 8 9 A B C D E F
+E G H I J K L M N O P Q R S T U V
+F W X Y Z     -
+
+        Now, open up your hex editor and load the ROM. With given text from
+the game, search for it. For example, ZELDA in Zelda 2 would be F3DEE5DDDA in
+hex. If you do not understand any of this, then text editing is just not for
+you. Now, search through the ROM for your numbers. When you find them, just
+replace the old numbers with the new ones.
+
+NOTE: Do NOT make your word longer than the first word. Shorter is all right,
+if you replace the extra letters with spaces or something else. (Blackfury)
+
+
+
+
+’,.+¬=_+s’_`š š`_’s+_=- Section IV. -=_+s’_`š š`_’s+_=¬-.,’
+
+
+IV. The Nintendo :
+    
+(A) General Architecture :
+
+  NES is based on the 6502 CPU, and a custom video controller known as PPU
+(Picture Processing Unit). The PPU's video memory is separated from the
+main CPU memory and can be read/written via special ports. Cartridges may
+contain both ROM appearing in the main CPU address space at $8000-$FFFF,
+and VROM or VRAM appearing in the PPU address space at $0000-$1FFF and
+containing the Pattern Tables (aka Tile Tables). In smaller cartridges,
+which only have 16kB ROM, it takes place at $C000-$FFFF leaving $8000-$BFFF
+area unused. Internal NES VRAM is located at addresses $2000-$3FFF in the 
+PPU memory. Some cartridges also have RAM at $6000-$7FFF, which may or may
+not be battery-backed. 
+
+CPU Memory Map
+--------------------------------------- $10000
+ Upper Bank of Cartridge ROM
+--------------------------------------- $C000
+ Lower Bank of Cartridge ROM
+--------------------------------------- $8000
+ Cartridge RAM (may be battery-backed)
+--------------------------------------- $6000
+ Expansion Modules
+--------------------------------------- $5000
+ Input/Output
+--------------------------------------- $2000
+ 2kB Internal RAM, mirrored 4 times
+--------------------------------------- $0000
+
+
+(B) Interrupts :
+
+  NES uses non-maskable interrupts (NMIs) generated by PPU in the end of
+each frame (so-called VBlank interrupts). Maskable interrupts, or IRQs,
+can also be generated by circuitry in a cart, but most carts do not
+generate them. The VBlank interrupts can be enabled/disabled by writing
+1/0 into 7th bit of $2000. When a VBlank interrupts occur, CPU pushes
+return address and the status register on stack, and jumps to the address
+stored at location $FFFA (ROM in NES). The interrupt handler is supposed
+to finish its execution with RTI command which returns CPU to the main
+program execution. More information on the interrupt handling can be found
+in a decent book on 6502 CPU. 
+
+
+(C) I/O ports :
+
+   NES internal I/O ports are mapped into the areas of $2000-$2007 and 
+$4000-$4017. Some ports' usage is unknown or unclear, and any information
+is appreciated.
+
+I/O Ports Map
+------+-----+---------------------------------------------------------------
+$2000 | RW  | PPU Control Register 1
+      | 0-1 | Name Table to show:
+      |     |
+      |     |           +-----------+-----------+
+      |     |           | 2 ($2800) | 3 ($2C00) |
+      |     |           +-----------+-----------+
+      |     |           | 0 ($2000) | 1 ($2400) |
+      |     |           +-----------+-----------+
+      |     |
+      |     | Remember, though, that because of the mirroring, there are  
+      |     | only 2 real Name Tables, not 4.
+      |   2 | Vertical Write, 1 = PPU memory address increments by 32:
+      |     |
+      |     |    Name Table, VW=0          Name Table, VW=1
+      |     |   +----------------+        +----------------+
+      |     |   |----> write     |        | | write        |
+      |     |   |                |        | V              |
+      |     |
+      |   3 | Sprite Pattern Table address, 1 = $1000, 0 = $0000
+      |   4 | Screen Pattern Table address, 1 = $1000, 0 = $0000
+      |   5 | Sprite Size, 1 = 8x16, 0 = 8x8
+      |   6 | Hit Switch, 1 = generate interrupts on Hit (incorrect ???)
+      |   7 | VBlank Switch, 1 = generate interrupts on VBlank
+------+-----+---------------------------------------------------------------
+$2001 | RW  | PPU Control Register 2
+      |   0 | Unknown (???)
+      |   1 | Image Mask, 0 = don't show left 8 columns of the screen
+      |   2 | Sprite Mask, 0 = don't show sprites in left 8 columns 
+      |   3 | Screen Switch, 1 = show picture, 0 = blank screen
+      |   4 | Sprites Switch, 1 = show sprites, 0 = hide sprites
+      | 5-7 | Unknown (???)
+------+-----+---------------------------------------------------------------
+$2002 | R   | PPU Status Register
+      | 0-5 | Unknown (???)
+      |   6 | Hit Flag, 1 = PPU refresh has hit sprite #0
+      |     | This flag resets to 0 when VBlank starts, or CPU reads $2002
+      |     | (see "Hit/VBlank Bits").
+      |   7 | VBlank Flag, 1 = PPU is generating a Vertical Blanking Impulse
+      |     | This flag resets to 0 when VBlank ends, or CPU reads $2002
+      |     | (see "Hit/VBlank Bits").
+------+-----+---------------------------------------------------------------
+$2003 | W   | Sprite Memory Address
+      |     | Used to set the address in the 256-byte Sprite Memory to be 
+      |     | accessed via $2004. This address will increment by 1 after
+      |     | each access to $2004. The Sprite Memory contains coordinates,
+      |     | colors, and other attributes of the sprites (see "Sprites").
+------+-----+---------------------------------------------------------------
+$2004 | RW  | Sprite Memory Data
+      |     | Used to read/write the Sprite Memory. The address is set via
+      |     | $2003 and increments after each access. The Sprite Memory 
+      |     | contains coordinates, colors, and other attributes of the 
+      |     | sprites (see "Sprites").
+------+-----+---------------------------------------------------------------
+$2005 | W   | Background Scroll
+      |     | There are two scroll registers, vertical and horizontal, 
+      |     | which are both written via this port. The first value written
+      |     | will go into the Vertical Scroll Register (unless it is >239,
+      |     | then it will be ignored). The second value will appear in the
+      |     | Horizontal Scroll Register. The Name Tables are assumed to be
+      |     | arranged in the following way:
+      |     |
+      |     |           +-----------+-----------+
+      |     |           | 2 ($2800) | 3 ($2C00) |
+      |     |           +-----------+-----------+
+      |     |           | 0 ($2000) | 1 ($2400) |
+      |     |           +-----------+-----------+
+      |     |
+      |     | When scrolled, the picture may span over several Name Tables.
+      |     | Remember, though, that because of the mirroring, there are
+      |     | only 2 real Name Tables, not 4.
+------+-----+---------------------------------------------------------------
+$2006 |     | PPU Memory Address
+      |     | See "PPU Memory".
+------+-----+---------------------------------------------------------------
+$2007 |     | PPU Memory Data
+      |     | See "PPU Memory".
+------+-----+---------------------------------------------------------------
+$4000-$4013 | Sound Registers
+            | See "Sound".
+------+-----+---------------------------------------------------------------
+$4014 | W   | DMA Access to the Sprite Memory
+      |     | Writing a value N into this port, causes an area of CPU memory
+      |     | at address $100*N to be transferred into the Sprite Memory.
+------+-----+---------------------------------------------------------------
+$4015 | W   | Sound Switch
+      |   0 | Channel 1, 1 = enable sound
+      |   1 | Channel 2, 1 = enable sound
+      |   2 | Channel 3, 1 = enable sound
+      |   3 | Channel 4, 1 = enable sound
+      |   4 | Channel 5, 1 = enable sound
+      | 5-7 | Unused (???)
+------+-----+---------------------------------------------------------------
+$4016 | RW  | Joystick 1 + Strobe
+      |   0 | Joystick 1 data
+      |   1 | Joystick 1 presence, 0 = connected
+      | 2-5 | Unused, set to 0 (???)
+      | 6-7 | Unknown, set to 10 (???)
+      |     | See "Joysticks".
+------+-----+---------------------------------------------------------------
+$4017 | R   | Joystick 2
+      |   0 | Joystick 2 data
+      |   1 | Joystick 2 presence, 0 = connected
+      | 2-5 | Unused, set to 0 (???)
+      | 6-7 | Unknown, set to 10 (???)
+      |     | See "Joysticks".
+------+-----+---------------------------------------------------------------
+
+
+(D) PPU Memory :
+
+  In a real NES, reading/writing PPU memory should only be attempted
+during VBlank period. Many smaller ROMs have read-only memory (VROM) for
+the Pattern Tables. In this case, you won't be able to write into this
+memory. The $3F00 and $3F10 locations in VRAM mirror each other (i.e. it
+is the same memory cell) and define the background color of the picture. 
+
+   Writing to PPU memory:
+   a) Write upper address byte into $2006
+   b) Write lower address byte into $2006
+   c) Write data into $2007. After each write, the address will
+      increment either by 1 (bit 2 of $2000 is 0) or by 32 (bit 2 of
+      $2000 is 1).
+
+   Reading from PPU memory:
+   a) Write upper address byte into $2006
+   b) Write lower address byte into $2006
+   c) Read data from $2007. The first byte read from $2007 will be
+      invalid. Then, the address will increment by 1 after each
+      read.
+
+  Name Table contains tile numbers organized into 32 rows of 32 bytes
+each. Tiles are 8x8 pixels each. Therefore, the whole Name Table is 32x32
+tiles or 256x256 pixels. In the NTSC version of NES, upper and lower 16
+pixels are not shown, thus, the screen becomes 256x224 pixels. In the PAL
+version of NES, upper and lower 8 pixels are not show, thus, the screen
+becomes 256x240 pixels.
+
+  Pattern Table contains tile images in the following format:
+
+  Character   Colors      Contents of Pattern Table
+  ...o....    00010000    00010000 $10  +-> 00000000 $00
+  ..O.O...    00202000    00000000 $00  |   00101000 $28
+  .0...0..    03000300    01000100 $44  |   01000100 $44
+  O.....O.    20000020    00000000 $00  |   10000010 $82
+  ooooooo. -> 11111110    11111110 $FE  |   00000000 $00
+  O.....O.    20000020    00000000 $00  |   10000010 $82
+  0.....0.    30000030    10000010 $82  |   10000010 $82
+  ........    00000000    00000000 $00  |   00000000 $00
+                              +---------+
+
+  Note that only two bits for each pixel of a character are stored in the
+Pattern Table. Other two are taken from the Attribute Table. Thus, the total
+number of simultaneous colors on the NES screen is 16.
+
+  Each byte in the Attribute Table represents a 4x4 group of tiles on the 
+screen, which makes an 8x8 attribute table. Each 4x4 tile group is
+subdivided into four 2x2 squares as follows:
+
+   (0,0)  (1,0) 0|  (2,0)  (3,0) 1
+   (0,1)  (1,1)  |  (2,1)  (3,1)
+   --------------+----------------
+   (0,2)  (1,2) 2|  (2,2)  (3,2) 3
+   (0,3)  (1,3)  |  (2,3)  (3,3)
+
+  The attribute byte contains upper two bits of the color number for each
+2x2 square (the lower two bits are stored in the Pattern Table): 
+
+  Bits   Function                        Tiles
+  --------------------------------------------------------------
+  7,6    Upper color bits for square 3   (2,2),(3,2),(2,3),(3,3)    
+  5,4    Upper color bits for square 2   (0,2),(1,2),(0,3),(1,3)
+  3,2    Upper color bits for square 1   (2,0),(3,0),(2,1),(3,1)
+  1,0    Upper color bits for square 0   (0,0),(1,0),(0,1),(1,1)
+   
+  There are two 16-byte Palette Tables: the one at $3F00, used for the
+picture, and another one at $3F10, containing the sprite palette. The
+$3F00 and $3F10 locations in VRAM mirror each other (i.e. it is the same
+memory cell) and define the background color of the picture. 
+
+  There is only enough VRAM for 2 Name Tables and Attribute Tables. Two
+others are going to be mirrors of the first two, i.e. exact copies of them.
+Which pages are mirrored depends on the cartridge circuitry. With vertical
+mirroring, tables 2 and 3 are the mirrors of pages 0 and 1 appropriately.
+With horizontal mirroring, pages 1 and 3 are the mirrors of pages 0 and 2
+appropriately.
+
+PPU Memory Map
+--------------------------------------- $4000
+ Empty
+--------------------------------------- $3F20
+ Sprite Palette
+--------------------------------------- $3F10
+ Image Palette
+--------------------------------------- $3F00
+ Empty
+--------------------------------------- $3000
+ Attribute Table 3
+--------------------------------------- $2FC0
+ Name Table 3 (32x25 tiles)
+--------------------------------------- $2C00
+ Attribute Table 2
+--------------------------------------- $2BC0
+ Name Table 2 (32x25 tiles)
+--------------------------------------- $2800
+ Attribute Table 1
+--------------------------------------- $27C0
+ Name Table 1 (32x25 tiles)
+--------------------------------------- $2400
+ Attribute Table 0
+--------------------------------------- $23C0
+ Name Table 0 (32x25 tiles)
+--------------------------------------- $2000
+ Pattern Table 1 (256x2x8, may be VROM)
+--------------------------------------- $1000
+ Pattern Table 0 (256x2x8, may be VROM)
+--------------------------------------- $0000
+
+
+(E) Hit/VBlank Bits 
+
+   The VBlank flag is contained in the 7th bit of read-only location $2002. 
+It indicates whether PPU is scanning the screen, or generating a vertical
+blanking impulse. It is set in the end of each frame (scanline 232), and
+stays on until the next screen refresh starts from the scanline 8. The
+program can reset this bit prematurely by reading from $2002.
+
+   The Hit flag is contained in the 6th bit of read-only location $2002. 
+It goes to 1 when PPU starts refreshing the first scanline where sprite#0
+is located. For example, if sprite#0's Y coordinate is 34, the Hit flag
+will be set in scanline 34. The Hit flag is reset when vertical blanking
+impulse starts. The program can reset this bit prematurely by reading from
+$2002. 
+
+
+(F) Joysticks :
+
+  There are two joysticks which are accessed via locations $4016 and
+$4017. To reset joysticks, write first 1, then 0 into $4016. This way, you
+will generate a strobe in the joysticks' circuitry. Then, read either from
+$4016 (for joystick 0) or from $4017 (for joystick 1).  Each read will
+give you the status of a single button in the 0th bit (1 if pressed, 0
+otherwise): 
+
+Read # |    1      2      3      4      5      6      7      8
+-------+---------------------------------------------------------
+Button |    A      B   SELECT   START   UP    DOWN   LEFT  RIGHT
+
+  Bit 1 indicates whether joystick is connected to the port or not. It is
+set to 0 if the joystick is connected, 1 otherwise. Bits 6 and 7 of
+$4016/$4017 also seem to have some significance, which is not clear yet.
+The rest of bits is set to zeroes. Some games expect to get *exactly* $41
+from $4016/$4017, if a button is pressed, which has to be taken into
+account. 
+
+
+(G) Sprites :
+
+  There are 64 sprites, which can be either 8x8 or 8x16 pixels. Sprites
+patterns are stored in one of the Pattern Tables in the PPU Memory. Sprite
+attributes are stored in the Sprite Memory of 256 bytes, which is not a
+part of neither CPU nor PPU address space. The entire contents of Sprite
+Memory can be written via DMA transfer using location $4014 (see above).
+Sprite Memory can also be accessed byte-by-byte by putting the starting
+address into $2003 and then writing/reading $2004 (the address will be
+incremented after each access). The format of sprite attributes is as
+follows: 
+
+Sprite Attribute RAM:
+| Sprite#0 | Sprite#1 | ... | Sprite#62 | Sprite#63 |
+     |          |
+     +---- 4 bytes: 0: Y position of the left-top corner - 1
+                    1: Sprite pattern number
+                    2: Color and attributes:
+                       bits 1,0: two upper bits of color
+                       bits 2,3,4: Unknown (???)
+                       bit 5: if 1, display sprite behind background
+                       bit 6: if 1, flip sprite horizontally
+                       bit 7: if 1, flip sprite vertically
+                    3: X position of the left-top corner
+
+Sprite patterns are fetched in the exactly same way as the tile patterns
+for the background picture. The only difference occurs in the 16x8
+sprites: the top half of the sprite is taken from the Sprite Pattern Table
+set in the $2000 port, while the bottom part is taken from the same
+location of the alternative Pattern Table. Therefore, if PPU is displaying
+a 16x8 sprite, and the Sprite Pattern Table is set to $1000, the bottom
+half of this sprite will be taken out of the $0000 Pattern Table, and vice
+versa. 
+
+
+(H) Memory Mappers :
+
+  There are many diffirent memory mappers (aka MMCs) used in the NES 
+cartridges. They are used to switch ROM and VROM pages, and do some other 
+tasks. I will only describe the MMCs I'm familiar with. Any new 
+information on these and other MMCs is highly appreciated. The MMC 
+numbers are given in terms of the .NES file field "Mapper Type".
+
+
+1.  Mapper #1, Sequential
+
+  This is a sequential mapper used in many 256kB cartridges, such as
+Bomberman 2, Destiny Of The Emperor, Megaman 2, Airwolf, Operation Wolf,
+Castlevania 2, Silk Worm, Yoshi, Break Thru. It may be used to switch ROM
+and VROM. If there is no VROM, 8kB of VRAM is present at $0000. In some
+cases (mostly RPG games) such cartridges also contain battery-backed RAM
+at $6000-$7FFF. The mapper has four 5bit registers, which are accessed via
+following addresses: 
+
+Register  Address Range  Function
+---------------------------------------------------------------------------
+0         $8000-$9FFF    Mirroring and VROM Page Size select
+          The 0th bit of this register selects the mirroring type (1 for
+          horizontal, 0 for vertical). The 4th bit selects the size of
+          VROM pages. When it is 1, two 4kB VROM pages can be switched
+          independently at $0000 and $1000. Otherwise, there is a single
+          8kB VROM page at $0000.
+
+1         $A000-$BFFF    VROM page select
+          This register sets either 8kB or 4kB VROM page at $0000,
+          depending on the page size selected via register 0.
+
+2         $C000-$DFFF    Second VROM page select for 4kB pages
+          If 4kB VROM pages selected via register 0, this register sets
+          the VROM page at $1000. Otherwise, its value is ignored.
+
+3         $E000-$FFFF    ROM page select
+          This register sets 16kB ROM page at $8000. The page at $C000 is 
+          always hardwired to the last ROM page in the cartridge. The 
+          cartridge starts with page 0 at $8000.
+---------------------------------------------------------------------------
+
+  In order to write to a mapper register, write $80 into any of the
+locations first. This will reset the mapper. Then write the value bit by
+bit into an appropriate address range. For example, the following assembly
+code will write $0C into register 3: 
+
+     lda  #$80     ; Resetting mapper
+     sta  $8000    ;
+     lda  #$0C     ; This is our value
+     sta  $EFD9    ; Writing bit 0
+     lsr  a        ; Shifting
+     sta  $EFD9    ; Writing bit 1
+     lsr  a        ; Shifting
+     sta  $EFD9    ; Writing bit 2
+     lsr  a        ; Shifting
+     sta  $EFD9    ; Writing bit 3
+     lsr  a        ; Shifting
+     sta  $EFD9    ; Writing bit 4
+
+
+2. Mapper #2, Konami
+
+  This is a quite simple mapper used in most Konami (Life Force,
+Castlevania, Metal Gear) and some other cartridges. It only switches the
+ROM. All cartridges with this mapper have 8kB VRAM at $0000 (i.e. no
+VROM). The mapper has a single 8bit register which can be written via
+locations $8000-$FFFF. It contains a number of 16kB ROM page at $8000. 
+The page at $C000 is always hardwired to the last ROM page in the
+cartridge. The cartridge starts with page 0 at $8000.
+
+  There is one more thing to note about this mapper: although any address
+in the $8000-$FFFF range can be used to access the mapper, most games
+prefer to use the address with the last digit equal to the value they
+write out. Thus, $07 can be written to $9FF7, $05 to $9FF5, and so forth.
+The reason for this is unknown. 
+
+
+3. Mapper #3, VROM Switch
+
+  Mapper #3, also known as a VROM switch, is used in the Goonies series
+and many Japanese-only games. It only allows you to switch 8kB pages of
+VROM. The ROM is either 16kB or 32kB and is not paged. The mapper has a
+single 8bit register which can be written via locations $8000-$FFFF. It
+contains a number of 8kB VROM page at $0000. 
+
+  As with mapper #2, many games use locations with the last digit equal to
+the value being written. I do not know why. 
+
+
+4. Mapper #4, 5202 Chip (???)
+
+  This mapper (or should I say 'an expansion chip'?) is used in many
+recent cartridges, such as Batman Returns, Super Contra, Vindicators,
+Silver Surfer, etc. It is an extremely complicated device, which is able
+to generate its own interrupts via IRQ line, and has a set of commands to
+switch ROM and VROM. VROM pages are 1kB, ROM pages appear to be 8kB. I do
+not completely understand how this mapper works, so any information is
+appreciated. 
+
+  The chip is controlled via following locations:
+
+Address  Function
+---------------------------------------------------------------------------
+$8000    A command number (0-7) is written here. Also, write to this 
+         register appears to reset the change made by a write into $E000.
+$8001    An value for command is written here.
+$A000    The 0th bit controls mirroring (1 = horizontal mirroring).
+$A001    Same as $8001 (???)
+$C000    Unknown
+$C001    Unknown
+$E000    The 5th bit appears to swap memory at $8000-$8FFF and 
+         $A000-$AFFF, when set to 1.
+$E001    Unknown
+---------------------------------------------------------------------------
+
+  In order to use the mapper, you should first write a command number 
+into $8000, and then a value (page number) into $8001. Following commands 
+exist:
+
+Cmd  Function
+---------------------------------------------------------------------------
+ 0   Select 2 consequent 1kB VROM pages at $0000. The 0th bit of a value
+     written into $8001 does not matter, i.e. 5 will always select pages
+     4 and 5.
+ 1   Select 2 consequent 1kB VROM pages at $0800. The 0th bit of a value
+     written into $8001 does not matter, i.e. 5 will always select pages
+     4 and 5.
+ 2   Select a 1kB VROM page at $1000.
+ 3   Select a 1kB VROM page at $1400.
+ 4   Select a 1kB VROM page at $1800.
+ 5   Select a 1kB VROM page at $1C00.
+ 6   Select a 8kB ROM page at $8000. The initial value seems to be 0.
+ 7   Select a 8kB ROM page at $A000. The initial value seems to be 1.
+---------------------------------------------------------------------------
+
+  Note that the ROM pages at $C000 and $E000 are hardwired to the last 
+pages of the ROM, and can not be switched (they can be swapped via 
+$E000 though).
+
+
+5. Other mappers
+
+  There are several other mappers, some of them very sophisticated. iNES
+partially supports them, but as this support either doesn't work
+correctly, or the mappers are uncommon (such as 100-in-1 cartridge mapper,
+I don't cover them here. (Marat Fayzullin)
+
+**Note : This is provided to help rom hackers understand the nintendo.
+Provided in the above is the sprite maps, which is most useful. :)
+
+
+’,.+¬=_+s’_`š š`_’s+_=- Section V. -=_+s’_`š š`_’s+_=¬-.,’
+
+
+ V. Sample walkthrough
+
+        We're going to change Zelda 2 around a little bit. Load it up and
+start where the princess is sleeping. Go to View --> Pattern tables. In the
+tables, click on the left side of the table 3 times, or until the tiles are
+brown, tan, green, and black. Click on the upper left tile; this is Link's
+face. Click on the black color then click on where Link's eyes are. Black
+signifies that it is see through, so now you can see the background through
+Link's head. Now save it by clicking on File --> Write VROM. Now go to the
+first town. Talk to somebody. Now open your pattern tables again and locate
+the letters. In this case, 0 is D0, and so on as stated in the above table.
+Now load up a hex editor. Use the table to find a complete word (or two), with
+F4's being spaces in Zelda 2. Search for at least 7 letters in a word so you
+now you are editing the right thing. Replace those numbers with, say, F1, or
+'X'. Save the ROM. Back in NESticle, load up your new ROM. Go back to that
+same person, and talk to him/her. Does his speech seem a little different?  
+(Blackfury)
+
+’,.+¬=_+s’_`š š`_’s+_=- Section VI. -=_+s’_`š š`_’s+_=¬-.,’
+
+
+VI. The Big Thanks and Credits:
+
+     (A) Marat Fayzullin ( for letting us know how a nintendo works) ;)
+     (B) Planet X Software ( for their great tools )
+     (C) Nesticle        ( for letting us relive the old days of nes )
+     (D) Fabrizio Zavagli ( for Romhack )
+     (E) Black Hole      ( for Ctool )
+     (F) WonderBoy       ( for Kill them )
+
+<<<<<<<<<<<<<<<<< Where can u find us ? >>>>>>>>>>>>>>>>>>>>>>
+
+We have a homepage up at:
+Http://T3.great.sk/romhack/index.html
+and u can find us on IRC
+
+Who R We?
+
+SeRiAlKLR
+Corrosion
+FireWolf
+Blackfury
+XscrawlX
+Gargamel
+Gloone
+
+Thanks for using this. I hope you find it usefull..well until
+version 0.2 anyways. L8R
+
+-SK'97 (author)
+created on June 5th 1997
+<<<<<<<<<<<<<<<<<< And they all lived happily ever after >>>>>>>>>>>>>>>
+The end of "The Rom Hackers Bible v0.1"
+<<<<<<<<<<<<<<<<<<  ROMHACKERS INC. (c) 1997 >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Restore Page
