@@ -476,7 +476,7 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │       ├── vim_ide.mm
 │       └── vimscript
 │           └── vimscript_the_hard_way
-│               └── I_vimscript_the_hard_way.mm
+│               └── vimscript_the_hard_way.mm
 ├── design
 │   ├── color_theory.mm
 │   ├── _INFOGRAPHICS
