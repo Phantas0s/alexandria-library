@@ -11,15 +11,18 @@
 <node CREATED="1550319312813" ID="ID_1186748762" MODIFIED="1550319320695" TEXT="Provided as a standard package"/>
 </node>
 </node>
-<node CREATED="1550319346909" ID="ID_752944928" MODIFIED="1550319428566">
+<node CREATED="1550319346909" ID="ID_752944928" MODIFIED="1681454956268">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <img src="static_analysis_1.PNG" />
+    <p>
+      <img src="static_analysis_1.png" />
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1550318714504" ID="ID_1891556906" MODIFIED="1550318720537" POSITION="right" TEXT="Static analysis for Product"/>

@@ -546,11 +546,11 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   │   └── _ANNOTATED
 │   │   ├── informal_logic
 │   │   │   └── _ANNOTATED
+│   │   ├── problem_solving
 │   │   ├── soft_skills
 │   │   │   └── _ANNOTATED
 │   │   └── stress
 │   │       └── _ANNOTATED
-│   ├── problem_solving
 │   ├── psychology_of_focus.mm
 │   ├── the_willpower_instinct.mm
 │   ├── we_are_all_confident_idiots.mm

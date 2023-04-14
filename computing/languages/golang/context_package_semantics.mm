@@ -1,4 +1,4 @@
-map version="1.0.1">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1645873423529" ID="ID_130136669" LINK="https://www.ardanlabs.com/blog/2019/09/context-package-semantics-in-go.html" MODIFIED="1645873437707" TEXT="Context package semantics">
 <node CREATED="1645873440389" ID="ID_1151114369" MODIFIED="1645873444953" POSITION="right" TEXT="Introduction">

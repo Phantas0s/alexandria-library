@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1528482084555" ID="ID_620096067" LINK="https://www.youtube.com/watch?v=cmkKxNN7cs4" MODIFIED="1643457432166" TEXT="Go beautiful package">
+<node CREATED="1528482084555" ID="ID_620096067" LINK="https://www.youtube.com/watch?v=cmkKxNN7cs4" MODIFIED="1681455252037" TEXT="Go beautiful package">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -101,8 +101,6 @@
 </node>
 </node>
 </node>
-<node CREATED="1528484846410" ID="ID_708241722" MODIFIED="1532014486944" POSITION="left" TEXT="No plurals">
-<node CREATED="1528484848970" ID="ID_1338282165" MODIFIED="1528484861722" TEXT="No plural for go packages"/>
-</node>
+<node CREATED="1528484846410" ID="ID_708241722" MODIFIED="1681455324635" POSITION="left" TEXT="No plurals for go packages"/>
 </node>
 </map>

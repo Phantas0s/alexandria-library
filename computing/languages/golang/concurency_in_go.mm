@@ -1,22 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1525166043047" ID="ID_471528574" LINK="https://www.youtube.com/watch?v=rDRa23k70CU" MODIFIED="1610010298199" TEXT="Concurrency patterns in Go">
+<node CREATED="1525166043047" ID="ID_471528574" LINK="https://www.youtube.com/watch?v=rDRa23k70CU" MODIFIED="1681455105884" TEXT="Concurrency patterns in Go">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <br />
-      <br />
-      <br />
-      
-    </p>
-    <p>
       <b><u>Questions: </u></b>
-    </p>
-    <p>
-      
     </p>
     <ol>
       <li>
@@ -39,7 +30,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1525166055248" ID="ID_1993936708" MODIFIED="1525166325087" POSITION="right" TEXT="Concurency">
+<node CREATED="1525166055248" FOLDED="true" ID="ID_1993936708" MODIFIED="1525166325087" POSITION="right" TEXT="Concurency">
 <icon BUILTIN="full-1"/>
 <node CREATED="1525166062848" ID="ID_1106751944" MODIFIED="1525166066466" TEXT="More than parallelism"/>
 <node CREATED="1525166067229" ID="ID_267264573" MODIFIED="1525166077339" TEXT="Parallelism is not guarantee"/>
@@ -58,7 +49,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1525166223956" ID="ID_813009216" MODIFIED="1570124182930" POSITION="right" TEXT="CSP">
+<node CREATED="1525166223956" FOLDED="true" ID="ID_813009216" MODIFIED="1570124182930" POSITION="right" TEXT="CSP">
 <icon BUILTIN="full-2"/>
 <node CREATED="1532014790355" ID="ID_1037519209" MODIFIED="1532014793535" TEXT="Communicating Sequential Processes"/>
 <node CREATED="1525166242196" ID="ID_317255111" MODIFIED="1525166246288" TEXT="Very simple"/>
@@ -73,7 +64,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1525166385531" ID="ID_1647524592" MODIFIED="1525166848876" POSITION="right" TEXT="Channels">
+<node CREATED="1525166385531" FOLDED="true" ID="ID_1647524592" MODIFIED="1525166848876" POSITION="right" TEXT="Channels">
 <icon BUILTIN="full-3"/>
 <node CREATED="1525166388314" ID="ID_519650012" MODIFIED="1525166391921" TEXT="Bucket chain"/>
 <node CREATED="1525166393372" ID="ID_1302486429" MODIFIED="1570124135569" TEXT="3 components">
@@ -132,7 +123,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1525166862183" ID="ID_1455575825" MODIFIED="1525167433454" POSITION="right" TEXT="Select">
+<node CREATED="1525166862183" FOLDED="true" ID="ID_1455575825" MODIFIED="1525167433454" POSITION="right" TEXT="Select">
 <icon BUILTIN="full-4"/>
 <node CREATED="1525166864287" ID="ID_1009386480" MODIFIED="1525166869405" TEXT="Switch statement on channels"/>
 <node CREATED="1525166872656" ID="ID_1520915757" MODIFIED="1525166876861" TEXT="Order of case doesn&apos;t matter"/>
@@ -156,7 +147,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1525167200061" ID="ID_1349633392" MODIFIED="1589703800816" POSITION="left" TEXT="Where channels fails (are not enough)">
+<node CREATED="1525167200061" FOLDED="true" ID="ID_1349633392" MODIFIED="1589703800816" POSITION="right" TEXT="Where channels fails (are not enough)">
 <icon BUILTIN="full-5"/>
 <node CREATED="1525167208285" ID="ID_1949348177" MODIFIED="1525167213930" TEXT="Can create deadlocks"/>
 <node CREATED="1525167214485" ID="ID_1901596284" MODIFIED="1525167226682" TEXT="Pass around copies">
@@ -193,7 +184,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1525167509067" ID="ID_1823338893" MODIFIED="1525167517983" POSITION="left" TEXT="Lock free">
+<node CREATED="1525167509067" FOLDED="true" ID="ID_1823338893" MODIFIED="1525167517983" POSITION="right" TEXT="Lock free">
 <icon BUILTIN="full-6"/>
 <node CREATED="1525167477283" ID="ID_1457208110" MODIFIED="1525167721750" TEXT="atomic.sync">
 <richcontent TYPE="NOTE"><html>
@@ -251,7 +242,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1525168145695" ID="ID_1153437231" MODIFIED="1526110668514" POSITION="left" TEXT="In practice">
+<node CREATED="1525168145695" FOLDED="true" ID="ID_1153437231" MODIFIED="1526110668514" POSITION="right" TEXT="In practice">
 <icon BUILTIN="full-7"/>
 <node CREATED="1525168150198" ID="ID_490461623" MODIFIED="1525168154075" TEXT="Avoid blocking"/>
 <node CREATED="1525168154718" ID="ID_1979500888" MODIFIED="1525168159443" TEXT="Avoid race conditions"/>
