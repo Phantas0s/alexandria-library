@@ -1,7 +1,7 @@
 # The Alexandria Library
 
 ![Alexandria Library illustration](./library-of-alexandria.jpg)
-![count mindmaps](https://img.shields.io/badge/total_mindmaps-253-blue)
+![count mindmaps](https://img.shields.io/badge/total_mindmaps-254-blue)
 [![Github repo-size](https://img.shields.io/github/repo-size/Phantas0s/alexandria-library.svg?color=success&label=Library%20size)]()
 
 > The opportunity before all of us is living up to the dream of the Library of Alexandria and then taking it a step further - universal access to all knowledge. Interestingly, it is now technically doable. -- **[Brewster Kahle](https://en.wikipedia.org/wiki/Brewster_Kahle)**
@@ -383,6 +383,7 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   ├── dont_call_yourself_a_programmer_and_other_career_advice.mm
 │   │   ├── engineering_you.mm
 │   │   ├── fp_high_school_algebra
+│   │   ├── hammock_driven_development.mm
 │   │   ├── how_to_think_like_a_programmer.mm
 │   │   ├── implementing_a_strong_code_review_culture.mm
 │   │   ├── it_depends.mm
@@ -594,5 +595,5 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
     ├── write_to_express_not_to_impress.mm
     └── writing_is_thinking_learning_to_write_with_confidence.mm
 
-219 directories, 253 files
+219 directories, 254 files
 ```
