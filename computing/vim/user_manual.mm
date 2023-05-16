@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1669959466677" TEXT="Vim User Manual">
+<node CREATED="1615127197101" ID="ID_697258148" LINK="http://vimdoc.sourceforge.net/vimum.html" MODIFIED="1682572260010" TEXT="Vim User Manual">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -351,7 +351,7 @@
 <icon BUILTIN="full-0"/>
 </node>
 </node>
-<node CREATED="1615127247624" FOLDED="true" ID="ID_1210010335" MODIFIED="1615127329197" TEXT="Set your settings">
+<node CREATED="1615127247624" ID="ID_1210010335" MODIFIED="1615127329197" TEXT="Set your settings">
 <icon BUILTIN="full-5"/>
 <node CREATED="1617517167049" ID="ID_1169135579" MODIFIED="1617517244924" TEXT="The vimrc file">
 <icon BUILTIN="full-1"/>
@@ -384,7 +384,7 @@
 <node CREATED="1617517224975" ID="ID_121842562" MODIFIED="1617517249011" TEXT="Adding a plugin">
 <icon BUILTIN="full-6"/>
 <node CREATED="1617518487966" ID="ID_102532065" MODIFIED="1617518498354" TEXT="vimscript file loaded automatically when Vim starts"/>
-<node CREATED="1617518510181" FOLDED="true" ID="ID_449083393" MODIFIED="1617518515428" TEXT="Global Plugins">
+<node CREATED="1617518510181" ID="ID_449083393" MODIFIED="1617518515428" TEXT="Global Plugins">
 <icon BUILTIN="full-1"/>
 <node CREATED="1617518536174" ID="ID_1760040511" MODIFIED="1617518554850" TEXT="Functionality not compiled in Vim"/>
 <node CREATED="1617518563869" ID="ID_1311074032" MODIFIED="1617518567848" TEXT="Adding a global plugin">
@@ -395,12 +395,12 @@
 <icon BUILTIN="full-2"/>
 <node CREATED="1617518803964" ID="ID_380379232" MODIFIED="1617518805704" TEXT="Neovim">
 <node CREATED="1617518834090" ID="ID_750206265" MODIFIED="1617518834090" TEXT="system          plugin directory"/>
-<node CREATED="1617518834091" MODIFIED="1617518834091" TEXT="Unix            ~/.local/share/nvim/site/plugin"/>
+<node CREATED="1617518834091" ID="ID_739801887" MODIFIED="1617518834091" TEXT="Unix            ~/.local/share/nvim/site/plugin"/>
 </node>
 <node CREATED="1617518809485" ID="ID_1677098528" MODIFIED="1617518810400" TEXT="Vim">
-<node CREATED="1617518815508" MODIFIED="1617518815508" TEXT="system          plugin directory ~"/>
-<node CREATED="1617518815509" MODIFIED="1617518815509" TEXT="Unix            ~/.vim/plugin/"/>
-<node CREATED="1617518815510" MODIFIED="1617518815510" TEXT="PC and OS/2     $HOME/vimfiles/plugin or $VIM/vimfiles/plugin"/>
+<node CREATED="1617518815508" ID="ID_7148141" MODIFIED="1617518815508" TEXT="system          plugin directory ~"/>
+<node CREATED="1617518815509" ID="ID_740460532" MODIFIED="1617518815509" TEXT="Unix            ~/.vim/plugin/"/>
+<node CREATED="1617518815510" ID="ID_609844778" MODIFIED="1617518815510" TEXT="PC and OS/2     $HOME/vimfiles/plugin or $VIM/vimfiles/plugin"/>
 <node CREATED="1617518815511" MODIFIED="1617518815511" TEXT="Amiga           s:vimfiles/plugin"/>
 <node CREATED="1617518815511" MODIFIED="1617518815511" TEXT="Macintosh       $VIM:vimfiles:plugin"/>
 <node CREATED="1617518815512" MODIFIED="1617518815512" TEXT="RISC-OS         Choices:vimfiles.plugin"/>
@@ -829,7 +829,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1624103998417" FOLDED="true" ID="ID_265051319" MODIFIED="1624104007342" TEXT="Viewing Differences with Diff Mode">
+<node CREATED="1624103998417" ID="ID_265051319" MODIFIED="1624104007342" TEXT="Viewing Differences with Diff Mode">
 <icon BUILTIN="full-7"/>
 <node CREATED="1624104082129" ID="ID_863593176" MODIFIED="1624104085974" TEXT="vim -d file1 file2">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>

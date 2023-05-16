@@ -414,6 +414,8 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   ├── code_review
 │   │   ├── communication
 │   │   ├── concurrency
+│   │   ├── decision
+│   │   │   └── _ANNOTATED
 │   │   ├── dev_tools
 │   │   ├── hardware
 │   │   ├── inheritance
@@ -449,9 +451,10 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   │   ├── soft_skills
 │   │   │   └── _ANNOTATED
 │   │   ├── testing
-│   │   └── type
-│   │       └── abstract_data_type
-│   │           └── _ANNOTATED
+│   │   ├── type
+│   │   │   └── abstract_data_type
+│   │   │       └── _ANNOTATED
+│   │   └── version_control
 │   ├── shell
 │   │   ├── better_bashing_through_technology.mm
 │   │   ├── cli_design_best_practice.mm
@@ -571,7 +574,8 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
 │   ├── memory_unlimited.mm
 │   ├── _PAPERS
 │   │   └── _ANNOTATED
-│   ├── teaching_tech_together.mm
+│   ├── teaching_tech_togehter
+│   │   └── teaching_tech_together.mm
 │   ├── the_science_of_accelerated_learning.mm
 │   └── ultralearning.mm
 └── writing
@@ -590,5 +594,5 @@ However, if you have any suggestion to capture or retain knowledge, or if you se
     ├── write_to_express_not_to_impress.mm
     └── writing_is_thinking_learning_to_write_with_confidence.mm
 
-215 directories, 253 files
+219 directories, 253 files
 ```
